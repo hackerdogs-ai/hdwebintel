@@ -1,0 +1,23 @@
+#Create venv
+python3 -m venv webenv
+
+#Activate venv
+source webenv/bin/activate
+
+pip install -r requirements.txt
+
+pip freeze > requirements.txt
+pip install -r requirements.txt
+
+#regular expression to clean requirements.txt versions \d+(?:\.\d+)+
+
+#upgrade all python packages
+pip install -r requirements.txt --upgrade
+
+#deactivae
+source deactivate or just deactivate
+
+# https://medium.com/@boscacci/why-and-how-to-make-a-requirements-txt-f329c685181e
+
+#conda update
+conda update --all

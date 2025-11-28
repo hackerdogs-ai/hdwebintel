@@ -1,0 +1,46 @@
+# Dockerfile for NLP Web Service API
+FROM python:3.11-slim
+
+# Set working directory
+WORKDIR /app
+
+# Install system dependencies
+RUN apt-get update && apt-get install -y \
+    gcc \
+    g++ \
+    curl \
+    && rm -rf /var/lib/apt/lists/*
+
+# Copy requirements file
+COPY requirements.txt /app/requirements.txt
+
+# Install Python dependencies
+RUN pip install --no-cache-dir -r requirements.txt
+
+# Install flask-restx for OpenAPI documentation (preferred over flask-restplus)
+RUN pip install --no-cache-dir flask-restx || pip install --no-cache-dir flask-restplus
+
+# Copy application code
+COPY . /app/
+
+# Create data directory for GeoIP databases
+RUN mkdir -p /app/data
+
+# Copy GeoIP databases (if they exist)
+COPY data/*.mmdb /app/data/ 2>/dev/null || true
+
+# Set environment variables
+ENV PYTHONUNBUFFERED=1
+ENV FLASK_APP=onerow_nlp.py
+ENV FLASK_ENV=production
+
+# Expose port
+EXPOSE 5000
+
+# Health check
+HEALTHCHECK --interval=30s --timeout=10s --start-period=40s --retries=3 \
+    CMD curl -f http://localhost:5000/webc/api/version || exit 1
+
+# Run the application
+CMD ["python", "onerow_nlp.py"]
+

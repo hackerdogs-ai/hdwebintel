@@ -1,0 +1,39 @@
+Deploy DockerHub Container on ECS
+https://www.theserverside.com/video/How-to-deploy-Docker-Hub-hosted-microservices-in-AWS-ECS
+https://aws.amazon.com/getting-started/tutorials/deploy-docker-containers/
+
+
+SSH to EC2
+ssh -i "neo4jkey.pem" ec2-user@ec2-xx-xxx-xxx-xxx.compute-1.amazonaws.com
+
+Install Java on EC2
+https://blog.knoldus.com/installing-latest-oracle-jdk-on-linux-ec2-instance-centos/
+Get the actual link from the Oracle website
+wget --no-check-certificate --no-cookies --header "Cookie: oraclelicense=accept-securebackup-cookie" https://download.oracle.com/otn-pub/java/jdk/13.0.2+8/d4173c853231432d94f001e99d882ca7/jdk-13.0.2_linux-x64_bin.rpm
+sudo yum install -y jdk*
+
+Download neo4j
+wget --no-check-certificate --no-cookies https://neo4j.com/artifact.php?name=neo4j-community-4.0.0-unix.tar.gz
+
+mv artifact.php?name=neo4j-community-4.0.0-unix.tar.gz neo4j-community-4.0.0-unix.tar.gz
+
+tar -xf neo4j-community-4.0.0-unix.tar.gz
+
+./bin/neo4j console|start
+
+Install as a service
+http://boopathi.me/blog/install-configure-start-neo4j-linux-service/
+
+Enable Remote HTTP Access
+https://neo4j.com/developer/kb/how-do-i-enable-remote-https-access-with-neo4j-30x/
+
+neo4j ports
+7474 for HTTP
+7473 for HTTPS
+7687 for Bolt
+
+Examples
+https://neo4j.com/graphgists/
+
+Import Data
+https://neo4j.com/developer/data-import/

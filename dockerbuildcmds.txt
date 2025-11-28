@@ -1,0 +1,37 @@
+sudo DOCKER_BUILDKIT=1 docker build -m 6g -t tredkar/webintel:latest -t tredkar/webintel:3.0 .
+OR 
+sudo DOCKER_BUILDKIT=1 docker build -m 6g -t tredkar/webintel-p:latest -t tredkar/webintel-p:3.0 .
+sudo docker run -d --restart unless-stopped -p 5000:5000 --net onerownet --name webintel docker.io/tredkar/webintel:3.0
+
+
+
+sudo docker push tredkar/webintel:latest 
+sudo docker push tredkar/webintel:3.0
+
+#without network
+sudo docker run -d --restart unless-stopped -p 5000:5000 --name webintel docker.io/tredkar/webintel:3.0
+
+#older commands
+
+docker build -t webintel-p .
+docker run -p 5000:5000 --name webintel tredkar/webintel-p:latest
+
+docker build -t tredkar/webintel-p:latest -t tredkar/webintel-p:1.9 .
+docker login -u "tredkar" -p "ekdonxxxxxekdon" docker.io
+sudo docker push tredkar/webintel-p:latest 
+sudo docker push tredkar/webintel-p:1.9
+
+docker build -t tredkar/webintel-p:1.0 .
+docker login -u "tredkar" -p "ekdonxxxxxekdon" docker.io
+sudo docker push tredkar/webintel-p:1.0
+
+docker build -t tredkar/webintel-p:latest .
+docker login -u "tredkar" -p "ekdonxxxxxekdon" docker.io
+sudo docker push tredkar/webintel-p:latest
+
+# http://blog.shippable.com/build-a-docker-image-and-push-it-to-docker-hub
+#clean space 
+docker system prune -a
+
+
+# Exit Code:247 on spacy model download https://stackoverflow.com/questions/69355386/docker-exit-code-247-when-downloading-spacys-en-core-web-lg
