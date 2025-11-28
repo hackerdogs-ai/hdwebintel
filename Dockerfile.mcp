@@ -34,17 +34,17 @@ COPY data/*.mmdb /app/data/ 2>/dev/null || true
 
 # Set environment variables
 ENV PYTHONUNBUFFERED=1
-ENV MCP_TRANSPORT=http
+ENV MCP_TRANSPORT=https
 ENV MCP_HOST=0.0.0.0
-ENV MCP_PORT=8004
+ENV MCP_PORT=8443
 
-# Expose port
-EXPOSE 8004
+# Expose ports (HTTP and HTTPS)
+EXPOSE 8004 8443
 
-# Health check
+# Health check (try HTTPS first, fallback to HTTP)
 HEALTHCHECK --interval=30s --timeout=10s --start-period=40s --retries=3 \
-    CMD curl -f http://localhost:8004/health || exit 1
+    CMD curl -f -k https://localhost:8443/health 2>/dev/null || curl -f http://localhost:8004/health || exit 1
 
-# Run the MCP server
-CMD ["python", "server.py", "--transport", "http", "--host", "0.0.0.0", "--port", "8004"]
+# Run the MCP server with HTTPS support
+CMD ["python", "start-mcp-https.py", "--transport", "https", "--host", "0.0.0.0", "--port", "8443"]
 

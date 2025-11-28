@@ -1,0 +1,78 @@
+Training a spaCy model for cybersecurity and OSINT requires a data-centric approach, involving defining specific entity types, preparing a large volume of annotated domain-specific data, and using the spacy train command with a custom configuration file. 
+🕵️‍♂️ Define Entities and Intents 
+The first step is to precisely define the custom entity types and intents relevant to cybersecurity and OSINT. 
+Entity Types (NER)
+IP_ADDRESS: 192.168.1.1, 8.8.8.8
+CVE_ID: CVE-2021-44228
+MALWARE_TYPE: WannaCry, Zeus
+THREAT_ACTOR: APT41, Lazarus Group
+SOFTWARE_NAME: Microsoft Exchange, Apache Log4j
+VERSION_TAG: v3.0, 2.15.0
+FILE_HASH: a1b2c3d4e5f67890abcdef1234567890
+URL/DOMAIN: malicious-domain.com, phishing-site.net 
+Intents (Text Classification)
+ANALYZE_PHISHING_EMAIL: The text is describing the analysis of a phishing attempt.
+INVESTIGATE_BRUTE_FORCE: The text is about a brute force attack.
+REPORT_VULNERABILITY: The text mentions a new vulnerability or a CVE.
+OSINT_GATHERING: The text discusses gathering open source intelligence. 
+📊 Prepare Training Data 
+The model learns from annotated examples. You need hundreds or thousands of high-quality examples. 
+Collect Data: Gather a corpus of cybersecurity documents, threat intelligence reports, security blogs, and OSINT forum discussions.
+Annotate Data: Manually label the entities and assign intents using annotation tools like Prodigy or spaCy's built-in annotation capabilities.
+Example NER data format:
+python
+TRAIN_DATA = [
+    ("The threat actor APT41 used WannaCry malware.", 
+     {"entities": [(16, 21, "THREAT_ACTOR"), (27, 36, "MALWARE_TYPE")]}),
+    ("Vulnerability CVE-2021-44228 affects Apache Log4j.",
+     {"entities": [(16, 31, "CVE_ID"), (41, 53, "SOFTWARE_NAME"), (54, 59, "VERSION_TAG")]})
+]
+Use code with caution.
+
+Example Intent data format:
+python
+TRAIN_DATA_INTENT = [
+    ("Please investigate the IP 192.168.1.1 for suspicious activity.", 
+     {"cats": {"INVESTIGATE_BRUTE_FORCE": 1.0, "REPORT_VULNERABILITY": 0.0}}),
+    ("New details on the APT41 campaign revealed today.",
+     {"cats": {"OSINT_GATHERING": 1.0, "ANALYZE_PHISHING_EMAIL": 0.0}})
+]
+Use code with caution.
+
+Convert to .spacy format: SpaCy v3+ uses an efficient binary format. Use the CLI to convert your data.
+bash
+python -m spacy convert train_data.json ./train.spacy
+python -m spacy convert dev_data.json ./dev.spacy
+Use code with caution.
+
+ 
+⚙️ Train the Model
+The recommended way to train is using the spacy train command with a configuration file. 
+Generate a Config File: Use the spaCy quickstart widget or the init config command to create a base configuration file tailored to your needs.
+bash
+python -m spacy init config ./config.cfg --lang en --pipeline ner,textcat
+Use code with caution.
+
+You may need to manually add your specific labels to the config file or let the training process infer them from the data.
+Run Training: Train the model using your data and configuration file.
+bash
+python -m spacy train ./config.cfg --output ./output_model --paths.train ./train.spacy --paths.dev ./dev.spacy
+Use code with caution.
+
+This process trains the model over a number of iterations, adjusting internal weights to recognize the patterns in your data. 
+✅ Use and Evaluate
+After training, spaCy saves the best model. You can load it and test it with new text. 
+python
+import spacy
+
+nlp = spacy.load("./output_model/model-best") # Load the best model
+test_text = "Analysis of a new variant of WannaCry, targeting IP 8.8.8.8."
+doc = nlp(test_text)
+
+for ent in doc.ents:
+    print(f"{ent.text} - {ent.label_}")
+Use code with caution.
+
+
+
+
