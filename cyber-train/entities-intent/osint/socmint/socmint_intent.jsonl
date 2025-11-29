@@ -1,0 +1,6 @@
+{"text": "What's the bot score for account @suspicious_user?", "cats": {"INVESTIGATE": 1.0, "DETECT": 0.0, "MONITOR": 0.0, "ANALYZE": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Can you verify if this viral video is a deepfake?", "cats": {"INVESTIGATE": 1.0, "VALIDATE": 1.0, "DETECT": 0.0, "MONITOR": 0.0, "ANALYZE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Show me the influence network graph for hashtag #BreakingNews", "cats": {"INVESTIGATE": 1.0, "ANALYZE": 1.0, "MAP": 1.0, "DETECT": 0.0, "MONITOR": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Are there any coordinated bot campaigns targeting our brand?", "cats": {"INVESTIGATE": 1.0, "DETECT": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "What's the sentiment trend for our company over the last week?", "cats": {"INVESTIGATE": 1.0, "ANALYZE": 1.0, "TRACK": 1.0, "DETECT": 0.0, "MONITOR": 0.0, "VALIDATE": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+
