@@ -1,0 +1,882 @@
+# HackerDogs Cybersecurity AI Tasks Configuration
+# CrewAI Task Definitions following best practices for enterprise-grade applications
+# Based on CREWAI_BEST_PRACTICES.md guidelines
+
+  # CISO Strategic Leadership Tasks
+  ciso_risk_assessment:
+    description: >
+      Conduct a comprehensive cybersecurity risk assessment for the provided scenario.
+      This task requires deep analysis of organizational risk landscape, threat environment,
+      and business impact to provide strategic risk management guidance.
+      
+      Risk Assessment Process:
+      1. Risk Identification and Categorization
+         - Identify and catalog all potential cybersecurity risks
+         - Categorize risks by type (operational, strategic, compliance, reputational)
+         - Map risks to business processes and critical assets
+         - Assess risk interdependencies and cascading effects
+      
+      2. Risk Analysis and Evaluation
+         - Analyze risk likelihood using historical data and threat intelligence
+         - Evaluate potential business impact and financial consequences
+         - Assess current control effectiveness and residual risk levels
+         - Quantify risk exposure using established risk metrics
+      
+      3. Risk Treatment and Mitigation
+         - Develop comprehensive risk mitigation strategies
+         - Prioritize risks based on likelihood and impact
+         - Create risk treatment plans with timelines and resource requirements
+         - Establish risk monitoring and review procedures
+      
+      4. Strategic Recommendations
+         - Provide executive-level risk management recommendations
+         - Align risk treatment with business objectives and budget constraints
+         - Develop risk communication strategies for stakeholders
+         - Establish risk governance and oversight frameworks
+      
+      Use the following approach:
+      - Leverage industry frameworks (NIST, ISO 27001, COSO)
+      - Consider regulatory requirements and compliance obligations
+      - Incorporate threat intelligence and industry benchmarks
+      - Focus on business-aligned risk management strategies
+    expected_output: >
+      A comprehensive risk assessment report containing:
+      1. Executive Summary (risk overview, key findings, strategic recommendations)
+      2. Risk Inventory (categorized risks with detailed descriptions)
+      3. Risk Analysis (likelihood, impact, and exposure assessments)
+      4. Risk Treatment Plan (mitigation strategies, timelines, resources)
+      5. Implementation Roadmap (phases, milestones, success metrics)
+      6. Governance Framework (roles, responsibilities, monitoring procedures)
+      7. Appendices (detailed analysis, supporting data, references)
+    agent: "ciso"
+    context: []
+    output_file: "ciso_risk_assessment_{timestamp}.md"
+    async_execution: false
+
+  ciso_board_briefing:
+    description: >
+      Prepare a comprehensive board briefing for the specified period covering cybersecurity
+      posture, strategic initiatives, and executive recommendations. This task requires
+      executive-level communication skills and strategic thinking.
+      
+      Board Briefing Development Process:
+      1. Executive Summary Preparation
+         - Synthesize key cybersecurity metrics and performance indicators
+         - Highlight critical security events and their business impact
+         - Summarize strategic initiatives and their progress
+         - Present executive recommendations and resource requirements
+      
+      2. Cybersecurity Posture Assessment
+         - Evaluate current security posture against industry benchmarks
+         - Assess progress on strategic security initiatives
+         - Review compliance status and regulatory requirements
+         - Analyze threat landscape and emerging risks
+      
+      3. Key Performance Indicators and Metrics
+         - Present security metrics and trend analysis
+         - Compare performance against established targets
+         - Highlight areas of improvement and success stories
+         - Provide forward-looking projections and forecasts
+      
+      4. Strategic Recommendations
+         - Present strategic security initiatives and their business value
+         - Recommend budget allocations and resource investments
+         - Propose organizational changes and capability enhancements
+         - Align security strategy with business objectives
+      
+      Use the following approach:
+      - Focus on business impact and strategic value
+      - Use clear, non-technical language for executive audience
+      - Provide actionable recommendations with clear ROI
+      - Include visual elements and executive dashboards
+    expected_output: >
+      A board-ready briefing document containing:
+      1. Executive Summary (key messages, critical issues, recommendations)
+      2. Cybersecurity Posture Overview (current state, trends, benchmarks)
+      3. Performance Metrics Dashboard (KPIs, trends, targets)
+      4. Strategic Initiatives Update (progress, milestones, outcomes)
+      5. Risk Landscape Assessment (threats, vulnerabilities, mitigation)
+      6. Budget and Resource Recommendations (investments, ROI, priorities)
+      7. Action Items and Next Steps (decisions needed, timelines, owners)
+    agent: "ciso"
+    context: []
+    output_file: "ciso_board_briefing_{timestamp}.md"
+    async_execution: false
+
+  ciso_compliance_audit:
+    name: "CISO Compliance Audit"
+    description: |
+      Conduct a compliance audit for the specified framework.
+      Assess current compliance status, identify gaps, and provide remediation recommendations.
+    expected_output: |
+      A compliance audit report including:
+      1. Compliance status overview
+      2. Gap analysis
+      3. Remediation recommendations
+      4. Implementation roadmap
+      5. Resource requirements
+      6. Timeline and milestones
+    agent: "ciso"
+    context: []
+    tools: []
+    async_execution: false
+    output_file: "ciso_compliance_audit_{timestamp}.md"
+
+  # SOC Analyst Tasks
+  soc_alert_triage:
+    name: "SOC Alert Triage"
+    description: |
+      Analyze and triage security alerts from SIEM and other security tools.
+      Prioritize alerts based on severity, impact, and threat intelligence.
+    expected_output: |
+      An alert triage report including:
+      1. Alert summary and classification
+      2. Severity assessment
+      3. Threat intelligence correlation
+      4. Recommended actions
+      5. Escalation requirements
+      6. Follow-up procedures
+    agent: "soc_analyst"
+    context: []
+    tools: []
+    async_execution: false
+    output_file: "soc_alert_triage_{timestamp}.md"
+
+  soc_incident_investigation:
+    name: "SOC Incident Investigation"
+    description: |
+      Investigate security incidents and provide detailed analysis.
+      Determine scope, impact, and root cause of security incidents.
+    expected_output: |
+      An incident investigation report including:
+      1. Incident summary
+      2. Scope and impact analysis
+      3. Root cause analysis
+      4. Evidence collection
+      5. Recommended remediation
+      6. Lessons learned
+    agent: "soc_analyst"
+    context: []
+    tools: []
+    async_execution: false
+    output_file: "soc_incident_investigation_{timestamp}.md"
+
+  soc_threat_hunting:
+    name: "SOC Threat Hunting"
+    description: |
+      Conduct proactive threat hunting activities to identify potential threats.
+      Use threat intelligence and behavioral analysis to hunt for advanced threats.
+    expected_output: |
+      A threat hunting report including:
+      1. Hunting hypothesis
+      2. Methodology and approach
+      3. Findings and observations
+      4. Threat intelligence correlation
+      5. Recommendations
+      6. Follow-up actions
+    agent: "soc_analyst"
+    context: []
+    tools: []
+    async_execution: false
+    output_file: "soc_threat_hunting_{timestamp}.md"
+
+  # Threat Researcher Tasks
+  threat_intel_gathering:
+    name: "Threat Intelligence Gathering"
+    description: |
+      Gather threat intelligence from various sources and analyze threat landscape.
+      Correlate intelligence with current security posture and threat trends.
+    expected_output: |
+      A threat intelligence report including:
+      1. Intelligence summary
+      2. Source analysis
+      3. Threat landscape overview
+      4. Correlation with current threats
+      5. Actionable intelligence
+      6. Recommendations
+    agent: "threat_researcher"
+    context: []
+    tools: []
+    async_execution: false
+    output_file: "threat_intel_gathering_{timestamp}.md"
+
+  threat_campaign_analysis:
+    name: "Threat Campaign Analysis"
+    description: |
+      Analyze threat campaigns and threat actor activities.
+      Identify patterns, techniques, and attribution for threat campaigns.
+    expected_output: |
+      A campaign analysis report including:
+      1. Campaign overview
+      2. Threat actor analysis
+      3. Attack techniques and procedures
+      4. Attribution assessment
+      5. Impact analysis
+      6. Defensive recommendations
+    agent: "threat_researcher"
+    context: []
+    tools: []
+    async_execution: false
+    output_file: "threat_campaign_analysis_{timestamp}.md"
+
+  # AppSec Engineer Tasks
+  appsec_vulnerability_assessment:
+    name: "Application Security Vulnerability Assessment"
+    description: |
+      Conduct comprehensive vulnerability assessment for applications and systems.
+      Identify security vulnerabilities and provide remediation recommendations.
+    expected_output: |
+      A vulnerability assessment report including:
+      1. Assessment summary
+      2. Vulnerability inventory
+      3. Risk assessment
+      4. Remediation recommendations
+      5. Implementation timeline
+      6. Verification procedures
+    agent: "appsec_engineer"
+    context: []
+    tools: []
+    async_execution: false
+    output_file: "appsec_vulnerability_assessment_{timestamp}.md"
+
+  appsec_code_review:
+    name: "Application Security Code Review"
+    description: |
+      Conduct security-focused code review to identify security vulnerabilities.
+      Analyze code for security best practices and potential security issues.
+    expected_output: |
+      A code review report including:
+      1. Review summary
+      2. Security findings
+      3. Code quality assessment
+      4. Remediation recommendations
+      5. Best practices guidance
+      6. Follow-up requirements
+    agent: "appsec_engineer"
+    context: []
+    tools: []
+    async_execution: false
+    output_file: "appsec_code_review_{timestamp}.md"
+
+  appsec_threat_modeling_review:
+    name: "Application Security Threat Modeling Review"
+    description: |
+      Review and update threat models for applications and systems.
+      Identify new threats and update existing threat models.
+    expected_output: |
+      A threat modeling review report including:
+      1. Model overview
+      2. Threat analysis
+      3. Risk assessment
+      4. Model updates
+      5. Implementation recommendations
+      6. Validation procedures
+    agent: "appsec_engineer"
+    context: []
+    tools: []
+    async_execution: false
+    output_file: "appsec_threat_modeling_review_{timestamp}.md"
+
+  appsec_pipeline_scan:
+    name: "Application Security Pipeline Scan"
+    description: |
+      Analyze CI/CD pipeline security scanning results and provide recommendations.
+      Integrate security scanning into development pipeline.
+    expected_output: |
+      A pipeline scan report including:
+      1. Scan results summary
+      2. Security findings
+      3. Pipeline integration assessment
+      4. Remediation recommendations
+      5. Automation opportunities
+      6. Best practices implementation
+    agent: "appsec_engineer"
+    context: []
+    tools: []
+    async_execution: false
+    output_file: "appsec_pipeline_scan_{timestamp}.md"
+
+  # SOC Supervisor Tasks
+  soc_queue_triage:
+    name: "SOC Queue Triage"
+    description: |
+      Manage and triage SOC queue to ensure proper incident handling.
+      Coordinate team activities and ensure quality of SOC operations.
+    expected_output: |
+      A queue triage report including:
+      1. Queue status overview
+      2. Incident prioritization
+      3. Team coordination
+      4. Quality metrics
+      5. Process improvements
+      6. Resource allocation
+    agent: "soc_supervisor"
+    context: []
+    tools: []
+    async_execution: false
+    output_file: "soc_queue_triage_{timestamp}.md"
+
+  soc_quality_review:
+    name: "SOC Quality Review"
+    description: |
+      Review SOC analyst work quality and provide feedback.
+      Ensure adherence to procedures and quality standards.
+    expected_output: |
+      A quality review report including:
+      1. Quality assessment
+      2. Performance metrics
+      3. Training needs
+      4. Process improvements
+      5. Best practices
+      6. Action items
+    agent: "soc_supervisor"
+    context: []
+    tools: []
+    async_execution: false
+    output_file: "soc_quality_review_{timestamp}.md"
+
+  # Detection Engineer Tasks
+  detection_rule_author:
+    name: "Detection Rule Authoring"
+    description: |
+      Author new detection rules for security monitoring systems.
+      Create rules based on threat intelligence and attack patterns.
+    expected_output: |
+      A detection rule report including:
+      1. Rule specification
+      2. Detection logic
+      3. Testing results
+      4. Performance metrics
+      5. Deployment plan
+      6. Maintenance procedures
+    agent: "detection_engineer"
+    context: []
+    tools: []
+    async_execution: false
+    output_file: "detection_rule_author_{timestamp}.md"
+
+  detection_rule_tuning:
+    name: "Detection Rule Tuning"
+    description: |
+      Tune existing detection rules to improve accuracy and reduce false positives.
+      Optimize rule performance and effectiveness.
+    expected_output: |
+      A rule tuning report including:
+      1. Current rule analysis
+      2. Tuning recommendations
+      3. Performance improvements
+      4. False positive reduction
+      5. Testing results
+      6. Deployment plan
+    agent: "detection_engineer"
+    context: []
+    tools: []
+    async_execution: false
+    output_file: "detection_rule_tuning_{timestamp}.md"
+
+  # Threat Hunter Tasks
+  threat_hunt_mission:
+    name: "Threat Hunt Mission"
+    description: |
+      Execute threat hunting missions to identify advanced threats.
+      Use hypothesis-driven hunting and behavioral analysis.
+    expected_output: |
+      A hunt mission report including:
+      1. Mission objectives
+      2. Hunting methodology
+      3. Findings and evidence
+      4. Threat analysis
+      5. Recommendations
+      6. Follow-up actions
+    agent: "threat_hunter"
+    context: []
+    tools: []
+    async_execution: false
+    output_file: "threat_hunt_mission_{timestamp}.md"
+
+  threat_artifact_triage:
+    name: "Threat Artifact Triage"
+    description: |
+      Analyze threat artifacts and indicators of compromise.
+      Correlate artifacts with threat intelligence and attack patterns.
+    expected_output: |
+      An artifact triage report including:
+      1. Artifact analysis
+      2. Threat correlation
+      3. Impact assessment
+      4. Response recommendations
+      5. Intelligence updates
+      6. Sharing requirements
+    agent: "threat_hunter"
+    context: []
+    tools: []
+    async_execution: false
+    output_file: "threat_artifact_triage_{timestamp}.md"
+
+  # DFIR Analyst Tasks
+  dfir_memory_analysis:
+    name: "DFIR Memory Analysis"
+    description: |
+      Analyze memory dumps for forensic evidence and malware analysis.
+      Extract artifacts and indicators from memory images.
+    expected_output: |
+      A memory analysis report including:
+      1. Analysis summary
+      2. Extracted artifacts
+      3. Malware analysis
+      4. Timeline reconstruction
+      5. Evidence collection
+      6. Legal considerations
+    agent: "dfir_analyst"
+    context: []
+    tools: []
+    async_execution: false
+    output_file: "dfir_memory_analysis_{timestamp}.md"
+
+  dfir_pcap_analysis:
+    name: "DFIR Network Analysis"
+    description: |
+      Analyze network packet captures for forensic evidence and attack patterns.
+      Extract network artifacts and communication patterns.
+    expected_output: |
+      A network analysis report including:
+      1. Analysis summary
+      2. Network artifacts
+      3. Communication patterns
+      4. Attack reconstruction
+      5. Evidence collection
+      6. Timeline analysis
+    agent: "dfir_analyst"
+    context: []
+    tools: []
+    async_execution: false
+    output_file: "dfir_pcap_analysis_{timestamp}.md"
+
+  # Incident Commander Tasks
+  incident_declaration:
+    name: "Incident Declaration and Management"
+    description: |
+      Declare and manage security incidents according to incident response procedures.
+      Coordinate response activities and ensure proper incident handling.
+    expected_output: |
+      An incident management report including:
+      1. Incident declaration
+      2. Response coordination
+      3. Resource allocation
+      4. Communication plan
+      5. Escalation procedures
+      6. Status updates
+    agent: "incident_commander"
+    context: []
+    tools: []
+    async_execution: false
+    output_file: "incident_declaration_{timestamp}.md"
+
+  incident_postmortem:
+    name: "Incident Postmortem"
+    description: |
+      Conduct incident postmortem analysis to identify lessons learned.
+      Document findings and recommendations for process improvement.
+    expected_output: |
+      A postmortem report including:
+      1. Incident summary
+      2. Timeline analysis
+      3. Root cause analysis
+      4. Lessons learned
+      5. Process improvements
+      6. Action items
+    agent: "incident_commander"
+    context: []
+    tools: []
+    async_execution: false
+    output_file: "incident_postmortem_{timestamp}.md"
+
+  # DevSecOps Engineer Tasks
+  devsecops_policy_gate:
+    name: "DevSecOps Policy Gate"
+    description: |
+      Implement security policy gates in CI/CD pipeline.
+      Ensure security compliance before deployment.
+    expected_output: |
+      A policy gate report including:
+      1. Policy implementation
+      2. Gate configuration
+      3. Compliance checks
+      4. Automation setup
+      5. Monitoring procedures
+      6. Exception handling
+    agent: "devsecops_engineer"
+    context: []
+    tools: []
+    async_execution: false
+    output_file: "devsecops_policy_gate_{timestamp}.md"
+
+  devsecops_cloud_baseline:
+    name: "DevSecOps Cloud Security Baseline"
+    description: |
+      Establish cloud security baselines and compliance standards.
+      Implement security controls for cloud infrastructure.
+    expected_output: |
+      A cloud baseline report including:
+      1. Baseline definition
+      2. Security controls
+      3. Compliance mapping
+      4. Implementation plan
+      5. Monitoring setup
+      6. Maintenance procedures
+    agent: "devsecops_engineer"
+    context: []
+    tools: []
+    async_execution: false
+    output_file: "devsecops_cloud_baseline_{timestamp}.md"
+
+  # Threat Modeler Tasks
+  threat_modeling_drift:
+    name: "Threat Modeling Drift Analysis"
+    description: |
+      Analyze threat model drift and update threat models.
+      Identify new threats and update existing models.
+    expected_output: |
+      A drift analysis report including:
+      1. Drift assessment
+      2. New threat identification
+      3. Model updates
+      4. Risk reassessment
+      5. Implementation plan
+      6. Validation procedures
+    agent: "threat_modeler"
+    context: []
+    tools: []
+    async_execution: false
+    output_file: "threat_modeling_drift_{timestamp}.md"
+
+  threat_auto_discovery:
+    name: "Threat Auto Discovery"
+    description: |
+      Automatically discover threats and update threat models.
+      Use automated tools and techniques for threat discovery.
+    expected_output: |
+      An auto discovery report including:
+      1. Discovery results
+      2. New threat identification
+      3. Model updates
+      4. Automation improvements
+      5. Validation results
+      6. Integration recommendations
+    agent: "threat_modeler"
+    context: []
+    tools: []
+    async_execution: false
+    output_file: "threat_auto_discovery_{timestamp}.md"
+
+  # Threat Intel Engineer Tasks
+  threat_intel_ingest:
+    name: "Threat Intelligence Ingestion"
+    description: |
+      Ingest threat intelligence feeds and process intelligence data.
+      Normalize and correlate intelligence from multiple sources.
+    expected_output: |
+      An intelligence ingestion report including:
+      1. Ingestion summary
+      2. Source analysis
+      3. Data normalization
+      4. Correlation results
+      5. Quality assessment
+      6. Integration recommendations
+    agent: "threat_intel_engineer"
+    context: []
+    tools: []
+    async_execution: false
+    output_file: "threat_intel_ingest_{timestamp}.md"
+
+  threat_ttp_mapping:
+    name: "Threat TTP Mapping"
+    description: |
+      Map threat tactics, techniques, and procedures to MITRE ATT&CK framework.
+      Correlate TTPs with threat intelligence and detection capabilities.
+    expected_output: |
+      A TTP mapping report including:
+      1. Mapping summary
+      2. TTP analysis
+      3. MITRE ATT&CK correlation
+      4. Detection coverage
+      5. Gap analysis
+      6. Improvement recommendations
+    agent: "threat_intel_engineer"
+    context: []
+    tools: []
+    async_execution: false
+    output_file: "threat_ttp_mapping_{timestamp}.md"
+
+  # Pen Tester Tasks
+  pen_test_web_app:
+    name: "Penetration Test - Web Application"
+    description: |
+      Conduct penetration testing of web applications.
+      Identify vulnerabilities and provide remediation recommendations.
+    expected_output: |
+      A penetration test report including:
+      1. Test summary
+      2. Vulnerability findings
+      3. Risk assessment
+      4. Exploitation details
+      5. Remediation recommendations
+      6. Verification procedures
+    agent: "pen_tester"
+    context: []
+    tools: []
+    async_execution: false
+    output_file: "pen_test_web_app_{timestamp}.md"
+
+  pen_test_purple_team:
+    name: "Purple Team Exercise"
+    description: |
+      Conduct purple team exercises to test detection and response capabilities.
+      Simulate attacks and validate defensive measures.
+    expected_output: |
+      A purple team report including:
+      1. Exercise summary
+      2. Attack simulation
+      3. Detection validation
+      4. Response assessment
+      5. Gap analysis
+      6. Improvement recommendations
+    agent: "pen_tester"
+    context: []
+    tools: []
+    async_execution: false
+    output_file: "pen_test_purple_team_{timestamp}.md"
+
+  # Security Engineer Tasks
+  security_telemetry_onboarding:
+    name: "Security Telemetry Onboarding"
+    description: |
+      Onboard new security telemetry sources and integrate with SIEM.
+      Configure data collection and processing pipelines.
+    expected_output: |
+      A telemetry onboarding report including:
+      1. Onboarding summary
+      2. Data source analysis
+      3. Integration configuration
+      4. Data processing setup
+      5. Monitoring procedures
+      6. Maintenance requirements
+    agent: "security_engineer"
+    context: []
+    tools: []
+    async_execution: false
+    output_file: "security_telemetry_onboarding_{timestamp}.md"
+
+  security_soar_integration:
+    name: "SOAR Platform Integration"
+    description: |
+      Integrate security tools with SOAR platform for automation.
+      Configure playbooks and automated response procedures.
+    expected_output: |
+      A SOAR integration report including:
+      1. Integration summary
+      2. Tool connectivity
+      3. Playbook configuration
+      4. Automation setup
+      5. Testing results
+      6. Maintenance procedures
+    agent: "security_engineer"
+    context: []
+    tools: []
+    async_execution: false
+    output_file: "security_soar_integration_{timestamp}.md"
+
+  # SRE Tasks
+  sre_guardrails:
+    name: "SRE Security Guardrails"
+    description: |
+      Implement security guardrails for reliability and security.
+      Ensure security controls are integrated into reliability practices.
+    expected_output: |
+      A guardrails report including:
+      1. Guardrails summary
+      2. Security controls
+      3. Reliability integration
+      4. Monitoring setup
+      5. Automation configuration
+      6. Maintenance procedures
+    agent: "sre"
+    context: []
+    tools: []
+    async_execution: false
+    output_file: "sre_guardrails_{timestamp}.md"
+
+  sre_chaos_ir:
+    name: "SRE Chaos Engineering for Incident Response"
+    description: |
+      Implement chaos engineering for incident response testing.
+      Test system resilience and response capabilities.
+    expected_output: |
+      A chaos engineering report including:
+      1. Chaos testing summary
+      2. Test scenarios
+      3. Resilience assessment
+      4. Response validation
+      5. Improvement recommendations
+      6. Automation opportunities
+    agent: "sre"
+    context: []
+    tools: []
+    async_execution: false
+    output_file: "sre_chaos_ir_{timestamp}.md"
+
+  # Software Developer Tasks
+  dev_secure_pr:
+    name: "Secure Pull Request Review"
+    description: |
+      Conduct security-focused pull request reviews.
+      Identify security issues and ensure secure coding practices.
+    expected_output: |
+      A secure PR review report including:
+      1. Review summary
+      2. Security findings
+      3. Code quality assessment
+      4. Remediation recommendations
+      5. Best practices guidance
+      6. Follow-up requirements
+    agent: "software_developer"
+    context: []
+    tools: []
+    async_execution: false
+    output_file: "dev_secure_pr_{timestamp}.md"
+
+  dev_secret_scan:
+    name: "Secret Scanning and Remediation"
+    description: |
+      Scan code repositories for secrets and sensitive information.
+      Provide remediation guidance and prevention measures.
+    expected_output: |
+      A secret scan report including:
+      1. Scan results summary
+      2. Secret findings
+      3. Risk assessment
+      4. Remediation steps
+      5. Prevention measures
+      6. Policy recommendations
+    agent: "software_developer"
+    context: []
+    tools: []
+    async_execution: false
+    output_file: "dev_secret_scan_{timestamp}.md"
+
+  # GRC Analyst Tasks
+  grc_control_mapping:
+    name: "GRC Control Mapping"
+    description: |
+      Map security controls to compliance frameworks and requirements.
+      Assess control effectiveness and compliance status.
+    expected_output: |
+      A control mapping report including:
+      1. Mapping summary
+      2. Control inventory
+      3. Compliance assessment
+      4. Gap analysis
+      5. Remediation plan
+      6. Monitoring procedures
+    agent: "grc_analyst"
+    context: []
+    tools: []
+    async_execution: false
+    output_file: "grc_control_mapping_{timestamp}.md"
+
+  grc_evidence_pack:
+    name: "GRC Evidence Collection"
+    description: |
+      Collect and organize compliance evidence for audits and assessments.
+      Ensure evidence completeness and audit readiness.
+    expected_output: |
+      An evidence collection report including:
+      1. Evidence summary
+      2. Collection methodology
+      3. Evidence inventory
+      4. Quality assessment
+      5. Audit readiness
+      6. Maintenance procedures
+    agent: "grc_analyst"
+    context: []
+    tools: []
+    async_execution: false
+    output_file: "grc_evidence_pack_{timestamp}.md"
+
+  # Privacy Engineer Tasks
+  privacy_data_mapping:
+    name: "Privacy Data Flow Mapping"
+    description: |
+      Map data flows and identify privacy risks in systems and processes.
+      Assess privacy impact and compliance requirements.
+    expected_output: |
+      A data mapping report including:
+      1. Mapping summary
+      2. Data flow analysis
+      3. Privacy risk assessment
+      4. Compliance requirements
+      5. Mitigation strategies
+      6. Monitoring procedures
+    agent: "privacy_engineer"
+    context: []
+    tools: []
+    async_execution: false
+    output_file: "privacy_data_mapping_{timestamp}.md"
+
+  privacy_dsar_flow:
+    name: "Data Subject Access Request Flow"
+    description: |
+      Handle data subject access requests and privacy rights management.
+      Ensure compliance with privacy regulations and data subject rights.
+    expected_output: |
+      A DSAR flow report including:
+      1. Request summary
+      2. Data identification
+      3. Rights assessment
+      4. Response procedures
+      5. Compliance validation
+      6. Process improvements
+    agent: "privacy_engineer"
+    context: []
+    tools: []
+    async_execution: false
+    output_file: "privacy_dsar_flow_{timestamp}.md"
+
+  # AppSec Lead Tasks
+  appsec_program_kpis:
+    name: "Application Security Program KPIs"
+    description: |
+      Manage application security program KPIs and metrics.
+      Track program effectiveness and identify improvement opportunities.
+    expected_output: |
+      A program KPIs report including:
+      1. KPI summary
+      2. Performance metrics
+      3. Trend analysis
+      4. Benchmarking
+      5. Improvement recommendations
+      6. Action plan
+    agent: "appsec_lead"
+    context: []
+    tools: []
+    async_execution: false
+    output_file: "appsec_program_kpis_{timestamp}.md"
+
+  appsec_security_champions:
+    name: "Security Champions Program Management"
+    description: |
+      Manage security champions program and coordinate security activities.
+      Train and support security champions across development teams.
+    expected_output: |
+      A security champions report including:
+      1. Program summary
+      2. Champion activities
+      3. Training progress
+      4. Impact assessment
+      5. Program improvements
+      6. Expansion opportunities
+    agent: "appsec_lead"
+    context: []
+    tools: []
+    async_execution: false
+    output_file: "appsec_security_champions_{timestamp}.md"

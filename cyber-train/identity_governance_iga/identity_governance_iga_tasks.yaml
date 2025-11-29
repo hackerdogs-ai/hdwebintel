@@ -1,0 +1,146 @@
+iga_policy_definition_task:
+  description: >
+    Define IGA program policies with IGA Policy Generator.
+    Cover lifecycle automation (JML), role-based access, SoD,
+    privileged identity governance, SaaS integration, and zero-trust identity.
+  expected_output: >
+    {"policy":"IGA","lifecycle":"JML","SoD":"enforced","RBAC":"enabled","PAM":"integrated","SaaS":"covered","zero_trust":"adopted"}
+  agent: iga_strategist
+  output_file: output/iga_policy.json
+
+provisioning_task:
+  description: >
+    Automate joiner-mover-leaver events using HR System Connector and SaaS Integrator.
+    Ensure timely onboarding, transfers, and offboarding.
+  expected_output: >
+    {"onboarded":55,"transfers":14,"offboarded":11,"errors":1}
+  agent: provisioning_engineer
+  context: [iga_policy_definition_task]
+  output_file: output/provisioning.json
+
+role_mining_task:
+  description: >
+    Run Role Mining Tool and Entitlement Clustering Engine.
+    Suggest roles and highlight toxic combinations.
+  expected_output: >
+    {"roles_discovered":28,"toxic_combos":4,"redundant_roles":6}
+  agent: ai_role_engineer
+  context: [provisioning_task]
+  output_file: output/roles.json
+
+peer_group_analysis_task:
+  description: >
+    Use Identity Analytics Tool to compare entitlements across peer groups.
+    Flag anomalous or excessive access.
+  expected_output: >
+    {"peer_groups_analyzed":12,"anomalous_entitlements":8}
+  agent: identity_risk_analyst
+  context: [role_mining_task]
+  output_file: output/peer_groups.json
+
+access_review_task:
+  description: >
+    Run access reviews with Access Review Tool.
+    Include quarterly reviews + adaptive reviews triggered by anomalies or transfers.
+  expected_output: >
+    {"reviews_sent":220,"completed":195,"violations":15}
+  agent: access_review_manager
+  context: [peer_group_analysis_task]
+  output_file: output/access_reviews.json
+
+adaptive_access_review_task:
+  description: >
+    Use Adaptive Review Trigger to launch event-driven reviews
+    (e.g., anomalous login, privilege escalation).
+  expected_output: >
+    {"adaptive_reviews":7,"violations":2}
+  agent: access_review_manager
+  context: [identity_risk_analyst]
+  output_file: output/adaptive_reviews.json
+
+sod_enforcement_task:
+  description: >
+    Detect and remediate SoD conflicts with SoD Analyzer.
+    Escalate unresolved conflicts.
+  expected_output: >
+    {"conflicts_detected":18,"remediated":12,"escalated":6}
+  agent: access_review_manager
+  context: [access_review_task]
+  output_file: output/sod.json
+
+privileged_identity_task:
+  description: >
+    Govern privileged identities with PAM/IGA Connector.
+    Enforce JIT access, rotate credentials, and capture sessions.
+  expected_output: >
+    {"privileged_accounts":48,"jit_grants":25,"sessions_recorded":23}
+  agent: privileged_identity_manager
+  context: [sod_enforcement_task]
+  output_file: output/pam.json
+
+identity_graph_task:
+  description: >
+    Build identity graphs with Identity Graph Builder.
+    Map entitlements, relationships, and potential attack paths.
+  expected_output: >
+    {"nodes":5200,"edges":14000,"attack_paths":15,"critical_paths":5}
+  agent: identity_graph_analyst
+  context: [provisioning_task, role_mining_task]
+  output_file: output/identity_graph.json
+
+saas_identity_sprawl_task:
+  description: >
+    Detect unmanaged SaaS identities with SaaS Identity Scanner.
+    Flag accounts not federated to SSO.
+  expected_output: >
+    {"saas_apps":25,"unmanaged_accounts":120,"risk":"high"}
+  agent: saas_identity_specialist
+  context: [provisioning_task]
+  output_file: output/saas_sprawl.json
+
+service_account_governance_task:
+  description: >
+    Inventory and govern service/machine accounts.
+    Rotate secrets and enforce least privilege.
+  expected_output: >
+    {"service_accounts":320,"rotated":280,"toxic_combos":4}
+  agent: service_identity_manager
+  output_file: output/service_accounts.json
+
+access_request_task:
+  description: >
+    Govern access requests with workflow approvals.
+    Enforce business justification logging.
+  expected_output: >
+    {"requests":65,"approved":55,"denied":10,"justification_logged":100}
+  agent: access_review_manager
+  output_file: output/access_requests.json
+
+identity_mna_task:
+  description: >
+    Manage identity lifecycle during M&A integrations.
+    Detect conflicts, duplicate accounts, and align access baselines.
+  expected_output: >
+    {"mna_accounts_reviewed":1800,"duplicates":75,"conflicts":12}
+  agent: iga_strategist
+  output_file: output/mna.json
+
+iga_metrics_reporting_task:
+  description: >
+    Generate KPIs: provisioning SLA, access review completion,
+    SoD conflicts, SaaS sprawl, service account risk, identity graph coverage.
+  expected_output: >
+    {"sla_provisioning":"96%","access_reviews_completed":"92%","sod_conflicts":18,"saas_sprawl":120,"service_accounts":320,"attack_paths":15}
+  agent: iga_auditor
+  context: [provisioning_task, access_review_task, privileged_identity_task, identity_graph_task, saas_identity_sprawl_task]
+  output_file: output/iga_metrics.json
+
+iga_audit_task:
+  description: >
+    Audit IGA maturity: lifecycle automation, zero-trust entitlements,
+    SaaS coverage, service account governance, and compliance readiness.
+  expected_output: >
+    {"audit_score":95,"coverage_pct":93,"gaps":["adaptive reviews not automated across all SaaS apps"]}
+  agent: iga_auditor
+  context: [iga_metrics_reporting_task]
+  output_file: output/iga_audit.json

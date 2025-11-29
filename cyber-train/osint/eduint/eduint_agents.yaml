@@ -1,0 +1,215 @@
+edu_monitor:
+  role: >
+    Academic Monitor & Alerting Analyst
+  goal: >
+    Monitor new research outputs, preprints, dissertations, campus activism, and institutional cyber incidents in near real-time.
+  backstory: >
+    Analyst trained in academic repositories, bibliometric analysis, and activism tracking.
+  llm: openai/gpt-4o
+  tools:
+  - OpenAlex_oss
+  - Semantic_Scholar_API_oss
+  - arXiv_API_oss
+  - PubMed_oss
+  - Zotero_oss
+  - Crossref_oss
+  - CORE_oss
+  - Twint_oss
+  - Google Scholar Scraper_oss
+  - Web of Science
+  - Dimensions.ai
+  - Elsevier Scopus
+  - Meltwater
+  - Dataminr
+  verbose: true
+  memory: true
+  max_execution_time: 600
+  max_iterations: 5
+  allow_delegation: false
+  max_rpm: 30
+  planning: false
+  cache: true
+  max_retry_limit: 2
+  respect_context_window: true
+  multimodal: false
+  inject_date: false
+  date_format: '%Y-%m-%d'
+  reasoning: false
+  use_system_prompt: true
+edu_researcher:
+  role: >
+    Strategic Education Researcher
+  goal: >
+    Investigate collaboration networks, funding flows, researcher mobility, and dual-use research risks.
+  backstory: >
+    Veteran academic researcher specializing in cross-border academic ties and national security risks.
+  llm: openai/gpt-4o
+  tools:
+  - ORCID_oss
+  - Scopus Preview_oss
+  - ProQuest
+  - Clarivate InCites
+  - Elsevier Pure
+  - PitchBook
+  - Quid Pro
+  - Palantir_Gotham
+  - WikiCFP_oss
+  - Academic Patent DBs
+  verbose: true
+  memory: true
+  max_execution_time: 600
+  max_iterations: 5
+  allow_delegation: false
+  max_rpm: 30
+  planning: false
+  cache: true
+  max_retry_limit: 2
+  respect_context_window: true
+  multimodal: false
+  inject_date: false
+  date_format: '%Y-%m-%d'
+  reasoning: false
+  use_system_prompt: true
+edu_ml_specialist:
+  role: >
+    EDUINT Machine Learning Specialist
+  goal: >
+    Build, evaluate, and explain ML/NLP models for research classification, dual-use scoring, plagiarism detection.
+  backstory: >
+    Data scientist working with bibliometric corpora and adversarial ML detection in academia.
+  llm: openai/gpt-4o
+  tools:
+  - HuggingFace Transformers
+  - Drift_Monitor
+  - SHAP_Explainer
+  - Eval_Benchmark
+  - TensorFlow
+  - PyTorch
+  - Plagiarism_Checker
+  - Risk_Scoring_Engine
+  verbose: true
+  memory: true
+  max_execution_time: 600
+  max_iterations: 5
+  allow_delegation: false
+  max_rpm: 30
+  planning: false
+  cache: true
+  max_retry_limit: 2
+  respect_context_window: true
+  multimodal: false
+  inject_date: false
+  date_format: '%Y-%m-%d'
+  reasoning: false
+  use_system_prompt: true
+edu_strategist:
+  role: >
+    EDUINT Strategist & Policy Advisor
+  goal: >
+    Translate EDUINT findings into executive briefs, policy insights, and compliance-aligned reporting.
+  backstory: >
+    Former academic dean and security advisor, skilled at turning EDUINT into executive intelligence.
+  llm: openai/gpt-4o
+  tools:
+  - Strategic_Reporting
+  - KPI_Aggregator
+  - Compliance_Frameworks
+  - Export_Control_Checker
+  - FERPA_GDPR_Compliance
+  verbose: true
+  memory: true
+  max_execution_time: 600
+  max_iterations: 5
+  allow_delegation: false
+  max_rpm: 30
+  planning: false
+  cache: true
+  max_retry_limit: 2
+  respect_context_window: true
+  multimodal: false
+  inject_date: false
+  date_format: '%Y-%m-%d'
+  reasoning: false
+  use_system_prompt: true
+edu_compliance_officer:
+  role: >
+    EDUINT Compliance & Legal Officer
+  goal: >
+    Ensure EDUINT processes comply with FERPA, GDPR, export controls, and institutional policies.
+  backstory: >
+    Legal-policy expert focusing on educational data protection and export controls in academia.
+  llm: openai/gpt-4o
+  tools:
+  - DPIA_Checklist
+  - Audit_Log_Manager
+  - License_Registry
+  - Retention_Controller
+  verbose: true
+  memory: true
+  max_execution_time: 600
+  max_iterations: 5
+  allow_delegation: false
+  max_rpm: 30
+  planning: false
+  cache: true
+  max_retry_limit: 2
+  respect_context_window: true
+  multimodal: false
+  inject_date: false
+  date_format: '%Y-%m-%d'
+  reasoning: false
+  use_system_prompt: true
+edu_outreach_analyst:
+  role: >
+    Outreach & Influence Analyst
+  goal: >
+    Track academic influence operations, policy campaigns, and narrative shaping in education.
+  backstory: >
+    Former NGO analyst monitoring academic outreach and counter-influence narratives.
+  llm: openai/gpt-4o
+  tools:
+  - Meltwater
+  - Talkwalker
+  - Media Cloud
+  - Narrative Mapping Tools
+  verbose: true
+  memory: true
+  max_execution_time: 600
+  max_iterations: 5
+  allow_delegation: false
+  max_rpm: 30
+  planning: false
+  cache: true
+  max_retry_limit: 2
+  respect_context_window: true
+  multimodal: false
+  inject_date: false
+  date_format: '%Y-%m-%d'
+  reasoning: false
+  use_system_prompt: true
+legint_strategist:
+  role: Legal Intelligence Strategist for Educational Intelligence
+  goal: Provide strategic legal intelligence for educational investigations and compliance.
+  backstory: You specialize in legal intelligence for educational investigations,
+    privacy compliance, and regulatory adherence.
+  llm: openai/gpt-4o
+  tools:
+  - Legal_Research_Tool
+  - Privacy_Compliance_Checker
+  - Educational_Legal_Analyzer
+  - Regulatory_Monitor
+  verbose: true
+  memory: true
+  max_execution_time: 600
+  max_iterations: 5
+  allow_delegation: true
+  max_rpm: 30
+  planning: true
+  cache: true
+  max_retry_limit: 2
+  respect_context_window: true
+  multimodal: false
+  inject_date: false
+  date_format: '%Y-%m-%d'
+  reasoning: false
+  use_system_prompt: true

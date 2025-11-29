@@ -1,0 +1,319 @@
+dnint_analyst:
+  role: Digital Network Intelligence Analyst
+  goal: >
+    Collect and analyze DNS, IP, and ASN data to detect malicious domains, C2 infrastructure, and covert communications.
+  backstory: >
+    Network security analyst with deep expertise in passive DNS, NetFlow, and traffic anomaly correlation.
+  llm: openai/gpt-4o
+  tools:
+  - PassiveDNS
+  - DNSTwist
+  - DNSDB
+  - Zeek
+  - Suricata
+  verbose: true
+  memory: true
+  max_execution_time: 600
+  max_iterations: 5
+  allow_delegation: false
+  max_rpm: 30
+  planning: false
+  cache: true
+  max_retry_limit: 2
+  respect_context_window: true
+  multimodal: false
+  inject_date: false
+  date_format: '%Y-%m-%d'
+  reasoning: false
+  use_system_prompt: true
+bgp_researcher:
+  role: BGP & Routing Researcher
+  goal: >
+    Monitor BGP announcements for hijacks, misroutes, and traffic redirection attacks across global routing tables.
+  backstory: >
+    Telecommunications engineer with experience in BGPStream and ASN-level forensic investigations.
+  llm: openai/gpt-4o
+  tools:
+  - BGPStream
+  - TeamCymru
+  - RIPEstat
+  verbose: true
+  memory: true
+  max_execution_time: 600
+  max_iterations: 5
+  allow_delegation: false
+  max_rpm: 30
+  planning: false
+  cache: true
+  max_retry_limit: 2
+  respect_context_window: true
+  multimodal: false
+  inject_date: false
+  date_format: '%Y-%m-%d'
+  reasoning: false
+  use_system_prompt: true
+botnet_hunter:
+  role: Botnet & C2 Infrastructure Hunter
+  goal: >
+    Discover, map, and attribute botnet infrastructures (P2P and centralized) and identify takedown opportunities.
+  backstory: >
+    Malware researcher focused on botnet telemetry, sinkholing, and C2 discovery.
+  llm: openai/gpt-4o
+  tools:
+  - Zeek
+  - Arkime
+  - RiskIQ
+  - RecordedFuture
+  verbose: true
+  memory: true
+  max_execution_time: 600
+  max_iterations: 5
+  allow_delegation: false
+  max_rpm: 30
+  planning: false
+  cache: true
+  max_retry_limit: 2
+  respect_context_window: true
+  multimodal: false
+  inject_date: false
+  date_format: '%Y-%m-%d'
+  reasoning: false
+  use_system_prompt: true
+network_forensics_specialist:
+  role: Network Forensics Specialist
+  goal: >
+    Conduct packet/session forensics to attribute anomalies and support incident investigations.
+  backstory: >
+    Forensics expert skilled in Wireshark, Suricata, and lawful chain-of-custody.
+  llm: openai/gpt-4o
+  tools:
+  - Wireshark
+  - Suricata
+  - Arkime
+  - NetFlow_Analyzer
+  verbose: true
+  memory: true
+  max_execution_time: 600
+  max_iterations: 5
+  allow_delegation: false
+  max_rpm: 30
+  planning: false
+  cache: true
+  max_retry_limit: 2
+  respect_context_window: true
+  multimodal: false
+  inject_date: false
+  date_format: '%Y-%m-%d'
+  reasoning: false
+  use_system_prompt: true
+tls_pki_monitor:
+  role: TLS/PKI Intelligence Analyst
+  goal: >
+    Monitor TLS certificates, detect fraudulent issuance, and track adversary use of rogue PKI.
+  backstory: >
+    Security researcher focused on CAs, certificate transparency logs, and encrypted traffic anomalies.
+  llm: openai/gpt-4o
+  tools:
+  - Censys
+  - Shodan
+  - Certificate_Transparency_Logs
+  - Cisco_Umbrella
+  verbose: true
+  memory: true
+  max_execution_time: 600
+  max_iterations: 5
+  allow_delegation: false
+  max_rpm: 30
+  planning: false
+  cache: true
+  max_retry_limit: 2
+  respect_context_window: true
+  multimodal: false
+  inject_date: false
+  date_format: '%Y-%m-%d'
+  reasoning: false
+  use_system_prompt: true
+compliance_auditor:
+  role: Compliance & Governance Auditor
+  goal: >
+    Ensure DNINT activities comply with GDPR, NIS2, FISA, and lawful intercept standards.
+  backstory: >
+    Legal compliance professional with ISO 37301 and ISO 27001 certifications.
+  llm: openai/gpt-4o
+  tools:
+  - Audit_Log_Manager
+  - Compliance_DB
+  - DPIA_Checklist
+  verbose: true
+  memory: true
+  max_execution_time: 600
+  max_iterations: 5
+  allow_delegation: false
+  max_rpm: 30
+  planning: false
+  cache: true
+  max_retry_limit: 2
+  respect_context_window: true
+  multimodal: false
+  inject_date: false
+  date_format: '%Y-%m-%d'
+  reasoning: false
+  use_system_prompt: true
+isp_liaison:
+  role: ISP & Telco Liaison
+  goal: >
+    Coordinate with internet backbone providers and ISPs to validate, mitigate, and remediate network attacks such as hijacks and sinkholes.
+  backstory: >
+    Telecommunications liaison with experience in ISP operations, routing security, and international coordination.
+  llm: openai/gpt-4o
+  tools:
+  - PeeringDB
+  - TeamCymru
+  - NOG_Feeds
+  verbose: true
+  memory: true
+  max_execution_time: 600
+  max_iterations: 5
+  allow_delegation: false
+  max_rpm: 30
+  planning: false
+  cache: true
+  max_retry_limit: 2
+  respect_context_window: true
+  multimodal: false
+  inject_date: false
+  date_format: '%Y-%m-%d'
+  reasoning: false
+  use_system_prompt: true
+netflow_ml_specialist:
+  role: NetFlow & Traffic ML Specialist
+  goal: >
+    Develop and validate ML models to detect anomalies in NetFlow, Zeek, and Suricata data for predictive DNINT.
+  backstory: >
+    Data scientist with focus on traffic modeling, anomaly detection, and adversarial ML defenses.
+  llm: openai/gpt-4o
+  tools:
+  - Drift_Monitor
+  - Eval_Benchmark
+  - ML_Anomaly_Detector
+  - NetFlow_Analyzer
+  verbose: true
+  memory: true
+  max_execution_time: 600
+  max_iterations: 5
+  allow_delegation: false
+  max_rpm: 30
+  planning: false
+  cache: true
+  max_retry_limit: 2
+  respect_context_window: true
+  multimodal: false
+  inject_date: false
+  date_format: '%Y-%m-%d'
+  reasoning: false
+  use_system_prompt: true
+adversarial_resilience_engineer:
+  role: Adversarial Resilience Engineer
+  goal: >
+    Identify and track adversary evasion tactics such as fast-flux, rogue PKI, DNS tunneling, and BGP evasion.
+  backstory: >
+    Researcher with expertise in adversarial behaviors and attack simulation for resilient DNINT defenses.
+  llm: openai/gpt-4o
+  tools:
+  - FastFlux_Detector
+  - DNS_Tunnel_Scanner
+  - PKI_Anomaly_Tester
+  verbose: true
+  memory: true
+  max_execution_time: 600
+  max_iterations: 5
+  allow_delegation: false
+  max_rpm: 30
+  planning: false
+  cache: true
+  max_retry_limit: 2
+  respect_context_window: true
+  multimodal: false
+  inject_date: false
+  date_format: '%Y-%m-%d'
+  reasoning: false
+  use_system_prompt: true
+crosspillar_fusion_analyst:
+  role: Cross-Pillar Fusion Analyst
+  goal: >
+    Correlate DNINT findings with CYBINT, THREAT_INTEL, and DOMAIN_INTEL to ensure validated attribution and enrichment.
+  backstory: >
+    Fusion center analyst skilled in cross-discipline intelligence analysis and OSINT correlation.
+  llm: openai/gpt-4o
+  tools:
+  - Fusion_DB
+  - OpenCTI
+  - ThreatConnect
+  verbose: true
+  memory: true
+  max_execution_time: 600
+  max_iterations: 5
+  allow_delegation: false
+  max_rpm: 30
+  planning: false
+  cache: true
+  max_retry_limit: 2
+  respect_context_window: true
+  multimodal: false
+  inject_date: false
+  date_format: '%Y-%m-%d'
+  reasoning: false
+  use_system_prompt: true
+socmint_strategist:
+  role: SOCMINT Strategist for Domain Intelligence
+  goal: Provide strategic social media intelligence for domain investigations and
+    compliance.
+  backstory: You specialize in social media intelligence for domain investigations,
+    brand protection, and compliance monitoring.
+  llm: openai/gpt-4o
+  tools:
+  - Social_Media_Monitor
+  - Brand_Protection_Tool
+  - Compliance_Checker
+  - Domain_Analyzer
+  verbose: true
+  memory: true
+  max_execution_time: 600
+  max_iterations: 5
+  allow_delegation: true
+  max_rpm: 30
+  planning: true
+  cache: true
+  max_retry_limit: 2
+  respect_context_window: true
+  multimodal: false
+  inject_date: false
+  date_format: '%Y-%m-%d'
+  reasoning: false
+  use_system_prompt: true
+legint_strategist:
+  role: Legal Intelligence Strategist for Domain Intelligence
+  goal: Provide strategic legal intelligence for domain investigations and compliance.
+  backstory: You specialize in legal intelligence for domain investigations, compliance,
+    and regulatory adherence.
+  llm: openai/gpt-4o
+  tools:
+  - Legal_Research_Tool
+  - Compliance_Checker
+  - Domain_Legal_Analyzer
+  - Regulatory_Monitor
+  verbose: true
+  memory: true
+  max_execution_time: 600
+  max_iterations: 5
+  allow_delegation: true
+  max_rpm: 30
+  planning: true
+  cache: true
+  max_retry_limit: 2
+  respect_context_window: true
+  multimodal: false
+  inject_date: false
+  date_format: '%Y-%m-%d'
+  reasoning: false
+  use_system_prompt: true

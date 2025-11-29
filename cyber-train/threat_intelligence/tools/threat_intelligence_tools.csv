@@ -1,0 +1,32 @@
+Implementation Priority,tool,pillar,type,agent,task,priority,source,url
+,MISP,threat_intelligence,Open Source,threat_analyst,threat_sharing,High,comprehensive_csv,https://github.com/MISP/MISP
+,OpenCTI,threat_intelligence,Open Source,threat_analyst,threat_modeling,High,comprehensive_csv,https://github.com/OpenCTI/OpenCTI
+,TheHive + Cortex,threat_intelligence,Open Source,threat_analyst,threat_analysis,Medium,comprehensive_csv,https://github.com/TheHive-Project/TheHive
+,YARA,threat_intelligence,Open Source,threat_analyst,malware_detection,High,comprehensive_csv,https://github.com/VirusTotal/yara
+,Sigma Rules,threat_intelligence,Open Source,threat_analyst,detection_rules,High,comprehensive_csv,https://github.com/SigmaHQ/sigma
+,Suricata / Zeek,threat_intelligence,Open Source,threat_analyst,network_analysis,Medium,comprehensive_csv,https://github.com/OISF/suricata
+,Osquery,threat_intelligence,Open Source,threat_analyst,endpoint_analysis,Medium,comprehensive_csv,https://github.com/osquery/osquery
+,ATT&CK Navigator (MITRE),threat_intelligence,Open Source,threat_analyst,attack_mapping,High,comprehensive_csv,https://github.com/mitre-attack/attack-navigator
+,IntelMQ,threat_intelligence,Open Source,threat_analyst,threat_processing,Medium,comprehensive_csv,https://github.com/certbund/intelmq
+,Recorded Future,threat_intelligence,Commercial,threat_analyst,threat_intelligence,High,comprehensive_csv,https://docs.recordedfuture.com
+,Anomali ThreatStream,threat_intelligence,Commercial,threat_analyst,threat_intelligence,High,comprehensive_csv,https://docs.anomali.com
+,ThreatConnect,threat_intelligence,Commercial,threat_analyst,threat_intelligence,High,comprehensive_csv,https://docs.threatconnect.com
+,CrowdStrike Falcon X,threat_intelligence,Commercial,threat_analyst,threat_intelligence,High,comprehensive_csv,https://www.crowdstrike.com
+,Palo Alto AutoFocus,threat_intelligence,Commercial,threat_analyst,threat_intelligence,High,comprehensive_csv,https://docs.paloaltonetworks.com/autofocus
+,Flashpoint,threat_intelligence,Commercial,threat_analyst,threat_intelligence,High,comprehensive_csv,https://docs.flashpoint-intel.com
+,IBM X-Force Exchange,threat_intelligence,Commercial,threat_analyst,threat_intelligence,Medium,comprehensive_csv,https://exchange.xforce.ibmcloud.com
+,FireEye/Mandiant Threat Intelligence,threat_intelligence,Commercial,threat_analyst,threat_intelligence,High,comprehensive_csv,https://www.mandiant.com/resources/blog
+,Check Point ThreatCloud,threat_intelligence,Commercial,threat_analyst,threat_intelligence,High,comprehensive_csv,https://sc1.checkpoint.com/documents
+,Cisco Talos,threat_intelligence,Commercial,threat_analyst,threat_intelligence,High,comprehensive_csv,https://blog.talosintelligence.com
+,MITRE ATT&CK Navigator,threat_intelligence,Open Source,threat_analyst,attack_mapping,High,comprehensive_csv,https://github.com/mitre-attack/attack-navigator
+,Caldera,threat_intelligence,Open Source,red_teamer,adversary_emulation,High,comprehensive_csv,https://github.com/mitre/caldera
+,Atomic Red Team,threat_intelligence,Open Source,red_teamer,atomic_testing,High,comprehensive_csv,https://github.com/redcanaryco/atomic-red-team
+,MITRE CALDERA,threat_intelligence,Open Source,threat_analyst,automated_adversary,High,comprehensive_csv,https://github.com/mitre/caldera
+,Threat Dragon,threat_intelligence,Open Source,threat_analyst,threat_modeling,High,comprehensive_csv,https://github.com/OWASP/threat-dragon
+,pytm,threat_intelligence,Open Source,threat_analyst,threat_modeling,Medium,comprehensive_csv,https://github.com/izar/pytm
+,ThreatSpec,threat_intelligence,Open Source,threat_analyst,threat_modeling,Medium,comprehensive_csv,https://github.com/threatspec/threatspec
+,Seasponge,threat_intelligence,Open Source,threat_analyst,threat_modeling,Low,comprehensive_csv,https://github.com/OWASP/seasponge
+,Mozilla Rapid Risk Assessment,threat_intelligence,Open Source,threat_analyst,risk_assessment,Medium,comprehensive_csv,https://github.com/mozilla/rapid-risk-assessment
+,OWASP Threat Model Cookbook,threat_intelligence,Open Source,threat_analyst,threat_modeling,Medium,comprehensive_csv,https://github.com/OWASP/threat-model-cookbook
+,Cairis,threat_intelligence,Open Source,threat_analyst,requirements_engineering,Low,comprehensive_csv,https://github.com/cairis-platform/cairis
+,IriusRisk Community,threat_intelligence,Open Source,threat_analyst,threat_modeling,Medium,comprehensive_csv,https://github.com/iriusrisk/community-edition

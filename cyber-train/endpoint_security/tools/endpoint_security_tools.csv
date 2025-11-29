@@ -1,0 +1,39 @@
+Implementation Priority,tool,pillar,type,agent,task,priority,source,url
+,OSQuery,endpoint_security,Open Source,endpoint_engineer,endpoint_visibility,High,comprehensive_csv,https://github.com/osquery/osquery
+,Wazuh,endpoint_security,Open Source,soc_analyst,endpoint_monitoring,Medium,comprehensive_csv,https://github.com/wazuh/wazuh
+,Velociraptor,endpoint_security,Open Source,dfir_analyst,endpoint_forensics,High,comprehensive_csv,https://github.com/Velocidex/velociraptor
+,GRR Rapid Response,endpoint_security,Open Source,dfir_analyst,remote_forensics,High,comprehensive_csv,https://github.com/google/grr
+,ClamAV,endpoint_security,Open Source,endpoint_engineer,antivirus_scanning,Medium,comprehensive_csv,https://github.com/Cisco-Talos/clamav
+,FleetDM,endpoint_security,Open Source,endpoint_engineer,osquery_management,High,comprehensive_csv,https://github.com/fleetdm/fleet
+,Kolide,endpoint_security,Open Source,endpoint_engineer,endpoint_compliance,Medium,comprehensive_csv,https://github.com/kolide/kolide
+,Autopsy/Sleuth Kit,endpoint_security,Open Source,dfir_analyst,disk_analysis,Medium,comprehensive_csv,https://github.com/sleuthkit/autopsy
+,Falco,endpoint_security,Open Source,endpoint_engineer,runtime_security,High,comprehensive_csv,https://github.com/falcosecurity/falco
+,TheHive + Cortex,endpoint_security,Open Source,incident_responder,incident_management,High,comprehensive_csv,https://github.com/TheHive-Project/TheHive
+,CrowdStrike Falcon,endpoint_security,Commercial,endpoint_engineer,endpoint_protection,High,comprehensive_csv,https://www.crowdstrike.com
+,Microsoft Defender for Endpoint (MDE),endpoint_security,Commercial,endpoint_engineer,endpoint_protection,High,comprehensive_csv,https://docs.microsoft.com/en-us/microsoft-365/security/defender-endpoint
+,SentinelOne Singularity,endpoint_security,Commercial,endpoint_engineer,endpoint_protection,High,comprehensive_csv,https://docs.sentinelone.com
+,Carbon Black (VMware),endpoint_security,Commercial,endpoint_engineer,endpoint_protection,High,comprehensive_csv,https://www.vmware.com/products/carbon-black-cloud.html
+,Sophos Intercept X,endpoint_security,Commercial,endpoint_engineer,endpoint_protection,High,comprehensive_csv,https://docs.sophos.com
+,McAfee Endpoint Security,endpoint_security,Commercial,endpoint_engineer,endpoint_protection,High,comprehensive_csv,https://docs.mcafee.com
+,Symantec Endpoint Protection,endpoint_security,Commercial,endpoint_engineer,endpoint_protection,High,comprehensive_csv,https://docs.broadcom.com/symantec
+,Jamf Pro,endpoint_security,Commercial,endpoint_engineer,apple_mdm,High,comprehensive_csv,https://docs.jamf.com
+,MobileIron / Ivanti,endpoint_security,Commercial,endpoint_engineer,mobile_device_management,High,comprehensive_csv,https://docs.ivanti.com
+,Zscaler Client Connector,endpoint_security,Commercial,endpoint_engineer,zero_trust_access,High,comprehensive_csv,https://help.zscaler.com/zia
+,Fleet,endpoint_security,Open Source,endpoint_engineer,osquery_management,High,comprehensive_csv,https://github.com/fleetdm/fleet
+,Kolide,endpoint_security,Open Source,endpoint_engineer,endpoint_compliance,Medium,comprehensive_csv,https://github.com/kolide/kolide
+,YARA,endpoint_security,Open Source,endpoint_engineer,malware_detection,High,comprehensive_csv,https://github.com/VirusTotal/yara
+,Sigma,endpoint_security,Open Source,endpoint_engineer,detection_rules,High,comprehensive_csv,https://github.com/SigmaHQ/sigma
+,Hayabusa,endpoint_security,Open Source,endpoint_engineer,windows_event_analysis,Medium,comprehensive_csv,https://github.com/Yamato-Security/hayabusa
+,Chainsaw,endpoint_security,Open Source,endpoint_engineer,windows_event_analysis,Medium,comprehensive_csv,https://github.com/countercept/chainsaw
+,Sysmon,endpoint_security,Open Source,endpoint_engineer,windows_monitoring,High,comprehensive_csv,https://docs.microsoft.com/en-us/sysinternals/downloads/sysmon
+,Auditd,endpoint_security,Open Source,endpoint_engineer,linux_auditing,High,comprehensive_csv,https://github.com/linux-audit/audit-userspace
+,AIDE,endpoint_security,Open Source,endpoint_engineer,file_integrity,Medium,comprehensive_csv,https://aide.github.io
+,Samhain,endpoint_security,Open Source,endpoint_engineer,file_integrity,Low,comprehensive_csv,https://github.com/lsst/samhain
+,Tripwire Open Source,endpoint_security,Open Source,endpoint_engineer,file_integrity,Medium,comprehensive_csv,https://github.com/Tripwire/tripwire-open-source
+,Sophos,endpoint_security,Commercial,endpoint_engineer,endpoint_protection,High,comprehensive_csv,https://docs.sophos.com
+,Kaspersky,endpoint_security,Commercial,endpoint_engineer,endpoint_protection,High,comprehensive_csv,https://support.kaspersky.com
+,Bitdefender,endpoint_security,Commercial,endpoint_engineer,endpoint_protection,High,comprehensive_csv,https://www.bitdefender.com/business
+,ESET,endpoint_security,Commercial,endpoint_engineer,endpoint_protection,Medium,comprehensive_csv,https://help.eset.com
+,Malwarebytes,endpoint_security,Commercial,endpoint_engineer,malware_removal,Medium,comprehensive_csv,https://support.malwarebytes.com
+,Windows Defender,endpoint_security,Commercial,endpoint_engineer,endpoint_protection,High,comprehensive_csv,https://docs.microsoft.com/en-us/microsoft-365/security/defender-endpoint
+,McAfee,endpoint_security,Commercial,endpoint_engineer,endpoint_protection,Medium,comprehensive_csv,https://docs.mcafee.com

@@ -1,0 +1,183 @@
+vendor_policy_definition_task:
+  description: >
+    Define vendor risk management policies including onboarding requirements,
+    continuous monitoring, and exit processes. Use Vendor Risk Policy Generator
+    and Compliance Mapping Tool.
+  expected_output: >
+    {"policy":"Vendor Risk Management","tiers":["critical","non-critical"],"requirements":["SOC2","MFA","incident SLA <24h"]}
+  agent: vendor_strategist
+  output_file: output/vendor_policy.json
+
+vendor_onboarding_assessment_task:
+  description: >
+    Conduct onboarding assessments using Vendor Questionnaire Tool, Security Ratings Tool,
+    and SBOM Analyzer. Validate SOC2/ISO certifications and identify control gaps.
+  expected_output: >
+    {"vendor":"Acme SaaS","tier":"critical","score":85,"gaps":["no SSO","weak MFA","SBOM missing"]}
+  agent: vendor_risk_analyst
+  context: [vendor_policy_definition_task]
+  output_file: output/vendor_onboarding.json
+
+vendor_sbom_assessment_task:
+  description: >
+    Ingest vendor SBOMs using SBOM Analyzer and Dependency Vulnerability Scanner.
+    Identify vulnerable libraries or high-risk dependencies.
+  expected_output: >
+    {"vendor":"Acme SaaS","dependencies_checked":500,"critical_vulns":12,"status":"fail"}
+  agent: vendor_supply_chain_analyst
+  context: [vendor_onboarding_assessment_task]
+  output_file: output/vendor_sbom.json
+
+fourth_party_risk_task:
+  description: >
+    Identify vendors’ subcontractors and map 4th-party dependencies using Supply Chain Risk Tool.
+    Correlate with external threat intelligence.
+  expected_output: >
+    {"vendor":"Acme SaaS","fourth_parties":["AWS","PaymentAPI"],"risks":["AWS region lock-in"]}
+  agent: vendor_supply_chain_analyst
+  context: [vendor_onboarding_assessment_task]
+  output_file: output/vendor_fourthparty.json
+
+vendor_integration_security_task:
+  description: >
+    Scan vendor APIs and integrations using API Security Scanner and SaaS Security Posture Tool.
+    Detect insecure endpoints, excessive permissions, or misconfigs.
+  expected_output: >
+    {"vendor":"Acme SaaS","integrations":5,"issues":["unencrypted API","excessive OAuth scopes"]}
+  agent: vendor_monitoring_engineer
+  context: [vendor_onboarding_assessment_task]
+  output_file: output/vendor_integration.json
+
+vendor_continuous_monitoring_task:
+  description: >
+    Continuously monitor vendors with Security Ratings Tool, CASB, and SIEM.
+    Detect breaches, posture drift, or risky behaviors.
+  expected_output: >
+    {"vendor":"Acme SaaS","rating":"B","alerts":["breach reported","OAuth misconfig"],"status":"escalated"}
+  agent: vendor_monitoring_engineer
+  output_file: output/vendor_monitoring.json
+
+vendor_data_residency_task:
+  description: >
+    Validate vendor data storage and processing against data residency/sovereignty requirements.
+    Use Data Privacy Assessment Tool.
+  expected_output: >
+    {"vendor":"Acme SaaS","geo":"EU","compliant":false,"issues":["data stored in US"]}
+  agent: vendor_risk_analyst
+  context: [vendor_onboarding_assessment_task]
+  output_file: output/vendor_dataresidency.json
+
+ai_vendor_risk_task:
+  description: >
+    Assess AI vendors for governance, training data usage, bias controls, and compliance.
+    Use AI Vendor Risk Tool and Compliance Mapping Tool.
+  expected_output: >
+    {"vendor":"AI SaaS","bias_controls":true,"training_data":"proprietary","privacy_risk":"medium"}
+  agent: ai_vendor_risk_specialist
+  context: [vendor_onboarding_assessment_task]
+  output_file: output/vendor_ai.json
+
+saas_sprawl_task:
+  description: >
+    Discover unauthorized SaaS apps using CASB and SaaS Discovery Tool.
+    Flag shadow IT and enforce consolidation.
+  expected_output: >
+    {"discovered_saas":120,"approved":80,"shadow":40,"action":"remediate"}
+  agent: saas_governance_engineer
+  output_file: output/saas_sprawl.json
+
+vendor_thirdparty_threat_intel_task:
+  description: >
+    Correlate vendor domains/IPs with threat intel (dark web, APT activity).
+    Use Threat Intelligence Tool.
+  expected_output: >
+    {"vendor":"Acme SaaS","ioc_hits":["ip:203.0.113.10"],"threat_actor":"TA505"}
+  agent: vendor_risk_analyst
+  context: [vendor_continuous_monitoring_task]
+  output_file: output/vendor_threatintel.json
+
+vendor_drift_detection_task:
+  description: >
+    Detect configuration drift in vendor integrations with Integration Drift Detector.
+    Roll back unauthorized changes.
+  expected_output: >
+    {"vendor":"Acme SaaS","drift":["OAuth scope added"],"remediation":"rollback"}
+  agent: vendor_monitoring_engineer
+  output_file: output/vendor_drift.json
+
+vendor_incident_response_task:
+  description: >
+    Manage vendor-related incidents (supply chain breach, SaaS compromise).
+    Use SIEM Tool and Incident Response Tool to isolate integrations and notify stakeholders.
+  expected_output: >
+    {"incident_id":"INC901","vendor":"Acme SaaS","action":["integration disabled","execs notified"]}
+  agent: vendor_monitoring_engineer
+  context: [vendor_continuous_monitoring_task, vendor_thirdparty_threat_intel_task]
+  output_file: output/vendor_ir.json
+
+vendor_threat_simulation_task:
+  description: >
+    Conduct tabletop/red team simulations of vendor compromise scenarios.
+    Measure response readiness and control effectiveness.
+  expected_output: >
+    {"simulation":"vendor breach","score":78,"gaps":["slow comms"],"actions":["improve escalation"]}
+  agent: vendor_risk_analyst
+  output_file: output/vendor_simulation.json
+
+vendor_financial_risk_task:
+  description: >
+    Assess vendors’ financial health using external ratings and viability metrics.
+    Detect risks like bankruptcy or M&A instability.
+  expected_output: >
+    {"vendor":"Acme SaaS","credit_score":"B","financial_risk":"medium"}
+  agent: vendor_supply_chain_analyst
+  output_file: output/vendor_financial.json
+
+contract_lifecycle_task:
+  description: >
+    Track contract renewals, breach clauses, and offboarding obligations.
+    Use Contract Review Tool.
+  expected_output: >
+    {"vendor":"Acme SaaS","contract_end":"2025-12-31","renewal_risk":"high"}
+  agent: vendor_strategist
+  output_file: output/vendor_contracts.json
+
+vendor_audit_task:
+  description: >
+    Audit vendors for SLA/contractual compliance with Audit Checklist Tool and SLA Compliance Tool.
+  expected_output: >
+    {"vendor":"Acme SaaS","sla":"breach notification <24h","status":"compliant","score":90}
+  agent: vendor_auditor
+  context: [vendor_onboarding_assessment_task, vendor_continuous_monitoring_task, contract_lifecycle_task]
+  output_file: output/vendor_audit.json
+
+vendor_risk_scoring_task:
+  description: >
+    Generate vendor risk scores blending criticality, SBOM results, 4th-party dependencies,
+    AI risks, data residency, financial viability, and threat intel.
+  expected_output: >
+    {"vendor":"Acme SaaS","risk_score":72,"tier":"critical","status":"medium-risk"}
+  agent: vendor_auditor
+  context: [vendor_audit_task, vendor_sbom_assessment_task, vendor_financial_risk_task, vendor_data_residency_task]
+  output_file: output/vendor_risk.json
+
+regulatory_reporting_task:
+  description: >
+    Automate reporting of high-risk vendor issues to regulators or ISACs.
+    Use Regulatory Reporting Tool.
+  expected_output: >
+    {"vendor":"Acme SaaS","incident":"data breach","regulator_notified":true}
+  agent: vendor_auditor
+  context: [vendor_incident_response_task, vendor_audit_task]
+  output_file: output/vendor_regulatory.json
+
+vendor_metrics_reporting_task:
+  description: >
+    Generate executive dashboards with Reporting Dashboard Tool.
+    Include onboarding, monitoring alerts, SBOM findings, 4th-party risks,
+    AI assessments, financial risks, audits, and risk scores.
+  expected_output: >
+    {"vendors_total":300,"critical":40,"risk_high":8,"breaches_reported":3,"audit_compliance":92,"ai_vendors":15}
+  agent: vendor_auditor
+  context: [vendor_audit_task, vendor_risk_scoring_task, regulatory_reporting_task]
+  output_file: output/vendor_metrics.json

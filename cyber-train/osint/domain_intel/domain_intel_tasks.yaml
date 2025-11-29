@@ -1,0 +1,282 @@
+rfi_domain_investigation:
+  description: 'Ad-hoc investigation of a suspicious domain/FQDN with WHOIS, pDNS,
+    CT logs, infra graph.
+
+    '
+  expected_output: "{\"domain\":\"secure-login-apple.com\",\"registrant\":\"PrivacyGuard\
+    \ LLC\",\n \"pDNS_records\":[\"1.2.3.4\"],\"certs\":[\"SHA256:abcd\"],\n \"related_domains\"\
+    :[\"apple-login-secure.com\"],\"confidence\":0.93,\n \"risk_rationale\":[\"brand_distance>0.9\"\
+    ,\"fast_flux_score>0.7\"],\n \"legal_basis\":\"public WHOIS, CT logs, licensed\
+    \ pDNS\",\n \"privacy_minimization\":\"contacts hashed; 365d retention\",\n \"\
+    chain_of_custody\":\"s3://domainintel/evidence/coc_case_101.pdf\",\n \"evidence_hash\"\
+    :\"SHA256:...\",\"report_uri\":\"s3://domainintel/reports/domain_investigation.pdf\"\
+    }\n"
+  agent: domain_threat_analyst
+  output_file: output/rfi_domain_investigation.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+rfi_takedown_package:
+  description: 'Compile registrar/CA takedown evidence pack with WHOIS, pDNS, CT log,
+    and abuse samples.
+
+    '
+  expected_output: "{\"domain\":\"phish-bank-login.net\",\"registrar\":\"NameCheap\"\
+    ,\n \"evidence_pack_uri\":\"s3://domainintel/evidence/phish_bank.zip\",\n \"recommended_action\"\
+    :\"Registrar suspension\",\"confidence\":0.9,\n \"chain_of_custody\":\"s3://domainintel/coc/case_102.pdf\"\
+    ,\"evidence_hash\":\"SHA256:...\"}\n"
+  agent: socmint_strategist
+  output_file: output/rfi_takedown_package.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+rfi_reverse_whois_attribution:
+  description: 'Reverse WHOIS and infra correlation for registrant/email across pDNS
+    and CT.
+
+    '
+  expected_output: "{\"seed\":\"admin@privacyguard.tld\",\"domains\":218,\"clusters\"\
+    :7,\n \"risk_rationale\":[\"whois_reuse\",\"ns_reuse\",\"spki_reuse\"],\n \"chain_of_custody\"\
+    :\"s3://domainintel/evidence/coc_revwhois_103.pdf\",\n \"report_uri\":\"s3://domainintel/reports/revwhois_103.pdf\"\
+    }\n"
+  agent: domain_threat_analyst
+  output_file: output/rfi_reverse_whois_attribution.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+rfi_ca_misissuance_report:
+  description: 'Investigate suspected certificate mis-issuance (brand collision/CAA
+    violation).
+
+    '
+  expected_output: "{\"fqdn\":\"login-acme-support.com\",\"issue_type\":\"CAA_violation\"\
+    ,\"ct_entry_id\":\"12345\",\n \"evidence_pack\":\"s3://domainintel/evidence/ca_case_017.zip\"\
+    ,\n \"chain_of_custody\":\"s3://domainintel/coc/ca_case_017.pdf\",\n \"report_uri\"\
+    :\"s3://domainintel/reports/ca_case_017.pdf\"}\n"
+  agent: certificate_hunting_analyst
+  output_file: output/rfi_ca_misissuance_report.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+new_domain_monitoring:
+  description: Detect new domains relevant to monitored entities.
+  expected_output: "{\"new_domains\":42,\"brand_matches\":7,\n \"ioc_feed_uri\":\"\
+    s3://domainintel/daily/new_domains.stix\"}\n"
+  agent: domain_threat_analyst
+  output_file: output/daily_new_domain_monitoring.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+dns_drift_monitoring:
+  description: Track DNS record changes and flag anomalies.
+  expected_output: "{\"domain\":\"corp-example.net\",\"changed_records\":[\"MX\",\"\
+    NS\"],\n \"alert_uri\":\"s3://domainintel/alerts/dns_drift.pdf\"}\n"
+  agent: pdns_engineer
+  output_file: output/daily_dns_drift_monitoring.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+ct_log_delta:
+  description: Monitor CT logs for new certs matching brand patterns.
+  expected_output: "{\"brand\":\"AcmeCorp\",\"new_certs\":12,\"suspicious_certs\"\
+    :3,\n \"ct_log_uri\":\"s3://domainintel/daily/ct_deltas.json\"}\n"
+  agent: certificate_hunting_analyst
+  output_file: output/daily_ct_log_delta.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+typosquat_radar:
+  description: Generate brand lookalike candidates with CT and pDNS enrichment.
+  expected_output: "{\"brand\":\"AcmeCorp\",\"candidates\":84,\"high_risk\":11,\n\
+    \ \"ioc_feed_uri\":\"s3://domainintel/daily/typosquat_candidates.stix\"}\n"
+  agent: socmint_strategist
+  output_file: output/daily_typosquat_radar.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+stix_taxii_publish:
+  description: Publish daily IOC feed in STIX 2.1 via TAXII.
+  expected_output: "{\"objects_published\":1264,\"taxii_status\":\"200/OK\",\n \"\
+    report_uri\":\"s3://domainintel/daily/stix_publish.pdf\"}\n"
+  agent: pdns_engineer
+  output_file: output/daily_stix_taxii_publish.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+infra_cluster_report:
+  description: Generate infra clustering graphs (pDNS, certs, ASN).
+  expected_output: '{"clusters":5,"domains":320,"graph_uri":"s3://domainintel/weekly/infra_graph.json"}
+
+    '
+  agent: domain_threat_analyst
+  output_file: output/weekly_infra_cluster_report.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+takedown_status_review:
+  description: Track takedown filings and registrar/host cooperation.
+  expected_output: "{\"filings\":14,\"success_rate\":0.72,\n \"report_uri\":\"s3://domainintel/weekly/takedown_status.pdf\"\
+    }\n"
+  agent: registrar_relations_manager
+  output_file: output/weekly_takedown_status_review.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+model_eval:
+  description: Evaluate DGA/flux detection models.
+  expected_output: "{\"precision\":0.91,\"recall\":0.86,\"drift_detected\":false,\n\
+    \ \"report_uri\":\"s3://domainintel/weekly/model_eval.pdf\"}\n"
+  agent: detection_scientist
+  output_file: output/weekly_model_eval.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+ct_hunting_rules:
+  description: Maintain and evaluate CT hunting rules.
+  expected_output: "{\"rules_evaluated\":42,\"precision\":0.93,\"recall\":0.88,\n\
+    \ \"report_uri\":\"s3://domainintel/weekly/ct_rules_eval.pdf\"}\n"
+  agent: certificate_hunting_analyst
+  output_file: output/weekly_ct_hunting_rules.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+ioc_efficacy_review:
+  description: Measure SIEM hits/misses and FP rate for domain IOC feeds.
+  expected_output: "{\"iocs_tested\":3489,\"hit_rate\":0.61,\"false_positive_rate\"\
+    :0.12,\n \"report_uri\":\"s3://domainintel/weekly/ioc_efficacy.pdf\"}\n"
+  agent: pdns_engineer
+  output_file: output/weekly_ioc_efficacy_review.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+registrar_risk_ranking:
+  description: Rank registrars/hosts by abuse rates and responsiveness.
+  expected_output: "{\"registrar_scores\":[{\"NameCheap\":0.72},{\"GoDaddy\":0.63}],\n\
+    \ \"report_uri\":\"s3://domainintel/monthly/registrar_risk.pdf\"}\n"
+  agent: registrar_relations_manager
+  output_file: output/monthly_registrar_risk_ranking.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+compliance_audit:
+  description: Compliance audit of evidence packs and takedown process.
+  expected_output: "{\"audit_scope\":\"Q3-2025\",\"findings\":2,\"resolved\":2,\"\
+    pass_rate\":1.0,\n \"report_uri\":\"s3://domainintel/monthly/compliance_audit.pdf\"\
+    }\n"
+  agent: domain_data_steward
+  output_file: output/monthly_compliance_audit.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+email_auth_posture:
+  description: Assess DMARC/SPF/DKIM posture for monitored domains.
+  expected_output: "{\"domains_evaluated\":412,\"dmarc_adoption_pct\":0.72,\n \"spoofable_domains\"\
+    :63,\"report_uri\":\"s3://domainintel/monthly/email_auth.pdf\"}\n"
+  agent: domain_threat_analyst
+  output_file: output/monthly_email_auth_posture.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+coverage_audit:
+  description: Audit zone/TLD coverage, pDNS redundancy, CT completeness.
+  expected_output: "{\"tld_coverage_pct\":0.92,\"pdns_redundancy_score\":0.84,\n \"\
+    blindspots\":[\"ccTLD_X\"],\"report_uri\":\"s3://domainintel/monthly/coverage_audit.pdf\"\
+    }\n"
+  agent: domain_data_steward
+  output_file: output/monthly_coverage_audit.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+exec_brief:
+  description: Executive brief on domain threats, registrar/host trends, takedown
+    ROI.
+  expected_output: "{\"new_campaigns\":12,\"takedowns\":47,\n \"brief_uri\":\"s3://domainintel/quarterly/exec_brief.pptx\"\
+    }\n"
+  agent: domain_intelligence_strategist
+  output_file: output/quarterly_exec_brief.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+red_team_simulation:
+  description: Simulate phishing/brand abuse attack with new domains.
+  expected_output: "{\"scenario\":\"phishing-drill\",\"detection_rate\":0.87,\n \"\
+    report_uri\":\"s3://domainintel/quarterly/red_team.pdf\"}\n"
+  agent: detection_scientist
+  output_file: output/quarterly_red_team_simulation.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+dpia_tos_review:
+  description: DPIA and ToS review of WHOIS/RDAP, pDNS, CT logs.
+  expected_output: '{"issues_found":2,"resolved":2,"report_uri":"s3://domainintel/quarterly/dpia_review.pdf"}
+
+    '
+  agent: domain_data_steward
+  output_file: output/quarterly_dpia_tos_review.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+strategy_review:
+  description: Refresh domain intelligence strategy, vendor ecosystem, and roadmap.
+  expected_output: "{\"year\":2025,\"vendors_reviewed\":12,\"maturity_score\":0.82,\n\
+    \ \"strategy_doc_uri\":\"s3://domainintel/yearly/strategy.pdf\"}\n"
+  agent: domain_intelligence_strategist
+  output_file: output/yearly_strategy_review.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+tld_registrar_benchmark:
+  description: Benchmark TLD/registrar abuse rates, takedown SLAs, policy friction.
+  expected_output: "{\"registrars_ranked\":98,\"avg_tttd_hours_p50\":48,\n \"league_table_uri\"\
+    :\"s3://domainintel/yearly/registrar_benchmark.pdf\"}\n"
+  agent: registrar_relations_manager
+  output_file: output/yearly_tld_registrar_benchmark.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3

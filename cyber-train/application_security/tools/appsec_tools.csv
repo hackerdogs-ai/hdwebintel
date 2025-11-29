@@ -1,0 +1,181 @@
+Implementation Priority,tool,pillar,type,agent,task,priority,source,url
+,OWASP ZAP,application_security,Open Source,appsec_engineer,dast_scanning,High,wiz_io,https://github.com/zaproxy/zaproxy
+,SonarQube (Community),application_security,Open Source,appsec_engineer,sast_scanning,High,wiz_io,https://github.com/SonarSource/sonarqube
+,Grype,application_security,Open Source,appsec_engineer,container_scanning,High,comprehensive_csv,https://github.com/anchore/grype
+,Dependency-Check (OWASP),application_security,Open Source,appsec_engineer,dependency_scanning,High,wiz_io,https://github.com/jeremylong/DependencyCheck
+,FindSecBugs,application_security,Open Source,appsec_engineer,java_sast,Medium,comprehensive_csv,https://github.com/find-sec-bugs/find-sec-bugs
+,Semgrep,application_security,Open Source,appsec_engineer,static_analysis,High,wiz_io,https://github.com/returntocorp/semgrep
+,GuardDog,application_security,Open Source,appsec_engineer,malicious_package_detection,High,comprehensive_csv,https://github.com/DataDog/guarddog
+,Gauntlt,application_security,Open Source,devsecops_engineer,security_testing_automation,Medium,comprehensive_csv,https://github.com/gauntlt/gauntlt
+,Threat Dragon (OWASP),application_security,Open Source,appsec_engineer,threat_modeling,High,owasp,https://github.com/OWASP/threat-dragon
+,CodeQL,application_security,Open Source,appsec_engineer,static_analysis,High,wiz_io,https://github.com/github/codeql
+,SpotBugs,application_security,Open Source,appsec_engineer,static_analysis,Medium,comprehensive_csv,https://github.com/spotbugs/spotbugs
+,PMD,application_security,Open Source,appsec_engineer,static_analysis,Medium,comprehensive_csv,https://github.com/pmd/pmd
+,Checkstyle,application_security,Open Source,appsec_engineer,code_quality,Low,comprehensive_csv,https://github.com/checkstyle/checkstyle
+,Horusec,application_security,Open Source,appsec_engineer,sast_scanning,High,comprehensive_csv,https://github.com/ZupIT/horusec
+,Bearer,application_security,Open Source,appsec_engineer,data_flow_analysis,High,wiz_io,https://github.com/bearer/bearer
+,Gosec,application_security,Open Source,appsec_engineer,go_security_scanner,High,comprehensive_csv,https://github.com/securecodewarrior/gosec
+,StaticCheck,application_security,Open Source,appsec_engineer,go_static_analysis,Medium,comprehensive_csv,https://github.com/dominikh/go-tools
+,Psalm,application_security,Open Source,appsec_engineer,php_static_analysis,Medium,comprehensive_csv,https://github.com/vimeo/psalm
+,Phan,application_security,Open Source,appsec_engineer,php_static_analysis,Low,comprehensive_csv,https://github.com/phan/phan
+,PHPStan,application_security,Open Source,appsec_engineer,php_static_analysis,Medium,comprehensive_csv,https://github.com/phpstan/phpstan
+,Brakeman,application_security,Open Source,appsec_engineer,rails_security_scanner,High,wiz_io,https://github.com/presidentbeef/brakeman
+,RuboCop,application_security,Open Source,appsec_engineer,ruby_static_analysis,Medium,comprehensive_csv,https://github.com/rubocop/rubocop
+,Flawfinder,application_security,Open Source,appsec_engineer,c_cpp_scanner,Medium,comprehensive_csv,https://github.com/david-a-wheeler/flawfinder
+,Cppcheck,application_security,Open Source,appsec_engineer,c_cpp_scanner,Medium,comprehensive_csv,https://github.com/danmar/cppcheck
+,Clang Static Analyzer,application_security,Open Source,appsec_engineer,c_cpp_scanner,High,comprehensive_csv,https://github.com/llvm/llvm-project
+,Retire.js,application_security,Open Source,appsec_engineer,javascript_vulnerability_scanning,High,wiz_io,https://github.com/retirejs/retire.js
+,GitHub Secret Scanning,application_security,Open Source,appsec_engineer,secrets_detection,High,wiz_io,https://github.com/github/secret-scanning
+,GitGuardian,application_security,Commercial,appsec_engineer,secrets_detection,High,wiz_io,https://docs.gitguardian.com/api
+,TruffleHog,application_security,Open Source,appsec_engineer,secrets_detection,High,wiz_io,https://github.com/trufflesecurity/trufflehog
+,Wapiti,application_security,Open Source,appsec_engineer,dast_scanning,High,wiz_io,https://github.com/wapiti-scanner/wapiti
+,Nikto,application_security,Open Source,appsec_engineer,web_vulnerability_scanning,High,wiz_io,https://github.com/sullo/nikto
+,sqlmap,application_security,Open Source,pen_tester,sql_injection_testing,High,wiz_io,https://github.com/sqlmapproject/sqlmap
+,Metasploit,application_security,Open Source,pen_tester,penetration_testing,High,wiz_io,https://github.com/rapid7/metasploit-framework
+,w3af,application_security,Open Source,appsec_engineer,web_application_audit,High,wiz_io,https://github.com/andresriancho/w3af
+,Burp Suite Community,application_security,Open Source,appsec_engineer,web_application_testing,High,wiz_io,https://github.com/PortSwigger/burp-suite-community
+,Postman + Security Plugins,application_security,Open Source,appsec_engineer,api_testing,Medium,wiz_io,https://github.com/postmanlabs
+,APIClarity,application_security,Open Source,appsec_engineer,api_discovery,Medium,wiz_io,https://github.com/openclarity/apiclarity
+,42Crunch (Community),application_security,Open Source,appsec_engineer,api_security,Medium,wiz_io,https://github.com/42Crunch
+,Tyk,application_security,Open Source,api_engineer,api_gateway,Medium,wiz_io,https://github.com/TykTechnologies/tyk
+,Kong Gateway (OSS),application_security,Open Source,api_engineer,api_gateway,High,wiz_io,https://github.com/Kong/kong
+,JWT.io,application_security,Open Source,appsec_engineer,api_security,Medium,wiz_io
+,Nmap + NSE Scripts,application_security,Open Source,pen_tester,api_testing,Medium,wiz_io
+,Mitmproxy,application_security,Open Source,appsec_engineer,api_testing,Medium,wiz_io
+,OWASP Dependency-Check,application_security,Open Source,appsec_engineer,dependency_scanning,High,owasp
+,OWASP Threat Dragon,application_security,Open Source,appsec_engineer,threat_modeling,High,owasp
+,OWASP Core Rule Set,application_security,Open Source,appsec_engineer,waf_rules,High,owasp
+,OWASP Top 10,application_security,Framework,appsec_engineer,security_guidelines,High,owasp
+,OWASP API Security Top 10,application_security,Framework,appsec_engineer,api_security_guidelines,High,owasp
+,OWASP ASVS,application_security,Framework,appsec_engineer,security_verification,High,owasp
+,OWASP SAMM,application_security,Framework,appsec_engineer,security_maturity,High,owasp
+,OWASP Proactive Controls,application_security,Framework,appsec_engineer,secure_development,High,owasp
+,OWASP Testing Guide,application_security,Framework,appsec_engineer,security_testing,High,owasp
+,OWASP Code Review Guide,application_security,Framework,appsec_engineer,code_review,High,owasp
+,OWASP Secure Coding Practices,application_security,Framework,appsec_engineer,secure_coding,High,owasp
+,OWASP Cheat Sheet Series,application_security,Framework,appsec_engineer,security_guidelines,High,owasp
+,OWASP WebGoat,application_security,Open Source,appsec_engineer,security_training,High,owasp
+,OWASP WebScarab,application_security,Open Source,appsec_engineer,web_proxy,Medium,owasp
+,OWASP DirBuster,application_security,Open Source,appsec_engineer,directory_bruteforce,Medium,owasp
+,OWASP Vega,application_security,Open Source,appsec_engineer,web_vulnerability_scanner,Medium,owasp
+,OWASP Xenotix XSS Exploit Framework,application_security,Open Source,appsec_engineer,xss_testing,Medium,owasp
+,OWASP CSRFGuard,application_security,Open Source,appsec_engineer,csrf_protection,Medium,owasp
+,OWASP ESAPI,application_security,Open Source,appsec_engineer,security_library,High,owasp
+,OWASP Java Encoder,application_security,Open Source,appsec_engineer,input_encoding,High,owasp
+,OWASP HTML Sanitizer,application_security,Open Source,appsec_engineer,html_sanitization,High,owasp
+,OWASP AntiSamy,application_security,Open Source,appsec_engineer,html_sanitization,Medium,owasp
+,OWASP Enterprise Security API,application_security,Open Source,appsec_engineer,security_library,High,owasp
+,OWASP Security Shepherd,application_security,Open Source,appsec_engineer,security_training,High,owasp
+,OWASP Juice Shop,application_security,Open Source,appsec_engineer,security_training,High,owasp
+,OWASP Vulnerable Web Applications Directory,application_security,Open Source,appsec_engineer,security_training,Medium,owasp
+,OWASP Security Knowledge Framework,application_security,Open Source,appsec_engineer,security_guidelines,High,owasp
+,OWASP DevSecOps Maturity Model,application_security,Framework,appsec_engineer,devsecops_maturity,High,owasp
+,OWASP Application Security Verification Standard,application_security,Framework,appsec_engineer,security_verification,High,owasp
+,OWASP Software Assurance Maturity Model,application_security,Framework,appsec_engineer,security_maturity,High,owasp
+,OWASP Mobile Security Testing Guide,application_security,Framework,appsec_engineer,mobile_security,High,owasp
+,OWASP Mobile Top 10,application_security,Framework,appsec_engineer,mobile_security,High,owasp
+,OWASP IoT Top 10,application_security,Framework,appsec_engineer,iot_security,High,owasp
+,OWASP IoT Security Verification Standard,application_security,Framework,appsec_engineer,iot_security,High,owasp
+,OWASP Cloud-Native Application Security Top 10,application_security,Framework,appsec_engineer,cloud_security,High,owasp
+,OWASP Serverless Top 10,application_security,Framework,appsec_engineer,serverless_security,High,owasp
+,OWASP GraphQL Security Cheat Sheet,application_security,Framework,appsec_engineer,graphql_security,High,owasp
+,OWASP REST Security Cheat Sheet,application_security,Framework,appsec_engineer,rest_security,High,owasp
+,OWASP JSON Web Token Cheat Sheet,application_security,Framework,appsec_engineer,jwt_security,High,owasp
+,OWASP Session Management Cheat Sheet,application_security,Framework,appsec_engineer,session_security,High,owasp
+,OWASP Authentication Cheat Sheet,application_security,Framework,appsec_engineer,authentication_security,High,owasp
+,OWASP Password Storage Cheat Sheet,application_security,Framework,appsec_engineer,password_security,High,owasp
+,OWASP Cryptographic Storage Cheat Sheet,application_security,Framework,appsec_engineer,crypto_security,High,owasp
+,OWASP Input Validation Cheat Sheet,application_security,Framework,appsec_engineer,input_validation,High,owasp
+,OWASP Output Encoding Cheat Sheet,application_security,Framework,appsec_engineer,output_encoding,High,owasp
+,OWASP Error Handling Cheat Sheet,application_security,Framework,appsec_engineer,error_handling,High,owasp
+,OWASP Logging Cheat Sheet,application_security,Framework,appsec_engineer,security_logging,High,owasp
+,OWASP Exception Handling Cheat Sheet,application_security,Framework,appsec_engineer,exception_handling,High,owasp
+,OWASP File Upload Cheat Sheet,application_security,Framework,appsec_engineer,file_upload_security,High,owasp
+,OWASP File I/O Cheat Sheet,application_security,Framework,appsec_engineer,file_io_security,High,owasp
+,OWASP Database Security Cheat Sheet,application_security,Framework,appsec_engineer,database_security,High,owasp
+,OWASP SQL Injection Prevention Cheat Sheet,application_security,Framework,appsec_engineer,sql_injection_prevention,High,owasp
+,OWASP LDAP Injection Prevention Cheat Sheet,application_security,Framework,appsec_engineer,ldap_injection_prevention,High,owasp
+,OWASP Command Injection Prevention Cheat Sheet,application_security,Framework,appsec_engineer,command_injection_prevention,High,owasp
+,OWASP XML External Entity Prevention Cheat Sheet,application_security,Framework,appsec_engineer,xxe_prevention,High,owasp
+,OWASP Deserialization Cheat Sheet,application_security,Framework,appsec_engineer,deserialization_security,High,owasp
+,OWASP Mass Assignment Cheat Sheet,application_security,Framework,appsec_engineer,mass_assignment_prevention,High,owasp
+,OWASP Cross-Site Scripting Prevention Cheat Sheet,application_security,Framework,appsec_engineer,xss_prevention,High,owasp
+,OWASP Cross-Site Request Forgery Prevention Cheat Sheet,application_security,Framework,appsec_engineer,csrf_prevention,High,owasp
+,OWASP Clickjacking Defense Cheat Sheet,application_security,Framework,appsec_engineer,clickjacking_prevention,High,owasp
+,OWASP DOM based XSS Prevention Cheat Sheet,application_security,Framework,appsec_engineer,dom_xss_prevention,High,owasp
+,OWASP Content Security Policy Cheat Sheet,application_security,Framework,appsec_engineer,csp_implementation,High,owasp
+,OWASP HTTP Strict Transport Security Cheat Sheet,application_security,Framework,appsec_engineer,hsts_implementation,High,owasp
+,OWASP Secure Headers Cheat Sheet,application_security,Framework,appsec_engineer,security_headers,High,owasp
+,OWASP Transport Layer Protection Cheat Sheet,application_security,Framework,appsec_engineer,tls_security,High,owasp
+,OWASP Configuration Cheat Sheet,application_security,Framework,appsec_engineer,secure_configuration,High,owasp
+,OWASP Access Control Cheat Sheet,application_security,Framework,appsec_engineer,access_control,High,owasp
+,OWASP Business Logic Security Cheat Sheet,application_security,Framework,appsec_engineer,business_logic_security,High,owasp
+,OWASP Resource Exhaustion Cheat Sheet,application_security,Framework,appsec_engineer,resource_exhaustion_prevention,High,owasp
+,OWASP Denial of Service Cheat Sheet,application_security,Framework,appsec_engineer,dos_prevention,High,owasp
+,OWASP Memory Management Cheat Sheet,application_security,Framework,appsec_engineer,memory_security,High,owasp
+,OWASP Buffer Overflow Cheat Sheet,application_security,Framework,appsec_engineer,buffer_overflow_prevention,High,owasp
+,OWASP Integer Overflow Cheat Sheet,application_security,Framework,appsec_engineer,integer_overflow_prevention,High,owasp
+,OWASP Race Condition Cheat Sheet,application_security,Framework,appsec_engineer,race_condition_prevention,High,owasp
+,OWASP Time of Check Time of Use Cheat Sheet,application_security,Framework,appsec_engineer,toc_tou_prevention,High,owasp
+,OWASP Insecure Direct Object Reference Prevention Cheat Sheet,application_security,Framework,appsec_engineer,idor_prevention,High,owasp
+,OWASP Security Misconfiguration Cheat Sheet,application_security,Framework,appsec_engineer,secure_configuration,High,owasp
+,OWASP Sensitive Data Exposure Cheat Sheet,application_security,Framework,appsec_engineer,data_protection,High,owasp
+,OWASP Insufficient Logging and Monitoring Cheat Sheet,application_security,Framework,appsec_engineer,security_monitoring,High,owasp
+,OWASP Using Components with Known Vulnerabilities Cheat Sheet,application_security,Framework,appsec_engineer,dependency_security,High,owasp
+,OWASP Underprotected APIs Cheat Sheet,application_security,Framework,appsec_engineer,api_security,High,owasp
+,OWASP Insufficient Attack Protection Cheat Sheet,application_security,Framework,appsec_engineer,attack_protection,High,owasp
+,OWASP Server-Side Request Forgery Cheat Sheet,application_security,Framework,appsec_engineer,ssrf_prevention,High,owasp
+,OWASP Insecure Deserialization Cheat Sheet,application_security,Framework,appsec_engineer,deserialization_security,High,owasp
+,OWASP Broken Access Control Cheat Sheet,application_security,Framework,appsec_engineer,access_control,High,owasp
+,OWASP Cryptographic Failures Cheat Sheet,application_security,Framework,appsec_engineer,crypto_security,High,owasp
+,OWASP Injection Cheat Sheet,application_security,Framework,appsec_engineer,injection_prevention,High,owasp
+,OWASP Insecure Design Cheat Sheet,application_security,Framework,appsec_engineer,secure_design,High,owasp
+,OWASP Vulnerable and Outdated Components Cheat Sheet,application_security,Framework,appsec_engineer,dependency_security,High,owasp
+,OWASP Identification and Authentication Failures Cheat Sheet,application_security,Framework,appsec_engineer,authentication_security,High,owasp
+,OWASP Software and Data Integrity Failures Cheat Sheet,application_security,Framework,appsec_engineer,integrity_security,High,owasp
+,OWASP Security Logging and Monitoring Failures Cheat Sheet,application_security,Framework,appsec_engineer,security_monitoring,High,owasp
+,TruffleHog,application_security,Open Source,ci_cd_security_engineer,secrets_detection_task,High,comprehensive_csv
+,GitLeaks,application_security,Open Source,ci_cd_security_engineer,secrets_detection_task,High,comprehensive_csv
+,Detect-secrets,application_security,Open Source,ci_cd_security_engineer,secrets_detection_task,High,comprehensive_csv
+,AFL++,application_security,Open Source,appsec_chaos_engineer,fuzz_testing_task,High,comprehensive_csv
+,libFuzzer,application_security,Open Source,appsec_chaos_engineer,fuzz_testing_task,High,comprehensive_csv
+,OSS-Fuzz,application_security,Open Source,appsec_chaos_engineer,fuzz_testing_task,High,comprehensive_csv
+,Chaos Monkey,application_security,Open Source,appsec_chaos_engineer,appsec_chaos_task,High,comprehensive_csv
+,Litmus,application_security,Open Source,appsec_chaos_engineer,appsec_chaos_task,High,comprehensive_csv
+,Chaos Toolkit,application_security,Open Source,appsec_chaos_engineer,appsec_chaos_task,High,comprehensive_csv
+,HackerOne API,application_security,Open Source,bug_bounty_manager,bug_bounty_integration_task,High,comprehensive_csv
+,Bugcrowd API,application_security,Open Source,bug_bounty_manager,bug_bounty_integration_task,High,comprehensive_csv
+,SonarQube,application_security,Open Source,secure_code_mentor,secure_code_review_task,High,comprehensive_csv
+,FOSSA,application_security,Open Source,oss_risk_analyst,oss_license_audit_task,High,comprehensive_csv
+,WhiteSource,application_security,Open Source,oss_risk_analyst,oss_license_audit_task,High,comprehensive_csv
+,Checkov,application_security,Open Source,ci_cd_security_engineer,iac_scanning_task,High,comprehensive_csv
+,Terrascan,application_security,Open Source,ci_cd_security_engineer,iac_scanning_task,High,comprehensive_csv
+,TFSec,application_security,Open Source,ci_cd_security_engineer,iac_scanning_task,High,comprehensive_csv
+,Trivy,application_security,Open Source,ci_cd_security_engineer,container_scanning_task,High,comprehensive_csv,https://github.com/aquasecurity/trivy
+,Clair,application_security,Open Source,ci_cd_security_engineer,container_scanning_task,High,comprehensive_csv
+,Anchore,application_security,Open Source,ci_cd_security_engineer,container_scanning_task,High,comprehensive_csv
+,Jenkins,application_security,Open Source,ci_cd_security_engineer,ci_cd_pipeline_security_task,High,comprehensive_csv
+,GitLab CI,application_security,Open Source,ci_cd_security_engineer,ci_cd_pipeline_security_task,High,comprehensive_csv
+,GitHub Actions,application_security,Open Source,ci_cd_security_engineer,ci_cd_pipeline_security_task,High,comprehensive_csv
+,SonarLint,application_security,Open Source,secure_code_mentor,ide_security_feedback_task,High,comprehensive_csv
+,Grafana,application_security,Open Source,appsec_auditor,appsec_metrics_reporting_task,High,comprehensive_csv
+,Kibana,application_security,Open Source,appsec_auditor,appsec_metrics_reporting_task,High,comprehensive_csv
+,Veracode,application_security,Commercial,appsec_engineer,enterprise_sast_dast,High,comprehensive_csv,https://docs.veracode.com/api
+,Checkmarx One,application_security,Commercial,appsec_engineer,enterprise_sast,High,comprehensive_csv,https://checkmarx.atlassian.net/wiki/spaces/KC/pages/1187774721/Checkmarx+One+API
+,Synopsys Coverity / Black Duck,application_security,Commercial,appsec_engineer,enterprise_sast_sca,High,comprehensive_csv,https://docs.synopsys.com/bundle/coverity-api
+,Fortify (Micro Focus),application_security,Commercial,appsec_engineer,enterprise_sast_dast,High,comprehensive_csv,https://docs.microfocus.com/en-us/fortify
+,Contrast Security,application_security,Commercial,appsec_engineer,iast_rasp,High,comprehensive_csv,https://docs.contrastsecurity.com/api
+,AppScan (HCL),application_security,Commercial,appsec_engineer,enterprise_dast,High,comprehensive_csv,https://help.hcltechsw.com/appscan
+,Burp Suite Pro / Enterprise,application_security,Commercial,appsec_engineer,penetration_testing,High,comprehensive_csv,https://portswigger.net/burp/enterprise
+,WhiteSource / Mend,application_security,Commercial,appsec_engineer,sca_license_compliance,High,comprehensive_csv,https://docs.mend.io/api
+,Snyk,application_security,Commercial,appsec_engineer,developer_friendly_sca,High,comprehensive_csv,https://docs.snyk.io/api
+,GitHub Advanced Security,application_security,Commercial,appsec_engineer,integrated_security,High,comprehensive_csv,https://docs.github.com/en/rest
+,SonarCloud,application_security,Commercial,appsec_engineer,static_analysis,High,comprehensive_csv
+,GitLab Security,application_security,Commercial,appsec_engineer,devsecops,High,comprehensive_csv
+,JFrog Xray,application_security,Commercial,appsec_engineer,dependency_scanning,Medium,comprehensive_csv
+,Aqua Security,application_security,Commercial,appsec_engineer,container_security,High,comprehensive_csv
+,Cloudflare WAF,application_security,Commercial,runtime_appsec_engineer,runtime_waf_task,High,comprehensive_csv
+,AWS WAF,application_security,Commercial,runtime_appsec_engineer,runtime_waf_task,High,comprehensive_csv
+,Imperva RASP,application_security,Commercial,runtime_appsec_engineer,runtime_rasp_task,High,comprehensive_csv
+,Sqreen,application_security,Commercial,runtime_appsec_engineer,runtime_rasp_task,High,comprehensive_csv
+,Tableau,application_security,Commercial,appsec_auditor,appsec_metrics_reporting_task,High,comprehensive_csv

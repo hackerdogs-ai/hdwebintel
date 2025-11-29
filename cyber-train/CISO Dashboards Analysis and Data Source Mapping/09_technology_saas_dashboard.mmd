@@ -1,0 +1,90 @@
+graph TB
+    subgraph "TECHNOLOGY/SAAS CISO DASHBOARD"
+        M1[SOC 2 Type II Compliance Status]
+        M2[Multi-Tenant Data Isolation]
+        M3[API Security Metrics]
+        M4[Cloud Infrastructure Security Posture]
+        M5[DevSecOps Pipeline Security]
+        M6[Container/Kubernetes Security]
+        M7[Third-Party Integration Security]
+        M8[Customer Security Questionnaire Response Time]
+    end
+    
+    subgraph "Data Sources"
+        DS1[SOC 2 Automation Tools<br/>Vanta, Drata, Secureframe]
+        DS2[Cloud Security Posture Management<br/>Prisma Cloud, Wiz, Orca]
+        DS3[API Gateways<br/>Kong, Apigee, AWS API Gateway]
+        DS4[API Security Tools<br/>Salt Security, Traceable]
+        DS5[Container Security<br/>Aqua, Prisma Cloud, Sysdig]
+        DS6[Kubernetes Security Tools]
+        DS7[SAST/DAST Tools<br/>Checkmarx, Veracode, Snyk]
+        DS8[CI/CD Platforms<br/>Jenkins, GitLab, GitHub Actions]
+        DS9[Third-Party Integration Monitoring]
+        DS10[GRC Platforms]
+    end
+    
+    subgraph "Collection Methods"
+        CM1[Continuous Control Monitoring]
+        CM2[Evidence Automation]
+        CM3[Configuration Checks]
+        CM4[Cloud Resource Scanning]
+        CM5[Compliance Validation]
+        CM6[Database Query Isolation Testing]
+        CM7[Network Segmentation Validation]
+        CM8[API Traffic Analysis]
+        CM9[Authentication Monitoring]
+        CM10[Rate Limiting Tracking]
+        CM11[Image Scanning]
+        CM12[Runtime Monitoring]
+        CM13[Automated Scanning in Pipeline]
+        CM14[Vulnerability Tracking]
+        CM15[Integration Testing]
+        CM16[Workflow Tracking]
+    end
+    
+    M1 --> DS1
+    DS1 --> CM1
+    DS1 --> CM2
+    
+    M2 --> DS2
+    DS2 --> CM6
+    DS2 --> CM7
+    
+    M3 --> DS3
+    M3 --> DS4
+    DS3 --> CM8
+    DS3 --> CM9
+    DS4 --> CM10
+    
+    M4 --> DS2
+    DS2 --> CM3
+    DS2 --> CM4
+    DS2 --> CM5
+    
+    M5 --> DS7
+    M5 --> DS8
+    DS7 --> CM13
+    DS7 --> CM14
+    DS8 --> CM13
+    
+    M6 --> DS5
+    M6 --> DS6
+    DS5 --> CM11
+    DS5 --> CM12
+    DS6 --> CM3
+    
+    M7 --> DS9
+    DS9 --> CM15
+    DS9 --> CM9
+    
+    M8 --> DS10
+    DS10 --> CM16
+    
+    style M1 fill:#ffe1e1
+    style M2 fill:#ffe1e1
+    style M3 fill:#ffe1e1
+    style M4 fill:#ffe1e1
+    style M5 fill:#ffe1e1
+    style M6 fill:#ffe1e1
+    style M7 fill:#ffe1e1
+    style M8 fill:#ffe1e1

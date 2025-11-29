@@ -1,0 +1,190 @@
+rfi_health_misinformation_case:
+  description: 'Investigate viral health misinformation case (e.g., false cures, vaccine
+    rumors). Collect posts, verify with WHO/CDC, and generate debunk briefing.
+
+    '
+  expected_output: "{\"case_id\":\"MISINFO-045\",\"platform\":\"Telegram\",\"claim\"\
+    :\"X cures COVID\",\n \"verified_false\":true,\"sources\":[\"WHO fact-check\"\
+    ],\"impact_score\":0.78,\n \"recommendations\":[\"publish debunk\",\"amplify WHO\
+    \ comms\"],\n \"legal_basis\":\"public SOCMINT feeds\",\"privacy_minimization\"\
+    :\"no PII\",\n \"chain_of_custody\":\"s3://medint/coc/misinfo045.pdf\",\n \"report_uri\"\
+    :\"s3://medint/reports/misinfo045.pdf\"}\n"
+  agent: health_misinfo_analyst
+  output_file: output/rfi_health_misinformation_case.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+rfi_wastewater_spike_alert:
+  description: 'Investigate sudden pathogen spike in wastewater at AOI.
+
+    '
+  expected_output: "{\"location\":\"Boston\",\"pathogen\":\"SARS-CoV-2\",\"spike_fold_increase\"\
+    :4.2,\n \"report_uri\":\"s3://medint/reports/ww_boston.pdf\",\n \"legal_basis\"\
+    :\"aggregated WBE dataset\",\"privacy_minimization\":\"aggregate only\",\n \"\
+    chain_of_custody\":\"s3://medint/coc/ww_boston.zip\"}\n"
+  agent: wastewater_analyst
+  output_file: output/rfi_wastewater_spike_alert.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+rfi_supply_chain_risk:
+  description: 'Investigate shortage or disruption in medical supply chain (vaccines,
+    APIs, PPE).
+
+    '
+  expected_output: "{\"risk_id\":\"SUPPLY-112\",\"commodity\":\"N95 masks\",\n \"\
+    shortage_probability\":0.72,\"impact\":\"high\",\n \"recommendations\":[\"increase\
+    \ domestic procurement\",\"diversify vendors\"],\n \"legal_basis\":\"public trade\
+    \ feeds\",\"privacy_minimization\":\"aggregate only\",\n \"chain_of_custody\"\
+    :\"s3://medint/coc/supply112.pdf\"}\n"
+  agent: supply_chain_specialist
+  output_file: output/rfi_supply_chain_risk.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+outbreak_monitoring:
+  description: 'Monitor open-source outbreak reports and dashboards.
+
+    '
+  expected_output: '{"alerts":[{"disease":"Cholera","location":"Haiti", "cases":42,"report_uri":"s3://medint/reports/cholera_daily.pdf"}],
+    "legal_basis":"public dashboards","privacy_minimization":"aggregate only", "chain_of_custody":"s3://medint/coc/cholera_daily.zip"}
+
+    '
+  agent: epidemiology_analyst
+  output_file: output/daily_outbreak_monitoring.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+environmental_health:
+  description: 'Monitor environmental hazards with health implications (air, water,
+    chemical).
+
+    '
+  expected_output: "{\"location\":\"Delhi\",\"pm25\":\"310 µg/m³\",\"aqi\":\"hazardous\"\
+    ,\n \"health_risk\":\"cardiorespiratory\",\"report_uri\":\"s3://medint/reports/env_delhi.pdf\"\
+    ,\n \"legal_basis\":\"OpenAQ public data\",\"privacy_minimization\":\"no PII\"\
+    ,\n \"chain_of_custody\":\"s3://medint/coc/env_delhi.pdf\"}\n"
+  agent: environmental_health_analyst
+  output_file: output/daily_environmental_health.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+variant_tracking:
+  description: 'Generate weekly pathogen variant updates from genomic databases.
+
+    '
+  expected_output: "{\"variant\":\"Omicron BA.2.86\",\"lineage\":\"PANGO\",\"mutations\"\
+    :[\"S:E484K\",\"S:N501Y\"],\n \"report_uri\":\"s3://medint/reports/variant_ba286.pdf\"\
+    ,\n \"legal_basis\":\"GISAID/Nextstrain with usage rights\",\n \"privacy_minimization\"\
+    :\"de-identified sequences\",\n \"chain_of_custody\":\"s3://medint/coc/variant_ba286.zip\"\
+    }\n"
+  agent: genomics_specialist
+  output_file: output/weekly_variant_tracking.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+supply_chain_scan:
+  description: 'Monitor medical/pharma supply chain risks (APIs, reagents, PPE).
+
+    '
+  expected_output: "{\"commodities\":[\"Remdesivir API\",\"latex gloves\"],\"risks\"\
+    :[\"export ban\",\"shortage\"],\n \"report_uri\":\"s3://medint/reports/supply_weekly.pdf\"\
+    ,\n \"legal_basis\":\"public trade feeds\",\"privacy_minimization\":\"aggregate\
+    \ only\",\n \"chain_of_custody\":\"s3://medint/coc/supply_weekly.pdf\"}\n"
+  agent: supply_chain_specialist
+  output_file: output/weekly_supply_chain_scan.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+health_system_readiness:
+  description: 'Assess hospital/clinic surge capacity (ICU beds, ventilators, oxygen).
+
+    '
+  expected_output: "{\"capacity\":{\"ICU_beds\":120,\"ventilators\":340,\"oxygen\"\
+    :\"adequate\"},\n \"readiness_score\":0.84,\"report_uri\":\"s3://medint/reports/readiness_monthly.pdf\"\
+    ,\n \"legal_basis\":\"public MoH data\",\"privacy_minimization\":\"aggregate only\"\
+    ,\n \"chain_of_custody\":\"s3://medint/coc/readiness_monthly.pdf\"}\n"
+  agent: epidemiology_analyst
+  output_file: output/monthly_health_system_readiness.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+medint_compliance_audit:
+  description: 'Conduct compliance review (HIPAA, GDPR, DPIA, ToS/licensing).
+
+    '
+  expected_output: "{\"audit_findings\":[{\"issue\":\"Data retention >2 years\"}],\n\
+    \ \"resolved\":true,\"report_uri\":\"s3://medint/reports/compliance_monthly.pdf\"\
+    ,\n \"legal_basis\":\"internal audit\",\"privacy_minimization\":\"compliance only\"\
+    ,\n \"chain_of_custody\":\"s3://medint/coc/compliance_monthly.pdf\"}\n"
+  agent: medint_compliance_officer
+  output_file: output/monthly_medint_compliance_audit.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+countermeasure_readiness:
+  description: 'Assess medical countermeasures (antivirals, vaccines, diagnostics).
+
+    '
+  expected_output: "{\"commodities\":[\"antivirals\",\"vaccines\"],\"coverage_rate\"\
+    :0.74,\n \"recommendations\":[\"increase vaccine procurement\"],\n \"report_uri\"\
+    :\"s3://medint/reports/countermeasures_q.pdf\",\n \"legal_basis\":\"WHO/CDC procurement\
+    \ feeds\",\"privacy_minimization\":\"aggregate only\",\n \"chain_of_custody\"\
+    :\"s3://medint/coc/countermeasures_q.pdf\"}\n"
+  agent: supply_chain_specialist
+  output_file: output/quarterly_countermeasure_readiness.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+health_risk_assessment:
+  description: 'Generate executive-level risk assessment of global health hotspots.
+
+    '
+  expected_output: "{\"hotspots\":[\"Sudan\",\"Bangladesh\"],\"risk_levels\":{\"Sudan\"\
+    :\"High\"},\n \"report_uri\":\"s3://medint/reports/healthrisk_q.pdf\",\n \"legal_basis\"\
+    :\"WHO public reports\",\"privacy_minimization\":\"aggregate only\",\n \"chain_of_custody\"\
+    :\"s3://medint/coc/healthrisk_q.pdf\"}\n"
+  agent: epidemiology_analyst
+  output_file: output/quarterly_health_risk_assessment.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+global_exercise:
+  description: 'Conduct a global pandemic tabletop exercise with stakeholders (WHO,
+    CDC, NGOs).
+
+    '
+  expected_output: "{\"exercise_id\":\"EX2026\",\"participants\":[\"WHO\",\"CDC\"\
+    ,\"ECDC\"],\n \"lessons_learned\":[\"faster genomic sharing\"],\"report_uri\"\
+    :\"s3://medint/reports/ex2026.pdf\",\n \"legal_basis\":\"exercise data only\"\
+    ,\"privacy_minimization\":\"aggregate only\",\n \"chain_of_custody\":\"s3://medint/coc/ex2026.pdf\"\
+    }\n"
+  agent: medint_compliance_officer
+  output_file: output/yearly_global_exercise.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3

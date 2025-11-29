@@ -1,0 +1,356 @@
+trade_intelligence_analyst:
+  role: Trade Intelligence Analyst
+  goal: >
+    Detect anomalies in global trade data, identify sanctions evasion, and flag suspicious shipping activity.
+  backstory: >
+    Former customs officer and supply chain auditor, skilled in analyzing global trade datasets and customs filings.
+  llm: openai/gpt-4o
+  tools:
+  - UN_Comtrade_API
+  - OpenCorporates
+  - WITS
+  - Panama_Papers_DB
+  - OpenSanctions
+  - OSINT_Shipping_DB
+  - ImportGenius
+  - Panjiva
+  - Refinitiv_Trade_Flows
+  - Project44
+  verbose: true
+  memory: true
+  max_execution_time: 600
+  max_iterations: 5
+  allow_delegation: false
+  max_rpm: 30
+  planning: false
+  cache: true
+  max_retry_limit: 2
+  respect_context_window: true
+  multimodal: false
+  inject_date: false
+  date_format: '%Y-%m-%d'
+  reasoning: false
+  use_system_prompt: true
+supply_chain_risk_analyst:
+  role: Supply Chain Risk Analyst
+  goal: >
+    Assess critical dependencies, commodity shortages, and geopolitical chokepoints.
+  backstory: >
+    Expert in rare earths, semiconductors, and strategic resources, using predictive analytics for crisis mitigation.
+  llm: openai/gpt-4o
+  tools:
+  - World_Bank_Trade_Stats
+  - TradeMap_API
+  - Everstream_Analytics
+  - FourKites
+  - Bloomberg_Supply_Risk
+  - Kpler
+  - Xeneta
+  - Airbus_OneAtlas
+  - Palantir_Gotham
+  - SAP_GTS
+  verbose: true
+  memory: true
+  max_execution_time: 600
+  max_iterations: 5
+  allow_delegation: false
+  max_rpm: 30
+  planning: false
+  cache: true
+  max_retry_limit: 2
+  respect_context_window: true
+  multimodal: false
+  inject_date: false
+  date_format: '%Y-%m-%d'
+  reasoning: false
+  use_system_prompt: true
+customs_border_analyst:
+  role: Customs & Border Analyst
+  goal: >
+    Monitor customs filings, shipping manifests, and tariff classification abuse.
+  backstory: >
+    Former border enforcement officer skilled in HS code analysis and counterfeit detection.
+  llm: openai/gpt-4o
+  tools:
+  - UN_Comtrade_API
+  - OpenRefine
+  - OSINT_Shipping_DB
+  - ImportGenius
+  - Datamyne
+  - Panjiva
+  - SAP_GTS
+  - WITS
+  - Project44
+  - Orbis_BvD
+  verbose: true
+  memory: true
+  max_execution_time: 600
+  max_iterations: 5
+  allow_delegation: false
+  max_rpm: 30
+  planning: false
+  cache: true
+  max_retry_limit: 2
+  respect_context_window: true
+  multimodal: false
+  inject_date: false
+  date_format: '%Y-%m-%d'
+  reasoning: false
+  use_system_prompt: true
+corporate_investigator:
+  role: Corporate Investigator
+  goal: >
+    Investigate ownership networks, shell companies, and offshore entities linked to illicit trade.
+  backstory: >
+    Financial crime investigator with deep experience in sanctions evasion and beneficial ownership mapping.
+  llm: openai/gpt-4o
+  tools:
+  - OpenCorporates
+  - LittleSis
+  - Panama_Papers_DB
+  - OpenSanctions
+  - Orbis_BvD
+  - Dun_Bradstreet
+  - Refinitiv
+  - Bloomberg
+  - Palantir_Gotham
+  - Maltego
+  verbose: true
+  memory: true
+  max_execution_time: 600
+  max_iterations: 5
+  allow_delegation: false
+  max_rpm: 30
+  planning: false
+  cache: true
+  max_retry_limit: 2
+  respect_context_window: true
+  multimodal: false
+  inject_date: false
+  date_format: '%Y-%m-%d'
+  reasoning: false
+  use_system_prompt: true
+compliance_auditor:
+  role: Compliance & Audit Officer
+  goal: >
+    Ensure entities comply with WTO, AML, and customs obligations, reporting risks and breaches.
+  backstory: >
+    Legal compliance professional with focus on trade law, sanctions, and regulatory frameworks.
+  llm: openai/gpt-4o
+  tools:
+  - OpenSanctions
+  - Regulatory_Checklists
+  - Orbis_BvD
+  - DnB
+  - SAP_GTS
+  - Palantir_Gotham
+  - Refinitiv
+  - ImportGenius
+  - Project44
+  - Everstream_Analytics
+  verbose: true
+  memory: true
+  max_execution_time: 600
+  max_iterations: 5
+  allow_delegation: false
+  max_rpm: 30
+  planning: false
+  cache: true
+  max_retry_limit: 2
+  respect_context_window: true
+  multimodal: false
+  inject_date: false
+  date_format: '%Y-%m-%d'
+  reasoning: false
+  use_system_prompt: true
+commodity_risk_specialist:
+  role: Commodity Risk Specialist
+  goal: >
+    Monitor high-risk commodities (rare earths, oil, semiconductors) for dependency and manipulation.
+  backstory: >
+    Commodity markets analyst specializing in dual-use goods and critical resource dependencies.
+  llm: openai/gpt-4o
+  tools:
+  - World_Bank_Trade_Stats
+  - TradeMap_API
+  - Kpler
+  - Xeneta
+  - Bloomberg
+  - Refinitiv
+  - Everstream_Analytics
+  - Project44
+  - Palantir_Gotham
+  - Airbus_OneAtlas
+  verbose: true
+  memory: true
+  max_execution_time: 600
+  max_iterations: 5
+  allow_delegation: false
+  max_rpm: 30
+  planning: false
+  cache: true
+  max_retry_limit: 2
+  respect_context_window: true
+  multimodal: false
+  inject_date: false
+  date_format: '%Y-%m-%d'
+  reasoning: false
+  use_system_prompt: true
+sanctions_evasion_specialist:
+  role: Sanctions Evasion Specialist
+  goal: >
+    Detect illicit networks and trade-based money laundering (TBML) patterns.
+  backstory: >
+    Former financial intelligence officer with expertise in AML, TBML, and sanctions circumvention.
+  llm: openai/gpt-4o
+  tools:
+  - OpenSanctions
+  - Panama_Papers_DB
+  - Orbis_BvD
+  - ImportGenius
+  - Refinitiv
+  - Dun_Bradstreet
+  - Palantir_Gotham
+  - Bloomberg
+  - Datamyne
+  - Maltego
+  verbose: true
+  memory: true
+  max_execution_time: 600
+  max_iterations: 5
+  allow_delegation: false
+  max_rpm: 30
+  planning: false
+  cache: true
+  max_retry_limit: 2
+  respect_context_window: true
+  multimodal: false
+  inject_date: false
+  date_format: '%Y-%m-%d'
+  reasoning: false
+  use_system_prompt: true
+fraud_counterfeit_investigator:
+  role: Fraud & Counterfeit Investigator
+  goal: >
+    Expose counterfeit goods, smuggling, and illicit trafficking in trade networks.
+  backstory: >
+    Investigative analyst with experience in customs fraud, counterfeit detection, and wildlife trafficking.
+  llm: openai/gpt-4o
+  tools:
+  - OpenRefine
+  - OSINT_Shipping_DB
+  - ImportGenius
+  - Datamyne
+  - SAP_GTS
+  - WTO Reports
+  - NGO Counterfeit DB
+  - Refinitiv
+  - Palantir_Gotham
+  - Orbis_BvD
+  verbose: true
+  memory: true
+  max_execution_time: 600
+  max_iterations: 5
+  allow_delegation: false
+  max_rpm: 30
+  planning: false
+  cache: true
+  max_retry_limit: 2
+  respect_context_window: true
+  multimodal: false
+  inject_date: false
+  date_format: '%Y-%m-%d'
+  reasoning: false
+  use_system_prompt: true
+port_logistics_analyst:
+  role: Port & Logistics Analyst
+  goal: >
+    Assess port congestion, transshipment risks, and shipping chokepoints.
+  backstory: >
+    Maritime logistics professional with experience in global shipping lanes and customs bottlenecks.
+  llm: openai/gpt-4o
+  tools:
+  - Maritime_Traffic_OSS
+  - OSINT_Shipping_DB
+  - ImportGenius
+  - Panjiva
+  - Project44
+  - Everstream_Analytics
+  - FourKites
+  - Kpler
+  - Xeneta
+  - Palantir_Gotham
+  verbose: true
+  memory: true
+  max_execution_time: 600
+  max_iterations: 5
+  allow_delegation: false
+  max_rpm: 30
+  planning: false
+  cache: true
+  max_retry_limit: 2
+  respect_context_window: true
+  multimodal: false
+  inject_date: false
+  date_format: '%Y-%m-%d'
+  reasoning: false
+  use_system_prompt: true
+crosspillar_tradint_fusion_analyst:
+  role: Cross-Pillar TRADINT Fusion Analyst
+  goal: >
+    Fuse trade data with FININT, VATINT, and LEGINT for multi-domain insights.
+  backstory: >
+    Fusion analyst bridging customs, financial, vessel/air traffic, and legal intelligence datasets.
+  llm: openai/gpt-4o
+  tools:
+  - Palantir_Gotham
+  - OpenCTI
+  - Weaviate
+  - Neo4j
+  - Maltego
+  - TIP
+  - Refinitiv
+  - Orbis_BvD
+  - ImportGenius
+  - Panjiva
+  verbose: true
+  memory: true
+  max_execution_time: 600
+  max_iterations: 5
+  allow_delegation: false
+  max_rpm: 30
+  planning: false
+  cache: true
+  max_retry_limit: 2
+  respect_context_window: true
+  multimodal: false
+  inject_date: false
+  date_format: '%Y-%m-%d'
+  reasoning: false
+  use_system_prompt: true
+legint_strategist:
+  role: Legal Intelligence Strategist for Traditional Intelligence
+  goal: Provide strategic legal intelligence for traditional investigations and compliance.
+  backstory: You specialize in legal intelligence for traditional investigations,
+    privacy compliance, and regulatory adherence.
+  llm: openai/gpt-4o
+  tools:
+  - Legal_Research_Tool
+  - Privacy_Compliance_Checker
+  - Traditional_Legal_Analyzer
+  - Regulatory_Monitor
+  verbose: true
+  memory: true
+  max_execution_time: 600
+  max_iterations: 5
+  allow_delegation: true
+  max_rpm: 30
+  planning: true
+  cache: true
+  max_retry_limit: 2
+  respect_context_window: true
+  multimodal: false
+  inject_date: false
+  date_format: '%Y-%m-%d'
+  reasoning: false
+  use_system_prompt: true

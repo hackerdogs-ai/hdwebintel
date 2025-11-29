@@ -1,0 +1,166 @@
+network_security_policy_task:
+  description: >
+    Define enterprise network security policies including segmentation,
+    NAC, ZTNA, and encrypted traffic inspection. Use Zero Trust Policy Generator
+    and Compliance Framework Tool.
+  expected_output: >
+    A JSON object with defined network policies.
+    Example: {"policy":"Network Segmentation","zones":["Prod","Dev","DMZ"],"ztna":"enabled"}
+  agent: network_strategist
+  output_file: output/network_policy.json
+
+segmentation_design_task:
+  description: >
+    Design microsegmentation across enterprise networks. Use Network Architecture Design Tool
+    to separate prod, dev, OT, and vendor zones.
+  expected_output: >
+    A JSON object with segmentation strategy.
+    Example: {"zones":["Prod","Dev","OT","DMZ"],"controls":["firewall","microsegmentation"],"coverage":95}
+  agent: network_strategist
+  context: [network_security_policy_task]
+  output_file: output/segmentation.json
+
+firewall_rule_management_task:
+  description: >
+    Operate enterprise firewalls using Firewall Manager Tool. Audit for unused/overly permissive rules
+    and enforce least privilege access.
+  expected_output: >
+    A JSON object with firewall audit results.
+    Example: {"rules_total":450,"unused_rules":23,"violations":["allow all inbound"],"actions":["removed 23","restricted inbound"]}
+  agent: network_engineer
+  context: [segmentation_design_task]
+  output_file: output/firewall_rules.json
+
+ids_ips_monitoring_task:
+  description: >
+    Monitor IDS/IPS alerts using IDS/IPS Tool and Network Flow Monitor.
+    Flag suspicious activity and escalate to SOC.
+  expected_output: >
+    A JSON object with IDS/IPS events.
+    Example: {"alerts":120,"critical":["SQLi from 203.0.113.5"],"escalated":["INC123"]}
+  agent: network_engineer
+  output_file: output/ids_ips.json
+
+vpn_and_remote_access_task:
+  description: >
+    Manage VPN gateways and remote access using VPN & ZTNA Manager Tool.
+    Enforce MFA and monitor anomalies in remote connections.
+  expected_output: >
+    A JSON object with VPN/ZTNA session details.
+    Example: {"active_sessions":230,"geo_anomalies":["RU"],"mfa_compliance":97}
+  agent: network_engineer
+  output_file: output/vpn_access.json
+
+ztna_enforcement_task:
+  description: >
+    Enforce Zero Trust Network Access (ZTNA) using VPN & ZTNA Manager Tool.
+    Replace legacy VPN access with identity-based access controls.
+  expected_output: >
+    A JSON object with ZTNA metrics.
+    Example: {"users_migrated":520,"legacy_vpn_remaining":12,"coverage":98}
+  agent: network_engineer
+  context: [vpn_and_remote_access_task]
+  output_file: output/ztna.json
+
+network_access_control_task:
+  description: >
+    Enforce Network Access Control (NAC) with NAC Management Tool.
+    Validate device posture and block unauthorized endpoints.
+  expected_output: >
+    A JSON object with NAC posture enforcement results.
+    Example: {"devices_checked":1200,"non_compliant":["laptop123"],"blocked":23}
+  agent: network_engineer
+  output_file: output/nac.json
+
+ddos_protection_task:
+  description: >
+    Operate DDoS defenses using DDoS Protection Tool.
+    Simulate DDoS attacks to validate resilience.
+  expected_output: >
+    A JSON object with DDoS defense performance.
+    Example: {"attacks_simulated":["HTTP Flood"],"mitigation_rate":99}
+  agent: network_engineer
+  output_file: output/ddos_defense.json
+
+cloud_network_security_task:
+  description: >
+    Configure cloud-native networking controls (security groups, firewall policies).
+    Use Cloud Network Security Tool to detect misconfigurations.
+  expected_output: >
+    A JSON object with cloud network findings.
+    Example: {"accounts":50,"violations":["0.0.0.0/0 SSH open"],"actions":["restricted ingress"]}
+  agent: network_engineer
+  output_file: output/cloud_network.json
+
+east_west_traffic_monitoring_task:
+  description: >
+    Monitor east-west traffic flows for lateral movement using Network Flow Monitor.
+    Detect anomalies inside data centers and cloud VPCs.
+  expected_output: >
+    A JSON object with east-west monitoring findings.
+    Example: {"flows_checked":50000,"anomalies":["suspicious SMB lateral movement"],"alerts":["INC456"]}
+  agent: network_engineer
+  output_file: output/east_west.json
+
+encrypted_traffic_inspection_task:
+  description: >
+    Deploy SSL/TLS inspection with Encrypted Traffic Inspection Tool.
+    Detect malware hidden in encrypted traffic flows.
+  expected_output: >
+    A JSON object with inspection results.
+    Example: {"sessions_inspected":20000,"malware_detected":12,"false_positives":1}
+  agent: network_engineer
+  output_file: output/encrypted_traffic.json
+
+network_behavior_monitoring_task:
+  description: >
+    Apply anomaly detection to network traffic using NBAD/Anomaly Detection Tool.
+    Identify insider threats or data exfiltration attempts.
+  expected_output: >
+    A JSON object with behavior anomalies.
+    Example: {"anomalies":["slow exfiltration over DNS"],"risk":"High"}
+  agent: network_engineer
+  output_file: output/nbad.json
+
+network_threat_hunting_task:
+  description: >
+    Perform proactive threat hunting using Network Log Analysis Tool and IDS/IPS data.
+    Look for APT techniques and stealthy persistence.
+  expected_output: >
+    A JSON object with hunting results.
+    Example: {"hunts_conducted":5,"findings":["C2 beaconing to 198.51.100.10"],"escalated":["INC789"]}
+  agent: network_engineer
+  output_file: output/threat_hunting.json
+
+third_party_network_access_task:
+  description: >
+    Audit and monitor third-party vendor connectivity (VPNs, APIs).
+    Use Vendor Access Audit Tool to validate contracts and rule compliance.
+  expected_output: >
+    A JSON object with vendor connectivity audit.
+    Example: {"vendors":["partnerA","vendorB"],"issues":["excessive privileges"],"actions":["restrict VPN"]}
+  agent: network_auditor
+  output_file: output/vendor_network.json
+
+network_audit_task:
+  description: >
+    Perform quarterly network audits using Audit Checklist Tool and Compliance Mapping Tool.
+    Validate segmentation, firewall, IDS, NAC, and ZTNA policies.
+  expected_output: >
+    A JSON object with audit results.
+    Example: {"score":90,"findings":["unused firewall rules","unencrypted VPN sessions"],"remediations":["remove rules","enforce ZTNA"]}
+  agent: network_auditor
+  context: [firewall_rule_management_task, nac.json, ztna.json, east_west_traffic_monitoring_task]
+  output_file: output/network_audit.json
+
+network_metrics_reporting_task:
+  description: >
+    Generate network security KPIs using Reporting Dashboard Tool.
+    Include segmentation coverage, IDS detection rates, NAC/ZTNA enforcement,
+    east-west anomalies, encrypted traffic inspection, and vendor access risks.
+  expected_output: >
+    A JSON object with network KPIs.
+    Example: {"firewall_hygiene":95,"ids_detection_rate":98,"ztna_coverage":98,"nac_block_rate":2,"ddos_resilience":99}
+  agent: network_auditor
+  context: [network_audit_task, third_party_network_access_task]
+  output_file: output/network_metrics.json

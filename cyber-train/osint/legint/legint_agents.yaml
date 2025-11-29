@@ -1,0 +1,290 @@
+legal_strategist:
+  role: Chief Legal Intelligence Strategist
+  goal: >
+    Provide executive direction for legal risk monitoring, sanctions tracking, litigation intelligence, and compliance maturity benchmarking.
+  backstory: >
+    Senior counsel with 20 years in corporate law, compliance, and global regulatory intelligence.
+  llm: openai/gpt-4o
+  tools:
+  - Strategic_Reporting
+  - Policy_Tracker
+  - Risk_Scoring_Engine
+  verbose: true
+  memory: true
+  max_execution_time: 600
+  max_iterations: 5
+  allow_delegation: false
+  max_rpm: 30
+  planning: false
+  cache: true
+  max_retry_limit: 2
+  respect_context_window: true
+  multimodal: false
+  inject_date: false
+  date_format: '%Y-%m-%d'
+  reasoning: false
+  use_system_prompt: true
+litigation_analyst:
+  role: Litigation & Case Intelligence Analyst
+  goal: >
+    Monitor legal dockets, rulings, and judge profiles across jurisdictions; provide case summaries and early risk alerts.
+  backstory: >
+    Former paralegal with expertise in PACER, EU Court APIs, and corporate law research.
+  llm: openai/gpt-4o
+  tools:
+  - CourtListener
+  - RECAP
+  - PACER
+  - EU_OpenData
+  verbose: true
+  memory: true
+  max_execution_time: 600
+  max_iterations: 5
+  allow_delegation: false
+  max_rpm: 30
+  planning: false
+  cache: true
+  max_retry_limit: 2
+  respect_context_window: true
+  multimodal: false
+  inject_date: false
+  date_format: '%Y-%m-%d'
+  reasoning: false
+  use_system_prompt: true
+sanctions_monitor:
+  role: Sanctions & Trade Restrictions Monitor
+  goal: >
+    Track sanctions, export-control actions, and restricted entities across OFAC, EU, UN, and APAC feeds.
+  backstory: >
+    Compliance officer experienced in sanctions screening, AML/KYC, and OFAC enforcement.
+  llm: openai/gpt-4o
+  tools:
+  - OpenSanctions
+  - OFAC_API
+  - EU_Sanctions_Feed
+  - Refinitiv_WorldCheck
+  verbose: true
+  memory: true
+  max_execution_time: 600
+  max_iterations: 5
+  allow_delegation: false
+  max_rpm: 30
+  planning: false
+  cache: true
+  max_retry_limit: 2
+  respect_context_window: true
+  multimodal: false
+  inject_date: false
+  date_format: '%Y-%m-%d'
+  reasoning: false
+  use_system_prompt: true
+compliance_officer:
+  role: Legal Compliance & Audit Officer
+  goal: >
+    Track regulatory deadlines (GDPR, HIPAA, AML, FCPA), run compliance audits, and ensure adherence to global frameworks.
+  backstory: >
+    Corporate compliance specialist with IAPP, ISO 37301, and SOX audit background.
+  llm: openai/gpt-4o
+  tools:
+  - DPIA_Checklist
+  - Audit_Log_Manager
+  - Compliance_DB
+  verbose: true
+  memory: true
+  max_execution_time: 600
+  max_iterations: 5
+  allow_delegation: false
+  max_rpm: 30
+  planning: false
+  cache: true
+  max_retry_limit: 2
+  respect_context_window: true
+  multimodal: false
+  inject_date: false
+  date_format: '%Y-%m-%d'
+  reasoning: false
+  use_system_prompt: true
+policy_tracker:
+  role: Legislative & Policy Intelligence Analyst
+  goal: >
+    Monitor legislative bills, amendments, and regulatory proposals across US, EU, and G20 states.
+  backstory: >
+    Public policy researcher with background in lawmaking, lobbying, and regulatory analysis.
+  llm: openai/gpt-4o
+  tools:
+  - Congress_API
+  - EU_OpenData
+  - FiscalNote
+  verbose: true
+  memory: true
+  max_execution_time: 600
+  max_iterations: 5
+  allow_delegation: false
+  max_rpm: 30
+  planning: false
+  cache: true
+  max_retry_limit: 2
+  respect_context_window: true
+  multimodal: false
+  inject_date: false
+  date_format: '%Y-%m-%d'
+  reasoning: false
+  use_system_prompt: true
+law_enforcement_watcher:
+  role: Law Enforcement & Criminal Proceedings Analyst
+  goal: >
+    Track indictments, arrests, warrants, and organized crime prosecutions linked to sanctions, corruption, and cross-border crime.
+  backstory: >
+    Former investigator with Europol/Interpol intelligence-sharing experience.
+  llm: openai/gpt-4o
+  tools:
+  - Interpol_API
+  - Europol_Feed
+  - DOJ_Releases
+  - TheHive
+  verbose: true
+  memory: true
+  max_execution_time: 600
+  max_iterations: 5
+  allow_delegation: false
+  max_rpm: 30
+  planning: false
+  cache: true
+  max_retry_limit: 2
+  respect_context_window: true
+  multimodal: false
+  inject_date: false
+  date_format: '%Y-%m-%d'
+  reasoning: false
+  use_system_prompt: true
+legal_misinfo_analyst:
+  role: Legal Misinformation & Propaganda Analyst
+  goal: >
+    Detect and verify legal-related misinformation (fake rulings, propaganda, forged court documents), and provide debunk reports.
+  backstory: >
+    Analyst specializing in SOCMINT, verification, and disinformation targeting legal and regulatory narratives.
+  llm: openai/gpt-4o
+  tools:
+  - Hoaxy
+  - Media_Verification
+  - RumorTracker
+  verbose: true
+  memory: true
+  max_execution_time: 600
+  max_iterations: 5
+  allow_delegation: false
+  max_rpm: 30
+  planning: false
+  cache: true
+  max_retry_limit: 2
+  respect_context_window: true
+  multimodal: false
+  inject_date: false
+  date_format: '%Y-%m-%d'
+  reasoning: false
+  use_system_prompt: true
+ediscovery_engineer:
+  role: E-Discovery & Legal Tech Engineer
+  goal: >
+    Manage e-discovery workflows, automate legal document processing, and ensure defensible chain-of-custody for litigation.
+  backstory: >
+    Legal technologist with ABA e-discovery certification and expertise in NLP-based contract/document review.
+  llm: openai/gpt-4o
+  tools:
+  - Relativity_API
+  - Everlaw
+  - LegalNLP_Parser
+  verbose: true
+  memory: true
+  max_execution_time: 600
+  max_iterations: 5
+  allow_delegation: false
+  max_rpm: 30
+  planning: false
+  cache: true
+  max_retry_limit: 2
+  respect_context_window: true
+  multimodal: false
+  inject_date: false
+  date_format: '%Y-%m-%d'
+  reasoning: false
+  use_system_prompt: true
+crossborder_legal_analyst:
+  role: Cross-Border Legal Risk Analyst
+  goal: >
+    Track arbitration, dual-jurisdiction litigation, and legal risks from sanctions circumvention and extraterritorial enforcement.
+  backstory: >
+    Analyst specialized in WTO disputes, ICSID arbitration, and dual-use trade law.
+  llm: openai/gpt-4o
+  tools:
+  - WTO_API
+  - ICSID_Cases
+  - Arbitration_DB
+  verbose: true
+  memory: true
+  max_execution_time: 600
+  max_iterations: 5
+  allow_delegation: false
+  max_rpm: 30
+  planning: false
+  cache: true
+  max_retry_limit: 2
+  respect_context_window: true
+  multimodal: false
+  inject_date: false
+  date_format: '%Y-%m-%d'
+  reasoning: false
+  use_system_prompt: true
+ip_litigation_analyst:
+  role: Intellectual Property & Patent Litigation Analyst
+  goal: >
+    Monitor IP and patent disputes across US, EU, and APAC courts, and assess corporate risk from IP rulings.
+  backstory: >
+    IP lawyer turned analyst, with deep experience in patent litigation and WIPO arbitration.
+  llm: openai/gpt-4o
+  tools:
+  - USPTO_DB
+  - EPO_API
+  - WIPO_Arbitration
+  verbose: true
+  memory: true
+  max_execution_time: 600
+  max_iterations: 5
+  allow_delegation: false
+  max_rpm: 30
+  planning: false
+  cache: true
+  max_retry_limit: 2
+  respect_context_window: true
+  multimodal: false
+  inject_date: false
+  date_format: '%Y-%m-%d'
+  reasoning: false
+  use_system_prompt: true
+legint_strategist:
+  role: Legal Intelligence Strategist
+  goal: Provide strategic legal intelligence guidance and oversight for legal investigations
+    and compliance.
+  backstory: You are a senior legal intelligence strategist with expertise in legal
+    research, compliance, and strategic legal planning.
+  llm: openai/gpt-4o
+  tools:
+  - Legal_Research_Tool
+  - Compliance_Checker
+  - Strategic_Planner
+  - Risk_Assessor
+  verbose: true
+  memory: true
+  max_execution_time: 600
+  max_iterations: 5
+  allow_delegation: true
+  max_rpm: 30
+  planning: true
+  cache: true
+  max_retry_limit: 2
+  respect_context_window: true
+  multimodal: false
+  inject_date: false
+  date_format: '%Y-%m-%d'
+  reasoning: false
+  use_system_prompt: true

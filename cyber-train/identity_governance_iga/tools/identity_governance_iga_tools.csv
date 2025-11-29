@@ -1,0 +1,31 @@
+Implementation Priority,tool,pillar,type,agent,task,priority,source,url
+,Keycloak,identity_governance_iga,Open Source,iam_engineer,identity_management,High,comprehensive_csv,https://github.com/keycloak/keycloak
+,midPoint (Evolveum),identity_governance_iga,Open Source,iam_engineer,identity_governance,Medium,comprehensive_csv,https://github.com/Evolveum/midpoint
+,Apache Syncope,identity_governance_iga,Open Source,iam_engineer,identity_management,Medium,comprehensive_csv,https://github.com/apache/syncope
+,PrivacyIDEA,identity_governance_iga,Open Source,iam_engineer,mfa_implementation,Medium,comprehensive_csv,https://github.com/privacyidea/privacyidea
+,OpenIAM,identity_governance_iga,Open Source,iam_engineer,identity_governance,Medium,comprehensive_csv,https://github.com/openiam/openiam
+,Wazuh,identity_governance_iga,Open Source,soc_analyst,identity_monitoring,Medium,comprehensive_csv,https://github.com/wazuh/wazuh
+,Elastic Stack (ELK),identity_governance_iga,Open Source,soc_analyst,identity_log_analysis,Medium,comprehensive_csv,https://github.com/elastic/elasticsearch
+,Gluu Server,identity_governance_iga,Open Source,iam_engineer,identity_management,Medium,comprehensive_csv,https://github.com/GluuFederation/community-edition
+,LDAP / FreeIPA,identity_governance_iga,Open Source,iam_engineer,directory_services,High,comprehensive_csv,https://github.com/freeipa/freeipa
+,SORMAS,identity_governance_iga,Open Source,iam_engineer,identity_management,Medium,comprehensive_csv,https://github.com/hzi-braunschweig/SORMAS-Project
+,SailPoint IdentityNow / IdentityIQ,identity_governance_iga,Commercial,iam_engineer,identity_governance,High,comprehensive_csv,https://docs.sailpoint.com
+,Saviynt Enterprise Identity Cloud,identity_governance_iga,Commercial,iam_engineer,identity_governance,High,comprehensive_csv,https://docs.saviynt.com
+,Okta Identity Governance,identity_governance_iga,Commercial,iam_engineer,identity_governance,High,comprehensive_csv,https://developer.okta.com
+,Ping Identity IGA,identity_governance_iga,Commercial,iam_engineer,identity_governance,High,comprehensive_csv,https://docs.pingidentity.com
+,IBM Security Verify Governance,identity_governance_iga,Commercial,iam_engineer,identity_governance,High,comprehensive_csv,https://www.ibm.com/docs/en/security-verify
+,Oracle Identity Governance,identity_governance_iga,Commercial,iam_engineer,identity_governance,High,comprehensive_csv,https://docs.oracle.com/en/middleware/idm
+,One Identity Manager,identity_governance_iga,Commercial,iam_engineer,identity_governance,High,comprehensive_csv,https://docs.oneidentity.com
+,CyberArk Identity,identity_governance_iga,Commercial,iam_engineer,privileged_access_management,High,comprehensive_csv,https://docs.cyberark.com
+,Microsoft Entra ID Governance,identity_governance_iga,Commercial,iam_engineer,identity_governance,High,comprehensive_csv,https://docs.microsoft.com/en-us/azure/active-directory/governance
+,RSA SecurID Governance & Lifecycle,identity_governance_iga,Commercial,iam_engineer,identity_governance,High,comprehensive_csv,https://docs.rsa.com
+,FreeOTP,identity_governance_iga,Open Source,iam_engineer,mobile_mfa,Medium,comprehensive_csv,https://github.com/freeotp/freeotp-android
+,andOTP,identity_governance_iga,Open Source,iam_engineer,mobile_mfa,Medium,comprehensive_csv,https://github.com/andOTP/andOTP
+,Aegis Authenticator,identity_governance_iga,Open Source,iam_engineer,mobile_mfa,Medium,comprehensive_csv,https://github.com/beemdevelopment/Aegis
+,TOTP-CLI,identity_governance_iga,Open Source,iam_engineer,command_line_mfa,Low,comprehensive_csv,https://github.com/yitsushi/totp-cli
+,LinOTP,identity_governance_iga,Open Source,iam_engineer,mfa_server,Medium,comprehensive_csv,https://github.com/LinOTP/LinOTP
+,FreeRADIUS,identity_governance_iga,Open Source,iam_engineer,radius_server,High,comprehensive_csv,https://github.com/FreeRADIUS/freeradius-server
+,OpenLDAP,identity_governance_iga,Open Source,iam_engineer,directory_service,High,comprehensive_csv,https://github.com/openldap/openldap
+,389 Directory Server,identity_governance_iga,Open Source,iam_engineer,directory_service,Medium,comprehensive_csv,https://github.com/389ds/389-ds-base
+,Kanidm,identity_governance_iga,Open Source,iam_engineer,modern_identity,Medium,comprehensive_csv,https://github.com/kanidm/kanidm
+,Zitadel,identity_governance_iga,Open Source,iam_engineer,identity_platform,Medium,comprehensive_csv,https://github.com/zitadel/zitadel

@@ -1,0 +1,318 @@
+rfi_outage_attribution:
+  description: 'Investigate sudden outage or blackout in critical infrastructure (power
+    grid, subsea cable, port). Determine cause, attribution, and impacted assets.
+
+    '
+  expected_output: 'JSON + geoJSON report with cause attribution, affected infrastructure,
+    suspected actors, and confidence scores.
+
+    '
+  agent: infrastructure_monitor
+  output_file: output/rfi_outage_attribution.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+rfi_covert_construction:
+  description: 'Investigate suspected covert construction of critical infrastructure
+    (e.g., military bases, missile silos).
+
+    '
+  expected_output: 'Annotated imagery, baseline facility profile, and construction
+    timeline with evidence pack.
+
+    '
+  agent: infrastructure_researcher
+  output_file: output/rfi_covert_construction.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+rfi_infra_sabotage:
+  description: 'Rapid assessment of reported sabotage (pipeline cut, power station
+    attack).
+
+    '
+  expected_output: 'Incident report with damage index, impacted services, suspected
+    actor attribution.
+
+    '
+  agent: infrastructure_monitor
+  output_file: output/rfi_infra_sabotage.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+rfi_infra_dependency_map:
+  description: 'Generate interdependency map between digital and physical infrastructure
+    (e.g., IXPs and power grids).
+
+    '
+  expected_output: 'Graph model with nodes, edges, and risk hotspots.
+
+    '
+  agent: infrastructure_researcher
+  output_file: output/rfi_infra_dependency_map.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+rfi_compliance_audit:
+  description: 'On-demand audit for regulatory body (NERC CIP, NIS2, ISO 27019, IEC
+    62443).
+
+    '
+  expected_output: 'JSON + PDF compliance snapshot with risk scores and remediation
+    recommendations.
+
+    '
+  agent: infra_compliance_officer
+  output_file: output/rfi_compliance_audit.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+rfi_vendor_risk_eval:
+  description: 'Evaluate infrastructure vendor or partner risk on-demand.
+
+    '
+  expected_output: 'JSON risk profile with vendor dependencies and red flags.
+
+    '
+  agent: infrastructure_researcher
+  output_file: output/rfi_vendor_risk_eval.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+registry_monitoring:
+  description: 'Monitor registry updates (domains, permits, tenders, utility changes)
+    relevant to infrastructure.
+
+    '
+  expected_output: 'Daily log of new registry events with metadata and confidence
+    scores.
+
+    '
+  agent: infrastructure_monitor
+  output_file: output/daily_registry_monitoring.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+transport_activity:
+  description: 'Track maritime and aviation activity near sensitive infrastructure.
+
+    '
+  expected_output: 'Activity log with anomalies flagged and geoJSON coordinates.
+
+    '
+  agent: infrastructure_monitor
+  output_file: output/daily_transport_activity.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+cyber_infra_link:
+  description: 'Correlate infrastructure outages with cyberattacks using SIEM/SOAR
+    feeds.
+
+    '
+  expected_output: 'Correlation report linking infra events with cyber indicators.
+
+    '
+  agent: infra_incident_coordinator
+  output_file: output/daily_cyber_infra_link.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+infra_summary:
+  description: 'Provide regional summaries of critical infrastructure health and recent
+    incidents.
+
+    '
+  expected_output: 'Weekly JSON report with outages, anomalies, and sector highlights.
+
+    '
+  agent: infrastructure_monitor
+  output_file: output/weekly_infra_summary.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+ownership_validation:
+  description: 'Validate ownership and operational changes in key infrastructure registries.
+
+    '
+  expected_output: 'Validation log with discrepancies flagged and evidence URIs.
+
+    '
+  agent: infrastructure_researcher
+  output_file: output/weekly_ownership_validation.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+model_eval:
+  description: 'Evaluate anomaly detection and sabotage prediction models for infrastructure.
+
+    '
+  expected_output: 'JSON evaluation report including drift, thresholds, and performance
+    metrics.
+
+    '
+  agent: infrastructure_ml_specialist
+  output_file: output/weekly_model_eval.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+resilience_assessment:
+  description: 'Assess resilience and redundancy of infrastructure per sector (power,
+    telecom, transport, digital).
+
+    '
+  expected_output: 'Sector-wise resilience report with resilience index scores.
+
+    '
+  agent: infrastructure_researcher
+  output_file: output/monthly_resilience_assessment.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+infra_risk_trends:
+  description: 'Identify trends in sabotage, outages, and resilience improvements.
+
+    '
+  expected_output: 'Trend analysis JSON with risk score time series.
+
+    '
+  agent: infrastructure_researcher
+  output_file: output/monthly_infra_risk_trends.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+supply_chain_dependency_map:
+  description: 'Update supply-chain dependency maps between sectors and critical infrastructure.
+
+    '
+  expected_output: 'Graph output with nodes, edges, and interdependency scores.
+
+    '
+  agent: infrastructure_researcher
+  output_file: output/monthly_supply_chain_dependency_map.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+simulation_exercise:
+  description: 'Conduct crisis simulation for disruption of critical infrastructure
+    (e.g., blackout, cable cut).
+
+    '
+  expected_output: 'After-action report with response metrics and recommendations.
+
+    '
+  agent: infrastructure_strategist
+  output_file: output/quarterly_simulation_exercise.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+exec_brief:
+  description: 'Executive-level brief on infrastructure risks, incidents, and resilience
+    benchmarks.
+
+    '
+  expected_output: 'Executive pptx/pdf deck with summary of incidents, risk index,
+    compliance updates.
+
+    '
+  agent: infrastructure_strategist
+  output_file: output/quarterly_exec_brief.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+vendor_risk_assessment:
+  description: 'Assess vendor ecosystems (energy, telecom, transport infra) for risk
+    exposure.
+
+    '
+  expected_output: 'Vendor risk JSON profiles with risk categories and confidence
+    scores.
+
+    '
+  agent: infra_compliance_officer
+  output_file: output/quarterly_vendor_risk_assessment.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+global_infra_assessment:
+  description: 'Comprehensive global infrastructure threat assessment across all sectors.
+
+    '
+  expected_output: 'Global assessment JSON with maps, actor attribution, and risk
+    scores.
+
+    '
+  agent: infrastructure_strategist
+  output_file: output/yearly_global_infra_assessment.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+policy_audit:
+  description: 'Audit compliance with NERC CIP, NIS2, ISO 27019, IEC 62443.
+
+    '
+  expected_output: 'Annual JSON + PDF report with compliance scores and remediation
+    roadmap.
+
+    '
+  agent: infra_compliance_officer
+  output_file: output/yearly_policy_audit.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+global_resilience_benchmark:
+  description: 'Benchmark global infrastructure resilience against major adversaries
+    (China, Russia, NATO).
+
+    '
+  expected_output: 'Comparative report with indexed resilience scores and confidence
+    scoring.
+
+    '
+  agent: infrastructure_strategist
+  output_file: output/yearly_global_resilience_benchmark.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3

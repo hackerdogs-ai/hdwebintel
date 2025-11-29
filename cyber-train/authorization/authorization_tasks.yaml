@@ -1,0 +1,134 @@
+define_role_model_task:
+  description: >
+    Define enterprise-wide RBAC/ABAC models. Use Role Mining Tool to analyze entitlements
+    across systems. Align with Compliance Framework Tool to ensure least privilege.
+  expected_output: >
+    A JSON object with proposed role models and attribute policies.
+    Example: {"roles": {"Finance_Read":["view_reports"],"Finance_Admin":["modify_reports"]},
+              "abac_rules": [{"attribute":"location","action":"deny","value":"outside_US"}]}
+  agent: authorization_strategist
+  output_file: output/role_model.json
+
+policy_simulation_task:
+  description: >
+    Simulate new authorization policies before applying them. Use Policy Simulation Tool
+    to test impact on users and applications.
+    
+    Steps:
+    1. Load proposed policy into simulator.
+    2. Identify which users lose or gain access.
+    3. Highlight potential disruptions.
+    4. Provide go/no-go recommendation.
+  expected_output: >
+    A JSON object with simulation results and impact analysis.
+    Example: {"affected_users":["user123"],"lost_access":["Finance_App"],"risk":"Medium"}
+  agent: authorization_strategist
+  context: [define_role_model_task]
+  output_file: output/policy_simulation.json
+
+least_privilege_enforcement_task:
+  description: >
+    Enforce least privilege by applying role-based and attribute-based policies.
+    Use IAM Policy Engine Tool to restrict entitlements. Use Access Drift Monitor
+    to validate changes.
+  expected_output: >
+    A JSON object with accounts remediated and new policies applied.
+    Example: {"privileges_removed":["user123"],"policies_applied":["Finance_Read"]}
+  agent: authorization_engineer
+  context: [define_role_model_task, policy_simulation_task]
+  output_file: output/least_privilege.json
+
+authorization_drift_monitoring_task:
+  description: >
+    Continuously monitor for authorization drift. Use Access Drift Monitor
+    to detect manual policy changes, emergency grants, or orphaned entitlements.
+  expected_output: >
+    A JSON object with drift findings and remediation actions.
+    Example: {"drift_detected":[{"user":"admin1","extra_privilege":"S3_FullAccess"}],
+              "remediation":["remove S3_FullAccess"]}
+  agent: authorization_engineer
+  output_file: output/auth_drift.json
+
+privilege_escalation_detection_task:
+  description: >
+    Detect unauthorized privilege escalation attempts. Use Privilege Escalation Detector
+    and Log Analysis Tool to flag suspicious events.
+  expected_output: >
+    A JSON object with escalation attempts and severity.
+    Example: {"escalations":[{"user":"devops1","method":"sudo","severity":"High"}]}
+  agent: authorization_engineer
+  output_file: output/privilege_escalations.json
+
+jit_access_management_task:
+  description: >
+    Manage just-in-time (JIT) privileged access using JIT Access Manager.
+    Grant time-bound admin rights and ensure automatic revocation.
+  expected_output: >
+    A JSON object with JIT requests granted and expirations enforced.
+    Example: {"granted_access":[{"user":"eng1","role":"db_admin","duration":"2h"}],
+              "revoked":["eng1"],"active_jit_sessions":[]}
+  agent: authorization_engineer
+  output_file: output/jit_access.json
+
+privileged_session_monitoring_task:
+  description: >
+    Record and analyze privileged sessions using Privileged Session Recorder.
+    Capture keystrokes, commands, and anomalies for high-risk accounts.
+  expected_output: >
+    A JSON object with privileged session summaries and alerts.
+    Example: {"sessions":[{"user":"root","duration":"45m","anomalies":["mass_export"]}]}
+  agent: authorization_engineer
+  context: [jit_access_management_task]
+  output_file: output/privileged_sessions.json
+
+risk_adaptive_policy_task:
+  description: >
+    Implement risk-adaptive authorization (CARTA/Zero Trust).
+    Use device posture, geolocation, and user risk signals to adjust access decisions.
+  expected_output: >
+    A JSON object with adaptive access decisions.
+    Example: {"user":"contractorX","context":"untrusted_device","decision":"deny"}
+  agent: authorization_engineer
+  output_file: output/risk_adaptive.json
+
+sod_violation_review_task:
+  description: >
+    Review Segregation of Duties (SoD) conflicts. Use Access Review Tool and Compliance Mapping Tool
+    to validate policies such as "no single user can approve and process payments."
+  expected_output: >
+    A JSON object listing SoD violations and remediation.
+    Example: {"violations":[{"user":"finance_mgr","conflict":"approve_and_process"}],
+              "remediation":["reassign process role"]}
+  agent: authorization_auditor
+  output_file: output/sod_violations.json
+
+third_party_access_review_task:
+  description: >
+    Review authorization for third-party vendors and contractors using Vendor Access Audit Tool.
+    Check for overprivileged external accounts and missing SoD enforcement.
+  expected_output: >
+    A JSON object with vendor account risks and required actions.
+    Example: {"vendor_accounts":["vendor123"],"issues":["excessive_privilege"],"action":"revoke"}
+  agent: authorization_auditor
+  output_file: output/vendor_access.json
+
+access_certification_task:
+  description: >
+    Run quarterly access certifications using Access Review Tool.
+    Distribute entitlement reports to managers, collect attestations, and record exceptions.
+  expected_output: >
+    A JSON object with certification completion stats.
+    Example: {"completion_rate":92,"exceptions":["user123"],"pending_reviews":["mgrA"]}
+  agent: authorization_auditor
+  output_file: output/access_certification.json
+
+authorization_audit_task:
+  description: >
+    Perform quarterly audit of authorization controls. Use Audit Checklist Tool and Compliance Mapping Tool
+    to validate least privilege, SoD compliance, JIT processes, and vendor access governance.
+  expected_output: >
+    A JSON object with audit score and remediation list.
+    Example: {"score":88,"findings":["JIT not enforced on 3 systems"],"remediations":["Enable JIT"]}
+  agent: authorization_auditor
+  context: [sod_violation_review_task, third_party_access_review_task, access_certification_task]
+  output_file: output/authorization_audit.json

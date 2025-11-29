@@ -1,0 +1,92 @@
+graph TB
+    subgraph "GOVERNMENT/PUBLIC SECTOR CISO DASHBOARD"
+        M1[FedRAMP Compliance Status]
+        M2[FISMA Compliance Score]
+        M3[NIST 800-53 Control Implementation]
+        M4[Classified Information Protection]
+        M5[Authority to Operate - ATO Status]
+        M6[Security Control Assessment Results]
+        M7[Incident Reporting to US-CERT]
+        M8[Supply Chain Risk Management]
+    end
+    
+    subgraph "Data Sources"
+        DS1[FedRAMP Compliance Tools]
+        DS2[Continuous Monitoring Systems]
+        DS3[FISMA Reporting Tools]
+        DS4[CDM Tools<br/>Continuous Diagnostics & Mitigation]
+        DS5[GRC Platforms - Government]
+        DS6[NIST 800-53 Assessment Tools]
+        DS7[Classified Network Monitoring]
+        DS8[Access Control Systems]
+        DS9[ATO Management Systems]
+        DS10[US-CERT Integration]
+        DS11[SCRM Platforms]
+    end
+    
+    subgraph "Collection Methods"
+        CM1[Control Assessments]
+        CM2[Evidence Collection]
+        CM3[Automated Monitoring]
+        CM4[Annual Assessments]
+        CM5[Continuous Diagnostics]
+        CM6[Framework Mapping]
+        CM7[Control Testing]
+        CM8[Automated Validation]
+        CM9[Specialized Monitoring]
+        CM10[Manual Audits]
+        CM11[Classification Reviews]
+        CM12[ATO Documentation]
+        CM13[Assessment Tracking]
+        CM14[Automated Reporting]
+        CM15[Incident Correlation]
+        CM16[Vendor Risk Assessments]
+    end
+    
+    M1 --> DS1
+    M1 --> DS2
+    DS1 --> CM1
+    DS1 --> CM2
+    DS2 --> CM3
+    
+    M2 --> DS3
+    M2 --> DS4
+    DS3 --> CM4
+    DS4 --> CM5
+    
+    M3 --> DS5
+    M3 --> DS6
+    DS5 --> CM6
+    DS6 --> CM7
+    DS6 --> CM8
+    
+    M4 --> DS7
+    M4 --> DS8
+    DS7 --> CM9
+    DS7 --> CM10
+    DS8 --> CM11
+    
+    M5 --> DS9
+    DS9 --> CM12
+    DS9 --> CM13
+    
+    M6 --> DS6
+    DS6 --> CM1
+    DS6 --> CM13
+    
+    M7 --> DS10
+    DS10 --> CM14
+    DS10 --> CM15
+    
+    M8 --> DS11
+    DS11 --> CM16
+    DS11 --> CM3
+    
+    style M1 fill:#f0e1ff
+    style M2 fill:#f0e1ff
+    style M3 fill:#f0e1ff
+    style M4 fill:#f0e1ff
+    style M5 fill:#f0e1ff
+    style M6 fill:#f0e1ff
+    style M7 fill:#f0e1ff
+    style M8 fill:#f0e1ff

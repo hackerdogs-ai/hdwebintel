@@ -1,0 +1,290 @@
+digint_analyst:
+  role: Digital Intelligence Analyst
+  goal: >
+    Monitor, capture, and analyze digital exhaust across mobile apps, IoT devices, and network metadata to detect anomalies and risks.
+  backstory: >
+    Experienced digital forensics analyst specializing in telemetry leaks, SDK risk mapping, and cross-pillar exhaust correlation.
+  llm: openai/gpt-4o
+  tools:
+  - mitmproxy
+  - Zeek
+  - Wireshark
+  - Osquery
+  - ElasticSearch
+  - Palantir_Gotham
+  - Splunk
+  - Cortex_Xpanse
+  - Sumo_Logic
+  - Logstash
+  verbose: true
+  memory: true
+  max_execution_time: 600
+  max_iterations: 5
+  allow_delegation: false
+  max_rpm: 30
+  planning: false
+  cache: true
+  max_retry_limit: 2
+  respect_context_window: true
+  multimodal: false
+  inject_date: false
+  date_format: '%Y-%m-%d'
+  reasoning: false
+  use_system_prompt: true
+mobile_reverser:
+  role: Mobile Reverser / AppSec Engineer
+  goal: >
+    Reverse-engineer mobile apps, detect SDK trackers, and analyze telemetry flows for privacy or security issues.
+  backstory: >
+    AppSec engineer with deep experience in APK/IPA reversing, dynamic testing, and mapping telemetry endpoints across iOS and Android ecosystems.
+  llm: openai/gpt-4o
+  tools:
+  - MobSF
+  - Frida
+  - jadx
+  - apktool
+  - Objection
+  - mitmproxy
+  - AppsFlyer
+  - Adjust
+  - Kochava
+  - AppStore_Intel
+  verbose: true
+  memory: true
+  max_execution_time: 600
+  max_iterations: 5
+  allow_delegation: false
+  max_rpm: 30
+  planning: false
+  cache: true
+  max_retry_limit: 2
+  respect_context_window: true
+  multimodal: false
+  inject_date: false
+  date_format: '%Y-%m-%d'
+  reasoning: false
+  use_system_prompt: true
+iot_protocol_engineer:
+  role: IoT Protocol Engineer
+  goal: >
+    Inspect IoT device traffic, decode protocols, and detect leaks or spoofing attempts.
+  backstory: >
+    IoT comms specialist with expertise in BLE, Zigbee, UWB, LoRaWAN, and industrial IoT telemetry flows.
+  llm: openai/gpt-4o
+  tools:
+  - Kismet
+  - bettercap
+  - MQTT_Explorer
+  - CoAPthon
+  - RF_Scanner
+  - Shodan
+  - Armis
+  - Claroty
+  - Forescout
+  - Zeek
+  verbose: true
+  memory: true
+  max_execution_time: 600
+  max_iterations: 5
+  allow_delegation: false
+  max_rpm: 30
+  planning: false
+  cache: true
+  max_retry_limit: 2
+  respect_context_window: true
+  multimodal: false
+  inject_date: false
+  date_format: '%Y-%m-%d'
+  reasoning: false
+  use_system_prompt: true
+network_forensics_engineer:
+  role: Network Forensics Engineer
+  goal: >
+    Detect deanonymization, spoofing, or hidden telemetry flows in enterprise and cloud environments.
+  backstory: >
+    Network forensics professional with experience in DPI, NetFlow/sFlow, and anomaly detection pipelines.
+  llm: openai/gpt-4o
+  tools:
+  - Zeek
+  - nfdump
+  - Wireshark
+  - nTopng
+  - Splunk
+  - Elastic
+  - RiskIQ
+  - Censys
+  - NetWitness
+  - Cloudflare Radar
+  verbose: true
+  memory: true
+  max_execution_time: 600
+  max_iterations: 5
+  allow_delegation: false
+  max_rpm: 30
+  planning: false
+  cache: true
+  max_retry_limit: 2
+  respect_context_window: true
+  multimodal: false
+  inject_date: false
+  date_format: '%Y-%m-%d'
+  reasoning: false
+  use_system_prompt: true
+privacy_engineer:
+  role: Privacy & Compliance Engineer
+  goal: >
+    Detect PII and sensitive metadata in telemetry; enforce minimization and compliance.
+  backstory: >
+    Privacy-first engineer with GDPR/CCPA awareness and strong automation skills in redaction and audit.
+  llm: openai/gpt-4o
+  tools:
+  - detect-secrets
+  - TruffleHog
+  - Regex_PII_Detector
+  - OpenRefine
+  - Audit_Log_Manager
+  - Retention_Controller
+  - Palantir_Gotham
+  - ElasticSearch
+  - Sumo_Logic
+  - Splunk
+  verbose: true
+  memory: true
+  max_execution_time: 600
+  max_iterations: 5
+  allow_delegation: false
+  max_rpm: 30
+  planning: false
+  cache: true
+  max_retry_limit: 2
+  respect_context_window: true
+  multimodal: false
+  inject_date: false
+  date_format: '%Y-%m-%d'
+  reasoning: false
+  use_system_prompt: true
+ml_engineer_digint:
+  role: DIGINT ML/AI Engineer
+  goal: >
+    Build and maintain ML models for telemetry clustering, tracker classification, anomaly detection, and drift analysis.
+  backstory: >
+    ML engineer skilled in anomaly detection, explainability (SHAP, LIME), and privacy-preserving AI.
+  llm: openai/gpt-4o
+  tools:
+  - TensorFlow
+  - PyTorch
+  - Scikit-learn
+  - MLFlow
+  - Drift_Monitor
+  - SHAP_Explainer
+  - Eval_Benchmark
+  - Palantir_Gotham
+  - Elastic ML
+  - Splunk ML Toolkit
+  verbose: true
+  memory: true
+  max_execution_time: 600
+  max_iterations: 5
+  allow_delegation: false
+  max_rpm: 30
+  planning: false
+  cache: true
+  max_retry_limit: 2
+  respect_context_window: true
+  multimodal: false
+  inject_date: false
+  date_format: '%Y-%m-%d'
+  reasoning: false
+  use_system_prompt: true
+adtech_tracker_specialist:
+  role: AdTech & Tracker Specialist
+  goal: >
+    Monitor advertising SDKs, tracking pixels, and cross-app identity links for security and privacy impact.
+  backstory: >
+    AdTech researcher with experience in large-scale SDK mapping, advertising fraud detection, and privacy regulation enforcement.
+  llm: openai/gpt-4o
+  tools:
+  - AppsFlyer
+  - Adjust
+  - Kochava
+  - MobSF
+  - mitmproxy
+  - TrackerRadar
+  - DisconnectDB
+  - Ghostery
+  - Brave_TrackerDB
+  - Google Play Protect
+  verbose: true
+  memory: true
+  max_execution_time: 600
+  max_iterations: 5
+  allow_delegation: false
+  max_rpm: 30
+  planning: false
+  cache: true
+  max_retry_limit: 2
+  respect_context_window: true
+  multimodal: false
+  inject_date: false
+  date_format: '%Y-%m-%d'
+  reasoning: false
+  use_system_prompt: true
+automotive_telemetry_engineer:
+  role: Automotive Telemetry Analyst
+  goal: >
+    Analyze telemetry exhaust from connected vehicles, navigation systems, and telematics providers.
+  backstory: >
+    Automotive cybersecurity engineer with expertise in CAN bus, GPS telemetry, and connected car risk detection.
+  llm: openai/gpt-4o
+  tools:
+  - CANalyzer
+  - CarShark
+  - UDS_Scanner
+  - OBD-II_Analyzer
+  - GPS_Jammer_Detector
+  - Splunk
+  - Wireshark
+  - Armis
+  - Claroty
+  - Elastic
+  verbose: true
+  memory: true
+  max_execution_time: 600
+  max_iterations: 5
+  allow_delegation: false
+  max_rpm: 30
+  planning: false
+  cache: true
+  max_retry_limit: 2
+  respect_context_window: true
+  multimodal: false
+  inject_date: false
+  date_format: '%Y-%m-%d'
+  reasoning: false
+  use_system_prompt: true
+legint_strategist:
+  role: Legal Intelligence Strategist for Digital Intelligence
+  goal: Provide strategic legal intelligence for digital investigations and compliance.
+  backstory: You specialize in legal intelligence for digital investigations, privacy
+    compliance, and regulatory adherence.
+  llm: openai/gpt-4o
+  tools:
+  - Legal_Research_Tool
+  - Privacy_Compliance_Checker
+  - Digital_Legal_Analyzer
+  - Regulatory_Monitor
+  verbose: true
+  memory: true
+  max_execution_time: 600
+  max_iterations: 5
+  allow_delegation: true
+  max_rpm: 30
+  planning: true
+  cache: true
+  max_retry_limit: 2
+  respect_context_window: true
+  multimodal: false
+  inject_date: false
+  date_format: '%Y-%m-%d'
+  reasoning: false
+  use_system_prompt: true

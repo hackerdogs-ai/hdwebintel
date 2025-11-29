@@ -1,0 +1,28 @@
+Implementation Priority,tool,pillar,type,agent,task,priority,source,url
+,HashiCorp Vault,encryption,Open Source,crypto_engineer,secret_management,High,comprehensive_csv,https://github.com/hashicorp/vault
+,OpenSSL / LibreSSL,encryption,Open Source,crypto_engineer,ssl_tls,High,comprehensive_csv,https://github.com/openssl/openssl
+,Certbot (Let's Encrypt),encryption,Open Source,crypto_engineer,certificate_management,High,comprehensive_csv,https://github.com/certbot/certbot
+,GnuPG (GPG),encryption,Open Source,crypto_engineer,encryption_management,High,comprehensive_csv,https://github.com/gpg/gnupg
+,Stunnel,encryption,Open Source,crypto_engineer,ssl_tls,Medium,comprehensive_csv,https://github.com/mjturk/stunnel
+,StrongSwan,encryption,Open Source,crypto_engineer,vpn_management,Medium,comprehensive_csv,https://github.com/strongswan/strongswan
+,Wazuh,encryption,Open Source,soc_analyst,log_monitoring,Medium,comprehensive_csv,https://github.com/wazuh/wazuh
+,CryptoGuard (part of OSSEC ecosystem),encryption,Open Source,soc_analyst,log_monitoring,Medium,comprehensive_csv,https://github.com/ossec/ossec-hids
+,cfssl (Cloudflare SSL toolkit),encryption,Open Source,crypto_engineer,certificate_management,Medium,comprehensive_csv,https://github.com/cloudflare/cfssl
+,AWS KMS,encryption,Commercial,crypto_engineer,key_management,High,comprehensive_csv,https://docs.aws.amazon.com/kms
+,Azure Key Vault,encryption,Commercial,crypto_engineer,key_management,High,comprehensive_csv,https://docs.microsoft.com/en-us/azure/key-vault
+,Google Cloud KMS,encryption,Commercial,crypto_engineer,key_management,High,comprehensive_csv,https://cloud.google.com/kms/docs
+,Thales CipherTrust / Vormetric,encryption,Commercial,crypto_engineer,encryption_management,High,comprehensive_csv,https://ciphertrust.com
+,Venafi Control Plane,encryption,Commercial,crypto_engineer,certificate_management,High,comprehensive_csv,https://docs.venafi.com
+,DigiCert CertCentral,encryption,Commercial,crypto_engineer,certificate_management,High,comprehensive_csv,https://docs.digicert.com
+,IBM Key Protect / HSM,encryption,Commercial,crypto_engineer,key_management,High,comprehensive_csv,https://cloud.ibm.com/docs/key-protect
+,Symantec Endpoint Encryption,encryption,Commercial,endpoint_engineer,endpoint_encryption,High,comprehensive_csv,https://docs.broadcom.com/symantec
+,Trend Micro Endpoint Encryption,encryption,Commercial,endpoint_engineer,endpoint_encryption,High,comprehensive_csv,https://docs.trendmicro.com/en-us/enterprise/endpoint-encryption
+,Zscaler Cloud Security,encryption,Commercial,network_engineer,network_encryption,High,comprehensive_csv,https://help.zscaler.com/zia
+,Age,encryption,Open Source,crypto_engineer,file_encryption,High,comprehensive_csv,https://github.com/FiloSottile/age
+,Rage,encryption,Open Source,crypto_engineer,file_encryption,Medium,comprehensive_csv,https://github.com/str4d/rage
+,Minisign,encryption,Open Source,crypto_engineer,digital_signatures,Medium,comprehensive_csv,https://github.com/jedisct1/minisign
+,Signify,encryption,Open Source,crypto_engineer,digital_signatures,Low,comprehensive_csv,https://github.com/aperezdc/signify
+,Let's Encrypt,encryption,Open Source,crypto_engineer,certificate_management,High,comprehensive_csv,https://letsencrypt.org
+,GnuPG,encryption,Open Source,crypto_engineer,encryption_management,High,comprehensive_csv,https://gnupg.org
+,OpenSSL,encryption,Open Source,crypto_engineer,ssl_tls,High,comprehensive_csv,https://www.openssl.org
+,Hashicorp Vault,encryption,Commercial,crypto_engineer,secret_management,High,comprehensive_csv,https://www.vaultproject.io

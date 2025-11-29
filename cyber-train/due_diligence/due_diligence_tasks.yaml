@@ -1,0 +1,191 @@
+define_due_diligence_strategy_task:
+  description: >
+    Define the enterprise due diligence strategy, integrating all 22 cybersecurity pillars.
+    Use Cybersecurity Maturity Model Mapper and Board Reporting Generator.
+  expected_output: >
+    {"strategy":"due_diligence","pillars_covered":22,"maturity_model":"NIST CSF","baseline_score":3.2}
+  agent: due_diligence_strategist
+  output_file: output/pillar23_strategy.json
+
+control_monitoring_task:
+  description: >
+    Collect and monitor control performance across all pillars.
+    Use Control Framework Mapper and Compliance Evidence Collector.
+  expected_output: >
+    {"controls_total":1250,"controls_monitored":1187,"non_compliant":63,"compliance_rate_pct":94.9}
+  agent: grc_manager
+  context: [define_due_diligence_strategy_task]
+  output_file: output/pillar23_controls.json
+
+pillar_review_task:
+  description: >
+    Coordinate periodic reviews of each cybersecurity pillar, validating control operation,
+    collecting evidence, and logging remediation tasks.
+  expected_output: >
+    {"pillars_reviewed":22,"issues_found":54,"remediation_open":23,"remediation_closed":31}
+  agent: due_diligence_manager
+  context: [control_monitoring_task]
+  output_file: output/pillar23_reviews.json
+
+internal_audit_task:
+  description: >
+    Perform internal audits of selected controls and evidence, ensuring alignment with ISO 27001,
+    NIST 800-53, and SOC 2 requirements.
+  expected_output: >
+    {"audits_performed":12,"issues_found":7,"issues_resolved":5,"compliance_score_pct":96}
+  agent: audit_lead
+  context: [pillar_review_task]
+  output_file: output/pillar23_internal_audit.json
+
+vendor_due_diligence_task:
+  description: >
+    Assess vendors and third parties for compliance with enterprise due diligence requirements.
+    Use Vendor Risk Assessment Tool and SecurityScorecard/BitSight Integrator.
+  expected_output: >
+    {"vendors_total":250,"vendors_assessed":230,"high_risk_vendors":8,"remediation_plans":6}
+  agent: vendor_risk_officer
+  context: [control_monitoring_task]
+  output_file: output/pillar23_vendor.json
+
+regulatory_alignment_task:
+  description: >
+    Ensure due diligence aligns with regulatory frameworks (PCI DSS, GDPR, HIPAA, NIS2, DORA).
+    Use Regulatory Gap Analyzer and Certification Tracker.
+  expected_output: >
+    {"frameworks_checked":["ISO27001","PCI DSS","GDPR","HIPAA","DORA"],"gaps_found":4,"gaps_resolved":3}
+  agent: regulatory_compliance_officer
+  context: [internal_audit_task]
+  output_file: output/pillar23_regulatory.json
+
+board_reporting_task:
+  description: >
+    Generate quarterly and annual board-level reports summarizing assurance metrics,
+    risk trends, and investment recommendations.
+  expected_output: >
+    {"quarter":"Q4-2025","risk_score":2.3,"compliance_rate_pct":95,"executive_summary":"Controls improving, vendor gaps remain","recommendations":["Increase vendor monitoring","Invest in automation"]}
+  agent: board_reporter
+  context: [pillar_review_task, regulatory_alignment_task]
+  output_file: output/pillar23_board.json
+
+# Industry-standard extended tasks
+
+risk_quantification_task:
+  description: >
+    Quantify top risks using FAIR; produce $$ exposure and prioritized remediation ROI.
+  expected_output: >
+    {"scenarios":15,"ale_usd":5200000,"p95_loss_usd":1400000,"top_controls_roi":[{"control":"MFA expansion","roi_pct":185}]}
+  agent: risk_quant_analyst
+  context: [control_monitoring_task]
+  output_file: output/pillar23_risk_quant.json
+
+risk_appetite_alignment_task:
+  description: >
+    Map quantified risks to board-approved risk appetite/tolerance; propose exceptions or investments.
+  expected_output: >
+    {"appetite_statement":"medium","above_appetite":5,"investment_recommendations":3,"exceptions_proposed":2}
+  agent: due_diligence_strategist
+  context: [risk_quantification_task, board_reporting_task]
+  output_file: output/pillar23_risk_appetite.json
+
+ccm_automation_task:
+  description: >
+    Implement continuous control monitoring for high-value controls; define drift SLOs and evidence freshness.
+  expected_output: >
+    {"controls_in_ccm":220,"evidence_freshness_days_p95":2,"drift_alerts":11}
+  agent: ccm_engineer
+  context: [control_monitoring_task]
+  output_file: output/pillar23_ccm.json
+
+policy_lifecycle_task:
+  description: >
+    Run policy lifecycle (review/approval/publish), stakeholder attestations, and control mapping.
+  expected_output: >
+    {"policies_updated":18,"attestation_rate_pct":96,"control_mappings_updated":140}
+  agent: policy_governor
+  output_file: output/pillar23_policy_lifecycle.json
+
+exception_waiver_task:
+  description: >
+    Process policy exceptions with expiry and compensating controls; report risk deltas.
+  expected_output: >
+    {"exceptions_open":24,"expired_closed":7,"comp_controls_missing":2,"risk_delta_ale_usd":-320000}
+  agent: policy_governor
+  context: [policy_lifecycle_task]
+  output_file: output/pillar23_exceptions.json
+
+issue_capa_management_task:
+  description: >
+    Standardize issue taxonomy and CAPA; track remediation timeliness and effectiveness.
+  expected_output: >
+    {"issues_open":62,"past_due":9,"capa_effectiveness_pct":87}
+  agent: due_diligence_manager
+  context: [pillar_review_task, internal_audit_task]
+  output_file: output/pillar23_capa.json
+
+management_review_task:
+  description: >
+    Conduct ISO 27001-style management review; confirm resources, KPIs, risks, and improvement actions.
+  expected_output: >
+    {"review_quarter":"Q4-2025","actions_logged":14,"resource_gaps":3,"policy_changes":5}
+  agent: due_diligence_strategist
+  context: [board_reporting_task, risk_appetite_alignment_task]
+  output_file: output/pillar23_management_review.json
+
+audit_quality_independence_task:
+  description: >
+    Enforce IIA independence, sampling plans, and evidence chain-of-custody.
+  expected_output: >
+    {"independence_score_pct":100,"sampling_confidence_pct":95,"evidence_chain_compliant_pct":98}
+  agent: audit_quality_manager
+  context: [internal_audit_task]
+  output_file: output/pillar23_audit_quality.json
+
+regulatory_horizon_task:
+  description: >
+    Scan for new/updated regulations (DORA, NIS2, SEC, AI Act); run impact & adoption tracking.
+  expected_output: >
+    {"regs_assessed":9,"high_impact":3,"adoption_lead_time_days_median":45}
+  agent: regulatory_watch_officer
+  output_file: output/pillar23_reg_watch.json
+
+mna_cyber_due_diligence_task:
+  description: >
+    Execute M&A cyber due diligence (pre-close); define Day-1 controls and Day-100 integration plan.
+  expected_output: >
+    {"targets_reviewed":3,"critical_findings":5,"day1_controls":12,"day100_actions":18}
+  agent: mna_due_diligence_lead
+  output_file: output/pillar23_mna_dd.json
+
+data_residency_assurance_task:
+  description: >
+    Verify log/evidence residency, cross-border transfers, retention & deletion; document SCCs/DPF where applicable.
+  expected_output: >
+    {"datasets_reviewed":42,"nonconformant_flows":2,"remediations_open":2}
+  agent: data_residency_officer
+  output_file: output/pillar23_residency.json
+
+tp_continuous_monitoring_task:
+  description: >
+    Implement continuous third-party monitoring (ratings + control tests); align SLAs and escalation.
+  expected_output: >
+    {"vendors_monitored":260,"critical_alerts_qtr":11,"mean_time_to_vendor_fix_days":19}
+  agent: tp_continuous_monitor
+  context: [vendor_due_diligence_task]
+  output_file: output/pillar23_vendor_continuous.json
+
+portfolio_maturity_roadmap_task:
+  description: >
+    Maintain 12-quarter maturity roadmap with budget, capacity, and risk-reduction KPIs.
+  expected_output: >
+    {"initiatives":34,"budget_utilization_pct":92,"risk_reduction_usd":2700000}
+  agent: portfolio_pm
+  output_file: output/pillar23_roadmap.json
+
+governance_training_attestation_task:
+  description: >
+    Run governance training and policy attestations for control owners; track RACI completeness.
+  expected_output: >
+    {"role_attendance_pct":97,"attestations_current_pct":95,"raci_coverage_pct":99}
+  agent: governance_training_manager
+  context: [policy_lifecycle_task]
+  output_file: output/pillar23_training_attest.json

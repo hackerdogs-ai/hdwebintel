@@ -1,0 +1,196 @@
+api_policy_definition_task:
+  description: >
+    Define enterprise API security policies for authentication,
+    authorization, schema validation, rate limiting, and monitoring.
+    Use API Policy Generator and Compliance Framework Tool.
+  expected_output: >
+    {"policy":"API Security","authn":"OAuth2 + MFA","rate_limit":"1000/min","schema_validation":"enabled"}
+  agent: api_strategist
+  output_file: output/api_policy.json
+
+api_discovery_task:
+  description: >
+    Discover APIs across environments using API Discovery Tool.
+    Detect shadow/zombie APIs and build a complete inventory.
+  expected_output: >
+    {"apis_total":150,"shadow":12,"zombie":5,"documented":133}
+  agent: api_engineer
+  output_file: output/api_discovery.json
+
+api_schema_validation_task:
+  description: >
+    Validate request/response schemas for REST/GraphQL APIs
+    using Schema Validator. Block non-compliant traffic.
+  expected_output: >
+    {"apis_checked":120,"schema_violations":15,"blocked":10}
+  agent: api_engineer
+  context: [api_discovery_task]
+  output_file: output/api_schema.json
+
+api_rate_limiting_task:
+  description: >
+    Enforce API rate limiting using API Gateway Security Tool.
+    Detect and block abuse like brute force or DoS attempts.
+  expected_output: >
+    {"apis_protected":110,"violations_detected":30,"blocked_ips":["203.0.113.5"]}
+  agent: api_engineer
+  context: [api_discovery_task]
+  output_file: output/api_ratelimit.json
+
+api_authz_enforcement_task:
+  description: >
+    Enforce fine-grained authorization (RBAC/ABAC) at API endpoints
+    using API Gateway Security Tool. Ensure least-privilege access.
+  expected_output: >
+    {"apis_enforced":80,"authz_failures":4,"blocked_tokens":["token123"]}
+  agent: api_engineer
+  context: [api_policy_definition_task, api_discovery_task]
+  output_file: output/api_authz.json
+
+api_threat_detection_task:
+  description: >
+    Detect OWASP API Top 10 attacks (BOLA, SQLi, XSS, injections)
+    using WAF/API Threat Detection Tool and SIEM integration.
+  expected_output: >
+    {"alerts":45,"critical":["BOLA attack on /users"],"escalated":3}
+  agent: api_engineer
+  context: [api_schema_validation_task, api_rate_limiting_task]
+  output_file: output/api_threats.json
+
+api_behavior_baselining_task:
+  description: >
+    Build behavioral baselines of API traffic using Anomaly Detection Tool.
+    Detect anomalies like unusual call sequences, credential stuffing,
+    and account takeover patterns.
+  expected_output: >
+    {"baseline_users":1200,"anomalies":["high-frequency login API calls"],"escalated":2}
+  agent: api_behavior_analyst
+  context: [api_discovery_task, api_threat_detection_task]
+  output_file: output/api_behavior.json
+
+graphql_security_task:
+  description: >
+    Apply GraphQL-specific protections using GraphQL Security Tool.
+    Enforce query depth limits, cost analysis, and disable introspection in production.
+  expected_output: >
+    {"apis_checked":30,"violations":["deep query > 10"],"blocked":5}
+  agent: graphql_specialist
+  context: [api_schema_validation_task]
+  output_file: output/graphql.json
+
+api_mtls_enforcement_task:
+  description: >
+    Enforce mutual TLS for service-to-service API communication.
+    Manage certificate lifecycle with mTLS Certificate Manager.
+  expected_output: >
+    {"apis_secured":70,"certs_rotated":15,"compliance":"ok"}
+  agent: service_identity_engineer
+  output_file: output/mtls.json
+
+service_identity_task:
+  description: >
+    Apply workload identities (SPIFFE/SPIRE) to secure service-to-service authorization.
+  expected_output: >
+    {"services":200,"identity_gaps":["svcA no identity"],"remediation":"apply SPIFFE ID"}
+  agent: service_identity_engineer
+  output_file: output/service_identity.json
+
+api_segmentation_task:
+  description: >
+    Segment APIs into external/public vs internal/private.
+    Apply different authentication, rate limiting, and monitoring policies.
+  expected_output: >
+    {"external":50,"internal":100,"shadow":12,"policy_enforced":true}
+  agent: api_strategist
+  context: [api_discovery_task]
+  output_file: output/api_segmentation.json
+
+gateway_governance_task:
+  description: >
+    Inventory APIs across multiple API gateways (Apigee, Kong, AWS, Azure).
+    Unify policy enforcement and detect inconsistent protections.
+  expected_output: >
+    {"gateways":4,"apis_total":150,"inconsistent_policies":8}
+  agent: api_strategist
+  context: [api_discovery_task, api_policy_definition_task]
+  output_file: output/gateway.json
+
+business_logic_abuse_task:
+  description: >
+    Detect business logic abuse by analyzing API usage flows
+    (e.g., abusing password reset or shopping cart APIs).
+  expected_output: >
+    {"incidents":["abuse of /reset-password","cart inflation attack"],"blocked":2}
+  agent: api_behavior_analyst
+  context: [api_behavior_baselining_task]
+  output_file: output/api_logic.json
+
+api_drift_detection_task:
+  description: >
+    Detect drift between deployed APIs and approved definitions.
+    Roll back unauthorized changes via API Governance Tool.
+  expected_output: >
+    {"apis_checked":120,"drifted":["/beta/login"],"action":"rollback"}
+  agent: api_engineer
+  output_file: output/api_drift.json
+
+api_threat_hunting_task:
+  description: >
+    Proactively hunt API logs for suspicious behavior (token reuse,
+    credential stuffing, enumeration patterns).
+  expected_output: >
+    {"hunts":5,"findings":["reused JWT tokens"],"escalated":1}
+  agent: api_behavior_analyst
+  context: [api_discovery_task, api_behavior_baselining_task]
+  output_file: output/api_hunting.json
+
+api_dependency_security_task:
+  description: >
+    Audit third-party SDKs/libraries used in APIs for vulnerabilities.
+    Use API Dependency Scanner.
+  expected_output: >
+    {"dependencies_checked":80,"vulns_found":12,"critical":["libX 1.2"]}
+  agent: api_engineer
+  output_file: output/api_deps.json
+
+api_incident_response_task:
+  description: >
+    Respond to API-related incidents (abuse, drift, insider misuse).
+    Use WAF/API Threat Detection Tool and SIEM for containment and reporting.
+  expected_output: >
+    {"incident_id":"INC789","apis_isolated":["/orders"],"tokens_revoked":12}
+  agent: api_engineer
+  context: [api_threat_detection_task, api_behavior_baselining_task, api_drift_detection_task]
+  output_file: output/api_ir.json
+
+api_audit_task:
+  description: >
+    Audit APIs for compliance with OWASP API Top 10 and enterprise policies.
+    Use Audit Checklist Tool and Compliance Mapping Tool.
+  expected_output: >
+    {"score":85,"findings":["shadow APIs","weak RBAC"],"remediations":["retire zombie","tighten RBAC"]}
+  agent: api_auditor
+  context: [api_discovery_task, api_authz_enforcement_task, gateway_governance_task]
+  output_file: output/api_audit.json
+
+api_risk_scoring_task:
+  description: >
+    Generate risk scores for APIs based on sensitivity, exposure, vulnerabilities,
+    business criticality, and runtime anomalies.
+  expected_output: >
+    {"apis_scored":150,"avg_score":72,"high_risk":["/payments","/orders"]}
+  agent: api_auditor
+  context: [api_audit_task, api_behavior_baselining_task]
+  output_file: output/api_risk.json
+
+api_metrics_reporting_task:
+  description: >
+    Generate executive KPIs and risk posture reports using Reporting Dashboard Tool.
+    Include discovery coverage, schema violations, rate limit breaches,
+    GraphQL protections, mTLS coverage, threat alerts, logic abuse,
+    drift findings, dependency vulns, and audit/risk scores.
+  expected_output: >
+    {"apis_total":150,"shadow":12,"schema_violations":15,"rate_limit_breaches":30,"graphql_violations":5,"mtls_coverage":70,"audit_score":85,"risk_score_avg":72}
+  agent: api_auditor
+  context: [api_audit_task, api_risk_scoring_task, api_threat_detection_task, api_behavior_baselining_task]
+  output_file: output/api_metrics.json

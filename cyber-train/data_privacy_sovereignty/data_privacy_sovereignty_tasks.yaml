@@ -1,0 +1,171 @@
+dps_policy_definition_task:
+  description: >
+    Define DPS policies with Privacy Policy Generator.
+    Cover GDPR, CCPA, LGPD, HIPAA, PIPL, DPDP Act, and sovereignty rules.
+  expected_output: >
+    {"policy":"DPS","frameworks":["GDPR","CCPA","LGPD","HIPAA","PIPL","DPDP"],"dsar":"enabled","sovereignty":"enforced"}
+  agent: dps_strategist
+  output_file: output/dps_policy.json
+
+data_discovery_task:
+  description: >
+    Scan all environments (cloud, SaaS, on-prem) for PII, PHI, PCI with Data Discovery Scanner.
+    Tag by sensitivity and regulatory scope.
+  expected_output: >
+    {"systems_scanned":150,"pii":500000,"phi":35000,"pci":15000}
+  agent: data_classification_engineer
+  context: [dps_policy_definition_task]
+  output_file: output/data_discovery.json
+
+data_classification_task:
+  description: >
+    Classify discovered data with Classification Engine.
+    Apply privacy tags: confidential, restricted, regulated, anonymized.
+  expected_output: >
+    {"assets_classified":6000,"restricted":1400,"regulated":350,"anonymized":120}
+  agent: data_classification_engineer
+  context: [data_discovery_task]
+  output_file: output/data_classification.json
+
+dsar_automation_task:
+  description: >
+    Automate DSAR fulfillment across SaaS and shadow IT.
+    Use DSAR Automation Platform and Identity Verification Tool.
+  expected_output: >
+    {"requests_received":1200,"fulfilled":1150,"sla_compliance":"98%"}
+  agent: privacy_request_manager
+  output_file: output/dsar.json
+
+privacy_risk_assessment_task:
+  description: >
+    Run DPIAs/PIAs with DPIA Tool. Quantify risks by likelihood, impact, and fines exposure.
+  expected_output: >
+    {"dpiap_completed":15,"high_risks":4,"mitigated":3,"open":1}
+  agent: privacy_risk_analyst
+  context: [data_classification_task]
+  output_file: output/privacy_risks.json
+
+continuous_privacy_risk_task:
+  description: >
+    Use Continuous Risk Scoring Engine to monitor privacy risks in real time.
+    Integrate scores into enterprise risk register.
+  expected_output: >
+    {"datasets_monitored":300,"risk_score":70,"alerts":8}
+  agent: privacy_risk_analyst
+  context: [privacy_risk_assessment_task]
+  output_file: output/privacy_risk.json
+
+localization_enforcement_task:
+  description: >
+    Enforce sovereignty rules with Residency Monitor and Transfer Tracker.
+    Track SCCs, BCRs, and exemptions for lawful transfers.
+  expected_output: >
+    {"transfers":60,"scc_used":20,"bcr_used":10,"blocked":5}
+  agent: localization_specialist
+  context: [data_classification_task]
+  output_file: output/localization.json
+
+cross_border_exemptions_task:
+  description: >
+    Track exemptions (SCCs, BCRs, government approvals) for cross-border flows.
+    Ensure encryption and legal justifications are in place.
+  expected_output: >
+    {"exemptions_tracked":30,"valid":28,"expired":2}
+  agent: localization_specialist
+  context: [localization_enforcement_task]
+  output_file: output/exemptions.json
+
+pet_integration_task:
+  description: >
+    Deploy PETs (homomorphic encryption, DP, SMPC, synthetic data).
+    Report adoption status and use cases.
+  expected_output: >
+    {"pet_use_cases":["homomorphic analytics","differential_privacy"],"coverage_pct":"65%"}
+  agent: pet_specialist
+  output_file: output/pets.json
+
+ai_privacy_compliance_task:
+  description: >
+    Audit AI/LLM training datasets with AI Dataset Auditor.
+    Ensure lawful basis, minimization, and subject rights handling.
+  expected_output: >
+    {"models_checked":8,"violations_found":2,"issues_resolved":1}
+  agent: ai_privacy_officer
+  output_file: output/ai_privacy.json
+
+data_retention_task:
+  description: >
+    Enforce retention schedules with Retention Policy Enforcer.
+    Securely delete expired personal data across cloud and SaaS.
+  expected_output: >
+    {"records_deleted":120000,"policies_enforced":25,"non_compliant":3}
+  agent: data_retention_engineer
+  output_file: output/retention.json
+
+processor_compliance_task:
+  description: >
+    Audit third-party data processors with Processor Audit Tool.
+    Validate DPA adherence and continuous assurance.
+  expected_output: >
+    {"processors_audited":45,"compliant":40,"violations":5}
+  agent: processor_governance_manager
+  output_file: output/processors.json
+
+privacy_by_design_task:
+  description: >
+    Embed privacy checks into DevSecOps pipelines with CI/CD Privacy Scanner.
+    Flag violations before production release.
+  expected_output: >
+    {"pipelines_scanned":120,"privacy_violations":12,"blocked_deployments":5}
+  agent: privacy_by_design_evangelist
+  output_file: output/devsecops.json
+
+deidentification_validation_task:
+  description: >
+    Validate anonymized data for re-identification risks using Re-ID Analysis Tool.
+  expected_output: >
+    {"datasets_tested":25,"reid_risk":"medium","action_taken":"masking_applied"}
+  agent: data_classification_engineer
+  output_file: output/reid.json
+
+sectoral_privacy_task:
+  description: >
+    Extend privacy controls to sectoral/geopolitical regs (HIPAA, GLBA, COPPA, PIPL, DPDP).
+  expected_output: >
+    {"sectoral_frameworks":["HIPAA","GLBA","COPPA","PIPL","DPDP"],"coverage_pct":"90%"}
+  agent: dps_strategist
+  output_file: output/sectoral.json
+
+privacy_metrics_reporting_task:
+  description: >
+    Generate KPIs: DSAR SLA compliance, localization, PET adoption, AI privacy,
+    retention enforcement, and processor compliance.
+  expected_output: >
+    {"dsar_sla":"98%","localization_compliance":"97%","pets_adopted":"65%","ai_privacy_compliance":"75%","processors_compliant":40}
+  agent: privacy_auditor
+  context: [dsar_automation_task, localization_enforcement_task, pet_integration_task, ai_privacy_compliance_task, processor_compliance_task]
+  output_file: output/privacy_metrics.json
+
+privacy_audit_task:
+  description: >
+    Audit privacy program maturity: PET adoption, AI privacy, retention enforcement,
+    processor compliance, and sovereignty coverage.
+  expected_output: >
+    {"audit_score":96,"coverage_pct":94,"gaps":["AI dataset minimization enforcement"]}
+  agent: privacy_auditor
+  context: [privacy_metrics_reporting_task]
+  output_file: output/privacy_audit.json
+privacy_data_mapping_task:
+  description: >
+    Auto-added from mapping for privacy_engineer in data_privacy_sovereignty.
+  expected_output: >
+    {"status":"ok"}
+  agent: privacy_engineer
+  output_file: output/privacy_data_mapping_task.json
+privacy_dsar_flow_task:
+  description: >
+    Auto-added from mapping for privacy_engineer in data_privacy_sovereignty.
+  expected_output: >
+    {"status":"ok"}
+  agent: privacy_engineer
+  output_file: output/privacy_dsar_flow_task.json

@@ -1,0 +1,220 @@
+rfi_ioc_investigation:
+  description: 'IOC enrichment for domain/IP/hash with WHOIS, pDNS, CT logs, malware
+    sandbox.
+
+    '
+  expected_output: "{\"ioc\":\"secure-login[.]net\",\"type\":\"domain\",\"related_iocs\"\
+    :[\"1.2.3.4\",\"abcd1234\"],\n \"risk_rationale\":[\"sandbox_link\",\"fast_flux\"\
+    ],\"confidence\":0.93,\n \"legal_basis\":\"public WHOIS, CT logs\",\"privacy_minimization\"\
+    :\"contacts hashed\",\n \"chain_of_custody\":\"s3://threatintel/coc/ioc_case_001.pdf\"\
+    ,\"evidence_hash\":\"SHA256:...\"}\n"
+  agent: threat_intel_analyst
+  output_file: output/rfi_ioc_investigation.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+rfi_malware_analysis:
+  description: 'Reverse engineer sample, extract IoCs, and generate YARA/Sigma rules.
+
+    '
+  expected_output: "{\"sample_hash\":\"abcd1234\",\"family\":\"Emotet\",\"rules\"\
+    :[\"yara_rule\",\"sigma_rule\"],\n \"related_iocs\":[\"c2server.com\"],\"confidence\"\
+    :0.95,\n \"chain_of_custody\":\"s3://threatintel/coc/malware_case_002.pdf\"}\n"
+  agent: malware_researcher
+  output_file: output/rfi_malware_analysis.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+rfi_darkweb_investigation:
+  description: 'Search underground forums/markets for brand or IOC mentions.
+
+    '
+  expected_output: "{\"keyword\":\"AcmeCorp\",\"mentions\":47,\"forums\":5,\n \"risk_rationale\"\
+    :[\"credential_sale\",\"exploit_discussion\"],\n \"chain_of_custody\":\"s3://threatintel/coc/darkweb_case_003.pdf\"\
+    }\n"
+  agent: cybint_strategist
+  output_file: output/rfi_darkweb_investigation.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+rfi_attack_mapping:
+  description: 'Map incident IoCs and TTPs to MITRE ATT&CK Navigator.
+
+    '
+  expected_output: "{\"incident_id\":\"INC123\",\"techniques\":[\"T1059\",\"T1566\"\
+    ],\n \"navigator_layer\":\"s3://threatintel/attck/layer_INC123.json\"}\n"
+  agent: attack_mapping_specialist
+  output_file: output/rfi_attack_mapping.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+ioc_feed_ingestion:
+  description: Ingest, deduplicate, normalize daily IOCs.
+  expected_output: "{\"iocs_ingested\":4521,\"deduplication_rate\":0.27,\"enrichment_success\"\
+    :0.91,\n \"ioc_feed_uri\":\"s3://threatintel/daily/ioc_feed.stix\"}\n"
+  agent: ti_data_engineer
+  output_file: output/daily_ioc_feed_ingestion.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+ioc_scoring:
+  description: Score IOCs using ML and historical context.
+  expected_output: '{"iocs_scored":3210,"critical":117,"high":432,"model_version":"ioc_score_v2.1"}
+
+    '
+  agent: threat_intel_analyst
+  output_file: output/daily_ioc_scoring.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+siem_match_feedback:
+  description: 'Check which IOCs matched in SIEM/EDR, record FP/FN metrics.
+
+    '
+  expected_output: '{"iocs_tested":1200,"hits":340,"false_positives":47,"efficacy_rate":0.72}
+
+    '
+  agent: ti_data_engineer
+  output_file: output/daily_siem_match_feedback.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+actor_tracking:
+  description: Update actor profiles with new TTPs, infra, campaigns.
+  expected_output: "{\"actors_updated\":12,\"new_ttps\":[\"T1059\",\"T1566\"],\n \"\
+    profiles_uri\":\"s3://threatintel/weekly/actor_profiles.json\"}\n"
+  agent: threat_intel_analyst
+  output_file: output/weekly_actor_tracking.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+campaign_correlation:
+  description: Correlate IOCs/malware/infra into campaign clusters.
+  expected_output: '{"clusters":5,"graph_uri":"s3://threatintel/weekly/campaign_graph.json"}
+
+    '
+  agent: fusion_analyst
+  output_file: output/weekly_campaign_correlation.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+darkweb_summary:
+  description: Weekly summary of dark web chatter, leaks, exploits.
+  expected_output: "{\"mentions\":248,\"credentials\":1250,\"malware_kits\":12,\n\
+    \ \"summary_uri\":\"s3://threatintel/weekly/darkweb_summary.pdf\"}\n"
+  agent: cybint_strategist
+  output_file: output/weekly_darkweb_summary.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+threat_landscape:
+  description: Generate threat landscape report (actors, campaigns, sectors).
+  expected_output: "{\"month\":\"2025-08\",\"new_actors\":4,\"campaigns\":11,\n \"\
+    landscape_uri\":\"s3://threatintel/monthly/landscape.pdf\"}\n"
+  agent: threat_intelligence_strategist
+  output_file: output/monthly_threat_landscape.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+hunting_pack:
+  description: Produce ATT&CK-based hunt packs for SOC.
+  expected_output: "{\"hunt_pack\":\"s3://threatintel/monthly/hunt_pack.zip\",\n \"\
+    navigator_layer\":\"s3://threatintel/monthly/hunt_layer.json\"}\n"
+  agent: attack_mapping_specialist
+  output_file: output/monthly_hunting_pack.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+detection_tuning:
+  description: Tune detection rules, retire outdated ones, document drift.
+  expected_output: '{"tuned_rules":15,"retired_rules":3,"precision":0.92,"recall":0.87}
+
+    '
+  agent: malware_researcher
+  output_file: output/monthly_detection_tuning.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+exec_brief:
+  description: Executive-level threat intel brief.
+  expected_output: "{\"quarter\":\"Q3-2025\",\"campaigns\":22,\n \"exec_brief_uri\"\
+    :\"s3://threatintel/quarterly/exec_brief.pptx\"}\n"
+  agent: threat_intelligence_strategist
+  output_file: output/quarterly_exec_brief.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+vendor_review:
+  description: Review TI vendors, feeds, and ROI.
+  expected_output: "{\"vendors_reviewed\":12,\"coverage_scores\":[0.85,0.72,0.91],\n\
+    \ \"review_uri\":\"s3://threatintel/quarterly/vendor_review.pdf\"}\n"
+  agent: threat_intelligence_strategist
+  output_file: output/quarterly_vendor_review.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+isac_sharing_report:
+  description: Generate ISAC sector-sharing report (FS-ISAC, OT-ISAC, etc.).
+  expected_output: '{"sector":"financial","iocs_shared":312,"compliance":"FS-ISAC
+    v2.0"}
+
+    '
+  agent: fusion_analyst
+  output_file: output/quarterly_isac_sharing_report.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+strategy_refresh:
+  description: Refresh TI strategy, budget, and roadmap.
+  expected_output: "{\"year\":2025,\"maturity_score\":0.83,\"budget\":2100000,\n \"\
+    strategy_uri\":\"s3://threatintel/yearly/strategy.pdf\"}\n"
+  agent: threat_intelligence_strategist
+  output_file: output/yearly_strategy_refresh.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+attck_coverage_audit:
+  description: Audit ATT&CK coverage across hunts, detection rules, and TI feeds.
+  expected_output: "{\"coverage_score\":0.87,\"techniques_mapped\":214,\n \"audit_uri\"\
+    :\"s3://threatintel/yearly/attck_audit.pdf\"}\n"
+  agent: attack_mapping_specialist
+  output_file: output/yearly_attck_coverage_audit.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3

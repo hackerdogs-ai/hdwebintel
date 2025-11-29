@@ -1,0 +1,357 @@
+rfi_sanctions_evasion_case:
+  description: >
+    Investigate suspected sanctions evasion involving a shipment or entity.
+  trigger: on_demand
+  agent: sanctions_evasion_specialist
+  inputs:
+    entity_name: str
+    shipment_id: str
+  tools:
+  - OpenSanctions
+  - Orbis_BvD
+  - ImportGenius
+  - Refinitiv
+  expected_output: >
+    {"entity":"XYZ Ltd","shipment":"ID123","finding":"linked to sanctioned entity","confidence_score":0.91,"risk_level":"high"}
+  outputs:
+    report_uri: str
+  governance:
+    legal_basis: AML/CTF compliance
+    chain_of_custody: s3://tradint/coc/{shipment_id}.zip
+  sla:
+    turnaround_hours: 12
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+rfi_dualuse_goods_trace:
+  description: >
+    Trace sensitive tech exports (chips, drones, dual-use items).
+  trigger: on_demand
+  agent: commodity_risk_specialist
+  inputs:
+    commodity: str
+    company: str
+  tools:
+  - World_Bank_Trade_Stats
+  - TradeMap_API
+  - ImportGenius
+  - Kpler
+  expected_output: >
+    {"commodity":"chips","finding":"dual-use export","confidence_score":0.92,"risk_level":"critical"}
+  outputs:
+    trace_report: str
+  sla:
+    turnaround_hours: 24
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+rfi_counterfeit_goods_investigation:
+  description: >
+    Investigate suspected counterfeit or illegal shipments.
+  trigger: on_demand
+  agent: fraud_counterfeit_investigator
+  inputs:
+    shipment_id: str
+  tools:
+  - OSINT_Shipping_DB
+  - NGO_Counterfeit_DB
+  - ImportGenius
+  - Datamyne
+  expected_output: >
+    {"shipment_id":"12345","finding":"counterfeit goods detected","confidence_score":0.9,"risk_level":"high"}
+  outputs:
+    investigation_report: str
+  sla:
+    turnaround_hours: 48
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+rfi_transshipment_route_analysis:
+  description: >
+    Investigate suspected diversion routes through third countries.
+  trigger: on_demand
+  agent: port_logistics_analyst
+  inputs:
+    route_id: str
+  tools:
+  - Maritime_Traffic_OSS
+  - Project44
+  - Everstream_Analytics
+  - Kpler
+  expected_output: >
+    {"route":"China→UAE→Iran","finding":"sanctions bypass","confidence_score":0.88,"risk_level":"high"}
+  outputs:
+    route_report: str
+  sla:
+    turnaround_hours: 24
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+daily_sanctions_monitoring:
+  description: Monitor shipments against sanctions lists and PEP databases.
+  cadence: daily
+  agent: trade_intelligence_analyst
+  tools:
+  - OpenSanctions
+  - ImportGenius
+  - Panjiva
+  - Refinitiv
+  expected_output: >
+    {"shipments_flagged":12,"new_entities":3,"confidence_score":0.9}
+  outputs:
+    sanctions_report: str
+  sla:
+    detection_latency_hours: 24
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+daily_port_congestion_monitoring:
+  description: Monitor global port congestion and chokepoints.
+  cadence: daily
+  agent: port_logistics_analyst
+  tools:
+  - Maritime_Traffic_OSS
+  - Project44
+  - Everstream_Analytics
+  - FourKites
+  expected_output: >
+    {"ports_congested":["Suez","Singapore"],"risk":"medium","confidence_score":0.87}
+  outputs:
+    congestion_report: str
+  sla:
+    turnaround_hours: 24
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+daily_transshipment_detection:
+  description: Detect suspicious transshipment activity.
+  cadence: daily
+  agent: port_logistics_analyst
+  tools:
+  - Project44
+  - Panjiva
+  - Kpler
+  - Everstream_Analytics
+  expected_output: >
+    {"transshipments_detected":5,"routes_flagged":["Dubai→Tehran"],"confidence_score":0.9}
+  outputs:
+    transshipment_alerts: str
+  sla:
+    turnaround_hours: 24
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+weekly_trade_anomaly_report:
+  description: Generate anomaly reports across ports, companies, and commodities.
+  cadence: weekly
+  agent: trade_intelligence_analyst
+  tools:
+  - UN_Comtrade_API
+  - Panjiva
+  - Refinitiv
+  - Project44
+  expected_output: >
+    {"anomalies_detected":15,"ports_high_risk":["Rotterdam","Dubai"],"confidence_score":0.9}
+  outputs:
+    weekly_report: str
+  sla:
+    delivery_hours: 48
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+weekly_dualuse_goods_report:
+  description: Weekly report on dual-use goods and sensitive exports.
+  cadence: weekly
+  agent: commodity_risk_specialist
+  tools:
+  - TradeMap_API
+  - Kpler
+  - ImportGenius
+  - OpenSanctions
+  expected_output: >
+    {"dualuse_cases":8,"finding":"high-tech exports flagged","confidence_score":0.91}
+  outputs:
+    dualuse_goods_report: str
+  sla:
+    delivery_hours: 72
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+weekly_shell_company_update:
+  description: Update offshore networks linked to trade flows.
+  cadence: weekly
+  agent: corporate_investigator
+  tools:
+  - Panama_Papers_DB
+  - Orbis_BvD
+  - OpenCorporates
+  - LittleSis
+  expected_output: >
+    {"new_shell_entities":4,"finding":"linked to illicit shipments","confidence_score":0.9}
+  outputs:
+    shell_update_report: str
+  sla:
+    delivery_hours: 72
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+monthly_supply_chain_dependency_review:
+  description: Assess dependencies on critical commodities and suppliers.
+  cadence: monthly
+  agent: supply_chain_risk_analyst
+  tools:
+  - World_Bank_Trade_Stats
+  - TradeMap_API
+  - Kpler
+  - Xeneta
+  expected_output: >
+    {"commodity":"rare earths","dependency_score":0.92,"countries":["China","Myanmar"]}
+  outputs:
+    dependency_report: str
+  sla:
+    delivery_days: 5
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+monthly_trade_finance_linkage:
+  description: Correlate trade with financial flows for TBML detection.
+  cadence: monthly
+  agent: crosspillar_tradint_fusion_analyst
+  tools:
+  - Refinitiv
+  - Orbis_BvD
+  - Palantir_Gotham
+  - OpenCTI
+  expected_output: >
+    {"cases_linked":12,"finding":"TBML patterns","confidence_score":0.88}
+  outputs:
+    finance_link_report: str
+  sla:
+    delivery_days: 7
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+monthly_customs_audit_review:
+  description: Deep dive audit on customs filings for tariff misclassification.
+  cadence: monthly
+  agent: customs_border_analyst
+  tools:
+  - UN_Comtrade_API
+  - Datamyne
+  - SAP_GTS
+  - ImportGenius
+  expected_output: >
+    {"audit_cases":7,"finding":"tariff abuse","confidence_score":0.9}
+  outputs:
+    customs_audit_report: str
+  sla:
+    delivery_days: 7
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+quarterly_trade_based_money_laundering_review:
+  description: Review TBML patterns across trade flows.
+  cadence: quarterly
+  agent: sanctions_evasion_specialist
+  tools:
+  - Refinitiv
+  - Orbis_BvD
+  - Bloomberg
+  - Palantir_Gotham
+  expected_output: >
+    {"tbml_cases":10,"risk_level":"high","confidence_score":0.89}
+  outputs:
+    tbml_report: str
+  sla:
+    delivery_days: 14
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+quarterly_supply_chain_resilience_simulation:
+  description: Simulate disruptions (war, pandemic, sanctions escalation).
+  cadence: quarterly
+  agent: supply_chain_risk_analyst
+  tools:
+  - Everstream_Analytics
+  - Project44
+  - Airbus_OneAtlas
+  - Palantir_Gotham
+  expected_output: >
+    {"scenario":"sanctions","impact":"30% slowdown in exports","confidence_score":0.87}
+  outputs:
+    after_action_report: str
+  sla:
+    completion: 100%
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+yearly_global_sanctions_evasion_report:
+  description: Annual review of sanctions evasion techniques and networks.
+  cadence: yearly
+  agent: sanctions_evasion_specialist
+  tools:
+  - OpenSanctions
+  - Orbis_BvD
+  - Panama_Papers_DB
+  - Refinitiv
+  expected_output: >
+    {"finding":"increase in transshipment routes","growth_rate":15,"confidence_score":0.91}
+  outputs:
+    sanctions_evasion_report: str
+  sla:
+    delivery_days: 30
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+yearly_counterfeit_trade_review:
+  description: Annual review of counterfeit and smuggling activity.
+  cadence: yearly
+  agent: fraud_counterfeit_investigator
+  tools:
+  - NGO_Counterfeit_DB
+  - OSINT_Shipping_DB
+  - ImportGenius
+  - Refinitiv
+  expected_output: >
+    {"counterfeit_cases":120,"trend":"upward","confidence_score":0.9}
+  outputs:
+    counterfeit_trade_report: str
+  sla:
+    delivery_days: 30
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3

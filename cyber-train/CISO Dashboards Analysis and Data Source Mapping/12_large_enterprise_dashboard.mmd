@@ -1,0 +1,89 @@
+graph TB
+    subgraph "LARGE ENTERPRISE CISO DASHBOARD<br/>1,000-10,000 Employees"
+        M1[Advanced Threat Detection & Response]
+        M2[SOC Performance Metrics]
+        M3[Risk Quantification - Financial Impact]
+        M4[Multiple Compliance Frameworks]
+        M5[Threat Intelligence Integration]
+        M6[Security Architecture Effectiveness]
+        M7[Identity & Access Governance]
+        M8[Cloud Security Posture]
+    end
+    
+    subgraph "Data Sources"
+        DS1[Enterprise SIEM<br/>Splunk Enterprise, QRadar]
+        DS2[Advanced EDR/XDR<br/>CrowdStrike Falcon, Microsoft Defender]
+        DS3[Threat Intelligence Platforms<br/>Recorded Future, Anomali]
+        DS4[Enterprise GRC<br/>RSA Archer, ServiceNow]
+        DS5[SOAR Platforms<br/>Palo Alto Cortex, Splunk Phantom]
+        DS6[UEBA<br/>Exabeam, Securonix]
+        DS7[IGA Platforms<br/>SailPoint, Saviynt]
+        DS8[CASB<br/>Netskope, McAfee MVISION]
+        DS9[CSPM<br/>Prisma Cloud, Wiz, Orca]
+    end
+    
+    subgraph "Collection Methods"
+        CM1[Advanced Analytics]
+        CM2[Machine Learning]
+        CM3[Behavioral Analysis]
+        CM4[SOC Metrics Dashboard]
+        CM5[MTTD/MTTR Tracking]
+        CM6[Risk Modeling - FAIR]
+        CM7[Monte Carlo Simulation]
+        CM8[Multi-Framework Mapping]
+        CM9[Automated Evidence]
+        CM10[Threat Feed Integration]
+        CM11[IOC Correlation]
+        CM12[Architecture Reviews]
+        CM13[Zero Trust Validation]
+        CM14[Automated Provisioning]
+        CM15[Entitlement Analytics]
+        CM16[Cloud Config Scanning]
+        CM17[Multi-Cloud Monitoring]
+    end
+    
+    M1 --> DS1
+    M1 --> DS2
+    M1 --> DS6
+    DS1 --> CM1
+    DS2 --> CM2
+    DS6 --> CM3
+    
+    M2 --> DS1
+    M2 --> DS5
+    DS5 --> CM4
+    DS5 --> CM5
+    
+    M3 --> DS4
+    DS4 --> CM6
+    DS4 --> CM7
+    
+    M4 --> DS4
+    DS4 --> CM8
+    DS4 --> CM9
+    
+    M5 --> DS3
+    DS3 --> CM10
+    DS3 --> CM11
+    
+    M6 --> DS4
+    DS4 --> CM12
+    DS4 --> CM13
+    
+    M7 --> DS7
+    DS7 --> CM14
+    DS7 --> CM15
+    
+    M8 --> DS8
+    M8 --> DS9
+    DS9 --> CM16
+    DS9 --> CM17
+    
+    style M1 fill:#e8e1ff
+    style M2 fill:#e8e1ff
+    style M3 fill:#e8e1ff
+    style M4 fill:#e8e1ff
+    style M5 fill:#e8e1ff
+    style M6 fill:#e8e1ff
+    style M7 fill:#e8e1ff
+    style M8 fill:#e8e1ff

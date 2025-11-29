@@ -1,0 +1,324 @@
+rfi_researcher_affiliation_check:
+  description: >
+    Investigate a researcher’s affiliations, funding sources, and collaboration history.
+  expected_output: >
+    JSON dossier with affiliations, funding sources, collaboration ties, dual-use risk score, and confidence rating.
+  agent: edu_researcher
+  output_file: output/rfi_researcher_affiliation_check.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+rfi_academic_credential_verification:
+  description: >
+    Verify authenticity of academic credentials and publications.
+  expected_output: >
+    JSON with credential validation status, DOI/ORCID matches, and confidence score.
+  agent: edu_monitor
+  output_file: output/rfi_academic_credential_verification.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+rfi_funding_source_investigation:
+  description: >
+    Investigate university funding sources and donor affiliations for influence risk.
+  expected_output: >
+    JSON report linking donor to origin, entity type, and risk classification (LOW|MEDIUM|HIGH|CRITICAL).
+  agent: edu_researcher
+  output_file: output/rfi_funding_source_investigation.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+rfi_plagiarism_check:
+  description: >
+    Run plagiarism and duplication scans across academic corpora.
+  expected_output: >
+    JSON report with plagiarism matches, similarity scores, and flagged content.
+  agent: edu_ml_specialist
+  output_file: output/rfi_plagiarism_check.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+rfi_faculty_background_check:
+  description: >
+    Investigate faculty affiliations, undisclosed partnerships, or espionage risk ties.
+  expected_output: >
+    JSON dossier with affiliations, funding records, red flags, and confidence score.
+  agent: edu_researcher
+  output_file: output/rfi_faculty_background_check.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+daily_preprint_monitoring:
+  description: >
+    Monitor new preprints, dissertations, and publications across repositories.
+  expected_output: >
+    JSON log of new outputs with topic, author, affiliation, funding, and dual-use risk.
+  agent: edu_monitor
+  output_file: output/daily_preprint_monitoring.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+daily_campus_event_tracking:
+  description: >
+    Track campus events, activism, and incidents from social and news feeds.
+  expected_output: >
+    JSON incident log with event type, location, participants, severity, and confidence score.
+  agent: edu_monitor
+  output_file: output/daily_campus_event_tracking.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+daily_academic_cyber_watch:
+  description: >
+    Monitor EDU-sector cyber incidents (phishing, leaks, ransomware).
+  expected_output: >
+    JSON feed of cyber incidents cross-linked to academic institutions.
+  agent: edu_monitor
+  output_file: output/daily_academic_cyber_watch.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+daily_patent_monitoring:
+  description: >
+    Monitor new patents linked to universities and research institutions.
+  expected_output: >
+    JSON list of patents with institution linkage, technology area, and risk classification.
+  agent: edu_researcher
+  output_file: output/daily_patent_monitoring.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+daily_plagiarism_alerts:
+  description: >
+    Flag plagiarism or duplication in new academic outputs.
+  expected_output: >
+    JSON report of suspected plagiarism cases with similarity index.
+  agent: edu_ml_specialist
+  output_file: output/daily_plagiarism_alerts.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+weekly_collaboration_network_update:
+  description: >
+    Update academic collaboration network graphs with institutions and researchers.
+  expected_output: >
+    Graph JSON with nodes (researchers, institutions) and edges (collaborations).
+  agent: edu_researcher
+  output_file: output/weekly_collaboration_network_update.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+weekly_funding_announcement_summary:
+  description: >
+    Summarize grants, tenders, and funding announcements.
+  expected_output: >
+    JSON summary linking funding to institutions and domains.
+  agent: edu_researcher
+  output_file: output/weekly_funding_announcement_summary.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+weekly_academic_cyber_incidents:
+  description: >
+    Provide summary of EDU-sector cybersecurity incidents over the past week.
+  expected_output: >
+    JSON summary with incident type, institution, impact, and IOCs.
+  agent: edu_monitor
+  output_file: output/weekly_academic_cyber_incidents.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+weekly_curriculum_review:
+  description: >
+    Detect foreign-influenced or extremist content in curricula.
+  expected_output: >
+    JSON report with flagged curriculum elements and severity scores.
+  agent: edu_compliance_officer
+  output_file: output/weekly_curriculum_review.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+monthly_technology_trend_report:
+  description: >
+    Report on emerging technologies across academic outputs (AI, biotech, quantum, defense).
+  expected_output: >
+    JSON + PDF report with flagged institutions and dual-use risk scores.
+  agent: edu_ml_specialist
+  output_file: output/monthly_technology_trend_report.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+monthly_mobility_mapping:
+  description: >
+    Map researcher and student mobility flows by country and discipline.
+  expected_output: >
+    JSON + geoJSON mobility flow maps with statistics and hotspots.
+  agent: edu_researcher
+  output_file: output/monthly_mobility_mapping.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+monthly_dual_use_risk_assessment:
+  description: >
+    Assess risk of dual-use research across institutions and domains.
+  expected_output: >
+    JSON report with risk scores and flagged outputs.
+  agent: edu_ml_specialist
+  output_file: output/monthly_dual_use_risk_assessment.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+monthly_plagiarism_trends:
+  description: >
+    Track monthly plagiarism incidents and trends.
+  expected_output: >
+    JSON trend report with statistics, similarity scores, and flagged institutions.
+  agent: edu_ml_specialist
+  output_file: output/monthly_plagiarism_trends.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+monthly_curriculum_influence_assessment:
+  description: >
+    Assess influence of foreign actors on teaching or research content.
+  expected_output: >
+    JSON + PDF report highlighting risks and recommended mitigations.
+  agent: edu_compliance_officer
+  output_file: output/monthly_curriculum_influence_assessment.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+quarterly_espionage_case_brief:
+  description: >
+    Summarize notable academic espionage cases from the quarter.
+  expected_output: >
+    Executive brief (pptx/pdf) with summaries, actors, and recommendations.
+  agent: edu_strategist
+  output_file: output/quarterly_espionage_case_brief.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+quarterly_institution_resilience_benchmark:
+  description: >
+    Benchmark institutional resilience against infiltration and compliance risks.
+  expected_output: >
+    JSON + PDF benchmark report with institution scores and rankings.
+  agent: edu_strategist
+  output_file: output/quarterly_institution_resilience_benchmark.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+quarterly_export_control_audit:
+  description: >
+    Audit compliance with export control regimes (EAR, ITAR, dual-use regulations).
+  expected_output: >
+    JSON audit report with flagged issues and remediation guidance.
+  agent: edu_compliance_officer
+  output_file: output/quarterly_export_control_audit.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+quarterly_journal_integrity_review:
+  description: >
+    Detect predatory or fake academic journals.
+  expected_output: >
+    JSON report listing journals, impact factors, and risk flags.
+  agent: edu_researcher
+  output_file: output/quarterly_journal_integrity_review.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+yearly_global_academic_assessment:
+  description: >
+    Comprehensive EDUINT assessment of global academic outputs and risks.
+  expected_output: >
+    JSON + PDF report with statistics, collaborations, and flagged risks.
+  agent: edu_strategist
+  output_file: output/yearly_global_academic_assessment.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+yearly_talent_pipeline_forecast:
+  description: >
+    Forecast talent migration and pipeline risks by country and discipline.
+  expected_output: >
+    JSON + geoJSON forecast maps and predictive analytics.
+  agent: edu_ml_specialist
+  output_file: output/yearly_talent_pipeline_forecast.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+yearly_eduint_strategy_review:
+  description: >
+    Review EDUINT strategy, roadmap, and compliance performance.
+  expected_output: >
+    JSON strategy doc with updated KPIs, vendor list, and roadmap.
+  agent: edu_strategist
+  output_file: output/yearly_eduint_strategy_review.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+yearly_global_policy_forecast:
+  description: >
+    Provide outlook on global academic policy shifts and geopolitical influence.
+  expected_output: >
+    JSON + PDF policy forecast with risk scores by region.
+  agent: edu_strategist
+  output_file: output/yearly_global_policy_forecast.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3

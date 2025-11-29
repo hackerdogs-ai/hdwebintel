@@ -1,0 +1,86 @@
+graph TB
+    subgraph "STRATEGIC CISO DASHBOARD"
+        M1[Capability Maturity Model Level]
+        M2[Cyber Risk Financial Impact]
+        M3[Business Risk Alignment Score]
+        M4[Security Training Effectiveness]
+        M5[Phishing Attack Success Rate]
+        M6[First-Party Security Rating]
+        M7[Security Investment ROI]
+        M8[Breach Likelihood Percentage]
+    end
+    
+    subgraph "Data Sources"
+        DS1[GRC Platforms<br/>RSA Archer, ServiceNow]
+        DS2[Risk Quantification Tools<br/>FAIR, RiskLens]
+        DS3[Business Impact Analysis Tools]
+        DS4[Security Awareness Platforms<br/>KnowBe4, Proofpoint, Mimecast]
+        DS5[External Security Ratings<br/>SecurityScorecard, BitSight]
+        DS6[Financial Systems<br/>ERP, Budget Tools]
+        DS7[Threat Intelligence Platforms]
+        DS8[Historical Incident Data]
+    end
+    
+    subgraph "Collection Methods"
+        CM1[Framework Mapping]
+        CM2[Control Assessments]
+        CM3[Maturity Scoring]
+        CM4[Risk Modeling]
+        CM5[Monte Carlo Simulation]
+        CM6[Business Impact Analysis]
+        CM7[Asset Criticality Mapping]
+        CM8[Training Completion Tracking]
+        CM9[Quiz Score Analysis]
+        CM10[Simulated Phishing Campaigns]
+        CM11[Click Tracking]
+        CM12[External Scanning]
+        CM13[Public Data Analysis]
+        CM14[Cost-Benefit Analysis]
+        CM15[Predictive Analytics]
+    end
+    
+    M1 --> DS1
+    DS1 --> CM1
+    DS1 --> CM2
+    DS1 --> CM3
+    
+    M2 --> DS2
+    M2 --> DS3
+    DS2 --> CM4
+    DS2 --> CM5
+    DS3 --> CM6
+    
+    M3 --> DS1
+    M3 --> DS3
+    DS3 --> CM7
+    DS3 --> CM6
+    
+    M4 --> DS4
+    DS4 --> CM8
+    DS4 --> CM9
+    
+    M5 --> DS4
+    DS4 --> CM10
+    DS4 --> CM11
+    
+    M6 --> DS5
+    DS5 --> CM12
+    DS5 --> CM13
+    
+    M7 --> DS6
+    M7 --> DS1
+    DS6 --> CM14
+    
+    M8 --> DS7
+    M8 --> DS8
+    DS7 --> CM15
+    DS8 --> CM15
+    
+    style M1 fill:#e8f5e9
+    style M2 fill:#e8f5e9
+    style M3 fill:#e8f5e9
+    style M4 fill:#e8f5e9
+    style M5 fill:#e8f5e9
+    style M6 fill:#e8f5e9
+    style M7 fill:#e8f5e9
+    style M8 fill:#e8f5e9

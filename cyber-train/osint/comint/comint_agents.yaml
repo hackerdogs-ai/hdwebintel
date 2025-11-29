@@ -1,0 +1,299 @@
+comint_strategist:
+  role: Strategic COMINT Lead
+  goal: >
+    Define and oversee COMINT strategy, align with SIGINT/HUMINT/IMINT, ensure compliance, and deliver executive-ready insights.
+  backstory: >
+    Senior intelligence leader with expertise in communications monitoring, risk management, and OSINT fusion.
+  llm: openai/gpt-4o
+  tools:
+  - Strategic_Reporting
+  - KPI_Aggregator
+  - Ethics_Compliance_Checker
+  - CrossPillar_Validator
+  verbose: true
+  memory: true
+  max_execution_time: 600
+  max_iterations: 5
+  allow_delegation: false
+  max_rpm: 30
+  planning: false
+  cache: true
+  max_retry_limit: 2
+  respect_context_window: true
+  multimodal: false
+  inject_date: false
+  date_format: '%Y-%m-%d'
+  reasoning: false
+  use_system_prompt: true
+comint_collection_officer:
+  role: COMINT Collection Officer
+  goal: >
+    Capture and monitor open comms (radio, VoIP, satcom) using SDR pipelines, ensuring reliable coverage and anomaly detection.
+  backstory: >
+    Field engineer with experience in radio sweeps, VoIP metadata capture, and emergency broadcast monitoring.
+  llm: openai/gpt-4o
+  tools:
+  - GNU_Radio
+  - GQRX
+  - SDRangel
+  - gr-gsm
+  - dump1090
+  - Wireshark_SIP
+  verbose: true
+  memory: true
+  max_execution_time: 600
+  max_iterations: 5
+  allow_delegation: false
+  max_rpm: 30
+  planning: false
+  cache: true
+  max_retry_limit: 2
+  respect_context_window: true
+  multimodal: false
+  inject_date: false
+  date_format: '%Y-%m-%d'
+  reasoning: false
+  use_system_prompt: true
+voice_language_analyst:
+  role: Voice & Language Analyst
+  goal: >
+    Transcribe, translate, and analyze comms; flag anomalies, keywords, and covert communications.
+  backstory: >
+    Linguist and NLP expert experienced in transcription, accent recognition, and intent classification.
+  llm: openai/gpt-4o
+  tools:
+  - Whisper
+  - DeepSpeech
+  - Language_ID_Model
+  - Keyword_Spotter
+  - Audacity
+  verbose: true
+  memory: true
+  max_execution_time: 600
+  max_iterations: 5
+  allow_delegation: false
+  max_rpm: 30
+  planning: false
+  cache: true
+  max_retry_limit: 2
+  respect_context_window: true
+  multimodal: false
+  inject_date: false
+  date_format: '%Y-%m-%d'
+  reasoning: false
+  use_system_prompt: true
+voip_network_analyst:
+  role: VoIP & Telephony Analyst
+  goal: >
+    Analyze VoIP metadata and call traffic for anomalies, fraud, or covert activity.
+  backstory: >
+    Telecom specialist with experience in SIP/RTP traffic, call graph analysis, and vishing detection.
+  llm: openai/gpt-4o
+  tools:
+  - Wireshark_VoIP
+  - SIP_Analyzer
+  - RTP_Inspector
+  - Fraud_Call_Detector
+  verbose: true
+  memory: true
+  max_execution_time: 600
+  max_iterations: 5
+  allow_delegation: false
+  max_rpm: 30
+  planning: false
+  cache: true
+  max_retry_limit: 2
+  respect_context_window: true
+  multimodal: false
+  inject_date: false
+  date_format: '%Y-%m-%d'
+  reasoning: false
+  use_system_prompt: true
+nlp_model_engineer:
+  role: COMINT NLP Model Engineer
+  goal: >
+    Maintain and evaluate NLP models for transcription, keyword spotting, speaker clustering, and intent classification.
+  backstory: >
+    Data scientist with experience in ML model drift, adversarial input testing, and explainability frameworks.
+  llm: openai/gpt-4o
+  tools:
+  - Drift_Monitor
+  - Eval_Benchmark
+  - SHAP_Explainer
+  - Speaker_Clustering_Model
+  verbose: true
+  memory: true
+  max_execution_time: 600
+  max_iterations: 5
+  allow_delegation: false
+  max_rpm: 30
+  planning: false
+  cache: true
+  max_retry_limit: 2
+  respect_context_window: true
+  multimodal: false
+  inject_date: false
+  date_format: '%Y-%m-%d'
+  reasoning: false
+  use_system_prompt: true
+compliance_officer:
+  role: COMINT Compliance & Privacy Officer
+  goal: >
+    Ensure COMINT operations comply with legal frameworks, minimize PII collection, and provide audit-ready reporting.
+  backstory: >
+    Compliance leader specialized in GDPR, FCC/ITU rules, and lawful intercept restrictions.
+  llm: openai/gpt-4o
+  tools:
+  - Audit_Log_Manager
+  - DPIA_Checklist
+  - Retention_Controller
+  - ToS_Compliance_Screener
+  verbose: true
+  memory: true
+  max_execution_time: 600
+  max_iterations: 5
+  allow_delegation: false
+  max_rpm: 30
+  planning: false
+  cache: true
+  max_retry_limit: 2
+  respect_context_window: true
+  multimodal: false
+  inject_date: false
+  date_format: '%Y-%m-%d'
+  reasoning: false
+  use_system_prompt: true
+voice_security_analyst:
+  role: Voice Security & Deepfake Analyst
+  goal: >
+    Detect synthetic/clone voices, watermark inconsistencies, and TDoS/swatting patterns in open communications and VoIP metadata.
+  backstory: >
+    Specialist in audio forensics, watermark detection, and behavioral analytics for voice fraud and social engineering.
+  llm: openai/gpt-4o
+  tools:
+  - Deepfake_Voice_Detector
+  - Audio_Watermark_Checker
+  - TDoS_Pattern_Miner
+  - ChainOfCustody_Manager
+  verbose: true
+  memory: true
+  max_execution_time: 600
+  max_iterations: 5
+  allow_delegation: false
+  max_rpm: 30
+  planning: false
+  cache: true
+  max_retry_limit: 2
+  respect_context_window: true
+  multimodal: false
+  inject_date: false
+  date_format: '%Y-%m-%d'
+  reasoning: false
+  use_system_prompt: true
+telephony_attribution_analyst:
+  role: Telephony Graph & Attribution Analyst
+  goal: >
+    Build call graphs, analyze STIR/SHAKEN anomalies, and attribute robocall/vishing campaigns across DIDs and carriers.
+  backstory: >
+    Telecom expert in SIP routing, SBC logs, and call-graph enrichment with CTI sources.
+  llm: openai/gpt-4o
+  tools:
+  - Call_Graph_Builder
+  - STIR_SHAKEN_Inspector
+  - Passive_DNS_CT_Enricher
+  - Fraud_Call_Detector
+  verbose: true
+  memory: true
+  max_execution_time: 600
+  max_iterations: 5
+  allow_delegation: false
+  max_rpm: 30
+  planning: false
+  cache: true
+  max_retry_limit: 2
+  respect_context_window: true
+  multimodal: false
+  inject_date: false
+  date_format: '%Y-%m-%d'
+  reasoning: false
+  use_system_prompt: true
+video_payload_analyst:
+  role: Video Payload & Deepfake Analyst
+  goal: >
+    Detect manipulated or synthetic videos transmitted via communications channels (VoIP video calls, livestreams, satcom feeds) and handoff confirmed cases to IMINT/SOCMINT for full forensic validation.
+  backstory: >
+    Forensic video specialist with expertise in deepfake detection, compression artifact analysis, and comms payload integrity.
+  llm: openai/gpt-4o
+  tools:
+  - Deepfake_Video_Detector
+  - InVID_Verification
+  - Video_Frames_Analyzer
+  - ChainOfCustody_Manager
+  verbose: true
+  memory: true
+  max_execution_time: 600
+  max_iterations: 5
+  allow_delegation: false
+  max_rpm: 30
+  planning: false
+  cache: true
+  max_retry_limit: 2
+  respect_context_window: true
+  multimodal: false
+  inject_date: false
+  date_format: '%Y-%m-%d'
+  reasoning: false
+  use_system_prompt: true
+legint_strategist:
+  role: Legal Intelligence Strategist for Communications Intelligence
+  goal: Provide strategic legal intelligence for communications investigations and
+    compliance.
+  backstory: You specialize in legal intelligence for communications investigations,
+    privacy compliance, and regulatory adherence.
+  llm: openai/gpt-4o
+  tools:
+  - Legal_Research_Tool
+  - Privacy_Compliance_Checker
+  - Communications_Legal_Analyzer
+  - Regulatory_Monitor
+  verbose: true
+  memory: true
+  max_execution_time: 600
+  max_iterations: 5
+  allow_delegation: true
+  max_rpm: 30
+  planning: true
+  cache: true
+  max_retry_limit: 2
+  respect_context_window: true
+  multimodal: false
+  inject_date: false
+  date_format: '%Y-%m-%d'
+  reasoning: false
+  use_system_prompt: true
+socmint_strategist:
+  role: SOCMINT Strategist for Communications Intelligence
+  goal: Provide strategic social media intelligence for communications investigations.
+  backstory: You specialize in social media intelligence for communications investigations,
+    brand protection, and compliance.
+  llm: openai/gpt-4o
+  tools:
+  - Social_Media_Monitor
+  - Brand_Protection_Tool
+  - Communications_Analyzer
+  - Compliance_Checker
+  verbose: true
+  memory: true
+  max_execution_time: 600
+  max_iterations: 5
+  allow_delegation: true
+  max_rpm: 30
+  planning: true
+  cache: true
+  max_retry_limit: 2
+  respect_context_window: true
+  multimodal: false
+  inject_date: false
+  date_format: '%Y-%m-%d'
+  reasoning: false
+  use_system_prompt: true

@@ -1,0 +1,84 @@
+graph TB
+    subgraph "SMALL BUSINESS CISO DASHBOARD<br/>1-100 Employees"
+        M1[Basic Security Hygiene Score]
+        M2[Antivirus/Anti-Malware Status]
+        M3[Phishing Test Results]
+        M4[MFA Adoption Rate]
+        M5[Critical Vulnerability Count]
+        M6[Backup Success Rate]
+        M7[Password Policy Compliance]
+        M8[Security Training Completion]
+    end
+    
+    subgraph "Data Sources"
+        DS1[Endpoint Protection<br/>Windows Defender, Malwarebytes]
+        DS2[Microsoft 365/Google Workspace<br/>Security Center]
+        DS3[Security Awareness Platforms<br/>KnowBe4, Proofpoint Essentials]
+        DS4[Basic Vulnerability Scanners<br/>Nessus Essentials, OpenVAS]
+        DS5[Backup Solutions<br/>Veeam, Acronis, Cloud Backup]
+        DS6[MSSP Reports<br/>Managed Security Service Provider]
+        DS7[Password Managers<br/>1Password, LastPass]
+        DS8[MFA Solutions<br/>Duo, Microsoft Authenticator]
+    end
+    
+    subgraph "Collection Methods"
+        CM1[Agent Status Reporting]
+        CM2[Manual Checks]
+        CM3[Cloud Console Dashboards]
+        CM4[Email Security Reports]
+        CM5[Simulated Phishing]
+        CM6[Click Rate Tracking]
+        CM7[MFA Enrollment Reports]
+        CM8[User Account Audits]
+        CM9[Weekly/Monthly Scans]
+        CM10[Severity Filtering]
+        CM11[Backup Job Logs]
+        CM12[Restore Testing]
+        CM13[Password Audit Reports]
+        CM14[Training Platform Reports]
+        CM15[Certificate Tracking]
+    end
+    
+    M1 --> DS2
+    M1 --> DS6
+    DS2 --> CM3
+    DS6 --> CM2
+    
+    M2 --> DS1
+    DS1 --> CM1
+    DS1 --> CM3
+    
+    M3 --> DS3
+    DS3 --> CM5
+    DS3 --> CM6
+    
+    M4 --> DS8
+    M4 --> DS2
+    DS8 --> CM7
+    DS2 --> CM8
+    
+    M5 --> DS4
+    DS4 --> CM9
+    DS4 --> CM10
+    
+    M6 --> DS5
+    DS5 --> CM11
+    DS5 --> CM12
+    
+    M7 --> DS7
+    M7 --> DS2
+    DS7 --> CM13
+    DS2 --> CM8
+    
+    M8 --> DS3
+    DS3 --> CM14
+    DS3 --> CM15
+    
+    style M1 fill:#e1f5f5
+    style M2 fill:#e1f5f5
+    style M3 fill:#e1f5f5
+    style M4 fill:#e1f5f5
+    style M5 fill:#e1f5f5
+    style M6 fill:#e1f5f5
+    style M7 fill:#e1f5f5
+    style M8 fill:#e1f5f5

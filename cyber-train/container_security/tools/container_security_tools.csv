@@ -1,0 +1,30 @@
+Implementation Priority,tool,pillar,type,agent,task,priority,source,url
+,Trivy,container_security,Open Source,container_engineer,container_scanning,High,comprehensive_csv,https://github.com/aquasecurity/trivy
+,Clair,container_security,Open Source,container_engineer,container_scanning,Medium,comprehensive_csv,https://github.com/quay/clair
+,Anchore Engine,container_security,Open Source,container_engineer,container_scanning,Medium,comprehensive_csv,https://github.com/anchore/anchore-engine
+,Kube-bench,container_security,Open Source,container_engineer,k8s_benchmarking,High,comprehensive_csv,https://github.com/aquasecurity/kube-bench
+,Kube-hunter,container_security,Open Source,container_engineer,k8s_penetration_testing,High,comprehensive_csv,https://github.com/aquasecurity/kube-hunter
+,OPA Gatekeeper,container_security,Open Source,container_engineer,k8s_policy_controller,High,comprehensive_csv,https://github.com/open-policy-agent/gatekeeper
+,Falco,container_security,Open Source,container_engineer,runtime_security,High,comprehensive_csv,https://github.com/falcosecurity/falco
+,Sysdig OSS,container_security,Open Source,container_engineer,container_monitoring,Medium,comprehensive_csv,https://github.com/draios/sysdig
+,Grafeas,container_security,Open Source,container_engineer,artifact_metadata,Medium,comprehensive_csv,https://github.com/grafeas/grafeas
+,Harbor,container_security,Open Source,container_engineer,container_registry,High,comprehensive_csv,https://github.com/goharbor/harbor
+,Aqua Security,container_security,Commercial,container_engineer,container_security_platform,High,comprehensive_csv,https://docs.aquasec.com
+,Prisma Cloud (Palo Alto),container_security,Commercial,container_engineer,container_security_platform,High,comprehensive_csv,https://docs.paloaltonetworks.com/prisma-cloud
+,Sysdig Secure,container_security,Commercial,container_engineer,container_security_platform,High,comprehensive_csv,https://docs.sysdig.com
+,StackRox / Red Hat Advanced Cluster Security (ACS),container_security,Commercial,container_engineer,container_security_platform,High,comprehensive_csv,https://docs.redhat.com/en/red-hat-advanced-cluster-security
+,Snyk Container,container_security,Commercial,container_engineer,container_scanning,High,comprehensive_csv,https://docs.snyk.io
+,JFrog Xray,container_security,Commercial,container_engineer,container_scanning,High,comprehensive_csv,https://docs.jfrog.com
+,Qualys Container Security,container_security,Commercial,container_engineer,container_security_platform,High,comprehensive_csv,https://docs.qualys.com
+,Tenable.io Container Security,container_security,Commercial,container_engineer,container_security_platform,High,comprehensive_csv,https://docs.tenable.com
+,Docker Security Scanning (Docker Hub/EE),container_security,Commercial,container_engineer,container_scanning,High,comprehensive_csv,https://docs.docker.com
+,Trend Micro Cloud One – Container Security,container_security,Commercial,container_engineer,container_security_platform,High,comprehensive_csv,https://docs.trendmicro.com/en-us/enterprise/cloud-one
+,Docker Bench,container_security,Open Source,container_engineer,container_hardening,High,comprehensive_csv,https://github.com/docker/docker-bench-security
+,Kubernetes Security,container_security,Open Source,container_engineer,k8s_security,High,comprehensive_csv,https://kubernetes.io/docs/concepts/security
+,Falco,container_security,Open Source,container_engineer,runtime_security,High,comprehensive_csv,https://github.com/falcosecurity/falco
+,Twistlock,container_security,Commercial,container_engineer,container_security,High,comprehensive_csv,https://docs.paloaltonetworks.com/prisma-cloud
+,NeuVector,container_security,Commercial,container_engineer,container_security,Medium,comprehensive_csv,https://docs.neuvector.com
+,Sysdig Secure,container_security,Commercial,container_engineer,container_security,High,comprehensive_csv,https://docs.sysdig.com
+,Polaris,container_security,Open Source,container_engineer,k8s_best_practices,Medium,comprehensive_csv,https://github.com/FairwindsOps/polaris
+,Popeye,container_security,Open Source,container_engineer,k8s_cluster_sanitizer,Medium,comprehensive_csv,https://github.com/derailed/popeye
+,KubeLinter,container_security,Open Source,container_engineer,k8s_yaml_linting,Medium,comprehensive_csv,https://github.com/stackrox/kube-linter

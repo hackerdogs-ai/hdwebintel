@@ -1,0 +1,46 @@
+Implementation Priority,tool,pillar,type,agent,task,priority,source,url
+,osquery,vendor_mgmt,Open Source,vendor_risk_analyst,endpoint_assessment,Medium,comprehensive_csv,https://github.com/osquery/osquery
+,Wazuh,vendor_mgmt,Open Source,vendor_risk_analyst,security_monitoring,Medium,comprehensive_csv,https://github.com/wazuh/wazuh
+,GRR Rapid Response,vendor_mgmt,Open Source,vendor_risk_analyst,forensic_assessment,Medium,comprehensive_csv,https://github.com/google/grr
+,Metasploit / Nmap,vendor_mgmt,Open Source,vendor_risk_analyst,penetration_testing,Medium,comprehensive_csv,https://github.com/rapid7/metasploit-framework
+,GRC Toolkits (Eramba OSS),vendor_mgmt,Open Source,vendor_risk_analyst,grc_management,Medium,comprehensive_csv,https://github.com/eramba/eramba
+,OpenVAS / Greenbone,vendor_mgmt,Open Source,vendor_risk_analyst,vulnerability_assessment,Medium,comprehensive_csv,https://github.com/greenbone/openvas
+,Elastic Stack (ELK),vendor_mgmt,Open Source,vendor_risk_analyst,log_analysis,Medium,comprehensive_csv,https://github.com/elastic/elasticsearch
+,MISP,vendor_mgmt,Open Source,vendor_risk_analyst,threat_intelligence,Medium,comprehensive_csv,https://github.com/MISP/MISP
+,OpenSCAP,vendor_mgmt,Open Source,vendor_risk_analyst,compliance_scanning,Medium,comprehensive_csv,https://github.com/OpenSCAP
+,PrivacyIDEA,vendor_mgmt,Open Source,vendor_risk_analyst,security_assessment,Medium,comprehensive_csv,https://github.com/privacyidea/privacyidea
+,BitSight,vendor_mgmt,Commercial,vendor_risk_analyst,security_rating,High,comprehensive_csv,https://docs.bitsight.com
+,SecurityScorecard,vendor_mgmt,Commercial,vendor_risk_analyst,security_rating,High,comprehensive_csv,https://docs.securityscorecard.com
+,Archer GRC,vendor_mgmt,Commercial,vendor_risk_analyst,grc_management,High,comprehensive_csv,https://docs.rsa.com
+,OneTrust Vendor Risk Management,vendor_mgmt,Commercial,vendor_risk_analyst,vendor_risk_management,High,comprehensive_csv,https://docs.onetrust.com
+,ServiceNow VRM,vendor_mgmt,Commercial,vendor_risk_analyst,vendor_risk_management,High,comprehensive_csv,https://docs.servicenow.com
+,Prevalent VRM,vendor_mgmt,Commercial,vendor_risk_analyst,vendor_risk_management,High,comprehensive_csv,https://docs.prevalent.net
+,UpGuard Vendor Risk,vendor_mgmt,Commercial,vendor_risk_analyst,vendor_risk_management,High,comprehensive_csv,https://docs.upguard.com
+,Panorays,vendor_mgmt,Commercial,vendor_risk_analyst,vendor_risk_management,High,comprehensive_csv,https://docs.panorays.com
+,RiskRecon (Mastercard),vendor_mgmt,Commercial,vendor_risk_analyst,security_rating,High,comprehensive_csv,https://docs.riskrecon.com
+,CyberGRX,vendor_mgmt,Commercial,vendor_risk_analyst,vendor_risk_management,High,comprehensive_csv,https://docs.cybergrx.com
+,ThirdPartyTrust,vendor_mgmt,Commercial,vendor_risk_analyst,vendor_risk_management,High,comprehensive_csv,https://docs.thirdpartytrust.com
+,ProcessUnity,vendor_mgmt,Commercial,vendor_risk_analyst,vendor_risk_management,High,comprehensive_csv,https://docs.processunity.com
+,Venminder,vendor_mgmt,Commercial,vendor_risk_analyst,vendor_risk_management,High,comprehensive_csv,https://docs.venminder.com
+,Whistic,vendor_mgmt,Commercial,vendor_risk_analyst,vendor_risk_management,High,comprehensive_csv,https://docs.whistic.com
+,VendorInsight,vendor_mgmt,Commercial,vendor_risk_analyst,vendor_risk_management,Medium,comprehensive_csv,https://docs.vendorinsight.com
+,RiskRecon,vendor_mgmt,Commercial,vendor_risk_analyst,security_rating,High,comprehensive_csv,https://docs.riskrecon.com
+,SecurityScorecard,vendor_mgmt,Commercial,vendor_risk_analyst,security_rating,High,comprehensive_csv,https://docs.securityscorecard.com
+,BitSight,vendor_mgmt,Commercial,vendor_risk_analyst,security_rating,High,comprehensive_csv,https://docs.bitsight.com
+,FICO Cyber Risk Score,vendor_mgmt,Commercial,vendor_risk_analyst,security_rating,High,comprehensive_csv,https://docs.fico.com
+,RiskLens,vendor_mgmt,Commercial,vendor_risk_analyst,risk_quantification,High,comprehensive_csv,https://docs.risklens.com
+,FAIR Institute,vendor_mgmt,Commercial,vendor_risk_analyst,risk_quantification,High,comprehensive_csv,https://docs.fairinstitute.org
+,OpenFAIR,vendor_mgmt,Open Source,vendor_risk_analyst,risk_quantification,High,comprehensive_csv,https://github.com/OpenFAIR/OpenFAIR
+,FAIR-Calc,vendor_mgmt,Open Source,vendor_risk_analyst,risk_quantification,High,comprehensive_csv,https://github.com/OpenFAIR/FAIR-Calc
+,NIST CSF,vendor_mgmt,Framework,vendor_risk_analyst,security_framework,High,comprehensive_csv,https://www.nist.gov/cyberframework
+,ISO 27001,vendor_mgmt,Framework,vendor_risk_analyst,security_framework,High,comprehensive_csv,https://www.iso.org/standard/27001
+,SOC 2,vendor_mgmt,Framework,vendor_risk_analyst,security_compliance,High,comprehensive_csv,https://www.aicpa.org/interestareas/frc/assuranceadvisoryservices/aicpasoc2report
+,PCI DSS,vendor_mgmt,Framework,vendor_risk_analyst,security_compliance,High,comprehensive_csv,https://www.pcisecuritystandards.org
+,GDPR,vendor_mgmt,Framework,vendor_risk_analyst,privacy_compliance,High,comprehensive_csv,https://gdpr.eu
+,HIPAA,vendor_mgmt,Framework,vendor_risk_analyst,healthcare_compliance,High,comprehensive_csv,https://www.hhs.gov/hipaa
+,FedRAMP,vendor_mgmt,Framework,vendor_risk_analyst,government_compliance,High,comprehensive_csv,https://www.fedramp.gov
+,CIS Controls,vendor_mgmt,Framework,vendor_risk_analyst,security_controls,High,comprehensive_csv,https://www.cisecurity.org/controls
+,OWASP Top 10,vendor_mgmt,Framework,vendor_risk_analyst,application_security,High,comprehensive_csv,https://owasp.org/www-project-top-ten
+,NIST SP 800-53,vendor_mgmt,Framework,vendor_risk_analyst,security_controls,High,comprehensive_csv,https://csrc.nist.gov/publications/detail/sp/800-53/rev-5/final
+,NIST SP 800-171,vendor_mgmt,Framework,vendor_risk_analyst,cybersecurity_framework,High,comprehensive_csv,https://csrc.nist.gov/publications/detail/sp/800-171/rev-2/final
+,CMMC,vendor_mgmt,Framework,vendor_risk_analyst,cybersecurity_maturity,High,comprehensive_csv,https://www.cmmc-cco.org

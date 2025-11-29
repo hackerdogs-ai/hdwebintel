@@ -1,0 +1,39 @@
+Implementation Priority,tool,pillar,type,agent,task,priority,source,url
+,Apache Atlas,data_privacy_sovereignty,Open Source,privacy_engineer,data_governance,High,comprehensive_csv,https://github.com/apache/atlas
+,OpenDP (Harvard/MIT),data_privacy_sovereignty,Open Source,privacy_engineer,differential_privacy,Medium,comprehensive_csv,https://github.com/opendp/opendp
+,Airflow + Sensitive Data Plugins,data_privacy_sovereignty,Open Source,privacy_engineer,data_pipeline_privacy,Medium,comprehensive_csv,https://github.com/apache/airflow
+,Gluu / Keycloak,data_privacy_sovereignty,Open Source,privacy_engineer,identity_privacy,Medium,comprehensive_csv,https://github.com/keycloak/keycloak
+,PrivacyIDEA,data_privacy_sovereignty,Open Source,privacy_engineer,privacy_authentication,Medium,comprehensive_csv,https://github.com/privacyidea/privacyidea
+,Wazuh / ELK,data_privacy_sovereignty,Open Source,privacy_engineer,privacy_monitoring,Medium,comprehensive_csv,https://github.com/wazuh/wazuh
+,Postgres Row-Level Security,data_privacy_sovereignty,Open Source,privacy_engineer,database_privacy,Medium,comprehensive_csv,https://github.com/postgres/postgres
+,Apache Ranger,data_privacy_sovereignty,Open Source,privacy_engineer,data_governance,High,comprehensive_csv,https://github.com/apache/ranger
+,GDPR Toolkit OSS,data_privacy_sovereignty,Open Source,privacy_engineer,gdpr_compliance,Medium,comprehensive_csv,https://github.com/gdpr-toolkit
+,Matomo Analytics,data_privacy_sovereignty,Open Source,privacy_engineer,privacy_friendly_analytics,Medium,comprehensive_csv,https://github.com/matomo-org/matomo
+,OneTrust Privacy Management,data_privacy_sovereignty,Commercial,privacy_engineer,privacy_management,High,comprehensive_csv,https://docs.onetrust.com
+,BigID,data_privacy_sovereignty,Commercial,privacy_engineer,data_discovery,High,comprehensive_csv,https://docs.bigid.com
+,TrustArc,data_privacy_sovereignty,Commercial,privacy_engineer,privacy_management,High,comprehensive_csv,https://docs.trustarc.com
+,Securiti.ai,data_privacy_sovereignty,Commercial,privacy_engineer,ai_data_security,High,comprehensive_csv,https://docs.securiti.ai
+,Collibra Data Governance,data_privacy_sovereignty,Commercial,privacy_engineer,data_governance,High,comprehensive_csv,https://docs.collibra.com
+,Informatica Axon,data_privacy_sovereignty,Commercial,privacy_engineer,data_governance,High,comprehensive_csv,https://docs.informatica.com
+,Microsoft Purview,data_privacy_sovereignty,Commercial,privacy_engineer,data_governance,High,comprehensive_csv,https://docs.microsoft.com/en-us/azure/purview
+,Google Cloud DLP API,data_privacy_sovereignty,Commercial,privacy_engineer,data_loss_prevention,High,comprehensive_csv,https://cloud.google.com/dlp/docs
+,AWS Macie,data_privacy_sovereignty,Commercial,privacy_engineer,data_discovery,High,comprehensive_csv,https://docs.aws.amazon.com/macie
+,Apache Atlas,data_privacy_sovereignty,Open Source,privacy_engineer,data_governance,High,comprehensive_csv,https://github.com/apache/atlas
+,Apache Ranger,data_privacy_sovereignty,Open Source,privacy_engineer,data_governance,High,comprehensive_csv,https://github.com/apache/ranger
+,Collibra,data_privacy_sovereignty,Commercial,privacy_engineer,data_governance,High,comprehensive_csv,https://docs.collibra.com
+,Informatica,data_privacy_sovereignty,Commercial,privacy_engineer,data_governance,High,comprehensive_csv,https://docs.informatica.com
+,OneTrust,data_privacy_sovereignty,Commercial,privacy_engineer,privacy_management,High,comprehensive_csv,https://docs.onetrust.com
+,TrustArc,data_privacy_sovereignty,Commercial,privacy_engineer,privacy_management,Medium,comprehensive_csv,https://docs.trustarc.com
+,BigID,data_privacy_sovereignty,Commercial,privacy_engineer,data_discovery,High,comprehensive_csv,https://docs.bigid.com
+,Varonis,data_privacy_sovereignty,Commercial,privacy_engineer,data_discovery,Medium,comprehensive_csv,https://docs.varonis.com
+,DataHub,data_privacy_sovereignty,Open Source,privacy_engineer,data_discovery,High,comprehensive_csv,https://github.com/datahub-project/datahub
+,Amundsen,data_privacy_sovereignty,Open Source,privacy_engineer,data_discovery,High,comprehensive_csv,https://github.com/amundsen-io/amundsen
+,OpenMetadata,data_privacy_sovereignty,Open Source,privacy_engineer,metadata_management,High,comprehensive_csv,https://github.com/open-metadata/OpenMetadata
+,Great Expectations,data_privacy_sovereignty,Open Source,privacy_engineer,data_quality,High,comprehensive_csv,https://github.com/great-expectations/great_expectations
+,Deequ,data_privacy_sovereignty,Open Source,privacy_engineer,data_quality,Medium,comprehensive_csv,https://github.com/awslabs/deequ
+,DVC,data_privacy_sovereignty,Open Source,privacy_engineer,data_versioning,Medium,comprehensive_csv,https://github.com/iterative/dvc
+,MLflow,data_privacy_sovereignty,Open Source,privacy_engineer,ml_lifecycle,Medium,comprehensive_csv,https://github.com/mlflow/mlflow
+,Kedro,data_privacy_sovereignty,Open Source,privacy_engineer,data_pipeline,Medium,comprehensive_csv,https://github.com/kedro-org/kedro
+,Apache Airflow,data_privacy_sovereignty,Open Source,privacy_engineer,workflow_orchestration,High,comprehensive_csv,https://github.com/apache/airflow
+,Prefect,data_privacy_sovereignty,Open Source,privacy_engineer,workflow_orchestration,Medium,comprehensive_csv,https://github.com/PrefectHQ/prefect
+,Dagster,data_privacy_sovereignty,Open Source,privacy_engineer,data_orchestration,Medium,comprehensive_csv,https://github.com/dagster-io/dagster

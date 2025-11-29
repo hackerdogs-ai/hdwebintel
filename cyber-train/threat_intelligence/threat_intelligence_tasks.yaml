@@ -1,0 +1,202 @@
+ti_policy_definition_task:
+  description: >
+    Define TI program policy using TI Policy Generator.
+    Scope: OSINT, dark web, commercial feeds, disinformation, fraud.
+    Include ATT&CK alignment, sharing rules, and business translation requirements.
+  expected_output: >
+    {"policy":"TI Program","sources":["osint","darkweb","fraud","commercial","disinfo"],"alignment":"MITRE ATT&CK"}
+  agent: ti_strategist
+  output_file: output/ti_policy.json
+
+osint_collection_task:
+  description: >
+    Collect indicators (domains, IPs, hashes, creds) from OSINT, dark web forums,
+    and marketplaces using OSINT Collection Tool + Dark Web Monitor.
+  expected_output: >
+    {"indicators_collected":1500,"sources":["telegram","forums","github","markets"],"types":{"domains":500,"ips":450,"hashes":350,"creds":200}}
+  agent: osint_collector
+  context: [ti_policy_definition_task]
+  output_file: output/osint.json
+
+feed_enrichment_task:
+  description: >
+    Enrich IOCs via VirusTotal, Shodan, and Malware Sandbox.
+    Add confidence scores and threat categories.
+  expected_output: >
+    {"indicators_enriched":1100,"high_confidence":700,"medium":300,"low":100}
+  agent: ti_analyst
+  context: [osint_collection_task]
+  output_file: output/enriched.json
+
+ml_ioc_clustering_task:
+  description: >
+    Cluster enriched indicators with ML Clustering Tool.
+    Group by infrastructure, TTP similarity, and campaign overlap.
+  expected_output: >
+    {"clusters":35,"ioc_groupings":["phishing","c2","ransomware"],"priority_clusters":12}
+  agent: ml_intel_analyst
+  context: [feed_enrichment_task]
+  output_file: output/ioc_clusters.json
+
+actor_profiling_task:
+  description: >
+    Build adversary profiles linking IOCs, campaigns, and TTPs.
+    Include motivations, toolkits, and geopolitical alignment.
+  expected_output: >
+    {"actors_profiled":6,"examples":["APT28","FIN7"],"motivations":["espionage","financial"],"geo":["RU","CN"]}
+  agent: actor_profiling_specialist
+  context: [ml_ioc_clustering_task]
+  output_file: output/actor_profiles.json
+
+campaign_analysis_task:
+  description: >
+    Correlate clusters and actors with ATT&CK mapping.
+    Identify active campaigns and likely targets.
+  expected_output: >
+    {"campaigns":7,"groups":["APT29","UNC2452"],"tactics":["TA0001","TA0008"]}
+  agent: ti_analyst
+  context: [actor_profiling_task]
+  output_file: output/campaigns.json
+
+detection_rule_task:
+  description: >
+    Create Sigma rules + SIEM detections from campaign indicators.
+    Map rules to ATT&CK techniques.
+  expected_output: >
+    {"rules_created":40,"techniques":["T1059","T1071"],"deployed":35}
+  agent: detection_engineer
+  context: [campaign_analysis_task]
+  output_file: output/detections.json
+
+hunt_playbook_task:
+  description: >
+    Build proactive hunt queries and SOAR playbooks.
+    Automate hunts with ML baselining anomalies.
+  expected_output: >
+    {"playbooks_created":10,"hunts_validated":6,"ml_models_used":2}
+  agent: detection_engineer
+  context: [campaign_analysis_task, ml_ioc_clustering_task]
+  output_file: output/hunts.json
+
+threat_sharing_task:
+  description: >
+    Share intel via TAXII, ISAC portals, and automate TLP marking with TLP Classification Tool.
+  expected_output: >
+    {"shared":600,"received":800,"tlp_applied":{"RED":50,"AMBER":200,"GREEN":250,"WHITE":100}}
+  agent: ti_sharing_coordinator
+  context: [feed_enrichment_task, actor_profiling_task]
+  output_file: output/sharing.json
+
+fraud_intel_task:
+  description: >
+    Collect fraud-related intel: card dumps, scam kits, account takeovers.
+    Enrich with fraud data feeds.
+  expected_output: >
+    {"fraud_indicators":320,"card_dumps":120,"account_takeovers":60}
+  agent: osint_collector
+  output_file: output/fraud.json
+
+disinfo_monitoring_task:
+  description: >
+    Monitor social media, domains, and deepfakes for disinformation and brand abuse.
+  expected_output: >
+    {"campaigns_detected":4,"deepfakes":2,"fake_domains":8}
+  agent: disinformation_analyst
+  output_file: output/disinfo.json
+
+ti_patch_prioritization_task:
+  description: >
+    Map TI indicators to CVEs and KEVs (Known Exploited Vulnerabilities).
+    Prioritize vuln patching for affected apps.
+  expected_output: >
+    {"cves_mapped":28,"critical_patches":12,"apps":["payments","erp"]}
+  agent: ti_analyst
+  context: [campaign_analysis_task]
+  output_file: output/patch_prioritization.json
+
+ti_business_risk_task:
+  description: >
+    Translate TI into business risk: which units, execs, or apps are exposed.
+    Use Business Risk Mapping Tool.
+  expected_output: >
+    {"business_units":["finance","R&D"],"execs_at_risk":["CFO"],"apps":["billing"],"risk_score":87}
+  agent: business_risk_translator
+  context: [campaign_analysis_task, ti_patch_prioritization_task]
+  output_file: output/business_risk.json
+
+geopolitical_intel_task:
+  description: >
+    Enrich actor profiles with geopolitical context (conflicts, sanctions, industry targeting).
+  expected_output: >
+    {"actors":["APT28"],"geo_context":["Ukraine conflict"],"sectors":["energy","gov"]}
+  agent: actor_profiling_specialist
+  context: [actor_profiling_task]
+  output_file: output/geopolitical.json
+
+ti_incident_integration_task:
+  description: >
+    Correlate SOC/IR incidents with TI indicators and actor profiles.
+    Feed updates into detection rules and campaigns.
+  expected_output: >
+    {"incidents_mapped":20,"detections_updated":9,"actors_linked":["APT29"]}
+  agent: ti_analyst
+  context: [detection_rule_task, hunt_playbook_task, actor_profiling_task]
+  output_file: output/incident_integration.json
+
+ti_exec_report_task:
+  description: >
+    Generate executive-friendly intel reports with Business Risk Mapping Tool.
+    Highlight top campaigns, actor activity, business risks, and geopolitical context.
+  expected_output: >
+    {"reports_created":2,"audience":["board","CISO"],"key_messages":["APT29 phishing","finance risk"]}
+  agent: business_risk_translator
+  context: [ti_business_risk_task, geopolitical_intel_task]
+  output_file: output/exec_report.json
+
+ti_metrics_reporting_task:
+  description: >
+    Generate KPIs: IOC enrichment %, clustering efficiency, actor profiles built,
+    rules deployed, time-to-detect, patch prioritization success, business risk score.
+  expected_output: >
+    {"enrichment_pct":82,"clusters":35,"actors_profiled":6,"rules_deployed":35,"time_to_detect_hours":7,"business_risk_score":87}
+  agent: ti_auditor
+  context: [ml_ioc_clustering_task, actor_profiling_task, detection_rule_task, ti_business_risk_task]
+  output_file: output/ti_metrics.json
+
+ti_audit_task:
+  description: >
+    Audit TI maturity: source diversity, ATT&CK coverage, ML adoption,
+    sharing compliance (TLP), and exec reporting.
+  expected_output: >
+    {"audit_score":94,"coverage_pct":90,"gaps":["limited fraud TI integration"]}
+  agent: ti_auditor
+  context: [ti_metrics_reporting_task, ti_exec_report_task]
+  output_file: output/ti_audit.json
+threat_campaign_analysis_task:
+  description: >
+    Auto-added from mapping for threat_researcher in threat_intelligence.
+  expected_output: >
+    {"status":"ok"}
+  agent: threat_researcher
+  output_file: output/threat_campaign_analysis_task.json
+threat_intel_gathering_task:
+  description: >
+    Auto-added from mapping for threat_researcher in threat_intelligence.
+  expected_output: >
+    {"status":"ok"}
+  agent: threat_researcher
+  output_file: output/threat_intel_gathering_task.json
+threat_intel_ingest_task:
+  description: >
+    Auto-added from mapping for threat_intel_engineer in threat_intelligence.
+  expected_output: >
+    {"status":"ok"}
+  agent: threat_intel_engineer
+  output_file: output/threat_intel_ingest_task.json
+threat_ttp_mapping_task:
+  description: >
+    Auto-added from mapping for threat_intel_engineer in threat_intelligence.
+  expected_output: >
+    {"status":"ok"}
+  agent: threat_intel_engineer
+  output_file: output/threat_ttp_mapping_task.json

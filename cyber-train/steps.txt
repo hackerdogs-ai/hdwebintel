@@ -76,3 +76,136 @@ Use code with caution.
 
 
 
+
+undefined
+undefined
+undefined
+24 sites
+Training Pipelines & Models · spaCy Usage Documentation
+Quickstart new. The recommended way to train your spaCy pipelines is via the spacy train command on the command line. It only need...
+
+spaCy
+
+Recognizing and Extracting Cybersecurity Entities from Text
+Secondly, vendor reports and blogs do not follow a standard format and are therefore inherently diverse in their communication of ...
+
+UMBC ebiquity
+
+Building a Custom Named Entity Recognition (NER) Model with spaCy
+Jul 20, 2024 — Here's a general outline of the process: * Step 1: Set Up the Environment. Install spaCy: Make sure you have spaCy ins...
+
+Medium
+
+Show all
+How do I add intents to my spaCy model?
+Adding intents to a spaCy model involves configuring and training a Text Classification pipeline component. This process requires data preparation, configuration setup, and running the training command. 
+Here is a step-by-step guide:
+Prerequisites
+You need spaCy v3 or higher installed.
+1. Define Your Intents
+First, define the specific intents relevant to your application (e.g., in a general domain): 
+GREETING
+ORDER_STATUS
+PRODUCT_INQUIRY
+COMPLAINT
+2. Prepare Annotated Data
+You need a dataset where each text example is labeled with its corresponding intent. SpaCy recommends having several hundred examples per intent for good performance. 
+The data should be in a JSON format that you can convert to spaCy's binary format. 
+json
+[
+  ["Hello there! Good morning.", {"cats": {"GREETING": 1.0, "ORDER_STATUS": 0.0}}],
+  ["Where is my package? Tracking number 12345.", {"cats": {"ORDER_STATUS": 1.0, "GREETING": 0.0}}],
+  // ... more examples
+]
+Use code with caution.
+
+Note: The 1.0 indicates the correct category is true, and 0.0 indicates it is false. 
+3. Convert Data to SpaCy Format 
+Use the spaCy CLI convert command to transform your raw data file (e.g., train.json) into the optimized .spacy format. 
+bash
+python -m spacy convert train.json ./train.spacy
+python -m spacy convert dev.json ./dev.spacy
+Use code with caution.
+
+4. Create a SpaCy Configuration File 
+You need a configuration file (config.cfg) that tells spaCy to include the textcat (text categorizer) component in the pipeline.
+Generate a base configuration using the spaCy init config command, making sure to select text classification as a desired pipeline component: 
+bash
+python -m spacy init config ./config.cfg --lang en --pipeline textcat
+Use code with caution.
+
+You will need to manually edit the generated config.cfg file to list your specific intent labels under the [components.textcat.labels] section: 
+ini
+[components.textcat.labels]
+# Add all your defined intents here, one per line
+GREETING
+ORDER_STATUS
+PRODUCT_INQUIRY
+COMPLAINT
+Use code with caution.
+
+5. Train the Model
+Now, train the model using your configuration file and training data files:
+bash
+python -m spacy train ./config.cfg --output ./output_intent_model --paths.train ./train.spacy --paths.dev ./dev.spacy
+Use code with caution.
+
+This command runs the training process, and upon completion, saves the best performing model in the ./output_intent_model/model-best directory. 
+6. Use the Model to Predict Intents 
+Once trained, you can load your custom model and use it to predict intents for new text: 
+python
+import spacy
+
+nlp = spacy.load("./output_intent_model/model-best")
+doc = nlp("Hi, can you tell me where my recent order is?")
+
+# The categories (intents) and their scores are stored in doc.cats
+for cat, score in doc.cats.items():
+    print(f"{cat}: {score:.4f}")
+
+# Example output:
+# GREETING: 0.1200
+# ORDER_STATUS: 0.8500
+# PRODUCT_INQUIRY: 0.0200
+# COMPLAINT: 0.0100
+Use code with caution.
+
+
+
+
+Yes, JSONL (JSON Lines) can be used as a starting format for your training data, but it must be converted into spaCy's optimized binary format (.spacy) before training the model. 
+SpaCy v3+ primarily uses a binary DocBin format (.spacy files) for efficient training. The spacy train command reads from these binary files, not directly from raw JSONL files. 
+How to use JSONL data
+You have two main approaches to use JSONL data:
+1. Use the spacy convert command (for specific formats) 
+The built-in spacy convert command works with standard formats like CoNLL or the legacy spaCy v2 JSON format, but it does not have a generic built-in converter for all arbitrary JSONL structures. If your JSONL data follows a specific, recognized annotation tool's export format (like Prodigy), you might be able to use the relevant converter within that tool's ecosystem. 
+2. Write a custom Python script (Recommended)
+For custom JSONL formats (which is common if you're building your own annotation pipeline), the most robust approach is to write a short Python script to parse the JSONL and convert it into the .spacy format using spaCy's DocBin class.
+Here is an example Python script demonstrating how to convert a JSONL file for text classification into a .spacy file: 
+python
+import spacy
+from spacy.tokens import DocBin
+import srsly
+from pathlib import Path
+
+def convert_jsonl_to_spacy(lang: str, input_path: Path, output_path: Path):
+    """Converts a JSONL file to a .spacy file for text classification."""
+    nlp = spacy.blank(lang)
+    db = DocBin()
+
+    for line in srsly.read_jsonl(input_path):
+        # Assuming each line is a dictionary with "text" and "cats" keys
+        doc = nlp.make_doc(line["text"])
+        doc.cats = line["cats"]  # line["cats"] should be a dict like {"INTENT_A": 1.0, "INTENT_B": 0.0}
+        db.add(doc)
+
+    db.to_disk(output_path)
+
+if __name__ == "__main__":
+    # Example usage:
+    # Make sure you have srsly installed (pip install srsly)
+    convert_jsonl_to_spacy("en", "train_data.jsonl", "train.spacy")
+    convert_jsonl_to_spacy("en", "dev_data.jsonl", "dev.spacy")
+Use code with caution.
+
+After running this script to generate your train.spacy and dev.spacy files, you can proceed with the standard training process described previously using the spacy train command.

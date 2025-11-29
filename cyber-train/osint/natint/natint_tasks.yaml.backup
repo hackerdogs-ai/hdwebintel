@@ -1,0 +1,146 @@
+rfi_resource_dependency_report:
+  description: >
+    Generate an ad-hoc report on a country/region’s dependency on key resources (oil, gas, rare earths, food crops, water basins).
+  expected_output: "JSON summary with dependencies, supply sources, risks, and confidence\
+    \ score. Example: {\"country\": \"Germany\",\n \"resources\": {\"lithium\": {\"\
+    dependency_pct\": 88, \"top_sources\": [\"Chile\",\"Australia\"]}},\n \"risks\"\
+    : [\"China supply leverage\"],\n \"confidence_score\": 0.9}\n"
+  agent: natint_analyst
+  output_file: output/resource_dependency.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+rfi_illegal_exploitation_case:
+  description: >
+    Investigate suspected illegal mining, logging, or fishing activity in a given AOI.
+  expected_output: >
+    Evidence pack with annotated imagery, activity log, geolocation, and recommendations.
+  agent: natint_researcher
+  output_file: output/illegal_exploitation_case.zip
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+rfi_commodity_shock_analysis:
+  description: >
+    Assess sudden commodity price shock (spike/drop) and its drivers.
+  expected_output: >
+    Report with price movement, supply/demand triggers, geopolitical factors, and forecast.
+  agent: natint_analyst
+  output_file: output/commodity_shock_analysis.pdf
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+daily_satellite_monitoring:
+  description: >
+    Monitor AOIs via Sentinel/Planet imagery for deforestation, mining expansion, water stress, or illegal activity.
+  expected_output: >
+    Daily anomaly alerts with snapshots, geocoordinates, and classification labels.
+  agent: natint_analyst
+  output_file: output/daily_satellite_alerts.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+daily_commodity_feed:
+  description: >
+    Collect and normalize commodity price feeds (oil, gas, coal, wheat, rice, lithium).
+  expected_output: >
+    JSON with normalized daily prices, volatility index, and top movers.
+  agent: natint_analyst
+  output_file: output/daily_commodity_feed.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+weekly_regional_summary:
+  description: >
+    Produce a regional resource intelligence summary (agriculture, mining, fisheries, energy) with trends and risk updates.
+  expected_output: >
+    PDF report and JSON highlights (dependency shifts, protests, conflicts).
+  agent: natint_analyst
+  output_file: output/weekly_regional_summary.pdf
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+weekly_policy_monitor:
+  description: >
+    Track and summarize regulatory changes, sanctions, and export bans impacting natural resources.
+  expected_output: >
+    JSON with new policies, impact analysis, and affected commodities.
+  agent: natint_researcher
+  output_file: output/weekly_policy_monitor.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+monthly_trend_report:
+  description: >
+    Deep-dive analysis of resource production, consumption, and trade trends.
+  expected_output: >
+    PDF/JSON report with trendlines, anomaly detection, and predictive modeling.
+  agent: natint_researcher
+  output_file: output/monthly_trend_report.pdf
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+monthly_dependency_index_update:
+  description: >
+    Update global dependency index for key resources.
+  expected_output: >
+    JSON with dependency percentages per country, changes vs last month, and alerts.
+  agent: natint_analyst
+  output_file: output/monthly_dependency_index.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+quarterly_supply_chain_resilience:
+  description: >
+    Assess global and regional supply chain resilience for critical sectors.
+  expected_output: >
+    Deck (PPTX) and JSON with sector resilience scores and recommendations.
+  agent: natint_strategist
+  output_file: output/quarterly_supply_chain_resilience.pptx
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+quarterly_conflict_forecast:
+  description: >
+    Forecast resource-driven conflicts based on dependency, scarcity, and climate trends.
+  expected_output: >
+    JSON report with risk scores, likely hotspots, and confidence intervals.
+  agent: natint_researcher
+  output_file: output/quarterly_conflict_forecast.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+yearly_natint_strategy:
+  description: >
+    Strategic refresh of NATINT program, covering dependencies, threats, resilience, and policy recommendations.
+  expected_output: >
+    PDF and PPTX strategic report for executives with scenario models (5–10 years).
+  agent: natint_strategist
+  output_file: output/yearly_natint_strategy.pdf
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3

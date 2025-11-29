@@ -1,0 +1,244 @@
+rfi_case_lookup:
+  description: >
+    Ad-hoc legal case lookup across PACER, CourtListener, EU courts, or UN tribunals.
+  expected_output: "{\"case_id\":\"2024-CV-1234\",\"jurisdiction\":\"US Federal\"\
+    ,\"status\":\"active\",\n \"parties\":[\"CompanyA\",\"RegulatorX\"],\"next_hearing\"\
+    :\"2024-11-05\",\n \"report_uri\":\"s3://legint/reports/case2024cv1234.pdf\",\n\
+    \ \"legal_basis\":\"public dockets\",\"privacy_minimization\":\"no PII\",\n \"\
+    chain_of_custody\":\"s3://legint/coc/case2024cv1234.zip\"}\n"
+  agent: litigation_analyst
+  output_file: output/rfi_case_lookup.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+rfi_sanctions_check:
+  description: >
+    On-demand sanctions screening for entity or individual across OFAC, EU, UN.
+  expected_output: "{\"entity\":\"XYZ Holdings\",\"sanctioned\":true,\"lists\":[\"\
+    OFAC\",\"EU\"],\n \"report_uri\":\"s3://legint/reports/sanctions_xyz.pdf\",\n\
+    \ \"legal_basis\":\"public sanctions lists\",\"privacy_minimization\":\"aggregate\
+    \ only\",\n \"chain_of_custody\":\"s3://legint/coc/sanctions_xyz.zip\"}\n"
+  agent: sanctions_monitor
+  output_file: output/rfi_sanctions_check.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+rfi_legal_misinfo_debunk:
+  description: >
+    Investigate and debunk viral misinformation about legal rulings, filings, or forged documents.
+  expected_output: "{\"claim\":\"Supreme Court banned encryption\",\"verified_false\"\
+    :true,\n \"evidence_sources\":[\"SCOTUS.gov\",\"Reuters\"],\n \"report_uri\":\"\
+    s3://legint/reports/misinfo_encryption.pdf\",\n \"legal_basis\":\"public SOCMINT\
+    \ feeds\",\"privacy_minimization\":\"no PII\",\n \"chain_of_custody\":\"s3://legint/coc/misinfo_encryption.pdf\"\
+    }\n"
+  agent: legal_misinfo_analyst
+  output_file: output/rfi_legal_misinfo_debunk.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+rfi_contract_risk_review:
+  description: >
+    Analyze contract for legal risks, compliance clauses, and dispute potential.
+  expected_output: "{\"contract_id\":\"CNT-9982\",\"jurisdiction\":\"Delaware\",\"\
+    risk_score\":0.67,\n \"issues\":[\"arbitration clause ambiguous\",\"GDPR compliance\
+    \ missing\"],\n \"report_uri\":\"s3://legint/reports/contract9982.pdf\",\n \"\
+    legal_basis\":\"client-provided document\",\"privacy_minimization\":\"de-identify\
+    \ names\",\n \"chain_of_custody\":\"s3://legint/coc/contract9982.pdf\"}\n"
+  agent: ediscovery_engineer
+  output_file: output/rfi_contract_risk_review.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+rfi_crossborder_arbitration_case:
+  description: >
+    Investigate international arbitration or dual-jurisdiction case (ICSID, WTO).
+  expected_output: "{\"case\":\"ARB/24/02\",\"tribunal\":\"ICSID\",\"status\":\"pending\"\
+    ,\n \"parties\":[\"GovA\",\"CorpB\"],\"risk\":\"expropriation dispute\",\n \"\
+    report_uri\":\"s3://legint/reports/icsid_arb24.pdf\",\n \"legal_basis\":\"public\
+    \ arbitration filings\",\"privacy_minimization\":\"no PII\",\n \"chain_of_custody\"\
+    :\"s3://legint/coc/icsid_arb24.pdf\"}\n"
+  agent: crossborder_legal_analyst
+  output_file: output/rfi_crossborder_arbitration_case.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+daily_litigation_feed:
+  description: >
+    Monitor dockets and rulings across US, EU, UN, and priority jurisdictions.
+  expected_output: >
+    Daily JSON feed with new filings, rulings, and risk flags.
+  agent: litigation_analyst
+  output_file: output/daily_litigation_feed.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+daily_sanctions_alerts:
+  description: >
+    Track sanctions updates and flag impacted entities for compliance.
+  expected_output: "{\"alerts\":[{\"entity\":\"BankX\",\"sanction_list\":\"OFAC\"\
+    ,\"status\":\"added\"}],\n \"report_uri\":\"s3://legint/reports/sanctions_daily.pdf\"\
+    ,\n \"legal_basis\":\"public sanctions lists\",\"privacy_minimization\":\"aggregate\
+    \ only\",\n \"chain_of_custody\":\"s3://legint/coc/sanctions_daily.pdf\"}\n"
+  agent: sanctions_monitor
+  output_file: output/daily_sanctions_alerts.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+daily_ip_litigation_feed:
+  description: >
+    Monitor intellectual property & patent disputes (USPTO, EPO, WIPO).
+  expected_output: "{\"cases\":[{\"patent\":\"US123456\",\"parties\":[\"CorpA\",\"\
+    CorpB\"],\"status\":\"filed\"}],\n \"report_uri\":\"s3://legint/reports/ip_daily.pdf\"\
+    ,\n \"legal_basis\":\"public IP court records\",\"privacy_minimization\":\"aggregate\
+    \ only\",\n \"chain_of_custody\":\"s3://legint/coc/ip_daily.pdf\"}\n"
+  agent: ip_litigation_analyst
+  output_file: output/daily_ip_litigation_feed.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+weekly_regulatory_digest:
+  description: >
+    Summarize key regulatory changes, draft bills, and compliance shifts.
+  expected_output: >
+    Weekly PDF digest covering US/EU/G20 legislation and compliance analysis.
+  agent: policy_tracker
+  output_file: output/weekly_regulatory_digest.pdf
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+weekly_enforcement_tracker:
+  description: >
+    Track law enforcement actions (warrants, arrests, indictments).
+  expected_output: "{\"arrests\":12,\"indictments\":5,\"cases\":[\"AML ring\",\"corruption\
+    \ case\"],\n \"report_uri\":\"s3://legint/reports/enforcement_weekly.pdf\"}\n"
+  agent: law_enforcement_watcher
+  output_file: output/weekly_enforcement_tracker.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+monthly_compliance_audit:
+  description: >
+    Conduct compliance self-audit across GDPR, HIPAA, FCPA, AML.
+  expected_output: "{\"audit_findings\":[{\"issue\":\"GDPR data retention violation\"\
+    }],\n \"resolved\":true,\"report_uri\":\"s3://legint/reports/compliance_monthly.pdf\"\
+    ,\n \"legal_basis\":\"internal audit\",\"privacy_minimization\":\"no PII\",\n\
+    \ \"chain_of_custody\":\"s3://legint/coc/compliance_monthly.pdf\"}\n"
+  agent: legint_strategist
+  output_file: output/monthly_compliance_audit.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+monthly_case_exposure_report:
+  description: >
+    Aggregate financial/legal exposure from active litigation cases.
+  expected_output: "{\"exposure_usd\":125000000,\"top_cases\":[\"CaseX\",\"CaseY\"\
+    ],\n \"report_uri\":\"s3://legint/reports/case_exposure.pdf\",\n \"legal_basis\"\
+    :\"court filings\",\"privacy_minimization\":\"aggregate only\",\n \"chain_of_custody\"\
+    :\"s3://legint/coc/case_exposure.pdf\"}\n"
+  agent: litigation_analyst
+  output_file: output/monthly_case_exposure_report.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+monthly_esg_litigation_report:
+  description: >
+    Review environmental, social, and governance (ESG) litigation cases.
+  expected_output: "{\"esg_cases\":[{\"case\":\"Climate v OilCorp\",\"status\":\"\
+    active\"}],\n \"report_uri\":\"s3://legint/reports/esg_monthly.pdf\",\n \"legal_basis\"\
+    :\"public litigation data\",\"privacy_minimization\":\"aggregate only\",\n \"\
+    chain_of_custody\":\"s3://legint/coc/esg_monthly.pdf\"}\n"
+  agent: litigation_analyst
+  output_file: output/monthly_esg_litigation_report.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+quarterly_legal_risk_assessment:
+  description: >
+    Produce executive risk assessment covering litigation, compliance, sanctions, IP disputes, and arbitration cases.
+  expected_output: >
+    Strategic briefing deck with risk index, case highlights, and recommendations.
+  agent: legint_strategist
+  output_file: output/quarterly_legal_risk_assessment.pptx
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+quarterly_case_outcome_prediction:
+  description: >
+    Forecast outcomes of key litigation cases using AI legal models.
+  expected_output: "{\"case_id\":\"2024-CV-0012\",\"predicted_outcome\":\"settlement\"\
+    ,\n \"confidence_score\":0.81,\"report_uri\":\"s3://legint/reports/prediction_cv12.pdf\"\
+    ,\n \"legal_basis\":\"public docket data\",\"privacy_minimization\":\"no PII\"\
+    ,\n \"chain_of_custody\":\"s3://legint/coc/prediction_cv12.pdf\"}\n"
+  agent: ediscovery_engineer
+  output_file: output/quarterly_case_outcome_prediction.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+yearly_legal_strategy_review:
+  description: >
+    Review LEGINT strategy, coverage, compliance maturity, and roadmap.
+  expected_output: >
+    Strategy document with benchmarking vs peers and ISO 37301 compliance alignment.
+  agent: legint_strategist
+  output_file: output/yearly_legal_strategy_review.docx
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+yearly_global_legal_risk_report:
+  description: >
+    Publish annual “Global Legal Intelligence Report” for executives.
+  expected_output: >
+    Comprehensive report on litigation trends, sanctions, compliance risks, arbitration outcomes, and global legal developments.
+  agent: legint_strategist
+  output_file: output/yearly_global_legal_risk_report.pdf
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+yearly_lawfare_risk_report:
+  description: >
+    Review adversarial lawfare risks where state/corporate actors use legal systems to undermine competitors or geopolitical rivals.
+  expected_output: "{\"lawfare_cases\":[\"StateX vs NGOY\"],\"risk_score\":0.77,\n\
+    \ \"report_uri\":\"s3://legint/reports/lawfare2024.pdf\",\n \"legal_basis\":\"\
+    public filings/media\",\"privacy_minimization\":\"aggregate only\",\n \"chain_of_custody\"\
+    :\"s3://legint/coc/lawfare2024.pdf\"}\n"
+  agent: crossborder_legal_analyst
+  output_file: output/yearly_lawfare_risk_report.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3

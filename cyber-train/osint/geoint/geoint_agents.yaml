@@ -1,0 +1,287 @@
+geoint_strategist:
+  role: Strategic Geospatial Intelligence Lead
+  goal: >
+    Provide executive-level geospatial intelligence, ensuring that satellite imagery, mapping, and activity monitoring influence strategic decisions.
+  backstory: >
+    You are a veteran geospatial intelligence leader with 15+ years in defense, humanitarian response, and crisis monitoring. You ensure GEOINT outputs are fused with SOCMINT, HUMINT, and SIGINT to deliver a complete intelligence picture.
+  llm: openai/gpt-4o
+  tools:
+  - Strategic_Reporting
+  - CrossPillar_Validator
+  - Risk_Scoring_Engine
+  verbose: true
+  memory: true
+  max_execution_time: 600
+  max_iterations: 5
+  allow_delegation: false
+  max_rpm: 30
+  planning: false
+  cache: true
+  max_retry_limit: 2
+  respect_context_window: true
+  multimodal: false
+  inject_date: false
+  date_format: '%Y-%m-%d'
+  reasoning: false
+  use_system_prompt: true
+geoint_analyst:
+  role: Operational GEOINT Analyst
+  goal: >
+    Collect, analyze, and validate geospatial intelligence using satellite imagery, AIS/ADS-B feeds, and geolocation techniques.
+  backstory: >
+    You are a trained analyst skilled in remote sensing, image analysis, and open-source geolocation verification. You support crisis response, military monitoring, and environmental investigations.
+  llm: openai/gpt-4o
+  tools:
+  - SentinelSat
+  - QGIS
+  - Google_Earth
+  - SunCalc
+  - ExifTool
+  - OpenStreetMap
+  - Wikimapia
+  - ZoomEarth
+  - Cartopy
+  - MapOSINT
+  verbose: true
+  memory: true
+  max_execution_time: 600
+  max_iterations: 5
+  allow_delegation: false
+  max_rpm: 30
+  planning: false
+  cache: true
+  max_retry_limit: 2
+  respect_context_window: true
+  multimodal: false
+  inject_date: false
+  date_format: '%Y-%m-%d'
+  reasoning: false
+  use_system_prompt: true
+geoint_researcher:
+  role: Facility & Pattern Researcher
+  goal: >
+    Attribute geospatial changes to actors or organizations, and map long-term patterns such as infrastructure development or environmental impacts.
+  backstory: >
+    You specialize in fusing satellite imagery, mapping data, and commercial feeds to build dossiers on facilities, regions, and actors of interest.
+  llm: openai/gpt-4o
+  tools:
+  - Maltego
+  - Gephi
+  - ArcGIS_API
+  - PlanetLabs_API
+  - Maxar_API
+  - SkyWatch
+  - HawkEye360
+  - Airbus_OneAtlas
+  - Hexagon_Geospatial
+  - Palantir_Gotham
+  verbose: true
+  memory: true
+  max_execution_time: 600
+  max_iterations: 5
+  allow_delegation: false
+  max_rpm: 30
+  planning: false
+  cache: true
+  max_retry_limit: 2
+  respect_context_window: true
+  multimodal: false
+  inject_date: false
+  date_format: '%Y-%m-%d'
+  reasoning: false
+  use_system_prompt: true
+geoint_data_engineer:
+  role: GEOINT Data Engineer
+  goal: >
+    Build and maintain resilient ingestion pipelines for imagery, AIS/ADS-B, and geospatial metadata with compliance, scalability, and observability.
+  backstory: >
+    You are an infrastructure specialist ensuring that all geospatial data streams are deduplicated, normalized, and ready for analyst use.
+  llm: openai/gpt-4o
+  tools:
+  - Ingestion_Orchestrator
+  - AIS_Feed_Collector
+  - ADSB_Feed_Collector
+  - Deduplicator
+  - Metadata_Validator
+  - PII_Redactor
+  - ElasticSearch
+  - PostGIS
+  - S3_Bucket_Manager
+  - API_RateLimit_Manager
+  verbose: true
+  memory: true
+  max_execution_time: 600
+  max_iterations: 5
+  allow_delegation: false
+  max_rpm: 30
+  planning: false
+  cache: true
+  max_retry_limit: 2
+  respect_context_window: true
+  multimodal: false
+  inject_date: false
+  date_format: '%Y-%m-%d'
+  reasoning: false
+  use_system_prompt: true
+geoint_ml_specialist:
+  role: ML Engineer for Image Analysis & Change Detection
+  goal: >
+    Train, evaluate, and maintain ML models for object detection, facility change, and chronolocation accuracy.
+  backstory: >
+    You are an ML/AI engineer applying computer vision and RF fusion to improve detection accuracy and automate imagery analysis.
+  llm: openai/gpt-4o
+  tools:
+  - TensorFlow
+  - PyTorch
+  - Image_Classifier
+  - Object_Detector
+  - Change_Detection_Model
+  - Drift_Monitor
+  - SHAP_Explainer
+  - Eval_Benchmark
+  - Labeling_Toolkit
+  - Satellite_Simulation_Engine
+  verbose: true
+  memory: true
+  max_execution_time: 600
+  max_iterations: 5
+  allow_delegation: false
+  max_rpm: 30
+  planning: false
+  cache: true
+  max_retry_limit: 2
+  respect_context_window: true
+  multimodal: false
+  inject_date: false
+  date_format: '%Y-%m-%d'
+  reasoning: false
+  use_system_prompt: true
+sensor_tasking_coordinator:
+  role: Commercial Imagery Tasking Coordinator
+  goal: Plan/order imagery (revisit, cloud cover fallback, budget).
+  backstory: Vendor SLAs, licensing, AOI queuing, task deconfliction.
+  llm: openai/gpt-4o
+  tools:
+  - PlanetLabs_API
+  - Maxar_API
+  - SkyWatch
+  - Tasking_Plan_Builder
+  - Budget_Tracker
+  - CloudRisk_Calculator
+  verbose: true
+  memory: true
+  max_execution_time: 600
+  max_iterations: 5
+  allow_delegation: false
+  max_rpm: 30
+  planning: false
+  cache: true
+  max_retry_limit: 2
+  respect_context_window: true
+  multimodal: false
+  inject_date: false
+  date_format: '%Y-%m-%d'
+  reasoning: false
+  use_system_prompt: true
+maritime_analyst:
+  role: Maritime GEOINT Analyst
+  goal: Detect dark activity, spoofing, loitering, STS transfers; port risk.
+  backstory: AIS analytics + sanction evasion patterns.
+  llm: openai/gpt-4o
+  tools:
+  - AIS_Feed_Collector
+  - LRIT_Ingestor
+  - PortEvent_Extractor
+  - Sanctions_Screener
+  - Route_Anomaly_Scorer
+  verbose: true
+  memory: true
+  max_execution_time: 600
+  max_iterations: 5
+  allow_delegation: false
+  max_rpm: 30
+  planning: false
+  cache: true
+  max_retry_limit: 2
+  respect_context_window: true
+  multimodal: false
+  inject_date: false
+  date_format: '%Y-%m-%d'
+  reasoning: false
+  use_system_prompt: true
+aviation_analyst:
+  role: Aviation GEOINT Analyst
+  goal: Track suspicious flight patterns, hex spoofing, unusual routings.
+  backstory: ADS-B analytics + airport monitoring.
+  llm: openai/gpt-4o
+  tools:
+  - ADSB_Feed_Collector
+  - FlightEvent_Extractor
+  - Route_Anomaly_Scorer
+  - Airfield_Change_Detector
+  verbose: true
+  memory: true
+  max_execution_time: 600
+  max_iterations: 5
+  allow_delegation: false
+  max_rpm: 30
+  planning: false
+  cache: true
+  max_retry_limit: 2
+  respect_context_window: true
+  multimodal: false
+  inject_date: false
+  date_format: '%Y-%m-%d'
+  reasoning: false
+  use_system_prompt: true
+geospatial_legal_compliance:
+  role: Geospatial Legal & Licensing Officer
+  goal: Ensure imagery/data licensing, retention, and audit compliance.
+  backstory: Handles usage rights, DPIA (where applicable), audit trails.
+  llm: openai/gpt-4o
+  tools:
+  - License_Registry
+  - DPIA_Checklist
+  - Audit_Log_Manager
+  - Retention_Controller
+  verbose: true
+  memory: true
+  max_execution_time: 600
+  max_iterations: 5
+  allow_delegation: false
+  max_rpm: 30
+  planning: false
+  cache: true
+  max_retry_limit: 2
+  respect_context_window: true
+  multimodal: false
+  inject_date: false
+  date_format: '%Y-%m-%d'
+  reasoning: false
+  use_system_prompt: true
+legint_strategist:
+  role: Legal Intelligence Strategist for Geospatial Intelligence
+  goal: Provide strategic legal intelligence for geospatial investigations and compliance.
+  backstory: You specialize in legal intelligence for geospatial investigations, privacy
+    compliance, and regulatory adherence.
+  llm: openai/gpt-4o
+  tools:
+  - Legal_Research_Tool
+  - Privacy_Compliance_Checker
+  - Geospatial_Legal_Analyzer
+  - Regulatory_Monitor
+  verbose: true
+  memory: true
+  max_execution_time: 600
+  max_iterations: 5
+  allow_delegation: true
+  max_rpm: 30
+  planning: true
+  cache: true
+  max_retry_limit: 2
+  respect_context_window: true
+  multimodal: false
+  inject_date: false
+  date_format: '%Y-%m-%d'
+  reasoning: false
+  use_system_prompt: true

@@ -1,0 +1,99 @@
+define_ai_security_policy_task:
+  description: >
+    Define enterprise AI security policy using Compliance Framework Tool and AI Policy Generator.
+    Align with NIST AI RMF, ISO/IEC 42001, and EU AI Act.
+  expected_output: >
+    JSON with policy details, mapped standards, and required controls.
+  agent: ai_security_strategist
+  output_file: output/ai_security_policy.json
+
+adversarial_attack_simulation_task:
+  description: >
+    Run adversarial simulations (prompt injection, poisoning, evasion, extraction)
+    using Giskard_oss, Adversarial ML Toolkit_oss, Robust Intelligence.
+    Document vulnerabilities and mitigations.
+  expected_output: >
+    JSON with attack types, test coverage, vulnerabilities, mitigations.
+  agent: ai_red_team
+  output_file: output/adversarial_tests.json
+
+prompt_injection_monitoring_task:
+  description: >
+    Monitor AI/LLM logs for prompt injection attempts using Guardrails_ai_oss,
+    SIEM Tool, and Lakera.
+  expected_output: >
+    JSON with blocked attempts, anomalous sources, trends.
+  agent: ai_security_engineer
+  output_file: output/prompt_injection.json
+
+bias_fairness_audit_task:
+  description: >
+    Run fairness audits using AI Fairness 360_oss, Bias Benchmark Tool,
+    and Google SAIF. Generate fairness index by category (gender, race, geography).
+  expected_output: >
+    JSON with bias metrics and remediation plan.
+  agent: ai_ethics_officer
+  output_file: output/bias_audit.json
+
+model_card_generation_task:
+  description: >
+    Generate model cards for deployed models using Model Card Generator
+    and Compliance Mapping Tool.
+  expected_output: >
+    JSON model card with architecture, data lineage, risks, limitations.
+  agent: ai_auditor
+  output_file: output/model_cards.json
+
+explainability_validation_task:
+  description: >
+    Validate explainability of model outputs using SHAP_oss, LIME_oss,
+    TruLens_oss, and Explainability Validator.
+  expected_output: >
+    JSON with explainability score, top features, transparency index.
+  agent: ai_explainability_specialist
+  output_file: output/explainability.json
+
+model_drift_monitoring_task:
+  description: >
+    Continuously monitor model drift using DeepChecks_oss and TruLens_oss.
+    Compare inference distribution vs. training baseline.
+  expected_output: >
+    JSON with drift % and retraining recommendation.
+  agent: ai_security_engineer
+  output_file: output/model_drift.json
+
+third_party_ai_vendor_assessment_task:
+  description: >
+    Assess third-party AI vendors using Vendor Risk Manager and OneTrust.
+    Validate compliance with AI Act and data governance standards.
+  expected_output: >
+    JSON with vendor risk scores, gaps, recommendations.
+  agent: ai_risk_manager
+  output_file: output/vendor_assessment.json
+
+ai_incident_response_task:
+  description: >
+    Respond to AI-specific incidents (model theft, poisoning, injection) using
+    IR Playbook Tool, AI Forensics Toolkit, and Communication Platform.
+  expected_output: >
+    JSON with incident summary, severity, response actions, MTTR.
+  agent: ai_incident_responder
+  output_file: output/ai_incidents.json
+
+privacy_audit_task:
+  description: >
+    Audit AI systems for privacy compliance using Presidio_oss, PrivacyRaven_oss,
+    OpenDP_oss, and BigID. Validate PII exposure, DSAR handling, retention.
+  expected_output: >
+    JSON with privacy findings and remediation.
+  agent: ai_privacy_officer
+  output_file: output/privacy_audit.json
+
+ai_safety_sandbox_task:
+  description: >
+    Test models in controlled AI safety sandbox using CalypsoAI and Robust Intelligence
+    before production release.
+  expected_output: >
+    JSON with test scenarios, safety scores, approval/rejection status.
+  agent: ai_red_team
+  output_file: output/ai_safety_sandbox.json

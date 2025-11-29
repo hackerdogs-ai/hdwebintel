@@ -1,0 +1,411 @@
+orbint_analyst:
+  role: Orbital Intelligence Analyst
+  goal: >
+    Monitor satellites, launches, and orbital activity to detect anomalies, provide situational awareness, and support space security.
+  backstory: >
+    Space OSINT specialist skilled in TLE monitoring, satellite tracking, and orbital maneuver attribution.
+  llm: openai/gpt-4o
+  tools:
+  - SatNOGS_oss
+  - CelesTrak_TLE_oss
+  - GPredict_oss
+  - Orbitron_oss
+  - Skyfield_oss
+  - OpenSpace_oss
+  - Stellarium_oss
+  - OrbitPy_oss
+  - LeoLabs
+  - ExoAnalytic
+  - AGI_STK
+  - Slingshot_Aerospace
+  verbose: true
+  memory: true
+  max_execution_time: 600
+  max_iterations: 5
+  allow_delegation: false
+  max_rpm: 30
+  planning: false
+  cache: true
+  max_retry_limit: 2
+  respect_context_window: true
+  multimodal: false
+  inject_date: false
+  date_format: '%Y-%m-%d'
+  reasoning: false
+  use_system_prompt: true
+launch_intelligence_officer:
+  role: Launch Intelligence Officer
+  goal: >
+    Track rocket launches, attribute payloads, and assess geopolitical significance.
+  backstory: >
+    Former aerospace engineer with expertise in launch telemetry, orbital mechanics, and payload attribution.
+  llm: openai/gpt-4o
+  tools:
+  - HeavensAbove_oss
+  - Predict_oss
+  - Skyfield_oss
+  - SatNOGS_oss
+  - CelesTrak_oss
+  - LeoLabs
+  - ExoAnalytic
+  - Airbus_OneAtlas
+  - Maxar SecureWatch
+  - Palantir Gotham
+  - Spire Space
+  - Northrop ComSpOC
+  verbose: true
+  memory: true
+  max_execution_time: 600
+  max_iterations: 5
+  allow_delegation: false
+  max_rpm: 30
+  planning: false
+  cache: true
+  max_retry_limit: 2
+  respect_context_window: true
+  multimodal: false
+  inject_date: false
+  date_format: '%Y-%m-%d'
+  reasoning: false
+  use_system_prompt: true
+rf_orbital_analyst:
+  role: RF Orbital Analyst
+  goal: >
+    Monitor satellite RF emissions, detect spoofing/jamming, and link anomalies to COMINT/SIGINT pillars.
+  backstory: >
+    Specialist in orbital RF signals, spectrum analysis, and anomaly detection.
+  llm: openai/gpt-4o
+  tools:
+  - SatNOGS_oss
+  - SDRSharp_oss
+  - GNURadio_oss
+  - GPS-SDR_oss
+  - HawkEye360
+  - Spire GNSS
+  - Numerica SSA
+  - ExoAnalytic
+  - Slingshot Spectrum
+  - Palantir Gotham
+  - RiskIQ
+  - ComSpOC
+  verbose: true
+  memory: true
+  max_execution_time: 600
+  max_iterations: 5
+  allow_delegation: false
+  max_rpm: 30
+  planning: false
+  cache: true
+  max_retry_limit: 2
+  respect_context_window: true
+  multimodal: false
+  inject_date: false
+  date_format: '%Y-%m-%d'
+  reasoning: false
+  use_system_prompt: true
+debris_collision_specialist:
+  role: Debris & Collision Risk Specialist
+  goal: >
+    Detect orbital debris, model conjunctions, and recommend collision avoidance maneuvers.
+  backstory: >
+    SSA risk analyst specializing in debris modeling, conjunction warnings, and mega-constellation risk monitoring.
+  llm: openai/gpt-4o
+  tools:
+  - Skyfield_oss
+  - OrbitPy_oss
+  - GPredict_oss
+  - OpenSpace_oss
+  - LeoLabs
+  - ExoAnalytic
+  - AGI STK
+  - Airbus OneAtlas
+  - Maxar SecureWatch
+  - Slingshot Aerospace
+  - Palantir Gotham
+  - Numerica SSA
+  verbose: true
+  memory: true
+  max_execution_time: 600
+  max_iterations: 5
+  allow_delegation: false
+  max_rpm: 30
+  planning: false
+  cache: true
+  max_retry_limit: 2
+  respect_context_window: true
+  multimodal: false
+  inject_date: false
+  date_format: '%Y-%m-%d'
+  reasoning: false
+  use_system_prompt: true
+orbint_ml_engineer:
+  role: Orbital ML/AI Engineer
+  goal: >
+    Develop and evaluate ML models for anomaly detection, maneuver prediction, and adversarial spoofing resilience.
+  backstory: >
+    Machine learning engineer specializing in orbital analytics, adversarial detection, and drift monitoring.
+  llm: openai/gpt-4o
+  tools:
+  - Skyfield_oss
+  - OrbitPy_oss
+  - Drift_Monitor_oss
+  - SHAP_Explainer_oss
+  - Adversarial_Tester_oss
+  - AGI STK
+  - Palantir Gotham
+  - Weaviate_oss
+  - TimescaleDB
+  - ExoAnalytic
+  - LeoLabs
+  - Slingshot Aerospace
+  verbose: true
+  memory: true
+  max_execution_time: 600
+  max_iterations: 5
+  allow_delegation: false
+  max_rpm: 30
+  planning: false
+  cache: true
+  max_retry_limit: 2
+  respect_context_window: true
+  multimodal: false
+  inject_date: false
+  date_format: '%Y-%m-%d'
+  reasoning: false
+  use_system_prompt: true
+compliance_space_law_officer:
+  role: Compliance & Space Law Officer
+  goal: >
+    Ensure ORBINT collection complies with the Outer Space Treaty, ITU filings, and data privacy regulations.
+  backstory: >
+    Legal and compliance expert in international space law and orbital policy governance.
+  llm: openai/gpt-4o
+  tools:
+  - Regulatory_Checklist_oss
+  - Audit_Log_Manager_oss
+  - Retention_Controller_oss
+  - ITU Registry
+  - UN COPUOS Filings
+  - Palantir Gotham
+  - ORBIS_BvD
+  - LloydsList
+  - SAP GTS
+  - Compliance DB
+  - WCO DataHub
+  - Sanctions Checker
+  verbose: true
+  memory: true
+  max_execution_time: 600
+  max_iterations: 5
+  allow_delegation: false
+  max_rpm: 30
+  planning: false
+  cache: true
+  max_retry_limit: 2
+  respect_context_window: true
+  multimodal: false
+  inject_date: false
+  date_format: '%Y-%m-%d'
+  reasoning: false
+  use_system_prompt: true
+megaconstellation_analyst:
+  role: Mega-Constellation Analyst
+  goal: >
+    Track and analyze large constellations (Starlink, OneWeb, Kuiper) for outages, performance anomalies, and dual-use risks.
+  backstory: >
+    Specialist in low-earth-orbit mega-constellation management and performance analysis.
+  llm: openai/gpt-4o
+  tools:
+  - GPredict_oss
+  - Skyfield_oss
+  - OrbitPy_oss
+  - LeoLabs
+  - ExoAnalytic
+  - AGI STK
+  - Slingshot Aerospace
+  - Starlink API
+  - Palantir Gotham
+  - Spire Space
+  - Numerica SSA
+  - Airbus OneAtlas
+  verbose: true
+  memory: true
+  max_execution_time: 600
+  max_iterations: 5
+  allow_delegation: false
+  max_rpm: 30
+  planning: false
+  cache: true
+  max_retry_limit: 2
+  respect_context_window: true
+  multimodal: false
+  inject_date: false
+  date_format: '%Y-%m-%d'
+  reasoning: false
+  use_system_prompt: true
+adversarial_space_ops_analyst:
+  role: Adversarial Space Operations Analyst
+  goal: >
+    Detect and investigate hostile behaviors such as ASAT testing, co-orbital threats, and rendezvous maneuvers.
+  backstory: >
+    Former defense space operations officer with expertise in counterspace threats.
+  llm: openai/gpt-4o
+  tools:
+  - CelesTrak_oss
+  - Skyfield_oss
+  - OrbitPy_oss
+  - ExoAnalytic
+  - LeoLabs
+  - AGI STK
+  - Slingshot Aerospace
+  - Palantir Gotham
+  - HawkEye360
+  - Spire
+  - Simulation Engine
+  - DARPA SSA Data
+  verbose: true
+  memory: true
+  max_execution_time: 600
+  max_iterations: 5
+  allow_delegation: false
+  max_rpm: 30
+  planning: false
+  cache: true
+  max_retry_limit: 2
+  respect_context_window: true
+  multimodal: false
+  inject_date: false
+  date_format: '%Y-%m-%d'
+  reasoning: false
+  use_system_prompt: true
+crosspillar_ssa_fusion_analyst:
+  role: Cross-Pillar SSA Fusion Analyst
+  goal: >
+    Fuse ORBINT insights with CYBINT, THREAT_INTEL, GEOINT, and FININT for multi-domain awareness.
+  backstory: >
+    Fusion analyst bridging orbital data with cyber and terrestrial intelligence.
+  llm: openai/gpt-4o
+  tools:
+  - Palantir Gotham
+  - OpenCTI_oss
+  - Weaviate_oss
+  - Maltego_oss
+  - TIP
+  - SIEM
+  - Splunk
+  - TimescaleDB
+  - Neo4j
+  - Graphistry
+  - Kibana
+  - Postgres
+  verbose: true
+  memory: true
+  max_execution_time: 600
+  max_iterations: 5
+  allow_delegation: false
+  max_rpm: 30
+  planning: false
+  cache: true
+  max_retry_limit: 2
+  respect_context_window: true
+  multimodal: false
+  inject_date: false
+  date_format: '%Y-%m-%d'
+  reasoning: false
+  use_system_prompt: true
+space_weather_analyst:
+  role: Space Weather Analyst
+  goal: >
+    Monitor solar flares, CMEs, and geomagnetic storms that affect satellites and ground infrastructure.
+  backstory: >
+    Specialist in heliophysics and geomagnetic forecasting for satellite operations.
+  llm: openai/gpt-4o
+  tools:
+  - NOAA SWPC
+  - NASA OMNIWeb
+  - SpaceWeatherLive API
+  - Skyfield_oss
+  - OrbitPy_oss
+  - ESA Space Weather DB
+  - ExoAnalytic
+  - Spire GNSS
+  - Slingshot Aerospace
+  - Palantir Gotham
+  - Hexagon Geospatial
+  - Simulation Engine
+  verbose: true
+  memory: true
+  max_execution_time: 600
+  max_iterations: 5
+  allow_delegation: false
+  max_rpm: 30
+  planning: false
+  cache: true
+  max_retry_limit: 2
+  respect_context_window: true
+  multimodal: false
+  inject_date: false
+  date_format: '%Y-%m-%d'
+  reasoning: false
+  use_system_prompt: true
+satellite_market_analyst:
+  role: Satellite Market & Policy Analyst
+  goal: >
+    Track global satellite operators, leasing markets, dual-use trends, and commercial investment patterns.
+  backstory: >
+    Economic and policy analyst specializing in space industry market intelligence.
+  llm: openai/gpt-4o
+  tools:
+  - ORBIS_BvD
+  - LloydsList
+  - Compliance DB
+  - SAP GTS
+  - Palantir Gotham
+  - Airbus OneAtlas
+  - Market Intelligence DB
+  - Maxar SecureWatch
+  - Slingshot Aerospace
+  - Hexagon Geospatial
+  - OpenCTI_oss
+  - TIP
+  verbose: true
+  memory: true
+  max_execution_time: 600
+  max_iterations: 5
+  allow_delegation: false
+  max_rpm: 30
+  planning: false
+  cache: true
+  max_retry_limit: 2
+  respect_context_window: true
+  multimodal: false
+  inject_date: false
+  date_format: '%Y-%m-%d'
+  reasoning: false
+  use_system_prompt: true
+legint_strategist:
+  role: Legal Intelligence Strategist for Orbital Intelligence
+  goal: Provide strategic legal intelligence for orbital investigations and compliance.
+  backstory: You specialize in legal intelligence for orbital investigations, privacy
+    compliance, and regulatory adherence.
+  llm: openai/gpt-4o
+  tools:
+  - Legal_Research_Tool
+  - Privacy_Compliance_Checker
+  - Orbital_Legal_Analyzer
+  - Regulatory_Monitor
+  verbose: true
+  memory: true
+  max_execution_time: 600
+  max_iterations: 5
+  allow_delegation: true
+  max_rpm: 30
+  planning: true
+  cache: true
+  max_retry_limit: 2
+  respect_context_window: true
+  multimodal: false
+  inject_date: false
+  date_format: '%Y-%m-%d'
+  reasoning: false
+  use_system_prompt: true

@@ -1,0 +1,171 @@
+ot_policy_definition_task:
+  description: >
+    Define OT/ICS/Physical strategy with OT Policy Generator and ICS Framework Mapper.
+    Align with ISA/IEC 62443, NERC CIP, ISO 27019, OSHA, and sector-specific mandates.
+  expected_output: >
+    {"policy":"OT/ICS/Physical","frameworks":["ISA/IEC 62443","NERC CIP","ISO 27019"],"sectoral":["Energy","Transport"],"safety":"OSHA-aligned"}
+  agent: ot_strategist
+  output_file: output/ot_policy.json
+
+ics_asset_inventory_task:
+  description: >
+    Build an OT asset inventory using ICS Protocol Analyzer and Passive Network Sensor.
+    Include PLCs, HMIs, SCADA servers, and IIoT devices.
+  expected_output: >
+    {"assets_discovered":1500,"plcs":400,"hmis":150,"scada_servers":25,"iiot_devices":200}
+  agent: ics_engineer
+  context: [ot_policy_definition_task]
+  output_file: output/ics_inventory.json
+
+ics_segmentation_task:
+  description: >
+    Enforce segmentation using Network Segmentation Tool.
+    Validate Purdue Model separation and detect flat networks.
+  expected_output: >
+    {"zones":10,"conduits":18,"violations":4}
+  agent: ics_engineer
+  context: [ics_asset_inventory_task]
+  output_file: output/ics_segmentation.json
+
+ot_vulnerability_task:
+  description: >
+    Perform vulnerability scans with OT Vulnerability Scanner.
+    Validate patches in controlled testbeds before deployment.
+  expected_output: >
+    {"vulns_found":220,"patched":180,"compensating_controls":20}
+  agent: ot_vuln_manager
+  context: [ics_asset_inventory_task]
+  output_file: output/ot_vulns.json
+
+firmware_integrity_task:
+  description: >
+    Validate firmware/software integrity with Firmware Validator and SBOM Analyzer.
+    Detect tampered firmware or counterfeit devices.
+  expected_output: >
+    {"devices_checked":300,"tampered":2,"supply_chain_alerts":3}
+  agent: firmware_integrity_analyst
+  context: [ics_asset_inventory_task]
+  output_file: output/firmware.json
+
+ot_threat_hunting_task:
+  description: >
+    Hunt for adversaries using Passive Network Sensor and Threat Intel Feeds.
+    Detect unauthorized ICS commands and TTP matches.
+  expected_output: >
+    {"hunts":12,"anomalies":4,"ttp_matches":["T0849","T0814"]}
+  agent: ot_threat_hunter
+  context: [ics_asset_inventory_task]
+  output_file: output/ot_threats.json
+
+ot_honeypot_task:
+  description: >
+    Deploy OT honeypots with Honeypot Toolkit and Decoy Asset Generator.
+    Capture attacker behavior without risking production.
+  expected_output: >
+    {"honeypots_deployed":6,"attacks_logged":12,"ttp_samples":8}
+  agent: deception_specialist
+  context: [ot_threat_hunting_task]
+  output_file: output/ot_honeypots.json
+
+digital_twin_task:
+  description: >
+    Build digital twins with Digital Twin Platform.
+    Simulate attacks, outages, and safety interlock failures.
+  expected_output: >
+    {"twins_built":3,"scenarios_simulated":10,"resilience_gaps":["backup SCADA not failover-ready"]}
+  agent: digital_twin_engineer
+  context: [ics_asset_inventory_task]
+  output_file: output/digital_twins.json
+
+physical_access_monitoring_task:
+  description: >
+    Correlate badge + CCTV anomalies (tailgating, after-hours access).
+    Integrate with Insider Threat Dashboard.
+  expected_output: >
+    {"events":16000,"anomalies":15,"insider_flags":3}
+  agent: physical_security_manager
+  output_file: output/physical_access.json
+
+insider_threat_task:
+  description: >
+    Correlate HR, badge/CCTV, and OT/IT logs for insider threat detection.
+  expected_output: >
+    {"insider_cases":4,"mitigated":3,"open":1}
+  agent: insider_threat_coordinator
+  context: [physical_access_monitoring_task, ot_threat_hunting_task]
+  output_file: output/insiders.json
+
+ot_incident_response_task:
+  description: >
+    Coordinate IR with IR Playbook Tool.
+    Integrate OT logs, IT SOC data, and physical events into a unified timeline.
+  expected_output: >
+    {"incidents":4,"joint_exercises":2,"lessons":["improve OT log correlation"]}
+  agent: incident_commander_ot
+  context: [ot_threat_hunting_task, insider_threat_task]
+  output_file: output/ot_ir.json
+
+safety_stress_test_task:
+  description: >
+    Stress test safety interlocks and manual overrides with Stress Test Monitor.
+  expected_output: >
+    {"tests":5,"failures":1,"recommendations":["add redundant cutoff"]}
+  agent: safety_officer
+  context: [digital_twin_task]
+  output_file: output/safety_tests.json
+
+ot_it_convergence_task:
+  description: >
+    Correlate OT telemetry, IT SOC alerts, and physical security data
+    in a unified Convergence Dashboard.
+  expected_output: >
+    {"dashboards":1,"data_sources":12,"alerts_correlated":20}
+  agent: convergence_analyst
+  context: [ot_threat_hunting_task, physical_access_monitoring_task]
+  output_file: output/convergence.json
+
+ot_vendor_audit_task:
+  description: >
+    Audit vendor/contractor OT access with Processor Audit Tool.
+    Validate third-party security practices.
+  expected_output: >
+    {"vendors":25,"compliant":20,"violations":5}
+  agent: processor_governance_manager
+  output_file: output/ot_vendors.json
+
+ot_regulatory_task:
+  description: >
+    Map OT program compliance to sector-specific regs
+    (e.g., TSA Pipeline Directive, EU NIS2 for operators).
+  expected_output: >
+    {"regs":["TSA Pipeline","EU NIS2"],"coverage":"85%"}
+  agent: safety_officer
+  output_file: output/ot_regulations.json
+
+ot_continuity_task:
+  description: >
+    Validate OT continuity plans (backup SCADA servers, PLC config backups).
+  expected_output: >
+    {"continuity_tests":3,"gaps":["no redundant comms path"]}
+  agent: incident_commander_ot
+  output_file: output/ot_continuity.json
+
+ot_metrics_reporting_task:
+  description: >
+    Generate KPIs: asset coverage, vulns patched, honeypots deployed,
+    insider flags, safety compliance, continuity readiness.
+  expected_output: >
+    {"assets":1500,"vulns_patched":180,"honeypots":6,"insider_flags":3,"safety_compliance":"95%","continuity":"80%"}
+  agent: ot_auditor
+  context: [ics_segmentation_task, ot_vulnerability_task, ot_honeypot_task, insider_threat_task, safety_stress_test_task, ot_continuity_task]
+  output_file: output/ot_metrics.json
+
+ot_audit_task:
+  description: >
+    Audit OT/ICS/Physical program maturity.
+    Check asset inventory, vuln patching, honeypots, convergence, and regulatory compliance.
+  expected_output: >
+    {"audit_score":94,"coverage_pct":92,"gaps":["sectoral regs not fully mapped"]}
+  agent: ot_auditor
+  context: [ot_metrics_reporting_task]
+  output_file: output/ot_audit.json

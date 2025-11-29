@@ -1,0 +1,239 @@
+define_detection_strategy_task:
+  description: >
+    Define the enterprise detection & correlation strategy, mapping MITRE ATT&CK
+    coverage, use cases, and integration scope.
+    Use Correlation Policy Generator and ATT&CK Coverage Mapper.
+  expected_output: >
+    {"strategy":"detection & correlation","use_cases":25,"attck_coverage_pct":85,"pillars_integrated":18}
+  agent: detection_strategist
+  output_file: output/pillar22_strategy.json
+
+configure_siem_pipelines_task:
+  description: >
+    Configure SIEM pipelines to ingest logs from all 21 pillars, normalize events,
+    and validate telemetry health.
+  expected_output: >
+    {"sources_ingested":21,"logs_per_day":2500000,"pipeline_status":"healthy"}
+  agent: siem_engineer
+  context: [define_detection_strategy_task]
+  output_file: output/pillar22_siem.json
+
+develop_correlation_rules_task:
+  description: >
+    Write correlation rules mapping adversary TTPs to multi-pillar events.
+    Use Sigma Rule Builder and False Positive Analyzer.
+  expected_output: >
+    {"rules_deployed":120,"false_positive_rate":0.12,"techniques_mapped":85}
+  agent: detection_engineer
+  context: [configure_siem_pipelines_task]
+  output_file: output/pillar22_rules.json
+
+proactive_threat_hunt_task:
+  description: >
+    Conduct proactive hunts across correlated telemetry datasets to detect
+    stealthy threats or insider activity.
+  expected_output: >
+    {"hunts_conducted":12,"anomalies_detected":7,"true_incidents":2}
+  agent: threat_hunter
+  context: [develop_correlation_rules_task]
+  output_file: output/pillar22_hunts.json
+
+soc_triage_task:
+  description: >
+    Triage correlated alerts, enrich with context, and escalate high-severity incidents.
+  expected_output: >
+    {"alerts_triaged":450,"escalated":35,"false_positives":52}
+  agent: soc_analyst
+  context: [develop_correlation_rules_task]
+  output_file: output/pillar22_triage.json
+
+correlated_incident_response_task:
+  description: >
+    Execute incident response playbooks for multi-pillar correlated alerts.
+    Use IR Playbook Automation and Communication Hub.
+  expected_output: >
+    {"incidents_resolved":12,"avg_mttr_hours":2.4,"executive_briefings":4}
+  agent: incident_commander_detection
+  context: [soc_triage_task, proactive_threat_hunt_task]
+  output_file: output/pillar22_response.json
+
+audit_detection_coverage_task:
+  description: >
+    Audit detection pipelines for ATT&CK coverage, rule quality, and compliance.
+  expected_output: >
+    {"audit_score":92,"coverage_pct":88,"issues_found":5,"issues_resolved":4}
+  agent: detection_auditor
+  context: [define_detection_strategy_task, develop_correlation_rules_task, correlated_incident_response_task]
+  output_file: output/pillar22_audit.json
+
+# Industry-standard extended tasks
+
+soar_playbook_governance_task:
+  description: >
+    Catalog, test, and deploy SOAR playbooks with guardrails.
+    Measure touchless resolution, failure rate, and rollback readiness.
+  expected_output: >
+    {"playbooks":{"total":48,"tested":45,"deployed":40},"touchless_resolution_pct":38,"automation_failure_pct":2}
+  agent: soar_architect
+  context: [develop_correlation_rules_task, correlated_incident_response_task]
+  output_file: output/pillar22_soar_governance.json
+
+ueba_baselining_task:
+  description: >
+    Build entity baselines (users, hosts, svc accts), tune thresholds, and monitor model drift.
+  expected_output: >
+    {"entities_baselined":52000,"drift_alerts":6,"fp_reduction_pct":22}
+  agent: ueba_scientist
+  context: [configure_siem_pipelines_task]
+  output_file: output/pillar22_ueba.json
+
+detections_ci_cd_task:
+  description: >
+    Implement detections-as-code: PR review, Sigma compile, unit tests, staged rollout, and rollback.
+  expected_output: >
+    {"rules_changed":36,"tests_passed_pct":97,"rollbacks":1}
+  agent: content_engineer
+  context: [develop_correlation_rules_task]
+  output_file: output/pillar22_detections_cicd.json
+
+atomic_validation_task:
+  description: >
+    Validate top detections using Atomic Red Team/Caldera. Log pass/fail and open gap tickets.
+  expected_output: >
+    {"scenarios_executed":24,"pass":19,"fail":5,"tickets_opened":5}
+  agent: detection_engineer
+  context: [detections_ci_cd_task]
+  output_file: output/pillar22_atomic_validation.json
+
+telemetry_catalog_slo_task:
+  description: >
+    Maintain a telemetry source catalog, enforce OCSF/ECS mapping, and monitor data quality SLOs (lag, completeness).
+  expected_output: >
+    {"sources":95,"ocsf_conformant_pct":88,"avg_ingest_lag_sec":14,"field_completeness_pct":93}
+  agent: telemetry_sre
+  context: [configure_siem_pipelines_task]
+  output_file: output/pillar22_telemetry_slo.json
+
+ti_ingestion_quality_task:
+  description: >
+    Ingest and score TI via STIX/TAXII; deduplicate and expire indicators; report hit-rate and FP-rate.
+  expected_output: >
+    {"ioc_ingested":240000,"dedup_pct":37,"expired_pct":18,"ioc_hit_rate_pct":2.4,"ioc_fp_rate_pct":0.6}
+  agent: threat_intel_engineer
+  context: [define_detection_strategy_task]
+  output_file: output/pillar22_ti_quality.json
+
+cloud_identity_coverage_task:
+  description: >
+    Ensure AWS/Azure/GCP + IdP telemetry are normalized, covered by rules, and included in correlation.
+  expected_output: >
+    {"cloud_sources_covered":["AWS","Azure","GCP"],"idp_sources":["Okta","EntraID"],"gaps":3}
+  agent: siem_engineer
+  context: [telemetry_catalog_slo_task]
+  output_file: output/pillar22_cloud_identity.json
+
+siem_cost_ha_dr_task:
+  description: >
+    Optimize storage/retention cost, validate HA/DR for SIEM/SOAR, and document RTO/RPO for the SOC data plane.
+  expected_output: >
+    {"cost_per_gb_usd":0.14,"hot_retention_days":30,"archive_days":365,"ha_tests_passed":3,"rto_min":20,"rpo_min":5}
+  agent: telemetry_sre
+  context: [configure_siem_pipelines_task]
+  output_file: output/pillar22_cost_ha_dr.json
+
+case_sla_reporting_task:
+  description: >
+    Report case SLAs (acknowledge/contain/close), re-open rate, and handoff quality metrics; feed RCAs to content backlog.
+  expected_output: >
+    {"sla_ack_min":6,"sla_contain_min":45,"sla_close_hours":6.2,"reopen_rate_pct":4.1,"rca_to_backlog":12}
+  agent: case_manager
+  context: [soc_triage_task, correlated_incident_response_task]
+  output_file: output/pillar22_case_sla.json
+
+log_privacy_compliance_task:
+  description: >
+    Scan telemetry for PII/PHI, enforce masking/tokenization, verify retention & residency compliance.
+  expected_output: >
+    {"datasets_scanned":38,"pii_findings":9,"masked":9,"noncompliant_flows":1}
+  agent: privacy_guardian
+  context: [telemetry_catalog_slo_task]
+  output_file: output/pillar22_privacy.json
+
+purple_team_quarterly_task:
+  description: >
+    Run quarterly purple-team campaigns mapped to ATT&CK; track coverage deltas and remediation progress.
+  expected_output: >
+    {"campaigns":3,"techniques_tested":46,"coverage_delta_pct":+7,"remediation_items_closed":21}
+  agent: detection_engineer
+  context: [atomic_validation_task, audit_detection_coverage_task]
+  output_file: output/pillar22_purple.json
+detection_rule_author_task:
+  description: >
+    Auto-added from mapping for detection_engineer in detection_correlation.
+  expected_output: >
+    {"status":"ok"}
+  agent: detection_engineer
+  output_file: output/detection_rule_author_task.json
+detection_rule_tuning_task:
+  description: >
+    Auto-added from mapping for detection_engineer in detection_correlation.
+  expected_output: >
+    {"status":"ok"}
+  agent: detection_engineer
+  output_file: output/detection_rule_tuning_task.json
+security_soar_integration_task:
+  description: >
+    Auto-added from mapping for security_engineer in detection_correlation.
+  expected_output: >
+    {"status":"ok"}
+  agent: security_engineer
+  output_file: output/security_soar_integration_task.json
+security_telemetry_onboarding_task:
+  description: >
+    Auto-added from mapping for security_engineer in detection_correlation.
+  expected_output: >
+    {"status":"ok"}
+  agent: security_engineer
+  output_file: output/security_telemetry_onboarding_task.json
+soc_alert_triage_task:
+  description: >
+    Auto-added from mapping for soc_analyst in detection_correlation.
+  expected_output: >
+    {"status":"ok"}
+  agent: soc_analyst
+  output_file: output/soc_alert_triage_task.json
+soc_quality_review_task:
+  description: >
+    Auto-added from mapping for soc_supervisor in detection_correlation.
+  expected_output: >
+    {"status":"ok"}
+  agent: soc_supervisor
+  output_file: output/soc_quality_review_task.json
+soc_queue_triage_task:
+  description: >
+    Auto-added from mapping for soc_supervisor in detection_correlation.
+  expected_output: >
+    {"status":"ok"}
+  agent: soc_supervisor
+  output_file: output/soc_queue_triage_task.json
+soc_threat_hunting_task:
+  description: >
+    Auto-added from mapping for soc_analyst in detection_correlation.
+  expected_output: >
+    {"status":"ok"}
+  agent: soc_analyst
+  output_file: output/soc_threat_hunting_task.json
+threat_artifact_triage_task:
+  description: >
+    Auto-added from mapping for threat_hunter in detection_correlation.
+  expected_output: >
+    {"status":"ok"}
+  agent: threat_hunter
+  output_file: output/threat_artifact_triage_task.json
+threat_hunt_mission_task:
+  description: >
+    Auto-added from mapping for threat_hunter in detection_correlation.
+  expected_output: >
+    {"status":"ok"}
+  agent: threat_hunter
+  output_file: output/threat_hunt_mission_task.json

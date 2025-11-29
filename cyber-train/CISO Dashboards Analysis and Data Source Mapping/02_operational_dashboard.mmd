@@ -1,0 +1,87 @@
+graph TB
+    subgraph "OPERATIONAL CISO DASHBOARD"
+        M1[Security Posture Score]
+        M2[Access Management Compliance]
+        M3[Security Policy Compliance Rate]
+        M4[Vendor Security Risk Score]
+        M5[Days to Patch - DTP]
+        M6[Unidentified Devices on Network]
+        M7[Third-Party Risk Exposure]
+        M8[Data Loss Prevention Effectiveness]
+    end
+    
+    subgraph "Data Sources"
+        DS1[GRC Platforms<br/>RSA Archer, ServiceNow GRC]
+        DS2[Security Ratings<br/>SecurityScorecard, BitSight]
+        DS3[IAM Systems<br/>Okta, Azure AD, Ping Identity]
+        DS4[DLP Tools<br/>Symantec, McAfee, Forcepoint]
+        DS5[Third-Party Risk Platforms<br/>UpGuard, RiskRecon]
+        DS6[Vulnerability Management<br/>Qualys, Tenable]
+        DS7[Patch Management Systems]
+        DS8[Network Discovery Tools]
+        DS9[CMDB<br/>ServiceNow, Device42]
+    end
+    
+    subgraph "Collection Methods"
+        CM1[Continuous Monitoring]
+        CM2[External Scanning]
+        CM3[Aggregated Scoring]
+        CM4[Access Reviews]
+        CM5[API Queries]
+        CM6[Automated Provisioning Logs]
+        CM7[Policy Enforcement Logs]
+        CM8[Manual Audits]
+        CM9[Questionnaires]
+        CM10[Timestamp Tracking]
+        CM11[Network Scanning]
+        CM12[Agent-Based Inventory]
+        CM13[Data Flow Analysis]
+    end
+    
+    M1 --> DS1
+    M1 --> DS2
+    DS1 --> CM1
+    DS1 --> CM3
+    DS2 --> CM2
+    DS2 --> CM1
+    
+    M2 --> DS3
+    DS3 --> CM4
+    DS3 --> CM5
+    DS3 --> CM6
+    
+    M3 --> DS1
+    M3 --> DS4
+    DS4 --> CM7
+    DS4 --> CM5
+    
+    M4 --> DS2
+    M4 --> DS5
+    DS5 --> CM2
+    DS5 --> CM9
+    DS5 --> CM1
+    
+    M5 --> DS6
+    M5 --> DS7
+    DS6 --> CM10
+    DS7 --> CM10
+    
+    M6 --> DS8
+    M6 --> DS9
+    DS8 --> CM11
+    DS9 --> CM12
+    
+    M7 --> DS5
+    M7 --> DS2
+    
+    M8 --> DS4
+    DS4 --> CM13
+    
+    style M1 fill:#fff4e1
+    style M2 fill:#fff4e1
+    style M3 fill:#fff4e1
+    style M4 fill:#fff4e1
+    style M5 fill:#fff4e1
+    style M6 fill:#fff4e1
+    style M7 fill:#fff4e1
+    style M8 fill:#fff4e1

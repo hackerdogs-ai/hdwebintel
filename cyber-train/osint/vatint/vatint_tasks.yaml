@@ -1,0 +1,345 @@
+rfi_satellite_transport_validation:
+  description: 'Validate AIS/ADS-B anomalies using commercial satellite imagery (SAR/EO).
+
+    '
+  trigger: on_demand
+  agent: satellite_transport_specialist
+  inputs:
+    anomaly_id: str
+    aoi_polygon: geojson
+    time_window:
+    - start
+    - end
+    tenant_id: str
+  tools:
+  - SentinelSat_oss
+  - PlanetLabs
+  - Maxar SecureWatch
+  - Airbus OneAtlas
+  - HawkEye360
+  expected_output: 'Annotated imagery and confidence score confirming or rejecting
+    anomaly.
+
+    '
+  outputs:
+    annotated_imagery: uri
+    validation_report: json
+    confidence_score: float
+  governance:
+    legal_basis: commercial imagery license
+    privacy_minimization: no PII
+    chain_of_custody: s3://vatint/coc/{anomaly_id}.zip
+  sla:
+    turnaround_hours: 8
+  success_metrics:
+  - validation_accuracy >= 0.9
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+rfi_signal_spoofing_case:
+  description: 'Investigate suspected GPS, AIS, or ADS-B spoofing/jamming event.
+
+    '
+  trigger: on_demand
+  agent: adversarial_signal_analyst
+  inputs:
+    signal_id: str
+    aoi_polygon: geojson|null
+    time_window:
+    - start
+    - end
+    tenant_id: str
+  tools:
+  - GNSS_Jammer_Detector_oss
+  - GPS-SDR_OSS
+  - HawkEye360
+  - Spire GNSS
+  - SDR#_oss
+  expected_output: 'Technical report confirming spoofing/jamming, with adversarial
+    model indicators.
+
+    '
+  outputs:
+    spoofing_report: uri
+    evidence_pack: zip
+    confidence_score: float
+  governance:
+    legal_basis: open GNSS/AIS/ADS-B feeds
+    privacy_minimization: no user PII collected
+    chain_of_custody: s3://vatint/coc/{signal_id}.zip
+  sla:
+    turnaround_hours: 12
+  success_metrics:
+  - detection_precision >= 0.9
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+rfi_border_interdiction_support:
+  description: 'Provide actionable package for customs/law enforcement interdiction.
+
+    '
+  trigger: on_demand
+  agent: border_customs_liaison
+  inputs:
+    interdiction_case_id: str
+    suspect_entity: str
+    transport_mode: str
+    tenant_id: str
+  tools:
+  - Customs Risk DB
+  - UNCTAD ASYCUDA
+  - Palantir Gotham
+  - WCO Cargo Targeting System
+  expected_output: 'Structured package with evidence, risk score, and recommended
+    interdiction action.
+
+    '
+  outputs:
+    interdiction_package: json
+    report_uri: uri
+  governance:
+    legal_basis: customs enforcement mandate
+    privacy_minimization: limited to case scope
+    chain_of_custody: s3://vatint/coc/{case_id}.zip
+  sla:
+    turnaround_hours: 24
+  success_metrics:
+  - interdiction_actionability >= 0.9
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+jamming_detection:
+  description: 'Detect GNSS/AIS/ADS-B jamming events in near real time.
+
+    '
+  cadence: daily
+  agent: adversarial_signal_analyst
+  tools:
+  - GNSS_Jammer_Detector_oss
+  - HawkEye360
+  - Spire GNSS
+  expected_output: 'Alert feed of jamming/spoofing detections with severity.
+
+    '
+  outputs:
+    jamming_alerts: list
+  governance:
+    legal_basis: open GNSS telemetry
+    privacy_minimization: aggregated only
+  sla:
+    detection_ttd_hours: 6
+  success_metrics:
+  - precision >= 0.9
+  - recall >= 0.85
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+satellite_crosscheck:
+  description: 'Crosscheck transport anomalies with satellite imagery snapshots.
+
+    '
+  cadence: daily
+  agent: satellite_transport_specialist
+  tools:
+  - PlanetLabs
+  - Airbus OneAtlas
+  - Maxar SecureWatch
+  - SentinelSat_oss
+  expected_output: 'Daily validation of anomalies with annotated images.
+
+    '
+  outputs:
+    validation_snapshots: list
+    confidence_scores: list
+  governance:
+    legal_basis: imagery license
+    privacy_minimization: no PII
+  sla:
+    turnaround_hours: 24
+  success_metrics:
+  - anomaly_validation_rate >= 0.8
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+signal_adversary_report:
+  description: 'Summarize spoofing/jamming techniques observed in the past week.
+
+    '
+  cadence: weekly
+  agent: adversarial_signal_analyst
+  tools:
+  - HawkEye360
+  - Spire
+  - SDR#_oss
+  - Adversarial_Tester_oss
+  outputs:
+    adversary_tactics_report: uri
+  sla:
+    delivery_hours: 48
+  success_metrics:
+  - stakeholder_rating >= 4.5
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+crosspillar_transport_correlation:
+  description: 'Correlate VATINT anomalies with CYBINT, THREAT_INTEL, ECOINT, FININT.
+
+    '
+  cadence: weekly
+  agent: crosspillar_transport_fusion_analyst
+  tools:
+  - Palantir Gotham
+  - OpenCTI_oss
+  - Maltego_oss
+  - Weaviate_oss
+  outputs:
+    correlation_report: uri
+  sla:
+    delivery_hours: 72
+  success_metrics:
+  - correlation_accuracy >= 0.9
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+illicit_financial_linkage:
+  description: 'Correlate VATINT anomalies with financial/sanctions evidence.
+
+    '
+  cadence: monthly
+  agent: crosspillar_transport_fusion_analyst
+  tools:
+  - Palantir Gotham
+  - SAP GTS
+  - OpenCTI_oss
+  - Sanctions_Screener
+  outputs:
+    illicit_financial_report: uri
+  sla:
+    delivery_days: 5
+  success_metrics:
+  - linkage_accuracy >= 0.85
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+model_resilience_audit:
+  description: 'Audit VATINT ML models for adversarial robustness and drift.
+
+    '
+  cadence: monthly
+  agent: adversarial_signal_analyst
+  tools:
+  - Drift_Monitor_oss
+  - SHAP_Explainer_oss
+  - Adversarial_Tester_oss
+  outputs:
+    model_resilience_report: uri
+  sla:
+    delivery_days: 7
+  success_metrics:
+  - adversarial_resilience_score >= 0.85
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+sanctions_enforcement_review:
+  description: 'Assess VATINT effectiveness in supporting sanctions enforcement.
+
+    '
+  cadence: quarterly
+  agent: crosspillar_transport_fusion_analyst
+  tools:
+  - Palantir Gotham
+  - OpenCTI_oss
+  - Sanctions_Screener
+  outputs:
+    enforcement_review: uri
+  sla:
+    delivery_days: 10
+  success_metrics:
+  - enforcement_case_support >= 3
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+multi_modal_resilience_exercise:
+  description: 'Simulate adversarial evasion across maritime, aviation, and land.
+
+    '
+  cadence: quarterly
+  agent: vatint_analyst
+  tools:
+  - Simulation_Engine
+  - Palantir Gotham
+  - HawkEye360
+  outputs:
+    after_action_report: uri
+  sla:
+    exercise_completion: 100%
+  success_metrics:
+  - resilience_gap_closure >= 0.2
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+global_transport_resilience_review:
+  description: 'Global review of VATINT capabilities across maritime, aviation, and
+    land sectors.
+
+    '
+  cadence: yearly
+  agent: vatint_analyst
+  tools:
+  - Strategic_Reporting
+  - Risk_Scoring_Engine
+  outputs:
+    global_resilience_report: uri
+  sla:
+    delivery_days: 30
+  success_metrics:
+  - roadmap_alignment >= 0.9
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+regulatory_alignment_audit:
+  description: 'Validate VATINT operations against IMO, ICAO, EU NIS2, and national
+    mandates.
+
+    '
+  cadence: yearly
+  agent: socmint_strategist
+  tools:
+  - Regulatory_Checklist
+  - Audit_Log_Manager
+  - Retention_Controller
+  outputs:
+    regulatory_audit_report: uri
+  sla:
+    findings_resolved_days: 45
+  success_metrics:
+  - compliance_incidents == 0
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3

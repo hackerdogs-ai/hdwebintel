@@ -1,0 +1,255 @@
+rfi_adtech_tracker_investigation:
+  description: 'Investigate suspected malicious or privacy-violating AdTech trackers
+    in mobile or web telemetry flows.
+
+    '
+  trigger: on_demand
+  agent: adtech_tracker_specialist
+  inputs:
+    app_or_domain: str
+    tenant_id: str
+  tools:
+  - TrackerRadar
+  - AppsFlyer
+  - Adjust
+  - DisconnectDB
+  expected_output: "{\"trackers_detected\":[\"trackerX\"],\"risk\":\"high\",\"confidence_score\"\
+    :0.92,\n \"recommendations\":[\"remove trackerX\"]}\n"
+  outputs:
+    adtech_investigation_report: str
+  sla:
+    turnaround_hours: 12
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+rfi_connected_vehicle_analysis:
+  description: 'Analyze telemetry from connected vehicles for suspicious routing,
+    data leaks, or unauthorized access.
+
+    '
+  trigger: on_demand
+  agent: automotive_telemetry_engineer
+  inputs:
+    vehicle_id: str
+    time_window_utc:
+    - start
+    - end
+  tools:
+  - CANalyzer
+  - CarShark
+  - UDS_Scanner
+  expected_output: "{\"vehicle_id\":\"XYZ123\",\"anomalies\":[\"GPS spoofing\"],\n\
+    \ \"confidence_score\":0.9,\"risk_level\":\"critical\"}\n"
+  outputs:
+    vehicle_analysis_report: str
+  sla:
+    turnaround_hours: 24
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+appstore_surveillance:
+  description: 'Monitor mobile app stores for new malicious apps or SDKs.
+
+    '
+  cadence: daily
+  agent: mobile_reverser
+  tools:
+  - AppStore_Intel
+  - MobSF
+  - mitmproxy
+  expected_output: '{"malicious_apps_detected":["com.fake.sdk"],"risk":"high"}
+
+    '
+  outputs:
+    surveillance_report: str
+  sla:
+    detection_ttd_hours: 24
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+telemetry_monitoring:
+  description: 'Collect telemetry exhaust across IoT, mobile, and network metadata;
+    detect anomalies.
+
+    '
+  cadence: daily
+  agent: digint_analyst
+  tools:
+  - Zeek
+  - Wireshark
+  - Splunk
+  - ElasticSearch
+  expected_output: '{"alerts":10,"critical":2,"confidence_score":0.88}
+
+    '
+  outputs:
+    anomaly_alerts: list
+  sla:
+    detection_ttd_hours: 12
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+cross_pillar_fusion:
+  description: 'Correlate DIGINT anomalies with HUMINT, FININT, and SOCMINT evidence.
+
+    '
+  cadence: weekly
+  agent: digint_analyst
+  tools:
+  - Palantir_Gotham
+  - Splunk
+  - OpenCTI
+  expected_output: '{"linked_cases":4,"fusion_success_rate":0.85}
+
+    '
+  outputs:
+    fusion_report: str
+  sla:
+    delivery_hours: 48
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+sdk_tracker_update:
+  description: 'Update tracker/SDK signature library and verify detections.
+
+    '
+  cadence: weekly
+  agent: adtech_tracker_specialist
+  tools:
+  - TrackerRadar
+  - DisconnectDB
+  - Brave_TrackerDB
+  expected_output: '{"new_trackers_added":12,"obsolete_removed":3}
+
+    '
+  outputs:
+    tracker_library_update: str
+  sla:
+    update_hours: 12
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+supply_chain_drift_detection:
+  description: 'Detect unauthorized SDKs or telemetry endpoints introduced via updates.
+
+    '
+  cadence: monthly
+  agent: mobile_reverser
+  tools:
+  - MobSF
+  - Frida
+  - mitmproxy
+  - AppStore_Intel
+  expected_output: '{"apps_analyzed":200,"drift_cases":3,"risk_level":"high"}
+
+    '
+  outputs:
+    drift_report: str
+  sla:
+    report_delivery_days: 3
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+privacy_audit:
+  description: 'Audit telemetry exhaust for GDPR/CCPA violations and PII leaks.
+
+    '
+  cadence: monthly
+  agent: privacy_engineer
+  tools:
+  - detect-secrets
+  - TruffleHog
+  - Audit_Log_Manager
+  expected_output: '{"violations_detected":2,"confidence_score":0.95}
+
+    '
+  outputs:
+    privacy_audit_report: str
+  sla:
+    delivery_days: 5
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+adtech_transparency_report:
+  description: 'Generate transparency report on advertising trackers and cross-app
+    linkages.
+
+    '
+  cadence: quarterly
+  agent: adtech_tracker_specialist
+  tools:
+  - AppsFlyer
+  - Adjust
+  - TrackerRadar
+  expected_output: '{"trackers_total":134,"high_risk":12,"trend":"increasing"}
+
+    '
+  outputs:
+    transparency_report: str
+  sla:
+    delivery_days: 7
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+model_eval:
+  description: 'Evaluate ML models for DIGINT anomaly detection and tracker classification.
+
+    '
+  cadence: quarterly
+  agent: ml_engineer_digint
+  tools:
+  - TensorFlow
+  - Drift_Monitor
+  - SHAP_Explainer
+  expected_output: '{"precision":0.91,"recall":0.87,"drift_detected":false}
+
+    '
+  outputs:
+    model_eval_report: str
+  sla:
+    turnaround_days: 5
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+strategy_review:
+  description: 'Conduct DIGINT program strategy review, including budget, vendors,
+    and roadmap maturity.
+
+    '
+  cadence: yearly
+  agent: digint_analyst
+  tools:
+  - Strategic_Reporting
+  - Palantir_Gotham
+  expected_output: '{"roadmap_completion_pct":0.92,"budget_alignment":"on-track"}
+
+    '
+  outputs:
+    digint_strategy_doc: str
+  sla:
+    approval_days: 30
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3

@@ -1,0 +1,304 @@
+rfi_seismic_event_investigation:
+  description: 'Investigate suspected explosion, missile test, or industrial accident
+    using seismic/infrasound data.
+
+    '
+  expected_output: "{\"event_id\":\"seis_2025_001\",\"magnitude\":3.2,\"units\":\"\
+    Mw\",\n \"location\":{\"lat\":34.2,\"lon\":45.1,\"crs\":\"EPSG:4326\"},\n \"uncertainty\"\
+    :{\"magnitude\":±0.2,\"location_km\":±15},\n \"confidence\":0.91,\"sources\":[\"\
+    IRIS\",\"CTBTO_open\"],\n \"handoff\":\"IMINT for visual validation\",\"legal_basis\"\
+    :\"open seismic data\",\n \"privacy_minimization\":\"no PII\",\"report_uri\":\"\
+    s3://reports/seismic_event.pdf\",\n \"chain_of_custody\":\"s3://evidence/seis_2025_001_coc.pdf\"\
+    ,\"version\":\"1.0\"}\n"
+  agent: acoustic_seismic_analyst
+  output_file: output/rfi_seismic_event_investigation.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+rfi_radiation_leak_check:
+  description: 'Investigate anomalous radiation levels from open sensors.
+
+    '
+  expected_output: "{\"event_id\":\"rad_2025_009\",\"radiation_level\":3.5,\"units\"\
+    :\"µSv/h\",\n \"location\":{\"lat\":51.5,\"lon\":12.4,\"crs\":\"EPSG:4326\"},\n\
+    \ \"confidence\":0.88,\"sources\":[\"IAEA\",\"local monitors\"],\n \"handoff\"\
+    :\"Environmental authorities\",\"legal_basis\":\"public data\",\n \"privacy_minimization\"\
+    :\"no PII\",\"report_uri\":\"s3://reports/radiation_check.pdf\",\n \"chain_of_custody\"\
+    :\"s3://evidence/rad_2025_009_coc.pdf\",\"version\":\"1.0\"}\n"
+  agent: radiation_chemical_analyst
+  output_file: output/rfi_radiation_leak_check.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+rfi_chemical_plume_analysis:
+  description: 'Analyze suspected chemical plume using atmospheric dispersion models.
+
+    '
+  expected_output: "{\"event_id\":\"chem_2025_004\",\"compound\":\"SO2\",\"units\"\
+    :\"ppm\",\n \"trajectory\":\"NE\",\"confidence\":0.92,\"dqf\":\"A\",\n \"sources\"\
+    :[\"Copernicus_S5P\",\"NOAA_HYSPLIT\"],\"handoff\":\"GEOINT\",\n \"report_uri\"\
+    :\"s3://reports/chemical_plume.pdf\",\"legal_basis\":\"public data\",\n \"privacy_minimization\"\
+    :\"aggregated geospatial\",\"chain_of_custody\":\"s3://evidence/chem_2025_004_coc.pdf\"\
+    }\n"
+  agent: spectral_signature_analyst
+  output_file: output/rfi_chemical_plume_analysis.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+rfi_rf_emission_anomaly:
+  description: 'Investigate anomalous RF emission potentially indicating jamming or
+    spoofing.
+
+    '
+  expected_output: "{\"event_id\":\"rf_2025_015\",\"frequency_mhz\":2450,\"anomaly\"\
+    :\"jamming\",\n \"confidence\":0.87,\"sources\":[\"GNURadio\",\"HawkEye360\"],\n\
+    \ \"handoff\":\"SIGINT\",\"report_uri\":\"s3://reports/rf_anomaly.pdf\",\n \"\
+    legal_basis\":\"open RF monitoring\",\"privacy_minimization\":\"no PII\"}\n"
+  agent: masint_collection_officer
+  output_file: output/rfi_rf_emission_anomaly.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+rfi_infrasound_explosion_detection:
+  description: 'Detect and characterize explosion/rocket launch with infrasound arrays.
+
+    '
+  expected_output: "{\"event_id\":\"infra_2025_001\",\"type\":\"explosion\",\"azimuth_deg\"\
+    :212.5,\"range_km\":320,\n \"time_window_utc\":[\"2025-09-13T04:10Z\",\"2025-09-13T04:25Z\"\
+    ],\n \"uncertainty\":{\"azimuth_deg\":±3.0,\"range_km\":±25},\"confidence\":0.9,\n\
+    \ \"sources\":[\"CTBTO_open\"],\"handoff\":\"IMINT\",\"report_uri\":\"s3://reports/infra_event.pdf\"\
+    }\n"
+  agent: infrasound_analyst
+  output_file: output/rfi_infrasound_explosion_detection.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+rfi_sar_flood_landslide_change:
+  description: 'Use Sentinel-1 SAR coherence/backscatter to map flood or landslide.
+
+    '
+  expected_output: "{\"case_id\":\"sar_2025_014\",\"hazard\":\"flood\",\"extent_km2\"\
+    :124.7,\n \"map_url\":\"s3://maps/sar_flood.png\",\"confidence\":0.9,\"crs\":\"\
+    EPSG:3857\",\n \"handoff\":\"GEOINT\",\"report_uri\":\"s3://reports/sar_flood.pdf\"\
+    }\n"
+  agent: sar_backscatter_analyst
+  output_file: output/rfi_sar_flood_landslide_change.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+rfi_methane_super_emitter_quant:
+  description: 'Detect and quantify methane super-emitters using satellite retrievals.
+
+    '
+  expected_output: "{\"site_id\":\"ch4_plant_delta\",\"emission_rate_kgph\":1450,\"\
+    uncertainty\":±220,\n \"compound\":\"CH4\",\"trajectory\":\"ENE\",\"sources\"\
+    :[\"Sentinel-5P\"],\n \"handoff\":\"Regulators\",\"report_uri\":\"s3://reports/ch4_super_emitter.pdf\"\
+    }\n"
+  agent: atmospheric_signatures_scientist
+  output_file: output/rfi_methane_super_emitter_quant.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+rfi_ground_motion_gnss_insar:
+  description: 'Assess ground motion/subsidence using GNSS baselines and InSAR.
+
+    '
+  expected_output: "{\"asset\":\"pipeline_alpha\",\"avg_vertical_rate_mm_yr\":-18.4,\n\
+    \ \"confidence\":0.86,\"reference_frames\":[\"ITRF2014\"],\n \"map_url\":\"s3://maps/insar_subsidence.png\"\
+    ,\"report_uri\":\"s3://reports/ground_motion.pdf\"}\n"
+  agent: sar_backscatter_analyst
+  output_file: output/rfi_ground_motion_gnss_insar.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+sensor_feed_monitoring:
+  description: 'Monitor seismic, acoustic, thermal, spectral, RF feeds for anomalies.
+
+    '
+  expected_output: "{\"feeds_monitored\":42,\"anomalies_detected\":6,\"validated\"\
+    :5,\n \"sources\":[\"IRIS\",\"Copernicus_S5P\",\"NASA_FIRMS\",\"Sentinel-1\"],\n\
+    \ \"dqf_summary\":{\"A\":91,\"B\":7,\"C\":2},\"crs\":\"EPSG:4326\",\"version\"\
+    :\"pipeline_1.3.0\",\n \"report_uri\":\"s3://reports/daily_sensor.pdf\"}\n"
+  agent: masint_collection_officer
+  output_file: output/daily_sensor_feed_monitoring.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+fire_hotspot_watch:
+  description: 'Daily scan of thermal hotspots for wildfire detection.
+
+    '
+  expected_output: "{\"hotspots\":312,\"new_incidents\":9,\"p95_detection_latency_min\"\
+    :45,\n \"map_url\":\"s3://maps/daily_hotspots.png\",\"report_uri\":\"s3://reports/daily_hotspots.pdf\"\
+    }\n"
+  agent: spectral_signature_analyst
+  output_file: output/daily_fire_hotspot_watch.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+anomaly_summary:
+  description: 'Summarize anomalies by type (thermal, seismic, RF, chemical) and region.
+
+    '
+  expected_output: "{\"week\":\"2025-W10\",\"seismic\":3,\"thermal\":5,\"rf\":2,\"\
+    chemical\":1,\n \"report_uri\":\"s3://reports/masint_weekly.pdf\"}\n"
+  agent: legint_strategist
+  output_file: output/weekly_anomaly_summary.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+ch4_no2_so2_scan:
+  description: 'Weekly scan for trace gas plumes.
+
+    '
+  expected_output: "{\"ch4_events\":6,\"no2_events\":11,\"so2_events\":3,\n \"report_uri\"\
+    :\"s3://reports/trace_gas_weekly.pdf\"}\n"
+  agent: atmospheric_signatures_scientist
+  output_file: output/weekly_ch4_no2_so2_scan.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+model_update:
+  description: 'Retrain anomaly detection models with recent data.
+
+    '
+  expected_output: "{\"model_version\":\"v1.4.2\",\"precision\":0.91,\"recall\":0.86,\n\
+    \ \"report_uri\":\"s3://reports/model_update.pdf\"}\n"
+  agent: masint_strategist
+  output_file: output/weekly_model_update.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+environmental_hazard_report:
+  description: 'Generate monthly report on hazards detected (radiation, chemical,
+    seismic).
+
+    '
+  expected_output: "{\"month\":\"2025-03\",\"events\":12,\"validated\":10,\n \"report_uri\"\
+    :\"s3://reports/environmental_hazards.pdf\"}\n"
+  agent: radiation_chemical_analyst
+  output_file: output/monthly_environmental_hazard_report.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+sar_change_baseline_refresh:
+  description: 'Refresh SAR baselines and adjust thresholds.
+
+    '
+  expected_output: "{\"aois_updated\":12,\"threshold_adjustments\":8,\n \"report_uri\"\
+    :\"s3://reports/sar_baseline_monthly.pdf\"}\n"
+  agent: sar_backscatter_analyst
+  output_file: output/monthly_sar_change_baseline_refresh.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+cross_pillar_validation:
+  description: 'Validate anomalies against IMINT/GEOINT/SIGINT.
+
+    '
+  expected_output: "{\"validated_pct\":0.92,\"cross_pillar_links\":14,\n \"report_uri\"\
+    :\"s3://reports/masint_cross_validation.pdf\"}\n"
+  agent: legint_strategist
+  output_file: output/monthly_cross_pillar_validation.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+exec_brief:
+  description: 'Deliver executive MASINT briefing: anomalies, hazards, ROI.
+
+    '
+  expected_output: "{\"quarter\":\"Q1-2025\",\"deck_uri\":\"s3://briefs/masint_q1.pptx\"\
+    ,\n \"decisions_influenced\":3}\n"
+  agent: legint_strategist
+  output_file: output/quarterly_exec_brief.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+sensor_registry_audit:
+  description: 'Audit sensor registry, calibration drift, and DQF.
+
+    '
+  expected_output: "{\"sensors\":128,\"cal_drift_flags\":3,\"dqf_A_pct\":92,\n \"\
+    audit_uri\":\"s3://audits/sensor_registry_q.pdf\"}\n"
+  agent: calibration_qaqc_engineer
+  output_file: output/quarterly_sensor_registry_audit.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+thermal_camouflage_redteam:
+  description: 'Run deception drill (thermal masking/decoys).
+
+    '
+  expected_output: "{\"scenario\":\"thermal_mask_v1\",\"detections\":4,\"misses\"\
+    :1,\n \"precision\":0.92,\"recall\":0.88,\n \"after_action_uri\":\"s3://reports/thermal_redteam_q.pdf\"\
+    }\n"
+  agent: legint_strategist
+  output_file: output/quarterly_thermal_camouflage_redteam.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+compliance_audit:
+  description: 'Audit MASINT feeds and data use compliance.
+
+    '
+  expected_output: "{\"audit_score\":0.97,\"issues_found\":1,\"issues_resolved\":1,\n\
+    \ \"audit_uri\":\"s3://audits/masint_q.pdf\"}\n"
+  agent: legint_strategist
+  output_file: output/quarterly_compliance_audit.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+strategy_review:
+  description: 'Review MASINT strategy, vendors, coverage, compliance roadmap.
+
+    '
+  expected_output: '{"strategy_doc":"s3://strategy/masint2025.pdf","maturity_score":0.88}
+
+    '
+  agent: legint_strategist
+  output_file: output/yearly_strategy_review.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3

@@ -1,0 +1,90 @@
+graph TB
+    subgraph "FINANCIAL SERVICES CISO DASHBOARD"
+        M1[PCI DSS Compliance Status]
+        M2[Cardholder Data Environment Security]
+        M3[Fraudulent Transaction Detection Rate]
+        M4[SOX ITGC Compliance]
+        M5[Payment Data Encryption Status]
+        M6[Third-Party Payment Processor Security]
+        M7[Anti-Money Laundering System Security]
+        M8[Insider Threat Indicators]
+    end
+    
+    subgraph "Data Sources"
+        DS1[PCI Scanning Vendors<br/>Trustwave, Coalfire]
+        DS2[PCI Compliance Platforms]
+        DS3[Network Segmentation Tools]
+        DS4[Encryption Management]
+        DS5[Fraud Detection Systems]
+        DS6[Transaction Monitoring Tools]
+        DS7[GRC Platforms<br/>Audit Tools]
+        DS8[Payment Gateways]
+        DS9[Core Banking Systems]
+        DS10[UEBA Platforms<br/>Exabeam, Securonix]
+        DS11[AML Systems]
+    end
+    
+    subgraph "Collection Methods"
+        CM1[Quarterly Scans]
+        CM2[Manual Assessments]
+        CM3[Evidence Collection]
+        CM4[Network Monitoring]
+        CM5[Encryption Validation]
+        CM6[Access Control Audits]
+        CM7[AI/ML Analysis]
+        CM8[Rule-Based Detection]
+        CM9[Real-Time Monitoring]
+        CM10[Control Testing]
+        CM11[Automated Monitoring]
+        CM12[Vendor Assessments]
+        CM13[Behavior Analytics]
+        CM14[Anomaly Detection]
+    end
+    
+    M1 --> DS1
+    M1 --> DS2
+    DS1 --> CM1
+    DS1 --> CM2
+    DS2 --> CM3
+    
+    M2 --> DS3
+    M2 --> DS4
+    DS3 --> CM4
+    DS3 --> CM5
+    DS4 --> CM6
+    
+    M3 --> DS5
+    M3 --> DS6
+    DS5 --> CM7
+    DS5 --> CM8
+    DS6 --> CM9
+    
+    M4 --> DS7
+    DS7 --> CM10
+    DS7 --> CM3
+    DS7 --> CM11
+    
+    M5 --> DS4
+    DS4 --> CM5
+    DS4 --> CM11
+    
+    M6 --> DS8
+    DS8 --> CM12
+    DS8 --> CM9
+    
+    M7 --> DS11
+    DS11 --> CM9
+    DS11 --> CM11
+    
+    M8 --> DS10
+    DS10 --> CM13
+    DS10 --> CM14
+    
+    style M1 fill:#e1f0ff
+    style M2 fill:#e1f0ff
+    style M3 fill:#e1f0ff
+    style M4 fill:#e1f0ff
+    style M5 fill:#e1f0ff
+    style M6 fill:#e1f0ff
+    style M7 fill:#e1f0ff
+    style M8 fill:#e1f0ff

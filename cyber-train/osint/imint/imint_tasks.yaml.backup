@@ -1,0 +1,590 @@
+rfi_task_imagery:
+  description: >
+    Plan and order commercial tasking for an AOI with revisit, cloud-cover, and budget constraints.
+  trigger: on_demand
+  agent: sensor_tasking_coordinator
+  inputs:
+    tenant_id: str
+    aoi_polygon: geojson
+    start_end_utc:
+    - start
+    - end
+    max_cloud_cover_pct: int
+    revisit_hours_target: int
+    budget_ceiling_usd: int
+    classification: INTERNAL|CONFIDENTIAL
+  tools:
+  - Tasking_Plan_Builder
+  - PlanetLabs_API
+  - Maxar_API
+  - Airbus_OneAtlas
+  - CloudRisk_Calculator
+  - Budget_Tracker
+  outputs:
+    tasking_plan_uri: str
+    vendor_order_ids: list
+    expected_collection_window_utc:
+    - start
+    - end
+    stac_search_query: json
+  handoffs:
+  - Procurement.Workflow(create=true)
+  sla:
+    tasking_placement_hours: 6
+  success_metrics:
+  - plan_to_collect_success_rate >= 0.8
+  - cloud_cover_exceedance_rate <= 0.15
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+rfi_sar_exploitation:
+  description: >
+    Conduct SAR exploitation for AOI (coherent change, vessel/airfield detection) when EO is clouded/night.
+  trigger: on_demand
+  agent: sar_exploitation_analyst
+  inputs:
+    tenant_id: str
+    aoi_polygon: geojson
+    time_window_utc:
+    - start
+    - end
+    stac_item_ids: list|null
+  tools:
+  - ESA_SNAP
+  - Capella_API
+  - ICEYE_API
+  - CoherentChange_Detector
+  - SAR_ShipDetector
+  - SAR_TerrainCorrector
+  outputs:
+    sar_findings_report: str
+    detections_geojson: geojson
+    map_url: str
+    confidence_score: float
+  handoffs:
+  - TheHive.Case(create=true)
+  - TIP.OpenCTI(attach=true)
+  sla:
+    turnaround_hours: 12
+  success_metrics:
+  - detection_precision >= 0.88
+  - detection_recall >= 0.82
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+rfi_bda_standard:
+  description: >
+    Produce standardized BDA for a strike/disaster site with method, scale, and confidence.
+  trigger: on_demand
+  agent: imint_strategist
+  inputs:
+    tenant_id: str
+    aoi_polygon: geojson
+    event_time_utc: str
+    imagery_uris: list|null
+  tools:
+  - QGIS
+  - Change_Detection_Model
+  - Object_Detector
+  - ESA_SNAP
+  outputs:
+    bda_report_uri: str
+    damage_index: float
+    affected_assets: list
+    evidence_pack_zip: str
+    map_url: str
+    classification: INTERNAL|CONFIDENTIAL
+    confidence_score: float
+  handoffs:
+  - Exec.Briefing(include=true)
+  - Humanitarian.Cluster(share=true)
+  sla:
+    turnaround_hours: 12
+  success_metrics:
+  - analyst_agreement_rate >= 0.9
+  - lead_time_hours <= 12
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+rfi_imagery_authenticity:
+  description: >
+    Assess imagery authenticity (synthetic/manipulated/forged), including satellite deepfake checks.
+  trigger: on_demand
+  agent: imint_ml_specialist
+  inputs:
+    tenant_id: str
+    imagery_uri: str
+  tools:
+  - OpenCV
+  - ErrorLevel_Analyzer
+  - Metadata_Validator
+  - Synthetic_Imagery_Simulator
+  - SHAP_Explainer
+  outputs:
+    authenticity_assessment: str
+    indicators_table: list
+    confidence_score: float
+  handoffs:
+  - Case.TheHive(create=true)
+  sla:
+    turnaround_hours: 6
+  success_metrics:
+  - authenticity_accuracy >= 0.9
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+rfi_imagery_verification:
+  description: >
+    Ad-hoc verification of imagery (satellite, aerial, or UGC) for location, date/time, and authenticity.
+  trigger: on_demand
+  agent: imint_strategist
+  inputs:
+    imagery_uri: str
+    suspected_location: str|null
+    time_hint: str|null
+  tools:
+  - QGIS
+  - ESA_SNAP
+  - ExifTool
+  - SunCalc
+  - OpenCV
+  outputs:
+    verification_report: str
+    coordinates:
+    - lat
+    - lon
+    time_window_utc:
+    - start
+    - end
+    confidence_score: float
+  handoffs:
+  - Case.TheHive(create=true)
+  sla:
+    turnaround_hours: 4
+  success_metrics:
+  - verification_accuracy >= 0.9
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+rfi_facility_baseline:
+  description: >
+    Build or refresh baseline study of a facility with annotated imagery.
+  trigger: on_demand
+  agent: imint_researcher
+  inputs:
+    aoi_polygon: geojson
+    facility_name: str
+  tools:
+  - PlanetLabs_API
+  - Maxar_API
+  - ArcGIS_API
+  - QGIS
+  outputs:
+    baseline_report: str
+    annotated_imagery: list
+    confidence_score: float
+  sla:
+    delivery_days: 3
+  success_metrics:
+  - baseline_accuracy >= 0.9
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+rfi_damage_assessment:
+  description: >
+    Post-event rapid damage assessment using before/after imagery.
+  trigger: on_demand
+  agent: imint_strategist
+  inputs:
+    aoi_polygon: geojson
+    event_time_utc: str
+  tools:
+  - SkyWatch
+  - SentinelSat
+  - Change_Detection_Model
+  - QGIS
+  outputs:
+    damage_index: float
+    damage_heatmap_url: str
+    report_uri: str
+  sla:
+    turnaround_hours: 12
+  success_metrics:
+  - lead_time_hours <= 12
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+daily_aoi_monitoring:
+  description: >
+    Monitor AOIs for changes using new imagery scenes; trigger object/change detection models.
+  cadence: daily
+  agent: imint_strategist
+  tools:
+  - SentinelSat
+  - ESA_SNAP
+  - Object_Detector
+  - Change_Detection_Model
+  outputs:
+    anomaly_alerts: list
+    imagery_snapshots: list
+  sla:
+    detection_ttd_hours: 12
+  success_metrics:
+  - anomaly_precision >= 0.85
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+daily_pipeline_qc:
+  description: >
+    Run pipeline QA on IMINT ingestion (deduplication, schema validation, metadata checks, cloud-free validation).
+  expected_output: >
+    A JSON object summarizing ingestion health. Example: {"uptime_pct":99.7,"cloud_free_pct":0.82,"duplicates_removed":15}
+  agent: imint_data_engineer
+  output_file: output/daily_pipeline_qc.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+weekly_change_summary:
+  description: >
+    Generate weekly summaries of detected changes in AOIs, verified by analysts.
+  cadence: weekly
+  agent: imint_strategist
+  tools:
+  - QGIS
+  - Change_Detection_Model
+  - ArcGIS_API
+  outputs:
+    change_summary_report: str
+    map_url: str
+  sla:
+    delivery_hours: 24
+  success_metrics:
+  - stakeholder_satisfaction >= 4.5/5
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+weekly_facility_profile_update:
+  description: >
+    Update facility dossiers with new imagery observations.
+  cadence: weekly
+  agent: imint_researcher
+  tools:
+  - Maltego
+  - ArcGIS_API
+  - Palantir_Gotham
+  outputs:
+    facility_dossiers: list
+  sla:
+    completion_rate_pct: 90
+  success_metrics:
+  - dossier_accuracy >= 0.85
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+weekly_model_eval:
+  description: >
+    Evaluate ML models for object detection, change detection, and anomaly detection.
+  expected_output: "A JSON object with evaluation metrics and threshold adjustments.\
+    \ Example: {\"precision\":0.92,\"recall\":0.86,\"drift\":0.05,\n          \"threshold_updates\"\
+    :{\"vehicle_detect\":0.72}}\n"
+  agent: imint_ml_specialist
+  output_file: output/weekly_model_eval.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+monthly_infrastructure_report:
+  description: >
+    Generate a monthly report of infrastructure changes across ports, bases, refineries, and energy sites with annotated imagery.
+  expected_output: "A JSON object with infrastructure highlights and report references.\
+    \ Example: {\"facilities\":[\"Refinery Delta\",\"Port Lima\"],\n          \"report_uri\"\
+    :\"s3://reports/imint_infra_aug2025.pdf\"}\n"
+  agent: imint_strategist
+  output_file: output/monthly_infrastructure.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+monthly_environmental_assessment:
+  description: >
+    Assess environmental impact (deforestation, mining, flooding) from imagery sources.
+  cadence: monthly
+  agent: imint_researcher
+  tools:
+  - PlanetLabs_API
+  - SkyWatch
+  - Orfeo_ToolBox
+  outputs:
+    environmental_report: str
+    impact_heatmap_url: str
+  sla:
+    delivery_days: 5
+  success_metrics:
+  - validation_rate >= 0.9
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+quarterly_risk_assessment:
+  description: >
+    Deliver quarterly risk assessments combining IMINT indicators with cross-pillar validation for executives.
+  expected_output: "A JSON object with risk scores and executive brief references.\
+    \ Example: {\"risk_zones\":[\"SouthChinaSea\"],\"risk_score\":0.84,\n        \
+    \  \"brief_uri\":\"s3://briefs/imint_q3_risk.pdf\"}\n"
+  agent: imint_strategist
+  output_file: output/quarterly_risk_assessment.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+quarterly_crisis_simulation:
+  description: >
+    Run crisis simulation exercises using historical imagery and synthetic scenarios.
+  cadence: quarterly
+  agent: imint_strategist
+  tools:
+  - Synthetic_Imagery_Simulator
+  - Palantir_Gotham
+  outputs:
+    after_action_report: str
+  sla:
+    exercise_completion: 100%
+  success_metrics:
+  - lead_time_improvement >= 0.2
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+quarterly_compliance_review:
+  description: >
+    Run quarterly compliance review of imagery storage, retention, and licensing agreements.
+  expected_output: >
+    A JSON object with compliance status and corrective actions. Example: {"compliance_status":"pass","issues_resolved":2}
+  agent: imint_strategist
+  output_file: output/quarterly_compliance.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+yearly_strategy_review:
+  description: >
+    Conduct annual IMINT strategy review, including vendor evaluations, maturity assessments, and roadmap planning.
+  expected_output: >
+    A JSON object with the updated IMINT strategy. Example: {"strategy_doc":"s3://strategy/imint2025.pdf","maturity_score":0.89}
+  agent: imint_strategist
+  output_file: output/yearly_strategy.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+rfi_change_analysis:
+  description: >
+    Perform on-demand change detection for a specified AOI over a defined timeframe using EO/SAR imagery. Identify infrastructure, environmental, or activity changes.
+  expected_output: "A JSON object detailing detected changes and annotated imagery\
+    \ links. Example: {\"AOI\":\"Base Alpha\",\"changes\":[{\"type\":\"new_building\"\
+    ,\"confidence\":0.92,\"date\":\"2025-09-10\"}],\n          \"map_uri\":\"s3://maps/base_alpha_change.png\"\
+    }\n"
+  agent: imint_strategist
+  output_file: output/rfi_change_analysis.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+rfi_media_authentication:
+  description: >
+    Verify authenticity of imagery or video flagged by analysts, media, or partners. Check metadata, geolocation, chronolocation, and deepfake traces.
+  expected_output: "A JSON object summarizing verification. Example: {\"media_id\"\
+    :\"vid001\",\"verified\":false,\"reason\":\"AI-synthetic\",\"confidence\":0.88,\n\
+    \          \"report_uri\":\"s3://reports/vid001_verification.pdf\"}\n"
+  agent: imint_strategist
+  output_file: output/rfi_media_authentication.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+rfi_facility_monitoring:
+  description: >
+    Generate an ad-hoc facility monitoring report (ports, refineries, bases) based on latest satellite collections.
+  expected_output: "A JSON object with facility activity indicators and annotated\
+    \ imagery. Example: {\"facility\":\"Refinery X\",\"activity_indicators\":[\"new\
+    \ storage tanks\",\"increased truck traffic\"],\n          \"snapshot_uri\":\"\
+    s3://imagery/refineryX_20250912.tif\"}\n"
+  agent: imint_strategist
+  output_file: output/rfi_facility_monitoring.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+rfi_cross_pillar_correlation:
+  description: >
+    Cross-check IMINT observations with SOCMINT, GEOINT, and HUMINT data for validation.
+  expected_output: "A JSON object summarizing correlations and discrepancies. Example:\
+    \ {\"imint_event\":\"new runway\",\"socmint_support\":true,\"geoint_support\"\
+    :true,\n          \"humint_support\":false,\"confidence\":0.91}\n"
+  agent: imint_strategist
+  output_file: output/rfi_cross_pillar_correlation.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+rfi_disaster_event_monitoring:
+  description: >
+    Initiate rapid IMINT monitoring for natural disasters or humanitarian crises (earthquake, flood, hurricane, wildfire).
+  expected_output: "A JSON object with affected AOIs, estimated impact, and annotated\
+    \ heatmaps. Example: {\"event\":\"HurricaneZeta\",\"damage_index\":0.81,\"affected_zones\"\
+    :[\"coastal_town_A\"],\n          \"heatmap_uri\":\"s3://maps/hurricaneZeta_damage.png\"\
+    }\n"
+  agent: imint_strategist
+  output_file: output/rfi_disaster_event.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+rfi_deepfake_detection:
+  description: >
+    Detect AI-synthetic or manipulated imagery and videos using forensic and ML tools.
+  expected_output: "A JSON object with probability scores, detected artifacts, and\
+    \ rationale. Example: {\"file\":\"input/video.mp4\",\"deepfake_probability\":0.77,\n\
+    \          \"artifacts\":[\"inconsistent shadows\",\"pixel noise\"]}\n"
+  agent: imint_strategist
+  output_file: output/rfi_deepfake_detection.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+daily_imagery_collection:
+  description: >
+    Collect daily imagery for priority AOIs (EO, SAR, IR) and generate anomaly alerts.
+  expected_output: "A JSON object with anomalies and snapshot references. Example:\
+    \ {\"AOI\":\"Port Delta\",\"anomalies\":[{\"type\":\"increased shipping\",\"confidence\"\
+    :0.89}],\n          \"snapshots\":[\"s3://imagery/port_delta_20250912.png\"]}\n"
+  agent: imint_strategist
+  output_file: output/daily_imagery_collection.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+daily_change_detection:
+  description: >
+    Run automated change detection on selected AOIs using EO/SAR imagery.
+  expected_output: >
+    A JSON object describing detected changes. Example: {"AOI":"Airbase Beta","changes":[{"type":"new aircraft","confidence":0.94,"timestamp":"2025-09-12"}]}
+  agent: imint_strategist
+  output_file: output/daily_change_detection.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+daily_media_verification_queue:
+  description: >
+    Process daily queue of UGC and media items requiring geolocation and chronolocation checks.
+  expected_output: >
+    A JSON object summarizing verification results. Example: {"ugc_items":50,"verified":42,"failed":8,"accuracy":0.91}
+  agent: imint_strategist
+  output_file: output/daily_media_verification.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+weekly_facility_change_summary:
+  description: >
+    Provide weekly summaries of facility-level changes across AOIs.
+  expected_output: "A JSON object with updated dossiers and imagery links. Example:\
+    \ {\"facilities_updated\":[\"Base Zulu\",\"Port Echo\"],\n          \"dossier_uri\"\
+    :\"s3://dossiers/week37_facilities.json\"}\n"
+  agent: imint_strategist
+  output_file: output/weekly_facility_change.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+weekly_trend_analysis:
+  description: >
+    Summarize weekly trends in IMINT data: construction, deforestation, activity increases.
+  expected_output: "A JSON object summarizing trends with annotated maps. Example:\
+    \ {\"trend\":\"increased deforestation\",\"region\":\"AmazonBasin\",\n       \
+    \   \"heatmap_uri\":\"s3://maps/amazon_week37.png\"}\n"
+  agent: imint_strategist
+  output_file: output/weekly_trend_analysis.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+monthly_environmental_report:
+  description: >
+    Monitor monthly environmental impacts (wildfires, flooding, desertification).
+  expected_output: "A JSON object with environmental indicators and heatmap links.\
+    \ Example: {\"event\":\"wildfire\",\"area_burned_km2\":45,\n          \"heatmap_uri\"\
+    :\"s3://maps/wildfire_aug2025.png\"}\n"
+  agent: imint_strategist
+  output_file: output/monthly_environmental.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+monthly_license_audit:
+  description: >
+    Conduct monthly imagery licensing and usage compliance audits.
+  expected_output: "A JSON object with licensing findings and compliance score. Example:\
+    \ {\"license_findings\":[{\"issue\":\"improper derivative use\",\"resolved\":true}],\n\
+    \          \"compliance_score\":0.97}\n"
+  agent: imint_strategist
+  output_file: output/monthly_license_audit.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+quarterly_crisis_exercise:
+  description: >
+    Conduct quarterly crisis exercises using historical imagery and synthetic datasets.
+  expected_output: >
+    A JSON object with after-action reports and improvement recommendations. Example: {"exercise":"disaster_drill_q3","after_action_uri":"s3://reports/imint_crisis_q3.pdf"}
+  agent: imint_strategist
+  output_file: output/quarterly_crisis_exercise.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3

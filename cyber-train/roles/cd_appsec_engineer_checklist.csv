@@ -1,0 +1,123 @@
+Phase,Step,Checklist Item,Status,Priority,Owner,Notes,OWASP Mapping,Compliance
+Planning & Design,Security Intake,Security intake form completed,Not Started,Critical,PAE,Include risk tier data classes owners target dates,All,GDPR HIPAA SOX PCI DSS SOC2
+Planning & Design,Security Intake,Data sensitivity classification completed,Not Started,Critical,PAE,Identify PII PHI financial data intellectual property,All,GDPR HIPAA SOX PCI DSS
+Planning & Design,Security Intake,Compliance requirements identified,Not Started,High,PAE,GDPR HIPAA SOX PCI DSS SOC 2,All,GDPR HIPAA SOX PCI DSS SOC2
+Planning & Design,Security Intake,Stakeholders and owners identified,Not Started,High,PAE,Development team product owner security team,All,All
+Planning & Design,Security Requirements,Security user stories created,Not Started,Critical,PAE,Include acceptance criteria and verification hooks,All,All
+Planning & Design,Security Requirements,OWASP Top 10 mapping completed,Not Started,Critical,PAE,Map to A01-A10 categories,All,All
+Planning & Design,Security Requirements,Secure coding standards defined,Not Started,High,PAE,Language-specific guidelines and best practices,All,All
+Planning & Design,Threat Modeling,Threat model created,Not Started,Critical,PAE,STRIDE/PASTA methodology attack trees,All,All
+Planning & Design,Threat Modeling,Trust boundaries identified,Not Started,High,PAE,Data flow diagrams system boundaries,All,All
+Planning & Design,Threat Modeling,Threat scenarios documented,Not Started,High,PAE,Attack vectors impact assessment,All,All
+Planning & Design,Threat Modeling,Mitigation strategies defined,Not Started,Critical,PAE,Controls countermeasures risk reduction,All,All
+Planning & Design,Design Review,Authentication mechanisms reviewed,Not Started,Critical,PAE,MFA SSO session management,A07,GDPR HIPAA SOX PCI DSS
+Planning & Design,Design Review,Authorization controls reviewed,Not Started,Critical,PAE,RBAC ABAC least privilege,A01,GDPR HIPAA SOX PCI DSS
+Planning & Design,Design Review,Cryptographic controls reviewed,Not Started,High,PAE,Encryption at rest/transit key management,A02,GDPR HIPAA SOX PCI DSS
+Planning & Design,Design Review,Data protection controls reviewed,Not Started,High,PAE,Data classification retention privacy,A04,GDPR HIPAA SOX PCI DSS
+Planning & Design,Component Approval,Third-party components approved,Not Started,High,PAE,OSS licenses CVEs supply chain,All,All
+Planning & Design,Component Approval,SBOM requirements defined,Not Started,High,PAE,Software bill of materials provenance,All,All
+Code & Pre-Commit,SAST,SAST rules configured,Not Started,Critical,PAE,OWASP rules custom rules false positives,All,All
+Code & Pre-Commit,SAST,IDE integration enabled,Not Started,High,PAE,Real-time feedback developer experience,All,All
+Code & Pre-Commit,SAST,PR annotations configured,Not Started,High,PAE,Automated security comments,All,All
+Code & Pre-Commit,SAST,Quality gates defined,Not Started,Critical,PAE,Pass/fail criteria severity thresholds,All,All
+Code & Pre-Commit,SBOM,SBOM generation automated,Not Started,High,PAE,SPDX/CycloneDX format,All,All
+Code & Pre-Commit,SBOM,Component inventory maintained,Not Started,High,PAE,Version tracking license compliance,All,All
+Code & Pre-Commit,SBOM,Supply chain policies enforced,Not Started,High,PAE,Approved components vulnerability scanning,All,All
+Code & Pre-Commit,Secrets,Secrets scanning enabled,Not Started,Critical,PAE,Git hooks pre-commit CI/CD,A02,GDPR HIPAA SOX PCI DSS
+Code & Pre-Commit,Secrets,Revocation process defined,Not Started,Critical,PAE,Incident response rotation procedures,A02,GDPR HIPAA SOX PCI DSS
+Code & Pre-Commit,Secrets,False positive handling,Not Started,Medium,PAE,Whitelist management pattern updates,A02,All
+Code & Pre-Commit,IaC,Terraform scanning enabled,Not Started,High,PAE,Cloud misconfigurations CIS benchmarks,A05,All
+Code & Pre-Commit,IaC,Kubernetes scanning enabled,Not Started,High,PAE,Pod security RBAC network policies,A01,All
+Code & Pre-Commit,IaC,Policy violations blocked,Not Started,High,PAE,Deployment gates remediation required,All,All
+Build & Integrate,SAST,Comprehensive SAST scan configured,Not Started,Critical,PAE,Full codebase analysis,All,All
+Build & Integrate,SAST,OWASP Top 10 compliance checked,Not Started,Critical,PAE,Category mapping severity tracking,All,All
+Build & Integrate,SAST,False positive rate monitored,Not Started,Medium,PAE,Quality metrics rule tuning,All,All
+Build & Integrate,SAST,Security gate status tracked,Not Started,High,PAE,Pass/fail metrics trend analysis,All,All
+Build & Integrate,SCA,Container scanning enabled,Not Started,Critical,PAE,Image vulnerabilities base image updates,A06,All
+Build & Integrate,SCA,CVE database updated,Not Started,High,PAE,Latest vulnerability feeds,A06,All
+Build & Integrate,SCA,Exploitability assessment,Not Started,High,PAE,CVSS scores attack vectors,A06,All
+Build & Integrate,SCA,Remediation tracking,Not Started,High,PAE,Fix versions patch status,A06,All
+Build & Integrate,Supply Chain,Artifact signing enabled,Not Started,High,PAE,Code signing integrity verification,All,All
+Build & Integrate,Supply Chain,Provenance tracking,Not Started,High,PAE,Build attestations tamper detection,All,All
+Build & Integrate,Supply Chain,Policy enforcement,Not Started,High,PAE,Approved sources trusted registries,All,All
+Test & Verify,DAST,DAST scanning configured,Not Started,Critical,PAE,OWASP ZAP Burp Suite,All,All
+Test & Verify,DAST,Authentication testing enabled,Not Started,Critical,PAE,Login flows session management,A07,GDPR HIPAA SOX PCI DSS
+Test & Verify,DAST,Authorization testing enabled,Not Started,Critical,PAE,Access control privilege escalation,A01,GDPR HIPAA SOX PCI DSS
+Test & Verify,DAST,Input validation testing,Not Started,High,PAE,SQL injection XSS injection attacks,A03,GDPR HIPAA SOX PCI DSS
+Test & Verify,DAST,API security testing,Not Started,High,PAE,REST/GraphQL endpoints rate limiting,A05,GDPR HIPAA SOX PCI DSS
+Test & Verify,IAST,IAST agent deployed,Not Started,High,PAE,Runtime correlation code coverage,All,All
+Test & Verify,IAST,Source-sink mapping,Not Started,High,PAE,Data flow analysis vulnerability paths,All,All
+Test & Verify,IAST,Exploitability assessment,Not Started,High,PAE,Attack feasibility impact analysis,All,All
+Test & Verify,Mobile,Mobile app scanning,Not Started,High,PAE,MobSF static/dynamic analysis,All,GDPR HIPAA SOX PCI DSS
+Test & Verify,Mobile,Data protection review,Not Started,High,PAE,Encryption secure storage,A02,GDPR HIPAA SOX PCI DSS
+Test & Verify,Mobile,API security review,Not Started,High,PAE,Backend integration authentication,A05,GDPR HIPAA SOX PCI DSS
+Test & Verify,Mobile,Store compliance,Not Started,Medium,PAE,App store policies privacy requirements,All,GDPR HIPAA SOX PCI DSS
+Test & Verify,K8s,Cluster scanning enabled,Not Started,High,PAE,Kubescape CIS benchmarks,All,All
+Test & Verify,K8s,RBAC configuration reviewed,Not Started,High,PAE,Role permissions service accounts,A01,GDPR HIPAA SOX PCI DSS
+Test & Verify,K8s,Network policies configured,Not Started,High,PAE,Pod communication ingress/egress,All,All
+Test & Verify,K8s,Pod security standards,Not Started,High,PAE,Security contexts privilege escalation,All,All
+Test & Verify,Pen Test,Penetration test scoped,Not Started,Critical,PAE,Test objectives boundaries timeline,All,All
+Test & Verify,Pen Test,Authentication bypass testing,Not Started,Critical,PAE,Login mechanisms session handling,A07,GDPR HIPAA SOX PCI DSS
+Test & Verify,Pen Test,Authorization bypass testing,Not Started,Critical,PAE,Access control privilege escalation,A01,GDPR HIPAA SOX PCI DSS
+Test & Verify,Pen Test,Business logic testing,Not Started,High,PAE,Workflow manipulation data integrity,A04,GDPR HIPAA SOX PCI DSS
+Test & Verify,Pen Test,Social engineering testing,Not Started,Medium,PAE,Phishing pretexting awareness,All,All
+Release & Operate,Security Gate,All security gates passed,Not Started,Critical,PAE,SAST SCA DAST secrets IaC,All,All
+Release & Operate,Security Gate,SBOM attached to release,Not Started,Critical,PAE,Software bill of materials,All,All
+Release & Operate,Security Gate,No Critical/High vulnerabilities,Not Started,Critical,PAE,Open findings exceptions,All,All
+Release & Operate,Security Gate,Security Go/No-Go signed,Not Started,Critical,PAE,PAE approval documentation,All,All
+Release & Operate,Security Gate,WAF rules active,Not Started,High,PAE,Web application firewall protection,All,All
+Release & Operate,Security Gate,SIEM rules active,Not Started,High,PAE,Security monitoring alerting,All,All
+Release & Operate,Monitoring,Runtime monitoring configured,Not Started,Critical,PAE,Application performance security events,All,All
+Release & Operate,Monitoring,Security alerts configured,Not Started,Critical,PAE,Attack detection anomaly detection,All,All
+Release & Operate,Monitoring,Incident response procedures,Not Started,Critical,PAE,Response playbooks escalation,All,All
+Release & Operate,Monitoring,Log aggregation enabled,Not Started,High,PAE,Centralized logging retention,All,All
+Release & Operate,CSPM,Cloud posture scanning,Not Started,High,PAE,Configuration drift compliance,All,All
+Release & Operate,CSPM,Policy violations tracked,Not Started,High,PAE,Remediation status trends,All,All
+Release & Operate,CSPM,Compliance reporting,Not Started,Medium,PAE,Regulatory requirements audits,All,GDPR HIPAA SOX PCI DSS SOC2
+Release & Operate,Vulnerability,Vulnerability register maintained,Not Started,Critical,PAE,Open findings owners SLAs,All,All
+Release & Operate,Vulnerability,Remediation tracking,Not Started,Critical,PAE,Fix status verification closure,All,All
+Release & Operate,Vulnerability,SLA monitoring,Not Started,High,PAE,MTTR tracking aging analysis,All,All
+Release & Operate,Vulnerability,Verification process,Not Started,High,PAE,Re-scanning validation evidence,All,All
+Training & Awareness,Training,Security awareness training,Not Started,High,PAE,Mandatory for all employees,All,All
+Training & Awareness,Training,Developer security training,Not Started,High,PAE,Secure coding OWASP Top 10,All,All
+Training & Awareness,Training,Role-specific training,Not Started,Medium,PAE,DevOps management specialized,All,All
+Training & Awareness,Training,Incident-based training,Not Started,Medium,PAE,Lessons learned targeted topics,All,All
+Training & Awareness,Training,Training completion tracked,Not Started,High,PAE,Compliance metrics reporting,All,All
+Training & Awareness,Training,Training effectiveness measured,Not Started,Medium,PAE,Assessment feedback improvement,All,All
+Compliance & Audit,Compliance,GDPR compliance verified,Not Started,Critical,PAE,Data protection privacy rights,All,GDPR
+Compliance & Audit,Compliance,HIPAA compliance verified,Not Started,Critical,PAE,Healthcare data PHI protection,All,HIPAA
+Compliance & Audit,Compliance,SOX compliance verified,Not Started,High,PAE,Financial controls audit trails,All,SOX
+Compliance & Audit,Compliance,PCI DSS compliance verified,Not Started,Critical,PAE,Payment card data security standards,All,PCI DSS
+Compliance & Audit,Compliance,SOC 2 compliance verified,Not Started,High,PAE,Service organization controls,All,SOC2
+Compliance & Audit,Audit,Audit documentation prepared,Not Started,High,PAE,Evidence collection policies,All,All
+Compliance & Audit,Audit,Gap analysis completed,Not Started,High,PAE,Compliance gaps remediation plans,All,All
+Compliance & Audit,Audit,Continuous monitoring,Not Started,High,PAE,Ongoing compliance validation,All,All
+Compliance & Audit,Audit,Audit findings addressed,Not Started,Critical,PAE,Remediation verification closure,All,All
+Incident Response,Detection,Security monitoring active,Not Started,Critical,PAE,Real-time detection alerting,All,All
+Incident Response,Detection,Threat intelligence integrated,Not Started,High,PAE,IOC feeds threat actors,All,All
+Incident Response,Detection,Anomaly detection configured,Not Started,High,PAE,Behavioral analysis baselines,All,All
+Incident Response,Response,Incident response plan,Not Started,Critical,PAE,Procedures roles escalation,All,All
+Incident Response,Response,Containment procedures,Not Started,Critical,PAE,Isolation quarantine mitigation,All,All
+Incident Response,Response,Investigation procedures,Not Started,Critical,PAE,Forensics evidence analysis,All,All
+Incident Response,Response,Recovery procedures,Not Started,Critical,PAE,Service restoration monitoring,All,All
+Incident Response,Response,Communication procedures,Not Started,High,PAE,Stakeholders updates reporting,All,All
+Incident Response,Response,Lessons learned process,Not Started,High,PAE,Post-incident review improvements,All,All
+Metrics & KPIs,Shift-Left,SAST gate coverage,Not Started,Critical,PAE,≥90% repositories enabled,All,All
+Metrics & KPIs,Shift-Left,SCA gate coverage,Not Started,Critical,PAE,≥90% repositories enabled,All,All
+Metrics & KPIs,Shift-Left,Secrets gate coverage,Not Started,Critical,PAE,≥90% repositories enabled,All,All
+Metrics & KPIs,Shift-Left,IaC gate coverage,Not Started,Critical,PAE,≥90% repositories enabled,All,All
+Metrics & KPIs,Shift-Left,Zero new High/Critical SAST,Not Started,Critical,PAE,≥85% of PRs,All,All
+Metrics & KPIs,Shift-Left,False positive rate,Not Started,Medium,PAE,≤5% monthly,All,All
+Metrics & KPIs,Vulnerability,MTTR Critical,Not Started,Critical,PAE,≤7 days,All,All
+Metrics & KPIs,Vulnerability,MTTR High,Not Started,Critical,PAE,≤14 days,All,All
+Metrics & KPIs,Vulnerability,Past-due Critical/High,Not Started,Critical,PAE,≤5%,All,All
+Metrics & KPIs,Vulnerability,CVE exposure window,Not Started,High,PAE,Trending downward QoQ,All,All
+Metrics & KPIs,Supply Chain,SBOM coverage,Not Started,Critical,PAE,100% releases,All,All
+Metrics & KPIs,Supply Chain,Secrets incidents,Not Started,Critical,PAE,0 in production,All,All
+Metrics & KPIs,Supply Chain,Secret revocation MTTR,Not Started,Critical,PAE,<2 hours,All,All
+Metrics & KPIs,Design,Threat model coverage High-risk,Not Started,Critical,PAE,100% applications,All,All
+Metrics & KPIs,Design,Threat model coverage Medium-risk,Not Started,High,PAE,≥70% applications,All,All
+Metrics & KPIs,Runtime,WAF/RASP coverage,Not Started,Critical,PAE,≥90% internet-exposed apps,All,All
+Metrics & KPIs,Runtime,CSPM drift MTTR,Not Started,High,PAE,≤5 days,All,All
+Metrics & KPIs,Program,Training completion,Not Started,High,PAE,≥95% by due dates,All,All
+Metrics & KPIs,Program,Bug bounty ratio,Not Started,Medium,PAE,≥1:1 valid:invalid,All,All

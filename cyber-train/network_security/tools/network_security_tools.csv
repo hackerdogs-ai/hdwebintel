@@ -1,0 +1,41 @@
+Implementation Priority,tool,pillar,type,agent,task,priority,source,url
+,Snort,network_security,Open Source,network_engineer,ids_ips,High,comprehensive_csv,https://github.com/snort3/snort3
+,Suricata,network_security,Open Source,network_engineer,ids_ips,High,comprehensive_csv,https://github.com/OISF/suricata
+,Zeek (Bro),network_security,Open Source,network_engineer,network_analysis,High,comprehensive_csv,https://github.com/zeek/zeek
+,pfSense,network_security,Open Source,network_engineer,firewall_management,Medium,comprehensive_csv,https://github.com/pfsense/pfsense
+,OPNsense,network_security,Open Source,network_engineer,firewall_management,Medium,comprehensive_csv,https://github.com/opnsense/core
+,Wireshark,network_security,Open Source,network_engineer,packet_analysis,High,comprehensive_csv,https://github.com/wireshark/wireshark
+,ntopng,network_security,Open Source,network_engineer,traffic_monitoring,Medium,comprehensive_csv,https://github.com/ntop/ntopng
+,Elastic Stack (ELK),network_security,Open Source,soc_analyst,network_log_analysis,Medium,comprehensive_csv,https://github.com/elastic/elasticsearch
+,Security Onion,network_security,Open Source,soc_analyst,network_security_monitoring,High,comprehensive_csv,https://github.com/Security-Onion-Solutions/securityonion
+,Nmap,network_security,Open Source,pen_tester,network_scanning,High,comprehensive_csv,https://github.com/nmap/nmap
+,Palo Alto NGFW,network_security,Commercial,network_engineer,firewall_management,High,comprehensive_csv,https://docs.paloaltonetworks.com
+,Cisco Firepower,network_security,Commercial,network_engineer,firewall_management,High,comprehensive_csv,https://developer.cisco.com/docs/firepower
+,Fortinet FortiGate,network_security,Commercial,network_engineer,firewall_management,High,comprehensive_csv,https://docs.fortinet.com
+,Check Point Quantum Security Gateway,network_security,Commercial,network_engineer,firewall_management,High,comprehensive_csv,https://sc1.checkpoint.com/documents
+,Zscaler ZIA/ZPA,network_security,Commercial,network_engineer,zero_trust_network_access,High,comprehensive_csv,https://help.zscaler.com
+,CrowdStrike Falcon NDR,network_security,Commercial,soc_analyst,network_detection_response,High,comprehensive_csv,https://www.crowdstrike.com/products/network-detection-response
+,Darktrace,network_security,Commercial,soc_analyst,network_anomaly_detection,High,comprehensive_csv,https://darktrace.com
+,ExtraHop Reveal(x),network_security,Commercial,soc_analyst,network_detection_response,High,comprehensive_csv,https://docs.extrahop.com
+,Arista Awake Security,network_security,Commercial,soc_analyst,network_detection_response,High,comprehensive_csv,https://www.arista.com/en/solutions/network-detection-response
+,Akamai Kona Site Defender,network_security,Commercial,network_engineer,ddos_protection,High,comprehensive_csv,https://docs.akamai.com
+,ModSecurity,network_security,Open Source,network_engineer,waf_protection,High,comprehensive_csv,https://github.com/SpiderLabs/ModSecurity
+,Nginx,network_security,Open Source,network_engineer,reverse_proxy,High,comprehensive_csv,https://github.com/nginx/nginx
+,Apache HTTP Server,network_security,Open Source,network_engineer,web_server,Medium,comprehensive_csv,https://github.com/apache/httpd
+,Traefik,network_security,Open Source,network_engineer,load_balancer,Medium,comprehensive_csv,https://github.com/traefik/traefik
+,Envoy Proxy,network_security,Open Source,network_engineer,service_mesh,High,comprehensive_csv,https://github.com/envoyproxy/envoy
+,Istio,network_security,Open Source,network_engineer,service_mesh,High,comprehensive_csv,https://github.com/istio/istio
+,Linkerd,network_security,Open Source,network_engineer,service_mesh,Medium,comprehensive_csv,https://github.com/linkerd/linkerd2
+,Consul,network_security,Open Source,network_engineer,service_discovery,Medium,comprehensive_csv,https://github.com/hashicorp/consul
+,Etcd,network_security,Open Source,network_engineer,key_value_store,Medium,comprehensive_csv,https://github.com/etcd-io/etcd
+,CoreDNS,network_security,Open Source,network_engineer,dns_server,Medium,comprehensive_csv,https://github.com/coredns/coredns
+,PowerDNS,network_security,Open Source,network_engineer,dns_server,Medium,comprehensive_csv,https://github.com/PowerDNS/pdns
+,Bind9,network_security,Open Source,network_engineer,dns_server,Low,comprehensive_csv,https://gitlab.isc.org/isc-projects/bind9
+,pfBlockerNG,network_security,Open Source,network_engineer,firewall_management,Medium,comprehensive_csv,https://github.com/pfsense/FreeBSD-ports
+,Squid Proxy,network_security,Open Source,network_engineer,proxy_management,Low,comprehensive_csv,https://github.com/squid-cache/squid
+,HAProxy,network_security,Open Source,network_engineer,load_balancing,Medium,comprehensive_csv,https://github.com/haproxy/haproxy
+,VyOS,network_security,Open Source,network_engineer,router_management,Low,comprehensive_csv,https://github.com/vyos/vyos-1x
+,Cisco ASA,network_security,Commercial,network_engineer,firewall_management,High,comprehensive_csv,https://www.cisco.com/c/en/us/products/security/adaptive-security-appliance-asa-software
+,Juniper SRX,network_security,Commercial,network_engineer,firewall_management,High,comprehensive_csv,https://www.juniper.net/documentation/en_US/junos
+,SonicWall,network_security,Commercial,network_engineer,firewall_management,Medium,comprehensive_csv,https://www.sonicwall.com/support
+,WatchGuard,network_security,Commercial,network_engineer,firewall_management,Medium,comprehensive_csv,https://www.watchguard.com/wgrd-resource-center

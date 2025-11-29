@@ -1,0 +1,269 @@
+ecoint_strategist:
+  role: Chief Ecological Intelligence Strategist
+  goal: >
+    Set EcoINT strategy and KPIs; translate climate/biodiversity/pollution intelligence into executive decisions aligned to SDGs/TCFD/TNFD/CSRD.
+  backstory: >
+    15+ years advising governments and large enterprises on sustainability risk, ESG assurance, and climate resilience; expert at fusing science, policy, and financial impact.
+  llm: openai/gpt-4o
+  tools:
+  - Strategic_Reporting
+  - Risk_Scoring_Engine
+  - CrossPillar_Validator
+  verbose: true
+  memory: true
+  max_execution_time: 600
+  max_iterations: 5
+  allow_delegation: false
+  max_rpm: 30
+  planning: false
+  cache: true
+  max_retry_limit: 2
+  respect_context_window: true
+  multimodal: false
+  inject_date: false
+  date_format: '%Y-%m-%d'
+  reasoning: false
+  use_system_prompt: true
+ecoint_analyst:
+  role: Operational EcoINT Analyst
+  goal: >
+    Monitor ecological feeds (deforestation, pollution, biodiversity) and produce verified, geospatially anchored alerts and briefs.
+  backstory: >
+    Multidisciplinary analyst with geospatial OSINT, satellite data familiarity, and NGO datasets.
+  llm: openai/gpt-4o
+  tools:
+  - GlobalForestWatch_API
+  - OpenAQ_API
+  - Copernicus_API
+  - NOAA_Weather_API
+  - IUCN_API
+  verbose: true
+  memory: true
+  max_execution_time: 600
+  max_iterations: 5
+  allow_delegation: false
+  max_rpm: 30
+  planning: false
+  cache: true
+  max_retry_limit: 2
+  respect_context_window: true
+  multimodal: false
+  inject_date: false
+  date_format: '%Y-%m-%d'
+  reasoning: false
+  use_system_prompt: true
+remote_sensing_imagery_analyst:
+  role: Remote Sensing & Imagery Analyst (EcoINT)
+  goal: >
+    Task, process, and interpret satellite imagery (optical/radar/thermal) to confirm environmental changes and quantify impacts.
+  backstory: >
+    GEOINT specialist in Sentinel/Landsat/Planet; experienced with change detection and plume analysis.
+  llm: openai/gpt-4o
+  tools:
+  - SentinelHub
+  - Google_Earth_Engine
+  - QGIS
+  - FIRMS_Wildfire
+  - HyMap_Plume_Tools
+  verbose: true
+  memory: true
+  max_execution_time: 600
+  max_iterations: 5
+  allow_delegation: false
+  max_rpm: 30
+  planning: false
+  cache: true
+  max_retry_limit: 2
+  respect_context_window: true
+  multimodal: false
+  inject_date: false
+  date_format: '%Y-%m-%d'
+  reasoning: false
+  use_system_prompt: true
+pollution_forensics_analyst:
+  role: Pollution Forensics Analyst
+  goal: >
+    Attribute air/water/soil pollution events using sensor networks and satellite plumes, identify likely sources, and recommend mitigations.
+  backstory: >
+    Atmospheric/oceanographic analyst; plume transport modeling and facility attribution.
+  llm: openai/gpt-4o
+  tools:
+  - OpenAQ_API
+  - Copernicus_S5P_TROPOMI
+  - EPA_ECHO
+  - Plume_Dispersion_Model
+  verbose: true
+  memory: true
+  max_execution_time: 600
+  max_iterations: 5
+  allow_delegation: false
+  max_rpm: 30
+  planning: false
+  cache: true
+  max_retry_limit: 2
+  respect_context_window: true
+  multimodal: false
+  inject_date: false
+  date_format: '%Y-%m-%d'
+  reasoning: false
+  use_system_prompt: true
+fisheries_marine_analyst:
+  role: Fisheries & Marine Intelligence Analyst
+  goal: >
+    Detect illegal, unreported, and unregulated (IUU) fishing and marine environmental crimes.
+  backstory: >
+    Maritime OSINT practitioner using AIS/VIIRS and NGO sources for IUU detection and case support.
+  llm: openai/gpt-4o
+  tools:
+  - GlobalFishingWatch
+  - MarineTraffic_API
+  - VIIRS_Nightlights
+  - NOAA_Ocean
+  verbose: true
+  memory: true
+  max_execution_time: 600
+  max_iterations: 5
+  allow_delegation: false
+  max_rpm: 30
+  planning: false
+  cache: true
+  max_retry_limit: 2
+  respect_context_window: true
+  multimodal: false
+  inject_date: false
+  date_format: '%Y-%m-%d'
+  reasoning: false
+  use_system_prompt: true
+carbon_accounting_auditor:
+  role: Carbon Accounting & Offsets Auditor
+  goal: >
+    Verify GHG inventories (Scopes 1–3) and assess carbon-credit/offset integrity against GHG Protocol, ICVCM, and CSRD.
+  backstory: >
+    ESG assurance professional with lifecycle analysis (LCA) and registry audit experience.
+  llm: openai/gpt-4o
+  tools:
+  - GHG_Factor_DB
+  - Carbon_Registry_API
+  - SEC_EDGAR
+  - ESG_Disclosure_DB
+  verbose: true
+  memory: true
+  max_execution_time: 600
+  max_iterations: 5
+  allow_delegation: false
+  max_rpm: 30
+  planning: false
+  cache: true
+  max_retry_limit: 2
+  respect_context_window: true
+  multimodal: false
+  inject_date: false
+  date_format: '%Y-%m-%d'
+  reasoning: false
+  use_system_prompt: true
+eco_data_engineer:
+  role: EcoINT Data Engineer
+  goal: >
+    Build reliable pipelines and schemas; ensure data provenance, licensing, lineage, and SLAs.
+  backstory: >
+    Geospatial ETL and API integration engineer with PostGIS/Elastic experience.
+  llm: openai/gpt-4o
+  tools:
+  - ETL_Manager
+  - Deduplicator
+  - Metadata_Validator
+  - API_RateLimiter
+  - Retention_Controller
+  verbose: true
+  memory: true
+  max_execution_time: 600
+  max_iterations: 5
+  allow_delegation: false
+  max_rpm: 30
+  planning: false
+  cache: true
+  max_retry_limit: 2
+  respect_context_window: true
+  multimodal: false
+  inject_date: false
+  date_format: '%Y-%m-%d'
+  reasoning: false
+  use_system_prompt: true
+eco_compliance_officer:
+  role: ESG & Environmental Compliance Officer
+  goal: >
+    Ensure EcoINT operations comply with licenses, privacy laws, ToS, retention, and audit standards.
+  backstory: >
+    Counsel on EU Taxonomy/CSRD/SEC climate disclosure, DPIA author, evidence governance lead.
+  llm: openai/gpt-4o
+  tools:
+  - DPIA_Checklist
+  - Audit_Log_Manager
+  - Policy_Registry
+  verbose: true
+  memory: true
+  max_execution_time: 600
+  max_iterations: 5
+  allow_delegation: false
+  max_rpm: 30
+  planning: false
+  cache: true
+  max_retry_limit: 2
+  respect_context_window: true
+  multimodal: false
+  inject_date: false
+  date_format: '%Y-%m-%d'
+  reasoning: false
+  use_system_prompt: true
+biodiversity_researcher:
+  role: Biodiversity Research Specialist
+  goal: Research and monitor biodiversity patterns and environmental impacts.
+  backstory: You specialize in biodiversity research, environmental monitoring, and
+    ecological impact assessment.
+  llm: openai/gpt-4o
+  tools:
+  - Biodiversity_Monitor
+  - Environmental_Sensor
+  - Ecological_Analyzer
+  - Species_Tracker
+  verbose: true
+  memory: true
+  max_execution_time: 600
+  max_iterations: 5
+  allow_delegation: false
+  max_rpm: 20
+  planning: false
+  cache: true
+  max_retry_limit: 2
+  respect_context_window: true
+  multimodal: false
+  inject_date: false
+  date_format: '%Y-%m-%d'
+  reasoning: false
+  use_system_prompt: true
+legint_strategist:
+  role: Legal Intelligence Strategist for Economic Intelligence
+  goal: Provide strategic legal intelligence for economic investigations and compliance.
+  backstory: You specialize in legal intelligence for economic investigations, privacy
+    compliance, and regulatory adherence.
+  llm: openai/gpt-4o
+  tools:
+  - Legal_Research_Tool
+  - Privacy_Compliance_Checker
+  - Economic_Legal_Analyzer
+  - Regulatory_Monitor
+  verbose: true
+  memory: true
+  max_execution_time: 600
+  max_iterations: 5
+  allow_delegation: true
+  max_rpm: 30
+  planning: true
+  cache: true
+  max_retry_limit: 2
+  respect_context_window: true
+  multimodal: false
+  inject_date: false
+  date_format: '%Y-%m-%d'
+  reasoning: false
+  use_system_prompt: true

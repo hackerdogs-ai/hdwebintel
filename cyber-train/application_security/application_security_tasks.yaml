@@ -1,0 +1,289 @@
+appsec_policy_definition_task:
+  description: >
+    Define AppSec program policy: secure SDLC, toolchain coverage, remediation SLAs,
+    bug bounty scope, SBOM requirements, and compliance mapping.
+  expected_output: >
+    {"policy":"AppSec","secure_sdlc":"enabled","sla_days":{"critical":7,"high":14,"medium":30,"low":90},
+     "bug_bounty":"in_scope","sbom":"mandatory"}
+  agent: appsec_strategist
+  output_file: output/appsec_policy.json
+
+threat_modeling_task:
+  description: >
+    Run STRIDE/LINDDUN threat models with Threat Modeling Tool.
+    Build attack trees, map to MITRE ATT&CK, document mitigations.
+  expected_output: >
+    {"app":"billing-service","threats":["spoofing","tampering"],"mitigations":["jwt","input validation"]}
+  agent: threat_modeler
+  context: [appsec_policy_definition_task]
+  output_file: output/threat_model.json
+
+secure_code_review_task:
+  description: >
+    Run SAST Tool + IDE Plugin for developer feedback.
+    Provide contextual guidance and labs for fixes.
+  expected_output: >
+    {"repos_scanned":90,"critical_vulns":14,"high_vulns":36,"remediation_rate_pct":83}
+  agent: secure_code_mentor
+  output_file: output/secure_code.json
+
+dependency_scanning_task:
+  description: >
+    Run SCA/Dependency Scanner and SBOM Generator.
+    Detect vulnerable libraries, supply-chain risks.
+  expected_output: >
+    {"repos":90,"dependencies":4800,"critical_vulns":22,"supply_chain_alerts":5}
+  agent: ci_cd_security_engineer
+  output_file: output/dependency_scan.json
+
+oss_license_audit_task:
+  description: >
+    Run OSS License Scanner to detect legal/licensing risks in dependencies.
+    Highlight GPL/AGPL and incompatible licenses.
+  expected_output: >
+    {"repos":90,"licenses_violated":["GPL-3.0","AGPL-3.0"],"apps_affected":["crm","erp"]}
+  agent: oss_risk_analyst
+  context: [dependency_scanning_task]
+  output_file: output/oss_license.json
+
+sbom_exchange_task:
+  description: >
+    Exchange SBOMs with vendors/customers via SBOM Exchange Tool.
+    Validate accuracy, completeness, and version control.
+  expected_output: >
+    {"sboms_shared":12,"vendors_received":7,"validation_issues":2}
+  agent: oss_risk_analyst
+  context: [dependency_scanning_task]
+  output_file: output/sbom_exchange.json
+
+secrets_detection_task:
+  description: >
+    Scan repos/pipelines with Secrets Detection Tool.
+    Auto-revoke compromised keys.
+  expected_output: >
+    {"repos_scanned":90,"secrets_found":48,"revoked":48,"false_positives":4}
+  agent: ci_cd_security_engineer
+  output_file: output/secrets.json
+
+iac_scanning_task:
+  description: >
+    Scan Terraform/K8s/CloudFormation files for misconfigs using IaC Scanner.
+  expected_output: >
+    {"iac_files":260,"critical_issues":9,"high_issues":27,"remediated_pct":78}
+  agent: ci_cd_security_engineer
+  output_file: output/iac_scan.json
+
+container_scanning_task:
+  description: >
+    Scan container images for vulns/misconfigs with Container Scanner.
+  expected_output: >
+    {"images_scanned":210,"critical_vulns":12,"patched":9}
+  agent: ci_cd_security_engineer
+  output_file: output/container_scan.json
+
+ci_cd_pipeline_security_task:
+  description: >
+    Enforce security gates in CI/CD pipelines:
+    block builds with critical vulns, secrets, or misconfigs.
+  expected_output: >
+    {"pipelines_protected":70,"builds_blocked":11,"exceptions":3}
+  agent: ci_cd_security_engineer
+  context: [dependency_scanning_task, secrets_detection_task, iac_scanning_task, container_scanning_task]
+  output_file: output/ci_cd_security.json
+
+runtime_waf_task:
+  description: >
+    Deploy and tune WAF rules to block OWASP Top 10 attacks.
+  expected_output: >
+    {"rules_enabled":50,"attacks_blocked":2500,"false_positive_rate_pct":1.3}
+  agent: runtime_appsec_engineer
+  output_file: output/runtime_waf.json
+
+runtime_rasp_task:
+  description: >
+    Operate RASP with anomaly detection for live apps.
+  expected_output: >
+    {"apps_monitored":20,"attacks_detected":60,"blocked":56,"missed":4}
+  agent: runtime_appsec_engineer
+  output_file: output/runtime_rasp.json
+
+api_security_task:
+  description: >
+    Secure APIs with API Gateway. Enforce auth, schema validation, and anomaly detection.
+  expected_output: >
+    {"apis_secured":135,"violations_detected":16,"blocked":14}
+  agent: runtime_appsec_engineer
+  output_file: output/api_security.json
+
+api_discovery_task:
+  description: >
+    Use API Discovery Tool to map shadow APIs and enforce security controls.
+  expected_output: >
+    {"apis_discovered":18,"shadow_apis_secured":15}
+  agent: runtime_appsec_engineer
+  output_file: output/api_discovery.json
+
+fuzz_testing_task:
+  description: >
+    Run fuzz tests (API, protocol, binary fuzzing) using Fuzzing Tool.
+  expected_output: >
+    {"apps_tested":25,"crashes":8,"unique_bugs":4,"patched":3}
+  agent: appsec_chaos_engineer
+  output_file: output/fuzz.json
+
+appsec_chaos_task:
+  description: >
+    Run chaos experiments (kill dependencies, inject attacks under load)
+    with Chaos Engineering Tool.
+  expected_output: >
+    {"experiments":12,"success":10,"failures":["db timeout"],"actions":["tune retries"]}
+  agent: appsec_chaos_engineer
+  output_file: output/appsec_chaos.json
+
+ml_appsec_task:
+  description: >
+    Test ML/AI components with adversarial input and prompt injection scenarios.
+  expected_output: >
+    {"models_tested":4,"vulns_found":3,"mitigated":2}
+  agent: appsec_chaos_engineer
+  output_file: output/ml_appsec.json
+
+bug_bounty_integration_task:
+  description: >
+    Ingest bug bounty reports from Bug Bounty Platform.
+    Triaging findings into remediation pipelines.
+  expected_output: >
+    {"reports_ingested":42,"valid":28,"duplicates":9,"patched":20}
+  agent: bug_bounty_manager
+  output_file: output/bug_bounty.json
+
+threat_intel_appsec_task:
+  description: >
+    Map threat intel feeds (CVE, KEV, exploit kits) to apps via TI integration.
+  expected_output: >
+    {"feeds_ingested":5,"cves_mapped":32,"apps_at_risk":["erp","payments"]}
+  agent: appsec_strategist
+  output_file: output/ti_appsec.json
+
+ide_security_feedback_task:
+  description: >
+    Provide real-time feedback in IDEs via IDE Security Plugin.
+  expected_output: >
+    {"devs_enabled":120,"findings_in_ide":340,"accepted_fixes":280}
+  agent: secure_code_mentor
+  output_file: output/ide_feedback.json
+
+remediation_trend_task:
+  description: >
+    Track MTTR (mean time to remediate) for vulnerabilities by severity over time.
+  expected_output: >
+    {"critical_mttr_days":6,"high_mttr_days":12,"trend":"improving"}
+  agent: appsec_auditor
+  context: [secure_code_review_task, dependency_scanning_task, bug_bounty_integration_task]
+  output_file: output/remediation_trends.json
+
+appsec_audit_task:
+  description: >
+    Audit AppSec program: secure SDLC adoption, SLA adherence,
+    fuzz/chaos coverage, bug bounty closure, SBOM accuracy.
+  expected_output: >
+    {"audit_score":96,"sla_compliance_pct":89,"coverage_pct":95}
+  agent: appsec_auditor
+  context: [remediation_trend_task, fuzz_testing_task, bug_bounty_integration_task, sbom_exchange_task]
+  output_file: output/appsec_audit.json
+
+appsec_metrics_reporting_task:
+  description: >
+    Generate exec KPIs with Reporting Dashboard Tool.
+    Metrics: vuln backlog, MTTR trends, SBOM compliance, runtime attacks blocked,
+    bug bounty closure rates, audit scores.
+  expected_output: >
+    {"critical_vulns":14,"mttr_critical_days":6,"runtime_attacks_blocked":2550,
+     "sbom_compliance_pct":94,"bug_bounty_closure_pct":71,"audit_score":96}
+  agent: appsec_auditor
+  context: [appsec_audit_task, remediation_trend_task, api_discovery_task]
+  output_file: output/appsec_metrics.json
+appsec_code_review_task:
+  description: >
+    Auto-added from mapping for appsec_engineer in application_security.
+  expected_output: >
+    {"status":"ok"}
+  agent: appsec_engineer
+  output_file: output/appsec_code_review_task.json
+appsec_pipeline_scan_task:
+  description: >
+    Auto-added from mapping for appsec_engineer in application_security.
+  expected_output: >
+    {"status":"ok"}
+  agent: appsec_engineer
+  output_file: output/appsec_pipeline_scan_task.json
+appsec_program_kpis_task:
+  description: >
+    Auto-added from mapping for appsec_lead in application_security.
+  expected_output: >
+    {"status":"ok"}
+  agent: appsec_lead
+  output_file: output/appsec_program_kpis_task.json
+appsec_threat_modeling_review_task:
+  description: >
+    Auto-added from mapping for appsec_engineer in application_security.
+  expected_output: >
+    {"status":"ok"}
+  agent: appsec_engineer
+  output_file: output/appsec_threat_modeling_review_task.json
+appsec_vulnerability_assessment_task:
+  description: >
+    Auto-added from mapping for appsec_engineer in application_security.
+  expected_output: >
+    {"status":"ok"}
+  agent: appsec_engineer
+  output_file: output/appsec_vulnerability_assessment_task.json
+dev_secret_scan_task:
+  description: >
+    Auto-added from mapping for software_developer in application_security.
+  expected_output: >
+    {"status":"ok"}
+  agent: software_developer
+  output_file: output/dev_secret_scan_task.json
+dev_secure_pr_task:
+  description: >
+    Auto-added from mapping for software_developer in application_security.
+  expected_output: >
+    {"status":"ok"}
+  agent: software_developer
+  output_file: output/dev_secure_pr_task.json
+devsecops_policy_gate_task:
+  description: >
+    Auto-added from mapping for devsecops_engineer in application_security.
+  expected_output: >
+    {"status":"ok"}
+  agent: devsecops_engineer
+  output_file: output/devsecops_policy_gate_task.json
+pen_test_purple_team_task:
+  description: >
+    Auto-added from mapping for pen_tester in application_security.
+  expected_output: >
+    {"status":"ok"}
+  agent: pen_tester
+  output_file: output/pen_test_purple_team_task.json
+pen_test_web_app_task:
+  description: >
+    Auto-added from mapping for pen_tester in application_security.
+  expected_output: >
+    {"status":"ok"}
+  agent: pen_tester
+  output_file: output/pen_test_web_app_task.json
+threat_auto_discovery_task:
+  description: >
+    Auto-added from mapping for threat_modeler in application_security.
+  expected_output: >
+    {"status":"ok"}
+  agent: threat_modeler
+  output_file: output/threat_auto_discovery_task.json
+threat_modeling_drift_task:
+  description: >
+    Auto-added from mapping for threat_modeler in application_security.
+  expected_output: >
+    {"status":"ok"}
+  agent: threat_modeler
+  output_file: output/threat_modeling_drift_task.json

@@ -1,0 +1,328 @@
+rfi_dns_investigation:
+  description: >
+    Ad-hoc investigation of suspicious domains for hijacking, sinkholes, and malicious infrastructure.
+  expected_output: "{\"domain\":\"malicious-example.com\",\"ips\":[\"8.8.8.8\"],\"\
+    asn\":\"AS12345\",\n \"risk_score\":0.9,\"report_uri\":\"s3://dnint/reports/domain123.pdf\"\
+    ,\n \"legal_basis\":\"public DNS data\",\"privacy_minimization\":\"aggregate only\"\
+    ,\n \"chain_of_custody\":\"s3://dnint/coc/domain123.zip\"}\n"
+  agent: dnint_analyst
+  output_file: output/rfi_dns_investigation.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+rfi_bgp_hijack_analysis:
+  description: >
+    Analyze suspected BGP hijack events, including origin-AS mismatches and affected prefixes.
+  expected_output: "{\"asn\":\"AS98765\",\"hijack_detected\":true,\"affected_prefixes\"\
+    :[\"192.0.2.0/24\"],\n \"duration_minutes\":43,\"report_uri\":\"s3://dnint/reports/bgp98765.pdf\"\
+    ,\n \"legal_basis\":\"BGP monitoring\",\"privacy_minimization\":\"aggregate only\"\
+    ,\n \"chain_of_custody\":\"s3://dnint/coc/bgp98765.pdf\"}\n"
+  agent: bgp_researcher
+  output_file: output/rfi_bgp_hijack_analysis.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+rfi_botnet_mapping:
+  description: >
+    Investigate emerging botnet clusters, generate infrastructure graph, and provide C2 sinkhole recommendations.
+  expected_output: "{\"botnet_name\":\"ExampleBot\",\"nodes\":54,\"c2_ips\":[\"203.0.113.5\"\
+    ],\n \"graph_uri\":\"s3://dnint/graphs/examplebot.png\",\n \"report_uri\":\"s3://dnint/reports/botnet_example.pdf\"\
+    ,\n \"legal_basis\":\"malware telemetry\",\"privacy_minimization\":\"aggregate\
+    \ only\",\n \"chain_of_custody\":\"s3://dnint/coc/botnet_example.zip\"}\n"
+  agent: botnet_hunter
+  output_file: output/rfi_botnet_mapping.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+rfi_tls_certificate_check:
+  description: >
+    Verify suspicious TLS/SSL certificate issuance and detect rogue CAs.
+  expected_output: "{\"domain\":\"secure-bank.com\",\"cert_issuer\":\"UnknownCA\"\
+    ,\n \"anomaly_detected\":true,\"confidence\":0.92,\n \"report_uri\":\"s3://dnint/reports/tls_bank.pdf\"\
+    ,\n \"legal_basis\":\"certificate transparency logs\",\"privacy_minimization\"\
+    :\"aggregate only\",\n \"chain_of_custody\":\"s3://dnint/coc/tls_bank.pdf\"}\n"
+  agent: tls_pki_monitor
+  output_file: output/rfi_tls_certificate_check.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+rfi_fastflux_domain_analysis:
+  description: >
+    Investigate fast-flux domains for adversarial hosting and attribution.
+  expected_output: "{\"domain\":\"flux-domain.com\",\"flux_ips\":[\"198.51.100.5\"\
+    ,\"203.0.113.9\"],\n \"flux_detected\":true,\"confidence\":0.88,\n \"report_uri\"\
+    :\"s3://dnint/reports/fastflux.pdf\",\n \"legal_basis\":\"public DNS\",\"privacy_minimization\"\
+    :\"aggregate only\",\n \"chain_of_custody\":\"s3://dnint/coc/fastflux.pdf\"}\n"
+  agent: adversarial_resilience_engineer
+  output_file: output/rfi_fastflux_domain_analysis.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+rfi_sinkhole_request:
+  description: >
+    Generate sinkhole recommendations for identified botnet domains/IPs.
+  expected_output: "{\"domains\":[\"botnet1.com\"],\"ips\":[\"203.0.113.45\"],\"recommendation\"\
+    :\"sinkhole\",\n \"report_uri\":\"s3://dnint/reports/sinkhole_request.pdf\"}\n"
+  agent: isp_liaison
+  output_file: output/rfi_sinkhole_request.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+rfi_internet_disruption_case:
+  description: >
+    Attribution analysis of suspected global internet disruption due to DNS/BGP attacks.
+  expected_output: "{\"event\":\"BGP hijack 2024-11\",\"impact\":\"APAC region outage\"\
+    ,\n \"asn\":\"AS4455\",\"attack_vector\":\"malicious prefix injection\",\n \"\
+    report_uri\":\"s3://dnint/reports/disruption2024.pdf\"}\n"
+  agent: crosspillar_fusion_analyst
+  output_file: output/rfi_internet_disruption_case.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+daily_dns_monitoring:
+  description: >
+    Monitor DNS anomalies including fast-flux, domain hijacks, and malicious resolution patterns.
+  expected_output: >
+    Daily JSON feed with flagged anomalies, supporting evidence, and risk scores.
+  agent: dnint_analyst
+  output_file: output/daily_dns_monitoring.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+daily_bgp_hijack_feed:
+  description: >
+    Monitor global BGP hijacks and publish alerts with ASN-level attribution.
+  expected_output: "{\"date\":\"2024-11-15\",\"hijacks\":3,\"asns\":[\"AS12345\",\"\
+    AS67890\"],\n \"report_uri\":\"s3://dnint/reports/daily_bgp.pdf\"}\n"
+  agent: bgp_researcher
+  output_file: output/daily_bgp_hijack_feed.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+daily_botnet_tracking:
+  description: >
+    Track active botnet infrastructure and provide updates on new clusters.
+  expected_output: "{\"date\":\"2024-11-15\",\"botnets\":[\"ExampleBot\",\"ZeusClone\"\
+    ],\n \"report_uri\":\"s3://dnint/reports/daily_botnet.pdf\"}\n"
+  agent: botnet_hunter
+  output_file: output/daily_botnet_tracking.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+daily_netflow_anomaly_detection:
+  description: >
+    Run ML-based anomaly detection on NetFlow/Zeek data to spot covert channels and traffic spikes.
+  expected_output: "{\"flows_analyzed\":100000,\"anomalies\":25,\"confidence_avg\"\
+    :0.87,\n \"report_uri\":\"s3://dnint/reports/netflow_daily.pdf\"}\n"
+  agent: netflow_ml_specialist
+  output_file: output/daily_netflow_anomaly_detection.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+daily_tls_abuse_tracking:
+  description: >
+    Monitor adversarial abuse of free CAs (e.g., Let's Encrypt) for malicious
+    domains.
+
+    '
+  expected_output: "{\"suspicious_certs\":5,\"domains\":[\"phish-bank.com\"],\"issuer\"\
+    :\"Let's Encrypt\",\n \"report_uri\":\"s3://dnint/reports/tls_abuse.pdf\"}\n"
+  agent: tls_pki_monitor
+  output_file: output/daily_tls_abuse_tracking.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+weekly_network_exposure_summary:
+  description: >
+    Summarize exposed services, open ports, and attack surface across monitored domains and IPs.
+  expected_output: >
+    Weekly PDF report with top risky assets and recommended mitigations.
+  agent: network_forensics_specialist
+  output_file: output/weekly_network_exposure_summary.pdf
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+weekly_tls_anomaly_report:
+  description: >
+    Review suspicious TLS certificates and rogue CA activity detected during the week.
+  expected_output: "{\"week\":\"2024-W45\",\"suspicious_certs\":12,\"rogue_CAs\":1,\n\
+    \ \"report_uri\":\"s3://dnint/reports/tls_weekly.pdf\"}\n"
+  agent: tls_pki_monitor
+  output_file: output/weekly_tls_anomaly_report.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+weekly_adversarial_resilience_report:
+  description: >
+    Summarize adversary evasion tactics (fast-flux, rogue PKI, DNS tunneling).
+  expected_output: "{\"week\":\"2024-W45\",\"tactics\":[\"fast-flux\",\"rogue TLS\"\
+    ],\n \"report_uri\":\"s3://dnint/reports/adversarial_weekly.pdf\"}\n"
+  agent: adversarial_resilience_engineer
+  output_file: output/weekly_adversarial_resilience_report.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+weekly_crosspillar_correlation:
+  description: >
+    Validate DNINT anomalies against CYBINT, THREAT_INTEL, and DOMAIN_INTEL.
+  expected_output: "{\"week\":\"2024-W45\",\"events_validated\":14,\"crosspillar_rate\"\
+    :0.86,\n \"report_uri\":\"s3://dnint/reports/crosspillar_weekly.pdf\"}\n"
+  agent: crosspillar_fusion_analyst
+  output_file: output/weekly_crosspillar_correlation.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+monthly_botnet_attribution:
+  description: >
+    Attribute botnet infrastructures to malware families, campaigns, and suspected threat actors.
+  expected_output: "{\"botnet\":\"ExampleBot\",\"family\":\"ZeusVariant\",\"actors\"\
+    :[\"APT-X\"],\n \"report_uri\":\"s3://dnint/reports/botnet_attr.pdf\"}\n"
+  agent: botnet_hunter
+  output_file: output/monthly_botnet_attribution.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+monthly_dnint_compliance_audit:
+  description: >
+    Review DNINT operations for GDPR, NIS2, and lawful intercept compliance.
+  expected_output: "{\"audit_findings\":[\"No PII violations\"],\"status\":\"compliant\"\
+    ,\n \"report_uri\":\"s3://dnint/reports/compliance_monthly.pdf\"}\n"
+  agent: socmint_strategist
+  output_file: output/monthly_dnint_compliance_audit.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+monthly_sinkhole_performance_report:
+  description: >
+    Assess effectiveness of sinkholes in disrupting botnet infrastructures.
+  expected_output: "{\"botnets_sinkholed\":4,\"uptime\":\"99.8%\",\"success_rate\"\
+    :0.92,\n \"report_uri\":\"s3://dnint/reports/sinkhole_monthly.pdf\"}\n"
+  agent: isp_liaison
+  output_file: output/monthly_sinkhole_performance_report.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+monthly_internet_health_report:
+  description: >
+    Summarize systemic health of DNS, BGP, and PKI ecosystems globally.
+  expected_output: "{\"dns_anomalies\":44,\"bgp_incidents\":5,\"rogue_certs\":8,\n\
+    \ \"report_uri\":\"s3://dnint/reports/health_monthly.pdf\"}\n"
+  agent: crosspillar_fusion_analyst
+  output_file: output/monthly_internet_health_report.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+quarterly_routing_risk_assessment:
+  description: >
+    Produce strategic assessment of BGP hijacks, routing anomalies, and systemic risks to internet stability.
+  expected_output: >
+    Executive presentation deck with quarterly routing intelligence, case studies, and recommendations.
+  agent: bgp_researcher
+  output_file: output/quarterly_routing_risk_assessment.pptx
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+quarterly_ml_model_validation:
+  description: >
+    Validate ML anomaly detection models for NetFlow, Zeek, and Suricata data.
+  expected_output: "{\"precision\":0.91,\"recall\":0.87,\"drift\":\"stable\",\n \"\
+    report_uri\":\"s3://dnint/reports/ml_validation.pdf\"}\n"
+  agent: netflow_ml_specialist
+  output_file: output/quarterly_ml_model_validation.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+quarterly_infra_takedown_review:
+  description: >
+    Review takedown campaigns for domains, IPs, and botnet infrastructure.
+  expected_output: "{\"domains_removed\":24,\"ips_blocked\":57,\"botnets_disrupted\"\
+    :3,\n \"report_uri\":\"s3://dnint/reports/takedown_review.pdf\"}\n"
+  agent: isp_liaison
+  output_file: output/quarterly_infra_takedown_review.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+yearly_dnint_strategy_review:
+  description: >
+    Annual strategy review for DNINT program maturity, tool coverage, partner integrations, and roadmap.
+  expected_output: "{\"strategy_doc\":\"s3://dnint/reports/strategy2024.pdf\",\n \"\
+    maturity_level\":\"Advanced\",\"recommendations\":[\"Expand botnet sinkholing\"\
+    ]}\n"
+  agent: legint_strategist
+  output_file: output/yearly_dnint_strategy_review.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+yearly_global_internet_resilience_review:
+  description: >
+    Global review of internet infrastructure resilience across DNS, BGP, and PKI.
+  expected_output: "{\"dns_health\":\"stable\",\"bgp_resilience\":\"medium risk\"\
+    ,\n \"pki_trust\":\"strong\",\"report_uri\":\"s3://dnint/reports/resilience2024.pdf\"\
+    }\n"
+  agent: crosspillar_fusion_analyst
+  output_file: output/yearly_global_internet_resilience_review.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+yearly_standards_alignment_audit:
+  description: >
+    Audit DNINT operations against NIS2, GDPR, ISO 27001/27701, and RFC 7854 compliance.
+  expected_output: "{\"nis2_compliance\":\"pass\",\"gdpr_risks\":0,\"iso_audit\":\"\
+    certified\",\n \"report_uri\":\"s3://dnint/reports/standards_audit.pdf\"}\n"
+  agent: socmint_strategist
+  output_file: output/yearly_standards_alignment_audit.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3

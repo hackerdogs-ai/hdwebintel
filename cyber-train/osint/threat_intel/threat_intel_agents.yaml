@@ -1,0 +1,244 @@
+threat_intelligence_strategist:
+  role: Threat Intelligence Strategist
+  goal: >
+    Align TI program with business risks, oversee maturity, and deliver executive-level reports and ROI analysis.
+  backstory: >
+    Senior CTI leader with 15+ years in APT tracking, vendor management, and integrating TI with SOC/SIEM/SOAR.
+  llm: openai/gpt-4o
+  tools:
+  - RecordedFuture_API
+  - ThreatConnect
+  - MISP
+  - OpenCTI
+  verbose: true
+  memory: true
+  max_execution_time: 600
+  max_iterations: 5
+  allow_delegation: false
+  max_rpm: 30
+  planning: false
+  cache: true
+  max_retry_limit: 2
+  respect_context_window: true
+  multimodal: false
+  inject_date: false
+  date_format: '%Y-%m-%d'
+  reasoning: false
+  use_system_prompt: true
+threat_intel_analyst:
+  role: Threat Intel Analyst
+  goal: >
+    Enrich and correlate IOCs, track adversaries, campaigns, and publish STIX feeds.
+  backstory: >
+    Experienced analyst with IOC correlation, ATT&CK mapping, and campaign attribution expertise.
+  llm: openai/gpt-4o
+  tools:
+  - MISP
+  - Yeti
+  - IntelMQ
+  - Maltego
+  - Harpoon
+  verbose: true
+  memory: true
+  max_execution_time: 600
+  max_iterations: 5
+  allow_delegation: false
+  max_rpm: 30
+  planning: false
+  cache: true
+  max_retry_limit: 2
+  respect_context_window: true
+  multimodal: false
+  inject_date: false
+  date_format: '%Y-%m-%d'
+  reasoning: false
+  use_system_prompt: true
+malware_researcher:
+  role: Malware Researcher
+  goal: >
+    Reverse engineer samples, create YARA/Sigma rules, and contribute detection logic to SOC/EDR pipelines.
+  backstory: >
+    Skilled malware analyst specializing in RE, sandboxing, and actionable detection engineering.
+  llm: openai/gpt-4o
+  tools:
+  - CAPEv2
+  - YARA
+  - Sigma
+  - Suricata
+  - VirusTotal
+  verbose: true
+  memory: true
+  max_execution_time: 600
+  max_iterations: 5
+  allow_delegation: false
+  max_rpm: 30
+  planning: false
+  cache: true
+  max_retry_limit: 2
+  respect_context_window: true
+  multimodal: false
+  inject_date: false
+  date_format: '%Y-%m-%d'
+  reasoning: false
+  use_system_prompt: true
+darkweb_analyst:
+  role: Dark Web Analyst
+  goal: >
+    Monitor underground forums, marketplaces, leak sites, and identify emerging threats, credentials, or exploits.
+  backstory: >
+    Specialist in underground economy intelligence, multilingual dark web monitoring.
+  llm: openai/gpt-4o
+  tools:
+  - Flashpoint
+  - Group-IB
+  - Intel471
+  - DarkOwl
+  - TOR_Scraper
+  verbose: true
+  memory: true
+  max_execution_time: 600
+  max_iterations: 5
+  allow_delegation: false
+  max_rpm: 30
+  planning: false
+  cache: true
+  max_retry_limit: 2
+  respect_context_window: true
+  multimodal: false
+  inject_date: false
+  date_format: '%Y-%m-%d'
+  reasoning: false
+  use_system_prompt: true
+ti_data_engineer:
+  role: Threat Intel Data Engineer
+  goal: >
+    Maintain TI ingestion pipelines, deduplication, enrichment, and ensure feed uptime and schema compliance.
+  backstory: >
+    Data engineer responsible for scalable IOC ingestion and feed delivery to SIEM/TIP.
+  llm: openai/gpt-4o
+  tools:
+  - IntelMQ
+  - Yeti
+  - DNSDB
+  - STIX_TAXII_Client
+  verbose: true
+  memory: true
+  max_execution_time: 600
+  max_iterations: 5
+  allow_delegation: false
+  max_rpm: 30
+  planning: false
+  cache: true
+  max_retry_limit: 2
+  respect_context_window: true
+  multimodal: false
+  inject_date: false
+  date_format: '%Y-%m-%d'
+  reasoning: false
+  use_system_prompt: true
+attack_mapping_specialist:
+  role: MITRE ATT&CK Mapping Specialist
+  goal: >
+    Map TTPs from incidents and intel feeds to ATT&CK matrix, publish Navigator layers for hunts.
+  backstory: >
+    Threat hunter and ATT&CK evangelist specializing in TTP-based correlation and detection design.
+  llm: openai/gpt-4o
+  tools:
+  - MITRE_ATTCK_Navigator
+  - ATTCK_Matrix_DB
+  - Detection_Rule_Mapper
+  verbose: true
+  memory: true
+  max_execution_time: 600
+  max_iterations: 5
+  allow_delegation: false
+  max_rpm: 30
+  planning: false
+  cache: true
+  max_retry_limit: 2
+  respect_context_window: true
+  multimodal: false
+  inject_date: false
+  date_format: '%Y-%m-%d'
+  reasoning: false
+  use_system_prompt: true
+fusion_analyst:
+  role: Fusion Analyst
+  goal: >
+    Correlate intelligence across OSINT pillars (SOCMINT, CYBINT, DOMAIN_INTEL, HUMINT) for richer attribution and campaign context.
+  backstory: >
+    Analyst with hybrid CTI and SOC background, focused on cross-domain fusion.
+  llm: openai/gpt-4o
+  tools:
+  - OpenCTI
+  - MISP
+  - Graph_Visualizer
+  verbose: true
+  memory: true
+  max_execution_time: 600
+  max_iterations: 5
+  allow_delegation: false
+  max_rpm: 30
+  planning: false
+  cache: true
+  max_retry_limit: 2
+  respect_context_window: true
+  multimodal: false
+  inject_date: false
+  date_format: '%Y-%m-%d'
+  reasoning: false
+  use_system_prompt: true
+legint_strategist:
+  role: Legal Intelligence Strategist for Threat Intelligence
+  goal: Provide strategic legal intelligence for threat intelligence operations and
+    compliance.
+  backstory: You specialize in legal intelligence for threat intelligence operations,
+    privacy compliance, and regulatory adherence.
+  llm: openai/gpt-4o
+  tools:
+  - Legal_Research_Tool
+  - Privacy_Compliance_Checker
+  - Threat_Intelligence_Legal_Analyzer
+  - Regulatory_Monitor
+  verbose: true
+  memory: true
+  max_execution_time: 600
+  max_iterations: 5
+  allow_delegation: true
+  max_rpm: 30
+  planning: true
+  cache: true
+  max_retry_limit: 2
+  respect_context_window: true
+  multimodal: false
+  inject_date: false
+  date_format: '%Y-%m-%d'
+  reasoning: false
+  use_system_prompt: true
+cybint_strategist:
+  role: CYBINT Strategist for Threat Intelligence
+  goal: Provide strategic cyber intelligence for threat intelligence operations and
+    dark web investigations.
+  backstory: You specialize in cyber intelligence for threat intelligence operations,
+    dark web investigations, and threat analysis.
+  llm: openai/gpt-4o
+  tools:
+  - Cyber_Intelligence_Tool
+  - Dark_Web_Analyzer
+  - Threat_Analyzer
+  - Intelligence_Processor
+  verbose: true
+  memory: true
+  max_execution_time: 600
+  max_iterations: 5
+  allow_delegation: true
+  max_rpm: 30
+  planning: true
+  cache: true
+  max_retry_limit: 2
+  respect_context_window: true
+  multimodal: false
+  inject_date: false
+  date_format: '%Y-%m-%d'
+  reasoning: false
+  use_system_prompt: true

@@ -1,0 +1,200 @@
+awareness_policy_task:
+  description: >
+    Define awareness program policy with Awareness Policy Generator.
+    Include role-based training, phishing/vishing/smishing frequency,
+    gamification, adaptive micro-training, and multilingual requirements.
+  expected_output: >
+    {"policy":"Awareness Program","roles":["execs","developers","staff","contractors"],
+     "phishing_freq":"quarterly","adaptive":"enabled","mandatory_training":"annual"}
+  agent: awareness_strategist
+  output_file: output/awareness_policy.json
+
+training_content_development_task:
+  description: >
+    Develop engaging training content with Training Authoring Tool.
+    Include videos, quizzes, gamified modules, secure coding labs,
+    and micro-learning for just-in-time reinforcement.
+  expected_output: >
+    {"modules_created":15,"formats":["video","quiz","lab","micro-learning"],
+     "gamified_tracks":3,"developer_labs":4}
+  agent: training_content_designer
+  context: [awareness_policy_task]
+  output_file: output/training_content.json
+
+role_based_training_task:
+  description: >
+    Deliver differentiated training:
+      - Executives: strategy, regulatory risk, case studies
+      - Developers: secure coding + CI/CD lab
+      - Staff: phishing, password hygiene, mobile device security
+      - Contractors: access-specific awareness
+    Track completion, quiz results, and behavior improvements.
+  expected_output: >
+    {"participants":4200,"completion_rate":94,"avg_score":87,"role_gaps":["contractors 81%"]}
+  agent: training_content_designer
+  context: [training_content_development_task]
+  output_file: output/role_training.json
+
+phishing_simulation_task:
+  description: >
+    Run phishing simulations with Phishing Simulation Tool.
+    Track click rates, reporting rates, and repeat offenders.
+    Feed results into Adaptive Training Specialist for micro-learning nudges.
+  expected_output: >
+    {"emails_sent":6000,"click_rate_pct":6,"report_rate_pct":62,"repeat_offenders":18}
+  agent: simulation_engineer
+  context: [awareness_policy_task]
+  output_file: output/phishing_sim.json
+
+vishing_smishing_simulation_task:
+  description: >
+    Run vishing (phone) and smishing (SMS) simulations.
+    Escalate repeat failures to Adaptive Training Specialist for targeted training.
+  expected_output: >
+    {"calls_simulated":350,"sms_sent":700,"failures":25,"escalated_users":20}
+  agent: simulation_engineer
+  context: [phishing_simulation_task]
+  output_file: output/social_sim.json
+
+adaptive_training_task:
+  description: >
+    Deliver just-in-time micro-training nudges using Adaptive Learning Tool.
+    Triggered by risky behavior (phishing click, weak password, policy violation).
+    Integrated with HR/LMS records.
+  expected_output: >
+    {"nudges_delivered":220,"triggers":["phishing click","shadow IT"],"success_rate_pct":87}
+  agent: adaptive_training_specialist
+  context: [phishing_simulation_task, vishing_smishing_simulation_task]
+  output_file: output/adaptive_training.json
+
+incident_driven_training_task:
+  description: >
+    Use real incident data (from SIEM/IR teams) to adapt awareness scenarios.
+    If a phishing campaign is detected in the wild, add it to training content.
+  expected_output: >
+    {"incidents_ingested":12,"new_modules_added":3,"users_targeted":950}
+  agent: adaptive_training_specialist
+  output_file: output/incident_driven.json
+
+multilingual_accessibility_task:
+  description: >
+    Translate awareness content into multiple languages and check accessibility
+    with Translation Tool and Accessibility Checker.
+  expected_output: >
+    {"languages_supported":12,"accessibility_compliant":true,"localization_gaps":["AR","JA"]}
+  agent: localization_specialist
+  context: [training_content_development_task]
+  output_file: output/multilingual.json
+
+gamification_engagement_task:
+  description: >
+    Deploy gamified awareness challenges with Gamification Platform.
+    Track leaderboards, badges, competitions between departments.
+  expected_output: >
+    {"departments":12,"leaderboard":{"top":"Engineering"},"badges_awarded":420}
+  agent: training_content_designer
+  context: [role_based_training_task]
+  output_file: output/gamification.json
+
+dev_secure_coding_task:
+  description: >
+    Integrate secure coding awareness into CI/CD pipelines using SAST/DAST Integration Tool.
+    Provide real-time feedback and track remediation rates.
+  expected_output: >
+    {"repos_scanned":320,"findings_fixed":450,"secure_coding_score":82}
+  agent: devsec_mentor
+  output_file: output/dev_secure_coding.json
+
+exec_awareness_task:
+  description: >
+    Deliver executive awareness workshops with Risk Communication Tool and Tabletop Exercise Planner.
+    Include breach case studies, regulatory exposure, and crisis comms.
+  expected_output: >
+    {"execs_trained":15,"tabletops_run":2,"avg_score":92}
+  agent: executive_coach
+  output_file: output/exec_awareness.json
+
+vendor_awareness_task:
+  description: >
+    Extend awareness program to third-party vendors and contractors.
+    Provide lightweight training modules and compliance tracking.
+  expected_output: >
+    {"vendors_trained":85,"completion_rate":88,"issues":["3 vendors non-compliant"]}
+  agent: awareness_strategist
+  output_file: output/vendor_awareness.json
+
+security_culture_survey_task:
+  description: >
+    Run security culture surveys with Survey Tool.
+    Measure perception, awareness adoption, and employee feedback.
+  expected_output: >
+    {"respondents":3100,"positive_pct":81,"neutral_pct":11,"negative_pct":8}
+  agent: behavioral_analyst
+  output_file: output/culture_survey.json
+
+behavioral_risk_analysis_task:
+  description: >
+    Analyze phishing, quiz, and survey data to identify at-risk populations.
+    Recommend targeted adaptive training or escalations.
+  expected_output: >
+    {"groups":["interns","sales"],"risk_level":"high","actions":["monthly phishing test"]}
+  agent: behavioral_analyst
+  context: [phishing_simulation_task, role_based_training_task, security_culture_survey_task]
+  output_file: output/behavioral.json
+
+advanced_metrics_task:
+  description: >
+    Track advanced KPIs: time-to-report phishing, resiliency scores,
+    habit adoption, and awareness trendlines.
+  expected_output: >
+    {"time_to_report_avg_min":9,"resiliency_score":82,"trend":"improving"}
+  agent: behavioral_analyst
+  context: [phishing_simulation_task, adaptive_training_task]
+  output_file: output/advanced_metrics.json
+
+culture_reinforcement_task:
+  description: >
+    Run continuous reinforcement campaigns: Slack nudges, posters,
+    security champions, and recognition programs.
+  expected_output: >
+    {"champions":45,"campaigns":["Slack tips","posters"],"impact_score":78}
+  agent: awareness_strategist
+  output_file: output/culture_reinforcement.json
+
+hr_integration_task:
+  description: >
+    Integrate awareness results with HR/LMS systems using HR Integration Tool.
+    Feed completion/compliance into performance reviews and records.
+  expected_output: >
+    {"synced_records":4200,"hr_flags":12,"policy_noncompliant":3}
+  agent: adaptive_training_specialist
+  output_file: output/hr_integration.json
+
+awareness_audit_task:
+  description: >
+    Audit awareness program for compliance with PCI DSS, HIPAA, ISO 27001.
+    Validate mandatory completion, phishing testing, and evidence packs.
+  expected_output: >
+    {"audit_score":95,"training_completion_pct":96,"phishing_coverage":100,"evidence_pack":"awareness_q3_2025.zip"}
+  agent: awareness_auditor
+  context: [role_based_training_task, phishing_simulation_task, hr_integration_task]
+  output_file: output/awareness_audit.json
+
+awareness_metrics_reporting_task:
+  description: >
+    Generate executive dashboards with Reporting Dashboard Tool.
+    KPIs: completion %, click/report rates, adaptive training impact,
+    resiliency score, vendor coverage, and culture trends.
+  expected_output: >
+    {"completion_pct":94,"click_rate":6,"report_rate":62,"resiliency_score":82,
+     "culture_score":81,"audit_score":95}
+  agent: awareness_auditor
+  context: [awareness_audit_task, behavioral_risk_analysis_task, advanced_metrics_task, culture_reinforcement_task]
+  output_file: output/awareness_metrics.json
+appsec_security_champions_task:
+  description: >
+    Auto-added from mapping for appsec_lead in security_awareness_training.
+  expected_output: >
+    {"status":"ok"}
+  agent: appsec_lead
+  output_file: output/appsec_security_champions_task.json

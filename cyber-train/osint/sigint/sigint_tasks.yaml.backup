@@ -1,0 +1,294 @@
+rfi_signal_anomaly_validation:
+  description: >
+    Validate suspicious RF anomaly (spoofing/jamming) with SDR captures and baselines.
+  expected_output: "{\"signal_id\":\"rf_001\",\"validated\":true,\"confidence\":0.91,\n\
+    \ \"location\":[41.01,28.97],\"report_uri\":\"s3://reports/anomaly_rf001.pdf\"\
+    ,\n \"legal_basis\":\"monitoring unencrypted RF\",\"privacy_minimization\":\"\
+    metadata only\"}\n"
+  agent: rf_spectrum_analyst
+  output_file: output/rfi_signal_anomaly_validation.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+rfi_ais_adsb_dark_activity:
+  description: >
+    Investigate dark maritime/aviation activity (AIS/ADSB gaps, spoofing, loitering).
+  expected_output: "{\"vessel\":\"IMO1234567\",\"anomalies\":[\"AIS_gap\",\"spoofing\"\
+    ],\n \"map_url\":\"s3://maps/vessel_dark.png\",\"report_uri\":\"s3://reports/dark_vessel.pdf\"\
+    }\n"
+  agent: sigint_analyst
+  output_file: output/rfi_ais_adsb_dark_activity.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+rfi_satellite_signal_investigation:
+  description: >
+    Analyze anomalous satcom signals for interference, spoofing, or adversarial use.
+  expected_output: "{\"satellite\":\"Inmarsat-3F5\",\"signal_type\":\"L-band\",\"\
+    anomaly\":\"jamming\",\n \"confidence\":0.88,\"report_uri\":\"s3://reports/satcom_investigation.pdf\"\
+    }\n"
+  agent: sigint_analyst
+  output_file: output/rfi_satellite_signal_investigation.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+rfi_rogue_cell_tower:
+  description: >
+    Investigate suspected IMSI catcher or rogue base station activity.
+  expected_output: "{\"tower_id\":\"cell_045\",\"risk\":\"high\",\"location\":[37.7749,-122.4194],\n\
+    \ \"report_uri\":\"s3://reports/rogue_tower.pdf\"}\n"
+  agent: sigint_analyst
+  output_file: output/rfi_rogue_cell_tower.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+rfi_gnss_spoofing_incident:
+  description: >
+    Investigate suspected GNSS spoofing/jamming impacting AOIs or assets.
+  expected_output: "{\"incident_id\":\"gnss_2025_001\",\"spoofing\":true,\"confidence\"\
+    :0.92,\n \"time_window\":[\"2025-09-13T01:00Z\",\"2025-09-13T02:30Z\"],\n \"report_uri\"\
+    :\"s3://reports/gnss_spoofing.pdf\"}\n"
+  agent: rf_spectrum_analyst
+  output_file: output/rfi_gnss_spoofing_incident.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+rfi_tls_fingerprint_analysis:
+  description: >
+    Investigate anomalous TLS fingerprints (JA3/JA4 mismatches, rogue certs).
+  expected_output: "{\"fingerprint\":\"ja3:112233...\",\"anomaly\":\"unknown cipher\"\
+    ,\"risk\":\"high\",\n \"report_uri\":\"s3://reports/tls_fingerprint.pdf\"}\n"
+  agent: cti_enrichment_analyst
+  output_file: output/rfi_tls_fingerprint_analysis.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+rfi_bgp_hijack_assessment:
+  description: >
+    Validate suspected BGP route hijack or path manipulation.
+  expected_output: "{\"prefix\":\"192.0.2.0/24\",\"hijack\":true,\"as_origin\":\"\
+    AS12345\",\n \"report_uri\":\"s3://reports/bgp_hijack.pdf\"}\n"
+  agent: cti_enrichment_analyst
+  output_file: output/rfi_bgp_hijack_assessment.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+rfi_drone_rf_detection:
+  description: >
+    Detect and profile UAS/drone RF signals (Remote ID, C2).
+  expected_output: "{\"detections\":[{\"type\":\"RemoteID\",\"rssi_dbm\":-51,\"freq\"\
+    :\"2.4GHz\"}],\n \"risk\":\"high\",\"report_uri\":\"s3://reports/drone_rf.pdf\"\
+    }\n"
+  agent: uas_rf_analyst
+  output_file: output/rfi_drone_rf_detection.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+rfi_pcap_investigation:
+  description: >
+    Deep-dive forensic analysis of PCAPs for beaconing, exfiltration, or C2 traffic.
+  expected_output: "{\"pcap_uri\":\"s3://pcaps/session1.pcap\",\"malicious_flows\"\
+    :5,\n \"report_uri\":\"s3://reports/pcap_forensics.pdf\"}\n"
+  agent: sigint_ml_specialist
+  output_file: output/rfi_pcap_investigation.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+rfi_iot_scada_signal_abuse:
+  description: >
+    Investigate IoT/SCADA signal anomalies (rtl_433, LoRaWAN, Sigfox).
+  expected_output: "{\"protocol\":\"LoRaWAN\",\"anomaly\":\"unauthorized burst\",\"\
+    confidence\":0.87,\n \"report_uri\":\"s3://reports/iot_scada.pdf\"}\n"
+  agent: masint_strategist
+  output_file: output/rfi_iot_scada_signal_abuse.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+daily_spectrum_monitoring:
+  description: >
+    Continuous SDR-based spectrum monitoring for AOI anomalies.
+  expected_output: "{\"uptime_pct\":99.5,\"anomalies_detected\":14,\"validated\":9,\n\
+    \ \"report_uri\":\"s3://reports/daily_spectrum.pdf\"}\n"
+  agent: sigint_analyst
+  output_file: output/daily_spectrum_monitoring.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+daily_gnss_integrity_monitoring:
+  description: >
+    Monitor GNSS signal quality for spoofing/jamming events.
+  expected_output: "{\"alerts\":[{\"type\":\"spoofing\",\"confidence\":0.9}],\n \"\
+    report_uri\":\"s3://reports/gnss_daily.pdf\"}\n"
+  agent: rf_spectrum_analyst
+  output_file: output/daily_gnss_integrity_monitoring.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+daily_dns_exfiltration_scan:
+  description: >
+    Scan DNS traffic for signs of tunneling or exfiltration.
+  expected_output: >
+    {"queries_analyzed":100000,"suspicious":12,"report_uri":"s3://reports/dns_daily.pdf"}
+  agent: cti_enrichment_analyst
+  output_file: output/daily_dns_exfiltration_scan.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+weekly_signal_anomaly_report:
+  description: >
+    Weekly summary of validated anomalies, spoofing/jamming, GNSS events.
+  expected_output: "{\"validated_anomalies\":22,\"false_positives\":3,\n \"report_uri\"\
+    :\"s3://reports/weekly_sigint.pdf\"}\n"
+  agent: rf_spectrum_analyst
+  output_file: output/weekly_signal_anomaly_report.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+weekly_iot_anomaly_correlation:
+  description: >
+    Correlate IoT anomalies with SIGINT events to detect covert channels.
+  expected_output: "{\"devices_flagged\":17,\"covert_channels\":2,\n \"report_uri\"\
+    :\"s3://reports/iot_weekly.pdf\"}\n"
+  agent: sigint_ml_specialist
+  output_file: output/weekly_iot_anomaly_correlation.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+weekly_model_eval:
+  description: >
+    Evaluate ML models (anomaly detection, spoofing/jamming).
+  expected_output: >
+    {"precision":0.93,"recall":0.87,"drift":0.03}
+  agent: sigint_ml_specialist
+  output_file: output/weekly_model_eval.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+weekly_cross_pillar_validation:
+  description: >
+    Validate SIGINT anomalies with HUMINT, GEOINT, and SOCMINT.
+  expected_output: "{\"validated\":15,\"cross_pillar_rate\":0.83,\n \"report_uri\"\
+    :\"s3://reports/sigint_crosspillar.pdf\"}\n"
+  agent: imint_strategist
+  output_file: output/weekly_cross_pillar_validation.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+monthly_baseline_update:
+  description: >
+    Generate updated AOI signal baselines.
+  expected_output: "{\"aoi\":\"South China Sea\",\"baseline_variance\":0.06,\n \"\
+    report_uri\":\"s3://reports/baseline_monthly.pdf\"}\n"
+  agent: masint_strategist
+  output_file: output/monthly_baseline_update.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+monthly_encrypted_traffic_baseline:
+  description: >
+    Establish baseline of encrypted traffic volumes (TLS, QUIC) and detect anomalies.
+  expected_output: >
+    {"baseline_pct":85,"anomalies":3,"report_uri":"s3://reports/encrypted_baseline.pdf"}
+  agent: sigint_ml_specialist
+  output_file: output/monthly_encrypted_traffic_baseline.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+monthly_compliance_audit:
+  description: >
+    Audit SIGINT activities for compliance with laws and policies.
+  expected_output: "{\"compliance_score\":0.97,\"issues_resolved\":2,\n \"audit_uri\"\
+    :\"s3://audits/sigint_monthly.pdf\"}\n"
+  agent: legint_strategist
+  output_file: output/monthly_compliance_audit.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+quarterly_exec_brief:
+  description: >
+    Deliver SIGINT executive briefing with strategic risk insights.
+  expected_output: >
+    {"deck_uri":"s3://briefs/sigint_q3.pptx","decisions_influenced":4}
+  agent: sigint_strategist
+  output_file: output/quarterly_exec_brief.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+quarterly_red_team_exercise:
+  description: >
+    Conduct red-team jamming/spoofing drills with after-action reports.
+  expected_output: >
+    {"exercise":"RFJamSim","after_action":"s3://reports/redteam_q.pdf"}
+  agent: rf_spectrum_analyst
+  output_file: output/quarterly_red_team_exercise.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+quarterly_rf_forensics_readiness:
+  description: >
+    Exercise IQ capture, chain-of-custody, and TDoA workflows.
+  expected_output: "{\"captures\":6,\"coc_pass_rate\":1.0,\n \"report_uri\":\"s3://reports/forensics_q.pdf\"\
+    }\n"
+  agent: masint_strategist
+  output_file: output/quarterly_rf_forensics_readiness.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+yearly_strategy_review:
+  description: >
+    Annual SIGINT strategy refresh (coverage, tools, compliance).
+  expected_output: >
+    {"strategy_doc":"s3://strategy/sigint2025.pdf","maturity_score":0.89}
+  agent: sigint_strategist
+  output_file: output/yearly_strategy_review.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3

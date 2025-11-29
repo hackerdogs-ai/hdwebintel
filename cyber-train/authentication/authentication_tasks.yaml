@@ -1,0 +1,151 @@
+define_mfa_policy_task:
+  description: >
+    Define and maintain an enterprise-wide MFA policy. Use the Compliance Framework Tool
+    to align with NIST 800-63 and ISO 27001. Retrieve adoption data from Identity Provider API Tool.
+    Identify coverage gaps and propose enforcement deadlines.
+  expected_output: >
+    A JSON object summarizing MFA policy, current coverage, gaps, and recommended actions.
+    Example: {"policy": "MFA required for all users and privileged accounts",
+              "coverage": {"enforced": 94, "target": 100},
+              "gaps": ["Contractors missing MFA"],
+              "recommendations": ["Mandate MFA for contractors by Q3"]}
+  agent: authentication_strategist
+  output_file: output/mfa_policy.json
+
+passwordless_strategy_task:
+  description: >
+    Research and define a passwordless authentication adoption plan.
+    Use Search Tool to review available options (WebAuthn, FIDO2 keys, biometrics).
+    Propose pilot programs and integration roadmap with IdP.
+  expected_output: >
+    A JSON object with recommended methods and phased rollout plan.
+    Example: {"methods": ["WebAuthn","YubiKey"], "phases": ["Pilot Q2","Full rollout Q4"]}
+  agent: authentication_strategist
+  output_file: output/passwordless_strategy.json
+
+sso_federation_plan_task:
+  description: >
+    Develop a federation plan for SaaS and internal apps. Use Identity Provider API Tool to
+    pull federated app list. Compare with enterprise app inventory via Search Tool.
+    Highlight gaps and propose onboarding schedule.
+  expected_output: >
+    A JSON object with federated apps, pending integrations, and completion percent.
+    Example: {"federated_apps": ["Salesforce","Workday"],
+              "pending_apps": ["Jira","Zoom"],
+              "completion_percent": 78}
+  agent: authentication_strategist
+  output_file: output/sso_federation.json
+
+sso_coverage_monitoring_task:
+  description: >
+    Continuously monitor SaaS app inventory against IdP federation. Use IAM Data Extractor
+    to identify new apps in use and cross-check with SSO coverage. Flag any Shadow IT bypassing federation.
+  expected_output: >
+    A JSON object with non-federated apps and associated risk.
+    Example: {"non_federated_apps": ["Notion","Miro"],
+              "risk": "Medium","action": "Federate within 60 days"}
+  agent: authentication_auditor
+  output_file: output/sso_coverage.json
+
+monitor_login_activity_task:
+  description: >
+    Monitor login telemetry from SIEM Tool and Identity Provider API Tool.
+    Track login success/failure rates and anomalies such as brute force, impossible travel, and velocity abuse.
+  expected_output: >
+    A JSON object with login metrics and anomalies.
+    Example: {"success_rate": 98.7,"failed_logins": 542,
+              "anomalies": ["credential_stuffing","impossible_travel"]}
+  agent: authentication_engineer
+  output_file: output/login_activity.json
+
+auth_latency_monitoring_task:
+  description: >
+    Monitor authentication latency using Latency Monitor Tool and IdP logs.
+    Track average login response time per app and SLA breaches.
+  expected_output: >
+    A JSON object with latency metrics per system and SLA compliance.
+    Example: {"apps": {"Salesforce": 245,"Workday": 310},
+              "sla_compliance": 96}
+  agent: authentication_engineer
+  output_file: output/auth_latency.json
+
+enforce_mfa_enrollment_task:
+  description: >
+    Track MFA enrollment coverage using MFA Enrollment Tracker. Identify non-compliant users,
+    notify them, and escalate enforcement via IdP API.
+  expected_output: >
+    A JSON object with MFA enrollment stats and non-compliant accounts.
+    Example: {"enrolled": 5200,"non_compliant": ["user123","user456"],
+              "coverage_percent": 97.3}
+  agent: authentication_engineer
+  context: [monitor_login_activity_task]
+  output_file: output/mfa_enrollment.json
+
+detect_authentication_attacks_task:
+  description: >
+    Detect credential attacks using SIEM Tool and Log Analysis Tool.
+    Correlate across regions, devices, and accounts. Flag high-risk users and report attempts.
+  expected_output: >
+    A JSON object with attack types, counts, and flagged accounts.
+    Example: {"credential_stuffing": 1300,"brute_force": 47,
+              "flagged_accounts": ["admin1","user_test"]}
+  agent: authentication_engineer
+  context: [monitor_login_activity_task]
+  output_file: output/auth_attacks.json
+
+auth_incident_escalation_task:
+  description: >
+    Escalate confirmed authentication incidents to SOC.
+    Use SIEM Tool to correlate anomalies with IOC feeds and open incident tickets.
+  expected_output: >
+    A JSON object summarizing escalated incidents and their severity.
+    Example: {"escalated_incidents": [{"id":"INC123","type":"credential_stuffing","severity":"High"}]}
+  agent: authentication_engineer
+  context: [detect_authentication_attacks_task]
+  output_file: output/auth_escalations.json
+
+privileged_auth_activity_task:
+  description: >
+    Monitor privileged account login behavior using Privileged Account Analytics Tool and SIEM Tool.
+    Track login frequency, anomalies, and MFA bypass attempts.
+  expected_output: >
+    A JSON object with privileged login events and anomalies.
+    Example: {"accounts": ["root_aws","db_admin"],
+              "anomalies": ["MFA_bypass_attempt","odd_hour_login"]}
+  agent: privileged_access_monitor
+  output_file: output/privileged_auth.json
+
+stale_account_review_task:
+  description: >
+    Identify inactive or orphaned accounts. Use IAM Data Extractor for last login timestamps.
+    Cross-reference with HR system to flag terminated employees with active accounts.
+  expected_output: >
+    A JSON object with stale accounts and recommended actions.
+    Example: {"stale_accounts": ["userX","contractorY"],
+              "action": "disable within 7 days"}
+  agent: authentication_auditor
+  output_file: output/stale_accounts.json
+
+session_security_audit_task:
+  description: >
+    Audit session management controls. Use IdP logs and IAM Data Extractor to check session timeouts,
+    token reuse, and revocation enforcement.
+  expected_output: >
+    A JSON object with session control findings and remediation plan.
+    Example: {"findings": ["Refresh tokens not expiring","No idle timeout on Jira"],
+              "remediation": ["Configure 8h idle timeout","Enable token revocation API"]}
+  agent: authentication_auditor
+  output_file: output/session_audit.json
+
+audit_auth_controls_task:
+  description: >
+    Perform quarterly audit of authentication controls. Use Audit Checklist Tool and Compliance Mapping Tool
+    to verify MFA, SSO, session security, and privileged access monitoring against standards.
+  expected_output: >
+    A JSON object with audit results, compliance score, and required remediations.
+    Example: {"score": 91,
+              "findings": ["SSO not enforced on Jira","Weak session timeout on ServiceNow"],
+              "remediations": ["Federate Jira","Enable 30m idle timeout"]}
+  agent: authentication_auditor
+  context: [session_security_audit_task, stale_account_review_task]
+  output_file: output/auth_audit.json

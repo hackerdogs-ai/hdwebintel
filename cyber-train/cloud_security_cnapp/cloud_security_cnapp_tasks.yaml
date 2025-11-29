@@ -1,0 +1,211 @@
+cloud_policy_definition_task:
+  description: >
+    Define CNAPP policies using Cloud Policy Generator.
+    Include CSPM, CWPP, CIEM, IaC, Kubernetes, serverless, SaaS, AI/LLM workloads,
+    continuous compliance, and zero trust requirements.
+  expected_output: >
+    {"policy":"CNAPP","cspm":"enabled","cwpp":"enabled","ciem":"enabled","iac":"enabled","k8s":"enabled","serverless":"enabled","saas":"enabled","ai_llm":"enabled","compliance":"continuous"}
+  agent: cloud_security_strategist
+  output_file: output/cloud_policy.json
+
+cspm_scan_task:
+  description: >
+    Run CSPM scans across AWS, Azure, and GCP accounts.
+    Detect misconfigurations, insecure defaults, and compliance gaps.
+  expected_output: >
+    {"accounts_scanned":180,"critical_issues":25,"high_issues":80,"compliance_score":88}
+  agent: cspm_engineer
+  context: [cloud_policy_definition_task]
+  output_file: output/cspm.json
+
+cloud_drift_detection_task:
+  description: >
+    Detect configuration drift across multi-cloud environments.
+    Identify mismatched security baselines or shadow accounts.
+  expected_output: >
+    {"drift_alerts":12,"shadow_accounts":5,"resolved":7}
+  agent: cspm_engineer
+  context: [cspm_scan_task]
+  output_file: output/cloud_drift.json
+
+cwpp_scan_task:
+  description: >
+    Run CWPP scans on workloads (VMs, containers, serverless).
+    Detect unpatched systems and runtime risks.
+  expected_output: >
+    {"workloads_scanned":900,"critical_vulns":18,"runtime_alerts":15}
+  agent: cwpp_engineer
+  output_file: output/cwpp.json
+
+cwpp_runtime_monitoring_task:
+  description: >
+    Deploy CWPP runtime monitoring and container sensors.
+    Detect exploits, malware, and anomalous activity.
+  expected_output: >
+    {"alerts_detected":30,"attacks_blocked":25,"false_positives":3}
+  agent: cwpp_engineer
+  context: [cwpp_scan_task]
+  output_file: output/cwpp_runtime.json
+
+ciem_analysis_task:
+  description: >
+    Analyze IAM permissions with CIEM Tool.
+    Detect over-privileged identities and toxic role combinations.
+  expected_output: >
+    {"identities":2500,"over_privileged":180,"toxic_combos":15}
+  agent: ciem_engineer
+  output_file: output/ciem.json
+
+identity_attack_path_task:
+  description: >
+    Use Identity Graph Tool to map IAM attack paths.
+    Identify privilege escalation risks across accounts.
+  expected_output: >
+    {"attack_paths":12,"critical_paths":4,"remediated":3}
+  agent: ciem_engineer
+  context: [ciem_analysis_task]
+  output_file: output/attack_paths.json
+
+iac_scan_task:
+  description: >
+    Scan Terraform, CloudFormation, and Kubernetes manifests with IaC Scanner.
+  expected_output: >
+    {"iac_files":600,"critical_issues":16,"high_issues":50}
+  agent: iac_security_engineer
+  output_file: output/iac_scan.json
+
+iac_remediation_task:
+  description: >
+    Auto-fix IaC misconfigurations with Policy-as-Code Tool.
+    Commit fixes via GitHub/GitLab PRs.
+  expected_output: >
+    {"iac_files_remediated":60,"pull_requests":12,"automation_success_pct":78}
+  agent: iac_security_engineer
+  context: [iac_scan_task]
+  output_file: output/iac_remediation.json
+
+k8s_security_task:
+  description: >
+    Analyze K8s clusters with RBAC Analyzer and Policy Evaluator.
+    Detect namespace privilege escalation and missing network policies.
+  expected_output: >
+    {"clusters":40,"critical_rbac_issues":10,"network_policy_gaps":12}
+  agent: k8s_security_engineer
+  output_file: output/k8s.json
+
+serverless_security_task:
+  description: >
+    Scan and monitor serverless runtimes (Lambda, Azure Functions, GCP).
+    Detect insecure env vars, over-permissions, and injection risks.
+  expected_output: >
+    {"functions_scanned":180,"critical_issues":7,"remediated":5}
+  agent: cwpp_engineer
+  output_file: output/serverless.json
+
+cloud_dlp_task:
+  description: >
+    Scan cloud storage (S3, Blob, GCS) and SaaS apps for sensitive data exposure.
+  expected_output: >
+    {"buckets_scanned":220,"pii_exposed":6,"encryption_missing":9}
+  agent: cloud_dlp_specialist
+  output_file: output/dlp.json
+
+cloud_threat_intel_task:
+  description: >
+    Ingest cloud-specific TI feeds (misused services, cryptojacking).
+    Correlate with CSPM/CWPP alerts.
+  expected_output: >
+    {"feeds_ingested":4,"threats_mapped":15,"alerts_linked":6}
+  agent: cloud_threat_hunter
+  output_file: output/cloud_ti.json
+
+cloud_threat_hunting_task:
+  description: >
+    Hunt for adversary behaviors using SIEM + TI.
+    Detect lateral movement, API abuse, cryptomining.
+  expected_output: >
+    {"hunts_conducted":15,"incidents_found":4,"detections_updated":6}
+  agent: cloud_threat_hunter
+  context: [cspm_scan_task, cwpp_runtime_monitoring_task, ciem_analysis_task, cloud_threat_intel_task]
+  output_file: output/cloud_hunts.json
+
+cloud_forensics_task:
+  description: >
+    Capture forensic evidence after incidents using Forensics Toolkit.
+    Preserve snapshots, memory, and log timelines.
+  expected_output: >
+    {"incidents_investigated":3,"snapshots":12,"timelines":3}
+  agent: cloud_forensics_specialist
+  context: [cloud_threat_hunting_task]
+  output_file: output/forensics.json
+
+ai_cloud_security_task:
+  description: >
+    Scan AI/LLM cloud workloads for risks:
+    prompt injection, API key leaks, data poisoning.
+  expected_output: >
+    {"models_scanned":5,"issues_found":4,"remediated":3}
+  agent: ai_cloud_security_analyst
+  output_file: output/ai_llm.json
+
+cloud_cost_risk_task:
+  description: >
+    Analyze cost vs. security efficiency.
+    Identify underused controls (idle WAFs, over-provisioned CWPP).
+  expected_output: >
+    {"controls_reviewed":25,"inefficient_controls":4,"savings_estimated":"$12k"}
+  agent: cloud_security_strategist
+  context: [cspm_scan_task, cwpp_scan_task]
+  output_file: output/cost_risk.json
+
+compliance_as_code_task:
+  description: >
+    Enforce continuous compliance with OPA/Gatekeeper.
+    Validate controls in CI/CD pipelines and runtime.
+  expected_output: >
+    {"policies_enforced":35,"violations_blocked":18,"exceptions":2}
+  agent: cloud_auditor
+  context: [iac_scan_task, cspm_scan_task]
+  output_file: output/compliance.json
+
+cloud_metrics_reporting_task:
+  description: >
+    Generate CNAPP KPIs: misconfigurations remediated, IAM risk reduced,
+    Kubernetes/Serverless coverage, data exposure, AI/LLM security, compliance status.
+  expected_output: >
+    {"cspm_score":88,"ciem_over_privileged":180,"k8s_issues":10,"serverless_issues":7,"pii_exposures":6,"ai_llm_risks":4,"compliance_score":92}
+  agent: cloud_auditor
+  context: [cloud_drift_detection_task, identity_attack_path_task, k8s_security_task, serverless_security_task, cloud_dlp_task, ai_cloud_security_task]
+  output_file: output/cloud_metrics.json
+
+cloud_audit_task:
+  description: >
+    Audit CNAPP maturity: multi-cloud drift detection, IAM attack path analysis,
+    Kubernetes, serverless, SaaS, AI/LLM security, compliance-as-code,
+    and cost-security efficiency.
+  expected_output: >
+    {"audit_score":95,"coverage_pct":92,"gaps":["AI/LLM model forensics","serverless anomaly coverage"]}
+  agent: cloud_auditor
+  context: [cloud_metrics_reporting_task, cloud_forensics_task]
+  output_file: output/cloud_audit.json
+devsecops_cloud_baseline_task:
+  description: >
+    Auto-added from mapping for devsecops_engineer in cloud_security_cnapp.
+  expected_output: >
+    {"status":"ok"}
+  agent: devsecops_engineer
+  output_file: output/devsecops_cloud_baseline_task.json
+sre_chaos_ir_task:
+  description: >
+    Auto-added from mapping for sre in cloud_security_cnapp.
+  expected_output: >
+    {"status":"ok"}
+  agent: sre
+  output_file: output/sre_chaos_ir_task.json
+sre_guardrails_task:
+  description: >
+    Auto-added from mapping for sre in cloud_security_cnapp.
+  expected_output: >
+    {"status":"ok"}
+  agent: sre
+  output_file: output/sre_guardrails_task.json

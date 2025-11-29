@@ -1,0 +1,38 @@
+Implementation Priority,tool,pillar,type,agent,task,priority,source,url
+,TheHive Project,incident_response,Open Source,incident_responder,incident_management,High,comprehensive_csv,https://github.com/TheHive-Project/TheHive
+,Cortex (TheHive companion),incident_response,Open Source,incident_responder,automated_response,High,comprehensive_csv,https://github.com/TheHive-Project/Cortex
+,MISP (Malware Information Sharing Platform),incident_response,Open Source,threat_analyst,threat_sharing,High,comprehensive_csv,https://github.com/MISP/MISP
+,GRR Rapid Response,incident_response,Open Source,dfir_analyst,remote_forensics,High,comprehensive_csv,https://github.com/google/grr
+,Velociraptor,incident_response,Open Source,dfir_analyst,endpoint_visibility,High,comprehensive_csv,https://github.com/Velocidex/velociraptor
+,OSQuery,incident_response,Open Source,dfir_analyst,endpoint_investigation,High,comprehensive_csv,https://github.com/osquery/osquery
+,Security Onion,incident_response,Open Source,soc_analyst,network_security_monitoring,High,comprehensive_csv,https://github.com/Security-Onion-Solutions/securityonion
+,Wazuh,incident_response,Open Source,soc_analyst,incident_monitoring,Medium,comprehensive_csv,https://github.com/wazuh/wazuh
+,YARA,incident_response,Open Source,dfir_analyst,malware_detection,High,comprehensive_csv,https://github.com/VirusTotal/yara
+,Logstash/ELK,incident_response,Open Source,soc_analyst,log_analysis,Medium,comprehensive_csv,https://github.com/elastic/elasticsearch
+,Splunk SOAR (Phantom),incident_response,Commercial,incident_responder,automated_response,High,comprehensive_csv,https://docs.splunk.com/Documentation/Phantom
+,Cortex XSOAR (Palo Alto),incident_response,Commercial,incident_responder,orchestrated_response,High,comprehensive_csv,https://docs.paloaltonetworks.com/cortex
+,Microsoft Sentinel,incident_response,Commercial,soc_analyst,siem_soar,High,comprehensive_csv,https://docs.microsoft.com/en-us/azure/sentinel
+,CrowdStrike Falcon XDR,incident_response,Commercial,incident_responder,integrated_response,High,comprehensive_csv,https://www.crowdstrike.com/products/endpoint-detection-response
+,FireEye Helix,incident_response,Commercial,incident_responder,managed_response,High,comprehensive_csv,https://docs.fireeye.com
+,IBM Resilient,incident_response,Commercial,incident_responder,case_management,High,comprehensive_csv,https://www.ibm.com/docs/en/resilient
+,Rapid7 InsightConnect,incident_response,Commercial,incident_responder,soar_automation,High,comprehensive_csv,https://docs.rapid7.com/insightconnect
+,PagerDuty,incident_response,Commercial,incident_commander,incident_escalation,High,comprehensive_csv,https://developer.pagerduty.com
+,ServiceNow IR Module,incident_response,Commercial,incident_responder,ir_workflow,High,comprehensive_csv,https://docs.servicenow.com
+,Dragos Platform,incident_response,Commercial,ot_security_engineer,ot_incident_response,High,comprehensive_csv,https://www.dragos.com
+,Volatility,incident_response,Open Source,incident_responder,memory_analysis,High,comprehensive_csv,https://github.com/volatilityfoundation/volatility
+,Autopsy,incident_response,Open Source,incident_responder,disk_analysis,Medium,comprehensive_csv,https://github.com/sleuthkit/autopsy
+,Sleuth Kit,incident_response,Open Source,incident_responder,disk_analysis,Medium,comprehensive_csv,https://github.com/sleuthkit/sleuthkit
+,Splunk,incident_response,Commercial,incident_responder,log_analysis,High,comprehensive_csv,https://docs.splunk.com
+,IBM QRadar,incident_response,Commercial,incident_responder,siem_analysis,High,comprehensive_csv,https://www.ibm.com/docs/en/security-essentials
+,LogRhythm,incident_response,Commercial,incident_responder,siem_analysis,Medium,comprehensive_csv,https://logrhythm.com
+,GRR Rapid Response,incident_response,Open Source,incident_responder,remote_forensics,High,comprehensive_csv,https://github.com/google/grr
+,Velociraptor,incident_response,Open Source,incident_responder,endpoint_visibility,High,comprehensive_csv,https://github.com/Velocidex/velociraptor
+,KAPE,incident_response,Open Source,incident_responder,artifact_collection,High,comprehensive_csv,https://github.com/EricZimmerman/KapeFiles
+,Plaso,incident_response,Open Source,incident_responder,timeline_analysis,High,comprehensive_csv,https://github.com/log2timeline/plaso
+,Timesketch,incident_response,Open Source,incident_responder,timeline_visualization,High,comprehensive_csv,https://github.com/google/timesketch
+,DFIRTrack,incident_response,Open Source,incident_responder,case_management,Medium,comprehensive_csv,https://github.com/dfirtrack/dfirtrack
+,DFIR ORC,incident_response,Open Source,incident_responder,artifact_collection,Medium,comprehensive_csv,https://github.com/dfir-orc/dfir-orc
+,Log2timeline,incident_response,Open Source,incident_responder,timeline_creation,Medium,comprehensive_csv,https://github.com/log2timeline/log2timeline
+,Rekall,incident_response,Open Source,incident_responder,memory_analysis,Medium,comprehensive_csv,https://github.com/google/rekall
+,Lime,incident_response,Open Source,incident_responder,memory_acquisition,Medium,comprehensive_csv,https://github.com/504ensicsLabs/LiME
+,Avml,incident_response,Open Source,incident_responder,memory_acquisition,Low,comprehensive_csv,https://github.com/microsoft/avml

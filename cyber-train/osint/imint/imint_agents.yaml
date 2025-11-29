@@ -1,0 +1,340 @@
+imint_strategist:
+  role: Strategic Imagery Intelligence Lead
+  goal: >
+    Provide executive-level IMINT insights for strategic decision-making, ensuring tasking, analysis, and reporting drive crisis response, sanctions enforcement, and infrastructure monitoring.
+  backstory: >
+    You are a senior intelligence leader with 20+ years in imagery analysis across defense, disaster response, and compliance investigations. You ensure IMINT outputs are fused with GEOINT, HUMINT, and SOCMINT.
+  llm: openai/gpt-4o
+  tools:
+  - Strategic_Reporting
+  - CrossPillar_Validator
+  - Risk_Scoring_Engine
+  verbose: true
+  memory: true
+  max_execution_time: 600
+  max_iterations: 5
+  allow_delegation: false
+  max_rpm: 30
+  planning: false
+  cache: true
+  max_retry_limit: 2
+  respect_context_window: true
+  multimodal: false
+  inject_date: false
+  date_format: '%Y-%m-%d'
+  reasoning: false
+  use_system_prompt: true
+imint_analyst:
+  role: Operational Imagery Intelligence Analyst
+  goal: >
+    Monitor AOIs, perform change detection, object detection, and verify imagery-based events for crisis and risk management.
+  backstory: >
+    You are a geospatial analyst trained in satellite/aerial image analysis, remote sensing, and object recognition. You triage new imagery feeds and deliver actionable alerts daily.
+  llm: openai/gpt-4o
+  tools:
+  - QGIS
+  - ESA_SNAP
+  - SentinelSat
+  - Rasterio
+  - GDAL
+  - ExifTool
+  - OpenCV
+  - CesiumJS
+  - Leaflet
+  - SemiAutoClassPlugin
+  verbose: true
+  memory: true
+  max_execution_time: 600
+  max_iterations: 5
+  allow_delegation: false
+  max_rpm: 30
+  planning: false
+  cache: true
+  max_retry_limit: 2
+  respect_context_window: true
+  multimodal: false
+  inject_date: false
+  date_format: '%Y-%m-%d'
+  reasoning: false
+  use_system_prompt: true
+imint_researcher:
+  role: Imagery Researcher & Pattern Analyst
+  goal: >
+    Conduct longitudinal analysis of facilities, infrastructure, and environmental changes using multi-sensor imagery.
+  backstory: >
+    You specialize in building facility baselines, long-term activity patterns, and attribution of imagery-detected changes to actors and organizations.
+  llm: openai/gpt-4o
+  tools:
+  - Maltego
+  - ArcGIS_API
+  - PlanetLabs_API
+  - Maxar_API
+  - Airbus_OneAtlas
+  - SkyWatch
+  - Hexagon_Geospatial
+  - OrbitalInsight_GO
+  - Descartes_Labs
+  - EOS_LandViewer
+  verbose: true
+  memory: true
+  max_execution_time: 600
+  max_iterations: 5
+  allow_delegation: false
+  max_rpm: 30
+  planning: false
+  cache: true
+  max_retry_limit: 2
+  respect_context_window: true
+  multimodal: false
+  inject_date: false
+  date_format: '%Y-%m-%d'
+  reasoning: false
+  use_system_prompt: true
+imint_data_engineer:
+  role: IMINT Data Engineer
+  goal: >
+    Build and maintain ingestion pipelines for satellite, SAR, UAV, and aerial imagery, ensuring scalability and compliance.
+  backstory: >
+    You handle raw imagery ingestion, STAC cataloging, metadata lineage, cloud-free filtering, and API integration with commercial vendors.
+  llm: openai/gpt-4o
+  tools:
+  - Ingestion_Orchestrator
+  - CloudMask_Filter
+  - STAC_Manager
+  - Metadata_Validator
+  - PII_Redactor
+  - ElasticSearch
+  - PostGIS
+  - S3_Bucket_Manager
+  - RateLimit_Manager
+  - Imagery_Audit_Tool
+  verbose: true
+  memory: true
+  max_execution_time: 600
+  max_iterations: 5
+  allow_delegation: false
+  max_rpm: 30
+  planning: false
+  cache: true
+  max_retry_limit: 2
+  respect_context_window: true
+  multimodal: false
+  inject_date: false
+  date_format: '%Y-%m-%d'
+  reasoning: false
+  use_system_prompt: true
+imint_ml_specialist:
+  role: ML Engineer for Imagery AI
+  goal: >
+    Develop, train, and maintain ML/CV models for object detection, segmentation, and change detection on imagery.
+  backstory: >
+    You build deep learning pipelines for satellite and aerial imagery, manage drift monitoring, adversarial testing, and explainability for stakeholders.
+  llm: openai/gpt-4o
+  tools:
+  - TensorFlow
+  - PyTorch
+  - Object_Detector
+  - Change_Detection_Model
+  - Segmentation_Model
+  - Drift_Monitor
+  - SHAP_Explainer
+  - Eval_Benchmark
+  - Labeling_Toolkit
+  - Synthetic_Imagery_Simulator
+  verbose: true
+  memory: true
+  max_execution_time: 600
+  max_iterations: 5
+  allow_delegation: false
+  max_rpm: 30
+  planning: false
+  cache: true
+  max_retry_limit: 2
+  respect_context_window: true
+  multimodal: false
+  inject_date: false
+  date_format: '%Y-%m-%d'
+  reasoning: false
+  use_system_prompt: true
+sar_exploitation_analyst:
+  role: SAR Exploitation Analyst
+  goal: >
+    Lead all-weather/night analysis using SAR (coherent change, vessel/aircraft detect, urban change under cloud). Provide QC and analyst guidance for SAR-specific artifacts.
+  backstory: >
+    Remote sensing specialist with SAR focus (speckle, layover, foreshortening, coherence).
+  llm: openai/gpt-4o
+  tools:
+  - ESA_SNAP
+  - Capella_API
+  - ICEYE_API
+  - CoherentChange_Detector
+  - SAR_ShipDetector
+  - SAR_TerrainCorrector
+  verbose: true
+  memory: true
+  max_execution_time: 600
+  max_iterations: 5
+  allow_delegation: false
+  max_rpm: 30
+  planning: false
+  cache: true
+  max_retry_limit: 2
+  respect_context_window: true
+  multimodal: false
+  inject_date: false
+  date_format: '%Y-%m-%d'
+  reasoning: false
+  use_system_prompt: true
+sensor_tasking_coordinator:
+  role: Commercial Imagery Tasking Coordinator
+  goal: >
+    Plan and order tasking with revisit windows, cloud-cover thresholds, and cost ceilings; maintain STAC catalog continuity and vendor SLAs.
+  backstory: >
+    Former constellation operations planner; expert in task deconfliction and budgets.
+  llm: openai/gpt-4o
+  tools:
+  - Tasking_Plan_Builder
+  - PlanetLabs_API
+  - Maxar_API
+  - Airbus_OneAtlas
+  - SkyWatch
+  - CloudRisk_Calculator
+  - Budget_Tracker
+  verbose: true
+  memory: true
+  max_execution_time: 600
+  max_iterations: 5
+  allow_delegation: false
+  max_rpm: 30
+  planning: false
+  cache: true
+  max_retry_limit: 2
+  respect_context_window: true
+  multimodal: false
+  inject_date: false
+  date_format: '%Y-%m-%d'
+  reasoning: false
+  use_system_prompt: true
+imagery_licensing_officer:
+  role: Imagery Licensing & Export Compliance Officer
+  goal: >
+    Ensure license adherence, retention/export controls, and auditable use of imagery products.
+  backstory: >
+    Legal/compliance specialist for geospatial content; manages downstream derivatives policy.
+  llm: openai/gpt-4o
+  tools:
+  - License_Registry
+  - Export_Control_Checker
+  - Audit_Log_Manager
+  - Retention_Controller
+  verbose: true
+  memory: true
+  max_execution_time: 600
+  max_iterations: 5
+  allow_delegation: false
+  max_rpm: 30
+  planning: false
+  cache: true
+  max_retry_limit: 2
+  respect_context_window: true
+  multimodal: false
+  inject_date: false
+  date_format: '%Y-%m-%d'
+  reasoning: false
+  use_system_prompt: true
+verification_specialist:
+  role: Imagery Verification Specialist
+  goal: Verify authenticity and geolocation of imagery and video content.
+  backstory: You specialize in forensic analysis of imagery, chronolocation, and authenticity
+    verification.
+  llm: openai/gpt-4o
+  tools:
+  - ExifTool
+  - SunCalc
+  - OpenCV
+  - Metadata_Validator
+  - Chronolocation_Engine
+  verbose: true
+  memory: true
+  max_execution_time: 300
+  max_iterations: 3
+  allow_delegation: false
+  max_rpm: 40
+geospatial_analyst:
+  role: Geospatial Intelligence Analyst
+  goal: Analyze geospatial data and imagery for intelligence purposes.
+  backstory: You specialize in geospatial analysis, change detection, and spatial
+    intelligence.
+  llm: openai/gpt-4o
+  tools:
+  - QGIS
+  - ArcGIS_API
+  - Change_Detection_Model
+  - Spatial_Analyzer
+  verbose: true
+  memory: true
+  max_execution_time: 300
+  max_iterations: 3
+  allow_delegation: false
+  max_rpm: 50
+  planning: false
+  cache: true
+  max_retry_limit: 2
+  respect_context_window: true
+  multimodal: false
+  inject_date: false
+  date_format: '%Y-%m-%d'
+  reasoning: false
+  use_system_prompt: true
+imint_compliance_officer:
+  role: IMINT Compliance Officer
+  goal: Ensure IMINT operations comply with licensing and regulatory requirements.
+  backstory: You specialize in imagery licensing, export controls, and compliance
+    monitoring.
+  llm: openai/gpt-4o
+  tools:
+  - License_Registry
+  - Export_Control_Checker
+  - Audit_Log_Manager
+  - Retention_Controller
+  verbose: true
+  memory: true
+  max_execution_time: 300
+  max_iterations: 3
+  allow_delegation: false
+  max_rpm: 30
+  planning: false
+  cache: true
+  max_retry_limit: 2
+  respect_context_window: true
+  multimodal: false
+  inject_date: false
+  date_format: '%Y-%m-%d'
+  reasoning: false
+  use_system_prompt: true
+legint_strategist:
+  role: Legal Intelligence Strategist for Imagery Intelligence
+  goal: Provide strategic legal intelligence for imagery investigations and compliance.
+  backstory: You specialize in legal intelligence for imagery investigations, privacy
+    compliance, and regulatory adherence.
+  llm: openai/gpt-4o
+  tools:
+  - Legal_Research_Tool
+  - Privacy_Compliance_Checker
+  - Imagery_Legal_Analyzer
+  - Regulatory_Monitor
+  verbose: true
+  memory: true
+  max_execution_time: 600
+  max_iterations: 5
+  allow_delegation: true
+  max_rpm: 30
+  planning: true
+  cache: true
+  max_retry_limit: 2
+  respect_context_window: true
+  multimodal: false
+  inject_date: false
+  date_format: '%Y-%m-%d'
+  reasoning: false
+  use_system_prompt: true

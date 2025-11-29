@@ -1,0 +1,424 @@
+rfi_launch_analysis:
+  description: 'Investigate rocket launch and attribute payload.
+
+    '
+  trigger: on_demand
+  agent: launch_intelligence_officer
+  inputs:
+    launch_id: str
+  tools:
+  - SatNOGS_oss
+  - HeavensAbove_oss
+  - LeoLabs
+  - ExoAnalytic
+  - Maxar SecureWatch
+  expected_output: '{"launch_id":"XYZ123","payload":"military comsat","attribution":"Nation
+    A"}
+
+    '
+  outputs:
+    report_uri: uri
+    attribution: str
+  governance:
+    legal_basis: open launch feeds
+    chain_of_custody: s3://orbint/coc/{launch_id}.zip
+  sla:
+    turnaround_hours: 6
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+rfi_asat_event_investigation:
+  description: 'Investigate suspected ASAT test or co-orbital hostile maneuver.
+
+    '
+  trigger: on_demand
+  agent: adversarial_space_ops_analyst
+  inputs:
+    event_id: str
+  tools:
+  - CelesTrak_oss
+  - Skyfield_oss
+  - ExoAnalytic
+  - HawkEye360
+  expected_output: '{"event_id":"ASAT2025","assessment":"co-orbital threat","confidence":0.91}
+
+    '
+  outputs:
+    report_uri: uri
+    confidence_score: float
+  governance:
+    legal_basis: open orbital catalogs + commercial SSA
+    chain_of_custody: s3://orbint/coc/{event_id}.zip
+  sla:
+    turnaround_hours: 12
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+rfi_megaconstellation_outage:
+  description: 'Investigate outage or degraded performance in a mega-constellation
+    (Starlink, OneWeb).
+
+    '
+  trigger: on_demand
+  agent: megaconstellation_analyst
+  inputs:
+    constellation: str
+    time_window:
+    - start
+    - end
+  tools:
+  - Skyfield_oss
+  - OrbitPy_oss
+  - LeoLabs
+  - Slingshot Aerospace
+  expected_output: '{"constellation":"Starlink","outage":"regional","duration":"2h"}
+
+    '
+  outputs:
+    outage_report: uri
+  sla:
+    turnaround_hours: 8
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+rfi_space_weather_event:
+  description: 'Assess impact of solar storm or CME on satellites.
+
+    '
+  trigger: on_demand
+  agent: space_weather_analyst
+  inputs:
+    event_time: str
+  tools:
+  - NOAA SWPC
+  - NASA OMNIWeb
+  - ExoAnalytic
+  expected_output: '{"event":"CME","impact":"20 satellites affected","confidence":0.88}
+
+    '
+  outputs:
+    event_report: uri
+  sla:
+    turnaround_hours: 6
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+satellite_tracking:
+  description: 'Track satellites and detect anomalies.
+
+    '
+  cadence: daily
+  agent: orbint_analyst
+  tools:
+  - CelesTrak_oss
+  - SatNOGS_oss
+  - Skyfield_oss
+  - LeoLabs
+  outputs:
+    tracking_report: uri
+  sla:
+    turnaround_hours: 24
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+rf_monitoring:
+  description: 'Detect RF anomalies and spoofing from satellites.
+
+    '
+  cadence: daily
+  agent: rf_orbital_analyst
+  tools:
+  - SatNOGS_oss
+  - GNURadio_oss
+  - HawkEye360
+  - Spire GNSS
+  outputs:
+    rf_report: uri
+  sla:
+    turnaround_hours: 24
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+megaconstellation_tracking:
+  description: 'Track mega-constellation activity for outages, anomalies.
+
+    '
+  cadence: daily
+  agent: megaconstellation_analyst
+  tools:
+  - Skyfield_oss
+  - OrbitPy_oss
+  - LeoLabs
+  - Slingshot Aerospace
+  outputs:
+    constellation_report: uri
+  sla:
+    turnaround_hours: 24
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+space_weather_monitoring:
+  description: 'Monitor Kp index, solar storms, CME alerts.
+
+    '
+  cadence: daily
+  agent: space_weather_analyst
+  tools:
+  - NOAA SWPC
+  - ESA Space Weather DB
+  - NASA OMNIWeb
+  outputs:
+    space_weather_report: uri
+  sla:
+    turnaround_hours: 24
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+crosspillar_alerts:
+  description: 'Correlate orbital anomalies with CYBINT, THREAT_INTEL.
+
+    '
+  cadence: daily
+  agent: crosspillar_ssa_fusion_analyst
+  tools:
+  - Palantir Gotham
+  - OpenCTI_oss
+  - Weaviate_oss
+  outputs:
+    fusion_alerts: uri
+  sla:
+    turnaround_hours: 24
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+ssa_summary:
+  description: 'Weekly SSA report: launches, anomalies, debris.
+
+    '
+  cadence: weekly
+  agent: orbint_analyst
+  tools:
+  - CelesTrak_oss
+  - LeoLabs
+  - ExoAnalytic
+  outputs:
+    ssa_report: uri
+  sla:
+    delivery_hours: 48
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+debris_heatmap:
+  description: 'Weekly orbital debris heatmap.
+
+    '
+  cadence: weekly
+  agent: debris_collision_specialist
+  tools:
+  - Skyfield_oss
+  - OrbitPy_oss
+  - ExoAnalytic
+  outputs:
+    debris_heatmap: uri
+  sla:
+    delivery_hours: 48
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+asat_threat_assessment:
+  description: 'Weekly assessment of hostile ASAT or co-orbital threats.
+
+    '
+  cadence: weekly
+  agent: adversarial_space_ops_analyst
+  tools:
+  - CelesTrak_oss
+  - LeoLabs
+  - HawkEye360
+  - ExoAnalytic
+  outputs:
+    asat_threat_report: uri
+  sla:
+    delivery_hours: 72
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+market_activity_summary:
+  description: 'Weekly commercial satellite launches, leasing, policy.
+
+    '
+  cadence: weekly
+  agent: satellite_market_analyst
+  tools:
+  - ORBIS_BvD
+  - LloydsList
+  - SAP GTS
+  - Airbus OneAtlas
+  outputs:
+    market_summary: uri
+  sla:
+    delivery_hours: 72
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+launch_attribution:
+  description: 'Attribute launches to operators, nations.
+
+    '
+  cadence: monthly
+  agent: launch_intelligence_officer
+  outputs:
+    launch_attribution_report: uri
+  sla:
+    delivery_days: 5
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+crosspillar_orbital_threats:
+  description: 'Correlate orbital anomalies with geopolitical/cyber.
+
+    '
+  cadence: monthly
+  agent: crosspillar_ssa_fusion_analyst
+  outputs:
+    correlation_report: uri
+  sla:
+    delivery_days: 7
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+orbital_infrastructure_risk:
+  description: 'Assess risk to ground stations, launch sites.
+
+    '
+  cadence: monthly
+  agent: satellite_market_analyst
+  outputs:
+    infrastructure_risk_report: uri
+  sla:
+    delivery_days: 7
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+crisis_simulation:
+  description: 'Simulate orbital warfare/ASAT scenarios.
+
+    '
+  cadence: quarterly
+  agent: adversarial_space_ops_analyst
+  outputs:
+    after_action_report: uri
+  sla:
+    exercise_completion: 100%
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+space_weather_resilience_review:
+  description: 'Assess resilience of constellations to space weather.
+
+    '
+  cadence: quarterly
+  agent: space_weather_analyst
+  outputs:
+    resilience_report: uri
+  sla:
+    delivery_days: 10
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+compliance_audit:
+  description: 'Audit ORBINT operations vs ITU, treaties.
+
+    '
+  cadence: quarterly
+  agent: compliance_space_law_officer
+  outputs:
+    compliance_report: uri
+  sla:
+    findings_resolved_days: 30
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+strategy_review:
+  description: 'Review ORBINT strategy, maturity, roadmap.
+
+    '
+  cadence: yearly
+  agent: orbint_analyst
+  outputs:
+    strategy_doc: uri
+  sla:
+    approval_days: 30
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+global_ssa_benchmark:
+  description: 'Benchmark SSA maturity vs NATO, EU SST.
+
+    '
+  cadence: yearly
+  agent: orbint_ml_engineer
+  outputs:
+    benchmark_report: uri
+  sla:
+    delivery_days: 30
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+dualuse_satellite_audit:
+  description: 'Audit commercial satellites for dual-use military potential.
+
+    '
+  cadence: yearly
+  agent: satellite_market_analyst
+  outputs:
+    dualuse_audit_report: uri
+  sla:
+    delivery_days: 30
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3

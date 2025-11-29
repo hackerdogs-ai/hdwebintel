@@ -1,0 +1,210 @@
+epidemiology_analyst:
+  role: Epidemiology & Outbreak Analyst
+  goal: >
+    Monitor and analyze public health outbreak signals, case clusters, and epidemiological curves across open sources, dashboards, and reporting feeds.
+  backstory: >
+    Epidemiologist with field experience in outbreak detection and epidemic intelligence for WHO, CDC, and ECDC.
+  llm: openai/gpt-4o
+  tools:
+  - WHO_Dashboard
+  - CDC_API
+  - ProMED
+  - HealthMap
+  verbose: true
+  memory: true
+  max_execution_time: 600
+  max_iterations: 5
+  allow_delegation: false
+  max_rpm: 30
+  planning: false
+  cache: true
+  max_retry_limit: 2
+  respect_context_window: true
+  multimodal: false
+  inject_date: false
+  date_format: '%Y-%m-%d'
+  reasoning: false
+  use_system_prompt: true
+wastewater_analyst:
+  role: Wastewater Surveillance Analyst
+  goal: >
+    Monitor sewage and wastewater-based epidemiology datasets for early warning of pathogen spread (SARS-CoV-2, Influenza, Polio, AMR markers).
+  backstory: >
+    Specialist in WBE surveillance and qPCR/NGS-based wastewater monitoring.
+  llm: openai/gpt-4o
+  tools:
+  - Biobot_API
+  - GISAID
+  - Local_Wastewater_Dashboards
+  verbose: true
+  memory: true
+  max_execution_time: 600
+  max_iterations: 5
+  allow_delegation: false
+  max_rpm: 30
+  planning: false
+  cache: true
+  max_retry_limit: 2
+  respect_context_window: true
+  multimodal: false
+  inject_date: false
+  date_format: '%Y-%m-%d'
+  reasoning: false
+  use_system_prompt: true
+genomics_specialist:
+  role: Genomic Epidemiology Specialist
+  goal: >
+    Track pathogen variants and mutations through sequencing databases.
+  backstory: >
+    Bioinformatics researcher with experience in GISAID/Nextstrain data.
+  llm: openai/gpt-4o
+  tools:
+  - GISAID
+  - Nextstrain
+  - NCBI_GenBank
+  verbose: true
+  memory: true
+  max_execution_time: 600
+  max_iterations: 5
+  allow_delegation: false
+  max_rpm: 30
+  planning: false
+  cache: true
+  max_retry_limit: 2
+  respect_context_window: true
+  multimodal: false
+  inject_date: false
+  date_format: '%Y-%m-%d'
+  reasoning: false
+  use_system_prompt: true
+supply_chain_specialist:
+  role: Medical Supply Chain Intelligence Officer
+  goal: >
+    Monitor risks to pharmaceutical, diagnostic, and PPE supply chains.
+  backstory: >
+    Analyst with background in pharmaceutical logistics, procurement, and BARDA readiness frameworks.
+  llm: openai/gpt-4o
+  tools:
+  - PharmaWatch
+  - ImportExport_API
+  - WHO_EML
+  verbose: true
+  memory: true
+  max_execution_time: 600
+  max_iterations: 5
+  allow_delegation: false
+  max_rpm: 30
+  planning: false
+  cache: true
+  max_retry_limit: 2
+  respect_context_window: true
+  multimodal: false
+  inject_date: false
+  date_format: '%Y-%m-%d'
+  reasoning: false
+  use_system_prompt: true
+environmental_health_analyst:
+  role: Environmental & Climate-Health Analyst
+  goal: >
+    Monitor and assess health impacts of environmental hazards (smoke plumes, chemical releases, water contamination, floods, heatwaves).
+  backstory: >
+    Environmental epidemiologist with expertise in air/water monitoring and WHO environmental health guidelines.
+  llm: openai/gpt-4o
+  tools:
+  - OpenAQ_API
+  - EPA_ECHO
+  - Copernicus_Atmos
+  - Water_Quality_API
+  verbose: true
+  memory: true
+  max_execution_time: 600
+  max_iterations: 5
+  allow_delegation: false
+  max_rpm: 30
+  planning: false
+  cache: true
+  max_retry_limit: 2
+  respect_context_window: true
+  multimodal: false
+  inject_date: false
+  date_format: '%Y-%m-%d'
+  reasoning: false
+  use_system_prompt: true
+health_misinfo_analyst:
+  role: Health Misinformation Analyst
+  goal: >
+    Detect, verify, and counter health-related misinformation and disinformation.
+  backstory: >
+    SOCMINT and communications expert monitoring Telegram/FB/YouTube for health rumors and coordinating debunk campaigns.
+  llm: openai/gpt-4o
+  tools:
+  - RumorTracker
+  - Media_Verification
+  - Hoaxy
+  verbose: true
+  memory: true
+  max_execution_time: 600
+  max_iterations: 5
+  allow_delegation: false
+  max_rpm: 30
+  planning: false
+  cache: true
+  max_retry_limit: 2
+  respect_context_window: true
+  multimodal: false
+  inject_date: false
+  date_format: '%Y-%m-%d'
+  reasoning: false
+  use_system_prompt: true
+medint_compliance_officer:
+  role: MEDINT Compliance & Legal Officer
+  goal: >
+    Ensure all MEDINT activities comply with HIPAA, GDPR, ToS/licensing, and DPIA requirements, and manage evidence chain-of-custody.
+  backstory: >
+    Legal advisor with experience in IRBs, health privacy frameworks, and global health data-sharing agreements.
+  llm: openai/gpt-4o
+  tools:
+  - DPIA_Checklist
+  - Audit_Log_Manager
+  - Policy_Registry
+  verbose: true
+  memory: true
+  max_execution_time: 600
+  max_iterations: 5
+  allow_delegation: false
+  max_rpm: 30
+  planning: false
+  cache: true
+  max_retry_limit: 2
+  respect_context_window: true
+  multimodal: false
+  inject_date: false
+  date_format: '%Y-%m-%d'
+  reasoning: false
+  use_system_prompt: true
+legint_strategist:
+  role: Legal Intelligence Strategist for Medical Intelligence
+  goal: Provide strategic legal intelligence for medical investigations and compliance.
+  backstory: You specialize in legal intelligence for medical investigations, privacy
+    compliance, and regulatory adherence.
+  llm: openai/gpt-4o
+  tools:
+  - Legal_Research_Tool
+  - Privacy_Compliance_Checker
+  - Medical_Legal_Analyzer
+  - Regulatory_Monitor
+  verbose: true
+  memory: true
+  max_execution_time: 600
+  max_iterations: 5
+  allow_delegation: true
+  max_rpm: 30
+  planning: true
+  cache: true
+  max_retry_limit: 2
+  respect_context_window: true
+  multimodal: false
+  inject_date: false
+  date_format: '%Y-%m-%d'
+  reasoning: false
+  use_system_prompt: true

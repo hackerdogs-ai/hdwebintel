@@ -1,0 +1,532 @@
+rfi_ioc_enrichment:
+  description: >
+    Enrich a submitted IOC (domain/IP/hash/email) with WHOIS, CT logs, pDNS/Netflow context, sandbox links, actor/campaign ties, and risk scoring.
+  expected_output: "{\"ioc\":\"evil-login[.]com\",\"type\":\"domain\",\"related_iocs\"\
+    :[\"1.2.3.4\",\"abcd...\"],\n \"actor_links\":[\"APT29\"],\"risk_score\":0.92,\"\
+    att&ck\":[\"T1566\",\"T1071\"],\n \"risk_rationale\":[\"brand_distance>0.9\",\"\
+    c2_cert_reuse\",\"sandbox_http_beacon\"],\n \"legal_basis\":\"public WHOIS/CT/pDNS;\
+    \ licensed datasets\",\n \"privacy_minimization\":\"contacts hashed; 365d retention\
+    \ cap\",\n \"chain_of_custody\":\"s3://cybint/coc/ioc_001.pdf\",\"evidence_hash\"\
+    :\"SHA256:...\",\"report_uri\":\"s3://cybint/reports/ioc_001.pdf\"}\n"
+  agent: cyber_threat_analyst
+  output_file: output/rfi_ioc_enrichment.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+rfi_malware_analysis:
+  description: >
+    Static/dynamic analysis of a submitted sample; extract IOCs, map MITRE ATT&CK, and produce YARA/Sigma rules with confidence and limitations.
+  expected_output: "{\"sample_sha256\":\"...\",\"family\":\"QakBot\",\"iocs\":[\"\
+    c2[.]bad\",\"5.6.7.8\"],\n \"att&ck\":[\"T1059\",\"T1105\"],\"yara_rule\":\"rule\
+    \ QakBot {...}\",\n \"sigma_rules\":[\"title: QakBot process tree ...\"],\"confidence\"\
+    :0.95,\n \"chain_of_custody\":\"s3://cybint/coc/malware_042.pdf\",\"evidence_hash\"\
+    :\"SHA256:...\",\"report_uri\":\"s3://cybint/reports/malware_042.pdf\"}\n"
+  agent: malware_researcher
+  output_file: output/rfi_malware_analysis.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+rfi_zero_day_triage:
+  description: >
+    Rapid triage of suspected zero-day/exploit in the wild; collect PoCs, detections, mitigations, and initial risk guidance.
+  expected_output: "{\"cve\":\"CVE-2025-XXXX\",\"exploit_evidence\":\"forum_links\"\
+    ,\"affected_products\":[\"VendorX v1.2\"],\n \"recommended_mitigations\":[\"disable_feature_x\"\
+    ,\"ips_rule_y\"],\"confidence\":0.8,\n \"att&ck\":[\"T1190\"],\"report_uri\":\"\
+    s3://cybint/reports/0day_triage.pdf\"}\n"
+  agent: vuln_intel_analyst
+  output_file: output/rfi_zero_day_triage.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+rfi_secret_exposure_case:
+  description: >
+    Investigate suspected exposed secrets/tokens; confirm validity and propose containment steps.
+  expected_output: "{\"repo\":\"github.com/org/repo\",\"secrets_found\":7,\"validated\"\
+    :5,\n \"revocation_status\":\"in_progress\",\"owner_contacted\":true,\n \"report_uri\"\
+    :\"s3://cybint/reports/secret_exposure_019.pdf\"}\n"
+  agent: secret_exposure_analyst
+  output_file: output/rfi_secret_exposure_case.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+daily_feed_ingestion_normalize:
+  description: >
+    Ingest and normalize vendor + OSS feeds; deduplicate, deconflict, and tag with confidence.
+  expected_output: "{\"iocs_ingested\":5400,\"dedup_rate\":0.32,\"enrichment_success\"\
+    :0.92,\n \"stix_uri\":\"s3://cybint/daily/ingested_iocs.stix\",\"model_version\"\
+    :\"ioc_score_v2.3\"}\n"
+  agent: ti_integrations_engineer
+  output_file: output/daily_feed_ingestion_normalize.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+daily_taxii_publish:
+  description: >
+    Publish curated STIX 2.1 packages to TIP/SIEM via TAXII; verify delivery and ingestion ACKs.
+  expected_output: "{\"objects_published\":2100,\"destinations\":[\"OpenCTI\",\"MISP\"\
+    ,\"Splunk_TI\"],\n \"delivery_ok\":0.99,\"ack_ok\":0.98,\"publish_report\":\"\
+    s3://cybint/daily/taxii_publish.pdf\"}\n"
+  agent: ti_integrations_engineer
+  output_file: output/daily_taxii_publish.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+daily_malware_sandbox_watch:
+  description: >
+    Process new sandbox runs; cluster by family; flag detection gaps and urgent TTPs.
+  expected_output: "{\"samples_analyzed\":135,\"families\":[\"AgentTesla\",\"QakBot\"\
+    ],\"new_ttps\":[\"T1567\"],\n \"detection_gaps\":4,\"sandbox_feed\":\"s3://cybint/daily/sandbox.json\"\
+    }\n"
+  agent: malware_researcher
+  output_file: output/daily_malware_sandbox_watch.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+daily_darkweb_exposure_scan:
+  description: >
+    Scan underground forums/paste sites for org mentions, credentials, and exploit chatter.
+  expected_output: "{\"new_mentions\":64,\"credential_hits\":18,\"exploit_threads\"\
+    :6,\n \"exposure_feed\":\"s3://cybint/daily/darkweb.json\"}\n"
+  agent: cyber_threat_analyst
+  output_file: output/daily_darkweb_exposure_scan.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+daily_secret_exposure_scan:
+  description: >
+    Scan GitHub/GitLab and paste sites for exposed secrets (API keys, tokens).
+  expected_output: "{\"new_secrets_detected\":15,\"cloud_keys\":4,\"api_keys\":11,\n\
+    \ \"ttd_hours\":2,\"report_uri\":\"s3://cyberint/daily/secret_exposures.pdf\"\
+    }\n"
+  agent: secret_exposure_analyst
+  output_file: output/daily_secret_exposure_scan.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+weekly_campaign_tracking:
+  description: >
+    Correlate IOCs/infra/malware into campaign clusters; map to ATT&CK; assign attribution confidence.
+  expected_output: "{\"clusters\":7,\"campaigns\":[\"RansomGroupX ops\",\"APT-Y spearphish\"\
+    ],\n \"att&ck\":[\"T1566\",\"T1071\",\"T1105\"],\"navigator_layer\":\"s3://cybint/weekly/campaign_layer.json\"\
+    ,\n \"graph_uri\":\"s3://cybint/weekly/campaign_graph.json\",\"attribution_confidence\"\
+    :0.82}\n"
+  agent: cyber_threat_analyst
+  output_file: output/weekly_campaign_tracking.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+weekly_vuln_exploit_monitoring:
+  description: >
+    Track CVEs with exploitation evidence (CISA KEV, EPSS>0.7, exploit kits) and prioritize remediation.
+  expected_output: "{\"exploited_cves\":[{\"cve\":\"CVE-2025-1111\",\"epss\":0.91,\"\
+    kev\":true}],\n \"prioritized_actions\":[\"patch_CVE-2025-1111\",\"isolate_service_x\"\
+    ],\n \"report_uri\":\"s3://cybint/weekly/vuln_exploit.pdf\"}\n"
+  agent: vuln_intel_analyst
+  output_file: output/weekly_vuln_exploit_monitoring.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+weekly_hunt_pack_release:
+  description: >
+    Create ATT&CK-aligned hunting packs (queries + Sigma/YARA) and push to SIEM/EDR for validation.
+  expected_output: "{\"hunt_pack_uri\":\"s3://cybint/weekly/hunt_pack.zip\",\n \"\
+    navigator_layer\":\"s3://cybint/weekly/hunt_layer.json\",\"validation_hits\":47}\n"
+  agent: threat_hunter
+  output_file: output/weekly_hunt_pack_release.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+weekly_ioc_efficacy_review:
+  description: >
+    Measure SIEM/EDR hits, false positives, and missed detections for published IOCs; suggest tuning and retirements.
+  expected_output: "{\"iocs_tested\":3800,\"hit_rate\":0.66,\"false_positive_rate\"\
+    :0.14,\"retire_list\":38,\n \"report_uri\":\"s3://cybint/weekly/ioc_efficacy.pdf\"\
+    }\n"
+  agent: ti_integrations_engineer
+  output_file: output/weekly_ioc_efficacy_review.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+weekly_supply_chain_monitoring:
+  description: >
+    Monitor open-source dependencies and SBOMs for malicious packages or compromises.
+  expected_output: "{\"week\":\"2025-W10\",\"packages_flagged\":6,\"malicious_commits\"\
+    :2,\n \"report_uri\":\"s3://cyberint/weekly/supply_chain_monitoring.pdf\"}\n"
+  agent: supply_chain_analyst
+  output_file: output/weekly_supply_chain_monitoring.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+monthly_threat_landscape:
+  description: >
+    Consolidate actors/campaigns/malware/vulns into an executive-ready threat landscape report.
+  expected_output: "{\"month\":\"2025-09\",\"top_threats\":[\"ransomware\",\"data_extortion\"\
+    ],\n \"risk_score\":0.78,\"landscape_uri\":\"s3://cybint/monthly/landscape.pdf\"\
+    }\n"
+  agent: cybint_strategist
+  output_file: output/monthly_threat_landscape.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+monthly_detection_tuning:
+  description: >
+    Tune YARA/Sigma/Suricata rules based on field feedback, FP/FN rates, and model drift.
+  expected_output: "{\"tuned_rules\":22,\"retired_rules\":7,\"precision\":0.93,\"\
+    recall\":0.88,\n \"report_uri\":\"s3://cybint/monthly/detection_tuning.pdf\"}\n"
+  agent: threat_hunter
+  output_file: output/monthly_detection_tuning.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+monthly_program_kpis:
+  description: >
+    Aggregate program KPIs (IOC coverage, SIEM match rate, FP rate, time-to-detect, vendor SLA).
+  expected_output: "{\"ioc_enrichment_coverage\":0.91,\"siem_match_rate\":0.71,\"\
+    fp_rate\":0.13,\"mttd_hours_p50\":0.9,\n \"vendor_sla_ok\":0.97,\"kpi_brief_uri\"\
+    :\"s3://cybint/monthly/kpis.pdf\"}\n"
+  agent: cybint_strategist
+  output_file: output/monthly_program_kpis.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+quarterly_exec_brief:
+  description: >
+    Deliver executive briefing on cyber threat landscape and enterprise exposure.
+  expected_output: "{\"quarter\":\"Q3-2025\",\"threat_trends\":[\"ransomware\",\"\
+    phishing\"],\n \"risk_score\":0.78,\"decisions_influenced\":4,\n \"deck_uri\"\
+    :\"s3://cyberint/quarterly/exec_brief.pptx\"}\n"
+  agent: cybint_strategist
+  output_file: output/quarterly_exec_brief.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+quarterly_tabletop_exercise:
+  description: >
+    Run a tabletop (ransomware/phishing/zero-day) with SOC/IR/Legal/PR; capture lessons learned.
+  expected_output: "{\"scenario\":\"ransomware\",\"lead_time_improvement\":0.22,\n\
+    \ \"after_action_uri\":\"s3://cybint/quarterly/tabletop_aars.pdf\"}\n"
+  agent: cybint_strategist
+  output_file: output/quarterly_tabletop_exercise.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+quarterly_compliance_audit:
+  description: >
+    Audit evidence packs, chain-of-custody, retention, and ToS compliance across sources.
+  expected_output: "{\"issues_found\":1,\"issues_resolved\":1,\"audit_pass_rate\"\
+    :1.0,\n \"audit_report_uri\":\"s3://cybint/quarterly/compliance_audit.pdf\"}\n"
+  agent: cybint_strategist
+  output_file: output/quarterly_compliance_audit.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+yearly_strategy_review:
+  description: >
+    Full strategy refresh: vendor coverage, budget, capability maturity, roadmap.
+  expected_output: "{\"year\":2025,\"maturity_score\":0.84,\"budget_usd\":2200000,\n\
+    \ \"strategy_doc_uri\":\"s3://cybint/yearly/strategy.pdf\"}\n"
+  agent: cybint_strategist
+  output_file: output/yearly_strategy_review.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+yearly_attck_coverage_audit:
+  description: >
+    Audit ATT&CK technique coverage across hunts, detections, and intel outputs; produce Navigator layer and remediation plan.
+  expected_output: "{\"coverage_score\":0.88,\"techniques_mapped\":236,\n \"navigator_layer\"\
+    :\"s3://cybint/yearly/attck_coverage.json\",\n \"audit_uri\":\"s3://cybint/yearly/attck_audit.pdf\"\
+    }\n"
+  agent: threat_hunter
+  output_file: output/yearly_attck_coverage_audit.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+rfi_credential_leak_check:
+  description: >
+    Investigate suspected leaked corporate/user credentials across paste sites, Telegram channels, and stealer logs.
+  expected_output: "{\"entity\":\"user@corp.com\",\"leak_sources\":[\"Pastebin\",\"\
+    BreachForums\"],\n \"time_to_detect_hours\":2,\"confidence\":0.92,\"att&ck_techniques\"\
+    :[\"T1078\"],\n \"report_uri\":\"s3://cyberint/reports/credential_leak_check.pdf\"\
+    }\n"
+  agent: cybint_strategist
+  output_file: output/rfi_credential_leak_check.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+rfi_darkweb_actor_profile:
+  description: >
+    Build an actor profile from dark web chatter, forums, and ransomware posts.
+  expected_output: "{\"actor_handle\":\"DarkPhoenix\",\"forums\":[\"XSS\",\"Exploit\"\
+    ],\n \"associated_ransomware\":\"LockBit\",\"confidence\":0.89,\n \"att&ck_techniques\"\
+    :[\"T1589\",\"T1585\"],\n \"report_uri\":\"s3://cyberint/reports/actor_profile_darkphoenix.pdf\"\
+    }\n"
+  agent: cybint_strategist
+  output_file: output/rfi_darkweb_actor_profile.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+rfi_phishing_domain_investigation:
+  description: >
+    Investigate a suspicious phishing domain/kit and generate evidence pack.
+  expected_output: "{\"domain\":\"secure-login-apple.com\",\"kit_detected\":true,\"\
+    related_ips\":[\"1.2.3.4\"],\n \"confidence\":0.95,\"att&ck_techniques\":[\"T1566\"\
+    ],\n \"report_uri\":\"s3://cyberint/reports/phishing_domain_case.pdf\"}\n"
+  agent: cybint_strategist
+  output_file: output/rfi_phishing_domain_investigation.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+rfi_malware_sample_analysis:
+  description: >
+    Analyze a submitted malware sample, extract IOCs, and generate YARA/Sigma rules.
+  expected_output: "{\"sample_sha256\":\"abcd1234...\",\"iocs\":[\"8.8.8.8\",\"malware.com\"\
+    ],\n \"rules\":[\"yara_rule1\",\"sigma_rule1\"],\"confidence\":0.93,\n \"att&ck_techniques\"\
+    :[\"T1055\",\"T1105\"],\n \"report_uri\":\"s3://cyberint/reports/malware_analysis_abcd1234.pdf\"\
+    }\n"
+  agent: malware_researcher
+  output_file: output/rfi_malware_sample_analysis.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+rfi_ransomware_leak_check:
+  description: >
+    Investigate a ransomware leak site for specific victim data.
+  expected_output: "{\"victim\":\"AcmeCorp\",\"leak_site\":\"LockBit\",\"files_leaked\"\
+    :true,\n \"confidence\":0.9,\"att&ck_techniques\":[\"T1486\"],\n \"report_uri\"\
+    :\"s3://cyberint/reports/ransomware_leak_acmecorp.pdf\"}\n"
+  agent: cybint_strategist
+  output_file: output/rfi_ransomware_leak_check.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+daily_credential_monitoring:
+  description: >
+    Monitor paste sites, forums, and stealer logs for new credential leaks.
+  expected_output: "{\"new_credentials_detected\":523,\"matched_to_corp\":47,\n \"\
+    mean_ttd_hours\":3,\"report_uri\":\"s3://cyberint/daily/credential_leaks.pdf\"\
+    }\n"
+  agent: cybint_strategist
+  output_file: output/daily_credential_monitoring.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+daily_ioc_ingestion:
+  description: >
+    Ingest new IOCs (IPs, domains, hashes) from OSINT sources and normalize into STIX/TAXII.
+  expected_output: "{\"iocs_ingested\":1250,\"normalized_pct\":0.96,\"deduplication_rate\"\
+    :0.91,\n \"report_uri\":\"s3://cyberint/daily/ioc_ingestion.pdf\"}\n"
+  agent: cybint_strategist
+  output_file: output/daily_ioc_ingestion.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+daily_phishing_detection:
+  description: >
+    Detect and track new phishing domains targeting enterprise brands.
+  expected_output: "{\"new_domains_detected\":32,\"takedown_requests\":28,\n \"precision\"\
+    :0.88,\"report_uri\":\"s3://cyberint/daily/phishing_report.pdf\"}\n"
+  agent: cybint_strategist
+  output_file: output/daily_phishing_detection.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+weekly_darkweb_activity_report:
+  description: >
+    Summarize dark web chatter, ransomware posts, and IAB activity.
+  expected_output: "{\"week\":\"2025-W10\",\"new_actors\":12,\"ransomware_victims\"\
+    :34,\n \"forums_tracked\":18,\"report_uri\":\"s3://cyberint/weekly/darkweb_activity.pdf\"\
+    }\n"
+  agent: cybint_strategist
+  output_file: output/weekly_darkweb_activity_report.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+weekly_threat_actor_campaigns:
+  description: >
+    Generate summary of active threat actor campaigns and MITRE ATT&CK mapping.
+  expected_output: "{\"week\":\"2025-W10\",\"campaigns_tracked\":7,\"new_ttps\":[\"\
+    T1566\",\"T1071\"],\n \"report_uri\":\"s3://cyberint/weekly/actor_campaigns.pdf\"\
+    }\n"
+  agent: cybint_strategist
+  output_file: output/weekly_threat_actor_campaigns.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+weekly_malware_family_update:
+  description: >
+    Update malware family knowledgebase with newly observed variants.
+  expected_output: "{\"week\":\"2025-W10\",\"new_families\":3,\"rules_added\":14,\n\
+    \ \"report_uri\":\"s3://cyberint/weekly/malware_update.pdf\"}\n"
+  agent: malware_researcher
+  output_file: output/weekly_malware_family_update.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+monthly_phishing_trends:
+  description: >
+    Analyze phishing kit trends, domains, and hosting infrastructure.
+  expected_output: "{\"month\":\"2025-08\",\"kits_detected\":72,\"infra_patterns\"\
+    :[\"AWS\",\"OVH\"],\n \"report_uri\":\"s3://cyberint/monthly/phishing_trends.pdf\"\
+    }\n"
+  agent: cybint_strategist
+  output_file: output/monthly_phishing_trends.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+monthly_malware_ttp_report:
+  description: >
+    Provide deep-dive report on malware TTPs with YARA/Sigma validation metrics.
+  expected_output: "{\"month\":\"2025-08\",\"families_analyzed\":12,\"new_rules\"\
+    :25,\n \"rule_precision\":0.91,\"report_uri\":\"s3://cyberint/monthly/malware_ttp.pdf\"\
+    }\n"
+  agent: malware_researcher
+  output_file: output/monthly_malware_ttp_report.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+monthly_leak_exposure_mapping:
+  description: >
+    Map corporate data exposure across ransomware leaks and GitHub/paste sites.
+  expected_output: "{\"month\":\"2025-08\",\"repos_flagged\":4,\"victim_mentions\"\
+    :11,\n \"report_uri\":\"s3://cyberint/monthly/leak_mapping.pdf\"}\n"
+  agent: cybint_strategist
+  output_file: output/monthly_leak_exposure_mapping.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+monthly_ioc_efficacy_review:
+  description: >
+    Measure IOC detection efficacy in SIEM/SOAR; track hits, misses, and false positives.
+  expected_output: "{\"month\":\"2025-08\",\"iocs_tested\":1845,\"hit_rate\":0.64,\n\
+    \ \"false_positive_rate\":0.21,\"report_uri\":\"s3://cyberint/monthly/ioc_efficacy.pdf\"\
+    }\n"
+  agent: cybint_strategist
+  output_file: output/monthly_ioc_efficacy_review.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+quarterly_red_team_simulation:
+  description: >
+    Conduct red team simulation using harvested IOCs, phishing domains, and malware samples.
+  expected_output: "{\"scenario\":\"phishing-led APT\",\"detection_rate\":0.84,\n\
+    \ \"time_to_detect_hours\":6,\"report_uri\":\"s3://cyberint/quarterly/red_team.pdf\"\
+    }\n"
+  agent: ti_integrations_engineer
+  output_file: output/quarterly_red_team_simulation.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+quarterly_pipeline_audit:
+  description: >
+    Audit CTI ingestion pipelines for uptime, deduplication, and schema compliance.
+  expected_output: "{\"uptime_pct\":0.995,\"deduplication_rate\":0.93,\"schema_errors\"\
+    :2,\n \"report_uri\":\"s3://cyberint/quarterly/pipeline_audit.pdf\"}\n"
+  agent: cybint_strategist
+  output_file: output/quarterly_pipeline_audit.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+yearly_threat_landscape_review:
+  description: >
+    Provide global cyber threat landscape review with ATT&CK framework trends.
+  expected_output: "{\"year\":2025,\"top_threats\":[\"ransomware\",\"APT phishing\"\
+    ,\"data extortion\"],\n \"campaigns_analyzed\":44,\"report_uri\":\"s3://cyberint/yearly/threat_landscape.pdf\"\
+    }\n"
+  agent: cybint_strategist
+  output_file: output/yearly_threat_landscape_review.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+yearly_vendor_strategy_review:
+  description: >
+    Review vendor ecosystem, threat intel subscriptions, and capability roadmap.
+  expected_output: "{\"year\":2025,\"vendors_evaluated\":14,\"preferred_vendors\"\
+    :[\"RecordedFuture\",\"Intel471\"],\n \"roadmap_maturity_score\":0.82,\"report_uri\"\
+    :\"s3://cyberint/yearly/vendor_review.pdf\"}\n"
+  agent: cybint_strategist
+  output_file: output/yearly_vendor_strategy_review.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3

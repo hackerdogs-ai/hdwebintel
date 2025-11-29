@@ -1,0 +1,173 @@
+endpoint_policy_definition_task:
+  description: >
+    Define endpoint security policies including EPP–EDR–XDR coverage, patch SLAs,
+    CIS hardening baselines, application allowlisting, PAM enforcement, and DLP monitoring.
+    Use Endpoint Security Policy Generator and Compliance Framework Tool.
+  expected_output: >
+    A JSON object with endpoint policy definitions.
+    Example: {"policy":"Endpoint Security","edr":"mandatory","patch_sla":"7 days","pam":"required","dlp":"enabled"}
+  agent: endpoint_strategist
+  output_file: output/endpoint_policy.json
+
+endpoint_hardening_task:
+  description: >
+    Enforce OS/application hardening (CIS/NIST baselines).
+    Use Hardening Baseline Tool and Endpoint Configuration Manager.
+  expected_output: >
+    A JSON object with hardening results.
+    Example: {"devices_checked":1200,"compliant":1150,"violations":["USB autorun enabled"]}
+  agent: endpoint_engineer
+  output_file: output/endpoint_hardening.json
+
+epp_xdr_integration_task:
+  description: >
+    Integrate Endpoint Protection Platform (EPP) with EDR/XDR and SIEM Tool.
+    Correlate AV, EDR, and network telemetry for unified visibility.
+  expected_output: >
+    A JSON object with EPP–XDR integration status.
+    Example: {"devices":1500,"edr_coverage":98,"epp_events_ingested":12000,"xdr_correlated":98}
+  agent: endpoint_engineer
+  output_file: output/epp_xdr.json
+
+edr_xdr_monitoring_task:
+  description: >
+    Monitor EDR/XDR for endpoint threats (malware, ransomware, persistence techniques).
+    Escalate confirmed threats to SOC.
+  expected_output: >
+    A JSON object with endpoint detections.
+    Example: {"alerts":300,"critical":["ransomware on laptop123"],"escalated":12}
+  agent: endpoint_engineer
+  output_file: output/edr_xdr.json
+
+patch_compliance_task:
+  description: >
+    Enforce patch SLAs using Patch Management Tool.
+    Validate compliance with SIEM and endpoint scans.
+  expected_output: >
+    A JSON object with patch status.
+    Example: {"devices":1500,"patched":1450,"overdue":50}
+  agent: endpoint_engineer
+  output_file: output/patch.json
+
+application_control_task:
+  description: >
+    Enforce application allowlisting/denylisting with Application Control Tool.
+    Block unauthorized executables and scripts.
+  expected_output: >
+    A JSON object with application control metrics.
+    Example: {"devices":800,"blocked_apps":["malware.exe","shadowIT_tool"],"compliance":97}
+  agent: endpoint_engineer
+  output_file: output/app_control.json
+
+mobile_device_management_task:
+  description: >
+    Enforce mobile security policies via MDM Tool.
+    Require encryption, enforce MFA, block rooted/jailbroken devices.
+  expected_output: >
+    A JSON object with MDM results.
+    Example: {"devices":800,"non_compliant":23,"remote_wipes":2}
+  agent: endpoint_engineer
+  output_file: output/mdm.json
+
+endpoint_deception_task:
+  description: >
+    Deploy deception artifacts (decoy files, honeytokens, fake credentials).
+    Use Endpoint Deception Tool to detect malicious insider or attacker activity.
+  expected_output: >
+    A JSON object with deception alerts.
+    Example: {"decoys_deployed":5000,"alerts":["decoy.doc opened on laptop42"],"escalated":3}
+  agent: endpoint_engineer
+  output_file: output/deception.json
+
+data_loss_prevention_task:
+  description: >
+    Enforce DLP rules via DLP Agent.
+    Monitor and block sensitive data exfiltration attempts over USB, email, or cloud.
+  expected_output: >
+    A JSON object with DLP metrics.
+    Example: {"violations":["SSN exfil attempt"],"blocked":5,"false_positives":1}
+  agent: endpoint_engineer
+  output_file: output/dlp.json
+
+endpoint_pam_task:
+  description: >
+    Manage endpoint local admin privileges via PAM Agent Tool.
+    Enforce just-in-time access and log privileged actions.
+  expected_output: >
+    A JSON object with PAM enforcement.
+    Example: {"devices":600,"jit_sessions":30,"blocked_admins":12}
+  agent: endpoint_engineer
+  output_file: output/pam.json
+
+endpoint_isolation_task:
+  description: >
+    Provide isolated workspaces (browser isolation, VDI sandboxes) for high-risk users.
+    Use Isolation Workspace Tool.
+  expected_output: >
+    A JSON object with isolation activity.
+    Example: {"isolated_users":50,"sessions":200,"malware_contained":3}
+  agent: endpoint_engineer
+  output_file: output/isolation.json
+
+endpoint_config_drift_task:
+  description: >
+    Detect endpoint drift from baselines (firewall, AV, encryption).
+    Use Endpoint Configuration Manager.
+  expected_output: >
+    A JSON object with drift findings.
+    Example: {"devices":800,"drifted":["laptop42"],"action":"rollback baseline"}
+  agent: endpoint_engineer
+  output_file: output/endpoint_drift.json
+
+endpoint_threat_hunting_task:
+  description: >
+    Hunt for advanced threats on endpoints using Sysmon, EDR logs, and SIEM.
+    Look for persistence, credential theft, and lateral movement.
+  expected_output: >
+    A JSON object with hunting results.
+    Example: {"hunts":5,"findings":["Mimikatz on server12"],"escalated":2}
+  agent: endpoint_engineer
+  output_file: output/endpoint_hunting.json
+
+insider_risk_detection_task:
+  description: >
+    Monitor endpoint behavior for insider risks using Insider Risk Analytics Tool.
+    Detect abnormal file access, privilege misuse, or unusual working hours.
+  expected_output: >
+    A JSON object with insider risk alerts.
+    Example: {"users_flagged":["employee123"],"alerts":["large file transfers 2AM"],"escalated":1}
+  agent: endpoint_engineer
+  output_file: output/insider_risk.json
+
+iot_endpoint_security_task:
+  description: >
+    Extend endpoint security controls to IoT/OT devices using IoT/OT Endpoint Security Tool.
+    Validate patching, firmware, and network segmentation compliance.
+  expected_output: >
+    A JSON object with IoT/OT endpoint posture.
+    Example: {"devices":400,"patched":380,"vulnerable":["iot_camera42"]}
+  agent: endpoint_engineer
+  output_file: output/iot.json
+
+endpoint_audit_task:
+  description: >
+    Audit endpoint posture quarterly using Audit Checklist Tool and Compliance Mapping Tool.
+    Validate patching, EDR/XDR, PAM, DLP, application control, and deception coverage.
+  expected_output: >
+    A JSON object with audit findings.
+    Example: {"score":90,"findings":["15 laptops unpatched","MDM non-compliance"],"remediations":["enforce patching","mandatory MDM"]}
+  agent: endpoint_auditor
+  context: [patch_compliance_task, application_control_task, endpoint_pam_task, data_loss_prevention_task]
+  output_file: output/endpoint_audit.json
+
+endpoint_metrics_reporting_task:
+  description: >
+    Generate endpoint KPIs with Reporting Dashboard Tool.
+    Include patching, EDR detection rate, PAM sessions, DLP violations, insider risk alerts,
+    IoT/OT security posture, and audit scores.
+  expected_output: >
+    A JSON object with endpoint KPIs.
+    Example: {"patch_compliance":97,"edr_rate":99,"pam_usage":30,"dlp_violations":12,"insider_alerts":5,"iot_coverage":92}
+  agent: endpoint_auditor
+  context: [endpoint_audit_task, insider_risk_detection_task, iot_endpoint_security_task]
+  output_file: output/endpoint_metrics.json

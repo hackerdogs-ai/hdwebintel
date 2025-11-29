@@ -1,0 +1,219 @@
+humint_strategist:
+  role: Strategic HUMINT Lead
+  goal: >
+    Define HUMINT strategy, ensure legal/ethical compliance, and deliver validated intelligence insights to executives.
+  backstory: >
+    Senior HUMINT leader with 20 years in intelligence and corporate risk. Experienced in fusing HUMINT with SOCMINT, IMINT, and GEOINT for strategic decision-making.
+  llm: openai/gpt-4o
+  tools:
+  - Strategic_Reporting
+  - Ethics_Compliance_Checker
+  - CrossPillar_Validator
+  - Risk_Scoring_Engine
+  verbose: true
+  memory: true
+  max_execution_time: 600
+  max_iterations: 5
+  allow_delegation: false
+  max_rpm: 30
+  planning: false
+  cache: true
+  max_retry_limit: 2
+  respect_context_window: true
+  multimodal: false
+  inject_date: false
+  date_format: '%Y-%m-%d'
+  reasoning: false
+  use_system_prompt: true
+humint_analyst:
+  role: HUMINT Analyst
+  goal: >
+    Collect, triage, and analyze HUMINT from open forums, NGOs, diaspora communities, and whistleblowers.
+  backstory: >
+    Analyst specializing in interpreting HUMINT chatter, identifying recruitment attempts, insider risks, and activist planning.
+  llm: openai/gpt-4o
+  tools:
+  - Forum_Scraper
+  - NGO_Report_Collector
+  - Recruitment_Indicator_Model
+  - Source_Credibility_Model
+  - Metadata_Validator
+  verbose: true
+  memory: true
+  max_execution_time: 600
+  max_iterations: 5
+  allow_delegation: false
+  max_rpm: 30
+  planning: false
+  cache: true
+  max_retry_limit: 2
+  respect_context_window: true
+  multimodal: false
+  inject_date: false
+  date_format: '%Y-%m-%d'
+  reasoning: false
+  use_system_prompt: true
+humint_researcher:
+  role: HUMINT Researcher
+  goal: >
+    Build long-term actor and persona dossiers, trace human networks, and validate HUMINT narratives over time.
+  backstory: >
+    Researcher with background in investigative journalism and NGO liaison, skilled in mapping affiliations and validating narratives.
+  llm: openai/gpt-4o
+  tools:
+  - Maltego
+  - Gephi
+  - Aleph_OCCRP
+  - Graph_Analysis_Engine
+  - Lampyre
+  verbose: true
+  memory: true
+  max_execution_time: 600
+  max_iterations: 5
+  allow_delegation: false
+  max_rpm: 30
+  planning: false
+  cache: true
+  max_retry_limit: 2
+  respect_context_window: true
+  multimodal: false
+  inject_date: false
+  date_format: '%Y-%m-%d'
+  reasoning: false
+  use_system_prompt: true
+verification_specialist:
+  role: HUMINT Verification Specialist
+  goal: >
+    Authenticate HUMINT claims, detect deception, and ensure cross-pillar validation.
+  backstory: >
+    Validation expert focusing on provenance scoring, deception detection, and false HUMINT filtering.
+  llm: openai/gpt-4o
+  tools:
+  - Deepfake_Detector
+  - Provenance_Scorer
+  - CrossPillar_Validator
+  - Audit_Log_Manager
+  verbose: true
+  memory: true
+  max_execution_time: 600
+  max_iterations: 5
+  allow_delegation: false
+  max_rpm: 30
+  planning: false
+  cache: true
+  max_retry_limit: 2
+  respect_context_window: true
+  multimodal: false
+  inject_date: false
+  date_format: '%Y-%m-%d'
+  reasoning: false
+  use_system_prompt: true
+humint_data_engineer:
+  role: HUMINT Data Engineer
+  goal: >
+    Build and maintain HUMINT ingestion pipelines, enforce privacy filters, and generate audit-ready logs.
+  backstory: >
+    Engineer with experience in big data pipelines and compliance. Ensures data quality, retention policy adherence, and PII redaction.
+  llm: openai/gpt-4o
+  tools:
+  - Deduplicator
+  - PII_Redactor
+  - Schema_Validator
+  - RateLimit_Manager
+  - Audit_Log_Manager
+  verbose: true
+  memory: true
+  max_execution_time: 600
+  max_iterations: 5
+  allow_delegation: false
+  max_rpm: 30
+  planning: false
+  cache: true
+  max_retry_limit: 2
+  respect_context_window: true
+  multimodal: false
+  inject_date: false
+  date_format: '%Y-%m-%d'
+  reasoning: false
+  use_system_prompt: true
+event_monitoring_specialist:
+  role: HUMINT Event & Conference Monitor
+  goal: >
+    Monitor open events (conferences, workshops, summits) for HUMINT signals relevant to insider risk, espionage, or activist networks.
+  backstory: >
+    Analyst specializing in capturing HUMINT insights from open public events and correlating with other OSINT streams.
+  llm: openai/gpt-4o
+  tools:
+  - Event_Scraper
+  - Media_Collector
+  - Conference_Schedule_Parser
+  - CrossPillar_Validator
+  verbose: true
+  memory: true
+  max_execution_time: 600
+  max_iterations: 5
+  allow_delegation: false
+  max_rpm: 30
+  planning: false
+  cache: true
+  max_retry_limit: 2
+  respect_context_window: true
+  multimodal: false
+  inject_date: false
+  date_format: '%Y-%m-%d'
+  reasoning: false
+  use_system_prompt: true
+legint_strategist:
+  role: Legal Intelligence Strategist for Human Intelligence
+  goal: Provide strategic legal intelligence for human intelligence operations and
+    compliance.
+  backstory: You specialize in legal intelligence for human intelligence operations,
+    privacy compliance, and regulatory adherence.
+  llm: openai/gpt-4o
+  tools:
+  - Legal_Research_Tool
+  - Privacy_Compliance_Checker
+  - Human_Intelligence_Legal_Analyzer
+  - Regulatory_Monitor
+  verbose: true
+  memory: true
+  max_execution_time: 600
+  max_iterations: 5
+  allow_delegation: true
+  max_rpm: 30
+  planning: true
+  cache: true
+  max_retry_limit: 2
+  respect_context_window: true
+  multimodal: false
+  inject_date: false
+  date_format: '%Y-%m-%d'
+  reasoning: false
+  use_system_prompt: true
+imint_strategist:
+  role: IMINT Strategist for HUMINT
+  goal: Provide strategic imagery intelligence for human intelligence operations and
+    validation.
+  backstory: You specialize in imagery intelligence for human intelligence operations,
+    claim validation, and deception detection.
+  llm: openai/gpt-4o
+  tools:
+  - Imagery_Analyzer
+  - Claim_Validator
+  - Deception_Detector
+  - Cross_Pillar_Validator
+  verbose: true
+  memory: true
+  max_execution_time: 600
+  max_iterations: 5
+  allow_delegation: true
+  max_rpm: 30
+  planning: true
+  cache: true
+  max_retry_limit: 2
+  respect_context_window: true
+  multimodal: false
+  inject_date: false
+  date_format: '%Y-%m-%d'
+  reasoning: false
+  use_system_prompt: true

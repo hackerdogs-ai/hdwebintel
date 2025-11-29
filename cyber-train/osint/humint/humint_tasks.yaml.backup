@@ -1,0 +1,256 @@
+rfi_actor_dossier:
+  description: >
+    Build or refresh an actor/persona dossier from HUMINT sources with affiliations, credibility, and cross-pillar validation.
+  expected_output: "{\"actor\":\"InsiderX\",\"affiliations\":[\"GroupA\"],\"credibility\"\
+    :0.87,\n \"source_provenance\":[{\"source\":\"ForumX\",\"credibility\":0.72}],\n\
+    \ \"dossier_uri\":\"s3://dossiers/actor_insiderx.json\"}\n"
+  agent: humint_researcher
+  output_file: output/rfi_actor_dossier.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+rfi_humint_claim_validation:
+  description: >
+    Validate a HUMINT claim using SOCMINT, IMINT, and GEOINT correlation, assign provenance and credibility score.
+  expected_output: "{\"claim\":\"Factory shutdown due to sabotage\",\"validated\"\
+    :true,\"confidence\":0.92,\n \"source_provenance\":[{\"source\":\"NGOReport\"\
+    ,\"credibility\":0.81}],\n \"report_uri\":\"s3://reports/claim123.pdf\"}\n"
+  agent: imint_strategist
+  output_file: output/rfi_claim_validation.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+rfi_network_mapping:
+  description: >
+    Map HUMINT-based networks (forums, NGOs, activists) and produce network graphs.
+  expected_output: "{\"network\":\"GroupZ\",\"nodes\":45,\"edges\":112,\n \"graph_uri\"\
+    :\"s3://graphs/groupZ_network.png\"}\n"
+  agent: humint_researcher
+  output_file: output/rfi_network_mapping.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+rfi_deception_detection:
+  description: >
+    Detect deception in HUMINT claims, identify manipulation/disinformation attempts.
+  expected_output: "{\"claim_id\":\"humint567\",\"deception_probability\":0.74,\n\
+    \ \"indicators\":[\"inconsistent timelines\",\"unsupported sources\"]}\n"
+  agent: imint_strategist
+  output_file: output/rfi_deception_detection.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+rfi_insider_leak_check:
+  description: >
+    Investigate suspected insider leaks on forums, paste sites, or job boards.
+  expected_output: "{\"leaks_found\":[{\"platform\":\"Pastebin\",\"file\":\"hr_records.txt\"\
+    ,\"credibility\":0.81}],\n \"report_uri\":\"s3://reports/insider_leak_check.pdf\"\
+    }\n"
+  agent: humint_analyst
+  output_file: output/rfi_insider_leak_check.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+rfi_event_monitoring:
+  description: >
+    Monitor open conferences, events, and summits for HUMINT signals of espionage, activist planning, or recruitment.
+  expected_output: "{\"event\":\"TechConf2025\",\"flags\":[\"suspicious recruitment\"\
+    ,\"activist agenda\"],\n \"report_uri\":\"s3://reports/event_techconf2025.pdf\"\
+    }\n"
+  agent: event_monitoring_specialist
+  output_file: output/rfi_event_monitoring.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+daily_forum_monitoring:
+  description: >
+    Monitor public forums and chats for insider chatter, activist planning, or illicit recruitment attempts.
+  expected_output: >
+    {"platform":"Telegram","flagged_posts":[{"id":"post123","risk":"high"}]}
+  agent: humint_analyst
+  output_file: output/daily_forum_monitoring.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+daily_recruitment_monitoring:
+  description: >
+    Detect HUMINT indicators of extremist recruitment, radicalization, or insider targeting.
+  expected_output: >
+    {"platform":"Discord","recruitment_indicators":[{"group":"XYZ","risk":"high"}]}
+  agent: humint_analyst
+  output_file: output/daily_recruitment_monitoring.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+daily_pipeline_qc:
+  description: >
+    Run HUMINT ingestion QA (deduplication, schema validation, privacy/ethics compliance).
+  expected_output: >
+    {"uptime_pct":99.5,"duplicates_removed":23,"pii_incidents":0}
+  agent: humint_data_engineer
+  output_file: output/daily_pipeline_qc.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+weekly_humint_summary:
+  description: >
+    Produce weekly HUMINT summary of validated claims, insider risks, and network updates.
+  expected_output: "{\"validated_claims\":12,\"insider_alerts\":2,\n \"report_uri\"\
+    :\"s3://reports/humint_week37.pdf\"}\n"
+  agent: humint_analyst
+  output_file: output/weekly_humint_summary.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+weekly_actor_dossier_update:
+  description: >
+    Update actor/persona dossiers with HUMINT evidence and affiliations.
+  expected_output: "{\"dossiers_updated\":[\"ActorX\",\"GroupY\"],\n \"update_log\"\
+    :\"s3://logs/dossiers_week37.json\"}\n"
+  agent: humint_researcher
+  output_file: output/weekly_actor_dossier_update.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+weekly_cross_pillar_validation:
+  description: >
+    Validate HUMINT claims weekly against SOCMINT, IMINT, and GEOINT data.
+  expected_output: >
+    {"validated_claims":8,"disproven_claims":2,"cross_pillar_rate":0.80}
+  agent: imint_strategist
+  output_file: output/weekly_cross_pillar_validation.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+weekly_model_eval:
+  description: >
+    Evaluate HUMINT credibility and deception models for drift and performance.
+  expected_output: "{\"precision\":0.91,\"recall\":0.86,\"drift\":0.04,\n \"thresholds\"\
+    :{\"credibility_min\":0.7}}\n"
+  agent: imint_strategist
+  output_file: output/weekly_model_eval.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+monthly_insider_risk_report:
+  description: >
+    Generate monthly HUMINT-driven insider risk reports for executives.
+  expected_output: >
+    {"insider_alerts":4,"report_uri":"s3://reports/insider_risk_aug2025.pdf"}
+  agent: humint_strategist
+  output_file: output/monthly_insider_risk.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+monthly_humint_trend_report:
+  description: >
+    Correlate HUMINT narratives with SOCMINT and IMINT/Media trends.
+  expected_output: "{\"narrative\":\"supply chain sabotage\",\"overlap_pct\":72,\n\
+    \ \"trend_report_uri\":\"s3://reports/humint_trends_aug2025.pdf\"}\n"
+  agent: humint_analyst
+  output_file: output/monthly_humint_trends.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+monthly_compliance_audit:
+  description: >
+    Audit HUMINT collection for ethics, privacy, and legal compliance.
+  expected_output: "{\"compliance_score\":0.96,\"issues_resolved\":3,\n \"audit_uri\"\
+    :\"s3://audits/humint_aug2025.pdf\"}\n"
+  agent: humint_data_engineer
+  output_file: output/monthly_compliance_audit.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+quarterly_humint_exec_brief:
+  description: >
+    Deliver HUMINT quarterly brief: validated threats, insider risks, and HUMINT ROI.
+  expected_output: >
+    {"deck_uri":"s3://briefs/humint_q3.pptx","decisions_influenced":3}
+  agent: humint_strategist
+  output_file: output/quarterly_exec_brief.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+quarterly_crisis_exercise:
+  description: >
+    Run HUMINT-based crisis exercises with injects for PR, IR, and Legal.
+  expected_output: "{\"exercise\":\"InsiderLeakSim\",\n \"after_action_uri\":\"s3://reports/humint_exercise_q3.pdf\"\
+    }\n"
+  agent: humint_strategist
+  output_file: output/quarterly_crisis_exercise.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+quarterly_ethics_review:
+  description: >
+    Conduct HUMINT ethics and privacy review with policy leads.
+  expected_output: >
+    {"ethics_findings":["overcollection risk - NGO source"],"resolved":true}
+  agent: humint_strategist
+  output_file: output/quarterly_ethics_review.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+quarterly_audit_log_export:
+  description: >
+    Export HUMINT audit logs for compliance and regulatory oversight.
+  expected_output: "{\"entries\":542,\"findings_closed\":12,\n \"audit_log_uri\":\"\
+    s3://audits/humint_q3_logs.csv\"}\n"
+  agent: humint_data_engineer
+  output_file: output/quarterly_audit_log_export.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+yearly_strategy_review:
+  description: >
+    Conduct annual HUMINT strategy review: sources, compliance, vendor coverage, training, and roadmap planning.
+  expected_output: >
+    {"strategy_doc":"s3://strategy/humint2025.pdf","maturity_score":0.88}
+  agent: humint_strategist
+  output_file: output/yearly_strategy.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3

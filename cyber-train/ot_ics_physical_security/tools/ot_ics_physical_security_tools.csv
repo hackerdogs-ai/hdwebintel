@@ -1,0 +1,48 @@
+Implementation Priority,tool,pillar,type,agent,task,priority,source,url
+,GRASSMARLIN,ot_ics_physical_security,Open Source,ot_security_engineer,ot_network_analysis,Medium,comprehensive_csv,https://github.com/nsacyber/GRASSMARLIN
+,Wireshark (ICS protocol dissectors),ot_ics_physical_security,Open Source,ot_security_engineer,ot_protocol_analysis,Medium,comprehensive_csv,https://github.com/wireshark/wireshark
+,Security Onion (OT integrations),ot_ics_physical_security,Open Source,soc_analyst,ot_security_monitoring,Medium,comprehensive_csv,https://github.com/Security-Onion-Solutions/securityonion
+,Zeek with ICS parsers,ot_ics_physical_security,Open Source,ot_security_engineer,ot_network_analysis,Medium,comprehensive_csv,https://github.com/zeek/zeek
+,OpenPLC,ot_ics_physical_security,Open Source,ot_security_engineer,ot_platform_testing,Medium,comprehensive_csv,https://github.com/thiagoralves/OpenPLC_v3
+,ELK Stack,ot_ics_physical_security,Open Source,soc_analyst,ot_log_analysis,Medium,comprehensive_csv,https://github.com/elastic/elasticsearch
+,ZoneMinder,ot_ics_physical_security,Open Source,physical_security_engineer,video_surveillance,Medium,comprehensive_csv,https://github.com/ZoneMinder/ZoneMinder
+,OSQuery,ot_ics_physical_security,Open Source,ot_security_engineer,ot_endpoint_visibility,Medium,comprehensive_csv,https://github.com/osquery/osquery
+,ModSecurity,ot_ics_physical_security,Open Source,ot_security_engineer,ot_web_protection,Medium,comprehensive_csv,https://github.com/SpiderLabs/ModSecurity
+,OpenVAS,ot_ics_physical_security,Open Source,vuln_analyst,ot_vulnerability_scanning,Medium,comprehensive_csv,https://github.com/greenbone/openvas
+,Dragos Platform,ot_ics_physical_security,Commercial,ot_security_engineer,ot_security_platform,High,comprehensive_csv,https://www.dragos.com
+,Claroty xDome,ot_ics_physical_security,Commercial,ot_security_engineer,ot_security_platform,High,comprehensive_csv,https://docs.claroty.com
+,Nozomi Networks Guardian,ot_ics_physical_security,Commercial,ot_security_engineer,ot_security_platform,High,comprehensive_csv,https://docs.nozominetworks.com
+,Armis,ot_ics_physical_security,Commercial,ot_security_engineer,ot_security_platform,High,comprehensive_csv,https://docs.armis.com
+,Fortinet OT Security Fabric,ot_ics_physical_security,Commercial,ot_security_engineer,ot_security_platform,High,comprehensive_csv,https://docs.fortinet.com
+,Palo Alto Networks OT Security,ot_ics_physical_security,Commercial,ot_security_engineer,ot_security_platform,High,comprehensive_csv,https://docs.paloaltonetworks.com
+,Cisco Cyber Vision,ot_ics_physical_security,Commercial,ot_security_engineer,ot_security_platform,High,comprehensive_csv,https://docs.cisco.com
+,Johnson Controls P2000 / Lenel OnGuard,ot_ics_physical_security,Commercial,physical_security_engineer,access_control,High,comprehensive_csv,https://docs.johnsoncontrols.com
+,Genetec Security Center,ot_ics_physical_security,Commercial,physical_security_engineer,security_management,High,comprehensive_csv,https://docs.genetec.com
+,Honeywell OT Security Suite,ot_ics_physical_security,Commercial,ot_security_engineer,ot_security_platform,High,comprehensive_csv,https://docs.honeywell.com
+,Siemens S7,ot_ics_physical_security,Commercial,ot_security_engineer,plc_security,High,comprehensive_csv,https://docs.siemens.com
+,Schneider Electric EcoStruxure,ot_ics_physical_security,Commercial,ot_security_engineer,industrial_automation,High,comprehensive_csv,https://docs.se.com
+,Rockwell Automation FactoryTalk,ot_ics_physical_security,Commercial,ot_security_engineer,industrial_automation,High,comprehensive_csv,https://docs.rockwellautomation.com
+,ABB Ability,ot_ics_physical_security,Commercial,ot_security_engineer,industrial_automation,High,comprehensive_csv,https://docs.abb.com
+,GE Digital Predix,ot_ics_physical_security,Commercial,ot_security_engineer,industrial_iot,High,comprehensive_csv,https://docs.ge.com
+,PTC ThingWorx,ot_ics_physical_security,Commercial,ot_security_engineer,industrial_iot,High,comprehensive_csv,https://docs.ptc.com
+,AVEVA Plant Information,ot_ics_physical_security,Commercial,ot_security_engineer,process_control,High,comprehensive_csv,https://docs.aveva.com
+,Emerson DeltaV,ot_ics_physical_security,Commercial,ot_security_engineer,process_control,High,comprehensive_csv,https://docs.emerson.com
+,Yokogawa CENTUM,ot_ics_physical_security,Commercial,ot_security_engineer,process_control,High,comprehensive_csv,https://docs.yokogawa.com
+,Honeywell Experion,ot_ics_physical_security,Commercial,ot_security_engineer,process_control,High,comprehensive_csv,https://docs.honeywell.com
+,Siemens SIMATIC,ot_ics_physical_security,Commercial,ot_security_engineer,plc_programming,High,comprehensive_csv,https://docs.siemens.com
+,Schneider Electric Unity Pro,ot_ics_physical_security,Commercial,ot_security_engineer,plc_programming,High,comprehensive_csv,https://docs.se.com
+,Rockwell Studio 5000,ot_ics_physical_security,Commercial,ot_security_engineer,plc_programming,High,comprehensive_csv,https://docs.rockwellautomation.com
+,ABB Automation Builder,ot_ics_physical_security,Commercial,ot_security_engineer,plc_programming,High,comprehensive_csv,https://docs.abb.com
+,Mitsubishi GX Works,ot_ics_physical_security,Commercial,ot_security_engineer,plc_programming,Medium,comprehensive_csv,https://docs.mitsubishielectric.com
+,Omron CX-One,ot_ics_physical_security,Commercial,ot_security_engineer,plc_programming,Medium,comprehensive_csv,https://docs.omron.com
+,Beckhoff TwinCAT,ot_ics_physical_security,Commercial,ot_security_engineer,plc_programming,Medium,comprehensive_csv,https://docs.beckhoff.com
+,Codesys,ot_ics_physical_security,Open Source,ot_security_engineer,plc_programming,Medium,comprehensive_csv,https://github.com/codesys
+,OpenPLC,ot_ics_physical_security,Open Source,ot_security_engineer,plc_programming,Medium,comprehensive_csv,https://github.com/thiagoralves/OpenPLC_v3
+,ScadaBR,ot_ics_physical_security,Open Source,ot_security_engineer,scada_system,Medium,comprehensive_csv,https://github.com/ScadaBR/ScadaBR
+,OpenSCADA,ot_ics_physical_security,Open Source,ot_security_engineer,scada_system,Medium,comprehensive_csv,https://github.com/OpenSCADA
+,FreeSCADA,ot_ics_physical_security,Open Source,ot_security_engineer,scada_system,Low,comprehensive_csv,https://github.com/freescada
+,Ignition SCADA,ot_ics_physical_security,Commercial,ot_security_engineer,scada_system,High,comprehensive_csv,https://docs.inductiveautomation.com
+,Wonderware System Platform,ot_ics_physical_security,Commercial,ot_security_engineer,scada_system,High,comprehensive_csv,https://docs.aveva.com
+,GE iFIX,ot_ics_physical_security,Commercial,ot_security_engineer,scada_system,High,comprehensive_csv,https://docs.ge.com
+,Siemens WinCC,ot_ics_physical_security,Commercial,ot_security_engineer,scada_system,High,comprehensive_csv,https://docs.siemens.com
+,Schneider Electric Vijeo Citect,ot_ics_physical_security,Commercial,ot_security_engineer,scada_system,High,comprehensive_csv,https://docs.se.com

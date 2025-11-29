@@ -1,0 +1,90 @@
+graph TB
+    subgraph "MANUFACTURING/CRITICAL INFRASTRUCTURE CISO DASHBOARD"
+        M1[ICS/SCADA System Vulnerabilities]
+        M2[OT Network Segmentation Status]
+        M3[Production Downtime - Cyber Incidents]
+        M4[Critical Asset Protection Status]
+        M5[OT/IT Network Isolation Effectiveness]
+        M6[Firmware Update Status]
+        M7[Safety System Integrity]
+        M8[Supply Chain Cyber Risk]
+    end
+    
+    subgraph "Data Sources"
+        DS1[OT Security Platforms<br/>Claroty, Nozomi, Dragos]
+        DS2[SCADA Systems]
+        DS3[ICS Monitoring Tools]
+        DS4[Network Segmentation Tools]
+        DS5[Firewall Logs]
+        DS6[ITSM Systems]
+        DS7[Production Monitoring Systems]
+        DS8[Asset Management - Industrial]
+        DS9[Firmware Management Tools]
+        DS10[Safety Instrumented Systems]
+        DS11[Third-Party Risk Platforms]
+    end
+    
+    subgraph "Collection Methods"
+        CM1[Passive Monitoring]
+        CM2[Vulnerability Assessment]
+        CM3[Protocol Analysis]
+        CM4[Traffic Analysis]
+        CM5[Segmentation Validation]
+        CM6[Incident Correlation]
+        CM7[Downtime Tracking]
+        CM8[Asset Criticality Mapping]
+        CM9[Physical Security Integration]
+        CM10[Configuration Monitoring]
+        CM11[Version Tracking]
+        CM12[Safety Logic Testing]
+        CM13[Integrity Verification]
+        CM14[Vendor Assessments]
+        CM15[Continuous Monitoring]
+    end
+    
+    M1 --> DS1
+    M1 --> DS2
+    DS1 --> CM1
+    DS1 --> CM2
+    DS2 --> CM3
+    
+    M2 --> DS4
+    M2 --> DS5
+    DS4 --> CM4
+    DS4 --> CM5
+    DS5 --> CM4
+    
+    M3 --> DS6
+    M3 --> DS7
+    DS6 --> CM6
+    DS6 --> CM7
+    DS7 --> CM7
+    
+    M4 --> DS8
+    DS8 --> CM8
+    DS8 --> CM9
+    
+    M5 --> DS4
+    M5 --> DS5
+    DS4 --> CM5
+    
+    M6 --> DS9
+    DS9 --> CM10
+    DS9 --> CM11
+    
+    M7 --> DS10
+    DS10 --> CM12
+    DS10 --> CM13
+    
+    M8 --> DS11
+    DS11 --> CM14
+    DS11 --> CM15
+    
+    style M1 fill:#e1ffe8
+    style M2 fill:#e1ffe8
+    style M3 fill:#e1ffe8
+    style M4 fill:#e1ffe8
+    style M5 fill:#e1ffe8
+    style M6 fill:#e1ffe8
+    style M7 fill:#e1ffe8
+    style M8 fill:#e1ffe8

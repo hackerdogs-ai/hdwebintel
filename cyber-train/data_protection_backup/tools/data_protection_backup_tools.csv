@@ -1,0 +1,41 @@
+Implementation Priority,tool,pillar,type,agent,task,priority,source,url
+,BorgBackup,data_protection_backup,Open Source,it_operations,backup_management,Medium,comprehensive_csv,https://github.com/borgbackup/borg
+,Restic,data_protection_backup,Open Source,it_operations,backup_management,Medium,comprehensive_csv,https://github.com/restic/restic
+,Duplicati,data_protection_backup,Open Source,it_operations,backup_management,Medium,comprehensive_csv,https://github.com/duplicati/duplicati
+,Velero,data_protection_backup,Open Source,devsecops_engineer,container_backup,Medium,comprehensive_csv,https://github.com/vmware-tanzu/velero
+,Amanda,data_protection_backup,Open Source,it_operations,backup_management,Medium,comprehensive_csv,https://github.com/zmanda/amanda
+,Bareos,data_protection_backup,Open Source,it_operations,backup_management,Medium,comprehensive_csv,https://github.com/bareos/bareos
+,UrBackup,data_protection_backup,Open Source,it_operations,backup_management,Medium,comprehensive_csv,https://github.com/uroni/urbackup
+,Kopia,data_protection_backup,Open Source,it_operations,backup_management,Medium,comprehensive_csv,https://github.com/kopia/kopia
+,Rsync + Cryptographic Wrappers,data_protection_backup,Open Source,it_operations,backup_management,Medium,comprehensive_csv,https://github.com/WayneD/rsync
+,ELK/Wazuh,data_protection_backup,Open Source,soc_analyst,log_backup,Medium,comprehensive_csv,https://github.com/elastic/elasticsearch
+,Veeam Backup & Replication,data_protection_backup,Commercial,it_operations,backup_management,High,comprehensive_csv,https://helpcenter.veeam.com
+,Commvault Complete,data_protection_backup,Commercial,it_operations,backup_management,High,comprehensive_csv,https://documentation.commvault.com
+,Rubrik,data_protection_backup,Commercial,it_operations,backup_management,High,comprehensive_csv,https://docs.rubrik.com
+,Cohesity DataProtect,data_protection_backup,Commercial,it_operations,backup_management,High,comprehensive_csv,https://docs.cohesity.com
+,Druva,data_protection_backup,Commercial,it_operations,backup_management,High,comprehensive_csv,https://docs.druva.com
+,Zerto,data_protection_backup,Commercial,it_operations,disaster_recovery,High,comprehensive_csv,https://docs.zerto.com
+,Veritas NetBackup,data_protection_backup,Commercial,it_operations,backup_management,High,comprehensive_csv,https://www.veritas.com/support
+,AWS Backup,data_protection_backup,Commercial,cloud_engineer,cloud_backup,High,comprehensive_csv,https://docs.aws.amazon.com/aws-backup
+,Azure Backup,data_protection_backup,Commercial,cloud_engineer,cloud_backup,High,comprehensive_csv,https://docs.microsoft.com/en-us/azure/backup
+,Google Backup & DR Service,data_protection_backup,Commercial,cloud_engineer,cloud_backup,High,comprehensive_csv,https://cloud.google.com/backup-and-disaster-recovery
+,DRLM (Disaster Recovery Linux Manager),data_protection_backup,Open Source,it_operations,disaster_recovery_management,Medium,comprehensive_csv,https://github.com/bmrlab/drlm
+,Bacula / Bareos,data_protection_backup,Open Source,it_operations,backup_recovery,Medium,comprehensive_csv,https://github.com/bareos/bareos
+,Restic / Borg,data_protection_backup,Open Source,it_operations,backup_recovery,Medium,comprehensive_csv,https://github.com/restic/restic
+,Velero,data_protection_backup,Open Source,devsecops_engineer,kubernetes_backup,Medium,comprehensive_csv,https://github.com/vmware-tanzu/velero
+,OpenStack Swift / Ceph,data_protection_backup,Open Source,it_operations,distributed_storage,Medium,comprehensive_csv,https://github.com/openstack/swift
+,Rsync + DR scripts,data_protection_backup,Open Source,it_operations,disaster_recovery_automation,Medium,comprehensive_csv,https://github.com/WayneD/rsync
+,Terraform + Ansible,data_protection_backup,Open Source,it_operations,infrastructure_automation,Medium,comprehensive_csv,https://github.com/hashicorp/terraform
+,ELK Stack,data_protection_backup,Open Source,it_operations,log_recovery,Medium,comprehensive_csv,https://github.com/elastic/elasticsearch
+,Pacemaker / Corosync,data_protection_backup,Open Source,it_operations,high_availability,Medium,comprehensive_csv,https://github.com/ClusterLabs/pacemaker
+,Postgres PITR + MySQL GTID,data_protection_backup,Open Source,it_operations,database_recovery,Medium,comprehensive_csv,https://github.com/postgres/postgres
+,VMware Site Recovery Manager (SRM),data_protection_backup,Commercial,it_operations,disaster_recovery_platform,High,comprehensive_csv,https://docs.vmware.com/en/Site-Recovery-Manager
+,Zerto,data_protection_backup,Commercial,it_operations,disaster_recovery_platform,High,comprehensive_csv,https://docs.zerto.com
+,Veeam Disaster Recovery Orchestrator,data_protection_backup,Commercial,it_operations,disaster_recovery_platform,High,comprehensive_csv,https://helpcenter.veeam.com
+,Rubrik Polaris,data_protection_backup,Commercial,it_operations,disaster_recovery_platform,High,comprehensive_csv,https://docs.rubrik.com
+,Cohesity Helios,data_protection_backup,Commercial,it_operations,disaster_recovery_platform,High,comprehensive_csv,https://docs.cohesity.com
+,Commvault Disaster Recovery,data_protection_backup,Commercial,it_operations,disaster_recovery_platform,High,comprehensive_csv,https://documentation.commvault.com
+,AWS Elastic Disaster Recovery (DRS),data_protection_backup,Commercial,cloud_engineer,cloud_disaster_recovery,High,comprehensive_csv,https://docs.aws.amazon.com/drs
+,Azure Site Recovery (ASR),data_protection_backup,Commercial,cloud_engineer,cloud_disaster_recovery,High,comprehensive_csv,https://docs.microsoft.com/en-us/azure/site-recovery
+,Google Cloud Backup & DR,data_protection_backup,Commercial,cloud_engineer,cloud_disaster_recovery,High,comprehensive_csv,https://cloud.google.com/backup-and-disaster-recovery
+,IBM Resiliency Orchestration,data_protection_backup,Commercial,it_operations,disaster_recovery_platform,High,comprehensive_csv,https://www.ibm.com/docs/en/resiliency-orchestration

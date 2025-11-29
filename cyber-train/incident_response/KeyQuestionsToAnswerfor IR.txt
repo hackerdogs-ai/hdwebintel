@@ -1,0 +1,11 @@
+• What was the initial attack vector? (i.e., How did the adversary gain initial access to the network?)
+• How is the adversary accessing the environment?
+• Is the adversary exploiting vulnerabilities to achieve access or privilege?
+• How is the adversary maintaining command and control?
+• Does the actor have persistence on the network or device?
+• What is the method of persistence (e.g., malware backdoor, webshell, legitimate credentials, remote tools, etc.)?
+• What accounts have been compromised and what privilege level (e.g., domain admin, local admin, user account, etc.)?
+• What method is being used for reconnaissance? (Discovering the reconnaissance method may provide an opportunity for
+detection and to determine possible intent.)
+• Is lateral movement suspected or known? How is lateral movement conducted (e.g., RDP, network shares, malware, etc.)?
+• Has data been exfiltrated and, if so, what kind and via what mechanism?

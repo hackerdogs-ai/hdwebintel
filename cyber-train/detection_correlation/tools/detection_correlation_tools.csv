@@ -1,0 +1,41 @@
+Implementation Priority,tool,pillar,type,agent,task,priority,source,url
+,VictoriaLogs,detection_correlation,Open Source,soc_analyst,log_analysis,High,comprehensive_csv,https://github.com/VictoriaMetrics/VictoriaLogs
+,Loki,detection_correlation,Open Source,soc_analyst,log_aggregation,High,comprehensive_csv,https://github.com/grafana/loki
+,Fluentd,detection_correlation,Open Source,soc_analyst,log_collection,High,comprehensive_csv,https://github.com/fluent/fluentd
+,Fluent Bit,detection_correlation,Open Source,soc_analyst,log_forwarding,Medium,comprehensive_csv,https://github.com/fluent/fluent-bit
+,Promtail,detection_correlation,Open Source,soc_analyst,log_shipping,Medium,comprehensive_csv,https://github.com/grafana/loki
+,Vector,detection_correlation,Open Source,soc_analyst,log_processing,High,comprehensive_csv,https://github.com/vectordotdev/vector
+,Graylog,detection_correlation,Open Source,soc_analyst,log_management,High,comprehensive_csv,https://github.com/Graylog2/graylog2-server
+,Rsyslog,detection_correlation,Open Source,soc_analyst,system_logging,Medium,comprehensive_csv,https://github.com/rsyslog/rsyslog
+,Syslog-ng,detection_correlation,Open Source,soc_analyst,system_logging,Medium,comprehensive_csv,https://github.com/syslog-ng/syslog-ng
+,VictoriaMetrics,detection_correlation,Open Source,soc_analyst,metrics_collection,High,comprehensive_csv,https://github.com/VictoriaMetrics/VictoriaMetrics
+,Prometheus,detection_correlation,Open Source,soc_analyst,metrics_monitoring,High,comprehensive_csv,https://github.com/prometheus/prometheus
+,Grafana,detection_correlation,Open Source,soc_analyst,metrics_visualization,High,comprehensive_csv,https://github.com/grafana/grafana
+,TimescaleDB,detection_correlation,Open Source,soc_analyst,time_series_db,High,comprehensive_csv,https://github.com/timescale/timescaledb
+,InfluxDB,detection_correlation,Open Source,soc_analyst,time_series_db,High,comprehensive_csv,https://github.com/influxdata/influxdb
+,OpenTelemetry,detection_correlation,Open Source,soc_analyst,observability,High,comprehensive_csv,https://github.com/open-telemetry/opentelemetry-go
+,Jaeger,detection_correlation,Open Source,soc_analyst,distributed_tracing,Medium,comprehensive_csv,https://github.com/jaegertracing/jaeger
+,Zipkin,detection_correlation,Open Source,soc_analyst,distributed_tracing,Medium,comprehensive_csv,https://github.com/openzipkin/zipkin
+,Elastic Stack (ELK),detection_correlation,Open Source,soc_analyst,log_analysis,High,comprehensive_csv,https://github.com/elastic/elasticsearch
+,Wazuh,detection_correlation,Open Source,soc_analyst,log_monitoring,High,comprehensive_csv,https://github.com/wazuh/wazuh
+,Security Onion,detection_correlation,Open Source,soc_analyst,network_security_monitoring,High,comprehensive_csv,https://github.com/Security-Onion-Solutions/securityonion
+,Splunk,detection_correlation,Commercial,soc_analyst,log_analysis,High,comprehensive_csv,https://docs.splunk.com
+,IBM QRadar,detection_correlation,Commercial,soc_analyst,siem_analysis,High,comprehensive_csv,https://www.ibm.com/docs/en/security-essentials
+,Microsoft Sentinel,detection_correlation,Commercial,soc_analyst,siem_soar,High,comprehensive_csv,https://docs.microsoft.com/en-us/azure/sentinel
+,CrowdStrike Falcon XDR,detection_correlation,Commercial,soc_analyst,integrated_response,High,comprehensive_csv,https://www.crowdstrike.com
+,Palo Alto Cortex XDR,detection_correlation,Commercial,soc_analyst,extended_detection_response,High,comprehensive_csv,https://docs.paloaltonetworks.com/cortex
+,FireEye Helix,detection_correlation,Commercial,soc_analyst,managed_response,High,comprehensive_csv,https://docs.fireeye.com
+,Rapid7 InsightIDR,detection_correlation,Commercial,soc_analyst,incident_detection_response,High,comprehensive_csv,https://docs.rapid7.com/insightidr
+,LogRhythm,detection_correlation,Commercial,soc_analyst,siem_analysis,Medium,comprehensive_csv,https://logrhythm.com
+,Sumo Logic Cloud SIEM,detection_correlation,Commercial,soc_analyst,siem_audit,High,comprehensive_csv,https://docs.sumologic.com
+,Google Chronicle Security Operations,detection_correlation,Commercial,soc_analyst,security_operations,High,comprehensive_csv,https://cloud.google.com/chronicle
+,ExtraHop Reveal(x),detection_correlation,Commercial,soc_analyst,network_detection_response,High,comprehensive_csv,https://docs.extrahop.com
+,Darktrace,detection_correlation,Commercial,soc_analyst,network_anomaly_detection,High,comprehensive_csv,https://darktrace.com
+,Vectra AI,detection_correlation,Commercial,soc_analyst,network_detection_response,High,comprehensive_csv,https://docs.vectra.ai
+,Cisco Stealthwatch,detection_correlation,Commercial,soc_analyst,network_visibility,High,comprehensive_csv,https://www.cisco.com/c/en/us/products/security/stealthwatch
+,Aruba ClearPass,detection_correlation,Commercial,soc_analyst,network_access_control,High,comprehensive_csv,https://www.arubanetworks.com/products/security
+,Fortinet FortiSIEM,detection_correlation,Commercial,soc_analyst,siem_analysis,High,comprehensive_csv,https://docs.fortinet.com
+,McAfee Enterprise Security Manager,detection_correlation,Commercial,soc_analyst,siem_analysis,High,comprehensive_csv,https://docs.mcafee.com
+,Symantec Security Information Manager,detection_correlation,Commercial,soc_analyst,siem_analysis,High,comprehensive_csv,https://docs.broadcom.com/symantec
+,ArcSight ESM,detection_correlation,Commercial,soc_analyst,siem_analysis,High,comprehensive_csv,https://docs.microfocus.com/en-us/arcsight
+,AlienVault USM,detection_correlation,Commercial,soc_analyst,unified_security_management,High,comprehensive_csv,https://docs.alienvault.com

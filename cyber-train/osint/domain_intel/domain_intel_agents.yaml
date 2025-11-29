@@ -1,0 +1,243 @@
+domain_intelligence_strategist:
+  role: Domain Intelligence Strategist
+  goal: >
+    Define strategy for domain and DNS intelligence, align with business risk, and oversee takedown and compliance efforts.
+  backstory: >
+    Senior TI leader with 15+ years in DNS, phishing disruption, registrar/CA engagement, and global campaign attribution.
+  llm: openai/gpt-4o
+  tools:
+  - RiskIQ_API
+  - DomainTools_API
+  - OpenCTI
+  - Compliance_Checklist
+  verbose: true
+  memory: true
+  max_execution_time: 600
+  max_iterations: 5
+  allow_delegation: false
+  max_rpm: 30
+  planning: false
+  cache: true
+  max_retry_limit: 2
+  respect_context_window: true
+  multimodal: false
+  inject_date: false
+  date_format: '%Y-%m-%d'
+  reasoning: false
+  use_system_prompt: true
+domain_threat_analyst:
+  role: Domain Threat Analyst
+  goal: >
+    Investigate suspicious domains, perform clustering, and deliver IOC feeds and reports.
+  backstory: >
+    Hands-on analyst with deep WHOIS, pDNS, cert transparency and abuse investigation experience.
+  llm: openai/gpt-4o
+  tools:
+  - Amass
+  - Subfinder
+  - dnstwist
+  - crt.sh
+  - Maltego
+  - VirusTotal
+  verbose: true
+  memory: true
+  max_execution_time: 600
+  max_iterations: 5
+  allow_delegation: false
+  max_rpm: 30
+  planning: false
+  cache: true
+  max_retry_limit: 2
+  respect_context_window: true
+  multimodal: false
+  inject_date: false
+  date_format: '%Y-%m-%d'
+  reasoning: false
+  use_system_prompt: true
+pdns_engineer:
+  role: Passive DNS & Telemetry Engineer
+  goal: >
+    Maintain DNS/pDNS ingestion, ensure uptime, deduplication, schema compliance, and IOC publishing.
+  backstory: >
+    Data pipeline engineer managing DNSDB, CT logs, telemetry at scale.
+  llm: openai/gpt-4o
+  tools:
+  - SecurityTrails_API
+  - DNSDB
+  - Metadata_Schema_Validator
+  - Deduplicator
+  verbose: true
+  memory: true
+  max_execution_time: 600
+  max_iterations: 5
+  allow_delegation: false
+  max_rpm: 30
+  planning: false
+  cache: true
+  max_retry_limit: 2
+  respect_context_window: true
+  multimodal: false
+  inject_date: false
+  date_format: '%Y-%m-%d'
+  reasoning: false
+  use_system_prompt: true
+detection_scientist:
+  role: Detection Scientist (DGA/Flux)
+  goal: >
+    Develop and tune detection models for DGA, fast-flux, typosquatting, and registrar risk scoring.
+  backstory: >
+    Researcher applying ML and adversarial analysis to DNS datasets.
+  llm: openai/gpt-4o
+  tools:
+  - DGA_Detector
+  - FastFlux_Scorer
+  - String_Similarity_Model
+  - Drift_Monitor
+  verbose: true
+  memory: true
+  max_execution_time: 600
+  max_iterations: 5
+  allow_delegation: false
+  max_rpm: 30
+  planning: false
+  cache: true
+  max_retry_limit: 2
+  respect_context_window: true
+  multimodal: false
+  inject_date: false
+  date_format: '%Y-%m-%d'
+  reasoning: false
+  use_system_prompt: true
+brand_protection_lead:
+  role: Brand Protection & Takedown Lead
+  goal: >
+    Identify typosquats, impersonation domains, and compile evidence packs for takedowns.
+  backstory: >
+    Brand security specialist working across registrars, CAs, and law enforcement.
+  llm: openai/gpt-4o
+  tools:
+  - BrandShield
+  - ZeroFox
+  - WhoisXML_API
+  - Takedown_Workflow
+  verbose: true
+  memory: true
+  max_execution_time: 600
+  max_iterations: 5
+  allow_delegation: false
+  max_rpm: 30
+  planning: false
+  cache: true
+  max_retry_limit: 2
+  respect_context_window: true
+  multimodal: false
+  inject_date: false
+  date_format: '%Y-%m-%d'
+  reasoning: false
+  use_system_prompt: true
+registrar_relations_manager:
+  role: Registrar & CA Relations Manager
+  goal: >
+    Manage escalations with registrars/hosts/CAs, track SLAs and policy enforcement.
+  backstory: >
+    Former registry policy manager with ToS and ICANN/CA/B Forum expertise.
+  llm: openai/gpt-4o
+  tools:
+  - Registrar_Policy_Library
+  - CA_Incident_Reporter
+  - Takedown_Workflow
+  verbose: true
+  memory: true
+  max_execution_time: 600
+  max_iterations: 5
+  allow_delegation: false
+  max_rpm: 30
+  planning: false
+  cache: true
+  max_retry_limit: 2
+  respect_context_window: true
+  multimodal: false
+  inject_date: false
+  date_format: '%Y-%m-%d'
+  reasoning: false
+  use_system_prompt: true
+certificate_hunting_analyst:
+  role: Certificate Transparency Hunting Analyst
+  goal: >
+    Monitor CT logs, detect suspicious certs, and prepare CA incident reports.
+  backstory: >
+    Specialist in CT log hunting, CA/B Forum incident workflows.
+  llm: openai/gpt-4o
+  tools:
+  - certstream
+  - crt.sh
+  - CAA_Verifier
+  - CT_Rule_Engine
+  verbose: true
+  memory: true
+  max_execution_time: 600
+  max_iterations: 5
+  allow_delegation: false
+  max_rpm: 30
+  planning: false
+  cache: true
+  max_retry_limit: 2
+  respect_context_window: true
+  multimodal: false
+  inject_date: false
+  date_format: '%Y-%m-%d'
+  reasoning: false
+  use_system_prompt: true
+domain_data_steward:
+  role: Domain Data Steward
+  goal: >
+    Enforce metadata schemas, evidence hashing, retention, and audit-readiness.
+  backstory: >
+    Data governance practitioner ensuring reproducibility and compliance.
+  llm: openai/gpt-4o
+  tools:
+  - Evidence_Hasher
+  - ChainOfCustody_Manager
+  - Retention_Controller
+  verbose: true
+  memory: true
+  max_execution_time: 600
+  max_iterations: 5
+  allow_delegation: false
+  max_rpm: 30
+  planning: false
+  cache: true
+  max_retry_limit: 2
+  respect_context_window: true
+  multimodal: false
+  inject_date: false
+  date_format: '%Y-%m-%d'
+  reasoning: false
+  use_system_prompt: true
+socmint_strategist:
+  role: SOCMINT Strategist for Domain Intelligence
+  goal: Provide strategic social media intelligence for domain investigations and
+    takedown operations.
+  backstory: You specialize in social media intelligence for domain investigations,
+    brand protection, and takedown coordination.
+  llm: openai/gpt-4o
+  tools:
+  - Social_Media_Monitor
+  - Brand_Protection_Tool
+  - Takedown_Coordinator
+  - Domain_Analyzer
+  verbose: true
+  memory: true
+  max_execution_time: 600
+  max_iterations: 5
+  allow_delegation: true
+  max_rpm: 30
+  planning: true
+  cache: true
+  max_retry_limit: 2
+  respect_context_window: true
+  multimodal: false
+  inject_date: false
+  date_format: '%Y-%m-%d'
+  reasoning: false
+  use_system_prompt: true

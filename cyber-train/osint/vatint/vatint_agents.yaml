@@ -1,0 +1,314 @@
+vatint_analyst:
+  role: >
+    VATINT Analyst
+  goal: >
+    Detect and analyze suspicious activity across maritime, aviation, and ground transport, correlating anomalies with illicit activity such as smuggling, sanctions evasion, or trafficking.
+  backstory: >
+    A multidisciplinary analyst skilled in transport telemetry, anomaly detection, and multi-modal logistics risk analysis.
+  llm: openai/gpt-4o
+  tools:
+  - AIS_Feed_Collector_oss
+  - ADSB_Feed_Collector_oss
+  - OpenStreetMap_oss
+  - MarineTraffic
+  - Flightradar24
+  - VesselFinder
+  - LloydsList
+  - FleetMon
+  - SkyTruth_oss
+  - HawkEye360
+  - Spire Maritime
+  - Palantir_Gotham
+  verbose: true
+  memory: true
+  max_execution_time: 600
+  max_iterations: 5
+  allow_delegation: false
+  max_rpm: 30
+  planning: false
+  cache: true
+  max_retry_limit: 2
+  respect_context_window: true
+  multimodal: false
+  inject_date: false
+  date_format: '%Y-%m-%d'
+  reasoning: false
+  use_system_prompt: true
+maritime_analyst:
+  role: >
+    Maritime Intelligence Specialist
+  goal: >
+    Investigate vessel activity, detect dark transits, spoofing, and sanctions evasion.
+  backstory: >
+    A maritime operations veteran with experience in AIS data, SAR imagery validation, and IMO compliance.
+  llm: openai/gpt-4o
+  tools:
+  - AIS_Feed_Collector_oss
+  - VesselFinder
+  - LloydsList
+  - IHS Markit
+  - FleetMon
+  - MarineTraffic
+  - Spire Maritime
+  - HawkEye360
+  - SentinelSat_oss
+  - PlanetLabs
+  - Airbus_OneAtlas
+  - Maxar SecureWatch
+  verbose: true
+  memory: true
+  max_execution_time: 600
+  max_iterations: 5
+  allow_delegation: false
+  max_rpm: 30
+  planning: false
+  cache: true
+  max_retry_limit: 2
+  respect_context_window: true
+  multimodal: false
+  inject_date: false
+  date_format: '%Y-%m-%d'
+  reasoning: false
+  use_system_prompt: true
+aviation_analyst:
+  role: >
+    Aviation Intelligence Specialist
+  goal: >
+    Monitor aircraft telemetry, identify spoofing, illegal cargo flights, and sanction evasions.
+  backstory: >
+    Former aviation safety investigator specializing in ADS-B monitoring, ICAO compliance, and illicit routing analysis.
+  llm: openai/gpt-4o
+  tools:
+  - ADSB_Feed_Collector_oss
+  - FlightRadar24
+  - FlightAware
+  - OpenSky API
+  - SkyVector
+  - ICAO iSTARS
+  - Palantir_Gotham
+  - Maxar_Aviation
+  - Airbus_OneAtlas
+  - HawkEye360
+  - SkyTruth_oss
+  - Route_Anomaly_Scorer_oss
+  verbose: true
+  memory: true
+  max_execution_time: 600
+  max_iterations: 5
+  allow_delegation: false
+  max_rpm: 30
+  planning: false
+  cache: true
+  max_retry_limit: 2
+  respect_context_window: true
+  multimodal: false
+  inject_date: false
+  date_format: '%Y-%m-%d'
+  reasoning: false
+  use_system_prompt: true
+ground_transport_analyst:
+  role: >
+    Ground Transport & Logistics Analyst
+  goal: >
+    Track cross-border trucking, rail, and intermodal logistics to detect smuggling, trafficking, and illicit cargo flows.
+  backstory: >
+    Former customs risk officer with experience in license plate/GPS telemetry, cargo manifests, and trade fraud.
+  llm: openai/gpt-4o
+  tools:
+  - OpenStreetMap_oss
+  - Google Maps
+  - HERE API
+  - TomTom
+  - Waze Data Feed
+  - Customs Risk Database
+  - Palantir_Gotham
+  - UNODC Illicit Flows DB
+  - RailRadar
+  - Truck GPS Providers
+  - Hexagon Geospatial
+  - SAP GTS
+  verbose: true
+  memory: true
+  max_execution_time: 600
+  max_iterations: 5
+  allow_delegation: false
+  max_rpm: 30
+  planning: false
+  cache: true
+  max_retry_limit: 2
+  respect_context_window: true
+  multimodal: false
+  inject_date: false
+  date_format: '%Y-%m-%d'
+  reasoning: false
+  use_system_prompt: true
+satellite_transport_specialist:
+  role: >
+    Satellite Transport Intelligence Specialist
+  goal: >
+    Validate AIS/ADS-B anomalies with satellite imagery and SAR/EO analytics.
+  backstory: >
+    Remote sensing expert combining commercial imagery (Maxar, Airbus, Planet) with transport telemetry to provide high-confidence verification.
+  llm: openai/gpt-4o
+  tools:
+  - SentinelSat_oss
+  - SkyWatch
+  - PlanetLabs
+  - Airbus OneAtlas
+  - Maxar SecureWatch
+  - Hexagon Geospatial
+  - QGIS_oss
+  - ArcGIS
+  - Change Detection Models
+  - Palantir Gotham
+  - Spire
+  - HawkEye360
+  verbose: true
+  memory: true
+  max_execution_time: 600
+  max_iterations: 5
+  allow_delegation: false
+  max_rpm: 30
+  planning: false
+  cache: true
+  max_retry_limit: 2
+  respect_context_window: true
+  multimodal: false
+  inject_date: false
+  date_format: '%Y-%m-%d'
+  reasoning: false
+  use_system_prompt: true
+adversarial_signal_analyst:
+  role: >
+    Signal Intelligence & Adversarial Transport Specialist
+  goal: >
+    Detect GPS jamming, AIS spoofing, ADS-B manipulation, and adversarial ML attempts.
+  backstory: >
+    Radio frequency and electronic warfare specialist focused on adversarial manipulation of transport telemetry.
+  llm: openai/gpt-4o
+  tools:
+  - GNSS_Jammer_Detector_oss
+  - GPS-SDR_OSS
+  - HawkEye360
+  - Spire GNSS
+  - Satelles
+  - SDR#_oss
+  - Route_Anomaly_Scorer_oss
+  - Adversarial_Tester_oss
+  - Drift_Monitor_oss
+  - SHAP_Explainer_oss
+  - Palantir_Gotham
+  - Hexagon EW Suite
+  verbose: true
+  memory: true
+  max_execution_time: 600
+  max_iterations: 5
+  allow_delegation: false
+  max_rpm: 30
+  planning: false
+  cache: true
+  max_retry_limit: 2
+  respect_context_window: true
+  multimodal: false
+  inject_date: false
+  date_format: '%Y-%m-%d'
+  reasoning: false
+  use_system_prompt: true
+border_customs_liaison:
+  role: >
+    Border & Customs Liaison
+  goal: >
+    Facilitate information sharing with customs, ports, and border agencies to enable interdiction of illicit transport activity.
+  backstory: >
+    Ex-customs enforcement officer now embedded in intelligence to provide direct linkage to enforcement workflows.
+  llm: openai/gpt-4o
+  tools:
+  - Customs Risk DB
+  - UNCTAD ASYCUDA
+  - WCO Cargo Targeting System
+  - Palantir Gotham
+  - SAP GTS
+  - CBP Automated Targeting
+  - RailRadar
+  - TruckTelemetry
+  - OpenCTI_oss
+  - Case Management Systems (TheHive, Cortex)
+  - TIPs
+  - SOAR Platforms
+  verbose: true
+  memory: true
+  max_execution_time: 600
+  max_iterations: 5
+  allow_delegation: false
+  max_rpm: 30
+  planning: false
+  cache: true
+  max_retry_limit: 2
+  respect_context_window: true
+  multimodal: false
+  inject_date: false
+  date_format: '%Y-%m-%d'
+  reasoning: false
+  use_system_prompt: true
+crosspillar_transport_fusion_analyst:
+  role: >
+    Cross-Pillar VATINT Fusion Analyst
+  goal: >
+    Correlate VATINT anomalies with CYBINT, THREAT_INTEL, ECOINT, and FININT for holistic analysis.
+  backstory: >
+    Data fusion expert ensuring VATINT signals are integrated with cyber, threat, financial, and environmental intelligence streams.
+  llm: openai/gpt-4o
+  tools:
+  - Palantir_Gotham
+  - Maltego_oss
+  - OpenCTI_oss
+  - Weaviate_oss
+  - Neo4j
+  - Graphistry
+  - Kibana
+  - TIP
+  - SIEM
+  - Splunk
+  - TimescaleDB
+  - Postgres
+  verbose: true
+  memory: true
+  max_execution_time: 600
+  max_iterations: 5
+  allow_delegation: false
+  max_rpm: 30
+  planning: false
+  cache: true
+  max_retry_limit: 2
+  respect_context_window: true
+  multimodal: false
+  inject_date: false
+  date_format: '%Y-%m-%d'
+  reasoning: false
+  use_system_prompt: true
+socmint_strategist:
+  role: SOCMINT Strategist for VATINT
+  goal: Provide strategic social media intelligence for vehicle and transport intelligence.
+  backstory: You specialize in social media intelligence for vehicle and transport
+    investigations, brand protection, and compliance.
+  llm: openai/gpt-4o
+  tools:
+  - Social_Media_Monitor
+  - Brand_Protection_Tool
+  - Transport_Analyzer
+  - Compliance_Checker
+  verbose: true
+  memory: true
+  max_execution_time: 600
+  max_iterations: 5
+  allow_delegation: true
+  max_rpm: 30
+  planning: true
+  cache: true
+  max_retry_limit: 2
+  respect_context_window: true
+  multimodal: false
+  inject_date: false
+  date_format: '%Y-%m-%d'
+  reasoning: false
+  use_system_prompt: true

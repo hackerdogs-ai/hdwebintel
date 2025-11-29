@@ -1,0 +1,253 @@
+rfi_voip_fraud_investigation:
+  description: >
+    Investigate suspected VoIP fraud or vishing campaigns using SIP/RTP logs.
+  expected_output: "{\"case_id\":\"voip_2025_001\",\"fraudulent_calls\":45,\n \"call_patterns\"\
+    :[\"spoofed_callerid\",\"international_forwarding\"],\n \"legal_basis\":\"lawful\
+    \ metadata analysis\",\"privacy_minimization\":\"PII masked\",\n \"report_uri\"\
+    :\"s3://reports/voip_fraud.pdf\"}\n"
+  agent: voip_network_analyst
+  output_file: output/rfi_voip_fraud_investigation.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+rfi_radio_chatter_analysis:
+  description: >
+    Analyze intercepted open radio chatter for coded language or covert comms.
+  expected_output: "{\"incident_id\":\"radio_045\",\"language\":\"arabic\",\n \"keywords\"\
+    :[\"operation\",\"shipment\"],\"risk\":\"high\",\n \"legal_basis\":\"unencrypted\
+    \ public comms\",\"privacy_minimization\":\"transcripts redacted\",\n \"report_uri\"\
+    :\"s3://reports/radio_chatter.pdf\"}\n"
+  agent: voice_language_analyst
+  output_file: output/rfi_radio_chatter_analysis.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+rfi_satcom_signal_check:
+  description: >
+    Investigate anomalous satcom transmissions (open-band only).
+  expected_output: "{\"signal_id\":\"satcom_008\",\"anomaly\":\"jamming\",\"confidence\"\
+    :0.88,\n \"legal_basis\":\"open satcom monitoring\",\"report_uri\":\"s3://reports/satcom_check.pdf\"\
+    }\n"
+  agent: comint_collection_officer
+  output_file: output/rfi_satcom_signal_check.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+rfi_emergency_broadcast_anomaly:
+  description: >
+    Validate suspected manipulation of public emergency broadcasts (EAS/CAP).
+  expected_output: "{\"broadcast_id\":\"alert_101\",\"valid\":false,\n \"spoofing_detected\"\
+    :true,\"legal_basis\":\"public CAP/EAS feeds\",\n \"report_uri\":\"s3://reports/emergency_spoof.pdf\"\
+    }\n"
+  agent: comint_collection_officer
+  output_file: output/rfi_emergency_broadcast_anomaly.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+rfi_voice_cloning_detection:
+  description: >
+    Assess suspected voice cloning/synthetic audio in open comms or VoIP recordings.
+  expected_output: "{\"case_id\":\"vc_2025_001\",\"clone_detected\":true,\"confidence\"\
+    :0.91,\n \"artifacts\":[\"phase discontinuities\",\"watermark_mismatch\"],\n \"\
+    audio_hash_sha256\":\"8f…\",\"chain_of_custody\":\"s3://evidence/coc_vc_2025_001.pdf\"\
+    ,\n \"report_uri\":\"s3://reports/voice_clone.pdf\"}\n"
+  agent: voice_security_analyst
+  output_file: output/rfi_voice_cloning_detection.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+rfi_call_graph_attribution:
+  description: >
+    Build telephony call graph for a fraud/vishing cluster; analyze STIR/SHAKEN anomalies and carrier paths for attribution.
+  expected_output: "{\"seed_numbers\":[\"+1202555xxxx\"],\"nodes\":342,\"edges\":611,\n\
+    \ \"stir_shaken_anomalies\":12,\"graph_uri\":\"s3://graphs/call_graph_case23.png\"\
+    ,\n \"report_uri\":\"s3://reports/call_graph_case23.pdf\"}\n"
+  agent: telephony_attribution_analyst
+  output_file: output/rfi_call_graph_attribution.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+rfi_video_payload_deepfake_check:
+  description: >
+    Analyze a video transmitted over VoIP/satcom for signs of manipulation or synthetic generation. Confirm findings and handoff to IMINT/SOCMINT for full forensic validation.
+  expected_output: "{\"case_id\":\"vid_2025_022\",\"deepfake_detected\":true,\"confidence\"\
+    :0.89,\n \"artifacts\":[\"eye-blink mismatch\",\"frame interpolation\",\"GAN fingerprint\"\
+    ],\n \"audio_video_sync_ok\":false,\n \"chain_of_custody\":\"s3://evidence/coc_vid_2025_022.pdf\"\
+    ,\n \"handoff\":\"IMINT/SOCMINT\",\"report_uri\":\"s3://reports/video_deepfake_check.pdf\"\
+    }\n"
+  agent: video_payload_analyst
+  output_file: output/rfi_video_payload_deepfake_check.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+daily_comms_monitoring:
+  description: >
+    Monitor radio/VoIP/satcom comms for anomalies and transcribe conversations.
+  expected_output: "{\"transcripts\":120,\"anomalies\":7,\"latency_seconds\":22,\n\
+    \ \"report_uri\":\"s3://reports/daily_comms.pdf\"}\n"
+  agent: comint_collection_officer
+  output_file: output/daily_comms_monitoring.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+daily_transcription_pipeline_qc:
+  description: >
+    Quality-check transcription pipeline for accuracy, latency, and drift.
+  expected_output: "{\"accuracy_pct\":0.93,\"latency_seconds\":18,\"drift_score\"\
+    :0.04,\n \"report_uri\":\"s3://reports/comms_qc.pdf\"}\n"
+  agent: nlp_model_engineer
+  output_file: output/daily_transcription_pipeline_qc.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+daily_eas_cap_monitoring:
+  description: >
+    Continuously monitor public EAS/CAP feeds for malformed or spoofed alerts.
+  expected_output: "{\"alerts_scanned\":128,\"spoof_suspicions\":1,\n \"report_uri\"\
+    :\"s3://reports/daily_cap_monitoring.pdf\"}\n"
+  agent: comint_collection_officer
+  output_file: output/daily_eas_cap_monitoring.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+weekly_comms_summary:
+  description: >
+    Generate weekly summary of COMINT activity by AOI, language, and anomalies.
+  expected_output: "{\"aoi\":\"Eastern Europe\",\"anomalies\":23,\"validated\":19,\n\
+    \ \"report_uri\":\"s3://reports/comms_weekly.pdf\"}\n"
+  agent: comint_strategist
+  output_file: output/weekly_comms_summary.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+weekly_keyword_update:
+  description: >
+    Refresh keyword spotting list based on chatter trends and HUMINT reports.
+  expected_output: "{\"keywords\":[\"shipment\",\"operation\",\"drop\"],\"added\"\
+    :3,\"removed\":1,\n \"report_uri\":\"s3://reports/keywords_update.pdf\"}\n"
+  agent: voice_language_analyst
+  output_file: output/weekly_keyword_update.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+weekly_language_model_adaptation:
+  description: >
+    Adapt ASR/NLP models to new accents, slang, and domain terms.
+  expected_output: "{\"new_vocab\":42,\"wer_improvement\":0.012,\"diarization_der_improvement\"\
+    :0.018,\n \"model_bundle_uri\":\"s3://models/comint_asr_weekly.tar.gz\"}\n"
+  agent: nlp_model_engineer
+  output_file: output/weekly_language_model_adaptation.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+monthly_actor_dossier_update:
+  description: >
+    Update actor dossiers with COMINT evidence, voiceprints, and metadata.
+  expected_output: "{\"actor_group\":\"Group X\",\"voiceprints\":4,\"comm_patterns\"\
+    :[\"coded slang\"],\n \"report_uri\":\"s3://reports/actor_dossier.pdf\"}\n"
+  agent: voice_language_analyst
+  output_file: output/monthly_actor_dossier_update.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+monthly_compliance_audit:
+  description: >
+    Run compliance audit on COMINT collection logs and PII minimization.
+  expected_output: "{\"audit_score\":0.96,\"issues_found\":2,\"issues_resolved\":2,\n\
+    \ \"audit_uri\":\"s3://audits/comint_monthly.pdf\"}\n"
+  agent: legint_strategist
+  output_file: output/monthly_compliance_audit.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+monthly_stt_benchmark:
+  description: >
+    Benchmark STT/diarization models on multilingual test sets.
+  expected_output: "{\"wer_macro\":0.085,\"der_macro\":0.11,\"p95_latency_ms\":950,\n\
+    \ \"datasets\":[\"voxpopuli\",\"fleurs\"],\n \"report_uri\":\"s3://reports/stt_benchmark_monthly.pdf\"\
+    }\n"
+  agent: nlp_model_engineer
+  output_file: output/monthly_stt_benchmark.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+quarterly_exec_brief:
+  description: >
+    Deliver COMINT executive briefing with anomalies, fraud patterns, and ROI.
+  expected_output: >
+    {"deck_uri":"s3://briefs/comint_q2.pptx","decisions_influenced":3}
+  agent: comint_strategist
+  output_file: output/quarterly_exec_brief.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+quarterly_vendor_sla_review:
+  description: >
+    Review vendor performance and SLOs for transcription APIs and feeds.
+  expected_output: "{\"vendors_reviewed\":6,\"sla_breaches\":1,\n \"report_uri\":\"\
+    s3://reports/comint_vendor_sla_q.pdf\"}\n"
+  agent: comint_strategist
+  output_file: output/quarterly_vendor_sla_review.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+quarterly_privacy_impact_assessment:
+  description: >
+    Conduct DPIA for COMINT pipelines, verify retention and segregation.
+  expected_output: "{\"dpia_score\":0.95,\"segregation_tests_passed\":true,\n \"dpia_uri\"\
+    :\"s3://audits/comint_dpia_q.pdf\"}\n"
+  agent: legint_strategist
+  output_file: output/quarterly_privacy_impact_assessment.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+yearly_strategy_review:
+  description: >
+    Refresh COMINT strategy: vendor review, coverage gaps, compliance roadmap.
+  expected_output: >
+    {"strategy_doc":"s3://strategy/comint2025.pdf","maturity_score":0.87}
+  agent: comint_strategist
+  output_file: output/yearly_strategy_review.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3

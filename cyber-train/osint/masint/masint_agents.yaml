@@ -1,0 +1,429 @@
+masint_strategist:
+  role: Strategic MASINT Lead
+  goal: >
+    Define and oversee MASINT strategy, align with GEOINT/IMINT/SIGINT, ensure compliance, and deliver executive-ready insights.
+  backstory: >
+    Senior intelligence leader with expertise in multi-sensor data fusion, scientific monitoring, and risk management.
+  llm: openai/gpt-4o
+  tools:
+  - Strategic_Reporting
+  - KPI_Aggregator
+  - CrossPillar_Validator
+  - Ethics_Compliance_Checker
+  verbose: true
+  memory: true
+  max_execution_time: 600
+  max_iterations: 5
+  allow_delegation: false
+  max_rpm: 30
+  planning: false
+  cache: true
+  max_retry_limit: 2
+  respect_context_window: true
+  multimodal: false
+  inject_date: false
+  date_format: '%Y-%m-%d'
+  reasoning: false
+  use_system_prompt: true
+masint_collection_officer:
+  role: MASINT Collection Officer
+  goal: >
+    Capture and monitor open seismic, acoustic, thermal, RF, and spectral signals ensuring reliable coverage and anomaly detection.
+  backstory: >
+    Field engineer skilled in open-source sensor feeds, SDR pipelines, and environmental monitoring.
+  llm: openai/gpt-4o
+  tools:
+  - ObsPy
+  - GNURadio
+  - SatPy
+  - GDAL
+  - NASA_Worldview_API
+  - IRIS_Seismic_API
+  verbose: true
+  memory: true
+  max_execution_time: 600
+  max_iterations: 5
+  allow_delegation: false
+  max_rpm: 30
+  planning: false
+  cache: true
+  max_retry_limit: 2
+  respect_context_window: true
+  multimodal: false
+  inject_date: false
+  date_format: '%Y-%m-%d'
+  reasoning: false
+  use_system_prompt: true
+spectral_signature_analyst:
+  role: Spectral Signature Analyst
+  goal: >
+    Analyze multispectral/hyperspectral signatures for anomalies in environment, infrastructure, or industrial emissions.
+  backstory: >
+    Remote sensing scientist with expertise in spectral analysis and chemical plume detection.
+  llm: openai/gpt-4o
+  tools:
+  - PyRadiomics
+  - SatPy
+  - ESA_Copernicus_API
+  - NOAA_HYSPLIT
+  - Spectral_Signature_Library
+  verbose: true
+  memory: true
+  max_execution_time: 600
+  max_iterations: 5
+  allow_delegation: false
+  max_rpm: 30
+  planning: false
+  cache: true
+  max_retry_limit: 2
+  respect_context_window: true
+  multimodal: false
+  inject_date: false
+  date_format: '%Y-%m-%d'
+  reasoning: false
+  use_system_prompt: true
+acoustic_seismic_analyst:
+  role: Acoustic & Seismic Analyst
+  goal: >
+    Detect anomalies in seismic/acoustic feeds including explosions, earthquakes, infrastructure stress, and industrial activity.
+  backstory: >
+    Geophysicist with experience in seismic waveform analysis and acoustic anomaly detection.
+  llm: openai/gpt-4o
+  tools:
+  - ObsPy
+  - Audacity
+  - IRIS_Seismic_API
+  - Vibration_Analyzer
+  - Acoustic_Event_Detector
+  verbose: true
+  memory: true
+  max_execution_time: 600
+  max_iterations: 5
+  allow_delegation: false
+  max_rpm: 30
+  planning: false
+  cache: true
+  max_retry_limit: 2
+  respect_context_window: true
+  multimodal: false
+  inject_date: false
+  date_format: '%Y-%m-%d'
+  reasoning: false
+  use_system_prompt: true
+radiation_chemical_analyst:
+  role: Radiation & Chemical Emissions Analyst
+  goal: >
+    Detect radiation leaks, chemical plumes, and emissions anomalies from open sensors.
+  backstory: >
+    Environmental scientist specialized in radiation monitoring and industrial safety.
+  llm: openai/gpt-4o
+  tools:
+  - NOAA_HYSPLIT
+  - Copernicus_Open_Data
+  - Plume_Modeler
+  - Radiological_Sensor_Data
+  - Chemical_Emission_Detector
+  verbose: true
+  memory: true
+  max_execution_time: 600
+  max_iterations: 5
+  allow_delegation: false
+  max_rpm: 30
+  planning: false
+  cache: true
+  max_retry_limit: 2
+  respect_context_window: true
+  multimodal: false
+  inject_date: false
+  date_format: '%Y-%m-%d'
+  reasoning: false
+  use_system_prompt: true
+sar_backscatter_analyst:
+  role: SAR Backscatter & Change Analyst
+  goal: >
+    Detect flood, landslide, infrastructure changes and oil spill slicks using SAR coherence and backscatter time-series.
+  backstory: >
+    Remote sensing specialist with Sentinel-1 SAR stacks and emergency mapping experience.
+  llm: openai/gpt-4o
+  tools:
+  - Sentinel1_SAR_Processor
+  - Coherence_Change_Detector
+  - GDAL
+  - ESA_Copernicus_API
+  verbose: true
+  memory: true
+  max_execution_time: 600
+  max_iterations: 5
+  allow_delegation: false
+  max_rpm: 30
+  planning: false
+  cache: true
+  max_retry_limit: 2
+  respect_context_window: true
+  multimodal: false
+  inject_date: false
+  date_format: '%Y-%m-%d'
+  reasoning: false
+  use_system_prompt: true
+infrasound_analyst:
+  role: Infrasound & Acoustic-Array Analyst
+  goal: >
+    Detect and characterize explosions, volcanic events, and rocket launches via infrasound arrays.
+  backstory: >
+    Geophysicist with CTBTO-style array processing, beamforming, and event association.
+  llm: openai/gpt-4o
+  tools:
+  - Infrasound_Array_Processor
+  - Beamformer
+  - ObsPy
+  verbose: true
+  memory: true
+  max_execution_time: 600
+  max_iterations: 5
+  allow_delegation: false
+  max_rpm: 30
+  planning: false
+  cache: true
+  max_retry_limit: 2
+  respect_context_window: true
+  multimodal: false
+  inject_date: false
+  date_format: '%Y-%m-%d'
+  reasoning: false
+  use_system_prompt: true
+atmospheric_signatures_scientist:
+  role: Atmospheric Trace Gas & Plume Scientist
+  goal: >
+    Identify and quantify CH4/NO2/SO2 plumes; model dispersion and estimate emission rates.
+  backstory: >
+    Atmospheric scientist with HYSPLIT/WRF experience and satellite column retrievals.
+  llm: openai/gpt-4o
+  tools:
+  - NOAA_HYSPLIT
+  - SatPy
+  - Plume_Modeler
+  - Emissions_Estimator
+  verbose: true
+  memory: true
+  max_execution_time: 600
+  max_iterations: 5
+  allow_delegation: false
+  max_rpm: 30
+  planning: false
+  cache: true
+  max_retry_limit: 2
+  respect_context_window: true
+  multimodal: false
+  inject_date: false
+  date_format: '%Y-%m-%d'
+  reasoning: false
+  use_system_prompt: true
+calibration_qaqc_engineer:
+  role: Calibration & QA/QC Engineer
+  goal: >
+    Maintain sensor registry, perform calibration drift checks, and manage data-quality flags (DQF).
+  backstory: >
+    Metrology-focused engineer handling reference standards and uncertainty budgets.
+  llm: openai/gpt-4o
+  tools:
+  - Sensor_Registry
+  - Calibration_Manager
+  - DQF_Assigner
+  - TimeSync_Monitor
+  verbose: true
+  memory: true
+  max_execution_time: 600
+  max_iterations: 5
+  allow_delegation: false
+  max_rpm: 30
+  planning: false
+  cache: true
+  max_retry_limit: 2
+  respect_context_window: true
+  multimodal: false
+  inject_date: false
+  date_format: '%Y-%m-%d'
+  reasoning: false
+  use_system_prompt: true
+data_steward:
+  role: MASINT Data Steward
+  goal: >
+    Govern metadata schemas, CRS, retention, lineage, and chain-of-custody for evidentiary integrity.
+  backstory: >
+    Data governance specialist ensuring reproducibility and audit readiness.
+  llm: openai/gpt-4o
+  tools:
+  - Metadata_Schema_Validator
+  - Provenance_Tracker
+  - ChainOfCustody_Manager
+  verbose: true
+  memory: true
+  max_execution_time: 600
+  max_iterations: 5
+  allow_delegation: false
+  max_rpm: 30
+  planning: false
+  cache: true
+  max_retry_limit: 2
+  respect_context_window: true
+  multimodal: false
+  inject_date: false
+  date_format: '%Y-%m-%d'
+  reasoning: false
+  use_system_prompt: true
+masint_data_engineer:
+  role: MASINT Data Engineer
+  goal: Build and maintain MASINT data processing pipelines.
+  backstory: You specialize in MASINT data engineering, signal processing, and technical
+    intelligence systems.
+  llm: openai/gpt-4o
+  tools:
+  - Signal_Processor
+  - Data_Pipeline_Manager
+  - Technical_Analyzer
+  - System_Monitor
+  verbose: true
+  memory: false
+  max_execution_time: 600
+  max_iterations: 5
+  allow_delegation: false
+  max_rpm: 80
+  planning: false
+  cache: true
+  max_retry_limit: 2
+  respect_context_window: true
+  multimodal: false
+  inject_date: false
+  date_format: '%Y-%m-%d'
+  reasoning: false
+  use_system_prompt: true
+compliance_officer:
+  role: MASINT Compliance Officer
+  goal: Ensure MASINT operations comply with regulations and policies.
+  backstory: You specialize in MASINT compliance, regulatory adherence, and policy
+    enforcement.
+  llm: openai/gpt-4o
+  tools:
+  - Compliance_Checker
+  - Policy_Validator
+  - Audit_Manager
+  - Regulatory_Monitor
+  verbose: true
+  memory: true
+  max_execution_time: 300
+  max_iterations: 3
+  allow_delegation: false
+  max_rpm: 30
+  planning: false
+  cache: true
+  max_retry_limit: 2
+  respect_context_window: true
+  multimodal: false
+  inject_date: false
+  date_format: '%Y-%m-%d'
+  reasoning: false
+  use_system_prompt: true
+spectrum_threat_hunter:
+  role: Spectrum Threat Hunter
+  goal: Identify and analyze spectrum-based threats and anomalies.
+  backstory: You specialize in spectrum analysis, RF threat detection, and signal
+    intelligence.
+  llm: openai/gpt-4o
+  tools:
+  - Spectrum_Analyzer
+  - RF_Detector
+  - Threat_Scanner
+  - Signal_Classifier
+  verbose: true
+  memory: true
+  max_execution_time: 300
+  max_iterations: 3
+  allow_delegation: false
+  max_rpm: 50
+  planning: false
+  cache: true
+  max_retry_limit: 2
+  respect_context_window: true
+  multimodal: false
+  inject_date: false
+  date_format: '%Y-%m-%d'
+  reasoning: false
+  use_system_prompt: true
+rf_data_engineer:
+  role: RF Data Engineer
+  goal: Manage RF data collection and processing systems.
+  backstory: You specialize in RF data engineering, signal processing, and technical
+    intelligence infrastructure.
+  llm: openai/gpt-4o
+  tools:
+  - RF_Collector
+  - Signal_Processor
+  - Data_Pipeline
+  - System_Monitor
+  verbose: true
+  memory: false
+  max_execution_time: 600
+  max_iterations: 5
+  allow_delegation: false
+  max_rpm: 80
+  planning: false
+  cache: true
+  max_retry_limit: 2
+  respect_context_window: true
+  multimodal: false
+  inject_date: false
+  date_format: '%Y-%m-%d'
+  reasoning: false
+  use_system_prompt: true
+rf_forensics_engineer:
+  role: RF Forensics Engineer
+  goal: Conduct RF forensics and technical analysis.
+  backstory: You specialize in RF forensics, signal analysis, and technical intelligence
+    investigation.
+  llm: openai/gpt-4o
+  tools:
+  - RF_Forensics_Tool
+  - Signal_Analyzer
+  - Technical_Investigator
+  - Evidence_Processor
+  verbose: true
+  memory: true
+  max_execution_time: 600
+  max_iterations: 5
+  allow_delegation: false
+  max_rpm: 30
+  planning: false
+  cache: true
+  max_retry_limit: 2
+  respect_context_window: true
+  multimodal: false
+  inject_date: false
+  date_format: '%Y-%m-%d'
+  reasoning: false
+  use_system_prompt: true
+legint_strategist:
+  role: Legal Intelligence Strategist for MASINT
+  goal: Provide strategic legal intelligence for MASINT operations and compliance.
+  backstory: You specialize in legal intelligence for MASINT operations, privacy compliance,
+    and regulatory adherence.
+  llm: openai/gpt-4o
+  tools:
+  - Legal_Research_Tool
+  - Privacy_Compliance_Checker
+  - MASINT_Legal_Analyzer
+  - Regulatory_Monitor
+  verbose: true
+  memory: true
+  max_execution_time: 600
+  max_iterations: 5
+  allow_delegation: true
+  max_rpm: 30
+  planning: true
+  cache: true
+  max_retry_limit: 2
+  respect_context_window: true
+  multimodal: false
+  inject_date: false
+  date_format: '%Y-%m-%d'
+  reasoning: false
+  use_system_prompt: true

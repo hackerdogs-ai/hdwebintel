@@ -1,0 +1,263 @@
+rfi_ad_hoc_geolocation:
+  description: >
+    Perform ad-hoc geolocation of a photo or video, with chronolocation if feasible, using terrain features, metadata, and shadow analysis.
+  expected_output: "A JSON object with coordinates, time estimate, and evidence pack\
+    \ reference. Example: {\"media_uri\": \"s3://uploads/photo1.jpg\",\n         \
+    \ \"coordinates\": [36.45, 37.12],\n          \"confidence\": 0.91,\n        \
+    \  \"time_window\": [\"2025-09-12T08:00Z\",\"2025-09-12T10:00Z\"],\n         \
+    \ \"evidence_pack\": \"s3://evidence/geoloc_123.zip\"}\n"
+  agent: geoint_analyst
+  output_file: output/rfi_ad_hoc_geolocation.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+rfi_facility_baseline_study:
+  description: >
+    Build or refresh a facility baseline study, including footprint, function, and activity patterns, with annotated imagery.
+  expected_output: "A JSON object summarizing baseline features. Example: {\"facility\"\
+    : \"Port Alpha\", \"footprint_area_km2\": 1.3,\n          \"activity_indicators\"\
+    : [\"cargo expansion\",\"new cranes\"],\n          \"baseline_report\": \"s3://reports/port_alpha_baseline.pdf\"\
+    }\n"
+  agent: geoint_researcher
+  output_file: output/rfi_facility_baseline.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+rfi_damage_assessment:
+  description: >
+    Produce rapid post-event damage assessment for disaster or conflict zones.
+  expected_output: "A JSON object with damage index, affected assets, and annotated\
+    \ heatmap. Example: {\"event\": \"Earthquake2025\", \"damage_index\": 0.78,\n\
+    \          \"affected_assets\": [\"bridges\",\"powerplants\"],\n          \"heatmap_url\"\
+    : \"s3://maps/damage_eq2025.png\"}\n"
+  agent: geoint_analyst
+  output_file: output/rfi_damage_assessment.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+rfi_maritime_dark_activity:
+  description: >
+    Investigate suspected AIS gaps, dark voyages, or ship-to-ship transfers in a given AOI.
+  expected_output: "A JSON object summarizing vessel track anomalies. Example: {\"\
+    vessel\": \"IMO1234567\",\n          \"dark_segments\": [{\"start\":\"2025-09-01T10:00Z\"\
+    ,\"end\":\"2025-09-01T18:00Z\"}],\n          \"sts_events\": [{\"location\":[-1.45,35.12],\"\
+    timestamp\":\"2025-09-01T17:30Z\"}]}\n"
+  agent: maritime_analyst
+  output_file: output/rfi_maritime_dark_activity.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+rfi_aviation_suspicious_route:
+  description: >
+    Investigate suspicious flight paths, transponder spoofing, or anomalous routings.
+  expected_output: "A JSON object describing route anomalies and findings. Example:\
+    \ {\"aircraft\": \"N123AB\", \"anomalies\": [\"hex spoofing\",\"loitering\"],\n\
+    \          \"route_map\": \"s3://maps/flight_n123ab.png\"}\n"
+  agent: aviation_analyst
+  output_file: output/rfi_aviation_suspicious_route.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+rfi_sensor_tasking_request:
+  description: >
+    Order commercial imagery tasking for a given AOI, considering revisit rates, cloud-cover thresholds, and budget ceilings.
+  expected_output: "A JSON object confirming tasking order details. Example: {\"aoi\"\
+    : \"Port Bravo\", \"vendor_orders\": [\"Planet-001\",\"Maxar-XYZ\"],\n       \
+    \   \"expected_revisit_hours\": 24,\n          \"tasking_plan\": \"s3://plans/tasking_port_bravo.json\"\
+    }\n"
+  agent: sensor_tasking_coordinator
+  output_file: output/rfi_sensor_tasking.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+daily_imagery_monitoring:
+  description: >
+    Monitor priority AOIs using daily satellite passes and imagery feeds; run anomaly detection and flag changes.
+  expected_output: "A JSON object with detected anomalies and snapshot references.\
+    \ Example: {\"aoi\":\"Refinery-Delta\",\"anomalies\":[{\"type\":\"construction\"\
+    ,\"confidence\":0.87}],\n          \"imagery\": [\"s3://imagery/refinery_delta_20250912.tif\"\
+    ]}\n"
+  agent: geoint_analyst
+  output_file: output/daily_imagery_monitoring.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+daily_transport_tracking:
+  description: >
+    Track maritime and aviation activity in AOIs using AIS/ADS-B feeds, detecting spoofing, loitering, and dark activity.
+  expected_output: "A JSON object logging daily vessel and aircraft activity. Example:\
+    \ {\"vessels_tracked\":120,\"aircraft_tracked\":85,\n          \"anomaly_alerts\"\
+    :[{\"type\":\"spoofing\",\"id\":\"MMSI987654\"}]}\n"
+  agent: geoint_data_engineer
+  output_file: output/daily_transport_tracking.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+daily_ugc_verification:
+  description: >
+    Verify geolocation and chronolocation of user-generated content with evidence pack generation.
+  expected_output: "A JSON object with verification result and map link. Example:\
+    \ {\"ugc_id\":\"video123\",\"verified\":true,\"coordinates\":[48.12,11.57],\n\
+    \          \"confidence\":0.93,\"map_url\":\"s3://maps/ugc_verif_video123.png\"\
+    }\n"
+  agent: geoint_analyst
+  output_file: output/daily_ugc_verification.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+daily_pipeline_qc:
+  description: >
+    Conduct ingestion pipeline quality checks: deduplication, schema validation, PII redaction, and rate-limit enforcement.
+  expected_output: >
+    A JSON object with pipeline health metrics. Example: {"uptime_pct":99.6,"duplicates_removed":32,"pii_incidents":0}
+  agent: geoint_data_engineer
+  output_file: output/daily_pipeline_qc.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+weekly_area_summary:
+  description: >
+    Produce weekly summaries of activity in AOIs (military, maritime, environmental).
+  expected_output: "A JSON object with regional summaries and map links. Example:\
+    \ {\"region\":\"Baltic\",\"military_activity\":\"elevated\",\n          \"report_uri\"\
+    :\"s3://reports/weekly_baltic.pdf\"}\n"
+  agent: geoint_analyst
+  output_file: output/weekly_area_summary.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+weekly_facility_profile_updates:
+  description: >
+    Update and enrich facility dossiers with new imagery observations, ownership context, and detected changes.
+  expected_output: >
+    A JSON object with updated facility profiles. Example: {"facility":"Base Echo","updates":["new hangar"],"dossier_uri":"s3://dossiers/base_echo.json"}
+  agent: geoint_researcher
+  output_file: output/weekly_facility_profiles.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+weekly_model_eval:
+  description: >
+    Evaluate CV/ML models for object detection, change detection, and chronolocation. Check drift, performance metrics, and threshold adjustments.
+  expected_output: "A JSON object with evaluation metrics and threshold recommendations.\
+    \ Example: {\"precision\":0.91,\"recall\":0.86,\"drift_stat\":0.05,\n        \
+    \  \"thresholds\":{\"object_detect\":0.7}}\n"
+  agent: geoint_ml_specialist
+  output_file: output/weekly_model_eval.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+monthly_infrastructure_report:
+  description: >
+    Generate reports on infrastructure changes (ports, bases, energy sites) with annotated imagery.
+  expected_output: "A JSON object linking to change reports and imagery. Example:\
+    \ {\"facilities_changed\":[\"Port Bravo\",\"Base Zulu\"],\n          \"report_uri\"\
+    :\"s3://reports/monthly_infra.pdf\"}\n"
+  agent: geoint_researcher
+  output_file: output/monthly_infrastructure.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+monthly_environmental_assessment:
+  description: >
+    Monitor environmental activity such as deforestation, mining, and emissions.
+  expected_output: "A JSON object summarizing environmental changes with heatmap link.\
+    \ Example: {\"aoi\":\"AmazonBasin\",\"deforestation_area_km2\":12.5,\n       \
+    \   \"heatmap_url\":\"s3://maps/amazon_deforestation.png\"}\n"
+  agent: geoint_researcher
+  output_file: output/monthly_environmental.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+monthly_license_audit:
+  description: >
+    Perform monthly audit of imagery licensing and retention compliance.
+  expected_output: "A JSON object with licensing audit findings. Example: {\"license_findings\"\
+    :[{\"issue\":\"expired license - Maxar\",\"resolved\":true}],\n          \"audit_score\"\
+    :0.95}\n"
+  agent: geospatial_legal_compliance
+  output_file: output/monthly_license_audit.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+quarterly_risk_assessment:
+  description: >
+    Deliver quarterly executive risk assessments for hotspots and supply-chain AOIs, integrating imagery and cross-pillar context.
+  expected_output: "A JSON object with risk scores and linked executive brief. Example:\
+    \ {\"region\":\"SouthChinaSea\",\"risk_score\":0.82,\n          \"exec_brief_uri\"\
+    :\"s3://briefs/q1_geoint_risk.pdf\"}\n"
+  agent: geoint_strategist
+  output_file: output/quarterly_risk_assessment.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+quarterly_crisis_simulation:
+  description: >
+    Run quarterly crisis simulations using historical imagery and synthetic scenarios.
+  expected_output: >
+    A JSON object linking to after-action reports. Example: {"scenario":"Conflict Escalation","after_action_uri":"s3://reports/q2_simulation.pdf"}
+  agent: geoint_strategist
+  output_file: output/quarterly_crisis_simulation.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+quarterly_compliance_review:
+  description: >
+    Conduct quarterly compliance review for DPIA, retention, and cross-border data.
+  expected_output: >
+    A JSON object with compliance report references. Example: {"compliance_issues":[],"compliance_report_uri":"s3://reports/q2_compliance.pdf"}
+  agent: geospatial_legal_compliance
+  output_file: output/quarterly_compliance.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+yearly_strategy_review:
+  description: >
+    Conduct annual GEOINT strategy review, vendor SLA analysis, capability maturity assessment, and roadmap planning.
+  expected_output: >
+    A JSON object with the updated GEOINT strategy. Example: {"strategy_doc":"s3://strategy/geoint2025.pdf","maturity_score":0.87}
+  agent: geoint_strategist
+  output_file: output/yearly_strategy.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3

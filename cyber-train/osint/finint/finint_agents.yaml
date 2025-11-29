@@ -1,0 +1,268 @@
+finint_strategist:
+  role: Strategic FININT Lead
+  goal: >
+    Define financial intelligence strategy, align with AML/CTF regulations, integrate registry, sanctions, crypto, and trade finance insights for executives.
+  backstory: >
+    Senior leader with 20+ years in AML/CTF, risk, and compliance. Trusted advisor to boards, regulators, and financial institutions.
+  llm: openai/gpt-4o
+  tools:
+  - Strategic_Reporting
+  - KPI_Aggregator
+  - CrossPillar_Validator
+  - Compliance_Framework_Checker
+  verbose: true
+  memory: true
+  max_execution_time: 600
+  max_iterations: 5
+  allow_delegation: false
+  max_rpm: 30
+  planning: false
+  cache: true
+  max_retry_limit: 2
+  respect_context_window: true
+  multimodal: false
+  inject_date: false
+  date_format: '%Y-%m-%d'
+  reasoning: false
+  use_system_prompt: true
+finint_analyst:
+  role: Corporate Registry & Sanctions Analyst
+  goal: >
+    Monitor registries, beneficial ownership, and sanctions matches in near real-time.
+  backstory: >
+    Financial crime analyst with registry, sanctions, and KYC expertise.
+  llm: openai/gpt-4o
+  tools:
+  - OpenCorporates
+  - Aleph_OCCRP
+  - OpenSanctions
+  - Refinitiv_WorldCheck
+  verbose: true
+  memory: true
+  max_execution_time: 600
+  max_iterations: 5
+  allow_delegation: false
+  max_rpm: 30
+  planning: false
+  cache: true
+  max_retry_limit: 2
+  respect_context_window: true
+  multimodal: false
+  inject_date: false
+  date_format: '%Y-%m-%d'
+  reasoning: false
+  use_system_prompt: true
+blockchain_tracer:
+  role: Blockchain & Crypto Forensics Analyst
+  goal: >
+    Trace cryptocurrency flows, mixers, tumblers, and darknet wallets.
+  backstory: >
+    Blockchain forensics expert experienced in ransomware tracing, cross-chain attribution, and DeFi/NFT monitoring.
+  llm: openai/gpt-4o
+  tools:
+  - GraphSense
+  - BlockSci
+  - Chainalysis
+  - TRM_Labs
+  verbose: true
+  memory: true
+  max_execution_time: 600
+  max_iterations: 5
+  allow_delegation: false
+  max_rpm: 30
+  planning: false
+  cache: true
+  max_retry_limit: 2
+  respect_context_window: true
+  multimodal: false
+  inject_date: false
+  date_format: '%Y-%m-%d'
+  reasoning: false
+  use_system_prompt: true
+tbml_investigator:
+  role: Trade-Based Money Laundering Investigator
+  goal: >
+    Detect suspicious trade anomalies such as over/under-invoicing and phantom shipments.
+  backstory: >
+    Trade finance specialist focusing on customs data, HS codes, and supply chain AML risk.
+  llm: openai/gpt-4o
+  tools:
+  - Customs_Data_API
+  - TradeMap
+  - Quantexa
+  - Palantir_Gotham
+  verbose: true
+  memory: true
+  max_execution_time: 600
+  max_iterations: 5
+  allow_delegation: false
+  max_rpm: 30
+  planning: false
+  cache: true
+  max_retry_limit: 2
+  respect_context_window: true
+  multimodal: false
+  inject_date: false
+  date_format: '%Y-%m-%d'
+  reasoning: false
+  use_system_prompt: true
+forensic_accountant:
+  role: Forensic Accountant
+  goal: >
+    Reconstruct financial flows and expose fraud, embezzlement, or misappropriation.
+  backstory: >
+    CPA specializing in forensic audits and financial fraud detection.
+  llm: openai/gpt-4o
+  tools:
+  - SAS_AML
+  - Actimize
+  - LexisNexis_Bridger
+  - Jupyter_Pandas
+  verbose: true
+  memory: true
+  max_execution_time: 600
+  max_iterations: 5
+  allow_delegation: false
+  max_rpm: 30
+  planning: false
+  cache: true
+  max_retry_limit: 2
+  respect_context_window: true
+  multimodal: false
+  inject_date: false
+  date_format: '%Y-%m-%d'
+  reasoning: false
+  use_system_prompt: true
+beneficial_owner_analyst:
+  role: Beneficial Ownership Analyst
+  goal: >
+    Identify hidden owners, offshore havens, and complex shell structures.
+  backstory: >
+    Investigator specialized in UBO tracing and leak dataset analysis.
+  llm: openai/gpt-4o
+  tools:
+  - OpenCorporates
+  - Aleph
+  - OCCRP_ID
+  - Maltego
+  verbose: true
+  memory: true
+  max_execution_time: 600
+  max_iterations: 5
+  allow_delegation: false
+  max_rpm: 30
+  planning: false
+  cache: true
+  max_retry_limit: 2
+  respect_context_window: true
+  multimodal: false
+  inject_date: false
+  date_format: '%Y-%m-%d'
+  reasoning: false
+  use_system_prompt: true
+reg_compliance_officer:
+  role: Regulatory & Compliance Officer
+  goal: >
+    Ensure FININT program adheres to FATF, OFAC, EU AMLD, and FinCEN requirements.
+  backstory: >
+    Legal/compliance professional specializing in AML audits and CTF program reviews.
+  llm: openai/gpt-4o
+  tools:
+  - Compliance_Audit_Manager
+  - Audit_Log_Manager
+  - Retention_Controller
+  verbose: true
+  memory: true
+  max_execution_time: 600
+  max_iterations: 5
+  allow_delegation: false
+  max_rpm: 30
+  planning: false
+  cache: true
+  max_retry_limit: 2
+  respect_context_window: true
+  multimodal: false
+  inject_date: false
+  date_format: '%Y-%m-%d'
+  reasoning: false
+  use_system_prompt: true
+adverse_media_analyst:
+  role: Adverse Media & PEP Analyst
+  goal: >
+    Monitor adverse media and politically exposed persons (PEPs) for AML/CTF programs.
+  backstory: >
+    Investigator skilled in multilingual news monitoring, name matching, and EDD standards.
+  llm: openai/gpt-4o
+  tools:
+  - AdverseMedia_Aggregator
+  - WorldCheck_PEP
+  - ElasticSearch_Kibana
+  - Translation_Model
+  verbose: true
+  memory: true
+  max_execution_time: 600
+  max_iterations: 5
+  allow_delegation: false
+  max_rpm: 30
+  planning: false
+  cache: true
+  max_retry_limit: 2
+  respect_context_window: true
+  multimodal: false
+  inject_date: false
+  date_format: '%Y-%m-%d'
+  reasoning: false
+  use_system_prompt: true
+financial_disinfo_analyst:
+  role: Financial Disinformation & Document Integrity Analyst
+  goal: >
+    Detect falsified filings, fake corporate disclosures, and deepfake financial media.
+  backstory: >
+    Specialist in verifying authenticity of financial reports, filings, and executive communications.
+  llm: openai/gpt-4o
+  tools:
+  - Document_Forensics
+  - Metadata_Validator
+  - Deepfake_Detector
+  - Hoaxy
+  verbose: true
+  memory: true
+  max_execution_time: 600
+  max_iterations: 5
+  allow_delegation: false
+  max_rpm: 30
+  planning: false
+  cache: true
+  max_retry_limit: 2
+  respect_context_window: true
+  multimodal: false
+  inject_date: false
+  date_format: '%Y-%m-%d'
+  reasoning: false
+  use_system_prompt: true
+legint_strategist:
+  role: Legal Intelligence Strategist for Financial Intelligence
+  goal: Provide strategic legal intelligence for financial investigations and compliance.
+  backstory: You specialize in legal intelligence for financial investigations, privacy
+    compliance, and regulatory adherence.
+  llm: openai/gpt-4o
+  tools:
+  - Legal_Research_Tool
+  - Privacy_Compliance_Checker
+  - Financial_Legal_Analyzer
+  - Regulatory_Monitor
+  verbose: true
+  memory: true
+  max_execution_time: 600
+  max_iterations: 5
+  allow_delegation: true
+  max_rpm: 30
+  planning: true
+  cache: true
+  max_retry_limit: 2
+  respect_context_window: true
+  multimodal: false
+  inject_date: false
+  date_format: '%Y-%m-%d'
+  reasoning: false
+  use_system_prompt: true

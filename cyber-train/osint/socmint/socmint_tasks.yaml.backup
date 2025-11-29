@@ -1,0 +1,240 @@
+rfi_media_verification:
+  description: >
+    Perform ad-hoc verification of viral media (images, videos, memes) flagged by users, platforms, or other INT pillars. Check for reverse image/video matches, manipulation traces, and deepfake synthesis.
+  expected_output: "A JSON object summarizing verification results. Example: {\"media_id\"\
+    : \"abc123\", \"verified\": false, \"reason\": \"AI-generated\",\n          \"\
+    confidence\": 0.93, \"report_uri\": \"s3://verification/media_abc123.pdf\"}\n"
+  agent: socmint_strategist
+  output_file: output/rfi_media_verification.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+rfi_actor_investigation:
+  description: >
+    Conduct a deep-dive investigation into a flagged account, persona, or network. Gather posting history, cross-platform presence, bot likelihood, and affiliations.
+  expected_output: "A JSON object containing enriched actor profile. Example: {\"\
+    handle\": \"@suspicious\", \"bot_score\": 0.88,\n          \"affiliations\": [\"\
+    GroupX\"], \"cross_platform\": [\"Telegram\", \"X\"],\n          \"dossier_uri\"\
+    : \"s3://dossiers/suspicious_actor.json\"}\n"
+  agent: socmint_researcher
+  output_file: output/rfi_actor_investigation.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+rfi_trend_analysis:
+  description: >
+    On-demand trend analysis for a topic, hashtag, or campaign. Generate sentiment, influencer mapping, and bot amplification scores.
+  expected_output: "A JSON object containing sentiment, influencers, and amplification\
+    \ metrics. Example: {\"hashtag\": \"#BreakingNow\", \"sentiment\": {\"positive\"\
+    : 65, \"negative\": 35},\n          \"top_influencers\": [\"@media1\", \"@activist2\"\
+    ],\n          \"bot_amplification_score\": 0.76}\n"
+  agent: socmint_strategist
+  output_file: output/rfi_trend_analysis.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+rfi_campaign_attribution:
+  description: >
+    Attribute a suspected disinformation campaign to actors or groups. Map activity to AMITT framework and gather supporting evidence.
+  expected_output: "A JSON object detailing attribution. Example: {\"campaign\": \"\
+    OperationEcho\", \"attributed_to\": [\"GroupZ\"],\n          \"amitt_tactics\"\
+    : [\"Amplify\", \"Obfuscate\"],\n          \"evidence_pack\": \"s3://evidence/operation_echo.zip\"\
+    }\n"
+  agent: socmint_researcher
+  output_file: output/rfi_campaign_attribution.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+rfi_crisis_monitoring:
+  description: >
+    Spin up immediate SOCMINT collection for a breaking crisis event (e.g. protest, disaster). Collect hashtags, live streams, and influential narratives in real-time.
+  expected_output: "A JSON object with live monitoring data. Example: {\"event\":\
+    \ \"Earthquake2025\", \"hashtags\": [\"#HelpNow\"],\n          \"top_accounts\"\
+    : [\"@localreporter\"], \"streams\": [\"https://...\"],\n          \"snapshot_report\"\
+    : \"s3://crisis/earthquake2025.json\"}\n"
+  agent: socmint_strategist
+  output_file: output/rfi_crisis_monitoring.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+daily_monitoring:
+  description: >
+    Collect hashtags, topics, and URLs from social media in near real-time. Detect disinformation, coordinated inauthentic behavior, and bot networks.
+  expected_output: "A JSON object containing a normalized alert feed and flagged accounts.\
+    \ Example: {\"alert_feed\": [{\"hashtag\": \"#BreakingNews\", \"evidence_uri\"\
+    : \"s3://...\"}],\n          \"suspicious_accounts\": [\"@bot123\", \"@spam456\"\
+    ]}\n"
+  agent: socmint_strategist
+  output_file: output/daily_monitoring.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+daily_validation:
+  description: >
+    Verify viral media content using reverse image search, video forensics, and deepfake detection. Generate verification reports with binary or probabilistic truth assessments.
+  expected_output: "A JSON object containing verification results. Example: {\"media_id\"\
+    : \"abc123\", \"verified\": true, \"confidence\": 0.95,\n          \"report_uri\"\
+    : \"s3://verification/report_abc123.pdf\"}\n"
+  agent: socmint_strategist
+  output_file: output/daily_validation.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+daily_pipeline_qc:
+  description: >
+    Perform ingestion quality control for all SOCMINT data streams. Check for duplicates, detect language, redact PII, validate metadata, and enforce rate-limits.
+  expected_output: "A JSON object summarizing pipeline health and anomalies detected.\
+    \ Example: {\"duplicates\": 12, \"pii_incidents\": 0, \"uptime_pct\": 99.7,\n\
+    \          \"validation_errors\": []}\n"
+  agent: socmint_strategist
+  output_file: output/daily_pipeline_qc.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+weekly_trend_report:
+  description: >
+    Generate sentiment and narrative trend reports across platforms. Map botnet graphs, identify top influencers, and highlight key disinfo narratives.
+  expected_output: "A JSON object containing trend summaries and graph URIs. Example:\
+    \ {\"sentiment\": {\"positive\": 64, \"negative\": 36},\n          \"top_influencers\"\
+    : [\"@journalist1\", \"@activist2\"],\n          \"botnet_graph_uri\": \"s3://reports/botnet_graph.png\"\
+    }\n"
+  agent: socmint_strategist
+  output_file: output/weekly_trend_report.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+weekly_actor_dossiers:
+  description: >
+    Update actor dossiers with campaign attribution, AMITT framework mapping, and cross-pillar validation (SOCMINT-HUMINT-IMINT links).
+  expected_output: >
+    A JSON object listing updated actor dossiers. Example: {"actor_dossiers": [{"actor": "GroupX", "status": "updated", "last_seen": "2025-09-10"}]}
+  agent: socmint_researcher
+  output_file: output/weekly_actor_dossiers.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+weekly_model_eval:
+  description: >
+    Evaluate bot/CIB detection models, update thresholds, and run adversarial tests. Ensure model robustness against drift and adversarial behavior.
+  expected_output: "A JSON object with evaluation metrics and updated thresholds.\
+    \ Example: {\"precision\": 0.93, \"recall\": 0.87, \"drift_stat\": 0.04,\n   \
+    \       \"thresholds\": {\"bot_score\": 0.75}}\n"
+  agent: socmint_strategist
+  output_file: output/weekly_model_eval.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+monthly_attribution_report:
+  description: >
+    Conduct deep-dive attribution of coordinated disinformation campaigns. Compile evidence packs with graphs, links, and supporting documents.
+  expected_output: "A JSON object with attribution details and evidence pack references.\
+    \ Example: {\"campaigns\": [{\"name\": \"OperationShadow\", \"actors\": [\"GroupY\"\
+    ],\n          \"evidence_pack\": \"s3://reports/op_shadow.zip\"}]}\n"
+  agent: socmint_researcher
+  output_file: output/monthly_attribution.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+monthly_watchlist_update:
+  description: >
+    Refresh watchlists of keywords, entities, platforms, and languages. Track changes and propagate updates to detection systems.
+  expected_output: "A JSON object with added, removed, and modified watchlist entries.\
+    \ Example: {\"added\": [\"#NewTag\"], \"removed\": [\"#OldTag\"],\n          \"\
+    modified\": [{\"entity\": \"OrgX\", \"new_value\": \"OrgY\"}]}\n"
+  agent: socmint_strategist
+  output_file: output/monthly_watchlist.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+monthly_takedown_campaign:
+  description: >
+    Identify impersonation, smear, and harassment campaigns. Prepare evidence packs, submit takedown requests, and track platform responses.
+  expected_output: "A JSON object with takedown submission status and outcomes. Example:\
+    \ {\"submissions\": [{\"platform\": \"Twitter\", \"status\": \"submitted\"}],\n\
+    \          \"outcomes\": [{\"platform\": \"Twitter\", \"status\": \"removed\"\
+    }]}\n"
+  agent: socmint_strategist
+  output_file: output/monthly_takedown.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+quarterly_exec_brief:
+  description: >
+    Deliver an executive intelligence brief summarizing SOCMINT metrics, threats, ROI, and roadmap updates.
+  expected_output: "A JSON object linking to the briefing deck and summary metrics.\
+    \ Example: {\"deck_uri\": \"s3://briefs/Q1_socmint.pptx\",\n          \"metrics\"\
+    : {\"precision\": 0.91, \"recall\": 0.84}}\n"
+  agent: socmint_strategist
+  output_file: output/quarterly_exec_brief.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+quarterly_crisis_exercise:
+  description: >
+    Conduct tabletop exercises simulating disinformation and brand crises. Involve PR, IR, and Legal teams with predefined scenarios.
+  expected_output: "A JSON object linking to after-action reports and recommendations.\
+    \ Example: {\"exercise\": \"Q2_disinfo_tabletop\",\n          \"after_action_uri\"\
+    : \"s3://reports/tabletop_Q2.pdf\"}\n"
+  agent: socmint_strategist
+  output_file: output/quarterly_crisis_exercise.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+quarterly_compliance_audit:
+  description: >
+    Perform compliance audits covering DPIA, ToS reviews, retention, and log sampling. Document findings and remediations.
+  expected_output: "A JSON object listing audit findings and resolutions. Example:\
+    \ {\"findings\": [{\"issue\": \"PII retention > 90 days\", \"resolved\": true}],\n\
+    \          \"compliance_score\": 0.96}\n"
+  agent: socmint_strategist
+  output_file: output/quarterly_compliance_audit.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+yearly_strategy_review:
+  description: >
+    Conduct an annual SOCMINT strategy review including budget, vendor evaluation, maturity assessment, and roadmap planning.
+  expected_output: "A JSON object containing the updated SOCMINT strategy. Example:\
+    \ {\"strategy_doc\": \"s3://strategy/2025_socmint.pdf\",\n          \"roadmap_delivery_pct\"\
+    : 0.92}\n"
+  agent: socmint_strategist
+  output_file: output/yearly_strategy.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3

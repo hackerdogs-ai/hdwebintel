@@ -1,0 +1,389 @@
+rfi_darkweb_leak_validation:
+  description: >
+    Validate a suspected leak from forum/market/leak site; confirm sample accuracy and impact.
+  expected_output: "{\"leak_name\":\"CompanyX_Creds\",\"valid_sample\":true,\"records\"\
+    :5000,\n \"sensitive_types\":[\"emails\",\"password_hashes\"],\"confidence\":0.95,\n\
+    \ \"legal_basis\":\"public criminal forum post; no purchase; minimal data sampling\"\
+    ,\n \"privacy_minimization\":\"hash+truncate sampled records; 90d retention\"\
+    ,\n \"chain_of_custody\":\"s3://darkint/coc/leak_001.pdf\",\"evidence_hash\":\"\
+    SHA256:...\",\n \"report_uri\":\"s3://darkint/reports/leak_001.pdf\"}\n"
+  agent: darkint_analyst
+  output_file: output/rfi_darkweb_leak_validation.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+rfi_ransomware_group_activity:
+  description: >
+    Investigate ransomware group activity (leak site + forum chatter); identify new victims and wallets.
+  expected_output: "{\"group\":\"LockBit\",\"new_victims\":5,\"sector_targets\":[\"\
+    healthcare\",\"finance\"],\n \"wallets\":[\"bc1q...\"],\"attribution_confidence\"\
+    :0.8,\n \"chain_of_custody\":\"s3://darkint/coc/rg_2025_09.pdf\",\"evidence_hash\"\
+    :\"SHA256:...\",\n \"report_uri\":\"s3://darkint/reports/rg_2025_09.pdf\"}\n"
+  agent: threat_researcher_darkweb
+  output_file: output/rfi_ransomware_group_activity.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+rfi_crypto_wallet_tracing:
+  description: >
+    Cluster and trace a wallet linked to ransom or marketplace transactions; assess sanctions risk.
+  expected_output: "{\"wallet\":\"1ABCxyz\",\"clusters\":[\"ExchangeX\",\"MixerY\"\
+    ],\"transactions\":125,\n \"sanction_risk\":true,\"attribution_score\":0.76,\n\
+    \ \"chain_of_custody\":\"s3://darkint/coc/wallet_017.pdf\",\"evidence_hash\":\"\
+    SHA256:...\",\n \"report_uri\":\"s3://darkint/reports/wallet_017.pdf\"}\n"
+  agent: crypto_intel_analyst
+  output_file: output/rfi_crypto_wallet_tracing.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+rfi_vip_exposure_risk:
+  description: >
+    Assess VIP/person-of-interest exposure (doxxing, credentials, travel docs); recommend mitigations.
+  expected_output: "{\"vip\":\"Jane Doe\",\"exposure_findings\":[\"email+creds\",\"\
+    phone\"],\"threat_level\":\"high\",\n \"actions\":[\"reset creds\",\"takedown\
+    \ fake profiles\"],\"confidence\":0.9,\n \"legal_basis\":\"public forum posts/indexes\"\
+    ,\n \"chain_of_custody\":\"s3://darkint/coc/vip_011.pdf\",\"report_uri\":\"s3://darkint/reports/vip_011.pdf\"\
+    }\n"
+  agent: darkint_analyst
+  output_file: output/rfi_vip_exposure_risk.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+rfi_impersonation_takedown_pack:
+  description: >
+    Compile evidence for brand/exec impersonation (domains, social profiles, marketplaces) and prepare takedown submissions.
+  expected_output: "{\"brand\":\"Acme\",\"targets\":[\"acme-support[.]top\",\"tg:@acme_helpdesk\"\
+    ],\n \"evidence_pack\":\"s3://darkint/evidence/acme_impersonation.zip\",\n \"\
+    submissions\":[\"platform_a\",\"registrar_b\"],\"tracking_uri\":\"s3://darkint/takedowns/acme.json\"\
+    }\n"
+  agent: socmint_strategist
+  output_file: output/rfi_impersonation_takedown_pack.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+rfi_extortion_response_pack:
+  description: >
+    Prepare an extortion response dossier (timeline, claims validation, communications guidance, legal stance).
+  expected_output: "{\"case_id\":\"EXT-2025-0913\",\"validated_claims\":true,\"public_leak_eta_hrs\"\
+    :36,\n \"messages_templates\":[\"decline payment\",\"request proof\"],\"stakeholders\"\
+    :[\"PR\",\"Legal\",\"IR\"],\n \"report_uri\":\"s3://darkint/reports/extortion_pack.pdf\"\
+    }\n"
+  agent: darkint_strategist
+  output_file: output/rfi_extortion_response_pack.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+rfi_wallet_sanctions_screen:
+  description: >
+    Screen wallet(s) against sanctions designations and exchange policies; produce filing package.
+  expected_output: "{\"wallets\":[\"1ABCxyz\",\"bc1q...\"],\"sanction_match\":false,\"\
+    exchange_reporting_pack\":\"s3://darkint/evidence/wallet_sanctions.zip\",\n \"\
+    report_uri\":\"s3://darkint/reports/wallet_sanctions.pdf\"}\n"
+  agent: crypto_intel_analyst
+  output_file: output/rfi_wallet_sanctions_screen.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+daily_collection_health_qc:
+  description: >
+    Pipeline QA (crawl success, dedup %, PII redaction, rate limits, schema checks).
+  expected_output: "{\"crawl_success_rate\":0.97,\"dedup_ratio\":0.21,\"pii_redaction_incidents\"\
+    :0,\n \"schema_pass_rate\":0.99,\"qc_report\":\"s3://darkint/daily/qc.pdf\"}\n"
+  agent: darkint_data_engineer
+  output_file: output/daily_collection_health_qc.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+daily_marketplace_monitoring:
+  description: >
+    Crawl marketplaces for credentials/exploits/fraud goods; flag high-value listings.
+  expected_output: "{\"markets_crawled\":12,\"new_listings\":230,\"credential_dumps\"\
+    :7,\"exploit_listings\":3,\n \"alerts_emitted\":9,\"feed_uri\":\"s3://darkint/daily/marketplace.json\"\
+    }\n"
+  agent: darkint_analyst
+  output_file: output/daily_marketplace_monitoring.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+daily_leak_site_tracking:
+  description: >
+    Monitor ransomware leak sites for new victims and updates; prioritize by sector/geo.
+  expected_output: "{\"leak_sites\":10,\"new_victims\":15,\"high_value_targets\":[\"\
+    GovDeptX\",\"BankY\"],\n \"feed_uri\":\"s3://darkint/daily/leak_sites.json\"}\n"
+  agent: threat_researcher_darkweb
+  output_file: output/daily_leak_site_tracking.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+daily_forum_activity_scan:
+  description: >
+    Scan forums/Telegram for brand/domain/product keywords; route alerts to SOC/IR/Fraud.
+  expected_output: "{\"forums_scanned\":25,\"keyword_hits\":12,\"actor_handles\":[\"\
+    user123\",\"actorZ\"],\n \"alerts\":[{\"severity\":\"P1\",\"topic\":\"stealer\
+    \ logs\"}],\"feed_uri\":\"s3://darkint/daily/forum_scan.json\"}\n"
+  agent: darkint_analyst
+  output_file: output/daily_forum_activity_scan.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+daily_credential_reset_pack:
+  description: >
+    Generate credential reset/kill-list from validated dumps; de-duplicate and tag risk.
+  expected_output: >
+    {"accounts_to_reset":1743,"risk_tags":["admin","vpn"],"delivery_uri":"s3://darkint/daily/reset_pack.csv"}
+  agent: darkint_analyst
+  output_file: output/daily_credential_reset_pack.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+daily_stix_taxii_publish:
+  description: >
+    Publish curated DARKINT indicators (handles, wallets, domains) via STIX/TAXII to TIP/SIEM/SOAR; verify ACKs.
+  expected_output: "{\"objects_published\":1450,\"destinations\":[\"OpenCTI\",\"MISP\"\
+    ,\"Splunk_TI\"],\n \"ack_rate\":0.98,\"publish_report\":\"s3://darkint/daily/taxii_publish.pdf\"\
+    }\n"
+  agent: ti_integrations_engineer
+  output_file: output/daily_stix_taxii_publish.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+weekly_actor_reputation_scoring:
+  description: >
+    Update actor reputation/trust, cross-alias linkage, and scam probability models.
+  expected_output: "{\"actors_scored\":120,\"new_alias_links\":24,\"scam_probability_model\"\
+    :\"v1.7\",\n \"report_uri\":\"s3://darkint/weekly/actor_reputation.pdf\"}\n"
+  agent: darkint_analyst
+  output_file: output/weekly_actor_reputation_scoring.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+weekly_leak_validation_batch:
+  description: >
+    Batch-validate top credential/data leaks and refresh confidence; produce remediation packs.
+  expected_output: "{\"leaks_reviewed\":18,\"validated\":14,\"reset_packs\":[\"s3://.../pack1.csv\"\
+    ,\"s3://.../pack2.csv\"],\n \"report_uri\":\"s3://darkint/weekly/leak_validation.pdf\"\
+    }\n"
+  agent: darkint_analyst
+  output_file: output/weekly_leak_validation_batch.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+weekly_ransomware_ecosystem_report:
+  description: >
+    Summarize RaaS activity, affiliate recruitment, and exploit trends with ATT&CK mapping.
+  expected_output: "{\"week\":\"2025-W36\",\"new_groups\":2,\"affiliates\":10,\"techniques\"\
+    :[\"T1486\",\"T1566\"],\n \"report_uri\":\"s3://darkint/weekly/raas_report.pdf\"\
+    }\n"
+  agent: threat_researcher_darkweb
+  output_file: output/weekly_ransomware_ecosystem_report.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+weekly_crypto_laundering_analysis:
+  description: >
+    Analyze laundering paths for market/ransom wallets; note mixers and off-ramps.
+  expected_output: "{\"clusters\":8,\"laundering_services\":[\"MixerX\",\"ExchangeY\"\
+    ],\"transactions_flagged\":45,\n \"report_uri\":\"s3://darkint/weekly/crypto_laundering.pdf\"\
+    }\n"
+  agent: crypto_intel_analyst
+  output_file: output/weekly_crypto_laundering_analysis.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+weekly_ioc_fusion_publish:
+  description: >
+    Fuse DARKINT indicators with CYBINT/THREAT_INTEL; publish consolidated hunt pack.
+  expected_output: "{\"handles\":72,\"wallets\":38,\"domains\":41,\"hunt_pack\":\"\
+    s3://darkint/weekly/hunt_pack.zip\",\n \"navigator_layer\":\"s3://darkint/weekly/hunt_layer.json\"\
+    }\n"
+  agent: ti_integrations_engineer
+  output_file: output/weekly_ioc_fusion_publish.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+monthly_dark_market_trends:
+  description: >
+    Market trends: commodities, pricing, scam rates; forecast supply shifts.
+  expected_output: "{\"month\":\"2025-09\",\"commodities\":[\"credentials\",\"exploit_kits\"\
+    ],\n \"price_trends\":{\"credentials\":\"-10%\",\"exploit_kits\":\"+5%\"},\n \"\
+    report_uri\":\"s3://darkint/monthly/market_trends.pdf\"}\n"
+  agent: darkint_strategist
+  output_file: output/monthly_dark_market_trends.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+monthly_brand_exposure_report:
+  description: >
+    Aggregate brand/VIP/domain mentions; compute risk index and recommended mitigations.
+  expected_output: "{\"brand\":\"CompanyX\",\"mentions\":120,\"risk_index\":0.72,\n\
+    \ \"actions\":[\"reset\",\"takedown\",\"law_enf_referral\"],\"report_uri\":\"\
+    s3://darkint/monthly/brand_exposure.pdf\"}\n"
+  agent: darkint_analyst
+  output_file: output/monthly_brand_exposure_report.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+monthly_crypto_flow_report:
+  description: >
+    Summarize illicit crypto flows linked to markets/ransom; quantify exchange exposure.
+  expected_output: "{\"month\":\"2025-09\",\"transactions\":1500,\"total_usd\":12000000,\"\
+    wallet_clusters\":30,\n \"exchange_exposure_usd\":6200000,\"report_uri\":\"s3://darkint/monthly/crypto_flow.pdf\"\
+    }\n"
+  agent: crypto_intel_analyst
+  output_file: output/monthly_crypto_flow_report.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+monthly_takedown_outcomes_metrics:
+  description: >
+    Track impersonation/data-leak takedown submissions, platform response SLAs, and success rate.
+  expected_output: "{\"submissions\":58,\"success_rate\":0.73,\"median_sla_days\"\
+    :6,\n \"outcomes_uri\":\"s3://darkint/monthly/takedown_outcomes.json\"}\n"
+  agent: takedown_ops_manager
+  output_file: output/monthly_takedown_outcomes_metrics.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+monthly_vendor_coverage_review:
+  description: >
+    Review vendor/source coverage and overlap; cost-to-value analysis and gaps.
+  expected_output: "{\"vendors_reviewed\":9,\"coverage_delta\":\"+7%\",\"overlap_index\"\
+    :0.31,\n \"review_uri\":\"s3://darkint/monthly/vendor_review.pdf\"}\n"
+  agent: darkint_strategist
+  output_file: output/monthly_vendor_coverage_review.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+monthly_model_eval_darkint_classifier:
+  description: >
+    Evaluate classifier(s) for scam/legit listings, actor trust, and leak validity; tune thresholds.
+  expected_output: "{\"models\":[\"scam_classifier_v1.7\"],\"precision\":0.92,\"recall\"\
+    :0.86,\"auc\":0.94,\n \"threshold_update\":{\"scam\":0.68},\"report_uri\":\"s3://darkint/monthly/model_eval.pdf\"\
+    }\n"
+  agent: darkint_data_engineer
+  output_file: output/monthly_model_eval_darkint_classifier.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+quarterly_exec_brief_darkint:
+  description: >
+    Executive brief: illicit economy trends, losses avoided, ROI, and key decisions.
+  expected_output: "{\"quarter\":\"Q3-2025\",\"loss_avoided_usd\":5000000,\"roi\"\
+    :2.3,\n \"decisions_influenced\":3,\"deck_uri\":\"s3://darkint/quarterly/exec_brief.pptx\"\
+    }\n"
+  agent: darkint_strategist
+  output_file: output/quarterly_exec_brief_darkint.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+quarterly_tabletop_exercise_darkint:
+  description: >
+    Run extortion/leak tabletop with PR/Legal/IR; capture lessons learned and playbook updates.
+  expected_output: "{\"exercise\":\"Extortion_2025_Q3\",\"participants\":15,\"lead_time_improvement\"\
+    :0.22,\n \"after_action_uri\":\"s3://darkint/quarterly/tabletop.pdf\"}\n"
+  agent: darkint_strategist
+  output_file: output/quarterly_tabletop_exercise_darkint.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+quarterly_compliance_audit_darkint:
+  description: >
+    DPIA/ToS/retention audit; sample evidence packs for chain-of-custody and minimization.
+  expected_output: >
+    {"findings":1,"resolved":1,"audit_pass_rate":1.0,"audit_uri":"s3://darkint/quarterly/compliance.pdf"}
+  agent: compliance_officer_darkint
+  output_file: output/quarterly_compliance_audit_darkint.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+quarterly_sanctions_audit:
+  description: >
+    Audit wallet screening against current sanctions lists; verify escalation & reporting workflow.
+  expected_output: "{\"wallets_sampled\":120,\"hits\":2,\"false_positives\":1,\"process_gaps\"\
+    :0,\n \"audit_uri\":\"s3://darkint/quarterly/sanctions_audit.pdf\"}\n"
+  agent: crypto_intel_analyst
+  output_file: output/quarterly_sanctions_audit.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+yearly_darkint_strategy_review:
+  description: >
+    Strategy/maturity refresh; budget, coverage, and roadmap (including staffing/training).
+  expected_output: >
+    {"year":2025,"maturity_score":0.84,"budget_usd":1200000,"roadmap_uri":"s3://darkint/yearly/strategy.pdf"}
+  agent: darkint_strategist
+  output_file: output/yearly_darkint_strategy_review.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+yearly_dpia_refresh:
+  description: >
+    Refresh the Data Protection Impact Assessment for DARKINT operations; confirm minimization and retention.
+  expected_output: "{\"dpia_version\":\"2025.1\",\"changes\":[\"expanded leak sampling\
+    \ controls\"],\"status\":\"approved\",\n \"dpia_uri\":\"s3://darkint/yearly/dpia.pdf\"\
+    }\n"
+  agent: compliance_officer_darkint
+  output_file: output/yearly_dpia_refresh.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3

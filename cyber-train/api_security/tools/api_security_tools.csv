@@ -1,0 +1,54 @@
+Implementation Priority,tool,pillar,type,agent,task,priority,source,url
+,OWASP ZAP,api_security,Open Source,appsec_engineer,api_testing,High,comprehensive_csv,https://github.com/zaproxy/zaproxy
+,Postman + Security Plugins,api_security,Open Source,appsec_engineer,api_testing,Medium,comprehensive_csv,https://github.com/postmanlabs
+,Burp Suite Community (or Pro),api_security,Open Source,appsec_engineer,api_testing,High,comprehensive_csv,https://github.com/PortSwigger/burp-suite-community
+,APIClarity,api_security,Open Source,appsec_engineer,api_discovery,Medium,comprehensive_csv,https://github.com/openclarity/apiclarity
+,42Crunch (Community),api_security,Open Source,appsec_engineer,api_security,Medium,comprehensive_csv,https://github.com/42Crunch
+,Tyk,api_security,Open Source,api_engineer,api_gateway,Medium,comprehensive_csv,https://github.com/TykTechnologies/tyk
+,Kong Gateway (OSS),api_security,Open Source,api_engineer,api_gateway,High,comprehensive_csv,https://github.com/Kong/kong
+,JWT.io,api_security,Open Source,appsec_engineer,api_security,Medium,comprehensive_csv,https://jwt.io
+,Nmap + NSE Scripts,api_security,Open Source,pen_tester,api_testing,Medium,comprehensive_csv,https://github.com/nmap/nmap
+,Mitmproxy,api_security,Open Source,appsec_engineer,api_testing,Medium,comprehensive_csv,https://github.com/mitmproxy/mitmproxy
+,Apigee (Google Cloud),api_security,Commercial,api_engineer,api_gateway,High,comprehensive_csv,https://cloud.google.com/apigee
+,AWS API Gateway + WAF,api_security,Commercial,api_engineer,api_gateway,High,comprehensive_csv,https://docs.aws.amazon.com/apigateway
+,Azure API Management,api_security,Commercial,api_engineer,api_gateway,High,comprehensive_csv,https://docs.microsoft.com/en-us/azure/api-management
+,Kong Enterprise,api_security,Commercial,api_engineer,api_gateway,High,comprehensive_csv,https://docs.konghq.com
+,NGINX Plus,api_security,Commercial,api_engineer,api_gateway,High,comprehensive_csv,https://docs.nginx.com
+,42Crunch Enterprise,api_security,Commercial,appsec_engineer,api_security,High,comprehensive_csv,https://docs.42crunch.com
+,Salt Security,api_security,Commercial,appsec_engineer,api_security,High,comprehensive_csv,https://docs.salt.security
+,Noname Security,api_security,Commercial,appsec_engineer,api_security,High,comprehensive_csv,https://docs.nonamesecurity.com
+,Imperva API Security,api_security,Commercial,appsec_engineer,api_security,High,comprehensive_csv,https://docs.imperva.com
+,Akana API Management,api_security,Commercial,api_engineer,api_management,High,comprehensive_csv,https://docs.akana.com
+,Postman,api_security,Commercial,api_engineer,api_testing,High,comprehensive_csv,https://learning.postman.com
+,Insomnia,api_security,Open Source,api_engineer,api_testing,Medium,comprehensive_csv,https://github.com/Kong/insomnia
+,Kong,api_security,Open Source,api_engineer,api_gateway,High,comprehensive_csv,https://github.com/Kong/kong
+,Tyk,api_security,Open Source,api_engineer,api_gateway,Medium,comprehensive_csv,https://github.com/TykTechnologies/tyk
+,AWS API Gateway,api_security,Commercial,api_engineer,api_gateway,High,comprehensive_csv,https://docs.aws.amazon.com/apigateway
+,Azure API Management,api_security,Commercial,api_engineer,api_gateway,High,comprehensive_csv,https://docs.microsoft.com/en-us/azure/api-management
+,Google Cloud Endpoints,api_security,Commercial,api_engineer,api_gateway,High,comprehensive_csv,https://cloud.google.com/endpoints
+,42Crunch,api_security,Commercial,api_engineer,api_security,Medium,comprehensive_csv,https://docs.42crunch.com
+,OPA,api_security,Open Source,api_strategist,api_policy_definition_task,High,comprehensive_csv,https://github.com/open-policy-agent/opa
+,Kong Gateway,api_security,Open Source,api_strategist,api_policy_definition_task,High,comprehensive_csv,https://github.com/Kong/kong
+,Traefik,api_security,Open Source,api_strategist,api_policy_definition_task,High,comprehensive_csv,https://github.com/traefik/traefik
+,Postman,api_security,Open Source,api_engineer,api_discovery_task,High,comprehensive_csv,https://github.com/postmanlabs
+,Insomnia,api_security,Open Source,api_engineer,api_discovery_task,High,comprehensive_csv,https://github.com/Kong/insomnia
+,REST Client,api_security,Open Source,api_engineer,api_discovery_task,High,comprehensive_csv,https://github.com/Huachao/vscode-restclient
+,Swagger UI,api_security,Open Source,api_engineer,api_discovery_task,High,comprehensive_csv,https://github.com/swagger-api/swagger-ui
+,JSON Schema Validator,api_security,Open Source,api_engineer,api_schema_validation_task,High,comprehensive_csv,https://github.com/json-schema-org
+,OpenAPI Validator,api_security,Open Source,api_engineer,api_schema_validation_task,High,comprehensive_csv,https://github.com/stoplightio/spectral
+,Ajv,api_security,Open Source,api_engineer,api_schema_validation_task,High,comprehensive_csv,https://github.com/ajv-validator/ajv
+,Envoy Proxy,api_security,Open Source,api_engineer,api_rate_limiting_task,High,comprehensive_csv,https://github.com/envoyproxy/envoy
+,ModSecurity,api_security,Open Source,api_engineer,api_threat_detection_task,High,comprehensive_csv,https://github.com/SpiderLabs/ModSecurity
+,OWASP Core Rule Set,api_security,Open Source,api_engineer,api_threat_detection_task,High,comprehensive_csv,https://github.com/coreruleset/coreruleset
+,GraphQL Shield,api_security,Open Source,graphql_specialist,graphql_security_task,High,comprehensive_csv,https://github.com/maticzav/graphql-shield
+,GraphQL Rate Limiting,api_security,Open Source,graphql_specialist,graphql_security_task,High,comprehensive_csv,https://github.com/teamstarter/graphql-rate-limit
+,Certbot,api_security,Open Source,service_identity_engineer,api_mtls_enforcement_task,High,comprehensive_csv,https://github.com/certbot/certbot
+,Let's Encrypt,api_security,Open Source,service_identity_engineer,api_mtls_enforcement_task,High,comprehensive_csv,https://letsencrypt.org
+,HashiCorp Vault,api_security,Open Source,service_identity_engineer,api_mtls_enforcement_task,High,comprehensive_csv,https://github.com/hashicorp/vault
+,OpenAPI Diff,api_security,Open Source,api_engineer,api_drift_detection_task,High,comprehensive_csv,https://github.com/Tufin/oasdiff
+,API Change Detection,api_security,Open Source,api_engineer,api_drift_detection_task,High,comprehensive_csv,https://github.com/stoplightio/spectral
+,OWASP Dependency Check,api_security,Open Source,api_engineer,api_dependency_security_task,High,comprehensive_csv,https://github.com/jeremylong/DependencyCheck
+,Snyk,api_security,Open Source,api_engineer,api_dependency_security_task,High,comprehensive_csv,https://github.com/snyk/snyk
+,npm audit,api_security,Open Source,api_engineer,api_dependency_security_task,High,comprehensive_csv,https://docs.npmjs.com/cli/v8/commands/npm-audit
+,OWASP API Security Top 10,api_security,Framework,api_auditor,api_audit_task,High,comprehensive_csv,https://owasp.org/www-project-api-security
+,NIST API Security,api_security,Framework,api_auditor,api_audit_task,High,comprehensive_csv,https://www.nist.gov/publications

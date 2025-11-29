@@ -1,0 +1,341 @@
+rfi_exploit_investigation:
+  description: 'Investigate a newly reported CVE/exploit: validate PoCs, assess exploitability,
+    map ATT&CK/MAEC, and recommend mitigations.
+
+    '
+  expected_output: "{\"cve\":\"CVE-2025-XXXX\",\"cvss\":9.8,\"epss\":0.91,\"kev_listed\"\
+    :true,\n \"exploit_sources\":[\"ExploitDB\",\"GitHub\"],\"poc_validated\":true,\n\
+    \ \"att&ck\":[\"T1190\"],\"risk_rationale\":[\"remote_pre_auth_rce\",\"public_poc\"\
+    ],\n \"recommended_mitigations\":[\"apply vendor patch KB-1234\",\"WAF rule X\"\
+    ,\"disable module Y\"],\n \"legal_basis\":\"vendor advisories, public repos, licensed\
+    \ feeds\",\n \"privacy_minimization\":\"no personal data; only technical indicators\"\
+    ,\n \"chain_of_custody\":\"s3://techint/coc/exploit_001.pdf\",\"evidence_hash\"\
+    :\"SHA256:...\",\"report_uri\":\"s3://techint/reports/exploit_001.pdf\"}\n"
+  agent: techint_analyst
+  output_file: output/rfi_exploit_investigation.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+rfi_malware_binary_analysis:
+  description: 'Reverse engineer a submitted binary/malware; extract IOCs, behaviors,
+    ATT&CK techniques; emit YARA/Sigma.
+
+    '
+  expected_output: "{\"sha256\":\"...\",\"family\":\"Emotet\",\"iocs\":[\"c2.bad\"\
+    ,\"5.6.7.8\"],\n \"behaviors\":[\"injection\",\"persistence\"],\"att&ck\":[\"\
+    T1059\",\"T1105\"],\n \"yara_rule\":\"rule Emotet {...}\",\"sigma_rules\":[\"\
+    title: Emotet network\"],\"confidence\":0.95,\n \"chain_of_custody\":\"s3://techint/coc/malware_042.pdf\"\
+    ,\"evidence_hash\":\"SHA256:...\",\"report_uri\":\"s3://techint/reports/malware_042.pdf\"\
+    }\n"
+  agent: malware_researcher
+  output_file: output/rfi_malware_binary_analysis.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+rfi_supply_chain_alert:
+  description: 'Investigate suspected malicious package/registry entry or repo anomaly;
+    validate impact and remediation.
+
+    '
+  expected_output: "{\"package\":\"leftpadx\",\"registry\":\"npm\",\"issue\":\"typosquat+credential_stealer\"\
+    ,\n \"affected_versions\":[\">=1.0.3 <1.0.7\"],\"download_estimate\":23000,\n\
+    \ \"mitigation\":[\"yank package\",\"force update dependency\"],\"sbom_refs\"\
+    :[\"acme/api@2.1\"],\n \"chain_of_custody\":\"s3://techint/coc/sca_019.pdf\",\"\
+    evidence_hash\":\"SHA256:...\",\"report_uri\":\"s3://techint/reports/sca_019.pdf\"\
+    }\n"
+  agent: supply_chain_analyst
+  output_file: output/rfi_supply_chain_alert.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+rfi_ics_exposure_check:
+  description: 'Verify ICS/IoT exposure; enumerate vendors, versions, protocols, geos;
+    propose mitigations.
+
+    '
+  expected_output: "{\"nodes_found\":42,\"vendors\":[\"Siemens\",\"Schneider\"],\"\
+    protocols\":[\"Modbus\",\"DNP3\"],\n \"geo\":{\"US\":20,\"RU\":10,\"CN\":12},\"\
+    critical_findings\":7,\n \"mitigations\":[\"restrict ACLs\",\"VPN-only\",\"disable\
+    \ insecure services\"],\n \"chain_of_custody\":\"s3://techint/coc/ics_007.pdf\"\
+    ,\"report_uri\":\"s3://techint/reports/ics_007.pdf\"}\n"
+  agent: ics_iot_specialist
+  output_file: output/rfi_ics_exposure_check.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+rfi_firmware_vuln_triage:
+  description: 'Analyze firmware image/signing; detect vulnerable components, hardcoded
+    creds, or implant indicators.
+
+    '
+  expected_output: "{\"image_id\":\"fw_router_x_1.2.3.bin\",\"vulns\":[\"CVE-2024-12345\"\
+    ],\"hardcoded_secrets\":2,\n \"signing_status\":\"unsigned\",\"implant_indicators\"\
+    :false,\n \"chain_of_custody\":\"s3://techint/coc/firmware_004.pdf\",\"report_uri\"\
+    :\"s3://techint/reports/firmware_004.pdf\"}\n"
+  agent: firmware_analyst
+  output_file: output/rfi_firmware_vuln_triage.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+rfi_responsible_disclosure:
+  description: 'Prepare vendor/CERT responsible disclosure package with timelines
+    and minimal proof.
+
+    '
+  expected_output: "{\"product\":\"VendorX Gateway\",\"issue\":\"pre-auth RCE\",\"\
+    cve_request\":true,\n \"contacted\":[\"security@vendorx\"],\"timeline\":{\"report\"\
+    :\"2025-09-13\",\"ack\":\"TBD\"},\n \"disclosure_pack\":\"s3://techint/disclosure/vendorx_rce.zip\"\
+    }\n"
+  agent: techint_analyst
+  output_file: output/rfi_responsible_disclosure.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+cve_feed_ingestion:
+  description: 'Ingest CVEs from NVD/Vulners; enrich with EPSS/KEV; normalize and
+    rank for action.
+
+    '
+  expected_output: "{\"cves_today\":143,\"high_critical\":27,\"epss_gt_0.7\":12,\"\
+    kev_count\":4,\n \"stix_uri\":\"s3://techint/daily/cves_enriched.stix\",\"model_version\"\
+    :\"epss_ranker_1.4\"}\n"
+  agent: techint_analyst
+  output_file: output/daily_cve_feed_ingestion.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+exploit_forum_scan:
+  description: 'Monitor GitHub/ExploitDB/underground for fresh exploit tools and POCs;
+    tag TTPs.
+
+    '
+  expected_output: "{\"new_tools\":6,\"public_pocs\":5,\"mapped_ttps\":[\"T1190\"\
+    ,\"T1210\"],\n \"report_uri\":\"s3://techint/daily/exploit_forum.pdf\"}\n"
+  agent: techint_analyst
+  output_file: output/daily_exploit_forum_scan.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+malware_sample_watch:
+  description: 'Sandbox new samples; cluster by family; flag urgent detection gaps
+    and techniques.
+
+    '
+  expected_output: "{\"samples\":28,\"families\":[\"QakBot\",\"AgentTesla\"],\"new_ttps\"\
+    :[\"T1567\"],\n \"gaps\":4,\"sandbox_feed\":\"s3://techint/daily/sandbox.json\"\
+    }\n"
+  agent: malware_researcher
+  output_file: output/daily_malware_sample_watch.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+taxii_publish:
+  description: 'Publish TECHINT-derived indicators/rules to TIP/SIEM via STIX/TAXII;
+    confirm ACKs.
+
+    '
+  expected_output: "{\"objects_published\":1250,\"destinations\":[\"OpenCTI\",\"MISP\"\
+    ,\"Splunk_TI\"],\n \"ack_rate\":0.98,\"publish_report\":\"s3://techint/daily/taxii_publish.pdf\"\
+    }\n"
+  agent: ti_integrations_engineer
+  output_file: output/daily_taxii_publish.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+epss_kev_prioritization:
+  description: 'Produce prioritized remediation list using EPSS, KEV, exploitation
+    telemetry, and business impact tags.
+
+    '
+  expected_output: "{\"prioritized_cves\":[{\"cve\":\"CVE-2025-1111\",\"epss\":0.92,\"\
+    kev\":true,\"business_tag\":\"crown_jewel\"}],\n \"actions\":[\"patch_now\",\"\
+    apply_WAF_rule\"],\"report_uri\":\"s3://techint/weekly/epss_kev.pdf\"}\n"
+  agent: techint_analyst
+  output_file: output/weekly_epss_kev_prioritization.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+detection_efficacy_review:
+  description: 'Measure SIEM/EDR hits and FP/FN for TECHINT-sourced YARA/Sigma/Suricata;
+    recommend tuning/retirement.
+
+    '
+  expected_output: "{\"rules_evaluated\":64,\"hit_rate\":0.69,\"false_positive_rate\"\
+    :0.12,\"retire_list\":7,\n \"report_uri\":\"s3://techint/weekly/detection_efficacy.pdf\"\
+    }\n"
+  agent: ti_integrations_engineer
+  output_file: output/weekly_detection_efficacy_review.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+supply_chain_monitoring:
+  description: 'Scan npm/PyPI/DockerHub for malicious packages, typosquats, maintainer
+    takeovers; map to SBOMs.
+
+    '
+  expected_output: "{\"packages_flagged\":14,\"confirmed_malicious\":3,\"sbom_impact\"\
+    :[\"projectA@2.3\"],\n \"advisories_uri\":\"s3://techint/weekly/supply_chain.pdf\"\
+    }\n"
+  agent: supply_chain_analyst
+  output_file: output/weekly_supply_chain_monitoring.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+ics_exposure_audit:
+  description: 'Audit ICS/IoT exposures: vendor, protocol, geo; delta week-over-week;
+    mitigation progress.
+
+    '
+  expected_output: "{\"exposed_nodes\":118,\"delta\":\"+9\",\"critical\":6,\"mitigation_progress\"\
+    :0.33,\n \"report_uri\":\"s3://techint/weekly/ics_audit.pdf\"}\n"
+  agent: ics_iot_specialist
+  output_file: output/weekly_ics_exposure_audit.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+sbom_diff_coverage:
+  description: 'Ingest latest SBOMs; compute diffs vs prior month; flag new risky
+    deps and untracked components.
+
+    '
+  expected_output: "{\"sboms_processed\":47,\"coverage_pct\":0.93,\"new_risky_deps\"\
+    :12,\"untracked_components\":5,\n \"report_uri\":\"s3://techint/monthly/sbom_diff.pdf\"\
+    }\n"
+  agent: supply_chain_analyst
+  output_file: output/monthly_sbom_diff_coverage.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+detection_tuning:
+  description: 'Tune YARA/Sigma/Suricata rules based on efficacy review and lab validation;
+    publish versioned pack.
+
+    '
+  expected_output: "{\"tuned_rules\":22,\"retired_rules\":6,\"precision\":0.93,\"\
+    recall\":0.88,\n \"rules_pack\":\"s3://techint/monthly/detections_v2025.09.zip\"\
+    }\n"
+  agent: malware_researcher
+  output_file: output/monthly_detection_tuning.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+techint_landscape:
+  description: 'Publish TECHINT landscape: exploits-in-the-wild, malware trends, supply-chain
+    & ICS risks, ROI metrics.
+
+    '
+  expected_output: "{\"month\":\"2025-09\",\"themes\":[\"zero-day\",\"supply-chain\"\
+    ],\"roi_savings_est_usd\":320000,\n \"landscape_uri\":\"s3://techint/monthly/landscape.pdf\"\
+    }\n"
+  agent: techint_strategist
+  output_file: output/monthly_techint_landscape.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+exec_brief:
+  description: 'Executive brief on systemic exploit risk, firmware/code-signing abuse,
+    and supply-chain exposures.
+
+    '
+  expected_output: '{"quarter":"Q3-2025","decisions_influenced":3,"deck_uri":"s3://techint/quarterly/exec_brief.pptx"}
+
+    '
+  agent: techint_strategist
+  output_file: output/quarterly_exec_brief.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+red_team_emulation_pack:
+  description: 'Produce ATT&CK-aligned emulation pack from current TECHINT (commands,
+    payloads, configs) for purple-team.
+
+    '
+  expected_output: "{\"navigator_layer\":\"s3://techint/quarterly/emulation_layer.json\"\
+    ,\n \"pack_zip\":\"s3://techint/quarterly/emulation_pack.zip\"}\n"
+  agent: malware_researcher
+  output_file: output/quarterly_red_team_emulation_pack.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+compliance_audit:
+  description: 'Audit TECHINT evidence packs, chain-of-custody, retention, ToS alignment;
+    document remediation.
+
+    '
+  expected_output: "{\"issues_found\":2,\"issues_resolved\":2,\"audit_pass_rate\"\
+    :1.0,\n \"audit_uri\":\"s3://techint/quarterly/compliance.pdf\"}\n"
+  agent: techint_strategist
+  output_file: output/quarterly_compliance_audit.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+strategy_review:
+  description: 'Strategy refresh covering maturity, coverage, vendors, budget/ROI;
+    roadmap and hiring plan.
+
+    '
+  expected_output: '{"year":2025,"maturity_score":0.84,"budget_usd":1500000,"roadmap_uri":"s3://techint/yearly/strategy.pdf"}
+
+    '
+  agent: techint_strategist
+  output_file: output/yearly_strategy_review.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+attck_maec_coverage_audit:
+  description: 'Audit ATT&CK technique and MAEC mapping coverage across detections
+    and reports; publish Navigator layer.
+
+    '
+  expected_output: "{\"coverage_score\":0.88,\"techniques_mapped\":236,\"maec_entities\"\
+    :74,\n \"navigator_layer\":\"s3://techint/yearly/attck_coverage.json\",\"audit_uri\"\
+    :\"s3://techint/yearly/attck_maec_audit.pdf\"}\n"
+  agent: ti_integrations_engineer
+  output_file: output/yearly_attck_maec_coverage_audit.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3

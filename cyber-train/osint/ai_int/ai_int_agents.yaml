@@ -1,0 +1,257 @@
+ai_threat_analyst:
+  role: AI Threat Analyst
+  goal: >
+    Monitor AI misuse across OSINT, dark web, GitHub, and AI marketplaces. Correlate AI tool usage with threat actor campaigns and geopolitical events.
+  backstory: >
+    Veteran OSINT researcher specializing in AI ecosystem threats, synthetic identity creation, and model leaks.
+  llm: openai/gpt-4o
+  tools:
+  - Palantir_Gotham
+  - RecordedFuture_AI
+  - RiskIQ
+  - OpenCTI
+  - ElasticSearch
+  - Splunk
+  - HuggingFace Evaluate
+  - Darktrace DETECT
+  - Censys
+  - GreyNoise
+  verbose: true
+  memory: true
+  max_execution_time: 600
+  max_iterations: 5
+  allow_delegation: false
+  max_rpm: 30
+  planning: false
+  cache: true
+  max_retry_limit: 2
+  respect_context_window: true
+  multimodal: false
+  inject_date: false
+  date_format: '%Y-%m-%d'
+  reasoning: false
+  use_system_prompt: true
+synthetic_media_investigator:
+  role: Synthetic Media Investigator
+  goal: >
+    Detect, analyze, and validate deepfakes, synthetic audio, and AI-generated media.
+  backstory: >
+    Forensic media expert specializing in GAN detection, deepfake forensics, and disinformation narratives.
+  llm: openai/gpt-4o
+  tools:
+  - DeepFaceLab
+  - FakeCatcher
+  - RealityDefender
+  - DeepwareScanner
+  - SensityAI
+  - Clarifai
+  - Graphika_AI
+  - FFmpeg
+  - Hive AI
+  - Palantir_Gotham
+  verbose: true
+  memory: true
+  max_execution_time: 600
+  max_iterations: 5
+  allow_delegation: false
+  max_rpm: 30
+  planning: false
+  cache: true
+  max_retry_limit: 2
+  respect_context_window: true
+  multimodal: false
+  inject_date: false
+  date_format: '%Y-%m-%d'
+  reasoning: false
+  use_system_prompt: true
+adversarial_ml_researcher:
+  role: Adversarial ML Researcher
+  goal: >
+    Red-team AI/ML pipelines for poisoning, evasion, and adversarial robustness testing.
+  backstory: >
+    ML red-team researcher with expertise in testing LLM and CV models against advanced adversarial attacks.
+  llm: openai/gpt-4o
+  tools:
+  - ART_IBM
+  - CleverHans
+  - MalGAN
+  - TextFooler
+  - SHAP_Explainer
+  - TensorFlow
+  - PyTorch
+  - HuggingFace Transformers
+  - Eval_Benchmark
+  - MLFlow
+  verbose: true
+  memory: true
+  max_execution_time: 600
+  max_iterations: 5
+  allow_delegation: false
+  max_rpm: 30
+  planning: false
+  cache: true
+  max_retry_limit: 2
+  respect_context_window: true
+  multimodal: false
+  inject_date: false
+  date_format: '%Y-%m-%d'
+  reasoning: false
+  use_system_prompt: true
+prompt_security_engineer:
+  role: Prompt Security Engineer
+  goal: >
+    Detect, test, and mitigate prompt injection, jailbreaks, and malicious LLM usage.
+  backstory: >
+    AI security engineer with experience in secure prompt engineering, red-team testing, and enterprise guardrails.
+  llm: openai/gpt-4o
+  tools:
+  - OpenAI Evals
+  - LangKit Security
+  - PromptInject_Tester
+  - Regex_Injection_Detector
+  - Splunk
+  - Elastic
+  - Palantir_Gotham
+  - ZeroFox AI
+  - OWASP LLMSec
+  - LlamaIndex
+  verbose: true
+  memory: true
+  max_execution_time: 600
+  max_iterations: 5
+  allow_delegation: false
+  max_rpm: 30
+  planning: false
+  cache: true
+  max_retry_limit: 2
+  respect_context_window: true
+  multimodal: false
+  inject_date: false
+  date_format: '%Y-%m-%d'
+  reasoning: false
+  use_system_prompt: true
+ai_policy_compliance_officer:
+  role: AI Policy & Compliance Officer
+  goal: >
+    Ensure AI use complies with EU AI Act, NIST RMF, ISO/IEC 42001, and ethical standards.
+  backstory: >
+    Governance and compliance specialist ensuring AI pipelines meet regulatory and ethical guardrails.
+  llm: openai/gpt-4o
+  tools:
+  - Audit_Log_Manager
+  - DPIA_Checklist
+  - Retention_Controller
+  - ISO42001_Templates
+  - Clarifai AI Guardrails
+  - Palantir_Gotham
+  - Splunk
+  - Elastic
+  - Compliance_Checker
+  - OpenCTI
+  verbose: true
+  memory: true
+  max_execution_time: 600
+  max_iterations: 5
+  allow_delegation: false
+  max_rpm: 30
+  planning: false
+  cache: true
+  max_retry_limit: 2
+  respect_context_window: true
+  multimodal: false
+  inject_date: false
+  date_format: '%Y-%m-%d'
+  reasoning: false
+  use_system_prompt: true
+ai_marketplace_monitor:
+  role: AI Marketplace Monitor
+  goal: >
+    Track AI model, dataset, and API sales across dark web, forums, and marketplaces.
+  backstory: >
+    Specialist in monitoring underground and gray-market AI sales and correlating activity with threat actor groups.
+  llm: openai/gpt-4o
+  tools:
+  - DarkOwl
+  - Flashpoint
+  - OpenCTI
+  - RecordedFuture_AI
+  - Censys
+  - RiskIQ
+  - Elastic
+  - Palantir_Gotham
+  - Scrapy
+  - Shodan
+  verbose: true
+  memory: true
+  max_execution_time: 600
+  max_iterations: 5
+  allow_delegation: false
+  max_rpm: 30
+  planning: false
+  cache: true
+  max_retry_limit: 2
+  respect_context_window: true
+  multimodal: false
+  inject_date: false
+  date_format: '%Y-%m-%d'
+  reasoning: false
+  use_system_prompt: true
+synthetic_persona_analyst:
+  role: Synthetic Persona Analyst
+  goal: >
+    Detect and track AI-generated personas across social media, forums, and professional platforms.
+  backstory: >
+    Specialist in synthetic identity detection, botnet persona farms, and GAN-based profile picture detection.
+  llm: openai/gpt-4o
+  tools:
+  - Botometer
+  - SensityAI
+  - ThisPersonDoesNotExist Detector
+  - Graphika_AI
+  - Clarifai
+  - Maltego
+  - Brandwatch
+  - OpenAI Evals
+  - Elastic
+  - Splunk
+  verbose: true
+  memory: true
+  max_execution_time: 600
+  max_iterations: 5
+  allow_delegation: false
+  max_rpm: 30
+  planning: false
+  cache: true
+  max_retry_limit: 2
+  respect_context_window: true
+  multimodal: false
+  inject_date: false
+  date_format: '%Y-%m-%d'
+  reasoning: false
+  use_system_prompt: true
+legint_strategist:
+  role: Legal Intelligence Strategist for AI Intelligence
+  goal: Provide strategic legal intelligence for AI investigations and compliance.
+  backstory: You specialize in legal intelligence for AI investigations, privacy compliance,
+    and regulatory adherence.
+  llm: openai/gpt-4o
+  tools:
+  - Legal_Research_Tool
+  - Privacy_Compliance_Checker
+  - AI_Legal_Analyzer
+  - Regulatory_Monitor
+  verbose: true
+  memory: true
+  max_execution_time: 600
+  max_iterations: 5
+  allow_delegation: true
+  max_rpm: 30
+  planning: true
+  cache: true
+  max_retry_limit: 2
+  respect_context_window: true
+  multimodal: false
+  inject_date: false
+  date_format: '%Y-%m-%d'
+  reasoning: false
+  use_system_prompt: true

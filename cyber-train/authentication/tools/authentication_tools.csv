@@ -1,0 +1,37 @@
+Implementation Priority,tool,pillar,type,agent,task,priority,source,url
+,Keycloak,authentication,Open Source,iam_engineer,identity_management,High,comprehensive_csv,https://github.com/keycloak/keycloak
+,Authelia,authentication,Open Source,iam_engineer,authentication_server,Medium,comprehensive_csv,https://github.com/authelia/authelia
+,FreeIPA,authentication,Open Source,iam_engineer,directory_services,High,comprehensive_csv,https://github.com/freeipa/freeipa
+,Wazuh,authentication,Open Source,soc_analyst,authentication_monitoring,Medium,comprehensive_csv,https://github.com/wazuh/wazuh
+,OpenIAM,authentication,Open Source,iam_engineer,identity_governance,Medium,comprehensive_csv,https://github.com/openiam/openiam
+,PrivacyIDEA,authentication,Open Source,iam_engineer,multi_factor_auth,Medium,comprehensive_csv,https://github.com/privacyidea/privacyidea
+,Elastalert / ELK Stack,authentication,Open Source,soc_analyst,authentication_log_analysis,Medium,comprehensive_csv,https://github.com/elastic/elasticsearch
+,OSSEC,authentication,Open Source,soc_analyst,intrusion_detection,Medium,comprehensive_csv,https://github.com/ossec/ossec-hids
+,CrowdSec,authentication,Open Source,soc_analyst,threat_intelligence,Medium,comprehensive_csv,https://github.com/crowdsecurity/crowdsec
+,Fail2Ban,authentication,Open Source,iam_engineer,brute_force_protection,Medium,comprehensive_csv,https://github.com/fail2ban/fail2ban
+,Okta Workforce Identity,authentication,Commercial,iam_engineer,identity_management,High,comprehensive_csv,https://developer.okta.com
+,Microsoft Entra ID (Azure AD),authentication,Commercial,iam_engineer,identity_management,High,comprehensive_csv,https://docs.microsoft.com/en-us/azure/active-directory
+,Ping Identity,authentication,Commercial,iam_engineer,identity_management,High,comprehensive_csv,https://docs.pingidentity.com
+,Duo Security (Cisco),authentication,Commercial,iam_engineer,multi_factor_auth,High,comprehensive_csv,https://duo.com/docs
+,CyberArk Idaptive,authentication,Commercial,iam_engineer,identity_management,High,comprehensive_csv,https://docs.cyberark.com
+,ForgeRock Identity Platform,authentication,Commercial,iam_engineer,identity_management,High,comprehensive_csv,https://backstage.forgerock.com
+,IBM Security Verify,authentication,Commercial,iam_engineer,identity_management,High,comprehensive_csv,https://www.ibm.com/docs/en/security-verify
+,SailPoint IdentityNow,authentication,Commercial,iam_engineer,identity_governance,High,comprehensive_csv,https://docs.sailpoint.com
+,RSA SecurID,authentication,Commercial,iam_engineer,multi_factor_auth,High,comprehensive_csv,https://docs.rsa.com
+,Google Cloud Identity,authentication,Commercial,iam_engineer,identity_management,High,comprehensive_csv,https://cloud.google.com/identity
+,Auth0,authentication,Commercial,iam_engineer,identity_management,High,comprehensive_csv,https://auth0.com/docs
+,OneLogin,authentication,Commercial,iam_engineer,sso_implementation,Medium,comprehensive_csv,https://developers.onelogin.com
+,JumpCloud,authentication,Commercial,iam_engineer,directory_services,Medium,comprehensive_csv,https://docs.jumpcloud.com
+,YubiKey,authentication,Commercial,iam_engineer,hardware_mfa,High,comprehensive_csv,https://developers.yubico.com
+,Google Authenticator,authentication,Open Source,iam_engineer,mfa_implementation,Medium,comprehensive_csv,https://github.com/google/google-authenticator
+,Microsoft Authenticator,authentication,Commercial,iam_engineer,mfa_implementation,High,comprehensive_csv,https://docs.microsoft.com/en-us/azure/active-directory/user-help
+,FreeOTP,authentication,Open Source,iam_engineer,mobile_mfa,Medium,comprehensive_csv,https://github.com/freeotp/freeotp-android
+,andOTP,authentication,Open Source,iam_engineer,mobile_mfa,Medium,comprehensive_csv,https://github.com/andOTP/andOTP
+,Aegis Authenticator,authentication,Open Source,iam_engineer,mobile_mfa,Medium,comprehensive_csv,https://github.com/beemdevelopment/Aegis
+,TOTP-CLI,authentication,Open Source,iam_engineer,command_line_mfa,Low,comprehensive_csv,https://github.com/yitsushi/totp-cli
+,LinOTP,authentication,Open Source,iam_engineer,mfa_server,Medium,comprehensive_csv,https://github.com/LinOTP/LinOTP
+,FreeRADIUS,authentication,Open Source,iam_engineer,radius_server,High,comprehensive_csv,https://github.com/FreeRADIUS/freeradius-server
+,OpenLDAP,authentication,Open Source,iam_engineer,directory_service,High,comprehensive_csv,https://github.com/openldap/openldap
+,389 Directory Server,authentication,Open Source,iam_engineer,directory_service,Medium,comprehensive_csv,https://github.com/389ds/389-ds-base
+,Kanidm,authentication,Open Source,iam_engineer,modern_identity,Medium,comprehensive_csv,https://github.com/kanidm/kanidm
+,Zitadel,authentication,Open Source,iam_engineer,identity_platform,Medium,comprehensive_csv,https://github.com/zitadel/zitadel

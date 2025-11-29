@@ -1,0 +1,39 @@
+Implementation Priority,tool,pillar,type,agent,task,priority,source,url
+,Eramba,governance_risk_strategy,Open Source,grc_analyst,grc_management,Medium,comprehensive_csv,https://github.com/eramba/eramba
+,OpenFAIR Tools,governance_risk_strategy,Open Source,grc_analyst,risk_quantification,Medium,comprehensive_csv,https://github.com/OpenFAIR/OpenFAIR
+,GRR Rapid Response,governance_risk_strategy,Open Source,grc_analyst,forensic_assessment,Medium,comprehensive_csv,https://github.com/google/grr
+,Osquery,governance_risk_strategy,Open Source,grc_analyst,endpoint_assessment,Medium,comprehensive_csv,https://github.com/osquery/osquery
+,ComplianceAsCode (OpenSCAP),governance_risk_strategy,Open Source,grc_analyst,compliance_automation,Medium,comprehensive_csv,https://github.com/ComplianceAsCode
+,Auditd,governance_risk_strategy,Open Source,grc_analyst,audit_logging,Medium,comprehensive_csv,https://github.com/linux-audit/audit-userspace
+,Elastic Stack (ELK),governance_risk_strategy,Open Source,grc_analyst,log_analysis,Medium,comprehensive_csv,https://github.com/elastic/elasticsearch
+,GRC module in Wazuh,governance_risk_strategy,Open Source,grc_analyst,grc_management,Medium,comprehensive_csv,https://github.com/wazuh/wazuh
+,Metasploit/Red Team Tools,governance_risk_strategy,Open Source,grc_analyst,risk_testing,Medium,comprehensive_csv,https://github.com/rapid7/metasploit-framework
+,RSA Archer,governance_risk_strategy,Commercial,grc_analyst,grc_management,High,comprehensive_csv,https://docs.rsa.com
+,ServiceNow GRC,governance_risk_strategy,Commercial,grc_analyst,grc_management,High,comprehensive_csv,https://docs.servicenow.com
+,MetricStream,governance_risk_strategy,Commercial,grc_analyst,grc_management,High,comprehensive_csv,https://docs.metricstream.com
+,OneTrust GRC,governance_risk_strategy,Commercial,grc_analyst,grc_management,High,comprehensive_csv,https://docs.onetrust.com
+,LogicGate Risk Cloud,governance_risk_strategy,Commercial,grc_analyst,risk_management,High,comprehensive_csv,https://docs.logicgate.com
+,RiskRecon (Mastercard),governance_risk_strategy,Commercial,grc_analyst,security_rating,High,comprehensive_csv,https://docs.riskrecon.com
+,BitSight,governance_risk_strategy,Commercial,grc_analyst,security_rating,High,comprehensive_csv,https://docs.bitsight.com
+,NAVEX GRC Suite,governance_risk_strategy,Commercial,grc_analyst,grc_management,High,comprehensive_csv,https://docs.navex.com
+,ZenGRC,governance_risk_strategy,Commercial,grc_analyst,grc_management,High,comprehensive_csv,https://docs.zengrc.com
+,OpenFAIR,governance_risk_strategy,Open Source,grc_analyst,risk_quantification,High,comprehensive_csv,https://github.com/OpenFAIR/OpenFAIR
+,FAIR-Calc,governance_risk_strategy,Open Source,grc_analyst,risk_quantification,High,comprehensive_csv,https://github.com/OpenFAIR/FAIR-Calc
+,NIST CSF,governance_risk_strategy,Framework,grc_analyst,risk_framework,High,comprehensive_csv,https://www.nist.gov/cyberframework
+,ISO 27001,governance_risk_strategy,Framework,grc_analyst,risk_framework,High,comprehensive_csv,https://www.iso.org/standard/27001
+,COBIT,governance_risk_strategy,Framework,grc_analyst,governance_framework,High,comprehensive_csv,https://www.isaca.org/resources/cobit
+,ITIL,governance_risk_strategy,Framework,grc_analyst,service_management,High,comprehensive_csv,https://www.axelos.com/best-practice-solutions/itil
+,COSO,governance_risk_strategy,Framework,grc_analyst,internal_control,High,comprehensive_csv,https://www.coso.org
+,ISO 31000,governance_risk_strategy,Framework,grc_analyst,risk_management,High,comprehensive_csv,https://www.iso.org/standard/31000
+,PCI DSS,governance_risk_strategy,Framework,grc_analyst,compliance_framework,High,comprehensive_csv,https://www.pcisecuritystandards.org
+,SOX,governance_risk_strategy,Framework,grc_analyst,compliance_framework,High,comprehensive_csv,https://www.sec.gov
+,GDPR,governance_risk_strategy,Framework,grc_analyst,privacy_framework,High,comprehensive_csv,https://gdpr.eu
+,HIPAA,governance_risk_strategy,Framework,grc_analyst,healthcare_compliance,High,comprehensive_csv,https://www.hhs.gov/hipaa
+,SOC 2,governance_risk_strategy,Framework,grc_analyst,security_compliance,High,comprehensive_csv,https://www.aicpa.org/interestareas/frc/assuranceadvisoryservices/aicpasoc2report
+,FedRAMP,governance_risk_strategy,Framework,grc_analyst,government_compliance,High,comprehensive_csv,https://www.fedramp.gov
+,FISMA,governance_risk_strategy,Framework,grc_analyst,government_compliance,High,comprehensive_csv,https://www.cisa.gov/fisma
+,CIS Controls,governance_risk_strategy,Framework,grc_analyst,security_controls,High,comprehensive_csv,https://www.cisecurity.org/controls
+,OWASP Top 10,governance_risk_strategy,Framework,grc_analyst,application_security,High,comprehensive_csv,https://owasp.org/www-project-top-ten
+,NIST SP 800-53,governance_risk_strategy,Framework,grc_analyst,security_controls,High,comprehensive_csv,https://csrc.nist.gov/publications/detail/sp/800-53/rev-5/final
+,NIST SP 800-171,governance_risk_strategy,Framework,grc_analyst,cybersecurity_framework,High,comprehensive_csv,https://csrc.nist.gov/publications/detail/sp/800-171/rev-2/final
+,CMMC,governance_risk_strategy,Framework,grc_analyst,cybersecurity_maturity,High,comprehensive_csv,https://www.cmmc-cco.org

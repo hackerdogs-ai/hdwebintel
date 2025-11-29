@@ -1,0 +1,215 @@
+container_policy_definition_task:
+  description: >
+    Define enterprise container security policies across image signing, RBAC, admission,
+    network policy, and supply chain provenance. Use Container Policy Generator
+    and Compliance Framework Tool.
+  expected_output: >
+    A JSON object with container policies.
+    Example: {"policy":"Container Security","image_signing":"required","rbac":"least_privilege"}
+  agent: container_strategist
+  output_file: output/container_policy.json
+
+image_scanning_task:
+  description: >
+    Scan images in CI/CD with Container Image Scanner. Detect CVEs, secrets, and misconfigurations.
+  expected_output: >
+    {"images_scanned":100,"critical_vulns":12,"secrets_found":["AWS_KEY"]}
+  agent: container_engineer
+  output_file: output/image_scanning.json
+
+cicd_security_task:
+  description: >
+    Enforce security in CI/CD using CI/CD Integration Tool.
+    Block deployment of unsigned or vulnerable images.
+  expected_output: >
+    {"build_id":"1234","status":"blocked","violations":["unsigned","critical_vulns"]}
+  agent: container_engineer
+  context: [image_scanning_task]
+  output_file: output/cicd_security.json
+
+admission_control_pipeline_task:
+  description: >
+    Operate Kubernetes admission controllers (mutating/validating) with Admission Controller Manager.
+    Enforce signed images, RBAC checks, resource quotas, and break-glass tracking.
+  expected_output: >
+    {"policies":["signed_images","no_latest"],"denies":8,"overrides":1}
+  agent: container_platform_engineer
+  context: [cicd_security_task]
+  output_file: output/admission.json
+
+ebpf_runtime_observability_task:
+  description: >
+    Deploy eBPF Runtime Sensor for syscall/network observability.
+    Correlate with SIEM to detect kernel-level threats (crypto mining, container escapes).
+  expected_output: >
+    {"signals":["syscall:execve /bin/sh"],"alerts":3,"noise_reduction":92}
+  agent: container_platform_engineer
+  output_file: output/ebpf.json
+
+multi_tenant_isolation_task:
+  description: >
+    Validate namespace isolation, RBAC, resource quotas, and PodSecurity policies
+    for multi-tenant clusters. Use CNI/Network Policy Analyzer.
+  expected_output: >
+    {"tenants":10,"isolation_gaps":["nsA→nsB open egress"],"remediation":["deny cross-ns traffic"]}
+  agent: container_platform_engineer
+  output_file: output/tenant_isolation.json
+
+k8s_control_plane_hardening_task:
+  description: >
+    Audit Kubernetes API server, etcd, kubelet, and admission plugin configs
+    with Node Hardening Tool and Kubernetes Compliance Scanner.
+  expected_output: >
+    {"findings":["RBAC wildcard","etcd not encrypted"],"remediation":["remove wildcards","enable encryption"]}
+  agent: container_platform_engineer
+  output_file: output/control_plane.json
+
+cni_network_policy_task:
+  description: >
+    Generate and enforce Kubernetes NetworkPolicies using CNI Analyzer.
+    Validate least privilege egress/ingress paths.
+  expected_output: >
+    {"policies_enforced":25,"violations":["podA→db unrestricted"],"remediation":["deny egress"]}
+  agent: container_platform_engineer
+  output_file: output/cni.json
+
+service_mesh_security_task:
+  description: >
+    Validate service mesh mTLS, AuthorizationPolicies, and telemetry.
+    Use Service Mesh Policy Tool.
+  expected_output: >
+    {"mtls":"enabled","authz_gaps":["allow-all policy"],"cert_rotation":"ok"}
+  agent: container_platform_engineer
+  output_file: output/mesh.json
+
+registry_governance_task:
+  description: >
+    Enforce registry governance with Registry Governance Tool.
+    Require immutable tags, signed images, and trusted repos only.
+  expected_output: >
+    {"registries":["harbor","ecr"],"unsigned":2,"blocked":2}
+  agent: container_platform_engineer
+  context: [image_scanning_task]
+  output_file: output/registry.json
+
+build_provenance_task:
+  description: >
+    Validate image provenance using SLSA attestations and cosign signatures.
+    Use GitOps Controller Tool for enforcement.
+  expected_output: >
+    {"sboms_verified":40,"provenance_passed":38,"failed":2}
+  agent: container_platform_engineer
+  context: [cicd_security_task, registry_governance_task]
+  output_file: output/provenance.json
+
+secrets_runtime_rotation_task:
+  description: >
+    Rotate secrets with CSI Secrets Store and Vault/KMS.
+    Detect plaintext secrets in env/configs with Secrets Scanner.
+  expected_output: >
+    {"secrets_rotated":120,"plaintext_found":["db_pass"],"encrypted_at_rest":true}
+  agent: container_platform_engineer
+  output_file: output/secrets_rotation.json
+
+k8s_backup_restore_validation_task:
+  description: >
+    Validate Kubernetes cluster backups and quarterly restores with Velero.
+    Test etcd and namespace-level recovery.
+  expected_output: >
+    {"backups_ok":98,"restore_duration_min":12,"integrity":"pass"}
+  agent: container_platform_engineer
+  output_file: output/backup_restore.json
+
+gitops_reconciliation_task:
+  description: >
+    Detect drift vs. GitOps desired state. Auto-create PRs to remediate.
+  expected_output: >
+    {"drifts_detected":5,"prs_opened":5,"merged":4}
+  agent: container_platform_engineer
+  output_file: output/gitops.json
+
+node_hardening_task:
+  description: >
+    Audit and enforce node-level hardening (CIS Node Benchmark, kernel lockdown,
+    containerd configs, disable compilers).
+  expected_output: >
+    {"nodes_checked":50,"critical_findings":["compilers installed"],"remediation":"remove compilers"}
+  agent: container_platform_engineer
+  output_file: output/node_hardening.json
+
+sidecar_init_governance_task:
+  description: >
+    Detect privileged sidecars/init containers with Admission Controller Manager.
+    Enforce allowlists and block unauthorized sidecar injection.
+  expected_output: >
+    {"violations":3,"blocked":["privileged_sidecar.yaml"],"allowlist":["mesh_proxy"]}
+  agent: container_platform_engineer
+  output_file: output/sidecars.json
+
+helm_manifest_supplychain_task:
+  description: >
+    Verify Helm chart signing/provenance and lint Kustomize manifests.
+    Fail CI/CD builds on unsigned charts or misconfigurations.
+  expected_output: >
+    {"charts_signed":95,"lint_errors":2,"blocked":1}
+  agent: container_platform_engineer
+  output_file: output/helm.json
+
+runtime_threat_detection_task:
+  description: >
+    Detect runtime anomalies (crypto mining, escape attempts).
+    Use Runtime Threat Detection Tool + eBPF Runtime Sensor.
+  expected_output: >
+    {"alerts":12,"critical":["crypto miner in podX"],"escalated":2}
+  agent: container_engineer
+  output_file: output/runtime_threats.json
+
+container_drift_detection_task:
+  description: >
+    Detect runtime drift vs. approved images using Drift Detection Tool.
+    Flag and rollback unauthorized changes.
+  expected_output: >
+    {"pods_checked":200,"drifted":["pod42"],"action":"rollback"}
+  agent: container_engineer
+  output_file: output/drift.json
+
+incident_response_task:
+  description: >
+    Respond to container-related incidents (crypto mining, privilege escalation).
+    Use Incident Response Tool and SIEM Tool for containment/recovery.
+  expected_output: >
+    {"incident_id":"INC456","pods_isolated":["pod42"],"malware_removed":true}
+  agent: container_engineer
+  context: [runtime_threat_detection_task, container_drift_detection_task]
+  output_file: output/container_ir.json
+
+container_audit_task:
+  description: >
+    Perform quarterly audits with Kubernetes Compliance Scanner and Audit Checklist Tool.
+    Validate supply chain integrity, RBAC, node configs, and runtime security.
+  expected_output: >
+    {"score":88,"findings":["privileged pods","unsigned charts"],"remediations":["deny privileged","require signed charts"]}
+  agent: container_auditor
+  context: [admission_control_pipeline_task, build_provenance_task, node_hardening_task]
+  output_file: output/container_audit.json
+
+risk_scoring_reporting_task:
+  description: >
+    Generate risk scores combining CVEs, runtime reachability, internet exposure,
+    tenant criticality, and compliance drift.
+  expected_output: >
+    {"risk_score":82,"top_risks":["crypto miner risk","open ingress in tenant ns"],"trend":"up"}
+  agent: container_auditor
+  context: [container_audit_task, runtime_threat_detection_task]
+  output_file: output/risk.json
+
+container_metrics_reporting_task:
+  description: >
+    Generate KPIs with Reporting Dashboard Tool.
+    Include scanning coverage, policy enforcement, drift findings, runtime alerts,
+    backup/restore, GitOps remediations, and risk scores.
+  expected_output: >
+    {"images_scanned":100,"policy_compliance":92,"drift_detected":5,"runtime_alerts":12,"backup_ok":98,"risk_score":82}
+  agent: container_auditor
+  context: [container_audit_task, risk_scoring_reporting_task]
+  output_file: output/container_metrics.json

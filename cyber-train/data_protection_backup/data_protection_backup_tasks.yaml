@@ -1,0 +1,231 @@
+data_protection_policy_task:
+  description: >
+    Define enterprise data protection policy using Data Protection Policy Tool and Business Impact Analyzer.
+    Include tiered RPO/RTO targets, 3-2-1-1-0 strategy, immutability and air-gap requirements,
+    encryption, residency/sovereignty, SaaS & DB coverage, and testing cadence.
+  expected_output: >
+    {"tiers":{"tier0":{"rpo":"0-5m","rto":"<15m"},"tier1":{"rpo":"1h","rto":"4h"}},
+     "strategy":"3-2-1-1-0","immutability":"required","air_gap":"weekly","saas_covered":true}
+  agent: data_protection_strategist
+  output_file: output/data_protection_policy.json
+
+classification_mapping_task:
+  description: >
+    Discover and classify data using Data Classification Tool and DLP Scanner.
+    Tag systems/datasets with sensitivity, retention, residency, and business tier.
+  expected_output: >
+    {"datasets":420,"high_sensitivity":95,"geo_restricted":22,"tags_applied":["pci","phi","gdpr_eu"]}
+  agent: data_classification_analyst
+  context: [data_protection_policy_task]
+  output_file: output/data_classification.json
+
+data_residency_mapping_task:
+  description: >
+    Validate data location constraints with Data Residency Checker.
+    Map backup targets and replicas to compliant regions/accounts.
+  expected_output: >
+    {"datasets_checked":220,"non_compliant":7,"actions":["move EU data to eu-central-1 vault"]}
+  agent: data_classification_analyst
+  context: [classification_mapping_task]
+  output_file: output/data_residency.json
+
+backup_coverage_discovery_task:
+  description: >
+    Discover assets lacking backups using Backup Orchestrator Tool and Cloud Backup Tool.
+    Generate gap list across servers, DBs, SaaS, and object storage.
+  expected_output: >
+    {"assets_total":3100,"unprotected":143,"priority":["billing-db","salesforce prod files"]}
+  agent: backup_operations_engineer
+  context: [data_protection_policy_task]
+  output_file: output/backup_coverage.json
+
+backup_job_configuration_task:
+  description: >
+    Configure/schedule backups per tier using Backup Orchestrator, Database Backup Tool (PITR),
+    SaaS Backup Tool, and Snapshot Manager. Include verification steps.
+  expected_output: >
+    {"jobs_created":280,"pitr_enabled":["orders-db"],"saas_tenants":["M365","Salesforce"],"snapshot_policies":65}
+  agent: backup_operations_engineer
+  context: [backup_coverage_discovery_task]
+  output_file: output/backup_jobs.json
+
+snapshot_lifecycle_task:
+  description: >
+    Enforce snapshot policies (EBS/Azure/GCP) with Snapshot Manager:
+    tagging, encryption, retention, cross-account replication, and auto-expiry.
+  expected_output: >
+    {"snapshots_managed":12500,"unencrypted_fixed":42,"expired_deleted":780}
+  agent: backup_operations_engineer
+  output_file: output/snapshot_lifecycle.json
+
+immutability_enablement_task:
+  description: >
+    Enable WORM/Object Lock and retention locks (compliance/legal) using Immutable Storage Manager.
+    Enforce MFA delete and cross-account vaulting.
+  expected_output: >
+    {"vaults_hardened":12,"object_lock_enabled":true,"mfa_delete":"enforced","retention_mode":"compliance"}
+  agent: backup_security_engineer
+  output_file: output/immutability.json
+
+air_gap_copy_task:
+  description: >
+    Create offline/logically air-gapped copies using Air-Gap Transfer Tool:
+    cross-account, cross-region, offline media (tape) where required.
+  expected_output: >
+    {"air_gap_frequency":"weekly","copies_created":48,"vault_accounts":3,"offline_media_sets":6}
+  agent: backup_security_engineer
+  context: [immutability_enablement_task]
+  output_file: output/airgap.json
+
+backup_access_control_task:
+  description: >
+    Lock down backup consoles and storage with PAM/Access Review Tool.
+    Enforce least-privilege, JIT, break-glass, and dual-control for destructive actions.
+  expected_output: >
+    {"roles_reviewed":36,"excess_priv_removed":19,"jit_enabled":true,"break_glass_audited":true}
+  agent: backup_security_engineer
+  output_file: output/backup_access.json
+
+ransomware_anomaly_detection_task:
+  description: >
+    Monitor for anomalous backup patterns (mass deletes, sudden encryption spikes) using
+    Ransomware Anomaly Detector with SIEM correlation. Auto-suspend destructive calls.
+  expected_output: >
+    {"anomalies":7,"auto_suppressed":5,"escalated":["INC-BAK-221"],"false_positive_rate":0.8}
+  agent: backup_security_engineer
+  context: [backup_access_control_task]
+  output_file: output/ransomware_anomaly.json
+
+pitr_database_validation_task:
+  description: >
+    Validate database Point-in-Time Recovery (PITR) using Database Backup Tool.
+    Perform timed restores and consistency checks (checksum/transaction counts).
+  expected_output: >
+    {"dbs_tested":18,"avg_restore_min":12,"pitr_window_hours":72,"failures":["inv-db@2025-09-01T10:22Z"]}
+  agent: backup_operations_engineer
+  output_file: output/pitr_validation.json
+
+saas_backup_validation_task:
+  description: >
+    Ensure SaaS backups (M365/Google Workspace/Salesforce) exist and perform object-level restores.
+    Validate retention, versioning, and legal hold compatibility.
+  expected_output: >
+    {"tenants":["M365","Salesforce"],"restore_tests_passed":14,"legal_hold_ready":true}
+  agent: backup_operations_engineer
+  output_file: output/saas_backup.json
+
+restore_verification_task:
+  description: >
+    Run monthly restore drills using Restore Verification Tool with application-owner sign-off.
+    Include pre-restore malware scan and post-restore data integrity checks.
+  expected_output: >
+    {"systems_tested":42,"restore_success_rate":97,"mttr_restore_min":22,"owner_signoffs":39}
+  agent: backup_operations_engineer
+  context: [backup_job_configuration_task]
+  output_file: output/restore_verification.json
+
+backup_malware_scan_task:
+  description: >
+    Scan backup images prior to restore using Backup Malware Scan Tool to detect dormant malware/ransomware.
+  expected_output: >
+    {"images_scanned":340,"malware_hits":3,"quarantined_sets":3,"blocked_restores":2}
+  agent: backup_operations_engineer
+  context: [restore_verification_task]
+  output_file: output/backup_malware.json
+
+retention_lifecycle_task:
+  description: >
+    Apply Retention Policy Manager to enforce business/legal retention, auto-archive to cold tiers,
+    and handle legal hold exceptions without policy drift.
+  expected_output: >
+    {"policies_applied":28,"archives_moved_tb":120,"legal_holds":9,"violations_fixed":4}
+  agent: data_classification_analyst
+  output_file: output/retention_lifecycle.json
+
+cost_optimization_task:
+  description: >
+    Analyze storage costs (dedupe/compression/tiering) with Cost Analyzer Tool.
+    Recommend lifecycle transitions (standard->archive) without violating RPO/RTO.
+  expected_output: >
+    {"monthly_spend_usd":84210,"savings_opportunities":17,"projected_savings_usd":15640}
+  agent: backup_auditor
+  context: [retention_lifecycle_task]
+  output_file: output/backup_costs.json
+
+kms_key_strategy_task:
+  description: >
+    Design key hierarchy and segregation (per-app/tenant) with KMS/HSM Manager.
+    Enforce key grants separation from backup admins; define rotation cadences.
+  expected_output: >
+    {"key_rings":12,"rotation_period_days":90,"separation_of_duties":true}
+  agent: kms_hsm_engineer
+  output_file: output/kms_strategy.json
+
+key_rotation_execution_task:
+  description: >
+    Execute staged key rotation with Key Rotation Tool; validate decrypt/restore on new keys;
+    maintain old key availability until verification completes.
+  expected_output: >
+    {"keys_rotated":48,"restore_validation_pass":48,"rollback_needed":0}
+  agent: kms_hsm_engineer
+  context: [kms_key_strategy_task]
+  output_file: output/key_rotation.json
+
+key_recovery_drill_task:
+  description: >
+    Perform quarterly key recovery exercises using Key Recovery Drill Tool with dual-control.
+    Prove restores succeed under lost-key scenarios (without breaking compliance).
+  expected_output: >
+    {"drills_run":4,"rto_key_recovery_min":9,"success":true,"gaps":[]}
+  agent: kms_hsm_engineer
+  output_file: output/key_recovery.json
+
+backup_change_management_task:
+  description: >
+    Track and approve changes to backup jobs/policies via Backup Orchestrator Tool.
+    Record requester, approver, reason, and automated validation steps.
+  expected_output: >
+    {"changes_reviewed":63,"auto_tests_failed":2,"rejected":2}
+  agent: backup_operations_engineer
+  output_file: output/backup_changes.json
+
+privacy_eDiscovery_alignment_task:
+  description: >
+    Document how backups interact with DSAR/eDiscovery using Legal Hold / eDiscovery Tool.
+    Define processes for exceptional restores for legal review; document backup DSAR exemptions.
+  expected_output: >
+    {"dsar_policy":"documented","restore_for_legal_process":"defined","exceptions_logged":3}
+  agent: backup_auditor
+  output_file: output/privacy_ediscovery.json
+
+ir_dr_integration_task:
+  description: >
+    Integrate with Incident Response & DR: define ransomware triggers to freeze vaults,
+    quarantine suspect data, and prioritize restore runbooks by business tier.
+  expected_output: >
+    {"runbooks_linked":12,"vault_freeze_hooks":true,"priority_restore_order":["tier0","tier1"]}
+  agent: backup_security_engineer
+  context: [ransomware_anomaly_detection_task, restore_verification_task]
+  output_file: output/ir_dr_integration.json
+
+audit_readiness_task:
+  description: >
+    Audit data protection controls with Audit Checklist Tool and Compliance Mapping Tool.
+    Cover coverage %, restore success rate, immutability/air-gap enforcement, residency, keys/rotation.
+  expected_output: >
+    {"coverage_pct":96,"restore_success_90d":98,"immutability":"enabled","air_gap":"weekly","residency_compliant":99}
+  agent: backup_auditor
+  context: [data_protection_policy_task, restore_verification_task, immutability_enablement_task, data_residency_mapping_task]
+  output_file: output/audit_readiness.json
+
+backup_kpis_reporting_task:
+  description: >
+    Generate executive KPIs via Reporting Dashboard Tool:
+    coverage %, job success/failure trends, RPO/RTO attainment, restore success/MTTRestore,
+    immutability/air-gap coverage, malware-in-backups, cost per TB, and compliance scores.
+  expected_output: >
+    {"coverage_pct":96,"job_success_30d":99.1,"rpo_met_pct":93,"avg_mttr_restore_min":24,
+     "immutability_coverage_pct":88,"air_gap_coverage_pct":72,"malware_hits_30d":2,"cost_per_tb_usd":11.7,"audit_score":94}
+  agent: backup_auditor
+  context: [audit_readiness_task, cost_optimization_task, restore_verification_task, ransomware_anomaly_detection_task]
+  output_file: output/backup_kpis.json

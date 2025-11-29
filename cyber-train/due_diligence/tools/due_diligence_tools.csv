@@ -1,0 +1,46 @@
+Implementation Priority,tool,pillar,type,agent,task,priority,source,url
+,ServiceNow GRC,due_diligence,Commercial,grc_manager,control_monitoring_task,High,comprehensive_csv,https://docs.servicenow.com
+,MetricStream,due_diligence,Commercial,grc_manager,control_monitoring_task,High,comprehensive_csv,https://docs.metricstream.com
+,RSA Archer,due_diligence,Commercial,grc_manager,control_monitoring_task,High,comprehensive_csv,https://docs.rsa.com
+,OneTrust,due_diligence,Commercial,grc_manager,control_monitoring_task,High,comprehensive_csv,https://docs.onetrust.com
+,SecurityScorecard,due_diligence,Commercial,vendor_risk_officer,vendor_due_diligence_task,High,comprehensive_csv,https://docs.securityscorecard.com
+,BitSight,due_diligence,Commercial,vendor_risk_officer,vendor_due_diligence_task,High,comprehensive_csv,https://docs.bitsight.com
+,RiskRecon,due_diligence,Commercial,vendor_risk_officer,vendor_due_diligence_task,High,comprehensive_csv,https://docs.riskrecon.com
+,OpenFAIR,due_diligence,Open Source,risk_quant_analyst,risk_quantification_task,High,comprehensive_csv,https://github.com/OpenFAIR/OpenFAIR
+,FAIR-Calc,due_diligence,Open Source,risk_quant_analyst,risk_quantification_task,High,comprehensive_csv,https://github.com/OpenFAIR/FAIR-Calc
+,NIST CSF,due_diligence,Framework,due_diligence_strategist,define_due_diligence_strategy_task,High,comprehensive_csv,https://www.nist.gov/cyberframework
+,CIS Controls,due_diligence,Framework,due_diligence_strategist,define_due_diligence_strategy_task,High,comprehensive_csv,https://www.cisecurity.org/controls
+,OWASP Top 10,due_diligence,Framework,due_diligence_strategist,define_due_diligence_strategy_task,High,comprehensive_csv,https://owasp.org/www-project-top-ten
+,ServiceNow,due_diligence,Commercial,due_diligence_strategist,define_due_diligence_strategy_task,High,comprehensive_csv,https://docs.servicenow.com
+,Jira Service Management,due_diligence,Commercial,due_diligence_strategist,define_due_diligence_strategy_task,High,comprehensive_csv,https://docs.atlassian.com
+,BMC Remedy,due_diligence,Commercial,due_diligence_strategist,define_due_diligence_strategy_task,Medium,comprehensive_csv,https://docs.bmc.com
+,ISO 27001,due_diligence,Framework,regulatory_compliance_officer,regulatory_alignment_task,High,comprehensive_csv,https://www.iso.org/standard/27001
+,PCI DSS,due_diligence,Framework,regulatory_compliance_officer,regulatory_alignment_task,High,comprehensive_csv,https://www.pcisecuritystandards.org
+,GDPR,due_diligence,Framework,regulatory_compliance_officer,regulatory_alignment_task,High,comprehensive_csv,https://gdpr.eu
+,HIPAA,due_diligence,Framework,regulatory_compliance_officer,regulatory_alignment_task,High,comprehensive_csv,https://www.hhs.gov/hipaa
+,NIS2,due_diligence,Framework,regulatory_compliance_officer,regulatory_alignment_task,High,comprehensive_csv,https://digital-strategy.ec.europa.eu/en/policies/nis2-directive
+,DORA,due_diligence,Framework,regulatory_compliance_officer,regulatory_alignment_task,High,comprehensive_csv,https://www.fsb.org/work-of-the-fsb/financial-stability-implementation/operational-resilience
+,Control Monitoring Platform,due_diligence,Commercial,ccm_engineer,ccm_automation_task,High,comprehensive_csv,https://docs.controlmonitoring.com
+,Evidence Collection Tool,due_diligence,Commercial,ccm_engineer,ccm_automation_task,High,comprehensive_csv,https://docs.evidencecollection.com
+,Board Reporting Platform,due_diligence,Commercial,board_reporter,board_reporting_task,High,comprehensive_csv,https://docs.boardreporting.com
+,Executive Dashboard,due_diligence,Commercial,board_reporter,board_reporting_task,High,comprehensive_csv,https://docs.executivedashboard.com
+,osquery,due_diligence,Open Source,vendor_risk_analyst,endpoint_assessment,Medium,comprehensive_csv,https://github.com/osquery/osquery
+,Wazuh,due_diligence,Open Source,vendor_risk_analyst,security_monitoring,Medium,comprehensive_csv,https://github.com/wazuh/wazuh
+,GRR Rapid Response,due_diligence,Open Source,vendor_risk_analyst,forensic_assessment,Medium,comprehensive_csv,https://github.com/google/grr
+,Metasploit / Nmap,due_diligence,Open Source,vendor_risk_analyst,penetration_testing,Medium,comprehensive_csv,https://github.com/rapid7/metasploit-framework
+,GRC Toolkits (Eramba OSS),due_diligence,Open Source,vendor_risk_analyst,grc_management,Medium,comprehensive_csv,https://github.com/eramba/eramba
+,OpenVAS / Greenbone,due_diligence,Open Source,vendor_risk_analyst,vulnerability_assessment,Medium,comprehensive_csv,https://github.com/greenbone/openvas
+,Elastic Stack (ELK),due_diligence,Open Source,vendor_risk_analyst,log_analysis,Medium,comprehensive_csv,https://github.com/elastic/elasticsearch
+,MISP,due_diligence,Open Source,vendor_risk_analyst,threat_intelligence,Medium,comprehensive_csv,https://github.com/MISP/MISP
+,OpenSCAP,due_diligence,Open Source,vendor_risk_analyst,compliance_scanning,Medium,comprehensive_csv,https://github.com/OpenSCAP
+,PrivacyIDEA,due_diligence,Open Source,vendor_risk_analyst,security_assessment,Medium,comprehensive_csv,https://github.com/privacyidea/privacyidea
+,BitSight,due_diligence,Commercial,vendor_risk_analyst,security_rating,High,comprehensive_csv,https://docs.bitsight.com
+,SecurityScorecard,due_diligence,Commercial,vendor_risk_analyst,security_rating,High,comprehensive_csv,https://docs.securityscorecard.com
+,Archer GRC,due_diligence,Commercial,vendor_risk_analyst,grc_management,High,comprehensive_csv,https://docs.rsa.com
+,OneTrust Vendor Risk Management,due_diligence,Commercial,vendor_risk_analyst,vendor_risk_management,High,comprehensive_csv,https://docs.onetrust.com
+,ServiceNow VRM,due_diligence,Commercial,vendor_risk_analyst,vendor_risk_management,High,comprehensive_csv,https://docs.servicenow.com
+,Prevalent VRM,due_diligence,Commercial,vendor_risk_analyst,vendor_risk_management,High,comprehensive_csv,https://docs.prevalent.net
+,UpGuard Vendor Risk,due_diligence,Commercial,vendor_risk_analyst,vendor_risk_management,High,comprehensive_csv,https://docs.upguard.com
+,Panorays,due_diligence,Commercial,vendor_risk_analyst,vendor_risk_management,High,comprehensive_csv,https://docs.panorays.com
+,RiskRecon (Mastercard),due_diligence,Commercial,vendor_risk_analyst,security_rating,High,comprehensive_csv,https://docs.riskrecon.com
+,CyberGRX,due_diligence,Commercial,vendor_risk_analyst,vendor_risk_management,High,comprehensive_csv,https://docs.cybergrx.com

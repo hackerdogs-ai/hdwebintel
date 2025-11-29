@@ -1,0 +1,189 @@
+dr_policy_definition_task:
+  description: >
+    Define DR policies (RPO/RTO tiers, failover types, orchestration expectations,
+    sovereign/geographic constraints, ransomware triggers, and test cadence).
+    Use DR Policy Generator and BCP Tool.
+  expected_output: >
+    {"tiers":{"tier0":{"rpo":"0-5m","rto":"<15m"},"tier1":{"rpo":"1h","rto":"4h"}},
+     "topology":["multi-region","cross-cloud"],
+     "sovereign":"EU/US/JP",
+     "orchestration":"automated",
+     "simulation":"quarterly"}
+  agent: dr_strategist
+  output_file: output/dr_policy.json
+
+dr_architecture_design_task:
+  description: >
+    Design DR architectures using Cloud DR Tool and Orchestration Workflow Tool.
+    Define hot/warm/cold sites, cross-cloud recovery paths, and IaC-based runbooks.
+  expected_output: >
+    {"design":"multi-region + cross-cloud","tools":["AWS DRS","Azure ASR","Terraform"],
+     "replication":"async+sync","orchestration":"IaC runbooks"}
+  agent: dr_architect
+  context: [dr_policy_definition_task]
+  output_file: output/dr_architecture.json
+
+dr_replication_health_task:
+  description: >
+    Monitor replication health with Replication Health Monitor.
+    Detect lag, drift, or broken pipelines across DBs, storage, SaaS connectors.
+  expected_output: >
+    {"systems_checked":250,"healthy":243,"issues":["billing-db lag 45m"]}
+  agent: dr_engineer
+  context: [dr_architecture_design_task]
+  output_file: output/dr_replication.json
+
+dr_partial_failover_task:
+  description: >
+    Run partial failovers weekly using Failover Simulation Tool.
+    Validate DNS cutover, app recovery, RTO adherence.
+  expected_output: >
+    {"apps_tested":15,"success":14,"failures":["erp-app"],"avg_rto_min":18}
+  agent: dr_engineer
+  context: [dr_replication_health_task]
+  output_file: output/dr_partial.json
+
+dr_full_failover_test_task:
+  description: >
+    Execute quarterly full failover/failback tests with Orchestration Engine.
+    Measure RPO/RTO compliance, user impact, and orchestration success.
+  expected_output: >
+    {"workloads":45,"rto_met_pct":91,"rpo_met_pct":89,"issues":["network reroute delays"]}
+  agent: resilience_chaos_engineer
+  context: [dr_architecture_design_task]
+  output_file: output/dr_fulltest.json
+
+dr_tabletop_exercise_task:
+  description: >
+    Run tabletop scenarios monthly (ransomware, cloud outage, regional disaster).
+    Use Tabletop Planner and Crisis Communication Tool.
+  expected_output: >
+    {"scenarios":["ransomware","AWS fail","earthquake"],"gaps":["slow escalation"],"actions":["update runbook"]}
+  agent: bc_liaison
+  output_file: output/dr_tabletop.json
+
+dr_chaos_engineering_task:
+  description: >
+    Run chaos experiments (server termination, latency injection, network partition).
+    Validate auto-failover and orchestration.
+  expected_output: >
+    {"experiments":10,"success":9,"failures":["db reconnect delay"],"actions":["tune retries"]}
+  agent: resilience_chaos_engineer
+  context: [dr_architecture_design_task]
+  output_file: output/dr_chaos.json
+
+cross_cloud_failover_task:
+  description: >
+    Simulate cross-cloud failover (AWS -> Azure, Azure -> GCP).
+    Validate IaC portability, DNS, and workload compatibility.
+  expected_output: >
+    {"tested_pairs":["AWS->Azure"],"success":true,"rto_min":32,"issues":["storage format mismatch"]}
+  agent: dr_architect
+  context: [dr_full_failover_test_task]
+  output_file: output/dr_crosscloud.json
+
+sovereign_dr_validation_task:
+  description: >
+    Validate DR topologies against sovereignty constraints with Compliance Tool.
+    Ensure EU/US/JP workloads remain within required regions.
+  expected_output: >
+    {"datasets_checked":120,"violations":["EU payroll in us-east-1"],"actions":["migrate to eu-central-1"]}
+  agent: dr_auditor
+  context: [dr_policy_definition_task]
+  output_file: output/dr_sovereign.json
+
+saas_dr_assessment_task:
+  description: >
+    Assess SaaS vendor DR gaps (Salesforce, M365, ServiceNow).
+    Validate RPO/RTO guarantees and integration into enterprise DR.
+  expected_output: >
+    {"saas":["M365","Salesforce"],"rpo_guarantees":{"M365":"24h"},"gaps":["no customer RTO control"]}
+  agent: bc_liaison
+  output_file: output/saas_dr.json
+
+app_dependency_mapping_task:
+  description: >
+    Map dependencies between applications (DBs, APIs, identity, middleware).
+    Validate coordinated failover sequences.
+  expected_output: >
+    {"apps_mapped":40,"chains":[["ERP","DB1","API-GW"]],"gaps":["api-gw lacks failover"]}
+  agent: dr_architect
+  output_file: output/dr_dependencies.json
+
+network_resilience_task:
+  description: >
+    Test network failover (DNS, BGP, VPN, SD-WAN) with Network Simulation Tool.
+    Validate routing, latency, and throughput under DR.
+  expected_output: >
+    {"tests_run":12,"success":11,"failures":["vpn failover slow"],"avg_latency_ms":230}
+  agent: dr_engineer
+  context: [dr_full_failover_test_task]
+  output_file: output/dr_network.json
+
+dr_ransomware_failover_task:
+  description: >
+    Simulate ransomware-triggered failover with Anomaly Detector + Orchestration Engine.
+    Validate vault freeze, safe restores, and RPO/RTO adherence.
+  expected_output: >
+    {"simulation":"ransomware","vault_freeze":true,"safe_restore":true}
+  agent: dr_engineer
+  context: [dr_partial_failover_task, dr_tabletop_exercise_task]
+  output_file: output/dr_ransomware.json
+
+bc_integration_task:
+  description: >
+    Validate integration with Business Continuity (people, facilities, comms).
+    Run joint tabletop for IT + workforce + facilities.
+  expected_output: >
+    {"exercises":2,"people_relocated":30,"facilities_ready":true,"comms_test":"success"}
+  agent: bc_liaison
+  output_file: output/dr_bc.json
+
+dr_restore_validation_task:
+  description: >
+    Run quarterly restore drills with Restore Verification Tool.
+    Validate app-owner signoff, ransomware-clean restores, and dependency sequencing.
+  expected_output: >
+    {"systems_tested":30,"success_rate":96,"avg_restore_min":24,"issues":["delayed erp restore"]}
+  agent: dr_tester
+  output_file: output/dr_restore.json
+
+dr_evidence_packaging_task:
+  description: >
+    Collect DR evidence (failover logs, test reports, metrics) into auditor-ready packs.
+  expected_output: >
+    {"evidence_pack":"dr_q3_2025.zip","contents":["failover logs","audit.json","rto_rpo.csv"]}
+  agent: dr_auditor
+  context: [dr_audit_task, dr_restore_validation_task, dr_full_failover_test_task]
+  output_file: output/dr_evidence.json
+
+dr_audit_task:
+  description: >
+    Audit DR program quarterly: RPO/RTO success, test results, orchestration maturity, sovereignty compliance.
+  expected_output: >
+    {"audit_score":93,"gaps":["erp restore slow"],"actions":["optimize db sync"]}
+  agent: dr_auditor
+  context: [dr_policy_definition_task, dr_full_failover_test_task, sovereign_dr_validation_task]
+  output_file: output/dr_audit.json
+
+dr_readiness_index_task:
+  description: >
+    Generate continuous readiness index: coverage %, RPO/RTO adherence,
+    simulation/chaos success, sovereign compliance, SaaS DR gaps.
+  expected_output: >
+    {"readiness_index":87,"coverage_pct":95,"rpo_met":91,"rto_met":92,"sovereign_ok":98}
+  agent: dr_auditor
+  context: [dr_audit_task, dr_chaos_engineering_task, sovereign_dr_validation_task, saas_dr_assessment_task]
+  output_file: output/dr_index.json
+
+dr_metrics_reporting_task:
+  description: >
+    Produce executive dashboards with KPIs: readiness index, RPO/RTO success,
+    failover success, SaaS DR coverage, cost optimization, sovereignty compliance,
+    and resilience trends over time.
+  expected_output: >
+    {"readiness_index":87,"rpo_met_pct":91,"rto_met_pct":92,"simulation_success":89,
+     "ransomware_ready":true,"audit_score":93,"cost_per_month_usd":84210}
+  agent: dr_auditor
+  context: [dr_readiness_index_task, dr_cost_optimization_task, dr_ransomware_failover_task]
+  output_file: output/dr_metrics.json

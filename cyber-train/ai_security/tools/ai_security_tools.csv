@@ -1,0 +1,80 @@
+Implementation Priority,tool,pillar,type,agent,task,priority,source,url
+,Guardrails.ai,ai_security,Open Source,ai_security_engineer,ai_model_security,Medium,comprehensive_csv,https://github.com/guardrails-ai/guardrails
+,LangKit,ai_security,Open Source,ai_security_engineer,llm_security,Medium,comprehensive_csv,https://github.com/eleutherai/langkit
+,Microsoft Presidio,ai_security,Open Source,ai_security_engineer,data_privacy,Medium,comprehensive_csv,https://github.com/microsoft/presidio
+,IBM Adversarial Robustness Toolbox (ART),ai_security,Open Source,ai_security_engineer,adversarial_testing,High,comprehensive_csv,https://github.com/Trusted-AI/adversarial-robustness-toolbox
+,Counterfit (MSFT),ai_security,Open Source,ai_security_engineer,adversarial_testing,High,comprehensive_csv,https://github.com/Azure/counterfit
+,FATE (Federated AI Technology Enabler),ai_security,Open Source,ai_security_engineer,federated_learning,Medium,comprehensive_csv,https://github.com/FederatedAI/FATE
+,TruLens,ai_security,Open Source,ai_security_engineer,ai_model_evaluation,Medium,comprehensive_csv,https://github.com/truera/trulens
+,AI Fairness 360 (AIF360),ai_security,Open Source,ai_security_engineer,ai_fairness,Medium,comprehensive_csv,https://github.com/Trusted-AI/AIF360
+,ModelOps OSS,ai_security,Open Source,ai_security_engineer,model_operations,Medium,comprehensive_csv,https://github.com/ModelOp/modelop
+,LLM Guard,ai_security,Open Source,ai_security_engineer,llm_security,Medium,comprehensive_csv,https://github.com/protectai/llm-guard
+,PrivacyRaven,ai_security,Open Source,ai_security_engineer,privacy_testing,Medium,comprehensive_csv,https://github.com/PrivacyRaven/PrivacyRaven
+,SecML,ai_security,Open Source,ai_security_engineer,ml_security,Medium,comprehensive_csv,https://github.com/pralab/secml
+,Great Expectations,ai_security,Open Source,ai_security_engineer,data_quality,Medium,comprehensive_csv,https://github.com/great-expectations/great_expectations
+,Elastic AI Auditing,ai_security,Open Source,ai_security_engineer,ai_auditing,Medium,comprehensive_csv,https://github.com/elastic/elasticsearch
+,Adversarial Robustness Toolbox,ai_security,Open Source,ai_security_engineer,ai_model_security,High,comprehensive_csv,https://github.com/Trusted-AI/adversarial-robustness-toolbox
+,CleverHans,ai_security,Open Source,ai_security_engineer,adversarial_testing,High,comprehensive_csv,https://github.com/cleverhans-lab/cleverhans
+,Foolbox,ai_security,Open Source,ai_security_engineer,adversarial_testing,Medium,comprehensive_csv,https://github.com/bethgelab/foolbox
+,Google TensorFlow Privacy,ai_security,Open Source,ai_security_engineer,differential_privacy,High,comprehensive_csv,https://github.com/tensorflow/privacy
+,OpenMined PySyft,ai_security,Open Source,ai_security_engineer,federated_learning,Medium,comprehensive_csv,https://github.com/OpenMined/PySyft
+,NIST AI RMF,ai_security,Framework,ai_security_strategist,define_ai_security_policy_task,High,comprehensive_csv,https://www.nist.gov/itl/ai-risk-management-framework
+,ISO/IEC 23053,ai_security,Framework,ai_security_strategist,define_ai_security_policy_task,High,comprehensive_csv,https://www.iso.org/standard/74438.html
+,OWASP AI Security,ai_security,Framework,ai_security_strategist,define_ai_security_policy_task,High,comprehensive_csv,https://owasp.org/www-project-ai-security-and-privacy-guide/
+,OPA Gatekeeper,ai_security,Open Source,ai_security_strategist,define_ai_security_policy_task,High,comprehensive_csv,https://github.com/open-policy-agent/gatekeeper
+,Kyverno,ai_security,Open Source,ai_security_strategist,define_ai_security_policy_task,High,comprehensive_csv,https://github.com/kyverno/kyverno
+,Falco,ai_security,Open Source,ai_security_strategist,define_ai_security_policy_task,High,comprehensive_csv,https://github.com/falcosecurity/falco
+,Wazuh SIEM,ai_security,Open Source,ai_security_engineer,prompt_injection_monitoring_task,High,comprehensive_csv,https://github.com/wazuh/wazuh
+,OSSEC HIDS,ai_security,Open Source,ai_security_engineer,prompt_injection_monitoring_task,High,comprehensive_csv,https://github.com/ossec/ossec-hids
+,Suricata IDS,ai_security,Open Source,ai_security_engineer,prompt_injection_monitoring_task,High,comprehensive_csv,https://github.com/OISF/suricata
+,Fairlearn,ai_security,Open Source,ai_ethics_officer,bias_fairness_audit_task,High,comprehensive_csv,https://github.com/fairlearn/fairlearn
+,Aequitas,ai_security,Open Source,ai_ethics_officer,bias_fairness_audit_task,High,comprehensive_csv,https://github.com/dssg/aequitas
+,Model Card Toolkit,ai_security,Open Source,ai_auditor,model_card_generation_task,High,comprehensive_csv,https://github.com/tensorflow/model-card-toolkit
+,MLflow Model Registry,ai_security,Open Source,ai_auditor,model_card_generation_task,High,comprehensive_csv,https://github.com/mlflow/mlflow
+,SHAP,ai_security,Open Source,ai_explainability_specialist,explainability_validation_task,High,comprehensive_csv,https://github.com/slundberg/shap
+,LIME,ai_security,Open Source,ai_explainability_specialist,explainability_validation_task,High,comprehensive_csv,https://github.com/marcotcr/lime
+,OpenFAIR,ai_security,Open Source,ai_risk_manager,third_party_ai_vendor_assessment_task,High,comprehensive_csv,https://github.com/OpenFAIR/OpenFAIR
+,FAIR-Calc,ai_security,Open Source,ai_risk_manager,third_party_ai_vendor_assessment_task,High,comprehensive_csv,https://github.com/OpenFAIR/FAIR-Calc
+,TheHive,ai_security,Open Source,ai_incident_responder,ai_incident_response_task,High,comprehensive_csv,https://github.com/TheHive-Project/TheHive
+,MISP,ai_security,Open Source,ai_incident_responder,ai_incident_response_task,High,comprehensive_csv,https://github.com/MISP/MISP
+,OpenCTI,ai_security,Open Source,ai_incident_responder,ai_incident_response_task,High,comprehensive_csv,https://github.com/OpenCTI/OpenCTI
+,Volatility,ai_security,Open Source,ai_incident_responder,ai_incident_response_task,High,comprehensive_csv,https://github.com/volatilityfoundation/volatility
+,Autopsy,ai_security,Open Source,ai_incident_responder,ai_incident_response_task,High,comprehensive_csv,https://github.com/sleuthkit/autopsy
+,SIFT Workstation,ai_security,Open Source,ai_incident_responder,ai_incident_response_task,High,comprehensive_csv,https://github.com/sansforensics/sift
+,Wiz AI-SPM,ai_security,Commercial,ai_security_engineer,ai_security_posture_management,High,wiz_io,https://docs.wiz.io/docs/ai-security-posture-management
+,Adversarial Robustness Toolbox (ART),ai_security,Open Source,ai_security_engineer,adversarial_testing,High,wiz_io,https://github.com/Trusted-AI/adversarial-robustness-toolbox
+,Purple Llama,ai_security,Open Source,ai_security_engineer,llm_security,High,wiz_io,https://github.com/facebookresearch/PurpleLlama
+,Llama Guard,ai_security,Open Source,ai_security_engineer,content_filtering,High,wiz_io,https://github.com/facebookresearch/PurpleLlama
+,Prompt Guard,ai_security,Open Source,ai_security_engineer,prompt_injection_protection,High,wiz_io,https://github.com/microsoft/promptguard
+,Code Shield,ai_security,Open Source,ai_security_engineer,code_security,High,wiz_io,https://github.com/microsoft/codeshield
+,NB Defense,ai_security,Open Source,ai_security_engineer,jupyter_notebook_security,High,wiz_io,https://github.com/protectai/nbdefense
+,Garak,ai_security,Open Source,ai_security_engineer,llm_red_teaming,High,wiz_io,https://github.com/leondz/garak
+,Privacy Meter,ai_security,Open Source,ai_security_engineer,privacy_risk_assessment,High,wiz_io,https://github.com/privacytrustlab/privacymeter
+,Viper,ai_security,Open Source,ai_security_engineer,adversary_simulation,High,wiz_io,https://github.com/viper-framework/viper
+,TensorFlow Privacy,ai_security,Open Source,ai_security_engineer,differential_privacy,High,github_awesome_ai_security,https://github.com/tensorflow/privacy
+,PySyft,ai_security,Open Source,ai_security_engineer,federated_learning,High,github_awesome_ai_security,https://github.com/OpenMined/PySyft
+,CleverHans,ai_security,Open Source,ai_security_engineer,adversarial_testing,High,github_awesome_ai_security,https://github.com/cleverhans-lab/cleverhans
+,Foolbox,ai_security,Open Source,ai_security_engineer,adversarial_testing,High,github_awesome_ai_security,https://github.com/bethgelab/foolbox
+,TextAttack,ai_security,Open Source,ai_security_engineer,nlp_adversarial_testing,High,github_awesome_ai_security,https://github.com/QData/TextAttack
+,Adversarial Robustness Toolbox,ai_security,Open Source,ai_security_engineer,adversarial_testing,High,github_awesome_ai_security,https://github.com/Trusted-AI/adversarial-robustness-toolbox
+,Robustness Gym,ai_security,Open Source,ai_security_engineer,model_robustness,High,github_awesome_ai_security,https://github.com/robustness-gym/robustness-gym
+,Adversarial Examples Library,ai_security,Open Source,ai_security_engineer,adversarial_testing,High,github_awesome_ai_security,https://github.com/cleverhans-lab/adversarial_examples
+,Adversarial ML Zoo,ai_security,Open Source,ai_security_engineer,adversarial_testing,High,github_awesome_ai_security,https://github.com/cleverhans-lab/adversarial_ml_zoo
+,Adversarial Patch,ai_security,Open Source,ai_security_engineer,adversarial_testing,High,github_awesome_ai_security,https://github.com/cleverhans-lab/adversarial_patch
+,Protect AI,ai_security,Commercial,ai_security_engineer,ai_security_platform,High,comprehensive_csv,https://protectai.com/api-docs
+,HiddenLayer,ai_security,Commercial,ai_security_engineer,ai_security_platform,High,comprehensive_csv,https://docs.hiddenlayer.com/api
+,Robust Intelligence,ai_security,Commercial,ai_security_engineer,ai_security_platform,High,comprehensive_csv,https://docs.robustintelligence.com/api
+,Lakera AI,ai_security,Commercial,ai_security_engineer,ai_security_platform,High,comprehensive_csv,https://docs.lakera.ai/api
+,Hugging Face Enterprise Guardrails,ai_security,Commercial,ai_security_engineer,llm_security,High,comprehensive_csv,https://huggingface.co/docs/enterprise
+,Cradle AI,ai_security,Commercial,ai_security_engineer,ai_security_platform,High,comprehensive_csv,https://docs.cradle.ai/api
+,Arthur AI,ai_security,Commercial,ai_security_engineer,ai_security_platform,High,comprehensive_csv,https://docs.arthur.ai/api
+,Fiddler AI,ai_security,Commercial,ai_security_engineer,ai_security_platform,High,comprehensive_csv,https://docs.fiddler.ai/api
+,Calypso AI,ai_security,Commercial,ai_security_engineer,ai_security_platform,High,comprehensive_csv,https://docs.calypso.ai/api
+,Securiti.ai (AI Data Security Cloud),ai_security,Commercial,ai_security_engineer,ai_data_security,High,comprehensive_csv,https://docs.securiti.ai/api
+,Symphony AI,ai_security,Commercial,ai_security_engineer,ai_security_platform,High,comprehensive_csv,https://docs.symphony.ai/api
+,Immuta,ai_security,Commercial,ai_security_engineer,ai_data_security,High,comprehensive_csv,https://docs.immuta.com/api
+,Vectra AI,ai_security,Commercial,ai_security_engineer,ai_security_platform,High,comprehensive_csv,https://docs.vectra.ai/api
+,BastionZero AI,ai_security,Commercial,ai_security_engineer,ai_security_platform,High,comprehensive_csv,https://docs.bastionzero.com/api
+,Cortex AI Security (Palo Alto Networks),ai_security,Commercial,ai_security_engineer,ai_security_platform,High,comprehensive_csv,https://docs.paloaltonetworks.com/cortex/api
+,NVIDIA NeMo Guardrails,ai_security,Commercial,ai_security_engineer,ai_safety,High,comprehensive_csv,https://github.com/NVIDIA/NeMo-Guardrails
+,EOF

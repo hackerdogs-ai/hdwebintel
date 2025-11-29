@@ -1,0 +1,303 @@
+rfi_deepfake_verification:
+  description: Verify suspected deepfake image, audio, or video.
+  trigger: on_demand
+  agent: synthetic_media_investigator
+  tools:
+  - DeepFaceLab
+  - FakeCatcher
+  - RealityDefender
+  - SensityAI
+  expected_output: "{\"media\":\"video.mp4\",\"verdict\":\"deepfake_true\",\"confidence\"\
+    :0.94,\n \"recommendations\":[\"flag disinfo\",\"escalate to comms\"]}\n"
+  outputs:
+    verification_report: str
+    evidence_pack: zip
+  sla:
+    turnaround_hours: 4
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+rfi_prompt_injection_audit:
+  description: Investigate suspected LLM prompt injection attempt.
+  trigger: on_demand
+  agent: prompt_security_engineer
+  tools:
+  - OpenAI Evals
+  - LangKit Security
+  - Regex_Injection_Detector
+  expected_output: "{\"attack_detected\":true,\"attack_type\":\"jailbreak\",\"confidence\"\
+    :0.91,\n \"recommendations\":[\"block input\",\"patch filter\"]}\n"
+  outputs:
+    injection_audit_report: str
+  sla:
+    turnaround_hours: 6
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+rfi_model_market_leak:
+  description: Investigate suspected AI model/dataset leak in marketplace.
+  trigger: on_demand
+  agent: ai_marketplace_monitor
+  tools:
+  - DarkOwl
+  - Flashpoint
+  - RecordedFuture_AI
+  - OpenCTI
+  expected_output: "{\"model\":\"LLaMA2\",\"leak_confirmed\":true,\"confidence\":0.87,\n\
+    \ \"recommendations\":[\"notify vendor\",\"update watchlist\"]}\n"
+  outputs:
+    market_leak_report: str
+  sla:
+    turnaround_hours: 12
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+rfi_synthetic_persona_investigation:
+  description: Investigate suspicious synthetic persona farm.
+  trigger: on_demand
+  agent: synthetic_persona_analyst
+  tools:
+  - Botometer
+  - SensityAI
+  - Graphika_AI
+  - Maltego
+  expected_output: '{"personas_detected":34,"botnet_cluster":true,"confidence":0.92}
+
+    '
+  outputs:
+    persona_investigation_report: str
+  sla:
+    turnaround_hours: 24
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+ai_disinfo_monitoring:
+  description: Monitor AI-generated disinformation across platforms.
+  cadence: daily
+  agent: synthetic_media_investigator
+  tools:
+  - SensityAI
+  - Graphika_AI
+  - ZeroFox AI
+  expected_output: '{"deepfakes_detected":7,"confidence_avg":0.91,"false_positive_rate":0.05}
+
+    '
+  outputs:
+    disinfo_alerts: list
+  sla:
+    detection_ttd_hours: 12
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+prompt_injection_monitoring:
+  description: Detect prompt injection attempts against live LLM pipelines.
+  cadence: daily
+  agent: prompt_security_engineer
+  tools:
+  - LangKit Security
+  - Regex_Injection_Detector
+  - OpenAI Evals
+  expected_output: '{"attempts_detected":5,"blocked":5,"precision":0.95,"false_negatives":0}
+
+    '
+  outputs:
+    injection_log: str
+  sla:
+    detection_ttd_hours: 6
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+ai_threat_digest:
+  description: Publish digest of AI threats, leaks, and disinfo.
+  cadence: weekly
+  agent: ai_threat_analyst
+  tools:
+  - Palantir_Gotham
+  - RecordedFuture_AI
+  - Splunk
+  expected_output: '{"leaks":2,"deepfake_trends":"rising","prompt_injection_cases":3}
+
+    '
+  outputs:
+    ai_threat_digest: str
+  sla:
+    delivery_hours: 24
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+adversarial_test_suite:
+  description: Run adversarial ML test suite for robustness evaluation.
+  cadence: weekly
+  agent: adversarial_ml_researcher
+  tools:
+  - ART_IBM
+  - TextFooler
+  - CleverHans
+  - SHAP_Explainer
+  expected_output: '{"tests_run":120,"failures":4,"recommendations":["update filters"]}
+
+    '
+  outputs:
+    adversarial_test_report: str
+  sla:
+    delivery_hours: 48
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+synthetic_persona_report:
+  description: Weekly tracking of AI-generated personas and botnets.
+  cadence: weekly
+  agent: synthetic_persona_analyst
+  tools:
+  - Botometer
+  - SensityAI
+  - Maltego
+  - Brandwatch
+  expected_output: '{"clusters_identified":6,"personas_flagged":75,"precision":0.9}
+
+    '
+  outputs:
+    persona_report: str
+  sla:
+    delivery_hours: 48
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+deepfake_benchmark:
+  description: Benchmark detection models for drift and adversarial resilience.
+  cadence: monthly
+  agent: synthetic_media_investigator
+  tools:
+  - FakeCatcher
+  - DeepFaceLab
+  - Clarifai
+  expected_output: '{"precision":0.92,"recall":0.88,"drift":"low"}
+
+    '
+  outputs:
+    benchmark_report: str
+  sla:
+    delivery_days: 7
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+ai_policy_audit:
+  description: Audit AI-INT pipelines against compliance frameworks.
+  cadence: monthly
+  agent: ai_policy_compliance_officer
+  tools:
+  - DPIA_Checklist
+  - Audit_Log_Manager
+  - ISO42001_Templates
+  expected_output: "{\"compliance_score\":0.94,\"critical_findings\":1,\n \"recommendations\"\
+    :[\"update audit policy\"]}\n"
+  outputs:
+    compliance_audit_report: str
+  sla:
+    delivery_days: 10
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+marketplace_sweep:
+  description: Comprehensive scan of AI marketplaces for leaks or sales.
+  cadence: monthly
+  agent: ai_marketplace_monitor
+  tools:
+  - DarkOwl
+  - Flashpoint
+  - RiskIQ
+  expected_output: '{"markets_scanned":22,"leaks_detected":3,"confidence_avg":0.89}
+
+    '
+  outputs:
+    marketplace_sweep_report: str
+  sla:
+    delivery_days: 5
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+ai_redteam_exercise:
+  description: Red-team simulation against AI/LLM defenses.
+  cadence: quarterly
+  agent: adversarial_ml_researcher
+  tools:
+  - ART_IBM
+  - MalGAN
+  - TextFooler
+  - LangKit Security
+  expected_output: '{"scenarios_tested":15,"breaches":2,"recommendations":["patch
+    filters"]}
+
+    '
+  outputs:
+    redteam_report: str
+  sla:
+    completion: 100%
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+ai_exec_briefing:
+  description: Executive briefing on AI-INT risks, leaks, and disinfo.
+  cadence: quarterly
+  agent: ai_threat_analyst
+  tools:
+  - Palantir_Gotham
+  - Graphika_AI
+  - RecordedFuture_AI
+  expected_output: '{"top_risks":["deepfakes","prompt injection","AI leaks"]}
+
+    '
+  outputs:
+    exec_briefing_deck: str
+  sla:
+    delivery_days: 5
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+ai_strategy_review:
+  description: Review AI-INT strategy, budget, and maturity roadmap.
+  cadence: yearly
+  agent: ai_policy_compliance_officer
+  tools:
+  - Strategic_Reporting
+  - Palantir_Gotham
+  - Audit_Log_Manager
+  expected_output: "{\"maturity_score\":0.83,\"budget_alignment\":\"on-track\",\n\
+    \ \"roadmap_updates\":[\"expand coverage\",\"improve resilience\"]}\n"
+  outputs:
+    ai_strategy_doc: str
+  sla:
+    approval_days: 30
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3

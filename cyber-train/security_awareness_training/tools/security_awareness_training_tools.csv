@@ -1,0 +1,46 @@
+Implementation Priority,tool,pillar,type,agent,task,priority,source,url
+,GoPhish,security_awareness_training,Open Source,training_manager,phishing_simulation,Medium,comprehensive_csv,https://github.com/gophish/gophish
+,King Phisher,security_awareness_training,Open Source,training_manager,phishing_simulation,Medium,comprehensive_csv,https://github.com/securestate/king-phisher
+,Security Awareness Content (SANS OUCH! Newsletter),security_awareness_training,Open Source,training_manager,awareness_content,Medium,comprehensive_csv,https://www.sans.org/newsletters/ouch
+,Phishing Frenzy,security_awareness_training,Open Source,training_manager,phishing_simulation,Medium,comprehensive_csv,https://github.com/pentestgeek/phishing-frenzy
+,LUCY Security (Community Edition),security_awareness_training,Open Source,training_manager,awareness_platform,Medium,comprehensive_csv,https://github.com/lucysecurity
+,Kali Linux Toolkits,security_awareness_training,Open Source,training_manager,security_training,Medium,comprehensive_csv,https://github.com/offensive-security
+,PhishStats / OpenPhish Feeds,security_awareness_training,Open Source,training_manager,threat_intelligence,Medium,comprehensive_csv,https://github.com/openphish
+,OSQuery,security_awareness_training,Open Source,training_manager,endpoint_training,Medium,comprehensive_csv,https://github.com/osquery/osquery
+,Mattermost / Slack Bots,security_awareness_training,Open Source,training_manager,communication_platform,Medium,comprehensive_csv,https://github.com/mattermost
+,MediaWiki/Confluence OSS,security_awareness_training,Open Source,training_manager,knowledge_management,Medium,comprehensive_csv,https://github.com/wikimedia
+,KnowBe4 Security Awareness Training,security_awareness_training,Commercial,training_manager,awareness_platform,High,comprehensive_csv,https://docs.knowbe4.com
+,Cofense PhishMe,security_awareness_training,Commercial,training_manager,phishing_simulation,High,comprehensive_csv,https://docs.cofense.com
+,Proofpoint Security Awareness Training,security_awareness_training,Commercial,training_manager,awareness_platform,High,comprehensive_csv,https://docs.proofpoint.com
+,Mimecast Awareness Training,security_awareness_training,Commercial,training_manager,awareness_platform,High,comprehensive_csv,https://docs.mimecast.com
+,CybeReady,security_awareness_training,Commercial,training_manager,awareness_platform,High,comprehensive_csv,https://docs.cybeready.com
+,Living Security,security_awareness_training,Commercial,training_manager,awareness_platform,High,comprehensive_csv,https://docs.livingsecurity.com
+,Hoxhunt,security_awareness_training,Commercial,training_manager,phishing_simulation,High,comprehensive_csv,https://docs.hoxhunt.com
+,Elevate Security,security_awareness_training,Commercial,training_manager,awareness_platform,High,comprehensive_csv,https://docs.elevatesecurity.com
+,Terranova Security,security_awareness_training,Commercial,training_manager,awareness_platform,High,comprehensive_csv,https://docs.terranovasecurity.com
+,Ninjio,security_awareness_training,Commercial,training_manager,awareness_platform,High,comprehensive_csv,https://docs.ninjio.com
+,Moodle,security_awareness_training,Open Source,training_manager,learning_management,High,comprehensive_csv,https://github.com/moodle/moodle
+,Canvas LMS,security_awareness_training,Open Source,training_manager,learning_management,Medium,comprehensive_csv,https://github.com/instructure/canvas-lms
+,Open edX,security_awareness_training,Open Source,training_manager,online_learning,Medium,comprehensive_csv,https://github.com/edx/edx-platform
+,Chamilo,security_awareness_training,Open Source,training_manager,e_learning,Low,comprehensive_csv,https://github.com/chamilo/chamilo-lms
+,ATutor,security_awareness_training,Open Source,training_manager,e_learning,Low,comprehensive_csv,https://github.com/atutor/ATutor
+,GCompris,security_awareness_training,Open Source,training_manager,educational_games,Low,comprehensive_csv,https://github.com/gcompris/GCompris-qt
+,OpenOLAT,security_awareness_training,Open Source,training_manager,learning_platform,Medium,comprehensive_csv,https://github.com/OpenOLAT/OpenOLAT
+,Sakai,security_awareness_training,Open Source,training_manager,collaboration_learning,Low,comprehensive_csv,https://github.com/sakaiproject/sakai
+,OWASP WebGoat,security_awareness_training,Open Source,training_manager,security_training,High,comprehensive_csv,https://github.com/WebGoat/WebGoat
+,OWASP Juice Shop,security_awareness_training,Open Source,training_manager,security_training,High,comprehensive_csv,https://github.com/juice-shop/juice-shop
+,OWASP Security Shepherd,security_awareness_training,Open Source,training_manager,security_training,High,comprehensive_csv,https://github.com/OWASP/SecurityShepherd
+,HackTheBox,security_awareness_training,Commercial,training_manager,penetration_testing,High,comprehensive_csv,https://docs.hackthebox.com
+,TryHackMe,security_awareness_training,Commercial,training_manager,cybersecurity_training,High,comprehensive_csv,https://docs.tryhackme.com
+,Cybrary,security_awareness_training,Commercial,training_manager,cybersecurity_training,High,comprehensive_csv,https://docs.cybrary.it
+,Pluralsight,security_awareness_training,Commercial,training_manager,cybersecurity_training,High,comprehensive_csv,https://docs.pluralsight.com
+,Coursera,security_awareness_training,Commercial,training_manager,cybersecurity_training,High,comprehensive_csv,https://docs.coursera.org
+,edX,security_awareness_training,Commercial,training_manager,cybersecurity_training,High,comprehensive_csv,https://docs.edx.org
+,Udemy,security_awareness_training,Commercial,training_manager,cybersecurity_training,Medium,comprehensive_csv,https://docs.udemy.com
+,LinkedIn Learning,security_awareness_training,Commercial,training_manager,cybersecurity_training,Medium,comprehensive_csv,https://docs.linkedin.com
+,Skillsoft,security_awareness_training,Commercial,training_manager,cybersecurity_training,High,comprehensive_csv,https://docs.skillsoft.com
+,SANS,security_awareness_training,Commercial,training_manager,cybersecurity_training,High,comprehensive_csv,https://docs.sans.org
+,ISC2,security_awareness_training,Commercial,training_manager,cybersecurity_training,High,comprehensive_csv,https://docs.isc2.org
+,CompTIA,security_awareness_training,Commercial,training_manager,cybersecurity_training,High,comprehensive_csv,https://docs.comptia.org
+,EC-Council,security_awareness_training,Commercial,training_manager,cybersecurity_training,High,comprehensive_csv,https://docs.eccouncil.org
+,ISACA,security_awareness_training,Commercial,training_manager,cybersecurity_training,High,comprehensive_csv,https://docs.isaca.org

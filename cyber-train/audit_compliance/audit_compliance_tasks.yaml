@@ -1,0 +1,160 @@
+compliance_framework_mapping_task:
+  description: >
+    Define compliance frameworks (ISO, SOC2, PCI DSS, HIPAA, SOX, GDPR).
+    Use Control Mapping Tool to align enterprise controls to frameworks.
+  expected_output: >
+    A JSON object mapping frameworks to enterprise controls and gaps.
+    Example: {"framework":"PCI DSS","controls_mapped":85,"gaps":["encryption coverage","audit logging"]}
+  agent: compliance_strategist
+  output_file: output/compliance_mapping.json
+
+policy_definition_task:
+  description: >
+    Define compliance-aligned policies (access control, encryption, patch mgmt).
+    Use Policy Definition Generator to ensure alignment with frameworks.
+  expected_output: >
+    A JSON object with defined policies and their framework mappings.
+    Example: {"policy":"Access Control","framework":"ISO 27001","requirements":["RBAC","least_privilege"]}
+  agent: compliance_strategist
+  context: [compliance_framework_mapping_task]
+  output_file: output/policies.json
+
+continuous_control_monitoring_task:
+  description: >
+    Continuously monitor security configurations using Continuous Compliance Monitor and SIEM Tool.
+    Validate against CIS Benchmarks and NIST standards.
+  expected_output: >
+    A JSON object with compliance monitoring results.
+    Example: {"systems_checked":300,"score":92,"violations":["S3 public","TLS1.0 enabled"]}
+  agent: compliance_engineer
+  output_file: output/control_monitoring.json
+
+continuous_assurance_task:
+  description: >
+    Continuously validate control effectiveness beyond periodic audits.
+    Use Continuous Compliance Monitor and GRC Integration Tool.
+  expected_output: >
+    A JSON object with real-time assurance results.
+    Example: {"controls_tested":120,"failures":["logging disabled on serverX"],"coverage":95}
+  agent: compliance_engineer
+  context: [continuous_control_monitoring_task]
+  output_file: output/continuous_assurance.json
+
+evidence_collection_task:
+  description: >
+    Automate evidence collection with Evidence Collector Tool and GRC Integration Tool.
+    Store audit artifacts (logs, access reviews, configs) in centralized repository.
+  expected_output: >
+    A JSON object with evidence inventory.
+    Example: {"evidence_collected":["MFA logs","Access Reviews Q2"],"pending":["vendor attestation"]}
+  agent: compliance_engineer
+  output_file: output/evidence.json
+
+evidence_reuse_task:
+  description: >
+    Tag and reuse evidence across frameworks to reduce audit fatigue.
+    Use Evidence Reuse Tool to link artifacts to multiple requirements.
+  expected_output: >
+    A JSON object mapping evidence to multiple frameworks.
+    Example: {"artifact":"MFA Logs","mapped_to":["ISO 27001","SOC2","PCI DSS"]}
+  agent: compliance_innovation_analyst
+  context: [evidence_collection_task]
+  output_file: output/evidence_reuse.json
+
+pipeline_compliance_task:
+  description: >
+    Embed compliance checks into DevOps pipelines using Pipeline Compliance Tool.
+    Validate IaC templates and container configs against compliance baselines.
+  expected_output: >
+    A JSON object with pipeline compliance results.
+    Example: {"build_id":"1234","violations":["no encryption on S3 bucket"],"status":"failed"}
+  agent: compliance_engineer
+  output_file: output/pipeline_compliance.json
+
+remediation_tracking_task:
+  description: >
+    Track remediation of compliance gaps with Ticketing System Tool.
+    Escalate overdue items to compliance leadership.
+  expected_output: >
+    A JSON object with remediation status.
+    Example: {"open":12,"overdue":["patch mgmt policy"],"completion_rate":88}
+  agent: compliance_engineer
+  context: [continuous_assurance_task]
+  output_file: output/remediation.json
+
+ai_control_mapping_task:
+  description: >
+    Use AI Control Mapping Tool to automatically align enterprise controls across overlapping frameworks
+    (ISO ↔ SOC2 ↔ NIST). Reduce duplication and streamline audits.
+  expected_output: >
+    A JSON object with AI-driven mapping suggestions.
+    Example: {"control":"Audit Logging","mapped_to":["ISO 27001-A.12.4","SOC2-CC7.2","NIST AU-2"]}
+  agent: compliance_innovation_analyst
+  context: [compliance_framework_mapping_task]
+  output_file: output/ai_mapping.json
+
+regulatory_change_monitoring_task:
+  description: >
+    Track regulatory updates using Regulatory Feed Monitor (GDPR, DORA, SEC, AI Act).
+    Alert compliance teams on new or changing requirements.
+  expected_output: >
+    A JSON object with detected regulatory changes.
+    Example: {"new_regulation":"EU AI Act","impact":["data privacy policy","model documentation"]}
+  agent: compliance_innovation_analyst
+  output_file: output/regulatory_changes.json
+
+third_party_compliance_task:
+  description: >
+    Validate compliance of third-party vendors (SOC2 reports, ISO certifications).
+    Use Vendor Risk & Compliance Tool to ingest attestations and findings.
+  expected_output: >
+    A JSON object with vendor compliance status.
+    Example: {"vendor":"AWS","compliance":["SOC2","ISO27001"],"gaps":["shared responsibility not documented"]}
+  agent: compliance_auditor
+  output_file: output/vendor_compliance.json
+
+internal_audit_task:
+  description: >
+    Conduct internal audits with Audit Checklist Tool. Validate evidence from Evidence Collector Tool.
+  expected_output: >
+    A JSON object with internal audit findings.
+    Example: {"scope":"ISO 27001","score":87,"findings":["access reviews incomplete"]}
+  agent: compliance_auditor
+  context: [evidence_collection_task, evidence_reuse_task]
+  output_file: output/internal_audit.json
+
+external_audit_preparation_task:
+  description: >
+    Prepare external audit packages with Evidence Validation Tool and External Auditor Portal Tool.
+    Validate samples, compile evidence, and track auditor feedback.
+  expected_output: >
+    A JSON object summarizing external audit readiness.
+    Example: {"audit_type":"SOC2","evidence":["vuln mgmt","access control"],"status":"Ready"}
+  agent: compliance_auditor
+  context: [internal_audit_task, third_party_compliance_task]
+  output_file: output/external_audit.json
+
+compliance_metrics_reporting_task:
+  description: >
+    Generate compliance KPIs for executives using Reporting Dashboard Tool.
+    Include scores, remediation trends, and audit readiness.
+  expected_output: >
+    A JSON object with compliance KPIs.
+    Example: {"frameworks":["ISO27001","PCI DSS"],"score":91,"trends":"improving"}
+  agent: compliance_auditor
+  context: [remediation_tracking_task, external_audit_preparation_task]
+  output_file: output/compliance_metrics.json
+ciso_compliance_audit_task:
+  description: >
+    Auto-added from mapping for ciso in audit_compliance.
+  expected_output: >
+    {"status":"ok"}
+  agent: ciso
+  output_file: output/ciso_compliance_audit_task.json
+grc_evidence_pack_task:
+  description: >
+    Auto-added from mapping for grc_analyst in audit_compliance.
+  expected_output: >
+    {"status":"ok"}
+  agent: grc_analyst
+  output_file: output/grc_evidence_pack_task.json

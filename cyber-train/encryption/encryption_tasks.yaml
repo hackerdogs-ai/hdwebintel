@@ -1,0 +1,132 @@
+encryption_policy_definition_task:
+  description: >
+    Define enterprise-wide encryption policies for data at rest, in transit, and in use.
+    Use Crypto Policy Generator and Algorithm Reference Tool to select approved standards
+    (AES-256, TLS 1.3, SHA-2). Ensure compliance with NIST and PCI DSS.
+  expected_output: >
+    A JSON object with encryption policy details and approved algorithms.
+    Example: {"data_at_rest":"AES-256-GCM","data_in_transit":"TLS1.3","hashing":"SHA-256"}
+  agent: encryption_strategist
+  output_file: output/encryption_policy.json
+
+crypto_agility_strategy_task:
+  description: >
+    Define a crypto-agility roadmap to support algorithm upgrades, including
+    post-quantum transitions. Use Algorithm Reference Tool and Compliance Framework Tool
+    to review upcoming regulatory and technical changes.
+  expected_output: >
+    A JSON object with migration roadmap for crypto agility.
+    Example: {"legacy":["RSA-1024"],"migrations":["RSA-3072","Kyber-512"],"timeline":"2026"}
+  agent: encryption_strategist
+  output_file: output/crypto_agility.json
+
+post_quantum_crypto_readiness_task:
+  description: >
+    Track post-quantum cryptography readiness. Use PQC Readiness Tracker to monitor
+    adoption of NIST PQC algorithms (Kyber, Dilithium). Run simulations of migration impact.
+  expected_output: >
+    A JSON object with PQC readiness score and adoption plan.
+    Example: {"pqc_algorithms":["Kyber","Dilithium"],"readiness_score":72,"plan":"Pilot Q1 2026"}
+  agent: encryption_strategist
+  output_file: output/pqc_readiness.json
+
+certificate_lifecycle_management_task:
+  description: >
+    Manage enterprise TLS certificates. Use Certificate Lifecycle Manager to detect expiring certs
+    and Certificate Authority API Tool for automated renewals. Scan endpoints with TLS Scanner Tool.
+  expected_output: >
+    A JSON object with certificate inventory and renewal actions.
+    Example: {"expiring":["api.example.com"],"renewed":["vpn.example.com"]}
+  agent: encryption_engineer
+  output_file: output/certificate_lifecycle.json
+
+data_at_rest_encryption_task:
+  description: >
+    Implement and monitor encryption at rest for databases, storage, and filesystems.
+    Use Key Management System Tool to enforce enterprise keys and Crypto Health Monitor for validation.
+  expected_output: >
+    A JSON object with encrypted systems and violations.
+    Example: {"encrypted":["DB1","StorageA"],"violations":["S3 bucket xyz"],"action":"encrypt immediately"}
+  agent: encryption_engineer
+  output_file: output/data_at_rest.json
+
+data_in_transit_encryption_task:
+  description: >
+    Enforce TLS 1.3 and secure ciphers for all endpoints. Use TLS Scanner Tool to test
+    applications. Flag legacy protocols and weak ciphers.
+  expected_output: >
+    A JSON object with TLS compliance results.
+    Example: {"endpoints_scanned":120,"weak_protocols":["api.legacy.com"],"compliant":118}
+  agent: encryption_engineer
+  output_file: output/data_in_transit.json
+
+data_in_use_encryption_task:
+  description: >
+    Implement encryption for data in use using confidential computing technologies (Intel SGX, AMD SEV).
+    Explore homomorphic encryption for sensitive workloads. Verify enclave deployment for high-risk apps.
+  expected_output: >
+    A JSON object with data-in-use encryption status.
+    Example: {"enclaves_enabled":["payment_service"],"homomorphic_pilots":["analytics_cluster"],"coverage":62}
+  agent: encryption_engineer
+  output_file: output/data_in_use.json
+
+envelope_key_management_task:
+  description: >
+    Implement envelope encryption for large-scale key management. Use KMS Tool to
+    generate data keys encrypted by master keys stored in HSM.
+  expected_output: >
+    A JSON object with envelope encryption coverage.
+    Example: {"data_keys_managed":1200,"master_keys_in_hsm":12,"coverage":95}
+  agent: encryption_engineer
+  output_file: output/envelope_keys.json
+
+key_lifecycle_management_task:
+  description: >
+    Automate full key lifecycle: generation, rotation, revocation, archival, and destruction.
+    Use Key Rotation Audit Tool and KMS Tool for enforcement.
+  expected_output: >
+    A JSON object with key lifecycle metrics.
+    Example: {"keys_generated":200,"revoked":12,"archived":50,"destroyed":30,"compliance":97}
+  agent: encryption_auditor
+  output_file: output/key_lifecycle.json
+
+secrets_management_task:
+  description: >
+    Manage API keys, tokens, and credentials in a centralized vault (e.g., HashiCorp Vault).
+    Use Secrets Vault Tool to scan repos and CI/CD pipelines for exposed secrets.
+  expected_output: >
+    A JSON object with secrets inventory and exposures.
+    Example: {"vaulted_secrets":430,"exposures":["git_repo_token"],"remediation":"rotate keys"}
+  agent: encryption_engineer
+  output_file: output/secrets.json
+
+crypto_misuse_monitoring_task:
+  description: >
+    Detect rogue or legacy cryptography usage. Use Rogue Crypto Detector to scan systems
+    for DES, RC4, MD5, and self-signed certificates.
+  expected_output: >
+    A JSON object with misuse findings and remediation.
+    Example: {"violations":["DES in legacy_app","MD5 hashing in backup_script"],"action":"migrate to SHA-256"}
+  agent: encryption_engineer
+  output_file: output/crypto_misuse.json
+
+session_key_audit_task:
+  description: >
+    Audit session key management in TLS. Use TLS Scanner Tool and Key Rotation Audit Tool
+    to verify Perfect Forward Secrecy (PFS) and ephemeral key usage.
+  expected_output: >
+    A JSON object with session key audit results.
+    Example: {"pfs_enabled_percent":98,"violations":["legacy_load_balancer"]}
+  agent: encryption_auditor
+  output_file: output/session_keys.json
+
+encryption_compliance_audit_task:
+  description: >
+    Audit encryption coverage across systems. Use Audit Checklist Tool and Compliance Mapping Tool
+    to validate compliance with PCI DSS, HIPAA, and FIPS 140-3.
+  expected_output: >
+    A JSON object with encryption audit findings and remediation actions.
+    Example: {"score":91,"findings":["TLS1.0 on api.legacy.com"],"remediations":["upgrade to TLS1.3"]}
+  agent: encryption_auditor
+  context: [session_key_audit_task, key_lifecycle_management_task, crypto_misuse_monitoring_task]
+  output_file: output/encryption_audit.json

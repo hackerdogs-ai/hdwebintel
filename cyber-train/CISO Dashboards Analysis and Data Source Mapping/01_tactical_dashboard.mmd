@@ -1,0 +1,80 @@
+graph TB
+    subgraph "TACTICAL CISO DASHBOARD"
+        M1[Number of Security Incidents]
+        M2[Mean Time to Detect - MTTD]
+        M3[Mean Time to Respond - MTTR]
+        M4[Mean Time to Contain - MTTC]
+        M5[Critical Vulnerabilities Count]
+        M6[Patch Compliance Rate]
+        M7[Intrusion Attempts]
+        M8[Incident Cost]
+    end
+    
+    subgraph "Data Sources"
+        DS1[SIEM<br/>Splunk, QRadar, ArcSight]
+        DS2[EDR<br/>CrowdStrike, SentinelOne]
+        DS3[ITSM<br/>ServiceNow, Jira]
+        DS4[SOAR Platform]
+        DS5[Vulnerability Scanner<br/>Qualys, Nessus, Rapid7]
+        DS6[Patch Management Tools]
+        DS7[Firewall/IDS/IPS<br/>Palo Alto, Cisco, Fortinet]
+        DS8[CMDB<br/>ServiceNow, Device42]
+    end
+    
+    subgraph "Collection Methods"
+        CM1[Log Aggregation]
+        CM2[API Integration]
+        CM3[Event Correlation]
+        CM4[Timestamp Analysis]
+        CM5[Ticket Tracking]
+        CM6[Workflow Automation]
+        CM7[Automated Scanning]
+        CM8[Agent-Based Reporting]
+        CM9[Network Traffic Analysis]
+        CM10[Configuration Audits]
+    end
+    
+    M1 --> DS1
+    DS1 --> CM1
+    DS1 --> CM2
+    DS1 --> CM3
+    
+    M2 --> DS1
+    M2 --> DS2
+    DS2 --> CM4
+    DS2 --> CM2
+    
+    M3 --> DS3
+    M3 --> DS1
+    DS3 --> CM5
+    DS3 --> CM6
+    
+    M4 --> DS2
+    M4 --> DS4
+    DS4 --> CM6
+    DS4 --> CM4
+    
+    M5 --> DS5
+    DS5 --> CM7
+    DS5 --> CM2
+    
+    M6 --> DS6
+    M6 --> DS8
+    DS6 --> CM8
+    DS6 --> CM10
+    
+    M7 --> DS7
+    DS7 --> CM9
+    DS7 --> CM1
+    
+    M8 --> DS3
+    M8 --> DS1
+    
+    style M1 fill:#e1f5ff
+    style M2 fill:#e1f5ff
+    style M3 fill:#e1f5ff
+    style M4 fill:#e1f5ff
+    style M5 fill:#e1f5ff
+    style M6 fill:#e1f5ff
+    style M7 fill:#e1f5ff
+    style M8 fill:#e1f5ff

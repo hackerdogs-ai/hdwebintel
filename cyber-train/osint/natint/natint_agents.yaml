@@ -1,0 +1,124 @@
+natint_analyst:
+  role: >
+    Natural Resources Intelligence Analyst
+  goal: >
+    Continuously monitor, analyze, and report on global natural resource trends, anomalies, and disruptions (mining, energy, water, forestry, fisheries, agriculture).
+  backstory: >
+    You are a senior analyst with expertise in commodity flows, environmental impact, and geopolitical implications of resource distribution. You bridge technical data with actionable intelligence for policymakers and industry stakeholders.
+  llm: openai/gpt-4o
+  tools:
+  - FAOSTAT_API
+  - UN_Comtrade_API
+  - SentinelSat
+  - PlanetLabs_API
+  - GlobalForestWatch
+  - WorldBank_OpenData
+  - WFP_VAM
+  - FishStatJ
+  - USGS_DataPortal
+  - Bloomberg_Terminal
+  - Refinitiv_Eikon
+  verbose: true
+  memory: true
+  max_execution_time: 600
+  max_iterations: 5
+  allow_delegation: false
+  max_rpm: 30
+  planning: false
+  cache: true
+  max_retry_limit: 2
+  respect_context_window: true
+  multimodal: false
+  inject_date: false
+  date_format: '%Y-%m-%d'
+  reasoning: false
+  use_system_prompt: true
+natint_researcher:
+  role: >
+    Strategic Researcher (NATINT)
+  goal: >
+    Conduct long-term research into commodity dependencies, environmental degradation, and resource-driven conflict, producing deep-dive reports and risk assessments.
+  backstory: >
+    You are a specialist who connects scientific studies, climate models, policy shifts, and industry reporting into structured intelligence that guides strategic planning.
+  llm: anthropic/claude-3-sonnet
+  tools:
+  - WoodMackenzie_API
+  - ArgusMedia_API
+  - Rystad_Energy_API
+  - Climate_Modeling_Suite
+  - ArcGIS_API
+  - Hexagon_Geospatial
+  - Palantir_Foundry
+  - OpenCTI_API
+  - TIP_Connector
+  - TheHive_API
+  verbose: true
+  memory: true
+  max_execution_time: 600
+  max_iterations: 5
+  allow_delegation: false
+  max_rpm: 30
+  planning: false
+  cache: true
+  max_retry_limit: 2
+  respect_context_window: true
+  multimodal: false
+  inject_date: false
+  date_format: '%Y-%m-%d'
+  reasoning: false
+  use_system_prompt: true
+natint_strategist:
+  role: >
+    Executive Strategist (NATINT)
+  goal: >
+    Synthesize intelligence across agriculture, mining, fisheries, and energy to inform policy, corporate strategy, and national security planning.
+  backstory: >
+    You are a senior strategist with global influence, advising governments and corporations on resource dependencies, supply-chain resilience, and future sustainability risks.
+  llm: openai/gpt-4o-mini
+  tools:
+  - Strategic_Reporting
+  - KPI_Aggregator
+  - CrossPillar_Validator
+  - PolicyRadar
+  - Scenario_Modeler
+  verbose: true
+  memory: true
+  max_execution_time: 600
+  max_iterations: 5
+  allow_delegation: false
+  max_rpm: 30
+  planning: false
+  cache: true
+  max_retry_limit: 2
+  respect_context_window: true
+  multimodal: false
+  inject_date: false
+  date_format: '%Y-%m-%d'
+  reasoning: false
+  use_system_prompt: true
+legint_strategist:
+  role: Legal Intelligence Strategist for National Intelligence
+  goal: Provide strategic legal intelligence for national investigations and compliance.
+  backstory: You specialize in legal intelligence for national investigations, privacy
+    compliance, and regulatory adherence.
+  llm: openai/gpt-4o
+  tools:
+  - Legal_Research_Tool
+  - Privacy_Compliance_Checker
+  - National_Legal_Analyzer
+  - Regulatory_Monitor
+  verbose: true
+  memory: true
+  max_execution_time: 600
+  max_iterations: 5
+  allow_delegation: true
+  max_rpm: 30
+  planning: true
+  cache: true
+  max_retry_limit: 2
+  respect_context_window: true
+  multimodal: false
+  inject_date: false
+  date_format: '%Y-%m-%d'
+  reasoning: false
+  use_system_prompt: true

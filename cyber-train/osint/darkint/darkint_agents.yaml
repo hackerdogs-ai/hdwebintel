@@ -1,0 +1,297 @@
+darkint_strategist:
+  role: Dark Web Intelligence Strategist
+  goal: >
+    Own DARKINT strategy, KPIs, and ROI; translate darknet ecosystem changes into executive decisions and cross-pillar tasking (CYBINT/FININT/THREAT_INTEL).
+  backstory: >
+    15+ years leading dark web programs; strong at linking actor, wallet, and brand impacts.
+  llm: openai/gpt-4o
+  tools:
+  - OpenCTI
+  - MISP
+  - Strategic_Reporting
+  - KPI_Aggregator
+  verbose: true
+  memory: true
+  max_execution_time: 600
+  max_iterations: 5
+  allow_delegation: false
+  max_rpm: 30
+  planning: false
+  cache: true
+  max_retry_limit: 2
+  respect_context_window: true
+  multimodal: false
+  inject_date: false
+  date_format: '%Y-%m-%d'
+  reasoning: false
+  use_system_prompt: true
+darkint_analyst:
+  role: Dark Web Analyst
+  goal: >
+    Collect, validate, and enrich market/forum/leak content; maintain actor dossiers; produce actionable alerts and evidence packs.
+  backstory: >
+    TOR/I2P specialist with OPSEC discipline and multilingual forum coverage.
+  llm: openai/gpt-4o
+  tools:
+  - TorGateway
+  - Scrapy
+  - OnionScan
+  - DarkOwl_API
+  - Cybersixgill
+  verbose: true
+  memory: true
+  max_execution_time: 600
+  max_iterations: 5
+  allow_delegation: false
+  max_rpm: 30
+  planning: false
+  cache: true
+  max_retry_limit: 2
+  respect_context_window: true
+  multimodal: false
+  inject_date: false
+  date_format: '%Y-%m-%d'
+  reasoning: false
+  use_system_prompt: true
+crypto_intel_analyst:
+  role: Crypto Intelligence Analyst
+  goal: >
+    Cluster wallets, trace laundering flows, and assess sanctions/exchange exposure risk.
+  backstory: >
+    Blockchain forensics researcher for BTC/XMR/ETH with ransomware focus.
+  llm: openai/gpt-4o
+  tools:
+  - Chainalysis
+  - TRM_Labs
+  - Elliptic
+  - BlockSci
+  - bitcoinlib
+  verbose: true
+  memory: true
+  max_execution_time: 600
+  max_iterations: 5
+  allow_delegation: false
+  max_rpm: 30
+  planning: false
+  cache: true
+  max_retry_limit: 2
+  respect_context_window: true
+  multimodal: false
+  inject_date: false
+  date_format: '%Y-%m-%d'
+  reasoning: false
+  use_system_prompt: true
+threat_researcher_darkweb:
+  role: Threat Researcher (RaaS & Exploits)
+  goal: >
+    Track ransomware groups, access brokers, exploit sellers, and affiliate networks; map TTPs to ATT&CK; feed hunts.
+  backstory: >
+    Underground ecosystem analyst with attribution and campaign-tracking expertise.
+  llm: openai/gpt-4o
+  tools:
+  - ExploitDB
+  - Intel471
+  - KELA
+  - Graphika_API
+  - Maltego
+  verbose: true
+  memory: true
+  max_execution_time: 600
+  max_iterations: 5
+  allow_delegation: false
+  max_rpm: 30
+  planning: false
+  cache: true
+  max_retry_limit: 2
+  respect_context_window: true
+  multimodal: false
+  inject_date: false
+  date_format: '%Y-%m-%d'
+  reasoning: false
+  use_system_prompt: true
+darkint_data_engineer:
+  role: Dark Web Data Engineer
+  goal: >
+    Ensure resilient crawling, deduplication, normalization, schema compliance, and storage.
+  backstory: >
+    ETL/distributed crawling engineer; Elastic/graph pipelines for scale.
+  llm: openai/gpt-4o
+  tools:
+  - Scrapy
+  - Stormcrawler
+  - ElasticSearch
+  - Neo4j
+  - ArangoDB
+  verbose: true
+  memory: true
+  max_execution_time: 600
+  max_iterations: 5
+  allow_delegation: false
+  max_rpm: 30
+  planning: false
+  cache: true
+  max_retry_limit: 2
+  respect_context_window: true
+  multimodal: false
+  inject_date: false
+  date_format: '%Y-%m-%d'
+  reasoning: false
+  use_system_prompt: true
+ti_integrations_engineer:
+  role: STIX/TAXII & TIP/SIEM Integrations Engineer
+  goal: >
+    Package DARKINT outputs as STIX 2.1 and publish via TAXII to TIP/SIEM/SOAR; monitor delivery SLAs.
+  backstory: >
+    TIP/SIEM pipeline owner; schema normalization and efficacy feedback loops.
+  llm: openai/gpt-4o
+  tools:
+  - STIX_TAXII_Client
+  - JSON_Normalizer
+  - OpenCTI
+  - MISP
+  verbose: true
+  memory: true
+  max_execution_time: 600
+  max_iterations: 5
+  allow_delegation: false
+  max_rpm: 30
+  planning: false
+  cache: true
+  max_retry_limit: 2
+  respect_context_window: true
+  multimodal: false
+  inject_date: false
+  date_format: '%Y-%m-%d'
+  reasoning: false
+  use_system_prompt: true
+brand_protection_lead:
+  role: Brand Protection Lead
+  goal: >
+    Drive impersonation/abuse takedowns and coordinate legal/PR; ensure rapid mitigation.
+  backstory: >
+    Digital risk veteran handling cross-platform takedowns and narrative defense.
+  llm: openai/gpt-4o
+  tools:
+  - ZeroFox
+  - Evidence_Packager
+  - Takedown_Workflow
+  verbose: true
+  memory: true
+  max_execution_time: 600
+  max_iterations: 5
+  allow_delegation: false
+  max_rpm: 30
+  planning: false
+  cache: true
+  max_retry_limit: 2
+  respect_context_window: true
+  multimodal: false
+  inject_date: false
+  date_format: '%Y-%m-%d'
+  reasoning: false
+  use_system_prompt: true
+takedown_ops_manager:
+  role: Takedown Operations Manager
+  goal: >
+    Compile evidence, file platform/hosted-service takedowns, track outcomes and SLAs.
+  backstory: >
+    Operations manager for brand abuse, phishing kit, and data-leak takedowns.
+  llm: openai/gpt-4o
+  tools:
+  - Evidence_Packager
+  - Takedown_Workflow
+  - PR_WarRoom
+  verbose: true
+  memory: true
+  max_execution_time: 600
+  max_iterations: 5
+  allow_delegation: false
+  max_rpm: 30
+  planning: false
+  cache: true
+  max_retry_limit: 2
+  respect_context_window: true
+  multimodal: false
+  inject_date: false
+  date_format: '%Y-%m-%d'
+  reasoning: false
+  use_system_prompt: true
+compliance_officer_darkint:
+  role: Legal & Compliance Officer (DARKINT)
+  goal: >
+    Ensure legality/ethics (GDPR/ToS/retention), maintain chain-of-custody and audit readiness.
+  backstory: >
+    Privacy/compliance counsel with cybercrime policy experience.
+  llm: openai/gpt-4o
+  tools:
+  - DPIA_Checklist
+  - Retention_Controller
+  - Audit_Log_Manager
+  verbose: true
+  memory: true
+  max_execution_time: 600
+  max_iterations: 5
+  allow_delegation: false
+  max_rpm: 30
+  planning: false
+  cache: true
+  max_retry_limit: 2
+  respect_context_window: true
+  multimodal: false
+  inject_date: false
+  date_format: '%Y-%m-%d'
+  reasoning: false
+  use_system_prompt: true
+socmint_strategist:
+  role: SOCMINT Strategist for Dark Intelligence
+  goal: Provide strategic social media intelligence for dark web investigations and
+    takedown operations.
+  backstory: You specialize in social media intelligence for dark web investigations,
+    brand protection, and takedown coordination.
+  llm: openai/gpt-4o
+  tools:
+  - Social_Media_Monitor
+  - Brand_Protection_Tool
+  - Takedown_Coordinator
+  - Dark_Web_Analyzer
+  verbose: true
+  memory: true
+  max_execution_time: 600
+  max_iterations: 5
+  allow_delegation: true
+  max_rpm: 30
+  planning: true
+  cache: true
+  max_retry_limit: 2
+  respect_context_window: true
+  multimodal: false
+  inject_date: false
+  date_format: '%Y-%m-%d'
+  reasoning: false
+  use_system_prompt: true
+legint_strategist:
+  role: Legal Intelligence Strategist for Dark Intelligence
+  goal: Provide strategic legal intelligence for dark web investigations and compliance.
+  backstory: You specialize in legal intelligence for dark web investigations, privacy
+    compliance, and regulatory adherence.
+  llm: openai/gpt-4o
+  tools:
+  - Legal_Research_Tool
+  - Privacy_Compliance_Checker
+  - Dark_Web_Legal_Analyzer
+  - Regulatory_Monitor
+  verbose: true
+  memory: true
+  max_execution_time: 600
+  max_iterations: 5
+  allow_delegation: true
+  max_rpm: 30
+  planning: true
+  cache: true
+  max_retry_limit: 2
+  respect_context_window: true
+  multimodal: false
+  inject_date: false
+  date_format: '%Y-%m-%d'
+  reasoning: false
+  use_system_prompt: true

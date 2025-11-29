@@ -1,0 +1,69 @@
+Implementation Priority,tool,pillar,type,agent,task,priority,source,url
+,Cloud Custodian,cloud_security_cnapp,Open Source,cloud_engineer,policy_management,High,comprehensive_csv,https://github.com/cloud-custodian/cloud-custodian
+,Terrascan,cloud_security_cnapp,Open Source,cloud_engineer,iac_scanning,High,comprehensive_csv,https://github.com/tenable/terrascan
+,Checkov (Bridgecrew),cloud_security_cnapp,Open Source,cloud_engineer,iac_scanning,High,comprehensive_csv,https://github.com/bridgecrewio/checkov
+,Kube-bench,cloud_security_cnapp,Open Source,cloud_engineer,k8s_benchmarking,High,comprehensive_csv,https://github.com/aquasecurity/kube-bench
+,Falco,cloud_security_cnapp,Open Source,cloud_engineer,runtime_security,High,comprehensive_csv,https://github.com/falcosecurity/falco
+,Prowler,cloud_security_cnapp,Open Source,cloud_engineer,cloud_security_assessment,High,comprehensive_csv,https://github.com/prowler-cloud/prowler
+,ScoutSuite,cloud_security_cnapp,Open Source,cloud_engineer,cloud_security_assessment,Medium,comprehensive_csv,https://github.com/ncc-group/ScoutSuite
+,CloudMapper,cloud_security_cnapp,Open Source,cloud_engineer,cloud_visualization,Medium,comprehensive_csv,https://github.com/duo-labs/cloudmapper
+,Trivy,cloud_security_cnapp,Open Source,cloud_engineer,container_scanning,High,comprehensive_csv,https://github.com/aquasecurity/trivy
+,Kubescape,cloud_security_cnapp,Open Source,cloud_engineer,k8s_security,High,comprehensive_csv,https://github.com/kubescape/kubescape
+,tfsec,cloud_security_cnapp,Open Source,cloud_engineer,terraform_scanning,High,comprehensive_csv,https://github.com/aquasecurity/tfsec
+,Semgrep,cloud_security_cnapp,Open Source,cloud_engineer,policy_as_code,High,comprehensive_csv,https://github.com/returntocorp/semgrep
+,Open Policy Agent,cloud_security_cnapp,Open Source,cloud_engineer,policy_engine,High,comprehensive_csv,https://github.com/open-policy-agent/opa
+,Gatekeeper,cloud_security_cnapp,Open Source,cloud_engineer,k8s_policy_controller,High,comprehensive_csv,https://github.com/open-policy-agent/gatekeeper
+,Conftest,cloud_security_cnapp,Open Source,cloud_engineer,policy_testing,Medium,comprehensive_csv,https://github.com/open-policy-agent/conftest
+,Regula,cloud_security_cnapp,Open Source,cloud_engineer,compliance_scanning,Medium,comprehensive_csv,https://github.com/fugue/regula
+,Terraform,cloud_security_cnapp,Open Source,cloud_engineer,infrastructure_as_code,High,comprehensive_csv,https://github.com/hashicorp/terraform
+,Ansible,cloud_security_cnapp,Open Source,cloud_engineer,configuration_management,High,comprehensive_csv,https://github.com/ansible/ansible
+,CIS-CAT Lite,cloud_security_cnapp,Open Source,cloud_engineer,compliance_assessment,High,wiz_io,https://github.com/CISecurity/CIS-CAT
+,Cloudsploit,cloud_security_cnapp,Open Source,cloud_engineer,cloud_misconfiguration,High,wiz_io,https://github.com/cloudsploit/scans
+,Gapps,cloud_security_cnapp,Open Source,cloud_engineer,compliance_management,High,wiz_io
+,Lynis,cloud_security_cnapp,Open Source,cloud_engineer,security_posture_scanning,High,wiz_io
+,Magpie,cloud_security_cnapp,Open Source,cloud_engineer,cloud_infrastructure_discovery,High,wiz_io
+,OpenSCAP,cloud_security_cnapp,Open Source,cloud_engineer,compliance_scanning,High,wiz_io
+,S3Scanner,cloud_security_cnapp,Open Source,cloud_engineer,s3_bucket_security,High,wiz_io
+,PacBot,cloud_security_cnapp,Open Source,cloud_engineer,aws_security_governance,High,github_aws_arsenal
+,CloudMapper,cloud_security_cnapp,Open Source,cloud_engineer,aws_visualization,High,github_aws_arsenal
+,CloudTracker,cloud_security_cnapp,Open Source,cloud_engineer,aws_iam_analysis,High,github_aws_arsenal
+,CloudSploit,cloud_security_cnapp,Open Source,cloud_engineer,aws_security_audit,High,github_aws_arsenal
+,Scout Suite,cloud_security_cnapp,Open Source,cloud_engineer,multi_cloud_audit,High,github_aws_arsenal
+,Prowler,cloud_security_cnapp,Open Source,cloud_engineer,aws_security_assessment,High,github_aws_arsenal
+,CloudSploit,cloud_security_cnapp,Open Source,cloud_engineer,aws_security_scanning,High,github_aws_arsenal
+,CloudMapper,cloud_security_cnapp,Open Source,cloud_engineer,aws_network_mapping,High,github_aws_arsenal
+,CloudTracker,cloud_security_cnapp,Open Source,cloud_engineer,aws_iam_tracking,High,github_aws_arsenal
+,CloudSploit,cloud_security_cnapp,Open Source,cloud_engineer,aws_compliance_checking,High,github_aws_arsenal
+,Scout Suite,cloud_security_cnapp,Open Source,cloud_engineer,aws_security_audit,High,github_aws_arsenal
+,Prowler,cloud_security_cnapp,Open Source,cloud_engineer,aws_cis_benchmark,High,github_aws_arsenal
+,CloudSploit,cloud_security_cnapp,Open Source,cloud_engineer,aws_security_posture,High,github_aws_arsenal
+,CloudMapper,cloud_security_cnapp,Open Source,cloud_engineer,aws_asset_discovery,High,github_aws_arsenal
+,CloudTracker,cloud_security_cnapp,Open Source,cloud_engineer,aws_iam_governance,High,github_aws_arsenal
+,CloudSploit,cloud_security_cnapp,Open Source,cloud_engineer,aws_vulnerability_scanning,High,github_aws_arsenal
+,Scout Suite,cloud_security_cnapp,Open Source,cloud_engineer,aws_security_assessment,High,github_aws_arsenal
+,Prowler,cloud_security_cnapp,Open Source,cloud_engineer,aws_security_hardening,High,github_aws_arsenal
+,CloudSploit,cloud_security_cnapp,Open Source,cloud_engineer,aws_security_monitoring,High,github_aws_arsenal
+,CloudMapper,cloud_security_cnapp,Open Source,cloud_engineer,aws_network_analysis,High,github_aws_arsenal
+,CloudTracker,cloud_security_cnapp,Open Source,cloud_engineer,aws_iam_analysis,High,github_aws_arsenal
+,AWS CLI,cloud_security_cnapp,Open Source,cloud_engineer,aws_management,High,github_aws_arsenal
+,AWS SDK,cloud_security_cnapp,Open Source,cloud_engineer,aws_development,High,github_aws_arsenal
+,AWS CloudFormation,cloud_security_cnapp,Open Source,cloud_engineer,infrastructure_as_code,High,github_aws_arsenal
+,AWS CDK,cloud_security_cnapp,Open Source,cloud_engineer,infrastructure_as_code,High,github_aws_arsenal
+,AWS SAM,cloud_security_cnapp,Open Source,cloud_engineer,serverless_deployment,High,github_aws_arsenal
+,AWS Amplify,cloud_security_cnapp,Open Source,cloud_engineer,full_stack_development,High,github_aws_arsenal
+,AWS Copilot,cloud_security_cnapp,Open Source,cloud_engineer,container_deployment,High,github_aws_arsenal
+,AWS Copilot CLI,cloud_security_cnapp,Open Source,cloud_engineer,container_orchestration,High,github_aws_arsenal
+,AWS Security Hub,cloud_security_cnapp,Commercial,cloud_engineer,security_monitoring,High,comprehensive_csv,https://docs.aws.amazon.com/securityhub
+,Azure Security Center,cloud_security_cnapp,Commercial,cloud_engineer,security_monitoring,High,comprehensive_csv,https://docs.microsoft.com/en-us/azure/security-center
+,Google Cloud Security Command Center,cloud_security_cnapp,Commercial,cloud_engineer,security_monitoring,High,comprehensive_csv,https://cloud.google.com/security-command-center
+,Prisma Cloud (Palo Alto),cloud_security_cnapp,Commercial,cloud_engineer,cnapp_platform,High,comprehensive_csv,https://docs.paloaltonetworks.com/prisma-cloud
+,Wiz Security,cloud_security_cnapp,Commercial,cloud_engineer,cnapp_platform,High,comprehensive_csv,https://docs.wiz.io
+,Orca Security,cloud_security_cnapp,Commercial,cloud_engineer,cnapp_platform,High,comprehensive_csv,https://docs.orca.security
+,Lacework,cloud_security_cnapp,Commercial,cloud_engineer,cnapp_platform,High,comprehensive_csv,https://docs.lacework.com
+,Microsoft Defender for Cloud,cloud_security_cnapp,Commercial,cloud_engineer,cnapp_platform,High,comprehensive_csv,https://docs.microsoft.com/en-us/azure/defender-for-cloud
+,Check Point CloudGuard,cloud_security_cnapp,Commercial,cloud_engineer,cnapp_platform,High,comprehensive_csv,https://sc1.checkpoint.com/documents/CloudGuard
+,Trend Micro Cloud One,cloud_security_cnapp,Commercial,cloud_engineer,cnapp_platform,High,comprehensive_csv,https://docs.trendmicro.com/en-us/enterprise/cloud-one
+,Aqua Security,cloud_security_cnapp,Commercial,cloud_engineer,cnapp_platform,High,comprehensive_csv,https://docs.aquasec.com
+,Sysdig Secure,cloud_security_cnapp,Commercial,cloud_engineer,cnapp_platform,High,comprehensive_csv,https://docs.sysdig.com
+,Tenable.cs / Qualys Cloud Security,cloud_security_cnapp,Commercial,cloud_engineer,cnapp_platform,High,comprehensive_csv,https://docs.tenable.com/tenable-cs
+,EOF

@@ -1,0 +1,337 @@
+cybint_strategist:
+  role: Cyber Intelligence Strategist
+  goal: >
+    Own the CYBINT program strategy, KPIs, and ROI; align outputs to enterprise risk, drive exec reporting, and ensure compliance (NIST/ISO/SOC2).
+  backstory: >
+    Veteran CTI leader who bridges tactical SOC needs and strategic board-level risk views.
+  llm: openai/gpt-4o
+  tools:
+  - OpenCTI
+  - MISP
+  - Strategic_Reporting
+  - KPI_Aggregator
+  verbose: true
+  memory: true
+  max_execution_time: 600
+  max_iterations: 5
+  allow_delegation: false
+  max_rpm: 30
+  planning: false
+  cache: true
+  max_retry_limit: 2
+  respect_context_window: true
+  multimodal: false
+  inject_date: false
+  date_format: '%Y-%m-%d'
+  reasoning: false
+  use_system_prompt: true
+cyber_threat_analyst:
+  role: Cyber Threat Analyst
+  goal: >
+    Collect, enrich, score, and correlate IOCs; link to actors/campaigns and publish actionable intel for SOC/IR teams.
+  backstory: >
+    Analyst experienced with OSINT, DNS/Netflow context, dark web triage, and IOC correlation.
+  llm: openai/gpt-4o
+  tools:
+  - MISP
+  - IntelMQ
+  - Cortex
+  - Zeek
+  - Suricata
+  - YARA
+  - Sigma
+  verbose: true
+  memory: true
+  max_execution_time: 600
+  max_iterations: 5
+  allow_delegation: false
+  max_rpm: 30
+  planning: false
+  cache: true
+  max_retry_limit: 2
+  respect_context_window: true
+  multimodal: false
+  inject_date: false
+  date_format: '%Y-%m-%d'
+  reasoning: false
+  use_system_prompt: true
+malware_researcher:
+  role: Malware Reverse Engineer & Researcher
+  goal: >
+    Perform static/dynamic analysis, extract IOCs, map MITRE ATT&CK, and produce YARA/Sigma rules and hunt notes.
+  backstory: >
+    RE specialist for ransomware/APT families; expert in sandboxing and exploit kit tracking.
+  llm: openai/gpt-4o
+  tools:
+  - CAPE_Sandbox
+  - Cuckoo_Sandbox
+  - YARA
+  - Ghidra
+  - IDA_Free
+  - Hybrid_Analysis
+  verbose: true
+  memory: true
+  max_execution_time: 600
+  max_iterations: 5
+  allow_delegation: false
+  max_rpm: 30
+  planning: false
+  cache: true
+  max_retry_limit: 2
+  respect_context_window: true
+  multimodal: false
+  inject_date: false
+  date_format: '%Y-%m-%d'
+  reasoning: false
+  use_system_prompt: true
+vuln_intel_analyst:
+  role: Vulnerability Intelligence Analyst
+  goal: >
+    Track CVEs/CWEs, correlate with exploitation in the wild, and prioritize patching based on exploitability and business impact.
+  backstory: >
+    Bridges VM programs with threat intel and exploit chatter for risk-based remediation.
+  llm: openai/gpt-4o
+  tools:
+  - NVD_API
+  - Vulners_API
+  - ExploitDB
+  - EPSS_API
+  - CISA_KEV_API
+  - Qualys_API
+  verbose: true
+  memory: true
+  max_execution_time: 600
+  max_iterations: 5
+  allow_delegation: false
+  max_rpm: 30
+  planning: false
+  cache: true
+  max_retry_limit: 2
+  respect_context_window: true
+  multimodal: false
+  inject_date: false
+  date_format: '%Y-%m-%d'
+  reasoning: false
+  use_system_prompt: true
+threat_hunter:
+  role: Threat Hunter
+  goal: >
+    Convert CYBINT into ATT&CK-based hypotheses and hunts; validate and tune detections across SIEM/EDR/IDS.
+  backstory: >
+    Ex-SOC L2 hunter who designs pragmatic hunts and closes the intel→detection loop.
+  llm: openai/gpt-4o
+  tools:
+  - Splunk
+  - ELK
+  - ATTACK_Navigator
+  - Sigma
+  - Suricata
+  verbose: true
+  memory: true
+  max_execution_time: 600
+  max_iterations: 5
+  allow_delegation: false
+  max_rpm: 30
+  planning: false
+  cache: true
+  max_retry_limit: 2
+  respect_context_window: true
+  multimodal: false
+  inject_date: false
+  date_format: '%Y-%m-%d'
+  reasoning: false
+  use_system_prompt: true
+ti_integrations_engineer:
+  role: TI Integrations & TAXII Engineer
+  goal: >
+    Guarantee reliable ingestion/publication of STIX/TAXII feeds to TIP/SIEM/SOAR with normalization, deduplication, and delivery SLAs.
+  backstory: >
+    Integration engineer for TIPs, SIEMs, SOARs; obsessed with schemas and uptime.
+  llm: openai/gpt-4o
+  tools:
+  - STIX_TAXII_Client
+  - OpenCTI
+  - MISP
+  - JSON_Normalizer
+  verbose: true
+  memory: true
+  max_execution_time: 600
+  max_iterations: 5
+  allow_delegation: false
+  max_rpm: 30
+  planning: false
+  cache: true
+  max_retry_limit: 2
+  respect_context_window: true
+  multimodal: false
+  inject_date: false
+  date_format: '%Y-%m-%d'
+  reasoning: false
+  use_system_prompt: true
+supply_chain_analyst:
+  role: Software Supply Chain Threat Analyst
+  goal: >
+    Monitor dependencies, packages, and CI/CD risks; triage malicious packages and repo compromises.
+  backstory: >
+    Researcher focused on NPM/PyPI attacks, dependency confusion, and SBOM risk.
+  llm: openai/gpt-4o
+  tools:
+  - DependencyTrack
+  - SCA_Scanner
+  - GitHub_Monitor
+  - SBOM_Analyzer
+  verbose: true
+  memory: true
+  max_execution_time: 600
+  max_iterations: 5
+  allow_delegation: false
+  max_rpm: 30
+  planning: false
+  cache: true
+  max_retry_limit: 2
+  respect_context_window: true
+  multimodal: false
+  inject_date: false
+  date_format: '%Y-%m-%d'
+  reasoning: false
+  use_system_prompt: true
+secret_exposure_analyst:
+  role: Exposed Secrets & Credential Exposure Analyst
+  goal: >
+    Detect leaked API keys, tokens, and credentials in public repos/paste sites and coordinate response.
+  backstory: >
+    Practitioner specializing in secrets detection and rapid containment workflows.
+  llm: openai/gpt-4o
+  tools:
+  - TruffleHog
+  - GitLeaks
+  - GitHub_API
+  - Paste_Sources
+  verbose: true
+  memory: true
+  max_execution_time: 600
+  max_iterations: 5
+  allow_delegation: false
+  max_rpm: 30
+  planning: false
+  cache: true
+  max_retry_limit: 2
+  respect_context_window: true
+  multimodal: false
+  inject_date: false
+  date_format: '%Y-%m-%d'
+  reasoning: false
+  use_system_prompt: true
+credential_monitor:
+  role: Credential Monitoring Specialist
+  goal: Monitor credential leaks, breaches, and exposure across dark web and public
+    sources.
+  backstory: You specialize in tracking credential exposure, data breaches, and identity
+    theft patterns across various platforms.
+  llm: openai/gpt-4o
+  tools:
+  - DarkWeb_Monitor
+  - Breach_Detector
+  - Credential_Validator
+  - Identity_Matcher
+  verbose: true
+  memory: true
+  max_execution_time: 300
+  max_iterations: 3
+  allow_delegation: false
+  max_rpm: 60
+phishing_hunter:
+  role: Phishing Detection Specialist
+  goal: Identify and track phishing campaigns, domains, and threat actors.
+  backstory: You are an expert in phishing detection, domain analysis, and threat
+    actor attribution.
+  llm: openai/gpt-4o
+  tools:
+  - Phishing_Detector
+  - Domain_Analyzer
+  - Threat_Actor_Tracker
+  - Campaign_Mapper
+  verbose: true
+  memory: true
+  max_execution_time: 300
+  max_iterations: 3
+  allow_delegation: false
+  max_rpm: 60
+darkweb_analyst:
+  role: Dark Web Intelligence Analyst
+  goal: Monitor dark web activities, threat actors, and illegal marketplaces.
+  backstory: You specialize in dark web intelligence gathering, threat actor profiling,
+    and illegal marketplace monitoring.
+  llm: openai/gpt-4o
+  tools:
+  - DarkWeb_Crawler
+  - Threat_Actor_Profiler
+  - Marketplace_Monitor
+  - Tor_Analyzer
+  verbose: true
+  memory: true
+  max_execution_time: 300
+  max_iterations: 3
+  allow_delegation: false
+  max_rpm: 40
+  planning: false
+  cache: true
+  max_retry_limit: 2
+  respect_context_window: true
+  multimodal: false
+  inject_date: false
+  date_format: '%Y-%m-%d'
+  reasoning: false
+  use_system_prompt: true
+ioc_engineer:
+  role: IOC Data Engineer
+  goal: Manage IOC ingestion, processing, and distribution pipelines.
+  backstory: You specialize in building and maintaining IOC data pipelines, threat
+    intelligence feeds, and indicator processing systems.
+  llm: openai/gpt-4o
+  tools:
+  - IOC_Ingestor
+  - Threat_Feed_Processor
+  - Indicator_Validator
+  - Pipeline_Monitor
+  verbose: true
+  memory: false
+  max_execution_time: 600
+  max_iterations: 5
+  allow_delegation: false
+  max_rpm: 100
+  planning: false
+  cache: true
+  max_retry_limit: 2
+  respect_context_window: true
+  multimodal: false
+  inject_date: false
+  date_format: '%Y-%m-%d'
+  reasoning: false
+  use_system_prompt: true
+socmint_strategist:
+  role: SOCMINT Strategist for Cyber Intelligence
+  goal: Provide strategic social media intelligence for cyber investigations.
+  backstory: You specialize in social media intelligence for cyber investigations,
+    brand protection, and threat intelligence.
+  llm: openai/gpt-4o
+  tools:
+  - Social_Media_Monitor
+  - Brand_Protection_Tool
+  - Cyber_Analyzer
+  - Threat_Intelligence_Tool
+  verbose: true
+  memory: true
+  max_execution_time: 600
+  max_iterations: 5
+  allow_delegation: true
+  max_rpm: 30
+  planning: true
+  cache: true
+  max_retry_limit: 2
+  respect_context_window: true
+  multimodal: false
+  inject_date: false
+  date_format: '%Y-%m-%d'
+  reasoning: false
+  use_system_prompt: true

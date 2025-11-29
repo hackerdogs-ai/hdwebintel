@@ -1,0 +1,14 @@
+GENERATE SYNTHETIC CYBERSECURITY AND OSINT LABELED TRAINING DATA. 
+
+1) Create a list of cybersecurity entities in the cyber-train/entities-intent folder. In the folder, each subfolder corresponds to a pillar. osint has its own pillars and you must inlcude that too. osint doesn't have SOP but it has all the other files. 
+2) Create a separate entities and intent files for each pillar with the name [pillar]_entities.jsonl and [pillar]_intent.jsonl
+3) Content must be in jsonl format
+4) The content must include synthetic data generated for each pillar based on the following:
+a) List of all the exhaustive entities within that pillar. Read the SOPs for the pillar, *_agents.yaml, *_definition.md, and *_tasks.yaml 
+b) List of all the exhaustive intent within that pillar separated by each role mentioned in the SOP of that pillar.  
+c) Intent each role doing their job and trying to solve issues as per their job and cadence and design the synthetic data accordingly.
+d) Entties must include cybersecurity, pillar, and role related entities on top of generalized entities
+5) The data must be labeled in jsonl format to train spacy for NER and intent extraction 
+6) Use suggestions and hints from steps.txt but that's only for the labeling procedure for now.
+7) YOU MUST BE EXHAUSTIVE IN GENERATING THE LAVELED DATA AS THIS IS BUSINESS CRITICAL AND IMPACTS THE REVENUES DIRECTLY. I WANT HIGH QUALITY AND REALISTIC DATA. ASSUME THE ROLE OF CYBERSECURITY AND OSINT EXPERT. 
+DO NOT GENERATE ANY TRAINING CODE FOR NOW. GENERATE ONLY LABELED DATA FOR EACH PILLAR. 

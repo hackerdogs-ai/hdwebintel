@@ -1,0 +1,87 @@
+graph TB
+    subgraph "MEDIUM BUSINESS CISO DASHBOARD<br/>100-1,000 Employees"
+        M1[Security Incidents & Response Times]
+        M2[Vulnerability Management Metrics]
+        M3[Compliance Status - Industry Specific]
+        M4[Third-Party Risk Assessments]
+        M5[Security Tool Effectiveness]
+        M6[Patch Compliance Rate]
+        M7[Access Management Metrics]
+        M8[Incident Cost Tracking]
+    end
+    
+    subgraph "Data Sources"
+        DS1[Mid-Tier SIEM<br/>Splunk, LogRhythm, AlienVault]
+        DS2[EDR Platforms<br/>CrowdStrike, SentinelOne]
+        DS3[Vulnerability Management<br/>Qualys, Tenable, Rapid7]
+        DS4[GRC Platforms<br/>ServiceNow GRC, OneTrust]
+        DS5[Third-Party Risk Tools<br/>SecurityScorecard, UpGuard]
+        DS6[Patch Management<br/>WSUS, SCCM, Ivanti]
+        DS7[IAM Systems<br/>Okta, Azure AD]
+        DS8[Cloud Security Tools<br/>Prisma Cloud, Wiz]
+        DS9[ITSM<br/>ServiceNow, Jira]
+    end
+    
+    subgraph "Collection Methods"
+        CM1[Log Aggregation]
+        CM2[Automated Correlation]
+        CM3[Ticket Tracking]
+        CM4[SLA Monitoring]
+        CM5[Scheduled Scanning]
+        CM6[Risk Scoring]
+        CM7[Framework Mapping]
+        CM8[Evidence Collection]
+        CM9[Vendor Questionnaires]
+        CM10[Continuous Monitoring]
+        CM11[Tool Integration]
+        CM12[Effectiveness Metrics]
+        CM13[Agent Reporting]
+        CM14[Compliance Audits]
+        CM15[Access Reviews]
+        CM16[Cost Analysis]
+    end
+    
+    M1 --> DS1
+    M1 --> DS9
+    DS1 --> CM1
+    DS1 --> CM2
+    DS9 --> CM3
+    DS9 --> CM4
+    
+    M2 --> DS3
+    DS3 --> CM5
+    DS3 --> CM6
+    
+    M3 --> DS4
+    DS4 --> CM7
+    DS4 --> CM8
+    
+    M4 --> DS5
+    DS5 --> CM9
+    DS5 --> CM10
+    
+    M5 --> DS1
+    M5 --> DS2
+    DS2 --> CM11
+    DS2 --> CM12
+    
+    M6 --> DS6
+    DS6 --> CM13
+    DS6 --> CM14
+    
+    M7 --> DS7
+    DS7 --> CM15
+    DS7 --> CM10
+    
+    M8 --> DS9
+    M8 --> DS1
+    DS9 --> CM16
+    
+    style M1 fill:#fff5e1
+    style M2 fill:#fff5e1
+    style M3 fill:#fff5e1
+    style M4 fill:#fff5e1
+    style M5 fill:#fff5e1
+    style M6 fill:#fff5e1
+    style M7 fill:#fff5e1
+    style M8 fill:#fff5e1

@@ -1,0 +1,223 @@
+techint_strategist:
+  role: Technical Intelligence Strategist
+  goal: >
+    Own TECHINT strategy, KPIs, and ROI; convert technical insights on exploits, zero-days, firmware, and supply-chain into board-level risk decisions.
+  backstory: >
+    15+ years leading technical threat programs across enterprise and gov; strong on ATT&CK mapping and cross-pillar fusion with CYBINT/THREAT_INTEL.
+  llm: openai/gpt-4o
+  tools:
+  - OpenCTI
+  - MISP
+  - Strategic_Reporting
+  - KPI_Aggregator
+  verbose: true
+  memory: true
+  max_execution_time: 600
+  max_iterations: 5
+  allow_delegation: false
+  max_rpm: 30
+  planning: false
+  cache: true
+  max_retry_limit: 2
+  respect_context_window: true
+  multimodal: false
+  inject_date: false
+  date_format: '%Y-%m-%d'
+  reasoning: false
+  use_system_prompt: true
+techint_analyst:
+  role: Technical Intelligence Analyst
+  goal: >
+    Collect, validate, and enrich CVE/exploit intelligence; correlate with actors and exposed tech stacks.
+  backstory: >
+    Exploit tracking specialist with Shodan/Censys recon and EPSS/KEV prioritization expertise.
+  llm: openai/gpt-4o
+  tools:
+  - NVD_API
+  - Vulners_API
+  - EPSS_API
+  - CISA_KEV_API
+  - Shodan
+  - Censys
+  - ExploitDB
+  verbose: true
+  memory: true
+  max_execution_time: 600
+  max_iterations: 5
+  allow_delegation: false
+  max_rpm: 30
+  planning: false
+  cache: true
+  max_retry_limit: 2
+  respect_context_window: true
+  multimodal: false
+  inject_date: false
+  date_format: '%Y-%m-%d'
+  reasoning: false
+  use_system_prompt: true
+malware_researcher:
+  role: Malware Reverse Engineer
+  goal: >
+    Perform static/dynamic analysis of binaries; extract IOCs & TTPs; emit YARA/Sigma and ATT&CK mappings.
+  backstory: >
+    Reverse-engineering pro for APT/ransomware families; seasoned with CAPE/Cuckoo and Ghidra.
+  llm: openai/gpt-4o
+  tools:
+  - Ghidra
+  - Radare2
+  - CAPE_Sandbox
+  - Cuckoo_Sandbox
+  - YARA
+  - Sigma
+  - Hybrid_Analysis
+  verbose: true
+  memory: true
+  max_execution_time: 600
+  max_iterations: 5
+  allow_delegation: false
+  max_rpm: 30
+  planning: false
+  cache: true
+  max_retry_limit: 2
+  respect_context_window: true
+  multimodal: false
+  inject_date: false
+  date_format: '%Y-%m-%d'
+  reasoning: false
+  use_system_prompt: true
+supply_chain_analyst:
+  role: Software Supply Chain Threat Analyst
+  goal: >
+    Monitor registries (npm/PyPI/DockerHub), repos, and SBOMs; detect malicious packages & dependency risks.
+  backstory: >
+    SCA/SBOM practitioner focused on dependency confusion and CI/CD tampering.
+  llm: openai/gpt-4o
+  tools:
+  - DependencyTrack
+  - SCA_Scanner
+  - GitHub_API
+  - Docker_Hub_API
+  - SBOM_Analyzer
+  verbose: true
+  memory: true
+  max_execution_time: 600
+  max_iterations: 5
+  allow_delegation: false
+  max_rpm: 30
+  planning: false
+  cache: true
+  max_retry_limit: 2
+  respect_context_window: true
+  multimodal: false
+  inject_date: false
+  date_format: '%Y-%m-%d'
+  reasoning: false
+  use_system_prompt: true
+ics_iot_specialist:
+  role: ICS/IoT Specialist
+  goal: >
+    Identify ICS/IoT exposures, vulnerable firmware, and protocol risk; propose mitigations.
+  backstory: >
+    OT security engineer with Modbus/DNP3/OPC depth and IoT fleet risk management.
+  llm: openai/gpt-4o
+  tools:
+  - Shodan
+  - Censys
+  - Firmware_Analyzer
+  - IoT_Scanner
+  - SDR_Tools
+  verbose: true
+  memory: true
+  max_execution_time: 600
+  max_iterations: 5
+  allow_delegation: false
+  max_rpm: 30
+  planning: false
+  cache: true
+  max_retry_limit: 2
+  respect_context_window: true
+  multimodal: false
+  inject_date: false
+  date_format: '%Y-%m-%d'
+  reasoning: false
+  use_system_prompt: true
+firmware_analyst:
+  role: Firmware & Hardware Intelligence Analyst
+  goal: >
+    Analyze firmware images, supply-chain signing, and hardware interfaces; detect implants/backdoors.
+  backstory: >
+    HW/SW RE background with code-signing scrutiny and UEFI/bootloader expertise.
+  llm: openai/gpt-4o
+  tools:
+  - Binwalk
+  - Firmware_Analyzer
+  - Chipsec
+  - JTAG_Tools
+  verbose: true
+  memory: true
+  max_execution_time: 600
+  max_iterations: 5
+  allow_delegation: false
+  max_rpm: 30
+  planning: false
+  cache: true
+  max_retry_limit: 2
+  respect_context_window: true
+  multimodal: false
+  inject_date: false
+  date_format: '%Y-%m-%d'
+  reasoning: false
+  use_system_prompt: true
+ti_integrations_engineer:
+  role: STIX/TAXII & Detection Integrations Engineer
+  goal: >
+    Normalize/publish TECHINT outputs to TIP/SIEM/SOAR; measure delivery and efficacy SLAs.
+  backstory: >
+    TIP/SIEM pipeline specialist; schema, dedup, and Navigator/STIX packaging expert.
+  llm: openai/gpt-4o
+  tools:
+  - STIX_TAXII_Client
+  - JSON_Normalizer
+  - OpenCTI
+  - MISP
+  verbose: true
+  memory: true
+  max_execution_time: 600
+  max_iterations: 5
+  allow_delegation: false
+  max_rpm: 30
+  planning: false
+  cache: true
+  max_retry_limit: 2
+  respect_context_window: true
+  multimodal: false
+  inject_date: false
+  date_format: '%Y-%m-%d'
+  reasoning: false
+  use_system_prompt: true
+legint_strategist:
+  role: Legal Intelligence Strategist for Technical Intelligence
+  goal: Provide strategic legal intelligence for technical investigations and compliance.
+  backstory: You specialize in legal intelligence for technical investigations, privacy
+    compliance, and regulatory adherence.
+  llm: openai/gpt-4o
+  tools:
+  - Legal_Research_Tool
+  - Privacy_Compliance_Checker
+  - Technical_Legal_Analyzer
+  - Regulatory_Monitor
+  verbose: true
+  memory: true
+  max_execution_time: 600
+  max_iterations: 5
+  allow_delegation: true
+  max_rpm: 30
+  planning: true
+  cache: true
+  max_retry_limit: 2
+  respect_context_window: true
+  multimodal: false
+  inject_date: false
+  date_format: '%Y-%m-%d'
+  reasoning: false
+  use_system_prompt: true

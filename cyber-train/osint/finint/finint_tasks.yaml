@@ -1,0 +1,263 @@
+rfi_sanctions_match_check:
+  description: 'Check an entity or individual against OFAC/EU/UN sanctions lists.
+
+    '
+  expected_output: "{\"entity\":\"XYZ Ltd\",\"matches\":[\"OFAC-SDN\"],\"confidence\"\
+    :0.93,\n \"risk_rationale\":[\"jurisdiction_high_risk\"],\"report_uri\":\"s3://finint/sanctions_check.pdf\"\
+    }\n"
+  agent: finint_analyst
+  output_file: output/rfi_sanctions_match_check.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+rfi_crypto_transaction_trace:
+  description: 'Trace a suspicious crypto wallet or transaction for illicit activity.
+
+    '
+  expected_output: "{\"tx_hash\":\"0x1234\",\"illicit_links\":[\"darknet\",\"mixer\"\
+    ],\"usd_value\":125000,\n \"confidence\":0.91,\"report_uri\":\"s3://finint/crypto_trace.pdf\"\
+    }\n"
+  agent: blockchain_tracer
+  output_file: output/rfi_crypto_transaction_trace.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+rfi_shell_company_investigation:
+  description: 'Investigate a suspected shell or offshore company for beneficial ownership.
+
+    '
+  expected_output: "{\"company\":\"XYZ Holdings\",\"jurisdiction\":\"BVI\",\"beneficial_owner\"\
+    :\"John Doe\",\n \"confidence\":0.88,\"report_uri\":\"s3://finint/shell_investigation.pdf\"\
+    }\n"
+  agent: beneficial_owner_analyst
+  output_file: output/rfi_shell_company_investigation.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+rfi_tbml_case_review:
+  description: 'Investigate flagged trade transactions for TBML risk (over/under invoicing,
+    phantom shipments).
+
+    '
+  expected_output: "{\"trade_id\":\"T12345\",\"anomaly\":\"over_invoicing\",\"usd_value\"\
+    :2000000,\n \"confidence\":0.9,\"report_uri\":\"s3://finint/tbml_case.pdf\"}\n"
+  agent: tbml_investigator
+  output_file: output/rfi_tbml_case_review.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+rfi_adverse_media_resolution:
+  description: 'Investigate adverse media and PEP hits for entity onboarding.
+
+    '
+  expected_output: "{\"entity\":\"Acme FZE\",\"pep_exposure\":true,\"media_hits\"\
+    :27,\"materiality\":\"medium\",\n \"recommended_actions\":[\"EDD\",\"source_of_funds\"\
+    ],\"confidence\":0.92,\n \"report_uri\":\"s3://finint/adverse_media_case.pdf\"\
+    }\n"
+  agent: adverse_media_analyst
+  output_file: output/rfi_adverse_media_resolution.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+rfi_financial_disinfo_check:
+  description: 'Validate authenticity of financial filings, corporate press releases,
+    or video statements.
+
+    '
+  expected_output: "{\"entity\":\"XYZ Corp\",\"document_type\":\"annual_report\",\"\
+    deepfake_detected\":false,\n \"forgery_signals\":[\"metadata_mismatch\"],\"confidence\"\
+    :0.95,\n \"report_uri\":\"s3://finint/financial_disinfo_report.pdf\"}\n"
+  agent: financial_disinfo_analyst
+  output_file: output/rfi_financial_disinfo_check.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+sanctions_ingestion:
+  description: 'Ingest and normalize sanctions list updates from OFAC, EU, UN.
+
+    '
+  expected_output: "{\"new_entries\":35,\"resolved_matches\":12,\"time_to_flag_hours\"\
+    :2,\n \"report_uri\":\"s3://finint/sanctions_update.pdf\"}\n"
+  agent: finint_analyst
+  output_file: output/daily_sanctions_ingestion.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+crypto_alerts:
+  description: 'Monitor crypto wallets for illicit activity, mixers, or darknet exposure.
+
+    '
+  expected_output: "{\"alerts\":7,\"usd_value\":75000,\"wallets\":[\"0xabc\",\"0xdef\"\
+    ],\n \"report_uri\":\"s3://finint/crypto_alerts.pdf\"}\n"
+  agent: blockchain_tracer
+  output_file: output/daily_crypto_alerts.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+adverse_media_monitoring:
+  description: 'Monitor adverse media and PEP hits for onboarded entities.
+
+    '
+  expected_output: "{\"entities_scanned\":4821,\"hits\":134,\"materiality\":{\"low\"\
+    :92,\"med\":36,\"high\":6},\n \"report_uri\":\"s3://finint/adverse_media_daily.pdf\"\
+    }\n"
+  agent: adverse_media_analyst
+  output_file: output/daily_adverse_media_monitoring.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+financial_risk_summary:
+  description: 'Summarize weekly FININT risks by sector and geography.
+
+    '
+  expected_output: "{\"week\":\"2025-W12\",\"risks\":[\"sanctions\",\"crypto\"],\"\
+    regions\":[\"EU\",\"MENA\"],\n \"report_uri\":\"s3://finint/weekly_risk_summary.pdf\"\
+    }\n"
+  agent: finint_strategist
+  output_file: output/weekly_financial_risk_summary.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+registry_resolution:
+  description: 'Perform entity resolution across registries and sanctions datasets.
+
+    '
+  expected_output: "{\"entities_resolved\":452,\"duplicates_removed\":76,\"confidence\"\
+    :0.92,\n \"report_uri\":\"s3://finint/weekly_registry_resolution.pdf\"}\n"
+  agent: beneficial_owner_analyst
+  output_file: output/weekly_registry_resolution.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+dual_use_export_controls_scan:
+  description: 'Scan trade data for dual-use/export-controlled goods red flags.
+
+    '
+  expected_output: "{\"transactions_scanned\":182000,\"dual_use_hits\":47,\"jurisdiction_flags\"\
+    :23,\n \"report_uri\":\"s3://finint/weekly_dual_use_scan.pdf\"}\n"
+  agent: tbml_investigator
+  output_file: output/weekly_dual_use_export_controls_scan.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+compliance_report:
+  description: 'Generate AML/CTF compliance report for regulators and internal audit.
+
+    '
+  expected_output: "{\"month\":\"2025-08\",\"findings\":12,\"issues_resolved\":11,\n\
+    \ \"report_uri\":\"s3://finint/monthly_compliance_report.pdf\"}\n"
+  agent: reg_compliance_officer
+  output_file: output/monthly_compliance_report.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+crypto_mixer_exposure:
+  description: 'Analyze crypto mixer and tumbler exposure for the month.
+
+    '
+  expected_output: "{\"month\":\"2025-08\",\"mixer_exposure_usd\":520000,\n \"report_uri\"\
+    :\"s3://finint/monthly_crypto_mixer_exposure.pdf\"}\n"
+  agent: blockchain_tracer
+  output_file: output/monthly_crypto_mixer_exposure.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+esg_compliance_check:
+  description: 'Audit ESG-related financial disclosures for greenwashing or false
+    claims.
+
+    '
+  expected_output: "{\"month\":\"2025-08\",\"entities_screened\":231,\"greenwashing_flags\"\
+    :9,\n \"report_uri\":\"s3://finint/monthly_esg_check.pdf\"}\n"
+  agent: financial_disinfo_analyst
+  output_file: output/monthly_esg_compliance_check.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+exec_brief:
+  description: 'Deliver executive brief on financial crime trends, sanctions, and
+    compliance posture.
+
+    '
+  expected_output: "{\"quarter\":\"Q1-2025\",\"key_findings\":[\"crypto laundering\"\
+    ,\"sanctions evasion\"],\n \"decisions_influenced\":3,\"deck_uri\":\"s3://finint/exec_brief.pptx\"\
+    }\n"
+  agent: finint_strategist
+  output_file: output/quarterly_exec_brief.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+fraud_redteam:
+  description: 'Conduct fraud simulations with synthetic transactions to test detection
+    systems.
+
+    '
+  expected_output: "{\"scenario\":\"pump_and_dump\",\"detections\":7,\"misses\":1,\"\
+    precision\":0.9,\n \"report_uri\":\"s3://finint/fraud_redteam.pdf\"}\n"
+  agent: forensic_accountant
+  output_file: output/quarterly_fraud_redteam.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+model_validation:
+  description: 'Validate FININT models (sanctions, TBML, crypto tracing) against benchmark
+    scenarios.
+
+    '
+  expected_output: "{\"precision\":0.93,\"recall\":0.96,\"tbml_aupr\":0.78,\"crypto_recall\"\
+    :0.88,\n \"report_uri\":\"s3://finint/quarterly_model_validation.pdf\"}\n"
+  agent: finint_strategist
+  output_file: output/quarterly_model_validation.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3
+strategy_review:
+  description: 'Review FININT strategy, vendor ecosystem, and compliance roadmap.
+
+    '
+  expected_output: '{"strategy_doc":"s3://finint/strategy/finint2025.pdf","maturity_score":0.87}
+
+    '
+  agent: finint_strategist
+  output_file: output/yearly_strategy_review.json
+  async_execution: false
+  human_input: false
+  markdown: true
+  create_directory: true
+  guardrail_max_retries: 3

@@ -1,0 +1,201 @@
+infrastructure_monitor:
+  role: >
+    Infrastructure Monitoring Analyst
+  goal: >
+    Real-time detection and triage of outages, anomalies, and risks across physical (energy, transport, telecom) and digital (IXPs, data centers, cables) infrastructure.
+  backstory: >
+    Skilled at near-real-time registry scanning, satellite monitoring, and correlating infrastructure anomalies.
+  llm: openai/gpt-4o
+  tools:
+  - Shodan
+  - Censys
+  - SentinelSat
+  - Splunk
+  - Maxar_API
+  - Palantir_Gotham
+  - OpenStreetMap
+  verbose: true
+  memory: true
+  max_execution_time: 600
+  max_iterations: 5
+  allow_delegation: false
+  max_rpm: 30
+  planning: false
+  cache: true
+  max_retry_limit: 2
+  respect_context_window: true
+  multimodal: false
+  inject_date: false
+  date_format: '%Y-%m-%d'
+  reasoning: false
+  use_system_prompt: true
+infrastructure_researcher:
+  role: >
+    Strategic Infrastructure Researcher
+  goal: >
+    Deep-dive research into ownership, covert construction, and sector resilience.
+  backstory: >
+    Veteran OSINT researcher mapping cross-sector dependencies and hidden infrastructure projects.
+  llm: openai/gpt-4o
+  tools:
+  - Maltego
+  - Wikimapia
+  - PlanetLabs_API
+  - RiskIQ_PassiveTotal
+  - Airbus_OneAtlas
+  - Hexagon_Geospatial
+  verbose: true
+  memory: true
+  max_execution_time: 600
+  max_iterations: 5
+  allow_delegation: false
+  max_rpm: 30
+  planning: false
+  cache: true
+  max_retry_limit: 2
+  respect_context_window: true
+  multimodal: false
+  inject_date: false
+  date_format: '%Y-%m-%d'
+  reasoning: false
+  use_system_prompt: true
+infrastructure_ml_specialist:
+  role: >
+    ML Modeler & Risk Predictor
+  goal: >
+    Build, evaluate, and explain ML models for anomaly detection, sabotage prediction, and resilience scoring.
+  backstory: >
+    Data scientist applying adversarial ML detection and explainability frameworks to infra intelligence.
+  llm: openai/gpt-4o
+  tools:
+  - Drift_Monitor
+  - Eval_Benchmark
+  - SHAP_Explainer
+  - TensorFlow
+  - Risk_Scoring_Engine
+  verbose: true
+  memory: true
+  max_execution_time: 600
+  max_iterations: 5
+  allow_delegation: false
+  max_rpm: 30
+  planning: false
+  cache: true
+  max_retry_limit: 2
+  respect_context_window: true
+  multimodal: false
+  inject_date: false
+  date_format: '%Y-%m-%d'
+  reasoning: false
+  use_system_prompt: true
+infrastructure_strategist:
+  role: >
+    Executive Strategy Advisor
+  goal: >
+    Translate infra intelligence into executive insights, benchmarks, and compliance strategy.
+  backstory: >
+    Trusted advisor for resilience planning, simulation exercises, and board-level infrastructure briefings.
+  llm: openai/gpt-4o
+  tools:
+  - Strategic_Reporting
+  - CrossPillar_Validator
+  - KPI_Aggregator
+  - Compliance_Frameworks
+  verbose: true
+  memory: true
+  max_execution_time: 600
+  max_iterations: 5
+  allow_delegation: false
+  max_rpm: 30
+  planning: false
+  cache: true
+  max_retry_limit: 2
+  respect_context_window: true
+  multimodal: false
+  inject_date: false
+  date_format: '%Y-%m-%d'
+  reasoning: false
+  use_system_prompt: true
+infra_compliance_officer:
+  role: >
+    Regulatory & Compliance Oversight Officer
+  goal: >
+    Ensure adherence to NERC CIP, NIS2, ISO 27019, IEC 62443, and local regulations for critical infra.
+  backstory: >
+    Legal-policy specialist bridging infra intelligence with governance and compliance enforcement.
+  llm: openai/gpt-4o
+  tools:
+  - DPIA_Checklist
+  - Audit_Log_Manager
+  - Retention_Controller
+  - License_Registry
+  verbose: true
+  memory: true
+  max_execution_time: 600
+  max_iterations: 5
+  allow_delegation: false
+  max_rpm: 30
+  planning: false
+  cache: true
+  max_retry_limit: 2
+  respect_context_window: true
+  multimodal: false
+  inject_date: false
+  date_format: '%Y-%m-%d'
+  reasoning: false
+  use_system_prompt: true
+infra_incident_coordinator:
+  role: >
+    Incident Response Coordinator
+  goal: >
+    Coordinate infra outage/sabotage incidents across cyber, HUMINT, and operational teams.
+  backstory: >
+    Former SOC manager, now dedicated to infra-related incident orchestration.
+  llm: openai/gpt-4o
+  tools:
+  - SOAR
+  - TheHive
+  - OpenCTI
+  - ServiceNow
+  verbose: true
+  memory: true
+  max_execution_time: 600
+  max_iterations: 5
+  allow_delegation: false
+  max_rpm: 30
+  planning: false
+  cache: true
+  max_retry_limit: 2
+  respect_context_window: true
+  multimodal: false
+  inject_date: false
+  date_format: '%Y-%m-%d'
+  reasoning: false
+  use_system_prompt: true
+legint_strategist:
+  role: Legal Intelligence Strategist for Infrastructure Intelligence
+  goal: Provide strategic legal intelligence for infrastructure investigations and
+    compliance.
+  backstory: You specialize in legal intelligence for infrastructure investigations,
+    privacy compliance, and regulatory adherence.
+  llm: openai/gpt-4o
+  tools:
+  - Legal_Research_Tool
+  - Privacy_Compliance_Checker
+  - Infrastructure_Legal_Analyzer
+  - Regulatory_Monitor
+  verbose: true
+  memory: true
+  max_execution_time: 600
+  max_iterations: 5
+  allow_delegation: true
+  max_rpm: 30
+  planning: true
+  cache: true
+  max_retry_limit: 2
+  respect_context_window: true
+  multimodal: false
+  inject_date: false
+  date_format: '%Y-%m-%d'
+  reasoning: false
+  use_system_prompt: true

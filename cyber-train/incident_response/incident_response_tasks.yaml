@@ -1,0 +1,213 @@
+alert_triage_task:
+  description: >
+    Monitor and triage alerts using SIEM Tool and Threat Intelligence Tool.
+    Classify as false positive, informational, or potential incident.
+  expected_output: >
+    A JSON object with triage results.
+    Example: {"alerts":200,"false_positives":150,"escalated":12}
+  agent: soc_analyst
+  output_file: output/alert_triage.json
+
+incident_threat_intel_enrichment_task:
+  description: >
+    Enrich incident data with context from Threat Intelligence Platform Tool,
+    STIX/TAXII feeds, and OpenCTI. Identify related campaigns and threat actors.
+  expected_output: >
+    A JSON object with enrichment results.
+    Example: {"incident_id":"INC123","related_ttp":["TA505 phishing"],"matched_iocs":["hash123","ip:203.0.113.5"]}
+  agent: threat_intel_liaison
+  context: [alert_triage_task]
+  output_file: output/threat_intel.json
+
+incident_declaration_task:
+  description: >
+    Escalate confirmed incidents to Incident Commander.
+    Use Incident Runbook Tool to classify severity (SEV-1/SEV-2/SEV-3).
+  expected_output: >
+    A JSON object declaring incident status.
+    Example: {"incident_id":"INC123","severity":"SEV-1","status":"Declared"}
+  agent: soc_analyst
+  context: [incident_threat_intel_enrichment_task]
+  output_file: output/incident_declaration.json
+
+soar_playbook_task:
+  description: >
+    Execute automated response workflows using SOAR Platform Tool
+    and Containment Automation Tool. Include account disablement,
+    IP blocking, and endpoint isolation.
+  expected_output: >
+    A JSON object with automated containment actions.
+    Example: {"incident_id":"INC123","actions":["account disabled","IP blocked"],"status":"Automated"}
+  agent: soar_engineer
+  context: [incident_declaration_task]
+  output_file: output/soar.json
+
+containment_task:
+  description: >
+    Perform manual containment when automation is insufficient.
+    Use EDR/XDR, Firewall Manager, and Containment Automation Tool.
+  expected_output: >
+    A JSON object with containment actions.
+    Example: {"incident_id":"INC123","endpoints_isolated":["laptop42"],"ips_blocked":["203.0.113.5"]}
+  agent: incident_responder
+  context: [soar_playbook_task]
+  output_file: output/containment.json
+
+eradication_task:
+  description: >
+    Remove malicious artifacts and persistence using EDR/XDR Tool
+    and Forensic Acquisition Tool. Validate cleanup success.
+  expected_output: >
+    A JSON object with eradication details.
+    Example: {"incident_id":"INC123","malware_removed":["trojan.exe"],"persistence_cleaned":true}
+  agent: incident_responder
+  context: [containment_task]
+  output_file: output/eradication.json
+
+forensic_investigation_task:
+  description: >
+    Perform forensic collection and analysis using Forensic Acquisition
+    and Memory Forensics Tools. Build root cause and timeline.
+  expected_output: >
+    A JSON object with forensic results.
+    Example: {"incident_id":"INC123","root_cause":"phishing email","timeline":["T0 compromise","T+2 lateral movement"]}
+  agent: forensic_analyst
+  context: [containment_task]
+  output_file: output/forensics.json
+
+chain_of_custody_task:
+  description: >
+    Maintain legal chain of custody using Chain-of-Custody Tracker.
+    Log evidence handling, ownership, and transfers.
+  expected_output: >
+    A JSON object with custody details.
+    Example: {"incident_id":"INC123","evidence":"disk.img","handler":"forensic_analyst1","status":"sealed"}
+  agent: forensic_analyst
+  context: [forensic_investigation_task]
+  output_file: output/custody.json
+
+recovery_task:
+  description: >
+    Restore systems from clean backups and validate with File Integrity Tool
+    and EDR/XDR scans.
+  expected_output: >
+    A JSON object with recovery results.
+    Example: {"incident_id":"INC123","systems_recovered":["server1"],"validation":"Passed"}
+  agent: incident_responder
+  context: [eradication_task, forensic_investigation_task]
+  output_file: output/recovery.json
+
+insider_incident_response_task:
+  description: >
+    Handle insider-driven incidents (privilege misuse, data theft).
+    Use Insider Risk Playbook Tool and DLP data to guide actions.
+  expected_output: >
+    A JSON object with insider incident findings.
+    Example: {"incident_id":"INC124","actor":"employee123","actions":["privilege abuse","data exfil"]}
+  agent: incident_commander
+  context: [incident_declaration_task, forensic_investigation_task]
+  output_file: output/insider_ir.json
+
+cross_team_coordination_task:
+  description: >
+    Coordinate response across multiple business units, vendors, and regulators.
+    Use Ticketing System Tool and Crisis Communication Tool.
+  expected_output: >
+    A JSON object with coordination summary.
+    Example: {"incident_id":"INC123","teams":["SOC","Legal","VendorX"],"status":"Coordinated"}
+  agent: incident_commander
+  context: [incident_declaration_task, communication_task]
+  output_file: output/coordination.json
+
+mdr_integration_task:
+  description: >
+    Engage external MDR/MSSP providers during major incidents.
+    Exchange telemetry, response recommendations, and containment actions.
+  expected_output: >
+    A JSON object with MDR collaboration.
+    Example: {"incident_id":"INC123","provider":"MDRCo","actions":["IOCs shared","joint containment executed"]}
+  agent: soar_engineer
+  context: [incident_declaration_task, soar_playbook_task]
+  output_file: output/mdr.json
+
+communication_task:
+  description: >
+    Communicate incident status to executives, regulators, and customers.
+    Use Crisis Communication Tool and Regulator Notification Tool.
+  expected_output: >
+    A JSON object with communications.
+    Example: {"incident_id":"INC123","executive_brief":"Sent","regulator_notified":true}
+  agent: comms_manager
+  context: [incident_declaration_task, recovery_task]
+  output_file: output/comms.json
+
+legal_insurance_coordination_task:
+  description: >
+    Coordinate with legal counsel and cyber insurance providers.
+    Ensure compliance with laws and insurance claim processes.
+  expected_output: >
+    A JSON object with legal/insurance actions.
+    Example: {"incident_id":"INC123","lawyers_notified":true,"insurance_claim":"Submitted"}
+  agent: legal_counsel
+  context: [incident_declaration_task, communication_task]
+  output_file: output/legal.json
+
+lessons_learned_task:
+  description: >
+    Conduct post-incident review. Document strengths, gaps, and improvements.
+    Update incident runbooks with lessons learned.
+  expected_output: >
+    A JSON object with lessons learned.
+    Example: {"incident_id":"INC123","strengths":["fast containment"],"gaps":["slow comms"],"actions":["automate notifications"]}
+  agent: incident_commander
+  context: [recovery_task, forensic_investigation_task, communication_task]
+  output_file: output/lessons.json
+
+ir_metrics_reporting_task:
+  description: >
+    Generate IR performance metrics (MTTD, MTTR, % automated responses, cost avoided).
+    Use Reporting Dashboard Tool.
+  expected_output: >
+    A JSON object with IR KPIs.
+    Example: {"mttd":"5min","mttr":"2h","auto_contained":45,"resilience_score":88}
+  agent: incident_commander
+  context: [containment_task, soar_playbook_task, recovery_task]
+  output_file: output/ir_metrics.json
+
+simulation_exercise_task:
+  description: >
+    Conduct IR simulation exercises (tabletop, red team).
+    Use Incident Runbook Tool to measure readiness and improvements.
+  expected_output: >
+    A JSON object with simulation results.
+    Example: {"exercise":"ransomware","score":85,"gaps":["slow exec comms"],"actions":["improve comms runbook"]}
+  agent: incident_commander
+  output_file: output/simulation.json
+dfir_memory_analysis_task:
+  description: >
+    Auto-added from mapping for dfir_analyst in incident_response.
+  expected_output: >
+    {"status":"ok"}
+  agent: dfir_analyst
+  output_file: output/dfir_memory_analysis_task.json
+dfir_pcap_analysis_task:
+  description: >
+    Auto-added from mapping for dfir_analyst in incident_response.
+  expected_output: >
+    {"status":"ok"}
+  agent: dfir_analyst
+  output_file: output/dfir_pcap_analysis_task.json
+incident_postmortem_task:
+  description: >
+    Auto-added from mapping for incident_commander in incident_response.
+  expected_output: >
+    {"status":"ok"}
+  agent: incident_commander
+  output_file: output/incident_postmortem_task.json
+soc_incident_investigation_task:
+  description: >
+    Auto-added from mapping for soc_analyst in incident_response.
+  expected_output: >
+    {"status":"ok"}
+  agent: soc_analyst
+  output_file: output/soc_incident_investigation_task.json

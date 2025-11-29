@@ -1,0 +1,33 @@
+Implementation Priority,tool,pillar,type,agent,task,priority,source,url
+,Wazuh,audit_compliance,Open Source,compliance_officer,audit_monitoring,Medium,comprehensive_csv,https://github.com/wazuh/wazuh
+,Elastic Stack (ELK),audit_compliance,Open Source,compliance_officer,audit_log_analysis,Medium,comprehensive_csv,https://github.com/elastic/elasticsearch
+,Graylog,audit_compliance,Open Source,compliance_officer,audit_log_management,Medium,comprehensive_csv,https://github.com/Graylog2/graylog2-server
+,Osquery,audit_compliance,Open Source,compliance_officer,endpoint_audit,Medium,comprehensive_csv,https://github.com/osquery/osquery
+,Auditd (Linux Audit Framework),audit_compliance,Open Source,compliance_officer,audit_logging,Medium,comprehensive_csv,https://github.com/linux-audit/audit-userspace
+,Falco,audit_compliance,Open Source,compliance_officer,runtime_audit,Medium,comprehensive_csv,https://github.com/falcosecurity/falco
+,ComplianceAsCode / OpenSCAP,audit_compliance,Open Source,compliance_officer,compliance_automation,High,comprehensive_csv,https://github.com/ComplianceAsCode
+,Eramba,audit_compliance,Open Source,compliance_officer,grc_management,Medium,comprehensive_csv,https://github.com/eramba/eramba
+,Grafana Loki,audit_compliance,Open Source,compliance_officer,audit_log_aggregation,Medium,comprehensive_csv,https://github.com/grafana/loki
+,ModSecurity (WAF),audit_compliance,Open Source,compliance_officer,web_audit,Medium,comprehensive_csv,https://github.com/SpiderLabs/ModSecurity
+,Splunk Enterprise Security (ES),audit_compliance,Commercial,compliance_officer,siem_audit,High,comprehensive_csv,https://docs.splunk.com/Documentation/ES
+,ServiceNow GRC,audit_compliance,Commercial,compliance_officer,grc_management,High,comprehensive_csv,https://docs.servicenow.com
+,Archer GRC (RSA),audit_compliance,Commercial,compliance_officer,grc_management,High,comprehensive_csv,https://docs.rsa.com
+,OneTrust,audit_compliance,Commercial,compliance_officer,privacy_compliance,High,comprehensive_csv,https://docs.onetrust.com
+,MetricStream,audit_compliance,Commercial,compliance_officer,grc_management,High,comprehensive_csv,https://docs.metricstream.com
+,Microsoft Purview Compliance,audit_compliance,Commercial,compliance_officer,data_compliance,High,comprehensive_csv,https://docs.microsoft.com/en-us/microsoft-365/compliance
+,Google Chronicle Security Operations,audit_compliance,Commercial,compliance_officer,security_operations,High,comprehensive_csv,https://cloud.google.com/chronicle
+,IBM QRadar SIEM,audit_compliance,Commercial,compliance_officer,siem_audit,High,comprehensive_csv,https://www.ibm.com/docs/en/security-essentials
+,Sumo Logic Cloud SIEM,audit_compliance,Commercial,compliance_officer,siem_audit,High,comprehensive_csv,https://docs.sumologic.com
+,Proofpoint CASB/DLP,audit_compliance,Commercial,compliance_officer,data_protection,High,comprehensive_csv,https://docs.proofpoint.com
+,OpenSCAP,audit_compliance,Open Source,compliance_officer,security_compliance,High,comprehensive_csv,https://github.com/OpenSCAP
+,SCAP Workbench,audit_compliance,Open Source,compliance_officer,scap_content_authoring,Medium,comprehensive_csv,https://github.com/OpenSCAP/scap-workbench
+,ComplianceAsCode,audit_compliance,Open Source,compliance_officer,compliance_automation,High,comprehensive_csv,https://github.com/ComplianceAsCode
+,Chef InSpec,audit_compliance,Open Source,compliance_officer,compliance_testing,High,comprehensive_csv,https://github.com/inspec/inspec
+,Moodle,audit_compliance,Open Source,compliance_officer,learning_management,High,comprehensive_csv,https://github.com/moodle/moodle
+,Canvas LMS,audit_compliance,Open Source,compliance_officer,learning_management,Medium,comprehensive_csv,https://github.com/instructure/canvas-lms
+,Open edX,audit_compliance,Open Source,compliance_officer,online_learning,Medium,comprehensive_csv,https://github.com/edx/edx-platform
+,Chamilo,audit_compliance,Open Source,compliance_officer,e_learning,Low,comprehensive_csv,https://github.com/chamilo/chamilo-lms
+,ATutor,audit_compliance,Open Source,compliance_officer,e_learning,Low,comprehensive_csv,https://github.com/atutor/ATutor
+,GCompris,audit_compliance,Open Source,compliance_officer,educational_games,Low,comprehensive_csv,https://github.com/gcompris/GCompris-qt
+,OpenOLAT,audit_compliance,Open Source,compliance_officer,learning_platform,Medium,comprehensive_csv,https://github.com/OpenOLAT/OpenOLAT
+,Sakai,audit_compliance,Open Source,compliance_officer,collaboration_learning,Low,comprehensive_csv,https://github.com/sakaiproject/sakai
