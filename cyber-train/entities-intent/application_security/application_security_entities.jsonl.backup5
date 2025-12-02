@@ -1,0 +1,458 @@
+{"text": "Bug Bounty Platform Integrator ingested 42 reports triaging 28 valid findings", "entities": [[0, 19, "TOOL"], [43, 50, "REPORT_TYPE"]]}
+{"text": "Secure Coding Lab Tool trained developers on OWASP Top 10 and secure coding practices", "entities": [[0, 22, "TOOL"], [31, 36, "ROLE_TYPE"]]}
+{"text": "Snyk Open Source SCA tool scanned 4800 dependencies finding 22 critical vulnerabilities", "entities": [[5, 16, "TOOL"], [43, 47, "COUNT"], [48, 59, "DEPENDENCY_TYPE"]]}
+{"text": "Evidence Packaging Tool compiled audit evidence for 150 applications meeting compliance requirements", "entities": [[56, 68, "APPLICATION_TYPE"]]}
+{"text": "Code review of repository github.com/org/microservice found hardcoded secrets in source code. Finding requires immediate remediation.", "entities": []}
+{"text": "SAST Tool scanned 90 repositories finding 14 critical and 36 high severity vulnerabilities", "entities": []}
+{"text": "Threat Modeling Tool performed STRIDE LINDDUN analysis mapping threats to MITRE ATT&CK", "entities": [[0, 20, "TOOL"]]}
+{"text": "OSS License Scanner detected GPL-3.0 AGPL-3.0 and incompatible licenses in CRM ERP apps", "entities": []}
+{"text": "Fuzzing Tool ran API protocol and binary fuzzing on 25 applications finding 8 crashes", "entities": [[0, 12, "TOOL"], [55, 66, "APPLICATION_TYPE"]]}
+{"text": "Jenkins CI/CD platform integrated SAST DAST and SCA scans in 70 pipelines", "entities": []}
+{"text": "Architecture Diagramming Tool created attack trees documenting spoofing and tampering mitigations", "entities": []}
+{"text": "SIEM Tool integrated runtime security events from WAF RASP and API gateway", "entities": []}
+{"text": "Dependabot automated dependency updates patched 45 vulnerable packages", "entities": []}
+{"text": "CI/CD Security Engineer automated SAST DAST SCA scans in 70 pipelines blocking 11 builds", "entities": [[0, 23, "ROLE"]]}
+{"text": "Snyk Open Source scanner found Log4j vulnerability CVE-2021-44228 in dependencies", "entities": [[5, 16, "SCANNER_TYPE"], [51, 65, "CVE_ID"]]}
+{"text": "Snyk Code SAST tool provided IDE feedback fixing 280 security findings in real-time", "entities": []}
+{"text": "Compliance Mapping Tool validated AppSec controls against GDPR PCI DSS and SOC2", "entities": [[0, 17, "TOOL"]]}
+{"text": "Secrets Detection Tool found 48 hardcoded secrets in repositories requiring immediate revocation", "entities": []}
+{"text": "Regulatory Alignment Tool mapped secure SDLC practices to NIST CSF and ISO 27001", "entities": []}
+{"text": "ML Adversarial Testing Tool tested 4 AI models with adversarial input and prompt injection", "entities": [[0, 27, "TOOL"]]}
+{"text": "Checkmarx SAST tool scanned 90 repositories identifying 14 critical SQL injection vulnerabilities", "entities": []}
+{"text": "IriusRisk threat modeling tool mapped threats to MITRE ATT&CK techniques", "entities": [[39, 45, "FRAMEWORK"]]}
+{"text": "CI/CD Security Plugin blocked 11 builds with critical vulnerabilities preventing production deployment", "entities": []}
+{"text": "SBOM Exchange Tool validated accuracy and completeness of 7 vendor SBOMs", "entities": []}
+{"text": "SIEM Tool integrated runtime security events from WAF RASP and API gateway", "entities": []}
+{"text": "API Discovery Tool mapped 18 shadow APIs requiring security controls", "entities": []}
+{"text": "Application Security Posture Management ASPM platform aggregated SAST DAST SCA findings", "entities": [[0, 33, "TOOL"]]}
+{"text": "Threat Modeling Specialist performed STRIDE analysis identifying spoofing and tampering threats", "entities": [[53, 62, "THREAT_TYPE"]]}
+{"text": "Dependabot SCA tool created 45 pull requests for dependency updates", "entities": []}
+{"text": "RASP Tool detected 60 attacks in 20 monitored applications blocking 56 and missing 4", "entities": []}
+{"text": "Code review: Repository github.com/company/app, branch feature/auth-fix, commit a1b2c3d4 contains SQL injection vulnerability. Source code analysis required.", "entities": []}
+{"text": "GitHub Issues tracked 45 security findings with assigned developers and due dates", "entities": [[34, 42, "FINDING_TYPE"], [48, 56, "ROLE_TYPE"]]}
+{"text": "tfsec Infrastructure as Code scanner found 12 misconfigurations in Terraform templates", "entities": []}
+{"text": "Trivy container scanner identified 15 high severity vulnerabilities in Docker images", "entities": [[6, 15, "SCANNER_TYPE"], [16, 23, "CONTAINER_TYPE"]]}
+{"text": "WAF Tool blocked 2500 OWASP Top 10 attacks with 1.3% false positive rate", "entities": []}
+{"text": "tfsec Infrastructure as Code scanner found 12 misconfigurations in Terraform templates", "entities": []}
+{"text": "Jira Bug Tracking System managed 150 security vulnerabilities with remediation workflows", "entities": [[5, 17, "TOOL"], [33, 56, "COUNT"]]}
+{"text": "Threat Modeling Specialist performed STRIDE analysis identifying spoofing and tampering threats", "entities": [[53, 62, "THREAT_TYPE"]]}
+{"text": "Container Scanner detected 12 critical vulnerabilities in 210 Docker container images", "entities": [[0, 17, "TOOL"]]}
+{"text": "Checkmarx SAST scanner identified SQL injection vulnerability in payment processing code", "entities": []}
+{"text": "GitLab CI platform enforced security gates blocking builds with critical vulnerabilities", "entities": []}
+{"text": "Jira Bug Tracking System managed 150 security vulnerabilities with remediation workflows", "entities": [[5, 17, "TOOL"], [33, 56, "COUNT"]]}
+{"text": "Application Security false positive rate reduced to 2.5% improving scan accuracy", "entities": [[0, 25, "SECURITY_TYPE"]]}
+{"text": "IaC Scanner identified 9 critical misconfigurations in Terraform CloudFormation and Kubernetes", "entities": [[0, 11, "TOOL"]]}
+{"text": "Clair container scanner identified vulnerable packages in container images", "entities": []}
+{"text": "SBOM compliance achieved 94% with mandatory generation for all applications", "entities": [[0, 3, "DOCUMENT_TYPE"]]}
+{"text": "Snyk Code SAST tool provided IDE feedback fixing 280 security findings in real-time", "entities": []}
+{"text": "Container Scanner detected 12 critical vulnerabilities in 210 container images requiring patching", "entities": [[0, 17, "TOOL"]]}
+{"text": "IaC Scanner identified 9 critical misconfigurations in Terraform CloudFormation and Kubernetes", "entities": [[0, 11, "TOOL"]]}
+{"text": "Threat Modeling Specialist performed STRIDE analysis identifying spoofing and tampering threats", "entities": [[53, 62, "THREAT_TYPE"]]}
+{"text": "SBOM Generator created software bill of materials for 12 vendor integrations", "entities": [[0, 13, "TOOL"]]}
+{"text": "IDE Security Plugin provided just-in-time guidance to 120 developers fixing 280 findings", "entities": [[59, 67, "FINDING_TYPE"]]}
+{"text": "Application Security Chaos Engineer ran fuzz tests on 25 applications discovering 4 unique bugs", "entities": [[0, 35, "ROLE"]]}
+{"text": "Contrast Security IAST tool provided runtime vulnerability detection during application execution", "entities": [[0, 15, "TOOL"], [37, 47, "DETECTION_TYPE"], [59, 66, "APPLICATION_TYPE"]]}
+{"text": "Code review of repository github.com/org/microservice found hardcoded secrets in source code. Finding requires immediate remediation.", "entities": []}
+{"text": "MITRE ATT&CK Mapper linked application threats to TA0001 and TA0008 techniques", "entities": [[0, 5, "FRAMEWORK"], [6, 12, "FRAMEWORK"], [13, 19, "MAPPER_TYPE"], [28, 37, "THREAT_TYPE"]]}
+{"text": "API Discovery Tool mapped 18 shadow APIs requiring security controls", "entities": []}
+{"text": "Secure coding training completion reached 88% for all software developers", "entities": []}
+{"text": "SAST scan found hardcoded secrets in repository github.com/org/service, branch main, commit e5f6g7h8. Source code file config.py requires immediate remediation.", "entities": [[16, 19, "SCAN_TYPE"]]}
+{"text": "SBOM Exchange Tool validated accuracy and completeness of 7 vendor SBOMs", "entities": []}
+{"text": "MITRE ATT&CK Mapper linked application threats to TA0001 and TA0008 techniques", "entities": [[0, 5, "FRAMEWORK"], [6, 12, "FRAMEWORK"], [13, 19, "MAPPER_TYPE"], [28, 37, "THREAT_TYPE"]]}
+{"text": "SAST scanner found SQL injection in source code file api/users.py. Repository github.com/company/app contains 12 critical findings.", "entities": [[0, 11, "TOOL"]]}
+{"text": "DAST Tool performed dynamic analysis on billing-service identifying SQL injection vulnerabilities", "entities": []}
+{"text": "Fuzzing Tool discovered 8 crashes and 4 unique bugs in 25 tested applications", "entities": [[0, 12, "TOOL"]]}
+{"text": "Open Source Risk Analyst audited 4800 dependencies for vulnerabilities and license risks", "entities": []}
+{"text": "Application Security Chaos Engineer ran fuzz tests on 25 applications discovering 4 unique bugs", "entities": [[0, 35, "ROLE"]]}
+{"text": "Audit Checklist Tool validated AppSec program scoring 96% with 89% SLA compliance", "entities": [[0, 14, "TOOL"]]}
+{"text": "Application Security coverage reached 95% across all production and development environments", "entities": []}
+{"text": "Metrics Dashboard Tool displayed chaos experiment results with 10 successes and 2 failures", "entities": [[0, 15, "TOOL"], [39, 46, "RESULT_TYPE"]]}
+{"text": "Vulnerability backlog reduced to 45 critical and 120 high severity issues", "entities": [[0, 20, "METRIC_TYPE"]]}
+{"text": "Architecture Diagramming Tool created attack trees documenting spoofing and tampering mitigations", "entities": []}
+{"text": "Threat Intelligence integration mapped 32 CVEs to ERP and payment applications at risk", "entities": []}
+{"text": "Chaos Engineering Tool ran 12 experiments killing dependencies and injecting attacks", "entities": [[0, 22, "TOOL"], [30, 41, "EXPERIMENT_TYPE"], [50, 55, "DEPENDENCY_TYPE"]]}
+{"text": "SCA Dependency Scanner detected supply chain risks in 5 applications with vulnerable libraries", "entities": [[5, 14, "SCANNER_TYPE"], [24, 37, "RISK_TYPE"]]}
+{"text": "IDE Security Plugin provided real-time feedback to 120 developers with 340 findings", "entities": []}
+{"text": "Clair vulnerability scanner detected 8 critical issues in container registry", "entities": [[6, 19, "SCANNER_TYPE"], [39, 46, "ISSUE_TYPE"]]}
+{"text": "SAST scanner found SQL injection in source code file api/users.py. Repository github.com/company/app contains 12 critical findings.", "entities": [[0, 11, "TOOL"]]}
+{"text": "AppSec Policy Generator created secure SDLC policy with bug bounty scope and SBOM requirements", "entities": []}
+{"text": "Metrics Dashboard Tool displayed chaos experiment results with 10 successes and 2 failures", "entities": [[0, 15, "TOOL"], [39, 46, "RESULT_TYPE"]]}
+{"text": "API Security Gateway secured 135 APIs detecting 16 violations and blocking 14", "entities": [[0, 20, "TOOL"]]}
+{"text": "IaC Scanner identified 9 critical misconfigurations in 260 Terraform and Kubernetes files", "entities": [[0, 11, "TOOL"]]}
+{"text": "Contrast Security IAST detected runtime vulnerability in authentication flow", "entities": [[0, 15, "TOOL"]]}
+{"text": "Audit Checklist Tool validated AppSec program scoring 96% with 89% SLA compliance", "entities": [[0, 14, "TOOL"]]}
+{"text": "Checkmarx SAST scanner identified SQL injection vulnerability in payment processing code", "entities": []}
+{"text": "DAST Tool performed dynamic analysis on billing-service identifying SQL injection vulnerabilities", "entities": []}
+{"text": "SAST scan found hardcoded secrets in repository github.com/org/service, branch main, commit e5f6g7h8. Source code file config.py requires immediate remediation.", "entities": [[16, 19, "SCAN_TYPE"]]}
+{"text": "IaC Scanner identified 9 critical misconfigurations in 260 Terraform and Kubernetes files", "entities": [[0, 11, "TOOL"]]}
+{"text": "Snyk Code SAST tool provided IDE feedback fixing 280 security findings in real-time", "entities": []}
+{"text": "SBOM Generator created software bill of materials for 12 vendor integrations", "entities": [[0, 13, "TOOL"]]}
+{"text": "Bug Bounty Platform Integrator ingested 42 reports triaging 28 valid findings", "entities": [[0, 19, "TOOL"], [43, 50, "REPORT_TYPE"]]}
+{"text": "Fuzzing Tool ran API protocol and binary fuzzing on 25 applications finding 8 crashes", "entities": [[0, 12, "TOOL"], [55, 66, "APPLICATION_TYPE"]]}
+{"text": "API Discovery Tool mapped 18 shadow APIs requiring security controls", "entities": []}
+{"text": "Secure SDLC adoption reached 92% with security gates in all CI/CD pipelines", "entities": [[0, 6, "FRAMEWORK"], [7, 11, "FRAMEWORK"]]}
+{"text": "Open Policy Agent enforced policy-as-code blocking insecure container deployments", "entities": [[0, 17, "TOOL"], [27, 38, "POLICY_TYPE"]]}
+{"text": "checkov IaC security scanner detected insecure S3 bucket configuration in CloudFormation", "entities": [[38, 44, "CLOUD_RESOURCE"]]}
+{"text": "Secrets Detection Tool scanned 90 repositories finding 48 hardcoded API keys and tokens", "entities": []}
+{"text": "Application Security Strategist defined secure SDLC policy with 7-day SLA for critical vulnerabilities", "entities": []}
+{"text": "OSS License Scanner detected GPL-3.0 AGPL-3.0 and incompatible licenses in CRM ERP apps", "entities": []}
+{"text": "Threat Modeling Specialist performed STRIDE analysis identifying spoofing and tampering threats", "entities": [[53, 62, "THREAT_TYPE"]]}
+{"text": "Evidence Packaging Tool compiled audit evidence for 150 applications meeting compliance requirements", "entities": [[56, 68, "APPLICATION_TYPE"]]}
+{"text": "Burp Suite Enterprise DAST tool performed dynamic analysis on web applications", "entities": []}
+{"text": "Contrast Security IAST tool provided runtime vulnerability detection during application execution", "entities": [[0, 15, "TOOL"], [37, 47, "DETECTION_TYPE"], [59, 66, "APPLICATION_TYPE"]]}
+{"text": "Threat Dragon tool generated threat model for billing service identifying authentication bypass", "entities": [[0, 13, "TOOL"]]}
+{"text": "Chaos Engineering Tool ran 12 experiments with 10 successes identifying database timeout failures", "entities": [[0, 22, "TOOL"], [30, 41, "EXPERIMENT_TYPE"], [50, 58, "RESULT_TYPE"]]}
+{"text": "SBOM compliance achieved 94% with mandatory generation for all applications", "entities": [[0, 3, "DOCUMENT_TYPE"]]}
+{"text": "Application Security coverage reached 95% across all production and development environments", "entities": []}
+{"text": "Clair vulnerability scanner detected 8 critical issues in container registry", "entities": [[6, 19, "SCANNER_TYPE"], [39, 46, "ISSUE_TYPE"]]}
+{"text": "OWASP Top 10 coverage achieved 100% with all vulnerability categories addressed", "entities": [[0, 5, "FRAMEWORK"], [6, 12, "FRAMEWORK"], [59, 67, "ACTION_TYPE"]]}
+{"text": "Invicti DAST tool detected 36 high severity XSS and CSRF vulnerabilities", "entities": []}
+{"text": "OSS License Scanner identified GPL-3.0 and AGPL-3.0 license violations in CRM and ERP applications", "entities": [[43, 50, "VIOLATION_TYPE"]]}
+{"text": "Application Security false positive rate reduced to 2.5% improving scan accuracy", "entities": [[0, 25, "SECURITY_TYPE"]]}
+{"text": "Jira Bug Tracking System managed 150 security vulnerabilities with remediation workflows", "entities": [[5, 17, "TOOL"], [33, 56, "COUNT"]]}
+{"text": "Burp Suite Enterprise DAST tool performed dynamic analysis on web applications", "entities": []}
+{"text": "GitLab CI platform enforced security gates blocking builds with critical vulnerabilities", "entities": []}
+{"text": "Regulatory Alignment Tool mapped secure SDLC practices to NIST CSF and ISO 27001", "entities": []}
+{"text": "CI/CD Security Engineer automated SAST DAST SCA scans in 70 pipelines blocking 11 builds", "entities": [[0, 23, "ROLE"]]}
+{"text": "Vulnerability backlog reduced to 45 critical and 120 high severity issues", "entities": [[0, 20, "METRIC_TYPE"]]}
+{"text": "SAST Tool scanned 90 repositories finding 14 critical and 36 high severity vulnerabilities", "entities": []}
+{"text": "Application Security coverage reached 95% across all production and development environments", "entities": []}
+{"text": "OSS License Scanner detected GPL-3.0 AGPL-3.0 and incompatible licenses in CRM ERP apps", "entities": []}
+{"text": "Reporting Dashboard Tool generated executive KPIs showing 6-day MTTR for critical vulnerabilities", "entities": [[0, 8, "REPORTING_TYPE"], [10, 17, "DASHBOARD_TYPE"]]}
+{"text": "SCA Dependency Scanner detected supply chain risks in 5 applications with vulnerable libraries", "entities": [[5, 14, "SCANNER_TYPE"], [24, 37, "RISK_TYPE"]]}
+{"text": "Threat Modeling Tool performed STRIDE LINDDUN analysis mapping threats to MITRE ATT&CK", "entities": [[0, 20, "TOOL"]]}
+{"text": "Invicti DAST tool detected 36 high severity XSS and CSRF vulnerabilities", "entities": []}
+{"text": "Runtime attacks blocked increased to 2550 with WAF and RASP protection enabled", "entities": [[0, 7, "ENVIRONMENT"], [16, 22, "ACTION_TYPE"], [26, 30, "COUNT"]]}
+{"text": "Clair container scanner identified vulnerable packages in container images", "entities": []}
+{"text": "Trivy container scanner identified 15 high severity vulnerabilities in Docker images", "entities": [[6, 15, "SCANNER_TYPE"], [16, 23, "CONTAINER_TYPE"]]}
+{"text": "SBOM Generator created software bill of materials in SPDX format for 12 vendor integrations", "entities": [[0, 13, "TOOL"]]}
+{"text": "Code review: Repository github.com/company/app, branch feature/auth-fix, commit a1b2c3d4 contains SQL injection vulnerability. Source code analysis required.", "entities": []}
+{"text": "GitHub Issues tracked 45 security findings with assigned developers and due dates", "entities": [[34, 42, "FINDING_TYPE"], [48, 56, "ROLE_TYPE"]]}
+{"text": "Secure Coding Mentor reviewed 90 repositories providing contextual guidance for 83% remediation rate", "entities": [[0, 20, "ROLE"]]}
+{"text": "IriusRisk threat modeling platform mapped threats to MITRE ATT&CK framework", "entities": []}
+{"text": "GitHub Actions automated security scanning in CI/CD workflows", "entities": []}
+{"text": "IriusRisk threat modeling tool mapped threats to MITRE ATT&CK techniques", "entities": [[39, 45, "FRAMEWORK"]]}
+{"text": "API Security Gateway enforced OAuth2 authentication and schema validation on 135 APIs", "entities": [[0, 20, "TOOL"], [40, 48, "VALIDATION_TYPE"]]}
+{"text": "SCA Dependency Scanner detected 22 critical vulnerabilities in 4800 dependencies", "entities": [[5, 14, "SCANNER_TYPE"]]}
+{"text": "Bug Bounty Manager triaged 42 reports with 28 valid findings integrated into remediation pipelines", "entities": [[0, 18, "ROLE"], [30, 37, "REPORT_TYPE"]]}
+{"text": "IaC Scanner identified 9 critical misconfigurations in 260 Terraform and Kubernetes files", "entities": [[0, 11, "TOOL"]]}
+{"text": "MITRE ATT&CK Mapper linked application threats to TA0001 and TA0008 techniques", "entities": [[0, 5, "FRAMEWORK"], [6, 12, "FRAMEWORK"], [13, 19, "MAPPER_TYPE"], [28, 37, "THREAT_TYPE"]]}
+{"text": "Bug bounty closure rate improved to 71% with average resolution time of 12 days", "entities": []}
+{"text": "SCA Dependency Scanner detected supply chain risks in 5 applications with vulnerable libraries", "entities": [[5, 14, "SCANNER_TYPE"], [24, 37, "RISK_TYPE"]]}
+{"text": "Contrast Security IAST tool provided runtime vulnerability detection during application execution", "entities": [[0, 15, "TOOL"], [37, 47, "DETECTION_TYPE"], [59, 66, "APPLICATION_TYPE"]]}
+{"text": "Snyk Open Source scanner found Log4j vulnerability CVE-2021-44228 in dependencies", "entities": [[5, 16, "SCANNER_TYPE"], [51, 65, "CVE_ID"]]}
+{"text": "Audit Checklist Tool validated AppSec program scoring 96% with 89% SLA compliance", "entities": [[0, 14, "TOOL"]]}
+{"text": "Open Policy Agent enforced policy-as-code blocking insecure container deployments", "entities": [[0, 17, "TOOL"], [27, 38, "POLICY_TYPE"]]}
+{"text": "Secure Coding Mentor reviewed 90 repositories providing contextual guidance for 83% remediation rate", "entities": [[0, 20, "ROLE"]]}
+{"text": "Checkmarx SAST scanner identified SQL injection vulnerability in payment processing code", "entities": []}
+{"text": "Bug Bounty Platform Integrator ingested 42 reports triaging 28 valid findings", "entities": [[0, 19, "TOOL"], [43, 50, "REPORT_TYPE"]]}
+{"text": "GitLab CI platform enforced security gates blocking builds with critical vulnerabilities", "entities": []}
+{"text": "Secure SDLC adoption reached 92% with security gates in all CI/CD pipelines", "entities": [[0, 6, "FRAMEWORK"], [7, 11, "FRAMEWORK"]]}
+{"text": "Application Security Strategist defined secure SDLC policy with 7-day SLA for critical vulnerabilities", "entities": []}
+{"text": "Trivy container scanner detected 12 critical vulnerabilities in 210 Docker images", "entities": [[6, 15, "SCANNER_TYPE"], [54, 60, "CONTAINER_TYPE"]]}
+{"text": "SonarLint IDE plugin flagged 23 code smells and security hotspots during development", "entities": [[14, 17, "PLUGIN_TYPE"]]}
+{"text": "Checkmarx SAST tool scanned 90 repositories identifying 14 critical SQL injection vulnerabilities", "entities": []}
+{"text": "Bug bounty closure rate improved to 71% with average resolution time of 12 days", "entities": []}
+{"text": "IDE Security Plugin provided real-time feedback to 120 developers with 340 findings", "entities": []}
+{"text": "Mean time to remediate critical vulnerabilities improved to 6 days meeting SLA", "entities": [[23, 35, "VULNERABILITY_TYPE"]]}
+{"text": "Bug Bounty Manager triaged 42 reports with 28 valid findings integrated into remediation pipelines", "entities": [[0, 18, "ROLE"], [30, 37, "REPORT_TYPE"]]}
+{"text": "Application Security posture management platform tracked 150 applications with 85% secure", "entities": [[0, 25, "SECURITY_TYPE"]]}
+{"text": "SonarLint IDE plugin flagged 23 code smells and security hotspots during development", "entities": [[14, 17, "PLUGIN_TYPE"]]}
+{"text": "Bug Bounty Platform Integrator ingested 42 reports triaging 28 valid findings", "entities": [[0, 19, "TOOL"], [43, 50, "REPORT_TYPE"]]}
+{"text": "IriusRisk threat modeling tool mapped threats to MITRE ATT&CK techniques", "entities": [[39, 45, "FRAMEWORK"]]}
+{"text": "Invicti DAST tool detected 36 high severity XSS and CSRF vulnerabilities", "entities": []}
+{"text": "Application Security posture management platform tracked 150 applications with 85% secure", "entities": [[0, 25, "SECURITY_TYPE"]]}
+{"text": "SonarLint IDE plugin flagged 23 code smells and security hotspots during development", "entities": [[14, 17, "PLUGIN_TYPE"]]}
+{"text": "SBOM Generator created software bill of materials in SPDX format for 12 vendor integrations", "entities": [[0, 13, "TOOL"]]}
+{"text": "Application Security false positive rate reduced to 2.5% improving scan accuracy", "entities": [[0, 25, "SECURITY_TYPE"]]}
+{"text": "Clair container scanner identified vulnerable packages in container images", "entities": []}
+{"text": "GitHub Actions automated security scanning in CI/CD workflows", "entities": []}
+{"text": "Runtime attacks blocked increased to 2550 with WAF and RASP protection enabled", "entities": [[0, 7, "ENVIRONMENT"], [16, 22, "ACTION_TYPE"], [26, 30, "COUNT"]]}
+{"text": "Audit Checklist Tool validated AppSec program scoring 96% with 89% SLA compliance", "entities": [[0, 14, "TOOL"]]}
+{"text": "Application Security Strategist defined secure SDLC policy with 7-day SLA for critical vulnerabilities", "entities": []}
+{"text": "API Security Gateway secured 135 APIs detecting 16 violations and blocking 14", "entities": [[0, 20, "TOOL"]]}
+{"text": "Secrets Detection Tool scanned 90 repositories finding 48 hardcoded API keys and tokens", "entities": []}
+{"text": "Mean time to remediate critical vulnerabilities improved to 6 days meeting SLA", "entities": [[23, 35, "VULNERABILITY_TYPE"]]}
+{"text": "Dependabot automated dependency updates patched 45 vulnerable packages", "entities": []}
+{"text": "API Security Gateway enforced OAuth2 authentication and schema validation on 135 APIs", "entities": [[0, 20, "TOOL"], [40, 48, "VALIDATION_TYPE"]]}
+{"text": "IDE Security Plugin provided just-in-time guidance to 120 developers fixing 280 findings", "entities": [[59, 67, "FINDING_TYPE"]]}
+{"text": "Trivy container scanner identified 15 high severity vulnerabilities in Docker images", "entities": [[6, 15, "SCANNER_TYPE"], [16, 23, "CONTAINER_TYPE"]]}
+{"text": "Open Source Risk Analyst audited 4800 dependencies for vulnerabilities and license risks", "entities": []}
+{"text": "MITRE ATT&CK Mapper linked application threats to TA0001 and TA0008 techniques", "entities": [[0, 5, "FRAMEWORK"], [6, 12, "FRAMEWORK"], [13, 19, "MAPPER_TYPE"], [28, 37, "THREAT_TYPE"]]}
+{"text": "IDE Security Plugin provided real-time feedback to 120 developers with 340 findings", "entities": []}
+{"text": "Secure Coding Lab Tool trained developers on OWASP Top 10 and secure coding practices", "entities": [[0, 22, "TOOL"], [31, 36, "ROLE_TYPE"]]}
+{"text": "Open Source Risk Analyst audited 4800 dependencies for vulnerabilities and license risks", "entities": []}
+{"text": "Fuzzing Tool discovered 8 crashes and 4 unique bugs in 25 tested applications", "entities": [[0, 12, "TOOL"]]}
+{"text": "IriusRisk threat modeling platform mapped threats to MITRE ATT&CK framework", "entities": []}
+{"text": "Application Security Strategist defined secure SDLC policy with 7-day SLA for critical vulnerabilities", "entities": []}
+{"text": "IDE Security Plugin provided real-time feedback to 120 developers with 340 findings", "entities": []}
+{"text": "Chaos Engineering Tool ran 12 experiments with 10 successes identifying database timeout failures", "entities": [[0, 22, "TOOL"], [30, 41, "EXPERIMENT_TYPE"], [50, 58, "RESULT_TYPE"]]}
+{"text": "Vulnerability backlog reduced to 45 critical and 120 high severity issues", "entities": [[0, 20, "METRIC_TYPE"]]}
+{"text": "Threat Intelligence integration mapped 32 CVEs to ERP and payment applications at risk", "entities": []}
+{"text": "API Security Gateway secured 135 APIs detecting 16 violations and blocking 14", "entities": [[0, 20, "TOOL"]]}
+{"text": "IriusRisk threat modeling platform mapped threats to MITRE ATT&CK framework", "entities": []}
+{"text": "Threat Dragon tool generated threat model for billing service identifying authentication bypass", "entities": [[0, 13, "TOOL"]]}
+{"text": "SIEM Tool integrated runtime security events from WAF RASP and API gateway", "entities": []}
+{"text": "SCA Dependency Scanner detected 22 critical vulnerabilities in 4800 dependencies", "entities": [[5, 14, "SCANNER_TYPE"]]}
+{"text": "Container Scanner detected 12 critical vulnerabilities in 210 Docker container images", "entities": [[0, 17, "TOOL"]]}
+{"text": "Open Policy Agent enforced policy-as-code blocking insecure container deployments", "entities": [[0, 17, "TOOL"], [27, 38, "POLICY_TYPE"]]}
+{"text": "Runtime attacks blocked increased to 2550 with WAF and RASP protection enabled", "entities": [[0, 7, "ENVIRONMENT"], [16, 22, "ACTION_TYPE"], [26, 30, "COUNT"]]}
+{"text": "Vulnerability Tracker managed bug bounty findings with 20 patched and 8 in remediation", "entities": [[0, 20, "TOOL"]]}
+{"text": "ML Adversarial Testing Tool tested 4 AI models with adversarial input and prompt injection", "entities": [[0, 27, "TOOL"]]}
+{"text": "Secrets Detection Tool found 48 hardcoded secrets in repositories requiring immediate revocation", "entities": []}
+{"text": "Checkmarx SAST scanner identified SQL injection vulnerability in payment processing code", "entities": []}
+{"text": "Regulatory Alignment Tool mapped secure SDLC practices to NIST CSF and ISO 27001", "entities": []}
+{"text": "RASP Tool operated runtime protection on 20 applications detecting 60 attacks and blocking 56", "entities": [[19, 26, "PROTECTION_TYPE"], [59, 66, "ATTACK_TYPE"]]}
+{"text": "Evidence Packaging Tool compiled audit evidence for 150 applications meeting compliance requirements", "entities": [[56, 68, "APPLICATION_TYPE"]]}
+{"text": "CI/CD Security Engineer automated SAST DAST SCA scans in 70 pipelines blocking 11 builds", "entities": [[0, 23, "ROLE"]]}
+{"text": "Code review of repository github.com/org/microservice found hardcoded secrets in source code. Finding requires immediate remediation.", "entities": []}
+{"text": "Bug Bounty Platform received 42 reports with 28 valid findings and 20 patched", "entities": [[0, 19, "TOOL"]]}
+{"text": "ML Adversarial Testing Tool tested 4 AI models with adversarial input and prompt injection", "entities": [[0, 27, "TOOL"]]}
+{"text": "API Security Gateway enforced OAuth2 authentication and schema validation on 135 APIs", "entities": [[0, 20, "TOOL"], [40, 48, "VALIDATION_TYPE"]]}
+{"text": "Burp Suite Enterprise DAST tool performed dynamic analysis on web applications", "entities": []}
+{"text": "GitHub Issues tracked 45 security findings with assigned developers and due dates", "entities": [[34, 42, "FINDING_TYPE"], [48, 56, "ROLE_TYPE"]]}
+{"text": "Chaos Engineering Tool ran 12 experiments with 10 successes identifying database timeout failures", "entities": [[0, 22, "TOOL"], [30, 41, "EXPERIMENT_TYPE"], [50, 58, "RESULT_TYPE"]]}
+{"text": "Vulnerability backlog reduced to 45 critical and 120 high severity issues", "entities": [[0, 20, "METRIC_TYPE"]]}
+{"text": "Application Security audit score reached 96% with 89% SLA compliance and 95% coverage", "entities": []}
+{"text": "Application Security audit score reached 96% with 89% SLA compliance and 95% coverage", "entities": []}
+{"text": "Reporting Dashboard Tool generated executive KPIs showing 6-day MTTR for critical vulnerabilities", "entities": [[0, 8, "REPORTING_TYPE"], [10, 17, "DASHBOARD_TYPE"]]}
+{"text": "SCA Dependency Scanner detected 22 critical vulnerabilities in 4800 dependencies", "entities": [[5, 14, "SCANNER_TYPE"]]}
+{"text": "Jenkins CI/CD platform integrated SAST DAST and SCA scans in 70 pipelines", "entities": []}
+{"text": "OSS License Scanner detected GPL-3.0 AGPL-3.0 and incompatible licenses in CRM ERP apps", "entities": []}
+{"text": "Clair vulnerability scanner detected 8 critical issues in container registry", "entities": [[6, 19, "SCANNER_TYPE"], [39, 46, "ISSUE_TYPE"]]}
+{"text": "checkov IaC security scanner detected insecure S3 bucket configuration in CloudFormation", "entities": [[38, 44, "CLOUD_RESOURCE"]]}
+{"text": "Secure Coding Lab Tool trained developers on OWASP Top 10 and secure coding practices", "entities": [[0, 22, "TOOL"], [31, 36, "ROLE_TYPE"]]}
+{"text": "RASP Tool operated runtime protection on 20 applications detecting 60 attacks and blocking 56", "entities": [[19, 26, "PROTECTION_TYPE"], [59, 66, "ATTACK_TYPE"]]}
+{"text": "Application Security Posture Management ASPM platform aggregated SAST DAST SCA findings", "entities": [[0, 33, "TOOL"]]}
+{"text": "Trivy container scanner identified 15 high severity vulnerabilities in Docker images", "entities": [[6, 15, "SCANNER_TYPE"], [16, 23, "CONTAINER_TYPE"]]}
+{"text": "OSS License Scanner identified GPL-3.0 and AGPL-3.0 license violations in CRM and ERP applications", "entities": [[43, 50, "VIOLATION_TYPE"]]}
+{"text": "DAST Tool performed dynamic analysis on billing-service identifying SQL injection vulnerabilities", "entities": []}
+{"text": "CI/CD Security Engineer automated SAST DAST SCA scans in 70 pipelines blocking 11 builds", "entities": [[0, 23, "ROLE"]]}
+{"text": "Runtime Application Security Engineer deployed WAF rules blocking 2500 OWASP Top 10 attacks", "entities": [[0, 37, "ROLE"]]}
+{"text": "Application Security audit score reached 96% with 89% SLA compliance and 95% coverage", "entities": []}
+{"text": "Jira Bug Tracking System managed 150 security vulnerabilities with remediation workflows", "entities": [[5, 17, "TOOL"], [33, 56, "COUNT"]]}
+{"text": "OWASP Top 10 coverage achieved 100% with all vulnerability categories addressed", "entities": [[0, 5, "FRAMEWORK"], [6, 12, "FRAMEWORK"], [59, 67, "ACTION_TYPE"]]}
+{"text": "DAST Tool performed dynamic analysis on billing-service identifying SQL injection vulnerabilities", "entities": []}
+{"text": "SAST Tool scanned 90 repositories finding 14 critical and 36 high severity vulnerabilities", "entities": []}
+{"text": "Runtime Application Security Engineer deployed WAF rules blocking 2500 OWASP Top 10 attacks", "entities": [[0, 37, "ROLE"]]}
+{"text": "Threat Modeling Specialist performed STRIDE analysis identifying spoofing and tampering threats", "entities": [[53, 62, "THREAT_TYPE"]]}
+{"text": "Jenkins CI/CD platform integrated SAST DAST and SCA scans in 70 pipelines", "entities": []}
+{"text": "IDE Security Plugin provided just-in-time guidance to 120 developers fixing 280 findings", "entities": [[59, 67, "FINDING_TYPE"]]}
+{"text": "Secrets Detection Tool scanned 90 repositories finding 48 hardcoded API keys and tokens", "entities": []}
+{"text": "Application Security Auditor measured MTTR of 6 days for critical vulnerabilities", "entities": [[0, 28, "ROLE"]]}
+{"text": "tfsec Infrastructure as Code scanner found 12 misconfigurations in Terraform templates", "entities": []}
+{"text": "SBOM compliance achieved 94% with mandatory generation for all applications", "entities": [[0, 3, "DOCUMENT_TYPE"]]}
+{"text": "Application Security Posture Management ASPM platform aggregated SAST DAST SCA findings", "entities": [[0, 33, "TOOL"]]}
+{"text": "Fuzzing Tool ran API protocol and binary fuzzing on 25 applications finding 8 crashes", "entities": [[0, 12, "TOOL"], [55, 66, "APPLICATION_TYPE"]]}
+{"text": "GitHub Actions automated security scanning in CI/CD workflows", "entities": []}
+{"text": "SAST scan found hardcoded secrets in repository github.com/org/service, branch main, commit e5f6g7h8. Source code file config.py requires immediate remediation.", "entities": [[16, 19, "SCAN_TYPE"]]}
+{"text": "Dependabot SCA tool created 45 pull requests for dependency updates", "entities": []}
+{"text": "SBOM Exchange Tool validated accuracy and completeness of 7 vendor SBOMs", "entities": []}
+{"text": "Vulnerability Tracker managed bug bounty findings with 20 patched and 8 in remediation", "entities": [[0, 20, "TOOL"]]}
+{"text": "Application Security false positive rate reduced to 2.5% improving scan accuracy", "entities": [[0, 25, "SECURITY_TYPE"]]}
+{"text": "Snyk Open Source scanner found Log4j vulnerability CVE-2021-44228 in dependencies", "entities": [[5, 16, "SCANNER_TYPE"], [51, 65, "CVE_ID"]]}
+{"text": "SBOM compliance achieved 94% with mandatory generation for all applications", "entities": [[0, 3, "DOCUMENT_TYPE"]]}
+{"text": "Reporting Dashboard Tool generated executive KPIs showing 6-day MTTR for critical vulnerabilities", "entities": [[0, 8, "REPORTING_TYPE"], [10, 17, "DASHBOARD_TYPE"]]}
+{"text": "Clair vulnerability scanner detected 8 critical issues in container registry", "entities": [[6, 19, "SCANNER_TYPE"], [39, 46, "ISSUE_TYPE"]]}
+{"text": "Snyk Code SAST tool provided IDE feedback fixing 280 security findings in real-time", "entities": []}
+{"text": "Secure SDLC adoption reached 92% with security gates in all CI/CD pipelines", "entities": [[0, 6, "FRAMEWORK"], [7, 11, "FRAMEWORK"]]}
+{"text": "Container Scanner detected 12 critical vulnerabilities in 210 Docker container images", "entities": [[0, 17, "TOOL"]]}
+{"text": "IaC Scanner identified 9 critical misconfigurations in Terraform CloudFormation and Kubernetes", "entities": [[0, 11, "TOOL"]]}
+{"text": "Snyk Open Source SCA tool scanned 4800 dependencies finding 22 critical vulnerabilities", "entities": [[5, 16, "TOOL"], [43, 47, "COUNT"], [48, 59, "DEPENDENCY_TYPE"]]}
+{"text": "Threat Modeling Specialist performed STRIDE analysis identifying spoofing and tampering threats", "entities": [[53, 62, "THREAT_TYPE"]]}
+{"text": "API Security Gateway enforced OAuth2 authentication and schema validation on 135 APIs", "entities": [[0, 20, "TOOL"], [40, 48, "VALIDATION_TYPE"]]}
+{"text": "Regulatory Alignment Tool mapped secure SDLC practices to NIST CSF and ISO 27001", "entities": []}
+{"text": "Threat Dragon threat modeling tool created STRIDE analysis for billing-service application", "entities": [[0, 12, "TOOL"], [35, 41, "ANALYSIS_TYPE"], [45, 58, "SERVICE_NAME"]]}
+{"text": "AppSec Policy Generator created secure SDLC policy with bug bounty scope and SBOM requirements", "entities": []}
+{"text": "ML Adversarial Testing Tool tested 4 AI models with adversarial input and prompt injection", "entities": [[0, 27, "TOOL"]]}
+{"text": "Application Security audit score reached 96% with 89% SLA compliance and 95% coverage", "entities": []}
+{"text": "Snyk Open Source scanner found Log4j vulnerability CVE-2021-44228 in dependencies", "entities": [[5, 16, "SCANNER_TYPE"], [51, 65, "CVE_ID"]]}
+{"text": "Burp Suite Enterprise DAST tool performed dynamic analysis on web applications", "entities": []}
+{"text": "CI/CD Security Plugin blocked 11 builds with critical vulnerabilities preventing production deployment", "entities": []}
+{"text": "Bug bounty closure rate improved to 71% with average resolution time of 12 days", "entities": []}
+{"text": "Secure coding training completion reached 88% for all software developers", "entities": []}
+{"text": "Reporting Dashboard Tool generated executive KPIs showing 6-day MTTR for critical vulnerabilities", "entities": [[0, 8, "REPORTING_TYPE"], [10, 17, "DASHBOARD_TYPE"]]}
+{"text": "Application Security Auditor measured MTTR of 6 days for critical vulnerabilities", "entities": [[0, 28, "ROLE"]]}
+{"text": "RASP Tool detected 60 attacks in 20 monitored applications blocking 56 and missing 4", "entities": []}
+{"text": "SBOM Generator created software bill of materials in SPDX format for 12 vendor integrations", "entities": [[0, 13, "TOOL"]]}
+{"text": "Trivy container scanner detected 12 critical vulnerabilities in 210 Docker images", "entities": [[6, 15, "SCANNER_TYPE"], [54, 60, "CONTAINER_TYPE"]]}
+{"text": "IDE Security Plugin provided just-in-time guidance to 120 developers fixing 280 findings", "entities": [[59, 67, "FINDING_TYPE"]]}
+{"text": "SBOM Generator created software bill of materials for 12 vendor integrations", "entities": [[0, 13, "TOOL"]]}
+{"text": "Metrics Dashboard Tool displayed chaos experiment results with 10 successes and 2 failures", "entities": [[0, 15, "TOOL"], [39, 46, "RESULT_TYPE"]]}
+{"text": "Bug Bounty Platform received 42 reports with 28 valid findings and 20 patched", "entities": [[0, 19, "TOOL"]]}
+{"text": "checkov IaC security scanner detected insecure S3 bucket configuration in CloudFormation", "entities": [[38, 44, "CLOUD_RESOURCE"]]}
+{"text": "Chaos Engineering Tool ran 12 experiments killing dependencies and injecting attacks", "entities": [[0, 22, "TOOL"], [30, 41, "EXPERIMENT_TYPE"], [50, 55, "DEPENDENCY_TYPE"]]}
+{"text": "WAF Tool blocked 2500 OWASP Top 10 attacks with 1.3% false positive rate", "entities": []}
+{"text": "RASP Tool detected 60 attacks in 20 monitored applications blocking 56 and missing 4", "entities": []}
+{"text": "Metrics Dashboard Tool displayed chaos experiment results with 10 successes and 2 failures", "entities": [[0, 15, "TOOL"], [39, 46, "RESULT_TYPE"]]}
+{"text": "RASP Tool operated runtime protection on 20 applications detecting 60 attacks and blocking 56", "entities": [[19, 26, "PROTECTION_TYPE"], [59, 66, "ATTACK_TYPE"]]}
+{"text": "checkov IaC security scanner detected insecure S3 bucket configuration in CloudFormation", "entities": [[38, 44, "CLOUD_RESOURCE"]]}
+{"text": "Trivy container scanner detected 12 critical vulnerabilities in 210 Docker images", "entities": [[6, 15, "SCANNER_TYPE"], [54, 60, "CONTAINER_TYPE"]]}
+{"text": "IriusRisk threat modeling tool mapped threats to MITRE ATT&CK techniques", "entities": [[39, 45, "FRAMEWORK"]]}
+{"text": "Chaos Engineering Tool ran 12 experiments with 10 successes identifying database timeout failures", "entities": [[0, 22, "TOOL"], [30, 41, "EXPERIMENT_TYPE"], [50, 58, "RESULT_TYPE"]]}
+{"text": "ML Adversarial Testing Tool found 3 vulnerabilities in 4 AI models requiring mitigation", "entities": [[0, 27, "TOOL"], [36, 50, "VULNERABILITY_TYPE"]]}
+{"text": "SAST scanner found SQL injection in source code file api/users.py. Repository github.com/company/app contains 12 critical findings.", "entities": [[0, 11, "TOOL"]]}
+{"text": "RASP Tool operated runtime protection on 20 applications detecting 60 attacks and blocking 56", "entities": [[19, 26, "PROTECTION_TYPE"], [59, 66, "ATTACK_TYPE"]]}
+{"text": "Threat Intelligence integration mapped 32 CVEs to ERP and payment applications at risk", "entities": []}
+{"text": "Threat Modeling Tool performed STRIDE LINDDUN analysis mapping threats to MITRE ATT&CK", "entities": [[0, 20, "TOOL"]]}
+{"text": "Dependabot SCA tool created 45 pull requests for dependency updates", "entities": []}
+{"text": "Code review of repository github.com/org/microservice found hardcoded secrets in source code. Finding requires immediate remediation.", "entities": []}
+{"text": "Clair container scanner identified vulnerable packages in container images", "entities": []}
+{"text": "SCA Dependency Scanner detected supply chain risks in 5 applications with vulnerable libraries", "entities": [[5, 14, "SCANNER_TYPE"], [24, 37, "RISK_TYPE"]]}
+{"text": "IaC Scanner identified 9 critical misconfigurations in Terraform CloudFormation and Kubernetes", "entities": [[0, 11, "TOOL"]]}
+{"text": "Threat Dragon tool generated threat model for billing service identifying authentication bypass", "entities": [[0, 13, "TOOL"]]}
+{"text": "Threat Dragon threat modeling tool created STRIDE analysis for billing-service application", "entities": [[0, 12, "TOOL"], [35, 41, "ANALYSIS_TYPE"], [45, 58, "SERVICE_NAME"]]}
+{"text": "Vulnerability Tracker managed bug bounty findings with 20 patched and 8 in remediation", "entities": [[0, 20, "TOOL"]]}
+{"text": "Application Security posture management platform tracked 150 applications with 85% secure", "entities": [[0, 25, "SECURITY_TYPE"]]}
+{"text": "Secure Coding Mentor reviewed 90 repositories providing contextual guidance for 83% remediation rate", "entities": [[0, 20, "ROLE"]]}
+{"text": "Burp Suite Enterprise DAST detected cross-site scripting in login endpoint", "entities": [[0, 19, "TOOL"]]}
+{"text": "Chaos Engineering Tool ran 12 experiments killing dependencies and injecting attacks", "entities": [[0, 22, "TOOL"], [30, 41, "EXPERIMENT_TYPE"], [50, 55, "DEPENDENCY_TYPE"]]}
+{"text": "Application Security Strategist defined secure SDLC policy with 7-day SLA for critical vulnerabilities", "entities": []}
+{"text": "Architecture Diagramming Tool created attack trees documenting spoofing and tampering mitigations", "entities": []}
+{"text": "Application Security Auditor measured MTTR of 6 days for critical vulnerabilities", "entities": [[0, 28, "ROLE"]]}
+{"text": "Application Security Chaos Engineer ran fuzz tests on 25 applications discovering 4 unique bugs", "entities": [[0, 35, "ROLE"]]}
+{"text": "Threat Intelligence integration mapped 32 CVEs to ERP and payment applications at risk", "entities": []}
+{"text": "Secrets Detection Tool scanned 90 repositories finding 48 hardcoded API keys and tokens", "entities": []}
+{"text": "Application Security coverage reached 95% across all production and development environments", "entities": []}
+{"text": "OWASP Top 10 coverage achieved 100% with all vulnerability categories addressed", "entities": [[0, 5, "FRAMEWORK"], [6, 12, "FRAMEWORK"], [59, 67, "ACTION_TYPE"]]}
+{"text": "IaC Scanner identified 9 critical misconfigurations in 260 Terraform and Kubernetes files", "entities": [[0, 11, "TOOL"]]}
+{"text": "API Discovery Tool mapped 18 shadow APIs requiring security controls", "entities": []}
+{"text": "Contrast Security IAST detected runtime vulnerability in authentication flow", "entities": [[0, 15, "TOOL"]]}
+{"text": "Runtime attacks blocked increased to 2550 with WAF and RASP protection enabled", "entities": [[0, 7, "ENVIRONMENT"], [16, 22, "ACTION_TYPE"], [26, 30, "COUNT"]]}
+{"text": "AppSec Policy Generator created secure SDLC policy with bug bounty scope and SBOM requirements", "entities": []}
+{"text": "Runtime Application Security Engineer deployed WAF rules blocking 2500 OWASP Top 10 attacks", "entities": [[0, 37, "ROLE"]]}
+{"text": "SBOM Generator created software bill of materials in SPDX format for 12 vendor integrations", "entities": [[0, 13, "TOOL"]]}
+{"text": "GitHub Actions automated security scanning in CI/CD workflows", "entities": []}
+{"text": "GitHub Issues tracked 45 security findings with assigned developers and due dates", "entities": [[34, 42, "FINDING_TYPE"], [48, 56, "ROLE_TYPE"]]}
+{"text": "Contrast Security IAST tool provided runtime vulnerability detection during application execution", "entities": [[0, 15, "TOOL"], [37, 47, "DETECTION_TYPE"], [59, 66, "APPLICATION_TYPE"]]}
+{"text": "Code review: Repository github.com/company/app, branch feature/auth-fix, commit a1b2c3d4 contains SQL injection vulnerability. Source code analysis required.", "entities": []}
+{"text": "Compliance Mapping Tool validated AppSec controls against GDPR PCI DSS and SOC2", "entities": [[0, 17, "TOOL"]]}
+{"text": "Mean time to remediate critical vulnerabilities improved to 6 days meeting SLA", "entities": [[23, 35, "VULNERABILITY_TYPE"]]}
+{"text": "CI/CD Security Plugin blocked 11 builds with critical vulnerabilities preventing production deployment", "entities": []}
+{"text": "Container Scanner detected 12 critical vulnerabilities in 210 container images requiring patching", "entities": [[0, 17, "TOOL"]]}
+{"text": "OWASP Top 10 coverage achieved 100% with all vulnerability categories addressed", "entities": [[0, 5, "FRAMEWORK"], [6, 12, "FRAMEWORK"], [59, 67, "ACTION_TYPE"]]}
+{"text": "Bug bounty closure rate improved to 71% with average resolution time of 12 days", "entities": []}
+{"text": "Container Scanner detected 12 critical vulnerabilities in 210 container images requiring patching", "entities": [[0, 17, "TOOL"]]}
+{"text": "GitLab CI platform enforced security gates blocking builds with critical vulnerabilities", "entities": []}
+{"text": "Mean time to remediate critical vulnerabilities improved to 6 days meeting SLA", "entities": [[23, 35, "VULNERABILITY_TYPE"]]}
+{"text": "Checkmarx SAST tool scanned 90 repositories identifying 14 critical SQL injection vulnerabilities", "entities": []}
+{"text": "Bug Bounty Platform received 42 reports with 28 valid findings and 20 patched", "entities": [[0, 19, "TOOL"]]}
+{"text": "Bug Bounty Manager triaged 42 reports with 28 valid findings integrated into remediation pipelines", "entities": [[0, 18, "ROLE"], [30, 37, "REPORT_TYPE"]]}
+{"text": "Application Security Posture Management ASPM platform aggregated SAST DAST SCA findings", "entities": [[0, 33, "TOOL"]]}
+{"text": "SAST Tool scanned 90 repositories finding 14 critical and 36 high severity vulnerabilities", "entities": []}
+{"text": "Application Security posture management platform tracked 150 applications with 85% secure", "entities": [[0, 25, "SECURITY_TYPE"]]}
+{"text": "Secure coding training completion reached 88% for all software developers", "entities": []}
+{"text": "Vulnerability Tracker managed bug bounty findings with 20 patched and 8 in remediation", "entities": [[0, 20, "TOOL"]]}
+{"text": "Burp Suite Enterprise DAST detected cross-site scripting in login endpoint", "entities": [[0, 19, "TOOL"]]}
+{"text": "Threat Dragon threat modeling tool created STRIDE analysis for billing-service application", "entities": [[0, 12, "TOOL"], [35, 41, "ANALYSIS_TYPE"], [45, 58, "SERVICE_NAME"]]}
+{"text": "Secure Coding Mentor reviewed 90 repositories providing contextual guidance for 83% remediation rate", "entities": [[0, 20, "ROLE"]]}
+{"text": "Application Security Strategist defined secure SDLC policy with 7-day SLA for critical vulnerabilities", "entities": []}
+{"text": "Jenkins CI/CD platform integrated SAST DAST and SCA scans in 70 pipelines", "entities": []}
+{"text": "Threat Dragon tool generated threat model for billing service identifying authentication bypass", "entities": [[0, 13, "TOOL"]]}
+{"text": "Open Policy Agent enforced policy-as-code blocking insecure container deployments", "entities": [[0, 17, "TOOL"], [27, 38, "POLICY_TYPE"]]}
+{"text": "Threat Modeling Tool performed STRIDE LINDDUN analysis mapping threats to MITRE ATT&CK", "entities": [[0, 20, "TOOL"]]}
+{"text": "Application Security Chaos Engineer ran fuzz tests on 25 applications discovering 4 unique bugs", "entities": [[0, 35, "ROLE"]]}
+{"text": "Open Source Risk Analyst audited 4800 dependencies for vulnerabilities and license risks", "entities": []}
+{"text": "Trivy container scanner detected 12 critical vulnerabilities in 210 Docker images", "entities": [[6, 15, "SCANNER_TYPE"], [54, 60, "CONTAINER_TYPE"]]}
+{"text": "Burp Suite Enterprise DAST detected cross-site scripting in login endpoint", "entities": [[0, 19, "TOOL"]]}
+{"text": "Contrast Security IAST detected runtime vulnerability in authentication flow", "entities": [[0, 15, "TOOL"]]}
+{"text": "tfsec Infrastructure as Code scanner found 12 misconfigurations in Terraform templates", "entities": []}
+{"text": "Compliance Mapping Tool validated AppSec controls against GDPR PCI DSS and SOC2", "entities": [[0, 17, "TOOL"]]}
+{"text": "Application Security Strategist defined secure SDLC policy with 7-day SLA for critical vulnerabilities", "entities": []}
+{"text": "Threat Dragon threat modeling tool created STRIDE analysis for billing-service application", "entities": [[0, 12, "TOOL"], [35, 41, "ANALYSIS_TYPE"], [45, 58, "SERVICE_NAME"]]}
+{"text": "Application Security Strategist defined secure SDLC policy with 7-day SLA for critical vulnerabilities", "entities": []}
+{"text": "OSS License Scanner identified GPL-3.0 and AGPL-3.0 license violations in CRM and ERP applications", "entities": [[43, 50, "VIOLATION_TYPE"]]}
+{"text": "API Security Gateway secured 135 APIs detecting 16 violations and blocking 14", "entities": [[0, 20, "TOOL"]]}
+{"text": "Threat Modeling Specialist performed STRIDE analysis identifying spoofing and tampering threats", "entities": [[53, 62, "THREAT_TYPE"]]}
+{"text": "Bug Bounty Manager triaged 42 reports with 28 valid findings integrated into remediation pipelines", "entities": [[0, 18, "ROLE"], [30, 37, "REPORT_TYPE"]]}
+{"text": "Application Security Auditor measured MTTR of 6 days for critical vulnerabilities", "entities": [[0, 28, "ROLE"]]}
+{"text": "Container Scanner detected 12 critical vulnerabilities in 210 container images requiring patching", "entities": [[0, 17, "TOOL"]]}
+{"text": "Fuzzing Tool discovered 8 crashes and 4 unique bugs in 25 tested applications", "entities": [[0, 12, "TOOL"]]}
+{"text": "Secure coding training completion reached 88% for all software developers", "entities": []}
+{"text": "Invicti DAST tool detected 36 high severity XSS and CSRF vulnerabilities", "entities": []}
+{"text": "API Discovery Tool mapped 18 shadow APIs and 15 zombie APIs requiring security controls", "entities": []}
+{"text": "Snyk Open Source SCA tool scanned 4800 dependencies finding 22 critical vulnerabilities", "entities": [[5, 16, "TOOL"], [43, 47, "COUNT"], [48, 59, "DEPENDENCY_TYPE"]]}
+{"text": "Runtime Application Security Engineer deployed WAF rules blocking 2500 OWASP Top 10 attacks", "entities": [[0, 37, "ROLE"]]}
+{"text": "Architecture Diagramming Tool created attack trees documenting spoofing and tampering mitigations", "entities": []}
+{"text": "API Discovery Tool mapped 18 shadow APIs and 15 zombie APIs requiring security controls", "entities": []}
+{"text": "ML Adversarial Testing Tool found 3 vulnerabilities in 4 AI models requiring mitigation", "entities": [[0, 27, "TOOL"], [36, 50, "VULNERABILITY_TYPE"]]}
+{"text": "Threat Modeling Specialist performed STRIDE analysis identifying spoofing and tampering threats", "entities": [[53, 62, "THREAT_TYPE"]]}
+{"text": "SAST scan found hardcoded secrets in repository github.com/org/service, branch main, commit e5f6g7h8. Source code file config.py requires immediate remediation.", "entities": [[16, 19, "SCAN_TYPE"]]}
+{"text": "Snyk Open Source SCA tool scanned 4800 dependencies finding 22 critical vulnerabilities", "entities": [[5, 16, "TOOL"], [43, 47, "COUNT"], [48, 59, "DEPENDENCY_TYPE"]]}
+{"text": "IriusRisk threat modeling platform mapped threats to MITRE ATT&CK framework", "entities": []}
+{"text": "Chaos Engineering Tool ran 12 experiments killing dependencies and injecting attacks", "entities": [[0, 22, "TOOL"], [30, 41, "EXPERIMENT_TYPE"], [50, 55, "DEPENDENCY_TYPE"]]}
+{"text": "Bug Bounty Platform received 42 reports with 28 valid findings and 20 patched", "entities": [[0, 19, "TOOL"]]}
+{"text": "Fuzzing Tool ran API protocol and binary fuzzing on 25 applications finding 8 crashes", "entities": [[0, 12, "TOOL"], [55, 66, "APPLICATION_TYPE"]]}
+{"text": "Container Scanner detected 12 critical vulnerabilities in 210 Docker container images", "entities": [[0, 17, "TOOL"]]}
+{"text": "Contrast Security IAST detected runtime vulnerability in authentication flow", "entities": [[0, 15, "TOOL"]]}
+{"text": "Checkmarx SAST tool scanned 90 repositories identifying 14 critical SQL injection vulnerabilities", "entities": []}
+{"text": "Evidence Packaging Tool compiled audit evidence for 150 applications meeting compliance requirements", "entities": [[56, 68, "APPLICATION_TYPE"]]}
+{"text": "Dependabot automated dependency updates patched 45 vulnerable packages", "entities": []}
+{"text": "WAF Tool blocked 2500 OWASP Top 10 attacks with 1.3% false positive rate", "entities": []}
+{"text": "OSS License Scanner identified GPL-3.0 and AGPL-3.0 license violations in CRM and ERP applications", "entities": [[43, 50, "VIOLATION_TYPE"]]}
+{"text": "Dependabot SCA tool created 45 pull requests for dependency updates", "entities": []}
+{"text": "SBOM Generator created software bill of materials for 12 vendor integrations", "entities": [[0, 13, "TOOL"]]}
+{"text": "Secrets Detection Tool found 48 hardcoded secrets in repositories requiring immediate revocation", "entities": []}
+{"text": "SonarLint IDE plugin flagged 23 code smells and security hotspots during development", "entities": [[14, 17, "PLUGIN_TYPE"]]}
+{"text": "RASP Tool detected 60 attacks in 20 monitored applications blocking 56 and missing 4", "entities": []}
+{"text": "Secure SDLC adoption reached 92% with security gates in all CI/CD pipelines", "entities": [[0, 6, "FRAMEWORK"], [7, 11, "FRAMEWORK"]]}
+{"text": "Burp Suite Enterprise DAST detected cross-site scripting in login endpoint", "entities": [[0, 19, "TOOL"]]}
+{"text": "API Discovery Tool mapped 18 shadow APIs and 15 zombie APIs requiring security controls", "entities": []}
+{"text": "Secrets Detection Tool found 48 hardcoded secrets in repositories requiring immediate revocation", "entities": []}
+{"text": "Dependabot automated dependency updates patched 45 vulnerable packages", "entities": []}
+{"text": "SAST scanner found SQL injection in source code file api/users.py. Repository github.com/company/app contains 12 critical findings.", "entities": [[0, 11, "TOOL"]]}
+{"text": "ML Adversarial Testing Tool found 3 vulnerabilities in 4 AI models requiring mitigation", "entities": [[0, 27, "TOOL"], [36, 50, "VULNERABILITY_TYPE"]]}
+{"text": "SIEM Tool integrated runtime security events from WAF RASP and API gateway", "entities": []}
+{"text": "WAF Tool blocked 2500 OWASP Top 10 attacks with 1.3% false positive rate", "entities": []}
+{"text": "AppSec Policy Generator created secure SDLC policy with bug bounty scope and SBOM requirements", "entities": []}
+{"text": "Code review: Repository github.com/company/app, branch feature/auth-fix, commit a1b2c3d4 contains SQL injection vulnerability. Source code analysis required.", "entities": []}
+{"text": "ML Adversarial Testing Tool found 3 vulnerabilities in 4 AI models requiring mitigation", "entities": [[0, 27, "TOOL"], [36, 50, "VULNERABILITY_TYPE"]]}
+{"text": "API Discovery Tool mapped 18 shadow APIs and 15 zombie APIs requiring security controls", "entities": []}
+{"text": "SBOM Exchange Tool validated accuracy and completeness of 7 vendor SBOMs", "entities": []}
+{"text": "Compliance Mapping Tool validated AppSec controls against GDPR PCI DSS and SOC2", "entities": [[0, 17, "TOOL"]]}
+{"text": "SCA Dependency Scanner detected 22 critical vulnerabilities in 4800 dependencies", "entities": [[5, 14, "SCANNER_TYPE"]]}
+{"text": "Secure Coding Lab Tool trained developers on OWASP Top 10 and secure coding practices", "entities": [[0, 22, "TOOL"], [31, 36, "ROLE_TYPE"]]}
+{"text": "CI/CD Security Plugin blocked 11 builds with critical vulnerabilities preventing production deployment", "entities": []}
+{"text": "Fuzzing Tool discovered 8 crashes and 4 unique bugs in 25 tested applications", "entities": [[0, 12, "TOOL"]]}
+{"text": "Can you help me with this?", "entities": []}
+{"text": "I need to check something.", "entities": []}
+{"text": "What is the status?", "entities": []}
+{"text": "How do I do this?", "entities": []}
+{"text": "Tell me more about it.", "entities": []}
+{"text": "Is this safe to use?", "entities": []}
+{"text": "Let me know if you need anything.", "entities": []}
+{"text": "Thanks for your help.", "entities": []}
+{"text": "I will get back to you.", "entities": []}
+{"text": "Please review this document.", "entities": []}
+{"text": "What should I do next?", "entities": []}
+{"text": "How does this work?", "entities": []}
+{"text": "Why is this happening?", "entities": []}
+{"text": "When will this be ready?", "entities": []}
+{"text": "Where can I find this?", "entities": []}
+{"text": "Who should I contact?", "entities": []}
+{"text": "Hey, what's up?", "entities": []}
+{"text": "That's interesting.", "entities": []}
+{"text": "I see what you mean.", "entities": []}
+{"text": "That makes sense.", "entities": []}
+{"text": "Got it, thanks.", "entities": []}
+{"text": "Follow the steps carefully.", "entities": []}
+{"text": "Make sure to save your work.", "entities": []}
+{"text": "Check the settings first.", "entities": []}
+{"text": "Review the documentation.", "entities": []}
+{"text": "Read the instructions.", "entities": []}
+{"text": "This is important.", "entities": []}
+{"text": "That looks good.", "entities": []}
+{"text": "Everything seems fine.", "entities": []}
+{"text": "Nothing to report.", "entities": []}
+{"text": "All systems operational.", "entities": []}
+{"text": "The system is secure.", "entities": []}
+{"text": "All checks passed.", "entities": []}
+{"text": "No issues detected.", "entities": []}
+{"text": "Everything is working correctly.", "entities": []}
+{"text": "The configuration looks good.", "entities": []}
+{"text": "No vulnerabilities found.", "entities": []}
+{"text": "Security measures are in place.", "entities": []}
+{"text": "The audit was successful.", "entities": []}
+{"text": "The information is verified.", "entities": []}
+{"text": "Sources are reliable.", "entities": []}
+{"text": "The data is consistent.", "entities": []}

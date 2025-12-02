@@ -1,0 +1,440 @@
+{"text": "Endpoint lifecycle management tracked 1500 devices with 50 pending updates", "entities": [[0, 8, "ENDPOINT_TYPE"], [9, 18, "LIFECYCLE_TYPE"], [19, 28, "MANAGEMENT_TYPE"]]}
+{"text": "DLP Agent blocked 5 SSN exfiltration attempts with 1 false positive requiring tuning", "entities": []}
+{"text": "Microsoft Defender for Endpoint MDE detected ransomware on 3 workstations", "entities": []}
+{"text": "Microsoft Intune mobile device management enforced policies on 800 devices", "entities": []}
+{"text": "Endpoint Security Strategist defined endpoint security policy with mandatory EDR and 7-day patch SLA", "entities": [[0, 28, "ROLE"]]}
+{"text": "Mobile Device Management Tool enforced encryption and MFA on 800 devices blocking 23 non-compliant", "entities": [[0, 25, "TOOL"], [41, 48, "MANAGEMENT_TYPE"]]}
+{"text": "Insider Risk Playbook Tool detected abnormal file access on 3 endpoints", "entities": [[0, 22, "TOOL"]]}
+{"text": "Endpoint threat hunting conducted 5 hunts finding Mimikatz on server12", "entities": [[0, 8, "ENDPOINT_TYPE"], [16, 22, "HUNTING_TYPE"]]}
+{"text": "Endpoint Deception Tool deployed 5000 decoy files detecting decoy.doc opened on laptop42", "entities": []}
+{"text": "Endpoint monitoring visibility achieved 98% coverage across all devices", "entities": [[0, 8, "ENDPOINT_TYPE"], [9, 19, "MONITORING_TYPE"], [20, 30, "VISIBILITY_TYPE"]]}
+{"text": "EDR Specialist monitored 300 alerts with 12 critical ransomware incidents", "entities": [[0, 13, "ROLE"], [29, 32, "COUNT"]]}
+{"text": "IoT endpoint security scan found 20 vulnerable devices requiring patching", "entities": [[0, 3, "DEVICE_TYPE"], [4, 12, "ENDPOINT_TYPE"], [34, 36, "COUNT"], [37, 47, "VULNERABILITY_TYPE"], [38, 47, "DEVICE_TYPE"], [56, 64, "PATCHING_TYPE"]]}
+{"text": "SentinelOne Singularity autonomous EDR detected 45 malware samples", "entities": []}
+{"text": "OSQuery endpoint telemetry queried 1200 devices for compliance status", "entities": [[8, 17, "ENDPOINT_TYPE"], [18, 27, "TELEMETRY_TYPE"], [35, 39, "COUNT"], [40, 47, "DEVICE_TYPE"], [52, 66, "COMPLIANCE_TYPE"]]}
+{"text": "EDR detection rate reached 99% with 300 alerts processed daily", "entities": [[50, 56, "ALERT_TYPE"]]}
+{"text": "Endpoint security updates deployed to 1450 devices with 50 pending", "entities": [[0, 8, "ENDPOINT_TYPE"], [18, 24, "UPDATE_TYPE"]]}
+{"text": "OSQuery endpoint telemetry queried 1200 devices for compliance status", "entities": [[8, 17, "ENDPOINT_TYPE"], [18, 27, "TELEMETRY_TYPE"], [35, 39, "COUNT"], [40, 47, "DEVICE_TYPE"], [52, 66, "COMPLIANCE_TYPE"]]}
+{"text": "Isolation workspace provided 50 isolated users with 200 sessions", "entities": []}
+{"text": "IoT endpoint security coverage reached 92% with automated patching enabled", "entities": []}
+{"text": "Endpoint Risk Scoring Tool calculated risk score of 85 for 50 endpoints", "entities": [[0, 7, "ENDPOINT_TYPE"], [8, 12, "RISK_TYPE"], [13, 20, "SCORING_TYPE"]]}
+{"text": "DLP Agent blocked 5 SSN exfiltration attempts with 1 false positive requiring tuning", "entities": []}
+{"text": "Compliance Framework Tool mapped endpoint controls to CIS NIST ISO 27001", "entities": [[0, 18, "TOOL"]]}
+{"text": "DLP violation rate reduced to 2% with 5 blocked exfiltration attempts", "entities": []}
+{"text": "FleetDM endpoint visibility managed OSQuery across 1200 devices", "entities": []}
+{"text": "Kolide endpoint compliance enforced OSQuery policies on 800 endpoints", "entities": [[7, 15, "ENDPOINT_TYPE"]]}
+{"text": "Endpoint security control coverage achieved 98% with 1500 devices protected", "entities": [[0, 8, "ENDPOINT_TYPE"], [26, 33, "COVERAGE_TYPE"], [58, 65, "DEVICE_TYPE"], [66, 75, "PROTECTED_TYPE"]]}
+{"text": "Wazuh endpoint security monitored 1500 endpoints with real-time threat detection", "entities": [[6, 15, "ENDPOINT_TYPE"], [34, 37, "COUNT"], [38, 47, "ENDPOINT_TYPE"], [71, 80, "DETECTION_TYPE"]]}
+{"text": "Application control compliance achieved 97% blocking 12 unauthorized apps", "entities": [[0, 10, "APPLICATION_TYPE"], [57, 65, "APPLICATION_TYPE"]]}
+{"text": "Sophos Intercept X next-gen AV EDR blocked 230 malware attempts", "entities": []}
+{"text": "Carbon Black VMware endpoint security detected 12 suspicious processes", "entities": [[0, 12, "TOOL"], [20, 27, "ENDPOINT_TYPE"]]}
+{"text": "Symantec DLP data loss prevention blocked 5 exfiltration attempts", "entities": [[18, 22, "LOSS_TYPE"], [23, 33, "PREVENTION_TYPE"]]}
+{"text": "Endpoint threat hunting identified Mimikatz on server12 requiring immediate containment", "entities": [[0, 18, "ENDPOINT_TYPE"], [26, 32, "HUNTING_TYPE"], [77, 87, "CONTAINMENT_TYPE"]]}
+{"text": "ClamAV open-source antivirus scanned 1500 endpoints detecting 12 threats", "entities": [[7, 18, "TOOL"], [47, 51, "COUNT"], [52, 61, "ENDPOINT_TYPE"]]}
+{"text": "Falco runtime security monitored containers and Linux endpoints", "entities": [[6, 13, "TIME_TYPE"]]}
+{"text": "Endpoint security maturity improved to level 4 with enhanced controls", "entities": [[0, 8, "ENDPOINT_TYPE"], [18, 25, "MATURITY_TYPE"]]}
+{"text": "Hardening Baseline Tool checked 1200 devices with 1150 compliant and 50 violations", "entities": []}
+{"text": "Insider risk detection flagged employee123 for large file transfers at 2AM", "entities": [[0, 6, "RISK_TYPE"], [7, 11, "RISK_TYPE"], [12, 20, "DETECTION_TYPE"]]}
+{"text": "Ransomware resilience achieved 99% with automated EDR response", "entities": [[0, 11, "THREAT_TYPE"], [12, 22, "RESILIENCE_TYPE"], [43, 53, "AUTOMATION_TYPE"]]}
+{"text": "Endpoint Configuration Manager detected USB autorun enabled on 3 laptops requiring remediation", "entities": [[0, 28, "TOOL"]]}
+{"text": "Application allowlisting enforced on 800 devices blocking 12 unauthorized apps", "entities": [[0, 10, "APPLICATION_TYPE"], [11, 24, "ALLOWLISTING_TYPE"], [38, 45, "DEVICE_TYPE"], [57, 69, "APPLICATION_TYPE"]]}
+{"text": "Ransomware resilience achieved 99% with automated EDR response", "entities": [[0, 11, "THREAT_TYPE"], [12, 22, "RESILIENCE_TYPE"], [43, 53, "AUTOMATION_TYPE"]]}
+{"text": "Insider risk alerts decreased to 5 with 1 escalated case", "entities": [[0, 6, "RISK_TYPE"], [7, 11, "RISK_TYPE"], [12, 17, "ALERT_TYPE"]]}
+{"text": "Mobile Device Management Tool enforced encryption and MFA on 800 devices blocking 23 non-compliant", "entities": [[0, 25, "TOOL"], [41, 48, "MANAGEMENT_TYPE"]]}
+{"text": "Insider Risk Analytics Tool flagged employee123 for large file transfers at 2AM", "entities": [[0, 27, "TOOL"], [36, 42, "RISK_TYPE"]]}
+{"text": "FileVault Apple disk encryption protected 400 Mac endpoints", "entities": [[15, 20, "DISK_TYPE"]]}
+{"text": "Endpoint security false positive rate reduced to 1.8% improving alert accuracy", "entities": [[0, 18, "ENDPOINT_TYPE"]]}
+{"text": "Endpoint security control coverage achieved 98% with 1500 devices protected", "entities": [[0, 8, "ENDPOINT_TYPE"], [26, 33, "COVERAGE_TYPE"], [58, 65, "DEVICE_TYPE"], [66, 75, "PROTECTED_TYPE"]]}
+{"text": "Autopsy Sleuth Kit forensic analysis examined disk images from 2 endpoints", "entities": []}
+{"text": "VMware Workspace ONE unified endpoint management managed 1500 endpoints", "entities": [[7, 20, "TOOL"], [38, 46, "ENDPOINT_TYPE"]]}
+{"text": "Endpoint threat hunting identified Mimikatz on server12 requiring immediate containment", "entities": [[0, 18, "ENDPOINT_TYPE"], [26, 32, "HUNTING_TYPE"], [77, 87, "CONTAINMENT_TYPE"]]}
+{"text": "CISO approved endpoint security strategy with EDR XDR and DLP requirements", "entities": [[0, 4, "ROLE"]]}
+{"text": "TheHive Cortex incident investigation automated endpoint case analysis", "entities": [[26, 38, "INVESTIGATION_TYPE"], [47, 56, "AUTOMATION_TYPE"]]}
+{"text": "Endpoint Compliance Analyst validated CIS benchmarks with 96% compliance rate", "entities": [[0, 26, "ROLE"]]}
+{"text": "Patch Management Tool patched 1450 of 1500 devices with 50 overdue requiring attention", "entities": []}
+{"text": "PAM usage increased to 30 sessions per day with zero privilege escalation incidents", "entities": []}
+{"text": "OSQuery open source endpoint agent collected telemetry from 2000 Linux servers", "entities": [[21, 26, "AGENT_TYPE"], [35, 45, "TELEMETRY_TYPE"], [50, 54, "COUNT"]]}
+{"text": "Isolation workspace provided 50 isolated users with 200 sessions", "entities": []}
+{"text": "Insider Risk Analytics Tool flagged employee123 for large file transfers at 2AM", "entities": [[0, 27, "TOOL"], [36, 42, "RISK_TYPE"]]}
+{"text": "Wazuh endpoint monitoring detected malware on 5 endpoints", "entities": [[6, 15, "ENDPOINT_TYPE"], [16, 25, "MONITORING_TYPE"], [34, 42, "MALWARE_TYPE"], [46, 47, "COUNT"], [48, 57, "ENDPOINT_TYPE"]]}
+{"text": "Endpoint Security Engineer configured CrowdStrike Falcon EDR with 98% coverage", "entities": [[0, 24, "ROLE"], [33, 45, "TOOL"], [69, 77, "COVERAGE_TYPE"]]}
+{"text": "Endpoint lifecycle management tracked 1500 devices with 50 pending updates", "entities": [[0, 8, "ENDPOINT_TYPE"], [9, 18, "LIFECYCLE_TYPE"], [19, 28, "MANAGEMENT_TYPE"]]}
+{"text": "Endpoint audit score improved to 90% with 2 findings requiring remediation", "entities": [[0, 8, "ENDPOINT_TYPE"]]}
+{"text": "FleetDM endpoint visibility managed OSQuery across 1200 devices", "entities": []}
+{"text": "EDR XDR Tool detected 300 alerts with 12 critical ransomware incidents escalated", "entities": []}
+{"text": "Head of Endpoint Security reviewed patch compliance with 1450 of 1500 devices patched", "entities": []}
+{"text": "Wazuh endpoint security monitored 1500 endpoints with real-time threat detection", "entities": [[6, 15, "ENDPOINT_TYPE"], [34, 37, "COUNT"], [38, 47, "ENDPOINT_TYPE"], [71, 80, "DETECTION_TYPE"]]}
+{"text": "MobileIron mobile device management blocked 23 rooted devices", "entities": [[10, 25, "TOOL"], [26, 32, "MOBILE_TYPE"]]}
+{"text": "MDM enrollment rate reached 95% with 800 devices managed", "entities": []}
+{"text": "Velociraptor digital forensics collected memory dumps from 3 compromised endpoints", "entities": [[0, 12, "TOOL"], [13, 30, "FORENSICS_TYPE"], [31, 40, "FORENSICS_TYPE"]]}
+{"text": "EPP XDR integration achieved 98% coverage with 12000 events ingested and 98% correlation", "entities": []}
+{"text": "Mobile device encryption validated on 800 devices with 23 non-compliant", "entities": [[0, 6, "MOBILE_TYPE"], [7, 14, "DEVICE_TYPE"], [38, 45, "DEVICE_TYPE"]]}
+{"text": "SentinelOne Singularity autonomous EDR detected 45 malware samples", "entities": []}
+{"text": "Application control compliance achieved 97% blocking 12 unauthorized apps", "entities": [[0, 10, "APPLICATION_TYPE"], [57, 65, "APPLICATION_TYPE"]]}
+{"text": "Isolation Workspace Tool provided 200 isolated sessions for 50 high-risk users", "entities": []}
+{"text": "DLP violation rate reduced to 2% with 5 blocked exfiltration attempts", "entities": []}
+{"text": "Carbon Black VMware endpoint security detected 12 suspicious processes", "entities": [[0, 12, "TOOL"], [20, 27, "ENDPOINT_TYPE"]]}
+{"text": "FleetDM endpoint visibility managed OSQuery across 1200 devices", "entities": []}
+{"text": "Incident Responder investigated endpoint breach affecting 3 workstations", "entities": [[0, 18, "ROLE"], [48, 54, "BREACH_TYPE"]]}
+{"text": "BYOD policy enforcement required encryption and MFA on 200 devices", "entities": [[0, 4, "POLICY_TYPE"], [5, 8, "POLICY_TYPE"], [9, 19, "ENFORCEMENT_TYPE"]]}
+{"text": "PAM usage increased to 30 sessions per day with zero privilege escalation incidents", "entities": []}
+{"text": "SentinelOne endpoint protection detected and blocked 25 ransomware attacks", "entities": [[11, 20, "ENDPOINT_TYPE"], [21, 30, "PROTECTION_TYPE"]]}
+{"text": "EDR detection rate reached 99% with automated response blocking 85% of threats", "entities": [[71, 78, "THREAT_TYPE"]]}
+{"text": "ISO 27001 information security management enforced endpoint controls", "entities": [[4, 9, "FRAMEWORK"], [10, 21, "INFORMATION_TYPE"]]}
+{"text": "Insider risk alerts decreased to 5 per quarter with enhanced behavioral analytics", "entities": [[0, 12, "RISK_TYPE"], [13, 18, "ALERT_TYPE"], [52, 60, "ANALYTICS_TYPE"]]}
+{"text": "Microsoft Intune mobile device management enforced policies on 800 devices", "entities": []}
+{"text": "Mobile Security Specialist enforced MDM policies on 800 mobile devices", "entities": [[0, 25, "ROLE"]]}
+{"text": "CrowdStrike Falcon EDR platform protected 5000 endpoints with 99% detection rate", "entities": [[0, 11, "TOOL"]]}
+{"text": "EDR XDR Tool detected 300 alerts with 12 critical ransomware incidents escalated", "entities": []}
+{"text": "FileVault Apple disk encryption protected 400 Mac endpoints", "entities": [[15, 20, "DISK_TYPE"]]}
+{"text": "Wazuh endpoint monitoring detected malware on 5 endpoints", "entities": [[6, 15, "ENDPOINT_TYPE"], [16, 25, "MONITORING_TYPE"], [34, 42, "MALWARE_TYPE"], [46, 47, "COUNT"], [48, 57, "ENDPOINT_TYPE"]]}
+{"text": "CrowdStrike Falcon EDR platform protected 5000 endpoints with 99% detection rate", "entities": [[0, 11, "TOOL"]]}
+{"text": "Wazuh endpoint security monitored 1500 endpoints with real-time threat detection", "entities": [[6, 15, "ENDPOINT_TYPE"], [34, 37, "COUNT"], [38, 47, "ENDPOINT_TYPE"], [71, 80, "DETECTION_TYPE"]]}
+{"text": "EDR detection rate reached 99% with automated response blocking 85% of threats", "entities": [[71, 78, "THREAT_TYPE"]]}
+{"text": "PAM usage increased to 30 sessions with 12 blocked admin attempts", "entities": []}
+{"text": "ClamAV open-source antivirus scanned 1500 endpoints detecting 12 threats", "entities": [[7, 18, "TOOL"], [47, 51, "COUNT"], [52, 61, "ENDPOINT_TYPE"]]}
+{"text": "CIS hardening baseline validated 1150 of 1200 devices with 50 violations", "entities": [[0, 3, "FRAMEWORK"], [4, 13, "HARDENING_TYPE"], [14, 21, "BASELINE_TYPE"]]}
+{"text": "Endpoint security control coverage achieved 98% with 1500 devices protected", "entities": [[0, 8, "ENDPOINT_TYPE"], [26, 33, "COVERAGE_TYPE"], [58, 65, "DEVICE_TYPE"], [66, 75, "PROTECTED_TYPE"]]}
+{"text": "Head of Endpoint Security reviewed patch compliance with 1450 of 1500 devices patched", "entities": []}
+{"text": "CISO approved endpoint security strategy with EDR XDR and DLP requirements", "entities": [[0, 4, "ROLE"]]}
+{"text": "MobileIron mobile device management blocked 23 rooted devices", "entities": [[10, 25, "TOOL"], [26, 32, "MOBILE_TYPE"]]}
+{"text": "SentinelOne endpoint protection detected and blocked 25 ransomware attacks", "entities": [[11, 20, "ENDPOINT_TYPE"], [21, 30, "PROTECTION_TYPE"]]}
+{"text": "SentinelOne Singularity autonomous EDR detected 45 malware samples", "entities": []}
+{"text": "IoT OT Endpoint Security Tool validated 380 of 400 devices patched with 20 vulnerable", "entities": [[7, 15, "ENDPOINT_TYPE"], [48, 55, "DEVICE_TYPE"]]}
+{"text": "Device Management Specialist managed 1500 endpoints with 50 requiring attention", "entities": [[0, 28, "ROLE"]]}
+{"text": "Endpoint audit score improved to 90% with 2 findings requiring remediation", "entities": [[0, 8, "ENDPOINT_TYPE"]]}
+{"text": "PCI DSS payment card industry security validated endpoint systems", "entities": [[0, 3, "FRAMEWORK"], [4, 7, "FRAMEWORK"]]}
+{"text": "CIS hardening baseline validated 1150 of 1200 devices with 50 violations", "entities": [[0, 3, "FRAMEWORK"], [4, 13, "HARDENING_TYPE"], [14, 21, "BASELINE_TYPE"]]}
+{"text": "Mobile Device Management Tool enforced encryption and MFA on 800 devices blocking 23 non-compliant", "entities": [[0, 25, "TOOL"], [41, 48, "MANAGEMENT_TYPE"]]}
+{"text": "Citrix Endpoint Management mobile device management enrolled 600 devices", "entities": [[26, 32, "MOBILE_TYPE"], [33, 40, "DEVICE_TYPE"], [41, 50, "MANAGEMENT_TYPE"]]}
+{"text": "BYOD policy enforcement required encryption and MFA on 200 devices", "entities": [[0, 4, "POLICY_TYPE"], [5, 8, "POLICY_TYPE"], [9, 19, "ENFORCEMENT_TYPE"]]}
+{"text": "Endpoint security audit score improved to 90% with 15 unpatched laptops remediated", "entities": [[0, 18, "ENDPOINT_TYPE"], [29, 34, "AUDIT_TYPE"]]}
+{"text": "ClamAV open-source antivirus scanned 1500 endpoints detecting 12 threats", "entities": [[7, 18, "TOOL"], [47, 51, "COUNT"], [52, 61, "ENDPOINT_TYPE"]]}
+{"text": "Microsoft DLP data loss prevention detected SSN exfiltration attempt", "entities": [[18, 22, "LOSS_TYPE"], [23, 33, "PREVENTION_TYPE"]]}
+{"text": "IoT OT Endpoint Security Tool validated 380 of 400 devices patched with 20 vulnerable", "entities": [[7, 15, "ENDPOINT_TYPE"], [48, 55, "DEVICE_TYPE"]]}
+{"text": "ISO 27001 information security management enforced endpoint controls", "entities": [[4, 9, "FRAMEWORK"], [10, 21, "INFORMATION_TYPE"]]}
+{"text": "Endpoint Security Tester executed penetration test finding 8 critical vulnerabilities", "entities": [[0, 23, "ROLE"], [78, 85, "TEST_TYPE"]]}
+{"text": "Application Control Tool blocked malware.exe and shadowIT_tool on 800 devices", "entities": []}
+{"text": "VMware Workspace ONE unified endpoint management managed 1500 endpoints", "entities": [[7, 20, "TOOL"], [38, 46, "ENDPOINT_TYPE"]]}
+{"text": "Falco runtime security monitored containers and Linux endpoints", "entities": [[6, 13, "TIME_TYPE"]]}
+{"text": "Endpoint Deception Tool deployed 5000 decoy files detecting decoy.doc opened on laptop42", "entities": []}
+{"text": "VeraCrypt open source disk encryption encrypted 200 Linux servers", "entities": []}
+{"text": "Endpoint Configuration Manager detected drift on laptop42 requiring baseline rollback", "entities": [[0, 28, "TOOL"]]}
+{"text": "EDR detection rate reached 99% with 300 alerts processed daily", "entities": [[50, 56, "ALERT_TYPE"]]}
+{"text": "Velociraptor digital forensics collected memory dumps from 3 compromised endpoints", "entities": [[0, 12, "TOOL"], [13, 30, "FORENSICS_TYPE"], [31, 40, "FORENSICS_TYPE"]]}
+{"text": "Endpoint Deception Tool deployed 5000 decoy files detecting decoy.doc opened on laptop42", "entities": []}
+{"text": "Insider risk alerts decreased to 5 per quarter with enhanced behavioral analytics", "entities": [[0, 12, "RISK_TYPE"], [13, 18, "ALERT_TYPE"], [52, 60, "ANALYTICS_TYPE"]]}
+{"text": "Endpoint Security Strategist defined endpoint security policy with mandatory EDR and 7-day patch SLA", "entities": [[0, 28, "ROLE"]]}
+{"text": "Hardening Baseline Tool checked 1200 devices with 1150 compliant and 50 violations", "entities": []}
+{"text": "VMware Workspace ONE unified endpoint management managed 1500 endpoints", "entities": [[7, 20, "TOOL"], [38, 46, "ENDPOINT_TYPE"]]}
+{"text": "DLP violations reduced to 12 per month with improved policy tuning", "entities": [[45, 51, "TUNING_TYPE"]]}
+{"text": "Velociraptor digital forensics collected memory dumps from 3 compromised endpoints", "entities": [[0, 12, "TOOL"], [13, 30, "FORENSICS_TYPE"], [31, 40, "FORENSICS_TYPE"]]}
+{"text": "PAM usage increased to 30 sessions with 12 blocked admin attempts", "entities": []}
+{"text": "Patch compliance improved to 97% with 1450 of 1500 devices patched", "entities": [[0, 5, "PATCH_TYPE"]]}
+{"text": "PCI DSS payment card industry security validated endpoint systems", "entities": [[0, 3, "FRAMEWORK"], [4, 7, "FRAMEWORK"]]}
+{"text": "DLP violation rate reduced to 2% with 5 blocked exfiltration attempts", "entities": []}
+{"text": "Mobile device encryption validated on 800 devices with 23 non-compliant", "entities": [[0, 6, "MOBILE_TYPE"], [7, 14, "DEVICE_TYPE"], [38, 45, "DEVICE_TYPE"]]}
+{"text": "Kolide endpoint compliance enforced OSQuery policies on 800 endpoints", "entities": [[7, 15, "ENDPOINT_TYPE"]]}
+{"text": "EDR Specialist monitored 300 alerts with 12 critical ransomware incidents", "entities": [[0, 13, "ROLE"], [29, 32, "COUNT"]]}
+{"text": "Endpoint security KPI dashboard showed 97% patch compliance and 99% EDR rate", "entities": [[0, 8, "ENDPOINT_TYPE"], [22, 30, "DASHBOARD_TYPE"]]}
+{"text": "NIST SP 800-53 security controls validated endpoint information systems", "entities": [[0, 4, "FRAMEWORK"]]}
+{"text": "Forcepoint DLP data loss prevention monitored USB transfers", "entities": [[20, 24, "LOSS_TYPE"], [25, 35, "PREVENTION_TYPE"]]}
+{"text": "Endpoint deception deployment detected 3 decoy file access events", "entities": [[0, 8, "ENDPOINT_TYPE"], [9, 19, "DECEPTION_TYPE"], [20, 30, "DEPLOYMENT_TYPE"], [39, 40, "COUNT"], [41, 46, "DECOY_TYPE"], [47, 51, "FILE_TYPE"], [58, 64, "EVENT_TYPE"]]}
+{"text": "TheHive Cortex incident investigation automated endpoint case analysis", "entities": [[26, 38, "INVESTIGATION_TYPE"], [47, 56, "AUTOMATION_TYPE"]]}
+{"text": "Endpoint security control coverage achieved 98% with 1500 devices protected", "entities": [[0, 8, "ENDPOINT_TYPE"], [26, 33, "COVERAGE_TYPE"], [58, 65, "DEVICE_TYPE"], [66, 75, "PROTECTED_TYPE"]]}
+{"text": "Endpoint security KPI dashboard showed 97% patch compliance and 99% EDR rate", "entities": [[0, 8, "ENDPOINT_TYPE"], [22, 30, "DASHBOARD_TYPE"]]}
+{"text": "Endpoint security updates deployed to 1450 devices with 50 pending", "entities": [[0, 8, "ENDPOINT_TYPE"], [18, 24, "UPDATE_TYPE"]]}
+{"text": "Wazuh endpoint monitoring detected malware on 5 endpoints", "entities": [[6, 15, "ENDPOINT_TYPE"], [16, 25, "MONITORING_TYPE"], [34, 42, "MALWARE_TYPE"], [46, 47, "COUNT"], [48, 57, "ENDPOINT_TYPE"]]}
+{"text": "Isolation workspace provided 50 isolated users with 200 sessions", "entities": []}
+{"text": "Insider risk detection flagged employee123 for large file transfers at 2AM", "entities": [[0, 6, "RISK_TYPE"], [7, 11, "RISK_TYPE"], [12, 20, "DETECTION_TYPE"]]}
+{"text": "Mobile device encryption validated on 800 devices with 23 non-compliant", "entities": [[0, 6, "MOBILE_TYPE"], [7, 14, "DEVICE_TYPE"], [38, 45, "DEVICE_TYPE"]]}
+{"text": "Falco runtime security monitored containers and Linux endpoints", "entities": [[6, 13, "TIME_TYPE"]]}
+{"text": "Endpoint Configuration Manager detected drift on laptop42 requiring baseline rollback", "entities": [[0, 28, "TOOL"]]}
+{"text": "PAM usage increased to 30 sessions per day with zero privilege escalation incidents", "entities": []}
+{"text": "Forcepoint DLP data loss prevention monitored USB transfers", "entities": [[20, 24, "LOSS_TYPE"], [25, 35, "PREVENTION_TYPE"]]}
+{"text": "ClamAV open-source antivirus scanned 1500 endpoints detecting 12 threats", "entities": [[7, 18, "TOOL"], [47, 51, "COUNT"], [52, 61, "ENDPOINT_TYPE"]]}
+{"text": "Endpoint Risk Scoring Tool calculated risk score of 85 for 50 endpoints", "entities": [[0, 7, "ENDPOINT_TYPE"], [8, 12, "RISK_TYPE"], [13, 20, "SCORING_TYPE"]]}
+{"text": "Application allowlisting enforced on 800 devices blocking 12 unauthorized apps", "entities": [[0, 10, "APPLICATION_TYPE"], [11, 24, "ALLOWLISTING_TYPE"], [38, 45, "DEVICE_TYPE"], [57, 69, "APPLICATION_TYPE"]]}
+{"text": "Application Control Tool blocked malware.exe and shadowIT_tool on 800 devices", "entities": []}
+{"text": "Endpoint security training completion reached 91% for all endpoint engineers", "entities": [[0, 18, "ENDPOINT_TYPE"], [38, 47, "COMPLETION_TYPE"]]}
+{"text": "Endpoint Encryption Specialist validated BitLocker encryption on 1200 laptops", "entities": [[0, 30, "ROLE"]]}
+{"text": "Endpoint security maturity improved to level 4 with enhanced controls", "entities": [[0, 8, "ENDPOINT_TYPE"], [18, 25, "MATURITY_TYPE"]]}
+{"text": "Endpoint Risk Scoring Tool calculated risk score of 85 for 50 endpoints", "entities": [[0, 7, "ENDPOINT_TYPE"], [8, 12, "RISK_TYPE"], [13, 20, "SCORING_TYPE"]]}
+{"text": "Endpoint configuration drift detected on 3 devices requiring rollback", "entities": [[0, 8, "ENDPOINT_TYPE"], [23, 28, "DRIFT_TYPE"]]}
+{"text": "Symantec DLP data loss prevention blocked 5 exfiltration attempts", "entities": [[18, 22, "LOSS_TYPE"], [23, 33, "PREVENTION_TYPE"]]}
+{"text": "Endpoint configuration drift detected on 3 devices requiring rollback", "entities": [[0, 8, "ENDPOINT_TYPE"], [23, 28, "DRIFT_TYPE"]]}
+{"text": "Application Control Tool blocked malware.exe and shadowIT_tool on 800 devices", "entities": []}
+{"text": "EDR detection rate reached 99% with automated response blocking 85% of threats", "entities": [[71, 78, "THREAT_TYPE"]]}
+{"text": "PAM usage increased to 30 sessions with 12 blocked admin attempts", "entities": []}
+{"text": "Insider risk alerts decreased to 5 per quarter with enhanced behavioral analytics", "entities": [[0, 12, "RISK_TYPE"], [13, 18, "ALERT_TYPE"], [52, 60, "ANALYTICS_TYPE"]]}
+{"text": "Patch compliance improved to 97% with 1450 of 1500 devices patched", "entities": [[0, 5, "PATCH_TYPE"]]}
+{"text": "Endpoint patch compliance achieved 97% with zero critical vulnerabilities unpatched", "entities": [[61, 73, "VULNERABILITY_TYPE"], [74, 83, "PATCH_STATUS"]]}
+{"text": "Microsoft Intune mobile device management enforced policies on 800 devices", "entities": []}
+{"text": "Insider Risk Playbook Tool detected abnormal file access on 3 endpoints", "entities": [[0, 22, "TOOL"]]}
+{"text": "Incident Responder investigated endpoint breach affecting 3 workstations", "entities": [[0, 18, "ROLE"], [48, 54, "BREACH_TYPE"]]}
+{"text": "CIS hardening baseline validated 1150 of 1200 devices with 50 violations", "entities": [[0, 3, "FRAMEWORK"], [4, 13, "HARDENING_TYPE"], [14, 21, "BASELINE_TYPE"]]}
+{"text": "Isolation Workspace Tool provided 200 isolated sessions for 50 high-risk users", "entities": []}
+{"text": "FleetDM endpoint visibility managed OSQuery across 1200 devices", "entities": []}
+{"text": "Endpoint lifecycle management tracked 1500 devices with 50 pending updates", "entities": [[0, 8, "ENDPOINT_TYPE"], [9, 18, "LIFECYCLE_TYPE"], [19, 28, "MANAGEMENT_TYPE"]]}
+{"text": "EDR detection rate reached 99% with 300 alerts processed daily", "entities": [[50, 56, "ALERT_TYPE"]]}
+{"text": "Endpoint Security Policy Generator created policy requiring PAM and DLP monitoring", "entities": [[0, 32, "TOOL"], [51, 58, "POLICY_TYPE"]]}
+{"text": "Mobile Security Specialist enforced MDM policies on 800 mobile devices", "entities": [[0, 25, "ROLE"]]}
+{"text": "Endpoint security maturity improved to level 4 with enhanced controls", "entities": [[0, 8, "ENDPOINT_TYPE"], [18, 25, "MATURITY_TYPE"]]}
+{"text": "Microsoft DLP data loss prevention detected SSN exfiltration attempt", "entities": [[18, 22, "LOSS_TYPE"], [23, 33, "PREVENTION_TYPE"]]}
+{"text": "PAM Agent Tool managed 600 devices with 30 JIT sessions and 12 blocked admin accounts", "entities": []}
+{"text": "Endpoint Security Policy Generator created policy requiring PAM and DLP monitoring", "entities": [[0, 32, "TOOL"], [51, 58, "POLICY_TYPE"]]}
+{"text": "Compliance Framework Tool mapped endpoint controls to CIS NIST ISO 27001", "entities": [[0, 18, "TOOL"]]}
+{"text": "Application control compliance achieved 97% blocking 12 unauthorized apps", "entities": [[0, 10, "APPLICATION_TYPE"], [57, 65, "APPLICATION_TYPE"]]}
+{"text": "Principal Endpoint Security Architect designed EPP EDR XDR integration architecture", "entities": []}
+{"text": "Insider risk detection flagged employee123 for large file transfers at 2AM", "entities": [[0, 6, "RISK_TYPE"], [7, 11, "RISK_TYPE"], [12, 20, "DETECTION_TYPE"]]}
+{"text": "Endpoint Security Strategist defined endpoint security policy with mandatory EDR and 7-day patch SLA", "entities": [[0, 28, "ROLE"]]}
+{"text": "PAM Agent Tool managed 600 devices with 30 JIT sessions and 12 blocked admin accounts", "entities": []}
+{"text": "MDM enrollment rate reached 95% with 800 devices managed", "entities": []}
+{"text": "Data exfiltration prevention blocked 5 USB transfer attempts", "entities": [[5, 18, "EXFILTRATION_TYPE"]]}
+{"text": "VeraCrypt open source disk encryption encrypted 200 Linux servers", "entities": []}
+{"text": "BYOD policy enforcement required encryption and MFA on 200 devices", "entities": [[0, 4, "POLICY_TYPE"], [5, 8, "POLICY_TYPE"], [9, 19, "ENFORCEMENT_TYPE"]]}
+{"text": "Mobile Device Management Tool enforced encryption and MFA on 800 devices blocking 23 non-compliant", "entities": [[0, 25, "TOOL"], [41, 48, "MANAGEMENT_TYPE"]]}
+{"text": "EPP XDR integration achieved 98% coverage with 12000 events ingested and 98% correlation", "entities": []}
+{"text": "Endpoint Configuration Manager detected drift on laptop42 requiring baseline rollback", "entities": [[0, 28, "TOOL"]]}
+{"text": "Endpoint Configuration Manager detected drift on laptop42 requiring baseline rollback", "entities": [[0, 28, "TOOL"]]}
+{"text": "Mobile Security Specialist enforced MDM policies on 800 mobile devices", "entities": [[0, 25, "ROLE"]]}
+{"text": "IoT OT endpoint security coverage reached 92% with 380 of 400 devices patched", "entities": [[0, 3, "DEVICE_TYPE"], [4, 6, "DEVICE_TYPE"], [7, 15, "ENDPOINT_TYPE"], [25, 32, "COVERAGE_TYPE"], [52, 55, "COUNT"]]}
+{"text": "SentinelOne Singularity autonomous EDR detected 45 malware samples", "entities": []}
+{"text": "CrowdStrike Falcon EDR platform protected 5000 endpoints with 99% detection rate", "entities": [[0, 11, "TOOL"]]}
+{"text": "NIST SP 800-53 security controls validated endpoint information systems", "entities": [[0, 4, "FRAMEWORK"]]}
+{"text": "Endpoint Security Engineer configured CrowdStrike Falcon EDR with 98% coverage", "entities": [[0, 24, "ROLE"], [33, 45, "TOOL"], [69, 77, "COVERAGE_TYPE"]]}
+{"text": "Microsoft DLP data loss prevention detected SSN exfiltration attempt", "entities": [[18, 22, "LOSS_TYPE"], [23, 33, "PREVENTION_TYPE"]]}
+{"text": "Endpoint threat hunting conducted 5 hunts finding Mimikatz on server12", "entities": [[0, 8, "ENDPOINT_TYPE"], [16, 22, "HUNTING_TYPE"]]}
+{"text": "GRR Rapid Response remote forensics investigated 2 infected endpoints", "entities": [[28, 35, "FORENSICS_TYPE"]]}
+{"text": "Forcepoint DLP data loss prevention monitored USB transfers", "entities": [[20, 24, "LOSS_TYPE"], [25, 35, "PREVENTION_TYPE"]]}
+{"text": "Insider risk alerts decreased to 5 per quarter with enhanced behavioral analytics", "entities": [[0, 12, "RISK_TYPE"], [13, 18, "ALERT_TYPE"], [52, 60, "ANALYTICS_TYPE"]]}
+{"text": "IoT OT Endpoint Security Tool validated 380 of 400 devices patched with 20 vulnerable", "entities": [[7, 15, "ENDPOINT_TYPE"], [48, 55, "DEVICE_TYPE"]]}
+{"text": "Endpoint security training completion reached 91% for all endpoint engineers", "entities": [[0, 18, "ENDPOINT_TYPE"], [38, 47, "COMPLETION_TYPE"]]}
+{"text": "Symantec Endpoint Encryption disk encryption secured 800 Windows laptops", "entities": [[9, 15, "ENDPOINT_TYPE"]]}
+{"text": "CISO approved endpoint security strategy with EDR XDR and DLP requirements", "entities": [[0, 4, "ROLE"]]}
+{"text": "Microsoft Defender for Endpoint MDE detected ransomware on 3 workstations", "entities": []}
+{"text": "Endpoint threat hunting conducted 5 hunts finding Mimikatz on server12", "entities": [[0, 8, "ENDPOINT_TYPE"], [16, 22, "HUNTING_TYPE"]]}
+{"text": "BYOD policy enforcement required encryption and MFA on 200 devices", "entities": [[0, 4, "POLICY_TYPE"], [5, 8, "POLICY_TYPE"], [9, 19, "ENFORCEMENT_TYPE"]]}
+{"text": "Data exfiltration prevention blocked 5 USB transfer attempts", "entities": [[5, 18, "EXFILTRATION_TYPE"]]}
+{"text": "IoT OT endpoint security coverage reached 92% with 380 of 400 devices patched", "entities": [[0, 3, "DEVICE_TYPE"], [4, 6, "DEVICE_TYPE"], [7, 15, "ENDPOINT_TYPE"], [25, 32, "COVERAGE_TYPE"], [52, 55, "COUNT"]]}
+{"text": "Endpoint Security Policy Generator created policy requiring PAM and DLP monitoring", "entities": [[0, 32, "TOOL"], [51, 58, "POLICY_TYPE"]]}
+{"text": "PAM Agent Tool managed 600 devices with 30 JIT sessions and 12 blocked admin accounts", "entities": []}
+{"text": "Mobile device encryption validated on 800 devices with 23 non-compliant", "entities": [[0, 6, "MOBILE_TYPE"], [7, 14, "DEVICE_TYPE"], [38, 45, "DEVICE_TYPE"]]}
+{"text": "VeraCrypt open source disk encryption encrypted 200 Linux servers", "entities": []}
+{"text": "Patch Management Tool patched 1450 of 1500 devices with 50 overdue requiring attention", "entities": []}
+{"text": "FileVault Apple disk encryption protected 400 Mac endpoints", "entities": [[15, 20, "DISK_TYPE"]]}
+{"text": "Device Management Specialist managed 1500 endpoints with 50 requiring attention", "entities": [[0, 28, "ROLE"]]}
+{"text": "DLP violation rate reduced to 2% with 5 blocked exfiltration attempts", "entities": []}
+{"text": "NIST SP 800-53 security controls validated endpoint information systems", "entities": [[0, 4, "FRAMEWORK"]]}
+{"text": "IoT OT endpoint security coverage reached 92% with 380 of 400 devices patched", "entities": [[0, 3, "DEVICE_TYPE"], [4, 6, "DEVICE_TYPE"], [7, 15, "ENDPOINT_TYPE"], [25, 32, "COVERAGE_TYPE"], [52, 55, "COUNT"]]}
+{"text": "Endpoint deception deployment detected 3 decoy file access events", "entities": [[0, 8, "ENDPOINT_TYPE"], [9, 19, "DECEPTION_TYPE"], [20, 30, "DEPLOYMENT_TYPE"], [39, 40, "COUNT"], [41, 46, "DECOY_TYPE"], [47, 51, "FILE_TYPE"], [58, 64, "EVENT_TYPE"]]}
+{"text": "Sophos Intercept X next-gen AV EDR blocked 230 malware attempts", "entities": []}
+{"text": "PAM usage increased to 30 sessions per day with zero privilege escalation incidents", "entities": []}
+{"text": "Autopsy Sleuth Kit forensic analysis examined disk images from 2 endpoints", "entities": []}
+{"text": "OSQuery endpoint telemetry queried 1200 devices for compliance status", "entities": [[8, 17, "ENDPOINT_TYPE"], [18, 27, "TELEMETRY_TYPE"], [35, 39, "COUNT"], [40, 47, "DEVICE_TYPE"], [52, 66, "COMPLIANCE_TYPE"]]}
+{"text": "FileVault Apple disk encryption protected 400 Mac endpoints", "entities": [[15, 20, "DISK_TYPE"]]}
+{"text": "Endpoint security updates deployed to 1450 devices with 50 pending", "entities": [[0, 8, "ENDPOINT_TYPE"], [18, 24, "UPDATE_TYPE"]]}
+{"text": "Endpoint Configuration Manager detected USB autorun enabled on 3 laptops requiring remediation", "entities": [[0, 28, "TOOL"]]}
+{"text": "GRR Rapid Response remote forensics investigated 2 infected endpoints", "entities": [[28, 35, "FORENSICS_TYPE"]]}
+{"text": "Insider risk alerts decreased to 5 with 1 escalated case", "entities": [[0, 6, "RISK_TYPE"], [7, 11, "RISK_TYPE"], [12, 17, "ALERT_TYPE"]]}
+{"text": "Hardening Baseline Tool checked 1200 devices with 1150 compliant and 50 violations", "entities": []}
+{"text": "Privilege escalation detection blocked 12 unauthorized admin attempts", "entities": [[0, 10, "PRIVILEGE_TYPE"], [44, 52, "ADMIN_TYPE"]]}
+{"text": "Sophos Intercept X next-gen AV EDR blocked 230 malware attempts", "entities": []}
+{"text": "Endpoint security KPI dashboard showed 97% patch compliance and 99% EDR rate", "entities": [[0, 8, "ENDPOINT_TYPE"], [22, 30, "DASHBOARD_TYPE"]]}
+{"text": "CISO approved endpoint security strategy with EDR XDR and DLP requirements", "entities": [[0, 4, "ROLE"]]}
+{"text": "Endpoint Compliance Analyst validated CIS benchmarks with 96% compliance rate", "entities": [[0, 26, "ROLE"]]}
+{"text": "Patch compliance improved to 97% with 1450 of 1500 devices patched", "entities": [[0, 5, "PATCH_TYPE"]]}
+{"text": "Citrix Endpoint Management mobile device management enrolled 600 devices", "entities": [[26, 32, "MOBILE_TYPE"], [33, 40, "DEVICE_TYPE"], [41, 50, "MANAGEMENT_TYPE"]]}
+{"text": "VMware Workspace ONE unified endpoint management managed 1500 endpoints", "entities": [[7, 20, "TOOL"], [38, 46, "ENDPOINT_TYPE"]]}
+{"text": "Falco runtime security monitored containers and Linux endpoints", "entities": [[6, 13, "TIME_TYPE"]]}
+{"text": "EDR XDR Tool detected 300 alerts with 12 critical ransomware incidents escalated", "entities": []}
+{"text": "Insider risk alerts decreased to 5 with 1 escalated case", "entities": [[0, 6, "RISK_TYPE"], [7, 11, "RISK_TYPE"], [12, 17, "ALERT_TYPE"]]}
+{"text": "Endpoint Compliance Analyst validated CIS benchmarks with 96% compliance rate", "entities": [[0, 26, "ROLE"]]}
+{"text": "EDR detection rate reached 99% with automated response blocking 85% of threats", "entities": [[71, 78, "THREAT_TYPE"]]}
+{"text": "Compliance Framework Tool mapped endpoint controls to CIS NIST ISO 27001", "entities": [[0, 18, "TOOL"]]}
+{"text": "McAfee DLP data loss prevention blocked email exfiltration", "entities": [[16, 20, "LOSS_TYPE"], [21, 31, "PREVENTION_TYPE"], [40, 45, "PROTOCOL_TYPE"]]}
+{"text": "IoT endpoint security coverage reached 92% with automated patching enabled", "entities": []}
+{"text": "Insider Risk Analytics Tool flagged employee123 for large file transfers at 2AM", "entities": [[0, 27, "TOOL"], [36, 42, "RISK_TYPE"]]}
+{"text": "Application allowlisting enforced on 800 devices blocking 12 unauthorized apps", "entities": [[0, 10, "APPLICATION_TYPE"], [11, 24, "ALLOWLISTING_TYPE"], [38, 45, "DEVICE_TYPE"], [57, 69, "APPLICATION_TYPE"]]}
+{"text": "Insider Risk Analytics Tool flagged employee123 for large file transfers at 2AM", "entities": [[0, 27, "TOOL"], [36, 42, "RISK_TYPE"]]}
+{"text": "OSQuery open source endpoint agent collected telemetry from 2000 Linux servers", "entities": [[21, 26, "AGENT_TYPE"], [35, 45, "TELEMETRY_TYPE"], [50, 54, "COUNT"]]}
+{"text": "IoT OT Endpoint Security Tool validated 380 of 400 devices patched with 20 vulnerable", "entities": [[7, 15, "ENDPOINT_TYPE"], [48, 55, "DEVICE_TYPE"]]}
+{"text": "Carbon Black VMware endpoint security detected 12 suspicious processes", "entities": [[0, 12, "TOOL"], [20, 27, "ENDPOINT_TYPE"]]}
+{"text": "NIST SP 800-53 security controls validated endpoint information systems", "entities": [[0, 4, "FRAMEWORK"]]}
+{"text": "Device Management Specialist managed 1500 endpoints with 50 requiring attention", "entities": [[0, 28, "ROLE"]]}
+{"text": "Patch compliance improved to 97% with 1450 of 1500 devices patched", "entities": [[0, 5, "PATCH_TYPE"]]}
+{"text": "Microsoft DLP data loss prevention detected SSN exfiltration attempt", "entities": [[18, 22, "LOSS_TYPE"], [23, 33, "PREVENTION_TYPE"]]}
+{"text": "Endpoint Compliance Analyst validated CIS benchmarks with 96% compliance rate", "entities": [[0, 26, "ROLE"]]}
+{"text": "Isolation workspace provided 50 isolated users with 200 sessions", "entities": []}
+{"text": "IoT endpoint security scan found 20 vulnerable devices requiring patching", "entities": [[0, 3, "DEVICE_TYPE"], [4, 12, "ENDPOINT_TYPE"], [34, 36, "COUNT"], [37, 47, "VULNERABILITY_TYPE"], [38, 47, "DEVICE_TYPE"], [56, 64, "PATCHING_TYPE"]]}
+{"text": "Endpoint Encryption Specialist validated BitLocker encryption on 1200 laptops", "entities": [[0, 30, "ROLE"]]}
+{"text": "Kolide endpoint compliance enforced OSQuery policies on 800 endpoints", "entities": [[7, 15, "ENDPOINT_TYPE"]]}
+{"text": "Application allowlisting enforced on 800 devices blocking 12 unauthorized apps", "entities": [[0, 10, "APPLICATION_TYPE"], [11, 24, "ALLOWLISTING_TYPE"], [38, 45, "DEVICE_TYPE"], [57, 69, "APPLICATION_TYPE"]]}
+{"text": "CrowdStrike Falcon EDR platform protected 5000 endpoints with 99% detection rate", "entities": [[0, 11, "TOOL"]]}
+{"text": "MobileIron mobile device management blocked 23 rooted devices", "entities": [[10, 25, "TOOL"], [26, 32, "MOBILE_TYPE"]]}
+{"text": "Head of Endpoint Security reviewed patch compliance with 1450 of 1500 devices patched", "entities": []}
+{"text": "EDR Specialist monitored 300 alerts with 12 critical ransomware incidents", "entities": [[0, 13, "ROLE"], [29, 32, "COUNT"]]}
+{"text": "DLP Agent blocked 5 SSN exfiltration attempts with 1 false positive requiring tuning", "entities": []}
+{"text": "Endpoint audit score improved to 90% with 2 findings requiring remediation", "entities": [[0, 8, "ENDPOINT_TYPE"]]}
+{"text": "Insider risk alerts decreased to 5 with 1 escalated case", "entities": [[0, 6, "RISK_TYPE"], [7, 11, "RISK_TYPE"], [12, 17, "ALERT_TYPE"]]}
+{"text": "Microsoft Defender for Endpoint MDE detected ransomware on 3 workstations", "entities": []}
+{"text": "Symantec Endpoint Encryption disk encryption secured 800 Windows laptops", "entities": [[9, 15, "ENDPOINT_TYPE"]]}
+{"text": "MDM enrollment rate reached 95% with 800 devices managed", "entities": []}
+{"text": "Endpoint Security Policy Generator created policy requiring PAM and DLP monitoring", "entities": [[0, 32, "TOOL"], [51, 58, "POLICY_TYPE"]]}
+{"text": "Endpoint Security Strategist defined endpoint security policy with mandatory EDR and 7-day patch SLA", "entities": [[0, 28, "ROLE"]]}
+{"text": "DLP violations reduced to 12 per month with improved policy tuning", "entities": [[45, 51, "TUNING_TYPE"]]}
+{"text": "Endpoint Deception Tool deployed 5000 decoy files detecting decoy.doc opened on laptop42", "entities": []}
+{"text": "Endpoint Encryption Specialist validated BitLocker encryption on 1200 laptops", "entities": [[0, 30, "ROLE"]]}
+{"text": "Symantec Endpoint Encryption disk encryption secured 800 Windows laptops", "entities": [[9, 15, "ENDPOINT_TYPE"]]}
+{"text": "Endpoint security maturity improved to level 4 with enhanced controls", "entities": [[0, 8, "ENDPOINT_TYPE"], [18, 25, "MATURITY_TYPE"]]}
+{"text": "EDR Specialist monitored 300 alerts with 12 critical ransomware incidents", "entities": [[0, 13, "ROLE"], [29, 32, "COUNT"]]}
+{"text": "Patch Management Tool patched 1450 of 1500 devices with 50 overdue requiring attention", "entities": []}
+{"text": "Compliance Framework Tool mapped endpoint controls to CIS NIST ISO 27001", "entities": [[0, 18, "TOOL"]]}
+{"text": "GRR Rapid Response remote forensics investigated 2 infected endpoints", "entities": [[28, 35, "FORENSICS_TYPE"]]}
+{"text": "Incident Responder investigated endpoint breach affecting 3 workstations", "entities": [[0, 18, "ROLE"], [48, 54, "BREACH_TYPE"]]}
+{"text": "Endpoint Security Tester executed penetration test finding 8 critical vulnerabilities", "entities": [[0, 23, "ROLE"], [78, 85, "TEST_TYPE"]]}
+{"text": "CIS hardening baseline validated 1150 of 1200 devices with 50 violations", "entities": [[0, 3, "FRAMEWORK"], [4, 13, "HARDENING_TYPE"], [14, 21, "BASELINE_TYPE"]]}
+{"text": "Microsoft Defender for Endpoint MDE detected ransomware on 3 workstations", "entities": []}
+{"text": "DLP Agent blocked 5 SSN exfiltration attempts with 1 false positive requiring tuning", "entities": []}
+{"text": "TheHive Cortex incident investigation automated endpoint case analysis", "entities": [[26, 38, "INVESTIGATION_TYPE"], [47, 56, "AUTOMATION_TYPE"]]}
+{"text": "Endpoint monitoring visibility achieved 98% coverage across all devices", "entities": [[0, 8, "ENDPOINT_TYPE"], [9, 19, "MONITORING_TYPE"], [20, 30, "VISIBILITY_TYPE"]]}
+{"text": "Wazuh endpoint security monitored 1500 endpoints with real-time threat detection", "entities": [[6, 15, "ENDPOINT_TYPE"], [34, 37, "COUNT"], [38, 47, "ENDPOINT_TYPE"], [71, 80, "DETECTION_TYPE"]]}
+{"text": "Endpoint audit score improved to 90% with 2 findings requiring remediation", "entities": [[0, 8, "ENDPOINT_TYPE"]]}
+{"text": "Endpoint monitoring visibility achieved 98% coverage across all devices", "entities": [[0, 8, "ENDPOINT_TYPE"], [9, 19, "MONITORING_TYPE"], [20, 30, "VISIBILITY_TYPE"]]}
+{"text": "Endpoint Security Engineer configured CrowdStrike Falcon EDR with 98% coverage", "entities": [[0, 24, "ROLE"], [33, 45, "TOOL"], [69, 77, "COVERAGE_TYPE"]]}
+{"text": "Endpoint threat hunting identified Mimikatz on server12 requiring immediate containment", "entities": [[0, 18, "ENDPOINT_TYPE"], [26, 32, "HUNTING_TYPE"], [77, 87, "CONTAINMENT_TYPE"]]}
+{"text": "Endpoint Risk Scoring Tool calculated risk score of 85 for 50 endpoints", "entities": [[0, 7, "ENDPOINT_TYPE"], [8, 12, "RISK_TYPE"], [13, 20, "SCORING_TYPE"]]}
+{"text": "Privilege escalation detection blocked 12 unauthorized admin attempts", "entities": [[0, 10, "PRIVILEGE_TYPE"], [44, 52, "ADMIN_TYPE"]]}
+{"text": "Ransomware resilience achieved 99% with automated EDR response", "entities": [[0, 11, "THREAT_TYPE"], [12, 22, "RESILIENCE_TYPE"], [43, 53, "AUTOMATION_TYPE"]]}
+{"text": "Symantec DLP data loss prevention blocked 5 exfiltration attempts", "entities": [[18, 22, "LOSS_TYPE"], [23, 33, "PREVENTION_TYPE"]]}
+{"text": "Symantec Endpoint Encryption disk encryption secured 800 Windows laptops", "entities": [[9, 15, "ENDPOINT_TYPE"]]}
+{"text": "Endpoint security audit score improved to 90% with 15 unpatched laptops remediated", "entities": [[0, 18, "ENDPOINT_TYPE"], [29, 34, "AUDIT_TYPE"]]}
+{"text": "Endpoint Security Tester executed penetration test finding 8 critical vulnerabilities", "entities": [[0, 23, "ROLE"], [78, 85, "TEST_TYPE"]]}
+{"text": "IoT endpoint security coverage reached 92% with automated patching enabled", "entities": []}
+{"text": "Endpoint security updates deployed to 1450 devices with 50 pending", "entities": [[0, 8, "ENDPOINT_TYPE"], [18, 24, "UPDATE_TYPE"]]}
+{"text": "McAfee DLP data loss prevention blocked email exfiltration", "entities": [[16, 20, "LOSS_TYPE"], [21, 31, "PREVENTION_TYPE"], [40, 45, "PROTOCOL_TYPE"]]}
+{"text": "EPP XDR integration achieved 98% coverage with 12000 events ingested and 98% correlation", "entities": []}
+{"text": "Insider Risk Playbook Tool detected abnormal file access on 3 endpoints", "entities": [[0, 22, "TOOL"]]}
+{"text": "Endpoint security training completion reached 91% for all endpoint engineers", "entities": [[0, 18, "ENDPOINT_TYPE"], [38, 47, "COMPLETION_TYPE"]]}
+{"text": "PAM usage increased to 30 sessions with 12 blocked admin attempts", "entities": []}
+{"text": "TheHive Cortex incident investigation automated endpoint case analysis", "entities": [[26, 38, "INVESTIGATION_TYPE"], [47, 56, "AUTOMATION_TYPE"]]}
+{"text": "Patch Management Tool patched 1450 of 1500 devices with 50 overdue requiring attention", "entities": []}
+{"text": "Endpoint security false positive rate reduced to 1.8% improving alert accuracy", "entities": [[0, 18, "ENDPOINT_TYPE"]]}
+{"text": "Endpoint threat hunting identified Mimikatz on server12 requiring immediate containment", "entities": [[0, 18, "ENDPOINT_TYPE"], [26, 32, "HUNTING_TYPE"], [77, 87, "CONTAINMENT_TYPE"]]}
+{"text": "Privilege escalation detection blocked 12 unauthorized admin attempts", "entities": [[0, 10, "PRIVILEGE_TYPE"], [44, 52, "ADMIN_TYPE"]]}
+{"text": "Microsoft Intune mobile device management enforced policies on 800 devices", "entities": []}
+{"text": "OSQuery endpoint telemetry queried 1200 devices for compliance status", "entities": [[8, 17, "ENDPOINT_TYPE"], [18, 27, "TELEMETRY_TYPE"], [35, 39, "COUNT"], [40, 47, "DEVICE_TYPE"], [52, 66, "COMPLIANCE_TYPE"]]}
+{"text": "EDR XDR Tool detected 300 alerts with 12 critical ransomware incidents escalated", "entities": []}
+{"text": "Endpoint security false positive rate reduced to 1.8% improving alert accuracy", "entities": [[0, 18, "ENDPOINT_TYPE"]]}
+{"text": "SentinelOne endpoint protection detected and blocked 25 ransomware attacks", "entities": [[11, 20, "ENDPOINT_TYPE"], [21, 30, "PROTECTION_TYPE"]]}
+{"text": "Endpoint patch compliance achieved 97% with zero critical vulnerabilities unpatched", "entities": [[61, 73, "VULNERABILITY_TYPE"], [74, 83, "PATCH_STATUS"]]}
+{"text": "SentinelOne endpoint protection detected and blocked 25 ransomware attacks", "entities": [[11, 20, "ENDPOINT_TYPE"], [21, 30, "PROTECTION_TYPE"]]}
+{"text": "Principal Endpoint Security Architect designed EPP EDR XDR integration architecture", "entities": []}
+{"text": "Insider Risk Playbook Tool detected abnormal file access on 3 endpoints", "entities": [[0, 22, "TOOL"]]}
+{"text": "Wazuh endpoint monitoring detected malware on 5 endpoints", "entities": [[6, 15, "ENDPOINT_TYPE"], [16, 25, "MONITORING_TYPE"], [34, 42, "MALWARE_TYPE"], [46, 47, "COUNT"], [48, 57, "ENDPOINT_TYPE"]]}
+{"text": "PCI DSS payment card industry security validated endpoint systems", "entities": [[0, 3, "FRAMEWORK"], [4, 7, "FRAMEWORK"]]}
+{"text": "Endpoint patch compliance achieved 97% with zero critical vulnerabilities unpatched", "entities": [[61, 73, "VULNERABILITY_TYPE"], [74, 83, "PATCH_STATUS"]]}
+{"text": "Isolation Workspace Tool provided 200 isolated sessions for 50 high-risk users", "entities": []}
+{"text": "IoT endpoint security scan found 20 vulnerable devices requiring patching", "entities": [[0, 3, "DEVICE_TYPE"], [4, 12, "ENDPOINT_TYPE"], [34, 36, "COUNT"], [37, 47, "VULNERABILITY_TYPE"], [38, 47, "DEVICE_TYPE"], [56, 64, "PATCHING_TYPE"]]}
+{"text": "Citrix Endpoint Management mobile device management enrolled 600 devices", "entities": [[26, 32, "MOBILE_TYPE"], [33, 40, "DEVICE_TYPE"], [41, 50, "MANAGEMENT_TYPE"]]}
+{"text": "Endpoint Configuration Manager detected USB autorun enabled on 3 laptops requiring remediation", "entities": [[0, 28, "TOOL"]]}
+{"text": "Mobile Security Specialist enforced MDM policies on 800 mobile devices", "entities": [[0, 25, "ROLE"]]}
+{"text": "Endpoint deception deployment detected 3 decoy file access events", "entities": [[0, 8, "ENDPOINT_TYPE"], [9, 19, "DECEPTION_TYPE"], [20, 30, "DEPLOYMENT_TYPE"], [39, 40, "COUNT"], [41, 46, "DECOY_TYPE"], [47, 51, "FILE_TYPE"], [58, 64, "EVENT_TYPE"]]}
+{"text": "Endpoint lifecycle management tracked 1500 devices with 50 pending updates", "entities": [[0, 8, "ENDPOINT_TYPE"], [9, 18, "LIFECYCLE_TYPE"], [19, 28, "MANAGEMENT_TYPE"]]}
+{"text": "Endpoint Configuration Manager detected USB autorun enabled on 3 laptops requiring remediation", "entities": [[0, 28, "TOOL"]]}
+{"text": "Application control compliance achieved 97% blocking 12 unauthorized apps", "entities": [[0, 10, "APPLICATION_TYPE"], [57, 65, "APPLICATION_TYPE"]]}
+{"text": "PAM Agent Tool managed 600 devices with 30 JIT sessions and 12 blocked admin accounts", "entities": []}
+{"text": "Kolide endpoint compliance enforced OSQuery policies on 800 endpoints", "entities": [[7, 15, "ENDPOINT_TYPE"]]}
+{"text": "Isolation Workspace Tool provided 200 isolated sessions for 50 high-risk users", "entities": []}
+{"text": "Endpoint monitoring visibility achieved 98% coverage across all devices", "entities": [[0, 8, "ENDPOINT_TYPE"], [9, 19, "MONITORING_TYPE"], [20, 30, "VISIBILITY_TYPE"]]}
+{"text": "IoT endpoint security scan found 20 vulnerable devices requiring patching", "entities": [[0, 3, "DEVICE_TYPE"], [4, 12, "ENDPOINT_TYPE"], [34, 36, "COUNT"], [37, 47, "VULNERABILITY_TYPE"], [38, 47, "DEVICE_TYPE"], [56, 64, "PATCHING_TYPE"]]}
+{"text": "Velociraptor digital forensics collected memory dumps from 3 compromised endpoints", "entities": [[0, 12, "TOOL"], [13, 30, "FORENSICS_TYPE"], [31, 40, "FORENSICS_TYPE"]]}
+{"text": "Citrix Endpoint Management mobile device management enrolled 600 devices", "entities": [[26, 32, "MOBILE_TYPE"], [33, 40, "DEVICE_TYPE"], [41, 50, "MANAGEMENT_TYPE"]]}
+{"text": "MobileIron mobile device management blocked 23 rooted devices", "entities": [[10, 25, "TOOL"], [26, 32, "MOBILE_TYPE"]]}
+{"text": "Hardening Baseline Tool checked 1200 devices with 1150 compliant and 50 violations", "entities": []}
+{"text": "Data exfiltration prevention blocked 5 USB transfer attempts", "entities": [[5, 18, "EXFILTRATION_TYPE"]]}
+{"text": "McAfee DLP data loss prevention blocked email exfiltration", "entities": [[16, 20, "LOSS_TYPE"], [21, 31, "PREVENTION_TYPE"], [40, 45, "PROTOCOL_TYPE"]]}
+{"text": "Head of Endpoint Security reviewed patch compliance with 1450 of 1500 devices patched", "entities": []}
+{"text": "Endpoint Security Tester executed penetration test finding 8 critical vulnerabilities", "entities": [[0, 23, "ROLE"], [78, 85, "TEST_TYPE"]]}
+{"text": "ISO 27001 information security management enforced endpoint controls", "entities": [[4, 9, "FRAMEWORK"], [10, 21, "INFORMATION_TYPE"]]}
+{"text": "Principal Endpoint Security Architect designed EPP EDR XDR integration architecture", "entities": []}
+{"text": "Data exfiltration prevention blocked 5 USB transfer attempts", "entities": [[5, 18, "EXFILTRATION_TYPE"]]}
+{"text": "Carbon Black VMware endpoint security detected 12 suspicious processes", "entities": [[0, 12, "TOOL"], [20, 27, "ENDPOINT_TYPE"]]}
+{"text": "Endpoint Security Engineer configured CrowdStrike Falcon EDR with 98% coverage", "entities": [[0, 24, "ROLE"], [33, 45, "TOOL"], [69, 77, "COVERAGE_TYPE"]]}
+{"text": "DLP violations reduced to 12 per month with improved policy tuning", "entities": [[45, 51, "TUNING_TYPE"]]}
+{"text": "Privilege escalation detection blocked 12 unauthorized admin attempts", "entities": [[0, 10, "PRIVILEGE_TYPE"], [44, 52, "ADMIN_TYPE"]]}
+{"text": "Insider risk detection flagged employee123 for large file transfers at 2AM", "entities": [[0, 6, "RISK_TYPE"], [7, 11, "RISK_TYPE"], [12, 20, "DETECTION_TYPE"]]}
+{"text": "Endpoint configuration drift detected on 3 devices requiring rollback", "entities": [[0, 8, "ENDPOINT_TYPE"], [23, 28, "DRIFT_TYPE"]]}
+{"text": "Endpoint security KPI dashboard showed 97% patch compliance and 99% EDR rate", "entities": [[0, 8, "ENDPOINT_TYPE"], [22, 30, "DASHBOARD_TYPE"]]}
+{"text": "Autopsy Sleuth Kit forensic analysis examined disk images from 2 endpoints", "entities": []}
+{"text": "Forcepoint DLP data loss prevention monitored USB transfers", "entities": [[20, 24, "LOSS_TYPE"], [25, 35, "PREVENTION_TYPE"]]}
+{"text": "PCI DSS payment card industry security validated endpoint systems", "entities": [[0, 3, "FRAMEWORK"], [4, 7, "FRAMEWORK"]]}
+{"text": "Endpoint security training completion reached 91% for all endpoint engineers", "entities": [[0, 18, "ENDPOINT_TYPE"], [38, 47, "COMPLETION_TYPE"]]}
+{"text": "OSQuery open source endpoint agent collected telemetry from 2000 Linux servers", "entities": [[21, 26, "AGENT_TYPE"], [35, 45, "TELEMETRY_TYPE"], [50, 54, "COUNT"]]}
+{"text": "Endpoint security audit score improved to 90% with 15 unpatched laptops remediated", "entities": [[0, 18, "ENDPOINT_TYPE"], [29, 34, "AUDIT_TYPE"]]}
+{"text": "Principal Endpoint Security Architect designed EPP EDR XDR integration architecture", "entities": []}
+{"text": "Sophos Intercept X next-gen AV EDR blocked 230 malware attempts", "entities": []}
+{"text": "McAfee DLP data loss prevention blocked email exfiltration", "entities": [[16, 20, "LOSS_TYPE"], [21, 31, "PREVENTION_TYPE"], [40, 45, "PROTOCOL_TYPE"]]}
+{"text": "Endpoint patch compliance achieved 97% with zero critical vulnerabilities unpatched", "entities": [[61, 73, "VULNERABILITY_TYPE"], [74, 83, "PATCH_STATUS"]]}
+{"text": "Endpoint configuration drift detected on 3 devices requiring rollback", "entities": [[0, 8, "ENDPOINT_TYPE"], [23, 28, "DRIFT_TYPE"]]}
+{"text": "Autopsy Sleuth Kit forensic analysis examined disk images from 2 endpoints", "entities": []}
+{"text": "Ransomware resilience achieved 99% with automated EDR response", "entities": [[0, 11, "THREAT_TYPE"], [12, 22, "RESILIENCE_TYPE"], [43, 53, "AUTOMATION_TYPE"]]}
+{"text": "Application Control Tool blocked malware.exe and shadowIT_tool on 800 devices", "entities": []}
+{"text": "VeraCrypt open source disk encryption encrypted 200 Linux servers", "entities": []}
+{"text": "IoT endpoint security coverage reached 92% with automated patching enabled", "entities": []}
+{"text": "GRR Rapid Response remote forensics investigated 2 infected endpoints", "entities": [[28, 35, "FORENSICS_TYPE"]]}
+{"text": "EPP XDR integration achieved 98% coverage with 12000 events ingested and 98% correlation", "entities": []}
+{"text": "IoT OT endpoint security coverage reached 92% with 380 of 400 devices patched", "entities": [[0, 3, "DEVICE_TYPE"], [4, 6, "DEVICE_TYPE"], [7, 15, "ENDPOINT_TYPE"], [25, 32, "COVERAGE_TYPE"], [52, 55, "COUNT"]]}
+{"text": "ISO 27001 information security management enforced endpoint controls", "entities": [[4, 9, "FRAMEWORK"], [10, 21, "INFORMATION_TYPE"]]}
+{"text": "DLP violations reduced to 12 per month with improved policy tuning", "entities": [[45, 51, "TUNING_TYPE"]]}
+{"text": "MDM enrollment rate reached 95% with 800 devices managed", "entities": []}
+{"text": "Endpoint security audit score improved to 90% with 15 unpatched laptops remediated", "entities": [[0, 18, "ENDPOINT_TYPE"], [29, 34, "AUDIT_TYPE"]]}
+{"text": "Incident Responder investigated endpoint breach affecting 3 workstations", "entities": [[0, 18, "ROLE"], [48, 54, "BREACH_TYPE"]]}
+{"text": "Endpoint deception deployment detected 3 decoy file access events", "entities": [[0, 8, "ENDPOINT_TYPE"], [9, 19, "DECEPTION_TYPE"], [20, 30, "DEPLOYMENT_TYPE"], [39, 40, "COUNT"], [41, 46, "DECOY_TYPE"], [47, 51, "FILE_TYPE"], [58, 64, "EVENT_TYPE"]]}
+{"text": "Endpoint Encryption Specialist validated BitLocker encryption on 1200 laptops", "entities": [[0, 30, "ROLE"]]}
+{"text": "OSQuery open source endpoint agent collected telemetry from 2000 Linux servers", "entities": [[21, 26, "AGENT_TYPE"], [35, 45, "TELEMETRY_TYPE"], [50, 54, "COUNT"]]}
+{"text": "EDR detection rate reached 99% with 300 alerts processed daily", "entities": [[50, 56, "ALERT_TYPE"]]}
+{"text": "Symantec DLP data loss prevention blocked 5 exfiltration attempts", "entities": [[18, 22, "LOSS_TYPE"], [23, 33, "PREVENTION_TYPE"]]}
+{"text": "Endpoint threat hunting conducted 5 hunts finding Mimikatz on server12", "entities": [[0, 8, "ENDPOINT_TYPE"], [16, 22, "HUNTING_TYPE"]]}
+{"text": "Device Management Specialist managed 1500 endpoints with 50 requiring attention", "entities": [[0, 28, "ROLE"]]}
+{"text": "Endpoint security false positive rate reduced to 1.8% improving alert accuracy", "entities": [[0, 18, "ENDPOINT_TYPE"]]}
+{"text": "Can you help me with this?", "entities": []}
+{"text": "I need to check something.", "entities": []}
+{"text": "What is the status?", "entities": []}
+{"text": "How do I do this?", "entities": []}
+{"text": "Tell me more about it.", "entities": []}
+{"text": "Is this safe to use?", "entities": []}
+{"text": "Let me know if you need anything.", "entities": []}
+{"text": "Thanks for your help.", "entities": []}
+{"text": "I will get back to you.", "entities": []}
+{"text": "Please review this document.", "entities": []}
+{"text": "What should I do next?", "entities": []}
+{"text": "How does this work?", "entities": []}
+{"text": "Why is this happening?", "entities": []}
+{"text": "When will this be ready?", "entities": []}
+{"text": "Where can I find this?", "entities": []}
+{"text": "Who should I contact?", "entities": []}
+{"text": "Hey, what's up?", "entities": []}
+{"text": "That's interesting.", "entities": []}
+{"text": "I see what you mean.", "entities": []}
+{"text": "That makes sense.", "entities": []}
+{"text": "Got it, thanks.", "entities": []}
+{"text": "Follow the steps carefully.", "entities": []}
+{"text": "Make sure to save your work.", "entities": []}
+{"text": "Check the settings first.", "entities": []}
+{"text": "Review the documentation.", "entities": []}
+{"text": "Read the instructions.", "entities": []}
+{"text": "This is important.", "entities": []}
+{"text": "That looks good.", "entities": []}
+{"text": "Everything seems fine.", "entities": []}
+{"text": "Nothing to report.", "entities": []}
+{"text": "All systems operational.", "entities": []}
+{"text": "The system is secure.", "entities": []}
+{"text": "All checks passed.", "entities": []}
+{"text": "No issues detected.", "entities": []}
+{"text": "Everything is working correctly.", "entities": []}
+{"text": "The configuration looks good.", "entities": []}
+{"text": "No vulnerabilities found.", "entities": []}
+{"text": "Security measures are in place.", "entities": []}
+{"text": "The audit was successful.", "entities": []}
+{"text": "The information is verified.", "entities": []}

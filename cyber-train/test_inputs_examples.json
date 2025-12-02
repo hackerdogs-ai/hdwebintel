@@ -1,0 +1,75 @@
+[
+  {
+    "text": "Check if the email admin@company.com is compromised",
+    "category": "email_security",
+    "expected_entities": [["admin@company.com", "EMAIL"]],
+    "expected_intents": ["CHECK", "VALIDATE"]
+  },
+  {
+    "text": "Analyze the network traffic from IP range 10.0.0.0/24 for suspicious activity",
+    "category": "network_analysis",
+    "expected_entities": [["10.0.0.0/24", "IP_RANGE"]],
+    "expected_intents": ["ANALYZE", "DETECT", "MONITOR"]
+  },
+  {
+    "text": "What vulnerabilities exist in our Docker containers running on AWS us-east-1?",
+    "category": "cloud_security",
+    "expected_entities": [
+      ["Docker", "CONTAINER_TYPE"],
+      ["AWS", "CLOUD_PROVIDER"],
+      ["us-east-1", "REGION"]
+    ],
+    "expected_intents": ["ASSESS_RISK", "SCAN", "DETECT"]
+  },
+  {
+    "text": "Profile the threat actor known as Lazarus Group and map their infrastructure",
+    "category": "threat_intel",
+    "expected_entities": [["Lazarus Group", "THREAT_ACTOR"]],
+    "expected_intents": ["PROFILE_THREAT_ACTOR", "MAP", "GATHER_INTELLIGENCE"]
+  },
+  {
+    "text": "Verify the authenticity of this document and check for metadata",
+    "category": "osint_verification",
+    "expected_intents": ["VERIFY", "CHECK", "ANALYZE"]
+  },
+  {
+    "text": "Monitor API endpoints /api/v1/users and /api/v1/admin for unauthorized access",
+    "category": "api_security",
+    "expected_entities": [
+      ["/api/v1/users", "ENDPOINT_PATH"],
+      ["/api/v1/admin", "ENDPOINT_PATH"]
+    ],
+    "expected_intents": ["MONITOR", "DETECT", "VALIDATE"]
+  },
+  {
+    "text": "Generate compliance report for SOC 2 Type II audit covering access controls and encryption",
+    "category": "compliance_reporting",
+    "expected_entities": [["SOC 2 Type II", "COMPLIANCE_FRAMEWORK"]],
+    "expected_intents": ["GENERATE_REPORTS", "ENSURE_COMPLIANCE", "AUDIT_COMPLIANCE"]
+  },
+  {
+    "text": "Track the cryptocurrency transaction from wallet 1A1zP1eP5QGefi2DMPTfTL5SLmv7DivfNa to 1BvBMSEYstWetqTFn5Au4m4GFg7xJaNVN2",
+    "category": "blockchain_osint",
+    "expected_entities": [
+      ["1A1zP1eP5QGefi2DMPTfTL5SLmv7DivfNa", "WALLET_ADDRESS"],
+      ["1BvBMSEYstWetqTFn5Au4m4GFg7xJaNVN2", "WALLET_ADDRESS"]
+    ],
+    "expected_intents": ["TRACK", "MONITOR", "INVESTIGATE"]
+  },
+  {
+    "text": "Perform disk forensics on the compromised server and extract IOCs from memory dump",
+    "category": "forensics",
+    "expected_intents": ["PERFORM_DISK_FORENSICS", "EXTRACT_IOCS", "ANALYZE"]
+  },
+  {
+    "text": "Detect and block malicious domains: evil1.com, evil2.com, evil3.com",
+    "category": "threat_response",
+    "expected_entities": [
+      ["evil1.com", "DOMAIN"],
+      ["evil2.com", "DOMAIN"],
+      ["evil3.com", "DOMAIN"]
+    ],
+    "expected_intents": ["DETECT", "BLOCK_DOMAINS", "RESPOND_TO_INCIDENT"]
+  }
+]
+

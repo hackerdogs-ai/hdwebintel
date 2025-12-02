@@ -1,0 +1,314 @@
+======================================================================
+FIXING ALL REMAINING BOUNDARY ISSUES
+======================================================================
+
+Mode: APPLYING FIXES
+Files to process: 49
+
+📄 Processing: ai_security/ai_security_entities.jsonl
+   Removed: 20 entities
+   Fixed: 116 boundaries
+   Before: 684 entities
+   After: 664 entities
+
+📄 Processing: api_security/api_security_entities.jsonl
+   Removed: 20 entities
+   Fixed: 220 boundaries
+   Before: 624 entities
+   After: 604 entities
+
+📄 Processing: application_security/application_security_entities.jsonl
+   Removed: 56 entities
+   Fixed: 108 boundaries
+   Before: 456 entities
+   After: 400 entities
+
+📄 Processing: audit_compliance/audit_compliance_entities.jsonl
+   Removed: 32 entities
+   Fixed: 120 boundaries
+   Before: 408 entities
+   After: 376 entities
+
+📄 Processing: authentication/authentication_entities.jsonl
+   Removed: 12 entities
+   Fixed: 104 boundaries
+   Before: 456 entities
+   After: 444 entities
+
+📄 Processing: authorization/authorization_entities.jsonl
+   Removed: 8 entities
+   Fixed: 132 boundaries
+   Before: 508 entities
+   After: 500 entities
+
+📄 Processing: cloud_security_cnapp/cloud_security_cnapp_entities.jsonl
+   Removed: 28 entities
+   Fixed: 108 boundaries
+   Before: 592 entities
+   After: 564 entities
+
+📄 Processing: container_security/container_security_entities.jsonl
+   Removed: 12 entities
+   Fixed: 204 boundaries
+   Before: 664 entities
+   After: 652 entities
+
+📄 Processing: data_privacy_sovereignty/data_privacy_sovereignty_entities.jsonl
+   Removed: 0 entities
+   Fixed: 120 boundaries
+   Before: 576 entities
+   After: 576 entities
+
+📄 Processing: data_protection_backup/data_protection_backup_entities.jsonl
+   Removed: 40 entities
+   Fixed: 192 boundaries
+   Before: 800 entities
+   After: 760 entities
+
+📄 Processing: detection_correlation/detection_correlation_entities.jsonl
+   Removed: 0 entities
+   Fixed: 216 boundaries
+   Before: 652 entities
+   After: 652 entities
+
+📄 Processing: disaster_recovery/disaster_recovery_entities.jsonl
+   Removed: 32 entities
+   Fixed: 184 boundaries
+   Before: 660 entities
+   After: 628 entities
+
+📄 Processing: due_diligence/due_diligence_entities.jsonl
+   Removed: 0 entities
+   Fixed: 28 boundaries
+   Before: 176 entities
+   After: 176 entities
+
+📄 Processing: encryption/encryption_entities.jsonl
+   Removed: 16 entities
+   Fixed: 132 boundaries
+   Before: 720 entities
+   After: 704 entities
+
+📄 Processing: endpoint_security/endpoint_security_entities.jsonl
+   Removed: 20 entities
+   Fixed: 164 boundaries
+   Before: 676 entities
+   After: 656 entities
+
+📄 Processing: governance_risk_strategy/governance_risk_strategy_entities.jsonl
+   Removed: 4 entities
+   Fixed: 104 boundaries
+   Before: 492 entities
+   After: 488 entities
+
+📄 Processing: identity_governance_iga/identity_governance_iga_entities.jsonl
+   Removed: 8 entities
+   Fixed: 28 boundaries
+   Before: 208 entities
+   After: 200 entities
+
+📄 Processing: incident_response/incident_response_entities.jsonl
+   Removed: 0 entities
+   Fixed: 16 boundaries
+   Before: 116 entities
+   After: 116 entities
+
+📄 Processing: network_security/network_security_entities.jsonl
+   Removed: 40 entities
+   Fixed: 132 boundaries
+   Before: 644 entities
+   After: 604 entities
+
+📄 Processing: osint/ai-int/ai-int_entities.jsonl
+   Removed: 0 entities
+   Fixed: 84 boundaries
+   Before: 1216 entities
+   After: 1216 entities
+
+📄 Processing: osint/comint/comint_entities.jsonl
+   Removed: 0 entities
+   Fixed: 460 boundaries
+   Before: 1652 entities
+   After: 1652 entities
+
+📄 Processing: osint/cybint/cybint_entities.jsonl
+   Removed: 0 entities
+   Fixed: 796 boundaries
+   Before: 1996 entities
+   After: 1996 entities
+
+📄 Processing: osint/darkint/darkint_entities.jsonl
+   Removed: 0 entities
+   Fixed: 20 boundaries
+   Before: 932 entities
+   After: 932 entities
+
+📄 Processing: osint/digint/digint_entities.jsonl
+   Removed: 0 entities
+   Fixed: 364 boundaries
+   Before: 1900 entities
+   After: 1900 entities
+
+📄 Processing: osint/dnint/dnint_entities.jsonl
+   ✅ No issues found
+
+📄 Processing: osint/domain_intel/domain_intel_entities.jsonl
+   Removed: 0 entities
+   Fixed: 4 boundaries
+   Before: 676 entities
+   After: 676 entities
+
+📄 Processing: osint/ecoint/ecoint_entities.jsonl
+   Removed: 0 entities
+   Fixed: 176 boundaries
+   Before: 1460 entities
+   After: 1460 entities
+
+📄 Processing: osint/eduint/eduint_entities.jsonl
+   Removed: 0 entities
+   Fixed: 80 boundaries
+   Before: 1276 entities
+   After: 1276 entities
+
+📄 Processing: osint/finint/finint_entities.jsonl
+   Removed: 80 entities
+   Fixed: 8 boundaries
+   Before: 1352 entities
+   After: 1272 entities
+
+📄 Processing: osint/geoint/geoint_entities.jsonl
+   Removed: 0 entities
+   Fixed: 168 boundaries
+   Before: 1020 entities
+   After: 1020 entities
+
+📄 Processing: osint/humint/humint_entities.jsonl
+   Removed: 0 entities
+   Fixed: 472 boundaries
+   Before: 1996 entities
+   After: 1996 entities
+
+📄 Processing: osint/imint/imint_entities.jsonl
+   Removed: 76 entities
+   Fixed: 236 boundaries
+   Before: 1888 entities
+   After: 1812 entities
+
+📄 Processing: osint/infint/infint_entities.jsonl
+   Removed: 0 entities
+   Fixed: 80 boundaries
+   Before: 788 entities
+   After: 788 entities
+
+📄 Processing: osint/legint/legint_entities.jsonl
+   Removed: 0 entities
+   Fixed: 8 boundaries
+   Before: 588 entities
+   After: 588 entities
+
+📄 Processing: osint/masint/masint_entities.jsonl
+   Removed: 0 entities
+   Fixed: 80 boundaries
+   Before: 988 entities
+   After: 988 entities
+
+📄 Processing: osint/medint/medint_entities.jsonl
+   Removed: 0 entities
+   Fixed: 332 boundaries
+   Before: 1644 entities
+   After: 1644 entities
+
+📄 Processing: osint/natint/natint_entities.jsonl
+   Removed: 0 entities
+   Fixed: 164 boundaries
+   Before: 1436 entities
+   After: 1436 entities
+
+📄 Processing: osint/orbint/orbint_entities.jsonl
+   Removed: 0 entities
+   Fixed: 240 boundaries
+   Before: 1248 entities
+   After: 1248 entities
+
+📄 Processing: osint/sigint/sigint_entities.jsonl
+   Removed: 0 entities
+   Fixed: 76 boundaries
+   Before: 1172 entities
+   After: 1172 entities
+
+📄 Processing: osint/socmint/socmint_entities.jsonl
+   Removed: 0 entities
+   Fixed: 112 boundaries
+   Before: 1272 entities
+   After: 1272 entities
+
+📄 Processing: osint/techint/techint_entities.jsonl
+   Removed: 8 entities
+   Fixed: 692 boundaries
+   Before: 2136 entities
+   After: 2128 entities
+
+📄 Processing: osint/threat_intel/threat_intel_entities.jsonl
+   ✅ No issues found
+
+📄 Processing: osint/tradint/tradint_entities.jsonl
+   Removed: 0 entities
+   Fixed: 160 boundaries
+   Before: 1184 entities
+   After: 1184 entities
+
+📄 Processing: osint/vatint/vatint_entities.jsonl
+   Removed: 0 entities
+   Fixed: 80 boundaries
+   Before: 868 entities
+   After: 868 entities
+
+📄 Processing: ot_ics_physical_security/ot_ics_physical_security_entities.jsonl
+   Removed: 0 entities
+   Fixed: 44 boundaries
+   Before: 208 entities
+   After: 208 entities
+
+📄 Processing: security_awareness_training/security_awareness_training_entities.jsonl
+   Removed: 32 entities
+   Fixed: 172 boundaries
+   Before: 640 entities
+   After: 608 entities
+
+📄 Processing: threat_intelligence/threat_intelligence_entities.jsonl
+   Removed: 48 entities
+   Fixed: 120 boundaries
+   Before: 608 entities
+   After: 560 entities
+
+📄 Processing: vendor_mgmt/vendor_mgmt_entities.jsonl
+   Removed: 4 entities
+   Fixed: 32 boundaries
+   Before: 172 entities
+   After: 168 entities
+
+📄 Processing: vulnerability_mgmt/vulnerability_mgmt_entities.jsonl
+   Removed: 0 entities
+   Fixed: 252 boundaries
+   Before: 632 entities
+   After: 632 entities
+
+======================================================================
+FIX SUMMARY
+======================================================================
+Total files processed: 49
+Total lines: 20,922
+Total entities before: 44,864
+Total entities after: 44,268
+Total removed: 596
+Total fixed: 7,940
+
+Breakdown:
+  Whitespace fixed: 0
+  Boundaries fixed: 1,032
+  Too short removed: 524
+
+Entity reduction: 596 (1.3%)
+
+✅ Fixes applied! Backups created as .backup3 files.
+   Next: Re-verify and re-prepare training data

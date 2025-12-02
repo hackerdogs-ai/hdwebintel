@@ -1,0 +1,344 @@
+================================================================================
+COMPREHENSIVE BOUNDARY ACCURACY CHECK
+================================================================================
+
+Total files to check: 49
+
+Checking every file, every line, every entity boundary...
+
+Checking: ai_security/ai_security_entities.jsonl
+  Lines: 994, Entities: 1952, Accurate: 1952, Inaccurate: 0, Accuracy: 100.00%
+Checking: api_security/api_security_entities.jsonl
+  Lines: 440, Entities: 1240, Accurate: 1240, Inaccurate: 0, Accuracy: 100.00%
+Checking: application_security/application_security_entities.jsonl
+  Lines: 458, Entities: 1052, Accurate: 1052, Inaccurate: 0, Accuracy: 100.00%
+Checking: audit_compliance/audit_compliance_entities.jsonl
+  Lines: 454, Entities: 1108, Accurate: 1108, Inaccurate: 0, Accuracy: 100.00%
+Checking: authentication/authentication_entities.jsonl
+  Lines: 440, Entities: 1316, Accurate: 1316, Inaccurate: 0, Accuracy: 100.00%
+Checking: authorization/authorization_entities.jsonl
+  Lines: 440, Entities: 1356, Accurate: 1356, Inaccurate: 0, Accuracy: 100.00%
+Checking: cloud_security_cnapp/cloud_security_cnapp_entities.jsonl
+  Lines: 458, Entities: 1292, Accurate: 1272, Inaccurate: 20, Accuracy: 98.45%
+Checking: container_security/container_security_entities.jsonl
+  Lines: 440, Entities: 1504, Accurate: 1504, Inaccurate: 0, Accuracy: 100.00%
+Checking: data_privacy_sovereignty/data_privacy_sovereignty_entities.jsonl
+  Lines: 462, Entities: 1168, Accurate: 1168, Inaccurate: 0, Accuracy: 100.00%
+Checking: data_protection_backup/data_protection_backup_entities.jsonl
+  Lines: 462, Entities: 1580, Accurate: 1580, Inaccurate: 0, Accuracy: 100.00%
+Checking: detection_correlation/detection_correlation_entities.jsonl
+  Lines: 440, Entities: 1232, Accurate: 1232, Inaccurate: 0, Accuracy: 100.00%
+Checking: disaster_recovery/disaster_recovery_entities.jsonl
+  Lines: 440, Entities: 1244, Accurate: 1244, Inaccurate: 0, Accuracy: 100.00%
+Checking: due_diligence/due_diligence_entities.jsonl
+  Lines: 145, Entities: 392, Accurate: 392, Inaccurate: 0, Accuracy: 100.00%
+Checking: encryption/encryption_entities.jsonl
+  Lines: 484, Entities: 1624, Accurate: 1624, Inaccurate: 0, Accuracy: 100.00%
+Checking: endpoint_security/endpoint_security_entities.jsonl
+  Lines: 440, Entities: 1560, Accurate: 1560, Inaccurate: 0, Accuracy: 100.00%
+Checking: governance_risk_strategy/governance_risk_strategy_entities.jsonl
+  Lines: 440, Entities: 1380, Accurate: 1380, Inaccurate: 0, Accuracy: 100.00%
+Checking: identity_governance_iga/identity_governance_iga_entities.jsonl
+  Lines: 150, Entities: 480, Accurate: 480, Inaccurate: 0, Accuracy: 100.00%
+Checking: incident_response/incident_response_entities.jsonl
+  Lines: 141, Entities: 376, Accurate: 376, Inaccurate: 0, Accuracy: 100.00%
+Checking: network_security/network_security_entities.jsonl
+  Lines: 458, Entities: 1636, Accurate: 1604, Inaccurate: 32, Accuracy: 98.04%
+Checking: osint/ai-int/ai-int_entities.jsonl
+  Lines: 448, Entities: 3340, Accurate: 3340, Inaccurate: 0, Accuracy: 100.00%
+Checking: osint/comint/comint_entities.jsonl
+  Lines: 444, Entities: 2288, Accurate: 2288, Inaccurate: 0, Accuracy: 100.00%
+Checking: osint/cybint/cybint_entities.jsonl
+  Lines: 448, Entities: 1708, Accurate: 1704, Inaccurate: 4, Accuracy: 99.77%
+Checking: osint/darkint/darkint_entities.jsonl
+  Lines: 444, Entities: 2316, Accurate: 2228, Inaccurate: 88, Accuracy: 96.20%
+Checking: osint/digint/digint_entities.jsonl
+  Lines: 440, Entities: 2548, Accurate: 2548, Inaccurate: 0, Accuracy: 100.00%
+Checking: osint/dnint/dnint_entities.jsonl
+  Lines: 440, Entities: 2424, Accurate: 2424, Inaccurate: 0, Accuracy: 100.00%
+Checking: osint/domain_intel/domain_intel_entities.jsonl
+  Lines: 448, Entities: 2588, Accurate: 2580, Inaccurate: 8, Accuracy: 99.69%
+Checking: osint/ecoint/ecoint_entities.jsonl
+  Lines: 440, Entities: 2624, Accurate: 2624, Inaccurate: 0, Accuracy: 100.00%
+Checking: osint/eduint/eduint_entities.jsonl
+  Lines: 440, Entities: 1728, Accurate: 1728, Inaccurate: 0, Accuracy: 100.00%
+Checking: osint/finint/finint_entities.jsonl
+  Lines: 448, Entities: 2592, Accurate: 2588, Inaccurate: 4, Accuracy: 99.85%
+Checking: osint/geoint/geoint_entities.jsonl
+  Lines: 457, Entities: 2956, Accurate: 2924, Inaccurate: 32, Accuracy: 98.92%
+Checking: osint/humint/humint_entities.jsonl
+  Lines: 448, Entities: 3680, Accurate: 3680, Inaccurate: 0, Accuracy: 100.00%
+Checking: osint/imint/imint_entities.jsonl
+  Lines: 440, Entities: 2252, Accurate: 2252, Inaccurate: 0, Accuracy: 100.00%
+Checking: osint/infint/infint_entities.jsonl
+  Lines: 440, Entities: 1848, Accurate: 1848, Inaccurate: 0, Accuracy: 100.00%
+Checking: osint/legint/legint_entities.jsonl
+  Lines: 440, Entities: 2020, Accurate: 2020, Inaccurate: 0, Accuracy: 100.00%
+Checking: osint/masint/masint_entities.jsonl
+  Lines: 440, Entities: 2080, Accurate: 2080, Inaccurate: 0, Accuracy: 100.00%
+Checking: osint/medint/medint_entities.jsonl
+  Lines: 440, Entities: 1344, Accurate: 1344, Inaccurate: 0, Accuracy: 100.00%
+Checking: osint/natint/natint_entities.jsonl
+  Lines: 440, Entities: 1744, Accurate: 1744, Inaccurate: 0, Accuracy: 100.00%
+Checking: osint/orbint/orbint_entities.jsonl
+  Lines: 440, Entities: 1868, Accurate: 1868, Inaccurate: 0, Accuracy: 100.00%
+Checking: osint/sigint/sigint_entities.jsonl
+  Lines: 440, Entities: 1820, Accurate: 1820, Inaccurate: 0, Accuracy: 100.00%
+Checking: osint/socmint/socmint_entities.jsonl
+  Lines: 453, Entities: 1688, Accurate: 1688, Inaccurate: 0, Accuracy: 100.00%
+Checking: osint/techint/techint_entities.jsonl
+  Lines: 444, Entities: 2072, Accurate: 2072, Inaccurate: 0, Accuracy: 100.00%
+Checking: osint/threat_intel/threat_intel_entities.jsonl
+  Lines: 440, Entities: 1516, Accurate: 1516, Inaccurate: 0, Accuracy: 100.00%
+Checking: osint/tradint/tradint_entities.jsonl
+  Lines: 440, Entities: 1944, Accurate: 1944, Inaccurate: 0, Accuracy: 100.00%
+Checking: osint/vatint/vatint_entities.jsonl
+  Lines: 440, Entities: 2280, Accurate: 2280, Inaccurate: 0, Accuracy: 100.00%
+Checking: ot_ics_physical_security/ot_ics_physical_security_entities.jsonl
+  Lines: 150, Entities: 500, Accurate: 500, Inaccurate: 0, Accuracy: 100.00%
+Checking: security_awareness_training/security_awareness_training_entities.jsonl
+  Lines: 440, Entities: 1192, Accurate: 1192, Inaccurate: 0, Accuracy: 100.00%
+Checking: threat_intelligence/threat_intelligence_entities.jsonl
+  Lines: 440, Entities: 1224, Accurate: 1224, Inaccurate: 0, Accuracy: 100.00%
+Checking: vendor_mgmt/vendor_mgmt_entities.jsonl
+  Lines: 136, Entities: 468, Accurate: 468, Inaccurate: 0, Accuracy: 100.00%
+Checking: vulnerability_mgmt/vulnerability_mgmt_entities.jsonl
+  Lines: 488, Entities: 1408, Accurate: 1408, Inaccurate: 0, Accuracy: 100.00%
+
+================================================================================
+OVERALL ACCURACY SUMMARY
+================================================================================
+
+Total Files: 49
+Total Lines: 20,922
+Total Entities: 83,552
+Accurate Entities: 83,364
+Inaccurate Entities: 188
+
+================================================================================
+OVERALL BOUNDARY ACCURACY: 99.77%
+================================================================================
+
+Issues by Type:
+  INVALID_PATTERN               :    188 (0.23%)
+
+================================================================================
+PER-FILE ACCURACY BREAKDOWN
+================================================================================
+
+darkint_entities.jsonl
+  Accuracy: 96.20%
+  Entities: 2,316 (Accurate: 2,228, Inaccurate: 88)
+  Issues:
+    INVALID_PATTERN               :     88
+
+network_security_entities.jsonl
+  Accuracy: 98.04%
+  Entities: 1,636 (Accurate: 1,604, Inaccurate: 32)
+  Issues:
+    INVALID_PATTERN               :     32
+
+cloud_security_cnapp_entities.jsonl
+  Accuracy: 98.45%
+  Entities: 1,292 (Accurate: 1,272, Inaccurate: 20)
+  Issues:
+    INVALID_PATTERN               :     20
+
+geoint_entities.jsonl
+  Accuracy: 98.92%
+  Entities: 2,956 (Accurate: 2,924, Inaccurate: 32)
+  Issues:
+    INVALID_PATTERN               :     32
+
+domain_intel_entities.jsonl
+  Accuracy: 99.69%
+  Entities: 2,588 (Accurate: 2,580, Inaccurate: 8)
+  Issues:
+    INVALID_PATTERN               :      8
+
+cybint_entities.jsonl
+  Accuracy: 99.77%
+  Entities: 1,708 (Accurate: 1,704, Inaccurate: 4)
+  Issues:
+    INVALID_PATTERN               :      4
+
+finint_entities.jsonl
+  Accuracy: 99.85%
+  Entities: 2,592 (Accurate: 2,588, Inaccurate: 4)
+  Issues:
+    INVALID_PATTERN               :      4
+
+ai_security_entities.jsonl
+  Accuracy: 100.00%
+  Entities: 1,952 (Accurate: 1,952, Inaccurate: 0)
+
+api_security_entities.jsonl
+  Accuracy: 100.00%
+  Entities: 1,240 (Accurate: 1,240, Inaccurate: 0)
+
+application_security_entities.jsonl
+  Accuracy: 100.00%
+  Entities: 1,052 (Accurate: 1,052, Inaccurate: 0)
+
+audit_compliance_entities.jsonl
+  Accuracy: 100.00%
+  Entities: 1,108 (Accurate: 1,108, Inaccurate: 0)
+
+authentication_entities.jsonl
+  Accuracy: 100.00%
+  Entities: 1,316 (Accurate: 1,316, Inaccurate: 0)
+
+authorization_entities.jsonl
+  Accuracy: 100.00%
+  Entities: 1,356 (Accurate: 1,356, Inaccurate: 0)
+
+container_security_entities.jsonl
+  Accuracy: 100.00%
+  Entities: 1,504 (Accurate: 1,504, Inaccurate: 0)
+
+data_privacy_sovereignty_entities.jsonl
+  Accuracy: 100.00%
+  Entities: 1,168 (Accurate: 1,168, Inaccurate: 0)
+
+data_protection_backup_entities.jsonl
+  Accuracy: 100.00%
+  Entities: 1,580 (Accurate: 1,580, Inaccurate: 0)
+
+detection_correlation_entities.jsonl
+  Accuracy: 100.00%
+  Entities: 1,232 (Accurate: 1,232, Inaccurate: 0)
+
+disaster_recovery_entities.jsonl
+  Accuracy: 100.00%
+  Entities: 1,244 (Accurate: 1,244, Inaccurate: 0)
+
+due_diligence_entities.jsonl
+  Accuracy: 100.00%
+  Entities: 392 (Accurate: 392, Inaccurate: 0)
+
+encryption_entities.jsonl
+  Accuracy: 100.00%
+  Entities: 1,624 (Accurate: 1,624, Inaccurate: 0)
+
+endpoint_security_entities.jsonl
+  Accuracy: 100.00%
+  Entities: 1,560 (Accurate: 1,560, Inaccurate: 0)
+
+governance_risk_strategy_entities.jsonl
+  Accuracy: 100.00%
+  Entities: 1,380 (Accurate: 1,380, Inaccurate: 0)
+
+identity_governance_iga_entities.jsonl
+  Accuracy: 100.00%
+  Entities: 480 (Accurate: 480, Inaccurate: 0)
+
+incident_response_entities.jsonl
+  Accuracy: 100.00%
+  Entities: 376 (Accurate: 376, Inaccurate: 0)
+
+ai-int_entities.jsonl
+  Accuracy: 100.00%
+  Entities: 3,340 (Accurate: 3,340, Inaccurate: 0)
+
+comint_entities.jsonl
+  Accuracy: 100.00%
+  Entities: 2,288 (Accurate: 2,288, Inaccurate: 0)
+
+digint_entities.jsonl
+  Accuracy: 100.00%
+  Entities: 2,548 (Accurate: 2,548, Inaccurate: 0)
+
+dnint_entities.jsonl
+  Accuracy: 100.00%
+  Entities: 2,424 (Accurate: 2,424, Inaccurate: 0)
+
+ecoint_entities.jsonl
+  Accuracy: 100.00%
+  Entities: 2,624 (Accurate: 2,624, Inaccurate: 0)
+
+eduint_entities.jsonl
+  Accuracy: 100.00%
+  Entities: 1,728 (Accurate: 1,728, Inaccurate: 0)
+
+humint_entities.jsonl
+  Accuracy: 100.00%
+  Entities: 3,680 (Accurate: 3,680, Inaccurate: 0)
+
+imint_entities.jsonl
+  Accuracy: 100.00%
+  Entities: 2,252 (Accurate: 2,252, Inaccurate: 0)
+
+infint_entities.jsonl
+  Accuracy: 100.00%
+  Entities: 1,848 (Accurate: 1,848, Inaccurate: 0)
+
+legint_entities.jsonl
+  Accuracy: 100.00%
+  Entities: 2,020 (Accurate: 2,020, Inaccurate: 0)
+
+masint_entities.jsonl
+  Accuracy: 100.00%
+  Entities: 2,080 (Accurate: 2,080, Inaccurate: 0)
+
+medint_entities.jsonl
+  Accuracy: 100.00%
+  Entities: 1,344 (Accurate: 1,344, Inaccurate: 0)
+
+natint_entities.jsonl
+  Accuracy: 100.00%
+  Entities: 1,744 (Accurate: 1,744, Inaccurate: 0)
+
+orbint_entities.jsonl
+  Accuracy: 100.00%
+  Entities: 1,868 (Accurate: 1,868, Inaccurate: 0)
+
+sigint_entities.jsonl
+  Accuracy: 100.00%
+  Entities: 1,820 (Accurate: 1,820, Inaccurate: 0)
+
+socmint_entities.jsonl
+  Accuracy: 100.00%
+  Entities: 1,688 (Accurate: 1,688, Inaccurate: 0)
+
+techint_entities.jsonl
+  Accuracy: 100.00%
+  Entities: 2,072 (Accurate: 2,072, Inaccurate: 0)
+
+threat_intel_entities.jsonl
+  Accuracy: 100.00%
+  Entities: 1,516 (Accurate: 1,516, Inaccurate: 0)
+
+tradint_entities.jsonl
+  Accuracy: 100.00%
+  Entities: 1,944 (Accurate: 1,944, Inaccurate: 0)
+
+vatint_entities.jsonl
+  Accuracy: 100.00%
+  Entities: 2,280 (Accurate: 2,280, Inaccurate: 0)
+
+ot_ics_physical_security_entities.jsonl
+  Accuracy: 100.00%
+  Entities: 500 (Accurate: 500, Inaccurate: 0)
+
+security_awareness_training_entities.jsonl
+  Accuracy: 100.00%
+  Entities: 1,192 (Accurate: 1,192, Inaccurate: 0)
+
+threat_intelligence_entities.jsonl
+  Accuracy: 100.00%
+  Entities: 1,224 (Accurate: 1,224, Inaccurate: 0)
+
+vendor_mgmt_entities.jsonl
+  Accuracy: 100.00%
+  Entities: 468 (Accurate: 468, Inaccurate: 0)
+
+vulnerability_mgmt_entities.jsonl
+  Accuracy: 100.00%
+  Entities: 1,408 (Accurate: 1,408, Inaccurate: 0)
+
+
+Detailed report saved to: cyber-train/BOUNDARY_ACCURACY_REPORT.json
+
+================================================================================
+FINAL RESULT: 99.77% BOUNDARY ACCURACY
+================================================================================

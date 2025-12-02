@@ -1,0 +1,458 @@
+{"text": "ScoutSuite multi-cloud scanner assessed Azure and GCP configurations", "entities": [[11, 20, "SCANNER_TYPE"]]}
+{"text": "Cloud Forensics Toolkit captured snapshots logs and memory for incident investigation", "entities": [[0, 4, "CLOUD_TYPE"]]}
+{"text": "Cloud drift detection identified 12 configuration mismatches and 5 shadow accounts", "entities": [[0, 5, "CLOUD_TYPE"], [12, 21, "DETECTION_TYPE"], [53, 60, "ACCOUNT_TYPE"]]}
+{"text": "GitHub GitLab Integrator automated IaC security scanning in CI/CD pipelines", "entities": [[14, 24, "INTEGRATOR_TYPE"]]}
+{"text": "Prowler AWS security scanner found 8 critical misconfigurations in production", "entities": [[8, 11, "CLOUD_PROVIDER"], [21, 28, "SCANNER_TYPE"], [37, 45, "SEVERITY_TYPE"], [46, 61, "MISCONFIGURATION_TYPE"]]}
+{"text": "Cloud DLP Tool scanned 220 S3 buckets finding 6 PII exposures and 9 missing encryption", "entities": []}
+{"text": "CWPP Tool scanned 900 workloads finding 18 critical vulnerabilities and 15 runtime alerts", "entities": []}
+{"text": "Cloud Forensics Toolkit captured 12 snapshots and 3 timelines for incident investigation", "entities": [[0, 22, "TOOL"]]}
+{"text": "Reporting Dashboard Tool generated CNAPP KPIs showing CSPM CIEM and compliance scores", "entities": [[0, 24, "TOOL"]]}
+{"text": "Checkov IaC security scanner validated Terraform templates against 200 policies", "entities": []}
+{"text": "Cloud Security Strategist defined CNAPP policy covering CSPM CWPP CIEM IaC and Kubernetes", "entities": []}
+{"text": "OPA Gatekeeper enforced policy-as-code blocking non-compliant cloud deployments", "entities": []}
+{"text": "Network Policy Evaluator identified 12 missing network policies in Kubernetes", "entities": [[0, 24, "TOOL"]]}
+{"text": "Infrastructure-as-Code Security Engineer scanned Terraform CloudFormation and Kubernetes manifests", "entities": [[0, 40, "ROLE"], [49, 58, "INFRASTRUCTURE_TYPE"], [59, 62, "CODE_TYPE"]]}
+{"text": "CSPM tool detected misconfigured datacenter resources. Nameserver configuration issues found in eu-central-1 datacenter.", "entities": [[33, 43, "DATACENTER"], [44, 53, "RESOURCE_TYPE"], [55, 65, "NAMESERVER"]]}
+{"text": "AI Security Scanner detected prompt injection risk in 5 cloud-hosted models", "entities": [[61, 68, "MODEL_TYPE"], [69, 75, "HOSTING_TYPE"]]}
+{"text": "Kubernetes Container-Native Security Engineer analyzed RBAC namespaces and network policies", "entities": [[0, 45, "ROLE"], [55, 65, "PLATFORM_TYPE"]]}
+{"text": "Hunt Playbook Tool conducted 15 threat hunts finding 4 incidents", "entities": [[0, 18, "TOOL"]]}
+{"text": "Prompt Injection Detector blocked 12 malicious prompts targeting GPT-4 API", "entities": [[0, 23, "TOOL"]]}
+{"text": "Prisma Cloud CNAPP platform unified CSPM CWPP CIEM and IaC security", "entities": [[7, 12, "CLOUD_PROVIDER"]]}
+{"text": "Serverless security coverage achieved 88% for Lambda Azure Functions and GCP", "entities": [[0, 18, "SECURITY_TYPE"]]}
+{"text": "Compliance Mapping Tool aligned cloud security controls to SOC2 PCI DSS and ISO 27017", "entities": []}
+{"text": "Log Timeline Builder reconstructed attack timeline from cloud logs", "entities": [[0, 3, "LOG_TYPE"], [4, 18, "TOOL"], [26, 33, "BUILDER_TYPE"], [42, 48, "ATTACK_TYPE"]]}
+{"text": "Cloud SIEM Tool correlated security events from multiple cloud providers", "entities": [[0, 4, "CLOUD_TYPE"]]}
+{"text": "Zero Trust Architect Tool designed zero trust architecture for multi-cloud environments", "entities": []}
+{"text": "Hunt Playbook Tool automated threat hunting workflows for cloud environments", "entities": [[46, 52, "THREAT_TYPE"]]}
+{"text": "IAM Analyzer detected excessive S3 permissions on 45 service accounts", "entities": [[0, 12, "TOOL"]]}
+{"text": "Compliance Mapping Tool aligned cloud security controls to SOC2 PCI DSS and ISO 27017", "entities": []}
+{"text": "Cloud datacenter located at elevation 100 meters. AWS region coordinates: latitude 37.5665, longitude 126.9780, altitude 20m. Infrastructure scan completed.", "entities": [[0, 5, "CLOUD_TYPE"], [6, 16, "DATACENTER"]]}
+{"text": "OPA Gatekeeper enforced compliance-as-code blocking 18 policy violations", "entities": []}
+{"text": "K8s Security Scanner analyzed 40 clusters finding 10 critical RBAC issues", "entities": [[0, 20, "TOOL"], [33, 41, "CLUSTER_TYPE"], [53, 60, "SEVERITY_TYPE"], [62, 65, "AUTH_TYPE"]]}
+{"text": "Prisma Cloud CSPM identified insecure S3 bucket with public read access", "entities": [[0, 12, "TOOL"], [31, 40, "CONFIGURATION_TYPE"]]}
+{"text": "Threat Intel Integrator ingested 4 cloud-specific feeds mapping 15 threats", "entities": []}
+{"text": "Microsoft Defender for Cloud protected Azure AWS and GCP resources", "entities": []}
+{"text": "AWS Security Hub aggregated security findings from multiple AWS services", "entities": [[0, 3, "CLOUD_PROVIDER"], [37, 44, "FINDING_TYPE"]]}
+{"text": "Cloud security scan found datacenter us-west-2 hosting S3 buckets. Location: AWS datacenter at latitude 37.7749, longitude -122.4194.", "entities": [[0, 5, "CLOUD_TYPE"], [83, 91, "LATITUDE"]]}
+{"text": "RBAC Analyzer detected namespace privilege escalation in production cluster", "entities": [[0, 12, "TOOL"], [60, 67, "CLUSTER_TYPE"]]}
+{"text": "Cloud Policy Generator created CNAPP policies with CSPM CWPP CIEM and IaC requirements", "entities": [[0, 22, "TOOL"], [24, 29, "CLOUD_TYPE"]]}
+{"text": "Cloud data exposure incidents reduced to 6 PII leaks from 220 scanned buckets", "entities": [[0, 5, "CLOUD_TYPE"], [12, 19, "EXPOSURE_TYPE"]]}
+{"text": "Compliance Dashboard Tool displayed CSPM scores and remediation status", "entities": []}
+{"text": "Log Timeline Builder reconstructed attack timeline from cloud logs", "entities": [[0, 3, "LOG_TYPE"], [4, 18, "TOOL"], [26, 33, "BUILDER_TYPE"], [42, 48, "ATTACK_TYPE"]]}
+{"text": "Snapshot Collector preserved 8 EC2 instance snapshots for forensic analysis", "entities": [[0, 18, "TOOL"]]}
+{"text": "Threat Intel Integrator ingested cloud-specific threat intelligence feeds", "entities": [[34, 43, "INTEGRATOR_TYPE"]]}
+{"text": "Cloud Threat Hunter hunted for adversarial behavior across CSPM CWPP CIEM and TI feeds", "entities": [[0, 19, "ROLE"], [20, 25, "CLOUD_TYPE"], [33, 39, "HUNTER_TYPE"]]}
+{"text": "CIEM Tool analyzed 2500 identities finding 180 over-privileged and 15 toxic combinations", "entities": []}
+{"text": "CIEM Tool analyzed 2500 identities finding 180 over-privileged and 15 toxic combinations", "entities": []}
+{"text": "Multi-cloud datacenter at elevation 75m above sea level. Coordinates: latitude 35.6762, longitude 139.6503, altitude 12m. Security posture assessed.", "entities": [[0, 10, "CLOUD_TYPE"], [12, 21, "DATACENTER"], [26, 35, "ELEVATION"], [46, 56, "COORDINATE"], [66, 75, "LONGITUDE"], [98, 105, "POSTURE_TYPE"]]}
+{"text": "Microsoft Defender for Cloud protected Azure AWS and GCP resources", "entities": []}
+{"text": "Container Runtime Monitor detected 30 attacks blocking 25 with 3 false positives", "entities": [[0, 25, "TOOL"]]}
+{"text": "Cloud DLP Tool scanned 220 S3 buckets finding 6 PII exposures and 9 missing encryption", "entities": []}
+{"text": "Azure Security Center monitored cloud security posture and compliance", "entities": [[0, 5, "CLOUD_PROVIDER"], [32, 37, "CLOUD_TYPE"], [48, 54, "POSTURE_TYPE"]]}
+{"text": "Identity Graph Tool mapped 12 IAM attack paths with 4 critical privilege escalation routes", "entities": []}
+{"text": "RBAC Analyzer detected namespace privilege escalation in production cluster", "entities": [[0, 12, "TOOL"], [60, 67, "CLUSTER_TYPE"]]}
+{"text": "Cloud security compliance score improved to 92% meeting SOC2 and ISO 27017", "entities": [[0, 13, "SECURITY_TYPE"], [44, 47, "FRAMEWORK"]]}
+{"text": "IAM Analyzer detected excessive S3 permissions on 45 service accounts", "entities": [[0, 12, "TOOL"]]}
+{"text": "Kubernetes Container-Native Security Engineer analyzed RBAC namespaces and network policies", "entities": [[0, 45, "ROLE"], [55, 65, "PLATFORM_TYPE"]]}
+{"text": "Cloud security scan found datacenter us-west-2 hosting S3 buckets. Location: AWS datacenter at latitude 37.7749, longitude -122.4194.", "entities": [[0, 5, "CLOUD_TYPE"], [83, 91, "LATITUDE"]]}
+{"text": "IAM risk reduction achieved 35% decrease in over-privileged identities", "entities": [[0, 3, "AUTH_TYPE"], [4, 8, "RISK_TYPE"], [9, 16, "REDUCTION_TYPE"]]}
+{"text": "Cloud Security Auditor validated compliance with SOC2 PCI DSS and ISO 27017", "entities": [[0, 22, "ROLE"], [52, 61, "COMPLIANCE_TYPE"]]}
+{"text": "Cloud Security Strategist defined CNAPP policy covering CSPM CWPP CIEM IaC and Kubernetes", "entities": []}
+{"text": "Microsoft Defender for Cloud protected Azure AWS and GCP resources", "entities": []}
+{"text": "IaC Scanner found 16 critical issues in 600 Terraform and CloudFormation files", "entities": [[0, 11, "TOOL"], [60, 72, "INFRASTRUCTURE_TYPE"]]}
+{"text": "Orca Security CNAPP platform provided cloud security posture management", "entities": [[54, 60, "POSTURE_TYPE"], [61, 70, "MANAGEMENT_TYPE"]]}
+{"text": "Policy-as-Code Tool auto-fixed 60 IaC misconfigurations creating 12 pull requests", "entities": []}
+{"text": "Multi-cloud datacenter at elevation 75m above sea level. Coordinates: latitude 35.6762, longitude 139.6503, altitude 12m. Security posture assessed.", "entities": [[0, 10, "CLOUD_TYPE"], [12, 21, "DATACENTER"], [26, 35, "ELEVATION"], [46, 56, "COORDINATE"], [66, 75, "LONGITUDE"], [98, 105, "POSTURE_TYPE"]]}
+{"text": "CSPM Tool scanned 180 cloud accounts detecting 25 critical and 80 high severity issues", "entities": []}
+{"text": "Cloud DLP Tool scanned 220 S3 buckets finding 6 PII exposures and 9 missing encryption", "entities": []}
+{"text": "Wiz CNAPP platform detected misconfiguration in 25 AWS accounts requiring remediation", "entities": []}
+{"text": "Infrastructure-as-Code Security Engineer scanned Terraform CloudFormation and Kubernetes manifests", "entities": [[0, 40, "ROLE"], [49, 58, "INFRASTRUCTURE_TYPE"], [59, 62, "CODE_TYPE"]]}
+{"text": "Cloud SIEM Tool correlated security events from CSPM CWPP and CIEM tools", "entities": [[0, 4, "CLOUD_TYPE"]]}
+{"text": "Cloud DLP Tool scanned 220 S3 buckets finding 6 PII exposures and 9 missing encryption", "entities": []}
+{"text": "Cloud Security Strategist defined CNAPP policy covering CSPM CWPP CIEM IaC and Kubernetes", "entities": []}
+{"text": "Cloud SIEM Tool correlated security events from multiple cloud providers", "entities": [[0, 4, "CLOUD_TYPE"]]}
+{"text": "CSPM Tool scanned 180 cloud accounts detecting 25 critical and 80 high severity issues", "entities": []}
+{"text": "IaC Scanner found 16 critical issues in 600 Terraform and CloudFormation files", "entities": [[0, 11, "TOOL"], [60, 72, "INFRASTRUCTURE_TYPE"]]}
+{"text": "Palo Alto Prisma Cloud secured multi-cloud environments with unified visibility", "entities": [[17, 21, "CLOUD_PROVIDER"], [46, 55, "ENVIRONMENT_TYPE"]]}
+{"text": "Snapshot Collector preserved 8 EC2 instance snapshots for forensic analysis", "entities": [[0, 18, "TOOL"]]}
+{"text": "Wiz CNAPP platform detected misconfiguration in 25 AWS accounts requiring remediation", "entities": []}
+{"text": "Prompt Injection Detector blocked 12 malicious prompts targeting GPT-4 API", "entities": [[0, 23, "TOOL"]]}
+{"text": "Snapshot Collector preserved cloud instance snapshots for forensic analysis", "entities": [[0, 18, "TOOL"], [19, 28, "COLLECTOR_TYPE"]]}
+{"text": "IAM Analyzer detected excessive S3 permissions on 45 service accounts", "entities": [[0, 12, "TOOL"]]}
+{"text": "K8s Security Scanner analyzed 40 clusters finding 10 critical RBAC issues", "entities": [[0, 20, "TOOL"], [33, 41, "CLUSTER_TYPE"], [53, 60, "SEVERITY_TYPE"], [62, 65, "AUTH_TYPE"]]}
+{"text": "Prisma Cloud CNAPP platform unified CSPM CWPP CIEM and IaC security", "entities": [[7, 12, "CLOUD_PROVIDER"]]}
+{"text": "Attack Path Simulator identified lateral movement risk from compromised EC2 instance", "entities": [[0, 20, "TOOL"], [29, 40, "ATTACK_TYPE"], [41, 45, "PATH_TYPE"], [52, 59, "RISK_TYPE"]]}
+{"text": "Checkov IaC security scanner validated Terraform templates against 200 policies", "entities": []}
+{"text": "Prompt Injection Detector blocked 12 malicious prompts targeting GPT-4 API", "entities": [[0, 23, "TOOL"]]}
+{"text": "Log Timeline Builder reconstructed attack sequence from cloud provider logs", "entities": [[0, 20, "TOOL"]]}
+{"text": "Kubernetes Container-Native Security Engineer analyzed RBAC namespaces and network policies", "entities": [[0, 45, "ROLE"], [55, 65, "PLATFORM_TYPE"]]}
+{"text": "Azure Security Center monitored cloud security posture and compliance", "entities": [[0, 5, "CLOUD_PROVIDER"], [32, 37, "CLOUD_TYPE"], [48, 54, "POSTURE_TYPE"]]}
+{"text": "Cloud SIEM Tool correlated security events from CSPM CWPP and CIEM tools", "entities": [[0, 4, "CLOUD_TYPE"]]}
+{"text": "Wiz CNAPP platform detected cloud misconfigurations and workload vulnerabilities", "entities": [[67, 80, "VULNERABILITY_TYPE"]]}
+{"text": "Cloud Provider APIs retrieved configuration data from AWS Azure and GCP accounts", "entities": [[0, 5, "CLOUD_TYPE"], [6, 14, "PROVIDER_TYPE"], [15, 18, "API_TYPE"]]}
+{"text": "Cloud DLP Tool scanned 220 S3 buckets finding 6 PII exposures and 9 missing encryption", "entities": []}
+{"text": "Serverless security coverage achieved 88% for Lambda Azure Functions and GCP", "entities": [[0, 18, "SECURITY_TYPE"]]}
+{"text": "Cloud Forensics Toolkit captured snapshots logs and memory for incident investigation", "entities": [[0, 4, "CLOUD_TYPE"]]}
+{"text": "Lacework cloud security platform monitored 500 workloads with anomaly detection", "entities": [[9, 23, "SECURITY_TYPE"]]}
+{"text": "AI/LLM cloud security risks identified 4 issues in 5 scanned models", "entities": []}
+{"text": "Cloud security training completion reached 90% for all cloud engineers", "entities": [[0, 13, "SECURITY_TYPE"], [24, 32, "COMPLETION_TYPE"]]}
+{"text": "Compliance Mapping Tool aligned cloud security controls to SOC2 PCI DSS and ISO 27017", "entities": []}
+{"text": "K8s Security Scanner analyzed 40 clusters finding 10 critical RBAC issues", "entities": [[0, 20, "TOOL"], [33, 41, "CLUSTER_TYPE"], [53, 60, "SEVERITY_TYPE"], [62, 65, "AUTH_TYPE"]]}
+{"text": "Cloud drift detection identified 12 configuration mismatches and 5 shadow accounts", "entities": [[0, 5, "CLOUD_TYPE"], [12, 21, "DETECTION_TYPE"], [53, 60, "ACCOUNT_TYPE"]]}
+{"text": "Evidence Packaging Tool compiled audit evidence for SOC2 certification", "entities": []}
+{"text": "Cloud security compliance score improved to 92% meeting SOC2 and ISO 27017", "entities": [[0, 13, "SECURITY_TYPE"], [44, 47, "FRAMEWORK"]]}
+{"text": "Cloud Security Program Strategist defined CNAPP strategy covering CSPM CWPP CIEM IaC Kubernetes", "entities": [[0, 33, "ROLE"], [42, 46, "POLICY_TYPE"]]}
+{"text": "Lacework cloud security platform monitored 500 workloads with anomaly detection", "entities": [[9, 23, "SECURITY_TYPE"]]}
+{"text": "Cloud security false positive rate reduced to 1.5% improving alert accuracy", "entities": [[0, 13, "SECURITY_TYPE"], [15, 29, "METRIC_TYPE"], [46, 50, "ALERT_TYPE"]]}
+{"text": "Cloud security false positive rate reduced to 1.5% improving alert accuracy", "entities": [[0, 13, "SECURITY_TYPE"], [15, 29, "METRIC_TYPE"], [46, 50, "ALERT_TYPE"]]}
+{"text": "Multi-cloud drift detection identified 8 configuration mismatches across AWS and Azure", "entities": [[0, 10, "CLOUD_TYPE"], [18, 25, "DETECTION_TYPE"]]}
+{"text": "Wiz CNAPP platform detected misconfiguration in 25 AWS accounts requiring remediation", "entities": []}
+{"text": "Snapshot Collector preserved cloud instance snapshots for forensic analysis", "entities": [[0, 18, "TOOL"], [19, 28, "COLLECTOR_TYPE"]]}
+{"text": "Cloud data exposure incidents reduced to 6 PII leaks from 220 scanned buckets", "entities": [[0, 5, "CLOUD_TYPE"], [12, 19, "EXPOSURE_TYPE"]]}
+{"text": "CIEM Tool analyzed 2500 identities finding 180 over-privileged and 15 toxic combinations", "entities": []}
+{"text": "Kubernetes security coverage reached 95% with Pod Security Standards enforced", "entities": [[0, 19, "PLATFORM_TYPE"]]}
+{"text": "Cloud Forensics Toolkit captured 12 snapshots and 3 timelines for incident investigation", "entities": [[0, 22, "TOOL"]]}
+{"text": "Cloud Policy Generator created CNAPP policies with CSPM CWPP CIEM and IaC requirements", "entities": [[0, 22, "TOOL"], [24, 29, "CLOUD_TYPE"]]}
+{"text": "Cloud DLP Tool scanned 220 S3 buckets finding 6 PII exposures and 9 missing encryption", "entities": []}
+{"text": "AI Security Scanner detected prompt injection risk in 5 cloud-hosted models", "entities": [[61, 68, "MODEL_TYPE"], [69, 75, "HOSTING_TYPE"]]}
+{"text": "RBAC Analyzer detected namespace privilege escalation in production cluster", "entities": [[0, 12, "TOOL"], [60, 67, "CLUSTER_TYPE"]]}
+{"text": "Cloud Security Program Strategist defined CNAPP strategy covering CSPM CWPP CIEM IaC Kubernetes", "entities": [[0, 33, "ROLE"], [42, 46, "POLICY_TYPE"]]}
+{"text": "Hunt Playbook Tool automated threat hunting workflows for cloud environments", "entities": [[46, 52, "THREAT_TYPE"]]}
+{"text": "Audit Checklist Tool validated cloud security controls against compliance frameworks", "entities": []}
+{"text": "CWPP Tool scanned 900 workloads finding 18 critical vulnerabilities and 15 runtime alerts", "entities": []}
+{"text": "AI LLM Cloud Security Analyst secured AI ML workloads against prompt injection and data poisoning", "entities": []}
+{"text": "Cloud datacenter located at elevation 100 meters. AWS region coordinates: latitude 37.5665, longitude 126.9780, altitude 20m. Infrastructure scan completed.", "entities": [[0, 5, "CLOUD_TYPE"], [6, 16, "DATACENTER"]]}
+{"text": "Serverless Security Tool scanned Lambda Azure Functions and GCP Cloud Functions", "entities": []}
+{"text": "Cloud Provider APIs retrieved configuration data from AWS Azure and GCP accounts", "entities": [[0, 5, "CLOUD_TYPE"], [6, 14, "PROVIDER_TYPE"], [15, 18, "API_TYPE"]]}
+{"text": "Orca Security CWPP detected runtime vulnerability in container workload", "entities": [[0, 12, "TOOL"]]}
+{"text": "Lacework CNAPP platform monitored cloud workloads and container security", "entities": [[45, 53, "WORKLOAD_TYPE"]]}
+{"text": "Lacework CNAPP platform monitored cloud workloads and container security", "entities": [[45, 53, "WORKLOAD_TYPE"]]}
+{"text": "Network Policy Evaluator identified 12 missing network policies in Kubernetes", "entities": [[0, 24, "TOOL"]]}
+{"text": "Evidence Packaging Tool compiled cloud security evidence for external audits", "entities": []}
+{"text": "OPA Gatekeeper enforced policy-as-code blocking non-compliant cloud deployments", "entities": []}
+{"text": "AI Security Scanner detected prompt injection risk in 5 cloud-hosted models", "entities": [[61, 68, "MODEL_TYPE"], [69, 75, "HOSTING_TYPE"]]}
+{"text": "IAM Analyzer detected excessive S3 permissions on 45 service accounts", "entities": [[0, 12, "TOOL"]]}
+{"text": "K8s Security Scanner analyzed 40 clusters finding 10 critical RBAC issues", "entities": [[0, 20, "TOOL"], [33, 41, "CLUSTER_TYPE"], [53, 60, "SEVERITY_TYPE"], [62, 65, "AUTH_TYPE"]]}
+{"text": "Cloud Security Posture Management Engineer detected misconfigurations across AWS Azure and GCP", "entities": [[0, 40, "ROLE"]]}
+{"text": "Infrastructure-as-Code Security Engineer scanned Terraform CloudFormation and Kubernetes manifests", "entities": [[0, 40, "ROLE"], [49, 58, "INFRASTRUCTURE_TYPE"], [59, 62, "CODE_TYPE"]]}
+{"text": "CIEM Tool analyzed 2500 identities finding 180 over-privileged and 15 toxic combinations", "entities": []}
+{"text": "Snapshot Collector preserved 8 EC2 instance snapshots for forensic analysis", "entities": [[0, 18, "TOOL"]]}
+{"text": "Zero Trust Architect Tool designed zero trust architecture for multi-cloud environments", "entities": []}
+{"text": "Cloud SIEM Tool correlated security events from CSPM CWPP and CIEM tools", "entities": [[0, 4, "CLOUD_TYPE"]]}
+{"text": "CSPM tool detected misconfigured datacenter resources. Nameserver configuration issues found in eu-central-1 datacenter.", "entities": [[33, 43, "DATACENTER"], [44, 53, "RESOURCE_TYPE"], [55, 65, "NAMESERVER"]]}
+{"text": "Prompt Injection Detector blocked 12 malicious prompts targeting GPT-4 API", "entities": [[0, 23, "TOOL"]]}
+{"text": "Cloud SIEM Tool correlated security events from multiple cloud providers", "entities": [[0, 4, "CLOUD_TYPE"]]}
+{"text": "Threat Intel Integrator ingested cloud-specific threat intelligence feeds", "entities": [[34, 43, "INTEGRATOR_TYPE"]]}
+{"text": "AI Security Scanner detected prompt injection risk in 5 cloud-hosted models", "entities": [[61, 68, "MODEL_TYPE"], [69, 75, "HOSTING_TYPE"]]}
+{"text": "Lacework cloud security platform monitored 500 workloads with anomaly detection", "entities": [[9, 23, "SECURITY_TYPE"]]}
+{"text": "SaaS Security API detected sensitive data in Office 365 requiring encryption", "entities": [[0, 17, "TOOL"], [30, 41, "DATA_TYPE"]]}
+{"text": "Serverless Security Tool scanned Lambda Azure Functions and GCP Cloud Functions", "entities": []}
+{"text": "AWS Security Hub aggregated security findings from multiple AWS services", "entities": [[0, 3, "CLOUD_PROVIDER"], [37, 44, "FINDING_TYPE"]]}
+{"text": "Identity Graph Tool mapped 12 IAM attack paths with 4 critical privilege escalation routes", "entities": []}
+{"text": "Palo Alto Prisma Cloud secured multi-cloud environments with unified visibility", "entities": [[17, 21, "CLOUD_PROVIDER"], [46, 55, "ENVIRONMENT_TYPE"]]}
+{"text": "AWS Security Hub aggregated security findings from multiple AWS services", "entities": [[0, 3, "CLOUD_PROVIDER"], [37, 44, "FINDING_TYPE"]]}
+{"text": "IAM Analyzer detected excessive S3 permissions on 45 service accounts", "entities": [[0, 12, "TOOL"]]}
+{"text": "AI/LLM cloud security risks identified 4 issues in 5 scanned models", "entities": []}
+{"text": "Model Abuse Monitor detected unauthorized API access to cloud-hosted AI models", "entities": [[0, 19, "TOOL"]]}
+{"text": "Cloud Security Program Strategist defined CNAPP strategy covering CSPM CWPP CIEM IaC Kubernetes", "entities": [[0, 33, "ROLE"], [42, 46, "POLICY_TYPE"]]}
+{"text": "Cloud Threat Hunter hunted for adversarial behavior across CSPM CWPP CIEM and TI feeds", "entities": [[0, 19, "ROLE"], [20, 25, "CLOUD_TYPE"], [33, 39, "HUNTER_TYPE"]]}
+{"text": "AI LLM Cloud Security Analyst secured AI ML workloads against prompt injection and data poisoning", "entities": []}
+{"text": "Threat Intel Integrator ingested 4 cloud-specific feeds mapping 15 threats", "entities": []}
+{"text": "Cloud Security Program Strategist defined CNAPP strategy covering CSPM CWPP CIEM IaC Kubernetes", "entities": [[0, 33, "ROLE"], [42, 46, "POLICY_TYPE"]]}
+{"text": "Policy-as-Code Tool auto-fixed 60 IaC misconfigurations creating 12 pull requests", "entities": []}
+{"text": "Multi-cloud drift detection identified 8 configuration mismatches across AWS and Azure", "entities": [[0, 10, "CLOUD_TYPE"], [18, 25, "DETECTION_TYPE"]]}
+{"text": "Policy-as-Code Tool auto-fixed 60 IaC misconfigurations creating 12 pull requests", "entities": []}
+{"text": "Cloud Threat Hunter hunted for adversarial behavior across CSPM CWPP CIEM and TI feeds", "entities": [[0, 19, "ROLE"], [20, 25, "CLOUD_TYPE"], [33, 39, "HUNTER_TYPE"]]}
+{"text": "Cloud drift detection identified 12 configuration mismatches and 5 shadow accounts", "entities": [[0, 5, "CLOUD_TYPE"], [12, 21, "DETECTION_TYPE"], [53, 60, "ACCOUNT_TYPE"]]}
+{"text": "Threat Intel Integrator ingested 4 cloud-specific feeds mapping 15 threats", "entities": []}
+{"text": "CWPP Tool scanned 900 workloads finding 18 critical vulnerabilities and 15 runtime alerts", "entities": []}
+{"text": "ScoutSuite multi-cloud scanner assessed Azure and GCP configurations", "entities": [[11, 20, "SCANNER_TYPE"]]}
+{"text": "RBAC Analyzer detected namespace privilege escalation in production cluster", "entities": [[0, 12, "TOOL"], [60, 67, "CLUSTER_TYPE"]]}
+{"text": "Lacework cloud security platform monitored 500 workloads with anomaly detection", "entities": [[9, 23, "SECURITY_TYPE"]]}
+{"text": "IAM risk reduction achieved 35% decrease in over-privileged identities", "entities": [[0, 3, "AUTH_TYPE"], [4, 8, "RISK_TYPE"], [9, 16, "REDUCTION_TYPE"]]}
+{"text": "Attack Path Simulator identified lateral movement risk from compromised EC2 instance", "entities": [[0, 20, "TOOL"], [29, 40, "ATTACK_TYPE"], [41, 45, "PATH_TYPE"], [52, 59, "RISK_TYPE"]]}
+{"text": "Kubernetes security coverage reached 95% with Pod Security Standards enforced", "entities": [[0, 19, "PLATFORM_TYPE"]]}
+{"text": "Orca Security CNAPP platform provided cloud security posture management", "entities": [[54, 60, "POSTURE_TYPE"], [61, 70, "MANAGEMENT_TYPE"]]}
+{"text": "Attack Path Simulator identified lateral movement risk from compromised EC2 instance", "entities": [[0, 20, "TOOL"], [29, 40, "ATTACK_TYPE"], [41, 45, "PATH_TYPE"], [52, 59, "RISK_TYPE"]]}
+{"text": "CWPP Tool scanned 900 workloads finding 18 critical vulnerabilities and 15 runtime alerts", "entities": []}
+{"text": "Identity Graph Tool mapped 12 IAM attack paths with 4 critical privilege escalation routes", "entities": []}
+{"text": "K8s Security Scanner analyzed 40 clusters finding 10 critical RBAC issues", "entities": [[0, 20, "TOOL"], [33, 41, "CLUSTER_TYPE"], [53, 60, "SEVERITY_TYPE"], [62, 65, "AUTH_TYPE"]]}
+{"text": "Cloud Workload Protection Engineer secured VMs containers and serverless workloads", "entities": [[0, 33, "ROLE"]]}
+{"text": "Cloud security false positive rate reduced to 1.5% improving alert accuracy", "entities": [[0, 13, "SECURITY_TYPE"], [15, 29, "METRIC_TYPE"], [46, 50, "ALERT_TYPE"]]}
+{"text": "CSPM Tool scanned 180 cloud accounts detecting 25 critical and 80 high severity issues", "entities": []}
+{"text": "CIEM Tool analyzed 2500 identities finding 180 over-privileged and 15 toxic combinations", "entities": []}
+{"text": "CSPM tool detected misconfigured datacenter resources. Nameserver configuration issues found in eu-central-1 datacenter.", "entities": [[33, 43, "DATACENTER"], [44, 53, "RESOURCE_TYPE"], [55, 65, "NAMESERVER"]]}
+{"text": "Cloud SIEM Tool correlated CSPM and CWPP alerts identifying coordinated attack", "entities": [[0, 15, "TOOL"], [41, 47, "ALERT_TYPE"]]}
+{"text": "Hunt Playbook Tool automated threat hunting workflows for cloud environments", "entities": [[46, 52, "THREAT_TYPE"]]}
+{"text": "Zero Trust Architect Tool designed zero trust architecture for multi-cloud environments", "entities": []}
+{"text": "AWS Security Hub aggregated security findings from multiple AWS services", "entities": [[0, 3, "CLOUD_PROVIDER"], [37, 44, "FINDING_TYPE"]]}
+{"text": "Evidence Packaging Tool compiled cloud security evidence for external audits", "entities": []}
+{"text": "Threat Intel Integrator ingested 4 cloud-specific feeds mapping 15 threats", "entities": []}
+{"text": "RBAC Analyzer detected namespace privilege escalation in production cluster", "entities": [[0, 12, "TOOL"], [60, 67, "CLUSTER_TYPE"]]}
+{"text": "Identity Graph Tool mapped 12 IAM attack paths with 4 critical privilege escalation routes", "entities": []}
+{"text": "IAM Analyzer detected excessive S3 permissions on 45 service accounts", "entities": [[0, 12, "TOOL"]]}
+{"text": "Cloud Incident Response Forensics Specialist collected snapshots logs and memory captures", "entities": [[0, 48, "ROLE"], [57, 62, "CLOUD_TYPE"]]}
+{"text": "Multi-cloud datacenter at elevation 75m above sea level. Coordinates: latitude 35.6762, longitude 139.6503, altitude 12m. Security posture assessed.", "entities": [[0, 10, "CLOUD_TYPE"], [12, 21, "DATACENTER"], [26, 35, "ELEVATION"], [46, 56, "COORDINATE"], [66, 75, "LONGITUDE"], [98, 105, "POSTURE_TYPE"]]}
+{"text": "Cloud Workload Protection Engineer secured VMs containers and serverless workloads", "entities": [[0, 33, "ROLE"]]}
+{"text": "Policy-as-Code Tool auto-fixed 60 IaC misconfigurations creating 12 pull requests", "entities": []}
+{"text": "Cloud SIEM Tool correlated security events from CSPM CWPP and CIEM tools", "entities": [[0, 4, "CLOUD_TYPE"]]}
+{"text": "Orca Security CWPP detected runtime vulnerability in container workload", "entities": [[0, 12, "TOOL"]]}
+{"text": "Sensitive Data Classifier identified 45 instances of PHI in cloud storage", "entities": [[0, 25, "TOOL"]]}
+{"text": "Network Policy Evaluator identified 12 missing network policies in Kubernetes", "entities": [[0, 24, "TOOL"]]}
+{"text": "Cloud datacenter located at elevation 100 meters. AWS region coordinates: latitude 37.5665, longitude 126.9780, altitude 20m. Infrastructure scan completed.", "entities": [[0, 5, "CLOUD_TYPE"], [6, 16, "DATACENTER"]]}
+{"text": "Sensitive Data Classifier identified 45 instances of PHI in cloud storage", "entities": [[0, 25, "TOOL"]]}
+{"text": "Azure Security Center monitored cloud security posture and compliance", "entities": [[0, 5, "CLOUD_PROVIDER"], [32, 37, "CLOUD_TYPE"], [48, 54, "POSTURE_TYPE"]]}
+{"text": "Evidence Packaging Tool compiled audit evidence for SOC2 certification", "entities": []}
+{"text": "Network Policy Evaluator identified 12 missing network policies in Kubernetes", "entities": [[0, 24, "TOOL"]]}
+{"text": "OPA Gatekeeper enforced policy-as-code blocking non-compliant cloud deployments", "entities": []}
+{"text": "Kubernetes security coverage reached 95% with Pod Security Standards enforced", "entities": [[0, 19, "PLATFORM_TYPE"]]}
+{"text": "Audit Checklist Tool validated cloud security controls against compliance frameworks", "entities": []}
+{"text": "Reporting Dashboard Tool generated CNAPP KPIs showing CSPM CIEM and compliance scores", "entities": [[0, 24, "TOOL"]]}
+{"text": "Cloud Forensics Toolkit captured 12 snapshots and 3 timelines for incident investigation", "entities": [[0, 22, "TOOL"]]}
+{"text": "Attack Path Simulator identified lateral movement risk from compromised EC2 instance", "entities": [[0, 20, "TOOL"], [29, 40, "ATTACK_TYPE"], [41, 45, "PATH_TYPE"], [52, 59, "RISK_TYPE"]]}
+{"text": "Model Abuse Monitor detected 8 instances of unauthorized model access", "entities": [[0, 18, "TOOL"], [33, 40, "MODEL_TYPE"]]}
+{"text": "Cloud security compliance score improved to 92% meeting SOC2 and ISO 27017", "entities": [[0, 13, "SECURITY_TYPE"], [44, 47, "FRAMEWORK"]]}
+{"text": "Wiz CNAPP platform detected cloud misconfigurations and workload vulnerabilities", "entities": [[67, 80, "VULNERABILITY_TYPE"]]}
+{"text": "Prowler AWS security scanner found 8 critical misconfigurations in production", "entities": [[8, 11, "CLOUD_PROVIDER"], [21, 28, "SCANNER_TYPE"], [37, 45, "SEVERITY_TYPE"], [46, 61, "MISCONFIGURATION_TYPE"]]}
+{"text": "Cloud Data Protection Specialist scanned cloud storage and SaaS apps for PII PHI exposure", "entities": [[0, 30, "ROLE"]]}
+{"text": "OPA Gatekeeper enforced compliance-as-code blocking 18 policy violations", "entities": []}
+{"text": "Policy-as-Code Tool auto-fixed 60 IaC misconfigurations creating 12 pull requests", "entities": []}
+{"text": "Wiz CNAPP platform detected cloud misconfigurations and workload vulnerabilities", "entities": [[67, 80, "VULNERABILITY_TYPE"]]}
+{"text": "SaaS Security API detected sensitive data in Office 365 requiring encryption", "entities": [[0, 17, "TOOL"], [30, 41, "DATA_TYPE"]]}
+{"text": "Cloud Provider APIs retrieved configuration data from AWS Azure and GCP accounts", "entities": [[0, 5, "CLOUD_TYPE"], [6, 14, "PROVIDER_TYPE"], [15, 18, "API_TYPE"]]}
+{"text": "Cloud Threat Hunter hunted for adversarial behavior across CSPM CWPP CIEM and TI feeds", "entities": [[0, 19, "ROLE"], [20, 25, "CLOUD_TYPE"], [33, 39, "HUNTER_TYPE"]]}
+{"text": "Infrastructure-as-Code Security Engineer scanned Terraform CloudFormation and Kubernetes manifests", "entities": [[0, 40, "ROLE"], [49, 58, "INFRASTRUCTURE_TYPE"], [59, 62, "CODE_TYPE"]]}
+{"text": "Hunt Playbook Tool conducted 15 threat hunts finding 4 incidents", "entities": [[0, 18, "TOOL"]]}
+{"text": "Multi-cloud drift detection identified 8 configuration mismatches across AWS and Azure", "entities": [[0, 10, "CLOUD_TYPE"], [18, 25, "DETECTION_TYPE"]]}
+{"text": "Policy-as-Code Tool auto-fixed 60 IaC misconfigurations creating 12 pull requests", "entities": []}
+{"text": "Cloud Data Protection Specialist scanned cloud storage and SaaS apps for PII PHI exposure", "entities": [[0, 30, "ROLE"]]}
+{"text": "Cloud SIEM Tool correlated CSPM and CWPP alerts identifying coordinated attack", "entities": [[0, 15, "TOOL"], [41, 47, "ALERT_TYPE"]]}
+{"text": "Identity Graph Tool mapped 12 IAM attack paths with 4 critical privilege escalation routes", "entities": []}
+{"text": "CSPM Tool scanned 180 cloud accounts detecting 25 critical and 80 high severity issues", "entities": []}
+{"text": "K8s Security Scanner analyzed 40 clusters finding 10 critical RBAC issues", "entities": [[0, 20, "TOOL"], [33, 41, "CLUSTER_TYPE"], [53, 60, "SEVERITY_TYPE"], [62, 65, "AUTH_TYPE"]]}
+{"text": "K8s Security Scanner analyzed 40 clusters finding 10 critical RBAC issues", "entities": [[0, 20, "TOOL"], [33, 41, "CLUSTER_TYPE"], [53, 60, "SEVERITY_TYPE"], [62, 65, "AUTH_TYPE"]]}
+{"text": "Cloud Workload Protection Engineer secured VMs containers and serverless workloads", "entities": [[0, 33, "ROLE"]]}
+{"text": "AI LLM Cloud Security Analyst secured AI ML workloads against prompt injection and data poisoning", "entities": []}
+{"text": "IaC Scanner found 16 critical issues in 600 Terraform and CloudFormation files", "entities": [[0, 11, "TOOL"], [60, 72, "INFRASTRUCTURE_TYPE"]]}
+{"text": "Prowler AWS security scanner found 8 critical misconfigurations in production", "entities": [[8, 11, "CLOUD_PROVIDER"], [21, 28, "SCANNER_TYPE"], [37, 45, "SEVERITY_TYPE"], [46, 61, "MISCONFIGURATION_TYPE"]]}
+{"text": "Attack Path Simulator identified lateral movement risk from compromised EC2 instance", "entities": [[0, 20, "TOOL"], [29, 40, "ATTACK_TYPE"], [41, 45, "PATH_TYPE"], [52, 59, "RISK_TYPE"]]}
+{"text": "Kubernetes Container-Native Security Engineer analyzed RBAC namespaces and network policies", "entities": [[0, 45, "ROLE"], [55, 65, "PLATFORM_TYPE"]]}
+{"text": "Prisma Cloud CSPM identified insecure S3 bucket with public read access", "entities": [[0, 12, "TOOL"], [31, 40, "CONFIGURATION_TYPE"]]}
+{"text": "Container Runtime Monitor detected 30 attacks blocking 25 with 3 false positives", "entities": [[0, 25, "TOOL"]]}
+{"text": "CIEM Tool analyzed 2500 identities finding 180 over-privileged and 15 toxic combinations", "entities": []}
+{"text": "Hunt Playbook Tool conducted 15 threat hunts finding 4 incidents", "entities": [[0, 18, "TOOL"]]}
+{"text": "Threat Intel Integrator ingested cloud-specific threat intelligence feeds", "entities": [[34, 43, "INTEGRATOR_TYPE"]]}
+{"text": "Network Policy Evaluator identified 12 missing network policies in Kubernetes", "entities": [[0, 24, "TOOL"]]}
+{"text": "Log Timeline Builder reconstructed attack sequence from cloud provider logs", "entities": [[0, 20, "TOOL"]]}
+{"text": "Network Policy Evaluator identified 12 missing network policies in Kubernetes", "entities": [[0, 24, "TOOL"]]}
+{"text": "K8s Security Scanner analyzed 40 clusters finding 10 critical RBAC issues", "entities": [[0, 20, "TOOL"], [33, 41, "CLUSTER_TYPE"], [53, 60, "SEVERITY_TYPE"], [62, 65, "AUTH_TYPE"]]}
+{"text": "Cloud Security Posture Management Engineer detected misconfigurations across AWS Azure and GCP", "entities": [[0, 40, "ROLE"]]}
+{"text": "Cloud data exposure incidents reduced to 6 PII leaks from 220 scanned buckets", "entities": [[0, 5, "CLOUD_TYPE"], [12, 19, "EXPOSURE_TYPE"]]}
+{"text": "Cloud security compliance score improved to 92% meeting SOC2 and ISO 27017", "entities": [[0, 13, "SECURITY_TYPE"], [44, 47, "FRAMEWORK"]]}
+{"text": "Azure Security Center monitored cloud security posture and compliance", "entities": [[0, 5, "CLOUD_PROVIDER"], [32, 37, "CLOUD_TYPE"], [48, 54, "POSTURE_TYPE"]]}
+{"text": "SaaS Security API detected sensitive data in Office 365 requiring encryption", "entities": [[0, 17, "TOOL"], [30, 41, "DATA_TYPE"]]}
+{"text": "Palo Alto Prisma Cloud secured multi-cloud environments with unified visibility", "entities": [[17, 21, "CLOUD_PROVIDER"], [46, 55, "ENVIRONMENT_TYPE"]]}
+{"text": "Orca Security CWPP detected runtime vulnerability in container workload", "entities": [[0, 12, "TOOL"]]}
+{"text": "AI/LLM cloud security risks identified 4 issues in 5 scanned models", "entities": []}
+{"text": "Reporting Dashboard Tool generated CNAPP KPIs showing CSPM CIEM and compliance scores", "entities": [[0, 24, "TOOL"]]}
+{"text": "Cloud Security Posture Management Engineer detected misconfigurations across AWS Azure and GCP", "entities": [[0, 40, "ROLE"]]}
+{"text": "RBAC Analyzer detected namespace privilege escalation in production cluster", "entities": [[0, 12, "TOOL"], [60, 67, "CLUSTER_TYPE"]]}
+{"text": "Model Abuse Monitor detected unauthorized API access to cloud-hosted AI models", "entities": [[0, 19, "TOOL"]]}
+{"text": "Attack Path Simulator identified lateral movement risk from compromised EC2 instance", "entities": [[0, 20, "TOOL"], [29, 40, "ATTACK_TYPE"], [41, 45, "PATH_TYPE"], [52, 59, "RISK_TYPE"]]}
+{"text": "CIEM Tool analyzed 2500 identities finding 180 over-privileged and 15 toxic combinations", "entities": []}
+{"text": "CSPM Tool scanned 180 cloud accounts detecting 25 critical and 80 high severity issues", "entities": []}
+{"text": "RBAC Analyzer detected namespace privilege escalation in production cluster", "entities": [[0, 12, "TOOL"], [60, 67, "CLUSTER_TYPE"]]}
+{"text": "Sensitive Data Classifier identified 45 instances of PHI in cloud storage", "entities": [[0, 25, "TOOL"]]}
+{"text": "Cloud security scan found datacenter us-west-2 hosting S3 buckets. Location: AWS datacenter at latitude 37.7749, longitude -122.4194.", "entities": [[0, 5, "CLOUD_TYPE"], [83, 91, "LATITUDE"]]}
+{"text": "Cloud drift detection identified 12 configuration mismatches and 5 shadow accounts", "entities": [[0, 5, "CLOUD_TYPE"], [12, 21, "DETECTION_TYPE"], [53, 60, "ACCOUNT_TYPE"]]}
+{"text": "Cloud Security Posture Management Engineer detected misconfigurations across AWS Azure and GCP", "entities": [[0, 40, "ROLE"]]}
+{"text": "Prisma Cloud CSPM identified insecure S3 bucket with public read access", "entities": [[0, 12, "TOOL"], [31, 40, "CONFIGURATION_TYPE"]]}
+{"text": "AI Security Scanner detected prompt injection risk in 5 cloud-hosted models", "entities": [[61, 68, "MODEL_TYPE"], [69, 75, "HOSTING_TYPE"]]}
+{"text": "Cloud Workload Protection Engineer secured VMs containers and serverless workloads", "entities": [[0, 33, "ROLE"]]}
+{"text": "Serverless security coverage achieved 88% for Lambda Azure Functions and GCP", "entities": [[0, 18, "SECURITY_TYPE"]]}
+{"text": "IaC Scanner found 16 critical issues in 600 Terraform and CloudFormation files", "entities": [[0, 11, "TOOL"], [60, 72, "INFRASTRUCTURE_TYPE"]]}
+{"text": "GitHub GitLab Integrator automated IaC security scanning in CI/CD pipelines", "entities": [[14, 24, "INTEGRATOR_TYPE"]]}
+{"text": "Serverless Security Tool scanned Lambda Azure Functions and GCP Cloud Functions", "entities": []}
+{"text": "Container Runtime Monitor detected 30 attacks blocking 25 with 3 false positives", "entities": [[0, 25, "TOOL"]]}
+{"text": "Log Timeline Builder reconstructed attack timeline from cloud logs", "entities": [[0, 3, "LOG_TYPE"], [4, 18, "TOOL"], [26, 33, "BUILDER_TYPE"], [42, 48, "ATTACK_TYPE"]]}
+{"text": "AI/LLM cloud security risks identified 4 issues in 5 scanned models", "entities": []}
+{"text": "Cloud Incident Response Forensics Specialist collected snapshots logs and memory captures", "entities": [[0, 48, "ROLE"], [57, 62, "CLOUD_TYPE"]]}
+{"text": "Cloud Forensics Toolkit captured 12 snapshots and 3 timelines for incident investigation", "entities": [[0, 22, "TOOL"]]}
+{"text": "Wiz CNAPP platform detected misconfiguration in 25 AWS accounts requiring remediation", "entities": []}
+{"text": "Cloud Identity Entitlement Management Engineer detected over-privileged identities and toxic combinations", "entities": [[0, 45, "ROLE"]]}
+{"text": "Compliance Dashboard Tool displayed CSPM scores and remediation status", "entities": []}
+{"text": "Evidence Packaging Tool compiled cloud security evidence for external audits", "entities": []}
+{"text": "Cloud security scan found datacenter us-west-2 hosting S3 buckets. Location: AWS datacenter at latitude 37.7749, longitude -122.4194.", "entities": [[0, 5, "CLOUD_TYPE"], [83, 91, "LATITUDE"]]}
+{"text": "AI Security Scanner detected prompt injection risk in 5 cloud-hosted models", "entities": [[61, 68, "MODEL_TYPE"], [69, 75, "HOSTING_TYPE"]]}
+{"text": "Prisma Cloud CNAPP platform unified CSPM CWPP CIEM and IaC security", "entities": [[7, 12, "CLOUD_PROVIDER"]]}
+{"text": "Serverless Security Tool scanned Lambda functions detecting 7 critical issues", "entities": [[64, 70, "ISSUE_TYPE"]]}
+{"text": "Cloud security training completion reached 90% for all cloud engineers", "entities": [[0, 13, "SECURITY_TYPE"], [24, 32, "COMPLETION_TYPE"]]}
+{"text": "CSPM Tool scanned 180 cloud accounts detecting 25 critical and 80 high severity issues", "entities": []}
+{"text": "Log Timeline Builder reconstructed attack sequence from cloud provider logs", "entities": [[0, 20, "TOOL"]]}
+{"text": "OPA Gatekeeper enforced compliance-as-code blocking 18 policy violations", "entities": []}
+{"text": "Serverless Security Tool scanned Lambda functions detecting 7 critical issues", "entities": [[64, 70, "ISSUE_TYPE"]]}
+{"text": "Hunt Playbook Tool automated threat hunting workflows for cloud environments", "entities": [[46, 52, "THREAT_TYPE"]]}
+{"text": "Threat Intel Integrator ingested cloud-specific threat intelligence feeds", "entities": [[34, 43, "INTEGRATOR_TYPE"]]}
+{"text": "Compliance Dashboard Tool displayed CSPM scores and remediation status", "entities": []}
+{"text": "Cloud Forensics Toolkit captured snapshots logs and memory for incident investigation", "entities": [[0, 4, "CLOUD_TYPE"]]}
+{"text": "AI Security Scanner detected prompt injection risk in 5 cloud-hosted models", "entities": [[61, 68, "MODEL_TYPE"], [69, 75, "HOSTING_TYPE"]]}
+{"text": "Container Runtime Monitor detected 30 attacks blocking 25 with 3 false positives", "entities": [[0, 25, "TOOL"]]}
+{"text": "Orca Security CNAPP platform provided cloud security posture management", "entities": [[54, 60, "POSTURE_TYPE"], [61, 70, "MANAGEMENT_TYPE"]]}
+{"text": "Container Runtime Monitor detected 30 attacks blocking 25 with 3 false positives", "entities": [[0, 25, "TOOL"]]}
+{"text": "Cloud SIEM Tool correlated CSPM and CWPP alerts identifying coordinated attack", "entities": [[0, 15, "TOOL"], [41, 47, "ALERT_TYPE"]]}
+{"text": "Palo Alto Prisma Cloud secured multi-cloud environments with unified visibility", "entities": [[17, 21, "CLOUD_PROVIDER"], [46, 55, "ENVIRONMENT_TYPE"]]}
+{"text": "Prompt Injection Detector blocked 12 malicious prompts targeting GPT-4 API", "entities": [[0, 23, "TOOL"]]}
+{"text": "Sensitive Data Classifier identified 45 instances of PHI in cloud storage", "entities": [[0, 25, "TOOL"]]}
+{"text": "Log Timeline Builder reconstructed attack sequence from cloud provider logs", "entities": [[0, 20, "TOOL"]]}
+{"text": "Attack Path Simulator identified lateral movement risk from compromised EC2 instance", "entities": [[0, 20, "TOOL"], [29, 40, "ATTACK_TYPE"], [41, 45, "PATH_TYPE"], [52, 59, "RISK_TYPE"]]}
+{"text": "GitHub GitLab Integrator automated IaC security scanning in CI/CD pipelines", "entities": [[14, 24, "INTEGRATOR_TYPE"]]}
+{"text": "IAM risk reduction achieved 35% decrease in over-privileged identities", "entities": [[0, 3, "AUTH_TYPE"], [4, 8, "RISK_TYPE"], [9, 16, "REDUCTION_TYPE"]]}
+{"text": "Cloud Identity Entitlement Management Engineer detected over-privileged identities and toxic combinations", "entities": [[0, 45, "ROLE"]]}
+{"text": "Identity Graph Tool mapped 12 IAM attack paths with 4 critical privilege escalation routes", "entities": []}
+{"text": "Evidence Packaging Tool compiled cloud security evidence for external audits", "entities": []}
+{"text": "Cloud Security Strategist defined CNAPP policy covering CSPM CWPP CIEM IaC and Kubernetes", "entities": []}
+{"text": "IAM Analyzer detected excessive S3 permissions on 45 service accounts", "entities": [[0, 12, "TOOL"]]}
+{"text": "CWPP Tool scanned 900 workloads finding 18 critical vulnerabilities and 15 runtime alerts", "entities": []}
+{"text": "Cloud data exposure incidents reduced to 6 PII leaks from 220 scanned buckets", "entities": [[0, 5, "CLOUD_TYPE"], [12, 19, "EXPOSURE_TYPE"]]}
+{"text": "Cloud Identity Entitlement Management Engineer detected over-privileged identities and toxic combinations", "entities": [[0, 45, "ROLE"]]}
+{"text": "Cloud security training completion reached 90% for all cloud engineers", "entities": [[0, 13, "SECURITY_TYPE"], [24, 32, "COMPLETION_TYPE"]]}
+{"text": "SaaS Security API detected sensitive data in Office 365 requiring encryption", "entities": [[0, 17, "TOOL"], [30, 41, "DATA_TYPE"]]}
+{"text": "Compliance Mapping Tool aligned cloud security controls to SOC2 PCI DSS and ISO 27017", "entities": []}
+{"text": "Policy-as-Code Tool auto-fixed 60 IaC misconfigurations creating 12 pull requests", "entities": []}
+{"text": "CWPP Tool scanned 900 workloads finding 18 critical vulnerabilities and 15 runtime alerts", "entities": []}
+{"text": "Microsoft Defender for Cloud protected Azure AWS and GCP resources", "entities": []}
+{"text": "Model Abuse Monitor detected unauthorized API access to cloud-hosted AI models", "entities": [[0, 19, "TOOL"]]}
+{"text": "Serverless Security Tool scanned Lambda functions detecting 7 critical issues", "entities": [[64, 70, "ISSUE_TYPE"]]}
+{"text": "OPA Gatekeeper enforced policy-as-code blocking non-compliant cloud deployments", "entities": []}
+{"text": "Reporting Dashboard Tool generated CNAPP KPIs showing CSPM CIEM and compliance scores", "entities": [[0, 24, "TOOL"]]}
+{"text": "Sensitive Data Classifier identified 45 instances of PHI in cloud storage", "entities": [[0, 25, "TOOL"]]}
+{"text": "Serverless security coverage achieved 88% for Lambda Azure Functions and GCP", "entities": [[0, 18, "SECURITY_TYPE"]]}
+{"text": "AI LLM Cloud Security Analyst secured AI ML workloads against prompt injection and data poisoning", "entities": []}
+{"text": "Lacework CNAPP platform monitored cloud workloads and container security", "entities": [[45, 53, "WORKLOAD_TYPE"]]}
+{"text": "CWPP Tool scanned 900 workloads finding 18 critical vulnerabilities and 15 runtime alerts", "entities": []}
+{"text": "IaC Scanner found 16 critical issues in 600 Terraform and CloudFormation files", "entities": [[0, 11, "TOOL"], [60, 72, "INFRASTRUCTURE_TYPE"]]}
+{"text": "Cloud Provider APIs retrieved configuration data from AWS Azure and GCP accounts", "entities": [[0, 5, "CLOUD_TYPE"], [6, 14, "PROVIDER_TYPE"], [15, 18, "API_TYPE"]]}
+{"text": "Snapshot Collector preserved cloud instance snapshots for forensic analysis", "entities": [[0, 18, "TOOL"], [19, 28, "COLLECTOR_TYPE"]]}
+{"text": "Wiz CNAPP platform detected cloud misconfigurations and workload vulnerabilities", "entities": [[67, 80, "VULNERABILITY_TYPE"]]}
+{"text": "IaC Scanner found 16 critical issues in 600 Terraform and CloudFormation files", "entities": [[0, 11, "TOOL"], [60, 72, "INFRASTRUCTURE_TYPE"]]}
+{"text": "Cloud Incident Response Forensics Specialist collected snapshots logs and memory captures", "entities": [[0, 48, "ROLE"], [57, 62, "CLOUD_TYPE"]]}
+{"text": "Serverless Security Tool scanned Lambda functions detecting 7 critical issues", "entities": [[64, 70, "ISSUE_TYPE"]]}
+{"text": "Identity Graph Tool mapped 12 IAM attack paths with 4 critical privilege escalation routes", "entities": []}
+{"text": "Sensitive Data Classifier identified 45 instances of PHI in cloud storage", "entities": [[0, 25, "TOOL"]]}
+{"text": "Lacework CNAPP platform monitored cloud workloads and container security", "entities": [[45, 53, "WORKLOAD_TYPE"]]}
+{"text": "Container Runtime Monitor detected 30 attacks blocking 25 with 3 false positives", "entities": [[0, 25, "TOOL"]]}
+{"text": "OPA Gatekeeper enforced compliance-as-code blocking 18 policy violations", "entities": []}
+{"text": "Evidence Packaging Tool compiled audit evidence for SOC2 certification", "entities": []}
+{"text": "CSPM Tool scanned 180 cloud accounts detecting 25 critical and 80 high severity issues", "entities": []}
+{"text": "Cloud DLP Tool scanned 220 S3 buckets finding 6 PII exposures and 9 missing encryption", "entities": []}
+{"text": "Orca Security CNAPP platform provided cloud security posture management", "entities": [[54, 60, "POSTURE_TYPE"], [61, 70, "MANAGEMENT_TYPE"]]}
+{"text": "Orca Security CWPP detected runtime vulnerability in container workload", "entities": [[0, 12, "TOOL"]]}
+{"text": "Cloud Identity Entitlement Management Engineer detected over-privileged identities and toxic combinations", "entities": [[0, 45, "ROLE"]]}
+{"text": "Cloud Forensics Toolkit captured snapshots logs and memory for incident investigation", "entities": [[0, 4, "CLOUD_TYPE"]]}
+{"text": "CSPM Tool scanned 180 cloud accounts detecting 25 critical and 80 high severity issues", "entities": []}
+{"text": "Evidence Packaging Tool compiled audit evidence for SOC2 certification", "entities": []}
+{"text": "Policy-as-Code Tool auto-fixed 60 IaC misconfigurations creating 12 pull requests", "entities": []}
+{"text": "Checkov IaC security scanner validated Terraform templates against 200 policies", "entities": []}
+{"text": "Cloud Data Protection Specialist scanned cloud storage and SaaS apps for PII PHI exposure", "entities": [[0, 30, "ROLE"]]}
+{"text": "Container Runtime Monitor detected 30 attacks blocking 25 with 3 false positives", "entities": [[0, 25, "TOOL"]]}
+{"text": "Prompt Injection Detector blocked 12 malicious prompts targeting GPT-4 API", "entities": [[0, 23, "TOOL"]]}
+{"text": "Cloud Policy Generator created CNAPP policies with CSPM CWPP CIEM and IaC requirements", "entities": [[0, 22, "TOOL"], [24, 29, "CLOUD_TYPE"]]}
+{"text": "Audit Checklist Tool validated cloud security controls against compliance frameworks", "entities": []}
+{"text": "Compliance Dashboard Tool displayed CSPM scores and remediation status", "entities": []}
+{"text": "Cloud SIEM Tool correlated security events from multiple cloud providers", "entities": [[0, 4, "CLOUD_TYPE"]]}
+{"text": "Cloud Security Auditor validated compliance with SOC2 PCI DSS and ISO 27017", "entities": [[0, 22, "ROLE"], [52, 61, "COMPLIANCE_TYPE"]]}
+{"text": "Zero Trust Architect Tool designed zero trust architecture for multi-cloud environments", "entities": []}
+{"text": "IaC Scanner found 16 critical issues in 600 Terraform and CloudFormation files", "entities": [[0, 11, "TOOL"], [60, 72, "INFRASTRUCTURE_TYPE"]]}
+{"text": "GitHub GitLab Integrator automated IaC security scanning in CI/CD pipelines", "entities": [[14, 24, "INTEGRATOR_TYPE"]]}
+{"text": "Cloud Data Protection Specialist scanned cloud storage and SaaS apps for PII PHI exposure", "entities": [[0, 30, "ROLE"]]}
+{"text": "Container Runtime Monitor detected 30 attacks blocking 25 with 3 false positives", "entities": [[0, 25, "TOOL"]]}
+{"text": "Snapshot Collector preserved 8 EC2 instance snapshots for forensic analysis", "entities": [[0, 18, "TOOL"]]}
+{"text": "Network Policy Evaluator identified 12 missing network policies in Kubernetes", "entities": [[0, 24, "TOOL"]]}
+{"text": "Attack Path Simulator identified lateral movement risk from compromised EC2 instance", "entities": [[0, 20, "TOOL"], [29, 40, "ATTACK_TYPE"], [41, 45, "PATH_TYPE"], [52, 59, "RISK_TYPE"]]}
+{"text": "CWPP Tool scanned 900 workloads finding 18 critical vulnerabilities and 15 runtime alerts", "entities": []}
+{"text": "Log Timeline Builder reconstructed attack timeline from cloud logs", "entities": [[0, 3, "LOG_TYPE"], [4, 18, "TOOL"], [26, 33, "BUILDER_TYPE"], [42, 48, "ATTACK_TYPE"]]}
+{"text": "Cloud security training completion reached 90% for all cloud engineers", "entities": [[0, 13, "SECURITY_TYPE"], [24, 32, "COMPLETION_TYPE"]]}
+{"text": "Cloud security false positive rate reduced to 1.5% improving alert accuracy", "entities": [[0, 13, "SECURITY_TYPE"], [15, 29, "METRIC_TYPE"], [46, 50, "ALERT_TYPE"]]}
+{"text": "AI Security Scanner detected prompt injection risk in 5 cloud-hosted models", "entities": [[61, 68, "MODEL_TYPE"], [69, 75, "HOSTING_TYPE"]]}
+{"text": "Model Abuse Monitor detected unauthorized API access to cloud-hosted AI models", "entities": [[0, 19, "TOOL"]]}
+{"text": "IaC Scanner found 16 critical issues in 600 Terraform and CloudFormation files", "entities": [[0, 11, "TOOL"], [60, 72, "INFRASTRUCTURE_TYPE"]]}
+{"text": "Network Policy Evaluator identified 12 missing network policies in Kubernetes", "entities": [[0, 24, "TOOL"]]}
+{"text": "Identity Graph Tool mapped 12 IAM attack paths with 4 critical privilege escalation routes", "entities": []}
+{"text": "Audit Checklist Tool validated cloud security controls against compliance frameworks", "entities": []}
+{"text": "SaaS Security API detected sensitive data in Office 365 requiring encryption", "entities": [[0, 17, "TOOL"], [30, 41, "DATA_TYPE"]]}
+{"text": "Cloud SIEM Tool correlated CSPM and CWPP alerts identifying coordinated attack", "entities": [[0, 15, "TOOL"], [41, 47, "ALERT_TYPE"]]}
+{"text": "ScoutSuite multi-cloud scanner assessed Azure and GCP configurations", "entities": [[11, 20, "SCANNER_TYPE"]]}
+{"text": "Prisma Cloud CSPM identified insecure S3 bucket with public read access", "entities": [[0, 12, "TOOL"], [31, 40, "CONFIGURATION_TYPE"]]}
+{"text": "SaaS Security API detected sensitive data in Office 365 requiring encryption", "entities": [[0, 17, "TOOL"], [30, 41, "DATA_TYPE"]]}
+{"text": "Kubernetes security coverage reached 95% with Pod Security Standards enforced", "entities": [[0, 19, "PLATFORM_TYPE"]]}
+{"text": "Sensitive Data Classifier identified 45 instances of PHI in cloud storage", "entities": [[0, 25, "TOOL"]]}
+{"text": "Cloud Security Auditor validated compliance with SOC2 PCI DSS and ISO 27017", "entities": [[0, 22, "ROLE"], [52, 61, "COMPLIANCE_TYPE"]]}
+{"text": "Cloud datacenter located at elevation 100 meters. AWS region coordinates: latitude 37.5665, longitude 126.9780, altitude 20m. Infrastructure scan completed.", "entities": [[0, 5, "CLOUD_TYPE"], [6, 16, "DATACENTER"]]}
+{"text": "IAM Analyzer detected excessive S3 permissions on 45 service accounts", "entities": [[0, 12, "TOOL"]]}
+{"text": "Cloud DLP Tool scanned 220 S3 buckets finding 6 PII exposures and 9 missing encryption", "entities": []}
+{"text": "Multi-cloud datacenter at elevation 75m above sea level. Coordinates: latitude 35.6762, longitude 139.6503, altitude 12m. Security posture assessed.", "entities": [[0, 10, "CLOUD_TYPE"], [12, 21, "DATACENTER"], [26, 35, "ELEVATION"], [46, 56, "COORDINATE"], [66, 75, "LONGITUDE"], [98, 105, "POSTURE_TYPE"]]}
+{"text": "Prompt Injection Detector blocked 12 malicious prompts targeting GPT-4 API", "entities": [[0, 23, "TOOL"]]}
+{"text": "Sensitive Data Classifier identified 45 instances of PHI in cloud storage", "entities": [[0, 25, "TOOL"]]}
+{"text": "Cloud Incident Response Forensics Specialist collected snapshots logs and memory captures", "entities": [[0, 48, "ROLE"], [57, 62, "CLOUD_TYPE"]]}
+{"text": "SaaS Security API detected sensitive data in Office 365 requiring encryption", "entities": [[0, 17, "TOOL"], [30, 41, "DATA_TYPE"]]}
+{"text": "ScoutSuite multi-cloud scanner assessed Azure and GCP configurations", "entities": [[11, 20, "SCANNER_TYPE"]]}
+{"text": "Cloud Policy Generator created CNAPP policies with CSPM CWPP CIEM and IaC requirements", "entities": [[0, 22, "TOOL"], [24, 29, "CLOUD_TYPE"]]}
+{"text": "Serverless Security Tool scanned Lambda Azure Functions and GCP Cloud Functions", "entities": []}
+{"text": "Model Abuse Monitor detected 8 instances of unauthorized model access", "entities": [[0, 18, "TOOL"], [33, 40, "MODEL_TYPE"]]}
+{"text": "Prisma Cloud CNAPP platform unified CSPM CWPP CIEM and IaC security", "entities": [[7, 12, "CLOUD_PROVIDER"]]}
+{"text": "CIEM Tool analyzed 2500 identities finding 180 over-privileged and 15 toxic combinations", "entities": []}
+{"text": "IAM risk reduction achieved 35% decrease in over-privileged identities", "entities": [[0, 3, "AUTH_TYPE"], [4, 8, "RISK_TYPE"], [9, 16, "REDUCTION_TYPE"]]}
+{"text": "Snapshot Collector preserved cloud instance snapshots for forensic analysis", "entities": [[0, 18, "TOOL"], [19, 28, "COLLECTOR_TYPE"]]}
+{"text": "Model Abuse Monitor detected 8 instances of unauthorized model access", "entities": [[0, 18, "TOOL"], [33, 40, "MODEL_TYPE"]]}
+{"text": "Hunt Playbook Tool conducted 15 threat hunts finding 4 incidents", "entities": [[0, 18, "TOOL"]]}
+{"text": "Checkov IaC security scanner validated Terraform templates against 200 policies", "entities": []}
+{"text": "Cloud Security Auditor validated compliance with SOC2 PCI DSS and ISO 27017", "entities": [[0, 22, "ROLE"], [52, 61, "COMPLIANCE_TYPE"]]}
+{"text": "SaaS Security API detected sensitive data in Office 365 requiring encryption", "entities": [[0, 17, "TOOL"], [30, 41, "DATA_TYPE"]]}
+{"text": "RBAC Analyzer detected namespace privilege escalation in production cluster", "entities": [[0, 12, "TOOL"], [60, 67, "CLUSTER_TYPE"]]}
+{"text": "CSPM tool detected misconfigured datacenter resources. Nameserver configuration issues found in eu-central-1 datacenter.", "entities": [[33, 43, "DATACENTER"], [44, 53, "RESOURCE_TYPE"], [55, 65, "NAMESERVER"]]}
+{"text": "Multi-cloud drift detection identified 8 configuration mismatches across AWS and Azure", "entities": [[0, 10, "CLOUD_TYPE"], [18, 25, "DETECTION_TYPE"]]}
+{"text": "Prowler AWS security scanner found 8 critical misconfigurations in production", "entities": [[8, 11, "CLOUD_PROVIDER"], [21, 28, "SCANNER_TYPE"], [37, 45, "SEVERITY_TYPE"], [46, 61, "MISCONFIGURATION_TYPE"]]}
+{"text": "Prompt Injection Detector blocked 12 malicious prompts targeting GPT-4 API", "entities": [[0, 23, "TOOL"]]}
+{"text": "Model Abuse Monitor detected 8 instances of unauthorized model access", "entities": [[0, 18, "TOOL"], [33, 40, "MODEL_TYPE"]]}
+{"text": "Can you help me with this?", "entities": []}
+{"text": "I need to check something.", "entities": []}
+{"text": "What is the status?", "entities": []}
+{"text": "How do I do this?", "entities": []}
+{"text": "Tell me more about it.", "entities": []}
+{"text": "Is this safe to use?", "entities": []}
+{"text": "Let me know if you need anything.", "entities": []}
+{"text": "Thanks for your help.", "entities": []}
+{"text": "I will get back to you.", "entities": []}
+{"text": "Please review this document.", "entities": []}
+{"text": "What should I do next?", "entities": []}
+{"text": "How does this work?", "entities": []}
+{"text": "Why is this happening?", "entities": []}
+{"text": "When will this be ready?", "entities": []}
+{"text": "Where can I find this?", "entities": []}
+{"text": "Who should I contact?", "entities": []}
+{"text": "Hey, what's up?", "entities": []}
+{"text": "That's interesting.", "entities": []}
+{"text": "I see what you mean.", "entities": []}
+{"text": "That makes sense.", "entities": []}
+{"text": "Got it, thanks.", "entities": []}
+{"text": "Follow the steps carefully.", "entities": []}
+{"text": "Make sure to save your work.", "entities": []}
+{"text": "Check the settings first.", "entities": []}
+{"text": "Review the documentation.", "entities": []}
+{"text": "Read the instructions.", "entities": []}
+{"text": "This is important.", "entities": []}
+{"text": "That looks good.", "entities": []}
+{"text": "Everything seems fine.", "entities": []}
+{"text": "Nothing to report.", "entities": []}
+{"text": "All systems operational.", "entities": []}
+{"text": "The system is secure.", "entities": []}
+{"text": "All checks passed.", "entities": []}
+{"text": "No issues detected.", "entities": []}
+{"text": "Everything is working correctly.", "entities": []}
+{"text": "The configuration looks good.", "entities": []}
+{"text": "No vulnerabilities found.", "entities": []}
+{"text": "Security measures are in place.", "entities": []}
+{"text": "The audit was successful.", "entities": []}
+{"text": "The information is verified.", "entities": []}
+{"text": "Sources are reliable.", "entities": []}
+{"text": "The data is consistent.", "entities": []}

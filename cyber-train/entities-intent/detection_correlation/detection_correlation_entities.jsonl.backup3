@@ -1,0 +1,440 @@
+{"text": "Shuffle SOAR platform automated security workflows and playbooks", "entities": []}
+{"text": "Sigma Rule Builder wrote correlation rules mapping adversary TTPs", "entities": [[6, 11, "RULE_TYPE"], [12, 19, "BUILDER_TYPE"]]}
+{"text": "Graph-based Investigation Tool analyzed correlated events identifying attack chains", "entities": [[0, 18, "TOOL"], [63, 69, "EVENT_TYPE"]]}
+{"text": "Graph-based Investigation Tool mapped lateral movement across 5 compromised systems", "entities": [[0, 30, "TOOL"], [39, 50, "INVESTIGATION_TYPE"], [67, 75, "ATTACK_TYPE"]]}
+{"text": "IR Playbook Automation executed response playbooks resolving 12 multi-pillar incidents", "entities": []}
+{"text": "Threat Enrichment API enriched alerts with contextual threat data", "entities": [[7, 18, "ENRICHMENT_TYPE"], [31, 37, "ALERT_TYPE"]]}
+{"text": "YARA rule engine detected malware and suspicious files", "entities": [[5, 9, "RULE_TYPE"], [25, 33, "MALWARE_TYPE"], [38, 48, "SUSPICIOUS_TYPE"], [49, 54, "FILE_TYPE"]]}
+{"text": "TAXII threat intelligence transport protocol shared indicators", "entities": []}
+{"text": "Telemetry Health Monitor validated pipeline status showing healthy ingestion", "entities": [[0, 9, "TELEMETRY_TYPE"], [10, 16, "HEALTH_TYPE"]]}
+{"text": "Correlation accuracy achieved 88% with reduced false positive rate to 0.12", "entities": [[0, 20, "CORRELATION_TYPE"]]}
+{"text": "Hunt Query Builder created proactive hunt queries for threat detection", "entities": [[0, 4, "HUNT_TYPE"], [11, 18, "BUILDER_TYPE"], [27, 36, "HUNT_TYPE"]]}
+{"text": "Sigma Rule Builder created detection rules mapping 85 adversary techniques", "entities": [[0, 15, "TOOL"], [29, 35, "BUILDER_TYPE"]]}
+{"text": "STIX TAXII Connector ingested threat intelligence with 37% deduplication rate", "entities": []}
+{"text": "Elasticsearch search engine indexed logs for fast querying", "entities": [[0, 12, "TOOL"], [13, 19, "SEARCH_TYPE"], [35, 39, "LOG_TYPE"]]}
+{"text": "Elastic Security SIEM normalized events using ECS schema with 93% field completeness", "entities": [[29, 37, "NORMALIZATION_TYPE"], [76, 82, "FIELD_TYPE"]]}
+{"text": "Syslog protocol transmitted log events from systems to SIEM", "entities": [[7, 13, "PROTOCOL_TYPE"], [22, 25, "LOG_TYPE"]]}
+{"text": "Correlated Incident Tracker monitored 4 executive briefings during incident response", "entities": [[0, 25, "TOOL"]]}
+{"text": "Fluentd log collector aggregated logs from multiple sources", "entities": [[8, 11, "LOG_TYPE"], [12, 21, "COLLECTOR_TYPE"]]}
+{"text": "Correlation Policy Generator created 25 use cases integrating 18 security pillars", "entities": [[0, 28, "TOOL"]]}
+{"text": "ECS Elastic Common Schema normalized log events for analysis", "entities": []}
+{"text": "Wazuh open source SIEM detected 15 intrusion attempts with real-time alerting", "entities": [[11, 23, "TOOL"]]}
+{"text": "Splunk SIEM platform ingested logs correlating security events", "entities": [[25, 29, "LOG_TYPE"], [30, 39, "CORRELATION_TYPE"]]}
+{"text": "Detection Correlation Auditor audited detection coverage validating correlation accuracy", "entities": [[0, 28, "ROLE"], [37, 47, "DETECTION_TYPE"], [48, 57, "COVERAGE_TYPE"], [67, 78, "CORRELATION_TYPE"], [79, 88, "ACCURACY_TYPE"]]}
+{"text": "Elastic Security SIEM provided log analysis and threat detection", "entities": []}
+{"text": "MISP threat intelligence platform shared indicators and threat data", "entities": []}
+{"text": "Hunt Query Builder conducted 12 proactive hunts detecting 7 anomalies and 2 true incidents", "entities": [[0, 16, "TOOL"], [51, 57, "HUNT_TYPE"]]}
+{"text": "Threat Hunter performed proactive hunts using correlated telemetry uncovering stealthy attacks", "entities": [[0, 13, "ROLE"], [23, 30, "HUNT_TYPE"], [67, 77, "ATTACK_TYPE"]]}
+{"text": "YARA rule engine detected malware and suspicious files", "entities": [[5, 9, "RULE_TYPE"], [25, 33, "MALWARE_TYPE"], [38, 48, "SUSPICIOUS_TYPE"], [49, 54, "FILE_TYPE"]]}
+{"text": "ECS Elastic Common Schema normalized log events for analysis", "entities": []}
+{"text": "STIX TAXII Connector ingested threat intelligence with 37% deduplication rate", "entities": []}
+{"text": "Detection Correlation Strategist defined enterprise detection strategy mapping MITRE ATT&CK coverage", "entities": []}
+{"text": "Log Normalization Engine processed logs normalizing events from security sources", "entities": [[0, 3, "LOG_TYPE"], [4, 18, "NORMALIZATION_TYPE"], [34, 38, "LOG_TYPE"], [39, 48, "NORMALIZATION_TYPE"]]}
+{"text": "MITRE Coverage Validator validated ATT&CK coverage mapping techniques", "entities": [[0, 5, "FRAMEWORK"], [6, 13, "COVERAGE_TYPE"], [14, 23, "VALIDATOR_TYPE"]]}
+{"text": "Splunk SIEM platform ingested logs correlating security events", "entities": [[25, 29, "LOG_TYPE"], [30, 39, "CORRELATION_TYPE"]]}
+{"text": "False Positive Analyzer reduced alert noise by 22% improving detection accuracy", "entities": [[0, 22, "TOOL"]]}
+{"text": "UEBA Model Lab baselined 52000 entities detecting 6 drift alerts", "entities": []}
+{"text": "Caldera adversary emulation platform tested detection rules", "entities": [[8, 16, "ADVERSARY_TYPE"], [17, 27, "EMULATION_TYPE"]]}
+{"text": "Incident Commander Detection Correlation led coordinated response for multi-pillar incidents", "entities": [[0, 18, "ROLE"], [29, 40, "COMMANDER_TYPE"], [41, 51, "DETECTION_TYPE"]]}
+{"text": "Elasticsearch search engine indexed logs for fast querying", "entities": [[0, 12, "TOOL"], [13, 19, "SEARCH_TYPE"], [35, 39, "LOG_TYPE"]]}
+{"text": "Detection false positive rate reduced to 1.2% improving SOC analyst productivity", "entities": []}
+{"text": "Splunk SIEM platform ingested logs from 95 sources with 88% OCSF conformance", "entities": []}
+{"text": "STIX TAXII Connector ingested threat intelligence with 37% deduplication rate", "entities": []}
+{"text": "SOC alert triage efficiency improved with 52 false positives filtered automatically", "entities": [[4, 9, "ALERT_TYPE"], [10, 16, "TRIAGE_TYPE"], [17, 26, "EFFICIENCY_TYPE"]]}
+{"text": "SOC Alert Console triaged 450 correlated alerts escalating 35 high-severity incidents", "entities": [[0, 16, "TOOL"], [31, 38, "ALERT_TYPE"]]}
+{"text": "SIEM Rule Manager deployed correlation rules with false positive analysis", "entities": [[10, 15, "RULE_TYPE"]]}
+{"text": "Detection Audit Checklist validated detection coverage and rule quality", "entities": [[0, 10, "DETECTION_TYPE"], [17, 26, "CHECKLIST_TYPE"], [35, 45, "DETECTION_TYPE"], [46, 55, "COVERAGE_TYPE"], [60, 64, "RULE_TYPE"]]}
+{"text": "OpenCTI threat intelligence platform managed threat knowledge", "entities": []}
+{"text": "Cross-Team Communication Hub coordinated response across SOC IR and executive teams", "entities": [[0, 28, "TOOL"]]}
+{"text": "Detection Audit Checklist validated detection coverage and rule quality", "entities": [[0, 10, "DETECTION_TYPE"], [17, 26, "CHECKLIST_TYPE"], [35, 45, "DETECTION_TYPE"], [46, 55, "COVERAGE_TYPE"], [60, 64, "RULE_TYPE"]]}
+{"text": "MITRE Coverage Validator validated ATT&CK coverage mapping techniques", "entities": [[0, 5, "FRAMEWORK"], [6, 13, "COVERAGE_TYPE"], [14, 23, "VALIDATOR_TYPE"]]}
+{"text": "Detection Correlation Strategist defined enterprise detection strategy mapping MITRE ATT&CK coverage", "entities": []}
+{"text": "Correlation Policy Generator created 25 use cases integrating 18 security pillars", "entities": [[0, 28, "TOOL"]]}
+{"text": "Zeek network security monitor captured network traffic for analysis", "entities": []}
+{"text": "SOC Analyst monitored dashboards triaged correlated alerts and escalated incidents", "entities": [[0, 11, "ROLE"], [41, 47, "ALERT_TYPE"]]}
+{"text": "IR Playbook Automation executed incident response playbooks automatically", "entities": []}
+{"text": "Runbook Catalog cataloged incident response runbooks for SOC operations", "entities": [[0, 8, "RUNBOOK_TYPE"], [9, 16, "CATALOG_TYPE"], [43, 50, "RUNBOOK_TYPE"]]}
+{"text": "Data Quality Validator monitored telemetry with 14-second average ingest lag", "entities": [[0, 20, "TOOL"], [48, 56, "VALIDATOR_TYPE"]]}
+{"text": "SOC Analyst monitored dashboards triaged correlated alerts and escalated incidents", "entities": [[0, 11, "ROLE"], [41, 47, "ALERT_TYPE"]]}
+{"text": "MITRE Coverage Validator mapped 46 techniques tested in quarterly purple team", "entities": [[0, 21, "TOOL"]]}
+{"text": "Logstash log processor parsed and transformed log events", "entities": [[9, 12, "LOG_TYPE"], [13, 22, "PROCESSOR_TYPE"], [37, 43, "EVENT_TYPE"]]}
+{"text": "Shuffle SOAR platform automated security workflows and playbooks", "entities": []}
+{"text": "Beats lightweight shippers collected logs from endpoints", "entities": [[6, 11, "SHIPPER_TYPE"], [20, 25, "LOG_TYPE"]]}
+{"text": "SOC alert triage efficiency improved with 52 false positives filtered automatically", "entities": [[4, 9, "ALERT_TYPE"], [10, 16, "TRIAGE_TYPE"], [17, 26, "EFFICIENCY_TYPE"]]}
+{"text": "Automation QA Harness tested playbook automation with quality assurance", "entities": [[0, 11, "AUTOMATION_TYPE"]]}
+{"text": "Hunt Query Builder conducted 12 proactive hunts detecting 7 anomalies and 2 true incidents", "entities": [[0, 16, "TOOL"], [51, 57, "HUNT_TYPE"]]}
+{"text": "Fluentd log collector aggregated logs from multiple sources", "entities": [[8, 11, "LOG_TYPE"], [12, 21, "COLLECTOR_TYPE"]]}
+{"text": "Zeek network security monitor captured network traffic for analysis", "entities": []}
+{"text": "SIEM Rule Manager deployed 120 correlation rules with 0.12 false positive rate", "entities": [[0, 15, "TOOL"], [29, 40, "CORRELATION_TYPE"]]}
+{"text": "Telemetry Health Monitor validated pipeline status showing healthy ingestion", "entities": [[0, 23, "TOOL"]]}
+{"text": "Beats lightweight shippers collected logs from endpoints", "entities": [[6, 11, "SHIPPER_TYPE"], [20, 25, "LOG_TYPE"]]}
+{"text": "Runbook Catalog cataloged incident response runbooks for SOC operations", "entities": [[0, 8, "RUNBOOK_TYPE"], [9, 16, "CATALOG_TYPE"], [43, 50, "RUNBOOK_TYPE"]]}
+{"text": "Zeek network security monitor captured network traffic for analysis", "entities": []}
+{"text": "Exabeam SIEM platform enabled user behavior analytics and threat detection", "entities": [[35, 44, "BEHAVIOR_TYPE"], [45, 54, "ANALYTICS_TYPE"]]}
+{"text": "Prometheus metrics database collected time-series security metrics", "entities": [[19, 27, "DATABASE_TYPE"]]}
+{"text": "Elasticsearch search engine indexed logs for fast querying", "entities": [[0, 12, "TOOL"], [13, 19, "SEARCH_TYPE"], [35, 39, "LOG_TYPE"]]}
+{"text": "Exabeam SIEM platform enabled user behavior analytics and threat detection", "entities": [[35, 44, "BEHAVIOR_TYPE"], [45, 54, "ANALYTICS_TYPE"]]}
+{"text": "Detection Lab Simulator validated 24 attack scenarios with 19 passing detection", "entities": [[0, 22, "TOOL"], [71, 79, "ATTACK_TYPE"]]}
+{"text": "Atomic Red Team tested detection coverage with attack simulations", "entities": [[24, 33, "DETECTION_TYPE"], [34, 42, "COVERAGE_TYPE"], [54, 65, "SIMULATION_TYPE"]]}
+{"text": "SIEM XDR Engineer deployed SIEM XDR and log pipelines normalizing telemetry", "entities": []}
+{"text": "SOAR Playbook Studio cataloged 48 playbooks with 38% touchless resolution", "entities": [[0, 18, "TOOL"], [36, 43, "STUDIO_TYPE"]]}
+{"text": "Fluent Bit lightweight log processor collected telemetry", "entities": [[12, 20, "LOG_TYPE"]]}
+{"text": "Case Management Platform tracked 12 incidents with average MTTR of 2.4 hours", "entities": []}
+{"text": "Evidence Packaging Tool compiled detection evidence for audits and compliance", "entities": [[0, 8, "EVIDENCE_TYPE"], [9, 19, "PACKAGING_TYPE"], [33, 43, "DETECTION_TYPE"], [44, 51, "EVIDENCE_TYPE"], [56, 62, "AUDIT_TYPE"]]}
+{"text": "ECS Elastic Common Schema normalized log events for analysis", "entities": []}
+{"text": "SOAR Playbook Studio cataloged 48 playbooks with 38% touchless resolution", "entities": [[0, 18, "TOOL"], [36, 43, "STUDIO_TYPE"]]}
+{"text": "IR Playbook Automation executed incident response playbooks automatically", "entities": []}
+{"text": "Sigma detection rules compiled to Splunk QRadar and Sentinel formats", "entities": [[52, 59, "FORMAT_TYPE"]]}
+{"text": "SOC Alert Console monitored dashboards triaging correlated alerts", "entities": [[52, 58, "ALERT_TYPE"]]}
+{"text": "Logstash log processor parsed and transformed log events", "entities": [[9, 12, "LOG_TYPE"], [13, 22, "PROCESSOR_TYPE"], [37, 43, "EVENT_TYPE"]]}
+{"text": "Threat Intel Feed Integrator ingested 240000 IOCs with 2.4% hit rate", "entities": []}
+{"text": "MITRE Coverage Validator validated ATT&CK coverage mapping techniques", "entities": [[0, 5, "FRAMEWORK"], [6, 13, "COVERAGE_TYPE"], [14, 23, "VALIDATOR_TYPE"]]}
+{"text": "Syslog protocol transmitted log events from systems to SIEM", "entities": [[7, 13, "PROTOCOL_TYPE"], [22, 25, "LOG_TYPE"]]}
+{"text": "SOC Alert Console monitored dashboards triaging correlated alerts", "entities": [[52, 58, "ALERT_TYPE"]]}
+{"text": "Log Normalization Engine processed logs normalizing events from security sources", "entities": [[0, 3, "LOG_TYPE"], [4, 18, "NORMALIZATION_TYPE"], [34, 38, "LOG_TYPE"], [39, 48, "NORMALIZATION_TYPE"]]}
+{"text": "False Positive Analyzer reduced alert noise by 22% improving detection accuracy", "entities": [[0, 22, "TOOL"]]}
+{"text": "SOC alert triage efficiency improved with 52 false positives filtered automatically", "entities": [[4, 9, "ALERT_TYPE"], [10, 16, "TRIAGE_TYPE"], [17, 26, "EFFICIENCY_TYPE"]]}
+{"text": "Correlated Incident Tracker tracked multi-pillar incidents with status updates", "entities": [[0, 11, "CORRELATION_TYPE"], [21, 28, "TRACKER_TYPE"], [37, 48, "INCIDENT_TYPE"]]}
+{"text": "Threat Enrichment API enriched alerts with 8 contextual indicators", "entities": [[0, 22, "TOOL"], [23, 26, "API_TYPE"]]}
+{"text": "Threat Intel Feed Integrator enriched detections with threat intelligence", "entities": [[18, 28, "INTEGRATOR_TYPE"], [37, 47, "DETECTION_TYPE"]]}
+{"text": "Shuffle SOAR platform automated security workflows and playbooks", "entities": []}
+{"text": "OCSF Open Cybersecurity Schema Framework standardized log formats", "entities": []}
+{"text": "Syslog protocol transmitted log events from systems to SIEM", "entities": [[7, 13, "PROTOCOL_TYPE"], [22, 25, "LOG_TYPE"]]}
+{"text": "Telemetry Health Monitor validated pipeline status showing healthy ingestion", "entities": [[0, 23, "TOOL"]]}
+{"text": "Hunt Query Builder created proactive hunt queries for threat detection", "entities": [[0, 4, "HUNT_TYPE"], [11, 18, "BUILDER_TYPE"], [27, 36, "HUNT_TYPE"]]}
+{"text": "Detection coverage improved to 92% with 5 issues resolved from audit findings", "entities": [[0, 19, "DETECTION_TYPE"], [20, 27, "COVERAGE_TYPE"]]}
+{"text": "Detection Audit Checklist validated detection coverage and rule quality", "entities": [[0, 10, "DETECTION_TYPE"], [17, 26, "CHECKLIST_TYPE"], [35, 45, "DETECTION_TYPE"], [46, 55, "COVERAGE_TYPE"], [60, 64, "RULE_TYPE"]]}
+{"text": "Automation QA Harness tested playbook automation with quality assurance", "entities": [[0, 11, "AUTOMATION_TYPE"]]}
+{"text": "Data Quality Validator monitored telemetry with 14-second average ingest lag", "entities": [[0, 20, "TOOL"], [48, 56, "VALIDATOR_TYPE"]]}
+{"text": "SOAR Playbook Studio designed automated playbooks with guardrails", "entities": [[10, 17, "PLAYBOOK_TYPE"]]}
+{"text": "Caldera adversary emulation platform tested detection rules", "entities": [[8, 16, "ADVERSARY_TYPE"], [17, 27, "EMULATION_TYPE"]]}
+{"text": "SOAR Playbook Studio cataloged 48 playbooks with 38% touchless resolution", "entities": [[0, 18, "TOOL"], [36, 43, "STUDIO_TYPE"]]}
+{"text": "Wazuh open source SIEM detected 15 intrusion attempts with real-time alerting", "entities": [[11, 23, "TOOL"]]}
+{"text": "Microsoft Sentinel SIEM platform detected threats with machine learning", "entities": [[64, 71, "MODEL_TYPE"]]}
+{"text": "Log Normalization Engine processed 2500000 logs per day from 21 security sources", "entities": [[0, 25, "TOOL"]]}
+{"text": "UEBA Data Scientist built entity baselines tuning thresholds and monitoring model drift", "entities": [[10, 14, "DATA_TYPE"], [15, 24, "SCIENTIST_TYPE"], [33, 39, "ENTITY_TYPE"]]}
+{"text": "Threat Enrichment API enriched alerts with contextual threat data", "entities": [[7, 18, "ENRICHMENT_TYPE"], [31, 37, "ALERT_TYPE"]]}
+{"text": "Detection Audit Checklist validated 88% ATT&CK coverage with 5 issues found", "entities": [[0, 25, "TOOL"], [48, 55, "CHECKLIST_TYPE"]]}
+{"text": "Kafka message broker streamed log events for real-time processing", "entities": [[6, 13, "MESSAGE_TYPE"], [14, 20, "BROKER_TYPE"]]}
+{"text": "Threat Intel Feed Integrator enriched detections with threat intelligence", "entities": [[18, 28, "INTEGRATOR_TYPE"], [37, 47, "DETECTION_TYPE"]]}
+{"text": "STIX TAXII Connector ingested threat intelligence with 37% deduplication rate", "entities": []}
+{"text": "Beats lightweight shippers collected logs from endpoints", "entities": [[6, 11, "SHIPPER_TYPE"], [20, 25, "LOG_TYPE"]]}
+{"text": "n8n workflow automation enabled security tool integration", "entities": [[8, 19, "AUTOMATION_TYPE"]]}
+{"text": "SOC Alert Console monitored dashboards triaging correlated alerts", "entities": [[52, 58, "ALERT_TYPE"]]}
+{"text": "IR Playbook Automation executed response playbooks resolving 12 multi-pillar incidents", "entities": []}
+{"text": "STIX threat intelligence format standardized threat data exchange", "entities": [[34, 40, "THREAT_TYPE"]]}
+{"text": "Sigma detection rules compiled to Splunk QRadar and Sentinel formats", "entities": [[52, 59, "FORMAT_TYPE"]]}
+{"text": "Fluentd log collector aggregated logs from multiple sources", "entities": [[8, 11, "LOG_TYPE"], [12, 21, "COLLECTOR_TYPE"]]}
+{"text": "MITRE Coverage Validator mapped 46 techniques tested in quarterly purple team", "entities": [[0, 21, "TOOL"]]}
+{"text": "Detection Audit Checklist validated detection coverage and rule quality", "entities": [[0, 10, "DETECTION_TYPE"], [17, 26, "CHECKLIST_TYPE"], [35, 45, "DETECTION_TYPE"], [46, 55, "COVERAGE_TYPE"], [60, 64, "RULE_TYPE"]]}
+{"text": "Correlated Incident Tracker tracked multi-pillar incidents with status updates", "entities": [[0, 11, "CORRELATION_TYPE"], [21, 28, "TRACKER_TYPE"], [37, 48, "INCIDENT_TYPE"]]}
+{"text": "N8n workflow automation platform integrated security tools", "entities": [[8, 19, "AUTOMATION_TYPE"]]}
+{"text": "SIEM XDR Engineer deployed SIEM XDR and log pipelines normalizing telemetry", "entities": []}
+{"text": "Detection Strategist defined enterprise detection strategy mapping 85% MITRE ATT&CK coverage", "entities": []}
+{"text": "Suricata IDS IPS detected network intrusions and attacks", "entities": []}
+{"text": "Wazuh SIEM platform provided open-source security monitoring", "entities": []}
+{"text": "Detection Correlation Auditor audited detection coverage validating correlation accuracy", "entities": [[0, 28, "ROLE"], [37, 47, "DETECTION_TYPE"], [48, 57, "COVERAGE_TYPE"], [67, 78, "CORRELATION_TYPE"], [79, 88, "ACCURACY_TYPE"]]}
+{"text": "Sigma detection rules provided vendor-agnostic threat detection", "entities": [[6, 13, "DETECTION_TYPE"], [36, 45, "THREAT_TYPE"]]}
+{"text": "LogRhythm SIEM solution provided security monitoring and log management", "entities": [[15, 23, "SOLUTION_TYPE"], [41, 51, "MONITORING_TYPE"]]}
+{"text": "Hunt Query Builder conducted 12 proactive hunts detecting 7 anomalies and 2 true incidents", "entities": [[0, 16, "TOOL"], [51, 57, "HUNT_TYPE"]]}
+{"text": "ArcSight SIEM system correlated events from multiple security sources", "entities": []}
+{"text": "IR Playbook Automation executed incident response playbooks automatically", "entities": []}
+{"text": "UEBA Model Lab baselined 52000 entities detecting 6 drift alerts", "entities": []}
+{"text": "Cross-Team Communication Hub coordinated response across SOC IR and stakeholders", "entities": []}
+{"text": "Case Management Platform tracked 12 incidents with average MTTR of 2.4 hours", "entities": []}
+{"text": "SOAR Architect designed automated incident playbooks with measurable reliability", "entities": [[5, 14, "ARCHITECT_TYPE"], [42, 50, "PLAYBOOK_TYPE"]]}
+{"text": "N8n workflow automation platform integrated security tools", "entities": [[8, 19, "AUTOMATION_TYPE"]]}
+{"text": "Detection Correlation Strategist defined enterprise detection strategy mapping MITRE ATT&CK coverage", "entities": []}
+{"text": "QRadar SIEM solution analyzed security events with correlation rules", "entities": [[13, 21, "SOLUTION_TYPE"], [39, 45, "EVENT_TYPE"], [50, 60, "CORRELATION_TYPE"]]}
+{"text": "Detection Engineer built correlation rules machine learning models and detections", "entities": [[0, 19, "ROLE"]]}
+{"text": "Sigma detection rules compiled to Splunk QRadar and Sentinel formats", "entities": [[52, 59, "FORMAT_TYPE"]]}
+{"text": "ArcSight SIEM system correlated events from multiple security sources", "entities": []}
+{"text": "TAXII threat intelligence transport protocol shared indicators", "entities": []}
+{"text": "Elastic Security SIEM normalized events using ECS schema with 93% field completeness", "entities": [[29, 37, "NORMALIZATION_TYPE"], [76, 82, "FIELD_TYPE"]]}
+{"text": "SOC Analyst monitored dashboards triaged correlated alerts and escalated incidents", "entities": [[0, 11, "ROLE"], [41, 47, "ALERT_TYPE"]]}
+{"text": "Log Normalization Engine processed 2500000 logs per day from 21 security sources", "entities": [[0, 25, "TOOL"]]}
+{"text": "Case Management Platform tracked 12 incidents with average MTTR of 2.4 hours", "entities": []}
+{"text": "Data Quality Validator monitored telemetry with 14-second average ingest lag", "entities": [[0, 20, "TOOL"], [48, 56, "VALIDATOR_TYPE"]]}
+{"text": "Elastic Security SIEM provided log analysis and threat detection", "entities": []}
+{"text": "Log Normalization Engine processed logs normalizing events from security sources", "entities": [[0, 3, "LOG_TYPE"], [4, 18, "NORMALIZATION_TYPE"], [34, 38, "LOG_TYPE"], [39, 48, "NORMALIZATION_TYPE"]]}
+{"text": "Microsoft Sentinel SIEM platform detected threats with machine learning", "entities": [[64, 71, "MODEL_TYPE"]]}
+{"text": "Threat Intel Feed Integrator enriched detections with threat intelligence", "entities": [[18, 28, "INTEGRATOR_TYPE"], [37, 47, "DETECTION_TYPE"]]}
+{"text": "Cross-Team Communication Hub coordinated response across SOC IR and stakeholders", "entities": []}
+{"text": "OpenCTI threat intelligence platform managed threat knowledge", "entities": []}
+{"text": "Threat Enrichment API enriched alerts with 8 contextual indicators", "entities": [[0, 22, "TOOL"], [23, 26, "API_TYPE"]]}
+{"text": "UEBA Data Scientist built entity baselines tuning thresholds and monitoring model drift", "entities": [[10, 14, "DATA_TYPE"], [15, 24, "SCIENTIST_TYPE"], [33, 39, "ENTITY_TYPE"]]}
+{"text": "Sigma detection rules provided vendor-agnostic threat detection", "entities": [[6, 13, "DETECTION_TYPE"], [36, 45, "THREAT_TYPE"]]}
+{"text": "Fluent Bit lightweight log processor collected telemetry", "entities": [[12, 20, "LOG_TYPE"]]}
+{"text": "Sigma Rule Builder created detection rules mapping 85 adversary techniques", "entities": [[0, 15, "TOOL"], [29, 35, "BUILDER_TYPE"]]}
+{"text": "IR Playbook Automation executed response playbooks resolving 12 multi-pillar incidents", "entities": []}
+{"text": "Telemetry Health Monitor validated pipeline status showing healthy ingestion", "entities": [[0, 9, "TELEMETRY_TYPE"], [10, 16, "HEALTH_TYPE"]]}
+{"text": "OCSF Open Cybersecurity Schema Framework standardized log formats", "entities": []}
+{"text": "Threat Intel Feed Integrator ingested 240000 IOCs with 2.4% hit rate", "entities": []}
+{"text": "Detection false positive rate reduced to 1.2% improving SOC analyst productivity", "entities": []}
+{"text": "Cortex security orchestration platform automated incident response", "entities": [[7, 20, "ORCHESTRATION_TYPE"], [21, 30, "PLATFORM_TYPE"]]}
+{"text": "UEBA Model Lab baselined 52000 entities detecting 6 drift alerts", "entities": []}
+{"text": "LogRhythm SIEM solution provided security monitoring and log management", "entities": [[15, 23, "SOLUTION_TYPE"], [41, 51, "MONITORING_TYPE"]]}
+{"text": "Correlation accuracy achieved 88% with reduced false positive rate to 0.12", "entities": [[0, 20, "CORRELATION_TYPE"]]}
+{"text": "Snort IDS detected network intrusions with signature-based detection", "entities": [[26, 36, "INTRUSION_TYPE"]]}
+{"text": "QRadar SIEM solution analyzed security events with correlation rules", "entities": [[13, 21, "SOLUTION_TYPE"], [39, 45, "EVENT_TYPE"], [50, 60, "CORRELATION_TYPE"]]}
+{"text": "YARA rule engine detected malware and suspicious files", "entities": [[5, 9, "RULE_TYPE"], [25, 33, "MALWARE_TYPE"], [38, 48, "SUSPICIOUS_TYPE"], [49, 54, "FILE_TYPE"]]}
+{"text": "Splunk SIEM platform ingested logs from 95 sources with 88% OCSF conformance", "entities": []}
+{"text": "Threat Enrichment API enriched alerts with contextual threat data", "entities": [[7, 18, "ENRICHMENT_TYPE"], [31, 37, "ALERT_TYPE"]]}
+{"text": "Detection Engineer built correlation rules machine learning models and detections", "entities": [[0, 19, "ROLE"]]}
+{"text": "Cross-Team Communication Hub coordinated response across SOC IR and executive teams", "entities": [[0, 28, "TOOL"]]}
+{"text": "n8n workflow automation enabled security tool integration", "entities": [[8, 19, "AUTOMATION_TYPE"]]}
+{"text": "Elastic Security SIEM normalized events using ECS schema with 93% field completeness", "entities": [[29, 37, "NORMALIZATION_TYPE"], [76, 82, "FIELD_TYPE"]]}
+{"text": "Kafka message broker streamed log events for real-time processing", "entities": [[6, 13, "MESSAGE_TYPE"], [14, 20, "BROKER_TYPE"]]}
+{"text": "MITRE ATT&CK Coverage Mapper mapped detection coverage to adversary TTPs", "entities": [[0, 5, "FRAMEWORK"], [6, 12, "FRAMEWORK"], [13, 20, "COVERAGE_TYPE"], [35, 45, "DETECTION_TYPE"], [46, 55, "COVERAGE_TYPE"], [58, 68, "ADVERSARY_TYPE"], [69, 72, "TTP_TYPE"]]}
+{"text": "Incident Commander Detection Correlation led coordinated response for multi-pillar incidents", "entities": [[0, 18, "ROLE"], [29, 40, "COMMANDER_TYPE"], [41, 51, "DETECTION_TYPE"]]}
+{"text": "Threat Enrichment API enriched alerts with contextual threat data", "entities": [[7, 18, "ENRICHMENT_TYPE"], [31, 37, "ALERT_TYPE"]]}
+{"text": "MISP threat intelligence platform shared indicators and threat data", "entities": []}
+{"text": "SIEM XDR Engineer deployed SIEM XDR and log pipelines normalizing telemetry", "entities": []}
+{"text": "Beats lightweight shippers collected logs from endpoints", "entities": [[6, 11, "SHIPPER_TYPE"], [20, 25, "LOG_TYPE"]]}
+{"text": "SIEM Rule Manager deployed correlation rules with false positive analysis", "entities": [[10, 15, "RULE_TYPE"]]}
+{"text": "Evidence Packaging Tool compiled detection evidence for audits and compliance", "entities": [[0, 8, "EVIDENCE_TYPE"], [9, 19, "PACKAGING_TYPE"], [33, 43, "DETECTION_TYPE"], [44, 51, "EVIDENCE_TYPE"], [56, 62, "AUDIT_TYPE"]]}
+{"text": "MITRE ATT&CK Coverage Mapper mapped detection coverage to adversary TTPs", "entities": [[0, 5, "FRAMEWORK"], [6, 12, "FRAMEWORK"], [13, 20, "COVERAGE_TYPE"], [35, 45, "DETECTION_TYPE"], [46, 55, "COVERAGE_TYPE"], [58, 68, "ADVERSARY_TYPE"], [69, 72, "TTP_TYPE"]]}
+{"text": "Correlation Policy Generator created use cases integrating security pillars", "entities": [[0, 28, "TOOL"]]}
+{"text": "SOAR Playbook Studio designed automated playbooks with guardrails", "entities": [[10, 17, "PLAYBOOK_TYPE"]]}
+{"text": "Fluent Bit lightweight log processor collected telemetry", "entities": [[12, 20, "LOG_TYPE"]]}
+{"text": "Detection coverage improved to 92% with 5 issues resolved from audit findings", "entities": [[0, 19, "DETECTION_TYPE"], [20, 27, "COVERAGE_TYPE"]]}
+{"text": "LogRhythm SIEM solution provided security monitoring and log management", "entities": [[15, 23, "SOLUTION_TYPE"], [41, 51, "MONITORING_TYPE"]]}
+{"text": "SOC Maturity Model Framework assessed detection maturity and SOC capabilities", "entities": []}
+{"text": "Correlated Incident Tracker monitored 4 executive briefings during incident response", "entities": [[0, 25, "TOOL"]]}
+{"text": "Correlation accuracy achieved 88% with reduced false positive rate to 0.12", "entities": [[0, 20, "CORRELATION_TYPE"]]}
+{"text": "Threat Intel Feed Integrator enriched detections with threat intelligence", "entities": [[18, 28, "INTEGRATOR_TYPE"], [37, 47, "DETECTION_TYPE"]]}
+{"text": "Sigma Rule Builder wrote correlation rules mapping adversary TTPs", "entities": [[6, 11, "RULE_TYPE"], [12, 19, "BUILDER_TYPE"]]}
+{"text": "SOAR Architect designed automated incident playbooks with measurable reliability", "entities": [[5, 14, "ARCHITECT_TYPE"], [42, 50, "PLAYBOOK_TYPE"]]}
+{"text": "OCSF Open Cybersecurity Schema Framework standardized log formats", "entities": []}
+{"text": "Cross-Team Communication Hub coordinated response across SOC IR and executive teams", "entities": [[0, 28, "TOOL"]]}
+{"text": "N8n workflow automation platform integrated security tools", "entities": [[8, 19, "AUTOMATION_TYPE"]]}
+{"text": "Atomic Red Team tested detection coverage with attack simulations", "entities": [[24, 33, "DETECTION_TYPE"], [34, 42, "COVERAGE_TYPE"], [54, 65, "SIMULATION_TYPE"]]}
+{"text": "QRadar SIEM solution analyzed security events with correlation rules", "entities": [[13, 21, "SOLUTION_TYPE"], [39, 45, "EVENT_TYPE"], [50, 60, "CORRELATION_TYPE"]]}
+{"text": "Runbook Catalog cataloged incident response runbooks for SOC operations", "entities": [[0, 8, "RUNBOOK_TYPE"], [9, 16, "CATALOG_TYPE"], [43, 50, "RUNBOOK_TYPE"]]}
+{"text": "MITRE Coverage Validator validated ATT&CK coverage mapping techniques", "entities": [[0, 5, "FRAMEWORK"], [6, 13, "COVERAGE_TYPE"], [14, 23, "VALIDATOR_TYPE"]]}
+{"text": "Telemetry Health Monitor validated pipeline status showing healthy ingestion", "entities": [[0, 23, "TOOL"]]}
+{"text": "Case Management Platform managed incident cases with workflow automation", "entities": [[6, 15, "MANAGEMENT_TYPE"], [52, 61, "WORKFLOW_TYPE"]]}
+{"text": "SOC Alert Console triaged 450 correlated alerts escalating 35 high-severity incidents", "entities": [[0, 16, "TOOL"], [31, 38, "ALERT_TYPE"]]}
+{"text": "UEBA Data Scientist built entity baselines tuning thresholds and monitoring model drift", "entities": [[10, 14, "DATA_TYPE"], [15, 24, "SCIENTIST_TYPE"], [33, 39, "ENTITY_TYPE"]]}
+{"text": "ECS Elastic Common Schema normalized log events for analysis", "entities": []}
+{"text": "Shuffle SOAR platform automated security workflows and playbooks", "entities": []}
+{"text": "Telemetry Health Monitor validated pipeline status showing healthy ingestion", "entities": [[0, 23, "TOOL"]]}
+{"text": "TheHive case management platform managed security incidents", "entities": [[13, 22, "MANAGEMENT_TYPE"]]}
+{"text": "SOAR Playbook Studio cataloged 48 playbooks with 38% touchless resolution", "entities": [[0, 18, "TOOL"], [36, 43, "STUDIO_TYPE"]]}
+{"text": "Elastic Security SIEM provided log analysis and threat detection", "entities": []}
+{"text": "Prometheus metrics database collected time-series security metrics", "entities": [[19, 27, "DATABASE_TYPE"]]}
+{"text": "Snort IDS detected network intrusions with signature-based detection", "entities": [[26, 36, "INTRUSION_TYPE"]]}
+{"text": "ArcSight SIEM system correlated events from multiple security sources", "entities": []}
+{"text": "Evidence Packaging Tool compiled detection evidence for audits and compliance", "entities": [[0, 8, "EVIDENCE_TYPE"], [9, 19, "PACKAGING_TYPE"], [33, 43, "DETECTION_TYPE"], [44, 51, "EVIDENCE_TYPE"], [56, 62, "AUDIT_TYPE"]]}
+{"text": "Log Normalization Engine processed 2500000 logs per day from 21 security sources", "entities": [[0, 25, "TOOL"]]}
+{"text": "Exabeam SIEM platform enabled user behavior analytics and threat detection", "entities": [[35, 44, "BEHAVIOR_TYPE"], [45, 54, "ANALYTICS_TYPE"]]}
+{"text": "Sigma Rule Builder created detection rules mapping 85 adversary techniques", "entities": [[0, 15, "TOOL"], [29, 35, "BUILDER_TYPE"]]}
+{"text": "Detection Engineer built correlation rules machine learning models and detections", "entities": [[0, 19, "ROLE"]]}
+{"text": "Threat Hunter performed proactive hunts using correlated telemetry uncovering stealthy attacks", "entities": [[0, 13, "ROLE"], [23, 30, "HUNT_TYPE"], [67, 77, "ATTACK_TYPE"]]}
+{"text": "Logstash log processor parsed and transformed log events", "entities": [[9, 12, "LOG_TYPE"], [13, 22, "PROCESSOR_TYPE"], [37, 43, "EVENT_TYPE"]]}
+{"text": "SIEM Rule Manager deployed 120 correlation rules with 0.12 false positive rate", "entities": [[0, 15, "TOOL"], [29, 40, "CORRELATION_TYPE"]]}
+{"text": "Microsoft Sentinel SIEM platform detected threats with machine learning", "entities": [[64, 71, "MODEL_TYPE"]]}
+{"text": "Snort IDS detected network intrusions with signature-based detection", "entities": [[26, 36, "INTRUSION_TYPE"]]}
+{"text": "Detection Audit Checklist validated 88% ATT&CK coverage with 5 issues found", "entities": [[0, 25, "TOOL"], [48, 55, "CHECKLIST_TYPE"]]}
+{"text": "MITRE ATT&CK Coverage Mapper mapped detection coverage to adversary TTPs", "entities": [[0, 5, "FRAMEWORK"], [6, 12, "FRAMEWORK"], [13, 20, "COVERAGE_TYPE"], [35, 45, "DETECTION_TYPE"], [46, 55, "COVERAGE_TYPE"], [58, 68, "ADVERSARY_TYPE"], [69, 72, "TTP_TYPE"]]}
+{"text": "Correlation Policy Generator created use cases integrating security pillars", "entities": [[0, 28, "TOOL"]]}
+{"text": "Threat Intel Feed Integrator ingested 240000 IOCs with 2.4% hit rate", "entities": []}
+{"text": "Cortex security orchestration platform automated incident response", "entities": [[7, 20, "ORCHESTRATION_TYPE"], [21, 30, "PLATFORM_TYPE"]]}
+{"text": "Kafka message broker streamed log events for real-time processing", "entities": [[6, 13, "MESSAGE_TYPE"], [14, 20, "BROKER_TYPE"]]}
+{"text": "LogRhythm SIEM solution provided security monitoring and log management", "entities": [[15, 23, "SOLUTION_TYPE"], [41, 51, "MONITORING_TYPE"]]}
+{"text": "False Positive Analyzer reduced alert noise by 22% improving detection accuracy", "entities": [[0, 22, "TOOL"]]}
+{"text": "IOC Scoring Engine processed 240000 indicators with 0.6% false positive rate", "entities": [[37, 43, "ENGINE_TYPE"]]}
+{"text": "Fluentd log collector aggregated logs from multiple sources", "entities": [[8, 11, "LOG_TYPE"], [12, 21, "COLLECTOR_TYPE"]]}
+{"text": "Detection Strategist defined enterprise detection strategy mapping 85% MITRE ATT&CK coverage", "entities": []}
+{"text": "SIEM XDR Engineer deployed SIEM XDR and log pipelines normalizing telemetry", "entities": []}
+{"text": "Splunk SIEM platform ingested logs from 95 sources with 88% OCSF conformance", "entities": []}
+{"text": "Graph-based Investigation Tool analyzed correlated events identifying attack chains", "entities": [[0, 18, "TOOL"], [63, 69, "EVENT_TYPE"]]}
+{"text": "False Positive Analyzer tuned correlation rules reducing false positives", "entities": [[0, 5, "FALSE_TYPE"], [6, 14, "POSITIVE_TYPE"], [15, 23, "ANALYZER_TYPE"], [31, 42, "CORRELATION_TYPE"], [43, 48, "RULE_TYPE"], [57, 62, "FALSE_TYPE"], [63, 71, "POSITIVE_TYPE"]]}
+{"text": "SIEM Rule Manager deployed correlation rules with false positive analysis", "entities": [[10, 15, "RULE_TYPE"]]}
+{"text": "Elasticsearch search engine indexed logs for fast querying", "entities": [[0, 12, "TOOL"], [13, 19, "SEARCH_TYPE"], [35, 39, "LOG_TYPE"]]}
+{"text": "STIX threat intelligence format standardized threat data exchange", "entities": [[34, 40, "THREAT_TYPE"]]}
+{"text": "Sigma detection rules provided vendor-agnostic threat detection", "entities": [[6, 13, "DETECTION_TYPE"], [36, 45, "THREAT_TYPE"]]}
+{"text": "Correlated Incident Tracker tracked multi-pillar incidents with status updates", "entities": [[0, 11, "CORRELATION_TYPE"], [21, 28, "TRACKER_TYPE"], [37, 48, "INCIDENT_TYPE"]]}
+{"text": "SIEM Rule Manager deployed correlation rules with false positive analysis", "entities": [[10, 15, "RULE_TYPE"]]}
+{"text": "SIEM Rule Manager deployed 120 correlation rules with 0.12 false positive rate", "entities": [[0, 15, "TOOL"], [29, 40, "CORRELATION_TYPE"]]}
+{"text": "SOC Analyst monitored dashboards triaged correlated alerts and escalated incidents", "entities": [[0, 11, "ROLE"], [41, 47, "ALERT_TYPE"]]}
+{"text": "Graph-based Investigation Tool mapped lateral movement across 5 compromised systems", "entities": [[0, 30, "TOOL"], [39, 50, "INVESTIGATION_TYPE"], [67, 75, "ATTACK_TYPE"]]}
+{"text": "OpenCTI threat intelligence platform managed threat knowledge", "entities": []}
+{"text": "Case Management Platform tracked 12 incidents with average MTTR of 2.4 hours", "entities": []}
+{"text": "ArcSight SIEM system correlated events from multiple security sources", "entities": []}
+{"text": "Detection Lab Simulator tested detection rules with attack simulations", "entities": [[0, 10, "DETECTION_TYPE"]]}
+{"text": "Detection Lab Simulator validated 24 attack scenarios with 19 passing detection", "entities": [[0, 22, "TOOL"], [71, 79, "ATTACK_TYPE"]]}
+{"text": "Telemetry Health Monitor validated pipeline status showing healthy ingestion", "entities": [[0, 9, "TELEMETRY_TYPE"], [10, 16, "HEALTH_TYPE"]]}
+{"text": "Detection Correlation Auditor audited detection coverage validating correlation accuracy", "entities": [[0, 28, "ROLE"], [37, 47, "DETECTION_TYPE"], [48, 57, "COVERAGE_TYPE"], [67, 78, "CORRELATION_TYPE"], [79, 88, "ACCURACY_TYPE"]]}
+{"text": "Threat Enrichment API enriched alerts with 8 contextual indicators", "entities": [[0, 22, "TOOL"], [23, 26, "API_TYPE"]]}
+{"text": "Correlated Incident Tracker monitored 4 executive briefings during incident response", "entities": [[0, 25, "TOOL"]]}
+{"text": "SOC Maturity Model Framework assessed detection maturity and SOC capabilities", "entities": []}
+{"text": "Suricata IDS IPS detected network intrusions and attacks", "entities": []}
+{"text": "Prometheus metrics database collected time-series security metrics", "entities": [[19, 27, "DATABASE_TYPE"]]}
+{"text": "Cross-Team Communication Hub coordinated response across SOC IR and stakeholders", "entities": []}
+{"text": "Correlation accuracy achieved 88% with reduced false positive rate to 0.12", "entities": [[0, 20, "CORRELATION_TYPE"]]}
+{"text": "OpenCTI threat intelligence platform managed threat knowledge", "entities": []}
+{"text": "Detection Lab Simulator tested detection rules with attack simulations", "entities": [[0, 10, "DETECTION_TYPE"]]}
+{"text": "Detection Strategist defined enterprise detection strategy mapping 85% MITRE ATT&CK coverage", "entities": []}
+{"text": "Detection Lab Simulator validated 24 attack scenarios with 19 passing detection", "entities": [[0, 22, "TOOL"], [71, 79, "ATTACK_TYPE"]]}
+{"text": "Sigma detection rules compiled to Splunk QRadar and Sentinel formats", "entities": [[52, 59, "FORMAT_TYPE"]]}
+{"text": "IR Playbook Automation executed response playbooks resolving 12 multi-pillar incidents", "entities": []}
+{"text": "Detection training completion reached 91% for all SOC analysts and engineers", "entities": [[0, 19, "DETECTION_TYPE"], [29, 38, "COMPLETION_TYPE"], [55, 61, "ROLE_TYPE"]]}
+{"text": "False Positive Analyzer tuned correlation rules reducing false positives", "entities": [[0, 5, "FALSE_TYPE"], [6, 14, "POSITIVE_TYPE"], [15, 23, "ANALYZER_TYPE"], [31, 42, "CORRELATION_TYPE"], [43, 48, "RULE_TYPE"], [57, 62, "FALSE_TYPE"], [63, 71, "POSITIVE_TYPE"]]}
+{"text": "Detection training completion reached 91% for all SOC analysts and engineers", "entities": [[0, 19, "DETECTION_TYPE"], [29, 38, "COMPLETION_TYPE"], [55, 61, "ROLE_TYPE"]]}
+{"text": "SOC alert triage efficiency improved with 52 false positives filtered automatically", "entities": [[4, 9, "ALERT_TYPE"], [10, 16, "TRIAGE_TYPE"], [17, 26, "EFFICIENCY_TYPE"]]}
+{"text": "SOC Alert Console triaged 450 correlated alerts escalating 35 high-severity incidents", "entities": [[0, 16, "TOOL"], [31, 38, "ALERT_TYPE"]]}
+{"text": "IOC Scoring Engine processed 240000 indicators with 0.6% false positive rate", "entities": [[37, 43, "ENGINE_TYPE"]]}
+{"text": "Microsoft Sentinel SIEM platform detected threats with machine learning", "entities": [[64, 71, "MODEL_TYPE"]]}
+{"text": "SOC Alert Console triaged 450 correlated alerts escalating 35 high-severity incidents", "entities": [[0, 16, "TOOL"], [31, 38, "ALERT_TYPE"]]}
+{"text": "Detection Correlation Auditor audited detection coverage validating correlation accuracy", "entities": [[0, 28, "ROLE"], [37, 47, "DETECTION_TYPE"], [48, 57, "COVERAGE_TYPE"], [67, 78, "CORRELATION_TYPE"], [79, 88, "ACCURACY_TYPE"]]}
+{"text": "Caldera adversary emulation platform tested detection rules", "entities": [[8, 16, "ADVERSARY_TYPE"], [17, 27, "EMULATION_TYPE"]]}
+{"text": "Correlation Policy Generator created use cases integrating security pillars", "entities": [[0, 28, "TOOL"]]}
+{"text": "Cross-Team Communication Hub coordinated response across SOC IR and stakeholders", "entities": []}
+{"text": "Detection Engineer built correlation rules machine learning models and detections", "entities": [[0, 19, "ROLE"]]}
+{"text": "Sigma detection rules provided vendor-agnostic threat detection", "entities": [[6, 13, "DETECTION_TYPE"], [36, 45, "THREAT_TYPE"]]}
+{"text": "Detection coverage improved to 92% with 5 issues resolved from audit findings", "entities": [[0, 19, "DETECTION_TYPE"], [20, 27, "COVERAGE_TYPE"]]}
+{"text": "Logstash log processor parsed and transformed log events", "entities": [[9, 12, "LOG_TYPE"], [13, 22, "PROCESSOR_TYPE"], [37, 43, "EVENT_TYPE"]]}
+{"text": "Detection Audit Checklist validated 88% ATT&CK coverage with 5 issues found", "entities": [[0, 25, "TOOL"], [48, 55, "CHECKLIST_TYPE"]]}
+{"text": "STIX threat intelligence format standardized threat data exchange", "entities": [[34, 40, "THREAT_TYPE"]]}
+{"text": "Prometheus metrics database collected time-series security metrics", "entities": [[19, 27, "DATABASE_TYPE"]]}
+{"text": "STIX threat intelligence format standardized threat data exchange", "entities": [[34, 40, "THREAT_TYPE"]]}
+{"text": "Automation QA Harness tested playbook automation with quality assurance", "entities": [[0, 11, "AUTOMATION_TYPE"]]}
+{"text": "Fluent Bit lightweight log processor collected telemetry", "entities": [[12, 20, "LOG_TYPE"]]}
+{"text": "Sigma Rule Builder wrote correlation rules mapping adversary TTPs", "entities": [[6, 11, "RULE_TYPE"], [12, 19, "BUILDER_TYPE"]]}
+{"text": "TAXII threat intelligence transport protocol shared indicators", "entities": []}
+{"text": "Atomic Red Team tested detection coverage with attack simulations", "entities": [[24, 33, "DETECTION_TYPE"], [34, 42, "COVERAGE_TYPE"], [54, 65, "SIMULATION_TYPE"]]}
+{"text": "TheHive case management platform managed security incidents", "entities": [[13, 22, "MANAGEMENT_TYPE"]]}
+{"text": "Splunk SIEM platform ingested logs correlating security events", "entities": [[25, 29, "LOG_TYPE"], [30, 39, "CORRELATION_TYPE"]]}
+{"text": "Wazuh SIEM platform provided open-source security monitoring", "entities": []}
+{"text": "Incident Commander Detection Correlation led coordinated response for multi-pillar incidents", "entities": [[0, 18, "ROLE"], [29, 40, "COMMANDER_TYPE"], [41, 51, "DETECTION_TYPE"]]}
+{"text": "Detection Correlation Strategist defined enterprise detection strategy mapping MITRE ATT&CK coverage", "entities": []}
+{"text": "Correlated Incident Tracker tracked multi-pillar incidents with status updates", "entities": [[0, 11, "CORRELATION_TYPE"], [21, 28, "TRACKER_TYPE"], [37, 48, "INCIDENT_TYPE"]]}
+{"text": "MISP threat intelligence platform shared indicators and threat data", "entities": []}
+{"text": "TheHive case management platform managed security incidents", "entities": [[13, 22, "MANAGEMENT_TYPE"]]}
+{"text": "Threat Intel Feed Integrator ingested 240000 IOCs with 2.4% hit rate", "entities": []}
+{"text": "Hunt Query Builder created proactive hunt queries for threat detection", "entities": [[0, 4, "HUNT_TYPE"], [11, 18, "BUILDER_TYPE"], [27, 36, "HUNT_TYPE"]]}
+{"text": "Detection Lab Simulator validated 24 attack scenarios with 19 passing detection", "entities": [[0, 22, "TOOL"], [71, 79, "ATTACK_TYPE"]]}
+{"text": "Zeek network security monitor captured network traffic for analysis", "entities": []}
+{"text": "SOAR Architect designed automated incident playbooks with measurable reliability", "entities": [[5, 14, "ARCHITECT_TYPE"], [42, 50, "PLAYBOOK_TYPE"]]}
+{"text": "Incident Commander Detection Correlation led coordinated response for multi-pillar incidents", "entities": [[0, 18, "ROLE"], [29, 40, "COMMANDER_TYPE"], [41, 51, "DETECTION_TYPE"]]}
+{"text": "SOAR Architect designed automated incident playbooks with measurable reliability", "entities": [[5, 14, "ARCHITECT_TYPE"], [42, 50, "PLAYBOOK_TYPE"]]}
+{"text": "Kafka message broker streamed log events for real-time processing", "entities": [[6, 13, "MESSAGE_TYPE"], [14, 20, "BROKER_TYPE"]]}
+{"text": "False Positive Analyzer tuned correlation rules reducing false positives", "entities": [[0, 5, "FALSE_TYPE"], [6, 14, "POSITIVE_TYPE"], [15, 23, "ANALYZER_TYPE"], [31, 42, "CORRELATION_TYPE"], [43, 48, "RULE_TYPE"], [57, 62, "FALSE_TYPE"], [63, 71, "POSITIVE_TYPE"]]}
+{"text": "False Positive Analyzer tuned correlation rules reducing false positives", "entities": [[0, 5, "FALSE_TYPE"], [6, 14, "POSITIVE_TYPE"], [15, 23, "ANALYZER_TYPE"], [31, 42, "CORRELATION_TYPE"], [43, 48, "RULE_TYPE"], [57, 62, "FALSE_TYPE"], [63, 71, "POSITIVE_TYPE"]]}
+{"text": "QRadar SIEM solution analyzed security events with correlation rules", "entities": [[13, 21, "SOLUTION_TYPE"], [39, 45, "EVENT_TYPE"], [50, 60, "CORRELATION_TYPE"]]}
+{"text": "Evidence Packaging Tool compiled detection evidence for audits and compliance", "entities": [[0, 8, "EVIDENCE_TYPE"], [9, 19, "PACKAGING_TYPE"], [33, 43, "DETECTION_TYPE"], [44, 51, "EVIDENCE_TYPE"], [56, 62, "AUDIT_TYPE"]]}
+{"text": "Hunt Query Builder created proactive hunt queries for threat detection", "entities": [[0, 4, "HUNT_TYPE"], [11, 18, "BUILDER_TYPE"], [27, 36, "HUNT_TYPE"]]}
+{"text": "MISP threat intelligence platform shared indicators and threat data", "entities": []}
+{"text": "SOC Maturity Model Framework assessed detection maturity and SOC capabilities", "entities": []}
+{"text": "Detection false positive rate reduced to 1.2% improving SOC analyst productivity", "entities": []}
+{"text": "Detection Lab Simulator tested detection rules with attack simulations", "entities": [[0, 10, "DETECTION_TYPE"]]}
+{"text": "SOC Maturity Model Framework assessed detection maturity and SOC capabilities", "entities": []}
+{"text": "Cortex security orchestration platform automated incident response", "entities": [[7, 20, "ORCHESTRATION_TYPE"], [21, 30, "PLATFORM_TYPE"]]}
+{"text": "Caldera adversary emulation platform tested detection rules", "entities": [[8, 16, "ADVERSARY_TYPE"], [17, 27, "EMULATION_TYPE"]]}
+{"text": "MITRE Coverage Validator mapped 46 techniques tested in quarterly purple team", "entities": [[0, 21, "TOOL"]]}
+{"text": "MITRE ATT&CK Coverage Mapper mapped detection coverage to adversary TTPs", "entities": [[0, 5, "FRAMEWORK"], [6, 12, "FRAMEWORK"], [13, 20, "COVERAGE_TYPE"], [35, 45, "DETECTION_TYPE"], [46, 55, "COVERAGE_TYPE"], [58, 68, "ADVERSARY_TYPE"], [69, 72, "TTP_TYPE"]]}
+{"text": "Data Quality Validator monitored telemetry with 14-second average ingest lag", "entities": [[0, 20, "TOOL"], [48, 56, "VALIDATOR_TYPE"]]}
+{"text": "Correlation Policy Generator created 25 use cases integrating 18 security pillars", "entities": [[0, 28, "TOOL"]]}
+{"text": "UEBA Data Scientist built entity baselines tuning thresholds and monitoring model drift", "entities": [[10, 14, "DATA_TYPE"], [15, 24, "SCIENTIST_TYPE"], [33, 39, "ENTITY_TYPE"]]}
+{"text": "Cross-Team Communication Hub coordinated response across SOC IR and executive teams", "entities": [[0, 28, "TOOL"]]}
+{"text": "Log Normalization Engine processed 2500000 logs per day from 21 security sources", "entities": [[0, 25, "TOOL"]]}
+{"text": "Wazuh SIEM platform provided open-source security monitoring", "entities": []}
+{"text": "Threat Hunter performed proactive hunts using correlated telemetry uncovering stealthy attacks", "entities": [[0, 13, "ROLE"], [23, 30, "HUNT_TYPE"], [67, 77, "ATTACK_TYPE"]]}
+{"text": "Case Management Platform managed incident cases with workflow automation", "entities": [[6, 15, "MANAGEMENT_TYPE"], [52, 61, "WORKFLOW_TYPE"]]}
+{"text": "Sigma Rule Builder created detection rules mapping 85 adversary techniques", "entities": [[0, 15, "TOOL"], [29, 35, "BUILDER_TYPE"]]}
+{"text": "Sigma Rule Builder wrote correlation rules mapping adversary TTPs", "entities": [[6, 11, "RULE_TYPE"], [12, 19, "BUILDER_TYPE"]]}
+{"text": "Graph-based Investigation Tool analyzed correlated events identifying attack chains", "entities": [[0, 18, "TOOL"], [63, 69, "EVENT_TYPE"]]}
+{"text": "Automation QA Harness tested playbook automation with quality assurance", "entities": [[0, 11, "AUTOMATION_TYPE"]]}
+{"text": "Atomic Red Team tested detection coverage with attack simulations", "entities": [[24, 33, "DETECTION_TYPE"], [34, 42, "COVERAGE_TYPE"], [54, 65, "SIMULATION_TYPE"]]}
+{"text": "Wazuh open source SIEM detected 15 intrusion attempts with real-time alerting", "entities": [[11, 23, "TOOL"]]}
+{"text": "UEBA Model Lab baselined 52000 entities detecting 6 drift alerts", "entities": []}
+{"text": "Detection training completion reached 91% for all SOC analysts and engineers", "entities": [[0, 19, "DETECTION_TYPE"], [29, 38, "COMPLETION_TYPE"], [55, 61, "ROLE_TYPE"]]}
+{"text": "OCSF Open Cybersecurity Schema Framework standardized log formats", "entities": []}
+{"text": "TAXII threat intelligence transport protocol shared indicators", "entities": []}
+{"text": "Detection Lab Simulator tested detection rules with attack simulations", "entities": [[0, 10, "DETECTION_TYPE"]]}
+{"text": "Threat Enrichment API enriched alerts with 8 contextual indicators", "entities": [[0, 22, "TOOL"], [23, 26, "API_TYPE"]]}
+{"text": "N8n workflow automation platform integrated security tools", "entities": [[8, 19, "AUTOMATION_TYPE"]]}
+{"text": "Runbook Catalog cataloged incident response runbooks for SOC operations", "entities": [[0, 8, "RUNBOOK_TYPE"], [9, 16, "CATALOG_TYPE"], [43, 50, "RUNBOOK_TYPE"]]}
+{"text": "n8n workflow automation enabled security tool integration", "entities": [[8, 19, "AUTOMATION_TYPE"]]}
+{"text": "Cortex security orchestration platform automated incident response", "entities": [[7, 20, "ORCHESTRATION_TYPE"], [21, 30, "PLATFORM_TYPE"]]}
+{"text": "IR Playbook Automation executed incident response playbooks automatically", "entities": []}
+{"text": "False Positive Analyzer reduced alert noise by 22% improving detection accuracy", "entities": [[0, 22, "TOOL"]]}
+{"text": "IOC Scoring Engine processed 240000 indicators with 0.6% false positive rate", "entities": [[37, 43, "ENGINE_TYPE"]]}
+{"text": "Exabeam SIEM platform enabled user behavior analytics and threat detection", "entities": [[35, 44, "BEHAVIOR_TYPE"], [45, 54, "ANALYTICS_TYPE"]]}
+{"text": "Hunt Query Builder conducted 12 proactive hunts detecting 7 anomalies and 2 true incidents", "entities": [[0, 16, "TOOL"], [51, 57, "HUNT_TYPE"]]}
+{"text": "n8n workflow automation enabled security tool integration", "entities": [[8, 19, "AUTOMATION_TYPE"]]}
+{"text": "SOAR Playbook Studio designed automated playbooks with guardrails", "entities": [[10, 17, "PLAYBOOK_TYPE"]]}
+{"text": "Case Management Platform managed incident cases with workflow automation", "entities": [[6, 15, "MANAGEMENT_TYPE"], [52, 61, "WORKFLOW_TYPE"]]}
+{"text": "SOAR Playbook Studio designed automated playbooks with guardrails", "entities": [[10, 17, "PLAYBOOK_TYPE"]]}
+{"text": "Elastic Security SIEM normalized events using ECS schema with 93% field completeness", "entities": [[29, 37, "NORMALIZATION_TYPE"], [76, 82, "FIELD_TYPE"]]}
+{"text": "Correlation Policy Generator created use cases integrating security pillars", "entities": [[0, 28, "TOOL"]]}
+{"text": "YARA rule engine detected malware and suspicious files", "entities": [[5, 9, "RULE_TYPE"], [25, 33, "MALWARE_TYPE"], [38, 48, "SUSPICIOUS_TYPE"], [49, 54, "FILE_TYPE"]]}
+{"text": "Threat Hunter performed proactive hunts using correlated telemetry uncovering stealthy attacks", "entities": [[0, 13, "ROLE"], [23, 30, "HUNT_TYPE"], [67, 77, "ATTACK_TYPE"]]}
+{"text": "SIEM Rule Manager deployed 120 correlation rules with 0.12 false positive rate", "entities": [[0, 15, "TOOL"], [29, 40, "CORRELATION_TYPE"]]}
+{"text": "Detection training completion reached 91% for all SOC analysts and engineers", "entities": [[0, 19, "DETECTION_TYPE"], [29, 38, "COMPLETION_TYPE"], [55, 61, "ROLE_TYPE"]]}
+{"text": "Log Normalization Engine processed logs normalizing events from security sources", "entities": [[0, 3, "LOG_TYPE"], [4, 18, "NORMALIZATION_TYPE"], [34, 38, "LOG_TYPE"], [39, 48, "NORMALIZATION_TYPE"]]}
+{"text": "Snort IDS detected network intrusions with signature-based detection", "entities": [[26, 36, "INTRUSION_TYPE"]]}
+{"text": "Syslog protocol transmitted log events from systems to SIEM", "entities": [[7, 13, "PROTOCOL_TYPE"], [22, 25, "LOG_TYPE"]]}
+{"text": "Graph-based Investigation Tool mapped lateral movement across 5 compromised systems", "entities": [[0, 30, "TOOL"], [39, 50, "INVESTIGATION_TYPE"], [67, 75, "ATTACK_TYPE"]]}
+{"text": "Splunk SIEM platform ingested logs from 95 sources with 88% OCSF conformance", "entities": []}
+{"text": "Case Management Platform managed incident cases with workflow automation", "entities": [[6, 15, "MANAGEMENT_TYPE"], [52, 61, "WORKFLOW_TYPE"]]}
+{"text": "MITRE Coverage Validator mapped 46 techniques tested in quarterly purple team", "entities": [[0, 21, "TOOL"]]}
+{"text": "Graph-based Investigation Tool mapped lateral movement across 5 compromised systems", "entities": [[0, 30, "TOOL"], [39, 50, "INVESTIGATION_TYPE"], [67, 75, "ATTACK_TYPE"]]}
+{"text": "Detection Audit Checklist validated 88% ATT&CK coverage with 5 issues found", "entities": [[0, 25, "TOOL"], [48, 55, "CHECKLIST_TYPE"]]}
+{"text": "Wazuh open source SIEM detected 15 intrusion attempts with real-time alerting", "entities": [[11, 23, "TOOL"]]}
+{"text": "Correlation Policy Generator created 25 use cases integrating 18 security pillars", "entities": [[0, 28, "TOOL"]]}
+{"text": "Elastic Security SIEM provided log analysis and threat detection", "entities": []}
+{"text": "Wazuh SIEM platform provided open-source security monitoring", "entities": []}
+{"text": "Detection coverage improved to 92% with 5 issues resolved from audit findings", "entities": [[0, 19, "DETECTION_TYPE"], [20, 27, "COVERAGE_TYPE"]]}
+{"text": "SOC Alert Console monitored dashboards triaging correlated alerts", "entities": [[52, 58, "ALERT_TYPE"]]}
+{"text": "Correlated Incident Tracker monitored 4 executive briefings during incident response", "entities": [[0, 25, "TOOL"]]}
+{"text": "Suricata IDS IPS detected network intrusions and attacks", "entities": []}
+{"text": "Splunk SIEM platform ingested logs correlating security events", "entities": [[25, 29, "LOG_TYPE"], [30, 39, "CORRELATION_TYPE"]]}
+{"text": "Detection false positive rate reduced to 1.2% improving SOC analyst productivity", "entities": []}
+{"text": "IOC Scoring Engine processed 240000 indicators with 0.6% false positive rate", "entities": [[37, 43, "ENGINE_TYPE"]]}
+{"text": "Detection Strategist defined enterprise detection strategy mapping 85% MITRE ATT&CK coverage", "entities": []}
+{"text": "Telemetry Health Monitor validated pipeline status showing healthy ingestion", "entities": [[0, 9, "TELEMETRY_TYPE"], [10, 16, "HEALTH_TYPE"]]}
+{"text": "TheHive case management platform managed security incidents", "entities": [[13, 22, "MANAGEMENT_TYPE"]]}
+{"text": "Graph-based Investigation Tool analyzed correlated events identifying attack chains", "entities": [[0, 18, "TOOL"], [63, 69, "EVENT_TYPE"]]}
+{"text": "Suricata IDS IPS detected network intrusions and attacks", "entities": []}
+{"text": "Can you help me with this?", "entities": []}
+{"text": "I need to check something.", "entities": []}
+{"text": "What is the status?", "entities": []}
+{"text": "How do I do this?", "entities": []}
+{"text": "Tell me more about it.", "entities": []}
+{"text": "Is this safe to use?", "entities": []}
+{"text": "Let me know if you need anything.", "entities": []}
+{"text": "Thanks for your help.", "entities": []}
+{"text": "I will get back to you.", "entities": []}
+{"text": "Please review this document.", "entities": []}
+{"text": "What should I do next?", "entities": []}
+{"text": "How does this work?", "entities": []}
+{"text": "Why is this happening?", "entities": []}
+{"text": "When will this be ready?", "entities": []}
+{"text": "Where can I find this?", "entities": []}
+{"text": "Who should I contact?", "entities": []}
+{"text": "Hey, what's up?", "entities": []}
+{"text": "That's interesting.", "entities": []}
+{"text": "I see what you mean.", "entities": []}
+{"text": "That makes sense.", "entities": []}
+{"text": "Got it, thanks.", "entities": []}
+{"text": "Follow the steps carefully.", "entities": []}
+{"text": "Make sure to save your work.", "entities": []}
+{"text": "Check the settings first.", "entities": []}
+{"text": "Review the documentation.", "entities": []}
+{"text": "Read the instructions.", "entities": []}
+{"text": "This is important.", "entities": []}
+{"text": "That looks good.", "entities": []}
+{"text": "Everything seems fine.", "entities": []}
+{"text": "Nothing to report.", "entities": []}
+{"text": "All systems operational.", "entities": []}
+{"text": "The system is secure.", "entities": []}
+{"text": "All checks passed.", "entities": []}
+{"text": "No issues detected.", "entities": []}
+{"text": "Everything is working correctly.", "entities": []}
+{"text": "The configuration looks good.", "entities": []}
+{"text": "No vulnerabilities found.", "entities": []}
+{"text": "Security measures are in place.", "entities": []}
+{"text": "The audit was successful.", "entities": []}
+{"text": "The information is verified.", "entities": []}

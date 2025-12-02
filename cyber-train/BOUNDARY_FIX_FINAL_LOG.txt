@@ -1,0 +1,307 @@
+======================================================================
+COMPREHENSIVE BOUNDARY FIX - ALL FILES
+======================================================================
+
+Mode: APPLYING FIXES
+Files to process: 49
+
+📄 Processing: ai_security/ai_security_entities.jsonl
+   Removed: 140 false positives
+   Fixed: 0 boundaries
+   Before: 3444 entities
+   After: 3444 entities
+
+📄 Processing: api_security/api_security_entities.jsonl
+   Removed: 264 false positives
+   Fixed: 0 boundaries
+   Before: 2508 entities
+   After: 2004 entities
+
+📄 Processing: application_security/application_security_entities.jsonl
+   Removed: 260 false positives
+   Fixed: 0 boundaries
+   Before: 2612 entities
+   After: 2036 entities
+
+📄 Processing: audit_compliance/audit_compliance_entities.jsonl
+   Removed: 312 false positives
+   Fixed: 0 boundaries
+   Before: 2528 entities
+   After: 1888 entities
+
+📄 Processing: authentication/authentication_entities.jsonl
+   Removed: 236 false positives
+   Fixed: 0 boundaries
+   Before: 2584 entities
+   After: 2036 entities
+
+📄 Processing: authorization/authorization_entities.jsonl
+   Removed: 180 false positives
+   Fixed: 0 boundaries
+   Before: 2392 entities
+   After: 1932 entities
+
+📄 Processing: cloud_security_cnapp/cloud_security_cnapp_entities.jsonl
+   Removed: 296 false positives
+   Fixed: 0 boundaries
+   Before: 2748 entities
+   After: 2108 entities
+
+📄 Processing: container_security/container_security_entities.jsonl
+   Removed: 220 false positives
+   Fixed: 0 boundaries
+   Before: 2532 entities
+   After: 1888 entities
+
+📄 Processing: data_privacy_sovereignty/data_privacy_sovereignty_entities.jsonl
+   Removed: 228 false positives
+   Fixed: 0 boundaries
+   Before: 2568 entities
+   After: 2156 entities
+
+📄 Processing: data_protection_backup/data_protection_backup_entities.jsonl
+   Removed: 248 false positives
+   Fixed: 0 boundaries
+   Before: 2832 entities
+   After: 2280 entities
+
+📄 Processing: detection_correlation/detection_correlation_entities.jsonl
+   Removed: 272 false positives
+   Fixed: 0 boundaries
+   Before: 2404 entities
+   After: 1672 entities
+
+📄 Processing: disaster_recovery/disaster_recovery_entities.jsonl
+   Removed: 248 false positives
+   Fixed: 0 boundaries
+   Before: 2428 entities
+   After: 1956 entities
+
+📄 Processing: due_diligence/due_diligence_entities.jsonl
+   Removed: 124 false positives
+   Fixed: 0 boundaries
+   Before: 816 entities
+   After: 672 entities
+
+📄 Processing: encryption/encryption_entities.jsonl
+   Removed: 288 false positives
+   Fixed: 0 boundaries
+   Before: 3176 entities
+   After: 2356 entities
+
+📄 Processing: endpoint_security/endpoint_security_entities.jsonl
+   Removed: 276 false positives
+   Fixed: 0 boundaries
+   Before: 2712 entities
+   After: 1920 entities
+
+📄 Processing: governance_risk_strategy/governance_risk_strategy_entities.jsonl
+   Removed: 408 false positives
+   Fixed: 0 boundaries
+   Before: 2804 entities
+   After: 2196 entities
+
+📄 Processing: identity_governance_iga/identity_governance_iga_entities.jsonl
+   Removed: 144 false positives
+   Fixed: 0 boundaries
+   Before: 1012 entities
+   After: 788 entities
+
+📄 Processing: incident_response/incident_response_entities.jsonl
+   Removed: 120 false positives
+   Fixed: 0 boundaries
+   Before: 856 entities
+   After: 576 entities
+
+📄 Processing: network_security/network_security_entities.jsonl
+   Removed: 424 false positives
+   Fixed: 0 boundaries
+   Before: 3044 entities
+   After: 2072 entities
+
+📄 Processing: osint/ai-int/ai-int_entities.jsonl
+   Removed: 296 false positives
+   Fixed: 0 boundaries
+   Before: 5108 entities
+   After: 4492 entities
+
+📄 Processing: osint/comint/comint_entities.jsonl
+   Removed: 80 false positives
+   Fixed: 0 boundaries
+   Before: 3676 entities
+   After: 3516 entities
+
+📄 Processing: osint/cybint/cybint_entities.jsonl
+   Removed: 192 false positives
+   Fixed: 0 boundaries
+   Before: 4164 entities
+   After: 3972 entities
+
+📄 Processing: osint/darkint/darkint_entities.jsonl
+   Removed: 348 false positives
+   Fixed: 0 boundaries
+   Before: 4232 entities
+   After: 3724 entities
+
+📄 Processing: osint/digint/digint_entities.jsonl
+   ✅ No issues found
+
+📄 Processing: osint/dnint/dnint_entities.jsonl
+   Removed: 152 false positives
+   Fixed: 0 boundaries
+   Before: 3908 entities
+   After: 3676 entities
+
+📄 Processing: osint/domain_intel/domain_intel_entities.jsonl
+   Removed: 240 false positives
+   Fixed: 0 boundaries
+   Before: 3968 entities
+   After: 3648 entities
+
+📄 Processing: osint/ecoint/ecoint_entities.jsonl
+   Removed: 8 false positives
+   Fixed: 0 boundaries
+   Before: 3916 entities
+   After: 3828 entities
+
+📄 Processing: osint/eduint/eduint_entities.jsonl
+   Removed: 8 false positives
+   Fixed: 0 boundaries
+   Before: 3916 entities
+   After: 3828 entities
+
+📄 Processing: osint/finint/finint_entities.jsonl
+   ✅ No issues found
+
+📄 Processing: osint/geoint/geoint_entities.jsonl
+   Removed: 20 false positives
+   Fixed: 0 boundaries
+   Before: 4364 entities
+   After: 3832 entities
+
+📄 Processing: osint/humint/humint_entities.jsonl
+   ✅ No issues found
+
+📄 Processing: osint/imint/imint_entities.jsonl
+   Removed: 84 false positives
+   Fixed: 0 boundaries
+   Before: 3820 entities
+   After: 3500 entities
+
+📄 Processing: osint/infint/infint_entities.jsonl
+   Removed: 716 false positives
+   Fixed: 0 boundaries
+   Before: 3916 entities
+   After: 3120 entities
+
+📄 Processing: osint/legint/legint_entities.jsonl
+   Removed: 80 false positives
+   Fixed: 0 boundaries
+   Before: 3784 entities
+   After: 3700 entities
+
+📄 Processing: osint/masint/masint_entities.jsonl
+   Removed: 164 false positives
+   Fixed: 0 boundaries
+   Before: 3912 entities
+   After: 3668 entities
+
+📄 Processing: osint/medint/medint_entities.jsonl
+   Removed: 244 false positives
+   Fixed: 0 boundaries
+   Before: 3676 entities
+   After: 3352 entities
+
+📄 Processing: osint/natint/natint_entities.jsonl
+   Removed: 404 false positives
+   Fixed: 0 boundaries
+   Before: 3916 entities
+   After: 3432 entities
+
+📄 Processing: osint/orbint/orbint_entities.jsonl
+   Removed: 152 false positives
+   Fixed: 0 boundaries
+   Before: 3916 entities
+   After: 3684 entities
+
+📄 Processing: osint/sigint/sigint_entities.jsonl
+   Removed: 312 false positives
+   Fixed: 0 boundaries
+   Before: 3916 entities
+   After: 3524 entities
+
+📄 Processing: osint/socmint/socmint_entities.jsonl
+   Removed: 92 false positives
+   Fixed: 0 boundaries
+   Before: 3004 entities
+   After: 2604 entities
+
+📄 Processing: osint/techint/techint_entities.jsonl
+   Removed: 56 false positives
+   Fixed: 0 boundaries
+   Before: 3688 entities
+   After: 3384 entities
+
+📄 Processing: osint/threat_intel/threat_intel_entities.jsonl
+   Removed: 232 false positives
+   Fixed: 0 boundaries
+   Before: 3916 entities
+   After: 3604 entities
+
+📄 Processing: osint/tradint/tradint_entities.jsonl
+   Removed: 356 false positives
+   Fixed: 0 boundaries
+   Before: 3912 entities
+   After: 3476 entities
+
+📄 Processing: osint/vatint/vatint_entities.jsonl
+   Removed: 392 false positives
+   Fixed: 0 boundaries
+   Before: 3836 entities
+   After: 3364 entities
+
+📄 Processing: ot_ics_physical_security/ot_ics_physical_security_entities.jsonl
+   Removed: 188 false positives
+   Fixed: 0 boundaries
+   Before: 1072 entities
+   After: 748 entities
+
+📄 Processing: security_awareness_training/security_awareness_training_entities.jsonl
+   Removed: 248 false positives
+   Fixed: 0 boundaries
+   Before: 2652 entities
+   After: 1904 entities
+
+📄 Processing: threat_intelligence/threat_intelligence_entities.jsonl
+   Removed: 292 false positives
+   Fixed: 0 boundaries
+   Before: 2560 entities
+   After: 1972 entities
+
+📄 Processing: vendor_mgmt/vendor_mgmt_entities.jsonl
+   Removed: 112 false positives
+   Fixed: 0 boundaries
+   Before: 948 entities
+   After: 736 entities
+
+📄 Processing: vulnerability_mgmt/vulnerability_mgmt_entities.jsonl
+   Removed: 348 false positives
+   Fixed: 0 boundaries
+   Before: 2864 entities
+   After: 2116 entities
+
+======================================================================
+FIX SUMMARY
+======================================================================
+Total files processed: 49
+Total lines: 20,922
+Total entities before: 155,528
+Total entities after: 134,800
+Total removed (false positives): 10,504
+Total fixed (boundaries): 0
+
+Entity reduction: 20,728 (13.3%)
+  (Removed false positives and fixed boundaries)
+
+✅ Fixes applied! Backups created as .backup2 files.
+   Next: Re-prepare training data and retrain models

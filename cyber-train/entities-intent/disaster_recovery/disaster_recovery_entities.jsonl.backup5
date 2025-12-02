@@ -1,0 +1,440 @@
+{"text": "Azure Site Recovery ASR provided disaster recovery for Azure workloads", "entities": [[0, 5, "CLOUD_PROVIDER"], [6, 10, "SITE_TYPE"], [12, 19, "RECOVERY_TYPE"], [33, 40, "RECOVERY_TYPE"]]}
+{"text": "Business Continuity Planning Tool aligned DR strategy with SOX HIPAA and PCI DSS", "entities": [[0, 18, "CONTINUITY_TYPE"], [20, 27, "PLANNING_TYPE"]]}
+{"text": "Cross-cloud topology provided failover across AWS Azure and GCP", "entities": [[0, 11, "TOPOLOGY_TYPE"], [12, 17, "CLOUD_TYPE"]]}
+{"text": "Crisis Communication Tool tested executive notification during cloud outage simulation", "entities": [[0, 25, "TOOL"], [34, 42, "COMMUNICATION_TYPE"], [43, 54, "CRISIS_TYPE"]]}
+{"text": "SIEM Tool correlated DR events with security incidents", "entities": []}
+{"text": "Disaster Recovery Auditor audited DR readiness validating RPO RTO and compliance", "entities": [[0, 23, "ROLE"]]}
+{"text": "Simulation Engine injected network latency testing resilience under failure scenarios", "entities": []}
+{"text": "Replication Health Monitor detected billing-db lag of 45 minutes requiring remediation", "entities": [[0, 25, "TOOL"]]}
+{"text": "Anomaly Detector triggered ransomware failover with vault freeze and safe restore", "entities": [[0, 16, "TOOL"], [27, 33, "DETECTION_TYPE"], [34, 43, "DETECTOR_TYPE"], [52, 62, "TRIGGER_TYPE"]]}
+{"text": "Google Cloud DR service enabled disaster recovery for GCP workloads", "entities": [[7, 12, "CLOUD_PROVIDER"], [16, 23, "SERVICE_TYPE"], [32, 40, "RECOVERY_TYPE"]]}
+{"text": "Asynchronous replication enabled cost-effective DR with acceptable RPO", "entities": []}
+{"text": "Disaster Recovery Auditor audited DR readiness validating RPO RTO and compliance", "entities": [[0, 23, "ROLE"]]}
+{"text": "Cost Analyzer Tool analyzed DR costs optimizing storage and compute", "entities": [[0, 4, "COST_TYPE"], [5, 13, "ANALYZER_TYPE"]]}
+{"text": "Safe restore process validated ransomware-free data before recovery", "entities": [[0, 4, "SAFE_TYPE"], [5, 12, "RESTORE_TYPE"]]}
+{"text": "Zerto disaster recovery platform enabled continuous replication and failover", "entities": [[6, 23, "RECOVERY_TYPE"], [41, 51, "REPLICATION_TYPE"]]}
+{"text": "Ransomware-triggered failover automatically activated DR upon attack detection", "entities": [[0, 11, "RANSOMWARE_TYPE"], [12, 20, "TRIGGER_TYPE"], [22, 29, "FAILOVER_TYPE"], [40, 50, "AUTOMATION_TYPE"]]}
+{"text": "Application dependency mapping identified critical recovery sequences", "entities": [[0, 10, "APPLICATION_TYPE"], [12, 22, "DEPENDENCY_TYPE"], [23, 30, "MAPPING_TYPE"]]}
+{"text": "VMware SRM Site Recovery Manager automated disaster recovery for vSphere", "entities": []}
+{"text": "SIEM Tool correlated DR events with security incidents", "entities": []}
+{"text": "DR Policy Generator created multi-region cross-cloud topology with automated orchestration", "entities": [[0, 18, "TOOL"], [28, 40, "RECOVERY_TYPE"], [41, 48, "POLICY_TYPE"]]}
+{"text": "Disaster Recovery Auditor audited DR readiness validating RPO RTO and compliance", "entities": [[0, 23, "ROLE"]]}
+{"text": "Metrics Dashboard Tool displayed DR metrics and readiness indices", "entities": [[8, 16, "DASHBOARD_TYPE"]]}
+{"text": "DR audit score improved to 93% with RPO RTO compliance and test success", "entities": []}
+{"text": "DR Policy Generator created DR policies with failover types and orchestration", "entities": []}
+{"text": "Slack communication platform enabled team coordination during DR events", "entities": [[6, 19, "COMMUNICATION_TYPE"]]}
+{"text": "Facilities Readiness Checker validated 30 people relocation and communications test", "entities": []}
+{"text": "CloudFormation infrastructure as code automated DR infrastructure deployment", "entities": [[0, 14, "TOOL"]]}
+{"text": "BCP Tool integrated workforce facilities and comms continuity with DR plans", "entities": []}
+{"text": "Safe restore process validated ransomware-free data before recovery", "entities": [[0, 4, "SAFE_TYPE"], [5, 12, "RESTORE_TYPE"]]}
+{"text": "Simulation Engine injected network latency testing resilience under failure scenarios", "entities": []}
+{"text": "Restore Verification Tool validated restore success with app owner sign-off", "entities": [[0, 7, "RESTORE_TYPE"], [8, 19, "VERIFICATION_TYPE"]]}
+{"text": "Compliance Mapping Tool mapped DR policies to regulatory requirements", "entities": [[0, 18, "COMPLIANCE_TYPE"]]}
+{"text": "Chaos Engineering Tool ran chaos experiments validating automated failover", "entities": [[0, 5, "CHAOS_TYPE"]]}
+{"text": "Orchestration Engine executed failover orchestration measuring RPO RTO compliance", "entities": []}
+{"text": "Azure Site Recovery ASR provided disaster recovery for Azure workloads", "entities": [[0, 5, "CLOUD_PROVIDER"], [6, 10, "SITE_TYPE"], [12, 19, "RECOVERY_TYPE"], [33, 40, "RECOVERY_TYPE"]]}
+{"text": "Ransomware-triggered failover automatically activated DR upon attack detection", "entities": [[0, 11, "RANSOMWARE_TYPE"], [12, 20, "TRIGGER_TYPE"], [22, 29, "FAILOVER_TYPE"], [40, 50, "AUTOMATION_TYPE"]]}
+{"text": "Coverage percentage measured systems protected by disaster recovery", "entities": [[0, 8, "COVERAGE_TYPE"]]}
+{"text": "Tabletop Planner tool designed tabletop exercise scenarios for DR testing", "entities": []}
+{"text": "Tabletop Planner tool designed tabletop exercise scenarios for DR testing", "entities": []}
+{"text": "SD-WAN software-defined wide area network optimized DR connectivity", "entities": [[12, 20, "NETWORK_TYPE"]]}
+{"text": "DR Policy Generator created DR policies with failover types and orchestration", "entities": []}
+{"text": "Metrics Dashboard Tool displayed DR metrics and readiness indices", "entities": [[8, 16, "DASHBOARD_TYPE"]]}
+{"text": "DR Policy Generator created DR policies with failover types and orchestration", "entities": []}
+{"text": "Ansible automation platform orchestrated DR workflows and runbooks", "entities": []}
+{"text": "Asynchronous replication enabled cost-effective DR with acceptable RPO", "entities": []}
+{"text": "Disaster Recovery Operations Engineer monitored replication running partial failovers", "entities": [[0, 35, "ROLE"]]}
+{"text": "Zerto disaster recovery platform achieved RPO of 5 seconds for critical applications", "entities": []}
+{"text": "Veeam backup platform protected 500 workloads with 99.9% backup success rate", "entities": [[6, 12, "BACKUP_TYPE"]]}
+{"text": "Cold site architecture provided basic infrastructure for recovery", "entities": [[0, 4, "SITE_TYPE"], [5, 14, "ARCHITECTURE_TYPE"]]}
+{"text": "Failover Simulation Tool ran partial failovers validating DNS cutover and app recovery", "entities": [[0, 8, "FAILOVER_TYPE"], [9, 19, "SIMULATION_TYPE"]]}
+{"text": "Vault freeze mechanism protected backup data during ransomware attacks", "entities": [[0, 5, "VAULT_TYPE"], [6, 11, "FREEZE_TYPE"], [13, 21, "MECHANISM_TYPE"]]}
+{"text": "RTO met percentage tracked recovery time objective compliance", "entities": []}
+{"text": "Replication Manager monitored systems detecting lag drift and broken pipelines", "entities": [[0, 11, "REPLICATION_TYPE"], [30, 37, "SYSTEM_TYPE"]]}
+{"text": "SIEM Tool correlated DR events with security incidents", "entities": []}
+{"text": "Disaster recovery cost optimization reduced monthly spend to 84210 USD", "entities": [[0, 17, "RECOVERY_TYPE"], [24, 34, "OPTIMIZATION_TYPE"]]}
+{"text": "Google Cloud DR service enabled disaster recovery for GCP workloads", "entities": [[7, 12, "CLOUD_PROVIDER"], [16, 23, "SERVICE_TYPE"], [32, 40, "RECOVERY_TYPE"]]}
+{"text": "Slack communication platform enabled team coordination during DR events", "entities": [[6, 19, "COMMUNICATION_TYPE"]]}
+{"text": "Azure Site Recovery orchestrated failover for 75 virtual machines in 12 minutes", "entities": [[0, 5, "CLOUD_PROVIDER"], [6, 10, "SITE_TYPE"], [12, 19, "RECOVERY_TYPE"]]}
+{"text": "Orchestration Engine measured average RTO of 18 minutes meeting tier1 requirements", "entities": []}
+{"text": "Anomaly Detector triggered ransomware failover with vault freeze and safe restore", "entities": [[0, 16, "TOOL"], [27, 33, "DETECTION_TYPE"], [34, 43, "DETECTOR_TYPE"], [52, 62, "TRIGGER_TYPE"]]}
+{"text": "RPO met percentage tracked recovery point objective compliance", "entities": []}
+{"text": "Cold site architecture provided basic infrastructure for recovery", "entities": [[0, 4, "SITE_TYPE"], [5, 14, "ARCHITECTURE_TYPE"]]}
+{"text": "Cross-cloud failover validated AWS to Azure migration with 32-minute RTO", "entities": [[0, 16, "FAILOVER_TYPE"]]}
+{"text": "AWS Elastic Disaster Recovery service protected workloads with automated DR", "entities": [[0, 3, "CLOUD_PROVIDER"]]}
+{"text": "Cross-cloud topology provided failover across AWS Azure and GCP", "entities": [[0, 11, "TOPOLOGY_TYPE"], [12, 17, "CLOUD_TYPE"]]}
+{"text": "Resilience Chaos Engineer ran chaos experiments validating recovery under failures", "entities": []}
+{"text": "Replication Health Monitor detected billing-db lag of 45 minutes requiring remediation", "entities": [[0, 25, "TOOL"]]}
+{"text": "VPN failover provided secure connectivity during disaster recovery", "entities": [[4, 12, "FAILOVER_TYPE"], [32, 40, "RECOVERY_TYPE"]]}
+{"text": "DR audit score improved to 93% with RPO RTO compliance and test success", "entities": []}
+{"text": "Safe restore process validated ransomware-free data before recovery", "entities": [[0, 4, "SAFE_TYPE"], [5, 12, "RESTORE_TYPE"]]}
+{"text": "SaaS DR assessment evaluated vendor disaster recovery capabilities", "entities": [[0, 4, "APPLICATION_TYPE"], [8, 18, "ASSESSMENT_TYPE"]]}
+{"text": "Orchestration Workflow Tool executed quarterly failover tests with 91% RTO compliance", "entities": [[0, 27, "TOOL"], [37, 45, "WORKFLOW_TYPE"]]}
+{"text": "Cross-cloud topology provided failover across AWS Azure and GCP", "entities": [[0, 11, "TOPOLOGY_TYPE"], [12, 17, "CLOUD_TYPE"]]}
+{"text": "Disaster Recovery Architect designed DR architectures across hot warm and cold sites", "entities": [[0, 25, "ROLE"], [41, 50, "ARCHITECT_TYPE"]]}
+{"text": "Crisis Communication Tool tested executive notification during cloud outage simulation", "entities": [[0, 25, "TOOL"], [34, 42, "COMMUNICATION_TYPE"], [43, 54, "CRISIS_TYPE"]]}
+{"text": "Business Continuity Liaison integrated workforce facilities and comms with DR plans", "entities": [[0, 26, "ROLE"], [28, 37, "CONTINUITY_TYPE"], [39, 45, "LIAISON_TYPE"], [54, 63, "WORKFORCE_TYPE"]]}
+{"text": "Ansible automation platform orchestrated DR workflows and runbooks", "entities": []}
+{"text": "Terraform infrastructure as code defined DR architectures declaratively", "entities": []}
+{"text": "Cloud DR Tool designed hot warm and cold site architectures using AWS DRS Azure ASR", "entities": [[0, 5, "CLOUD_TYPE"]]}
+{"text": "Project Management Tools coordinated DR projects and test execution", "entities": [[0, 7, "PROJECT_TYPE"], [9, 18, "MANAGEMENT_TYPE"]]}
+{"text": "Tabletop Planner tool designed tabletop exercise scenarios for DR testing", "entities": []}
+{"text": "Failover Simulation Tool tested 15 applications with 14 successful and 1 failure", "entities": []}
+{"text": "Business Continuity Liaison integrated workforce facilities and comms with DR plans", "entities": [[0, 26, "ROLE"], [28, 37, "CONTINUITY_TYPE"], [39, 45, "LIAISON_TYPE"], [54, 63, "WORKFORCE_TYPE"]]}
+{"text": "DR Policy Generator created DR policies with failover types and orchestration", "entities": []}
+{"text": "Business Continuity Planning Tool aligned DR strategy with SOX HIPAA and PCI DSS", "entities": []}
+{"text": "RPO met percentage tracked recovery point objective compliance", "entities": []}
+{"text": "Resilience Chaos Engineer ran chaos experiments validating recovery under failures", "entities": []}
+{"text": "Azure Site Recovery orchestrated failover for 75 virtual machines in 12 minutes", "entities": [[0, 5, "CLOUD_PROVIDER"], [6, 10, "SITE_TYPE"], [12, 19, "RECOVERY_TYPE"]]}
+{"text": "Readiness index measured DR program maturity and effectiveness", "entities": [[0, 9, "READINESS_TYPE"], [10, 15, "INDEX_TYPE"], [49, 60, "EFFECTIVENESS_TYPE"]]}
+{"text": "Application dependency mapping identified critical recovery sequences", "entities": [[0, 10, "APPLICATION_TYPE"], [12, 22, "DEPENDENCY_TYPE"], [23, 30, "MAPPING_TYPE"]]}
+{"text": "Resilience Chaos Engineer ran chaos experiments validating recovery under failures", "entities": []}
+{"text": "Full failover test executed quarterly validating RPO RTO compliance and orchestration", "entities": [[0, 4, "FAILOVER_TYPE"], [5, 9, "TEST_TYPE"]]}
+{"text": "Chaos Engineering Tool terminated 10 servers validating automated failover", "entities": [[0, 22, "TOOL"]]}
+{"text": "Restore Verification Tool validated 30 systems with 96% success rate", "entities": []}
+{"text": "Disaster recovery readiness index reached 87% with 95% coverage and 91% RPO met", "entities": [[0, 17, "RECOVERY_TYPE"], [19, 27, "READINESS_TYPE"], [29, 33, "INDEX_TYPE"]]}
+{"text": "Restore Verification Tool validated restore success with app owner sign-off", "entities": [[0, 7, "RESTORE_TYPE"], [8, 19, "VERIFICATION_TYPE"]]}
+{"text": "Ansible automation platform orchestrated DR workflows and runbooks", "entities": []}
+{"text": "Application dependency mapping identified critical recovery sequences", "entities": [[0, 10, "APPLICATION_TYPE"], [12, 22, "DEPENDENCY_TYPE"], [23, 30, "MAPPING_TYPE"]]}
+{"text": "Tabletop Planner tool designed tabletop exercise scenarios for DR testing", "entities": []}
+{"text": "Orchestration Engine executed failover orchestration measuring RPO RTO compliance", "entities": []}
+{"text": "Orchestration Engine measured average RTO of 18 minutes meeting tier1 requirements", "entities": []}
+{"text": "SD-WAN software-defined wide area network optimized DR connectivity", "entities": [[12, 20, "NETWORK_TYPE"]]}
+{"text": "Business Continuity Management Software managed BCP and DR planning", "entities": [[0, 18, "CONTINUITY_TYPE"], [20, 28, "MANAGEMENT_TYPE"]]}
+{"text": "Orchestration Workflow Tool executed quarterly failover tests with 91% RTO compliance", "entities": [[0, 27, "TOOL"], [37, 45, "WORKFLOW_TYPE"]]}
+{"text": "Failover Simulation Tool tested 15 applications with 14 successful and 1 failure", "entities": []}
+{"text": "RPO met percentage tracked recovery point objective compliance", "entities": []}
+{"text": "Crisis Communication Tool managed stakeholder communications during DR events", "entities": [[0, 6, "CRISIS_TYPE"], [7, 20, "COMMUNICATION_TYPE"], [34, 45, "STAKEHOLDER_TYPE"]]}
+{"text": "Crisis Communication Tool tested executive notification during cloud outage simulation", "entities": [[0, 25, "TOOL"], [34, 42, "COMMUNICATION_TYPE"], [43, 54, "CRISIS_TYPE"]]}
+{"text": "Incident Management Tool managed DR incidents with workflow automation", "entities": [[10, 19, "MANAGEMENT_TYPE"]]}
+{"text": "Disaster recovery cost optimization reduced monthly spend to 84210 USD", "entities": [[0, 17, "RECOVERY_TYPE"], [24, 34, "OPTIMIZATION_TYPE"]]}
+{"text": "Failover Simulation Tool ran partial failovers validating DNS cutover and app recovery", "entities": [[0, 8, "FAILOVER_TYPE"], [9, 19, "SIMULATION_TYPE"]]}
+{"text": "Readiness index measured DR program maturity and effectiveness", "entities": [[0, 9, "READINESS_TYPE"], [10, 15, "INDEX_TYPE"], [49, 60, "EFFECTIVENESS_TYPE"]]}
+{"text": "Warm site architecture enabled faster recovery with minimal data loss", "entities": [[0, 4, "SITE_TYPE"], [5, 14, "ARCHITECTURE_TYPE"], [23, 30, "RECOVERY_TYPE"]]}
+{"text": "DR false positive rate reduced to 1.5% improving failover decision accuracy", "entities": [[3, 17, "METRIC_TYPE"], [34, 42, "FAILOVER_TYPE"]]}
+{"text": "Restore Verification Tool validated 30 systems with 96% success rate", "entities": []}
+{"text": "Full failover test executed quarterly validating RPO RTO compliance and orchestration", "entities": [[0, 4, "FAILOVER_TYPE"], [5, 9, "TEST_TYPE"]]}
+{"text": "Network Simulation Tool tested network failover DNS BGP and VPN routing", "entities": []}
+{"text": "Synchronous replication provided zero RPO with real-time data mirroring", "entities": []}
+{"text": "CloudFormation infrastructure as code automated DR infrastructure deployment", "entities": [[0, 14, "TOOL"]]}
+{"text": "Multi-region architecture enabled geographic redundancy for disaster recovery", "entities": [[0, 12, "ARCHITECTURE_TYPE"], [13, 21, "ARCHITECTURE_TYPE"], [30, 40, "GEOGRAPHIC_TYPE"]]}
+{"text": "Tabletop Planner conducted ransomware scenario identifying slow escalation gaps", "entities": [[0, 16, "TOOL"], [27, 35, "PLANNING_TYPE"]]}
+{"text": "Network Simulation Tool tested network failover DNS BGP and VPN routing", "entities": []}
+{"text": "VPN failover provided secure connectivity during disaster recovery", "entities": [[4, 12, "FAILOVER_TYPE"], [32, 40, "RECOVERY_TYPE"]]}
+{"text": "Business Continuity Planning Tool aligned DR strategy with SOX HIPAA and PCI DSS", "entities": []}
+{"text": "Disaster Recovery Operations Engineer monitored replication running partial failovers", "entities": [[0, 35, "ROLE"]]}
+{"text": "Orchestration Workflow Tool executed quarterly failover tests with 91% RTO compliance", "entities": [[0, 27, "TOOL"], [37, 45, "WORKFLOW_TYPE"]]}
+{"text": "Vault freeze mechanism protected backup data during ransomware attacks", "entities": [[0, 5, "VAULT_TYPE"], [6, 11, "FREEZE_TYPE"], [13, 21, "MECHANISM_TYPE"]]}
+{"text": "Chaos Engineering Tool ran chaos experiments validating automated failover", "entities": [[0, 5, "CHAOS_TYPE"]]}
+{"text": "Replication Manager monitored systems detecting lag drift and broken pipelines", "entities": [[0, 11, "REPLICATION_TYPE"], [30, 37, "SYSTEM_TYPE"]]}
+{"text": "Facilities Readiness Checker validated alternate site readiness and facilities", "entities": [[0, 9, "FACILITY_TYPE"], [11, 20, "READINESS_TYPE"], [21, 28, "CHECKER_TYPE"], [39, 47, "SITE_TYPE"]]}
+{"text": "BGP routing protocol enabled automatic network failover between regions", "entities": [[4, 11, "ROUTING_TYPE"], [13, 20, "PROTOCOL_TYPE"]]}
+{"text": "Evidence Packaging Tool compiled DR evidence for audits and compliance", "entities": [[0, 8, "EVIDENCE_TYPE"], [9, 18, "PACKAGING_TYPE"], [36, 43, "EVIDENCE_TYPE"]]}
+{"text": "Facilities Readiness Checker validated 30 people relocation and communications test", "entities": []}
+{"text": "DR audit score improved to 93% with RPO RTO compliance and test success", "entities": []}
+{"text": "Full failover test executed quarterly validating RPO RTO compliance and orchestration", "entities": [[0, 4, "FAILOVER_TYPE"], [5, 9, "TEST_TYPE"]]}
+{"text": "CloudFormation infrastructure as code automated DR infrastructure deployment", "entities": [[0, 14, "TOOL"]]}
+{"text": "Slack communication platform enabled team coordination during DR events", "entities": [[6, 19, "COMMUNICATION_TYPE"]]}
+{"text": "Rubrik data protection platform automated backup and recovery for 2000 VMs", "entities": [[7, 20, "DATA_TYPE"]]}
+{"text": "Disaster Recovery Tester planned executed and reported on DR tests validating effectiveness", "entities": [[0, 23, "ROLE"], [25, 40, "RECOVERY_TYPE"]]}
+{"text": "Velero Kubernetes backup tool protected 50 clusters with automated snapshots", "entities": [[7, 20, "PLATFORM_TYPE"], [21, 29, "BACKUP_TYPE"]]}
+{"text": "Zerto disaster recovery platform enabled continuous replication and failover", "entities": [[6, 23, "RECOVERY_TYPE"], [41, 51, "REPLICATION_TYPE"]]}
+{"text": "Application Dependency Mapping identified 40 applications with ERP DB1 API-GW chain", "entities": [[0, 28, "MAPPING_TYPE"]]}
+{"text": "Synchronous replication provided zero RPO with real-time data mirroring", "entities": []}
+{"text": "Coverage percentage measured systems protected by disaster recovery", "entities": [[0, 8, "COVERAGE_TYPE"]]}
+{"text": "Disaster recovery training completion reached 89% for all DR engineers", "entities": [[0, 17, "RECOVERY_TYPE"], [28, 37, "COMPLETION_TYPE"]]}
+{"text": "Disaster recovery readiness index reached 87% with 95% coverage and 91% RPO met", "entities": [[0, 17, "RECOVERY_TYPE"], [19, 27, "READINESS_TYPE"], [29, 33, "INDEX_TYPE"]]}
+{"text": "Safe restore process validated ransomware-free data before recovery", "entities": [[0, 4, "SAFE_TYPE"], [5, 12, "RESTORE_TYPE"]]}
+{"text": "Cross-cloud failover validated AWS to Azure migration with 32-minute RTO", "entities": [[0, 16, "FAILOVER_TYPE"]]}
+{"text": "Tabletop Planner conducted ransomware scenario identifying slow escalation gaps", "entities": [[0, 16, "TOOL"], [27, 35, "PLANNING_TYPE"]]}
+{"text": "Replication Health Monitor detected billing-db lag of 45 minutes requiring remediation", "entities": [[0, 25, "TOOL"]]}
+{"text": "Crisis Communication Tool managed stakeholder communications during DR events", "entities": [[0, 6, "CRISIS_TYPE"], [7, 20, "COMMUNICATION_TYPE"], [34, 45, "STAKEHOLDER_TYPE"]]}
+{"text": "Warm site architecture enabled faster recovery with minimal data loss", "entities": [[0, 4, "SITE_TYPE"], [5, 14, "ARCHITECTURE_TYPE"], [23, 30, "RECOVERY_TYPE"]]}
+{"text": "DR false positive rate reduced to 1.5% improving failover decision accuracy", "entities": [[3, 17, "METRIC_TYPE"], [34, 42, "FAILOVER_TYPE"]]}
+{"text": "DR Policy Generator created multi-region cross-cloud topology with automated orchestration", "entities": [[0, 18, "TOOL"], [28, 40, "RECOVERY_TYPE"], [41, 48, "POLICY_TYPE"]]}
+{"text": "Business Continuity Management Software managed BCP and DR planning", "entities": [[0, 18, "CONTINUITY_TYPE"], [20, 28, "MANAGEMENT_TYPE"]]}
+{"text": "Readiness index measured DR program maturity and effectiveness", "entities": [[0, 9, "READINESS_TYPE"], [10, 15, "INDEX_TYPE"], [49, 60, "EFFECTIVENESS_TYPE"]]}
+{"text": "SIEM Tool correlated DR events with security incidents", "entities": []}
+{"text": "PagerDuty incident management platform coordinated DR incident response", "entities": [[21, 29, "MANAGEMENT_TYPE"]]}
+{"text": "Full failover test executed quarterly validating RPO RTO compliance and orchestration", "entities": [[0, 4, "FAILOVER_TYPE"], [5, 9, "TEST_TYPE"]]}
+{"text": "DNS cutover mechanism redirected traffic to DR sites during failover", "entities": [[4, 11, "CUTOVER_TYPE"], [12, 21, "MECHANISM_TYPE"]]}
+{"text": "Rubrik data protection platform automated backup and recovery for 2000 VMs", "entities": [[7, 20, "DATA_TYPE"]]}
+{"text": "Compliance Mapping Tool validated 120 datasets against sovereignty constraints", "entities": [[0, 18, "TOOL"], [27, 35, "COMPLIANCE_TYPE"], [36, 42, "MAPPING_TYPE"]]}
+{"text": "DR false positive rate reduced to 1.5% improving failover decision accuracy", "entities": [[3, 17, "METRIC_TYPE"], [34, 42, "FAILOVER_TYPE"]]}
+{"text": "Hot site architecture provided immediate failover with zero data loss", "entities": []}
+{"text": "Cloud DR Tool designed hot warm and cold site architectures using AWS DRS and Azure ASR", "entities": []}
+{"text": "Reporting Dashboard Tool generated executive DR metrics and KPIs", "entities": [[0, 8, "REPORTING_TYPE"], [10, 17, "DASHBOARD_TYPE"]]}
+{"text": "VMware SRM Site Recovery Manager automated disaster recovery for vSphere", "entities": []}
+{"text": "Hot site architecture provided immediate failover with zero data loss", "entities": []}
+{"text": "Orchestration Workflow Tool executed quarterly failover tests with 91% RTO compliance", "entities": [[0, 27, "TOOL"], [37, 45, "WORKFLOW_TYPE"]]}
+{"text": "AWS Elastic Disaster Recovery replicated 100 EC2 instances to secondary region", "entities": [[0, 3, "CLOUD_PROVIDER"], [4, 11, "RECOVERY_TYPE"], [12, 19, "RECOVERY_TYPE"]]}
+{"text": "DNS cutover mechanism redirected traffic to DR sites during failover", "entities": [[4, 11, "CUTOVER_TYPE"], [12, 21, "MECHANISM_TYPE"]]}
+{"text": "DR false positive rate reduced to 1.5% improving failover decision accuracy", "entities": [[3, 17, "METRIC_TYPE"], [34, 42, "FAILOVER_TYPE"]]}
+{"text": "Chaos Engineering Tool terminated 10 servers validating automated failover", "entities": [[0, 22, "TOOL"]]}
+{"text": "DR simulation success rate achieved 89% with ransomware readiness validated", "entities": [[3, 13, "SIMULATION_TYPE"], [14, 20, "SUCCESS_TYPE"]]}
+{"text": "Veeam backup platform protected 500 workloads with 99.9% backup success rate", "entities": [[6, 12, "BACKUP_TYPE"]]}
+{"text": "Facilities Readiness Checker validated 30 people relocation and communications test", "entities": []}
+{"text": "BGP routing protocol enabled automatic network failover between regions", "entities": [[4, 11, "ROUTING_TYPE"], [13, 20, "PROTOCOL_TYPE"]]}
+{"text": "Simulation Engine injected network latency testing resilience under failure scenarios", "entities": []}
+{"text": "Sovereignty validation ensured DR topologies complied with geographic constraints", "entities": [[0, 11, "SOVEREIGNTY_TYPE"], [13, 22, "VALIDATION_TYPE"], [35, 44, "TOPOLOGY_TYPE"]]}
+{"text": "Cross-cloud topology provided failover across AWS Azure and GCP", "entities": [[0, 11, "TOPOLOGY_TYPE"], [12, 17, "CLOUD_TYPE"]]}
+{"text": "Replication Manager monitored systems detecting lag drift and broken pipelines", "entities": [[0, 11, "REPLICATION_TYPE"], [30, 37, "SYSTEM_TYPE"]]}
+{"text": "Simulation Engine simulated cloud outages and server failures", "entities": [[0, 10, "SIMULATION_TYPE"], [34, 41, "OUTAGE_TYPE"], [46, 52, "SERVER_TYPE"], [53, 61, "FAILURE_TYPE"]]}
+{"text": "Veeam backup and recovery software provided DR capabilities", "entities": [[6, 12, "BACKUP_TYPE"], [17, 25, "RECOVERY_TYPE"], [26, 34, "SOFTWARE_TYPE"]]}
+{"text": "Business Continuity Planning Tool aligned DR strategy with SOX HIPAA and PCI DSS", "entities": [[0, 18, "CONTINUITY_TYPE"], [20, 27, "PLANNING_TYPE"]]}
+{"text": "AWS Elastic Disaster Recovery replicated 100 EC2 instances to secondary region", "entities": [[0, 3, "CLOUD_PROVIDER"], [4, 11, "RECOVERY_TYPE"], [12, 19, "RECOVERY_TYPE"]]}
+{"text": "RTO met percentage tracked recovery time objective compliance", "entities": []}
+{"text": "Crisis Communication Tool managed stakeholder communications during DR events", "entities": [[0, 6, "CRISIS_TYPE"], [7, 20, "COMMUNICATION_TYPE"], [34, 45, "STAKEHOLDER_TYPE"]]}
+{"text": "Velero Kubernetes backup tool protected 50 clusters with automated snapshots", "entities": [[7, 20, "PLATFORM_TYPE"], [21, 29, "BACKUP_TYPE"]]}
+{"text": "AWS Elastic Disaster Recovery service protected workloads with automated DR", "entities": [[0, 3, "CLOUD_PROVIDER"]]}
+{"text": "Business Continuity Management Software managed BCP and DR planning", "entities": [[0, 18, "CONTINUITY_TYPE"], [20, 28, "MANAGEMENT_TYPE"]]}
+{"text": "BGP routing protocol enabled automatic network failover between regions", "entities": [[4, 11, "ROUTING_TYPE"], [13, 20, "PROTOCOL_TYPE"]]}
+{"text": "Vault freeze mechanism protected backup data during ransomware attacks", "entities": [[0, 5, "VAULT_TYPE"], [6, 11, "FREEZE_TYPE"], [13, 21, "MECHANISM_TYPE"]]}
+{"text": "Replication Manager monitored systems detecting lag drift and broken pipelines", "entities": [[0, 11, "REPLICATION_TYPE"], [30, 37, "SYSTEM_TYPE"]]}
+{"text": "AWS Elastic Disaster Recovery service protected workloads with automated DR", "entities": [[0, 3, "CLOUD_PROVIDER"]]}
+{"text": "Cost Analyzer Tool analyzed DR costs optimizing storage and compute", "entities": [[0, 4, "COST_TYPE"], [5, 13, "ANALYZER_TYPE"]]}
+{"text": "DR Strategist defined disaster recovery policy with tier0 RPO 0-5m and RTO less than 15 minutes", "entities": [[0, 13, "ROLE"], [22, 39, "RECOVERY_TYPE"]]}
+{"text": "Chaos Engineering Tool terminated 10 servers validating automated failover", "entities": [[0, 22, "TOOL"]]}
+{"text": "Business Continuity Planning Tool aligned DR strategy with SOX HIPAA and PCI DSS", "entities": []}
+{"text": "DNS cutover mechanism redirected traffic to DR sites during failover", "entities": [[4, 11, "CUTOVER_TYPE"], [12, 21, "MECHANISM_TYPE"]]}
+{"text": "SD-WAN software-defined wide area network optimized DR connectivity", "entities": [[12, 20, "NETWORK_TYPE"]]}
+{"text": "SaaS DR Assessment identified M365 RPO guarantee of 24 hours with customer control gaps", "entities": [[0, 18, "ASSESSMENT_TYPE"]]}
+{"text": "Readiness index measured DR program maturity and effectiveness", "entities": [[0, 9, "READINESS_TYPE"], [10, 15, "INDEX_TYPE"], [49, 60, "EFFECTIVENESS_TYPE"]]}
+{"text": "Disaster Recovery Tester planned executed and reported on DR tests validating effectiveness", "entities": [[0, 23, "ROLE"], [25, 40, "RECOVERY_TYPE"]]}
+{"text": "Disaster Recovery Tester planned executed and reported on DR tests validating effectiveness", "entities": [[0, 23, "ROLE"], [25, 40, "RECOVERY_TYPE"]]}
+{"text": "Project Management Tools coordinated DR projects and test execution", "entities": [[0, 7, "PROJECT_TYPE"], [9, 18, "MANAGEMENT_TYPE"]]}
+{"text": "SaaS DR Assessment identified M365 RPO guarantee of 24 hours with customer control gaps", "entities": [[0, 18, "ASSESSMENT_TYPE"]]}
+{"text": "DR Strategist defined disaster recovery policy with tier0 RPO 0-5m and RTO less than 15 minutes", "entities": [[0, 13, "ROLE"], [22, 39, "RECOVERY_TYPE"]]}
+{"text": "Azure Site Recovery ASR provided disaster recovery for Azure workloads", "entities": [[0, 5, "CLOUD_PROVIDER"], [6, 10, "SITE_TYPE"], [12, 19, "RECOVERY_TYPE"], [33, 40, "RECOVERY_TYPE"]]}
+{"text": "Compliance Mapping Tool validated 120 datasets against sovereignty constraints", "entities": [[0, 18, "TOOL"], [27, 35, "COMPLIANCE_TYPE"], [36, 42, "MAPPING_TYPE"]]}
+{"text": "Orchestration Engine executed failover orchestration measuring RPO RTO compliance", "entities": []}
+{"text": "Crisis Communication Tool managed stakeholder communications during DR events", "entities": [[0, 6, "CRISIS_TYPE"], [7, 20, "COMMUNICATION_TYPE"], [34, 45, "STAKEHOLDER_TYPE"]]}
+{"text": "DR Strategist defined disaster recovery policy with tier0 RPO 0-5m and RTO less than 15 minutes", "entities": [[0, 13, "ROLE"], [22, 39, "RECOVERY_TYPE"]]}
+{"text": "Synchronous replication provided zero RPO with real-time data mirroring", "entities": []}
+{"text": "Vault freeze mechanism protected backup data during ransomware attacks", "entities": [[0, 5, "VAULT_TYPE"], [6, 11, "FREEZE_TYPE"], [13, 21, "MECHANISM_TYPE"]]}
+{"text": "SaaS DR assessment evaluated vendor disaster recovery capabilities", "entities": [[0, 4, "APPLICATION_TYPE"], [8, 18, "ASSESSMENT_TYPE"]]}
+{"text": "Veeam backup and recovery software provided DR capabilities", "entities": [[6, 12, "BACKUP_TYPE"], [17, 25, "RECOVERY_TYPE"], [26, 34, "SOFTWARE_TYPE"]]}
+{"text": "VPN failover provided secure connectivity during disaster recovery", "entities": [[4, 12, "FAILOVER_TYPE"], [32, 40, "RECOVERY_TYPE"]]}
+{"text": "Business Continuity Management Software managed BCP and DR planning", "entities": [[0, 18, "CONTINUITY_TYPE"], [20, 28, "MANAGEMENT_TYPE"]]}
+{"text": "Business Continuity Planning Tool aligned DR strategy with SOX HIPAA and PCI DSS", "entities": [[0, 18, "CONTINUITY_TYPE"], [20, 27, "PLANNING_TYPE"]]}
+{"text": "Replication Health Monitor detected lag drift and broken pipelines across systems", "entities": [[0, 11, "REPLICATION_TYPE"], [13, 18, "HEALTH_TYPE"], [36, 39, "LAG_TYPE"], [40, 45, "DRIFT_TYPE"], [50, 56, "PIPELINE_TYPE"]]}
+{"text": "Disaster recovery cost optimization reduced monthly spend to 84210 USD", "entities": [[0, 17, "RECOVERY_TYPE"], [24, 34, "OPTIMIZATION_TYPE"]]}
+{"text": "Simulation Engine injected network latency testing resilience under failure scenarios", "entities": []}
+{"text": "Terraform infrastructure as code defined DR architectures declaratively", "entities": []}
+{"text": "Chaos Engineering Tool ran chaos experiments validating automated failover", "entities": [[0, 5, "CHAOS_TYPE"]]}
+{"text": "Disaster recovery training completion reached 89% for all DR engineers", "entities": [[0, 17, "RECOVERY_TYPE"], [28, 37, "COMPLETION_TYPE"]]}
+{"text": "BCP Tool integrated workforce facilities and comms continuity with DR plans", "entities": []}
+{"text": "AWS Elastic Disaster Recovery replicated 100 EC2 instances to secondary region", "entities": [[0, 3, "CLOUD_PROVIDER"], [4, 11, "RECOVERY_TYPE"], [12, 19, "RECOVERY_TYPE"]]}
+{"text": "Infrastructure-as-Code Tool codified DR architectures in Terraform and CloudFormation", "entities": []}
+{"text": "Facilities Readiness Checker validated alternate site readiness and facilities", "entities": [[0, 9, "FACILITY_TYPE"], [11, 20, "READINESS_TYPE"], [21, 28, "CHECKER_TYPE"], [39, 47, "SITE_TYPE"]]}
+{"text": "Restore Verification Tool validated restore success with app owner sign-off", "entities": [[0, 7, "RESTORE_TYPE"], [8, 19, "VERIFICATION_TYPE"]]}
+{"text": "Disaster Recovery Operations Engineer monitored replication running partial failovers", "entities": [[0, 35, "ROLE"]]}
+{"text": "BCP Tool integrated workforce facilities and comms continuity with DR plans", "entities": []}
+{"text": "Zerto disaster recovery platform enabled continuous replication and failover", "entities": [[6, 23, "RECOVERY_TYPE"], [41, 51, "REPLICATION_TYPE"]]}
+{"text": "Disaster Recovery Operations Engineer monitored replication running partial failovers", "entities": [[0, 35, "ROLE"]]}
+{"text": "Cost Analyzer Tool analyzed DR costs optimizing storage and compute", "entities": [[0, 4, "COST_TYPE"], [5, 13, "ANALYZER_TYPE"]]}
+{"text": "Orchestration Workflow Tool automated failover workflows with runbooks", "entities": []}
+{"text": "Network Simulation Tool tested network failover DNS BGP and VPN routing", "entities": []}
+{"text": "Veeam backup platform protected 500 workloads with 99.9% backup success rate", "entities": [[6, 12, "BACKUP_TYPE"]]}
+{"text": "Disaster Recovery Architect designed DR architectures across hot warm and cold sites", "entities": [[0, 25, "ROLE"], [41, 50, "ARCHITECT_TYPE"]]}
+{"text": "Restore Verification Tool validated 30 systems with 96% success rate", "entities": []}
+{"text": "AWS Elastic Disaster Recovery service protected workloads with automated DR", "entities": [[0, 3, "CLOUD_PROVIDER"]]}
+{"text": "Replication Health Monitor detected lag drift and broken pipelines across systems", "entities": [[0, 11, "REPLICATION_TYPE"], [13, 18, "HEALTH_TYPE"], [36, 39, "LAG_TYPE"], [40, 45, "DRIFT_TYPE"], [50, 56, "PIPELINE_TYPE"]]}
+{"text": "DNS cutover mechanism redirected traffic to DR sites during failover", "entities": [[4, 11, "CUTOVER_TYPE"], [12, 21, "MECHANISM_TYPE"]]}
+{"text": "Cloud DR Tool designed hot warm and cold site architectures using AWS DRS and Azure ASR", "entities": []}
+{"text": "Compliance Mapping Tool validated 120 datasets against sovereignty constraints", "entities": [[0, 18, "TOOL"], [27, 35, "COMPLIANCE_TYPE"], [36, 42, "MAPPING_TYPE"]]}
+{"text": "AWS Elastic Disaster Recovery replicated 100 EC2 instances to secondary region", "entities": [[0, 3, "CLOUD_PROVIDER"], [4, 11, "RECOVERY_TYPE"], [12, 19, "RECOVERY_TYPE"]]}
+{"text": "Incident Management Tool managed DR incidents with workflow automation", "entities": [[10, 19, "MANAGEMENT_TYPE"]]}
+{"text": "Cloud DR Tool designed hot warm and cold site architectures using AWS DRS and Azure ASR", "entities": []}
+{"text": "Reporting Dashboard Tool generated executive DR metrics and KPIs", "entities": [[0, 8, "REPORTING_TYPE"], [10, 17, "DASHBOARD_TYPE"]]}
+{"text": "PagerDuty incident management platform coordinated DR incident response", "entities": [[21, 29, "MANAGEMENT_TYPE"]]}
+{"text": "Project Management Tools coordinated DR projects and test execution", "entities": [[0, 7, "PROJECT_TYPE"], [9, 18, "MANAGEMENT_TYPE"]]}
+{"text": "Azure Site Recovery ASR provided disaster recovery for Azure workloads", "entities": [[0, 5, "CLOUD_PROVIDER"], [6, 10, "SITE_TYPE"], [12, 19, "RECOVERY_TYPE"], [33, 40, "RECOVERY_TYPE"]]}
+{"text": "Disaster Recovery Architect designed DR architectures across hot warm and cold sites", "entities": [[0, 25, "ROLE"], [41, 50, "ARCHITECT_TYPE"]]}
+{"text": "Warm site architecture enabled faster recovery with minimal data loss", "entities": [[0, 4, "SITE_TYPE"], [5, 14, "ARCHITECTURE_TYPE"], [23, 30, "RECOVERY_TYPE"]]}
+{"text": "Veeam backup and recovery software provided DR capabilities", "entities": [[6, 12, "BACKUP_TYPE"], [17, 25, "RECOVERY_TYPE"], [26, 34, "SOFTWARE_TYPE"]]}
+{"text": "Audit Checklist Tool validated DR readiness and RPO RTO compliance", "entities": [[6, 15, "CHECKLIST_TYPE"]]}
+{"text": "Orchestration Workflow Tool automated failover workflows with runbooks", "entities": []}
+{"text": "Replication Manager monitored 250 systems with 243 healthy and 7 replication issues", "entities": [[0, 19, "TOOL"], [30, 41, "MANAGEMENT_TYPE"], [52, 55, "COUNT"], [68, 75, "HEALTH_STATUS"]]}
+{"text": "Facilities Readiness Checker validated alternate site readiness and facilities", "entities": [[0, 9, "FACILITY_TYPE"], [11, 20, "READINESS_TYPE"], [21, 28, "CHECKER_TYPE"], [39, 47, "SITE_TYPE"]]}
+{"text": "Sovereignty validation ensured DR topologies complied with geographic constraints", "entities": [[0, 11, "SOVEREIGNTY_TYPE"], [13, 22, "VALIDATION_TYPE"], [35, 44, "TOPOLOGY_TYPE"]]}
+{"text": "Synchronous replication provided zero RPO with real-time data mirroring", "entities": []}
+{"text": "Project Management Tools coordinated DR projects and test execution", "entities": [[0, 7, "PROJECT_TYPE"], [9, 18, "MANAGEMENT_TYPE"]]}
+{"text": "Disaster recovery cost optimization reduced monthly spend to 84210 USD", "entities": [[0, 17, "RECOVERY_TYPE"], [24, 34, "OPTIMIZATION_TYPE"]]}
+{"text": "Failover Simulation Tool tested 15 applications with 14 successful and 1 failure", "entities": []}
+{"text": "Failover Simulation Tool ran partial failovers validating DNS cutover and app recovery", "entities": [[0, 8, "FAILOVER_TYPE"], [9, 19, "SIMULATION_TYPE"]]}
+{"text": "Chaos Engineering Tool ran chaos experiments validating automated failover", "entities": [[0, 5, "CHAOS_TYPE"]]}
+{"text": "Audit Checklist Tool validated DR readiness and RPO RTO compliance", "entities": [[6, 15, "CHECKLIST_TYPE"]]}
+{"text": "Reporting Dashboard Tool generated executive DR metrics and KPIs", "entities": [[0, 8, "REPORTING_TYPE"], [10, 17, "DASHBOARD_TYPE"]]}
+{"text": "Cloud DR Tool designed hot warm and cold site architectures using AWS DRS Azure ASR", "entities": [[0, 5, "CLOUD_TYPE"]]}
+{"text": "Application Dependency Mapping identified 40 applications with ERP DB1 API-GW chain", "entities": [[0, 28, "MAPPING_TYPE"]]}
+{"text": "Crisis Communication Tool tested executive notification during cloud outage simulation", "entities": [[0, 25, "TOOL"], [34, 42, "COMMUNICATION_TYPE"], [43, 54, "CRISIS_TYPE"]]}
+{"text": "Application Dependency Mapping identified 40 applications with ERP DB1 API-GW chain", "entities": [[0, 28, "MAPPING_TYPE"]]}
+{"text": "Orchestration Workflow Tool automated failover workflows with runbooks", "entities": []}
+{"text": "VMware SRM Site Recovery Manager automated disaster recovery for vSphere", "entities": []}
+{"text": "Asynchronous replication enabled cost-effective DR with acceptable RPO", "entities": []}
+{"text": "Infrastructure-as-Code Tool codified DR architectures in Terraform and CloudFormation", "entities": []}
+{"text": "DR simulation success rate achieved 89% with ransomware readiness validated", "entities": [[3, 13, "SIMULATION_TYPE"], [14, 20, "SUCCESS_TYPE"]]}
+{"text": "Infrastructure-as-Code Tool codified DR architectures in Terraform and CloudFormation", "entities": []}
+{"text": "Zerto disaster recovery platform achieved RPO of 5 seconds for critical applications", "entities": []}
+{"text": "DR audit score improved to 93% with RPO RTO compliance and test success", "entities": []}
+{"text": "Restore Verification Tool validated 30 systems with 96% success rate", "entities": []}
+{"text": "Disaster Recovery Business Continuity Strategist defined DR strategy with RPO RTO tiers", "entities": [[0, 52, "ROLE"]]}
+{"text": "Zerto disaster recovery platform enabled continuous replication and failover", "entities": [[6, 23, "RECOVERY_TYPE"], [41, 51, "REPLICATION_TYPE"]]}
+{"text": "Disaster Recovery Business Continuity Strategist defined DR strategy with RPO RTO tiers", "entities": [[0, 52, "ROLE"]]}
+{"text": "Evidence Packaging Tool compiled DR evidence for audits and compliance", "entities": [[0, 8, "EVIDENCE_TYPE"], [9, 18, "PACKAGING_TYPE"], [36, 43, "EVIDENCE_TYPE"]]}
+{"text": "Sovereignty validation ensured DR topologies complied with geographic constraints", "entities": [[0, 11, "SOVEREIGNTY_TYPE"], [13, 22, "VALIDATION_TYPE"], [35, 44, "TOPOLOGY_TYPE"]]}
+{"text": "Ransomware-triggered failover automatically activated DR upon attack detection", "entities": [[0, 11, "RANSOMWARE_TYPE"], [12, 20, "TRIGGER_TYPE"], [22, 29, "FAILOVER_TYPE"], [40, 50, "AUTOMATION_TYPE"]]}
+{"text": "SD-WAN software-defined wide area network optimized DR connectivity", "entities": [[12, 20, "NETWORK_TYPE"]]}
+{"text": "SaaS DR Assessment identified M365 RPO guarantee of 24 hours with customer control gaps", "entities": [[0, 18, "ASSESSMENT_TYPE"]]}
+{"text": "Business Continuity Planning Tool aligned DR strategy with SOX HIPAA and PCI DSS", "entities": [[0, 18, "CONTINUITY_TYPE"], [20, 27, "PLANNING_TYPE"]]}
+{"text": "Cold site architecture provided basic infrastructure for recovery", "entities": [[0, 4, "SITE_TYPE"], [5, 14, "ARCHITECTURE_TYPE"]]}
+{"text": "Evidence Packaging Tool compiled DR evidence for audits and compliance", "entities": [[0, 8, "EVIDENCE_TYPE"], [9, 18, "PACKAGING_TYPE"], [36, 43, "EVIDENCE_TYPE"]]}
+{"text": "Coverage percentage measured systems protected by disaster recovery", "entities": [[0, 8, "COVERAGE_TYPE"]]}
+{"text": "Compliance Mapping Tool mapped DR policies to regulatory requirements", "entities": [[0, 18, "COMPLIANCE_TYPE"]]}
+{"text": "Disaster recovery readiness index reached 87% with 95% coverage and 91% RPO met", "entities": [[0, 17, "RECOVERY_TYPE"], [19, 27, "READINESS_TYPE"], [29, 33, "INDEX_TYPE"]]}
+{"text": "Ransomware-triggered failover automatically activated DR upon attack detection", "entities": [[0, 11, "RANSOMWARE_TYPE"], [12, 20, "TRIGGER_TYPE"], [22, 29, "FAILOVER_TYPE"], [40, 50, "AUTOMATION_TYPE"]]}
+{"text": "Failover Simulation Tool ran partial failovers validating DNS cutover and app recovery", "entities": [[0, 8, "FAILOVER_TYPE"], [9, 19, "SIMULATION_TYPE"]]}
+{"text": "Business Continuity Planning Tool aligned DR strategy with SOX HIPAA and PCI DSS", "entities": []}
+{"text": "Network Simulation Tool tested DNS BGP VPN and SD-WAN failover with 230ms latency", "entities": []}
+{"text": "Replication Manager monitored 250 systems with 243 healthy and 7 replication issues", "entities": [[0, 19, "TOOL"], [30, 41, "MANAGEMENT_TYPE"], [52, 55, "COUNT"], [68, 75, "HEALTH_STATUS"]]}
+{"text": "Veeam backup and recovery software provided DR capabilities", "entities": [[6, 12, "BACKUP_TYPE"], [17, 25, "RECOVERY_TYPE"], [26, 34, "SOFTWARE_TYPE"]]}
+{"text": "BGP routing protocol enabled automatic network failover between regions", "entities": [[4, 11, "ROUTING_TYPE"], [13, 20, "PROTOCOL_TYPE"]]}
+{"text": "Replication Health Monitor detected billing-db lag of 45 minutes requiring remediation", "entities": [[0, 25, "TOOL"]]}
+{"text": "SaaS DR assessment evaluated vendor disaster recovery capabilities", "entities": [[0, 4, "APPLICATION_TYPE"], [8, 18, "ASSESSMENT_TYPE"]]}
+{"text": "Simulation Engine simulated cloud outages and server failures", "entities": [[0, 10, "SIMULATION_TYPE"], [34, 41, "OUTAGE_TYPE"], [46, 52, "SERVER_TYPE"], [53, 61, "FAILURE_TYPE"]]}
+{"text": "Disaster Recovery Business Continuity Strategist defined DR strategy with RPO RTO tiers", "entities": [[0, 52, "ROLE"]]}
+{"text": "Disaster recovery training completion reached 89% for all DR engineers", "entities": [[0, 17, "RECOVERY_TYPE"], [28, 37, "COMPLETION_TYPE"]]}
+{"text": "Zerto disaster recovery platform achieved RPO of 5 seconds for critical applications", "entities": []}
+{"text": "Google Cloud DR service enabled disaster recovery for GCP workloads", "entities": [[7, 12, "CLOUD_PROVIDER"], [16, 23, "SERVICE_TYPE"], [32, 40, "RECOVERY_TYPE"]]}
+{"text": "Asynchronous replication enabled cost-effective DR with acceptable RPO", "entities": []}
+{"text": "Replication Health Monitor detected lag drift and broken pipelines across systems", "entities": [[0, 11, "REPLICATION_TYPE"], [13, 18, "HEALTH_TYPE"], [36, 39, "LAG_TYPE"], [40, 45, "DRIFT_TYPE"], [50, 56, "PIPELINE_TYPE"]]}
+{"text": "Azure Site Recovery orchestrated failover for 75 virtual machines in 12 minutes", "entities": [[0, 5, "CLOUD_PROVIDER"], [6, 10, "SITE_TYPE"], [12, 19, "RECOVERY_TYPE"]]}
+{"text": "PagerDuty incident management platform coordinated DR incident response", "entities": [[21, 29, "MANAGEMENT_TYPE"]]}
+{"text": "Tabletop Planner conducted ransomware scenario identifying slow escalation gaps", "entities": [[0, 16, "TOOL"], [27, 35, "PLANNING_TYPE"]]}
+{"text": "DR Policy Generator created multi-region cross-cloud topology with automated orchestration", "entities": [[0, 18, "TOOL"], [28, 40, "RECOVERY_TYPE"], [41, 48, "POLICY_TYPE"]]}
+{"text": "PagerDuty incident management platform coordinated DR incident response", "entities": [[21, 29, "MANAGEMENT_TYPE"]]}
+{"text": "Disaster Recovery Tester planned executed and reported on DR tests validating effectiveness", "entities": [[0, 23, "ROLE"], [25, 40, "RECOVERY_TYPE"]]}
+{"text": "Incident Management Tool managed DR incidents with workflow automation", "entities": [[10, 19, "MANAGEMENT_TYPE"]]}
+{"text": "Multi-region architecture enabled geographic redundancy for disaster recovery", "entities": [[0, 12, "ARCHITECTURE_TYPE"], [13, 21, "ARCHITECTURE_TYPE"], [30, 40, "GEOGRAPHIC_TYPE"]]}
+{"text": "CloudFormation infrastructure as code automated DR infrastructure deployment", "entities": [[0, 14, "TOOL"]]}
+{"text": "Disaster Recovery Business Continuity Strategist defined DR strategy with RPO RTO tiers", "entities": [[0, 52, "ROLE"]]}
+{"text": "RTO met percentage tracked recovery time objective compliance", "entities": []}
+{"text": "Infrastructure-as-Code Tool codified DR architectures in Terraform and CloudFormation", "entities": []}
+{"text": "Audit Checklist Tool validated DR readiness and RPO RTO compliance", "entities": [[6, 15, "CHECKLIST_TYPE"]]}
+{"text": "Replication Manager monitored 250 systems with 243 healthy and 7 replication issues", "entities": [[0, 19, "TOOL"], [30, 41, "MANAGEMENT_TYPE"], [52, 55, "COUNT"], [68, 75, "HEALTH_STATUS"]]}
+{"text": "Velero Kubernetes backup tool protected 50 clusters with automated snapshots", "entities": [[7, 20, "PLATFORM_TYPE"], [21, 29, "BACKUP_TYPE"]]}
+{"text": "Ansible automation platform orchestrated DR workflows and runbooks", "entities": []}
+{"text": "Business Continuity Liaison integrated workforce facilities and comms with DR plans", "entities": [[0, 26, "ROLE"], [28, 37, "CONTINUITY_TYPE"], [39, 45, "LIAISON_TYPE"], [54, 63, "WORKFORCE_TYPE"]]}
+{"text": "Orchestration Engine executed failover orchestration measuring RPO RTO compliance", "entities": []}
+{"text": "RTO met percentage tracked recovery time objective compliance", "entities": []}
+{"text": "Disaster recovery readiness index reached 87% with 95% coverage and 91% RPO met", "entities": [[0, 17, "RECOVERY_TYPE"], [19, 27, "READINESS_TYPE"], [29, 33, "INDEX_TYPE"]]}
+{"text": "Network Simulation Tool tested DNS BGP VPN and SD-WAN failover with 230ms latency", "entities": []}
+{"text": "BCP Tool integrated workforce facilities and comms continuity with DR plans", "entities": []}
+{"text": "Veeam backup platform protected 500 workloads with 99.9% backup success rate", "entities": [[6, 12, "BACKUP_TYPE"]]}
+{"text": "Cross-cloud failover validated AWS to Azure migration with 32-minute RTO", "entities": [[0, 16, "FAILOVER_TYPE"]]}
+{"text": "Compliance Mapping Tool mapped DR policies to regulatory requirements", "entities": [[0, 18, "COMPLIANCE_TYPE"]]}
+{"text": "Application Dependency Mapping identified 40 applications with ERP DB1 API-GW chain", "entities": [[0, 28, "MAPPING_TYPE"]]}
+{"text": "Tabletop Planner conducted ransomware scenario identifying slow escalation gaps", "entities": [[0, 16, "TOOL"], [27, 35, "PLANNING_TYPE"]]}
+{"text": "Terraform infrastructure as code defined DR architectures declaratively", "entities": []}
+{"text": "Zerto disaster recovery platform achieved RPO of 5 seconds for critical applications", "entities": []}
+{"text": "Orchestration Engine measured average RTO of 18 minutes meeting tier1 requirements", "entities": []}
+{"text": "Rubrik data protection platform automated backup and recovery for 2000 VMs", "entities": [[7, 20, "DATA_TYPE"]]}
+{"text": "Orchestration Workflow Tool automated failover workflows with runbooks", "entities": []}
+{"text": "Reporting Dashboard Tool generated executive DR metrics and KPIs", "entities": [[0, 8, "REPORTING_TYPE"], [10, 17, "DASHBOARD_TYPE"]]}
+{"text": "Resilience Chaos Engineer ran chaos experiments validating recovery under failures", "entities": []}
+{"text": "Replication Health Monitor detected lag drift and broken pipelines across systems", "entities": [[0, 11, "REPLICATION_TYPE"], [13, 18, "HEALTH_TYPE"], [36, 39, "LAG_TYPE"], [40, 45, "DRIFT_TYPE"], [50, 56, "PIPELINE_TYPE"]]}
+{"text": "Failover Simulation Tool tested 15 applications with 14 successful and 1 failure", "entities": []}
+{"text": "Disaster Recovery Auditor audited DR readiness validating RPO RTO and compliance", "entities": [[0, 23, "ROLE"]]}
+{"text": "Audit Checklist Tool validated DR readiness and RPO RTO compliance", "entities": [[6, 15, "CHECKLIST_TYPE"]]}
+{"text": "Incident Management Tool managed DR incidents with workflow automation", "entities": [[10, 19, "MANAGEMENT_TYPE"]]}
+{"text": "Anomaly Detector triggered ransomware failover with vault freeze and safe restore", "entities": [[0, 16, "TOOL"], [27, 33, "DETECTION_TYPE"], [34, 43, "DETECTOR_TYPE"], [52, 62, "TRIGGER_TYPE"]]}
+{"text": "Orchestration Engine measured average RTO of 18 minutes meeting tier1 requirements", "entities": []}
+{"text": "Disaster Recovery Architect designed DR architectures across hot warm and cold sites", "entities": [[0, 25, "ROLE"], [41, 50, "ARCHITECT_TYPE"]]}
+{"text": "Terraform infrastructure as code defined DR architectures declaratively", "entities": []}
+{"text": "DR Strategist defined disaster recovery policy with tier0 RPO 0-5m and RTO less than 15 minutes", "entities": [[0, 13, "ROLE"], [22, 39, "RECOVERY_TYPE"]]}
+{"text": "Hot site architecture provided immediate failover with zero data loss", "entities": []}
+{"text": "Evidence Packaging Tool compiled DR evidence for audits and compliance", "entities": [[0, 8, "EVIDENCE_TYPE"], [9, 18, "PACKAGING_TYPE"], [36, 43, "EVIDENCE_TYPE"]]}
+{"text": "Metrics Dashboard Tool displayed DR metrics and readiness indices", "entities": [[8, 16, "DASHBOARD_TYPE"]]}
+{"text": "Compliance Mapping Tool mapped DR policies to regulatory requirements", "entities": [[0, 18, "COMPLIANCE_TYPE"]]}
+{"text": "Velero Kubernetes backup tool protected 50 clusters with automated snapshots", "entities": [[7, 20, "PLATFORM_TYPE"], [21, 29, "BACKUP_TYPE"]]}
+{"text": "Warm site architecture enabled faster recovery with minimal data loss", "entities": [[0, 4, "SITE_TYPE"], [5, 14, "ARCHITECTURE_TYPE"], [23, 30, "RECOVERY_TYPE"]]}
+{"text": "Hot site architecture provided immediate failover with zero data loss", "entities": []}
+{"text": "DR simulation success rate achieved 89% with ransomware readiness validated", "entities": [[3, 13, "SIMULATION_TYPE"], [14, 20, "SUCCESS_TYPE"]]}
+{"text": "Anomaly Detector triggered ransomware failover with vault freeze and safe restore", "entities": [[0, 16, "TOOL"], [27, 33, "DETECTION_TYPE"], [34, 43, "DETECTOR_TYPE"], [52, 62, "TRIGGER_TYPE"]]}
+{"text": "Simulation Engine simulated cloud outages and server failures", "entities": [[0, 10, "SIMULATION_TYPE"], [34, 41, "OUTAGE_TYPE"], [46, 52, "SERVER_TYPE"], [53, 61, "FAILURE_TYPE"]]}
+{"text": "Restore Verification Tool validated restore success with app owner sign-off", "entities": [[0, 7, "RESTORE_TYPE"], [8, 19, "VERIFICATION_TYPE"]]}
+{"text": "Business Continuity Liaison integrated workforce facilities and comms with DR plans", "entities": [[0, 26, "ROLE"], [28, 37, "CONTINUITY_TYPE"], [39, 45, "LIAISON_TYPE"], [54, 63, "WORKFORCE_TYPE"]]}
+{"text": "DR simulation success rate achieved 89% with ransomware readiness validated", "entities": [[3, 13, "SIMULATION_TYPE"], [14, 20, "SUCCESS_TYPE"]]}
+{"text": "Coverage percentage measured systems protected by disaster recovery", "entities": [[0, 8, "COVERAGE_TYPE"]]}
+{"text": "DR Policy Generator created multi-region cross-cloud topology with automated orchestration", "entities": [[0, 18, "TOOL"], [28, 40, "RECOVERY_TYPE"], [41, 48, "POLICY_TYPE"]]}
+{"text": "SaaS DR Assessment identified M365 RPO guarantee of 24 hours with customer control gaps", "entities": [[0, 18, "ASSESSMENT_TYPE"]]}
+{"text": "Google Cloud DR service enabled disaster recovery for GCP workloads", "entities": [[7, 12, "CLOUD_PROVIDER"], [16, 23, "SERVICE_TYPE"], [32, 40, "RECOVERY_TYPE"]]}
+{"text": "SaaS DR assessment evaluated vendor disaster recovery capabilities", "entities": [[0, 4, "APPLICATION_TYPE"], [8, 18, "ASSESSMENT_TYPE"]]}
+{"text": "Disaster recovery training completion reached 89% for all DR engineers", "entities": [[0, 17, "RECOVERY_TYPE"], [28, 37, "COMPLETION_TYPE"]]}
+{"text": "Multi-region architecture enabled geographic redundancy for disaster recovery", "entities": [[0, 12, "ARCHITECTURE_TYPE"], [13, 21, "ARCHITECTURE_TYPE"], [30, 40, "GEOGRAPHIC_TYPE"]]}
+{"text": "VPN failover provided secure connectivity during disaster recovery", "entities": [[4, 12, "FAILOVER_TYPE"], [32, 40, "RECOVERY_TYPE"]]}
+{"text": "Facilities Readiness Checker validated 30 people relocation and communications test", "entities": []}
+{"text": "Cloud DR Tool designed hot warm and cold site architectures using AWS DRS Azure ASR", "entities": [[0, 5, "CLOUD_TYPE"]]}
+{"text": "Simulation Engine simulated cloud outages and server failures", "entities": [[0, 10, "SIMULATION_TYPE"], [34, 41, "OUTAGE_TYPE"], [46, 52, "SERVER_TYPE"], [53, 61, "FAILURE_TYPE"]]}
+{"text": "Cloud DR Tool designed hot warm and cold site architectures using AWS DRS Azure ASR", "entities": [[0, 5, "CLOUD_TYPE"]]}
+{"text": "Rubrik data protection platform automated backup and recovery for 2000 VMs", "entities": [[7, 20, "DATA_TYPE"]]}
+{"text": "Azure Site Recovery orchestrated failover for 75 virtual machines in 12 minutes", "entities": [[0, 5, "CLOUD_PROVIDER"], [6, 10, "SITE_TYPE"], [12, 19, "RECOVERY_TYPE"]]}
+{"text": "Chaos Engineering Tool terminated 10 servers validating automated failover", "entities": [[0, 22, "TOOL"]]}
+{"text": "Replication Manager monitored 250 systems with 243 healthy and 7 replication issues", "entities": [[0, 19, "TOOL"], [30, 41, "MANAGEMENT_TYPE"], [52, 55, "COUNT"], [68, 75, "HEALTH_STATUS"]]}
+{"text": "RPO met percentage tracked recovery point objective compliance", "entities": []}
+{"text": "Multi-region architecture enabled geographic redundancy for disaster recovery", "entities": [[0, 12, "ARCHITECTURE_TYPE"], [13, 21, "ARCHITECTURE_TYPE"], [30, 40, "GEOGRAPHIC_TYPE"]]}
+{"text": "Metrics Dashboard Tool displayed DR metrics and readiness indices", "entities": [[8, 16, "DASHBOARD_TYPE"]]}
+{"text": "Network Simulation Tool tested DNS BGP VPN and SD-WAN failover with 230ms latency", "entities": []}
+{"text": "VMware SRM Site Recovery Manager automated disaster recovery for vSphere", "entities": []}
+{"text": "Facilities Readiness Checker validated alternate site readiness and facilities", "entities": [[0, 9, "FACILITY_TYPE"], [11, 20, "READINESS_TYPE"], [21, 28, "CHECKER_TYPE"], [39, 47, "SITE_TYPE"]]}
+{"text": "Slack communication platform enabled team coordination during DR events", "entities": [[6, 19, "COMMUNICATION_TYPE"]]}
+{"text": "Cost Analyzer Tool analyzed DR costs optimizing storage and compute", "entities": [[0, 4, "COST_TYPE"], [5, 13, "ANALYZER_TYPE"]]}
+{"text": "Network Simulation Tool tested DNS BGP VPN and SD-WAN failover with 230ms latency", "entities": []}
+{"text": "Cloud DR Tool designed hot warm and cold site architectures using AWS DRS and Azure ASR", "entities": []}
+{"text": "Sovereignty validation ensured DR topologies complied with geographic constraints", "entities": [[0, 11, "SOVEREIGNTY_TYPE"], [13, 22, "VALIDATION_TYPE"], [35, 44, "TOPOLOGY_TYPE"]]}
+{"text": "Application dependency mapping identified critical recovery sequences", "entities": [[0, 10, "APPLICATION_TYPE"], [12, 22, "DEPENDENCY_TYPE"], [23, 30, "MAPPING_TYPE"]]}
+{"text": "Compliance Mapping Tool validated 120 datasets against sovereignty constraints", "entities": [[0, 18, "TOOL"], [27, 35, "COMPLIANCE_TYPE"], [36, 42, "MAPPING_TYPE"]]}
+{"text": "Cold site architecture provided basic infrastructure for recovery", "entities": [[0, 4, "SITE_TYPE"], [5, 14, "ARCHITECTURE_TYPE"]]}
+{"text": "Cross-cloud failover validated AWS to Azure migration with 32-minute RTO", "entities": [[0, 16, "FAILOVER_TYPE"]]}
+{"text": "Network Simulation Tool tested network failover DNS BGP and VPN routing", "entities": []}
+{"text": "Can you help me with this?", "entities": []}
+{"text": "I need to check something.", "entities": []}
+{"text": "What is the status?", "entities": []}
+{"text": "How do I do this?", "entities": []}
+{"text": "Tell me more about it.", "entities": []}
+{"text": "Is this safe to use?", "entities": []}
+{"text": "Let me know if you need anything.", "entities": []}
+{"text": "Thanks for your help.", "entities": []}
+{"text": "I will get back to you.", "entities": []}
+{"text": "Please review this document.", "entities": []}
+{"text": "What should I do next?", "entities": []}
+{"text": "How does this work?", "entities": []}
+{"text": "Why is this happening?", "entities": []}
+{"text": "When will this be ready?", "entities": []}
+{"text": "Where can I find this?", "entities": []}
+{"text": "Who should I contact?", "entities": []}
+{"text": "Hey, what's up?", "entities": []}
+{"text": "That's interesting.", "entities": []}
+{"text": "I see what you mean.", "entities": []}
+{"text": "That makes sense.", "entities": []}
+{"text": "Got it, thanks.", "entities": []}
+{"text": "Follow the steps carefully.", "entities": []}
+{"text": "Make sure to save your work.", "entities": []}
+{"text": "Check the settings first.", "entities": []}
+{"text": "Review the documentation.", "entities": []}
+{"text": "Read the instructions.", "entities": []}
+{"text": "This is important.", "entities": []}
+{"text": "That looks good.", "entities": []}
+{"text": "Everything seems fine.", "entities": []}
+{"text": "Nothing to report.", "entities": []}
+{"text": "All systems operational.", "entities": []}
+{"text": "The system is secure.", "entities": []}
+{"text": "All checks passed.", "entities": []}
+{"text": "No issues detected.", "entities": []}
+{"text": "Everything is working correctly.", "entities": []}
+{"text": "The configuration looks good.", "entities": []}
+{"text": "No vulnerabilities found.", "entities": []}
+{"text": "Security measures are in place.", "entities": []}
+{"text": "The audit was successful.", "entities": []}
+{"text": "The information is verified.", "entities": []}

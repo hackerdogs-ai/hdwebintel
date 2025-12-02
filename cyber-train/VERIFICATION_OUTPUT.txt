@@ -1,0 +1,321 @@
+======================================================================
+COMPREHENSIVE BOUNDARY VERIFICATION
+======================================================================
+
+Files to verify: 49
+
+📄 Verifying: ai_security/ai_security_entities.jsonl
+   ⚠️  Found 140 issues
+      • WHITESPACE: 136
+      • TOO_SHORT: 4
+
+📄 Verifying: api_security/api_security_entities.jsonl
+   ⚠️  Found 260 issues
+      • WHITESPACE: 240
+      • TOO_SHORT: 20
+
+📄 Verifying: application_security/application_security_entities.jsonl
+   ⚠️  Found 180 issues
+      • WHITESPACE: 128
+      • TOO_SHORT: 52
+
+📄 Verifying: audit_compliance/audit_compliance_entities.jsonl
+   ⚠️  Found 152 issues
+      • WHITESPACE: 152
+
+📄 Verifying: authentication/authentication_entities.jsonl
+   ⚠️  Found 128 issues
+      • WHITESPACE: 116
+      • TOO_SHORT: 12
+
+📄 Verifying: authorization/authorization_entities.jsonl
+   ⚠️  Found 148 issues
+      • WHITESPACE: 140
+      • TOO_SHORT: 8
+
+📄 Verifying: cloud_security_cnapp/cloud_security_cnapp_entities.jsonl
+   ⚠️  Found 152 issues
+      • WHITESPACE: 124
+      • TOO_SHORT: 28
+
+📄 Verifying: container_security/container_security_entities.jsonl
+   ⚠️  Found 224 issues
+      • WHITESPACE: 216
+      • TOO_SHORT: 8
+
+📄 Verifying: data_privacy_sovereignty/data_privacy_sovereignty_entities.jsonl
+   ⚠️  Found 128 issues
+      • WHITESPACE: 120
+      • WRONG_BOUNDARY: 8
+
+📄 Verifying: data_protection_backup/data_protection_backup_entities.jsonl
+   ⚠️  Found 240 issues
+      • WHITESPACE: 192
+      • TOO_SHORT: 40
+      • WRONG_BOUNDARY: 8
+
+📄 Verifying: detection_correlation/detection_correlation_entities.jsonl
+   ⚠️  Found 216 issues
+      • WHITESPACE: 216
+
+📄 Verifying: disaster_recovery/disaster_recovery_entities.jsonl
+   ⚠️  Found 216 issues
+      • WHITESPACE: 184
+      • TOO_SHORT: 32
+
+📄 Verifying: due_diligence/due_diligence_entities.jsonl
+   ⚠️  Found 28 issues
+      • WHITESPACE: 28
+
+📄 Verifying: encryption/encryption_entities.jsonl
+   ⚠️  Found 164 issues
+      • WHITESPACE: 148
+      • TOO_SHORT: 16
+
+📄 Verifying: endpoint_security/endpoint_security_entities.jsonl
+   ⚠️  Found 192 issues
+      • WHITESPACE: 172
+      • TOO_SHORT: 20
+
+📄 Verifying: governance_risk_strategy/governance_risk_strategy_entities.jsonl
+   ⚠️  Found 112 issues
+      • WHITESPACE: 108
+      • TOO_SHORT: 4
+
+📄 Verifying: identity_governance_iga/identity_governance_iga_entities.jsonl
+   ⚠️  Found 40 issues
+      • WHITESPACE: 36
+      • TOO_SHORT: 4
+
+📄 Verifying: incident_response/incident_response_entities.jsonl
+   ⚠️  Found 16 issues
+      • WHITESPACE: 16
+
+📄 Verifying: network_security/network_security_entities.jsonl
+   ⚠️  Found 192 issues
+      • WHITESPACE: 160
+      • TOO_SHORT: 32
+
+📄 Verifying: osint/ai-int/ai-int_entities.jsonl
+   ⚠️  Found 84 issues
+      • WHITESPACE: 84
+
+📄 Verifying: osint/comint/comint_entities.jsonl
+   ⚠️  Found 460 issues
+      • WHITESPACE: 308
+      • WRONG_BOUNDARY: 152
+
+📄 Verifying: osint/cybint/cybint_entities.jsonl
+   ⚠️  Found 796 issues
+      • WHITESPACE: 468
+      • WRONG_BOUNDARY: 328
+
+📄 Verifying: osint/darkint/darkint_entities.jsonl
+   ⚠️  Found 20 issues
+      • WHITESPACE: 20
+
+📄 Verifying: osint/digint/digint_entities.jsonl
+   ⚠️  Found 364 issues
+      • WHITESPACE: 364
+
+📄 Verifying: osint/dnint/dnint_entities.jsonl
+   ✅ No issues found
+
+📄 Verifying: osint/domain_intel/domain_intel_entities.jsonl
+   ⚠️  Found 4 issues
+      • WHITESPACE: 4
+
+📄 Verifying: osint/ecoint/ecoint_entities.jsonl
+   ⚠️  Found 176 issues
+      • WHITESPACE: 176
+
+📄 Verifying: osint/eduint/eduint_entities.jsonl
+   ⚠️  Found 80 issues
+      • WHITESPACE: 80
+
+📄 Verifying: osint/finint/finint_entities.jsonl
+   ⚠️  Found 168 issues
+      • WHITESPACE: 88
+      • TOO_SHORT: 80
+
+📄 Verifying: osint/geoint/geoint_entities.jsonl
+   ⚠️  Found 168 issues
+      • WHITESPACE: 168
+
+📄 Verifying: osint/humint/humint_entities.jsonl
+   ⚠️  Found 484 issues
+      • WHITESPACE: 468
+      • WRONG_BOUNDARY: 16
+
+📄 Verifying: osint/imint/imint_entities.jsonl
+   ⚠️  Found 388 issues
+      • WHITESPACE: 312
+      • TOO_SHORT: 76
+
+📄 Verifying: osint/infint/infint_entities.jsonl
+   ⚠️  Found 80 issues
+      • WHITESPACE: 80
+
+📄 Verifying: osint/legint/legint_entities.jsonl
+   ⚠️  Found 8 issues
+      • WHITESPACE: 8
+
+📄 Verifying: osint/masint/masint_entities.jsonl
+   ⚠️  Found 80 issues
+      • WHITESPACE: 80
+
+📄 Verifying: osint/medint/medint_entities.jsonl
+   ⚠️  Found 332 issues
+      • WHITESPACE: 332
+
+📄 Verifying: osint/natint/natint_entities.jsonl
+   ⚠️  Found 164 issues
+      • WHITESPACE: 164
+
+📄 Verifying: osint/orbint/orbint_entities.jsonl
+   ⚠️  Found 240 issues
+      • WHITESPACE: 240
+
+📄 Verifying: osint/sigint/sigint_entities.jsonl
+   ⚠️  Found 76 issues
+      • WHITESPACE: 76
+
+📄 Verifying: osint/socmint/socmint_entities.jsonl
+   ⚠️  Found 120 issues
+      • WHITESPACE: 112
+      • WRONG_BOUNDARY: 8
+
+📄 Verifying: osint/techint/techint_entities.jsonl
+   ⚠️  Found 708 issues
+      • WRONG_BOUNDARY: 548
+      • WHITESPACE: 152
+      • TOO_SHORT: 8
+
+📄 Verifying: osint/threat_intel/threat_intel_entities.jsonl
+   ✅ No issues found
+
+📄 Verifying: osint/tradint/tradint_entities.jsonl
+   ⚠️  Found 160 issues
+      • WHITESPACE: 160
+
+📄 Verifying: osint/vatint/vatint_entities.jsonl
+   ⚠️  Found 80 issues
+      • WHITESPACE: 80
+
+📄 Verifying: ot_ics_physical_security/ot_ics_physical_security_entities.jsonl
+   ⚠️  Found 44 issues
+      • WHITESPACE: 44
+
+📄 Verifying: security_awareness_training/security_awareness_training_entities.jsonl
+   ⚠️  Found 228 issues
+      • WHITESPACE: 200
+      • TOO_SHORT: 28
+
+📄 Verifying: threat_intelligence/threat_intelligence_entities.jsonl
+   ⚠️  Found 208 issues
+      • WHITESPACE: 160
+      • TOO_SHORT: 48
+
+📄 Verifying: vendor_mgmt/vendor_mgmt_entities.jsonl
+   ⚠️  Found 40 issues
+      • WHITESPACE: 36
+      • TOO_SHORT: 4
+
+📄 Verifying: vulnerability_mgmt/vulnerability_mgmt_entities.jsonl
+   ⚠️  Found 252 issues
+      • WHITESPACE: 252
+
+======================================================================
+VERIFICATION SUMMARY
+======================================================================
+Total files: 49
+Total lines: 20,922
+Total entities: 44,864
+Total issues: 8,940
+
+⚠️  ISSUES FOUND - Details below
+----------------------------------------------------------------------
+
+Issues by type:
+  WHITESPACE                    :  7,348
+  WRONG_BOUNDARY                :  1,068
+  TOO_SHORT                     :    524
+
+Top 10 files with issues:
+  cybint_entities.jsonl                             :    796 issues
+  techint_entities.jsonl                            :    708 issues
+  humint_entities.jsonl                             :    484 issues
+  comint_entities.jsonl                             :    460 issues
+  imint_entities.jsonl                              :    388 issues
+  digint_entities.jsonl                             :    364 issues
+  medint_entities.jsonl                             :    332 issues
+  api_security_entities.jsonl                       :    260 issues
+  vulnerability_mgmt_entities.jsonl                 :    252 issues
+  data_protection_backup_entities.jsonl             :    240 issues
+
+📄 Detailed report saved to: cyber-train/BOUNDARY_VERIFICATION_REPORT.json
+
+📋 Sample Issues (first 10):
+----------------------------------------------------------------------
+
+  File: ai_security_entities.jsonl
+  Line: 16
+  Type: WHITESPACE
+  Message: Entity has leading/trailing whitespace: " release"
+  Entity: ' release'
+
+  File: ai_security_entities.jsonl
+  Line: 20
+  Type: WHITESPACE
+  Message: Entity has leading/trailing whitespace: " github.com/company/ml-model"
+  Entity: ' github.com/company/ml-model'
+
+  File: ai_security_entities.jsonl
+  Line: 31
+  Type: WHITESPACE
+  Message: Entity has leading/trailing whitespace: " monitori"
+  Entity: ' monitori'
+
+  File: api_security_entities.jsonl
+  Line: 4
+  Type: WHITESPACE
+  Message: Entity has leading/trailing whitespace: "API "
+  Entity: 'API '
+
+  File: api_security_entities.jsonl
+  Line: 6
+  Type: WHITESPACE
+  Message: Entity has leading/trailing whitespace: "API "
+  Entity: 'API '
+
+  File: api_security_entities.jsonl
+  Line: 6
+  Type: WHITESPACE
+  Message: Entity has leading/trailing whitespace: " 1"
+  Entity: ' 1'
+
+  File: application_security_entities.jsonl
+  Line: 1
+  Type: WHITESPACE
+  Message: Entity has leading/trailing whitespace: "Bug Bounty Platform "
+  Entity: 'Bug Bounty Platform '
+
+  File: application_security_entities.jsonl
+  Line: 1
+  Type: WHITESPACE
+  Message: Entity has leading/trailing whitespace: "ntegrator "
+  Entity: 'ntegrator '
+
+  File: application_security_entities.jsonl
+  Line: 1
+  Type: TOO_SHORT
+  Message: Entity too short: "42"
+  Entity: '42'
+
+  File: audit_compliance_entities.jsonl
+  Line: 10
+  Type: WHITESPACE
+  Message: Entity has leading/trailing whitespace: "nding: "
+  Entity: 'nding: '
+
+======================================================================

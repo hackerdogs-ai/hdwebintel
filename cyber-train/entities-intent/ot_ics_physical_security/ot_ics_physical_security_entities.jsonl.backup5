@@ -1,0 +1,150 @@
+{"text": "Insider Threat Dashboard correlated HR badge CCTV and OT IT logs detecting 4 insider cases", "entities": [[0, 20, "TOOL"], [29, 35, "RISK_TYPE"]]}
+{"text": "OT ICS Physical Security Strategist defined strategy aligned with ISA IEC 62443 NERC CIP and ISO 27019", "entities": [[25, 32, "STRATEGY_TYPE"]]}
+{"text": "Insider threat detection identified 4 cases with 3 mitigated and 1 open", "entities": [[51, 60, "MITIGATION_TYPE"]]}
+{"text": "CCTV Monitoring Platform correlated physical access with badge data identifying tailgating", "entities": [[5, 14, "MONITORING_TYPE"]]}
+{"text": "OT Incident Commander coordinated IR integrating OT logs IT SOC data and physical events", "entities": [[3, 18, "INCIDENT_TYPE"]]}
+{"text": "Network Segmentation Tool enforced Purdue Model separation detecting 4 flat networks", "entities": [[0, 20, "TOOL"], [36, 47, "SEGMENTATION_TYPE"], [60, 68, "MODEL_TYPE"]]}
+{"text": "ICS Protocol Analyzer discovered 1500 OT assets including 400 PLCs 150 HMIs and 25 SCADA servers", "entities": [[4, 12, "PROTOCOL_TYPE"]]}
+{"text": "OT ICS Physical Security Strategist defined strategy aligned with ISA IEC 62443 NERC CIP and ISO 27019", "entities": [[25, 32, "STRATEGY_TYPE"]]}
+{"text": "OT Honeypot Toolkit deployed 6 honeypots logging 12 attacks and 8 TTP samples", "entities": [[12, 18, "TOOLKIT_TYPE"]]}
+{"text": "Insider Threat Dashboard correlated HR badge CCTV and OT IT logs detecting 4 insider cases", "entities": [[0, 20, "TOOL"], [29, 35, "RISK_TYPE"]]}
+{"text": "Tenable OT security scanned 800 OT assets identifying 150 vulnerabilities", "entities": [[59, 67, "IDENTIFICATION_TYPE"]]}
+{"text": "OT continuity readiness reached 80% with backup SCADA validated", "entities": [[3, 13, "CONTINUITY_TYPE"], [14, 23, "READINESS_TYPE"]]}
+{"text": "Safety Compliance Checklist validated OSHA IEC and NERC safety interlocks", "entities": [[0, 13, "TOOL"], [66, 72, "SAFETY_TYPE"]]}
+{"text": "Stress Test Monitor validated safety interlocks and manual overrides identifying 1 failure", "entities": [[70, 77, "MANUAL_TYPE"]]}
+{"text": "Attack Simulator tested resilience identifying backup SCADA not failover-ready", "entities": [[0, 15, "TOOL"], [24, 30, "ATTACK_TYPE"]]}
+{"text": "OT ICS physical security training completion reached 89% for all OT engineers", "entities": [[7, 15, "PHYSICAL_TYPE"], [34, 43, "COMPLETION_TYPE"]]}
+{"text": "OT continuity tests validated backup SCADA servers and PLC config backups", "entities": [[3, 13, "CONTINUITY_TYPE"]]}
+{"text": "OT honeypot deployment reached 6 honeypots with 12 attacks logged", "entities": [[3, 11, "HONEYPOT_TYPE"]]}
+{"text": "Claroty OT security platform protected 500 industrial assets with 92% coverage", "entities": [[39, 42, "COUNT"], [43, 52, "ASSET_TYPE"], [54, 60, "ASSET_TYPE"]]}
+{"text": "Tenable OT security scanned 800 OT assets identifying 150 vulnerabilities", "entities": [[59, 67, "IDENTIFICATION_TYPE"]]}
+{"text": "OT vulnerability patching achieved 82% with 180 vulnerabilities remediated", "entities": [[3, 15, "VULNERABILITY_TYPE"], [17, 24, "PATCHING_TYPE"], [50, 63, "VULNERABILITY_TYPE"]]}
+{"text": "Convergence Dashboard unified OT telemetry IT SOC alerts and physical security data", "entities": [[0, 19, "TOOL"]]}
+{"text": "Firmware Validator checked 300 devices detecting 2 tampered firmware and 3 supply chain alerts", "entities": [[0, 17, "TOOL"], [27, 35, "FIRMWARE_TYPE"]]}
+{"text": "OT continuity tests validated backup SCADA servers and PLC config backups", "entities": [[3, 13, "CONTINUITY_TYPE"]]}
+{"text": "OT Threat Hunter conducted 12 hunts detecting 4 anomalies and TTP matches T0849 T0814", "entities": [[10, 16, "HUNTING_TYPE"]]}
+{"text": "Digital Twin Platform built 3 digital twins simulating 10 attack scenarios", "entities": []}
+{"text": "Firmware Validator checked 300 devices detecting 2 tampered firmware and 3 supply chain alerts", "entities": [[0, 17, "TOOL"], [27, 35, "FIRMWARE_TYPE"]]}
+{"text": "OT honeypot deployment reached 6 honeypots with 12 attacks logged", "entities": [[3, 11, "HONEYPOT_TYPE"]]}
+{"text": "OT ICS physical security audit score improved to 94% with 92% coverage", "entities": [[7, 15, "PHYSICAL_TYPE"]]}
+{"text": "Tenable OT security scanned 800 OT assets identifying 150 vulnerabilities", "entities": [[59, 67, "IDENTIFICATION_TYPE"]]}
+{"text": "Insider threat detection identified 4 cases with 3 mitigated and 1 open", "entities": [[51, 60, "MITIGATION_TYPE"]]}
+{"text": "OT ICS physical security false positive rate reduced to 1.7% improving detection accuracy", "entities": [[7, 15, "PHYSICAL_TYPE"], [25, 39, "METRIC_TYPE"], [57, 65, "DETECTION_TYPE"]]}
+{"text": "Tenable OT security scanned 800 OT assets identifying 150 vulnerabilities", "entities": [[59, 67, "IDENTIFICATION_TYPE"]]}
+{"text": "OT ICS physical security audit score improved to 94% with 92% coverage", "entities": [[7, 15, "PHYSICAL_TYPE"]]}
+{"text": "Nozomi Networks OT visibility monitored 2000 ICS devices with real-time threat detection", "entities": []}
+{"text": "OT vulnerability patching achieved 82% with 180 vulnerabilities remediated", "entities": [[3, 15, "VULNERABILITY_TYPE"], [17, 24, "PATCHING_TYPE"], [50, 63, "VULNERABILITY_TYPE"]]}
+{"text": "Badge Access System monitored 16000 events detecting 15 anomalies and 3 insider flags", "entities": [[46, 52, "COUNT"]]}
+{"text": "OT Threat Hunter conducted 12 hunts detecting 4 anomalies and TTP matches T0849 T0814", "entities": [[10, 16, "HUNTING_TYPE"]]}
+{"text": "Convergence Dashboard unified OT telemetry IT SOC alerts and physical security data", "entities": [[0, 19, "TOOL"]]}
+{"text": "Insider Threat Dashboard correlated HR badge CCTV and OT IT logs detecting 4 insider cases", "entities": [[0, 20, "TOOL"], [29, 35, "RISK_TYPE"]]}
+{"text": "OT Policy Generator created policy covering SCADA PLCs and industrial devices", "entities": [[61, 68, "DEVICE_TYPE"]]}
+{"text": "OT regulatory mapping covered 85% of TSA Pipeline Directive and EU NIS2 requirements", "entities": []}
+{"text": "Badge Access System monitored 16000 events detecting 15 anomalies and 3 insider flags", "entities": [[46, 52, "COUNT"]]}
+{"text": "Badge Access System monitored 16000 events detecting 15 anomalies and 3 insider flags", "entities": [[46, 52, "COUNT"]]}
+{"text": "OT vendor audit reviewed 25 vendors with 20 compliant and 5 violations", "entities": [[3, 8, "VENDOR_TYPE"]]}
+{"text": "OT Incident Commander coordinated IR integrating OT logs IT SOC data and physical events", "entities": [[3, 18, "INCIDENT_TYPE"]]}
+{"text": "OT continuity readiness reached 80% with backup SCADA validated", "entities": [[3, 13, "CONTINUITY_TYPE"], [14, 23, "READINESS_TYPE"]]}
+{"text": "Attack Simulator tested resilience identifying backup SCADA not failover-ready", "entities": [[0, 15, "TOOL"], [24, 30, "ATTACK_TYPE"]]}
+{"text": "Stress Test Monitor validated safety interlocks and manual overrides identifying 1 failure", "entities": [[70, 77, "MANUAL_TYPE"]]}
+{"text": "OT ICS physical security audit score improved to 94% with 92% coverage", "entities": [[7, 15, "PHYSICAL_TYPE"]]}
+{"text": "Passive Network Sensor detected 4 segmentation violations requiring remediation", "entities": [[34, 40, "SENSOR_TYPE"]]}
+{"text": "Passive Network Sensor detected 4 segmentation violations requiring remediation", "entities": [[34, 40, "SENSOR_TYPE"]]}
+{"text": "OT ICS Physical Security Strategist defined strategy aligned with ISA IEC 62443 NERC CIP and ISO 27019", "entities": [[25, 32, "STRATEGY_TYPE"]]}
+{"text": "Firmware Validator checked 300 devices detecting 2 tampered firmware and 3 supply chain alerts", "entities": [[0, 17, "TOOL"], [27, 35, "FIRMWARE_TYPE"]]}
+{"text": "OT Incident Commander coordinated IR integrating OT logs IT SOC data and physical events", "entities": [[3, 18, "INCIDENT_TYPE"]]}
+{"text": "OT continuity readiness reached 80% with backup SCADA validated", "entities": [[3, 13, "CONTINUITY_TYPE"], [14, 23, "READINESS_TYPE"]]}
+{"text": "ICS Framework Mapper aligned controls with ISA IEC 62443 zones and conduits", "entities": [[4, 12, "FRAMEWORK"]]}
+{"text": "OT vendor audit reviewed 25 vendors with 20 compliant and 5 violations", "entities": [[3, 8, "VENDOR_TYPE"]]}
+{"text": "Network Segmentation Tool enforced Purdue Model separation detecting 4 flat networks", "entities": [[0, 20, "TOOL"], [36, 47, "SEGMENTATION_TYPE"], [60, 68, "MODEL_TYPE"]]}
+{"text": "OT vendor audit reviewed 25 vendors with 20 compliant and 5 violations", "entities": [[3, 8, "VENDOR_TYPE"]]}
+{"text": "CCTV Monitoring Platform correlated physical access with badge data identifying tailgating", "entities": [[5, 14, "MONITORING_TYPE"]]}
+{"text": "OT continuity readiness reached 80% with backup SCADA validated", "entities": [[3, 13, "CONTINUITY_TYPE"], [14, 23, "READINESS_TYPE"]]}
+{"text": "Convergence Dashboard unified OT telemetry IT SOC alerts and physical security data", "entities": [[0, 19, "TOOL"]]}
+{"text": "OT regulatory mapping covered 85% of TSA Pipeline Directive and EU NIS2 requirements", "entities": []}
+{"text": "Nozomi Networks OT visibility monitored 2000 ICS devices with real-time threat detection", "entities": []}
+{"text": "OT Honeypot Toolkit deployed 6 honeypots logging 12 attacks and 8 TTP samples", "entities": [[12, 18, "TOOLKIT_TYPE"]]}
+{"text": "Firmware Validator checked 300 devices detecting 2 tampered firmware and 3 supply chain alerts", "entities": [[0, 17, "TOOL"], [27, 35, "FIRMWARE_TYPE"]]}
+{"text": "Passive Network Sensor detected 4 segmentation violations requiring remediation", "entities": [[34, 40, "SENSOR_TYPE"]]}
+{"text": "Passive Network Sensor detected 4 segmentation violations requiring remediation", "entities": [[34, 40, "SENSOR_TYPE"]]}
+{"text": "OT Threat Hunter conducted 12 hunts detecting 4 anomalies and TTP matches T0849 T0814", "entities": [[10, 16, "HUNTING_TYPE"]]}
+{"text": "OT Policy Generator created policy covering SCADA PLCs and industrial devices", "entities": [[61, 68, "DEVICE_TYPE"]]}
+{"text": "Nozomi Networks OT visibility monitored 2000 ICS devices with real-time threat detection", "entities": []}
+{"text": "OT Honeypot Toolkit deployed 6 honeypots logging 12 attacks and 8 TTP samples", "entities": [[12, 18, "TOOLKIT_TYPE"]]}
+{"text": "Convergence Dashboard unified OT telemetry IT SOC alerts and physical security data", "entities": [[0, 19, "TOOL"]]}
+{"text": "OT Incident Commander coordinated IR integrating OT logs IT SOC data and physical events", "entities": [[3, 18, "INCIDENT_TYPE"]]}
+{"text": "OT Vulnerability Scanner identified 220 vulnerabilities with 180 patched and 20 compensating controls", "entities": [[3, 15, "VULNERABILITY_TYPE"], [17, 23, "SCANNER_TYPE"], [32, 39, "IDENTIFICATION_TYPE"], [45, 48, "COUNT"]]}
+{"text": "OT ICS physical security false positive rate reduced to 1.7% improving detection accuracy", "entities": [[7, 15, "PHYSICAL_TYPE"], [25, 39, "METRIC_TYPE"], [57, 65, "DETECTION_TYPE"]]}
+{"text": "Safety Compliance Checklist validated OSHA IEC and NERC safety interlocks", "entities": [[0, 13, "TOOL"], [66, 72, "SAFETY_TYPE"]]}
+{"text": "OT ICS physical security training completion reached 89% for all OT engineers", "entities": [[7, 15, "PHYSICAL_TYPE"], [34, 43, "COMPLETION_TYPE"]]}
+{"text": "Attack Simulator tested resilience identifying backup SCADA not failover-ready", "entities": [[0, 15, "TOOL"], [24, 30, "ATTACK_TYPE"]]}
+{"text": "Safety Compliance Checklist validated OSHA IEC and NERC safety interlocks", "entities": [[0, 13, "TOOL"], [66, 72, "SAFETY_TYPE"]]}
+{"text": "OT ICS physical security training completion reached 89% for all OT engineers", "entities": [[7, 15, "PHYSICAL_TYPE"], [34, 43, "COMPLETION_TYPE"]]}
+{"text": "Safety compliance achieved 95% with zero interlock failures", "entities": [[0, 6, "SAFETY_TYPE"], [41, 50, "INTERLOCK_TYPE"], [51, 58, "FAILURE_TYPE"]]}
+{"text": "ICS Framework Mapper aligned controls with ISA IEC 62443 zones and conduits", "entities": [[4, 12, "FRAMEWORK"]]}
+{"text": "CCTV Monitoring Platform correlated physical access with badge data identifying tailgating", "entities": [[5, 14, "MONITORING_TYPE"]]}
+{"text": "Safety compliance achieved 95% with zero interlock failures", "entities": [[0, 6, "SAFETY_TYPE"], [41, 50, "INTERLOCK_TYPE"], [51, 58, "FAILURE_TYPE"]]}
+{"text": "OT vendor audit reviewed 25 vendors with 20 compliant and 5 violations", "entities": [[3, 8, "VENDOR_TYPE"]]}
+{"text": "OT Policy Generator created policy covering SCADA PLCs and industrial devices", "entities": [[61, 68, "DEVICE_TYPE"]]}
+{"text": "SBOM Analyzer validated software supply chain identifying vulnerable dependencies", "entities": [[0, 11, "TOOL"], [25, 32, "ANALYZER_TYPE"], [61, 68, "CHAIN_TYPE"]]}
+{"text": "ICS Framework Mapper aligned controls with ISA IEC 62443 zones and conduits", "entities": [[4, 12, "FRAMEWORK"]]}
+{"text": "ICS Protocol Analyzer discovered 1500 OT assets including 400 PLCs 150 HMIs and 25 SCADA servers", "entities": [[4, 12, "PROTOCOL_TYPE"]]}
+{"text": "OT continuity tests validated backup SCADA servers and PLC config backups", "entities": [[3, 13, "CONTINUITY_TYPE"]]}
+{"text": "SBOM Analyzer validated software supply chain identifying vulnerable dependencies", "entities": [[0, 11, "TOOL"], [25, 32, "ANALYZER_TYPE"], [61, 68, "CHAIN_TYPE"]]}
+{"text": "Stress Test Monitor validated safety interlocks and manual overrides identifying 1 failure", "entities": [[70, 77, "MANUAL_TYPE"]]}
+{"text": "Insider Threat Dashboard correlated HR badge CCTV and OT IT logs detecting 4 insider cases", "entities": [[0, 20, "TOOL"], [29, 35, "RISK_TYPE"]]}
+{"text": "OT Threat Hunter conducted 12 hunts detecting 4 anomalies and TTP matches T0849 T0814", "entities": [[10, 16, "HUNTING_TYPE"]]}
+{"text": "OT ICS physical security audit score improved to 94% with 92% coverage", "entities": [[7, 15, "PHYSICAL_TYPE"]]}
+{"text": "OT Honeypot Toolkit deployed 6 honeypots logging 12 attacks and 8 TTP samples", "entities": [[12, 18, "TOOLKIT_TYPE"]]}
+{"text": "OT ICS physical security false positive rate reduced to 1.7% improving detection accuracy", "entities": [[7, 15, "PHYSICAL_TYPE"], [25, 39, "METRIC_TYPE"], [57, 65, "DETECTION_TYPE"]]}
+{"text": "Network Segmentation Tool enforced Purdue Model separation detecting 4 flat networks", "entities": [[0, 20, "TOOL"], [36, 47, "SEGMENTATION_TYPE"], [60, 68, "MODEL_TYPE"]]}
+{"text": "Network Segmentation Tool enforced Purdue Model separation detecting 4 flat networks", "entities": [[0, 20, "TOOL"], [36, 47, "SEGMENTATION_TYPE"], [60, 68, "MODEL_TYPE"]]}
+{"text": "OT honeypot deployment reached 6 honeypots with 12 attacks logged", "entities": [[3, 11, "HONEYPOT_TYPE"]]}
+{"text": "Digital Twin Platform built 3 digital twins simulating 10 attack scenarios", "entities": []}
+{"text": "OT Vulnerability Scanner identified 220 vulnerabilities with 180 patched and 20 compensating controls", "entities": [[3, 15, "VULNERABILITY_TYPE"], [17, 23, "SCANNER_TYPE"], [32, 39, "IDENTIFICATION_TYPE"], [45, 48, "COUNT"]]}
+{"text": "CCTV Monitoring Platform correlated physical access with badge data identifying tailgating", "entities": [[5, 14, "MONITORING_TYPE"]]}
+{"text": "Claroty OT security platform protected 500 industrial assets with 92% coverage", "entities": [[39, 42, "COUNT"], [43, 52, "ASSET_TYPE"], [54, 60, "ASSET_TYPE"]]}
+{"text": "SBOM Analyzer validated software supply chain identifying vulnerable dependencies", "entities": [[0, 11, "TOOL"], [25, 32, "ANALYZER_TYPE"], [61, 68, "CHAIN_TYPE"]]}
+{"text": "Safety Compliance Checklist validated OSHA IEC and NERC safety interlocks", "entities": [[0, 13, "TOOL"], [66, 72, "SAFETY_TYPE"]]}
+{"text": "OT Policy Generator created policy covering SCADA PLCs and industrial devices", "entities": [[61, 68, "DEVICE_TYPE"]]}
+{"text": "SBOM Analyzer validated software supply chain identifying vulnerable dependencies", "entities": [[0, 11, "TOOL"], [25, 32, "ANALYZER_TYPE"], [61, 68, "CHAIN_TYPE"]]}
+{"text": "OT honeypot deployment reached 6 honeypots with 12 attacks logged", "entities": [[3, 11, "HONEYPOT_TYPE"]]}
+{"text": "Insider threat detection identified 4 cases with 3 mitigated and 1 open", "entities": [[51, 60, "MITIGATION_TYPE"]]}
+{"text": "OT continuity tests validated backup SCADA servers and PLC config backups", "entities": [[3, 13, "CONTINUITY_TYPE"]]}
+{"text": "Nozomi Networks OT visibility monitored 2000 ICS devices with real-time threat detection", "entities": []}
+{"text": "Safety compliance achieved 95% with zero interlock failures", "entities": [[0, 6, "SAFETY_TYPE"], [41, 50, "INTERLOCK_TYPE"], [51, 58, "FAILURE_TYPE"]]}
+{"text": "OT vulnerability patching achieved 82% with 180 vulnerabilities remediated", "entities": [[3, 15, "VULNERABILITY_TYPE"], [17, 24, "PATCHING_TYPE"], [50, 63, "VULNERABILITY_TYPE"]]}
+{"text": "ICS Protocol Analyzer discovered 1500 OT assets including 400 PLCs 150 HMIs and 25 SCADA servers", "entities": [[4, 12, "PROTOCOL_TYPE"]]}
+{"text": "Insider threat detection identified 4 cases with 3 mitigated and 1 open", "entities": [[51, 60, "MITIGATION_TYPE"]]}
+{"text": "Stress Test Monitor validated safety interlocks and manual overrides identifying 1 failure", "entities": [[70, 77, "MANUAL_TYPE"]]}
+{"text": "OT Vulnerability Scanner identified 220 vulnerabilities with 180 patched and 20 compensating controls", "entities": [[3, 15, "VULNERABILITY_TYPE"], [17, 23, "SCANNER_TYPE"], [32, 39, "IDENTIFICATION_TYPE"], [45, 48, "COUNT"]]}
+{"text": "OT regulatory mapping covered 85% of TSA Pipeline Directive and EU NIS2 requirements", "entities": []}
+{"text": "Claroty OT security platform protected 500 industrial assets with 92% coverage", "entities": [[39, 42, "COUNT"], [43, 52, "ASSET_TYPE"], [54, 60, "ASSET_TYPE"]]}
+{"text": "OT ICS physical security false positive rate reduced to 1.7% improving detection accuracy", "entities": [[7, 15, "PHYSICAL_TYPE"], [25, 39, "METRIC_TYPE"], [57, 65, "DETECTION_TYPE"]]}
+{"text": "OT vulnerability patching achieved 82% with 180 vulnerabilities remediated", "entities": [[3, 15, "VULNERABILITY_TYPE"], [17, 24, "PATCHING_TYPE"], [50, 63, "VULNERABILITY_TYPE"]]}
+{"text": "Digital Twin Platform built 3 digital twins simulating 10 attack scenarios", "entities": []}
+{"text": "OT ICS Physical Security Strategist defined strategy aligned with ISA IEC 62443 NERC CIP and ISO 27019", "entities": [[25, 32, "STRATEGY_TYPE"]]}
+{"text": "Safety compliance achieved 95% with zero interlock failures", "entities": [[0, 6, "SAFETY_TYPE"], [41, 50, "INTERLOCK_TYPE"], [51, 58, "FAILURE_TYPE"]]}
+{"text": "Attack Simulator tested resilience identifying backup SCADA not failover-ready", "entities": [[0, 15, "TOOL"], [24, 30, "ATTACK_TYPE"]]}
+{"text": "OT Vulnerability Scanner identified 220 vulnerabilities with 180 patched and 20 compensating controls", "entities": [[3, 15, "VULNERABILITY_TYPE"], [17, 23, "SCANNER_TYPE"], [32, 39, "IDENTIFICATION_TYPE"], [45, 48, "COUNT"]]}
+{"text": "OT ICS physical security training completion reached 89% for all OT engineers", "entities": [[7, 15, "PHYSICAL_TYPE"], [34, 43, "COMPLETION_TYPE"]]}
+{"text": "OT regulatory mapping covered 85% of TSA Pipeline Directive and EU NIS2 requirements", "entities": []}
+{"text": "ICS Framework Mapper aligned controls with ISA IEC 62443 zones and conduits", "entities": [[4, 12, "FRAMEWORK"]]}
+{"text": "Claroty OT security platform protected 500 industrial assets with 92% coverage", "entities": [[39, 42, "COUNT"], [43, 52, "ASSET_TYPE"], [54, 60, "ASSET_TYPE"]]}
+{"text": "Digital Twin Platform built 3 digital twins simulating 10 attack scenarios", "entities": []}
+{"text": "Badge Access System monitored 16000 events detecting 15 anomalies and 3 insider flags", "entities": [[46, 52, "COUNT"]]}
+{"text": "ICS Protocol Analyzer discovered 1500 OT assets including 400 PLCs 150 HMIs and 25 SCADA servers", "entities": [[4, 12, "PROTOCOL_TYPE"]]}
+{"text": "Can you help me with this?", "entities": []}
+{"text": "I need to check something.", "entities": []}
+{"text": "What is the status?", "entities": []}
+{"text": "How do I do this?", "entities": []}
+{"text": "Tell me more about it.", "entities": []}
+{"text": "Is this safe to use?", "entities": []}
+{"text": "Let me know if you need anything.", "entities": []}
+{"text": "Thanks for your help.", "entities": []}
+{"text": "I will get back to you.", "entities": []}
+{"text": "Please review this document.", "entities": []}
+{"text": "What should I do next?", "entities": []}
+{"text": "How does this work?", "entities": []}
+{"text": "Why is this happening?", "entities": []}
+{"text": "When will this be ready?", "entities": []}

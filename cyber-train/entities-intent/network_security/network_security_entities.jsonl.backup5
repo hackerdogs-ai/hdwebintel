@@ -1,0 +1,458 @@
+{"text": "Network infrastructure at datacenter elevation 50 meters. Server room coordinates: latitude 37.7749, longitude -122.4194, altitude 10m above ground level.", "entities": []}
+{"text": "Vendor Access Audit Tool reviewed partnerA and vendorB connectivity finding excessive privileges", "entities": [[0, 19, "TOOL"], [60, 67, "PARTNER_NAME"]]}
+{"text": "ZTNA migration completed with 520 users and 98% coverage achieved", "entities": []}
+{"text": "East-west traffic monitoring analyzed 50000 flows detecting 12 anomalies", "entities": [[0, 9, "TRAFFIC_TYPE"], [10, 15, "TRAFFIC_TYPE"]]}
+{"text": "Zero Trust Policy Generator created policy enabling ZTNA and encrypted traffic inspection", "entities": [[80, 87, "TRAFFIC_TYPE"]]}
+{"text": "Network Analytics Specialist analyzed 50000 east-west traffic flows detecting anomalies", "entities": [[0, 28, "ROLE"], [38, 43, "NETWORK_TYPE"], [45, 53, "ANALYTICS_TYPE"], [55, 65, "SPECIALIST_TYPE"]]}
+{"text": "Network Analytics Specialist analyzed 50000 east-west traffic flows detecting anomalies", "entities": [[0, 28, "ROLE"], [38, 43, "NETWORK_TYPE"], [45, 53, "ANALYTICS_TYPE"], [55, 65, "SPECIALIST_TYPE"]]}
+{"text": "OPNsense advanced firewall platform enforced segmentation policies", "entities": [[47, 55, "PLATFORM_TYPE"]]}
+{"text": "Network security audit score improved to 90% with segmentation coverage at 95%", "entities": [[0, 15, "NETWORK_TYPE"]]}
+{"text": "ZTNA enforcement migrated 520 users from legacy VPN with 98% coverage", "entities": [[8, 15, "ENFORCEMENT_TYPE"]]}
+{"text": "Network security audit score improved to 90% with segmentation coverage at 95%", "entities": [[0, 15, "NETWORK_TYPE"]]}
+{"text": "CISO approved network security strategy with zero trust and segmentation roadmap", "entities": [[0, 4, "ROLE"]]}
+{"text": "Arista Awake Security NDR detected data exfiltration over DNS", "entities": [[40, 52, "EXFILTRATION_TYPE"]]}
+{"text": "SSL TLS inspection decrypted 20000 sessions finding 12 malware samples", "entities": [[0, 3, "PROTOCOL_TYPE"], [4, 7, "PROTOCOL_TYPE"], [8, 18, "INSPECTION_TYPE"]]}
+{"text": "DDoS Protection Tool simulated HTTP Flood attack achieving 99% mitigation rate", "entities": []}
+{"text": "Encrypted Traffic Inspection Tool inspected 20000 sessions detecting 12 malware instances", "entities": []}
+{"text": "ZTNA coverage achieved 98% with zero legacy VPN sessions remaining", "entities": []}
+{"text": "Network anomaly detection identified slow data exfiltration patterns", "entities": [[8, 25, "ANOMALY_TYPE"], [26, 36, "DETECTION_TYPE"]]}
+{"text": "Vendor Access Audit Tool reviewed partnerA and vendorB connectivity finding excessive privileges", "entities": [[0, 19, "TOOL"], [60, 67, "PARTNER_NAME"]]}
+{"text": "Zero trust policy enforcement migrated 520 users achieving 98% coverage", "entities": [[0, 10, "TRUST_TYPE"], [11, 14, "TRUST_TYPE"]]}
+{"text": "Network security metrics reporting showed 95% firewall hygiene and 98% IDS detection", "entities": [[25, 33, "REPORTING_TYPE"]]}
+{"text": "Vendor network access audit identified 3 vendors with excessive privileges", "entities": [[0, 6, "VENDOR_TYPE"]]}
+{"text": "SSL TLS inspection decrypted 20000 sessions finding 12 malware samples", "entities": [[0, 3, "PROTOCOL_TYPE"], [4, 7, "PROTOCOL_TYPE"], [8, 18, "INSPECTION_TYPE"]]}
+{"text": "Firewall rule hygiene achieved 95% with zero overly permissive rules", "entities": [[0, 8, "FIREWALL_TYPE"], [9, 13, "RULE_TYPE"], [14, 20, "HYGIENE_TYPE"], [46, 51, "PERMISSION_TYPE"], [53, 60, "RULE_TYPE"]]}
+{"text": "Network security KPI dashboard showed 95% firewall hygiene 98% IDS detection", "entities": [[21, 28, "DASHBOARD_TYPE"]]}
+{"text": "pfSense open-source firewall router blocked 230 malicious connections", "entities": [[8, 19, "TOOL"], [21, 28, "FIREWALL_TYPE"], [30, 35, "ROUTER_TYPE"], [49, 57, "MALICIOUS_TYPE"]]}
+{"text": "ExtraHop Reveal X NDR platform analyzed 50000 east-west flows", "entities": [[35, 43, "PLATFORM_TYPE"]]}
+{"text": "Network Monitoring Specialist detected 120 IDS alerts with 15 critical SQL injection attempts", "entities": [[0, 28, "ROLE"]]}
+{"text": "Network behavior analysis identified DNS tunneling exfiltration attempt", "entities": [[8, 16, "BEHAVIOR_TYPE"], [17, 25, "ANALYSIS_TYPE"]]}
+{"text": "Network monitoring detected traffic from datacenter IP 10.0.0.1. Location: Primary datacenter at latitude 40.7580, longitude -73.9855.", "entities": [[8, 17, "MONITORING_TYPE"], [55, 63, "IP_ADDRESS"]]}
+{"text": "VPN ZTNA Manager Tool managed 230 active sessions with 97% MFA compliance", "entities": []}
+{"text": "Palo Alto Networks firewall platform protected 5000 endpoints with 95% rule hygiene", "entities": []}
+{"text": "Network Flow Monitor correlated events escalating incident INC123 to SOC", "entities": [[0, 19, "TOOL"]]}
+{"text": "Network Security Engineer configured Palo Alto NGFW with threat prevention enabled", "entities": [[0, 24, "ROLE"], [64, 74, "PREVENTION_TYPE"]]}
+{"text": "Encrypted traffic inspection analyzed 20000 sessions detecting 12 malware", "entities": [[11, 17, "TRAFFIC_TYPE"]]}
+{"text": "Network Security Strategist defined network security policy with segmentation NAC and ZTNA", "entities": [[0, 27, "ROLE"], [53, 59, "POLICY_TYPE"]]}
+{"text": "Vendor Access Audit Tool validated 12 vendor VPN connections with 3 violations", "entities": [[52, 58, "VENDOR_TYPE"]]}
+{"text": "Akamai Kona Site Defender DDoS and WAF blocked 5000 attack requests", "entities": [[47, 51, "COUNT"], [59, 67, "REQUEST_TYPE"]]}
+{"text": "Wireshark deep packet inspection analyzed 20000 encrypted sessions", "entities": []}
+{"text": "Network anomaly detection identified slow data exfiltration patterns", "entities": [[8, 25, "ANOMALY_TYPE"], [26, 36, "DETECTION_TYPE"]]}
+{"text": "ExtraHop Reveal X NDR platform analyzed 50000 east-west flows", "entities": [[35, 43, "PLATFORM_TYPE"]]}
+{"text": "Akamai Kona Site Defender DDoS and WAF blocked 5000 attack requests", "entities": [[47, 51, "COUNT"], [59, 67, "REQUEST_TYPE"]]}
+{"text": "IDS detection rate reached 98% with automated response blocking 90% of threats", "entities": [[71, 78, "THREAT_TYPE"]]}
+{"text": "Encrypted Traffic Inspection Tool inspected 20000 sessions detecting 12 malware instances", "entities": []}
+{"text": "Network security control coverage achieved 96% with 93% compliance rate", "entities": [[25, 32, "COVERAGE_TYPE"]]}
+{"text": "Elastic Stack ELK ingested network logs from 500 endpoints", "entities": [[0, 13, "TOOL"]]}
+{"text": "DDoS protection simulation tested HTTP flood achieving 99% mitigation", "entities": []}
+{"text": "Network threat hunting identified C2 beaconing to IP 198.51.100.10 escalating incident INC789", "entities": [[53, 66, "IP_ADDRESS"]]}
+{"text": "Network Flow Monitor correlated events escalating incident INC123 to SOC", "entities": [[0, 19, "TOOL"]]}
+{"text": "East-west traffic monitoring detected suspicious SMB lateral movement requiring investigation", "entities": [[0, 9, "TRAFFIC_TYPE"], [10, 16, "TRAFFIC_TYPE"]]}
+{"text": "Head of Network Security reviewed firewall ruleset with 450 rules and 23 violations", "entities": []}
+{"text": "Firewall logs show nameserver queries from datacenter subnet. Location coordinates: latitude 47.6062, longitude -122.3321.", "entities": [[0, 8, "FIREWALL_TYPE"], [9, 13, "LOG_TYPE"], [19, 29, "NAMESERVER"]]}
+{"text": "Network infrastructure at datacenter elevation 50 meters. Server room coordinates: latitude 37.7749, longitude -122.4194, altitude 10m above ground level.", "entities": []}
+{"text": "Network Analytics Specialist analyzed 50000 east-west traffic flows detecting anomalies", "entities": [[0, 28, "ROLE"], [38, 43, "NETWORK_TYPE"], [45, 53, "ANALYTICS_TYPE"], [55, 65, "SPECIALIST_TYPE"]]}
+{"text": "NAC Management Tool checked 1200 devices blocking 23 non-compliant endpoints", "entities": []}
+{"text": "Palo Alto Networks firewall platform protected 5000 endpoints with 95% rule hygiene", "entities": []}
+{"text": "NAC Management Tool checked 1200 devices blocking 23 non-compliant endpoints", "entities": []}
+{"text": "ZTNA migration completed with 520 users and 98% coverage achieved", "entities": []}
+{"text": "Network compliance audit scored 90% with 2 remediation items", "entities": []}
+{"text": "Network Compliance Analyst validated PCI DSS controls with 96% compliance rate", "entities": [[0, 25, "ROLE"]]}
+{"text": "Firewall logs from datacenter at elevation 200m. Location: latitude 51.5074, longitude -0.1278, altitude 25m. Network monitoring active.", "entities": [[0, 8, "FIREWALL_TYPE"], [9, 13, "LOG_TYPE"], [19, 29, "DATACENTER"], [33, 42, "ELEVATION"], [44, 48, "MEASUREMENT"], [50, 58, "LOCATION"], [59, 67, "LATITUDE"], [68, 76, "LONGITUDE"], [78, 86, "ALTITUDE"], [91, 99, "NETWORK_TYPE"], [100, 109, "MONITORING_TYPE"]]}
+{"text": "Network Security Strategist defined network security policy with segmentation NAC and ZTNA", "entities": [[0, 27, "ROLE"], [53, 59, "POLICY_TYPE"]]}
+{"text": "VPN session monitoring tracked 230 active sessions with 97% MFA compliance", "entities": [[0, 3, "PROTOCOL_TYPE"], [4, 10, "SESSION_TYPE"]]}
+{"text": "Network security false positive rate reduced to 1.9% improving alert accuracy", "entities": [[0, 15, "NETWORK_TYPE"]]}
+{"text": "NAC device posture validation checked 1200 devices blocking 23 non-compliant", "entities": [[13, 18, "DEVICE_TYPE"], [20, 28, "POSTURE_TYPE"], [30, 39, "VALIDATION_TYPE"]]}
+{"text": "Check Point Quantum Security Gateway NGFW IDS IPS detected APT activity", "entities": []}
+{"text": "Firewall hygiene score improved to 95% with 23 unused rules removed", "entities": [[0, 8, "FIREWALL_TYPE"], [60, 66, "RULE_TYPE"]]}
+{"text": "Network Performance Specialist optimized network latency reducing it by 35%", "entities": [[0, 28, "ROLE"]]}
+{"text": "Firewall logs from datacenter at elevation 200m. Location: latitude 51.5074, longitude -0.1278, altitude 25m. Network monitoring active.", "entities": [[0, 8, "FIREWALL_TYPE"], [9, 13, "LOG_TYPE"], [19, 29, "DATACENTER"], [33, 42, "ELEVATION"], [44, 48, "MEASUREMENT"], [50, 58, "LOCATION"], [59, 67, "LATITUDE"], [68, 76, "LONGITUDE"], [78, 86, "ALTITUDE"], [91, 99, "NETWORK_TYPE"], [100, 109, "MONITORING_TYPE"]]}
+{"text": "Network Architecture Design Tool separated prod dev OT and DMZ zones with microsegmentation", "entities": [[0, 27, "TOOL"]]}
+{"text": "Network behavior anomaly detection identified slow exfiltration over DNS", "entities": [[8, 16, "BEHAVIOR_TYPE"], [17, 24, "ANOMALY_TYPE"]]}
+{"text": "Vendor Access Audit Tool reviewed partnerA and vendorB connectivity finding excessive privileges", "entities": [[0, 19, "TOOL"], [60, 67, "PARTNER_NAME"]]}
+{"text": "Network Security Tester executed penetration test finding 8 critical vulnerabilities", "entities": [[0, 23, "ROLE"], [33, 39, "NETWORK_TYPE"], [50, 55, "TESTER_TYPE"]]}
+{"text": "Network threat hunting identified C2 beaconing to IP 198.51.100.10 escalating incident INC789", "entities": [[53, 66, "IP_ADDRESS"]]}
+{"text": "Suricata IDS IPS open source detected 5000 alerts with 98% detection accuracy", "entities": []}
+{"text": "SSL TLS inspection decrypted 20000 sessions finding 12 malware samples", "entities": [[0, 3, "PROTOCOL_TYPE"], [4, 7, "PROTOCOL_TYPE"], [8, 18, "INSPECTION_TYPE"]]}
+{"text": "DDoS resilience achieved 99% mitigation rate during HTTP flood simulation", "entities": []}
+{"text": "ZTNA coverage achieved 98% with 520 users migrated from legacy VPN", "entities": []}
+{"text": "VPN ZTNA Manager Tool managed 230 active sessions with 97% MFA compliance", "entities": []}
+{"text": "Network Flow Monitor correlated events escalating incident INC123 to SOC", "entities": [[0, 19, "TOOL"]]}
+{"text": "Network security posture improved to 96% with enhanced monitoring", "entities": [[17, 24, "POSTURE_TYPE"], [46, 53, "MONITORING_TYPE"]]}
+{"text": "East-west traffic monitoring analyzed 50000 flows detecting 12 anomalies", "entities": [[0, 9, "TRAFFIC_TYPE"], [10, 15, "TRAFFIC_TYPE"]]}
+{"text": "IDS IPS signature updates applied detecting 120 new attack patterns", "entities": [[12, 20, "SIGNATURE_TYPE"]]}
+{"text": "Firewall rule optimization removed 23 unused rules and restricted 8 permissive rules", "entities": [[0, 8, "FIREWALL_TYPE"], [9, 13, "RULE_TYPE"], [14, 25, "OPTIMIZATION_TYPE"], [68, 74, "RULE_TYPE"]]}
+{"text": "Network Compliance Analyst validated PCI DSS controls with 96% compliance rate", "entities": [[0, 25, "ROLE"]]}
+{"text": "Akamai Kona Site Defender DDoS and WAF blocked 5000 attack requests", "entities": [[47, 51, "COUNT"], [59, 67, "REQUEST_TYPE"]]}
+{"text": "Palo Alto Networks firewall platform protected 5000 endpoints with 95% rule hygiene", "entities": []}
+{"text": "Vendor Access Audit Tool validated 12 vendor VPN connections with 3 violations", "entities": [[52, 58, "VENDOR_TYPE"]]}
+{"text": "NAC Management Tool checked 1200 devices blocking 23 non-compliant endpoints", "entities": []}
+{"text": "Cloud network security scan found 50 accounts with 12 misconfigurations", "entities": [[0, 5, "CLOUD_TYPE"], [23, 27, "SCAN_TYPE"], [38, 45, "ACCOUNT_TYPE"], [54, 70, "MISCONFIGURATION_TYPE"]]}
+{"text": "Zeek Bro network traffic analysis identified C2 beaconing to 203.0.113.5", "entities": [[17, 24, "TRAFFIC_TYPE"], [25, 33, "ANALYSIS_TYPE"], [61, 72, "IP_ADDRESS"]]}
+{"text": "Vendor network access audit identified 3 vendors with excessive privileges", "entities": [[0, 6, "VENDOR_TYPE"]]}
+{"text": "CrowdStrike Falcon NDR AI-driven platform detected lateral movement", "entities": [[0, 11, "TOOL"]]}
+{"text": "Network monitoring detected traffic from datacenter IP 10.0.0.1. Location: Primary datacenter at latitude 40.7580, longitude -73.9855.", "entities": [[8, 17, "MONITORING_TYPE"], [55, 63, "IP_ADDRESS"]]}
+{"text": "Network Architecture Design Tool separated prod dev OT and DMZ zones with microsegmentation", "entities": [[0, 27, "TOOL"]]}
+{"text": "Network behavior anomaly detection identified slow exfiltration over DNS", "entities": [[8, 16, "BEHAVIOR_TYPE"], [17, 24, "ANOMALY_TYPE"]]}
+{"text": "Network infrastructure at datacenter elevation 50 meters. Server room coordinates: latitude 37.7749, longitude -122.4194, altitude 10m above ground level.", "entities": []}
+{"text": "Network Security Tester executed penetration test finding 8 critical vulnerabilities", "entities": [[0, 23, "ROLE"], [33, 39, "NETWORK_TYPE"], [50, 55, "TESTER_TYPE"]]}
+{"text": "pfSense open source firewall managed network segmentation for 200 servers", "entities": [[29, 35, "NETWORK_TYPE"]]}
+{"text": "Cisco Firepower NGFW and IPS blocked 150 intrusion attempts", "entities": []}
+{"text": "Firewall hygiene score improved to 95% with 23 unused rules removed", "entities": [[0, 8, "FIREWALL_TYPE"], [60, 66, "RULE_TYPE"]]}
+{"text": "Fortinet FortiGate enterprise NGFW platform enforced zero trust policies", "entities": []}
+{"text": "DDoS mitigation tested achieving 99% success rate during flood simulation", "entities": []}
+{"text": "Encrypted traffic inspection analyzed 20000 sessions detecting 12 malware", "entities": [[11, 17, "TRAFFIC_TYPE"]]}
+{"text": "Suricata IDS IPS open source detected 5000 alerts with 98% detection accuracy", "entities": []}
+{"text": "Principal Network Security Architect designed microsegmentation for prod dev and OT zones", "entities": [[0, 40, "ROLE"], [49, 56, "NETWORK_TYPE"]]}
+{"text": "Palo Alto Networks firewall platform protected 5000 endpoints with 95% rule hygiene", "entities": []}
+{"text": "NAC block rate reduced to 2% with improved device posture validation", "entities": [[36, 42, "DEVICE_TYPE"]]}
+{"text": "Network security posture improved to 96% with enhanced monitoring", "entities": [[17, 24, "POSTURE_TYPE"], [46, 53, "MONITORING_TYPE"]]}
+{"text": "DDoS resilience achieved 99% with automated mitigation enabled", "entities": [[10, 20, "RESILIENCE_TYPE"]]}
+{"text": "Network security false positive rate reduced to 1.9% improving alert accuracy", "entities": [[0, 15, "NETWORK_TYPE"]]}
+{"text": "Network audit score reached 90% with 2 findings requiring remediation", "entities": []}
+{"text": "Security Onion NSM distro monitored network security across 3 data centers", "entities": [[0, 14, "TOOL"]]}
+{"text": "Network anomaly detection identified slow data exfiltration patterns", "entities": [[8, 25, "ANOMALY_TYPE"], [26, 36, "DETECTION_TYPE"]]}
+{"text": "Threat hunting exercise conducted 5 hunts finding C2 communication", "entities": [[7, 13, "HUNTING_TYPE"], [15, 21, "EXERCISE_TYPE"]]}
+{"text": "ZTNA enforcement migrated 520 users from legacy VPN with 98% coverage", "entities": [[8, 15, "ENFORCEMENT_TYPE"]]}
+{"text": "Cloud security group audit found 50 accounts with 12 open ingress rules", "entities": [[0, 5, "CLOUD_TYPE"], [15, 20, "GROUP_TYPE"], [37, 44, "ACCOUNT_TYPE"], [53, 57, "INGRESS_TYPE"], [58, 63, "RULE_TYPE"]]}
+{"text": "Network behavior analysis identified DNS tunneling exfiltration attempt", "entities": [[8, 16, "BEHAVIOR_TYPE"], [17, 25, "ANALYSIS_TYPE"]]}
+{"text": "Security Onion NSM distro monitored network security across 3 data centers", "entities": [[0, 14, "TOOL"]]}
+{"text": "DDoS resilience achieved 99% mitigation rate during HTTP flood simulation", "entities": []}
+{"text": "Network Log Analysis Tool correlated events from IDS IPS and firewall logs", "entities": [[8, 11, "LOG_TYPE"], [12, 19, "ANALYSIS_TYPE"]]}
+{"text": "Cloud network security scan found 50 accounts with 12 misconfigurations", "entities": [[0, 5, "CLOUD_TYPE"], [23, 27, "SCAN_TYPE"], [38, 45, "ACCOUNT_TYPE"], [54, 70, "MISCONFIGURATION_TYPE"]]}
+{"text": "Check Point Quantum Security Gateway NGFW IDS IPS detected APT activity", "entities": []}
+{"text": "Network infrastructure at datacenter elevation 50 meters. Server room coordinates: latitude 37.7749, longitude -122.4194, altitude 10m above ground level.", "entities": []}
+{"text": "Zero Trust Policy Generator created policy enabling ZTNA and encrypted traffic inspection", "entities": [[80, 87, "TRAFFIC_TYPE"]]}
+{"text": "VPN session monitoring tracked 230 active sessions with 97% MFA compliance", "entities": [[0, 3, "PROTOCOL_TYPE"], [4, 10, "SESSION_TYPE"]]}
+{"text": "Firewall rule audit completed removing 23 unused and 8 overly permissive rules", "entities": [[0, 8, "FIREWALL_TYPE"], [9, 13, "RULE_TYPE"], [30, 36, "RULE_TYPE"]]}
+{"text": "Network Flow Monitor correlated events escalating incident INC123 to SOC", "entities": [[0, 19, "TOOL"]]}
+{"text": "pfSense open-source firewall router blocked 230 malicious connections", "entities": [[8, 19, "TOOL"], [21, 28, "FIREWALL_TYPE"], [30, 35, "ROUTER_TYPE"], [49, 57, "MALICIOUS_TYPE"]]}
+{"text": "Network Log Analysis Tool correlated events from IDS IPS and firewall logs", "entities": [[8, 11, "LOG_TYPE"], [12, 19, "ANALYSIS_TYPE"]]}
+{"text": "East-west traffic monitoring analyzed 50000 flows detecting 12 anomalies", "entities": [[0, 9, "TRAFFIC_TYPE"], [10, 15, "TRAFFIC_TYPE"]]}
+{"text": "VPN ZTNA Manager Tool managed 230 active sessions with 97% MFA compliance", "entities": []}
+{"text": "Network Security Engineer configured Palo Alto NGFW with threat prevention enabled", "entities": [[0, 24, "ROLE"], [64, 74, "PREVENTION_TYPE"]]}
+{"text": "Network Performance Specialist optimized network latency reducing it by 35%", "entities": [[0, 28, "ROLE"]]}
+{"text": "Network compliance audit scored 90% with 2 remediation items", "entities": []}
+{"text": "ZTNA enforcement migrated 520 users from legacy VPN with 98% coverage", "entities": [[8, 15, "ENFORCEMENT_TYPE"]]}
+{"text": "Check Point Quantum Security Gateway NGFW IDS IPS detected APT activity", "entities": []}
+{"text": "Network anomaly detection identified slow data exfiltration patterns", "entities": [[8, 25, "ANOMALY_TYPE"], [26, 36, "DETECTION_TYPE"]]}
+{"text": "Incident Responder investigated network breach affecting 3 data centers", "entities": [[0, 18, "ROLE"]]}
+{"text": "Network behavior analysis identified DNS tunneling exfiltration attempt", "entities": [[8, 16, "BEHAVIOR_TYPE"], [17, 25, "ANALYSIS_TYPE"]]}
+{"text": "Network security training completion reached 92% for all network engineers", "entities": [[0, 15, "NETWORK_TYPE"]]}
+{"text": "OPNsense advanced firewall platform enforced segmentation policies", "entities": [[47, 55, "PLATFORM_TYPE"]]}
+{"text": "ntopng network traffic flow monitoring detected 12 anomalies", "entities": [[15, 22, "TRAFFIC_TYPE"], [23, 27, "FLOW_TYPE"], [28, 37, "MONITORING_TYPE"]]}
+{"text": "Security Onion NSM distro monitored network security across 3 data centers", "entities": [[0, 14, "TOOL"]]}
+{"text": "Network segmentation validation tested 12 VLAN boundaries with zero violations", "entities": [[8, 20, "SEGMENTATION_TYPE"]]}
+{"text": "CISO approved network security strategy with zero trust and segmentation roadmap", "entities": [[0, 4, "ROLE"]]}
+{"text": "Network security metrics reporting showed 95% firewall hygiene and 98% IDS detection", "entities": [[25, 33, "REPORTING_TYPE"]]}
+{"text": "pfSense open source firewall managed network segmentation for 200 servers", "entities": [[29, 35, "NETWORK_TYPE"]]}
+{"text": "Wireshark deep packet inspection analyzed 20000 encrypted sessions", "entities": []}
+{"text": "pfSense open-source firewall router blocked 230 malicious connections", "entities": [[8, 19, "TOOL"], [21, 28, "FIREWALL_TYPE"], [30, 35, "ROUTER_TYPE"], [49, 57, "MALICIOUS_TYPE"]]}
+{"text": "Network Security Tester executed penetration test finding 8 critical vulnerabilities", "entities": [[0, 23, "ROLE"], [33, 39, "NETWORK_TYPE"], [50, 55, "TESTER_TYPE"]]}
+{"text": "NAC enforcement validated 1200 devices with 23 non-compliant blocked", "entities": []}
+{"text": "ntopng network traffic flow monitoring detected 12 anomalies", "entities": [[15, 22, "TRAFFIC_TYPE"], [23, 27, "FLOW_TYPE"], [28, 37, "MONITORING_TYPE"]]}
+{"text": "Firewall logs show nameserver queries from datacenter subnet. Location coordinates: latitude 47.6062, longitude -122.3321.", "entities": [[0, 8, "FIREWALL_TYPE"], [9, 13, "LOG_TYPE"], [19, 29, "NAMESERVER"]]}
+{"text": "Suricata IDS IPS open source detected 5000 alerts with 98% detection accuracy", "entities": []}
+{"text": "Fortinet FortiGate firewall detected and blocked 150 intrusion attempts", "entities": []}
+{"text": "Network Segmentation Specialist enforced microsegmentation policies across 12 VLANs", "entities": [[0, 30, "ROLE"]]}
+{"text": "Network security metrics reporting showed 95% firewall hygiene and 98% IDS detection", "entities": [[25, 33, "REPORTING_TYPE"]]}
+{"text": "East-west traffic analysis detected suspicious SMB lateral movement", "entities": [[0, 9, "TRAFFIC_TYPE"], [10, 15, "TRAFFIC_TYPE"]]}
+{"text": "Nmap network scanning discovered 1200 devices with 45 open ports", "entities": [[13, 20, "SCANNING_TYPE"]]}
+{"text": "Arista Awake Security NDR detected data exfiltration over DNS", "entities": [[40, 52, "EXFILTRATION_TYPE"]]}
+{"text": "Fortinet FortiGate firewall detected and blocked 150 intrusion attempts", "entities": []}
+{"text": "Network security KPI dashboard showed 95% firewall hygiene 98% IDS detection", "entities": [[21, 28, "DASHBOARD_TYPE"]]}
+{"text": "Snort IDS detected 45 intrusion attempts from IP 198.51.100.10", "entities": []}
+{"text": "DDoS protection simulation tested HTTP flood achieving 99% mitigation", "entities": []}
+{"text": "Cisco Firepower NGFW and IPS blocked 150 intrusion attempts", "entities": []}
+{"text": "Zero trust policy enforcement migrated 520 users achieving 98% coverage", "entities": [[0, 10, "TRUST_TYPE"], [11, 14, "TRUST_TYPE"]]}
+{"text": "DDoS mitigation tested achieving 99% success rate during flood simulation", "entities": []}
+{"text": "Encrypted traffic inspection analyzed 20000 sessions detecting 12 malware", "entities": [[11, 17, "TRAFFIC_TYPE"]]}
+{"text": "Vendor network access review identified 3 vendors with privilege issues", "entities": [[0, 6, "VENDOR_TYPE"], [58, 64, "ISSUE_TYPE"]]}
+{"text": "Network security posture improved to 96% with enhanced monitoring", "entities": [[17, 24, "POSTURE_TYPE"], [46, 53, "MONITORING_TYPE"]]}
+{"text": "OPNsense advanced firewall platform enforced segmentation policies", "entities": [[47, 55, "PLATFORM_TYPE"]]}
+{"text": "Cloud Network Security Tool detected 0.0.0.0/0 SSH open violation requiring restriction", "entities": [[0, 5, "CLOUD_TYPE"]]}
+{"text": "Network security training completion reached 92% for all network engineers", "entities": [[0, 15, "NETWORK_TYPE"]]}
+{"text": "Compliance Framework Tool mapped network controls to PCI DSS ISO 27001", "entities": [[0, 18, "TOOL"]]}
+{"text": "Firewall hygiene score improved to 95% with 23 unused rules removed", "entities": [[0, 8, "FIREWALL_TYPE"], [60, 66, "RULE_TYPE"]]}
+{"text": "Snort IDS detected 45 intrusion attempts from IP 198.51.100.10", "entities": []}
+{"text": "Network security training completion reached 92% for all network engineers", "entities": [[0, 15, "NETWORK_TYPE"]]}
+{"text": "East-west traffic monitoring detected suspicious SMB lateral movement requiring investigation", "entities": [[0, 9, "TRAFFIC_TYPE"], [10, 16, "TRAFFIC_TYPE"]]}
+{"text": "Cloud Network Security Tool detected 0.0.0.0/0 SSH open violation requiring restriction", "entities": [[0, 5, "CLOUD_TYPE"]]}
+{"text": "Darktrace AI-based network anomaly detection identified insider threat", "entities": []}
+{"text": "Proactive threat hunting found C2 beaconing to 198.51.100.10", "entities": [[0, 9, "HUNTING_TYPE"], [18, 24, "HUNTING_TYPE"], [47, 60, "IP_ADDRESS"]]}
+{"text": "Suricata high-performance IDS IPS detected malware in encrypted traffic", "entities": [[9, 25, "TOOL"], [43, 50, "DETECTION_TYPE"], [54, 61, "MALWARE_TYPE"]]}
+{"text": "Encrypted Traffic Inspection Tool inspected 20000 sessions detecting 12 malware instances", "entities": []}
+{"text": "DDoS Protection Tool simulated HTTP Flood attack achieving 99% mitigation rate", "entities": []}
+{"text": "Network threat hunting identified C2 beaconing to IP 198.51.100.10 escalating incident INC789", "entities": [[53, 66, "IP_ADDRESS"]]}
+{"text": "Snort IDS detected 45 intrusion attempts from IP 198.51.100.10", "entities": []}
+{"text": "Compliance Framework Tool mapped network controls to PCI DSS ISO 27001", "entities": [[0, 18, "TOOL"]]}
+{"text": "Network Segmentation Specialist enforced microsegmentation policies across 12 VLANs", "entities": [[0, 30, "ROLE"]]}
+{"text": "Cloud security group audit found 50 accounts with 12 open ingress rules", "entities": [[0, 5, "CLOUD_TYPE"], [15, 20, "GROUP_TYPE"], [37, 44, "ACCOUNT_TYPE"], [53, 57, "INGRESS_TYPE"], [58, 63, "RULE_TYPE"]]}
+{"text": "Encrypted traffic analysis inspected 20000 sessions detecting malware", "entities": [[11, 17, "TRAFFIC_TYPE"], [19, 26, "ANALYSIS_TYPE"], [37, 41, "COUNT"], [43, 50, "SESSION_TYPE"]]}
+{"text": "Nmap network scanning discovered 1200 devices with 45 open ports", "entities": [[13, 20, "SCANNING_TYPE"]]}
+{"text": "ZTNA migration completed with 520 users and 98% coverage achieved", "entities": []}
+{"text": "Network Security Tester executed penetration test finding 8 critical vulnerabilities", "entities": [[0, 23, "ROLE"], [33, 39, "NETWORK_TYPE"], [50, 55, "TESTER_TYPE"]]}
+{"text": "Network Performance Specialist optimized network latency reducing it by 35%", "entities": [[0, 28, "ROLE"]]}
+{"text": "NAC enforcement validated 1200 devices with 23 non-compliant blocked", "entities": []}
+{"text": "Suricata high-performance IDS IPS detected malware in encrypted traffic", "entities": [[9, 25, "TOOL"], [43, 50, "DETECTION_TYPE"], [54, 61, "MALWARE_TYPE"]]}
+{"text": "Elastic Stack ELK ingested network logs from 500 endpoints", "entities": [[0, 13, "TOOL"]]}
+{"text": "Compliance Framework Tool mapped network controls to PCI DSS ISO 27001", "entities": [[0, 18, "TOOL"]]}
+{"text": "DDoS resilience achieved 99% with automated mitigation enabled", "entities": [[10, 20, "RESILIENCE_TYPE"]]}
+{"text": "ZTNA coverage achieved 98% with 520 users migrated from legacy VPN", "entities": []}
+{"text": "NBAD Anomaly Detection Tool identified slow exfiltration over DNS with high risk", "entities": []}
+{"text": "NBAD Anomaly Detection Tool identified slow exfiltration over DNS with high risk", "entities": []}
+{"text": "Vendor connectivity audit reviewed 12 vendor VPNs with 3 access violations", "entities": [[0, 6, "VENDOR_TYPE"], [7, 19, "CONNECTIVITY_TYPE"]]}
+{"text": "Suricata high-performance IDS IPS detected malware in encrypted traffic", "entities": [[9, 25, "TOOL"], [43, 50, "DETECTION_TYPE"], [54, 61, "MALWARE_TYPE"]]}
+{"text": "ZTNA coverage achieved 98% with zero legacy VPN sessions remaining", "entities": []}
+{"text": "Network compliance audit scored 90% with 2 remediation items", "entities": []}
+{"text": "IDS IPS signature updates applied detecting 120 new attack patterns", "entities": [[12, 20, "SIGNATURE_TYPE"]]}
+{"text": "NAC block rate reduced to 2% with improved device posture validation", "entities": [[36, 42, "DEVICE_TYPE"]]}
+{"text": "Firewall Manager Tool audited 450 rules removing 23 unused and restricting overly permissive", "entities": [[0, 16, "TOOL"], [25, 33, "FIREWALL_TYPE"], [34, 39, "MANAGER_TYPE"], [53, 56, "COUNT"], [82, 90, "RESTRICTION_TYPE"]]}
+{"text": "DDoS resilience achieved 99% with automated mitigation enabled", "entities": [[10, 20, "RESILIENCE_TYPE"]]}
+{"text": "Network Monitoring Specialist detected 120 IDS alerts with 15 critical SQL injection attempts", "entities": [[0, 28, "ROLE"]]}
+{"text": "Threat hunting exercise conducted 5 hunts finding C2 communication", "entities": [[7, 13, "HUNTING_TYPE"], [15, 21, "EXERCISE_TYPE"]]}
+{"text": "Threat hunting conducted 5 proactive hunts finding C2 beaconing", "entities": [[7, 13, "HUNTING_TYPE"]]}
+{"text": "Firewall logs from datacenter at elevation 200m. Location: latitude 51.5074, longitude -0.1278, altitude 25m. Network monitoring active.", "entities": [[0, 8, "FIREWALL_TYPE"], [9, 13, "LOG_TYPE"], [19, 29, "DATACENTER"], [33, 42, "ELEVATION"], [44, 48, "MEASUREMENT"], [50, 58, "LOCATION"], [59, 67, "LATITUDE"], [68, 76, "LONGITUDE"], [78, 86, "ALTITUDE"], [91, 99, "NETWORK_TYPE"], [100, 109, "MONITORING_TYPE"]]}
+{"text": "Principal Network Security Architect designed microsegmentation for prod dev and OT zones", "entities": [[0, 40, "ROLE"], [49, 56, "NETWORK_TYPE"]]}
+{"text": "Vendor connectivity audit reviewed 12 vendor VPNs with 3 access violations", "entities": [[0, 6, "VENDOR_TYPE"], [7, 19, "CONNECTIVITY_TYPE"]]}
+{"text": "pfSense open source firewall managed network segmentation for 200 servers", "entities": [[29, 35, "NETWORK_TYPE"]]}
+{"text": "Network Security Strategist defined network security policy with segmentation NAC and ZTNA", "entities": [[0, 27, "ROLE"], [53, 59, "POLICY_TYPE"]]}
+{"text": "Encrypted Traffic Inspection Tool inspected 20000 sessions detecting 12 malware instances", "entities": []}
+{"text": "Network behavior anomaly detection identified slow exfiltration over DNS", "entities": [[8, 16, "BEHAVIOR_TYPE"], [17, 24, "ANOMALY_TYPE"]]}
+{"text": "Suricata IDS IPS open source detected 5000 alerts with 98% detection accuracy", "entities": []}
+{"text": "ZTNA coverage achieved 98% with zero legacy VPN sessions remaining", "entities": []}
+{"text": "Firewall Manager Tool audited 450 rules removing 23 unused and restricting overly permissive", "entities": [[0, 16, "TOOL"], [25, 33, "FIREWALL_TYPE"], [34, 39, "MANAGER_TYPE"], [53, 56, "COUNT"], [82, 90, "RESTRICTION_TYPE"]]}
+{"text": "IDS IPS Tool detected 120 alerts with critical SQL injection from IP 203.0.113.5", "entities": []}
+{"text": "NAC enforcement validated 1200 devices with 23 non-compliant blocked", "entities": []}
+{"text": "Principal Network Security Architect designed microsegmentation for prod dev and OT zones", "entities": [[0, 40, "ROLE"], [49, 56, "NETWORK_TYPE"]]}
+{"text": "Firewall logs show nameserver queries from datacenter subnet. Location coordinates: latitude 47.6062, longitude -122.3321.", "entities": [[0, 8, "FIREWALL_TYPE"], [9, 13, "LOG_TYPE"], [19, 29, "NAMESERVER"]]}
+{"text": "East-west traffic monitoring detected suspicious SMB lateral movement requiring investigation", "entities": [[0, 9, "TRAFFIC_TYPE"], [10, 16, "TRAFFIC_TYPE"]]}
+{"text": "Firewall rule hygiene achieved 95% with zero overly permissive rules", "entities": [[0, 8, "FIREWALL_TYPE"], [9, 13, "RULE_TYPE"], [14, 20, "HYGIENE_TYPE"], [46, 51, "PERMISSION_TYPE"], [53, 60, "RULE_TYPE"]]}
+{"text": "Network Analytics Specialist analyzed 50000 east-west traffic flows detecting anomalies", "entities": [[0, 28, "ROLE"], [38, 43, "NETWORK_TYPE"], [45, 53, "ANALYTICS_TYPE"], [55, 65, "SPECIALIST_TYPE"]]}
+{"text": "NBAD Anomaly Detection Tool identified slow exfiltration over DNS with high risk", "entities": []}
+{"text": "Fortinet FortiGate enterprise NGFW platform enforced zero trust policies", "entities": []}
+{"text": "Vendor connectivity audit reviewed 12 vendor VPNs with 3 access violations", "entities": [[0, 6, "VENDOR_TYPE"], [7, 19, "CONNECTIVITY_TYPE"]]}
+{"text": "pfSense open source firewall managed network segmentation for 200 servers", "entities": [[29, 35, "NETWORK_TYPE"]]}
+{"text": "Firewall rule audit completed removing 23 unused and 8 overly permissive rules", "entities": [[0, 8, "FIREWALL_TYPE"], [9, 13, "RULE_TYPE"], [30, 36, "RULE_TYPE"]]}
+{"text": "NAC block rate reduced to 2% with improved device posture validation", "entities": [[36, 42, "DEVICE_TYPE"]]}
+{"text": "Network segmentation validation tested 12 VLAN boundaries with zero violations", "entities": [[8, 20, "SEGMENTATION_TYPE"]]}
+{"text": "IDS detection rate reached 98% with automated response blocking 90% of threats", "entities": [[71, 78, "THREAT_TYPE"]]}
+{"text": "Arista Awake Security NDR detected data exfiltration over DNS", "entities": [[40, 52, "EXFILTRATION_TYPE"]]}
+{"text": "Network monitoring detected traffic from datacenter IP 10.0.0.1. Location: Primary datacenter at latitude 40.7580, longitude -73.9855.", "entities": [[8, 17, "MONITORING_TYPE"], [55, 63, "IP_ADDRESS"]]}
+{"text": "ZTNA enforcement migrated 520 users from legacy VPN with 98% coverage", "entities": [[8, 15, "ENFORCEMENT_TYPE"]]}
+{"text": "IDS detection rate reached 98% with 120 alerts processed daily", "entities": [[50, 56, "ALERT_TYPE"]]}
+{"text": "Principal Network Security Architect designed microsegmentation for prod dev and OT zones", "entities": [[0, 40, "ROLE"], [49, 56, "NETWORK_TYPE"]]}
+{"text": "East-west monitoring detected 12 anomalies in 50000 traffic flows", "entities": [[0, 9, "TRAFFIC_TYPE"]]}
+{"text": "Zscaler ZIA ZPA cloud-based secure access zero trust managed 520 users", "entities": []}
+{"text": "Suricata high-performance IDS IPS detected malware in encrypted traffic", "entities": [[9, 25, "TOOL"], [43, 50, "DETECTION_TYPE"], [54, 61, "MALWARE_TYPE"]]}
+{"text": "Fortinet FortiGate enterprise NGFW platform enforced zero trust policies", "entities": []}
+{"text": "ZTNA coverage achieved 98% with zero legacy VPN sessions remaining", "entities": []}
+{"text": "Cisco Firepower NGFW and IPS blocked 150 intrusion attempts", "entities": []}
+{"text": "Vendor network access review identified 3 vendors with privilege issues", "entities": [[0, 6, "VENDOR_TYPE"], [58, 64, "ISSUE_TYPE"]]}
+{"text": "Encrypted traffic analysis inspected 20000 sessions detecting malware", "entities": [[11, 17, "TRAFFIC_TYPE"], [19, 26, "ANALYSIS_TYPE"], [37, 41, "COUNT"], [43, 50, "SESSION_TYPE"]]}
+{"text": "Darktrace AI-based network anomaly detection identified insider threat", "entities": []}
+{"text": "Threat hunting exercise conducted 5 hunts finding C2 communication", "entities": [[7, 13, "HUNTING_TYPE"], [15, 21, "EXERCISE_TYPE"]]}
+{"text": "Proactive threat hunting found C2 beaconing to 198.51.100.10", "entities": [[0, 9, "HUNTING_TYPE"], [18, 24, "HUNTING_TYPE"], [47, 60, "IP_ADDRESS"]]}
+{"text": "East-west monitoring detected 12 anomalies in 50000 traffic flows", "entities": [[0, 9, "TRAFFIC_TYPE"]]}
+{"text": "Vendor Access Audit Tool validated 12 vendor VPN connections with 3 violations", "entities": [[52, 58, "VENDOR_TYPE"]]}
+{"text": "ExtraHop Reveal X NDR platform analyzed 50000 east-west flows", "entities": [[35, 43, "PLATFORM_TYPE"]]}
+{"text": "IDS detection rate reached 98% with 120 alerts processed daily", "entities": [[50, 56, "ALERT_TYPE"]]}
+{"text": "DDoS protection simulation tested HTTP flood achieving 99% mitigation", "entities": []}
+{"text": "NAC device posture validation checked 1200 devices blocking 23 non-compliant", "entities": [[13, 18, "DEVICE_TYPE"], [20, 28, "POSTURE_TYPE"], [30, 39, "VALIDATION_TYPE"]]}
+{"text": "Elastic Stack ELK ingested network logs from 500 endpoints", "entities": [[0, 13, "TOOL"]]}
+{"text": "Network Security Engineer configured Palo Alto NGFW with threat prevention enabled", "entities": [[0, 24, "ROLE"], [64, 74, "PREVENTION_TYPE"]]}
+{"text": "Zscaler ZIA ZPA cloud-based secure access zero trust managed 520 users", "entities": []}
+{"text": "Fortinet FortiGate enterprise NGFW platform enforced zero trust policies", "entities": []}
+{"text": "DDoS protection simulation tested HTTP flood achieving 99% mitigation", "entities": []}
+{"text": "Threat hunting conducted 5 proactive hunts finding C2 beaconing", "entities": [[7, 13, "HUNTING_TYPE"]]}
+{"text": "Network Segmentation Specialist enforced microsegmentation policies across 12 VLANs", "entities": [[0, 30, "ROLE"]]}
+{"text": "Snort IDS detected 45 intrusion attempts from IP 198.51.100.10", "entities": []}
+{"text": "Firewall rule hygiene achieved 95% with zero overly permissive rules", "entities": [[0, 8, "FIREWALL_TYPE"], [9, 13, "RULE_TYPE"], [14, 20, "HYGIENE_TYPE"], [46, 51, "PERMISSION_TYPE"], [53, 60, "RULE_TYPE"]]}
+{"text": "Cloud security group audit found 50 accounts with 12 open ingress rules", "entities": [[0, 5, "CLOUD_TYPE"], [15, 20, "GROUP_TYPE"], [37, 44, "ACCOUNT_TYPE"], [53, 57, "INGRESS_TYPE"], [58, 63, "RULE_TYPE"]]}
+{"text": "Zero Trust Policy Generator created policy enabling ZTNA and encrypted traffic inspection", "entities": [[80, 87, "TRAFFIC_TYPE"]]}
+{"text": "East-west traffic monitoring analyzed 50000 flows detecting 12 anomalies", "entities": [[0, 9, "TRAFFIC_TYPE"], [10, 15, "TRAFFIC_TYPE"]]}
+{"text": "Threat hunting conducted 5 proactive hunts finding C2 beaconing", "entities": [[7, 13, "HUNTING_TYPE"]]}
+{"text": "Network Architecture Design Tool separated prod dev OT and DMZ zones with microsegmentation", "entities": [[0, 27, "TOOL"]]}
+{"text": "IDS detection rate reached 98% with automated response blocking 90% of threats", "entities": [[71, 78, "THREAT_TYPE"]]}
+{"text": "Vendor network access audit identified 3 vendors with excessive privileges", "entities": [[0, 6, "VENDOR_TYPE"]]}
+{"text": "Check Point Quantum Security Gateway NGFW IDS IPS detected APT activity", "entities": []}
+{"text": "Cloud Network Security Tool detected 0.0.0.0/0 SSH open violation requiring restriction", "entities": [[0, 5, "CLOUD_TYPE"]]}
+{"text": "Network Security Strategist defined network security policy with segmentation NAC and ZTNA", "entities": [[0, 27, "ROLE"], [53, 59, "POLICY_TYPE"]]}
+{"text": "Network security audit score improved to 90% with segmentation coverage at 95%", "entities": [[0, 15, "NETWORK_TYPE"]]}
+{"text": "DDoS Protection Tool simulated HTTP Flood attack achieving 99% mitigation rate", "entities": []}
+{"text": "Zeek Bro network traffic analysis identified C2 beaconing to 203.0.113.5", "entities": [[17, 24, "TRAFFIC_TYPE"], [25, 33, "ANALYSIS_TYPE"], [61, 72, "IP_ADDRESS"]]}
+{"text": "Wireshark deep packet inspection analyzed 20000 encrypted sessions", "entities": []}
+{"text": "Vendor connectivity audit reviewed 12 vendor VPNs with 3 access violations", "entities": [[0, 6, "VENDOR_TYPE"], [7, 19, "CONNECTIVITY_TYPE"]]}
+{"text": "CISO approved network security strategy with zero trust and segmentation roadmap", "entities": [[0, 4, "ROLE"]]}
+{"text": "Nmap network scanning discovered 1200 devices with 45 open ports", "entities": [[13, 20, "SCANNING_TYPE"]]}
+{"text": "OPNsense advanced firewall platform enforced segmentation policies", "entities": [[47, 55, "PLATFORM_TYPE"]]}
+{"text": "Zero trust policy enforcement migrated 520 users achieving 98% coverage", "entities": [[0, 10, "TRUST_TYPE"], [11, 14, "TRUST_TYPE"]]}
+{"text": "Network segmentation validation tested 12 VLAN boundaries with zero violations", "entities": [[8, 20, "SEGMENTATION_TYPE"]]}
+{"text": "Network compliance audit scored 90% with 2 remediation items", "entities": []}
+{"text": "IDS IPS signature updates applied detecting 120 new attack patterns", "entities": [[12, 20, "SIGNATURE_TYPE"]]}
+{"text": "NAC enforcement validated 1200 devices with 23 non-compliant blocked", "entities": []}
+{"text": "NAC block rate reduced to 2% with improved device posture validation", "entities": [[36, 42, "DEVICE_TYPE"]]}
+{"text": "East-west traffic analysis detected suspicious SMB lateral movement", "entities": [[0, 9, "TRAFFIC_TYPE"], [10, 15, "TRAFFIC_TYPE"]]}
+{"text": "NAC Management Tool checked 1200 devices blocking 23 non-compliant endpoints", "entities": []}
+{"text": "Fortinet FortiGate firewall detected and blocked 150 intrusion attempts", "entities": []}
+{"text": "ZTNA migration completed with 520 users and 98% coverage achieved", "entities": []}
+{"text": "Network Log Analysis Tool correlated events from IDS IPS and firewall logs", "entities": [[8, 11, "LOG_TYPE"], [12, 19, "ANALYSIS_TYPE"]]}
+{"text": "Vendor Access Audit Tool reviewed partnerA and vendorB connectivity finding excessive privileges", "entities": [[0, 19, "TOOL"], [60, 67, "PARTNER_NAME"]]}
+{"text": "Cloud security group audit found 50 accounts with 12 open ingress rules", "entities": [[0, 5, "CLOUD_TYPE"], [15, 20, "GROUP_TYPE"], [37, 44, "ACCOUNT_TYPE"], [53, 57, "INGRESS_TYPE"], [58, 63, "RULE_TYPE"]]}
+{"text": "ExtraHop Reveal X NDR platform analyzed 50000 east-west flows", "entities": [[35, 43, "PLATFORM_TYPE"]]}
+{"text": "Cloud Network Security Tool detected 0.0.0.0/0 SSH open violation requiring restriction", "entities": [[0, 5, "CLOUD_TYPE"]]}
+{"text": "Encrypted traffic analysis inspected 20000 sessions detecting malware", "entities": [[11, 17, "TRAFFIC_TYPE"], [19, 26, "ANALYSIS_TYPE"], [37, 41, "COUNT"], [43, 50, "SESSION_TYPE"]]}
+{"text": "Network Monitoring Specialist detected 120 IDS alerts with 15 critical SQL injection attempts", "entities": [[0, 28, "ROLE"]]}
+{"text": "CISO approved network security strategy with zero trust and segmentation roadmap", "entities": [[0, 4, "ROLE"]]}
+{"text": "Firewall rule audit completed removing 23 unused and 8 overly permissive rules", "entities": [[0, 8, "FIREWALL_TYPE"], [9, 13, "RULE_TYPE"], [30, 36, "RULE_TYPE"]]}
+{"text": "Network security false positive rate reduced to 1.9% improving alert accuracy", "entities": [[0, 15, "NETWORK_TYPE"]]}
+{"text": "DDoS mitigation tested achieving 99% success rate during flood simulation", "entities": []}
+{"text": "pfSense open-source firewall router blocked 230 malicious connections", "entities": [[8, 19, "TOOL"], [21, 28, "FIREWALL_TYPE"], [30, 35, "ROUTER_TYPE"], [49, 57, "MALICIOUS_TYPE"]]}
+{"text": "Incident Responder investigated network breach affecting 3 data centers", "entities": [[0, 18, "ROLE"]]}
+{"text": "Head of Network Security reviewed firewall ruleset with 450 rules and 23 violations", "entities": []}
+{"text": "ntopng network traffic flow monitoring detected 12 anomalies", "entities": [[15, 22, "TRAFFIC_TYPE"], [23, 27, "FLOW_TYPE"], [28, 37, "MONITORING_TYPE"]]}
+{"text": "Security Onion NSM distro monitored network security across 3 data centers", "entities": [[0, 14, "TOOL"]]}
+{"text": "ZTNA coverage achieved 98% with 520 users migrated from legacy VPN", "entities": []}
+{"text": "DDoS resilience achieved 99% with automated mitigation enabled", "entities": [[10, 20, "RESILIENCE_TYPE"]]}
+{"text": "Firewall rule optimization removed 23 unused rules and restricted 8 permissive rules", "entities": [[0, 8, "FIREWALL_TYPE"], [9, 13, "RULE_TYPE"], [14, 25, "OPTIMIZATION_TYPE"], [68, 74, "RULE_TYPE"]]}
+{"text": "Network Segmentation Specialist enforced microsegmentation policies across 12 VLANs", "entities": [[0, 30, "ROLE"]]}
+{"text": "Zero trust policy enforcement migrated 520 users achieving 98% coverage", "entities": [[0, 10, "TRUST_TYPE"], [11, 14, "TRUST_TYPE"]]}
+{"text": "Network threat hunting identified C2 beaconing to IP 198.51.100.10 escalating incident INC789", "entities": [[53, 66, "IP_ADDRESS"]]}
+{"text": "Compliance Framework Tool mapped network controls to PCI DSS ISO 27001", "entities": [[0, 18, "TOOL"]]}
+{"text": "Network audit score reached 90% with 2 findings requiring remediation", "entities": []}
+{"text": "Cloud network security scan found 50 accounts with 12 misconfigurations", "entities": [[0, 5, "CLOUD_TYPE"], [23, 27, "SCAN_TYPE"], [38, 45, "ACCOUNT_TYPE"], [54, 70, "MISCONFIGURATION_TYPE"]]}
+{"text": "Vendor network access review identified 3 vendors with privilege issues", "entities": [[0, 6, "VENDOR_TYPE"], [58, 64, "ISSUE_TYPE"]]}
+{"text": "Network Performance Specialist optimized network latency reducing it by 35%", "entities": [[0, 28, "ROLE"]]}
+{"text": "East-west traffic analysis detected suspicious SMB lateral movement", "entities": [[0, 9, "TRAFFIC_TYPE"], [10, 15, "TRAFFIC_TYPE"]]}
+{"text": "Network security metrics reporting showed 95% firewall hygiene and 98% IDS detection", "entities": [[25, 33, "REPORTING_TYPE"]]}
+{"text": "Network Architecture Design Tool separated prod dev OT and DMZ zones with microsegmentation", "entities": [[0, 27, "TOOL"]]}
+{"text": "Firewall Manager Tool audited 450 rules removing 23 unused and restricting overly permissive", "entities": [[0, 16, "TOOL"], [25, 33, "FIREWALL_TYPE"], [34, 39, "MANAGER_TYPE"], [53, 56, "COUNT"], [82, 90, "RESTRICTION_TYPE"]]}
+{"text": "Darktrace AI-based network anomaly detection identified insider threat", "entities": []}
+{"text": "Vendor network access review identified 3 vendors with privilege issues", "entities": [[0, 6, "VENDOR_TYPE"], [58, 64, "ISSUE_TYPE"]]}
+{"text": "VPN session monitoring tracked 230 active sessions with 97% MFA compliance", "entities": [[0, 3, "PROTOCOL_TYPE"], [4, 10, "SESSION_TYPE"]]}
+{"text": "VPN ZTNA Manager Tool managed 230 active sessions with 97% MFA compliance", "entities": []}
+{"text": "IDS detection rate reached 98% with 120 alerts processed daily", "entities": [[50, 56, "ALERT_TYPE"]]}
+{"text": "East-west traffic analysis detected suspicious SMB lateral movement", "entities": [[0, 9, "TRAFFIC_TYPE"], [10, 15, "TRAFFIC_TYPE"]]}
+{"text": "Head of Network Security reviewed firewall ruleset with 450 rules and 23 violations", "entities": []}
+{"text": "CrowdStrike Falcon NDR AI-driven platform detected lateral movement", "entities": [[0, 11, "TOOL"]]}
+{"text": "DDoS resilience achieved 99% mitigation rate during HTTP flood simulation", "entities": []}
+{"text": "Akamai Kona Site Defender DDoS and WAF blocked 5000 attack requests", "entities": [[47, 51, "COUNT"], [59, 67, "REQUEST_TYPE"]]}
+{"text": "Network security training completion reached 92% for all network engineers", "entities": [[0, 15, "NETWORK_TYPE"]]}
+{"text": "Network Security Engineer configured Palo Alto NGFW with threat prevention enabled", "entities": [[0, 24, "ROLE"], [64, 74, "PREVENTION_TYPE"]]}
+{"text": "Network Compliance Analyst validated PCI DSS controls with 96% compliance rate", "entities": [[0, 25, "ROLE"]]}
+{"text": "Zero Trust Policy Generator created policy enabling ZTNA and encrypted traffic inspection", "entities": [[80, 87, "TRAFFIC_TYPE"]]}
+{"text": "IDS detection rate reached 98% with 120 alerts processed daily", "entities": [[50, 56, "ALERT_TYPE"]]}
+{"text": "Nmap network scanning discovered 1200 devices with 45 open ports", "entities": [[13, 20, "SCANNING_TYPE"]]}
+{"text": "SSL TLS inspection decrypted 20000 sessions finding 12 malware samples", "entities": [[0, 3, "PROTOCOL_TYPE"], [4, 7, "PROTOCOL_TYPE"], [8, 18, "INSPECTION_TYPE"]]}
+{"text": "Network segmentation validation tested 12 VLAN boundaries with zero violations", "entities": [[8, 20, "SEGMENTATION_TYPE"]]}
+{"text": "ZTNA coverage achieved 98% with 520 users migrated from legacy VPN", "entities": []}
+{"text": "ntopng network traffic flow monitoring detected 12 anomalies", "entities": [[15, 22, "TRAFFIC_TYPE"], [23, 27, "FLOW_TYPE"], [28, 37, "MONITORING_TYPE"]]}
+{"text": "NAC block rate maintained at 2% with 23 non-compliant endpoints blocked", "entities": []}
+{"text": "IDS IPS Tool detected 120 alerts with critical SQL injection from IP 203.0.113.5", "entities": []}
+{"text": "Encrypted traffic inspection analyzed 20000 sessions detecting 12 malware", "entities": [[11, 17, "TRAFFIC_TYPE"]]}
+{"text": "Firewall logs show nameserver queries from datacenter subnet. Location coordinates: latitude 47.6062, longitude -122.3321.", "entities": [[0, 8, "FIREWALL_TYPE"], [9, 13, "LOG_TYPE"], [19, 29, "NAMESERVER"]]}
+{"text": "Firewall logs from datacenter at elevation 200m. Location: latitude 51.5074, longitude -0.1278, altitude 25m. Network monitoring active.", "entities": [[0, 8, "FIREWALL_TYPE"], [9, 13, "LOG_TYPE"], [19, 29, "DATACENTER"], [33, 42, "ELEVATION"], [44, 48, "MEASUREMENT"], [50, 58, "LOCATION"], [59, 67, "LATITUDE"], [68, 76, "LONGITUDE"], [78, 86, "ALTITUDE"], [91, 99, "NETWORK_TYPE"], [100, 109, "MONITORING_TYPE"]]}
+{"text": "Cisco Firepower NGFW and IPS blocked 150 intrusion attempts", "entities": []}
+{"text": "Network audit score reached 90% with 2 findings requiring remediation", "entities": []}
+{"text": "Elastic Stack ELK ingested network logs from 500 endpoints", "entities": [[0, 13, "TOOL"]]}
+{"text": "Threat hunting exercise conducted 5 hunts finding C2 communication", "entities": [[7, 13, "HUNTING_TYPE"], [15, 21, "EXERCISE_TYPE"]]}
+{"text": "Head of Network Security reviewed firewall ruleset with 450 rules and 23 violations", "entities": []}
+{"text": "Network audit score reached 90% with 2 findings requiring remediation", "entities": []}
+{"text": "NBAD Anomaly Detection Tool identified slow exfiltration over DNS with high risk", "entities": []}
+{"text": "Network behavior anomaly detection identified slow exfiltration over DNS", "entities": [[8, 16, "BEHAVIOR_TYPE"], [17, 24, "ANOMALY_TYPE"]]}
+{"text": "NAC block rate maintained at 2% with 23 non-compliant endpoints blocked", "entities": []}
+{"text": "Network security control coverage achieved 96% with 93% compliance rate", "entities": [[25, 32, "COVERAGE_TYPE"]]}
+{"text": "Network security KPI dashboard showed 95% firewall hygiene 98% IDS detection", "entities": [[21, 28, "DASHBOARD_TYPE"]]}
+{"text": "NAC block rate maintained at 2% with 23 non-compliant endpoints blocked", "entities": []}
+{"text": "Network security control coverage achieved 96% with 93% compliance rate", "entities": [[25, 32, "COVERAGE_TYPE"]]}
+{"text": "Zscaler ZIA ZPA cloud-based secure access zero trust managed 520 users", "entities": []}
+{"text": "Threat hunting conducted 5 proactive hunts finding C2 beaconing", "entities": [[7, 13, "HUNTING_TYPE"]]}
+{"text": "IDS detection rate reached 98% with automated response blocking 90% of threats", "entities": [[71, 78, "THREAT_TYPE"]]}
+{"text": "Firewall rule optimization removed 23 unused rules and restricted 8 permissive rules", "entities": [[0, 8, "FIREWALL_TYPE"], [9, 13, "RULE_TYPE"], [14, 25, "OPTIMIZATION_TYPE"], [68, 74, "RULE_TYPE"]]}
+{"text": "CrowdStrike Falcon NDR AI-driven platform detected lateral movement", "entities": [[0, 11, "TOOL"]]}
+{"text": "Firewall rule hygiene achieved 95% with zero overly permissive rules", "entities": [[0, 8, "FIREWALL_TYPE"], [9, 13, "RULE_TYPE"], [14, 20, "HYGIENE_TYPE"], [46, 51, "PERMISSION_TYPE"], [53, 60, "RULE_TYPE"]]}
+{"text": "Network behavior analysis identified DNS tunneling exfiltration attempt", "entities": [[8, 16, "BEHAVIOR_TYPE"], [17, 25, "ANALYSIS_TYPE"]]}
+{"text": "Network security control coverage achieved 96% with 93% compliance rate", "entities": [[25, 32, "COVERAGE_TYPE"]]}
+{"text": "Network security KPI dashboard showed 95% firewall hygiene 98% IDS detection", "entities": [[21, 28, "DASHBOARD_TYPE"]]}
+{"text": "DDoS mitigation tested achieving 99% success rate during flood simulation", "entities": []}
+{"text": "East-west monitoring detected 12 anomalies in 50000 traffic flows", "entities": [[0, 9, "TRAFFIC_TYPE"]]}
+{"text": "Firewall rule optimization removed 23 unused rules and restricted 8 permissive rules", "entities": [[0, 8, "FIREWALL_TYPE"], [9, 13, "RULE_TYPE"], [14, 25, "OPTIMIZATION_TYPE"], [68, 74, "RULE_TYPE"]]}
+{"text": "Network Log Analysis Tool correlated events from IDS IPS and firewall logs", "entities": [[8, 11, "LOG_TYPE"], [12, 19, "ANALYSIS_TYPE"]]}
+{"text": "Darktrace AI-based network anomaly detection identified insider threat", "entities": []}
+{"text": "Network monitoring detected traffic from datacenter IP 10.0.0.1. Location: Primary datacenter at latitude 40.7580, longitude -73.9855.", "entities": [[8, 17, "MONITORING_TYPE"], [55, 63, "IP_ADDRESS"]]}
+{"text": "East-west monitoring detected 12 anomalies in 50000 traffic flows", "entities": [[0, 9, "TRAFFIC_TYPE"]]}
+{"text": "Firewall hygiene score improved to 95% with 23 unused rules removed", "entities": [[0, 8, "FIREWALL_TYPE"], [60, 66, "RULE_TYPE"]]}
+{"text": "Encrypted traffic analysis inspected 20000 sessions detecting malware", "entities": [[11, 17, "TRAFFIC_TYPE"], [19, 26, "ANALYSIS_TYPE"], [37, 41, "COUNT"], [43, 50, "SESSION_TYPE"]]}
+{"text": "NAC device posture validation checked 1200 devices blocking 23 non-compliant", "entities": [[13, 18, "DEVICE_TYPE"], [20, 28, "POSTURE_TYPE"], [30, 39, "VALIDATION_TYPE"]]}
+{"text": "Wireshark deep packet inspection analyzed 20000 encrypted sessions", "entities": []}
+{"text": "Proactive threat hunting found C2 beaconing to 198.51.100.10", "entities": [[0, 9, "HUNTING_TYPE"], [18, 24, "HUNTING_TYPE"], [47, 60, "IP_ADDRESS"]]}
+{"text": "DDoS resilience achieved 99% mitigation rate during HTTP flood simulation", "entities": []}
+{"text": "Network Compliance Analyst validated PCI DSS controls with 96% compliance rate", "entities": [[0, 25, "ROLE"]]}
+{"text": "Firewall Manager Tool audited 450 rules removing 23 unused and restricting overly permissive", "entities": [[0, 16, "TOOL"], [25, 33, "FIREWALL_TYPE"], [34, 39, "MANAGER_TYPE"], [53, 56, "COUNT"], [82, 90, "RESTRICTION_TYPE"]]}
+{"text": "Cloud network security scan found 50 accounts with 12 misconfigurations", "entities": [[0, 5, "CLOUD_TYPE"], [23, 27, "SCAN_TYPE"], [38, 45, "ACCOUNT_TYPE"], [54, 70, "MISCONFIGURATION_TYPE"]]}
+{"text": "Zeek Bro network traffic analysis identified C2 beaconing to 203.0.113.5", "entities": [[17, 24, "TRAFFIC_TYPE"], [25, 33, "ANALYSIS_TYPE"], [61, 72, "IP_ADDRESS"]]}
+{"text": "VPN session monitoring tracked 230 active sessions with 97% MFA compliance", "entities": [[0, 3, "PROTOCOL_TYPE"], [4, 10, "SESSION_TYPE"]]}
+{"text": "IDS IPS signature updates applied detecting 120 new attack patterns", "entities": [[12, 20, "SIGNATURE_TYPE"]]}
+{"text": "Fortinet FortiGate firewall detected and blocked 150 intrusion attempts", "entities": []}
+{"text": "Vendor network access audit identified 3 vendors with excessive privileges", "entities": [[0, 6, "VENDOR_TYPE"]]}
+{"text": "IDS IPS Tool detected 120 alerts with critical SQL injection from IP 203.0.113.5", "entities": []}
+{"text": "Network security false positive rate reduced to 1.9% improving alert accuracy", "entities": [[0, 15, "NETWORK_TYPE"]]}
+{"text": "NAC device posture validation checked 1200 devices blocking 23 non-compliant", "entities": [[13, 18, "DEVICE_TYPE"], [20, 28, "POSTURE_TYPE"], [30, 39, "VALIDATION_TYPE"]]}
+{"text": "Incident Responder investigated network breach affecting 3 data centers", "entities": [[0, 18, "ROLE"]]}
+{"text": "Zeek Bro network traffic analysis identified C2 beaconing to 203.0.113.5", "entities": [[17, 24, "TRAFFIC_TYPE"], [25, 33, "ANALYSIS_TYPE"], [61, 72, "IP_ADDRESS"]]}
+{"text": "East-west traffic monitoring detected suspicious SMB lateral movement requiring investigation", "entities": [[0, 9, "TRAFFIC_TYPE"], [10, 16, "TRAFFIC_TYPE"]]}
+{"text": "Incident Responder investigated network breach affecting 3 data centers", "entities": [[0, 18, "ROLE"]]}
+{"text": "Vendor Access Audit Tool validated 12 vendor VPN connections with 3 violations", "entities": [[52, 58, "VENDOR_TYPE"]]}
+{"text": "IDS IPS Tool detected 120 alerts with critical SQL injection from IP 203.0.113.5", "entities": []}
+{"text": "Proactive threat hunting found C2 beaconing to 198.51.100.10", "entities": [[0, 9, "HUNTING_TYPE"], [18, 24, "HUNTING_TYPE"], [47, 60, "IP_ADDRESS"]]}
+{"text": "Zscaler ZIA ZPA cloud-based secure access zero trust managed 520 users", "entities": []}
+{"text": "NAC block rate maintained at 2% with 23 non-compliant endpoints blocked", "entities": []}
+{"text": "Network security posture improved to 96% with enhanced monitoring", "entities": [[17, 24, "POSTURE_TYPE"], [46, 53, "MONITORING_TYPE"]]}
+{"text": "Arista Awake Security NDR detected data exfiltration over DNS", "entities": [[40, 52, "EXFILTRATION_TYPE"]]}
+{"text": "Network security audit score improved to 90% with segmentation coverage at 95%", "entities": [[0, 15, "NETWORK_TYPE"]]}
+{"text": "Network Monitoring Specialist detected 120 IDS alerts with 15 critical SQL injection attempts", "entities": [[0, 28, "ROLE"]]}
+{"text": "DDoS Protection Tool simulated HTTP Flood attack achieving 99% mitigation rate", "entities": []}
+{"text": "Firewall rule audit completed removing 23 unused and 8 overly permissive rules", "entities": [[0, 8, "FIREWALL_TYPE"], [9, 13, "RULE_TYPE"], [30, 36, "RULE_TYPE"]]}
+{"text": "CrowdStrike Falcon NDR AI-driven platform detected lateral movement", "entities": [[0, 11, "TOOL"]]}
+{"text": "Can you help me with this?", "entities": []}
+{"text": "I need to check something.", "entities": []}
+{"text": "What is the status?", "entities": []}
+{"text": "How do I do this?", "entities": []}
+{"text": "Tell me more about it.", "entities": []}
+{"text": "Is this safe to use?", "entities": []}
+{"text": "Let me know if you need anything.", "entities": []}
+{"text": "Thanks for your help.", "entities": []}
+{"text": "I will get back to you.", "entities": []}
+{"text": "Please review this document.", "entities": []}
+{"text": "What should I do next?", "entities": []}
+{"text": "How does this work?", "entities": []}
+{"text": "Why is this happening?", "entities": []}
+{"text": "When will this be ready?", "entities": []}
+{"text": "Where can I find this?", "entities": []}
+{"text": "Who should I contact?", "entities": []}
+{"text": "Hey, what's up?", "entities": []}
+{"text": "That's interesting.", "entities": []}
+{"text": "I see what you mean.", "entities": []}
+{"text": "That makes sense.", "entities": []}
+{"text": "Got it, thanks.", "entities": []}
+{"text": "Follow the steps carefully.", "entities": []}
+{"text": "Make sure to save your work.", "entities": []}
+{"text": "Check the settings first.", "entities": []}
+{"text": "Review the documentation.", "entities": []}
+{"text": "Read the instructions.", "entities": []}
+{"text": "This is important.", "entities": []}
+{"text": "That looks good.", "entities": []}
+{"text": "Everything seems fine.", "entities": []}
+{"text": "Nothing to report.", "entities": []}
+{"text": "All systems operational.", "entities": []}
+{"text": "The system is secure.", "entities": []}
+{"text": "All checks passed.", "entities": []}
+{"text": "No issues detected.", "entities": []}
+{"text": "Everything is working correctly.", "entities": []}
+{"text": "The configuration looks good.", "entities": []}
+{"text": "No vulnerabilities found.", "entities": []}
+{"text": "Security measures are in place.", "entities": []}
+{"text": "The audit was successful.", "entities": []}
+{"text": "The information is verified.", "entities": []}
+{"text": "Sources are reliable.", "entities": []}
+{"text": "The data is consistent.", "entities": []}

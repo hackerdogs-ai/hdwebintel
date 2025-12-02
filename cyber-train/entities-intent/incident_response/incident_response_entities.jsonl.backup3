@@ -1,0 +1,141 @@
+{"text": "SOC Analyst triaged 200 alerts identifying 12 potential incidents and 150 false positives", "entities": [[0, 10, "ROLE"], [11, 17, "ROLE"]]}
+{"text": "Chain-of-Custody Tracker logged evidence handling for disk.img with forensic_analyst1", "entities": []}
+{"text": "MDR MSSP provider engaged sharing IOCs and executing joint containment", "entities": [[0, 3, "SERVICE_TYPE"], [4, 7, "SERVICE_TYPE"]]}
+{"text": "Incident Commander declared SEV-1 incident INC123 coordinating response across teams", "entities": [[0, 18, "ROLE"]]}
+{"text": "EDR XDR Tool removed trojan.exe and cleaned persistence mechanisms", "entities": [[20, 26, "REMOVAL_TYPE"], [45, 51, "CLEANING_TYPE"]]}
+{"text": "Chain-of-Custody Tracker logged evidence handling for disk.img with forensic_analyst1", "entities": []}
+{"text": "Splunk SIEM platform correlated 50000 events detecting 12 security incidents", "entities": [[24, 33, "CORRELATION_TYPE"], [38, 43, "COUNT"]]}
+{"text": "Legal Workflow Tool coordinated with counsel and insurance providers", "entities": [[0, 15, "TOOL"]]}
+{"text": "Insurance Notification Tool submitted claim for incident INC123", "entities": [[0, 20, "TOOL"], [29, 37, "INSURANCE_TYPE"]]}
+{"text": "Incident Commander declared SEV-1 incident INC123 coordinating response across teams", "entities": [[0, 18, "ROLE"]]}
+{"text": "MTTD reduced to 5 minutes with improved SIEM correlation and threat intelligence", "entities": []}
+{"text": "Incident response resilience score improved to 88% with enhanced automation", "entities": [[19, 28, "RESPONSE_TYPE"]]}
+{"text": "EDR XDR Tool removed trojan.exe and cleaned persistence mechanisms", "entities": [[20, 26, "REMOVAL_TYPE"], [45, 51, "CLEANING_TYPE"]]}
+{"text": "Incident Commander declared SEV-1 incident INC123 coordinating response across teams", "entities": [[0, 18, "ROLE"]]}
+{"text": "Crisis Communication Tool sent executive brief and regulator notification", "entities": [[0, 25, "TOOL"], [34, 40, "CRISIS_TYPE"]]}
+{"text": "SIEM Tool correlated events detecting SQL injection from IP 203.0.113.5", "entities": [[31, 37, "EVENT_TYPE"], [60, 71, "IP_ADDRESS"]]}
+{"text": "Incident response training completion reached 94% for all IR engineers", "entities": []}
+{"text": "Insurance Notification Tool submitted claim for incident INC123", "entities": [[0, 20, "TOOL"], [29, 37, "INSURANCE_TYPE"]]}
+{"text": "Legal Workflow Tool coordinated with counsel and insurance providers", "entities": [[0, 15, "TOOL"]]}
+{"text": "Post-incident review documented strengths gaps and improvements updating runbooks", "entities": []}
+{"text": "IR performance metrics showed 5-minute MTTD and 2-hour MTTR with 45% automated", "entities": [[5, 14, "PERFORMANCE_TYPE"]]}
+{"text": "SOC Analyst triaged 200 alerts identifying 12 potential incidents and 150 false positives", "entities": [[0, 10, "ROLE"], [11, 17, "ROLE"]]}
+{"text": "Containment Automation Tool isolated laptop42 and blocked IP 203.0.113.5", "entities": []}
+{"text": "Legal Workflow Tool coordinated with counsel and insurance providers", "entities": [[0, 15, "TOOL"]]}
+{"text": "Ticketing System Tool coordinated response across SOC Legal and VendorX teams", "entities": []}
+{"text": "SOAR Platform Tool executed automated playbook blocking IPs and disabling accounts", "entities": []}
+{"text": "Chain-of-Custody Tracker logged evidence handling for disk.img with forensic_analyst1", "entities": []}
+{"text": "IR performance metrics showed 5-minute MTTD and 2-hour MTTR with 45% automated", "entities": [[5, 14, "PERFORMANCE_TYPE"]]}
+{"text": "Splunk SIEM platform correlated 50000 events detecting 12 security incidents", "entities": [[24, 33, "CORRELATION_TYPE"], [38, 43, "COUNT"]]}
+{"text": "Incident Runbook Tool classified severity and activated containment procedures", "entities": [[56, 64, "SEVERITY_TYPE"], [69, 78, "ACTIVATION_TYPE"]]}
+{"text": "File Integrity Tool validated recovery integrity confirming clean restore", "entities": []}
+{"text": "MDR MSSP provider engaged sharing IOCs and executing joint containment", "entities": [[0, 3, "SERVICE_TYPE"], [4, 7, "SERVICE_TYPE"]]}
+{"text": "Forensic Acquisition Tool collected disk image and memory dump preserving evidence", "entities": []}
+{"text": "Elastic Security open source SIEM monitored 1000 endpoints with real-time alerting", "entities": [[64, 72, "ALERTING_TYPE"]]}
+{"text": "Incident response resilience score improved to 88% with enhanced automation", "entities": [[19, 28, "RESPONSE_TYPE"]]}
+{"text": "Forensic Acquisition Tool collected disk image and memory dump preserving evidence", "entities": []}
+{"text": "Post-incident review documented strengths gaps and improvements updating runbooks", "entities": []}
+{"text": "Chain-of-Custody Tracker logged evidence handling for disk.img with forensic_analyst1", "entities": []}
+{"text": "Incident response false positive rate reduced to 2.1% improving alert accuracy", "entities": []}
+{"text": "SOAR Platform Tool executed automated playbook blocking IPs and disabling accounts", "entities": []}
+{"text": "STIX TAXII Feeds provided threat context linking hash123 and IP 203.0.113.5 to campaign", "entities": [[0, 4, "PROTOCOL_TYPE"], [5, 10, "PROTOCOL_TYPE"], [64, 75, "IP_ADDRESS"], [67, 75, "CAMPAIGN_TYPE"]]}
+{"text": "SOC Analyst triaged 200 alerts identifying 12 potential incidents and 150 false positives", "entities": [[0, 10, "ROLE"], [11, 17, "ROLE"]]}
+{"text": "Ticketing System Tool coordinated response across SOC Legal and VendorX teams", "entities": []}
+{"text": "Splunk SIEM platform correlated 50000 events detecting 12 security incidents", "entities": [[24, 33, "CORRELATION_TYPE"], [38, 43, "COUNT"]]}
+{"text": "Threat Intelligence Tool enriched incident with TA505 phishing campaign and matched IOCs", "entities": []}
+{"text": "File Integrity Tool validated recovery integrity confirming clean restore", "entities": []}
+{"text": "Insurance Notification Tool submitted claim for incident INC123", "entities": [[0, 20, "TOOL"], [29, 37, "INSURANCE_TYPE"]]}
+{"text": "MTTD reduced to 5 minutes with improved SIEM correlation and threat intelligence", "entities": []}
+{"text": "Regulator Notification Tool sent breach notification to GDPR and HIPAA regulators", "entities": [[0, 20, "TOOL"]]}
+{"text": "Insurance Notification Tool submitted claim for incident INC123", "entities": [[0, 20, "TOOL"], [29, 37, "INSURANCE_TYPE"]]}
+{"text": "Incident response training completion reached 94% for all IR engineers", "entities": []}
+{"text": "SOAR Platform Tool executed automated playbook blocking IPs and disabling accounts", "entities": []}
+{"text": "Ticketing System Tool coordinated response across SOC Legal and VendorX teams", "entities": []}
+{"text": "Memory Forensics Tool analyzed memory dump identifying Mimikatz execution", "entities": []}
+{"text": "Elastic Security open source SIEM monitored 1000 endpoints with real-time alerting", "entities": [[64, 72, "ALERTING_TYPE"]]}
+{"text": "IBM QRadar SIEM detected advanced persistent threat with 98% detection accuracy", "entities": [[24, 31, "DETECTION_TYPE"], [36, 44, "THREAT_TYPE"]]}
+{"text": "Incident response false positive rate reduced to 2.1% improving alert accuracy", "entities": []}
+{"text": "Elastic Security open source SIEM monitored 1000 endpoints with real-time alerting", "entities": [[64, 72, "ALERTING_TYPE"]]}
+{"text": "Ticketing System Tool coordinated response across SOC Legal and VendorX teams", "entities": []}
+{"text": "Incident Runbook Tool classified severity and activated containment procedures", "entities": [[56, 64, "SEVERITY_TYPE"], [69, 78, "ACTIVATION_TYPE"]]}
+{"text": "Automated response rate increased to 45% reducing manual intervention", "entities": []}
+{"text": "Post-incident review documented strengths gaps and improvements updating runbooks", "entities": []}
+{"text": "SIEM Tool correlated events detecting SQL injection from IP 203.0.113.5", "entities": [[31, 37, "EVENT_TYPE"], [60, 71, "IP_ADDRESS"]]}
+{"text": "File Integrity Tool validated recovery integrity confirming clean restore", "entities": []}
+{"text": "IR performance metrics showed 5-minute MTTD and 2-hour MTTR with 45% automated", "entities": [[5, 14, "PERFORMANCE_TYPE"]]}
+{"text": "Elastic Security open source SIEM monitored 1000 endpoints with real-time alerting", "entities": [[64, 72, "ALERTING_TYPE"]]}
+{"text": "MTTR improved to 2 hours with automated containment and recovery procedures", "entities": []}
+{"text": "Incident response false positive rate reduced to 2.1% improving alert accuracy", "entities": []}
+{"text": "Regulator Notification Tool sent breach notification to GDPR and HIPAA regulators", "entities": [[0, 20, "TOOL"]]}
+{"text": "Memory Forensics Tool analyzed memory dump identifying Mimikatz execution", "entities": []}
+{"text": "IBM QRadar SIEM detected advanced persistent threat with 98% detection accuracy", "entities": [[24, 31, "DETECTION_TYPE"], [36, 44, "THREAT_TYPE"]]}
+{"text": "Insider Risk Playbook Tool guided response for employee123 privilege abuse and data exfil", "entities": []}
+{"text": "MTTD reduced to 5 minutes with improved SIEM correlation and threat intelligence", "entities": []}
+{"text": "Insider Risk Playbook Tool guided response for employee123 privilege abuse and data exfil", "entities": []}
+{"text": "Incident response false positive rate reduced to 2.1% improving alert accuracy", "entities": []}
+{"text": "File Integrity Tool validated recovery integrity confirming clean restore", "entities": []}
+{"text": "Threat Intelligence Tool enriched incident with TA505 phishing campaign and matched IOCs", "entities": []}
+{"text": "MDR MSSP provider engaged sharing IOCs and executing joint containment", "entities": [[0, 3, "SERVICE_TYPE"], [4, 7, "SERVICE_TYPE"]]}
+{"text": "Regulator Notification Tool sent breach notification to GDPR and HIPAA regulators", "entities": [[0, 20, "TOOL"]]}
+{"text": "Forensic Acquisition Tool collected disk image and memory dump preserving evidence", "entities": []}
+{"text": "EDR XDR Tool removed trojan.exe and cleaned persistence mechanisms", "entities": [[20, 26, "REMOVAL_TYPE"], [45, 51, "CLEANING_TYPE"]]}
+{"text": "STIX TAXII Feeds provided threat context linking hash123 and IP 203.0.113.5 to campaign", "entities": [[0, 4, "PROTOCOL_TYPE"], [5, 10, "PROTOCOL_TYPE"], [64, 75, "IP_ADDRESS"], [67, 75, "CAMPAIGN_TYPE"]]}
+{"text": "IR simulation exercise tested ransomware scenario achieving 85% readiness score", "entities": [[3, 12, "SIMULATION_TYPE"]]}
+{"text": "IR performance metrics showed 5-minute MTTD and 2-hour MTTR with 45% automated", "entities": [[5, 14, "PERFORMANCE_TYPE"]]}
+{"text": "Insider Risk Playbook Tool guided response for employee123 privilege abuse and data exfil", "entities": []}
+{"text": "Crisis Communication Tool sent executive brief and regulator notification", "entities": [[0, 25, "TOOL"], [34, 40, "CRISIS_TYPE"]]}
+{"text": "Incident Runbook Tool classified severity and activated containment procedures", "entities": [[56, 64, "SEVERITY_TYPE"], [69, 78, "ACTIVATION_TYPE"]]}
+{"text": "Splunk SIEM platform correlated 50000 events detecting 12 security incidents", "entities": [[24, 33, "CORRELATION_TYPE"], [38, 43, "COUNT"]]}
+{"text": "MDR MSSP provider engaged sharing IOCs and executing joint containment", "entities": [[0, 3, "SERVICE_TYPE"], [4, 7, "SERVICE_TYPE"]]}
+{"text": "Automated response rate increased to 45% reducing manual intervention", "entities": []}
+{"text": "Crisis Communication Tool sent executive brief and regulator notification", "entities": [[0, 25, "TOOL"], [34, 40, "CRISIS_TYPE"]]}
+{"text": "Regulator Notification Tool sent breach notification to GDPR and HIPAA regulators", "entities": [[0, 20, "TOOL"]]}
+{"text": "STIX TAXII Feeds provided threat context linking hash123 and IP 203.0.113.5 to campaign", "entities": [[0, 4, "PROTOCOL_TYPE"], [5, 10, "PROTOCOL_TYPE"], [64, 75, "IP_ADDRESS"], [67, 75, "CAMPAIGN_TYPE"]]}
+{"text": "MTTR improved to 2 hours with automated containment and recovery procedures", "entities": []}
+{"text": "Incident response training completion reached 94% for all IR engineers", "entities": []}
+{"text": "Forensic Acquisition Tool collected disk image and memory dump preserving evidence", "entities": []}
+{"text": "Automated response rate increased to 45% reducing manual intervention", "entities": []}
+{"text": "Incident response training completion reached 94% for all IR engineers", "entities": []}
+{"text": "MTTR improved to 2 hours with automated containment and recovery procedures", "entities": []}
+{"text": "Automated response rate increased to 45% reducing manual intervention", "entities": []}
+{"text": "Incident Runbook Tool classified severity and activated containment procedures", "entities": [[56, 64, "SEVERITY_TYPE"], [69, 78, "ACTIVATION_TYPE"]]}
+{"text": "Containment Automation Tool isolated laptop42 and blocked IP 203.0.113.5", "entities": []}
+{"text": "Crisis Communication Tool sent executive brief and regulator notification", "entities": [[0, 25, "TOOL"], [34, 40, "CRISIS_TYPE"]]}
+{"text": "Insider Risk Playbook Tool guided response for employee123 privilege abuse and data exfil", "entities": []}
+{"text": "Threat Intelligence Tool enriched incident with TA505 phishing campaign and matched IOCs", "entities": []}
+{"text": "MTTR improved to 2 hours with automated containment and recovery procedures", "entities": []}
+{"text": "Threat Intelligence Tool enriched incident with TA505 phishing campaign and matched IOCs", "entities": []}
+{"text": "MTTD reduced to 5 minutes with improved SIEM correlation and threat intelligence", "entities": []}
+{"text": "SIEM Tool correlated events detecting SQL injection from IP 203.0.113.5", "entities": [[31, 37, "EVENT_TYPE"], [60, 71, "IP_ADDRESS"]]}
+{"text": "Incident response resilience score improved to 88% with enhanced automation", "entities": [[19, 28, "RESPONSE_TYPE"]]}
+{"text": "IR simulation exercise tested ransomware scenario achieving 85% readiness score", "entities": [[3, 12, "SIMULATION_TYPE"]]}
+{"text": "Containment Automation Tool isolated laptop42 and blocked IP 203.0.113.5", "entities": []}
+{"text": "Memory Forensics Tool analyzed memory dump identifying Mimikatz execution", "entities": []}
+{"text": "STIX TAXII Feeds provided threat context linking hash123 and IP 203.0.113.5 to campaign", "entities": [[0, 4, "PROTOCOL_TYPE"], [5, 10, "PROTOCOL_TYPE"], [64, 75, "IP_ADDRESS"], [67, 75, "CAMPAIGN_TYPE"]]}
+{"text": "Post-incident review documented strengths gaps and improvements updating runbooks", "entities": []}
+{"text": "EDR XDR Tool removed trojan.exe and cleaned persistence mechanisms", "entities": [[20, 26, "REMOVAL_TYPE"], [45, 51, "CLEANING_TYPE"]]}
+{"text": "Incident response resilience score improved to 88% with enhanced automation", "entities": [[19, 28, "RESPONSE_TYPE"]]}
+{"text": "IR simulation exercise tested ransomware scenario achieving 85% readiness score", "entities": [[3, 12, "SIMULATION_TYPE"]]}
+{"text": "IR simulation exercise tested ransomware scenario achieving 85% readiness score", "entities": [[3, 12, "SIMULATION_TYPE"]]}
+{"text": "Legal Workflow Tool coordinated with counsel and insurance providers", "entities": [[0, 15, "TOOL"]]}
+{"text": "IBM QRadar SIEM detected advanced persistent threat with 98% detection accuracy", "entities": [[24, 31, "DETECTION_TYPE"], [36, 44, "THREAT_TYPE"]]}
+{"text": "Containment Automation Tool isolated laptop42 and blocked IP 203.0.113.5", "entities": []}
+{"text": "IBM QRadar SIEM detected advanced persistent threat with 98% detection accuracy", "entities": [[24, 31, "DETECTION_TYPE"], [36, 44, "THREAT_TYPE"]]}
+{"text": "Memory Forensics Tool analyzed memory dump identifying Mimikatz execution", "entities": []}
+{"text": "SIEM Tool correlated events detecting SQL injection from IP 203.0.113.5", "entities": [[31, 37, "EVENT_TYPE"], [60, 71, "IP_ADDRESS"]]}
+{"text": "SOAR Platform Tool executed automated playbook blocking IPs and disabling accounts", "entities": []}
+{"text": "Incident Commander declared SEV-1 incident INC123 coordinating response across teams", "entities": [[0, 18, "ROLE"]]}
+{"text": "SOC Analyst triaged 200 alerts identifying 12 potential incidents and 150 false positives", "entities": [[0, 10, "ROLE"], [11, 17, "ROLE"]]}
+{"text": "Can you help me with this?", "entities": []}
+{"text": "I need to check something.", "entities": []}
+{"text": "What is the status?", "entities": []}
+{"text": "How do I do this?", "entities": []}
+{"text": "Tell me more about it.", "entities": []}
+{"text": "Is this safe to use?", "entities": []}
+{"text": "Let me know if you need anything.", "entities": []}
+{"text": "Thanks for your help.", "entities": []}
+{"text": "I will get back to you.", "entities": []}
+{"text": "Please review this document.", "entities": []}
+{"text": "What should I do next?", "entities": []}
+{"text": "How does this work?", "entities": []}
+{"text": "Why is this happening?", "entities": []}

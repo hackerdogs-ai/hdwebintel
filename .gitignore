@@ -416,3 +416,5 @@ FodyWeavers.xsd
 *.msix
 *.msm
 *.msp
+/cyber-train/models/intent_model/model-best/textcat_multilabel
+/cyber-train/models/intent_model/model-last/textcat_multilabel

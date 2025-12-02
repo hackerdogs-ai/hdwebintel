@@ -1,0 +1,484 @@
+{"text": "Crypto Policy Generator selected AES-256-GCM for data at rest and TLS1.3 for data in transit", "entities": [[0, 22, "TOOL"]]}
+{"text": "Column-level encryption deployed for PII fields in customer database", "entities": [[24, 30, "DATA_TYPE"]]}
+{"text": "Head of Encryption reviewed quarterly metrics showing 98% encryption coverage across enterprise", "entities": []}
+{"text": "Post-quantum cryptography pilot deployed CRYSTALS-Kyber for key exchange in test environment", "entities": [[0, 16, "ENCRYPTION_TYPE"], [17, 22, "PILOT_TYPE"], [31, 45, "ALGORITHM_TYPE"]]}
+{"text": "Pen Tester identified key exposure risk in application logging requiring immediate remediation", "entities": [[0, 10, "ROLE"]]}
+{"text": "Encryption training completion reached 90% for all crypto engineers", "entities": [[0, 19, "ENCRYPTION_TYPE"], [58, 67, "ROLE_TYPE"]]}
+{"text": "Crypto Health Monitor validated encryption coverage finding 3 unencrypted S3 buckets", "entities": [[0, 20, "TOOL"], [36, 42, "HEALTH_TYPE"], [43, 50, "MONITOR_TYPE"], [69, 77, "COVERAGE_TYPE"]]}
+{"text": "Encryption key lifecycle automation coverage reached 95% with manual processes eliminated", "entities": [[0, 19, "ENCRYPTION_TYPE"], [20, 23, "KEY_TYPE"], [24, 33, "LIFECYCLE_TYPE"], [45, 52, "COVERAGE_TYPE"]]}
+{"text": "SOC Analyst monitored encryption logs detecting 3 weak cipher suite usage attempts", "entities": [[0, 10, "ROLE"], [55, 61, "CIPHER_TYPE"]]}
+{"text": "Compliance Framework Tool aligned encryption with NIST and PCI DSS requirements", "entities": []}
+{"text": "TLS certificate chain validation improved to 100% with automated monitoring", "entities": [[0, 3, "PROTOCOL_TYPE"], [4, 13, "CERTIFICATE_TYPE"]]}
+{"text": "Post-Quantum Cryptography Specialist assessed migration readiness scoring 65% for PQC adoption", "entities": [[0, 35, "ROLE"]]}
+{"text": "Homomorphic encryption pilot enabled privacy-preserving analytics on encrypted datasets", "entities": [[0, 22, "ENCRYPTION_TYPE"], [23, 28, "PILOT_TYPE"], [37, 45, "ANALYTICS_TYPE"], [46, 55, "ANALYTICS_TYPE"]]}
+{"text": "Certbot automated Let's Encrypt certificate issuance for 50 web servers", "entities": []}
+{"text": "Encryption key recovery tested with 98% success rate validating disaster recovery procedures", "entities": [[0, 19, "ENCRYPTION_TYPE"], [20, 23, "KEY_TYPE"]]}
+{"text": "HSM Administrator managed Thales Luna HSM with FIPS 140-3 Level 3 certification", "entities": [[0, 17, "ROLE"], [46, 50, "FRAMEWORK"], [51, 54, "FRAMEWORK"]]}
+{"text": "Certificate Lifecycle Manager detected 12 expiring certificates requiring renewal", "entities": [[0, 28, "TOOL"]]}
+{"text": "TLS certificate pinning implemented for mobile applications preventing MITM attacks", "entities": [[0, 3, "PROTOCOL_TYPE"], [4, 13, "CERTIFICATE_TYPE"]]}
+{"text": "HSM cluster failover tested with zero data loss and 5-minute recovery time", "entities": []}
+{"text": "Encryption key export policy enforced preventing unauthorized key transfers", "entities": [[0, 19, "ENCRYPTION_TYPE"]]}
+{"text": "TLS certificate pinning implemented for mobile applications preventing MITM attacks", "entities": [[0, 3, "PROTOCOL_TYPE"], [4, 13, "CERTIFICATE_TYPE"]]}
+{"text": "Encryption key versioning implemented with rollback capability for failed deployments", "entities": [[0, 19, "ENCRYPTION_TYPE"]]}
+{"text": "Encryption performance benchmark achieved 10Gbps throughput with AES-NI acceleration", "entities": [[0, 19, "ENCRYPTION_TYPE"], [42, 48, "THROUGHPUT_TYPE"]]}
+{"text": "Encryption Engineer implemented AES-256-GCM encryption for database at rest with TDE", "entities": [[0, 20, "ROLE"], [31, 39, "ALGORITHM_TYPE"]]}
+{"text": "Session Key Audit validated 98% Perfect Forward Secrecy with 1 legacy load balancer violation", "entities": [[86, 93, "BALANCER_TYPE"]]}
+{"text": "HashiCorp Vault open source secrets management protected 430 credentials", "entities": []}
+{"text": "Crypto-agility roadmap defined migration from RSA-1024 to RSA-3072 and Kyber-512", "entities": [[0, 15, "ROADMAP_TYPE"]]}
+{"text": "Encryption Strategist defined enterprise encryption policy for data at rest in transit and in use", "entities": [[0, 22, "ROLE"], [41, 50, "POLICY_TYPE"]]}
+{"text": "Data in use encryption deployed Intel SGX enclaves for payment service", "entities": []}
+{"text": "Database Administrator configured Transparent Data Encryption for SQL Server databases", "entities": [[0, 22, "ROLE"]]}
+{"text": "Azure Key Vault managed 1000 encryption keys with automated rotation every 90 days", "entities": [[0, 4, "CLOUD_PROVIDER"]]}
+{"text": "Homomorphic encryption enabled privacy-preserving machine learning on encrypted datasets", "entities": [[0, 22, "ENCRYPTION_TYPE"], [36, 45, "PRIVACY_TYPE"]]}
+{"text": "Encryption Security Tester validated TLS 1.3 implementation with perfect forward secrecy", "entities": [[0, 26, "ROLE"]]}
+{"text": "TLS certificate chain validation improved to 100% with automated monitoring", "entities": [[0, 3, "PROTOCOL_TYPE"], [4, 13, "CERTIFICATE_TYPE"]]}
+{"text": "Cloud Security Engineer implemented envelope encryption for S3 buckets using AWS KMS", "entities": []}
+{"text": "Encryption key escrow compliance achieved 100% with secure backup procedures", "entities": [[0, 19, "ENCRYPTION_TYPE"]]}
+{"text": "Encryption false positive rate reduced to 1.5% improving key management accuracy", "entities": [[61, 70, "MANAGEMENT_TYPE"]]}
+{"text": "Post-quantum cryptography migration plan defined with 3-year timeline for algorithm transition", "entities": [[0, 16, "ENCRYPTION_TYPE"], [17, 25, "MIGRATION_TYPE"], [26, 30, "PLAN_TYPE"]]}
+{"text": "StrongSwan configured IPSec VPN encryption with AES-256-GCM and SHA-384 authentication", "entities": []}
+{"text": "OpenSSL cryptographic library validated TLS 1.3 connections with secure cipher suites", "entities": [[8, 25, "TOOL"]]}
+{"text": "Encryption key escrow recovery tested with 100% success in quarterly disaster recovery drill", "entities": [[0, 19, "ENCRYPTION_TYPE"], [24, 30, "ESCROW_TYPE"]]}
+{"text": "cfssl generated PKI certificates for 200 internal services with 2-year validity", "entities": []}
+{"text": "cfssl generated PKI certificates for 200 internal services with 2-year validity", "entities": []}
+{"text": "TLS certificate pinning implemented for mobile applications preventing MITM attacks", "entities": [[0, 3, "PROTOCOL_TYPE"], [4, 13, "CERTIFICATE_TYPE"]]}
+{"text": "Multi-region key replication configured for disaster recovery with 99.9% availability", "entities": [[0, 10, "REGION_TYPE"], [18, 28, "REPLICATION_TYPE"]]}
+{"text": "Encryption key access logging achieved 100% coverage with real-time alerting", "entities": [[30, 37, "LOGGING_TYPE"], [58, 66, "ALERTING_TYPE"]]}
+{"text": "Envelope encryption implemented for 10,000 data objects with master key protection", "entities": [[0, 17, "ENCRYPTION_TYPE"], [26, 32, "COUNT"]]}
+{"text": "Encryption training completion reached 92% for all security engineers", "entities": [[0, 19, "ENCRYPTION_TYPE"], [60, 69, "ROLE_TYPE"]]}
+{"text": "Encryption key escrow implemented with secure backup and recovery procedures", "entities": [[0, 19, "ENCRYPTION_TYPE"], [24, 30, "ESCROW_TYPE"]]}
+{"text": "Key Rotation Audit Tool verified 200 keys generated with 12 revoked and 30 destroyed", "entities": []}
+{"text": "GnuPG encrypted email communications using RSA-4096 and AES-256 algorithms", "entities": [[24, 29, "COMMUNICATION_TYPE"]]}
+{"text": "Secrets Vault Tool scanned repositories detecting 1 exposed API key requiring rotation", "entities": [[79, 86, "API_TYPE"]]}
+{"text": "CryptoGuard scanned codebase identifying 5 instances of weak MD5 hashing requiring remediation", "entities": []}
+{"text": "Encryption performance optimization reduced latency by 15% with hardware acceleration", "entities": [[0, 19, "ENCRYPTION_TYPE"]]}
+{"text": "Secrets Vault Tool scanned repositories detecting 1 exposed API key requiring rotation", "entities": [[79, 86, "API_TYPE"]]}
+{"text": "Encryption key destruction verified for 200 decommissioned keys with audit trail", "entities": [[0, 19, "ENCRYPTION_TYPE"]]}
+{"text": "Key Rotation Audit Tool verified 200 keys generated with 12 revoked and 30 destroyed", "entities": []}
+{"text": "Encryption key access control validated with role-based permissions and audit logging", "entities": []}
+{"text": "DevOps Engineer automated TLS certificate deployment in CI/CD pipeline with zero manual intervention", "entities": [[0, 15, "ROLE"]]}
+{"text": "Post-quantum cryptography readiness improved to 75% with algorithm testing completed", "entities": [[0, 16, "ENCRYPTION_TYPE"], [17, 25, "READINESS_TYPE"], [26, 34, "IMPROVEMENT_TYPE"], [57, 64, "TESTING_TYPE"]]}
+{"text": "TLS 1.3 adoption reached 95% across all production endpoints with legacy protocol remediation", "entities": [[0, 3, "PROTOCOL_TYPE"], [4, 7, "PROTOCOL_TYPE"], [8, 15, "ADOPTION_TYPE"]]}
+{"text": "Cloud Security Engineer implemented envelope encryption for S3 buckets using AWS KMS", "entities": []}
+{"text": "Homomorphic encryption pilot enabled privacy-preserving analytics on encrypted datasets", "entities": [[0, 22, "ENCRYPTION_TYPE"], [23, 28, "PILOT_TYPE"], [37, 45, "ANALYTICS_TYPE"], [46, 55, "ANALYTICS_TYPE"]]}
+{"text": "Key Management System Tool enforced AES-256 encryption for 1200 data keys", "entities": []}
+{"text": "HashiCorp Vault open source secrets management protected 430 credentials", "entities": []}
+{"text": "Encryption coverage achieved 100% for all databases with TDE enabled", "entities": [[0, 19, "ENCRYPTION_TYPE"], [20, 27, "COVERAGE_TYPE"]]}
+{"text": "Key Rotation Audit Tool verified 200 keys generated with 12 revoked and 30 destroyed", "entities": []}
+{"text": "Post-quantum cryptography migration timeline defined with 5-year phased approach", "entities": [[0, 16, "ENCRYPTION_TYPE"], [17, 25, "MIGRATION_TYPE"], [26, 34, "TIMELINE_TYPE"], [35, 42, "DEFINITION_TYPE"]]}
+{"text": "Encryption key versioning implemented with rollback capability for failed deployments", "entities": [[0, 19, "ENCRYPTION_TYPE"]]}
+{"text": "Encryption key rotation automation reduced manual effort by 80% with scheduled workflows", "entities": [[0, 19, "ENCRYPTION_TYPE"], [24, 32, "ROTATION_TYPE"]]}
+{"text": "Encryption key escrow implemented with secure backup and recovery procedures", "entities": [[0, 19, "ENCRYPTION_TYPE"], [24, 30, "ESCROW_TYPE"]]}
+{"text": "CryptoGuard scanned codebase identifying 5 instances of weak MD5 hashing requiring remediation", "entities": []}
+{"text": "Homomorphic encryption pilot enabled privacy-preserving analytics on encrypted datasets", "entities": [[0, 22, "ENCRYPTION_TYPE"], [23, 28, "PILOT_TYPE"], [37, 45, "ANALYTICS_TYPE"], [46, 55, "ANALYTICS_TYPE"]]}
+{"text": "Azure Key Vault managed 1000 encryption keys with automated rotation every 90 days", "entities": [[0, 4, "CLOUD_PROVIDER"]]}
+{"text": "HSM availability maintained at 99.9% uptime with redundant cluster configuration", "entities": []}
+{"text": "Algorithm Reference Tool approved SHA-256 hashing and RSA-3072 for key exchange", "entities": [[0, 20, "TOOL"], [29, 37, "ALGORITHM_TYPE"], [71, 78, "HASHING_TYPE"]]}
+{"text": "Encryption key backup encryption validated with separate master key protection", "entities": [[0, 19, "ENCRYPTION_TYPE"], [24, 30, "BACKUP_TYPE"], [68, 78, "PROTECTION_TYPE"]]}
+{"text": "Rogue crypto detection identified 8 legacy algorithms requiring migration to modern encryption", "entities": [[0, 5, "ENCRYPTION_STATUS"], [12, 21, "DETECTION_TYPE"]]}
+{"text": "Head of Encryption reviewed quarterly metrics showing 98% encryption coverage across enterprise", "entities": []}
+{"text": "HSM Administrator managed Thales Luna HSM with FIPS 140-3 Level 3 certification", "entities": [[0, 17, "ROLE"], [46, 50, "FRAMEWORK"], [51, 54, "FRAMEWORK"]]}
+{"text": "Certificate lifecycle automation achieved 98% with zero expired certificates in production", "entities": [[0, 11, "CERTIFICATE_TYPE"], [12, 21, "LIFECYCLE_TYPE"], [22, 33, "AUTOMATION_TYPE"], [51, 60, "CERTIFICATE_TYPE"], [65, 75, "ENVIRONMENT"]]}
+{"text": "Secrets vault integration completed for 100% of applications with API key rotation", "entities": [[0, 7, "SECRET_TYPE"], [8, 13, "VAULT_TYPE"], [14, 25, "INTEGRATION_TYPE"], [48, 58, "APPLICATION_TYPE"]]}
+{"text": "Encryption key lifecycle policy enforced automated rotation every 90 days", "entities": [[0, 19, "ENCRYPTION_TYPE"], [20, 23, "KEY_TYPE"]]}
+{"text": "Compliance Framework Tool aligned encryption with NIST and PCI DSS requirements", "entities": []}
+{"text": "Full-disk encryption deployed on 2000 endpoints with BitLocker and FileVault", "entities": [[0, 15, "ENCRYPTION_TYPE"]]}
+{"text": "TLS 1.3 adoption reached 95% across all production endpoints with legacy protocol remediation", "entities": [[0, 3, "PROTOCOL_TYPE"], [4, 7, "PROTOCOL_TYPE"], [8, 15, "ADOPTION_TYPE"]]}
+{"text": "AWS KMS cloud key management encrypted 5000 S3 objects with envelope encryption", "entities": [[0, 3, "CLOUD_PROVIDER"], [8, 12, "CLOUD_TYPE"], [13, 16, "KEY_TYPE"], [17, 27, "MANAGEMENT_TYPE"]]}
+{"text": "PQC Readiness Tracker monitored adoption of NIST PQC algorithms with 72% readiness score", "entities": [[0, 19, "TOOL"], [24, 32, "READINESS_TYPE"], [33, 40, "TRACKER_TYPE"], [49, 53, "FRAMEWORK"]]}
+{"text": "Key Management System Tool enforced AES-256 encryption for 1200 data keys", "entities": []}
+{"text": "Encryption compliance audit score reached 91% with TLS1.0 remediation completed", "entities": [[0, 19, "ENCRYPTION_TYPE"]]}
+{"text": "Key rotation compliance improved to 96% with automated quarterly rotation schedules", "entities": [[0, 3, "KEY_TYPE"], [4, 12, "ROTATION_TYPE"], [24, 31, "IMPROVEMENT_TYPE"], [54, 63, "TIME_PERIOD"], [64, 73, "ROTATION_TYPE"]]}
+{"text": "DigiCert CertCentral automated TLS certificate renewal for 300 domains with zero downtime", "entities": []}
+{"text": "Rogue crypto detection identified 8 legacy algorithms requiring migration to modern encryption", "entities": [[0, 5, "ENCRYPTION_STATUS"], [12, 21, "DETECTION_TYPE"]]}
+{"text": "Venafi certificate management platform automated TLS certificate renewals", "entities": [[7, 25, "CERTIFICATE_TYPE"]]}
+{"text": "Venafi certificate management platform automated TLS certificate renewals", "entities": [[7, 25, "CERTIFICATE_TYPE"]]}
+{"text": "Crypto-agility framework implemented supporting algorithm upgrades without service disruption", "entities": [[0, 15, "FRAMEWORK_TYPE"], [16, 25, "FRAMEWORK_TYPE"]]}
+{"text": "Certbot automated Let's Encrypt certificate issuance for 50 web servers", "entities": []}
+{"text": "Encryption compliance audit score reached 91% with TLS1.0 remediation completed", "entities": [[0, 19, "ENCRYPTION_TYPE"]]}
+{"text": "TLS Scanner Tool tested 120 endpoints finding 2 weak protocols requiring upgrade", "entities": []}
+{"text": "Encryption key access control validated with role-based permissions and audit logging", "entities": []}
+{"text": "Stunnel provided TLS tunneling for legacy application connecting to secure API", "entities": []}
+{"text": "Encryption key lifecycle automation coverage reached 95% with manual processes eliminated", "entities": [[0, 19, "ENCRYPTION_TYPE"], [20, 23, "KEY_TYPE"], [24, 33, "LIFECYCLE_TYPE"], [45, 52, "COVERAGE_TYPE"]]}
+{"text": "Red Team executed TLS downgrade attack simulation testing encryption protocol enforcement", "entities": []}
+{"text": "Crypto Health Monitor validated encryption coverage finding 3 unencrypted S3 buckets", "entities": [[0, 20, "TOOL"], [36, 42, "HEALTH_TYPE"], [43, 50, "MONITOR_TYPE"], [69, 77, "COVERAGE_TYPE"]]}
+{"text": "Encryption key backup encryption validated with separate master key protection", "entities": [[0, 19, "ENCRYPTION_TYPE"], [24, 30, "BACKUP_TYPE"], [68, 78, "PROTECTION_TYPE"]]}
+{"text": "Session Key Audit validated 98% Perfect Forward Secrecy with 1 legacy load balancer violation", "entities": [[86, 93, "BALANCER_TYPE"]]}
+{"text": "OpenSSL cryptographic library validated TLS 1.3 connections with secure cipher suites", "entities": [[8, 25, "TOOL"]]}
+{"text": "Certificate authority compromise simulation tested key revocation and replacement procedures", "entities": [[0, 11, "CERTIFICATE_TYPE"], [12, 22, "AUTHORITY_TYPE"], [23, 33, "COMPROMISE_TYPE"]]}
+{"text": "HSM key generation rate improved to 1000 keys per minute with hardware acceleration", "entities": []}
+{"text": "TLS Scanner Tool tested 120 endpoints finding 2 weak protocols requiring upgrade", "entities": []}
+{"text": "Cryptographic Specialist evaluated post-quantum algorithms including CRYSTALS-Kyber and Dilithium", "entities": [[0, 25, "ROLE"]]}
+{"text": "Thales key management system managed encryption keys with FIPS 140-3 compliance", "entities": []}
+{"text": "Encryption key recovery time reduced to 15 minutes with automated procedures", "entities": [[0, 19, "ENCRYPTION_TYPE"], [20, 23, "KEY_TYPE"]]}
+{"text": "Certificate Lifecycle Manager detected 12 expiring certificates requiring renewal", "entities": [[0, 28, "TOOL"]]}
+{"text": "Compliance Framework Tool aligned encryption with NIST and PCI DSS requirements", "entities": []}
+{"text": "HSM key generation rate improved to 1000 keys per minute with hardware acceleration", "entities": []}
+{"text": "Encryption performance benchmark achieved 10Gbps throughput with AES-NI acceleration", "entities": [[0, 19, "ENCRYPTION_TYPE"], [42, 48, "THROUGHPUT_TYPE"]]}
+{"text": "Crypto Health Monitor validated encryption coverage finding 3 unencrypted S3 buckets", "entities": [[0, 20, "TOOL"], [36, 42, "HEALTH_TYPE"], [43, 50, "MONITOR_TYPE"], [69, 77, "COVERAGE_TYPE"]]}
+{"text": "Certificate authority compromise simulation tested key revocation and replacement procedures", "entities": [[0, 11, "CERTIFICATE_TYPE"], [12, 22, "AUTHORITY_TYPE"], [23, 33, "COMPROMISE_TYPE"]]}
+{"text": "Key Management Specialist rotated 500 encryption keys with zero service disruption", "entities": [[0, 25, "ROLE"]]}
+{"text": "Encryption key access logging achieved 100% coverage with real-time alerting", "entities": [[30, 37, "LOGGING_TYPE"], [58, 66, "ALERTING_TYPE"]]}
+{"text": "HSM Integration Tool managed 12 master keys with dual-control and key recovery", "entities": []}
+{"text": "Confidential computing deployed Intel SGX enclaves for sensitive data processing", "entities": [[0, 22, "COMPUTING_TYPE"], [37, 40, "TECHNOLOGY_TYPE"], [41, 48, "ENCLAVE_TYPE"]]}
+{"text": "Encryption training completion reached 90% for all crypto engineers", "entities": [[0, 19, "ENCRYPTION_TYPE"], [58, 67, "ROLE_TYPE"]]}
+{"text": "Algorithm Reference Tool approved SHA-256 hashing and RSA-3072 for key exchange", "entities": [[0, 20, "TOOL"], [29, 37, "ALGORITHM_TYPE"], [71, 78, "HASHING_TYPE"]]}
+{"text": "Certificate lifecycle automation achieved 98% with zero expired certificates in production", "entities": [[0, 11, "CERTIFICATE_TYPE"], [12, 21, "LIFECYCLE_TYPE"], [22, 33, "AUTOMATION_TYPE"], [51, 60, "CERTIFICATE_TYPE"], [65, 75, "ENVIRONMENT"]]}
+{"text": "Encryption key recovery tested with 98% success rate validating disaster recovery procedures", "entities": [[0, 19, "ENCRYPTION_TYPE"], [20, 23, "KEY_TYPE"]]}
+{"text": "Post-quantum cryptography readiness assessment scored 68% with migration plan defined", "entities": [[0, 16, "ENCRYPTION_TYPE"], [17, 25, "READINESS_TYPE"], [26, 36, "ASSESSMENT_TYPE"]]}
+{"text": "Encryption compliance audit passed with 94% control effectiveness meeting PCI DSS requirements", "entities": [[0, 19, "ENCRYPTION_TYPE"]]}
+{"text": "Encryption key access control validated with role-based permissions and audit logging", "entities": []}
+{"text": "Homomorphic encryption enabled privacy-preserving machine learning on encrypted datasets", "entities": [[0, 22, "ENCRYPTION_TYPE"], [36, 45, "PRIVACY_TYPE"]]}
+{"text": "Multi-region key replication configured for disaster recovery with 99.9% availability", "entities": [[0, 10, "REGION_TYPE"], [18, 28, "REPLICATION_TYPE"]]}
+{"text": "Rogue Crypto Detector found DES in legacy_app and MD5 hashing requiring migration", "entities": [[0, 20, "TOOL"]]}
+{"text": "Azure Key Vault managed 1000 encryption keys with automated rotation every 90 days", "entities": [[0, 4, "CLOUD_PROVIDER"]]}
+{"text": "Encryption key lifecycle automation achieved 90% with scheduled rotation and revocation", "entities": [[0, 19, "ENCRYPTION_TYPE"], [20, 23, "KEY_TYPE"], [24, 33, "LIFECYCLE_TYPE"]]}
+{"text": "HSM availability maintained at 99.9% uptime with redundant cluster configuration", "entities": []}
+{"text": "Encryption compliance audit score reached 91% with TLS1.0 remediation completed", "entities": [[0, 19, "ENCRYPTION_TYPE"]]}
+{"text": "AWS KMS cloud key management encrypted 5000 S3 objects with envelope encryption", "entities": [[0, 3, "CLOUD_PROVIDER"], [8, 12, "CLOUD_TYPE"], [13, 16, "KEY_TYPE"], [17, 27, "MANAGEMENT_TYPE"]]}
+{"text": "Encryption Compliance Analyst validated NIST SP 800-175B compliance for key management", "entities": [[0, 28, "ROLE"]]}
+{"text": "TLS 1.3 adoption reached 95% across all production endpoints with legacy protocol remediation", "entities": [[0, 3, "PROTOCOL_TYPE"], [4, 7, "PROTOCOL_TYPE"], [8, 15, "ADOPTION_TYPE"]]}
+{"text": "Post-quantum cryptography migration timeline defined with 5-year phased approach", "entities": [[0, 16, "ENCRYPTION_TYPE"], [17, 25, "MIGRATION_TYPE"], [26, 34, "TIMELINE_TYPE"], [35, 42, "DEFINITION_TYPE"]]}
+{"text": "Red Team executed TLS downgrade attack simulation testing encryption protocol enforcement", "entities": []}
+{"text": "HashiCorp Vault open source secrets management protected 430 credentials", "entities": []}
+{"text": "Encryption Compliance Analyst validated NIST SP 800-175B compliance for key management", "entities": [[0, 28, "ROLE"]]}
+{"text": "Certificate authority compromise simulation tested key revocation and replacement procedures", "entities": [[0, 11, "CERTIFICATE_TYPE"], [12, 22, "AUTHORITY_TYPE"], [23, 33, "COMPROMISE_TYPE"]]}
+{"text": "Crypto Health Monitor validated encryption coverage finding 3 unencrypted S3 buckets", "entities": [[0, 20, "TOOL"], [36, 42, "HEALTH_TYPE"], [43, 50, "MONITOR_TYPE"], [69, 77, "COVERAGE_TYPE"]]}
+{"text": "DevOps Engineer automated TLS certificate deployment in CI/CD pipeline with zero manual intervention", "entities": [[0, 15, "ROLE"]]}
+{"text": "Encryption Security Tester validated TLS 1.3 implementation with perfect forward secrecy", "entities": [[0, 26, "ROLE"]]}
+{"text": "Stunnel provided TLS tunneling for legacy application connecting to secure API", "entities": []}
+{"text": "Secrets vault integration completed for 100% of applications with API key rotation", "entities": [[0, 7, "SECRET_TYPE"], [8, 13, "VAULT_TYPE"], [14, 25, "INTEGRATION_TYPE"], [48, 58, "APPLICATION_TYPE"]]}
+{"text": "Encryption key escrow compliance audit passed with 98% control effectiveness", "entities": [[0, 19, "ENCRYPTION_TYPE"], [63, 74, "METRIC_TYPE"]]}
+{"text": "CISO defined encryption strategy aligned with PCI DSS requirement 3.4 and HIPAA encryption standards", "entities": [[0, 4, "ROLE"], [12, 30, "ENCRYPTION_TYPE"], [91, 100, "STANDARD_TYPE"]]}
+{"text": "Post-quantum cryptography migration plan defined with 3-year timeline for algorithm transition", "entities": [[0, 16, "ENCRYPTION_TYPE"], [17, 25, "MIGRATION_TYPE"], [26, 30, "PLAN_TYPE"]]}
+{"text": "GnuPG encrypted email communications using RSA-4096 and AES-256 algorithms", "entities": [[24, 29, "COMMUNICATION_TYPE"]]}
+{"text": "Encryption key recovery time reduced to 15 minutes with automated procedures", "entities": [[0, 19, "ENCRYPTION_TYPE"], [20, 23, "KEY_TYPE"]]}
+{"text": "Key rotation compliance improved to 96% with automated quarterly rotation schedules", "entities": [[0, 3, "KEY_TYPE"], [4, 12, "ROTATION_TYPE"], [24, 31, "IMPROVEMENT_TYPE"], [54, 63, "TIME_PERIOD"], [64, 73, "ROTATION_TYPE"]]}
+{"text": "Incident Responder handled encryption key compromise rotating 200 affected keys within 2 hours", "entities": [[0, 18, "ROLE"], [38, 41, "KEY_TYPE"], [42, 52, "COMPROMISE_TYPE"]]}
+{"text": "TLS protocol enforcement blocked 50 connection attempts using weak TLS 1.0", "entities": [[0, 3, "PROTOCOL_TYPE"], [4, 13, "PROTOCOL_TYPE"], [14, 25, "ENFORCEMENT_TYPE"], [32, 34, "COUNT"], [35, 43, "CONNECTION_TYPE"]]}
+{"text": "Key Management System Tool enforced AES-256 encryption for 1200 data keys", "entities": []}
+{"text": "CryptoGuard scanned codebase identifying 5 instances of weak MD5 hashing requiring remediation", "entities": []}
+{"text": "DigiCert CertCentral automated TLS certificate renewal for 300 domains with zero downtime", "entities": []}
+{"text": "Principal Encryption Architect designed KMS architecture with HSM integration for master key protection", "entities": [[0, 30, "ROLE"], [43, 54, "ARCHITECTURE_TYPE"]]}
+{"text": "OpenSSL cryptographic library validated TLS 1.3 connections with secure cipher suites", "entities": [[8, 25, "TOOL"]]}
+{"text": "StrongSwan configured IPSec VPN encryption with AES-256-GCM and SHA-384 authentication", "entities": []}
+{"text": "Encryption coverage improved to 95% with zero weak cipher usage detected", "entities": [[0, 19, "ENCRYPTION_TYPE"], [20, 27, "COVERAGE_TYPE"], [46, 50, "CIPHER_TYPE"], [51, 56, "CIPHER_TYPE"], [57, 64, "USAGE_TYPE"]]}
+{"text": "Encryption key access audit logged 5000 access attempts with zero unauthorized access", "entities": []}
+{"text": "Encryption false positive rate reduced to 0.5% with improved key management validation", "entities": [[52, 60, "KEY_TYPE"]]}
+{"text": "Multi-region key replication configured for disaster recovery with 99.9% availability", "entities": [[0, 10, "REGION_TYPE"], [18, 28, "REPLICATION_TYPE"]]}
+{"text": "Cloud Security Engineer implemented envelope encryption for S3 buckets using AWS KMS", "entities": []}
+{"text": "HSM performance optimization improved key generation speed by 40% with hardware upgrades", "entities": []}
+{"text": "Encryption key escrow recovery tested with 100% success in quarterly disaster recovery drill", "entities": [[0, 19, "ENCRYPTION_TYPE"], [24, 30, "ESCROW_TYPE"]]}
+{"text": "Post-quantum cryptography migration plan defined with 3-year timeline for algorithm transition", "entities": [[0, 16, "ENCRYPTION_TYPE"], [17, 25, "MIGRATION_TYPE"], [26, 30, "PLAN_TYPE"]]}
+{"text": "Certificate lifecycle automation achieved 98% with zero expired certificates in production", "entities": [[0, 11, "CERTIFICATE_TYPE"], [12, 21, "LIFECYCLE_TYPE"], [22, 33, "AUTOMATION_TYPE"], [51, 60, "CERTIFICATE_TYPE"], [65, 75, "ENVIRONMENT"]]}
+{"text": "Key Management Specialist rotated 500 encryption keys with zero service disruption", "entities": [[0, 25, "ROLE"]]}
+{"text": "Google Cloud KMS encrypted 5000 cloud storage objects with customer-managed encryption keys", "entities": [[0, 6, "CLOUD_PROVIDER"], [7, 11, "CLOUD_PROVIDER"], [16, 37, "ENCRYPTION_TYPE"], [65, 72, "OBJECT_TYPE"], [77, 85, "MANAGEMENT_TYPE"]]}
+{"text": "Pen Tester identified key exposure risk in application logging requiring immediate remediation", "entities": [[0, 10, "ROLE"]]}
+{"text": "IBM Key Protect managed enterprise encryption keys with HSM-backed key storage", "entities": [[71, 78, "STORAGE_TYPE"]]}
+{"text": "Encryption key recovery time reduced to 15 minutes with automated procedures", "entities": [[0, 19, "ENCRYPTION_TYPE"], [20, 23, "KEY_TYPE"]]}
+{"text": "IBM Key Protect managed enterprise encryption keys with HSM-backed key storage", "entities": [[71, 78, "STORAGE_TYPE"]]}
+{"text": "Pen Tester identified key exposure risk in application logging requiring immediate remediation", "entities": [[0, 10, "ROLE"]]}
+{"text": "Encryption key rotation automation reduced manual effort by 80% with scheduled workflows", "entities": [[0, 19, "ENCRYPTION_TYPE"], [24, 32, "ROTATION_TYPE"]]}
+{"text": "Encryption performance optimization reduced latency by 15% with hardware acceleration", "entities": [[0, 19, "ENCRYPTION_TYPE"]]}
+{"text": "Certificate Lifecycle Manager detected 12 expiring certificates requiring renewal", "entities": [[0, 28, "TOOL"]]}
+{"text": "Cryptographic Specialist evaluated post-quantum algorithms including CRYSTALS-Kyber and Dilithium", "entities": [[0, 25, "ROLE"]]}
+{"text": "Confidential computing deployed Intel SGX enclaves for sensitive data processing", "entities": [[0, 22, "COMPUTING_TYPE"], [37, 40, "TECHNOLOGY_TYPE"], [41, 48, "ENCLAVE_TYPE"]]}
+{"text": "Encryption key export compliance validated with zero unauthorized key exports detected", "entities": [[0, 19, "ENCRYPTION_TYPE"]]}
+{"text": "HSM performance optimization improved key generation speed by 40% with hardware upgrades", "entities": []}
+{"text": "Encryption key access audit logged 5000 access attempts with zero unauthorized access", "entities": []}
+{"text": "Azure Key Vault managed 1000 encryption keys with automated rotation every 90 days", "entities": [[0, 4, "CLOUD_PROVIDER"]]}
+{"text": "Encryption key export policy enforced preventing unauthorized key transfers", "entities": [[0, 19, "ENCRYPTION_TYPE"]]}
+{"text": "Certificate expiry SLA achieved 100% with zero expired certificates in production", "entities": [[0, 11, "CERTIFICATE_TYPE"], [12, 18, "EXPIRY_TYPE"]]}
+{"text": "Homomorphic encryption pilot enabled privacy-preserving analytics on encrypted datasets", "entities": [[0, 22, "ENCRYPTION_TYPE"], [23, 28, "PILOT_TYPE"], [37, 45, "ANALYTICS_TYPE"], [46, 55, "ANALYTICS_TYPE"]]}
+{"text": "cfssl generated PKI certificates for 200 internal services with 2-year validity", "entities": []}
+{"text": "Rogue crypto detection identified 8 legacy algorithms requiring migration to modern encryption", "entities": [[0, 5, "ENCRYPTION_STATUS"], [12, 21, "DETECTION_TYPE"]]}
+{"text": "TLS certificate pinning implemented for mobile applications preventing MITM attacks", "entities": [[0, 3, "PROTOCOL_TYPE"], [4, 13, "CERTIFICATE_TYPE"]]}
+{"text": "HSM Administrator managed Thales Luna HSM with FIPS 140-3 Level 3 certification", "entities": [[0, 17, "ROLE"], [46, 50, "FRAMEWORK"], [51, 54, "FRAMEWORK"]]}
+{"text": "Certbot automated Let's Encrypt certificate issuance for 50 web servers", "entities": []}
+{"text": "StrongSwan configured IPSec VPN encryption with AES-256-GCM and SHA-384 authentication", "entities": []}
+{"text": "Post-quantum cryptography pilot deployed CRYSTALS-Kyber for key exchange in test environment", "entities": [[0, 16, "ENCRYPTION_TYPE"], [17, 22, "PILOT_TYPE"], [31, 45, "ALGORITHM_TYPE"]]}
+{"text": "Crypto-agility roadmap defined migration from RSA-1024 to RSA-3072 and Kyber-512", "entities": [[0, 15, "ROADMAP_TYPE"]]}
+{"text": "HSM availability maintained at 99.9% uptime with redundant cluster configuration", "entities": []}
+{"text": "HSM Integration Tool managed 12 master keys with dual-control and key recovery", "entities": []}
+{"text": "Venafi certificate management platform automated TLS certificate renewals", "entities": [[7, 25, "CERTIFICATE_TYPE"]]}
+{"text": "TLS certificate chain validation improved to 100% with automated monitoring and alerting", "entities": [[0, 3, "PROTOCOL_TYPE"], [4, 13, "CERTIFICATE_TYPE"]]}
+{"text": "Encryption Engineer implemented AES-256-GCM encryption for database at rest with TDE", "entities": [[0, 20, "ROLE"], [31, 39, "ALGORITHM_TYPE"]]}
+{"text": "Encryption performance benchmark achieved 10Gbps throughput with AES-NI acceleration", "entities": [[0, 19, "ENCRYPTION_TYPE"], [42, 48, "THROUGHPUT_TYPE"]]}
+{"text": "cfssl generated PKI certificates for 200 internal services with 2-year validity", "entities": []}
+{"text": "Full-disk encryption deployed on 2000 endpoints with BitLocker and FileVault", "entities": [[0, 15, "ENCRYPTION_TYPE"]]}
+{"text": "Encryption key escrow compliance audit passed with 98% control effectiveness", "entities": [[0, 19, "ENCRYPTION_TYPE"], [63, 74, "METRIC_TYPE"]]}
+{"text": "Encryption key recovery time reduced to 15 minutes with automated procedures", "entities": [[0, 19, "ENCRYPTION_TYPE"], [20, 23, "KEY_TYPE"]]}
+{"text": "Crypto Policy Generator selected AES-256-GCM for data at rest and TLS1.3 for data in transit", "entities": [[0, 22, "TOOL"]]}
+{"text": "File-level encryption enabled for 5000 sensitive documents with AES-256", "entities": [[22, 28, "COUNT"]]}
+{"text": "Google Cloud KMS encrypted 5000 cloud storage objects with customer-managed encryption keys", "entities": [[0, 6, "CLOUD_PROVIDER"], [7, 11, "CLOUD_PROVIDER"], [16, 37, "ENCRYPTION_TYPE"], [65, 72, "OBJECT_TYPE"], [77, 85, "MANAGEMENT_TYPE"]]}
+{"text": "Crypto Policy Generator selected AES-256-GCM for data at rest and TLS1.3 for data in transit", "entities": [[0, 22, "TOOL"]]}
+{"text": "Secrets vault integration completed for 100% of applications with API key rotation", "entities": [[0, 7, "SECRET_TYPE"], [8, 13, "VAULT_TYPE"], [14, 25, "INTEGRATION_TYPE"], [48, 58, "APPLICATION_TYPE"]]}
+{"text": "Encryption key versioning implemented with rollback capability for failed deployments", "entities": [[0, 19, "ENCRYPTION_TYPE"]]}
+{"text": "Encryption false positive rate reduced to 1.5% improving key management accuracy", "entities": [[61, 70, "MANAGEMENT_TYPE"]]}
+{"text": "Session Key Audit validated 98% Perfect Forward Secrecy with 1 legacy load balancer violation", "entities": [[86, 93, "BALANCER_TYPE"]]}
+{"text": "Certificate transparency monitoring detected 2 unauthorized certificate issuances requiring investigation", "entities": [[0, 11, "CERTIFICATE_TYPE"]]}
+{"text": "Encryption coverage achieved 100% for all databases with TDE enabled", "entities": [[0, 19, "ENCRYPTION_TYPE"], [20, 27, "COVERAGE_TYPE"]]}
+{"text": "Encryption coverage improved to 95% with zero weak cipher usage detected", "entities": [[0, 19, "ENCRYPTION_TYPE"], [20, 27, "COVERAGE_TYPE"], [46, 50, "CIPHER_TYPE"], [51, 56, "CIPHER_TYPE"], [57, 64, "USAGE_TYPE"]]}
+{"text": "TLS handshake failure rate reduced to 0.1% with improved certificate validation", "entities": [[0, 3, "PROTOCOL_TYPE"], [4, 13, "HANDSHAKE_TYPE"], [14, 21, "FAILURE_TYPE"]]}
+{"text": "Encryption key escrow compliance achieved 100% with secure backup procedures", "entities": [[0, 19, "ENCRYPTION_TYPE"]]}
+{"text": "PQC Readiness Tracker monitored adoption of NIST PQC algorithms with 72% readiness score", "entities": [[0, 19, "TOOL"], [24, 32, "READINESS_TYPE"], [33, 40, "TRACKER_TYPE"], [49, 53, "FRAMEWORK"]]}
+{"text": "Post-quantum cryptography pilot deployed CRYSTALS-Kyber for key exchange in test environment", "entities": [[0, 16, "ENCRYPTION_TYPE"], [17, 22, "PILOT_TYPE"], [31, 45, "ALGORITHM_TYPE"]]}
+{"text": "Encryption key backup and recovery tested with 100% success rate in disaster scenario", "entities": [[0, 19, "ENCRYPTION_TYPE"]]}
+{"text": "Encryption key export compliance validated with zero unauthorized key exports detected", "entities": [[0, 19, "ENCRYPTION_TYPE"]]}
+{"text": "SOC Analyst monitored encryption logs detecting 3 weak cipher suite usage attempts", "entities": [[0, 10, "ROLE"], [55, 61, "CIPHER_TYPE"]]}
+{"text": "Incident Responder handled encryption key compromise rotating 200 affected keys within 2 hours", "entities": [[0, 18, "ROLE"], [38, 41, "KEY_TYPE"], [42, 52, "COMPROMISE_TYPE"]]}
+{"text": "HSM performance optimization improved key generation speed by 40% with hardware upgrades", "entities": []}
+{"text": "Crypto-agility framework implemented supporting algorithm upgrades without service disruption", "entities": [[0, 15, "FRAMEWORK_TYPE"], [16, 25, "FRAMEWORK_TYPE"]]}
+{"text": "Certificate expiry SLA achieved 100% with zero expired certificates in production", "entities": [[0, 11, "CERTIFICATE_TYPE"], [12, 18, "EXPIRY_TYPE"]]}
+{"text": "Certificate expiry SLA achieved 100% with zero expired certificates in production", "entities": [[0, 11, "CERTIFICATE_TYPE"], [12, 18, "EXPIRY_TYPE"]]}
+{"text": "Post-quantum cryptography readiness improved to 75% with algorithm testing completed", "entities": [[0, 16, "ENCRYPTION_TYPE"], [17, 25, "READINESS_TYPE"], [26, 34, "IMPROVEMENT_TYPE"], [57, 64, "TESTING_TYPE"]]}
+{"text": "HSM Integration Tool managed 12 master keys with dual-control and key recovery", "entities": []}
+{"text": "File-level encryption enabled for 5000 sensitive documents with AES-256", "entities": [[22, 28, "COUNT"]]}
+{"text": "Encryption compliance audit passed with 94% control effectiveness meeting PCI DSS requirements", "entities": [[0, 19, "ENCRYPTION_TYPE"]]}
+{"text": "Key Management Specialist rotated 500 encryption keys with zero service disruption", "entities": [[0, 25, "ROLE"]]}
+{"text": "Encryption key destruction verified for 200 decommissioned keys with audit trail", "entities": [[0, 19, "ENCRYPTION_TYPE"]]}
+{"text": "Certificate expiry SLA achieved 100% with zero expired certificates in production", "entities": [[0, 11, "CERTIFICATE_TYPE"], [12, 18, "EXPIRY_TYPE"]]}
+{"text": "Encryption training completion reached 92% for all security engineers", "entities": [[0, 19, "ENCRYPTION_TYPE"], [60, 69, "ROLE_TYPE"]]}
+{"text": "Incident Responder handled encryption key compromise rotating 200 affected keys within 2 hours", "entities": [[0, 18, "ROLE"], [38, 41, "KEY_TYPE"], [42, 52, "COMPROMISE_TYPE"]]}
+{"text": "Cryptographic Specialist evaluated post-quantum algorithms including CRYSTALS-Kyber and Dilithium", "entities": [[0, 25, "ROLE"]]}
+{"text": "Rogue crypto detection identified 8 legacy algorithms requiring migration to modern encryption", "entities": [[0, 5, "ENCRYPTION_STATUS"], [12, 21, "DETECTION_TYPE"]]}
+{"text": "CryptoGuard scanned codebase identifying 5 instances of weak MD5 hashing requiring remediation", "entities": []}
+{"text": "Database Administrator configured Transparent Data Encryption for SQL Server databases", "entities": [[0, 22, "ROLE"]]}
+{"text": "Venafi certificate management platform automated TLS certificate renewals", "entities": [[7, 25, "CERTIFICATE_TYPE"]]}
+{"text": "Head of Encryption reviewed quarterly metrics showing 98% encryption coverage across enterprise", "entities": []}
+{"text": "Post-quantum cryptography readiness improved to 75% with algorithm testing completed", "entities": [[0, 16, "ENCRYPTION_TYPE"], [17, 25, "READINESS_TYPE"], [26, 34, "IMPROVEMENT_TYPE"], [57, 64, "TESTING_TYPE"]]}
+{"text": "Crypto-agility framework implemented supporting algorithm upgrades without service disruption", "entities": [[0, 15, "FRAMEWORK_TYPE"], [16, 25, "FRAMEWORK_TYPE"]]}
+{"text": "Certificate Lifecycle Manager detected 12 expiring certificates requiring renewal", "entities": [[0, 28, "TOOL"]]}
+{"text": "Encryption key escrow recovery tested with 100% success in quarterly disaster recovery drill", "entities": [[0, 19, "ENCRYPTION_TYPE"], [24, 30, "ESCROW_TYPE"]]}
+{"text": "Key Management Specialist rotated 500 encryption keys with zero service disruption", "entities": [[0, 25, "ROLE"]]}
+{"text": "Data in use encryption deployed Intel SGX enclaves for payment service", "entities": []}
+{"text": "IBM Key Protect managed enterprise encryption keys with HSM-backed key storage", "entities": [[71, 78, "STORAGE_TYPE"]]}
+{"text": "GnuPG encrypted email communications using RSA-4096 and AES-256 algorithms", "entities": [[24, 29, "COMMUNICATION_TYPE"]]}
+{"text": "Encryption compliance audit passed with 94% control effectiveness meeting PCI DSS requirements", "entities": [[0, 19, "ENCRYPTION_TYPE"]]}
+{"text": "Thales key management system managed encryption keys with FIPS 140-3 compliance", "entities": []}
+{"text": "Encryption key lifecycle policy enforced automated rotation every 90 days", "entities": [[0, 19, "ENCRYPTION_TYPE"], [20, 23, "KEY_TYPE"]]}
+{"text": "Cryptographic Specialist evaluated post-quantum algorithms including CRYSTALS-Kyber and Dilithium", "entities": [[0, 25, "ROLE"]]}
+{"text": "File-level encryption enabled for 5000 sensitive documents with AES-256", "entities": [[22, 28, "COUNT"]]}
+{"text": "Thales key management system managed encryption keys with FIPS 140-3 compliance", "entities": []}
+{"text": "Stunnel provided TLS tunneling for legacy application connecting to secure API", "entities": []}
+{"text": "CISO defined encryption strategy aligned with PCI DSS requirement 3.4 and HIPAA encryption standards", "entities": [[0, 4, "ROLE"], [12, 30, "ENCRYPTION_TYPE"], [91, 100, "STANDARD_TYPE"]]}
+{"text": "HSM performance optimization improved key generation speed by 40% with hardware upgrades", "entities": []}
+{"text": "Perfect Forward Secrecy validation achieved 100% for all TLS connections", "entities": []}
+{"text": "Encryption training completion reached 92% for all security engineers", "entities": [[0, 19, "ENCRYPTION_TYPE"], [60, 69, "ROLE_TYPE"]]}
+{"text": "Key Rotation Audit Tool verified 200 keys generated with 12 revoked and 30 destroyed", "entities": []}
+{"text": "Encryption key escrow recovery tested with 100% success in quarterly disaster recovery drill", "entities": [[0, 19, "ENCRYPTION_TYPE"], [24, 30, "ESCROW_TYPE"]]}
+{"text": "Red Team executed TLS downgrade attack simulation testing encryption protocol enforcement", "entities": []}
+{"text": "Encryption key backup encryption validated with separate master key protection", "entities": [[0, 19, "ENCRYPTION_TYPE"], [24, 30, "BACKUP_TYPE"], [68, 78, "PROTECTION_TYPE"]]}
+{"text": "Encryption key lifecycle automation achieved 90% with scheduled rotation and revocation", "entities": [[0, 19, "ENCRYPTION_TYPE"], [20, 23, "KEY_TYPE"], [24, 33, "LIFECYCLE_TYPE"]]}
+{"text": "Encryption key backup encryption validated with separate master key protection", "entities": [[0, 19, "ENCRYPTION_TYPE"], [24, 30, "BACKUP_TYPE"], [68, 78, "PROTECTION_TYPE"]]}
+{"text": "Encryption key destruction verified for 200 decommissioned keys with audit trail", "entities": [[0, 19, "ENCRYPTION_TYPE"]]}
+{"text": "Post-Quantum Cryptography Specialist assessed migration readiness scoring 65% for PQC adoption", "entities": [[0, 35, "ROLE"]]}
+{"text": "Encryption key escrow compliance achieved 100% with secure backup procedures", "entities": [[0, 19, "ENCRYPTION_TYPE"]]}
+{"text": "Head of Encryption reviewed quarterly metrics showing 98% encryption coverage across enterprise", "entities": []}
+{"text": "SOC Analyst monitored encryption logs detecting 3 weak cipher suite usage attempts", "entities": [[0, 10, "ROLE"], [55, 61, "CIPHER_TYPE"]]}
+{"text": "Rogue Crypto Detector found DES in legacy_app and MD5 hashing requiring migration", "entities": [[0, 20, "TOOL"]]}
+{"text": "TLS handshake failure rate reduced to 0.1% with improved certificate validation", "entities": [[0, 3, "PROTOCOL_TYPE"], [4, 13, "HANDSHAKE_TYPE"], [14, 21, "FAILURE_TYPE"]]}
+{"text": "Google Cloud KMS encrypted 5000 cloud storage objects with customer-managed encryption keys", "entities": [[0, 6, "CLOUD_PROVIDER"], [7, 11, "CLOUD_PROVIDER"], [16, 37, "ENCRYPTION_TYPE"], [65, 72, "OBJECT_TYPE"], [77, 85, "MANAGEMENT_TYPE"]]}
+{"text": "Encryption false positive rate reduced to 0.5% with improved key management validation", "entities": [[52, 60, "KEY_TYPE"]]}
+{"text": "Database Administrator configured Transparent Data Encryption for SQL Server databases", "entities": [[0, 22, "ROLE"]]}
+{"text": "HSM cluster failover tested with zero data loss and 5-minute recovery time", "entities": []}
+{"text": "Encryption key escrow compliance audit passed with 98% control effectiveness", "entities": [[0, 19, "ENCRYPTION_TYPE"], [63, 74, "METRIC_TYPE"]]}
+{"text": "TLS certificate chain validation improved to 100% with automated monitoring and alerting", "entities": [[0, 3, "PROTOCOL_TYPE"], [4, 13, "CERTIFICATE_TYPE"]]}
+{"text": "Perfect Forward Secrecy validation achieved 100% for all TLS connections", "entities": []}
+{"text": "Algorithm Reference Tool approved SHA-256 hashing and RSA-3072 for key exchange", "entities": [[0, 20, "TOOL"], [29, 37, "ALGORITHM_TYPE"], [71, 78, "HASHING_TYPE"]]}
+{"text": "Encryption key lifecycle automation coverage reached 95% with manual processes eliminated", "entities": [[0, 19, "ENCRYPTION_TYPE"], [20, 23, "KEY_TYPE"], [24, 33, "LIFECYCLE_TYPE"], [45, 52, "COVERAGE_TYPE"]]}
+{"text": "Data in use encryption deployed Intel SGX enclaves for payment service", "entities": []}
+{"text": "Principal Encryption Architect designed KMS architecture with HSM integration for master key protection", "entities": [[0, 30, "ROLE"], [43, 54, "ARCHITECTURE_TYPE"]]}
+{"text": "Column-level encryption deployed for PII fields in customer database", "entities": [[24, 30, "DATA_TYPE"]]}
+{"text": "Certificate lifecycle automation achieved 98% with zero expired certificates in production", "entities": [[0, 11, "CERTIFICATE_TYPE"], [12, 21, "LIFECYCLE_TYPE"], [22, 33, "AUTOMATION_TYPE"], [51, 60, "CERTIFICATE_TYPE"], [65, 75, "ENVIRONMENT"]]}
+{"text": "Principal Encryption Architect designed KMS architecture with HSM integration for master key protection", "entities": [[0, 30, "ROLE"], [43, 54, "ARCHITECTURE_TYPE"]]}
+{"text": "Post-quantum cryptography pilot deployed CRYSTALS-Kyber for key exchange in test environment", "entities": [[0, 16, "ENCRYPTION_TYPE"], [17, 22, "PILOT_TYPE"], [31, 45, "ALGORITHM_TYPE"]]}
+{"text": "HSM Administrator managed Thales Luna HSM with FIPS 140-3 Level 3 certification", "entities": [[0, 17, "ROLE"], [46, 50, "FRAMEWORK"], [51, 54, "FRAMEWORK"]]}
+{"text": "HashiCorp Vault open source secrets management protected 430 credentials", "entities": []}
+{"text": "Encryption false positive rate reduced to 0.5% with improved key management validation", "entities": [[52, 60, "KEY_TYPE"]]}
+{"text": "Post-Quantum Cryptography Specialist assessed migration readiness scoring 65% for PQC adoption", "entities": [[0, 35, "ROLE"]]}
+{"text": "Encryption key access audit logged 5000 access attempts with zero unauthorized access", "entities": []}
+{"text": "Encryption coverage improved to 95% with zero weak cipher usage detected", "entities": [[0, 19, "ENCRYPTION_TYPE"], [20, 27, "COVERAGE_TYPE"], [46, 50, "CIPHER_TYPE"], [51, 56, "CIPHER_TYPE"], [57, 64, "USAGE_TYPE"]]}
+{"text": "Full-disk encryption deployed on 2000 endpoints with BitLocker and FileVault", "entities": [[0, 15, "ENCRYPTION_TYPE"]]}
+{"text": "Certificate transparency monitoring detected 2 unauthorized certificate issuances requiring investigation", "entities": [[0, 11, "CERTIFICATE_TYPE"]]}
+{"text": "Perfect Forward Secrecy validation achieved 100% for all TLS connections", "entities": []}
+{"text": "TLS protocol enforcement blocked 50 connection attempts using weak TLS 1.0", "entities": [[0, 3, "PROTOCOL_TYPE"], [4, 13, "PROTOCOL_TYPE"], [14, 25, "ENFORCEMENT_TYPE"], [32, 34, "COUNT"], [35, 43, "CONNECTION_TYPE"]]}
+{"text": "TLS handshake failure rate reduced to 0.1% with improved certificate validation", "entities": [[0, 3, "PROTOCOL_TYPE"], [4, 13, "HANDSHAKE_TYPE"], [14, 21, "FAILURE_TYPE"]]}
+{"text": "Envelope encryption implemented for 10,000 data objects with master key protection", "entities": [[0, 17, "ENCRYPTION_TYPE"], [26, 32, "COUNT"]]}
+{"text": "Encryption key rotation automation reduced manual effort by 80% with scheduled workflows", "entities": [[0, 19, "ENCRYPTION_TYPE"], [24, 32, "ROTATION_TYPE"]]}
+{"text": "TLS certificate chain validation improved to 100% with automated monitoring and alerting", "entities": [[0, 3, "PROTOCOL_TYPE"], [4, 13, "CERTIFICATE_TYPE"]]}
+{"text": "SOC Analyst monitored encryption logs detecting 3 weak cipher suite usage attempts", "entities": [[0, 10, "ROLE"], [55, 61, "CIPHER_TYPE"]]}
+{"text": "Encryption Strategist defined enterprise encryption policy for data at rest in transit and in use", "entities": [[0, 22, "ROLE"], [41, 50, "POLICY_TYPE"]]}
+{"text": "TLS 1.3 adoption reached 95% across all production endpoints with legacy protocol remediation", "entities": [[0, 3, "PROTOCOL_TYPE"], [4, 7, "PROTOCOL_TYPE"], [8, 15, "ADOPTION_TYPE"]]}
+{"text": "HSM availability maintained at 99.9% uptime with redundant cluster configuration", "entities": []}
+{"text": "Key rotation compliance improved to 96% with automated quarterly rotation schedules", "entities": [[0, 3, "KEY_TYPE"], [4, 12, "ROTATION_TYPE"], [24, 31, "IMPROVEMENT_TYPE"], [54, 63, "TIME_PERIOD"], [64, 73, "ROTATION_TYPE"]]}
+{"text": "Column-level encryption deployed for PII fields in customer database", "entities": [[24, 30, "DATA_TYPE"]]}
+{"text": "Encryption performance benchmark achieved 10Gbps throughput with AES-NI acceleration", "entities": [[0, 19, "ENCRYPTION_TYPE"], [42, 48, "THROUGHPUT_TYPE"]]}
+{"text": "Wazuh detected encryption policy violation with DES algorithm usage in legacy system", "entities": []}
+{"text": "DevOps Engineer automated TLS certificate deployment in CI/CD pipeline with zero manual intervention", "entities": [[0, 15, "ROLE"]]}
+{"text": "Encryption coverage achieved 100% for all databases with TDE enabled", "entities": [[0, 19, "ENCRYPTION_TYPE"], [20, 27, "COVERAGE_TYPE"]]}
+{"text": "Encryption key recovery tested with 98% success rate validating disaster recovery procedures", "entities": [[0, 19, "ENCRYPTION_TYPE"], [20, 23, "KEY_TYPE"]]}
+{"text": "Certificate authority compromise simulation tested key revocation and replacement procedures", "entities": [[0, 11, "CERTIFICATE_TYPE"], [12, 22, "AUTHORITY_TYPE"], [23, 33, "COMPROMISE_TYPE"]]}
+{"text": "File-level encryption enabled for 5000 sensitive documents with AES-256", "entities": [[22, 28, "COUNT"]]}
+{"text": "TLS protocol enforcement blocked 50 connection attempts using weak TLS 1.0", "entities": [[0, 3, "PROTOCOL_TYPE"], [4, 13, "PROTOCOL_TYPE"], [14, 25, "ENFORCEMENT_TYPE"], [32, 34, "COUNT"], [35, 43, "CONNECTION_TYPE"]]}
+{"text": "Encryption key rotation automation reduced manual effort by 80% with scheduled workflows", "entities": [[0, 19, "ENCRYPTION_TYPE"], [24, 32, "ROTATION_TYPE"]]}
+{"text": "Encryption key lifecycle policy enforced automated rotation every 90 days", "entities": [[0, 19, "ENCRYPTION_TYPE"], [20, 23, "KEY_TYPE"]]}
+{"text": "Compliance Framework Tool aligned encryption with NIST and PCI DSS requirements", "entities": []}
+{"text": "Principal Encryption Architect designed KMS architecture with HSM integration for master key protection", "entities": [[0, 30, "ROLE"], [43, 54, "ARCHITECTURE_TYPE"]]}
+{"text": "Data in use encryption deployed Intel SGX enclaves for payment service", "entities": []}
+{"text": "Red Team executed TLS downgrade attack simulation testing encryption protocol enforcement", "entities": []}
+{"text": "Incident Responder handled encryption key compromise rotating 200 affected keys within 2 hours", "entities": [[0, 18, "ROLE"], [38, 41, "KEY_TYPE"], [42, 52, "COMPROMISE_TYPE"]]}
+{"text": "Encryption false positive rate reduced to 1.5% improving key management accuracy", "entities": [[61, 70, "MANAGEMENT_TYPE"]]}
+{"text": "Encryption training completion reached 92% for all security engineers", "entities": [[0, 19, "ENCRYPTION_TYPE"], [60, 69, "ROLE_TYPE"]]}
+{"text": "Crypto-agility roadmap defined migration from RSA-1024 to RSA-3072 and Kyber-512", "entities": [[0, 15, "ROADMAP_TYPE"]]}
+{"text": "Post-quantum cryptography migration timeline defined with 5-year phased approach", "entities": [[0, 16, "ENCRYPTION_TYPE"], [17, 25, "MIGRATION_TYPE"], [26, 34, "TIMELINE_TYPE"], [35, 42, "DEFINITION_TYPE"]]}
+{"text": "Post-quantum cryptography readiness assessment scored 68% with migration plan defined", "entities": [[0, 16, "ENCRYPTION_TYPE"], [17, 25, "READINESS_TYPE"], [26, 36, "ASSESSMENT_TYPE"]]}
+{"text": "Encryption Engineer implemented AES-256-GCM encryption for database at rest with TDE", "entities": [[0, 20, "ROLE"], [31, 39, "ALGORITHM_TYPE"]]}
+{"text": "AWS KMS cloud key management encrypted 5000 S3 objects with envelope encryption", "entities": [[0, 3, "CLOUD_PROVIDER"], [8, 12, "CLOUD_TYPE"], [13, 16, "KEY_TYPE"], [17, 27, "MANAGEMENT_TYPE"]]}
+{"text": "DevOps Engineer automated TLS certificate deployment in CI/CD pipeline with zero manual intervention", "entities": [[0, 15, "ROLE"]]}
+{"text": "Encryption key lifecycle automation achieved 90% with scheduled rotation and revocation", "entities": [[0, 19, "ENCRYPTION_TYPE"], [20, 23, "KEY_TYPE"], [24, 33, "LIFECYCLE_TYPE"]]}
+{"text": "Post-quantum cryptography migration plan defined with 3-year timeline for algorithm transition", "entities": [[0, 16, "ENCRYPTION_TYPE"], [17, 25, "MIGRATION_TYPE"], [26, 30, "PLAN_TYPE"]]}
+{"text": "CISO defined encryption strategy aligned with PCI DSS requirement 3.4 and HIPAA encryption standards", "entities": [[0, 4, "ROLE"], [12, 30, "ENCRYPTION_TYPE"], [91, 100, "STANDARD_TYPE"]]}
+{"text": "Full-disk encryption deployed on 2000 endpoints with BitLocker and FileVault", "entities": [[0, 15, "ENCRYPTION_TYPE"]]}
+{"text": "Encryption key escrow compliance audit passed with 98% control effectiveness", "entities": [[0, 19, "ENCRYPTION_TYPE"], [63, 74, "METRIC_TYPE"]]}
+{"text": "Key rotation compliance improved to 96% with automated quarterly rotation schedules", "entities": [[0, 3, "KEY_TYPE"], [4, 12, "ROTATION_TYPE"], [24, 31, "IMPROVEMENT_TYPE"], [54, 63, "TIME_PERIOD"], [64, 73, "ROTATION_TYPE"]]}
+{"text": "GnuPG encrypted email communications using RSA-4096 and AES-256 algorithms", "entities": [[24, 29, "COMMUNICATION_TYPE"]]}
+{"text": "HSM cluster failover tested with zero data loss and 5-minute recovery time", "entities": []}
+{"text": "Secrets Vault Tool scanned repositories detecting 1 exposed API key requiring rotation", "entities": [[79, 86, "API_TYPE"]]}
+{"text": "Post-quantum cryptography readiness assessment scored 68% with migration plan defined", "entities": [[0, 16, "ENCRYPTION_TYPE"], [17, 25, "READINESS_TYPE"], [26, 36, "ASSESSMENT_TYPE"]]}
+{"text": "Encryption Compliance Analyst validated NIST SP 800-175B compliance for key management", "entities": [[0, 28, "ROLE"]]}
+{"text": "Rogue Crypto Detector found DES in legacy_app and MD5 hashing requiring migration", "entities": [[0, 20, "TOOL"]]}
+{"text": "Stunnel provided TLS tunneling for legacy application connecting to secure API", "entities": []}
+{"text": "Encryption key access audit logged 5000 access attempts with zero unauthorized access", "entities": []}
+{"text": "Encryption key backup and recovery tested with 100% success rate in disaster scenario", "entities": [[0, 19, "ENCRYPTION_TYPE"]]}
+{"text": "Encryption key destruction verified for 200 decommissioned keys with audit trail", "entities": [[0, 19, "ENCRYPTION_TYPE"]]}
+{"text": "AWS KMS cloud key management encrypted 5000 S3 objects with envelope encryption", "entities": [[0, 3, "CLOUD_PROVIDER"], [8, 12, "CLOUD_TYPE"], [13, 16, "KEY_TYPE"], [17, 27, "MANAGEMENT_TYPE"]]}
+{"text": "Encryption Security Tester validated TLS 1.3 implementation with perfect forward secrecy", "entities": [[0, 26, "ROLE"]]}
+{"text": "TLS certificate chain validation improved to 100% with automated monitoring", "entities": [[0, 3, "PROTOCOL_TYPE"], [4, 13, "CERTIFICATE_TYPE"]]}
+{"text": "Multi-region key replication configured for disaster recovery with 99.9% availability", "entities": [[0, 10, "REGION_TYPE"], [18, 28, "REPLICATION_TYPE"]]}
+{"text": "Post-quantum cryptography readiness assessment scored 68% with migration plan defined", "entities": [[0, 16, "ENCRYPTION_TYPE"], [17, 25, "READINESS_TYPE"], [26, 36, "ASSESSMENT_TYPE"]]}
+{"text": "Encryption performance optimization reduced latency by 15% with hardware acceleration", "entities": [[0, 19, "ENCRYPTION_TYPE"]]}
+{"text": "Certbot automated Let's Encrypt certificate issuance for 50 web servers", "entities": []}
+{"text": "Algorithm Reference Tool approved SHA-256 hashing and RSA-3072 for key exchange", "entities": [[0, 20, "TOOL"], [29, 37, "ALGORITHM_TYPE"], [71, 78, "HASHING_TYPE"]]}
+{"text": "Confidential computing deployed Intel SGX enclaves for sensitive data processing", "entities": [[0, 22, "COMPUTING_TYPE"], [37, 40, "TECHNOLOGY_TYPE"], [41, 48, "ENCLAVE_TYPE"]]}
+{"text": "Key Management System Tool enforced AES-256 encryption for 1200 data keys", "entities": []}
+{"text": "TLS certificate chain validation improved to 100% with automated monitoring", "entities": [[0, 3, "PROTOCOL_TYPE"], [4, 13, "CERTIFICATE_TYPE"]]}
+{"text": "Crypto Policy Generator selected AES-256-GCM for data at rest and TLS1.3 for data in transit", "entities": [[0, 22, "TOOL"]]}
+{"text": "TLS Scanner Tool tested 120 endpoints finding 2 weak protocols requiring upgrade", "entities": []}
+{"text": "Cloud Security Engineer implemented envelope encryption for S3 buckets using AWS KMS", "entities": []}
+{"text": "TLS certificate chain validation improved to 100% with automated monitoring and alerting", "entities": [[0, 3, "PROTOCOL_TYPE"], [4, 13, "CERTIFICATE_TYPE"]]}
+{"text": "Encryption compliance audit passed with 94% control effectiveness meeting PCI DSS requirements", "entities": [[0, 19, "ENCRYPTION_TYPE"]]}
+{"text": "Encryption key versioning implemented with rollback capability for failed deployments", "entities": [[0, 19, "ENCRYPTION_TYPE"]]}
+{"text": "Encryption key export compliance validated with zero unauthorized key exports detected", "entities": [[0, 19, "ENCRYPTION_TYPE"]]}
+{"text": "Encryption key escrow compliance achieved 100% with secure backup procedures", "entities": [[0, 19, "ENCRYPTION_TYPE"]]}
+{"text": "TLS Scanner Tool tested 120 endpoints finding 2 weak protocols requiring upgrade", "entities": []}
+{"text": "Session Key Audit validated 98% Perfect Forward Secrecy with 1 legacy load balancer violation", "entities": [[86, 93, "BALANCER_TYPE"]]}
+{"text": "Post-Quantum Cryptography Specialist assessed migration readiness scoring 65% for PQC adoption", "entities": [[0, 35, "ROLE"]]}
+{"text": "Encryption compliance audit score reached 91% with TLS1.0 remediation completed", "entities": [[0, 19, "ENCRYPTION_TYPE"]]}
+{"text": "HSM key generation rate improved to 1000 keys per minute with hardware acceleration", "entities": []}
+{"text": "Wazuh detected encryption policy violation with DES algorithm usage in legacy system", "entities": []}
+{"text": "Encryption key recovery tested with 98% success rate validating disaster recovery procedures", "entities": [[0, 19, "ENCRYPTION_TYPE"], [20, 23, "KEY_TYPE"]]}
+{"text": "Database Administrator configured Transparent Data Encryption for SQL Server databases", "entities": [[0, 22, "ROLE"]]}
+{"text": "Column-level encryption deployed for PII fields in customer database", "entities": [[24, 30, "DATA_TYPE"]]}
+{"text": "Homomorphic encryption enabled privacy-preserving machine learning on encrypted datasets", "entities": [[0, 22, "ENCRYPTION_TYPE"], [36, 45, "PRIVACY_TYPE"]]}
+{"text": "StrongSwan configured IPSec VPN encryption with AES-256-GCM and SHA-384 authentication", "entities": []}
+{"text": "Certificate transparency monitoring detected 2 unauthorized certificate issuances requiring investigation", "entities": [[0, 11, "CERTIFICATE_TYPE"]]}
+{"text": "Pen Tester identified key exposure risk in application logging requiring immediate remediation", "entities": [[0, 10, "ROLE"]]}
+{"text": "Envelope encryption implemented for 10,000 data objects with master key protection", "entities": [[0, 17, "ENCRYPTION_TYPE"], [26, 32, "COUNT"]]}
+{"text": "Crypto-agility framework implemented supporting algorithm upgrades without service disruption", "entities": [[0, 15, "FRAMEWORK_TYPE"], [16, 25, "FRAMEWORK_TYPE"]]}
+{"text": "DigiCert CertCentral automated TLS certificate renewal for 300 domains with zero downtime", "entities": []}
+{"text": "Secrets Vault Tool scanned repositories detecting 1 exposed API key requiring rotation", "entities": [[79, 86, "API_TYPE"]]}
+{"text": "Encryption key access logging achieved 100% coverage with real-time alerting", "entities": [[30, 37, "LOGGING_TYPE"], [58, 66, "ALERTING_TYPE"]]}
+{"text": "Encryption key access logging achieved 100% coverage with real-time alerting", "entities": [[30, 37, "LOGGING_TYPE"], [58, 66, "ALERTING_TYPE"]]}
+{"text": "Encryption key access control validated with role-based permissions and audit logging", "entities": []}
+{"text": "Encryption key lifecycle automation achieved 90% with scheduled rotation and revocation", "entities": [[0, 19, "ENCRYPTION_TYPE"], [20, 23, "KEY_TYPE"], [24, 33, "LIFECYCLE_TYPE"]]}
+{"text": "Encryption Security Tester validated TLS 1.3 implementation with perfect forward secrecy", "entities": [[0, 26, "ROLE"]]}
+{"text": "Encryption key export policy enforced preventing unauthorized key transfers", "entities": [[0, 19, "ENCRYPTION_TYPE"]]}
+{"text": "HSM Integration Tool managed 12 master keys with dual-control and key recovery", "entities": []}
+{"text": "HSM key generation rate improved to 1000 keys per minute with hardware acceleration", "entities": []}
+{"text": "Thales key management system managed encryption keys with FIPS 140-3 compliance", "entities": []}
+{"text": "Perfect Forward Secrecy validation achieved 100% for all TLS connections", "entities": []}
+{"text": "IBM Key Protect managed enterprise encryption keys with HSM-backed key storage", "entities": [[71, 78, "STORAGE_TYPE"]]}
+{"text": "Certificate transparency monitoring detected 2 unauthorized certificate issuances requiring investigation", "entities": [[0, 11, "CERTIFICATE_TYPE"]]}
+{"text": "Encryption key backup and recovery tested with 100% success rate in disaster scenario", "entities": [[0, 19, "ENCRYPTION_TYPE"]]}
+{"text": "PQC Readiness Tracker monitored adoption of NIST PQC algorithms with 72% readiness score", "entities": [[0, 19, "TOOL"], [24, 32, "READINESS_TYPE"], [33, 40, "TRACKER_TYPE"], [49, 53, "FRAMEWORK"]]}
+{"text": "Rogue Crypto Detector found DES in legacy_app and MD5 hashing requiring migration", "entities": [[0, 20, "TOOL"]]}
+{"text": "Encryption Strategist defined enterprise encryption policy for data at rest in transit and in use", "entities": [[0, 22, "ROLE"], [41, 50, "POLICY_TYPE"]]}
+{"text": "DigiCert CertCentral automated TLS certificate renewal for 300 domains with zero downtime", "entities": []}
+{"text": "TLS handshake failure rate reduced to 0.1% with improved certificate validation", "entities": [[0, 3, "PROTOCOL_TYPE"], [4, 13, "HANDSHAKE_TYPE"], [14, 21, "FAILURE_TYPE"]]}
+{"text": "Encryption key lifecycle automation coverage reached 95% with manual processes eliminated", "entities": [[0, 19, "ENCRYPTION_TYPE"], [20, 23, "KEY_TYPE"], [24, 33, "LIFECYCLE_TYPE"], [45, 52, "COVERAGE_TYPE"]]}
+{"text": "Encryption key backup and recovery tested with 100% success rate in disaster scenario", "entities": [[0, 19, "ENCRYPTION_TYPE"]]}
+{"text": "Encryption key export compliance validated with zero unauthorized key exports detected", "entities": [[0, 19, "ENCRYPTION_TYPE"]]}
+{"text": "Encryption coverage improved to 95% with zero weak cipher usage detected", "entities": [[0, 19, "ENCRYPTION_TYPE"], [20, 27, "COVERAGE_TYPE"], [46, 50, "CIPHER_TYPE"], [51, 56, "CIPHER_TYPE"], [57, 64, "USAGE_TYPE"]]}
+{"text": "Encryption key export policy enforced preventing unauthorized key transfers", "entities": [[0, 19, "ENCRYPTION_TYPE"]]}
+{"text": "HSM cluster failover tested with zero data loss and 5-minute recovery time", "entities": []}
+{"text": "Encryption training completion reached 90% for all crypto engineers", "entities": [[0, 19, "ENCRYPTION_TYPE"], [58, 67, "ROLE_TYPE"]]}
+{"text": "Encryption training completion reached 90% for all crypto engineers", "entities": [[0, 19, "ENCRYPTION_TYPE"], [58, 67, "ROLE_TYPE"]]}
+{"text": "Wazuh detected encryption policy violation with DES algorithm usage in legacy system", "entities": []}
+{"text": "Encryption key lifecycle policy enforced automated rotation every 90 days", "entities": [[0, 19, "ENCRYPTION_TYPE"], [20, 23, "KEY_TYPE"]]}
+{"text": "Encryption Strategist defined enterprise encryption policy for data at rest in transit and in use", "entities": [[0, 22, "ROLE"], [41, 50, "POLICY_TYPE"]]}
+{"text": "Envelope encryption implemented for 10,000 data objects with master key protection", "entities": [[0, 17, "ENCRYPTION_TYPE"], [26, 32, "COUNT"]]}
+{"text": "Encryption Engineer implemented AES-256-GCM encryption for database at rest with TDE", "entities": [[0, 20, "ROLE"], [31, 39, "ALGORITHM_TYPE"]]}
+{"text": "Post-quantum cryptography readiness improved to 75% with algorithm testing completed", "entities": [[0, 16, "ENCRYPTION_TYPE"], [17, 25, "READINESS_TYPE"], [26, 34, "IMPROVEMENT_TYPE"], [57, 64, "TESTING_TYPE"]]}
+{"text": "Encryption Compliance Analyst validated NIST SP 800-175B compliance for key management", "entities": [[0, 28, "ROLE"]]}
+{"text": "Encryption performance optimization reduced latency by 15% with hardware acceleration", "entities": [[0, 19, "ENCRYPTION_TYPE"]]}
+{"text": "Encryption false positive rate reduced to 1.5% improving key management accuracy", "entities": [[61, 70, "MANAGEMENT_TYPE"]]}
+{"text": "CISO defined encryption strategy aligned with PCI DSS requirement 3.4 and HIPAA encryption standards", "entities": [[0, 4, "ROLE"], [12, 30, "ENCRYPTION_TYPE"], [91, 100, "STANDARD_TYPE"]]}
+{"text": "Post-quantum cryptography migration timeline defined with 5-year phased approach", "entities": [[0, 16, "ENCRYPTION_TYPE"], [17, 25, "MIGRATION_TYPE"], [26, 34, "TIMELINE_TYPE"], [35, 42, "DEFINITION_TYPE"]]}
+{"text": "PQC Readiness Tracker monitored adoption of NIST PQC algorithms with 72% readiness score", "entities": [[0, 19, "TOOL"], [24, 32, "READINESS_TYPE"], [33, 40, "TRACKER_TYPE"], [49, 53, "FRAMEWORK"]]}
+{"text": "Wazuh detected encryption policy violation with DES algorithm usage in legacy system", "entities": []}
+{"text": "Confidential computing deployed Intel SGX enclaves for sensitive data processing", "entities": [[0, 22, "COMPUTING_TYPE"], [37, 40, "TECHNOLOGY_TYPE"], [41, 48, "ENCLAVE_TYPE"]]}
+{"text": "Homomorphic encryption enabled privacy-preserving machine learning on encrypted datasets", "entities": [[0, 22, "ENCRYPTION_TYPE"], [36, 45, "PRIVACY_TYPE"]]}
+{"text": "TLS protocol enforcement blocked 50 connection attempts using weak TLS 1.0", "entities": [[0, 3, "PROTOCOL_TYPE"], [4, 13, "PROTOCOL_TYPE"], [14, 25, "ENFORCEMENT_TYPE"], [32, 34, "COUNT"], [35, 43, "CONNECTION_TYPE"]]}
+{"text": "Google Cloud KMS encrypted 5000 cloud storage objects with customer-managed encryption keys", "entities": [[0, 6, "CLOUD_PROVIDER"], [7, 11, "CLOUD_PROVIDER"], [16, 37, "ENCRYPTION_TYPE"], [65, 72, "OBJECT_TYPE"], [77, 85, "MANAGEMENT_TYPE"]]}
+{"text": "OpenSSL cryptographic library validated TLS 1.3 connections with secure cipher suites", "entities": [[8, 25, "TOOL"]]}
+{"text": "Encryption false positive rate reduced to 0.5% with improved key management validation", "entities": [[52, 60, "KEY_TYPE"]]}
+{"text": "Crypto-agility roadmap defined migration from RSA-1024 to RSA-3072 and Kyber-512", "entities": [[0, 15, "ROADMAP_TYPE"]]}
+{"text": "Secrets vault integration completed for 100% of applications with API key rotation", "entities": [[0, 7, "SECRET_TYPE"], [8, 13, "VAULT_TYPE"], [14, 25, "INTEGRATION_TYPE"], [48, 58, "APPLICATION_TYPE"]]}
+{"text": "Encryption key escrow implemented with secure backup and recovery procedures", "entities": [[0, 19, "ENCRYPTION_TYPE"], [24, 30, "ESCROW_TYPE"]]}
+{"text": "Encryption key escrow implemented with secure backup and recovery procedures", "entities": [[0, 19, "ENCRYPTION_TYPE"], [24, 30, "ESCROW_TYPE"]]}
+{"text": "Encryption coverage achieved 100% for all databases with TDE enabled", "entities": [[0, 19, "ENCRYPTION_TYPE"], [20, 27, "COVERAGE_TYPE"]]}
+{"text": "Can you help me with this?", "entities": []}
+{"text": "I need to check something.", "entities": []}
+{"text": "What is the status?", "entities": []}
+{"text": "How do I do this?", "entities": []}
+{"text": "Tell me more about it.", "entities": []}
+{"text": "Is this safe to use?", "entities": []}
+{"text": "Let me know if you need anything.", "entities": []}
+{"text": "Thanks for your help.", "entities": []}
+{"text": "I will get back to you.", "entities": []}
+{"text": "Please review this document.", "entities": []}
+{"text": "What should I do next?", "entities": []}
+{"text": "How does this work?", "entities": []}
+{"text": "Why is this happening?", "entities": []}
+{"text": "When will this be ready?", "entities": []}
+{"text": "Where can I find this?", "entities": []}
+{"text": "Who should I contact?", "entities": []}
+{"text": "Hey, what's up?", "entities": []}
+{"text": "That's interesting.", "entities": []}
+{"text": "I see what you mean.", "entities": []}
+{"text": "That makes sense.", "entities": []}
+{"text": "Got it, thanks.", "entities": []}
+{"text": "Follow the steps carefully.", "entities": []}
+{"text": "Make sure to save your work.", "entities": []}
+{"text": "Check the settings first.", "entities": []}
+{"text": "Review the documentation.", "entities": []}
+{"text": "Read the instructions.", "entities": []}
+{"text": "This is important.", "entities": []}
+{"text": "That looks good.", "entities": []}
+{"text": "Everything seems fine.", "entities": []}
+{"text": "Nothing to report.", "entities": []}
+{"text": "All systems operational.", "entities": []}
+{"text": "The system is secure.", "entities": []}
+{"text": "All checks passed.", "entities": []}
+{"text": "No issues detected.", "entities": []}
+{"text": "Everything is working correctly.", "entities": []}
+{"text": "The configuration looks good.", "entities": []}
+{"text": "No vulnerabilities found.", "entities": []}
+{"text": "Security measures are in place.", "entities": []}
+{"text": "The audit was successful.", "entities": []}
+{"text": "The information is verified.", "entities": []}
+{"text": "Sources are reliable.", "entities": []}
+{"text": "The data is consistent.", "entities": []}
+{"text": "No discrepancies found.", "entities": []}
+{"text": "The analysis is complete.", "entities": []}

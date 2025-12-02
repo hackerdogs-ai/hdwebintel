@@ -1,0 +1,242 @@
+{"text": "Can you help me with this?", "entities": []}
+{"text": "I need to check something.", "entities": []}
+{"text": "What is the status?", "entities": []}
+{"text": "How do I do this?", "entities": []}
+{"text": "Tell me more about it.", "entities": []}
+{"text": "Is this safe to use?", "entities": []}
+{"text": "Let me know if you need anything.", "entities": []}
+{"text": "Thanks for your help.", "entities": []}
+{"text": "I will get back to you.", "entities": []}
+{"text": "Please review this document.", "entities": []}
+{"text": "What should I do next?", "entities": []}
+{"text": "How does this work?", "entities": []}
+{"text": "Why is this happening?", "entities": []}
+{"text": "When will this be ready?", "entities": []}
+{"text": "Where can I find this?", "entities": []}
+{"text": "Who should I contact?", "entities": []}
+{"text": "Hey, what's up?", "entities": []}
+{"text": "That's interesting.", "entities": []}
+{"text": "I see what you mean.", "entities": []}
+{"text": "That makes sense.", "entities": []}
+{"text": "Got it, thanks.", "entities": []}
+{"text": "Follow the steps carefully.", "entities": []}
+{"text": "Make sure to save your work.", "entities": []}
+{"text": "Check the settings first.", "entities": []}
+{"text": "Review the documentation.", "entities": []}
+{"text": "Read the instructions.", "entities": []}
+{"text": "This is important.", "entities": []}
+{"text": "That looks good.", "entities": []}
+{"text": "Everything seems fine.", "entities": []}
+{"text": "Nothing to report.", "entities": []}
+{"text": "All systems operational.", "entities": []}
+{"text": "The system is secure.", "entities": []}
+{"text": "All checks passed.", "entities": []}
+{"text": "No issues detected.", "entities": []}
+{"text": "Everything is working correctly.", "entities": []}
+{"text": "The configuration looks good.", "entities": []}
+{"text": "No vulnerabilities found.", "entities": []}
+{"text": "Security measures are in place.", "entities": []}
+{"text": "The audit was successful.", "entities": []}
+{"text": "The information is verified.", "entities": []}
+{"text": "Sources are reliable.", "entities": []}
+{"text": "The data is consistent.", "entities": []}
+{"text": "No discrepancies found.", "entities": []}
+{"text": "The analysis is complete.", "entities": []}
+{"text": "All sources checked.", "entities": []}
+{"text": "The report is ready.", "entities": []}
+{"text": "The process completed successfully.", "entities": []}
+{"text": "All tests passed.", "entities": []}
+{"text": "The system is functioning normally.", "entities": []}
+{"text": "No errors occurred.", "entities": []}
+{"text": "The operation was successful.", "entities": []}
+{"text": "Everything is configured correctly.", "entities": []}
+{"text": "I need to investigate this.", "entities": []}
+{"text": "Can you check this for me?", "entities": []}
+{"text": "Is this safe to use?", "entities": []}
+{"text": "What's the status?", "entities": []}
+{"text": "How do I proceed?", "entities": []}
+{"text": "Tell me what you think.", "entities": []}
+{"text": "Let me know if you need help.", "entities": []}
+{"text": "Thanks for the information.", "entities": []}
+{"text": "I will follow up on this.", "entities": []}
+{"text": "Please keep me updated.", "entities": []}
+{"text": "The word 'investigate' appears in the text.", "entities": []}
+{"text": "The phrase 'check this' is common.", "entities": []}
+{"text": "The term 'safe' is used frequently.", "entities": []}
+{"text": "The word 'me' is a pronoun.", "entities": []}
+{"text": "The phrase 'I need' is common.", "entities": []}
+{"text": "The word 'hey' is informal.", "entities": []}
+{"text": "The security team reviewed the findings.", "entities": []}
+{"text": "The investigation is ongoing.", "entities": []}
+{"text": "The analysis revealed no issues.", "entities": []}
+{"text": "The system is operating normally.", "entities": []}
+{"text": "All security controls are active.", "entities": []}
+{"text": "The monitoring is working correctly.", "entities": []}
+{"text": "The alert was a false positive.", "entities": []}
+{"text": "The scan completed without issues.", "entities": []}
+{"text": "The report shows no anomalies.", "entities": []}
+{"text": "The data is consistent across sources.", "entities": []}
+{"text": "The source verification is complete.", "entities": []}
+{"text": "The information was cross-referenced.", "entities": []}
+{"text": "The analysis confirms the findings.", "entities": []}
+{"text": "The data points are consistent.", "entities": []}
+{"text": "The investigation found nothing suspicious.", "entities": []}
+{"text": "The review process is standard.", "entities": []}
+{"text": "The verification steps were followed.", "entities": []}
+{"text": "The information is reliable.", "entities": []}
+{"text": "The sources are credible.", "entities": []}
+{"text": "The analysis methodology is sound.", "entities": []}
+{"text": "The system is working.", "entities": []}
+{"text": "The system is operational.", "entities": []}
+{"text": "The system is functional.", "entities": []}
+{"text": "The system is active.", "entities": []}
+{"text": "The system is ready.", "entities": []}
+{"text": "The system is complete.", "entities": []}
+{"text": "The process is working.", "entities": []}
+{"text": "The process is operational.", "entities": []}
+{"text": "The process is functional.", "entities": []}
+{"text": "The process is active.", "entities": []}
+{"text": "The process is ready.", "entities": []}
+{"text": "The process is complete.", "entities": []}
+{"text": "The function is working.", "entities": []}
+{"text": "The function is operational.", "entities": []}
+{"text": "The function is functional.", "entities": []}
+{"text": "The function is active.", "entities": []}
+{"text": "The function is ready.", "entities": []}
+{"text": "The function is complete.", "entities": []}
+{"text": "The feature is working.", "entities": []}
+{"text": "The feature is operational.", "entities": []}
+{"text": "The feature is functional.", "entities": []}
+{"text": "The feature is active.", "entities": []}
+{"text": "The feature is ready.", "entities": []}
+{"text": "The feature is complete.", "entities": []}
+{"text": "The component is working.", "entities": []}
+{"text": "The component is operational.", "entities": []}
+{"text": "The component is functional.", "entities": []}
+{"text": "The component is active.", "entities": []}
+{"text": "The component is ready.", "entities": []}
+{"text": "The component is complete.", "entities": []}
+{"text": "The module is working.", "entities": []}
+{"text": "The module is operational.", "entities": []}
+{"text": "The module is functional.", "entities": []}
+{"text": "The module is active.", "entities": []}
+{"text": "The module is ready.", "entities": []}
+{"text": "The module is complete.", "entities": []}
+{"text": "The service is working.", "entities": []}
+{"text": "The service is operational.", "entities": []}
+{"text": "The service is functional.", "entities": []}
+{"text": "The service is active.", "entities": []}
+{"text": "The service is ready.", "entities": []}
+{"text": "The service is complete.", "entities": []}
+{"text": "All system are working.", "entities": []}
+{"text": "All system are operational.", "entities": []}
+{"text": "All system are functional.", "entities": []}
+{"text": "All system are active.", "entities": []}
+{"text": "All system are ready.", "entities": []}
+{"text": "All system are complete.", "entities": []}
+{"text": "All process are working.", "entities": []}
+{"text": "All process are operational.", "entities": []}
+{"text": "All process are functional.", "entities": []}
+{"text": "All process are active.", "entities": []}
+{"text": "All process are ready.", "entities": []}
+{"text": "All process are complete.", "entities": []}
+{"text": "All function are working.", "entities": []}
+{"text": "All function are operational.", "entities": []}
+{"text": "All function are functional.", "entities": []}
+{"text": "All function are active.", "entities": []}
+{"text": "All function are ready.", "entities": []}
+{"text": "All function are complete.", "entities": []}
+{"text": "All feature are working.", "entities": []}
+{"text": "All feature are operational.", "entities": []}
+{"text": "All feature are functional.", "entities": []}
+{"text": "All feature are active.", "entities": []}
+{"text": "All feature are ready.", "entities": []}
+{"text": "All feature are complete.", "entities": []}
+{"text": "All component are working.", "entities": []}
+{"text": "All component are operational.", "entities": []}
+{"text": "All component are functional.", "entities": []}
+{"text": "All component are active.", "entities": []}
+{"text": "All component are ready.", "entities": []}
+{"text": "All component are complete.", "entities": []}
+{"text": "All module are working.", "entities": []}
+{"text": "All module are operational.", "entities": []}
+{"text": "All module are functional.", "entities": []}
+{"text": "All module are active.", "entities": []}
+{"text": "All module are ready.", "entities": []}
+{"text": "All module are complete.", "entities": []}
+{"text": "All service are working.", "entities": []}
+{"text": "All service are operational.", "entities": []}
+{"text": "All service are functional.", "entities": []}
+{"text": "All service are active.", "entities": []}
+{"text": "All service are ready.", "entities": []}
+{"text": "All service are complete.", "entities": []}
+{"text": "The system was completed.", "entities": []}
+{"text": "The system was finished.", "entities": []}
+{"text": "The system was done.", "entities": []}
+{"text": "The system was executed.", "entities": []}
+{"text": "The system was processed.", "entities": []}
+{"text": "The process was completed.", "entities": []}
+{"text": "The process was finished.", "entities": []}
+{"text": "The process was done.", "entities": []}
+{"text": "The process was executed.", "entities": []}
+{"text": "The process was processed.", "entities": []}
+{"text": "The function was completed.", "entities": []}
+{"text": "The function was finished.", "entities": []}
+{"text": "The function was done.", "entities": []}
+{"text": "The function was executed.", "entities": []}
+{"text": "The function was processed.", "entities": []}
+{"text": "The feature was completed.", "entities": []}
+{"text": "The feature was finished.", "entities": []}
+{"text": "The feature was done.", "entities": []}
+{"text": "The feature was executed.", "entities": []}
+{"text": "The feature was processed.", "entities": []}
+{"text": "The component was completed.", "entities": []}
+{"text": "The component was finished.", "entities": []}
+{"text": "The component was done.", "entities": []}
+{"text": "The component was executed.", "entities": []}
+{"text": "The component was processed.", "entities": []}
+{"text": "The module was completed.", "entities": []}
+{"text": "The module was finished.", "entities": []}
+{"text": "The module was done.", "entities": []}
+{"text": "The module was executed.", "entities": []}
+{"text": "The module was processed.", "entities": []}
+{"text": "The service was completed.", "entities": []}
+{"text": "The service was finished.", "entities": []}
+{"text": "The service was done.", "entities": []}
+{"text": "The service was executed.", "entities": []}
+{"text": "The service was processed.", "entities": []}
+{"text": "The system needs to be completed.", "entities": []}
+{"text": "The system needs to be finished.", "entities": []}
+{"text": "The system needs to be done.", "entities": []}
+{"text": "The system needs to be executed.", "entities": []}
+{"text": "The system needs to be processed.", "entities": []}
+{"text": "The process needs to be completed.", "entities": []}
+{"text": "The process needs to be finished.", "entities": []}
+{"text": "The process needs to be done.", "entities": []}
+{"text": "The process needs to be executed.", "entities": []}
+{"text": "The process needs to be processed.", "entities": []}
+{"text": "The function needs to be completed.", "entities": []}
+{"text": "The function needs to be finished.", "entities": []}
+{"text": "The function needs to be done.", "entities": []}
+{"text": "The function needs to be executed.", "entities": []}
+{"text": "The function needs to be processed.", "entities": []}
+{"text": "The feature needs to be completed.", "entities": []}
+{"text": "The feature needs to be finished.", "entities": []}
+{"text": "The feature needs to be done.", "entities": []}
+{"text": "The feature needs to be executed.", "entities": []}
+{"text": "The feature needs to be processed.", "entities": []}
+{"text": "The component needs to be completed.", "entities": []}
+{"text": "The component needs to be finished.", "entities": []}
+{"text": "The component needs to be done.", "entities": []}
+{"text": "The component needs to be executed.", "entities": []}
+{"text": "The component needs to be processed.", "entities": []}
+{"text": "The module needs to be completed.", "entities": []}
+{"text": "The module needs to be finished.", "entities": []}
+{"text": "The module needs to be done.", "entities": []}
+{"text": "The module needs to be executed.", "entities": []}
+{"text": "The module needs to be processed.", "entities": []}
+{"text": "The service needs to be completed.", "entities": []}
+{"text": "The service needs to be finished.", "entities": []}
+{"text": "The service needs to be done.", "entities": []}
+{"text": "The service needs to be executed.", "entities": []}
+{"text": "The service needs to be processed.", "entities": []}

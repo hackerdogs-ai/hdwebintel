@@ -1,0 +1,454 @@
+{
+  "summary": {
+    "total_files": 49,
+    "total_lines": 20922,
+    "total_entities": 83364,
+    "accurate_entities": 83364,
+    "inaccurate_entities": 0,
+    "overall_accuracy": 100.0,
+    "issues_by_type": {}
+  },
+  "files": [
+    {
+      "file": "cyber-train/entities-intent/ai_security/ai_security_entities.jsonl",
+      "total_lines": 994,
+      "total_entities": 1952,
+      "accurate_entities": 1952,
+      "inaccurate_entities": 0,
+      "issues_by_type": {},
+      "entity_details": []
+    },
+    {
+      "file": "cyber-train/entities-intent/api_security/api_security_entities.jsonl",
+      "total_lines": 440,
+      "total_entities": 1240,
+      "accurate_entities": 1240,
+      "inaccurate_entities": 0,
+      "issues_by_type": {},
+      "entity_details": []
+    },
+    {
+      "file": "cyber-train/entities-intent/application_security/application_security_entities.jsonl",
+      "total_lines": 458,
+      "total_entities": 1052,
+      "accurate_entities": 1052,
+      "inaccurate_entities": 0,
+      "issues_by_type": {},
+      "entity_details": []
+    },
+    {
+      "file": "cyber-train/entities-intent/audit_compliance/audit_compliance_entities.jsonl",
+      "total_lines": 454,
+      "total_entities": 1108,
+      "accurate_entities": 1108,
+      "inaccurate_entities": 0,
+      "issues_by_type": {},
+      "entity_details": []
+    },
+    {
+      "file": "cyber-train/entities-intent/authentication/authentication_entities.jsonl",
+      "total_lines": 440,
+      "total_entities": 1316,
+      "accurate_entities": 1316,
+      "inaccurate_entities": 0,
+      "issues_by_type": {},
+      "entity_details": []
+    },
+    {
+      "file": "cyber-train/entities-intent/authorization/authorization_entities.jsonl",
+      "total_lines": 440,
+      "total_entities": 1356,
+      "accurate_entities": 1356,
+      "inaccurate_entities": 0,
+      "issues_by_type": {},
+      "entity_details": []
+    },
+    {
+      "file": "cyber-train/entities-intent/cloud_security_cnapp/cloud_security_cnapp_entities.jsonl",
+      "total_lines": 458,
+      "total_entities": 1272,
+      "accurate_entities": 1272,
+      "inaccurate_entities": 0,
+      "issues_by_type": {},
+      "entity_details": []
+    },
+    {
+      "file": "cyber-train/entities-intent/container_security/container_security_entities.jsonl",
+      "total_lines": 440,
+      "total_entities": 1504,
+      "accurate_entities": 1504,
+      "inaccurate_entities": 0,
+      "issues_by_type": {},
+      "entity_details": []
+    },
+    {
+      "file": "cyber-train/entities-intent/data_privacy_sovereignty/data_privacy_sovereignty_entities.jsonl",
+      "total_lines": 462,
+      "total_entities": 1168,
+      "accurate_entities": 1168,
+      "inaccurate_entities": 0,
+      "issues_by_type": {},
+      "entity_details": []
+    },
+    {
+      "file": "cyber-train/entities-intent/data_protection_backup/data_protection_backup_entities.jsonl",
+      "total_lines": 462,
+      "total_entities": 1580,
+      "accurate_entities": 1580,
+      "inaccurate_entities": 0,
+      "issues_by_type": {},
+      "entity_details": []
+    },
+    {
+      "file": "cyber-train/entities-intent/detection_correlation/detection_correlation_entities.jsonl",
+      "total_lines": 440,
+      "total_entities": 1232,
+      "accurate_entities": 1232,
+      "inaccurate_entities": 0,
+      "issues_by_type": {},
+      "entity_details": []
+    },
+    {
+      "file": "cyber-train/entities-intent/disaster_recovery/disaster_recovery_entities.jsonl",
+      "total_lines": 440,
+      "total_entities": 1244,
+      "accurate_entities": 1244,
+      "inaccurate_entities": 0,
+      "issues_by_type": {},
+      "entity_details": []
+    },
+    {
+      "file": "cyber-train/entities-intent/due_diligence/due_diligence_entities.jsonl",
+      "total_lines": 145,
+      "total_entities": 392,
+      "accurate_entities": 392,
+      "inaccurate_entities": 0,
+      "issues_by_type": {},
+      "entity_details": []
+    },
+    {
+      "file": "cyber-train/entities-intent/encryption/encryption_entities.jsonl",
+      "total_lines": 484,
+      "total_entities": 1624,
+      "accurate_entities": 1624,
+      "inaccurate_entities": 0,
+      "issues_by_type": {},
+      "entity_details": []
+    },
+    {
+      "file": "cyber-train/entities-intent/endpoint_security/endpoint_security_entities.jsonl",
+      "total_lines": 440,
+      "total_entities": 1560,
+      "accurate_entities": 1560,
+      "inaccurate_entities": 0,
+      "issues_by_type": {},
+      "entity_details": []
+    },
+    {
+      "file": "cyber-train/entities-intent/governance_risk_strategy/governance_risk_strategy_entities.jsonl",
+      "total_lines": 440,
+      "total_entities": 1380,
+      "accurate_entities": 1380,
+      "inaccurate_entities": 0,
+      "issues_by_type": {},
+      "entity_details": []
+    },
+    {
+      "file": "cyber-train/entities-intent/identity_governance_iga/identity_governance_iga_entities.jsonl",
+      "total_lines": 150,
+      "total_entities": 480,
+      "accurate_entities": 480,
+      "inaccurate_entities": 0,
+      "issues_by_type": {},
+      "entity_details": []
+    },
+    {
+      "file": "cyber-train/entities-intent/incident_response/incident_response_entities.jsonl",
+      "total_lines": 141,
+      "total_entities": 376,
+      "accurate_entities": 376,
+      "inaccurate_entities": 0,
+      "issues_by_type": {},
+      "entity_details": []
+    },
+    {
+      "file": "cyber-train/entities-intent/network_security/network_security_entities.jsonl",
+      "total_lines": 458,
+      "total_entities": 1604,
+      "accurate_entities": 1604,
+      "inaccurate_entities": 0,
+      "issues_by_type": {},
+      "entity_details": []
+    },
+    {
+      "file": "cyber-train/entities-intent/osint/ai-int/ai-int_entities.jsonl",
+      "total_lines": 448,
+      "total_entities": 3340,
+      "accurate_entities": 3340,
+      "inaccurate_entities": 0,
+      "issues_by_type": {},
+      "entity_details": []
+    },
+    {
+      "file": "cyber-train/entities-intent/osint/comint/comint_entities.jsonl",
+      "total_lines": 444,
+      "total_entities": 2288,
+      "accurate_entities": 2288,
+      "inaccurate_entities": 0,
+      "issues_by_type": {},
+      "entity_details": []
+    },
+    {
+      "file": "cyber-train/entities-intent/osint/cybint/cybint_entities.jsonl",
+      "total_lines": 448,
+      "total_entities": 1704,
+      "accurate_entities": 1704,
+      "inaccurate_entities": 0,
+      "issues_by_type": {},
+      "entity_details": []
+    },
+    {
+      "file": "cyber-train/entities-intent/osint/darkint/darkint_entities.jsonl",
+      "total_lines": 444,
+      "total_entities": 2228,
+      "accurate_entities": 2228,
+      "inaccurate_entities": 0,
+      "issues_by_type": {},
+      "entity_details": []
+    },
+    {
+      "file": "cyber-train/entities-intent/osint/digint/digint_entities.jsonl",
+      "total_lines": 440,
+      "total_entities": 2548,
+      "accurate_entities": 2548,
+      "inaccurate_entities": 0,
+      "issues_by_type": {},
+      "entity_details": []
+    },
+    {
+      "file": "cyber-train/entities-intent/osint/dnint/dnint_entities.jsonl",
+      "total_lines": 440,
+      "total_entities": 2424,
+      "accurate_entities": 2424,
+      "inaccurate_entities": 0,
+      "issues_by_type": {},
+      "entity_details": []
+    },
+    {
+      "file": "cyber-train/entities-intent/osint/domain_intel/domain_intel_entities.jsonl",
+      "total_lines": 448,
+      "total_entities": 2580,
+      "accurate_entities": 2580,
+      "inaccurate_entities": 0,
+      "issues_by_type": {},
+      "entity_details": []
+    },
+    {
+      "file": "cyber-train/entities-intent/osint/ecoint/ecoint_entities.jsonl",
+      "total_lines": 440,
+      "total_entities": 2624,
+      "accurate_entities": 2624,
+      "inaccurate_entities": 0,
+      "issues_by_type": {},
+      "entity_details": []
+    },
+    {
+      "file": "cyber-train/entities-intent/osint/eduint/eduint_entities.jsonl",
+      "total_lines": 440,
+      "total_entities": 1728,
+      "accurate_entities": 1728,
+      "inaccurate_entities": 0,
+      "issues_by_type": {},
+      "entity_details": []
+    },
+    {
+      "file": "cyber-train/entities-intent/osint/finint/finint_entities.jsonl",
+      "total_lines": 448,
+      "total_entities": 2588,
+      "accurate_entities": 2588,
+      "inaccurate_entities": 0,
+      "issues_by_type": {},
+      "entity_details": []
+    },
+    {
+      "file": "cyber-train/entities-intent/osint/geoint/geoint_entities.jsonl",
+      "total_lines": 457,
+      "total_entities": 2924,
+      "accurate_entities": 2924,
+      "inaccurate_entities": 0,
+      "issues_by_type": {},
+      "entity_details": []
+    },
+    {
+      "file": "cyber-train/entities-intent/osint/humint/humint_entities.jsonl",
+      "total_lines": 448,
+      "total_entities": 3680,
+      "accurate_entities": 3680,
+      "inaccurate_entities": 0,
+      "issues_by_type": {},
+      "entity_details": []
+    },
+    {
+      "file": "cyber-train/entities-intent/osint/imint/imint_entities.jsonl",
+      "total_lines": 440,
+      "total_entities": 2252,
+      "accurate_entities": 2252,
+      "inaccurate_entities": 0,
+      "issues_by_type": {},
+      "entity_details": []
+    },
+    {
+      "file": "cyber-train/entities-intent/osint/infint/infint_entities.jsonl",
+      "total_lines": 440,
+      "total_entities": 1848,
+      "accurate_entities": 1848,
+      "inaccurate_entities": 0,
+      "issues_by_type": {},
+      "entity_details": []
+    },
+    {
+      "file": "cyber-train/entities-intent/osint/legint/legint_entities.jsonl",
+      "total_lines": 440,
+      "total_entities": 2020,
+      "accurate_entities": 2020,
+      "inaccurate_entities": 0,
+      "issues_by_type": {},
+      "entity_details": []
+    },
+    {
+      "file": "cyber-train/entities-intent/osint/masint/masint_entities.jsonl",
+      "total_lines": 440,
+      "total_entities": 2080,
+      "accurate_entities": 2080,
+      "inaccurate_entities": 0,
+      "issues_by_type": {},
+      "entity_details": []
+    },
+    {
+      "file": "cyber-train/entities-intent/osint/medint/medint_entities.jsonl",
+      "total_lines": 440,
+      "total_entities": 1344,
+      "accurate_entities": 1344,
+      "inaccurate_entities": 0,
+      "issues_by_type": {},
+      "entity_details": []
+    },
+    {
+      "file": "cyber-train/entities-intent/osint/natint/natint_entities.jsonl",
+      "total_lines": 440,
+      "total_entities": 1744,
+      "accurate_entities": 1744,
+      "inaccurate_entities": 0,
+      "issues_by_type": {},
+      "entity_details": []
+    },
+    {
+      "file": "cyber-train/entities-intent/osint/orbint/orbint_entities.jsonl",
+      "total_lines": 440,
+      "total_entities": 1868,
+      "accurate_entities": 1868,
+      "inaccurate_entities": 0,
+      "issues_by_type": {},
+      "entity_details": []
+    },
+    {
+      "file": "cyber-train/entities-intent/osint/sigint/sigint_entities.jsonl",
+      "total_lines": 440,
+      "total_entities": 1820,
+      "accurate_entities": 1820,
+      "inaccurate_entities": 0,
+      "issues_by_type": {},
+      "entity_details": []
+    },
+    {
+      "file": "cyber-train/entities-intent/osint/socmint/socmint_entities.jsonl",
+      "total_lines": 453,
+      "total_entities": 1688,
+      "accurate_entities": 1688,
+      "inaccurate_entities": 0,
+      "issues_by_type": {},
+      "entity_details": []
+    },
+    {
+      "file": "cyber-train/entities-intent/osint/techint/techint_entities.jsonl",
+      "total_lines": 444,
+      "total_entities": 2072,
+      "accurate_entities": 2072,
+      "inaccurate_entities": 0,
+      "issues_by_type": {},
+      "entity_details": []
+    },
+    {
+      "file": "cyber-train/entities-intent/osint/threat_intel/threat_intel_entities.jsonl",
+      "total_lines": 440,
+      "total_entities": 1516,
+      "accurate_entities": 1516,
+      "inaccurate_entities": 0,
+      "issues_by_type": {},
+      "entity_details": []
+    },
+    {
+      "file": "cyber-train/entities-intent/osint/tradint/tradint_entities.jsonl",
+      "total_lines": 440,
+      "total_entities": 1944,
+      "accurate_entities": 1944,
+      "inaccurate_entities": 0,
+      "issues_by_type": {},
+      "entity_details": []
+    },
+    {
+      "file": "cyber-train/entities-intent/osint/vatint/vatint_entities.jsonl",
+      "total_lines": 440,
+      "total_entities": 2280,
+      "accurate_entities": 2280,
+      "inaccurate_entities": 0,
+      "issues_by_type": {},
+      "entity_details": []
+    },
+    {
+      "file": "cyber-train/entities-intent/ot_ics_physical_security/ot_ics_physical_security_entities.jsonl",
+      "total_lines": 150,
+      "total_entities": 500,
+      "accurate_entities": 500,
+      "inaccurate_entities": 0,
+      "issues_by_type": {},
+      "entity_details": []
+    },
+    {
+      "file": "cyber-train/entities-intent/security_awareness_training/security_awareness_training_entities.jsonl",
+      "total_lines": 440,
+      "total_entities": 1192,
+      "accurate_entities": 1192,
+      "inaccurate_entities": 0,
+      "issues_by_type": {},
+      "entity_details": []
+    },
+    {
+      "file": "cyber-train/entities-intent/threat_intelligence/threat_intelligence_entities.jsonl",
+      "total_lines": 440,
+      "total_entities": 1224,
+      "accurate_entities": 1224,
+      "inaccurate_entities": 0,
+      "issues_by_type": {},
+      "entity_details": []
+    },
+    {
+      "file": "cyber-train/entities-intent/vendor_mgmt/vendor_mgmt_entities.jsonl",
+      "total_lines": 136,
+      "total_entities": 468,
+      "accurate_entities": 468,
+      "inaccurate_entities": 0,
+      "issues_by_type": {},
+      "entity_details": []
+    },
+    {
+      "file": "cyber-train/entities-intent/vulnerability_mgmt/vulnerability_mgmt_entities.jsonl",
+      "total_lines": 488,
+      "total_entities": 1408,
+      "accurate_entities": 1408,
+      "inaccurate_entities": 0,
+      "issues_by_type": {},
+      "entity_details": []
+    }
+  ]
+}

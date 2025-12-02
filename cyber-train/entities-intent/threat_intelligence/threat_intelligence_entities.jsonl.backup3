@@ -1,0 +1,440 @@
+{"text": "Threat intelligence sharing compliance achieved 100% TLP tagging", "entities": [[20, 27, "SHARING_TYPE"], [57, 60, "CLASSIFICATION_TYPE"]]}
+{"text": "Threat Intelligence Integration Specialist connected SIEM with threat feeds", "entities": [[0, 42, "ROLE"]]}
+{"text": "Principal Threat Intelligence Architect designed CTI architecture with SIEM SOAR integration", "entities": [[0, 40, "ROLE"]]}
+{"text": "TI business risk score calculated at 87% with finance and R&D units identified", "entities": []}
+{"text": "Threat intelligence incident integration mapped 20 incidents to actors", "entities": [[29, 40, "INTEGRATION_TYPE"], [49, 51, "COUNT"]]}
+{"text": "Threat intelligence audit scored 94% with 90% ATT&CK coverage", "entities": []}
+{"text": "TAXII Client shared 600 indicators with TLP RED AMBER GREEN classification", "entities": [[0, 11, "TOOL"], [12, 17, "CLIENT_TYPE"], [25, 29, "COUNT"]]}
+{"text": "Threat Hunter identified 3 new TTPs using MITRE ATT&CK framework", "entities": [[0, 12, "ROLE"], [48, 54, "FRAMEWORK"]]}
+{"text": "Executive Risk Dashboard highlighted top campaigns actor activity and business risks", "entities": [[0, 18, "TOOL"], [27, 35, "EXECUTIVE_TYPE"], [36, 40, "RISK_TYPE"], [41, 49, "DASHBOARD_TYPE"]]}
+{"text": "Threat hunting coverage reached 90% across all critical systems", "entities": [[7, 13, "HUNTING_TYPE"], [14, 21, "COVERAGE_TYPE"]]}
+{"text": "Threat actor motivations identified espionage and financial objectives", "entities": [[7, 12, "ACTOR_TYPE"], [13, 24, "MOTIVATION_TYPE"]]}
+{"text": "Business Risk Mapping Tool identified finance and R&D as high-risk units", "entities": []}
+{"text": "Geopolitical Intel Feed enriched APT28 profiles with Ukraine conflict context", "entities": [[63, 69, "PROFILE_TYPE"]]}
+{"text": "Business risk score calculated 87 for finance and R&D business units", "entities": [[0, 8, "BUSINESS_TYPE"], [9, 13, "RISK_TYPE"], [14, 19, "SCORE_TYPE"]]}
+{"text": "IOC collection rate reached 1500 indicators daily from multiple sources", "entities": [[0, 3, "IOC_TYPE"], [4, 14, "COLLECTION_TYPE"], [27, 31, "COUNT"], [32, 42, "INDICATOR_TYPE"], [43, 50, "FREQUENCY_TYPE"]]}
+{"text": "CISO approved threat intelligence strategy with OSINT dark web and commercial feeds", "entities": [[0, 4, "ROLE"]]}
+{"text": "Threat Intelligence Analyst enriched 1100 IOCs with 700 high-confidence indicators", "entities": [[0, 28, "ROLE"], [37, 45, "ENRICHMENT_TYPE"]]}
+{"text": "ISAC ISAO Portal Connector shared intelligence with FS-ISAC and financial sector", "entities": [[17, 24, "CONNECTOR_TYPE"], [66, 74, "SECTOR_TYPE"]]}
+{"text": "ML clustering efficiency grouped 35 clusters with 12 priority clusters", "entities": [[3, 13, "CLUSTERING_TYPE"], [14, 25, "EFFICIENCY_TYPE"], [34, 36, "COUNT"], [37, 45, "CLUSTER_TYPE"], [50, 52, "COUNT"], [53, 61, "PRIORITY_TYPE"], [62, 70, "CLUSTER_TYPE"]]}
+{"text": "Threat intelligence false positive rate reduced to 3% improving accuracy", "entities": [[20, 35, "METRIC_TYPE"]]}
+{"text": "TI patch prioritization mapped 28 CVEs to KEVs prioritizing 12 critical patches", "entities": []}
+{"text": "Brand Monitoring Tool detected 4 disinformation campaigns with 2 deepfakes and 8 fake domains", "entities": [[0, 16, "TOOL"], [31, 40, "MONITORING_TYPE"]]}
+{"text": "Campaign analysis identified 7 active campaigns with APT29 and UNC2452", "entities": [[0, 8, "CAMPAIGN_TYPE"], [9, 15, "ANALYSIS_TYPE"]]}
+{"text": "Incident Responder correlated threat intelligence with 5 security incidents", "entities": [[0, 18, "ROLE"], [19, 28, "RESPONDER_TYPE"]]}
+{"text": "Threat Intelligence Analyst enriched 500 domain indicators with passive DNS", "entities": [[0, 28, "ROLE"]]}
+{"text": "Threat Intelligence Compliance Analyst verified TLP classification compliance", "entities": [[53, 65, "COMPLIANCE_TYPE"]]}
+{"text": "MITRE ATT&CK tactics mapping identified TA0001 and TA0008 techniques", "entities": [[0, 5, "FRAMEWORK"], [6, 12, "FRAMEWORK"], [13, 19, "TACTIC_TYPE"], [20, 27, "MAPPING_TYPE"]]}
+{"text": "Incident Responder correlated threat intelligence with 5 security incidents", "entities": [[0, 18, "ROLE"], [19, 28, "RESPONDER_TYPE"]]}
+{"text": "Threat Intelligence Compliance Analyst validated MITRE ATT&CK alignment", "entities": []}
+{"text": "Threat intelligence quality improved to 82% enrichment accuracy", "entities": [[20, 26, "QUALITY_TYPE"], [43, 53, "ENRICHMENT_TYPE"], [54, 61, "ACCURACY_TYPE"]]}
+{"text": "Threat intelligence training completion reached 91% for all TI analysts", "entities": [[0, 16, "THREAT_TYPE"]]}
+{"text": "Sigma Rule Generator created 40 detection rules mapping to ATT&CK techniques T1059 T1071", "entities": []}
+{"text": "Fraud Data Feed collected 320 fraud indicators including 120 card dumps and 60 account takeovers", "entities": []}
+{"text": "Threat intelligence dissemination achieved 95% actionability rate", "entities": [[20, 33, "DISSEMINATION_TYPE"]]}
+{"text": "VirusTotal Shodan enrichment added confidence scores and threat categories to IOCs", "entities": [[17, 26, "ENRICHMENT_TYPE"]]}
+{"text": "CrowdStrike Falcon Intelligence provided actor profiles and campaign attribution", "entities": [[0, 11, "TOOL"]]}
+{"text": "Threat intelligence maturity improved to level 4 with enhanced coverage", "entities": [[20, 27, "MATURITY_TYPE"]]}
+{"text": "ATT&CK Navigator mapped campaigns to tactics TA0001 and TA0008 identifying active threats", "entities": [[7, 15, "NAVIGATOR_TYPE"], [24, 32, "MAPPING_TYPE"], [64, 72, "IDENTIFICATION_TYPE"]]}
+{"text": "Threat intelligence IOC enrichment achieved 82% with 1100 indicators", "entities": [[20, 23, "IOC_TYPE"], [24, 35, "ENRICHMENT_TYPE"]]}
+{"text": "ISAC ISAO Portal Connector shared intelligence with FS-ISAC and financial sector", "entities": [[17, 24, "CONNECTOR_TYPE"], [66, 74, "SECTOR_TYPE"]]}
+{"text": "IOC Prioritization Tool identified 12 priority clusters for phishing C2 and ransomware", "entities": []}
+{"text": "Threat Intelligence Compliance Analyst validated MITRE ATT&CK alignment", "entities": []}
+{"text": "OpenCTI threat intelligence platform managed 6 actor profiles", "entities": []}
+{"text": "Threat Intelligence Analyst enriched 1100 IOCs with 700 high-confidence indicators", "entities": [[0, 28, "ROLE"], [37, 45, "ENRICHMENT_TYPE"]]}
+{"text": "IOC collection rate reached 1500 indicators daily from multiple sources", "entities": [[0, 3, "IOC_TYPE"], [4, 14, "COLLECTION_TYPE"], [27, 31, "COUNT"], [32, 42, "INDICATOR_TYPE"], [43, 50, "FREQUENCY_TYPE"]]}
+{"text": "CISO approved threat intelligence strategy with OSINT dark web and commercial feeds", "entities": [[0, 4, "ROLE"]]}
+{"text": "Threat Intelligence Sharing Specialist shared 600 indicators via TAXII", "entities": [[0, 36, "ROLE"]]}
+{"text": "Actor linking identified APT29 connections across multiple campaigns", "entities": [[0, 6, "ACTOR_TYPE"], [7, 13, "LINKING_TYPE"]]}
+{"text": "Dark Web Monitor detected card dumps scam kits and account takeovers in underground markets", "entities": []}
+{"text": "Actor profiles built 6 adversary dossiers including APT28 and FIN7", "entities": [[0, 6, "ACTOR_TYPE"], [7, 14, "PROFILE_TYPE"]]}
+{"text": "MITRE ATT&CK tactics mapping identified TA0001 and TA0008 techniques", "entities": [[0, 5, "FRAMEWORK"], [6, 12, "FRAMEWORK"], [13, 19, "TACTIC_TYPE"], [20, 27, "MAPPING_TYPE"]]}
+{"text": "Executive reporting delivered 2 board-level threat intelligence reports", "entities": [[0, 9, "EXECUTIVE_TYPE"], [10, 18, "REPORTING_TYPE"]]}
+{"text": "Actor profiles built 6 adversary dossiers including APT28 and FIN7", "entities": [[0, 6, "ACTOR_TYPE"], [7, 14, "PROFILE_TYPE"]]}
+{"text": "MITRE ATT&CK tactics mapping identified TA0001 and TA0008 techniques", "entities": [[0, 5, "FRAMEWORK"], [6, 12, "FRAMEWORK"], [13, 19, "TACTIC_TYPE"], [20, 27, "MAPPING_TYPE"]]}
+{"text": "Threat Intelligence Integration Specialist integrated TI feeds with SIEM SOAR", "entities": [[0, 42, "ROLE"]]}
+{"text": "IBM X-Force threat intelligence platform enriched actor profiles", "entities": []}
+{"text": "Threat Hunter identified 3 new TTPs using MITRE ATT&CK framework", "entities": [[0, 12, "ROLE"], [48, 54, "FRAMEWORK"]]}
+{"text": "Campaign analysis identified 7 active campaigns with APT29 and UNC2452", "entities": [[0, 8, "CAMPAIGN_TYPE"], [9, 15, "ANALYSIS_TYPE"]]}
+{"text": "CrowdStrike Falcon Intelligence provided actor profiles and campaign attribution", "entities": [[0, 11, "TOOL"]]}
+{"text": "Executive Risk Dashboard highlighted top campaigns actor activity and business risks", "entities": [[0, 18, "TOOL"], [27, 35, "EXECUTIVE_TYPE"], [36, 40, "RISK_TYPE"], [41, 49, "DASHBOARD_TYPE"]]}
+{"text": "Incident Responder correlated threat intelligence with 5 security incidents", "entities": [[0, 18, "ROLE"], [19, 28, "RESPONDER_TYPE"]]}
+{"text": "Deepfake Detector identified 2 synthetic media threats requiring takedown", "entities": [[0, 15, "TOOL"]]}
+{"text": "Recorded Future threat intelligence platform detected APT29 campaign", "entities": [[0, 15, "TOOL"], [60, 68, "CAMPAIGN_TYPE"]]}
+{"text": "Threat intelligence false positive rate reduced to 1.3% improving IOC accuracy", "entities": [[0, 16, "THREAT_TYPE"]]}
+{"text": "Threat intelligence source diversity achieved 12 commercial and OSINT feeds", "entities": [[28, 36, "DIVERSITY_TYPE"], [45, 47, "COUNT"], [48, 58, "FEED_TYPE"]]}
+{"text": "Threat hunting coverage reached 90% across all critical systems", "entities": [[7, 13, "HUNTING_TYPE"], [14, 21, "COVERAGE_TYPE"]]}
+{"text": "TI business risk score calculated at 87% with finance and R&D units identified", "entities": []}
+{"text": "TI incident integration correlated 20 SOC IR incidents with TI indicators linking APT29", "entities": []}
+{"text": "Threat intelligence source diversity achieved 12 commercial and OSINT feeds", "entities": [[28, 36, "DIVERSITY_TYPE"], [45, 47, "COUNT"], [48, 58, "FEED_TYPE"]]}
+{"text": "Brand Monitoring Tool detected 8 fake domains impersonating company", "entities": [[6, 15, "MONITORING_TYPE"]]}
+{"text": "IOC Prioritization Tool identified 12 priority clusters for phishing C2 and ransomware", "entities": []}
+{"text": "Threat intelligence dissemination achieved 95% actionability rate", "entities": [[20, 33, "DISSEMINATION_TYPE"]]}
+{"text": "Threat Intelligence Compliance Analyst validated MITRE ATT&CK alignment", "entities": []}
+{"text": "Threat intelligence maturity improved to level 4 with enhanced coverage", "entities": [[20, 27, "MATURITY_TYPE"]]}
+{"text": "Head of Threat Intelligence reviewed IOC enrichment with 1100 indicators processed", "entities": []}
+{"text": "TI patch prioritization mapped 28 CVEs to KEVs prioritizing 12 critical patches", "entities": []}
+{"text": "Principal Threat Intelligence Architect designed CTI architecture with SIEM SOAR integration", "entities": [[0, 40, "ROLE"]]}
+{"text": "Detection rules deployed 35 Sigma rules mapped to ATT&CK techniques", "entities": [[0, 20, "DETECTION_TYPE"], [21, 26, "RULE_TYPE"]]}
+{"text": "Threat Intelligence Sharing Specialist distributed 200 indicators via ISAC", "entities": [[0, 36, "ROLE"], [45, 52, "SHARING_TYPE"], [63, 66, "COUNT"]]}
+{"text": "Threat Actor Profiling Specialist built 6 adversary profiles including APT28 and FIN7", "entities": [[0, 22, "ROLE"]]}
+{"text": "Threat intelligence dissemination achieved 95% actionability rate", "entities": [[20, 33, "DISSEMINATION_TYPE"]]}
+{"text": "Threat intelligence false positive rate reduced to 3% improving accuracy", "entities": [[20, 35, "METRIC_TYPE"]]}
+{"text": "Fraud Data Feed collected 320 fraud indicators including card dumps", "entities": []}
+{"text": "Threat actor motivations identified espionage and financial objectives", "entities": [[7, 12, "ACTOR_TYPE"], [13, 24, "MOTIVATION_TYPE"]]}
+{"text": "Detection updates created 9 new rules based on incident correlation", "entities": []}
+{"text": "Threat intelligence false positive rate reduced to 1.3% improving IOC accuracy", "entities": [[0, 16, "THREAT_TYPE"]]}
+{"text": "Deepfake Detector identified 2 synthetic media threats requiring takedown", "entities": [[0, 15, "TOOL"]]}
+{"text": "Principal Threat Intelligence Architect designed CTI architecture with SIEM SOAR integration", "entities": [[0, 40, "ROLE"]]}
+{"text": "Recorded Future threat intelligence platform detected APT29 campaign", "entities": [[0, 15, "TOOL"], [60, 68, "CAMPAIGN_TYPE"]]}
+{"text": "Threat intelligence audit scored 94% with 90% ATT&CK coverage", "entities": []}
+{"text": "Threat Intelligence Analyst enriched 1100 IOCs with 700 high-confidence indicators", "entities": [[0, 28, "ROLE"], [37, 45, "ENRICHMENT_TYPE"]]}
+{"text": "API Feeds Integrator integrated 12 commercial threat intelligence feeds", "entities": [[9, 20, "INTEGRATOR_TYPE"]]}
+{"text": "Threat intelligence maturity improved to level 4 with enhanced coverage", "entities": [[20, 27, "MATURITY_TYPE"]]}
+{"text": "Threat intelligence enrichment rate improved to 82% with 35 clusters identified", "entities": [[0, 16, "THREAT_TYPE"]]}
+{"text": "TAXII Client shared 600 indicators receiving 800 from ISAC portals with TLP marking", "entities": [[14, 20, "INDICATOR_TYPE"], [25, 29, "COUNT"], [60, 65, "PORTAL_TYPE"], [78, 81, "MARKING_TYPE"]]}
+{"text": "TLP Classification Tool applied RED AMBER GREEN WHITE tags to 600 indicators", "entities": [[4, 17, "CLASSIFICATION_TYPE"]]}
+{"text": "Threat Intelligence Engineer configured CrowdStrike Falcon TI platform", "entities": [[0, 28, "ROLE"]]}
+{"text": "Threat intelligence quality improved to 82% enrichment accuracy", "entities": [[20, 26, "QUALITY_TYPE"], [43, 53, "ENRICHMENT_TYPE"], [54, 61, "ACCURACY_TYPE"]]}
+{"text": "Graph Analytics Tool mapped relationships between 35 threat clusters", "entities": [[0, 14, "TOOL"]]}
+{"text": "Web Scraper collected indicators from GitHub repositories and forums", "entities": [[0, 11, "TOOL"], [12, 18, "SCRAPER_TYPE"], [27, 37, "INDICATOR_TYPE"], [49, 61, "REPOSITORY_TYPE"]]}
+{"text": "Business Risk Mapping Tool identified finance and R&D units with CFO at risk", "entities": [[0, 20, "TOOL"], [29, 34, "BUSINESS_TYPE"], [39, 45, "MAPPING_TYPE"]]}
+{"text": "Social Media Analytics Tool identified 4 disinformation campaigns", "entities": [[13, 22, "ANALYTICS_TYPE"]]}
+{"text": "ISAC ISAO Portal Connector shared intelligence with FS-ISAC and financial sector", "entities": [[17, 24, "CONNECTOR_TYPE"], [66, 74, "SECTOR_TYPE"]]}
+{"text": "ISAC ISAO Portal Connector shared intelligence with FS-ISAC and financial sector", "entities": [[17, 24, "CONNECTOR_TYPE"], [66, 74, "SECTOR_TYPE"]]}
+{"text": "CrowdStrike Falcon Intelligence provided actor profiles and campaign attribution", "entities": [[0, 11, "TOOL"]]}
+{"text": "IBM X-Force threat intelligence platform enriched actor profiles", "entities": []}
+{"text": "Threat Intelligence Analyst enriched 500 domain indicators with passive DNS", "entities": [[0, 28, "ROLE"]]}
+{"text": "IOC Prioritization Tool identified 12 priority clusters for phishing C2 and ransomware", "entities": []}
+{"text": "Geopolitical Intel Feed enriched APT28 profiles with Ukraine conflict context", "entities": [[63, 69, "PROFILE_TYPE"]]}
+{"text": "Threat intelligence sharing compliance achieved 100% TLP tagging", "entities": [[20, 27, "SHARING_TYPE"], [57, 60, "CLASSIFICATION_TYPE"]]}
+{"text": "Graph Analytics Tool mapped relationships between 35 threat clusters", "entities": [[0, 14, "TOOL"]]}
+{"text": "Threat Hunter conducted proactive hunts finding 6 adversary TTPs", "entities": [[0, 12, "ROLE"], [13, 18, "HUNTER_TYPE"]]}
+{"text": "Executive reporting delivered 2 board-level threat intelligence reports", "entities": [[0, 9, "EXECUTIVE_TYPE"], [10, 18, "REPORTING_TYPE"]]}
+{"text": "ML Clustering Tool grouped 35 clusters by infrastructure TTP similarity and campaign overlap", "entities": [[3, 13, "CLUSTERING_TYPE"], [26, 28, "COUNT"], [29, 37, "CLUSTER_TYPE"]]}
+{"text": "Fraud Data Feed collected 320 fraud indicators including 120 card dumps and 60 account takeovers", "entities": []}
+{"text": "Threat intelligence false positive rate reduced to 1.3% improving IOC accuracy", "entities": [[0, 16, "THREAT_TYPE"]]}
+{"text": "Head of Threat Intelligence reviewed IOC enrichment with 1100 indicators processed", "entities": []}
+{"text": "Threat Intelligence Engineer configured MISP platform for IOC sharing", "entities": [[0, 28, "ROLE"]]}
+{"text": "TLP Classification Tool applied RED AMBER GREEN WHITE tags to 600 indicators", "entities": [[4, 17, "CLASSIFICATION_TYPE"]]}
+{"text": "Threat Intelligence Analyst enriched 500 domain indicators with passive DNS", "entities": [[0, 28, "ROLE"]]}
+{"text": "TI business risk score calculated at 87% with finance and R&D units identified", "entities": []}
+{"text": "Threat intelligence training completion reached 91% for all TI analysts", "entities": [[0, 16, "THREAT_TYPE"]]}
+{"text": "Malware Sandbox analyzed 45 malware samples identifying 12 families", "entities": [[24, 27, "COUNT"], [28, 35, "MALWARE_TYPE"], [36, 43, "SAMPLE_TYPE"]]}
+{"text": "Threat Intelligence Sharing Specialist shared 600 indicators via TAXII", "entities": [[0, 36, "ROLE"]]}
+{"text": "TI patch prioritization mapped 28 CVEs to KEVs prioritizing 12 critical patches", "entities": []}
+{"text": "Dark Web Monitor detected card dumps scam kits and account takeovers in underground markets", "entities": []}
+{"text": "Threat Intelligence Compliance Analyst verified TLP classification compliance", "entities": [[53, 65, "COMPLIANCE_TYPE"]]}
+{"text": "Patch prioritization success mapped 28 CVEs to threat intelligence indicators", "entities": [[0, 5, "PATCH_TYPE"], [6, 19, "PRIORITIZATION_TYPE"], [20, 27, "SUCCESS_TYPE"], [35, 37, "COUNT"], [38, 41, "VULNERABILITY_TYPE"], [68, 77, "INDICATOR_TYPE"]]}
+{"text": "MITRE ATT&CK tactics mapping identified TA0001 and TA0008 techniques", "entities": [[0, 5, "FRAMEWORK"], [6, 12, "FRAMEWORK"], [13, 19, "TACTIC_TYPE"], [20, 27, "MAPPING_TYPE"]]}
+{"text": "Threat intelligence audit scored 94% with 90% ATT&CK coverage", "entities": []}
+{"text": "Deepfake Detector identified 2 deepfake videos targeting executives", "entities": []}
+{"text": "App Criticality Database mapped billing app as critical target", "entities": []}
+{"text": "Threat Intelligence Compliance Analyst verified TLP classification compliance", "entities": [[53, 65, "COMPLIANCE_TYPE"]]}
+{"text": "Threat Graph Analyzer identified campaign overlaps across 7 campaigns", "entities": [[7, 12, "GRAPH_TYPE"], [13, 21, "ANALYZER_TYPE"]]}
+{"text": "Executive Risk Dashboard showed CFO at high risk from APT29", "entities": [[0, 9, "EXECUTIVE_TYPE"], [10, 15, "RISK_TYPE"], [16, 24, "DASHBOARD_TYPE"]]}
+{"text": "Threat Intelligence Sharing Specialist shared 600 indicators via TAXII", "entities": [[0, 36, "ROLE"]]}
+{"text": "VirusTotal Shodan enrichment added confidence scores and threat categories to IOCs", "entities": [[17, 26, "ENRICHMENT_TYPE"]]}
+{"text": "CISO approved threat intelligence strategy with OSINT dark web and commercial feeds", "entities": [[0, 4, "ROLE"]]}
+{"text": "MISP open source threat intelligence platform shared indicators with 50 organizations", "entities": []}
+{"text": "Recorded Future threat intelligence platform detected APT29 campaign", "entities": [[0, 15, "TOOL"], [60, 68, "CAMPAIGN_TYPE"]]}
+{"text": "Threat intelligence incident integration mapped 20 incidents to actors", "entities": [[29, 40, "INTEGRATION_TYPE"], [49, 51, "COUNT"]]}
+{"text": "App Criticality Database mapped billing app as critical target", "entities": []}
+{"text": "ML adoption in threat intelligence improved clustering by 35%", "entities": []}
+{"text": "Geopolitical Intel Feed enriched actor profiles with Ukraine conflict context", "entities": [[62, 69, "CONTEXT_TYPE"]]}
+{"text": "SOAR Playbook Tool built 10 proactive hunt playbooks with 6 validated hunts", "entities": []}
+{"text": "Threat Intelligence Analyst enriched 1100 IOCs with 700 high-confidence indicators", "entities": [[0, 28, "ROLE"], [37, 45, "ENRICHMENT_TYPE"]]}
+{"text": "Fraud Data Feed collected 320 fraud indicators including 120 card dumps and 60 account takeovers", "entities": []}
+{"text": "Detection rules deployed for 35 techniques with 7-hour time-to-detect", "entities": [[0, 16, "DETECTION_TYPE"], [17, 21, "RULE_TYPE"]]}
+{"text": "TAXII Client shared 600 indicators with TLP RED AMBER GREEN classification", "entities": [[0, 11, "TOOL"], [12, 17, "CLIENT_TYPE"], [25, 29, "COUNT"]]}
+{"text": "Time-to-detect improved to 7 hours with threat intelligence integration", "entities": [[0, 12, "METRIC_TYPE"]]}
+{"text": "Threat Intelligence Program Strategist defined TI strategy with OSINT dark web and commercial feeds", "entities": [[0, 33, "ROLE"]]}
+{"text": "Threat intelligence dissemination achieved 95% actionability rate", "entities": [[20, 33, "DISSEMINATION_TYPE"]]}
+{"text": "Threat actor motivations identified espionage and financial objectives", "entities": [[7, 12, "ACTOR_TYPE"], [13, 24, "MOTIVATION_TYPE"]]}
+{"text": "CVE mapping prioritized 12 critical patches for payments and ERP apps", "entities": [[0, 3, "VULNERABILITY_TYPE"], [4, 10, "MAPPING_TYPE"], [19, 21, "COUNT"]]}
+{"text": "Business Risk Mapping Tool identified finance and R&D as high-risk units", "entities": []}
+{"text": "Threat Intelligence Engineer configured MISP platform for IOC sharing", "entities": [[0, 28, "ROLE"]]}
+{"text": "ThreatConnect threat intelligence platform correlated 1500 IOCs", "entities": [[0, 13, "TOOL"]]}
+{"text": "Threat actor profiles built for 6 actors with TTP mapping and campaign correlation", "entities": [[0, 11, "THREAT_TYPE"], [12, 18, "ACTOR_TYPE"], [63, 70, "CAMPAIGN_TYPE"], [71, 82, "CORRELATION_TYPE"]]}
+{"text": "Geopolitical Intel Feed enriched actor profiles with Ukraine conflict context", "entities": [[62, 69, "CONTEXT_TYPE"]]}
+{"text": "Social Media Analytics Tool identified 4 disinformation campaigns", "entities": [[13, 22, "ANALYTICS_TYPE"]]}
+{"text": "Graph Analytics Tool mapped relationships between 35 threat clusters", "entities": [[0, 14, "TOOL"]]}
+{"text": "KEV Known Exploited Vulnerabilities identified 8 actively exploited CVEs", "entities": [[4, 24, "VULNERABILITY_TYPE"], [25, 33, "VULNERABILITY_TYPE"]]}
+{"text": "Threat Intelligence Integration Specialist integrated TI feeds with SIEM SOAR", "entities": [[0, 42, "ROLE"]]}
+{"text": "Dark Web Monitor detected card dumps scam kits and account takeovers in underground markets", "entities": []}
+{"text": "Threat actor profiles built for 6 actors with TTP mapping and campaign correlation", "entities": [[0, 11, "THREAT_TYPE"], [12, 18, "ACTOR_TYPE"], [63, 70, "CAMPAIGN_TYPE"], [71, 82, "CORRELATION_TYPE"]]}
+{"text": "API Feeds Integrator integrated 12 commercial threat intelligence feeds", "entities": [[9, 20, "INTEGRATOR_TYPE"]]}
+{"text": "Threat Intelligence Integration Specialist integrated TI feeds with SIEM SOAR", "entities": [[0, 42, "ROLE"]]}
+{"text": "Threat Intelligence Tester validated detection rules against APT29 techniques", "entities": [[0, 25, "ROLE"]]}
+{"text": "Sigma Rule Generator created 40 detection rules mapping to ATT&CK techniques T1059 T1071", "entities": []}
+{"text": "Malware Sandbox analyzed 45 malware samples identifying 12 families", "entities": [[24, 27, "COUNT"], [28, 35, "MALWARE_TYPE"], [36, 43, "SAMPLE_TYPE"]]}
+{"text": "Deepfake Detector identified 2 deepfake videos targeting executives", "entities": []}
+{"text": "Threat intelligence enrichment rate improved to 82% with 35 clusters identified", "entities": [[0, 16, "THREAT_TYPE"]]}
+{"text": "TI Policy Generator created policy aligning with MITRE ATT&CK and threat sharing rules", "entities": []}
+{"text": "Business risk score calculated 87 for finance and R&D business units", "entities": [[0, 8, "BUSINESS_TYPE"], [9, 13, "RISK_TYPE"], [14, 19, "SCORE_TYPE"]]}
+{"text": "Executive Risk Dashboard showed CFO at high risk from APT29", "entities": [[0, 9, "EXECUTIVE_TYPE"], [10, 15, "RISK_TYPE"], [16, 24, "DASHBOARD_TYPE"]]}
+{"text": "Social Media Analytics Tool identified 4 disinformation campaigns", "entities": [[13, 22, "ANALYTICS_TYPE"]]}
+{"text": "TI Platform MISP enriched 1100 indicators with 700 high-confidence and 300 medium", "entities": []}
+{"text": "Threat Graph Analyzer identified campaign overlaps across 7 campaigns", "entities": [[7, 12, "GRAPH_TYPE"], [13, 21, "ANALYZER_TYPE"]]}
+{"text": "Head of Threat Intelligence reviewed IOC enrichment with 1100 indicators processed", "entities": []}
+{"text": "Recorded Future threat intelligence platform enriched 10000 IOCs with 82% enrichment rate", "entities": [[16, 30, "INTELLIGENCE_TYPE"]]}
+{"text": "Threat Intelligence Tester executed penetration test finding 8 detection gaps", "entities": [[0, 25, "ROLE"]]}
+{"text": "Threat intelligence false positive rate reduced to 1.3% improving IOC accuracy", "entities": [[0, 16, "THREAT_TYPE"]]}
+{"text": "ML clustering efficiency grouped 35 clusters with 12 priority clusters", "entities": [[3, 13, "CLUSTERING_TYPE"], [14, 25, "EFFICIENCY_TYPE"], [34, 36, "COUNT"], [37, 45, "CLUSTER_TYPE"], [50, 52, "COUNT"], [53, 61, "PRIORITY_TYPE"], [62, 70, "CLUSTER_TYPE"]]}
+{"text": "Threat intelligence maturity improved to level 4 with enhanced coverage", "entities": [[20, 27, "MATURITY_TYPE"]]}
+{"text": "Threat Intelligence Tester executed penetration test finding 8 detection gaps", "entities": [[0, 25, "ROLE"]]}
+{"text": "TLP Classification Tool applied RED AMBER GREEN and WHITE classifications to shared intel", "entities": [[4, 16, "CLASSIFICATION_TYPE"]]}
+{"text": "Sigma Rule Generator created 40 detection rules mapped to ATT&CK techniques", "entities": [[6, 10, "RULE_TYPE"], [11, 19, "GENERATOR_TYPE"], [28, 30, "COUNT"], [31, 39, "DETECTION_TYPE"]]}
+{"text": "CVE mapping prioritized 12 critical patches for payments and ERP apps", "entities": [[0, 3, "VULNERABILITY_TYPE"], [4, 10, "MAPPING_TYPE"], [19, 21, "COUNT"]]}
+{"text": "Incident Responder investigated threat intelligence breach affecting 3 systems", "entities": [[0, 18, "ROLE"]]}
+{"text": "Threat intelligence enrichment rate improved to 82% with 35 clusters identified", "entities": [[0, 16, "THREAT_TYPE"]]}
+{"text": "Executive Risk Dashboard showed CFO at high risk from APT29", "entities": [[0, 9, "EXECUTIVE_TYPE"], [10, 15, "RISK_TYPE"], [16, 24, "DASHBOARD_TYPE"]]}
+{"text": "Actor linking identified APT29 connections across multiple campaigns", "entities": [[0, 6, "ACTOR_TYPE"], [7, 13, "LINKING_TYPE"]]}
+{"text": "Fraud Data Feed collected 320 fraud indicators including 120 card dumps and 60 account takeovers", "entities": []}
+{"text": "Malware Sandbox analyzed 45 malware samples identifying 12 families", "entities": [[24, 27, "COUNT"], [28, 35, "MALWARE_TYPE"], [36, 43, "SAMPLE_TYPE"]]}
+{"text": "Threat intelligence quality improved to 82% enrichment accuracy", "entities": [[20, 26, "QUALITY_TYPE"], [43, 53, "ENRICHMENT_TYPE"], [54, 61, "ACCURACY_TYPE"]]}
+{"text": "Threat Graph Analyzer identified campaign overlaps across 7 campaigns", "entities": [[7, 12, "GRAPH_TYPE"], [13, 21, "ANALYZER_TYPE"]]}
+{"text": "Threat Intelligence Tester validated detection rules against APT29 techniques", "entities": [[0, 25, "ROLE"]]}
+{"text": "Web Scraper collected indicators from GitHub repositories and forums", "entities": [[0, 11, "TOOL"], [12, 18, "SCRAPER_TYPE"], [27, 37, "INDICATOR_TYPE"], [49, 61, "REPOSITORY_TYPE"]]}
+{"text": "Executive reporting delivered 2 board-level threat intelligence reports", "entities": [[0, 9, "EXECUTIVE_TYPE"], [10, 18, "REPORTING_TYPE"]]}
+{"text": "TI Platform MISP enriched 1100 indicators with 700 high-confidence and 300 medium", "entities": []}
+{"text": "Fraud Data Feed collected 320 fraud indicators including card dumps", "entities": []}
+{"text": "Recorded Future threat intelligence platform enriched 10000 IOCs with 82% enrichment rate", "entities": [[16, 30, "INTELLIGENCE_TYPE"]]}
+{"text": "Threat Intelligence Sharing Specialist distributed 200 indicators via ISAC", "entities": [[0, 36, "ROLE"], [45, 52, "SHARING_TYPE"], [63, 66, "COUNT"]]}
+{"text": "Detection updates created 9 new rules based on incident correlation", "entities": []}
+{"text": "Business Risk Mapping Tool identified finance and R&D as high-risk units", "entities": []}
+{"text": "Threat Intelligence Integration Specialist connected SIEM with threat feeds", "entities": [[0, 42, "ROLE"]]}
+{"text": "Threat intelligence sharing compliance achieved 100% TLP tagging", "entities": [[20, 27, "SHARING_TYPE"], [57, 60, "CLASSIFICATION_TYPE"]]}
+{"text": "OSINT Collection Tool gathered 1500 indicators from Telegram forums GitHub and markets", "entities": []}
+{"text": "TAXII Client shared 600 indicators receiving 800 from ISAC portals with TLP marking", "entities": [[14, 20, "INDICATOR_TYPE"], [25, 29, "COUNT"], [60, 65, "PORTAL_TYPE"], [78, 81, "MARKING_TYPE"]]}
+{"text": "Detection rules deployed for 35 techniques with 7-hour time-to-detect", "entities": [[0, 16, "DETECTION_TYPE"], [17, 21, "RULE_TYPE"]]}
+{"text": "ML Clustering Tool grouped 35 clusters by infrastructure TTP similarity and campaign overlap", "entities": [[3, 13, "CLUSTERING_TYPE"], [26, 28, "COUNT"], [29, 37, "CLUSTER_TYPE"]]}
+{"text": "VirusTotal Shodan enrichment added confidence scores and threat categories to IOCs", "entities": [[17, 26, "ENRICHMENT_TYPE"]]}
+{"text": "Threat Actor Profiling Specialist built 6 adversary profiles including APT28 and FIN7", "entities": [[0, 22, "ROLE"]]}
+{"text": "Sigma Rule Generator created 40 detection rules mapped to ATT&CK techniques", "entities": [[6, 10, "RULE_TYPE"], [11, 19, "GENERATOR_TYPE"], [28, 30, "COUNT"], [31, 39, "DETECTION_TYPE"]]}
+{"text": "TAXII Client shared 600 indicators with TLP RED AMBER GREEN classification", "entities": [[0, 11, "TOOL"], [12, 17, "CLIENT_TYPE"], [25, 29, "COUNT"]]}
+{"text": "Threat Hunter identified 3 new TTPs using MITRE ATT&CK framework", "entities": [[0, 12, "ROLE"], [48, 54, "FRAMEWORK"]]}
+{"text": "OpenCTI threat intelligence platform managed 6 actor profiles", "entities": []}
+{"text": "OSINT Collection Tool gathered 1500 indicators from Telegram forums GitHub and markets", "entities": []}
+{"text": "ATT&CK Navigator mapped campaigns to tactics TA0001 and TA0008 identifying active threats", "entities": [[7, 15, "NAVIGATOR_TYPE"], [24, 32, "MAPPING_TYPE"], [64, 72, "IDENTIFICATION_TYPE"]]}
+{"text": "Threat intelligence sharing compliance achieved 100% TLP tagging", "entities": [[20, 27, "SHARING_TYPE"], [57, 60, "CLASSIFICATION_TYPE"]]}
+{"text": "ML clustering efficiency grouped 35 clusters with 12 priority clusters", "entities": [[3, 13, "CLUSTERING_TYPE"], [14, 25, "EFFICIENCY_TYPE"], [34, 36, "COUNT"], [37, 45, "CLUSTER_TYPE"], [50, 52, "COUNT"], [53, 61, "PRIORITY_TYPE"], [62, 70, "CLUSTER_TYPE"]]}
+{"text": "Detection rules deployed 35 Sigma rules mapped to ATT&CK techniques", "entities": [[0, 20, "DETECTION_TYPE"], [21, 26, "RULE_TYPE"]]}
+{"text": "TI incident integration correlated 20 SOC IR incidents with TI indicators linking APT29", "entities": []}
+{"text": "ML Clustering Tool grouped 35 clusters by infrastructure TTP similarity and campaign overlap", "entities": [[3, 13, "CLUSTERING_TYPE"], [26, 28, "COUNT"], [29, 37, "CLUSTER_TYPE"]]}
+{"text": "ThreatConnect threat intelligence platform correlated 1500 IOCs", "entities": [[0, 13, "TOOL"]]}
+{"text": "TLP Classification Tool applied RED AMBER GREEN WHITE tags to 600 indicators", "entities": [[4, 17, "CLASSIFICATION_TYPE"]]}
+{"text": "ThreatConnect threat intelligence platform correlated 1500 IOCs", "entities": [[0, 13, "TOOL"]]}
+{"text": "Business risk score calculated 87 for finance and R&D business units", "entities": [[0, 8, "BUSINESS_TYPE"], [9, 13, "RISK_TYPE"], [14, 19, "SCORE_TYPE"]]}
+{"text": "Actor profiles built 6 adversary dossiers including APT28 and FIN7", "entities": [[0, 6, "ACTOR_TYPE"], [7, 14, "PROFILE_TYPE"]]}
+{"text": "OSINT Collection Tool gathered 1500 indicators from Telegram forums GitHub and markets", "entities": []}
+{"text": "SOAR Playbook Tool built 10 proactive hunt playbooks with 6 validated hunts", "entities": []}
+{"text": "App Criticality Database mapped billing app as critical target", "entities": []}
+{"text": "Dark Web Monitor detected card dumps scam kits and account takeovers in underground markets", "entities": []}
+{"text": "Executive reporting delivered 2 board-level threat intelligence reports", "entities": [[0, 9, "EXECUTIVE_TYPE"], [10, 18, "REPORTING_TYPE"]]}
+{"text": "Threat Intelligence Analyst enriched 500 domain indicators with passive DNS", "entities": [[0, 28, "ROLE"]]}
+{"text": "SOAR Playbook Tool built 10 proactive hunt playbooks with 6 validated hunts", "entities": []}
+{"text": "Recorded Future threat intelligence platform enriched 10000 IOCs with 82% enrichment rate", "entities": [[16, 30, "INTELLIGENCE_TYPE"]]}
+{"text": "Incident Responder investigated threat intelligence breach affecting 3 systems", "entities": [[0, 18, "ROLE"]]}
+{"text": "Threat Intelligence Tester validated detection rules against APT29 techniques", "entities": [[0, 25, "ROLE"]]}
+{"text": "VirusTotal Shodan enrichment added confidence scores and threat categories to IOCs", "entities": [[17, 26, "ENRICHMENT_TYPE"]]}
+{"text": "Business risk score calculated 87 for finance and R&D business units", "entities": [[0, 8, "BUSINESS_TYPE"], [9, 13, "RISK_TYPE"], [14, 19, "SCORE_TYPE"]]}
+{"text": "Threat Intelligence Engineer configured MISP platform for IOC sharing", "entities": [[0, 28, "ROLE"]]}
+{"text": "TI incident integration correlated 20 SOC IR incidents with TI indicators linking APT29", "entities": []}
+{"text": "Time-to-detect improved to 7 hours with threat intelligence integration", "entities": [[0, 12, "METRIC_TYPE"]]}
+{"text": "TI Policy Generator created policy aligning with MITRE ATT&CK and threat sharing rules", "entities": []}
+{"text": "Brand Monitoring Tool detected 8 fake domains impersonating company", "entities": [[6, 15, "MONITORING_TYPE"]]}
+{"text": "CrowdStrike Falcon Intelligence provided actor profiles and campaign attribution", "entities": [[0, 11, "TOOL"]]}
+{"text": "Threat Intelligence Compliance Analyst validated MITRE ATT&CK alignment", "entities": []}
+{"text": "SOAR Playbook Tool built 10 proactive hunt playbooks with 6 validated hunts", "entities": []}
+{"text": "Geopolitical alignment mapped APT28 to Russia and FIN7 to financial crime", "entities": []}
+{"text": "TAXII Client shared 600 indicators with TLP RED AMBER GREEN classification", "entities": [[0, 11, "TOOL"], [12, 17, "CLIENT_TYPE"], [25, 29, "COUNT"]]}
+{"text": "API Feeds Integrator integrated 12 commercial threat intelligence feeds", "entities": [[9, 20, "INTEGRATOR_TYPE"]]}
+{"text": "Threat Intelligence Sharing Specialist distributed 200 indicators via ISAC", "entities": [[0, 36, "ROLE"], [45, 52, "SHARING_TYPE"], [63, 66, "COUNT"]]}
+{"text": "Detection rules deployed for 35 techniques with 7-hour time-to-detect", "entities": [[0, 16, "DETECTION_TYPE"], [17, 21, "RULE_TYPE"]]}
+{"text": "Threat actor motivations identified espionage and financial objectives", "entities": [[7, 12, "ACTOR_TYPE"], [13, 24, "MOTIVATION_TYPE"]]}
+{"text": "Actor linking identified APT29 connections across multiple campaigns", "entities": [[0, 6, "ACTOR_TYPE"], [7, 13, "LINKING_TYPE"]]}
+{"text": "MISP open source threat intelligence platform shared indicators with 50 organizations", "entities": []}
+{"text": "Deepfake Detector identified 2 deepfake videos targeting executives", "entities": []}
+{"text": "Geopolitical Intel Feed enriched actor profiles with Ukraine conflict context", "entities": [[62, 69, "CONTEXT_TYPE"]]}
+{"text": "Threat Intelligence Tester executed penetration test finding 8 detection gaps", "entities": [[0, 25, "ROLE"]]}
+{"text": "SOAR Playbook Tool automated 10 threat hunting playbooks", "entities": []}
+{"text": "TAXII Client shared 600 indicators receiving 800 from ISAC portals with TLP marking", "entities": [[14, 20, "INDICATOR_TYPE"], [25, 29, "COUNT"], [60, 65, "PORTAL_TYPE"], [78, 81, "MARKING_TYPE"]]}
+{"text": "Sigma Rule Generator created 40 detection rules mapping to ATT&CK techniques T1059 T1071", "entities": []}
+{"text": "ATT&CK Navigator mapped campaigns to tactics TA0001 and TA0008 identifying active threats", "entities": [[7, 15, "NAVIGATOR_TYPE"], [24, 32, "MAPPING_TYPE"], [64, 72, "IDENTIFICATION_TYPE"]]}
+{"text": "MISP open source threat intelligence platform shared indicators with 50 organizations", "entities": []}
+{"text": "Threat intelligence IOC enrichment achieved 82% with 1100 indicators", "entities": [[20, 23, "IOC_TYPE"], [24, 35, "ENRICHMENT_TYPE"]]}
+{"text": "Geopolitical alignment mapped APT28 to Russia and FIN7 to financial crime", "entities": []}
+{"text": "OSINT Collection Tool gathered 1500 indicators from Telegram forums GitHub and markets", "entities": []}
+{"text": "Business Risk Mapping Tool identified finance and R&D units with CFO at risk", "entities": [[0, 20, "TOOL"], [29, 34, "BUSINESS_TYPE"], [39, 45, "MAPPING_TYPE"]]}
+{"text": "OpenCTI threat intelligence platform managed 6 actor profiles", "entities": []}
+{"text": "Threat Intelligence Strategist defined CTI program with 12 feed sources and 90% coverage", "entities": [[0, 28, "ROLE"], [44, 48, "PROGRAM_TYPE"], [55, 57, "COUNT"]]}
+{"text": "TI Platform MISP enriched 1100 indicators with 700 high-confidence and 300 medium", "entities": []}
+{"text": "Actor linking identified APT29 connections across multiple campaigns", "entities": [[0, 6, "ACTOR_TYPE"], [7, 13, "LINKING_TYPE"]]}
+{"text": "Principal Threat Intelligence Architect designed CTI architecture with SIEM SOAR integration", "entities": [[0, 40, "ROLE"]]}
+{"text": "Threat intelligence IOC enrichment achieved 82% with 1100 indicators", "entities": [[20, 23, "IOC_TYPE"], [24, 35, "ENRICHMENT_TYPE"]]}
+{"text": "TLP Classification Tool applied RED AMBER GREEN and WHITE classifications to shared intel", "entities": [[4, 16, "CLASSIFICATION_TYPE"]]}
+{"text": "Sigma Rule Generator created 40 detection rules mapped to ATT&CK techniques", "entities": [[6, 10, "RULE_TYPE"], [11, 19, "GENERATOR_TYPE"], [28, 30, "COUNT"], [31, 39, "DETECTION_TYPE"]]}
+{"text": "Social Media Analytics Tool identified 4 disinformation campaigns", "entities": [[13, 22, "ANALYTICS_TYPE"]]}
+{"text": "Threat intelligence incident integration mapped 20 incidents to actors", "entities": [[29, 40, "INTEGRATION_TYPE"], [49, 51, "COUNT"]]}
+{"text": "Threat intelligence audit scored 94% with 90% ATT&CK coverage", "entities": []}
+{"text": "Threat intelligence source diversity achieved 12 commercial and OSINT feeds", "entities": [[28, 36, "DIVERSITY_TYPE"], [45, 47, "COUNT"], [48, 58, "FEED_TYPE"]]}
+{"text": "Brand Monitoring Tool detected 4 disinformation campaigns with 2 deepfakes and 8 fake domains", "entities": [[0, 16, "TOOL"], [31, 40, "MONITORING_TYPE"]]}
+{"text": "Threat intelligence false positive rate reduced to 3% improving accuracy", "entities": [[20, 35, "METRIC_TYPE"]]}
+{"text": "ML adoption in threat intelligence improved clustering by 35%", "entities": []}
+{"text": "IOC Prioritization Tool identified 12 priority clusters for phishing C2 and ransomware", "entities": []}
+{"text": "Threat Intelligence Tester executed penetration test finding 8 detection gaps", "entities": [[0, 25, "ROLE"]]}
+{"text": "Threat Intelligence Engineer configured CrowdStrike Falcon TI platform", "entities": [[0, 28, "ROLE"]]}
+{"text": "Sigma Rule Generator created 40 detection rules mapping to ATT&CK techniques T1059 T1071", "entities": []}
+{"text": "TAXII Client shared 600 indicators receiving 800 from ISAC portals with TLP marking", "entities": [[14, 20, "INDICATOR_TYPE"], [25, 29, "COUNT"], [60, 65, "PORTAL_TYPE"], [78, 81, "MARKING_TYPE"]]}
+{"text": "Web Scraper collected indicators from GitHub repositories and forums", "entities": [[0, 11, "TOOL"], [12, 18, "SCRAPER_TYPE"], [27, 37, "INDICATOR_TYPE"], [49, 61, "REPOSITORY_TYPE"]]}
+{"text": "Threat Intelligence Compliance Analyst verified TLP classification compliance", "entities": [[53, 65, "COMPLIANCE_TYPE"]]}
+{"text": "Threat Graph Analyzer identified campaign overlaps across 7 campaigns", "entities": [[7, 12, "GRAPH_TYPE"], [13, 21, "ANALYZER_TYPE"]]}
+{"text": "Fraud Data Feed collected 320 fraud indicators including card dumps", "entities": []}
+{"text": "Brand Monitoring Tool detected 8 fake domains impersonating company", "entities": [[6, 15, "MONITORING_TYPE"]]}
+{"text": "Threat intelligence training completion reached 91% for all TI analysts", "entities": [[0, 16, "THREAT_TYPE"]]}
+{"text": "Geopolitical Intel Feed enriched actor profiles with Ukraine conflict context", "entities": [[62, 69, "CONTEXT_TYPE"]]}
+{"text": "Threat Intelligence Engineer configured CrowdStrike Falcon TI platform", "entities": [[0, 28, "ROLE"]]}
+{"text": "Patch prioritization success mapped 28 CVEs to threat intelligence indicators", "entities": [[0, 5, "PATCH_TYPE"], [6, 19, "PRIORITIZATION_TYPE"], [20, 27, "SUCCESS_TYPE"], [35, 37, "COUNT"], [38, 41, "VULNERABILITY_TYPE"], [68, 77, "INDICATOR_TYPE"]]}
+{"text": "Threat Intelligence Tester validated detection rules against APT29 techniques", "entities": [[0, 25, "ROLE"]]}
+{"text": "API Feeds Integrator integrated 12 commercial threat intelligence feeds", "entities": [[9, 20, "INTEGRATOR_TYPE"]]}
+{"text": "ML clustering efficiency grouped 35 clusters with 12 priority clusters", "entities": [[3, 13, "CLUSTERING_TYPE"], [14, 25, "EFFICIENCY_TYPE"], [34, 36, "COUNT"], [37, 45, "CLUSTER_TYPE"], [50, 52, "COUNT"], [53, 61, "PRIORITY_TYPE"], [62, 70, "CLUSTER_TYPE"]]}
+{"text": "Sigma Rule Generator created 40 detection rules mapped to ATT&CK techniques", "entities": [[6, 10, "RULE_TYPE"], [11, 19, "GENERATOR_TYPE"], [28, 30, "COUNT"], [31, 39, "DETECTION_TYPE"]]}
+{"text": "Detection updates created 9 new rules based on incident correlation", "entities": []}
+{"text": "Fraud Data Feed collected 320 fraud indicators including card dumps", "entities": []}
+{"text": "ML Clustering Tool grouped 35 clusters by infrastructure TTP similarity and campaign overlap", "entities": [[3, 13, "CLUSTERING_TYPE"], [26, 28, "COUNT"], [29, 37, "CLUSTER_TYPE"]]}
+{"text": "TI business risk score calculated at 87% with finance and R&D units identified", "entities": []}
+{"text": "ML adoption in threat intelligence improved clustering by 35%", "entities": []}
+{"text": "Threat Intelligence Engineer configured CrowdStrike Falcon TI platform", "entities": [[0, 28, "ROLE"]]}
+{"text": "App Criticality Database mapped billing app as critical target", "entities": []}
+{"text": "Business Risk Mapping Tool identified finance and R&D units with CFO at risk", "entities": [[0, 20, "TOOL"], [29, 34, "BUSINESS_TYPE"], [39, 45, "MAPPING_TYPE"]]}
+{"text": "CVE mapping prioritized 12 critical patches for payments and ERP apps", "entities": [[0, 3, "VULNERABILITY_TYPE"], [4, 10, "MAPPING_TYPE"], [19, 21, "COUNT"]]}
+{"text": "TI Policy Generator created policy aligning with MITRE ATT&CK and threat sharing rules", "entities": []}
+{"text": "Campaign analysis identified 7 active campaigns with APT29 and UNC2452", "entities": [[0, 8, "CAMPAIGN_TYPE"], [9, 15, "ANALYSIS_TYPE"]]}
+{"text": "ThreatConnect threat intelligence platform correlated 1500 IOCs", "entities": [[0, 13, "TOOL"]]}
+{"text": "Threat Hunter conducted proactive hunts finding 6 adversary TTPs", "entities": [[0, 12, "ROLE"], [13, 18, "HUNTER_TYPE"]]}
+{"text": "Threat intelligence IOC enrichment achieved 82% with 1100 indicators", "entities": [[20, 23, "IOC_TYPE"], [24, 35, "ENRICHMENT_TYPE"]]}
+{"text": "TLP Classification Tool applied RED AMBER GREEN and WHITE classifications to shared intel", "entities": [[4, 16, "CLASSIFICATION_TYPE"]]}
+{"text": "Threat Intelligence Integration Specialist integrated TI feeds with SIEM SOAR", "entities": [[0, 42, "ROLE"]]}
+{"text": "Threat Actor Profiling Specialist built 6 adversary profiles including APT28 and FIN7", "entities": [[0, 22, "ROLE"]]}
+{"text": "Threat Intelligence Engineer configured MISP platform for IOC sharing", "entities": [[0, 28, "ROLE"]]}
+{"text": "KEV Known Exploited Vulnerabilities identified 8 actively exploited CVEs", "entities": [[4, 24, "VULNERABILITY_TYPE"], [25, 33, "VULNERABILITY_TYPE"]]}
+{"text": "Threat hunting coverage reached 90% across all critical systems", "entities": [[7, 13, "HUNTING_TYPE"], [14, 21, "COVERAGE_TYPE"]]}
+{"text": "Threat actor profiles built for 6 actors with TTP mapping and campaign correlation", "entities": [[0, 11, "THREAT_TYPE"], [12, 18, "ACTOR_TYPE"], [63, 70, "CAMPAIGN_TYPE"], [71, 82, "CORRELATION_TYPE"]]}
+{"text": "Time-to-detect improved to 7 hours with threat intelligence integration", "entities": [[0, 12, "METRIC_TYPE"]]}
+{"text": "Deepfake Detector identified 2 synthetic media threats requiring takedown", "entities": [[0, 15, "TOOL"]]}
+{"text": "Detection updates created 9 new rules based on incident correlation", "entities": []}
+{"text": "Threat intelligence training completion reached 91% for all TI analysts", "entities": [[0, 16, "THREAT_TYPE"]]}
+{"text": "Threat intelligence source diversity achieved 12 commercial and OSINT feeds", "entities": [[28, 36, "DIVERSITY_TYPE"], [45, 47, "COUNT"], [48, 58, "FEED_TYPE"]]}
+{"text": "OpenCTI threat intelligence platform managed 6 actor profiles", "entities": []}
+{"text": "MISP open source threat intelligence platform shared indicators with 50 organizations", "entities": []}
+{"text": "Threat Intelligence Integration Specialist connected SIEM with threat feeds", "entities": [[0, 42, "ROLE"]]}
+{"text": "Web Scraper collected indicators from GitHub repositories and forums", "entities": [[0, 11, "TOOL"], [12, 18, "SCRAPER_TYPE"], [27, 37, "INDICATOR_TYPE"], [49, 61, "REPOSITORY_TYPE"]]}
+{"text": "TLP Classification Tool applied RED AMBER GREEN WHITE tags to 600 indicators", "entities": [[4, 17, "CLASSIFICATION_TYPE"]]}
+{"text": "TI Policy Generator created policy aligning with MITRE ATT&CK and threat sharing rules", "entities": []}
+{"text": "Incident Responder investigated threat intelligence breach affecting 3 systems", "entities": [[0, 18, "ROLE"]]}
+{"text": "Incident Responder investigated threat intelligence breach affecting 3 systems", "entities": [[0, 18, "ROLE"]]}
+{"text": "Threat Hunter conducted proactive hunts finding 6 adversary TTPs", "entities": [[0, 12, "ROLE"], [13, 18, "HUNTER_TYPE"]]}
+{"text": "CISO approved threat intelligence strategy with OSINT dark web and commercial feeds", "entities": [[0, 4, "ROLE"]]}
+{"text": "Geopolitical Intel Feed enriched APT28 profiles with Ukraine conflict context", "entities": [[63, 69, "PROFILE_TYPE"]]}
+{"text": "Threat intelligence false positive rate reduced to 3% improving accuracy", "entities": [[20, 35, "METRIC_TYPE"]]}
+{"text": "IBM X-Force threat intelligence platform enriched actor profiles", "entities": []}
+{"text": "SOAR Playbook Tool automated 10 threat hunting playbooks", "entities": []}
+{"text": "Threat Intelligence Sharing Specialist shared 600 indicators via TAXII", "entities": [[0, 36, "ROLE"]]}
+{"text": "Head of Threat Intelligence reviewed IOC enrichment with 1100 indicators processed", "entities": []}
+{"text": "Threat Intelligence Strategist defined CTI program with 12 feed sources and 90% coverage", "entities": [[0, 28, "ROLE"], [44, 48, "PROGRAM_TYPE"], [55, 57, "COUNT"]]}
+{"text": "Geopolitical alignment mapped APT28 to Russia and FIN7 to financial crime", "entities": []}
+{"text": "Brand Monitoring Tool detected 8 fake domains impersonating company", "entities": [[6, 15, "MONITORING_TYPE"]]}
+{"text": "Threat Intelligence Program Strategist defined TI strategy with OSINT dark web and commercial feeds", "entities": [[0, 33, "ROLE"]]}
+{"text": "Threat intelligence incident integration mapped 20 incidents to actors", "entities": [[29, 40, "INTEGRATION_TYPE"], [49, 51, "COUNT"]]}
+{"text": "ML adoption in threat intelligence improved clustering by 35%", "entities": []}
+{"text": "Geopolitical Intel Feed enriched APT28 profiles with Ukraine conflict context", "entities": [[63, 69, "PROFILE_TYPE"]]}
+{"text": "Brand Monitoring Tool detected 4 disinformation campaigns with 2 deepfakes and 8 fake domains", "entities": [[0, 16, "TOOL"], [31, 40, "MONITORING_TYPE"]]}
+{"text": "KEV Known Exploited Vulnerabilities identified 8 actively exploited CVEs", "entities": [[4, 24, "VULNERABILITY_TYPE"], [25, 33, "VULNERABILITY_TYPE"]]}
+{"text": "Recorded Future threat intelligence platform enriched 10000 IOCs with 82% enrichment rate", "entities": [[16, 30, "INTELLIGENCE_TYPE"]]}
+{"text": "Business Risk Mapping Tool identified finance and R&D units with CFO at risk", "entities": [[0, 20, "TOOL"], [29, 34, "BUSINESS_TYPE"], [39, 45, "MAPPING_TYPE"]]}
+{"text": "Threat Intelligence Strategist defined CTI program with 12 feed sources and 90% coverage", "entities": [[0, 28, "ROLE"], [44, 48, "PROGRAM_TYPE"], [55, 57, "COUNT"]]}
+{"text": "Threat hunting coverage reached 90% across all critical systems", "entities": [[7, 13, "HUNTING_TYPE"], [14, 21, "COVERAGE_TYPE"]]}
+{"text": "Time-to-detect improved to 7 hours with threat intelligence integration", "entities": [[0, 12, "METRIC_TYPE"]]}
+{"text": "Executive Risk Dashboard showed CFO at high risk from APT29", "entities": [[0, 9, "EXECUTIVE_TYPE"], [10, 15, "RISK_TYPE"], [16, 24, "DASHBOARD_TYPE"]]}
+{"text": "TI incident integration correlated 20 SOC IR incidents with TI indicators linking APT29", "entities": []}
+{"text": "Deepfake Detector identified 2 synthetic media threats requiring takedown", "entities": [[0, 15, "TOOL"]]}
+{"text": "Deepfake Detector identified 2 deepfake videos targeting executives", "entities": []}
+{"text": "KEV Known Exploited Vulnerabilities identified 8 actively exploited CVEs", "entities": [[4, 24, "VULNERABILITY_TYPE"], [25, 33, "VULNERABILITY_TYPE"]]}
+{"text": "Threat Actor Profiling Specialist built 6 adversary profiles including APT28 and FIN7", "entities": [[0, 22, "ROLE"]]}
+{"text": "Detection rules deployed 35 Sigma rules mapped to ATT&CK techniques", "entities": [[0, 20, "DETECTION_TYPE"], [21, 26, "RULE_TYPE"]]}
+{"text": "Malware Sandbox analyzed 45 malware samples identifying 12 families", "entities": [[24, 27, "COUNT"], [28, 35, "MALWARE_TYPE"], [36, 43, "SAMPLE_TYPE"]]}
+{"text": "SOAR Playbook Tool automated 10 threat hunting playbooks", "entities": []}
+{"text": "Executive Risk Dashboard highlighted top campaigns actor activity and business risks", "entities": [[0, 18, "TOOL"], [27, 35, "EXECUTIVE_TYPE"], [36, 40, "RISK_TYPE"], [41, 49, "DASHBOARD_TYPE"]]}
+{"text": "Threat Hunter conducted proactive hunts finding 6 adversary TTPs", "entities": [[0, 12, "ROLE"], [13, 18, "HUNTER_TYPE"]]}
+{"text": "ATT&CK Navigator mapped campaigns to tactics TA0001 and TA0008 identifying active threats", "entities": [[7, 15, "NAVIGATOR_TYPE"], [24, 32, "MAPPING_TYPE"], [64, 72, "IDENTIFICATION_TYPE"]]}
+{"text": "Detection rules deployed for 35 techniques with 7-hour time-to-detect", "entities": [[0, 16, "DETECTION_TYPE"], [17, 21, "RULE_TYPE"]]}
+{"text": "Geopolitical alignment mapped APT28 to Russia and FIN7 to financial crime", "entities": []}
+{"text": "Threat Intelligence Program Strategist defined TI strategy with OSINT dark web and commercial feeds", "entities": [[0, 33, "ROLE"]]}
+{"text": "IBM X-Force threat intelligence platform enriched actor profiles", "entities": []}
+{"text": "Brand Monitoring Tool detected 4 disinformation campaigns with 2 deepfakes and 8 fake domains", "entities": [[0, 16, "TOOL"], [31, 40, "MONITORING_TYPE"]]}
+{"text": "Threat intelligence quality improved to 82% enrichment accuracy", "entities": [[20, 26, "QUALITY_TYPE"], [43, 53, "ENRICHMENT_TYPE"], [54, 61, "ACCURACY_TYPE"]]}
+{"text": "Detection rules deployed 35 Sigma rules mapped to ATT&CK techniques", "entities": [[0, 20, "DETECTION_TYPE"], [21, 26, "RULE_TYPE"]]}
+{"text": "SOAR Playbook Tool automated 10 threat hunting playbooks", "entities": []}
+{"text": "Threat actor profiles built for 6 actors with TTP mapping and campaign correlation", "entities": [[0, 11, "THREAT_TYPE"], [12, 18, "ACTOR_TYPE"], [63, 70, "CAMPAIGN_TYPE"], [71, 82, "CORRELATION_TYPE"]]}
+{"text": "CVE mapping prioritized 12 critical patches for payments and ERP apps", "entities": [[0, 3, "VULNERABILITY_TYPE"], [4, 10, "MAPPING_TYPE"], [19, 21, "COUNT"]]}
+{"text": "Patch prioritization success mapped 28 CVEs to threat intelligence indicators", "entities": [[0, 5, "PATCH_TYPE"], [6, 19, "PRIORITIZATION_TYPE"], [20, 27, "SUCCESS_TYPE"], [35, 37, "COUNT"], [38, 41, "VULNERABILITY_TYPE"], [68, 77, "INDICATOR_TYPE"]]}
+{"text": "TI Platform MISP enriched 1100 indicators with 700 high-confidence and 300 medium", "entities": []}
+{"text": "Threat Intelligence Strategist defined CTI program with 12 feed sources and 90% coverage", "entities": [[0, 28, "ROLE"], [44, 48, "PROGRAM_TYPE"], [55, 57, "COUNT"]]}
+{"text": "Threat Hunter identified 3 new TTPs using MITRE ATT&CK framework", "entities": [[0, 12, "ROLE"], [48, 54, "FRAMEWORK"]]}
+{"text": "Threat Intelligence Program Strategist defined TI strategy with OSINT dark web and commercial feeds", "entities": [[0, 33, "ROLE"]]}
+{"text": "TLP Classification Tool applied RED AMBER GREEN and WHITE classifications to shared intel", "entities": [[4, 16, "CLASSIFICATION_TYPE"]]}
+{"text": "Threat intelligence enrichment rate improved to 82% with 35 clusters identified", "entities": [[0, 16, "THREAT_TYPE"]]}
+{"text": "TI patch prioritization mapped 28 CVEs to KEVs prioritizing 12 critical patches", "entities": []}
+{"text": "Threat Intelligence Sharing Specialist distributed 200 indicators via ISAC", "entities": [[0, 36, "ROLE"], [45, 52, "SHARING_TYPE"], [63, 66, "COUNT"]]}
+{"text": "Threat Intelligence Integration Specialist connected SIEM with threat feeds", "entities": [[0, 42, "ROLE"]]}
+{"text": "Actor profiles built 6 adversary dossiers including APT28 and FIN7", "entities": [[0, 6, "ACTOR_TYPE"], [7, 14, "PROFILE_TYPE"]]}
+{"text": "Business Risk Mapping Tool identified finance and R&D as high-risk units", "entities": []}
+{"text": "Graph Analytics Tool mapped relationships between 35 threat clusters", "entities": [[0, 14, "TOOL"]]}
+{"text": "Recorded Future threat intelligence platform detected APT29 campaign", "entities": [[0, 15, "TOOL"], [60, 68, "CAMPAIGN_TYPE"]]}
+{"text": "Campaign analysis identified 7 active campaigns with APT29 and UNC2452", "entities": [[0, 8, "CAMPAIGN_TYPE"], [9, 15, "ANALYSIS_TYPE"]]}
+{"text": "IOC collection rate reached 1500 indicators daily from multiple sources", "entities": [[0, 3, "IOC_TYPE"], [4, 14, "COLLECTION_TYPE"], [27, 31, "COUNT"], [32, 42, "INDICATOR_TYPE"], [43, 50, "FREQUENCY_TYPE"]]}
+{"text": "Patch prioritization success mapped 28 CVEs to threat intelligence indicators", "entities": [[0, 5, "PATCH_TYPE"], [6, 19, "PRIORITIZATION_TYPE"], [20, 27, "SUCCESS_TYPE"], [35, 37, "COUNT"], [38, 41, "VULNERABILITY_TYPE"], [68, 77, "INDICATOR_TYPE"]]}
+{"text": "IOC collection rate reached 1500 indicators daily from multiple sources", "entities": [[0, 3, "IOC_TYPE"], [4, 14, "COLLECTION_TYPE"], [27, 31, "COUNT"], [32, 42, "INDICATOR_TYPE"], [43, 50, "FREQUENCY_TYPE"]]}
+{"text": "Executive Risk Dashboard highlighted top campaigns actor activity and business risks", "entities": [[0, 18, "TOOL"], [27, 35, "EXECUTIVE_TYPE"], [36, 40, "RISK_TYPE"], [41, 49, "DASHBOARD_TYPE"]]}
+{"text": "Incident Responder correlated threat intelligence with 5 security incidents", "entities": [[0, 18, "ROLE"], [19, 28, "RESPONDER_TYPE"]]}
+{"text": "Can you help me with this?", "entities": []}
+{"text": "I need to check something.", "entities": []}
+{"text": "What is the status?", "entities": []}
+{"text": "How do I do this?", "entities": []}
+{"text": "Tell me more about it.", "entities": []}
+{"text": "Is this safe to use?", "entities": []}
+{"text": "Let me know if you need anything.", "entities": []}
+{"text": "Thanks for your help.", "entities": []}
+{"text": "I will get back to you.", "entities": []}
+{"text": "Please review this document.", "entities": []}
+{"text": "What should I do next?", "entities": []}
+{"text": "How does this work?", "entities": []}
+{"text": "Why is this happening?", "entities": []}
+{"text": "When will this be ready?", "entities": []}
+{"text": "Where can I find this?", "entities": []}
+{"text": "Who should I contact?", "entities": []}
+{"text": "Hey, what's up?", "entities": []}
+{"text": "That's interesting.", "entities": []}
+{"text": "I see what you mean.", "entities": []}
+{"text": "That makes sense.", "entities": []}
+{"text": "Got it, thanks.", "entities": []}
+{"text": "Follow the steps carefully.", "entities": []}
+{"text": "Make sure to save your work.", "entities": []}
+{"text": "Check the settings first.", "entities": []}
+{"text": "Review the documentation.", "entities": []}
+{"text": "Read the instructions.", "entities": []}
+{"text": "This is important.", "entities": []}
+{"text": "That looks good.", "entities": []}
+{"text": "Everything seems fine.", "entities": []}
+{"text": "Nothing to report.", "entities": []}
+{"text": "All systems operational.", "entities": []}
+{"text": "The system is secure.", "entities": []}
+{"text": "All checks passed.", "entities": []}
+{"text": "No issues detected.", "entities": []}
+{"text": "Everything is working correctly.", "entities": []}
+{"text": "The configuration looks good.", "entities": []}
+{"text": "No vulnerabilities found.", "entities": []}
+{"text": "Security measures are in place.", "entities": []}
+{"text": "The audit was successful.", "entities": []}
+{"text": "The information is verified.", "entities": []}

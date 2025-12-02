@@ -1,0 +1,145 @@
+{"text": "SecurityScorecard Integrator monitored vendor security ratings with 6 remediation plans", "entities": [[0, 18, "TOOL"], [39, 45, "VENDOR_TYPE"]]}
+{"text": "Issue CAPA Management standardized taxonomy tracking 62 open issues", "entities": [[6, 10, "MANAGEMENT_TYPE"], [11, 19, "MANAGEMENT_TYPE"], [28, 40, "STANDARDIZATION_TYPE"]]}
+{"text": "Policy Lifecycle Manager updated 18 policies with 96% attestation rate", "entities": [[0, 20, "TOOL"]]}
+{"text": "Exception Registry tracked 24 open exceptions with 7 expired and 2 missing controls", "entities": [[0, 18, "TOOL"], [37, 45, "REGISTRY_TYPE"]]}
+{"text": "Risk Heatmap Generator showed 95% compliance rate with improving trends", "entities": [[0, 23, "TOOL"], [32, 40, "RISK_TYPE"]]}
+{"text": "FAIR Risk Calculator quantified 15 scenarios with 5.2M USD annual loss exposure", "entities": []}
+{"text": "Remediation Tracker monitored 23 open issues with 5 past due requiring escalation", "entities": [[0, 19, "TOOL"]]}
+{"text": "Maturity Roadmap Planner maintained 12-quarter roadmap with 34 initiatives", "entities": [[38, 45, "ROADMAP_TYPE"]]}
+{"text": "NIST Risk Assessment Tool evaluated p95 loss at 1.4M USD with top control ROI 185%", "entities": [[0, 4, "FRAMEWORK"]]}
+{"text": "Due diligence compliance rate improved to 95% with 96% control coverage", "entities": [[0, 13, "DILIGENCE_TYPE"]]}
+{"text": "Management Review confirmed Q4-2025 actions with 3 resource gaps identified", "entities": []}
+{"text": "SecurityScorecard Integrator monitored vendor security ratings with 6 remediation plans", "entities": [[0, 18, "TOOL"], [39, 45, "VENDOR_TYPE"]]}
+{"text": "Evidence Packaging Platform compiled audit evidence for ISO 27001 and SOC 2", "entities": [[0, 25, "TOOL"]]}
+{"text": "Residency Validator checked 42 datasets finding 2 nonconformant cross-border flows", "entities": [[0, 18, "TOOL"], [27, 36, "RESIDENCY_TYPE"]]}
+{"text": "CCM Orchestrator automated 220 controls with 2-day evidence freshness", "entities": [[0, 15, "TOOL"]]}
+{"text": "Management Review confirmed Q4-2025 actions with 3 resource gaps identified", "entities": []}
+{"text": "Certification Tracker monitored ISO 27001 PCI DSS and SOC 2 certifications", "entities": [[0, 20, "TOOL"]]}
+{"text": "Cybersecurity Maturity Model Mapper established NIST CSF baseline score of 3.2", "entities": [[0, 35, "TOOL"], [44, 52, "MATURITY_TYPE"]]}
+{"text": "Audit Checklist Tool performed 12 internal audits finding 7 issues with 5 resolved", "entities": []}
+{"text": "Vendor Health Dashboard monitored 260 vendors with 11 critical alerts in quarter", "entities": [[0, 18, "TOOL"], [27, 33, "VENDOR_TYPE"]]}
+{"text": "Control Coverage Dashboard showed 22 pillars reviewed with 54 issues found", "entities": [[0, 25, "TOOL"]]}
+{"text": "Control Coverage Dashboard showed 22 pillars reviewed with 54 issues found", "entities": [[0, 25, "TOOL"]]}
+{"text": "Residency Validator checked 42 datasets finding 2 nonconformant cross-border flows", "entities": [[0, 18, "TOOL"], [27, 36, "RESIDENCY_TYPE"]]}
+{"text": "Regulatory Feed Monitor detected 9 new regulations with 3 high-impact requiring adoption", "entities": []}
+{"text": "Due diligence training completion reached 94% for all GRC analysts", "entities": [[0, 13, "DILIGENCE_TYPE"], [23, 32, "COMPLETION_TYPE"]]}
+{"text": "Due diligence false positive rate reduced to 1.8% improving assessment accuracy", "entities": [[0, 13, "DILIGENCE_TYPE"]]}
+{"text": "Executive Dashboard Builder generated Q4-2025 board report with risk score 2.3", "entities": [[0, 26, "TOOL"]]}
+{"text": "Regulatory Gap Analyzer identified 4 gaps across ISO27001 PCI DSS GDPR HIPAA and DORA", "entities": [[0, 22, "TOOL"], [31, 40, "REGULATION_TYPE"]]}
+{"text": "M&A Control Checklist reviewed 3 acquisition targets with 5 critical findings", "entities": [[0, 3, "ACQUISITION_TYPE"], [12, 20, "CHECKLIST_TYPE"], [36, 43, "TARGET_TYPE"]]}
+{"text": "Executive Dashboard Builder generated Q4-2025 board report with risk score 2.3", "entities": [[0, 26, "TOOL"]]}
+{"text": "Vendor Risk Assessment Tool evaluated 230 of 250 vendors identifying 8 high-risk", "entities": [[0, 23, "TOOL"], [32, 37, "VENDOR_TYPE"]]}
+{"text": "Maturity Roadmap Planner maintained 12-quarter roadmap with 34 initiatives", "entities": [[38, 45, "ROADMAP_TYPE"]]}
+{"text": "Sampling Planner enforced IIA standards with 95% confidence and 98% chain compliance", "entities": [[0, 17, "TOOL"], [26, 33, "SAMPLING_TYPE"], [34, 40, "PLANNING_TYPE"]]}
+{"text": "Management Review confirmed Q4-2025 actions with 3 resource gaps identified", "entities": []}
+{"text": "Evidence Repository stored 230 remediation actions with 31 closed and 23 open", "entities": [[0, 18, "TOOL"]]}
+{"text": "Regulatory Gap Analyzer identified 4 gaps across ISO27001 PCI DSS GDPR HIPAA and DORA", "entities": [[0, 22, "TOOL"], [31, 40, "REGULATION_TYPE"]]}
+{"text": "Evidence Packaging Platform compiled audit evidence for ISO 27001 and SOC 2", "entities": [[0, 25, "TOOL"]]}
+{"text": "SecurityScorecard Integrator monitored vendor security ratings with 6 remediation plans", "entities": [[0, 18, "TOOL"], [39, 45, "VENDOR_TYPE"]]}
+{"text": "Due diligence training completion reached 94% for all GRC analysts", "entities": [[0, 13, "DILIGENCE_TYPE"], [23, 32, "COMPLETION_TYPE"]]}
+{"text": "Policy Lifecycle Manager updated 18 policies with 96% attestation rate", "entities": [[0, 20, "TOOL"]]}
+{"text": "Risk Register Manager tracked 63 non-compliant controls requiring remediation", "entities": [[0, 19, "TOOL"], [35, 43, "REGISTER_TYPE"]]}
+{"text": "Management Review confirmed Q4-2025 actions with 3 resource gaps identified", "entities": []}
+{"text": "Audit Checklist Tool performed 12 internal audits finding 7 issues with 5 resolved", "entities": []}
+{"text": "Regulatory Feed Monitor detected 9 new regulations with 3 high-impact requiring adoption", "entities": []}
+{"text": "Regulatory Gap Analyzer identified 4 gaps across ISO27001 PCI DSS GDPR HIPAA and DORA", "entities": [[0, 22, "TOOL"], [31, 40, "REGULATION_TYPE"]]}
+{"text": "Compliance Evidence Collector automated evidence gathering for 12 audit cycles", "entities": [[0, 25, "TOOL"]]}
+{"text": "Regulatory Framework Integrator aligned ISO 27001 PCI DSS GDPR HIPAA and DORA", "entities": [[0, 28, "TOOL"]]}
+{"text": "Vendor Risk Assessment Tool evaluated 230 of 250 vendors identifying 8 high-risk", "entities": [[0, 23, "TOOL"], [32, 37, "VENDOR_TYPE"]]}
+{"text": "Risk Heatmap Generator showed 95% compliance rate with improving trends", "entities": [[0, 23, "TOOL"], [32, 40, "RISK_TYPE"]]}
+{"text": "Remediation Tracker monitored 23 open issues with 5 past due requiring escalation", "entities": [[0, 19, "TOOL"]]}
+{"text": "Sampling Planner enforced IIA standards with 95% confidence and 98% chain compliance", "entities": [[0, 17, "TOOL"], [26, 33, "SAMPLING_TYPE"], [34, 40, "PLANNING_TYPE"]]}
+{"text": "FAIR Risk Calculator quantified 15 scenarios with 5.2M USD annual loss exposure", "entities": []}
+{"text": "Due diligence compliance rate improved to 95% with 96% control coverage", "entities": [[0, 13, "DILIGENCE_TYPE"]]}
+{"text": "Cybersecurity Maturity Model Mapper established NIST CSF baseline score of 3.2", "entities": [[0, 35, "TOOL"], [44, 52, "MATURITY_TYPE"]]}
+{"text": "Vendor Health Dashboard monitored 260 vendors with 11 critical alerts in quarter", "entities": [[0, 18, "TOOL"], [27, 33, "VENDOR_TYPE"]]}
+{"text": "Risk Heatmap Generator showed 95% compliance rate with improving trends", "entities": [[0, 23, "TOOL"], [32, 40, "RISK_TYPE"]]}
+{"text": "Control Framework Mapper monitored 1187 of 1250 controls with 94.9% compliance rate", "entities": []}
+{"text": "Maturity Roadmap Planner maintained 12-quarter roadmap with 34 initiatives", "entities": [[38, 45, "ROADMAP_TYPE"]]}
+{"text": "Due Diligence Strategist defined enterprise strategy covering all 22 cybersecurity pillars", "entities": [[0, 25, "ROLE"]]}
+{"text": "Exception Registry tracked 24 open exceptions with 7 expired and 2 missing controls", "entities": [[0, 18, "TOOL"], [37, 45, "REGISTRY_TYPE"]]}
+{"text": "Issue CAPA Management standardized taxonomy tracking 62 open issues", "entities": [[6, 10, "MANAGEMENT_TYPE"], [11, 19, "MANAGEMENT_TYPE"], [28, 40, "STANDARDIZATION_TYPE"]]}
+{"text": "M&A Control Checklist reviewed 3 acquisition targets with 5 critical findings", "entities": [[0, 3, "ACQUISITION_TYPE"], [12, 20, "CHECKLIST_TYPE"], [36, 43, "TARGET_TYPE"]]}
+{"text": "Due Diligence Strategist defined enterprise strategy covering all 22 cybersecurity pillars", "entities": [[0, 25, "ROLE"]]}
+{"text": "Control Coverage Dashboard showed 22 pillars reviewed with 54 issues found", "entities": [[0, 25, "TOOL"]]}
+{"text": "Due diligence false positive rate reduced to 1.8% improving assessment accuracy", "entities": [[0, 13, "DILIGENCE_TYPE"]]}
+{"text": "Vendor Health Dashboard monitored 260 vendors with 11 critical alerts in quarter", "entities": [[0, 18, "TOOL"], [27, 33, "VENDOR_TYPE"]]}
+{"text": "M&A Control Checklist reviewed 3 acquisition targets with 5 critical findings", "entities": [[0, 3, "ACQUISITION_TYPE"], [12, 20, "CHECKLIST_TYPE"], [36, 43, "TARGET_TYPE"]]}
+{"text": "SecurityScorecard Integrator monitored vendor security ratings with 6 remediation plans", "entities": [[0, 18, "TOOL"], [39, 45, "VENDOR_TYPE"]]}
+{"text": "Vendor Health Dashboard monitored 260 vendors with 11 critical alerts in quarter", "entities": [[0, 18, "TOOL"], [27, 33, "VENDOR_TYPE"]]}
+{"text": "Regulatory Framework Integrator aligned ISO 27001 PCI DSS GDPR HIPAA and DORA", "entities": [[0, 28, "TOOL"]]}
+{"text": "Compliance Evidence Collector automated evidence gathering for 12 audit cycles", "entities": [[0, 25, "TOOL"]]}
+{"text": "Evidence Packaging Platform compiled audit evidence for ISO 27001 and SOC 2", "entities": [[0, 25, "TOOL"]]}
+{"text": "M&A Control Checklist reviewed 3 acquisition targets with 5 critical findings", "entities": [[0, 3, "ACQUISITION_TYPE"], [12, 20, "CHECKLIST_TYPE"], [36, 43, "TARGET_TYPE"]]}
+{"text": "Due Diligence Strategist defined enterprise strategy covering all 22 cybersecurity pillars", "entities": [[0, 25, "ROLE"]]}
+{"text": "Evidence Repository stored 230 remediation actions with 31 closed and 23 open", "entities": [[0, 18, "TOOL"]]}
+{"text": "Regulatory Framework Integrator aligned ISO 27001 PCI DSS GDPR HIPAA and DORA", "entities": [[0, 28, "TOOL"]]}
+{"text": "Policy Lifecycle Manager updated 18 policies with 96% attestation rate", "entities": [[0, 20, "TOOL"]]}
+{"text": "Maturity Roadmap Planner maintained 12-quarter roadmap with 34 initiatives", "entities": [[38, 45, "ROADMAP_TYPE"]]}
+{"text": "Exception Registry tracked 24 open exceptions with 7 expired and 2 missing controls", "entities": [[0, 18, "TOOL"], [37, 45, "REGISTRY_TYPE"]]}
+{"text": "Regulatory Gap Analyzer identified 4 gaps across ISO27001 PCI DSS GDPR HIPAA and DORA", "entities": [[0, 22, "TOOL"], [31, 40, "REGULATION_TYPE"]]}
+{"text": "Cybersecurity Maturity Model Mapper established NIST CSF baseline score of 3.2", "entities": [[0, 35, "TOOL"], [44, 52, "MATURITY_TYPE"]]}
+{"text": "Sampling Planner enforced IIA standards with 95% confidence and 98% chain compliance", "entities": [[0, 17, "TOOL"], [26, 33, "SAMPLING_TYPE"], [34, 40, "PLANNING_TYPE"]]}
+{"text": "Regulatory Framework Integrator aligned ISO 27001 PCI DSS GDPR HIPAA and DORA", "entities": [[0, 28, "TOOL"]]}
+{"text": "Risk Heatmap Generator showed 95% compliance rate with improving trends", "entities": [[0, 23, "TOOL"], [32, 40, "RISK_TYPE"]]}
+{"text": "Due diligence training completion reached 94% for all GRC analysts", "entities": [[0, 13, "DILIGENCE_TYPE"], [23, 32, "COMPLETION_TYPE"]]}
+{"text": "Audit Checklist Tool performed 12 internal audits finding 7 issues with 5 resolved", "entities": []}
+{"text": "Remediation Tracker monitored 23 open issues with 5 past due requiring escalation", "entities": [[0, 19, "TOOL"]]}
+{"text": "Due diligence false positive rate reduced to 1.8% improving assessment accuracy", "entities": [[0, 13, "DILIGENCE_TYPE"]]}
+{"text": "Issue CAPA Management standardized taxonomy tracking 62 open issues", "entities": [[6, 10, "MANAGEMENT_TYPE"], [11, 19, "MANAGEMENT_TYPE"], [28, 40, "STANDARDIZATION_TYPE"]]}
+{"text": "Risk Register Manager tracked 63 non-compliant controls requiring remediation", "entities": [[0, 19, "TOOL"], [35, 43, "REGISTER_TYPE"]]}
+{"text": "Control Framework Mapper monitored 1187 of 1250 controls with 94.9% compliance rate", "entities": []}
+{"text": "Regulatory Feed Monitor detected 9 new regulations with 3 high-impact requiring adoption", "entities": []}
+{"text": "Risk Register Manager tracked 63 non-compliant controls requiring remediation", "entities": [[0, 19, "TOOL"], [35, 43, "REGISTER_TYPE"]]}
+{"text": "CCM Orchestrator automated 220 controls with 2-day evidence freshness", "entities": [[0, 15, "TOOL"]]}
+{"text": "CCM Orchestrator automated 220 controls with 2-day evidence freshness", "entities": [[0, 15, "TOOL"]]}
+{"text": "Due diligence training completion reached 94% for all GRC analysts", "entities": [[0, 13, "DILIGENCE_TYPE"], [23, 32, "COMPLETION_TYPE"]]}
+{"text": "Compliance Evidence Collector automated evidence gathering for 12 audit cycles", "entities": [[0, 25, "TOOL"]]}
+{"text": "NIST Risk Assessment Tool evaluated p95 loss at 1.4M USD with top control ROI 185%", "entities": [[0, 4, "FRAMEWORK"]]}
+{"text": "Due diligence compliance rate improved to 95% with 96% control coverage", "entities": [[0, 13, "DILIGENCE_TYPE"]]}
+{"text": "Executive Dashboard Builder generated Q4-2025 board report with risk score 2.3", "entities": [[0, 26, "TOOL"]]}
+{"text": "Compliance Evidence Collector automated evidence gathering for 12 audit cycles", "entities": [[0, 25, "TOOL"]]}
+{"text": "Regulatory Feed Monitor detected 9 new regulations with 3 high-impact requiring adoption", "entities": []}
+{"text": "Due Diligence Strategist defined enterprise strategy covering all 22 cybersecurity pillars", "entities": [[0, 25, "ROLE"]]}
+{"text": "Evidence Packaging Platform compiled audit evidence for ISO 27001 and SOC 2", "entities": [[0, 25, "TOOL"]]}
+{"text": "Certification Tracker monitored ISO 27001 PCI DSS and SOC 2 certifications", "entities": [[0, 20, "TOOL"]]}
+{"text": "CCM Orchestrator automated 220 controls with 2-day evidence freshness", "entities": [[0, 15, "TOOL"]]}
+{"text": "Certification Tracker monitored ISO 27001 PCI DSS and SOC 2 certifications", "entities": [[0, 20, "TOOL"]]}
+{"text": "Issue CAPA Management standardized taxonomy tracking 62 open issues", "entities": [[6, 10, "MANAGEMENT_TYPE"], [11, 19, "MANAGEMENT_TYPE"], [28, 40, "STANDARDIZATION_TYPE"]]}
+{"text": "Cybersecurity Maturity Model Mapper established NIST CSF baseline score of 3.2", "entities": [[0, 35, "TOOL"], [44, 52, "MATURITY_TYPE"]]}
+{"text": "NIST Risk Assessment Tool evaluated p95 loss at 1.4M USD with top control ROI 185%", "entities": [[0, 4, "FRAMEWORK"]]}
+{"text": "Vendor Risk Assessment Tool evaluated 230 of 250 vendors identifying 8 high-risk", "entities": [[0, 23, "TOOL"], [32, 37, "VENDOR_TYPE"]]}
+{"text": "Evidence Repository stored 230 remediation actions with 31 closed and 23 open", "entities": [[0, 18, "TOOL"]]}
+{"text": "FAIR Risk Calculator quantified 15 scenarios with 5.2M USD annual loss exposure", "entities": []}
+{"text": "Control Framework Mapper monitored 1187 of 1250 controls with 94.9% compliance rate", "entities": []}
+{"text": "FAIR Risk Calculator quantified 15 scenarios with 5.2M USD annual loss exposure", "entities": []}
+{"text": "Due diligence false positive rate reduced to 1.8% improving assessment accuracy", "entities": [[0, 13, "DILIGENCE_TYPE"]]}
+{"text": "NIST Risk Assessment Tool evaluated p95 loss at 1.4M USD with top control ROI 185%", "entities": [[0, 4, "FRAMEWORK"]]}
+{"text": "Certification Tracker monitored ISO 27001 PCI DSS and SOC 2 certifications", "entities": [[0, 20, "TOOL"]]}
+{"text": "Control Framework Mapper monitored 1187 of 1250 controls with 94.9% compliance rate", "entities": []}
+{"text": "Executive Dashboard Builder generated Q4-2025 board report with risk score 2.3", "entities": [[0, 26, "TOOL"]]}
+{"text": "Control Coverage Dashboard showed 22 pillars reviewed with 54 issues found", "entities": [[0, 25, "TOOL"]]}
+{"text": "Remediation Tracker monitored 23 open issues with 5 past due requiring escalation", "entities": [[0, 19, "TOOL"]]}
+{"text": "Policy Lifecycle Manager updated 18 policies with 96% attestation rate", "entities": [[0, 20, "TOOL"]]}
+{"text": "Vendor Risk Assessment Tool evaluated 230 of 250 vendors identifying 8 high-risk", "entities": [[0, 23, "TOOL"], [32, 37, "VENDOR_TYPE"]]}
+{"text": "Residency Validator checked 42 datasets finding 2 nonconformant cross-border flows", "entities": [[0, 18, "TOOL"], [27, 36, "RESIDENCY_TYPE"]]}
+{"text": "Due diligence compliance rate improved to 95% with 96% control coverage", "entities": [[0, 13, "DILIGENCE_TYPE"]]}
+{"text": "Risk Register Manager tracked 63 non-compliant controls requiring remediation", "entities": [[0, 19, "TOOL"], [35, 43, "REGISTER_TYPE"]]}
+{"text": "Sampling Planner enforced IIA standards with 95% confidence and 98% chain compliance", "entities": [[0, 17, "TOOL"], [26, 33, "SAMPLING_TYPE"], [34, 40, "PLANNING_TYPE"]]}
+{"text": "Audit Checklist Tool performed 12 internal audits finding 7 issues with 5 resolved", "entities": []}
+{"text": "Exception Registry tracked 24 open exceptions with 7 expired and 2 missing controls", "entities": [[0, 18, "TOOL"], [37, 45, "REGISTRY_TYPE"]]}
+{"text": "Evidence Repository stored 230 remediation actions with 31 closed and 23 open", "entities": [[0, 18, "TOOL"]]}
+{"text": "Residency Validator checked 42 datasets finding 2 nonconformant cross-border flows", "entities": [[0, 18, "TOOL"], [27, 36, "RESIDENCY_TYPE"]]}
+{"text": "Can you help me with this?", "entities": []}
+{"text": "I need to check something.", "entities": []}
+{"text": "What is the status?", "entities": []}
+{"text": "How do I do this?", "entities": []}
+{"text": "Tell me more about it.", "entities": []}
+{"text": "Is this safe to use?", "entities": []}
+{"text": "Let me know if you need anything.", "entities": []}
+{"text": "Thanks for your help.", "entities": []}
+{"text": "I will get back to you.", "entities": []}
+{"text": "Please review this document.", "entities": []}
+{"text": "What should I do next?", "entities": []}
+{"text": "How does this work?", "entities": []}
+{"text": "Why is this happening?", "entities": []}

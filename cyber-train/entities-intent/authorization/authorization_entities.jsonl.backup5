@@ -1,0 +1,440 @@
+{"text": "Role-based access control assigned Finance_Read role to 45 users with view_reports permission", "entities": [[0, 25, "CONTROL_TYPE"], [26, 33, "AUTH_TYPE"], [35, 40, "CONTROL_TYPE"]]}
+{"text": "LDAP directory services managed organizational unit permissions with access control lists", "entities": [[0, 4, "PROTOCOL_TYPE"], [5, 14, "SERVICE_TYPE"], [15, 23, "SERVICE_TYPE"], [32, 50, "UNIT_TYPE"], [52, 63, "PERMISSION_TYPE"]]}
+{"text": "OpenIAM open source IAM platform implemented ABAC policies with location-based access control", "entities": [[8, 11, "AUTH_TYPE"]]}
+{"text": "Oracle EBS responsibility management enforced function security with menu exclusions", "entities": []}
+{"text": "Keycloak authorization services managed resource permissions with UMA protocol", "entities": []}
+{"text": "IAM Policy Engine Tool enforced least privilege removing S3_FullAccess from user123", "entities": []}
+{"text": "Salesforce permission sets managed object-level access for 3000 users", "entities": [[11, 25, "SET_TYPE"], [27, 33, "SET_TYPE"], [41, 54, "ACCESS_TYPE"], [60, 63, "COUNT"]]}
+{"text": "BeyondTrust PAM solution enforced just-in-time access for 150 privileged identities", "entities": []}
+{"text": "Kubernetes RBAC enforced role bindings for 200 service accounts", "entities": [[11, 15, "AUTH_TYPE"]]}
+{"text": "Azure RBAC managed role assignments for 2000 users with custom roles", "entities": [[0, 5, "CLOUD_PROVIDER"], [6, 10, "AUTH_TYPE"], [26, 35, "ASSIGNMENT_TYPE"]]}
+{"text": "802.1X network access control enforced port-based authentication with EAP", "entities": [[0, 5, "PROTOCOL_TYPE"]]}
+{"text": "SailPoint identity governance platform managed 5000 user accounts with RBAC enforcement", "entities": [[10, 27, "PLATFORM_TYPE"]]}
+{"text": "Privileged session monitoring captured 120 sessions with 5 anomalies requiring investigation", "entities": [[0, 9, "ACCOUNT_TYPE"], [11, 16, "SESSION_TYPE"]]}
+{"text": "WSO2 Identity Server enforced XACML policies with policy decision points", "entities": [[5, 20, "TOOL"]]}
+{"text": "Keycloak authorization services managed resource permissions with UMA protocol", "entities": []}
+{"text": "SAP authorization concept enforced user roles with profile generators", "entities": []}
+{"text": "Teleport access platform enforced SSH certificate-based access with audit logging", "entities": [[47, 54, "ACCESS_TYPE"]]}
+{"text": "Authorization compliance score improved to 91% meeting SOX and PCI DSS requirements", "entities": []}
+{"text": "Authorization audit score of 88% with finding that JIT not enforced on 3 systems", "entities": []}
+{"text": "OpenIAM open source IAM platform implemented ABAC policies with location-based access", "entities": [[8, 11, "AUTH_TYPE"]]}
+{"text": "Zero Trust authorization model enforced device trust verification for all access requests", "entities": [[0, 10, "MODEL_TYPE"], [58, 64, "DEVICE_TYPE"]]}
+{"text": "Thycotic Secret Server managed privileged account access with approval workflows", "entities": [[9, 21, "TOOL"], [62, 70, "WORKFLOW_TYPE"], [71, 80, "WORKFLOW_TYPE"]]}
+{"text": "AWS Organizations SCP enforced service control policies across 50 accounts", "entities": [[0, 3, "CLOUD_PROVIDER"]]}
+{"text": "Privileged Session Recorder captured 45-minute root session with mass_export anomaly", "entities": [[0, 26, "TOOL"]]}
+{"text": "OpenShift RBAC managed project-level permissions with cluster roles", "entities": [[11, 14, "AUTH_TYPE"], [24, 35, "PERMISSION_TYPE"], [37, 45, "PERMISSION_TYPE"]]}
+{"text": "Service mesh enforced mTLS with authorization policies for microservices", "entities": [[0, 7, "MESH_TYPE"]]}
+{"text": "Toxic role combination detected allowing data access and deletion permissions simultaneously", "entities": [[0, 20, "COMBINATION_TYPE"], [32, 40, "PERMISSION_TYPE"]]}
+{"text": "Authorization Compliance Analyst audited authorization controls validating SoD compliance", "entities": [[0, 32, "ROLE"]]}
+{"text": "Attribute-based access control policy denied access based on location outside_US attribute", "entities": []}
+{"text": "Vendor Access Audit Tool found excessive_privilege on vendor123 account requiring revocation", "entities": [[32, 50, "PRIVILEGE_TYPE"], [54, 62, "VENDOR_ID"]]}
+{"text": "Kubernetes RBAC enforced role bindings for 200 service accounts", "entities": [[11, 15, "AUTH_TYPE"]]}
+{"text": "Policy Simulation Tool tested authorization policy impact affecting 12 users losing Finance_App access", "entities": [[0, 22, "TOOL"], [36, 42, "IMPACT_TYPE"]]}
+{"text": "Zero Trust network access enforced identity-based policies with device posture", "entities": [[0, 10, "ACCESS_TYPE"], [35, 42, "POLICY_TYPE"], [43, 49, "POLICY_TYPE"]]}
+{"text": "OneIdentity Safeguard managed privileged access with session isolation", "entities": []}
+{"text": "OPA Open Policy Agent enforced policy-as-code blocking insecure deployments", "entities": []}
+{"text": "Apache Sentry managed Hadoop cluster permissions with column-level access control", "entities": [[22, 28, "CLUSTER_TYPE"], [29, 40, "PERMISSION_TYPE"]]}
+{"text": "AWS Organizations SCP enforced service control policies across 50 accounts", "entities": [[0, 3, "CLOUD_PROVIDER"]]}
+{"text": "Consul Connect enforced service mesh authorization with intention rules", "entities": []}
+{"text": "Least privilege enforcement reduced average permissions per user from 12 to 4", "entities": [[45, 52, "PERMISSION_TYPE"]]}
+{"text": "Docker Enterprise enforced image scanning policies with access control", "entities": []}
+{"text": "Zero Trust authorization model enforced device trust verification for all access requests", "entities": [[0, 10, "MODEL_TYPE"], [58, 64, "DEVICE_TYPE"]]}
+{"text": "Authorization Strategist defined RBAC role model with Finance_Read and Finance_Admin roles", "entities": []}
+{"text": "JIT Access Manager granted time-bound db_admin role to eng1 for 2-hour duration", "entities": [[0, 18, "TOOL"], [29, 35, "ACCOUNT_TYPE"]]}
+{"text": "Least privilege enforcement reduced average permissions per user from 12 to 4", "entities": [[45, 52, "PERMISSION_TYPE"]]}
+{"text": "CyberArk privileged access management secured 200 admin accounts with session recording", "entities": [[9, 26, "MANAGEMENT_TYPE"], [28, 36, "ACCOUNT_TYPE"], [50, 55, "ACCOUNT_TYPE"], [56, 64, "ACCOUNT_TYPE"], [70, 76, "SESSION_TYPE"], [78, 85, "RECORDING_TYPE"]]}
+{"text": "Policy Definition Generator created RBAC roles Finance_Read Finance_Admin and HR_Manager", "entities": [[0, 25, "TOOL"]]}
+{"text": "Ping Identity authorization server implemented ABAC with attribute-based policies", "entities": [[0, 12, "TOOL"], [21, 27, "SERVER_TYPE"], [59, 68, "POLICY_TYPE"]]}
+{"text": "Identity attack path analysis identified 4 critical privilege escalation routes", "entities": []}
+{"text": "Salesforce permission sets managed object-level access for 3000 users", "entities": [[11, 25, "SET_TYPE"], [27, 33, "SET_TYPE"], [41, 54, "ACCESS_TYPE"], [60, 63, "COUNT"]]}
+{"text": "Guacamole remote access gateway enforced RDP VNC and SSH access with MFA", "entities": []}
+{"text": "Teleport access platform enforced SSH certificate-based access with audit logging", "entities": [[47, 54, "ACCESS_TYPE"]]}
+{"text": "Workday security groups managed business process permissions with domain security", "entities": [[8, 20, "TOOL"]]}
+{"text": "BeyondTrust PAM solution enforced just-in-time access for 150 privileged identities", "entities": []}
+{"text": "Reporting Dashboard Tool generated executive KPIs showing 92% access certification completion", "entities": [[0, 24, "TOOL"]]}
+{"text": "Role-based access control assigned Finance_Read role to 45 users with view_reports permission", "entities": [[0, 25, "CONTROL_TYPE"], [26, 33, "AUTH_TYPE"], [35, 40, "CONTROL_TYPE"]]}
+{"text": "Privilege Escalation Detector flagged unauthorized sudo escalation by devops1 with high severity", "entities": [[0, 28, "TOOL"]]}
+{"text": "Guacamole remote access gateway enforced RDP VNC and SSH access with MFA", "entities": []}
+{"text": "Okta authorization server enforced RBAC for 5000 users with group-based access", "entities": []}
+{"text": "HashiCorp Boundary enforced secure access with session recording for infrastructure", "entities": []}
+{"text": "CyberArk privileged access management secured 200 admin accounts with session recording", "entities": [[9, 26, "MANAGEMENT_TYPE"], [28, 36, "ACCOUNT_TYPE"], [50, 55, "ACCOUNT_TYPE"], [56, 64, "ACCOUNT_TYPE"], [70, 76, "SESSION_TYPE"], [78, 85, "RECORDING_TYPE"]]}
+{"text": "Compliance Framework Tool aligned authorization models with SOX PCI DSS and ISO 27001", "entities": []}
+{"text": "BeyondTrust PAM solution enforced just-in-time access for 150 privileged identities", "entities": []}
+{"text": "Vendor Access Audit Tool found excessive privilege on vendor accounts requiring revocation", "entities": [[54, 60, "VENDOR_TYPE"], [61, 68, "ACCOUNT_TYPE"]]}
+{"text": "Vendor Access Audit Tool found excessive_privilege on vendor123 account requiring revocation", "entities": [[32, 50, "PRIVILEGE_TYPE"], [54, 62, "VENDOR_ID"]]}
+{"text": "Software-defined perimeter enforced micro-segmentation with application-level access", "entities": [[0, 25, "PERIMETER_TYPE"], [64, 75, "ACCESS_TYPE"]]}
+{"text": "Thycotic Secret Server managed privileged account access with approval workflows", "entities": [[9, 21, "TOOL"], [62, 70, "WORKFLOW_TYPE"], [71, 80, "WORKFLOW_TYPE"]]}
+{"text": "BeyondTrust PAM solution enforced just-in-time access for 150 privileged identities", "entities": []}
+{"text": "Risk-adaptive access control denied login from IP 203.0.113.45 due to high risk score", "entities": []}
+{"text": "API gateway enforced rate limiting and OAuth2 scopes for 500 API endpoints", "entities": [[0, 3, "API_TYPE"], [4, 10, "GATEWAY_TYPE"]]}
+{"text": "Authorization audit score of 88% with finding that JIT not enforced on 3 systems", "entities": []}
+{"text": "Authorization coverage achieved 98% with zero orphaned entitlements detected", "entities": []}
+{"text": "Access Review Tool identified SoD violation with finance_mgr having approve_and_process conflict", "entities": []}
+{"text": "Kubernetes Pod Security Policy enforced security contexts with admission control", "entities": []}
+{"text": "Access certification automation reduced review time from 30 days to 7 days", "entities": [[7, 20, "CERTIFICATION_TYPE"], [21, 31, "AUTOMATION_TYPE"]]}
+{"text": "Consul Connect enforced service mesh authorization with intention rules", "entities": []}
+{"text": "Ping Identity authorization server implemented ABAC with attribute-based policies", "entities": [[0, 12, "TOOL"], [21, 27, "SERVER_TYPE"], [59, 68, "POLICY_TYPE"]]}
+{"text": "JIT Access Manager granted time-bound admin roles with automatic revocation", "entities": [[0, 18, "TOOL"], [29, 35, "ACCOUNT_TYPE"]]}
+{"text": "Just-in-time access granted 23 times in last week with average duration of 1.5 hours", "entities": []}
+{"text": "OPA Open Policy Agent enforced policy-as-code blocking insecure container deployments", "entities": []}
+{"text": "Service mesh enforced mTLS with authorization policies for microservices", "entities": [[0, 7, "MESH_TYPE"]]}
+{"text": "JIT Access Manager granted time-bound admin roles with automatic revocation", "entities": [[0, 18, "TOOL"], [29, 35, "ACCOUNT_TYPE"]]}
+{"text": "Linkerd authorization enforced service-to-service policies with traffic splitting", "entities": [[8, 20, "AUTH_TYPE"]]}
+{"text": "Microsoft Active Directory enforced group policy with delegation controls", "entities": []}
+{"text": "Azure RBAC managed role assignments for 2000 users with custom roles", "entities": [[0, 5, "CLOUD_PROVIDER"], [6, 10, "AUTH_TYPE"], [26, 35, "ASSIGNMENT_TYPE"]]}
+{"text": "Privileged Session Recorder captured keystrokes commands and anomalies for high-risk accounts", "entities": [[0, 26, "TOOL"]]}
+{"text": "Centrify privileged access management enforced MFA for privileged sessions", "entities": [[9, 26, "MANAGEMENT_TYPE"], [28, 36, "ACCOUNT_TYPE"]]}
+{"text": "OPA Open Policy Agent enforced policy-as-code blocking insecure container deployments", "entities": []}
+{"text": "SoD violation remediation completed for 12 conflicts within 14-day SLA", "entities": [[0, 3, "VIOLATION_TYPE"], [4, 8, "VIOLATION_TYPE"]]}
+{"text": "CyberArk privileged access management secured 200 admin accounts with session recording", "entities": [[9, 26, "MANAGEMENT_TYPE"], [28, 36, "ACCOUNT_TYPE"], [50, 55, "ACCOUNT_TYPE"], [56, 64, "ACCOUNT_TYPE"], [70, 76, "SESSION_TYPE"], [78, 85, "RECORDING_TYPE"]]}
+{"text": "Privileged Session Recorder captured keystrokes commands and anomalies for high-risk accounts", "entities": [[0, 26, "TOOL"]]}
+{"text": "Enterprise Authorization Strategist defined RBAC ABAC models with least privilege enforcement", "entities": [[0, 35, "ROLE"], [44, 48, "AUTH_TYPE"]]}
+{"text": "Role Mining Tool analyzed entitlements across systems identifying 45 over-privileged accounts", "entities": []}
+{"text": "Identity attack path analysis identified 4 critical privilege escalation routes", "entities": []}
+{"text": "OpenShift RBAC managed project-level permissions with cluster roles", "entities": [[11, 14, "AUTH_TYPE"], [24, 35, "PERMISSION_TYPE"], [37, 45, "PERMISSION_TYPE"]]}
+{"text": "Third-party vendor access review identified 8 over-privileged accounts requiring revocation", "entities": [[0, 10, "REVIEW_TYPE"]]}
+{"text": "Access certification automation reduced review time from 30 days to 7 days", "entities": [[7, 20, "CERTIFICATION_TYPE"], [21, 31, "AUTOMATION_TYPE"]]}
+{"text": "Authorization Strategist defined RBAC role model with Finance_Read and Finance_Admin roles", "entities": []}
+{"text": "Access Review Tool identified SoD violations and over-privileged accounts", "entities": []}
+{"text": "IAM Policy Engine Tool enforced least privilege removing S3_FullAccess from user123", "entities": []}
+{"text": "Privileged Session Recorder captured 45-minute root session with mass_export anomaly", "entities": [[0, 26, "TOOL"]]}
+{"text": "Enterprise Authorization Strategist defined RBAC ABAC models with least privilege enforcement", "entities": [[0, 35, "ROLE"], [44, 48, "AUTH_TYPE"]]}
+{"text": "HashiCorp Boundary enforced secure access with session recording for infrastructure", "entities": []}
+{"text": "Access Drift Monitor detected manual policy change granting extra privilege to admin1", "entities": [[0, 19, "TOOL"]]}
+{"text": "SailPoint identity governance platform managed 5000 user accounts with RBAC enforcement", "entities": [[10, 27, "PLATFORM_TYPE"]]}
+{"text": "Guacamole remote access gateway enforced RDP VNC and SSH access with MFA", "entities": []}
+{"text": "Microsoft Active Directory enforced group policy with delegation controls", "entities": []}
+{"text": "BeyondTrust PAM solution enforced just-in-time access for 150 privileged identities", "entities": []}
+{"text": "Software-defined perimeter enforced micro-segmentation with application-level access", "entities": [[0, 25, "PERIMETER_TYPE"], [64, 75, "ACCESS_TYPE"]]}
+{"text": "LDAP directory services managed organizational unit permissions with access control lists", "entities": [[0, 4, "PROTOCOL_TYPE"], [5, 14, "SERVICE_TYPE"], [15, 23, "SERVICE_TYPE"], [32, 50, "UNIT_TYPE"], [52, 63, "PERMISSION_TYPE"]]}
+{"text": "Kubernetes RBAC enforced role bindings for 200 service accounts", "entities": [[11, 15, "AUTH_TYPE"]]}
+{"text": "Okta authorization server enforced RBAC for 5000 users with group-based access", "entities": []}
+{"text": "IAM Policy Engine Tool enforced least privilege removing excessive permissions from 45 accounts", "entities": []}
+{"text": "BeyondTrust PAM solution enforced just-in-time access for 150 privileged identities", "entities": []}
+{"text": "SoD violation remediation completed for 12 conflicts within 14-day SLA", "entities": [[0, 3, "VIOLATION_TYPE"], [4, 8, "VIOLATION_TYPE"]]}
+{"text": "OneIdentity Safeguard managed privileged access with session isolation", "entities": []}
+{"text": "Apache Sentry managed Hadoop cluster permissions with column-level access control", "entities": [[22, 28, "CLUSTER_TYPE"], [29, 40, "PERMISSION_TYPE"]]}
+{"text": "Access Review Tool identified SoD violation with finance_mgr having approve_and_process conflict", "entities": []}
+{"text": "Workday security groups managed business process permissions with domain security", "entities": [[8, 20, "TOOL"]]}
+{"text": "Teleport access platform enforced SSH certificate-based access with audit logging", "entities": [[47, 54, "ACCESS_TYPE"]]}
+{"text": "Authorization false positive rate reduced to 1.8% improving access decision accuracy", "entities": []}
+{"text": "Authorization Strategist defined RBAC role model with Finance_Read and Finance_Admin roles", "entities": []}
+{"text": "Teleport access platform enforced SSH certificate-based access with audit logging", "entities": [[47, 54, "ACCESS_TYPE"]]}
+{"text": "ForgeRock authorization server enforced OAuth2 scopes with fine-grained permissions", "entities": []}
+{"text": "Just-in-time access granted 23 times in last week with average duration of 1.5 hours", "entities": []}
+{"text": "Privilege Escalation Detector flagged unauthorized sudo escalation by devops1 with high severity", "entities": [[0, 28, "TOOL"]]}
+{"text": "SailPoint identity governance platform managed 5000 accounts with RBAC ABAC enforcement", "entities": [[10, 27, "PLATFORM_TYPE"]]}
+{"text": "Access Review Tool identified SoD violation with finance_mgr having approve_and_process conflict", "entities": []}
+{"text": "Google Cloud IAM enforced organization policies with resource hierarchy", "entities": [[7, 12, "CLOUD_PROVIDER"], [26, 45, "POLICY_TYPE"], [62, 70, "RESOURCE_TYPE"]]}
+{"text": "IAM Policy Engine Tool enforced least privilege removing S3_FullAccess from user123", "entities": []}
+{"text": "SAP authorization concept enforced user roles with profile generators", "entities": []}
+{"text": "SoD violation remediation completed for 12 conflicts within 14-day SLA", "entities": [[0, 3, "VIOLATION_TYPE"], [4, 8, "VIOLATION_TYPE"]]}
+{"text": "RADIUS authentication server enforced network access policies with accounting", "entities": [[0, 6, "PROTOCOL_TYPE"], [7, 20, "SERVER_TYPE"]]}
+{"text": "Role-based access control assigned Finance_Read role to 45 users with view_reports permission", "entities": [[0, 25, "CONTROL_TYPE"], [26, 33, "AUTH_TYPE"], [35, 40, "CONTROL_TYPE"]]}
+{"text": "Risk-adaptive access control denied login from IP 203.0.113.45 due to high risk score", "entities": []}
+{"text": "Kubernetes Pod Security Policy enforced security contexts with admission control", "entities": []}
+{"text": "ServiceNow access control enforced role-based permissions with ACL rules", "entities": []}
+{"text": "SailPoint identity governance platform managed 5000 accounts with RBAC ABAC enforcement", "entities": [[10, 27, "PLATFORM_TYPE"]]}
+{"text": "Access Review Tool identified SoD violations and over-privileged accounts", "entities": []}
+{"text": "Reporting Dashboard Tool generated executive KPIs showing 92% access certification completion", "entities": [[0, 24, "TOOL"]]}
+{"text": "Privilege Escalation Detector flagged unauthorized sudo and su escalation attempts", "entities": [[0, 28, "TOOL"]]}
+{"text": "Google Cloud Organization Policy enforced constraints with inheritance", "entities": [[7, 12, "CLOUD_PROVIDER"], [13, 25, "TOOL"], [59, 70, "INHERITANCE_TYPE"]]}
+{"text": "JIT Access Manager granted time-bound db_admin role to eng1 for 2-hour duration", "entities": [[0, 18, "TOOL"], [29, 35, "ACCOUNT_TYPE"]]}
+{"text": "IAM Policy Engine Tool enforced least privilege removing S3_FullAccess from user123", "entities": []}
+{"text": "ForgeRock authorization server enforced OAuth2 scopes with fine-grained permissions", "entities": []}
+{"text": "Authorization Compliance Analyst audited authorization controls validating SoD compliance", "entities": [[0, 32, "ROLE"]]}
+{"text": "Google Cloud IAM enforced organization policies with resource hierarchy", "entities": [[7, 12, "CLOUD_PROVIDER"], [26, 45, "POLICY_TYPE"], [62, 70, "RESOURCE_TYPE"]]}
+{"text": "LDAP directory services managed organizational unit permissions with access control lists", "entities": [[0, 4, "PROTOCOL_TYPE"], [5, 14, "SERVICE_TYPE"], [15, 23, "SERVICE_TYPE"], [32, 50, "UNIT_TYPE"], [52, 63, "PERMISSION_TYPE"]]}
+{"text": "Authorization compliance score improved to 91% meeting SOX and PCI DSS requirements", "entities": []}
+{"text": "BeyondTrust PAM solution enforced just-in-time access for 150 privileged identities", "entities": []}
+{"text": "CyberArk privileged access management secured 200 admin accounts with session recording", "entities": [[9, 26, "MANAGEMENT_TYPE"], [28, 36, "ACCOUNT_TYPE"], [50, 55, "ACCOUNT_TYPE"], [56, 64, "ACCOUNT_TYPE"], [70, 76, "SESSION_TYPE"], [78, 85, "RECORDING_TYPE"]]}
+{"text": "API gateway enforced rate limiting and OAuth2 scopes for 500 API endpoints", "entities": [[0, 3, "API_TYPE"], [4, 10, "GATEWAY_TYPE"]]}
+{"text": "Azure Policy enforced governance policies with compliance reporting", "entities": [[0, 5, "CLOUD_PROVIDER"], [22, 31, "POLICY_TYPE"], [33, 41, "POLICY_TYPE"], [59, 66, "REPORTING_TYPE"]]}
+{"text": "ServiceNow access control enforced role-based permissions with ACL rules", "entities": []}
+{"text": "WSO2 Identity Server enforced XACML policies with policy decision points", "entities": [[5, 20, "TOOL"]]}
+{"text": "Ping Identity authorization server implemented ABAC with attribute-based policies", "entities": [[0, 12, "TOOL"], [21, 27, "SERVER_TYPE"], [59, 68, "POLICY_TYPE"]]}
+{"text": "SailPoint identity governance platform managed 5000 accounts with RBAC ABAC enforcement", "entities": [[10, 27, "PLATFORM_TYPE"]]}
+{"text": "Authorization false positive rate reduced to 1.8% improving access decision accuracy", "entities": []}
+{"text": "Enterprise Authorization Strategist defined RBAC ABAC models with least privilege enforcement", "entities": [[0, 35, "ROLE"], [44, 48, "AUTH_TYPE"]]}
+{"text": "HashiCorp Vault enforced secret access policies with time-bound tokens", "entities": [[25, 31, "SECRET_TYPE"], [39, 46, "POLICY_TYPE"]]}
+{"text": "Privileged Session Recorder captured 45-minute root session with mass_export anomaly", "entities": [[0, 26, "TOOL"]]}
+{"text": "Third-party vendor access review identified 8 over-privileged accounts requiring revocation", "entities": [[0, 10, "REVIEW_TYPE"]]}
+{"text": "Linkerd authorization enforced service-to-service policies with traffic splitting", "entities": [[8, 20, "AUTH_TYPE"]]}
+{"text": "Docker Enterprise enforced image scanning policies with access control", "entities": []}
+{"text": "Google Cloud Organization Policy enforced constraints with inheritance", "entities": [[7, 12, "CLOUD_PROVIDER"], [13, 25, "TOOL"], [59, 70, "INHERITANCE_TYPE"]]}
+{"text": "Audit Checklist Tool validated authorization controls scoring 88% compliance", "entities": []}
+{"text": "Guacamole remote access gateway enforced RDP VNC and SSH access with MFA", "entities": []}
+{"text": "Authorization drift detected 8 unauthorized privilege grants requiring immediate remediation", "entities": [[0, 42, "AUTH_TYPE"], [71, 78, "GRANT_TYPE"]]}
+{"text": "API gateway enforced rate limiting and OAuth2 scopes for 500 API endpoints", "entities": [[0, 3, "API_TYPE"], [4, 10, "GATEWAY_TYPE"]]}
+{"text": "Apache Ranger enforced data lake authorization with row-level security", "entities": []}
+{"text": "Policy Simulation Tool simulated policy impact affecting 12 users with medium risk", "entities": [[0, 22, "TOOL"]]}
+{"text": "Reporting Dashboard Tool generated executive KPIs showing 92% access certification completion", "entities": [[0, 24, "TOOL"]]}
+{"text": "Apache Sentry managed Hadoop cluster permissions with column-level access control", "entities": [[22, 28, "CLUSTER_TYPE"], [29, 40, "PERMISSION_TYPE"]]}
+{"text": "Privileged Session Recorder captured 45-minute root session with mass_export anomaly", "entities": [[0, 26, "TOOL"]]}
+{"text": "Role Mining Tool analyzed entitlements across systems identifying 45 over-privileged accounts", "entities": []}
+{"text": "OneIdentity Safeguard managed privileged access with session isolation", "entities": []}
+{"text": "Authorization Strategist defined RBAC role model with Finance_Read and Finance_Admin roles", "entities": []}
+{"text": "Access Review Tool identified SoD violations and over-privileged accounts", "entities": []}
+{"text": "Istio authorization policy enforced workload-level access with namespace isolation", "entities": [[6, 19, "POLICY_TYPE"], [40, 50, "ACCESS_TYPE"]]}
+{"text": "Zero Trust authorization model enforced device trust verification for all access requests", "entities": [[0, 10, "MODEL_TYPE"], [58, 64, "DEVICE_TYPE"]]}
+{"text": "Thycotic Secret Server managed privileged account access with approval workflows", "entities": [[9, 21, "TOOL"], [62, 70, "WORKFLOW_TYPE"], [71, 80, "WORKFLOW_TYPE"]]}
+{"text": "Istio authorization policy enforced workload-level access with namespace isolation", "entities": [[6, 19, "POLICY_TYPE"], [40, 50, "ACCESS_TYPE"]]}
+{"text": "Audit Checklist Tool validated authorization controls scoring 88% compliance", "entities": []}
+{"text": "Vendor Access Audit Tool found excessive_privilege on vendor123 account requiring revocation", "entities": [[32, 50, "PRIVILEGE_TYPE"], [54, 62, "VENDOR_ID"]]}
+{"text": "Google Cloud Organization Policy enforced constraints with inheritance", "entities": [[7, 12, "CLOUD_PROVIDER"], [13, 25, "TOOL"], [59, 70, "INHERITANCE_TYPE"]]}
+{"text": "Authorization audit score of 88% with finding that JIT not enforced on 3 systems", "entities": []}
+{"text": "Just-in-time access granted 23 times in last week with average duration of 1.5 hours", "entities": []}
+{"text": "OpenIAM open source IAM platform implemented ABAC policies with location-based access control", "entities": [[8, 11, "AUTH_TYPE"]]}
+{"text": "Attribute-based access control policy denied access based on location outside_US attribute", "entities": []}
+{"text": "Policy Simulation Tool simulated policy impact affecting 12 users with medium risk", "entities": [[0, 22, "TOOL"]]}
+{"text": "Privileged session monitoring captured 120 sessions with 5 anomalies requiring investigation", "entities": [[0, 9, "ACCOUNT_TYPE"], [11, 16, "SESSION_TYPE"]]}
+{"text": "AWS IAM policy engine enforced least privilege for 1000 cloud resources", "entities": [[0, 3, "CLOUD_PROVIDER"], [8, 11, "POLICY_TYPE"]]}
+{"text": "Enterprise Authorization Strategist defined RBAC ABAC models with least privilege enforcement", "entities": [[0, 35, "ROLE"], [44, 48, "AUTH_TYPE"]]}
+{"text": "Apache Ranger enforced data lake authorization with row-level security", "entities": []}
+{"text": "Authorization training completion reached 92% for all IAM administrators", "entities": [[0, 41, "AUTH_TYPE"]]}
+{"text": "Vendor Access Audit Tool found excessive privilege on vendor accounts requiring revocation", "entities": [[54, 60, "VENDOR_TYPE"], [61, 68, "ACCOUNT_TYPE"]]}
+{"text": "Identity attack path analysis identified 4 critical privilege escalation routes", "entities": []}
+{"text": "AWS IAM policy engine enforced least privilege for 1000 cloud resources", "entities": [[0, 3, "CLOUD_PROVIDER"], [8, 11, "POLICY_TYPE"]]}
+{"text": "Azure RBAC managed role assignments for 2000 users with custom roles", "entities": [[0, 5, "CLOUD_PROVIDER"], [6, 10, "AUTH_TYPE"], [26, 35, "ASSIGNMENT_TYPE"]]}
+{"text": "Policy Simulation Tool simulated policy impact affecting 12 users with medium risk", "entities": [[0, 22, "TOOL"]]}
+{"text": "Consul Connect enforced service mesh authorization with intention rules", "entities": []}
+{"text": "Authorization drift detected 8 unauthorized privilege grants requiring immediate remediation", "entities": [[0, 42, "AUTH_TYPE"], [71, 78, "GRANT_TYPE"]]}
+{"text": "Policy Simulation Tool simulated policy impact affecting 12 users with medium risk", "entities": [[0, 22, "TOOL"]]}
+{"text": "Vendor Access Audit Tool found excessive privilege on vendor accounts requiring revocation", "entities": [[54, 60, "VENDOR_TYPE"], [61, 68, "ACCOUNT_TYPE"]]}
+{"text": "Authorization compliance score improved to 91% meeting SOX and PCI DSS requirements", "entities": []}
+{"text": "Policy Simulation Tool tested authorization policy impact affecting 12 users losing Finance_App access", "entities": [[0, 22, "TOOL"], [36, 42, "IMPACT_TYPE"]]}
+{"text": "Access Drift Monitor detected 8 manual policy changes and orphaned entitlements", "entities": [[0, 19, "TOOL"], [33, 38, "CHANGE_TYPE"], [69, 77, "ENTITLEMENT_TYPE"]]}
+{"text": "Policy Definition Generator created RBAC roles Finance_Read Finance_Admin and HR_Manager", "entities": [[0, 25, "TOOL"]]}
+{"text": "Access certification automation reduced review time from 30 days to 7 days", "entities": [[7, 20, "CERTIFICATION_TYPE"], [21, 31, "AUTOMATION_TYPE"]]}
+{"text": "Oracle EBS responsibility management enforced function security with menu exclusions", "entities": []}
+{"text": "Compliance Mapping Tool verified authorization policies against SOX PCI DSS and SOC2", "entities": []}
+{"text": "Istio authorization policy enforced workload-level access with namespace isolation", "entities": [[6, 19, "POLICY_TYPE"], [40, 50, "ACCESS_TYPE"]]}
+{"text": "Toxic role combination detected allowing data access and deletion permissions simultaneously", "entities": [[0, 20, "COMBINATION_TYPE"], [32, 40, "PERMISSION_TYPE"]]}
+{"text": "AWS IAM policy engine enforced least privilege for 1000 cloud resources", "entities": [[0, 3, "CLOUD_PROVIDER"], [8, 11, "POLICY_TYPE"]]}
+{"text": "Oracle EBS responsibility management enforced function security with menu exclusions", "entities": []}
+{"text": "SailPoint identity governance platform managed 5000 accounts with RBAC ABAC enforcement", "entities": [[10, 27, "PLATFORM_TYPE"]]}
+{"text": "Authorization compliance score improved to 91% meeting SOX and PCI DSS requirements", "entities": []}
+{"text": "Delinea Secret Server enforced just-in-time access with approval chains", "entities": [[8, 21, "TOOL"], [57, 64, "CHAIN_TYPE"]]}
+{"text": "AWS Organizations SCP enforced service control policies across 50 accounts", "entities": [[0, 3, "CLOUD_PROVIDER"]]}
+{"text": "Policy Definition Generator created RBAC roles Finance_Read Finance_Admin and HR_Manager", "entities": [[0, 25, "TOOL"]]}
+{"text": "Delinea Secret Server enforced just-in-time access with approval chains", "entities": [[8, 21, "TOOL"], [57, 64, "CHAIN_TYPE"]]}
+{"text": "Authorization drift detected 8 unauthorized privilege grants requiring immediate remediation", "entities": [[0, 42, "AUTH_TYPE"], [71, 78, "GRANT_TYPE"]]}
+{"text": "Salesforce permission sets managed object-level access for 3000 users", "entities": [[11, 25, "SET_TYPE"], [27, 33, "SET_TYPE"], [41, 54, "ACCESS_TYPE"], [60, 63, "COUNT"]]}
+{"text": "Compliance Mapping Tool verified authorization policies against SOX PCI DSS and SOC2", "entities": []}
+{"text": "ServiceNow access control enforced role-based permissions with ACL rules", "entities": []}
+{"text": "WSO2 Identity Server enforced XACML policies with policy decision points", "entities": [[5, 20, "TOOL"]]}
+{"text": "Identity attack path analysis identified 4 critical privilege escalation routes", "entities": []}
+{"text": "Third-party vendor access review identified 8 over-privileged accounts requiring revocation", "entities": [[0, 10, "REVIEW_TYPE"]]}
+{"text": "Keycloak authorization services managed resource permissions with UMA protocol", "entities": []}
+{"text": "Salesforce permission sets managed object-level access for 3000 users", "entities": [[11, 25, "SET_TYPE"], [27, 33, "SET_TYPE"], [41, 54, "ACCESS_TYPE"], [60, 63, "COUNT"]]}
+{"text": "Privileged Session Recorder captured keystrokes commands and anomalies for high-risk accounts", "entities": [[0, 26, "TOOL"]]}
+{"text": "SailPoint identity governance platform managed 5000 user accounts with RBAC enforcement", "entities": [[10, 27, "PLATFORM_TYPE"]]}
+{"text": "CyberArk privileged access management secured 200 admin accounts with session recording", "entities": [[9, 26, "MANAGEMENT_TYPE"], [28, 36, "ACCOUNT_TYPE"], [50, 55, "ACCOUNT_TYPE"], [56, 64, "ACCOUNT_TYPE"], [70, 76, "SESSION_TYPE"], [78, 85, "RECORDING_TYPE"]]}
+{"text": "Microsoft Active Directory enforced group policy with delegation controls", "entities": []}
+{"text": "Least privilege enforcement reduced average permissions per user from 12 to 4", "entities": [[45, 52, "PERMISSION_TYPE"]]}
+{"text": "Authorization false positive rate reduced to 1.8% improving access decision accuracy", "entities": []}
+{"text": "OpenIAM open source IAM platform implemented ABAC policies with location-based access control", "entities": [[8, 11, "AUTH_TYPE"]]}
+{"text": "Kubernetes Pod Security Policy enforced security contexts with admission control", "entities": []}
+{"text": "Least privilege enforcement reduced average permissions per user from 12 to 4", "entities": [[45, 52, "PERMISSION_TYPE"]]}
+{"text": "Privilege Escalation Detector flagged unauthorized sudo escalation by devops1 with high severity", "entities": [[0, 28, "TOOL"]]}
+{"text": "Risk-adaptive authorization denied access to contractorX from untrusted device", "entities": [[0, 22, "AUTH_TYPE"]]}
+{"text": "CyberArk privileged access management secured 200 admin accounts with session recording", "entities": [[9, 26, "MANAGEMENT_TYPE"], [28, 36, "ACCOUNT_TYPE"], [50, 55, "ACCOUNT_TYPE"], [56, 64, "ACCOUNT_TYPE"], [70, 76, "SESSION_TYPE"], [78, 85, "RECORDING_TYPE"]]}
+{"text": "Compliance Mapping Tool verified authorization policies against SOX PCI DSS and SOC2", "entities": []}
+{"text": "Bastion host enforced jump server access with session monitoring", "entities": [[0, 7, "HOST_TYPE"], [22, 32, "SERVER_TYPE"], [55, 63, "SESSION_TYPE"]]}
+{"text": "Docker Enterprise enforced image scanning policies with access control", "entities": []}
+{"text": "ForgeRock authorization server enforced OAuth2 scopes with fine-grained permissions", "entities": []}
+{"text": "Authorization training completion reached 92% for all IAM administrators", "entities": [[0, 41, "AUTH_TYPE"]]}
+{"text": "Linkerd authorization enforced service-to-service policies with traffic splitting", "entities": [[8, 20, "AUTH_TYPE"]]}
+{"text": "BeyondTrust PAM solution enforced just-in-time access for 150 privileged identities", "entities": []}
+{"text": "Delinea Secret Server enforced just-in-time access with approval chains", "entities": [[8, 21, "TOOL"], [57, 64, "CHAIN_TYPE"]]}
+{"text": "Delinea Secret Server enforced just-in-time access with approval chains", "entities": [[8, 21, "TOOL"], [57, 64, "CHAIN_TYPE"]]}
+{"text": "Access Drift Monitor detected 8 manual policy changes and orphaned entitlements", "entities": [[0, 19, "TOOL"], [33, 38, "CHANGE_TYPE"], [69, 77, "ENTITLEMENT_TYPE"]]}
+{"text": "Software-defined perimeter enforced micro-segmentation with application-level access", "entities": [[0, 25, "PERIMETER_TYPE"], [64, 75, "ACCESS_TYPE"]]}
+{"text": "Service mesh enforced mTLS with authorization policies for microservices", "entities": [[0, 7, "MESH_TYPE"]]}
+{"text": "IAM Policy Engine Tool enforced least privilege removing excessive permissions from 45 accounts", "entities": []}
+{"text": "Authorization coverage achieved 98% with zero orphaned entitlements detected", "entities": []}
+{"text": "Privileged session monitoring captured 120 sessions with 5 anomalies requiring investigation", "entities": [[0, 9, "ACCOUNT_TYPE"], [11, 16, "SESSION_TYPE"]]}
+{"text": "Azure RBAC managed role assignments for 2000 users with custom roles", "entities": [[0, 5, "CLOUD_PROVIDER"], [6, 10, "AUTH_TYPE"], [26, 35, "ASSIGNMENT_TYPE"]]}
+{"text": "HashiCorp Vault enforced secret access policies with time-bound tokens", "entities": [[25, 31, "SECRET_TYPE"], [39, 46, "POLICY_TYPE"]]}
+{"text": "Risk-adaptive authorization denied access to contractorX from untrusted device", "entities": [[0, 22, "AUTH_TYPE"]]}
+{"text": "Just-in-time access granted 23 times in last week with average duration of 1.5 hours", "entities": []}
+{"text": "Keycloak authorization services managed resource permissions with UMA protocol", "entities": []}
+{"text": "RADIUS authentication server enforced network access policies with accounting", "entities": [[0, 6, "PROTOCOL_TYPE"], [7, 20, "SERVER_TYPE"]]}
+{"text": "Zero Trust network access enforced identity-based policies with device posture", "entities": [[0, 10, "ACCESS_TYPE"], [35, 42, "POLICY_TYPE"], [43, 49, "POLICY_TYPE"]]}
+{"text": "OpenIAM open source IAM platform implemented ABAC policies with location-based access", "entities": [[8, 11, "AUTH_TYPE"]]}
+{"text": "Compliance Framework Tool aligned authorization models with SOX PCI DSS and ISO 27001", "entities": []}
+{"text": "ForgeRock authorization server enforced OAuth2 scopes with fine-grained permissions", "entities": []}
+{"text": "Role-based access control assigned Finance_Read role to 45 users with view_reports permission", "entities": [[0, 25, "CONTROL_TYPE"], [26, 33, "AUTH_TYPE"], [35, 40, "CONTROL_TYPE"]]}
+{"text": "Access certification completion rate reached 92% with 8 pending manager reviews", "entities": [[7, 20, "CERTIFICATION_TYPE"]]}
+{"text": "Authorization false positive rate reduced to 1.8% improving access decision accuracy", "entities": []}
+{"text": "Access Drift Monitor detected manual policy change granting extra privilege to admin1", "entities": [[0, 19, "TOOL"]]}
+{"text": "Privilege Escalation Detector flagged unauthorized sudo and su escalation attempts", "entities": [[0, 28, "TOOL"]]}
+{"text": "Segregation of Duties violation found with single user having approve and process payment roles", "entities": []}
+{"text": "Workday security groups managed business process permissions with domain security", "entities": [[8, 20, "TOOL"]]}
+{"text": "Docker Enterprise enforced image scanning policies with access control", "entities": []}
+{"text": "Apache Ranger enforced data lake authorization with row-level security", "entities": []}
+{"text": "SAP authorization concept enforced user roles with profile generators", "entities": []}
+{"text": "Microsoft Active Directory enforced group policy with delegation controls", "entities": []}
+{"text": "Vendor Access Audit Tool found excessive privilege on vendor accounts requiring revocation", "entities": [[54, 60, "VENDOR_TYPE"], [61, 68, "ACCOUNT_TYPE"]]}
+{"text": "Audit Checklist Tool validated authorization controls scoring 88% compliance", "entities": []}
+{"text": "Compliance Mapping Tool verified authorization policies against SOX PCI DSS and SOC2", "entities": []}
+{"text": "Authorization Compliance Analyst audited authorization controls validating SoD compliance", "entities": [[0, 32, "ROLE"]]}
+{"text": "Ping Identity authorization server implemented ABAC with attribute-based policies", "entities": [[0, 12, "TOOL"], [21, 27, "SERVER_TYPE"], [59, 68, "POLICY_TYPE"]]}
+{"text": "JIT Access Manager granted time-bound db_admin role to eng1 for 2-hour duration", "entities": [[0, 18, "TOOL"], [29, 35, "ACCOUNT_TYPE"]]}
+{"text": "Bastion host enforced jump server access with session monitoring", "entities": [[0, 7, "HOST_TYPE"], [22, 32, "SERVER_TYPE"], [55, 63, "SESSION_TYPE"]]}
+{"text": "Privileged session monitoring captured 120 sessions with 5 anomalies requiring investigation", "entities": [[0, 9, "ACCOUNT_TYPE"], [11, 16, "SESSION_TYPE"]]}
+{"text": "Bastion host enforced jump server access with session monitoring", "entities": [[0, 7, "HOST_TYPE"], [22, 32, "SERVER_TYPE"], [55, 63, "SESSION_TYPE"]]}
+{"text": "RADIUS authentication server enforced network access policies with accounting", "entities": [[0, 6, "PROTOCOL_TYPE"], [7, 20, "SERVER_TYPE"]]}
+{"text": "Authorization Operations Engineer implemented authorization policies managing just-in-time access", "entities": [[0, 33, "ROLE"]]}
+{"text": "Azure Policy enforced governance policies with compliance reporting", "entities": [[0, 5, "CLOUD_PROVIDER"], [22, 31, "POLICY_TYPE"], [33, 41, "POLICY_TYPE"], [59, 66, "REPORTING_TYPE"]]}
+{"text": "API gateway enforced rate limiting and OAuth2 scopes for 500 API endpoints", "entities": [[0, 3, "API_TYPE"], [4, 10, "GATEWAY_TYPE"]]}
+{"text": "OPA Open Policy Agent enforced policy-as-code blocking insecure deployments", "entities": []}
+{"text": "Access Review Tool identified SoD violations and over-privileged accounts", "entities": []}
+{"text": "Access Drift Monitor detected 8 manual policy changes and orphaned entitlements", "entities": [[0, 19, "TOOL"], [33, 38, "CHANGE_TYPE"], [69, 77, "ENTITLEMENT_TYPE"]]}
+{"text": "IAM Policy Engine Tool enforced least privilege removing excessive permissions from 45 accounts", "entities": []}
+{"text": "AWS IAM policy engine enforced least privilege for 1000 cloud resources", "entities": [[0, 3, "CLOUD_PROVIDER"], [8, 11, "POLICY_TYPE"]]}
+{"text": "Role Mining Tool analyzed entitlements across systems identifying 45 over-privileged accounts", "entities": []}
+{"text": "Toxic role combination detected allowing data access and deletion permissions simultaneously", "entities": [[0, 20, "COMBINATION_TYPE"], [32, 40, "PERMISSION_TYPE"]]}
+{"text": "Access Drift Monitor detected manual policy change granting extra privilege to admin1", "entities": [[0, 19, "TOOL"]]}
+{"text": "Authorization training completion reached 92% for all IAM administrators", "entities": [[0, 41, "AUTH_TYPE"]]}
+{"text": "Audit Checklist Tool validated authorization controls scoring 88% compliance", "entities": []}
+{"text": "HashiCorp Boundary enforced secure access with session recording for infrastructure", "entities": []}
+{"text": "OPA Open Policy Agent enforced policy-as-code blocking insecure deployments", "entities": []}
+{"text": "802.1X network access control enforced port-based authentication with EAP", "entities": [[0, 5, "PROTOCOL_TYPE"]]}
+{"text": "Reporting Dashboard Tool generated executive KPIs showing 92% access certification completion", "entities": [[0, 24, "TOOL"]]}
+{"text": "Privilege Escalation Detector flagged unauthorized sudo and su escalation attempts", "entities": [[0, 28, "TOOL"]]}
+{"text": "Access Drift Monitor detected 8 manual policy changes and orphaned entitlements", "entities": [[0, 19, "TOOL"], [33, 38, "CHANGE_TYPE"], [69, 77, "ENTITLEMENT_TYPE"]]}
+{"text": "802.1X network access control enforced port-based authentication with EAP", "entities": [[0, 5, "PROTOCOL_TYPE"]]}
+{"text": "Okta authorization server enforced RBAC for 5000 users with group-based access", "entities": []}
+{"text": "Segregation of Duties violation found with single user having approve and process payment roles", "entities": []}
+{"text": "Authorization Compliance Analyst audited authorization controls validating SoD compliance", "entities": [[0, 32, "ROLE"]]}
+{"text": "Vendor Access Audit Tool found excessive_privilege on vendor123 account requiring revocation", "entities": [[32, 50, "PRIVILEGE_TYPE"], [54, 62, "VENDOR_ID"]]}
+{"text": "OPA Open Policy Agent enforced policy-as-code blocking insecure container deployments", "entities": []}
+{"text": "Authorization coverage achieved 98% with zero orphaned entitlements detected", "entities": []}
+{"text": "Zero Trust authorization model enforced device trust verification for all access requests", "entities": [[0, 10, "MODEL_TYPE"], [58, 64, "DEVICE_TYPE"]]}
+{"text": "Authorization Operations Engineer implemented authorization policies managing just-in-time access", "entities": [[0, 33, "ROLE"]]}
+{"text": "Access certification completion rate reached 92% with 8 pending manager reviews", "entities": [[7, 20, "CERTIFICATION_TYPE"]]}
+{"text": "Risk-adaptive authorization denied access to contractorX from untrusted device", "entities": [[0, 22, "AUTH_TYPE"]]}
+{"text": "Authorization coverage achieved 98% with zero orphaned entitlements detected", "entities": []}
+{"text": "RADIUS authentication server enforced network access policies with accounting", "entities": [[0, 6, "PROTOCOL_TYPE"], [7, 20, "SERVER_TYPE"]]}
+{"text": "AWS Organizations SCP enforced service control policies across 50 accounts", "entities": [[0, 3, "CLOUD_PROVIDER"]]}
+{"text": "Authorization training completion reached 92% for all IAM administrators", "entities": [[0, 41, "AUTH_TYPE"]]}
+{"text": "Thycotic Secret Server managed privileged account access with approval workflows", "entities": [[9, 21, "TOOL"], [62, 70, "WORKFLOW_TYPE"], [71, 80, "WORKFLOW_TYPE"]]}
+{"text": "JIT Access Manager granted time-bound db_admin role to eng1 for 2-hour duration", "entities": [[0, 18, "TOOL"], [29, 35, "ACCOUNT_TYPE"]]}
+{"text": "Policy Simulation Tool tested authorization policy impact affecting 12 users losing Finance_App access", "entities": [[0, 22, "TOOL"], [36, 42, "IMPACT_TYPE"]]}
+{"text": "Consul Connect enforced service mesh authorization with intention rules", "entities": []}
+{"text": "TACACS+ access control enforced device management with command authorization", "entities": [[0, 7, "PROTOCOL_TYPE"]]}
+{"text": "Segregation of Duties violation found with single user having approve and process payment roles", "entities": []}
+{"text": "Access certification automation reduced review time from 30 days to 7 days", "entities": [[7, 20, "CERTIFICATION_TYPE"], [21, 31, "AUTOMATION_TYPE"]]}
+{"text": "WSO2 Identity Server enforced XACML policies with policy decision points", "entities": [[5, 20, "TOOL"]]}
+{"text": "Privilege Escalation Detector flagged unauthorized sudo and su escalation attempts", "entities": [[0, 28, "TOOL"]]}
+{"text": "Role Mining Tool analyzed entitlements across systems identifying 45 over-privileged accounts", "entities": []}
+{"text": "JIT Access Manager granted time-bound admin roles with automatic revocation", "entities": [[0, 18, "TOOL"], [29, 35, "ACCOUNT_TYPE"]]}
+{"text": "LDAP directory services managed organizational unit permissions with access control lists", "entities": [[0, 4, "PROTOCOL_TYPE"], [5, 14, "SERVICE_TYPE"], [15, 23, "SERVICE_TYPE"], [32, 50, "UNIT_TYPE"], [52, 63, "PERMISSION_TYPE"]]}
+{"text": "Azure Policy enforced governance policies with compliance reporting", "entities": [[0, 5, "CLOUD_PROVIDER"], [22, 31, "POLICY_TYPE"], [33, 41, "POLICY_TYPE"], [59, 66, "REPORTING_TYPE"]]}
+{"text": "OpenIAM open source IAM platform implemented ABAC policies with location-based access", "entities": [[8, 11, "AUTH_TYPE"]]}
+{"text": "TACACS+ access control enforced device management with command authorization", "entities": [[0, 7, "PROTOCOL_TYPE"]]}
+{"text": "Access Drift Monitor detected manual policy change granting extra privilege to admin1", "entities": [[0, 19, "TOOL"]]}
+{"text": "SailPoint identity governance platform managed 5000 user accounts with RBAC enforcement", "entities": [[10, 27, "PLATFORM_TYPE"]]}
+{"text": "Zero Trust network access enforced identity-based policies with device posture", "entities": [[0, 10, "ACCESS_TYPE"], [35, 42, "POLICY_TYPE"], [43, 49, "POLICY_TYPE"]]}
+{"text": "Policy Simulation Tool tested authorization policy impact affecting 12 users losing Finance_App access", "entities": [[0, 22, "TOOL"], [36, 42, "IMPACT_TYPE"]]}
+{"text": "OpenIAM open source IAM platform implemented ABAC policies with location-based access control", "entities": [[8, 11, "AUTH_TYPE"]]}
+{"text": "HashiCorp Vault enforced secret access policies with time-bound tokens", "entities": [[25, 31, "SECRET_TYPE"], [39, 46, "POLICY_TYPE"]]}
+{"text": "TACACS+ access control enforced device management with command authorization", "entities": [[0, 7, "PROTOCOL_TYPE"]]}
+{"text": "Google Cloud Organization Policy enforced constraints with inheritance", "entities": [[7, 12, "CLOUD_PROVIDER"], [13, 25, "TOOL"], [59, 70, "INHERITANCE_TYPE"]]}
+{"text": "OpenIAM open source IAM platform implemented ABAC policies with location-based access", "entities": [[8, 11, "AUTH_TYPE"]]}
+{"text": "HashiCorp Vault enforced secret access policies with time-bound tokens", "entities": [[25, 31, "SECRET_TYPE"], [39, 46, "POLICY_TYPE"]]}
+{"text": "Okta authorization server enforced RBAC for 5000 users with group-based access", "entities": []}
+{"text": "Risk-adaptive authorization denied access to contractorX from untrusted device", "entities": [[0, 22, "AUTH_TYPE"]]}
+{"text": "Segregation of Duties violation found with single user having approve and process payment roles", "entities": []}
+{"text": "Centrify privileged access management enforced MFA for privileged sessions", "entities": [[9, 26, "MANAGEMENT_TYPE"], [28, 36, "ACCOUNT_TYPE"]]}
+{"text": "Policy Definition Generator created RBAC roles Finance_Read Finance_Admin and HR_Manager", "entities": [[0, 25, "TOOL"]]}
+{"text": "Zero Trust network access enforced identity-based policies with device posture", "entities": [[0, 10, "ACCESS_TYPE"], [35, 42, "POLICY_TYPE"], [43, 49, "POLICY_TYPE"]]}
+{"text": "Apache Sentry managed Hadoop cluster permissions with column-level access control", "entities": [[22, 28, "CLUSTER_TYPE"], [29, 40, "PERMISSION_TYPE"]]}
+{"text": "Google Cloud IAM enforced organization policies with resource hierarchy", "entities": [[7, 12, "CLOUD_PROVIDER"], [26, 45, "POLICY_TYPE"], [62, 70, "RESOURCE_TYPE"]]}
+{"text": "OPA Open Policy Agent enforced policy-as-code blocking insecure deployments", "entities": []}
+{"text": "Istio authorization policy enforced workload-level access with namespace isolation", "entities": [[6, 19, "POLICY_TYPE"], [40, 50, "ACCESS_TYPE"]]}
+{"text": "Google Cloud IAM enforced organization policies with resource hierarchy", "entities": [[7, 12, "CLOUD_PROVIDER"], [26, 45, "POLICY_TYPE"], [62, 70, "RESOURCE_TYPE"]]}
+{"text": "IAM Policy Engine Tool enforced least privilege removing excessive permissions from 45 accounts", "entities": []}
+{"text": "Attribute-based access control policy denied access based on location outside_US attribute", "entities": []}
+{"text": "OPA Open Policy Agent enforced policy-as-code blocking insecure container deployments", "entities": []}
+{"text": "TACACS+ access control enforced device management with command authorization", "entities": [[0, 7, "PROTOCOL_TYPE"]]}
+{"text": "JIT Access Manager granted time-bound admin roles with automatic revocation", "entities": [[0, 18, "TOOL"], [29, 35, "ACCOUNT_TYPE"]]}
+{"text": "Authorization Operations Engineer implemented authorization policies managing just-in-time access", "entities": [[0, 33, "ROLE"]]}
+{"text": "SoD violation remediation completed for 12 conflicts within 14-day SLA", "entities": [[0, 3, "VIOLATION_TYPE"], [4, 8, "VIOLATION_TYPE"]]}
+{"text": "Compliance Framework Tool aligned authorization models with SOX PCI DSS and ISO 27001", "entities": []}
+{"text": "Compliance Framework Tool aligned authorization models with SOX PCI DSS and ISO 27001", "entities": []}
+{"text": "Authorization audit score of 88% with finding that JIT not enforced on 3 systems", "entities": []}
+{"text": "Software-defined perimeter enforced micro-segmentation with application-level access", "entities": [[0, 25, "PERIMETER_TYPE"], [64, 75, "ACCESS_TYPE"]]}
+{"text": "OpenShift RBAC managed project-level permissions with cluster roles", "entities": [[11, 14, "AUTH_TYPE"], [24, 35, "PERMISSION_TYPE"], [37, 45, "PERMISSION_TYPE"]]}
+{"text": "Centrify privileged access management enforced MFA for privileged sessions", "entities": [[9, 26, "MANAGEMENT_TYPE"], [28, 36, "ACCOUNT_TYPE"]]}
+{"text": "Workday security groups managed business process permissions with domain security", "entities": [[8, 20, "TOOL"]]}
+{"text": "Third-party vendor access review identified 8 over-privileged accounts requiring revocation", "entities": [[0, 10, "REVIEW_TYPE"]]}
+{"text": "Centrify privileged access management enforced MFA for privileged sessions", "entities": [[9, 26, "MANAGEMENT_TYPE"], [28, 36, "ACCOUNT_TYPE"]]}
+{"text": "ServiceNow access control enforced role-based permissions with ACL rules", "entities": []}
+{"text": "Azure Policy enforced governance policies with compliance reporting", "entities": [[0, 5, "CLOUD_PROVIDER"], [22, 31, "POLICY_TYPE"], [33, 41, "POLICY_TYPE"], [59, 66, "REPORTING_TYPE"]]}
+{"text": "Access certification completion rate reached 92% with 8 pending manager reviews", "entities": [[7, 20, "CERTIFICATION_TYPE"]]}
+{"text": "Service mesh enforced mTLS with authorization policies for microservices", "entities": [[0, 7, "MESH_TYPE"]]}
+{"text": "Kubernetes RBAC enforced role bindings for 200 service accounts", "entities": [[11, 15, "AUTH_TYPE"]]}
+{"text": "Access Review Tool identified SoD violation with finance_mgr having approve_and_process conflict", "entities": []}
+{"text": "Authorization drift detected 8 unauthorized privilege grants requiring immediate remediation", "entities": [[0, 42, "AUTH_TYPE"], [71, 78, "GRANT_TYPE"]]}
+{"text": "OneIdentity Safeguard managed privileged access with session isolation", "entities": []}
+{"text": "OpenShift RBAC managed project-level permissions with cluster roles", "entities": [[11, 14, "AUTH_TYPE"], [24, 35, "PERMISSION_TYPE"], [37, 45, "PERMISSION_TYPE"]]}
+{"text": "Toxic role combination detected allowing data access and deletion permissions simultaneously", "entities": [[0, 20, "COMBINATION_TYPE"], [32, 40, "PERMISSION_TYPE"]]}
+{"text": "Risk-adaptive access control denied login from IP 203.0.113.45 due to high risk score", "entities": []}
+{"text": "Privileged Session Recorder captured keystrokes commands and anomalies for high-risk accounts", "entities": [[0, 26, "TOOL"]]}
+{"text": "HashiCorp Boundary enforced secure access with session recording for infrastructure", "entities": []}
+{"text": "SAP authorization concept enforced user roles with profile generators", "entities": []}
+{"text": "Bastion host enforced jump server access with session monitoring", "entities": [[0, 7, "HOST_TYPE"], [22, 32, "SERVER_TYPE"], [55, 63, "SESSION_TYPE"]]}
+{"text": "802.1X network access control enforced port-based authentication with EAP", "entities": [[0, 5, "PROTOCOL_TYPE"]]}
+{"text": "Privilege Escalation Detector flagged unauthorized sudo escalation by devops1 with high severity", "entities": [[0, 28, "TOOL"]]}
+{"text": "Oracle EBS responsibility management enforced function security with menu exclusions", "entities": []}
+{"text": "Access certification completion rate reached 92% with 8 pending manager reviews", "entities": [[7, 20, "CERTIFICATION_TYPE"]]}
+{"text": "Kubernetes Pod Security Policy enforced security contexts with admission control", "entities": []}
+{"text": "Linkerd authorization enforced service-to-service policies with traffic splitting", "entities": [[8, 20, "AUTH_TYPE"]]}
+{"text": "Apache Ranger enforced data lake authorization with row-level security", "entities": []}
+{"text": "Authorization Operations Engineer implemented authorization policies managing just-in-time access", "entities": [[0, 33, "ROLE"]]}
+{"text": "Attribute-based access control policy denied access based on location outside_US attribute", "entities": []}
+{"text": "Risk-adaptive access control denied login from IP 203.0.113.45 due to high risk score", "entities": []}
+{"text": "CyberArk privileged access management secured 200 admin accounts with session recording", "entities": [[9, 26, "MANAGEMENT_TYPE"], [28, 36, "ACCOUNT_TYPE"], [50, 55, "ACCOUNT_TYPE"], [56, 64, "ACCOUNT_TYPE"], [70, 76, "SESSION_TYPE"], [78, 85, "RECORDING_TYPE"]]}
+{"text": "CyberArk privileged access management secured 200 admin accounts with session recording", "entities": [[9, 26, "MANAGEMENT_TYPE"], [28, 36, "ACCOUNT_TYPE"], [50, 55, "ACCOUNT_TYPE"], [56, 64, "ACCOUNT_TYPE"], [70, 76, "SESSION_TYPE"], [78, 85, "RECORDING_TYPE"]]}
+{"text": "Can you help me with this?", "entities": []}
+{"text": "I need to check something.", "entities": []}
+{"text": "What is the status?", "entities": []}
+{"text": "How do I do this?", "entities": []}
+{"text": "Tell me more about it.", "entities": []}
+{"text": "Is this safe to use?", "entities": []}
+{"text": "Let me know if you need anything.", "entities": []}
+{"text": "Thanks for your help.", "entities": []}
+{"text": "I will get back to you.", "entities": []}
+{"text": "Please review this document.", "entities": []}
+{"text": "What should I do next?", "entities": []}
+{"text": "How does this work?", "entities": []}
+{"text": "Why is this happening?", "entities": []}
+{"text": "When will this be ready?", "entities": []}
+{"text": "Where can I find this?", "entities": []}
+{"text": "Who should I contact?", "entities": []}
+{"text": "Hey, what's up?", "entities": []}
+{"text": "That's interesting.", "entities": []}
+{"text": "I see what you mean.", "entities": []}
+{"text": "That makes sense.", "entities": []}
+{"text": "Got it, thanks.", "entities": []}
+{"text": "Follow the steps carefully.", "entities": []}
+{"text": "Make sure to save your work.", "entities": []}
+{"text": "Check the settings first.", "entities": []}
+{"text": "Review the documentation.", "entities": []}
+{"text": "Read the instructions.", "entities": []}
+{"text": "This is important.", "entities": []}
+{"text": "That looks good.", "entities": []}
+{"text": "Everything seems fine.", "entities": []}
+{"text": "Nothing to report.", "entities": []}
+{"text": "All systems operational.", "entities": []}
+{"text": "The system is secure.", "entities": []}
+{"text": "All checks passed.", "entities": []}
+{"text": "No issues detected.", "entities": []}
+{"text": "Everything is working correctly.", "entities": []}
+{"text": "The configuration looks good.", "entities": []}
+{"text": "No vulnerabilities found.", "entities": []}
+{"text": "Security measures are in place.", "entities": []}
+{"text": "The audit was successful.", "entities": []}
+{"text": "The information is verified.", "entities": []}
