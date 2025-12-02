@@ -171,8 +171,32 @@ class ComprehensiveTester:
         self._print_summary()
     
     def _get_test_cases(self) -> List[Dict]:
-        """Get comprehensive test cases covering multiple input types."""
-        return [
+        """
+        Get comprehensive test cases covering multiple input types.
+        
+        This method returns a production-quality test suite with:
+        - 200+ test cases covering all entity types
+        - Edge cases and boundary conditions
+        - Negative test cases (true negatives)
+        - Format variations
+        - Security-specific scenarios
+        - Production-ready coverage
+        """
+        # Import comprehensive test cases generator
+        try:
+            import sys
+            from pathlib import Path
+            # Add current directory to path for import
+            current_dir = Path(__file__).parent
+            if str(current_dir) not in sys.path:
+                sys.path.insert(0, str(current_dir))
+            from generate_comprehensive_test_cases import get_comprehensive_test_cases
+            return get_comprehensive_test_cases()
+        except ImportError as e:
+            # Fallback to basic test cases if generator not available
+            print(f"⚠️  Warning: Could not import comprehensive test cases: {e}")
+            print("   Using basic test cases instead.")
+            return [
             # ========== NATURAL LANGUAGE QUERIES ==========
             {
                 "text": "Can you help me investigate this suspicious IP address 192.168.1.100?",
@@ -421,7 +445,7 @@ class ComprehensiveTester:
                 ],
                 "expected_intents": ["TRACK", "MONITOR"]
             },
-        ]
+            ]
     
     def _generate_summary(self):
         """Generate summary statistics from test results."""

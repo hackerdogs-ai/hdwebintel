@@ -1,0 +1,440 @@
+{"text": "Head of Security Awareness reviewed training completion with 94% completion rate", "entities": [[61, 64, "METRIC_TYPE"]]}
+{"text": "SANS security awareness open source provided role-based training modules", "entities": [[0, 4, "TOOL"], [42, 55, "TRAINING_TYPE"], [50, 64, "TRAINING_TYPE"]]}
+{"text": "Adaptive Learning Tool delivered 220 just-in-time nudges triggered by risky behavior", "entities": [[23, 36, "LEARNING_TYPE"], [37, 44, "ADAPTIVE_TYPE"], [45, 49, "TOOL"], [63, 75, "NUDGE_TYPE"]]}
+{"text": "Translation Tool supported 12 languages with accessibility compliant content", "entities": [[30, 39, "TOOL"], [45, 58, "LANGUAGE_TYPE"]]}
+{"text": "Advanced metrics tracked time-to-report of 9 minutes with 82% resiliency score", "entities": [[0, 8, "METRIC_TYPE"], [25, 32, "METRIC_TYPE"], [33, 44, "TIME_UNIT"], [69, 78, "SCORE_TYPE"]]}
+{"text": "Phishing reporting rate improved to 62% with training interventions", "entities": [[31, 35, "METRIC_TYPE"], [36, 38, "METRIC_TYPE"]]}
+{"text": "Behavioral risk analysis identified high-risk groups requiring targeted training", "entities": [[0, 10, "BEHAVIOR_TYPE"], [11, 15, "RISK_TYPE"], [16, 24, "ANALYSIS_TYPE"], [32, 40, "RISK_TYPE"], [41, 45, "GROUP_TYPE"]]}
+{"text": "Localization QA Tool tested training content in 12 languages", "entities": [[45, 50, "CONTENT_TYPE"]]}
+{"text": "Evidence Packaging Tool prepared audit evidence pack for Q3 2025", "entities": [[33, 47, "EVIDENCE_TYPE"], [45, 52, "PACKAGE_TYPE"], [60, 64, "TIME_PERIOD"]]}
+{"text": "Vendor awareness program trained 85 vendors with 88% completion rate", "entities": [[0, 6, "VENDOR_TYPE"], [17, 24, "PROGRAM_TYPE"], [33, 35, "COUNT"], [36, 43, "VENDOR_TYPE"], [49, 51, "METRIC_TYPE"]]}
+{"text": "Real-time risk monitoring detected phishing clicks triggering adaptive training", "entities": [[0, 9, "TIME_TYPE"], [10, 14, "RISK_TYPE"], [32, 43, "ATTACK_TYPE"], [62, 79, "TRAINING_TYPE"]]}
+{"text": "Proofpoint security awareness achieved 94% training completion with 6% phishing click rate", "entities": [[0, 10, "TOOL"], [37, 41, "METRIC_TYPE"], [39, 44, "METRIC_TYPE"]]}
+{"text": "Mimecast security awareness platform tracked phishing simulation results", "entities": [[0, 8, "TOOL"], [65, 72, "RESULT_TYPE"]]}
+{"text": "SANS security awareness open source provided role-based training modules", "entities": [[0, 4, "TOOL"], [42, 55, "TRAINING_TYPE"], [50, 64, "TRAINING_TYPE"]]}
+{"text": "Gamified challenges deployed leaderboards and badges across 12 departments", "entities": [[0, 8, "CHALLENGE_TYPE"], [9, 19, "CHALLENGE_TYPE"], [29, 41, "LEADERBOARD_TYPE"], [46, 52, "BADGE_TYPE"], [60, 74, "DEPARTMENT_TYPE"]]}
+{"text": "Vendor awareness program extended to 85 vendors with 88% completion rate", "entities": [[14, 24, "AWARENESS_TYPE"], [53, 58, "METRIC_TYPE"]]}
+{"text": "Behavioral Risk Analysis identified interns and sales as high-risk groups requiring monthly phishing", "entities": [[0, 24, "ANALYSIS_TYPE"], [25, 37, "RISK_TYPE"], [36, 43, "ANALYSIS_TYPE"], [48, 61, "GROUP_TYPE"], [62, 73, "GROUP_TYPE"], [84, 91, "GROUP_TYPE"]]}
+{"text": "Advanced metrics tracked time-to-report of 9 minutes with 82% resiliency score", "entities": [[0, 8, "METRIC_TYPE"], [25, 32, "METRIC_TYPE"], [33, 44, "TIME_UNIT"], [69, 78, "SCORE_TYPE"]]}
+{"text": "Awareness metrics reporting showed 94% completion 6% click rate and 82% resiliency", "entities": [[28, 37, "METRIC_TYPE"], [35, 40, "METRIC_TYPE"], [68, 71, "RATE_TYPE"], [72, 82, "METRIC_TYPE"]]}
+{"text": "Regulatory Briefing Tool prepared compliance briefings for board members", "entities": [[0, 12, "TOOL"], [65, 72, "BOARD_TYPE"]]}
+{"text": "Accessibility Checker validated training content for screen readers", "entities": [[53, 67, "ACCESSIBILITY_TYPE"]]}
+{"text": "Role-based training delivered to 4200 participants achieving 94% completion rate", "entities": [[0, 12, "TRAINING_TYPE"], [33, 50, "PARTICIPANT_TYPE"]]}
+{"text": "Gamified challenges deployed leaderboards and badges across 12 departments", "entities": [[0, 8, "CHALLENGE_TYPE"], [9, 19, "CHALLENGE_TYPE"], [29, 41, "LEADERBOARD_TYPE"], [46, 52, "BADGE_TYPE"], [60, 74, "DEPARTMENT_TYPE"]]}
+{"text": "Real-Time Risk Monitor detected phishing clicks and shadow IT triggering adaptive training", "entities": [[0, 22, "TOOL"], [39, 47, "MONITOR_TYPE"], [73, 81, "APPLICATION_TYPE"]]}
+{"text": "Maturity Model Tool assessed security culture maturity at level 4", "entities": [[26, 31, "MODEL_TYPE"], [44, 54, "SECURITY_TYPE"], [53, 63, "CULTURE_TYPE"]]}
+{"text": "Sophos security awareness platform managed role-based training programs", "entities": [[0, 6, "TOOL"], [43, 53, "TRAINING_TYPE"], [61, 71, "PROGRAM_TYPE"]]}
+{"text": "Role-based training delivered differentiated content for executives developers and staff", "entities": [[0, 10, "TRAINING_TYPE"], [5, 13, "TRAINING_TYPE"], [20, 31, "TRAINING_TYPE"], [68, 78, "DEVELOPER_TYPE"], [83, 88, "STAFF_TYPE"]]}
+{"text": "Secure Coding Lab Tool integrated 4 developer labs into CI CD pipelines", "entities": [[51, 55, "COUNT"], [56, 63, "DEVELOPER_TYPE"]]}
+{"text": "Security Awareness Content Specialist created 15 training modules in multiple formats", "entities": [[56, 65, "AWARENESS_TYPE"], [66, 77, "CONTENT_TYPE"]]}
+{"text": "Security Awareness Program Strategist defined enterprise-wide security culture strategy", "entities": [[38, 45, "SECURITY_TYPE"], [46, 56, "AWARENESS_TYPE"], [56, 64, "PROGRAM_TYPE"]]}
+{"text": "Security awareness false positive rate reduced to 1.4% improving simulation accuracy", "entities": [[16, 24, "AWARENESS_TYPE"], [39, 46, "METRIC_TYPE"]]}
+{"text": "Security champions program deployed 45 champions with recognition programs", "entities": [[9, 18, "CHAMPION_TYPE"], [19, 26, "PROGRAM_TYPE"], [39, 48, "CHAMPION_TYPE"]]}
+{"text": "Vendor contractor awareness extended training to 85 third-party vendors", "entities": [[0, 6, "VENDOR_TYPE"], [7, 17, "CONTRACTOR_TYPE"], [52, 57, "COUNT"], [52, 71, "VENDOR_TYPE"]]}
+{"text": "Time-to-report phishing improved to 9 minutes average response time", "entities": [[31, 37, "TIME_UNIT"], [38, 45, "AVERAGE_TYPE"], [46, 53, "RESPONSE_TYPE"]]}
+{"text": "Risk Communication Tool delivered regulatory briefings to C-suite", "entities": [[0, 4, "RISK_TYPE"], [30, 44, "REGULATION_TYPE"], [58, 65, "EXECUTIVE_TYPE"]]}
+{"text": "Video Creator produced 12 security awareness videos with 95% engagement", "entities": [[0, 13, "TOOL"], [14, 22, "CREATOR_TYPE"], [42, 51, "AWARENESS_TYPE"]]}
+{"text": "Training Content Authoring Tool created 15 modules in video quiz lab and micro-learning formats", "entities": [[32, 50, "TRAINING_TYPE"], [43, 53, "CONTENT_TYPE"], [54, 64, "AUTHORING_TYPE"], [65, 68, "TOOL"], [73, 78, "COUNT"]]}
+{"text": "Incident Responder investigated security awareness breach affecting 3 departments", "entities": [[51, 67, "BREACH_TYPE"]]}
+{"text": "Incident-driven training adapted 12 real incidents into 3 new training modules", "entities": [[9, 15, "TRAINING_TYPE"], [47, 55, "TRAINING_TYPE"], [51, 61, "MODULE_TYPE"]]}
+{"text": "CI CD Plugin delivered just-in-time secure coding feedback to developers", "entities": [[6, 12, "PLUGIN_TYPE"], [21, 30, "CODING_TYPE"], [31, 42, "FEEDBACK_TYPE"]]}
+{"text": "Social engineering simulation tested vishing and smishing with 25 failures", "entities": [[0, 6, "ENGINEERING_TYPE"], [63, 74, "FAILURE_TYPE"]]}
+{"text": "Accessibility compliance validated training content for screen readers and neurodiversity", "entities": [[0, 13, "ACCESSIBILITY_TYPE"]]}
+{"text": "Phishing click rate reduced to 6% with 62% reporting rate", "entities": [[9, 14, "CLICK_TYPE"], [28, 32, "METRIC_TYPE"], [39, 44, "METRIC_TYPE"]]}
+{"text": "Accessibility Checker validated training content for screen readers", "entities": [[53, 67, "ACCESSIBILITY_TYPE"]]}
+{"text": "Survey Tool collected security culture feedback from 3100 respondents", "entities": [[0, 6, "TOOL"], [29, 38, "CULTURE_TYPE"], [37, 47, "FEEDBACK_TYPE"], [53, 57, "COUNT"]]}
+{"text": "Security awareness training completion reached 96% for all employees", "entities": [[26, 38, "TRAINING_TYPE"], [35, 46, "COMPLETION_TYPE"], [45, 49, "METRIC_TYPE"], [55, 68, "EMPLOYEE_TYPE"]]}
+{"text": "Data Analytics Tool analyzed phishing click rates and reporting trends", "entities": [[5, 14, "ANALYTICS_TYPE"], [35, 43, "CLICK_TYPE"]]}
+{"text": "Head of Security Awareness reviewed training completion with 94% completion rate", "entities": [[61, 64, "METRIC_TYPE"]]}
+{"text": "HR LMS Integration synced 4200 training records with 12 HR flags and 3 policy non-compliant", "entities": [[3, 6, "TOOL"], [26, 33, "SYNC_TYPE"], [38, 47, "COUNT"], [53, 58, "RECORD_TYPE"], [71, 77, "FLAG_TYPE"], [82, 91, "POLICY_TYPE"]]}
+{"text": "Security culture score improved to 81% with positive perception trending upward", "entities": [[17, 22, "CULTURE_TYPE"], [23, 31, "METRIC_TYPE"], [32, 37, "METRIC_TYPE"], [50, 63, "PERCEPTION_TYPE"]]}
+{"text": "Training evidence pack prepared for Q3 2025 audit with complete documentation", "entities": [[9, 17, "EVIDENCE_TYPE"], [18, 22, "PACK_TYPE"], [36, 43, "TIME"]]}
+{"text": "KnowBe4 security awareness platform trained 5000 users with 96% completion", "entities": [[0, 7, "TOOL"], [42, 48, "COUNT"], [44, 54, "USER_TYPE"], [60, 63, "METRIC_TYPE"]]}
+{"text": "Tabletop Exercise Planner conducted breach scenarios measuring crisis leadership readiness", "entities": [[0, 25, "TOOL"], [43, 52, "PLANNING_TYPE"], [63, 80, "SCENARIO_TYPE"]]}
+{"text": "Security champions program deployed 45 champions with recognition programs", "entities": [[9, 18, "CHAMPION_TYPE"], [19, 26, "PROGRAM_TYPE"], [39, 48, "CHAMPION_TYPE"]]}
+{"text": "Security Awareness Analytics Specialist analyzed training effectiveness trends", "entities": [[56, 64, "AWARENESS_TYPE"], [65, 78, "ANALYTICS_TYPE"]]}
+{"text": "Culture reinforcement deployed 45 security champions with 78% impact score", "entities": [[0, 7, "CULTURE_TYPE"], [43, 52, "CHAMPION_TYPE"], [58, 61, "METRIC_TYPE"], [62, 68, "METRIC_TYPE"], [62, 74, "IMPACT_TYPE"]]}
+{"text": "Behavioral risk trends identified interns and sales as high-risk groups", "entities": [[0, 10, "BEHAVIOR_TYPE"], [11, 15, "RISK_TYPE"], [16, 22, "TREND_TYPE"], [31, 41, "ROLE_TYPE"], [52, 64, "RISK_TYPE"], [60, 71, "GROUP_TYPE"]]}
+{"text": "Security culture score improved to 81% with positive perception trending upward", "entities": [[17, 22, "CULTURE_TYPE"], [23, 31, "METRIC_TYPE"], [32, 37, "METRIC_TYPE"], [50, 63, "PERCEPTION_TYPE"]]}
+{"text": "Phishing click rate reduced to 6% with 62% reporting rate", "entities": [[9, 14, "CLICK_TYPE"], [28, 32, "METRIC_TYPE"], [39, 44, "METRIC_TYPE"]]}
+{"text": "Gamification engagement awarded 420 badges across 12 departments", "entities": [[36, 42, "COUNT"]]}
+{"text": "HR integration synced 4200 training records with 12 policy non-compliant flags", "entities": [[22, 29, "COUNT"], [52, 62, "POLICY_TYPE"], [59, 78, "COMPLIANCE_STATUS"]]}
+{"text": "Data Analytics Tool analyzed phishing click rates and reporting trends", "entities": [[5, 14, "ANALYTICS_TYPE"], [35, 43, "CLICK_TYPE"]]}
+{"text": "Phishing Simulation Tool sent 6000 emails achieving 6% click rate and 62% report rate", "entities": [[30, 41, "ATTACK_TYPE"], [70, 80, "EMAIL_TYPE"]]}
+{"text": "Phishing click rate reduced to 6% with 62% report rate improving user resilience", "entities": [[9, 14, "CLICK_TYPE"]]}
+{"text": "Phishing Simulation Tool sent 6000 emails achieving 6% click rate and 62% report rate", "entities": [[30, 41, "ATTACK_TYPE"], [70, 80, "EMAIL_TYPE"]]}
+{"text": "Awareness compliance audit validated 96% training completion for PCI DSS", "entities": [[37, 40, "METRIC_TYPE"], [65, 68, "FRAMEWORK"], [69, 72, "FRAMEWORK"]]}
+{"text": "Security culture survey received 3100 responses with 81% positive perception", "entities": [[17, 23, "CULTURE_TYPE"], [57, 65, "METRIC_TYPE"], [64, 76, "PERCEPTION_TYPE"]]}
+{"text": "Tabletop Exercise Planner conducted breach scenarios measuring crisis leadership readiness", "entities": [[0, 25, "TOOL"], [43, 52, "PLANNING_TYPE"], [63, 80, "SCENARIO_TYPE"]]}
+{"text": "Head of Security Awareness reviewed training completion with 94% completion rate", "entities": [[61, 64, "METRIC_TYPE"]]}
+{"text": "Vendor awareness program trained 85 vendors with 88% completion rate", "entities": [[0, 6, "VENDOR_TYPE"], [17, 24, "PROGRAM_TYPE"], [33, 35, "COUNT"], [36, 43, "VENDOR_TYPE"], [49, 51, "METRIC_TYPE"]]}
+{"text": "Culture reinforcement campaigns deployed Slack nudges and security posters", "entities": [[0, 7, "CULTURE_TYPE"], [22, 34, "CAMPAIGN_TYPE"], [47, 53, "NUDGE_TYPE"]]}
+{"text": "HR LMS Integration Tool synced 4200 training records with HR systems", "entities": [[3, 6, "TOOL"], [24, 37, "TRAINING_TYPE"]]}
+{"text": "Secure coding labs integrated 4 developer labs into CI CD", "entities": [[0, 6, "CODING_TYPE"], [42, 46, "PIPELINE_TYPE"], [47, 51, "PIPELINE_TYPE"]]}
+{"text": "Training Content Authoring Tool created 15 modules in video quiz lab and micro-learning formats", "entities": [[32, 50, "TRAINING_TYPE"], [43, 53, "CONTENT_TYPE"], [54, 64, "AUTHORING_TYPE"], [65, 68, "TOOL"], [73, 78, "COUNT"]]}
+{"text": "Vendor awareness program trained 85 vendors with 88% completion rate", "entities": [[0, 6, "VENDOR_TYPE"], [17, 24, "PROGRAM_TYPE"], [33, 35, "COUNT"], [36, 43, "VENDOR_TYPE"], [49, 51, "METRIC_TYPE"]]}
+{"text": "Awareness Policy Generator created policy with role-based training and quarterly phishing", "entities": [[47, 57, "GENERATOR_TYPE"], [71, 89, "TRAINING_TYPE"]]}
+{"text": "Adaptive learning delivered 220 just-in-time nudges with 87% success rate", "entities": [[0, 8, "LEARNING_TYPE"], [28, 31, "COUNT"], [32, 44, "NUDGE_TYPE"], [61, 68, "METRIC_TYPE"]]}
+{"text": "Adaptive micro-training delivered just-in-time nudges triggered by risky behavior", "entities": [[0, 8, "ADAPTIVE_TYPE"], [32, 46, "NUDGE_TYPE"], [42, 55, "AUTH_TYPE"], [67, 72, "TRIGGER_TYPE"]]}
+{"text": "Phishing click rate reduced to 6% with 62% report rate improving user resilience", "entities": [[9, 14, "CLICK_TYPE"]]}
+{"text": "HR LMS Integration Tool synced 4200 training records with HR systems", "entities": [[3, 6, "TOOL"], [24, 37, "TRAINING_TYPE"]]}
+{"text": "Awareness audit scored 95% with 96% training completion and 100% phishing coverage", "entities": [[23, 25, "METRIC_TYPE"], [32, 37, "METRIC_TYPE"], [42, 55, "TRAINING_TYPE"], [72, 82, "ATTACK_TYPE"]]}
+{"text": "Social engineering simulation tested vishing and smishing with 25 failures", "entities": [[0, 6, "ENGINEERING_TYPE"], [63, 74, "FAILURE_TYPE"]]}
+{"text": "Evidence Packaging Tool prepared audit evidence pack for Q3 2025", "entities": [[33, 47, "EVIDENCE_TYPE"], [45, 52, "PACKAGE_TYPE"], [60, 64, "TIME_PERIOD"]]}
+{"text": "Repeat offender identification flagged 18 users requiring additional training", "entities": [[0, 6, "OFFENDER_TYPE"], [7, 15, "OFFENDER_TYPE"], [39, 47, "USER_TYPE"]]}
+{"text": "Security awareness training completion reached 94% with 4200 participants", "entities": [[45, 49, "METRIC_TYPE"], [56, 60, "COUNT"]]}
+{"text": "Advanced metrics tracked time-to-report at 9 minutes with 82% resiliency score", "entities": [[25, 32, "METRIC_TYPE"], [40, 52, "METRIC_TYPE"], [71, 78, "METRIC_TYPE"]]}
+{"text": "Behavioral risk trends identified interns and sales as high-risk groups", "entities": [[0, 10, "BEHAVIOR_TYPE"], [11, 15, "RISK_TYPE"], [16, 22, "TREND_TYPE"], [31, 41, "ROLE_TYPE"], [52, 64, "RISK_TYPE"], [60, 71, "GROUP_TYPE"]]}
+{"text": "Tabletop Exercise Planner created executive breach scenarios for 15 executives", "entities": [[0, 25, "TOOL"], [34, 50, "PLANNER_TYPE"]]}
+{"text": "Vendor contractor awareness extended training to 85 third-party vendors", "entities": [[0, 6, "VENDOR_TYPE"], [7, 17, "CONTRACTOR_TYPE"], [52, 57, "COUNT"], [52, 71, "VENDOR_TYPE"]]}
+{"text": "Security awareness audit score improved to 95% with 96% training completion", "entities": [[25, 30, "AUDIT_TYPE"], [31, 39, "METRIC_TYPE"], [38, 42, "METRIC_TYPE"], [43, 45, "METRIC_TYPE"], [52, 57, "METRIC_TYPE"]]}
+{"text": "Social engineering simulation tested vishing and smishing with 25 failures", "entities": [[0, 6, "ENGINEERING_TYPE"], [63, 74, "FAILURE_TYPE"]]}
+{"text": "Culture reinforcement campaigns deployed Slack nudges and security posters", "entities": [[0, 7, "CULTURE_TYPE"], [22, 34, "CAMPAIGN_TYPE"], [47, 53, "NUDGE_TYPE"]]}
+{"text": "Time-to-report phishing improved to 9 minutes average response time", "entities": [[31, 37, "TIME_UNIT"], [38, 45, "AVERAGE_TYPE"], [46, 53, "RESPONSE_TYPE"]]}
+{"text": "Security Education Specialist managed training programs with 87% average score", "entities": []}
+{"text": "Time-to-report phishing improved to 9 minutes with enhanced user awareness", "entities": [[31, 37, "TIME_UNIT"], [51, 59, "USER_TYPE"], [58, 67, "AWARENESS_TYPE"]]}
+{"text": "Developer secure coding awareness integrated into 320 repositories", "entities": [[0, 9, "DEVELOPER_TYPE"], [10, 16, "CODING_TYPE"], [50, 55, "COUNT"]]}
+{"text": "Vishing smishing simulation tested 350 calls and 700 SMS", "entities": [[35, 38, "COUNT"], [49, 52, "COUNT"]]}
+{"text": "CI CD Plugin delivered just-in-time secure coding feedback to developers", "entities": [[6, 12, "PLUGIN_TYPE"], [21, 30, "CODING_TYPE"], [31, 42, "FEEDBACK_TYPE"]]}
+{"text": "Vishing Smishing Simulation tested 350 calls and 700 SMS with 25 failures requiring escalation", "entities": [[35, 44, "COUNT"], [49, 56, "COUNT"], [65, 73, "FAILURE_TYPE"]]}
+{"text": "Real-time risk monitoring detected phishing clicks triggering adaptive training", "entities": [[0, 9, "TIME_TYPE"], [10, 14, "RISK_TYPE"], [32, 43, "ATTACK_TYPE"], [62, 79, "TRAINING_TYPE"]]}
+{"text": "SANS security awareness open source provided role-based training modules", "entities": [[0, 4, "TOOL"], [42, 55, "TRAINING_TYPE"], [50, 64, "TRAINING_TYPE"]]}
+{"text": "Mimecast security awareness platform tracked phishing simulation results", "entities": [[0, 8, "TOOL"], [65, 72, "RESULT_TYPE"]]}
+{"text": "Secure coding remediation tracked 450 findings fixed with 82% score", "entities": [[0, 6, "CODING_TYPE"], [26, 37, "FINDING_TYPE"], [47, 52, "METRIC_TYPE"], [58, 61, "SCORE_TYPE"]]}
+{"text": "Metrics Dashboard Tool displayed training KPIs with 94% completion rate", "entities": [[23, 32, "DASHBOARD_TYPE"], [56, 66, "METRIC_TYPE"]]}
+{"text": "Security culture score improved to 81% with positive perception trending upward", "entities": [[17, 22, "CULTURE_TYPE"], [23, 31, "METRIC_TYPE"], [32, 37, "METRIC_TYPE"], [50, 63, "PERCEPTION_TYPE"]]}
+{"text": "CISO approved security awareness strategy with role-based training framework", "entities": [[0, 4, "ROLE"], [52, 66, "FRAMEWORK_TYPE"]]}
+{"text": "Security Awareness Compliance Analyst validated PCI DSS training requirements", "entities": [[45, 55, "SECURITY_TYPE"], [63, 77, "COMPLIANCE_TYPE"]]}
+{"text": "HR performance integration linked training completion to performance reviews", "entities": []}
+{"text": "Awareness Policy Generator created policy with role-based training and quarterly phishing", "entities": [[47, 57, "GENERATOR_TYPE"], [71, 89, "TRAINING_TYPE"]]}
+{"text": "Phishing Simulation Tool sent 6000 emails achieving 6% click rate and 62% report rate", "entities": [[30, 41, "ATTACK_TYPE"], [70, 80, "EMAIL_TYPE"]]}
+{"text": "Executive awareness workshops trained 15 executives with 2 tabletops and 92% average score", "entities": [[20, 29, "AWARENESS_TYPE"], [30, 37, "WORKSHOP_TYPE"], [85, 90, "METRIC_TYPE"]]}
+{"text": "Security Culture Specialist managed behavioral change programs with 81% positive feedback", "entities": [[36, 46, "SECURITY_TYPE"], [44, 53, "CULTURE_TYPE"], [47, 62, "SPECIALIST_TYPE"], [72, 82, "BEHAVIOR_TYPE"], [81, 89, "CHANGE_TYPE"]]}
+{"text": "Survey Tool collected security culture feedback from 3100 respondents", "entities": [[0, 6, "TOOL"], [29, 38, "CULTURE_TYPE"], [37, 47, "FEEDBACK_TYPE"], [53, 57, "COUNT"]]}
+{"text": "Security awareness training completion reached 96% for all employees", "entities": [[26, 38, "TRAINING_TYPE"], [35, 46, "COMPLETION_TYPE"], [45, 49, "METRIC_TYPE"], [55, 68, "EMPLOYEE_TYPE"]]}
+{"text": "Security culture perception measured 81% positive feedback from employees", "entities": [[9, 16, "CULTURE_TYPE"], [37, 39, "METRIC_TYPE"], [41, 52, "FEEDBACK_TYPE"]]}
+{"text": "Adaptive training success rate reached 87% with 220 nudges delivered", "entities": [[18, 25, "ADAPTIVE_TYPE"], [31, 38, "METRIC_TYPE"], [39, 41, "METRIC_TYPE"], [48, 58, "COUNT"], [52, 60, "NUDGE_TYPE"]]}
+{"text": "Repeat offender identification flagged 18 users requiring additional training", "entities": [[0, 6, "OFFENDER_TYPE"], [7, 15, "OFFENDER_TYPE"], [39, 47, "USER_TYPE"]]}
+{"text": "Accessibility compliance validated training content for screen readers and neurodiversity", "entities": [[0, 13, "ACCESSIBILITY_TYPE"]]}
+{"text": "Mail Gateway Integrator integrated phishing simulations with email gateway", "entities": [[0, 4, "TOOL"], [5, 12, "TOOL"], [61, 74, "GATEWAY_TYPE"]]}
+{"text": "Executive awareness workshops trained 15 executives with 92% average score", "entities": [[0, 9, "EXECUTIVE_TYPE"], [20, 29, "WORKSHOP_TYPE"], [57, 60, "METRIC_TYPE"], [61, 68, "METRIC_TYPE"], [61, 74, "AVERAGE_TYPE"]]}
+{"text": "Adaptive micro-training delivered just-in-time nudges triggered by risky behavior", "entities": [[0, 8, "ADAPTIVE_TYPE"], [32, 46, "NUDGE_TYPE"], [42, 55, "AUTH_TYPE"], [67, 72, "TRIGGER_TYPE"]]}
+{"text": "Security Awareness Analytics Specialist analyzed training effectiveness trends", "entities": [[56, 64, "AWARENESS_TYPE"], [65, 78, "ANALYTICS_TYPE"]]}
+{"text": "Gamified challenges deployed leaderboards and badges across 12 departments", "entities": [[0, 8, "CHALLENGE_TYPE"], [9, 19, "CHALLENGE_TYPE"], [29, 41, "LEADERBOARD_TYPE"], [46, 52, "BADGE_TYPE"], [60, 74, "DEPARTMENT_TYPE"]]}
+{"text": "Gamification Platform deployed 3 gamified tracks with 420 badges awarded", "entities": [[29, 41, "GAMIFICATION_TYPE"]]}
+{"text": "Accessibility Checker validated screen reader and neurodiverse-friendly content", "entities": [[29, 45, "ACCESSIBILITY_TYPE"], [59, 71, "VALIDATION_TYPE"]]}
+{"text": "Phishing simulation campaign sent 6000 emails achieving 6% click rate", "entities": [[20, 28, "CAMPAIGN_TYPE"], [34, 45, "COUNT"], [39, 48, "EMAIL_TYPE"], [56, 64, "METRIC_TYPE"], [59, 64, "METRIC_TYPE"]]}
+{"text": "Adaptive learning delivered 220 just-in-time nudges with 87% success rate", "entities": [[0, 8, "LEARNING_TYPE"], [28, 31, "COUNT"], [32, 44, "NUDGE_TYPE"], [61, 68, "METRIC_TYPE"]]}
+{"text": "Survey Tool collected security culture feedback from 3100 respondents", "entities": [[0, 6, "TOOL"], [29, 38, "CULTURE_TYPE"], [37, 47, "FEEDBACK_TYPE"], [53, 57, "COUNT"]]}
+{"text": "Behavioral risk analysis identified high-risk groups requiring targeted training", "entities": [[0, 10, "BEHAVIOR_TYPE"], [11, 15, "RISK_TYPE"], [16, 24, "ANALYSIS_TYPE"], [32, 40, "RISK_TYPE"], [41, 45, "GROUP_TYPE"]]}
+{"text": "Evidence Packaging Tool prepared audit evidence pack for Q3 2025", "entities": [[33, 47, "EVIDENCE_TYPE"], [45, 52, "PACKAGE_TYPE"], [60, 64, "TIME_PERIOD"]]}
+{"text": "Vendor awareness program extended to 85 vendors with 88% completion rate", "entities": [[14, 24, "AWARENESS_TYPE"], [53, 58, "METRIC_TYPE"]]}
+{"text": "Awareness audit scored 95% with 96% training completion and 100% phishing coverage", "entities": [[23, 25, "METRIC_TYPE"], [32, 37, "METRIC_TYPE"], [42, 55, "TRAINING_TYPE"], [72, 82, "ATTACK_TYPE"]]}
+{"text": "Incident Responder investigated security awareness breach affecting 3 departments", "entities": [[51, 67, "BREACH_TYPE"]]}
+{"text": "Security Awareness Program Strategist defined enterprise-wide security culture strategy", "entities": [[38, 45, "SECURITY_TYPE"], [46, 56, "AWARENESS_TYPE"], [56, 64, "PROGRAM_TYPE"]]}
+{"text": "Vendor awareness program trained 85 vendors with 88% completion rate", "entities": [[0, 6, "VENDOR_TYPE"], [17, 24, "PROGRAM_TYPE"], [33, 35, "COUNT"], [36, 43, "VENDOR_TYPE"], [49, 51, "METRIC_TYPE"]]}
+{"text": "Security champions program deployed 45 champions with recognition programs", "entities": [[9, 18, "CHAMPION_TYPE"], [19, 26, "PROGRAM_TYPE"], [39, 48, "CHAMPION_TYPE"]]}
+{"text": "Vishing Smishing Simulation tested 350 calls and 700 SMS with 25 failures requiring escalation", "entities": [[35, 44, "COUNT"], [49, 56, "COUNT"], [65, 73, "FAILURE_TYPE"]]}
+{"text": "Vendor contractor awareness extended training to 85 third-party vendors", "entities": [[0, 6, "VENDOR_TYPE"], [7, 17, "CONTRACTOR_TYPE"], [52, 57, "COUNT"], [52, 71, "VENDOR_TYPE"]]}
+{"text": "Security Awareness Engineer configured KnowBe4 platform with 4200 participants", "entities": [[37, 46, "SECURITY_TYPE"]]}
+{"text": "Role-based training delivered to 4200 participants achieving 94% completion rate", "entities": [[0, 12, "TRAINING_TYPE"], [33, 50, "PARTICIPANT_TYPE"]]}
+{"text": "Secure coding labs integrated 4 developer labs into CI CD", "entities": [[0, 6, "CODING_TYPE"], [42, 46, "PIPELINE_TYPE"], [47, 51, "PIPELINE_TYPE"]]}
+{"text": "SANS security awareness open source provided role-based training modules", "entities": [[0, 4, "TOOL"], [42, 55, "TRAINING_TYPE"], [50, 64, "TRAINING_TYPE"]]}
+{"text": "Executive awareness workshops trained 15 executives with 92% average score", "entities": [[0, 9, "EXECUTIVE_TYPE"], [20, 29, "WORKSHOP_TYPE"], [57, 60, "METRIC_TYPE"], [61, 68, "METRIC_TYPE"], [61, 74, "AVERAGE_TYPE"]]}
+{"text": "HR integration synced 4200 training records with 12 policy non-compliant flags", "entities": [[22, 29, "COUNT"], [52, 62, "POLICY_TYPE"], [59, 78, "COMPLIANCE_STATUS"]]}
+{"text": "Sophos security awareness platform managed role-based training programs", "entities": [[0, 6, "TOOL"], [43, 53, "TRAINING_TYPE"], [61, 71, "PROGRAM_TYPE"]]}
+{"text": "Developer secure coding awareness integrated into 320 repositories", "entities": [[0, 9, "DEVELOPER_TYPE"], [10, 16, "CODING_TYPE"], [50, 55, "COUNT"]]}
+{"text": "Phishing simulation campaign sent 6000 emails achieving 6% click rate", "entities": [[20, 28, "CAMPAIGN_TYPE"], [34, 45, "COUNT"], [39, 48, "EMAIL_TYPE"], [56, 64, "METRIC_TYPE"], [59, 64, "METRIC_TYPE"]]}
+{"text": "Security Awareness Tester executed penetration test finding 8 training gaps", "entities": [[35, 46, "SECURITY_TYPE"], [43, 51, "AWARENESS_TYPE"]]}
+{"text": "Adaptive Learning Tool delivered 220 just-in-time nudges triggered by risky behavior", "entities": [[23, 36, "LEARNING_TYPE"], [37, 44, "ADAPTIVE_TYPE"], [45, 49, "TOOL"], [63, 75, "NUDGE_TYPE"]]}
+{"text": "Vendor contractor awareness extended training to 85 third-party vendors", "entities": [[0, 6, "VENDOR_TYPE"], [7, 17, "CONTRACTOR_TYPE"], [52, 57, "COUNT"], [52, 71, "VENDOR_TYPE"]]}
+{"text": "Developer secure coding awareness integrated into 320 repositories", "entities": [[0, 9, "DEVELOPER_TYPE"], [10, 16, "CODING_TYPE"], [50, 55, "COUNT"]]}
+{"text": "Mimecast security awareness platform tracked phishing simulation results", "entities": [[0, 8, "TOOL"], [65, 72, "RESULT_TYPE"]]}
+{"text": "Gamification engagement awarded 420 badges across 12 departments", "entities": [[36, 42, "COUNT"]]}
+{"text": "Secure coding remediation tracked 450 findings fixed with 82% score", "entities": [[0, 6, "CODING_TYPE"], [26, 37, "FINDING_TYPE"], [47, 52, "METRIC_TYPE"], [58, 61, "SCORE_TYPE"]]}
+{"text": "Security Culture Specialist managed behavioral change programs with 81% positive feedback", "entities": [[36, 46, "SECURITY_TYPE"], [44, 53, "CULTURE_TYPE"], [47, 62, "SPECIALIST_TYPE"], [72, 82, "BEHAVIOR_TYPE"], [81, 89, "CHANGE_TYPE"]]}
+{"text": "Security Awareness Engineer configured KnowBe4 platform with 4200 participants", "entities": [[37, 46, "SECURITY_TYPE"]]}
+{"text": "Adaptive learning delivered 220 just-in-time nudges with 87% success rate", "entities": [[0, 8, "LEARNING_TYPE"], [28, 31, "COUNT"], [32, 44, "NUDGE_TYPE"], [61, 68, "METRIC_TYPE"]]}
+{"text": "Culture reinforcement campaigns deployed Slack nudges and security posters", "entities": [[0, 7, "CULTURE_TYPE"], [22, 34, "CAMPAIGN_TYPE"], [47, 53, "NUDGE_TYPE"]]}
+{"text": "Accessibility compliance validated training content for screen readers and neurodiversity", "entities": [[0, 13, "ACCESSIBILITY_TYPE"]]}
+{"text": "HR integration synced 4200 training records with 12 policy non-compliant flags", "entities": [[22, 29, "COUNT"], [52, 62, "POLICY_TYPE"], [59, 78, "COMPLIANCE_STATUS"]]}
+{"text": "Behavioral risk trends identified interns and sales as high-risk groups", "entities": [[0, 10, "BEHAVIOR_TYPE"], [11, 15, "RISK_TYPE"], [16, 22, "TREND_TYPE"], [31, 41, "ROLE_TYPE"], [52, 64, "RISK_TYPE"], [60, 71, "GROUP_TYPE"]]}
+{"text": "Security awareness false positive rate reduced to 1.4% improving simulation accuracy", "entities": [[16, 24, "AWARENESS_TYPE"], [39, 46, "METRIC_TYPE"]]}
+{"text": "Security awareness audit score improved to 95% with 96% training completion", "entities": [[25, 30, "AUDIT_TYPE"], [31, 39, "METRIC_TYPE"], [38, 42, "METRIC_TYPE"], [43, 45, "METRIC_TYPE"], [52, 57, "METRIC_TYPE"]]}
+{"text": "Localization QA Tool tested training content in 12 languages", "entities": [[45, 50, "CONTENT_TYPE"]]}
+{"text": "Secure Coding Lab Tool integrated 4 developer labs into CI CD pipelines", "entities": [[51, 55, "COUNT"], [56, 63, "DEVELOPER_TYPE"]]}
+{"text": "Culture reinforcement deployed 45 security champions with 78% impact score", "entities": [[0, 7, "CULTURE_TYPE"], [43, 52, "CHAMPION_TYPE"], [58, 61, "METRIC_TYPE"], [62, 68, "METRIC_TYPE"], [62, 74, "IMPACT_TYPE"]]}
+{"text": "Multilingual support provided training content in 12 languages", "entities": [[13, 29, "SUPPORT_TYPE"]]}
+{"text": "Awareness compliance audit validated 96% training completion for PCI DSS", "entities": [[37, 40, "METRIC_TYPE"], [65, 68, "FRAMEWORK"], [69, 72, "FRAMEWORK"]]}
+{"text": "Security culture survey collected feedback from 3100 respondents", "entities": [[9, 16, "CULTURE_TYPE"], [17, 23, "SURVEY_TYPE"], [32, 42, "FEEDBACK_TYPE"], [48, 52, "COUNT"]]}
+{"text": "Culture reinforcement deployed 45 security champions with Slack nudges and posters", "entities": [[16, 30, "REINFORCEMENT_TYPE"], [43, 52, "SECURITY_TYPE"], [64, 70, "TOOL"]]}
+{"text": "Regulatory Briefing Tool prepared compliance briefings for board members", "entities": [[0, 12, "TOOL"], [65, 72, "BOARD_TYPE"]]}
+{"text": "Security culture survey received 3100 responses with 81% positive perception", "entities": [[17, 23, "CULTURE_TYPE"], [57, 65, "METRIC_TYPE"], [64, 76, "PERCEPTION_TYPE"]]}
+{"text": "Phishing simulation campaign sent 6000 emails achieving 6% click rate", "entities": [[20, 28, "CAMPAIGN_TYPE"], [34, 45, "COUNT"], [39, 48, "EMAIL_TYPE"], [56, 64, "METRIC_TYPE"], [59, 64, "METRIC_TYPE"]]}
+{"text": "Security culture perception measured 81% positive feedback from employees", "entities": [[9, 16, "CULTURE_TYPE"], [37, 39, "METRIC_TYPE"], [41, 52, "FEEDBACK_TYPE"]]}
+{"text": "Developer secure coding awareness integrated into 320 repositories", "entities": [[0, 9, "DEVELOPER_TYPE"], [10, 16, "CODING_TYPE"], [50, 55, "COUNT"]]}
+{"text": "Accessibility Checker validated training content for screen readers", "entities": [[53, 67, "ACCESSIBILITY_TYPE"]]}
+{"text": "CISO approved security awareness strategy with role-based training framework", "entities": [[0, 4, "ROLE"], [52, 66, "FRAMEWORK_TYPE"]]}
+{"text": "SAST DAST Integration Tool integrated secure coding labs into CI CD pipelines", "entities": [[0, 4, "TOOL"], [5, 9, "TOOL"], [38, 44, "LAB_TYPE"], [52, 56, "PIPELINE_TYPE"]]}
+{"text": "Evidence Packaging Tool prepared audit evidence pack for Q3 2025", "entities": [[33, 47, "EVIDENCE_TYPE"], [45, 52, "PACKAGE_TYPE"], [60, 64, "TIME_PERIOD"]]}
+{"text": "Executive tabletop exercises conducted 2 breach scenarios with 15 executives", "entities": [[0, 9, "EXECUTIVE_TYPE"], [10, 21, "EXERCISE_TYPE"]]}
+{"text": "Advanced metrics tracked time-to-report at 9 minutes with 82% resiliency score", "entities": [[25, 32, "METRIC_TYPE"], [40, 52, "METRIC_TYPE"], [71, 78, "METRIC_TYPE"]]}
+{"text": "Awareness compliance audit validated 96% training completion for PCI DSS", "entities": [[37, 40, "METRIC_TYPE"], [65, 68, "FRAMEWORK"], [69, 72, "FRAMEWORK"]]}
+{"text": "Mimecast security awareness platform tracked phishing simulation results", "entities": [[0, 8, "TOOL"], [65, 72, "RESULT_TYPE"]]}
+{"text": "Security Awareness Analytics Specialist analyzed training effectiveness trends", "entities": [[56, 64, "AWARENESS_TYPE"], [65, 78, "ANALYTICS_TYPE"]]}
+{"text": "Real-time risk monitoring detected phishing clicks triggering adaptive training", "entities": [[0, 9, "TIME_TYPE"], [10, 14, "RISK_TYPE"], [32, 43, "ATTACK_TYPE"], [62, 79, "TRAINING_TYPE"]]}
+{"text": "Gamification Platform deployed 3 gamified tracks with 420 badges awarded", "entities": [[29, 41, "GAMIFICATION_TYPE"]]}
+{"text": "Proofpoint security awareness platform delivered training to 4200 employees", "entities": [[0, 10, "TOOL"], [58, 65, "COUNT"], [61, 75, "EMPLOYEE_TYPE"]]}
+{"text": "KnowBe4 security awareness platform trained 5000 users with 96% completion", "entities": [[0, 7, "TOOL"], [42, 48, "COUNT"], [44, 54, "USER_TYPE"], [60, 63, "METRIC_TYPE"]]}
+{"text": "CISO approved security awareness strategy with role-based training framework", "entities": [[0, 4, "ROLE"], [52, 66, "FRAMEWORK_TYPE"]]}
+{"text": "Real-time risk monitoring detected phishing clicks triggering adaptive training", "entities": [[0, 9, "TIME_TYPE"], [10, 14, "RISK_TYPE"], [32, 43, "ATTACK_TYPE"], [62, 79, "TRAINING_TYPE"]]}
+{"text": "Executive tabletop exercises conducted 2 breach scenarios with 15 executives", "entities": [[0, 9, "EXECUTIVE_TYPE"], [10, 21, "EXERCISE_TYPE"]]}
+{"text": "CISO approved security awareness strategy with role-based training framework", "entities": [[0, 4, "ROLE"], [52, 66, "FRAMEWORK_TYPE"]]}
+{"text": "Security awareness training completion reached 96% for all employees", "entities": [[26, 38, "TRAINING_TYPE"], [35, 46, "COMPLETION_TYPE"], [45, 49, "METRIC_TYPE"], [55, 68, "EMPLOYEE_TYPE"]]}
+{"text": "Social engineering simulation tested vishing and smishing with 25 failures", "entities": [[0, 6, "ENGINEERING_TYPE"], [63, 74, "FAILURE_TYPE"]]}
+{"text": "Phishing click rate reduced to 6% with 62% reporting rate", "entities": [[9, 14, "CLICK_TYPE"], [28, 32, "METRIC_TYPE"], [39, 44, "METRIC_TYPE"]]}
+{"text": "Time-to-report phishing improved to 9 minutes average response time", "entities": [[31, 37, "TIME_UNIT"], [38, 45, "AVERAGE_TYPE"], [46, 53, "RESPONSE_TYPE"]]}
+{"text": "HR performance integration linked training completion to performance reviews", "entities": []}
+{"text": "Culture reinforcement campaigns deployed Slack nudges and security posters", "entities": [[0, 7, "CULTURE_TYPE"], [22, 34, "CAMPAIGN_TYPE"], [47, 53, "NUDGE_TYPE"]]}
+{"text": "Role-based training delivered differentiated content for executives developers and staff", "entities": [[0, 10, "TRAINING_TYPE"], [5, 13, "TRAINING_TYPE"], [20, 31, "TRAINING_TYPE"], [68, 78, "DEVELOPER_TYPE"], [83, 88, "STAFF_TYPE"]]}
+{"text": "Advanced metrics tracked time-to-report at 9 minutes with 82% resiliency score", "entities": [[25, 32, "METRIC_TYPE"], [40, 52, "METRIC_TYPE"], [71, 78, "METRIC_TYPE"]]}
+{"text": "Security Education Specialist managed training programs with 87% average score", "entities": []}
+{"text": "Role-based training delivered to 4200 participants achieving 94% completion rate", "entities": [[0, 12, "TRAINING_TYPE"], [33, 50, "PARTICIPANT_TYPE"]]}
+{"text": "Awareness audit scored 95% with 96% training completion and 100% phishing coverage", "entities": [[23, 25, "METRIC_TYPE"], [32, 37, "METRIC_TYPE"], [42, 55, "TRAINING_TYPE"], [72, 82, "ATTACK_TYPE"]]}
+{"text": "Regulatory Briefing Tool prepared compliance briefings for board members", "entities": [[0, 12, "TOOL"], [65, 72, "BOARD_TYPE"]]}
+{"text": "Tabletop Exercise Planner created executive breach scenarios for 15 executives", "entities": [[0, 25, "TOOL"], [34, 50, "PLANNER_TYPE"]]}
+{"text": "Vendor awareness program extended to 85 vendors with 88% completion rate", "entities": [[14, 24, "AWARENESS_TYPE"], [53, 58, "METRIC_TYPE"]]}
+{"text": "Security champions program deployed 45 champions with recognition programs", "entities": [[9, 18, "CHAMPION_TYPE"], [19, 26, "PROGRAM_TYPE"], [39, 48, "CHAMPION_TYPE"]]}
+{"text": "Time-to-report phishing improved to 9 minutes average response time", "entities": [[31, 37, "TIME_UNIT"], [38, 45, "AVERAGE_TYPE"], [46, 53, "RESPONSE_TYPE"]]}
+{"text": "Micro-learning content delivered just-in-time training for 220 users", "entities": [[29, 40, "TRAINING_TYPE"], [38, 54, "AUTH_TYPE"], [59, 62, "COUNT"], [63, 68, "USER_TYPE"]]}
+{"text": "Security Awareness Engineer configured KnowBe4 platform with 4200 participants", "entities": [[37, 46, "SECURITY_TYPE"]]}
+{"text": "Security Awareness Compliance Analyst validated PCI DSS training requirements", "entities": [[45, 55, "SECURITY_TYPE"], [63, 77, "COMPLIANCE_TYPE"]]}
+{"text": "Executive tabletop exercises conducted 2 breach scenarios with 15 executives", "entities": [[0, 9, "EXECUTIVE_TYPE"], [10, 21, "EXERCISE_TYPE"]]}
+{"text": "Proofpoint security awareness achieved 94% training completion with 6% phishing click rate", "entities": [[0, 10, "TOOL"], [37, 41, "METRIC_TYPE"], [39, 44, "METRIC_TYPE"]]}
+{"text": "Security awareness false positive rate reduced to 1.4% improving simulation accuracy", "entities": [[16, 24, "AWARENESS_TYPE"], [39, 46, "METRIC_TYPE"]]}
+{"text": "Adaptive Learning Tool delivered 220 just-in-time nudges triggered by risky behavior", "entities": [[23, 36, "LEARNING_TYPE"], [37, 44, "ADAPTIVE_TYPE"], [45, 49, "TOOL"], [63, 75, "NUDGE_TYPE"]]}
+{"text": "CI CD Plugin delivered just-in-time secure coding feedback to developers", "entities": [[6, 12, "PLUGIN_TYPE"], [21, 30, "CODING_TYPE"], [31, 42, "FEEDBACK_TYPE"]]}
+{"text": "Tabletop Exercise Planner conducted breach scenarios measuring crisis leadership readiness", "entities": [[0, 25, "TOOL"], [43, 52, "PLANNING_TYPE"], [63, 80, "SCENARIO_TYPE"]]}
+{"text": "HR LMS Integration synced 4200 training records with 12 HR flags and 3 policy non-compliant", "entities": [[3, 6, "TOOL"], [26, 33, "SYNC_TYPE"], [38, 47, "COUNT"], [53, 58, "RECORD_TYPE"], [71, 77, "FLAG_TYPE"], [82, 91, "POLICY_TYPE"]]}
+{"text": "Sophos security awareness platform managed role-based training programs", "entities": [[0, 6, "TOOL"], [43, 53, "TRAINING_TYPE"], [61, 71, "PROGRAM_TYPE"]]}
+{"text": "Culture reinforcement deployed 45 security champions with Slack nudges and posters", "entities": [[16, 30, "REINFORCEMENT_TYPE"], [43, 52, "SECURITY_TYPE"], [64, 70, "TOOL"]]}
+{"text": "Security culture survey collected feedback from 3100 respondents", "entities": [[9, 16, "CULTURE_TYPE"], [17, 23, "SURVEY_TYPE"], [32, 42, "FEEDBACK_TYPE"], [48, 52, "COUNT"]]}
+{"text": "Executive dashboard displayed awareness KPIs with 94% completion rate", "entities": [[0, 9, "EXECUTIVE_TYPE"], [10, 19, "DASHBOARD_TYPE"], [50, 55, "RATE_TYPE"]]}
+{"text": "Mail Gateway Integrator integrated phishing simulations with email gateway", "entities": [[0, 4, "TOOL"], [5, 12, "TOOL"], [61, 74, "GATEWAY_TYPE"]]}
+{"text": "Awareness metrics reporting showed 94% completion 6% click rate and 82% resiliency", "entities": [[28, 37, "METRIC_TYPE"], [35, 40, "METRIC_TYPE"], [68, 71, "RATE_TYPE"], [72, 82, "METRIC_TYPE"]]}
+{"text": "Behavioral risk trends identified interns and sales as high-risk groups", "entities": [[0, 10, "BEHAVIOR_TYPE"], [11, 15, "RISK_TYPE"], [16, 22, "TREND_TYPE"], [31, 41, "ROLE_TYPE"], [52, 64, "RISK_TYPE"], [60, 71, "GROUP_TYPE"]]}
+{"text": "Head of Security Awareness reviewed training completion with 94% completion rate", "entities": [[61, 64, "METRIC_TYPE"]]}
+{"text": "Video Creator produced 12 security awareness videos with 95% engagement", "entities": [[0, 13, "TOOL"], [14, 22, "CREATOR_TYPE"], [42, 51, "AWARENESS_TYPE"]]}
+{"text": "Principal Security Awareness Architect designed comprehensive awareness architecture", "entities": [[48, 61, "SECURITY_TYPE"], [58, 71, "AWARENESS_TYPE"], [62, 78, "ARCHITECT_TYPE"]]}
+{"text": "Security Awareness Tester executed penetration test finding 8 training gaps", "entities": [[35, 46, "SECURITY_TYPE"], [43, 51, "AWARENESS_TYPE"]]}
+{"text": "Phishing simulation campaign sent 6000 emails achieving 6% click rate", "entities": [[20, 28, "CAMPAIGN_TYPE"], [34, 45, "COUNT"], [39, 48, "EMAIL_TYPE"], [56, 64, "METRIC_TYPE"], [59, 64, "METRIC_TYPE"]]}
+{"text": "Adaptive training success rate reached 87% with 220 nudges delivered", "entities": [[18, 25, "ADAPTIVE_TYPE"], [31, 38, "METRIC_TYPE"], [39, 41, "METRIC_TYPE"], [48, 58, "COUNT"], [52, 60, "NUDGE_TYPE"]]}
+{"text": "Culture reinforcement deployed 45 security champions with 78% impact score", "entities": [[0, 7, "CULTURE_TYPE"], [43, 52, "CHAMPION_TYPE"], [58, 61, "METRIC_TYPE"], [62, 68, "METRIC_TYPE"], [62, 74, "IMPACT_TYPE"]]}
+{"text": "Behavioral Risk Analysis identified interns and sales as high-risk groups requiring monthly phishing", "entities": [[0, 24, "ANALYSIS_TYPE"], [25, 37, "RISK_TYPE"], [36, 43, "ANALYSIS_TYPE"], [48, 61, "GROUP_TYPE"], [62, 73, "GROUP_TYPE"], [84, 91, "GROUP_TYPE"]]}
+{"text": "Adaptive training success rate reached 87% with 220 nudges delivered", "entities": [[18, 25, "ADAPTIVE_TYPE"], [31, 38, "METRIC_TYPE"], [39, 41, "METRIC_TYPE"], [48, 58, "COUNT"], [52, 60, "NUDGE_TYPE"]]}
+{"text": "Tabletop Exercise Planner created executive breach scenarios for 15 executives", "entities": [[0, 25, "TOOL"], [34, 50, "PLANNER_TYPE"]]}
+{"text": "Awareness metrics reporting showed 94% completion 6% click rate and 82% resiliency", "entities": [[28, 37, "METRIC_TYPE"], [35, 40, "METRIC_TYPE"], [68, 71, "RATE_TYPE"], [72, 82, "METRIC_TYPE"]]}
+{"text": "Awareness Policy Generator created policy with role-based training and quarterly phishing", "entities": [[47, 57, "GENERATOR_TYPE"], [71, 89, "TRAINING_TYPE"]]}
+{"text": "Risk Communication Tool delivered regulatory briefings to C-suite", "entities": [[0, 4, "RISK_TYPE"], [30, 44, "REGULATION_TYPE"], [58, 65, "EXECUTIVE_TYPE"]]}
+{"text": "Proofpoint security awareness platform delivered training to 4200 employees", "entities": [[0, 10, "TOOL"], [58, 65, "COUNT"], [61, 75, "EMPLOYEE_TYPE"]]}
+{"text": "HR performance integration linked training completion to performance reviews", "entities": []}
+{"text": "Translation Tool supported 12 languages with accessibility compliant content", "entities": [[30, 39, "TOOL"], [45, 58, "LANGUAGE_TYPE"]]}
+{"text": "Security Awareness Tester executed penetration test finding 8 training gaps", "entities": [[35, 46, "SECURITY_TYPE"], [43, 51, "AWARENESS_TYPE"]]}
+{"text": "Vishing Smishing Simulation tested 350 calls and 700 SMS with 25 failures requiring escalation", "entities": [[35, 44, "COUNT"], [49, 56, "COUNT"], [65, 73, "FAILURE_TYPE"]]}
+{"text": "Training evidence pack prepared for Q3 2025 audit with complete documentation", "entities": [[9, 17, "EVIDENCE_TYPE"], [18, 22, "PACK_TYPE"], [36, 43, "TIME"]]}
+{"text": "Multilingual support provided training content in 12 languages", "entities": [[13, 29, "SUPPORT_TYPE"]]}
+{"text": "Real-Time Risk Monitor detected phishing clicks and shadow IT triggering adaptive training", "entities": [[0, 22, "TOOL"], [39, 47, "MONITOR_TYPE"], [73, 81, "APPLICATION_TYPE"]]}
+{"text": "Security Awareness Program Strategist defined enterprise-wide security culture strategy", "entities": [[38, 45, "SECURITY_TYPE"], [46, 56, "AWARENESS_TYPE"], [56, 64, "PROGRAM_TYPE"]]}
+{"text": "Accessibility compliance validated training content for screen readers and neurodiversity", "entities": [[0, 13, "ACCESSIBILITY_TYPE"]]}
+{"text": "Security culture survey received 3100 responses with 81% positive perception", "entities": [[17, 23, "CULTURE_TYPE"], [57, 65, "METRIC_TYPE"], [64, 76, "PERCEPTION_TYPE"]]}
+{"text": "Security Awareness Tester executed penetration test finding 8 training gaps", "entities": [[35, 46, "SECURITY_TYPE"], [43, 51, "AWARENESS_TYPE"]]}
+{"text": "HR LMS Integration synced 4200 training records with 12 HR flags and 3 policy non-compliant", "entities": [[3, 6, "TOOL"], [26, 33, "SYNC_TYPE"], [38, 47, "COUNT"], [53, 58, "RECORD_TYPE"], [71, 77, "FLAG_TYPE"], [82, 91, "POLICY_TYPE"]]}
+{"text": "Security awareness training completion reached 96% for all employees", "entities": [[26, 38, "TRAINING_TYPE"], [35, 46, "COMPLETION_TYPE"], [45, 49, "METRIC_TYPE"], [55, 68, "EMPLOYEE_TYPE"]]}
+{"text": "Multilingual support provided training content in 12 languages", "entities": [[13, 29, "SUPPORT_TYPE"]]}
+{"text": "SAST DAST Integration Tool integrated secure coding labs into CI CD pipelines", "entities": [[0, 4, "TOOL"], [5, 9, "TOOL"], [38, 44, "LAB_TYPE"], [52, 56, "PIPELINE_TYPE"]]}
+{"text": "Advanced metrics tracked time-to-report at 9 minutes with 82% resiliency score", "entities": [[25, 32, "METRIC_TYPE"], [40, 52, "METRIC_TYPE"], [71, 78, "METRIC_TYPE"]]}
+{"text": "KnowBe4 security awareness platform trained 5000 users with 96% completion", "entities": [[0, 7, "TOOL"], [42, 48, "COUNT"], [44, 54, "USER_TYPE"], [60, 63, "METRIC_TYPE"]]}
+{"text": "Vishing smishing simulation tested 350 calls and 700 SMS", "entities": [[35, 38, "COUNT"], [49, 52, "COUNT"]]}
+{"text": "Culture reinforcement deployed 45 security champions with Slack nudges and posters", "entities": [[16, 30, "REINFORCEMENT_TYPE"], [43, 52, "SECURITY_TYPE"], [64, 70, "TOOL"]]}
+{"text": "Security Education Specialist managed training programs with 87% average score", "entities": []}
+{"text": "Vishing smishing simulation tested 350 calls and 700 SMS", "entities": [[35, 38, "COUNT"], [49, 52, "COUNT"]]}
+{"text": "Phishing reporting rate improved to 62% with training interventions", "entities": [[31, 35, "METRIC_TYPE"], [36, 38, "METRIC_TYPE"]]}
+{"text": "Security awareness audit score improved to 95% with 96% training completion", "entities": [[25, 30, "AUDIT_TYPE"], [31, 39, "METRIC_TYPE"], [38, 42, "METRIC_TYPE"], [43, 45, "METRIC_TYPE"], [52, 57, "METRIC_TYPE"]]}
+{"text": "Incident Responder investigated security awareness breach affecting 3 departments", "entities": [[51, 67, "BREACH_TYPE"]]}
+{"text": "Maturity Model Tool assessed security culture maturity at level 4", "entities": [[26, 31, "MODEL_TYPE"], [44, 54, "SECURITY_TYPE"], [53, 63, "CULTURE_TYPE"]]}
+{"text": "Maturity Model Tool assessed security culture maturity at level 4", "entities": [[26, 31, "MODEL_TYPE"], [44, 54, "SECURITY_TYPE"], [53, 63, "CULTURE_TYPE"]]}
+{"text": "Awareness metrics reporting showed 94% completion 6% click rate and 82% resiliency", "entities": [[28, 37, "METRIC_TYPE"], [35, 40, "METRIC_TYPE"], [68, 71, "RATE_TYPE"], [72, 82, "METRIC_TYPE"]]}
+{"text": "Role-based training delivered differentiated content for executives developers and staff", "entities": [[0, 10, "TRAINING_TYPE"], [5, 13, "TRAINING_TYPE"], [20, 31, "TRAINING_TYPE"], [68, 78, "DEVELOPER_TYPE"], [83, 88, "STAFF_TYPE"]]}
+{"text": "Accessibility Checker validated screen reader and neurodiverse-friendly content", "entities": [[29, 45, "ACCESSIBILITY_TYPE"], [59, 71, "VALIDATION_TYPE"]]}
+{"text": "Vendor awareness program extended to 85 vendors with 88% completion rate", "entities": [[14, 24, "AWARENESS_TYPE"], [53, 58, "METRIC_TYPE"]]}
+{"text": "Security awareness training completion reached 94% with 4200 participants", "entities": [[45, 49, "METRIC_TYPE"], [56, 60, "COUNT"]]}
+{"text": "Executive dashboard displayed awareness KPIs with 94% completion rate", "entities": [[0, 9, "EXECUTIVE_TYPE"], [10, 19, "DASHBOARD_TYPE"], [50, 55, "RATE_TYPE"]]}
+{"text": "Executive dashboard displayed awareness KPIs with 94% completion rate", "entities": [[0, 9, "EXECUTIVE_TYPE"], [10, 19, "DASHBOARD_TYPE"], [50, 55, "RATE_TYPE"]]}
+{"text": "Security culture survey received 3100 responses with 81% positive perception", "entities": [[17, 23, "CULTURE_TYPE"], [57, 65, "METRIC_TYPE"], [64, 76, "PERCEPTION_TYPE"]]}
+{"text": "Security culture perception measured 81% positive feedback from employees", "entities": [[9, 16, "CULTURE_TYPE"], [37, 39, "METRIC_TYPE"], [41, 52, "FEEDBACK_TYPE"]]}
+{"text": "Phishing reporting rate improved to 62% with training interventions", "entities": [[31, 35, "METRIC_TYPE"], [36, 38, "METRIC_TYPE"]]}
+{"text": "Secure Coding Lab Tool integrated 4 developer labs into CI CD pipelines", "entities": [[51, 55, "COUNT"], [56, 63, "DEVELOPER_TYPE"]]}
+{"text": "Adaptive micro-training delivered just-in-time nudges triggered by risky behavior", "entities": [[0, 8, "ADAPTIVE_TYPE"], [32, 46, "NUDGE_TYPE"], [42, 55, "AUTH_TYPE"], [67, 72, "TRIGGER_TYPE"]]}
+{"text": "Tabletop Exercise Planner created executive breach scenarios for 15 executives", "entities": [[0, 25, "TOOL"], [34, 50, "PLANNER_TYPE"]]}
+{"text": "HR LMS Integration synced 4200 training records with 12 HR flags and 3 policy non-compliant", "entities": [[3, 6, "TOOL"], [26, 33, "SYNC_TYPE"], [38, 47, "COUNT"], [53, 58, "RECORD_TYPE"], [71, 77, "FLAG_TYPE"], [82, 91, "POLICY_TYPE"]]}
+{"text": "Security Awareness Compliance Analyst validated PCI DSS training requirements", "entities": [[45, 55, "SECURITY_TYPE"], [63, 77, "COMPLIANCE_TYPE"]]}
+{"text": "KnowBe4 security awareness platform trained 5000 users with 96% completion", "entities": [[0, 7, "TOOL"], [42, 48, "COUNT"], [44, 54, "USER_TYPE"], [60, 63, "METRIC_TYPE"]]}
+{"text": "Gamification engagement awarded 420 badges across 12 departments", "entities": [[36, 42, "COUNT"]]}
+{"text": "Awareness compliance audit validated 96% training completion for PCI DSS", "entities": [[37, 40, "METRIC_TYPE"], [65, 68, "FRAMEWORK"], [69, 72, "FRAMEWORK"]]}
+{"text": "Vishing Smishing Simulation tested 350 calls and 700 SMS with 25 failures requiring escalation", "entities": [[35, 44, "COUNT"], [49, 56, "COUNT"], [65, 73, "FAILURE_TYPE"]]}
+{"text": "Proofpoint security awareness platform delivered training to 4200 employees", "entities": [[0, 10, "TOOL"], [58, 65, "COUNT"], [61, 75, "EMPLOYEE_TYPE"]]}
+{"text": "Phishing reporting rate improved to 62% with training interventions", "entities": [[31, 35, "METRIC_TYPE"], [36, 38, "METRIC_TYPE"]]}
+{"text": "Advanced metrics tracked time-to-report of 9 minutes with 82% resiliency score", "entities": [[0, 8, "METRIC_TYPE"], [25, 32, "METRIC_TYPE"], [33, 44, "TIME_UNIT"], [69, 78, "SCORE_TYPE"]]}
+{"text": "Resiliency score improved to 82% with adaptive training interventions", "entities": [[0, 16, "RESILIENCE_TYPE"], [11, 18, "SCORE_TYPE"], [26, 31, "METRIC_TYPE"], [38, 48, "ADAPTIVE_TYPE"]]}
+{"text": "Security culture survey collected feedback from 3100 respondents", "entities": [[9, 16, "CULTURE_TYPE"], [17, 23, "SURVEY_TYPE"], [32, 42, "FEEDBACK_TYPE"], [48, 52, "COUNT"]]}
+{"text": "Survey Tool collected security culture feedback from 3100 respondents", "entities": [[0, 6, "TOOL"], [29, 38, "CULTURE_TYPE"], [37, 47, "FEEDBACK_TYPE"], [53, 57, "COUNT"]]}
+{"text": "Accessibility Checker validated screen reader and neurodiverse-friendly content", "entities": [[29, 45, "ACCESSIBILITY_TYPE"], [59, 71, "VALIDATION_TYPE"]]}
+{"text": "Executive tabletop exercises conducted 2 breach scenarios with 15 executives", "entities": [[0, 9, "EXECUTIVE_TYPE"], [10, 21, "EXERCISE_TYPE"]]}
+{"text": "Awareness Policy Generator created policy with role-based training and quarterly phishing", "entities": [[47, 57, "GENERATOR_TYPE"], [71, 89, "TRAINING_TYPE"]]}
+{"text": "Incident Responder investigated security awareness breach affecting 3 departments", "entities": [[51, 67, "BREACH_TYPE"]]}
+{"text": "Proofpoint security awareness platform delivered training to 4200 employees", "entities": [[0, 10, "TOOL"], [58, 65, "COUNT"], [61, 75, "EMPLOYEE_TYPE"]]}
+{"text": "Localization QA Tool tested training content in 12 languages", "entities": [[45, 50, "CONTENT_TYPE"]]}
+{"text": "Gamified challenges deployed leaderboards and badges across 12 departments", "entities": [[0, 8, "CHALLENGE_TYPE"], [9, 19, "CHALLENGE_TYPE"], [29, 41, "LEADERBOARD_TYPE"], [46, 52, "BADGE_TYPE"], [60, 74, "DEPARTMENT_TYPE"]]}
+{"text": "CI CD Plugin delivered just-in-time secure coding feedback to developers", "entities": [[6, 12, "PLUGIN_TYPE"], [21, 30, "CODING_TYPE"], [31, 42, "FEEDBACK_TYPE"]]}
+{"text": "Incident-driven training adapted 12 real incidents into 3 new training modules", "entities": [[9, 15, "TRAINING_TYPE"], [47, 55, "TRAINING_TYPE"], [51, 61, "MODULE_TYPE"]]}
+{"text": "Adaptive training success rate reached 87% with 220 nudges delivered", "entities": [[18, 25, "ADAPTIVE_TYPE"], [31, 38, "METRIC_TYPE"], [39, 41, "METRIC_TYPE"], [48, 58, "COUNT"], [52, 60, "NUDGE_TYPE"]]}
+{"text": "Security Awareness Program Strategist defined enterprise-wide security culture strategy", "entities": [[38, 45, "SECURITY_TYPE"], [46, 56, "AWARENESS_TYPE"], [56, 64, "PROGRAM_TYPE"]]}
+{"text": "Real-Time Risk Monitor detected phishing clicks and shadow IT triggering adaptive training", "entities": [[0, 22, "TOOL"], [39, 47, "MONITOR_TYPE"], [73, 81, "APPLICATION_TYPE"]]}
+{"text": "Resiliency score improved to 82% with adaptive training interventions", "entities": [[0, 16, "RESILIENCE_TYPE"], [11, 18, "SCORE_TYPE"], [26, 31, "METRIC_TYPE"], [38, 48, "ADAPTIVE_TYPE"]]}
+{"text": "Proofpoint security awareness achieved 94% training completion with 6% phishing click rate", "entities": [[0, 10, "TOOL"], [37, 41, "METRIC_TYPE"], [39, 44, "METRIC_TYPE"]]}
+{"text": "Incident-driven training adapted 12 real incidents into 3 new training modules", "entities": [[9, 15, "TRAINING_TYPE"], [47, 55, "TRAINING_TYPE"], [51, 61, "MODULE_TYPE"]]}
+{"text": "Metrics Dashboard Tool displayed training KPIs with 94% completion rate", "entities": [[23, 32, "DASHBOARD_TYPE"], [56, 66, "METRIC_TYPE"]]}
+{"text": "Mail Gateway Integrator integrated phishing simulations with email gateway", "entities": [[0, 4, "TOOL"], [5, 12, "TOOL"], [61, 74, "GATEWAY_TYPE"]]}
+{"text": "HR integration synced 4200 training records with 12 policy non-compliant flags", "entities": [[22, 29, "COUNT"], [52, 62, "POLICY_TYPE"], [59, 78, "COMPLIANCE_STATUS"]]}
+{"text": "Security Awareness Content Specialist created 15 training modules in multiple formats", "entities": [[56, 65, "AWARENESS_TYPE"], [66, 77, "CONTENT_TYPE"]]}
+{"text": "Secure Coding Lab Tool integrated 4 developer labs into CI CD pipelines", "entities": [[51, 55, "COUNT"], [56, 63, "DEVELOPER_TYPE"]]}
+{"text": "Resiliency score improved to 82% with adaptive training interventions", "entities": [[0, 16, "RESILIENCE_TYPE"], [11, 18, "SCORE_TYPE"], [26, 31, "METRIC_TYPE"], [38, 48, "ADAPTIVE_TYPE"]]}
+{"text": "Adaptive micro-training delivered just-in-time nudges triggered by risky behavior", "entities": [[0, 8, "ADAPTIVE_TYPE"], [32, 46, "NUDGE_TYPE"], [42, 55, "AUTH_TYPE"], [67, 72, "TRIGGER_TYPE"]]}
+{"text": "Multilingual support provided training content in 12 languages", "entities": [[13, 29, "SUPPORT_TYPE"]]}
+{"text": "Time-to-report phishing improved to 9 minutes with enhanced user awareness", "entities": [[31, 37, "TIME_UNIT"], [51, 59, "USER_TYPE"], [58, 67, "AWARENESS_TYPE"]]}
+{"text": "Advanced metrics tracked time-to-report of 9 minutes with 82% resiliency score", "entities": [[0, 8, "METRIC_TYPE"], [25, 32, "METRIC_TYPE"], [33, 44, "TIME_UNIT"], [69, 78, "SCORE_TYPE"]]}
+{"text": "Phishing click rate reduced to 6% with 62% report rate improving user resilience", "entities": [[9, 14, "CLICK_TYPE"]]}
+{"text": "Risk Communication Tool delivered regulatory briefings to C-suite", "entities": [[0, 4, "RISK_TYPE"], [30, 44, "REGULATION_TYPE"], [58, 65, "EXECUTIVE_TYPE"]]}
+{"text": "Micro-learning content delivered just-in-time training for 220 users", "entities": [[29, 40, "TRAINING_TYPE"], [38, 54, "AUTH_TYPE"], [59, 62, "COUNT"], [63, 68, "USER_TYPE"]]}
+{"text": "Training Content Authoring Tool created 15 modules in video quiz lab and micro-learning formats", "entities": [[32, 50, "TRAINING_TYPE"], [43, 53, "CONTENT_TYPE"], [54, 64, "AUTHORING_TYPE"], [65, 68, "TOOL"], [73, 78, "COUNT"]]}
+{"text": "Translation Tool supported 12 languages with accessibility compliant content", "entities": [[30, 39, "TOOL"], [45, 58, "LANGUAGE_TYPE"]]}
+{"text": "Executive awareness workshops trained 15 executives with 2 tabletops and 92% average score", "entities": [[20, 29, "AWARENESS_TYPE"], [30, 37, "WORKSHOP_TYPE"], [85, 90, "METRIC_TYPE"]]}
+{"text": "Data Analytics Tool analyzed phishing click rates and reporting trends", "entities": [[5, 14, "ANALYTICS_TYPE"], [35, 43, "CLICK_TYPE"]]}
+{"text": "Accessibility Checker validated screen reader and neurodiverse-friendly content", "entities": [[29, 45, "ACCESSIBILITY_TYPE"], [59, 71, "VALIDATION_TYPE"]]}
+{"text": "Security Education Specialist managed training programs with 87% average score", "entities": []}
+{"text": "Gamification engagement awarded 420 badges across 12 departments", "entities": [[36, 42, "COUNT"]]}
+{"text": "Security awareness training completion reached 94% with 4200 participants", "entities": [[45, 49, "METRIC_TYPE"], [56, 60, "COUNT"]]}
+{"text": "Executive awareness workshops trained 15 executives with 2 tabletops and 92% average score", "entities": [[20, 29, "AWARENESS_TYPE"], [30, 37, "WORKSHOP_TYPE"], [85, 90, "METRIC_TYPE"]]}
+{"text": "Repeat offender identification flagged 18 users requiring additional training", "entities": [[0, 6, "OFFENDER_TYPE"], [7, 15, "OFFENDER_TYPE"], [39, 47, "USER_TYPE"]]}
+{"text": "Sophos security awareness platform managed role-based training programs", "entities": [[0, 6, "TOOL"], [43, 53, "TRAINING_TYPE"], [61, 71, "PROGRAM_TYPE"]]}
+{"text": "Adaptive learning delivered 220 just-in-time nudges with 87% success rate", "entities": [[0, 8, "LEARNING_TYPE"], [28, 31, "COUNT"], [32, 44, "NUDGE_TYPE"], [61, 68, "METRIC_TYPE"]]}
+{"text": "Security Awareness Engineer configured KnowBe4 platform with 4200 participants", "entities": [[37, 46, "SECURITY_TYPE"]]}
+{"text": "Awareness audit scored 95% with 96% training completion and 100% phishing coverage", "entities": [[23, 25, "METRIC_TYPE"], [32, 37, "METRIC_TYPE"], [42, 55, "TRAINING_TYPE"], [72, 82, "ATTACK_TYPE"]]}
+{"text": "Micro-learning content delivered just-in-time training for 220 users", "entities": [[29, 40, "TRAINING_TYPE"], [38, 54, "AUTH_TYPE"], [59, 62, "COUNT"], [63, 68, "USER_TYPE"]]}
+{"text": "Security Awareness Compliance Analyst validated PCI DSS training requirements", "entities": [[45, 55, "SECURITY_TYPE"], [63, 77, "COMPLIANCE_TYPE"]]}
+{"text": "Principal Security Awareness Architect designed comprehensive awareness architecture", "entities": [[48, 61, "SECURITY_TYPE"], [58, 71, "AWARENESS_TYPE"], [62, 78, "ARCHITECT_TYPE"]]}
+{"text": "Proofpoint security awareness achieved 94% training completion with 6% phishing click rate", "entities": [[0, 10, "TOOL"], [37, 41, "METRIC_TYPE"], [39, 44, "METRIC_TYPE"]]}
+{"text": "Phishing click rate reduced to 6% with 62% reporting rate", "entities": [[9, 14, "CLICK_TYPE"], [28, 32, "METRIC_TYPE"], [39, 44, "METRIC_TYPE"]]}
+{"text": "Localization QA Tool tested training content in 12 languages", "entities": [[45, 50, "CONTENT_TYPE"]]}
+{"text": "Role-based training delivered differentiated content for executives developers and staff", "entities": [[0, 10, "TRAINING_TYPE"], [5, 13, "TRAINING_TYPE"], [20, 31, "TRAINING_TYPE"], [68, 78, "DEVELOPER_TYPE"], [83, 88, "STAFF_TYPE"]]}
+{"text": "Phishing Simulation Tool sent 6000 emails achieving 6% click rate and 62% report rate", "entities": [[30, 41, "ATTACK_TYPE"], [70, 80, "EMAIL_TYPE"]]}
+{"text": "HR LMS Integration Tool synced 4200 training records with HR systems", "entities": [[3, 6, "TOOL"], [24, 37, "TRAINING_TYPE"]]}
+{"text": "Principal Security Awareness Architect designed comprehensive awareness architecture", "entities": [[48, 61, "SECURITY_TYPE"], [58, 71, "AWARENESS_TYPE"], [62, 78, "ARCHITECT_TYPE"]]}
+{"text": "Accessibility Checker validated training content for screen readers", "entities": [[53, 67, "ACCESSIBILITY_TYPE"]]}
+{"text": "Security Awareness Analytics Specialist analyzed training effectiveness trends", "entities": [[56, 64, "AWARENESS_TYPE"], [65, 78, "ANALYTICS_TYPE"]]}
+{"text": "Security culture survey collected feedback from 3100 respondents", "entities": [[9, 16, "CULTURE_TYPE"], [17, 23, "SURVEY_TYPE"], [32, 42, "FEEDBACK_TYPE"], [48, 52, "COUNT"]]}
+{"text": "Security Culture Specialist managed behavioral change programs with 81% positive feedback", "entities": [[36, 46, "SECURITY_TYPE"], [44, 53, "CULTURE_TYPE"], [47, 62, "SPECIALIST_TYPE"], [72, 82, "BEHAVIOR_TYPE"], [81, 89, "CHANGE_TYPE"]]}
+{"text": "Data Analytics Tool analyzed phishing click rates and reporting trends", "entities": [[5, 14, "ANALYTICS_TYPE"], [35, 43, "CLICK_TYPE"]]}
+{"text": "Secure coding remediation tracked 450 findings fixed with 82% score", "entities": [[0, 6, "CODING_TYPE"], [26, 37, "FINDING_TYPE"], [47, 52, "METRIC_TYPE"], [58, 61, "SCORE_TYPE"]]}
+{"text": "Security culture perception measured 81% positive feedback from employees", "entities": [[9, 16, "CULTURE_TYPE"], [37, 39, "METRIC_TYPE"], [41, 52, "FEEDBACK_TYPE"]]}
+{"text": "Adaptive Learning Tool delivered 220 just-in-time nudges triggered by risky behavior", "entities": [[23, 36, "LEARNING_TYPE"], [37, 44, "ADAPTIVE_TYPE"], [45, 49, "TOOL"], [63, 75, "NUDGE_TYPE"]]}
+{"text": "Vishing smishing simulation tested 350 calls and 700 SMS", "entities": [[35, 38, "COUNT"], [49, 52, "COUNT"]]}
+{"text": "Security awareness false positive rate reduced to 1.4% improving simulation accuracy", "entities": [[16, 24, "AWARENESS_TYPE"], [39, 46, "METRIC_TYPE"]]}
+{"text": "Security culture score improved to 81% with positive perception trending upward", "entities": [[17, 22, "CULTURE_TYPE"], [23, 31, "METRIC_TYPE"], [32, 37, "METRIC_TYPE"], [50, 63, "PERCEPTION_TYPE"]]}
+{"text": "SAST DAST Integration Tool integrated secure coding labs into CI CD pipelines", "entities": [[0, 4, "TOOL"], [5, 9, "TOOL"], [38, 44, "LAB_TYPE"], [52, 56, "PIPELINE_TYPE"]]}
+{"text": "Behavioral risk analysis identified high-risk groups requiring targeted training", "entities": [[0, 10, "BEHAVIOR_TYPE"], [11, 15, "RISK_TYPE"], [16, 24, "ANALYSIS_TYPE"], [32, 40, "RISK_TYPE"], [41, 45, "GROUP_TYPE"]]}
+{"text": "Security awareness audit score improved to 95% with 96% training completion", "entities": [[25, 30, "AUDIT_TYPE"], [31, 39, "METRIC_TYPE"], [38, 42, "METRIC_TYPE"], [43, 45, "METRIC_TYPE"], [52, 57, "METRIC_TYPE"]]}
+{"text": "SAST DAST Integration Tool integrated secure coding labs into CI CD pipelines", "entities": [[0, 4, "TOOL"], [5, 9, "TOOL"], [38, 44, "LAB_TYPE"], [52, 56, "PIPELINE_TYPE"]]}
+{"text": "Executive awareness workshops trained 15 executives with 92% average score", "entities": [[0, 9, "EXECUTIVE_TYPE"], [20, 29, "WORKSHOP_TYPE"], [57, 60, "METRIC_TYPE"], [61, 68, "METRIC_TYPE"], [61, 74, "AVERAGE_TYPE"]]}
+{"text": "Culture reinforcement deployed 45 security champions with Slack nudges and posters", "entities": [[16, 30, "REINFORCEMENT_TYPE"], [43, 52, "SECURITY_TYPE"], [64, 70, "TOOL"]]}
+{"text": "Metrics Dashboard Tool displayed training KPIs with 94% completion rate", "entities": [[23, 32, "DASHBOARD_TYPE"], [56, 66, "METRIC_TYPE"]]}
+{"text": "Phishing click rate reduced to 6% with 62% report rate improving user resilience", "entities": [[9, 14, "CLICK_TYPE"]]}
+{"text": "Mail Gateway Integrator integrated phishing simulations with email gateway", "entities": [[0, 4, "TOOL"], [5, 12, "TOOL"], [61, 74, "GATEWAY_TYPE"]]}
+{"text": "Maturity Model Tool assessed security culture maturity at level 4", "entities": [[26, 31, "MODEL_TYPE"], [44, 54, "SECURITY_TYPE"], [53, 63, "CULTURE_TYPE"]]}
+{"text": "Video Creator produced 12 security awareness videos with 95% engagement", "entities": [[0, 13, "TOOL"], [14, 22, "CREATOR_TYPE"], [42, 51, "AWARENESS_TYPE"]]}
+{"text": "Gamification Platform deployed 3 gamified tracks with 420 badges awarded", "entities": [[29, 41, "GAMIFICATION_TYPE"]]}
+{"text": "Training evidence pack prepared for Q3 2025 audit with complete documentation", "entities": [[9, 17, "EVIDENCE_TYPE"], [18, 22, "PACK_TYPE"], [36, 43, "TIME"]]}
+{"text": "Incident-driven training adapted 12 real incidents into 3 new training modules", "entities": [[9, 15, "TRAINING_TYPE"], [47, 55, "TRAINING_TYPE"], [51, 61, "MODULE_TYPE"]]}
+{"text": "Training evidence pack prepared for Q3 2025 audit with complete documentation", "entities": [[9, 17, "EVIDENCE_TYPE"], [18, 22, "PACK_TYPE"], [36, 43, "TIME"]]}
+{"text": "Secure coding remediation tracked 450 findings fixed with 82% score", "entities": [[0, 6, "CODING_TYPE"], [26, 37, "FINDING_TYPE"], [47, 52, "METRIC_TYPE"], [58, 61, "SCORE_TYPE"]]}
+{"text": "Executive awareness workshops trained 15 executives with 2 tabletops and 92% average score", "entities": [[20, 29, "AWARENESS_TYPE"], [30, 37, "WORKSHOP_TYPE"], [85, 90, "METRIC_TYPE"]]}
+{"text": "Culture reinforcement deployed 45 security champions with 78% impact score", "entities": [[0, 7, "CULTURE_TYPE"], [43, 52, "CHAMPION_TYPE"], [58, 61, "METRIC_TYPE"], [62, 68, "METRIC_TYPE"], [62, 74, "IMPACT_TYPE"]]}
+{"text": "Security awareness training completion reached 94% with 4200 participants", "entities": [[45, 49, "METRIC_TYPE"], [56, 60, "COUNT"]]}
+{"text": "Time-to-report phishing improved to 9 minutes with enhanced user awareness", "entities": [[31, 37, "TIME_UNIT"], [51, 59, "USER_TYPE"], [58, 67, "AWARENESS_TYPE"]]}
+{"text": "Behavioral Risk Analysis identified interns and sales as high-risk groups requiring monthly phishing", "entities": [[0, 24, "ANALYSIS_TYPE"], [25, 37, "RISK_TYPE"], [36, 43, "ANALYSIS_TYPE"], [48, 61, "GROUP_TYPE"], [62, 73, "GROUP_TYPE"], [84, 91, "GROUP_TYPE"]]}
+{"text": "Gamification Platform deployed 3 gamified tracks with 420 badges awarded", "entities": [[29, 41, "GAMIFICATION_TYPE"]]}
+{"text": "Secure coding labs integrated 4 developer labs into CI CD", "entities": [[0, 6, "CODING_TYPE"], [42, 46, "PIPELINE_TYPE"], [47, 51, "PIPELINE_TYPE"]]}
+{"text": "Executive dashboard displayed awareness KPIs with 94% completion rate", "entities": [[0, 9, "EXECUTIVE_TYPE"], [10, 19, "DASHBOARD_TYPE"], [50, 55, "RATE_TYPE"]]}
+{"text": "Real-Time Risk Monitor detected phishing clicks and shadow IT triggering adaptive training", "entities": [[0, 22, "TOOL"], [39, 47, "MONITOR_TYPE"], [73, 81, "APPLICATION_TYPE"]]}
+{"text": "Security Awareness Content Specialist created 15 training modules in multiple formats", "entities": [[56, 65, "AWARENESS_TYPE"], [66, 77, "CONTENT_TYPE"]]}
+{"text": "Repeat offender identification flagged 18 users requiring additional training", "entities": [[0, 6, "OFFENDER_TYPE"], [7, 15, "OFFENDER_TYPE"], [39, 47, "USER_TYPE"]]}
+{"text": "Resiliency score improved to 82% with adaptive training interventions", "entities": [[0, 16, "RESILIENCE_TYPE"], [11, 18, "SCORE_TYPE"], [26, 31, "METRIC_TYPE"], [38, 48, "ADAPTIVE_TYPE"]]}
+{"text": "Executive awareness workshops trained 15 executives with 92% average score", "entities": [[0, 9, "EXECUTIVE_TYPE"], [20, 29, "WORKSHOP_TYPE"], [57, 60, "METRIC_TYPE"], [61, 68, "METRIC_TYPE"], [61, 74, "AVERAGE_TYPE"]]}
+{"text": "Micro-learning content delivered just-in-time training for 220 users", "entities": [[29, 40, "TRAINING_TYPE"], [38, 54, "AUTH_TYPE"], [59, 62, "COUNT"], [63, 68, "USER_TYPE"]]}
+{"text": "Principal Security Awareness Architect designed comprehensive awareness architecture", "entities": [[48, 61, "SECURITY_TYPE"], [58, 71, "AWARENESS_TYPE"], [62, 78, "ARCHITECT_TYPE"]]}
+{"text": "HR performance integration linked training completion to performance reviews", "entities": []}
+{"text": "HR LMS Integration Tool synced 4200 training records with HR systems", "entities": [[3, 6, "TOOL"], [24, 37, "TRAINING_TYPE"]]}
+{"text": "Role-based training delivered to 4200 participants achieving 94% completion rate", "entities": [[0, 12, "TRAINING_TYPE"], [33, 50, "PARTICIPANT_TYPE"]]}
+{"text": "Security Culture Specialist managed behavioral change programs with 81% positive feedback", "entities": [[36, 46, "SECURITY_TYPE"], [44, 53, "CULTURE_TYPE"], [47, 62, "SPECIALIST_TYPE"], [72, 82, "BEHAVIOR_TYPE"], [81, 89, "CHANGE_TYPE"]]}
+{"text": "Behavioral Risk Analysis identified interns and sales as high-risk groups requiring monthly phishing", "entities": [[0, 24, "ANALYSIS_TYPE"], [25, 37, "RISK_TYPE"], [36, 43, "ANALYSIS_TYPE"], [48, 61, "GROUP_TYPE"], [62, 73, "GROUP_TYPE"], [84, 91, "GROUP_TYPE"]]}
+{"text": "Time-to-report phishing improved to 9 minutes with enhanced user awareness", "entities": [[31, 37, "TIME_UNIT"], [51, 59, "USER_TYPE"], [58, 67, "AWARENESS_TYPE"]]}
+{"text": "Regulatory Briefing Tool prepared compliance briefings for board members", "entities": [[0, 12, "TOOL"], [65, 72, "BOARD_TYPE"]]}
+{"text": "Translation Tool supported 12 languages with accessibility compliant content", "entities": [[30, 39, "TOOL"], [45, 58, "LANGUAGE_TYPE"]]}
+{"text": "Security Awareness Content Specialist created 15 training modules in multiple formats", "entities": [[56, 65, "AWARENESS_TYPE"], [66, 77, "CONTENT_TYPE"]]}
+{"text": "Metrics Dashboard Tool displayed training KPIs with 94% completion rate", "entities": [[23, 32, "DASHBOARD_TYPE"], [56, 66, "METRIC_TYPE"]]}
+{"text": "Video Creator produced 12 security awareness videos with 95% engagement", "entities": [[0, 13, "TOOL"], [14, 22, "CREATOR_TYPE"], [42, 51, "AWARENESS_TYPE"]]}
+{"text": "Risk Communication Tool delivered regulatory briefings to C-suite", "entities": [[0, 4, "RISK_TYPE"], [30, 44, "REGULATION_TYPE"], [58, 65, "EXECUTIVE_TYPE"]]}
+{"text": "Training Content Authoring Tool created 15 modules in video quiz lab and micro-learning formats", "entities": [[32, 50, "TRAINING_TYPE"], [43, 53, "CONTENT_TYPE"], [54, 64, "AUTHORING_TYPE"], [65, 68, "TOOL"], [73, 78, "COUNT"]]}
+{"text": "Tabletop Exercise Planner conducted breach scenarios measuring crisis leadership readiness", "entities": [[0, 25, "TOOL"], [43, 52, "PLANNING_TYPE"], [63, 80, "SCENARIO_TYPE"]]}
+{"text": "Secure coding labs integrated 4 developer labs into CI CD", "entities": [[0, 6, "CODING_TYPE"], [42, 46, "PIPELINE_TYPE"], [47, 51, "PIPELINE_TYPE"]]}
+{"text": "Behavioral risk analysis identified high-risk groups requiring targeted training", "entities": [[0, 10, "BEHAVIOR_TYPE"], [11, 15, "RISK_TYPE"], [16, 24, "ANALYSIS_TYPE"], [32, 40, "RISK_TYPE"], [41, 45, "GROUP_TYPE"]]}
+{"text": "Can you help me with this?", "entities": []}
+{"text": "I need to check something.", "entities": []}
+{"text": "What is the status?", "entities": []}
+{"text": "How do I do this?", "entities": []}
+{"text": "Tell me more about it.", "entities": []}
+{"text": "Is this safe to use?", "entities": []}
+{"text": "Let me know if you need anything.", "entities": []}
+{"text": "Thanks for your help.", "entities": []}
+{"text": "I will get back to you.", "entities": []}
+{"text": "Please review this document.", "entities": []}
+{"text": "What should I do next?", "entities": []}
+{"text": "How does this work?", "entities": []}
+{"text": "Why is this happening?", "entities": []}
+{"text": "When will this be ready?", "entities": []}
+{"text": "Where can I find this?", "entities": []}
+{"text": "Who should I contact?", "entities": []}
+{"text": "Hey, what's up?", "entities": []}
+{"text": "That's interesting.", "entities": []}
+{"text": "I see what you mean.", "entities": []}
+{"text": "That makes sense.", "entities": []}
+{"text": "Got it, thanks.", "entities": []}
+{"text": "Follow the steps carefully.", "entities": []}
+{"text": "Make sure to save your work.", "entities": []}
+{"text": "Check the settings first.", "entities": []}
+{"text": "Review the documentation.", "entities": []}
+{"text": "Read the instructions.", "entities": []}
+{"text": "This is important.", "entities": []}
+{"text": "That looks good.", "entities": []}
+{"text": "Everything seems fine.", "entities": []}
+{"text": "Nothing to report.", "entities": []}
+{"text": "All systems operational.", "entities": []}
+{"text": "The system is secure.", "entities": []}
+{"text": "All checks passed.", "entities": []}
+{"text": "No issues detected.", "entities": []}
+{"text": "Everything is working correctly.", "entities": []}
+{"text": "The configuration looks good.", "entities": []}
+{"text": "No vulnerabilities found.", "entities": []}
+{"text": "Security measures are in place.", "entities": []}
+{"text": "The audit was successful.", "entities": []}
+{"text": "The information is verified.", "entities": []}

@@ -1,0 +1,1104 @@
+{"text": "Intelligence report: Threat Intelligence case Threat_0082 analyzed. Threat Actors investigation found 410 indicators. Threat Campaigns assessment completed.", "entities": [[75, 81, "COUNT"]]}
+{"text": "Analysis: Threat Intelligence investigation for Threat_0039. Threat Indicators shows 9 patterns. Threat Actors analysis identified 78 connections. Threat Campaigns data processed.", "entities": [[0, 8, "ANALYSIS_TYPE"], [68, 78, "PATTERN_TYPE"], [97, 110, "COUNT"], [104, 119, "CONNECTION_TYPE"], [120, 133, "DATA_TYPE"]]}
+{"text": "Intelligence report: Threat Intelligence case Threat_0007 analyzed. Threat Actors investigation found 35 indicators. Threat Campaigns assessment completed.", "entities": [[75, 81, "COUNT"]]}
+{"text": "Record: Threat_0033, threat indicators: data_33, threat actors: info_33, threat campaigns: record_33, Date: 2024-10-15, Verified: False", "entities": [[0, 6, "RECORD_TYPE"], [28, 38, "DATA"], [56, 71, "KEYWORD"], [64, 79, "RECORD"], [80, 90, "DATE"], [91, 101, "VERIFICATION_TYPE"], [102, 112, "STATUS"]]}
+{"text": "Analysis: Threat Intelligence investigation for Threat_0079. Threat Indicators shows 9 patterns. Threat Actors analysis identified 158 connections. Threat Campaigns data processed.", "entities": [[0, 8, "ANALYSIS_TYPE"], [68, 78, "PATTERN_TYPE"], [97, 110, "COUNT"], [104, 119, "CONNECTION_TYPE"], [120, 134, "DATA_TYPE"]]}
+{"text": "Analysis: Threat investigation Threat_0000 found 0 threat indicators records. Threat Actors analysis shows 0 connections. Threat Campaigns data updated.", "entities": [[0, 8, "ANALYSIS_TYPE"], [69, 84, "COUNT"]]}
+{"text": "Analysis: Threat Intelligence investigation for Threat_0004. Threat Indicators shows 4 patterns. Threat Actors analysis identified 8 connections. Threat Campaigns data processed.", "entities": [[0, 8, "ANALYSIS_TYPE"], [68, 78, "PATTERN_TYPE"], [97, 110, "COUNT"], [104, 119, "CONNECTION_TYPE"], [120, 144, "DATA_TYPE"]]}
+{"text": "Analysis: Threat investigation Threat_0015 found 30 threat indicators records. Threat Actors analysis shows 0 connections. Threat Campaigns data updated.", "entities": [[0, 8, "ANALYSIS_TYPE"], [70, 78, "COUNT"]]}
+{"text": "Analysis: Threat Intelligence investigation for Threat_0034. Threat Indicators shows 4 patterns. Threat Actors analysis identified 68 connections. Threat Campaigns data processed.", "entities": [[0, 8, "ANALYSIS_TYPE"], [68, 78, "PATTERN_TYPE"], [97, 110, "COUNT"], [104, 119, "CONNECTION_TYPE"], [120, 133, "DATA_TYPE"]]}
+{"text": "Intelligence report: Threat Intelligence case Threat_0042 analyzed. Threat Actors investigation found 210 indicators. Threat Campaigns assessment completed.", "entities": [[75, 81, "COUNT"]]}
+{"text": "Intelligence report: Threat Intelligence case Threat_0022 analyzed. Threat Actors investigation found 110 indicators. Threat Campaigns assessment completed.", "entities": [[75, 81, "COUNT"]]}
+{"text": "Record: Threat_0098, threat indicators: data_98, threat actors: info_98, threat campaigns: record_98, Date: 2024-03-15, Verified: True", "entities": [[0, 6, "RECORD_TYPE"], [28, 38, "DATA"], [56, 71, "KEYWORD"], [64, 79, "RECORD"], [80, 90, "DATE"], [91, 101, "VERIFICATION_TYPE"], [102, 112, "STATUS"]]}
+{"text": "Analysis: Threat Intelligence investigation for Threat_0084. Threat Indicators shows 4 patterns. Threat Actors analysis identified 168 connections. Threat Campaigns data processed.", "entities": [[0, 8, "ANALYSIS_TYPE"], [68, 78, "PATTERN_TYPE"], [97, 110, "COUNT"], [104, 119, "CONNECTION_TYPE"], [120, 134, "DATA_TYPE"]]}
+{"text": "Report: Threat Intelligence analysis completed for case Threat_0001. Threat Indicators investigation revealed 5 key findings. Threat Actors data shows 3 connections.", "entities": [[28, 46, "CASE"], [76, 100, "FINDING_TYPE"]]}
+{"text": "Intelligence report: Threat Intelligence case Threat_0077 analyzed. Threat Actors investigation found 385 indicators. Threat Campaigns assessment completed.", "entities": [[75, 81, "COUNT"]]}
+{"text": "Analysis: Threat investigation Threat_0030 found 60 threat indicators records. Threat Actors analysis shows 0 connections. Threat Campaigns data updated.", "entities": [[0, 8, "ANALYSIS_TYPE"], [70, 78, "COUNT"]]}
+{"text": "Record: Threat_0098, threat indicators: data_98, threat actors: info_98, threat campaigns: record_98, Date: 2024-03-15, Verified: True", "entities": [[0, 6, "RECORD_TYPE"], [28, 38, "DATA"], [56, 71, "KEYWORD"], [64, 79, "RECORD"], [80, 90, "DATE"], [91, 101, "VERIFICATION_TYPE"], [102, 112, "STATUS"]]}
+{"text": "Analysis: Threat investigation Threat_0080 found 160 threat indicators records. Threat Actors analysis shows 0 connections. Threat Campaigns data updated.", "entities": [[0, 8, "ANALYSIS_TYPE"], [71, 79, "COUNT"]]}
+{"text": "Analysis: Threat Intelligence investigation for Threat_0009. Threat Indicators shows 9 patterns. Threat Actors analysis identified 18 connections. Threat Campaigns data processed.", "entities": [[0, 8, "ANALYSIS_TYPE"], [68, 78, "PATTERN_TYPE"], [97, 110, "COUNT"], [104, 119, "CONNECTION_TYPE"], [120, 133, "DATA_TYPE"]]}
+{"text": "Analysis: Threat investigation Threat_0070 found 140 threat indicators records. Threat Actors analysis shows 0 connections. Threat Campaigns data updated.", "entities": [[0, 8, "ANALYSIS_TYPE"], [71, 79, "COUNT"]]}
+{"text": "Database entry: Threat_ID Threat_0046, Type: threat indicators, Value: value_46, Created: 2024-11-15, Status: Active, Records: 138", "entities": [[26, 37, "TYPE"], [52, 62, "VALUE"], [90, 101, "METRIC_TYPE"], [102, 108, "COUNT"]]}
+{"text": "Analysis: Threat investigation Threat_0030 found 60 threat indicators records. Threat Actors analysis shows 0 connections. Threat Campaigns data updated.", "entities": [[0, 8, "ANALYSIS_TYPE"], [70, 78, "COUNT"]]}
+{"text": "Record: Threat_0028, threat indicators: data_28, threat actors: info_28, threat campaigns: record_28, Date: 2024-05-15, Verified: True", "entities": [[0, 6, "RECORD_TYPE"], [28, 38, "DATA"], [56, 71, "KEYWORD"], [64, 79, "RECORD"], [80, 90, "DATE"], [91, 101, "VERIFICATION_TYPE"], [102, 112, "STATUS"]]}
+{"text": "Analysis: Threat investigation Threat_0090 found 180 threat indicators records. Threat Actors analysis shows 0 connections. Threat Campaigns data updated.", "entities": [[0, 8, "ANALYSIS_TYPE"], [71, 79, "COUNT"]]}
+{"text": "Intelligence report: Threat Intelligence case Threat_0057 analyzed. Threat Actors investigation found 285 indicators. Threat Campaigns assessment completed.", "entities": [[75, 81, "COUNT"]]}
+{"text": "Analysis: Threat Intelligence investigation for Threat_0054. Threat Indicators shows 4 patterns. Threat Actors analysis identified 108 connections. Threat Campaigns data processed.", "entities": [[0, 8, "ANALYSIS_TYPE"], [68, 78, "PATTERN_TYPE"], [97, 110, "COUNT"], [104, 119, "CONNECTION_TYPE"], [120, 134, "DATA_TYPE"]]}
+{"text": "Intelligence report: Threat Intelligence case Threat_0092 analyzed. Threat Actors investigation found 460 indicators. Threat Campaigns assessment completed.", "entities": [[75, 81, "COUNT"]]}
+{"text": "Analysis: Threat investigation Threat_0090 found 180 threat indicators records. Threat Actors analysis shows 0 connections. Threat Campaigns data updated.", "entities": [[0, 8, "ANALYSIS_TYPE"], [71, 79, "COUNT"]]}
+{"text": "Record: Threat_0043, threat indicators: data_43, threat actors: info_43, threat campaigns: record_43, Date: 2024-08-15, Verified: False", "entities": [[0, 6, "RECORD_TYPE"], [28, 38, "DATA"], [56, 71, "KEYWORD"], [64, 79, "RECORD"], [80, 90, "DATE"], [91, 101, "VERIFICATION_TYPE"], [102, 112, "STATUS"]]}
+{"text": "Record: Threat_0053, threat indicators: data_53, threat actors: info_53, threat campaigns: record_53, Date: 2024-06-15, Verified: False", "entities": [[0, 6, "RECORD_TYPE"], [28, 38, "DATA"], [56, 71, "KEYWORD"], [64, 79, "RECORD"], [80, 90, "DATE"], [91, 101, "VERIFICATION_TYPE"], [102, 112, "STATUS"]]}
+{"text": "Analysis: Threat Intelligence investigation for Threat_0019. Threat Indicators shows 9 patterns. Threat Actors analysis identified 38 connections. Threat Campaigns data processed.", "entities": [[0, 8, "ANALYSIS_TYPE"], [68, 78, "PATTERN_TYPE"], [97, 110, "COUNT"], [104, 119, "CONNECTION_TYPE"], [120, 133, "DATA_TYPE"]]}
+{"text": "Analysis: Threat investigation Threat_0060 found 120 threat indicators records. Threat Actors analysis shows 0 connections. Threat Campaigns data updated.", "entities": [[0, 8, "ANALYSIS_TYPE"], [71, 79, "COUNT"]]}
+{"text": "Analysis: Threat Intelligence investigation for Threat_0044. Threat Indicators shows 4 patterns. Threat Actors analysis identified 88 connections. Threat Campaigns data processed.", "entities": [[0, 8, "ANALYSIS_TYPE"], [68, 78, "PATTERN_TYPE"], [97, 110, "COUNT"], [104, 119, "CONNECTION_TYPE"], [120, 133, "DATA_TYPE"]]}
+{"text": "Analysis: Threat Intelligence investigation for Threat_0064. Threat Indicators shows 4 patterns. Threat Actors analysis identified 128 connections. Threat Campaigns data processed.", "entities": [[0, 8, "ANALYSIS_TYPE"], [68, 78, "PATTERN_TYPE"], [97, 110, "COUNT"], [104, 119, "CONNECTION_TYPE"], [120, 134, "DATA_TYPE"]]}
+{"text": "Intelligence report: Threat Intelligence case Threat_0047 analyzed. Threat Actors investigation found 235 indicators. Threat Campaigns assessment completed.", "entities": [[75, 81, "COUNT"]]}
+{"text": "Intelligence report: Threat Intelligence case Threat_0012 analyzed. Threat Actors investigation found 60 indicators. Threat Campaigns assessment completed.", "entities": [[75, 81, "COUNT"]]}
+{"text": "Analysis: Threat investigation Threat_0035 found 70 threat indicators records. Threat Actors analysis shows 0 connections. Threat Campaigns data updated.", "entities": [[0, 8, "ANALYSIS_TYPE"], [70, 78, "COUNT"]]}
+{"text": "Record: Threat_0098, threat indicators: data_98, threat actors: info_98, threat campaigns: record_98, Date: 2024-03-15, Verified: True", "entities": [[0, 6, "RECORD_TYPE"], [28, 38, "DATA"], [56, 71, "KEYWORD"], [64, 79, "RECORD"], [80, 90, "DATE"], [91, 101, "VERIFICATION_TYPE"], [102, 112, "STATUS"]]}
+{"text": "Database entry: Threat_ID Threat_0056, Type: threat indicators, Value: value_56, Created: 2024-09-15, Status: Active, Records: 168", "entities": [[26, 37, "TYPE"], [52, 62, "VALUE"], [90, 101, "METRIC_TYPE"], [102, 108, "COUNT"]]}
+{"text": "Analysis: Threat investigation Threat_0065 found 130 threat indicators records. Threat Actors analysis shows 0 connections. Threat Campaigns data updated.", "entities": [[0, 8, "ANALYSIS_TYPE"], [71, 79, "COUNT"]]}
+{"text": "Record: Threat_0003, threat indicators: data_3, threat actors: info_3, threat campaigns: record_3, Date: 2024-04-15, Verified: False", "entities": [[0, 6, "RECORD_TYPE"], [28, 38, "DATA"], [55, 69, "KEYWORD"], [71, 87, "DATE"], [78, 97, "DATE"], [89, 103, "VERIFICATION_TYPE"], [99, 109, "STATUS"]]}
+{"text": "Analysis: Threat investigation Threat_0095 found 190 threat indicators records. Threat Actors analysis shows 0 connections. Threat Campaigns data updated.", "entities": [[0, 8, "ANALYSIS_TYPE"], [71, 79, "COUNT"]]}
+{"text": "Record: Threat_0018, threat indicators: data_18, threat actors: info_18, threat campaigns: record_18, Date: 2024-07-15, Verified: True", "entities": [[0, 6, "RECORD_TYPE"], [28, 38, "DATA"], [56, 71, "KEYWORD"], [64, 79, "RECORD"], [80, 90, "DATE"], [91, 101, "VERIFICATION_TYPE"], [102, 112, "STATUS"]]}
+{"text": "Analysis: Threat Intelligence investigation for Threat_0059. Threat Indicators shows 9 patterns. Threat Actors analysis identified 118 connections. Threat Campaigns data processed.", "entities": [[0, 8, "ANALYSIS_TYPE"], [68, 78, "PATTERN_TYPE"], [97, 110, "COUNT"], [104, 119, "CONNECTION_TYPE"], [120, 134, "DATA_TYPE"]]}
+{"text": "Intelligence report: Threat Intelligence case Threat_0077 analyzed. Threat Actors investigation found 385 indicators. Threat Campaigns assessment completed.", "entities": [[75, 81, "COUNT"]]}
+{"text": "Intelligence report: Threat Intelligence case Threat_0012 analyzed. Threat Actors investigation found 60 indicators. Threat Campaigns assessment completed.", "entities": [[75, 81, "COUNT"]]}
+{"text": "Intelligence report: Threat Intelligence case Threat_0067 analyzed. Threat Actors investigation found 335 indicators. Threat Campaigns assessment completed.", "entities": [[75, 81, "COUNT"]]}
+{"text": "Database entry: Threat_ID Threat_0051, Type: threat indicators, Value: value_51, Created: 2024-04-15, Status: Active, Records: 153", "entities": [[26, 37, "TYPE"], [52, 62, "VALUE"], [90, 101, "METRIC_TYPE"], [102, 108, "COUNT"]]}
+{"text": "Analysis: Threat investigation Threat_0035 found 70 threat indicators records. Threat Actors analysis shows 0 connections. Threat Campaigns data updated.", "entities": [[0, 8, "ANALYSIS_TYPE"], [70, 78, "COUNT"]]}
+{"text": "Analysis: Threat investigation Threat_0070 found 140 threat indicators records. Threat Actors analysis shows 0 connections. Threat Campaigns data updated.", "entities": [[0, 8, "ANALYSIS_TYPE"], [71, 79, "COUNT"]]}
+{"text": "Record: Threat_0063, threat indicators: data_63, threat actors: info_63, threat campaigns: record_63, Date: 2024-04-15, Verified: False", "entities": [[0, 6, "RECORD_TYPE"], [28, 38, "DATA"], [56, 71, "KEYWORD"], [64, 79, "RECORD"], [80, 90, "DATE"], [91, 101, "VERIFICATION_TYPE"], [102, 112, "STATUS"]]}
+{"text": "Record: Threat_0038, threat indicators: data_38, threat actors: info_38, threat campaigns: record_38, Date: 2024-03-15, Verified: True", "entities": [[0, 6, "RECORD_TYPE"], [28, 38, "DATA"], [56, 71, "KEYWORD"], [64, 79, "RECORD"], [80, 90, "DATE"], [91, 101, "VERIFICATION_TYPE"], [102, 112, "STATUS"]]}
+{"text": "Record: Threat_0028, threat indicators: data_28, threat actors: info_28, threat campaigns: record_28, Date: 2024-05-15, Verified: True", "entities": [[0, 6, "RECORD_TYPE"], [28, 38, "DATA"], [56, 71, "KEYWORD"], [64, 79, "RECORD"], [80, 90, "DATE"], [91, 101, "VERIFICATION_TYPE"], [102, 112, "STATUS"]]}
+{"text": "Record: Threat_0098, threat indicators: data_98, threat actors: info_98, threat campaigns: record_98, Date: 2024-03-15, Verified: True", "entities": [[0, 6, "RECORD_TYPE"], [28, 38, "DATA"], [56, 71, "KEYWORD"], [64, 79, "RECORD"], [80, 90, "DATE"], [91, 101, "VERIFICATION_TYPE"], [102, 112, "STATUS"]]}
+{"text": "Database entry: Threat_ID Threat_0036, Type: threat indicators, Value: value_36, Created: 2024-01-15, Status: Active, Records: 108", "entities": [[26, 37, "TYPE"], [52, 62, "VALUE"], [90, 101, "METRIC_TYPE"], [102, 108, "COUNT"]]}
+{"text": "Record: Threat_0073, threat indicators: data_73, threat actors: info_73, threat campaigns: record_73, Date: 2024-02-15, Verified: False", "entities": [[0, 6, "RECORD_TYPE"], [28, 38, "DATA"], [56, 71, "KEYWORD"], [64, 79, "RECORD"], [80, 90, "DATE"], [91, 101, "VERIFICATION_TYPE"], [102, 112, "STATUS"]]}
+{"text": "Analysis: Threat Intelligence investigation for Threat_0009. Threat Indicators shows 9 patterns. Threat Actors analysis identified 18 connections. Threat Campaigns data processed.", "entities": [[0, 8, "ANALYSIS_TYPE"], [68, 78, "PATTERN_TYPE"], [97, 110, "COUNT"], [104, 119, "CONNECTION_TYPE"], [120, 133, "DATA_TYPE"]]}
+{"text": "Database entry: Threat_ID Threat_0006, Type: threat indicators, Value: value_6, Created: 2024-07-15, Status: Active, Records: 18", "entities": [[26, 37, "TYPE"], [52, 62, "VALUE"], [80, 93, "STATUS"], [89, 100, "METRIC_TYPE"], [101, 107, "COUNT"]]}
+{"text": "Database entry: Threat_ID Threat_0021, Type: threat indicators, Value: value_21, Created: 2024-10-15, Status: Active, Records: 63", "entities": [[26, 37, "TYPE"], [52, 62, "VALUE"], [90, 101, "METRIC_TYPE"], [102, 108, "COUNT"]]}
+{"text": "Database entry: Threat_ID Threat_0046, Type: threat indicators, Value: value_46, Created: 2024-11-15, Status: Active, Records: 138", "entities": [[26, 37, "TYPE"], [52, 62, "VALUE"], [90, 101, "METRIC_TYPE"], [102, 108, "COUNT"]]}
+{"text": "Intelligence report: Threat Intelligence case Threat_0027 analyzed. Threat Actors investigation found 135 indicators. Threat Campaigns assessment completed.", "entities": [[75, 81, "COUNT"]]}
+{"text": "Database entry: Threat_ID Threat_0091, Type: threat indicators, Value: value_91, Created: 2024-08-15, Status: Active, Records: 273", "entities": [[26, 37, "TYPE"], [52, 62, "VALUE"], [90, 101, "METRIC_TYPE"], [102, 108, "COUNT"]]}
+{"text": "Record: Threat_0023, threat indicators: data_23, threat actors: info_23, threat campaigns: record_23, Date: 2024-12-15, Verified: False", "entities": [[0, 6, "RECORD_TYPE"], [28, 38, "DATA"], [56, 71, "KEYWORD"], [64, 79, "RECORD"], [80, 90, "DATE"], [91, 101, "VERIFICATION_TYPE"], [102, 112, "STATUS"]]}
+{"text": "Intelligence report: Threat Intelligence case Threat_0047 analyzed. Threat Actors investigation found 235 indicators. Threat Campaigns assessment completed.", "entities": [[75, 81, "COUNT"]]}
+{"text": "Intelligence report: Threat Intelligence case Threat_0087 analyzed. Threat Actors investigation found 435 indicators. Threat Campaigns assessment completed.", "entities": [[75, 81, "COUNT"]]}
+{"text": "Intelligence report: Threat Intelligence case Threat_0037 analyzed. Threat Actors investigation found 185 indicators. Threat Campaigns assessment completed.", "entities": [[75, 81, "COUNT"]]}
+{"text": "Analysis: Threat investigation Threat_0035 found 70 threat indicators records. Threat Actors analysis shows 0 connections. Threat Campaigns data updated.", "entities": [[0, 8, "ANALYSIS_TYPE"], [70, 78, "COUNT"]]}
+{"text": "Intelligence report: Threat Intelligence case Threat_0042 analyzed. Threat Actors investigation found 210 indicators. Threat Campaigns assessment completed.", "entities": [[75, 81, "COUNT"]]}
+{"text": "Record: Threat_0068, threat indicators: data_68, threat actors: info_68, threat campaigns: record_68, Date: 2024-09-15, Verified: True", "entities": [[0, 6, "RECORD_TYPE"], [28, 38, "DATA"], [56, 71, "KEYWORD"], [64, 79, "RECORD"], [80, 90, "DATE"], [91, 101, "VERIFICATION_TYPE"], [102, 112, "STATUS"]]}
+{"text": "Analysis: Threat investigation Threat_0025 found 50 threat indicators records. Threat Actors analysis shows 0 connections. Threat Campaigns data updated.", "entities": [[0, 8, "ANALYSIS_TYPE"], [70, 78, "COUNT"]]}
+{"text": "Analysis: Threat investigation Threat_0075 found 150 threat indicators records. Threat Actors analysis shows 0 connections. Threat Campaigns data updated.", "entities": [[0, 8, "ANALYSIS_TYPE"], [71, 79, "COUNT"]]}
+{"text": "Database entry: Threat_ID Threat_0031, Type: threat indicators, Value: value_31, Created: 2024-08-15, Status: Active, Records: 93", "entities": [[26, 37, "TYPE"], [52, 62, "VALUE"], [90, 101, "METRIC_TYPE"], [102, 108, "COUNT"]]}
+{"text": "Record: Threat_0023, threat indicators: data_23, threat actors: info_23, threat campaigns: record_23, Date: 2024-12-15, Verified: False", "entities": [[0, 6, "RECORD_TYPE"], [28, 38, "DATA"], [56, 71, "KEYWORD"], [64, 79, "RECORD"], [80, 90, "DATE"], [91, 101, "VERIFICATION_TYPE"], [102, 112, "STATUS"]]}
+{"text": "Record: Threat_0013, threat indicators: data_13, threat actors: info_13, threat campaigns: record_13, Date: 2024-02-15, Verified: False", "entities": [[0, 6, "RECORD_TYPE"], [28, 38, "DATA"], [56, 71, "KEYWORD"], [64, 79, "RECORD"], [80, 90, "DATE"], [91, 101, "VERIFICATION_TYPE"], [102, 112, "STATUS"]]}
+{"text": "Database entry: Threat_ID Threat_0041, Type: threat indicators, Value: value_41, Created: 2024-06-15, Status: Active, Records: 123", "entities": [[26, 37, "TYPE"], [52, 62, "VALUE"], [90, 101, "METRIC_TYPE"], [102, 108, "COUNT"]]}
+{"text": "Analysis: Threat investigation Threat_0095 found 190 threat indicators records. Threat Actors analysis shows 0 connections. Threat Campaigns data updated.", "entities": [[0, 8, "ANALYSIS_TYPE"], [71, 79, "COUNT"]]}
+{"text": "Analysis: Threat investigation Threat_0085 found 170 threat indicators records. Threat Actors analysis shows 0 connections. Threat Campaigns data updated.", "entities": [[0, 8, "ANALYSIS_TYPE"], [71, 79, "COUNT"]]}
+{"text": "Intelligence report: Threat Intelligence case Threat_0012 analyzed. Threat Actors investigation found 60 indicators. Threat Campaigns assessment completed.", "entities": [[75, 81, "COUNT"]]}
+{"text": "Analysis: Threat Intelligence investigation for Threat_0094. Threat Indicators shows 4 patterns. Threat Actors analysis identified 188 connections. Threat Campaigns data processed.", "entities": [[0, 8, "ANALYSIS_TYPE"], [68, 78, "PATTERN_TYPE"], [97, 110, "COUNT"], [104, 119, "CONNECTION_TYPE"], [120, 134, "DATA_TYPE"]]}
+{"text": "Analysis: Threat investigation Threat_0060 found 120 threat indicators records. Threat Actors analysis shows 0 connections. Threat Campaigns data updated.", "entities": [[0, 8, "ANALYSIS_TYPE"], [71, 79, "COUNT"]]}
+{"text": "Record: Threat_0068, threat indicators: data_68, threat actors: info_68, threat campaigns: record_68, Date: 2024-09-15, Verified: True", "entities": [[0, 6, "RECORD_TYPE"], [28, 38, "DATA"], [56, 71, "KEYWORD"], [64, 79, "RECORD"], [80, 90, "DATE"], [91, 101, "VERIFICATION_TYPE"], [102, 112, "STATUS"]]}
+{"text": "Intelligence report: Threat Intelligence case Threat_0072 analyzed. Threat Actors investigation found 360 indicators. Threat Campaigns assessment completed.", "entities": [[75, 81, "COUNT"]]}
+{"text": "Analysis: Threat Intelligence investigation for Threat_0009. Threat Indicators shows 9 patterns. Threat Actors analysis identified 18 connections. Threat Campaigns data processed.", "entities": [[0, 8, "ANALYSIS_TYPE"], [68, 78, "PATTERN_TYPE"], [97, 110, "COUNT"], [104, 119, "CONNECTION_TYPE"], [120, 133, "DATA_TYPE"]]}
+{"text": "Analysis: Threat Intelligence investigation for Threat_0029. Threat Indicators shows 9 patterns. Threat Actors analysis identified 58 connections. Threat Campaigns data processed.", "entities": [[0, 8, "ANALYSIS_TYPE"], [68, 78, "PATTERN_TYPE"], [97, 110, "COUNT"], [104, 119, "CONNECTION_TYPE"], [120, 133, "DATA_TYPE"]]}
+{"text": "Analysis: Threat investigation Threat_0045 found 90 threat indicators records. Threat Actors analysis shows 0 connections. Threat Campaigns data updated.", "entities": [[0, 8, "ANALYSIS_TYPE"], [70, 78, "COUNT"]]}
+{"text": "Database entry: Threat_ID Threat_0071, Type: threat indicators, Value: value_71, Created: 2024-12-15, Status: Active, Records: 213", "entities": [[26, 37, "TYPE"], [52, 62, "VALUE"], [90, 101, "METRIC_TYPE"], [102, 108, "COUNT"]]}
+{"text": "Analysis: Threat Intelligence investigation for Threat_0004. Threat Indicators shows 4 patterns. Threat Actors analysis identified 8 connections. Threat Campaigns data processed.", "entities": [[0, 8, "ANALYSIS_TYPE"], [68, 78, "PATTERN_TYPE"], [97, 110, "COUNT"], [104, 119, "CONNECTION_TYPE"], [120, 144, "DATA_TYPE"]]}
+{"text": "Intelligence report: Threat Intelligence case Threat_0042 analyzed. Threat Actors investigation found 210 indicators. Threat Campaigns assessment completed.", "entities": [[75, 81, "COUNT"]]}
+{"text": "Database entry: Threat_ID Threat_0066, Type: threat indicators, Value: value_66, Created: 2024-07-15, Status: Active, Records: 198", "entities": [[26, 37, "TYPE"], [52, 62, "VALUE"], [90, 101, "METRIC_TYPE"], [102, 108, "COUNT"]]}
+{"text": "Database entry: Threat_ID Threat_0026, Type: threat indicators, Value: value_26, Created: 2024-03-15, Status: Active, Records: 78", "entities": [[26, 37, "TYPE"], [52, 62, "VALUE"], [90, 101, "METRIC_TYPE"], [102, 108, "COUNT"]]}
+{"text": "Analysis: Threat Intelligence investigation for Threat_0074. Threat Indicators shows 4 patterns. Threat Actors analysis identified 148 connections. Threat Campaigns data processed.", "entities": [[0, 8, "ANALYSIS_TYPE"], [68, 78, "PATTERN_TYPE"], [97, 110, "COUNT"], [104, 119, "CONNECTION_TYPE"], [120, 134, "DATA_TYPE"]]}
+{"text": "Database entry: Threat_ID Threat_0041, Type: threat indicators, Value: value_41, Created: 2024-06-15, Status: Active, Records: 123", "entities": [[26, 37, "TYPE"], [52, 62, "VALUE"], [90, 101, "METRIC_TYPE"], [102, 108, "COUNT"]]}
+{"text": "Analysis: Threat Intelligence investigation for Threat_0044. Threat Indicators shows 4 patterns. Threat Actors analysis identified 88 connections. Threat Campaigns data processed.", "entities": [[0, 8, "ANALYSIS_TYPE"], [68, 78, "PATTERN_TYPE"], [97, 110, "COUNT"], [104, 119, "CONNECTION_TYPE"], [120, 133, "DATA_TYPE"]]}
+{"text": "Intelligence report: Threat Intelligence case Threat_0052 analyzed. Threat Actors investigation found 260 indicators. Threat Campaigns assessment completed.", "entities": [[75, 81, "COUNT"]]}
+{"text": "Record: Threat_0063, threat indicators: data_63, threat actors: info_63, threat campaigns: record_63, Date: 2024-04-15, Verified: False", "entities": [[0, 6, "RECORD_TYPE"], [28, 38, "DATA"], [56, 71, "KEYWORD"], [64, 79, "RECORD"], [80, 90, "DATE"], [91, 101, "VERIFICATION_TYPE"], [102, 112, "STATUS"]]}
+{"text": "Intelligence report: Threat Intelligence case Threat_0027 analyzed. Threat Actors investigation found 135 indicators. Threat Campaigns assessment completed.", "entities": [[75, 81, "COUNT"]]}
+{"text": "Record: Threat_0053, threat indicators: data_53, threat actors: info_53, threat campaigns: record_53, Date: 2024-06-15, Verified: False", "entities": [[0, 6, "RECORD_TYPE"], [28, 38, "DATA"], [56, 71, "KEYWORD"], [64, 79, "RECORD"], [80, 90, "DATE"], [91, 101, "VERIFICATION_TYPE"], [102, 112, "STATUS"]]}
+{"text": "Record: Threat_0083, threat indicators: data_83, threat actors: info_83, threat campaigns: record_83, Date: 2024-12-15, Verified: False", "entities": [[0, 6, "RECORD_TYPE"], [28, 38, "DATA"], [56, 71, "KEYWORD"], [64, 79, "RECORD"], [80, 90, "DATE"], [91, 101, "VERIFICATION_TYPE"], [102, 112, "STATUS"]]}
+{"text": "Database entry: Threat_ID Threat_0061, Type: threat indicators, Value: value_61, Created: 2024-02-15, Status: Active, Records: 183", "entities": [[26, 37, "TYPE"], [52, 62, "VALUE"], [90, 101, "METRIC_TYPE"], [102, 108, "COUNT"]]}
+{"text": "Database entry: Threat_ID Threat_0051, Type: threat indicators, Value: value_51, Created: 2024-04-15, Status: Active, Records: 153", "entities": [[26, 37, "TYPE"], [52, 62, "VALUE"], [90, 101, "METRIC_TYPE"], [102, 108, "COUNT"]]}
+{"text": "Record: Threat_0088, threat indicators: data_88, threat actors: info_88, threat campaigns: record_88, Date: 2024-05-15, Verified: True", "entities": [[0, 6, "RECORD_TYPE"], [28, 38, "DATA"], [56, 71, "KEYWORD"], [64, 79, "RECORD"], [80, 90, "DATE"], [91, 101, "VERIFICATION_TYPE"], [102, 112, "STATUS"]]}
+{"text": "Database entry: Threat_ID Threat_0076, Type: threat indicators, Value: value_76, Created: 2024-05-15, Status: Active, Records: 228", "entities": [[26, 37, "TYPE"], [52, 62, "VALUE"], [90, 101, "METRIC_TYPE"], [102, 108, "COUNT"]]}
+{"text": "Analysis: Threat investigation Threat_0010 found 20 threat indicators records. Threat Actors analysis shows 0 connections. Threat Campaigns data updated.", "entities": [[0, 8, "ANALYSIS_TYPE"], [70, 78, "COUNT"]]}
+{"text": "Analysis: Threat investigation Threat_0030 found 60 threat indicators records. Threat Actors analysis shows 0 connections. Threat Campaigns data updated.", "entities": [[0, 8, "ANALYSIS_TYPE"], [70, 78, "COUNT"]]}
+{"text": "Intelligence report: Threat Intelligence case Threat_0052 analyzed. Threat Actors investigation found 260 indicators. Threat Campaigns assessment completed.", "entities": [[75, 81, "COUNT"]]}
+{"text": "Intelligence report: Threat Intelligence case Threat_0022 analyzed. Threat Actors investigation found 110 indicators. Threat Campaigns assessment completed.", "entities": [[75, 81, "COUNT"]]}
+{"text": "Analysis: Threat Intelligence investigation for Threat_0089. Threat Indicators shows 9 patterns. Threat Actors analysis identified 178 connections. Threat Campaigns data processed.", "entities": [[0, 8, "ANALYSIS_TYPE"], [68, 78, "PATTERN_TYPE"], [97, 110, "COUNT"], [104, 119, "CONNECTION_TYPE"], [120, 134, "DATA_TYPE"]]}
+{"text": "Record: Threat_0063, threat indicators: data_63, threat actors: info_63, threat campaigns: record_63, Date: 2024-04-15, Verified: False", "entities": [[0, 6, "RECORD_TYPE"], [28, 38, "DATA"], [56, 71, "KEYWORD"], [64, 79, "RECORD"], [80, 90, "DATE"], [91, 101, "VERIFICATION_TYPE"], [102, 112, "STATUS"]]}
+{"text": "Record: Threat_0018, threat indicators: data_18, threat actors: info_18, threat campaigns: record_18, Date: 2024-07-15, Verified: True", "entities": [[0, 6, "RECORD_TYPE"], [28, 38, "DATA"], [56, 71, "KEYWORD"], [64, 79, "RECORD"], [80, 90, "DATE"], [91, 101, "VERIFICATION_TYPE"], [102, 112, "STATUS"]]}
+{"text": "Analysis: Threat investigation Threat_0085 found 170 threat indicators records. Threat Actors analysis shows 0 connections. Threat Campaigns data updated.", "entities": [[0, 8, "ANALYSIS_TYPE"], [71, 79, "COUNT"]]}
+{"text": "Database entry: Threat_ID Threat_0091, Type: threat indicators, Value: value_91, Created: 2024-08-15, Status: Active, Records: 273", "entities": [[26, 37, "TYPE"], [52, 62, "VALUE"], [90, 101, "METRIC_TYPE"], [102, 108, "COUNT"]]}
+{"text": "Record: Threat_0043, threat indicators: data_43, threat actors: info_43, threat campaigns: record_43, Date: 2024-08-15, Verified: False", "entities": [[0, 6, "RECORD_TYPE"], [28, 38, "DATA"], [56, 71, "KEYWORD"], [64, 79, "RECORD"], [80, 90, "DATE"], [91, 101, "VERIFICATION_TYPE"], [102, 112, "STATUS"]]}
+{"text": "Intelligence report: Threat Intelligence case Threat_0037 analyzed. Threat Actors investigation found 185 indicators. Threat Campaigns assessment completed.", "entities": [[75, 81, "COUNT"]]}
+{"text": "Intelligence report: Threat Intelligence case Threat_0017 analyzed. Threat Actors investigation found 85 indicators. Threat Campaigns assessment completed.", "entities": [[75, 81, "COUNT"]]}
+{"text": "Analysis: Threat investigation Threat_0060 found 120 threat indicators records. Threat Actors analysis shows 0 connections. Threat Campaigns data updated.", "entities": [[0, 8, "ANALYSIS_TYPE"], [71, 79, "COUNT"]]}
+{"text": "Database entry: Threat_ID Threat_0026, Type: threat indicators, Value: value_26, Created: 2024-03-15, Status: Active, Records: 78", "entities": [[26, 37, "TYPE"], [52, 62, "VALUE"], [90, 101, "METRIC_TYPE"], [102, 108, "COUNT"]]}
+{"text": "Record: Threat_0073, threat indicators: data_73, threat actors: info_73, threat campaigns: record_73, Date: 2024-02-15, Verified: False", "entities": [[0, 6, "RECORD_TYPE"], [28, 38, "DATA"], [56, 71, "KEYWORD"], [64, 79, "RECORD"], [80, 90, "DATE"], [91, 101, "VERIFICATION_TYPE"], [102, 112, "STATUS"]]}
+{"text": "Intelligence report: Threat Intelligence case Threat_0007 analyzed. Threat Actors investigation found 35 indicators. Threat Campaigns assessment completed.", "entities": [[75, 81, "COUNT"]]}
+{"text": "Record: Threat_0078, threat indicators: data_78, threat actors: info_78, threat campaigns: record_78, Date: 2024-07-15, Verified: True", "entities": [[0, 6, "RECORD_TYPE"], [28, 38, "DATA"], [56, 71, "KEYWORD"], [64, 79, "RECORD"], [80, 90, "DATE"], [91, 101, "VERIFICATION_TYPE"], [102, 112, "STATUS"]]}
+{"text": "Record: Threat_0003, threat indicators: data_3, threat actors: info_3, threat campaigns: record_3, Date: 2024-04-15, Verified: False", "entities": [[0, 6, "RECORD_TYPE"], [28, 38, "DATA"], [55, 69, "KEYWORD"], [71, 87, "DATE"], [78, 97, "DATE"], [89, 103, "VERIFICATION_TYPE"], [99, 109, "STATUS"]]}
+{"text": "Analysis: Threat investigation Threat_0025 found 50 threat indicators records. Threat Actors analysis shows 0 connections. Threat Campaigns data updated.", "entities": [[0, 8, "ANALYSIS_TYPE"], [70, 78, "COUNT"]]}
+{"text": "Intelligence report: Threat Intelligence case Threat_0047 analyzed. Threat Actors investigation found 235 indicators. Threat Campaigns assessment completed.", "entities": [[75, 81, "COUNT"]]}
+{"text": "Analysis: Threat Intelligence investigation for Threat_0094. Threat Indicators shows 4 patterns. Threat Actors analysis identified 188 connections. Threat Campaigns data processed.", "entities": [[0, 8, "ANALYSIS_TYPE"], [68, 78, "PATTERN_TYPE"], [97, 110, "COUNT"], [104, 119, "CONNECTION_TYPE"], [120, 134, "DATA_TYPE"]]}
+{"text": "Database entry: Threat_ID Threat_0096, Type: threat indicators, Value: value_96, Created: 2024-01-15, Status: Active, Records: 288", "entities": [[26, 37, "TYPE"], [52, 62, "VALUE"], [90, 101, "METRIC_TYPE"], [102, 108, "COUNT"]]}
+{"text": "Record: Threat_0013, threat indicators: data_13, threat actors: info_13, threat campaigns: record_13, Date: 2024-02-15, Verified: False", "entities": [[0, 6, "RECORD_TYPE"], [28, 38, "DATA"], [56, 71, "KEYWORD"], [64, 79, "RECORD"], [80, 90, "DATE"], [91, 101, "VERIFICATION_TYPE"], [102, 112, "STATUS"]]}
+{"text": "Record: Threat_0048, threat indicators: data_48, threat actors: info_48, threat campaigns: record_48, Date: 2024-01-15, Verified: True", "entities": [[0, 6, "RECORD_TYPE"], [28, 38, "DATA"], [56, 71, "KEYWORD"], [64, 79, "RECORD"], [80, 90, "DATE"], [91, 101, "VERIFICATION_TYPE"], [102, 112, "STATUS"]]}
+{"text": "Analysis: Threat Intelligence investigation for Threat_0079. Threat Indicators shows 9 patterns. Threat Actors analysis identified 158 connections. Threat Campaigns data processed.", "entities": [[0, 8, "ANALYSIS_TYPE"], [68, 78, "PATTERN_TYPE"], [97, 110, "COUNT"], [104, 119, "CONNECTION_TYPE"], [120, 134, "DATA_TYPE"]]}
+{"text": "Record: Threat_0028, threat indicators: data_28, threat actors: info_28, threat campaigns: record_28, Date: 2024-05-15, Verified: True", "entities": [[0, 6, "RECORD_TYPE"], [28, 38, "DATA"], [56, 71, "KEYWORD"], [64, 79, "RECORD"], [80, 90, "DATE"], [91, 101, "VERIFICATION_TYPE"], [102, 112, "STATUS"]]}
+{"text": "Analysis: Threat investigation Threat_0075 found 150 threat indicators records. Threat Actors analysis shows 0 connections. Threat Campaigns data updated.", "entities": [[0, 8, "ANALYSIS_TYPE"], [71, 79, "COUNT"]]}
+{"text": "Intelligence report: Threat Intelligence case Threat_0017 analyzed. Threat Actors investigation found 85 indicators. Threat Campaigns assessment completed.", "entities": [[75, 81, "COUNT"]]}
+{"text": "Analysis: Threat Intelligence investigation for Threat_0004. Threat Indicators shows 4 patterns. Threat Actors analysis identified 8 connections. Threat Campaigns data processed.", "entities": [[0, 8, "ANALYSIS_TYPE"], [68, 78, "PATTERN_TYPE"], [97, 110, "COUNT"], [104, 119, "CONNECTION_TYPE"], [120, 144, "DATA_TYPE"]]}
+{"text": "Record: Threat_0083, threat indicators: data_83, threat actors: info_83, threat campaigns: record_83, Date: 2024-12-15, Verified: False", "entities": [[0, 6, "RECORD_TYPE"], [28, 38, "DATA"], [56, 71, "KEYWORD"], [64, 79, "RECORD"], [80, 90, "DATE"], [91, 101, "VERIFICATION_TYPE"], [102, 112, "STATUS"]]}
+{"text": "Analysis: Threat investigation Threat_0040 found 80 threat indicators records. Threat Actors analysis shows 0 connections. Threat Campaigns data updated.", "entities": [[0, 8, "ANALYSIS_TYPE"], [70, 78, "COUNT"]]}
+{"text": "Record: Threat_0088, threat indicators: data_88, threat actors: info_88, threat campaigns: record_88, Date: 2024-05-15, Verified: True", "entities": [[0, 6, "RECORD_TYPE"], [28, 38, "DATA"], [56, 71, "KEYWORD"], [64, 79, "RECORD"], [80, 90, "DATE"], [91, 101, "VERIFICATION_TYPE"], [102, 112, "STATUS"]]}
+{"text": "Intelligence report: Threat Intelligence case Threat_0097 analyzed. Threat Actors investigation found 485 indicators. Threat Campaigns assessment completed.", "entities": [[75, 81, "COUNT"]]}
+{"text": "Record: Threat_0078, threat indicators: data_78, threat actors: info_78, threat campaigns: record_78, Date: 2024-07-15, Verified: True", "entities": [[0, 6, "RECORD_TYPE"], [28, 38, "DATA"], [56, 71, "KEYWORD"], [64, 79, "RECORD"], [80, 90, "DATE"], [91, 101, "VERIFICATION_TYPE"], [102, 112, "STATUS"]]}
+{"text": "Record: Threat_0083, threat indicators: data_83, threat actors: info_83, threat campaigns: record_83, Date: 2024-12-15, Verified: False", "entities": [[0, 6, "RECORD_TYPE"], [28, 38, "DATA"], [56, 71, "KEYWORD"], [64, 79, "RECORD"], [80, 90, "DATE"], [91, 101, "VERIFICATION_TYPE"], [102, 112, "STATUS"]]}
+{"text": "Analysis: Threat Intelligence investigation for Threat_0034. Threat Indicators shows 4 patterns. Threat Actors analysis identified 68 connections. Threat Campaigns data processed.", "entities": [[0, 8, "ANALYSIS_TYPE"], [68, 78, "PATTERN_TYPE"], [97, 110, "COUNT"], [104, 119, "CONNECTION_TYPE"], [120, 133, "DATA_TYPE"]]}
+{"text": "Analysis: Threat investigation Threat_0015 found 30 threat indicators records. Threat Actors analysis shows 0 connections. Threat Campaigns data updated.", "entities": [[0, 8, "ANALYSIS_TYPE"], [70, 78, "COUNT"]]}
+{"text": "Analysis: Threat investigation Threat_0045 found 90 threat indicators records. Threat Actors analysis shows 0 connections. Threat Campaigns data updated.", "entities": [[0, 8, "ANALYSIS_TYPE"], [70, 78, "COUNT"]]}
+{"text": "Database entry: Threat_ID Threat_0026, Type: threat indicators, Value: value_26, Created: 2024-03-15, Status: Active, Records: 78", "entities": [[26, 37, "TYPE"], [52, 62, "VALUE"], [90, 101, "METRIC_TYPE"], [102, 108, "COUNT"]]}
+{"text": "Analysis: Threat investigation Threat_0060 found 120 threat indicators records. Threat Actors analysis shows 0 connections. Threat Campaigns data updated.", "entities": [[0, 8, "ANALYSIS_TYPE"], [71, 79, "COUNT"]]}
+{"text": "Intelligence report: Threat Intelligence case Threat_0062 analyzed. Threat Actors investigation found 310 indicators. Threat Campaigns assessment completed.", "entities": [[75, 81, "COUNT"]]}
+{"text": "Analysis: Threat Intelligence investigation for Threat_0059. Threat Indicators shows 9 patterns. Threat Actors analysis identified 118 connections. Threat Campaigns data processed.", "entities": [[0, 8, "ANALYSIS_TYPE"], [68, 78, "PATTERN_TYPE"], [97, 110, "COUNT"], [104, 119, "CONNECTION_TYPE"], [120, 134, "DATA_TYPE"]]}
+{"text": "Intelligence report: Threat Intelligence case Threat_0082 analyzed. Threat Actors investigation found 410 indicators. Threat Campaigns assessment completed.", "entities": [[75, 81, "COUNT"]]}
+{"text": "Record: Threat_0073, threat indicators: data_73, threat actors: info_73, threat campaigns: record_73, Date: 2024-02-15, Verified: False", "entities": [[0, 6, "RECORD_TYPE"], [28, 38, "DATA"], [56, 71, "KEYWORD"], [64, 79, "RECORD"], [80, 90, "DATE"], [91, 101, "VERIFICATION_TYPE"], [102, 112, "STATUS"]]}
+{"text": "Intelligence report: Threat Intelligence case Threat_0032 analyzed. Threat Actors investigation found 160 indicators. Threat Campaigns assessment completed.", "entities": [[75, 81, "COUNT"]]}
+{"text": "Analysis: Threat investigation Threat_0065 found 130 threat indicators records. Threat Actors analysis shows 0 connections. Threat Campaigns data updated.", "entities": [[0, 8, "ANALYSIS_TYPE"], [71, 79, "COUNT"]]}
+{"text": "Analysis: Threat Intelligence investigation for Threat_0069. Threat Indicators shows 9 patterns. Threat Actors analysis identified 138 connections. Threat Campaigns data processed.", "entities": [[0, 8, "ANALYSIS_TYPE"], [68, 78, "PATTERN_TYPE"], [97, 110, "COUNT"], [104, 119, "CONNECTION_TYPE"], [120, 134, "DATA_TYPE"]]}
+{"text": "Database entry: Threat_ID Threat_0086, Type: threat indicators, Value: value_86, Created: 2024-03-15, Status: Active, Records: 258", "entities": [[26, 37, "TYPE"], [52, 62, "VALUE"], [90, 101, "METRIC_TYPE"], [102, 108, "COUNT"]]}
+{"text": "Database entry: Threat_ID Threat_0001, Type: threat indicators, Value: value_1, Created: 2024-02-15, Status: Active, Records: 3", "entities": [[26, 37, "TYPE"], [52, 62, "VALUE"], [80, 93, "STATUS"], [89, 100, "METRIC_TYPE"], [101, 107, "COUNT"]]}
+{"text": "Intelligence report: Threat Intelligence case Threat_0002 analyzed. Threat Actors investigation found 10 indicators. Threat Campaigns assessment completed.", "entities": [[75, 81, "COUNT"]]}
+{"text": "Record: Threat_0088, threat indicators: data_88, threat actors: info_88, threat campaigns: record_88, Date: 2024-05-15, Verified: True", "entities": [[0, 6, "RECORD_TYPE"], [28, 38, "DATA"], [56, 71, "KEYWORD"], [64, 79, "RECORD"], [80, 90, "DATE"], [91, 101, "VERIFICATION_TYPE"], [102, 112, "STATUS"]]}
+{"text": "Database entry: Threat_ID Threat_0031, Type: threat indicators, Value: value_31, Created: 2024-08-15, Status: Active, Records: 93", "entities": [[26, 37, "TYPE"], [52, 62, "VALUE"], [90, 101, "METRIC_TYPE"], [102, 108, "COUNT"]]}
+{"text": "Intelligence report: Threat Intelligence case Threat_0057 analyzed. Threat Actors investigation found 285 indicators. Threat Campaigns assessment completed.", "entities": [[75, 81, "COUNT"]]}
+{"text": "Analysis: Threat investigation Threat_0055 found 110 threat indicators records. Threat Actors analysis shows 0 connections. Threat Campaigns data updated.", "entities": [[0, 8, "ANALYSIS_TYPE"], [71, 79, "COUNT"]]}
+{"text": "Record: Threat_0003, threat indicators: data_3, threat actors: info_3, threat campaigns: record_3, Date: 2024-04-15, Verified: False", "entities": [[0, 6, "RECORD_TYPE"], [28, 38, "DATA"], [55, 69, "KEYWORD"], [71, 87, "DATE"], [78, 97, "DATE"], [89, 103, "VERIFICATION_TYPE"], [99, 109, "STATUS"]]}
+{"text": "Record: Threat_0073, threat indicators: data_73, threat actors: info_73, threat campaigns: record_73, Date: 2024-02-15, Verified: False", "entities": [[0, 6, "RECORD_TYPE"], [28, 38, "DATA"], [56, 71, "KEYWORD"], [64, 79, "RECORD"], [80, 90, "DATE"], [91, 101, "VERIFICATION_TYPE"], [102, 112, "STATUS"]]}
+{"text": "Intelligence report: Threat Intelligence case Threat_0007 analyzed. Threat Actors investigation found 35 indicators. Threat Campaigns assessment completed.", "entities": [[75, 81, "COUNT"]]}
+{"text": "Analysis: Threat investigation Threat_0020 found 40 threat indicators records. Threat Actors analysis shows 0 connections. Threat Campaigns data updated.", "entities": [[0, 8, "ANALYSIS_TYPE"], [70, 78, "COUNT"]]}
+{"text": "Analysis: Threat Intelligence investigation for Threat_0044. Threat Indicators shows 4 patterns. Threat Actors analysis identified 88 connections. Threat Campaigns data processed.", "entities": [[0, 8, "ANALYSIS_TYPE"], [68, 78, "PATTERN_TYPE"], [97, 110, "COUNT"], [104, 119, "CONNECTION_TYPE"], [120, 133, "DATA_TYPE"]]}
+{"text": "Analysis: Threat investigation Threat_0085 found 170 threat indicators records. Threat Actors analysis shows 0 connections. Threat Campaigns data updated.", "entities": [[0, 8, "ANALYSIS_TYPE"], [71, 79, "COUNT"]]}
+{"text": "Intelligence report: Threat Intelligence case Threat_0062 analyzed. Threat Actors investigation found 310 indicators. Threat Campaigns assessment completed.", "entities": [[75, 81, "COUNT"]]}
+{"text": "Record: Threat_0008, threat indicators: data_8, threat actors: info_8, threat campaigns: record_8, Date: 2024-09-15, Verified: True", "entities": [[0, 6, "RECORD_TYPE"], [28, 38, "DATA"], [55, 69, "KEYWORD"], [71, 87, "DATE"], [78, 97, "DATE"], [89, 103, "VERIFICATION_TYPE"], [99, 109, "STATUS"]]}
+{"text": "Analysis: Threat Intelligence investigation for Threat_0079. Threat Indicators shows 9 patterns. Threat Actors analysis identified 158 connections. Threat Campaigns data processed.", "entities": [[0, 8, "ANALYSIS_TYPE"], [68, 78, "PATTERN_TYPE"], [97, 110, "COUNT"], [104, 119, "CONNECTION_TYPE"], [120, 134, "DATA_TYPE"]]}
+{"text": "Database entry: Threat_ID Threat_0071, Type: threat indicators, Value: value_71, Created: 2024-12-15, Status: Active, Records: 213", "entities": [[26, 37, "TYPE"], [52, 62, "VALUE"], [90, 101, "METRIC_TYPE"], [102, 108, "COUNT"]]}
+{"text": "Intelligence report: Threat Intelligence case Threat_0042 analyzed. Threat Actors investigation found 210 indicators. Threat Campaigns assessment completed.", "entities": [[75, 81, "COUNT"]]}
+{"text": "Analysis: Threat investigation Threat_0030 found 60 threat indicators records. Threat Actors analysis shows 0 connections. Threat Campaigns data updated.", "entities": [[0, 8, "ANALYSIS_TYPE"], [70, 78, "COUNT"]]}
+{"text": "Intelligence report: Threat Intelligence case Threat_0007 analyzed. Threat Actors investigation found 35 indicators. Threat Campaigns assessment completed.", "entities": [[75, 81, "COUNT"]]}
+{"text": "Intelligence report: Threat Intelligence case Threat_0032 analyzed. Threat Actors investigation found 160 indicators. Threat Campaigns assessment completed.", "entities": [[75, 81, "COUNT"]]}
+{"text": "Record: Threat_0013, threat indicators: data_13, threat actors: info_13, threat campaigns: record_13, Date: 2024-02-15, Verified: False", "entities": [[0, 6, "RECORD_TYPE"], [28, 38, "DATA"], [56, 71, "KEYWORD"], [64, 79, "RECORD"], [80, 90, "DATE"], [91, 101, "VERIFICATION_TYPE"], [102, 112, "STATUS"]]}
+{"text": "Analysis: Threat Intelligence investigation for Threat_0029. Threat Indicators shows 9 patterns. Threat Actors analysis identified 58 connections. Threat Campaigns data processed.", "entities": [[0, 8, "ANALYSIS_TYPE"], [68, 78, "PATTERN_TYPE"], [97, 110, "COUNT"], [104, 119, "CONNECTION_TYPE"], [120, 133, "DATA_TYPE"]]}
+{"text": "Database entry: Threat_ID Threat_0066, Type: threat indicators, Value: value_66, Created: 2024-07-15, Status: Active, Records: 198", "entities": [[26, 37, "TYPE"], [52, 62, "VALUE"], [90, 101, "METRIC_TYPE"], [102, 108, "COUNT"]]}
+{"text": "Record: Threat_0053, threat indicators: data_53, threat actors: info_53, threat campaigns: record_53, Date: 2024-06-15, Verified: False", "entities": [[0, 6, "RECORD_TYPE"], [28, 38, "DATA"], [56, 71, "KEYWORD"], [64, 79, "RECORD"], [80, 90, "DATE"], [91, 101, "VERIFICATION_TYPE"], [102, 112, "STATUS"]]}
+{"text": "Database entry: Threat_ID Threat_0011, Type: threat indicators, Value: value_11, Created: 2024-12-15, Status: Active, Records: 33", "entities": [[26, 37, "TYPE"], [52, 62, "VALUE"], [90, 101, "METRIC_TYPE"], [102, 108, "COUNT"]]}
+{"text": "Database entry: Threat_ID Threat_0006, Type: threat indicators, Value: value_6, Created: 2024-07-15, Status: Active, Records: 18", "entities": [[26, 37, "TYPE"], [52, 62, "VALUE"], [80, 93, "STATUS"], [89, 100, "METRIC_TYPE"], [101, 107, "COUNT"]]}
+{"text": "Database entry: Threat_ID Threat_0081, Type: threat indicators, Value: value_81, Created: 2024-10-15, Status: Active, Records: 243", "entities": [[26, 37, "TYPE"], [52, 62, "VALUE"], [90, 101, "METRIC_TYPE"], [102, 108, "COUNT"]]}
+{"text": "Record: Threat_0033, threat indicators: data_33, threat actors: info_33, threat campaigns: record_33, Date: 2024-10-15, Verified: False", "entities": [[0, 6, "RECORD_TYPE"], [28, 38, "DATA"], [56, 71, "KEYWORD"], [64, 79, "RECORD"], [80, 90, "DATE"], [91, 101, "VERIFICATION_TYPE"], [102, 112, "STATUS"]]}
+{"text": "Database entry: Threat_ID Threat_0001, Type: threat indicators, Value: value_1, Created: 2024-02-15, Status: Active, Records: 3", "entities": [[26, 37, "TYPE"], [52, 62, "VALUE"], [80, 93, "STATUS"], [89, 100, "METRIC_TYPE"], [101, 107, "COUNT"]]}
+{"text": "Analysis: Threat investigation Threat_0020 found 40 threat indicators records. Threat Actors analysis shows 0 connections. Threat Campaigns data updated.", "entities": [[0, 8, "ANALYSIS_TYPE"], [70, 78, "COUNT"]]}
+{"text": "Analysis: Threat Intelligence investigation for Threat_0039. Threat Indicators shows 9 patterns. Threat Actors analysis identified 78 connections. Threat Campaigns data processed.", "entities": [[0, 8, "ANALYSIS_TYPE"], [68, 78, "PATTERN_TYPE"], [97, 110, "COUNT"], [104, 119, "CONNECTION_TYPE"], [120, 133, "DATA_TYPE"]]}
+{"text": "Analysis: Threat investigation Threat_0045 found 90 threat indicators records. Threat Actors analysis shows 0 connections. Threat Campaigns data updated.", "entities": [[0, 8, "ANALYSIS_TYPE"], [70, 78, "COUNT"]]}
+{"text": "Analysis: Threat Intelligence investigation for Threat_0049. Threat Indicators shows 9 patterns. Threat Actors analysis identified 98 connections. Threat Campaigns data processed.", "entities": [[0, 8, "ANALYSIS_TYPE"], [68, 78, "PATTERN_TYPE"], [97, 110, "COUNT"], [104, 119, "CONNECTION_TYPE"], [120, 133, "DATA_TYPE"]]}
+{"text": "Analysis: Threat investigation Threat_0025 found 50 threat indicators records. Threat Actors analysis shows 0 connections. Threat Campaigns data updated.", "entities": [[0, 8, "ANALYSIS_TYPE"], [70, 78, "COUNT"]]}
+{"text": "Database entry: Threat_ID Threat_0061, Type: threat indicators, Value: value_61, Created: 2024-02-15, Status: Active, Records: 183", "entities": [[26, 37, "TYPE"], [52, 62, "VALUE"], [90, 101, "METRIC_TYPE"], [102, 108, "COUNT"]]}
+{"text": "Report: Threat Intelligence analysis completed for case Threat_0001. Threat Indicators investigation revealed 5 key findings. Threat Actors data shows 3 connections.", "entities": [[28, 46, "CASE"], [76, 100, "FINDING_TYPE"]]}
+{"text": "Database entry: Threat_ID Threat_0081, Type: threat indicators, Value: value_81, Created: 2024-10-15, Status: Active, Records: 243", "entities": [[26, 37, "TYPE"], [52, 62, "VALUE"], [90, 101, "METRIC_TYPE"], [102, 108, "COUNT"]]}
+{"text": "Analysis: Threat investigation Threat_0025 found 50 threat indicators records. Threat Actors analysis shows 0 connections. Threat Campaigns data updated.", "entities": [[0, 8, "ANALYSIS_TYPE"], [70, 78, "COUNT"]]}
+{"text": "Intelligence report: Threat Intelligence case Threat_0022 analyzed. Threat Actors investigation found 110 indicators. Threat Campaigns assessment completed.", "entities": [[75, 81, "COUNT"]]}
+{"text": "Intelligence report: Threat Intelligence case Threat_0047 analyzed. Threat Actors investigation found 235 indicators. Threat Campaigns assessment completed.", "entities": [[75, 81, "COUNT"]]}
+{"text": "Analysis: Threat Intelligence investigation for Threat_0069. Threat Indicators shows 9 patterns. Threat Actors analysis identified 138 connections. Threat Campaigns data processed.", "entities": [[0, 8, "ANALYSIS_TYPE"], [68, 78, "PATTERN_TYPE"], [97, 110, "COUNT"], [104, 119, "CONNECTION_TYPE"], [120, 134, "DATA_TYPE"]]}
+{"text": "Record: Threat_0008, threat indicators: data_8, threat actors: info_8, threat campaigns: record_8, Date: 2024-09-15, Verified: True", "entities": [[0, 6, "RECORD_TYPE"], [28, 38, "DATA"], [55, 69, "KEYWORD"], [71, 87, "DATE"], [78, 97, "DATE"], [89, 103, "VERIFICATION_TYPE"], [99, 109, "STATUS"]]}
+{"text": "Intelligence report: Threat Intelligence case Threat_0037 analyzed. Threat Actors investigation found 185 indicators. Threat Campaigns assessment completed.", "entities": [[75, 81, "COUNT"]]}
+{"text": "Intelligence report: Threat Intelligence case Threat_0027 analyzed. Threat Actors investigation found 135 indicators. Threat Campaigns assessment completed.", "entities": [[75, 81, "COUNT"]]}
+{"text": "Database entry: Threat_ID Threat_0071, Type: threat indicators, Value: value_71, Created: 2024-12-15, Status: Active, Records: 213", "entities": [[26, 37, "TYPE"], [52, 62, "VALUE"], [90, 101, "METRIC_TYPE"], [102, 108, "COUNT"]]}
+{"text": "Database entry: Threat_ID Threat_0046, Type: threat indicators, Value: value_46, Created: 2024-11-15, Status: Active, Records: 138", "entities": [[26, 37, "TYPE"], [52, 62, "VALUE"], [90, 101, "METRIC_TYPE"], [102, 108, "COUNT"]]}
+{"text": "Analysis: Threat investigation Threat_0065 found 130 threat indicators records. Threat Actors analysis shows 0 connections. Threat Campaigns data updated.", "entities": [[0, 8, "ANALYSIS_TYPE"], [71, 79, "COUNT"]]}
+{"text": "Analysis: Threat Intelligence investigation for Threat_0064. Threat Indicators shows 4 patterns. Threat Actors analysis identified 128 connections. Threat Campaigns data processed.", "entities": [[0, 8, "ANALYSIS_TYPE"], [68, 78, "PATTERN_TYPE"], [97, 110, "COUNT"], [104, 119, "CONNECTION_TYPE"], [120, 134, "DATA_TYPE"]]}
+{"text": "Database entry: Threat_ID Threat_0006, Type: threat indicators, Value: value_6, Created: 2024-07-15, Status: Active, Records: 18", "entities": [[26, 37, "TYPE"], [52, 62, "VALUE"], [80, 93, "STATUS"], [89, 100, "METRIC_TYPE"], [101, 107, "COUNT"]]}
+{"text": "Analysis: Threat Intelligence investigation for Threat_0054. Threat Indicators shows 4 patterns. Threat Actors analysis identified 108 connections. Threat Campaigns data processed.", "entities": [[0, 8, "ANALYSIS_TYPE"], [68, 78, "PATTERN_TYPE"], [97, 110, "COUNT"], [104, 119, "CONNECTION_TYPE"], [120, 134, "DATA_TYPE"]]}
+{"text": "Record: Threat_0023, threat indicators: data_23, threat actors: info_23, threat campaigns: record_23, Date: 2024-12-15, Verified: False", "entities": [[0, 6, "RECORD_TYPE"], [28, 38, "DATA"], [56, 71, "KEYWORD"], [64, 79, "RECORD"], [80, 90, "DATE"], [91, 101, "VERIFICATION_TYPE"], [102, 112, "STATUS"]]}
+{"text": "Database entry: Threat_ID Threat_0061, Type: threat indicators, Value: value_61, Created: 2024-02-15, Status: Active, Records: 183", "entities": [[26, 37, "TYPE"], [52, 62, "VALUE"], [90, 101, "METRIC_TYPE"], [102, 108, "COUNT"]]}
+{"text": "Record: Threat_0068, threat indicators: data_68, threat actors: info_68, threat campaigns: record_68, Date: 2024-09-15, Verified: True", "entities": [[0, 6, "RECORD_TYPE"], [28, 38, "DATA"], [56, 71, "KEYWORD"], [64, 79, "RECORD"], [80, 90, "DATE"], [91, 101, "VERIFICATION_TYPE"], [102, 112, "STATUS"]]}
+{"text": "Database entry: Threat_ID Threat_0051, Type: threat indicators, Value: value_51, Created: 2024-04-15, Status: Active, Records: 153", "entities": [[26, 37, "TYPE"], [52, 62, "VALUE"], [90, 101, "METRIC_TYPE"], [102, 108, "COUNT"]]}
+{"text": "Record: Threat_0033, threat indicators: data_33, threat actors: info_33, threat campaigns: record_33, Date: 2024-10-15, Verified: False", "entities": [[0, 6, "RECORD_TYPE"], [28, 38, "DATA"], [56, 71, "KEYWORD"], [64, 79, "RECORD"], [80, 90, "DATE"], [91, 101, "VERIFICATION_TYPE"], [102, 112, "STATUS"]]}
+{"text": "Intelligence report: Threat Intelligence case Threat_0057 analyzed. Threat Actors investigation found 285 indicators. Threat Campaigns assessment completed.", "entities": [[75, 81, "COUNT"]]}
+{"text": "Record: Threat_0008, threat indicators: data_8, threat actors: info_8, threat campaigns: record_8, Date: 2024-09-15, Verified: True", "entities": [[0, 6, "RECORD_TYPE"], [28, 38, "DATA"], [55, 69, "KEYWORD"], [71, 87, "DATE"], [78, 97, "DATE"], [89, 103, "VERIFICATION_TYPE"], [99, 109, "STATUS"]]}
+{"text": "Intelligence report: Threat Intelligence case Threat_0017 analyzed. Threat Actors investigation found 85 indicators. Threat Campaigns assessment completed.", "entities": [[75, 81, "COUNT"]]}
+{"text": "Record: Threat_0058, threat indicators: data_58, threat actors: info_58, threat campaigns: record_58, Date: 2024-11-15, Verified: True", "entities": [[0, 6, "RECORD_TYPE"], [28, 38, "DATA"], [56, 71, "KEYWORD"], [64, 79, "RECORD"], [80, 90, "DATE"], [91, 101, "VERIFICATION_TYPE"], [102, 112, "STATUS"]]}
+{"text": "Record: Threat_0093, threat indicators: data_93, threat actors: info_93, threat campaigns: record_93, Date: 2024-10-15, Verified: False", "entities": [[0, 6, "RECORD_TYPE"], [28, 38, "DATA"], [56, 71, "KEYWORD"], [64, 79, "RECORD"], [80, 90, "DATE"], [91, 101, "VERIFICATION_TYPE"], [102, 112, "STATUS"]]}
+{"text": "Database entry: Threat_ID Threat_0081, Type: threat indicators, Value: value_81, Created: 2024-10-15, Status: Active, Records: 243", "entities": [[26, 37, "TYPE"], [52, 62, "VALUE"], [90, 101, "METRIC_TYPE"], [102, 108, "COUNT"]]}
+{"text": "Analysis: Threat investigation Threat_0040 found 80 threat indicators records. Threat Actors analysis shows 0 connections. Threat Campaigns data updated.", "entities": [[0, 8, "ANALYSIS_TYPE"], [70, 78, "COUNT"]]}
+{"text": "Record: Threat_0033, threat indicators: data_33, threat actors: info_33, threat campaigns: record_33, Date: 2024-10-15, Verified: False", "entities": [[0, 6, "RECORD_TYPE"], [28, 38, "DATA"], [56, 71, "KEYWORD"], [64, 79, "RECORD"], [80, 90, "DATE"], [91, 101, "VERIFICATION_TYPE"], [102, 112, "STATUS"]]}
+{"text": "Analysis: Threat Intelligence investigation for Threat_0044. Threat Indicators shows 4 patterns. Threat Actors analysis identified 88 connections. Threat Campaigns data processed.", "entities": [[0, 8, "ANALYSIS_TYPE"], [68, 78, "PATTERN_TYPE"], [97, 110, "COUNT"], [104, 119, "CONNECTION_TYPE"], [120, 133, "DATA_TYPE"]]}
+{"text": "Database entry: Threat_ID Threat_0091, Type: threat indicators, Value: value_91, Created: 2024-08-15, Status: Active, Records: 273", "entities": [[26, 37, "TYPE"], [52, 62, "VALUE"], [90, 101, "METRIC_TYPE"], [102, 108, "COUNT"]]}
+{"text": "Record: Threat_0093, threat indicators: data_93, threat actors: info_93, threat campaigns: record_93, Date: 2024-10-15, Verified: False", "entities": [[0, 6, "RECORD_TYPE"], [28, 38, "DATA"], [56, 71, "KEYWORD"], [64, 79, "RECORD"], [80, 90, "DATE"], [91, 101, "VERIFICATION_TYPE"], [102, 112, "STATUS"]]}
+{"text": "Analysis: Threat investigation Threat_0055 found 110 threat indicators records. Threat Actors analysis shows 0 connections. Threat Campaigns data updated.", "entities": [[0, 8, "ANALYSIS_TYPE"], [71, 79, "COUNT"]]}
+{"text": "Analysis: Threat investigation Threat_0005 found 10 threat indicators records. Threat Actors analysis shows 0 connections. Threat Campaigns data updated.", "entities": [[0, 8, "ANALYSIS_TYPE"], [70, 78, "COUNT"]]}
+{"text": "Record: Threat_0053, threat indicators: data_53, threat actors: info_53, threat campaigns: record_53, Date: 2024-06-15, Verified: False", "entities": [[0, 6, "RECORD_TYPE"], [28, 38, "DATA"], [56, 71, "KEYWORD"], [64, 79, "RECORD"], [80, 90, "DATE"], [91, 101, "VERIFICATION_TYPE"], [102, 112, "STATUS"]]}
+{"text": "Report: Threat Intelligence analysis completed for case Threat_0001. Threat Indicators investigation revealed 5 key findings. Threat Actors data shows 3 connections.", "entities": [[28, 46, "CASE"], [76, 100, "FINDING_TYPE"]]}
+{"text": "Database entry: Threat_ID Threat_0016, Type: threat indicators, Value: value_16, Created: 2024-05-15, Status: Active, Records: 48", "entities": [[26, 37, "TYPE"], [52, 62, "VALUE"], [90, 101, "METRIC_TYPE"], [102, 108, "COUNT"]]}
+{"text": "Analysis: Threat investigation Threat_0010 found 20 threat indicators records. Threat Actors analysis shows 0 connections. Threat Campaigns data updated.", "entities": [[0, 8, "ANALYSIS_TYPE"], [70, 78, "COUNT"]]}
+{"text": "Database entry: Threat_ID Threat_0016, Type: threat indicators, Value: value_16, Created: 2024-05-15, Status: Active, Records: 48", "entities": [[26, 37, "TYPE"], [52, 62, "VALUE"], [90, 101, "METRIC_TYPE"], [102, 108, "COUNT"]]}
+{"text": "Intelligence report: Threat Intelligence case Threat_0002 analyzed. Threat Actors investigation found 10 indicators. Threat Campaigns assessment completed.", "entities": [[75, 81, "COUNT"]]}
+{"text": "Database entry: Threat_ID Threat_0011, Type: threat indicators, Value: value_11, Created: 2024-12-15, Status: Active, Records: 33", "entities": [[26, 37, "TYPE"], [52, 62, "VALUE"], [90, 101, "METRIC_TYPE"], [102, 108, "COUNT"]]}
+{"text": "Analysis: Threat investigation Threat_0080 found 160 threat indicators records. Threat Actors analysis shows 0 connections. Threat Campaigns data updated.", "entities": [[0, 8, "ANALYSIS_TYPE"], [71, 79, "COUNT"]]}
+{"text": "Analysis: Threat Intelligence investigation for Threat_0049. Threat Indicators shows 9 patterns. Threat Actors analysis identified 98 connections. Threat Campaigns data processed.", "entities": [[0, 8, "ANALYSIS_TYPE"], [68, 78, "PATTERN_TYPE"], [97, 110, "COUNT"], [104, 119, "CONNECTION_TYPE"], [120, 133, "DATA_TYPE"]]}
+{"text": "Database entry: Threat_ID Threat_0041, Type: threat indicators, Value: value_41, Created: 2024-06-15, Status: Active, Records: 123", "entities": [[26, 37, "TYPE"], [52, 62, "VALUE"], [90, 101, "METRIC_TYPE"], [102, 108, "COUNT"]]}
+{"text": "Analysis: Threat investigation Threat_0000 found 0 threat indicators records. Threat Actors analysis shows 0 connections. Threat Campaigns data updated.", "entities": [[0, 8, "ANALYSIS_TYPE"], [69, 84, "COUNT"]]}
+{"text": "Intelligence report: Threat Intelligence case Threat_0012 analyzed. Threat Actors investigation found 60 indicators. Threat Campaigns assessment completed.", "entities": [[75, 81, "COUNT"]]}
+{"text": "Analysis: Threat Intelligence investigation for Threat_0014. Threat Indicators shows 4 patterns. Threat Actors analysis identified 28 connections. Threat Campaigns data processed.", "entities": [[0, 8, "ANALYSIS_TYPE"], [68, 78, "PATTERN_TYPE"], [97, 110, "COUNT"], [104, 119, "CONNECTION_TYPE"], [120, 133, "DATA_TYPE"]]}
+{"text": "Intelligence report: Threat Intelligence case Threat_0092 analyzed. Threat Actors investigation found 460 indicators. Threat Campaigns assessment completed.", "entities": [[75, 81, "COUNT"]]}
+{"text": "Analysis: Threat investigation Threat_0045 found 90 threat indicators records. Threat Actors analysis shows 0 connections. Threat Campaigns data updated.", "entities": [[0, 8, "ANALYSIS_TYPE"], [70, 78, "COUNT"]]}
+{"text": "Analysis: Threat investigation Threat_0035 found 70 threat indicators records. Threat Actors analysis shows 0 connections. Threat Campaigns data updated.", "entities": [[0, 8, "ANALYSIS_TYPE"], [70, 78, "COUNT"]]}
+{"text": "Intelligence report: Threat Intelligence case Threat_0002 analyzed. Threat Actors investigation found 10 indicators. Threat Campaigns assessment completed.", "entities": [[75, 81, "COUNT"]]}
+{"text": "Intelligence report: Threat Intelligence case Threat_0032 analyzed. Threat Actors investigation found 160 indicators. Threat Campaigns assessment completed.", "entities": [[75, 81, "COUNT"]]}
+{"text": "Analysis: Threat Intelligence investigation for Threat_0054. Threat Indicators shows 4 patterns. Threat Actors analysis identified 108 connections. Threat Campaigns data processed.", "entities": [[0, 8, "ANALYSIS_TYPE"], [68, 78, "PATTERN_TYPE"], [97, 110, "COUNT"], [104, 119, "CONNECTION_TYPE"], [120, 134, "DATA_TYPE"]]}
+{"text": "Record: Threat_0058, threat indicators: data_58, threat actors: info_58, threat campaigns: record_58, Date: 2024-11-15, Verified: True", "entities": [[0, 6, "RECORD_TYPE"], [28, 38, "DATA"], [56, 71, "KEYWORD"], [64, 79, "RECORD"], [80, 90, "DATE"], [91, 101, "VERIFICATION_TYPE"], [102, 112, "STATUS"]]}
+{"text": "Analysis: Threat investigation Threat_0050 found 100 threat indicators records. Threat Actors analysis shows 0 connections. Threat Campaigns data updated.", "entities": [[0, 8, "ANALYSIS_TYPE"], [71, 79, "COUNT"]]}
+{"text": "Analysis: Threat Intelligence investigation for Threat_0064. Threat Indicators shows 4 patterns. Threat Actors analysis identified 128 connections. Threat Campaigns data processed.", "entities": [[0, 8, "ANALYSIS_TYPE"], [68, 78, "PATTERN_TYPE"], [97, 110, "COUNT"], [104, 119, "CONNECTION_TYPE"], [120, 134, "DATA_TYPE"]]}
+{"text": "Analysis: Threat Intelligence investigation for Threat_0014. Threat Indicators shows 4 patterns. Threat Actors analysis identified 28 connections. Threat Campaigns data processed.", "entities": [[0, 8, "ANALYSIS_TYPE"], [68, 78, "PATTERN_TYPE"], [97, 110, "COUNT"], [104, 119, "CONNECTION_TYPE"], [120, 133, "DATA_TYPE"]]}
+{"text": "Intelligence report: Threat Intelligence case Threat_0067 analyzed. Threat Actors investigation found 335 indicators. Threat Campaigns assessment completed.", "entities": [[75, 81, "COUNT"]]}
+{"text": "Analysis: Threat investigation Threat_0010 found 20 threat indicators records. Threat Actors analysis shows 0 connections. Threat Campaigns data updated.", "entities": [[0, 8, "ANALYSIS_TYPE"], [70, 78, "COUNT"]]}
+{"text": "Analysis: Threat investigation Threat_0040 found 80 threat indicators records. Threat Actors analysis shows 0 connections. Threat Campaigns data updated.", "entities": [[0, 8, "ANALYSIS_TYPE"], [70, 78, "COUNT"]]}
+{"text": "Analysis: Threat investigation Threat_0055 found 110 threat indicators records. Threat Actors analysis shows 0 connections. Threat Campaigns data updated.", "entities": [[0, 8, "ANALYSIS_TYPE"], [71, 79, "COUNT"]]}
+{"text": "Database entry: Threat_ID Threat_0056, Type: threat indicators, Value: value_56, Created: 2024-09-15, Status: Active, Records: 168", "entities": [[26, 37, "TYPE"], [52, 62, "VALUE"], [90, 101, "METRIC_TYPE"], [102, 108, "COUNT"]]}
+{"text": "Database entry: Threat_ID Threat_0026, Type: threat indicators, Value: value_26, Created: 2024-03-15, Status: Active, Records: 78", "entities": [[26, 37, "TYPE"], [52, 62, "VALUE"], [90, 101, "METRIC_TYPE"], [102, 108, "COUNT"]]}
+{"text": "Analysis: Threat Intelligence investigation for Threat_0064. Threat Indicators shows 4 patterns. Threat Actors analysis identified 128 connections. Threat Campaigns data processed.", "entities": [[0, 8, "ANALYSIS_TYPE"], [68, 78, "PATTERN_TYPE"], [97, 110, "COUNT"], [104, 119, "CONNECTION_TYPE"], [120, 134, "DATA_TYPE"]]}
+{"text": "Record: Threat_0058, threat indicators: data_58, threat actors: info_58, threat campaigns: record_58, Date: 2024-11-15, Verified: True", "entities": [[0, 6, "RECORD_TYPE"], [28, 38, "DATA"], [56, 71, "KEYWORD"], [64, 79, "RECORD"], [80, 90, "DATE"], [91, 101, "VERIFICATION_TYPE"], [102, 112, "STATUS"]]}
+{"text": "Analysis: Threat investigation Threat_0070 found 140 threat indicators records. Threat Actors analysis shows 0 connections. Threat Campaigns data updated.", "entities": [[0, 8, "ANALYSIS_TYPE"], [71, 79, "COUNT"]]}
+{"text": "Intelligence report: Threat Intelligence case Threat_0077 analyzed. Threat Actors investigation found 385 indicators. Threat Campaigns assessment completed.", "entities": [[75, 81, "COUNT"]]}
+{"text": "Record: Threat_0068, threat indicators: data_68, threat actors: info_68, threat campaigns: record_68, Date: 2024-09-15, Verified: True", "entities": [[0, 6, "RECORD_TYPE"], [28, 38, "DATA"], [56, 71, "KEYWORD"], [64, 79, "RECORD"], [80, 90, "DATE"], [91, 101, "VERIFICATION_TYPE"], [102, 112, "STATUS"]]}
+{"text": "Database entry: Threat_ID Threat_0011, Type: threat indicators, Value: value_11, Created: 2024-12-15, Status: Active, Records: 33", "entities": [[26, 37, "TYPE"], [52, 62, "VALUE"], [90, 101, "METRIC_TYPE"], [102, 108, "COUNT"]]}
+{"text": "Database entry: Threat_ID Threat_0081, Type: threat indicators, Value: value_81, Created: 2024-10-15, Status: Active, Records: 243", "entities": [[26, 37, "TYPE"], [52, 62, "VALUE"], [90, 101, "METRIC_TYPE"], [102, 108, "COUNT"]]}
+{"text": "Intelligence report: Threat Intelligence case Threat_0067 analyzed. Threat Actors investigation found 335 indicators. Threat Campaigns assessment completed.", "entities": [[75, 81, "COUNT"]]}
+{"text": "Database entry: Threat_ID Threat_0036, Type: threat indicators, Value: value_36, Created: 2024-01-15, Status: Active, Records: 108", "entities": [[26, 37, "TYPE"], [52, 62, "VALUE"], [90, 101, "METRIC_TYPE"], [102, 108, "COUNT"]]}
+{"text": "Analysis: Threat Intelligence investigation for Threat_0074. Threat Indicators shows 4 patterns. Threat Actors analysis identified 148 connections. Threat Campaigns data processed.", "entities": [[0, 8, "ANALYSIS_TYPE"], [68, 78, "PATTERN_TYPE"], [97, 110, "COUNT"], [104, 119, "CONNECTION_TYPE"], [120, 134, "DATA_TYPE"]]}
+{"text": "Intelligence report: Threat Intelligence case Threat_0097 analyzed. Threat Actors investigation found 485 indicators. Threat Campaigns assessment completed.", "entities": [[75, 81, "COUNT"]]}
+{"text": "Intelligence report: Threat Intelligence case Threat_0072 analyzed. Threat Actors investigation found 360 indicators. Threat Campaigns assessment completed.", "entities": [[75, 81, "COUNT"]]}
+{"text": "Analysis: Threat investigation Threat_0070 found 140 threat indicators records. Threat Actors analysis shows 0 connections. Threat Campaigns data updated.", "entities": [[0, 8, "ANALYSIS_TYPE"], [71, 79, "COUNT"]]}
+{"text": "Intelligence report: Threat Intelligence case Threat_0017 analyzed. Threat Actors investigation found 85 indicators. Threat Campaigns assessment completed.", "entities": [[75, 81, "COUNT"]]}
+{"text": "Analysis: Threat Intelligence investigation for Threat_0024. Threat Indicators shows 4 patterns. Threat Actors analysis identified 48 connections. Threat Campaigns data processed.", "entities": [[0, 8, "ANALYSIS_TYPE"], [68, 78, "PATTERN_TYPE"], [97, 110, "COUNT"], [104, 119, "CONNECTION_TYPE"], [120, 133, "DATA_TYPE"]]}
+{"text": "Database entry: Threat_ID Threat_0056, Type: threat indicators, Value: value_56, Created: 2024-09-15, Status: Active, Records: 168", "entities": [[26, 37, "TYPE"], [52, 62, "VALUE"], [90, 101, "METRIC_TYPE"], [102, 108, "COUNT"]]}
+{"text": "Database entry: Threat_ID Threat_0001, Type: threat indicators, Value: value_1, Created: 2024-02-15, Status: Active, Records: 3", "entities": [[26, 37, "TYPE"], [52, 62, "VALUE"], [80, 93, "STATUS"], [89, 100, "METRIC_TYPE"], [101, 107, "COUNT"]]}
+{"text": "Analysis: Threat investigation Threat_0040 found 80 threat indicators records. Threat Actors analysis shows 0 connections. Threat Campaigns data updated.", "entities": [[0, 8, "ANALYSIS_TYPE"], [70, 78, "COUNT"]]}
+{"text": "Intelligence report: Threat Intelligence case Threat_0072 analyzed. Threat Actors investigation found 360 indicators. Threat Campaigns assessment completed.", "entities": [[75, 81, "COUNT"]]}
+{"text": "Analysis: Threat investigation Threat_0050 found 100 threat indicators records. Threat Actors analysis shows 0 connections. Threat Campaigns data updated.", "entities": [[0, 8, "ANALYSIS_TYPE"], [71, 79, "COUNT"]]}
+{"text": "Intelligence report: Threat Intelligence case Threat_0057 analyzed. Threat Actors investigation found 285 indicators. Threat Campaigns assessment completed.", "entities": [[75, 81, "COUNT"]]}
+{"text": "Analysis: Threat investigation Threat_0075 found 150 threat indicators records. Threat Actors analysis shows 0 connections. Threat Campaigns data updated.", "entities": [[0, 8, "ANALYSIS_TYPE"], [71, 79, "COUNT"]]}
+{"text": "Record: Threat_0043, threat indicators: data_43, threat actors: info_43, threat campaigns: record_43, Date: 2024-08-15, Verified: False", "entities": [[0, 6, "RECORD_TYPE"], [28, 38, "DATA"], [56, 71, "KEYWORD"], [64, 79, "RECORD"], [80, 90, "DATE"], [91, 101, "VERIFICATION_TYPE"], [102, 112, "STATUS"]]}
+{"text": "Analysis: Threat Intelligence investigation for Threat_0014. Threat Indicators shows 4 patterns. Threat Actors analysis identified 28 connections. Threat Campaigns data processed.", "entities": [[0, 8, "ANALYSIS_TYPE"], [68, 78, "PATTERN_TYPE"], [97, 110, "COUNT"], [104, 119, "CONNECTION_TYPE"], [120, 133, "DATA_TYPE"]]}
+{"text": "Intelligence report: Threat Intelligence case Threat_0077 analyzed. Threat Actors investigation found 385 indicators. Threat Campaigns assessment completed.", "entities": [[75, 81, "COUNT"]]}
+{"text": "Database entry: Threat_ID Threat_0086, Type: threat indicators, Value: value_86, Created: 2024-03-15, Status: Active, Records: 258", "entities": [[26, 37, "TYPE"], [52, 62, "VALUE"], [90, 101, "METRIC_TYPE"], [102, 108, "COUNT"]]}
+{"text": "Database entry: Threat_ID Threat_0041, Type: threat indicators, Value: value_41, Created: 2024-06-15, Status: Active, Records: 123", "entities": [[26, 37, "TYPE"], [52, 62, "VALUE"], [90, 101, "METRIC_TYPE"], [102, 108, "COUNT"]]}
+{"text": "Database entry: Threat_ID Threat_0076, Type: threat indicators, Value: value_76, Created: 2024-05-15, Status: Active, Records: 228", "entities": [[26, 37, "TYPE"], [52, 62, "VALUE"], [90, 101, "METRIC_TYPE"], [102, 108, "COUNT"]]}
+{"text": "Analysis: Threat investigation Threat_0000 found 0 threat indicators records. Threat Actors analysis shows 0 connections. Threat Campaigns data updated.", "entities": [[0, 8, "ANALYSIS_TYPE"], [69, 84, "COUNT"]]}
+{"text": "Analysis: Threat investigation Threat_0010 found 20 threat indicators records. Threat Actors analysis shows 0 connections. Threat Campaigns data updated.", "entities": [[0, 8, "ANALYSIS_TYPE"], [70, 78, "COUNT"]]}
+{"text": "Database entry: Threat_ID Threat_0061, Type: threat indicators, Value: value_61, Created: 2024-02-15, Status: Active, Records: 183", "entities": [[26, 37, "TYPE"], [52, 62, "VALUE"], [90, 101, "METRIC_TYPE"], [102, 108, "COUNT"]]}
+{"text": "Record: Threat_0093, threat indicators: data_93, threat actors: info_93, threat campaigns: record_93, Date: 2024-10-15, Verified: False", "entities": [[0, 6, "RECORD_TYPE"], [28, 38, "DATA"], [56, 71, "KEYWORD"], [64, 79, "RECORD"], [80, 90, "DATE"], [91, 101, "VERIFICATION_TYPE"], [102, 112, "STATUS"]]}
+{"text": "Analysis: Threat Intelligence investigation for Threat_0004. Threat Indicators shows 4 patterns. Threat Actors analysis identified 8 connections. Threat Campaigns data processed.", "entities": [[0, 8, "ANALYSIS_TYPE"], [68, 78, "PATTERN_TYPE"], [97, 110, "COUNT"], [104, 119, "CONNECTION_TYPE"], [120, 144, "DATA_TYPE"]]}
+{"text": "Analysis: Threat investigation Threat_0005 found 10 threat indicators records. Threat Actors analysis shows 0 connections. Threat Campaigns data updated.", "entities": [[0, 8, "ANALYSIS_TYPE"], [70, 78, "COUNT"]]}
+{"text": "Analysis: Threat Intelligence investigation for Threat_0059. Threat Indicators shows 9 patterns. Threat Actors analysis identified 118 connections. Threat Campaigns data processed.", "entities": [[0, 8, "ANALYSIS_TYPE"], [68, 78, "PATTERN_TYPE"], [97, 110, "COUNT"], [104, 119, "CONNECTION_TYPE"], [120, 134, "DATA_TYPE"]]}
+{"text": "Analysis: Threat Intelligence investigation for Threat_0074. Threat Indicators shows 4 patterns. Threat Actors analysis identified 148 connections. Threat Campaigns data processed.", "entities": [[0, 8, "ANALYSIS_TYPE"], [68, 78, "PATTERN_TYPE"], [97, 110, "COUNT"], [104, 119, "CONNECTION_TYPE"], [120, 134, "DATA_TYPE"]]}
+{"text": "Database entry: Threat_ID Threat_0096, Type: threat indicators, Value: value_96, Created: 2024-01-15, Status: Active, Records: 288", "entities": [[26, 37, "TYPE"], [52, 62, "VALUE"], [90, 101, "METRIC_TYPE"], [102, 108, "COUNT"]]}
+{"text": "Database entry: Threat_ID Threat_0016, Type: threat indicators, Value: value_16, Created: 2024-05-15, Status: Active, Records: 48", "entities": [[26, 37, "TYPE"], [52, 62, "VALUE"], [90, 101, "METRIC_TYPE"], [102, 108, "COUNT"]]}
+{"text": "Analysis: Threat investigation Threat_0095 found 190 threat indicators records. Threat Actors analysis shows 0 connections. Threat Campaigns data updated.", "entities": [[0, 8, "ANALYSIS_TYPE"], [71, 79, "COUNT"]]}
+{"text": "Analysis: Threat Intelligence investigation for Threat_0089. Threat Indicators shows 9 patterns. Threat Actors analysis identified 178 connections. Threat Campaigns data processed.", "entities": [[0, 8, "ANALYSIS_TYPE"], [68, 78, "PATTERN_TYPE"], [97, 110, "COUNT"], [104, 119, "CONNECTION_TYPE"], [120, 134, "DATA_TYPE"]]}
+{"text": "Intelligence report: Threat Intelligence case Threat_0067 analyzed. Threat Actors investigation found 335 indicators. Threat Campaigns assessment completed.", "entities": [[75, 81, "COUNT"]]}
+{"text": "Analysis: Threat Intelligence investigation for Threat_0034. Threat Indicators shows 4 patterns. Threat Actors analysis identified 68 connections. Threat Campaigns data processed.", "entities": [[0, 8, "ANALYSIS_TYPE"], [68, 78, "PATTERN_TYPE"], [97, 110, "COUNT"], [104, 119, "CONNECTION_TYPE"], [120, 133, "DATA_TYPE"]]}
+{"text": "Analysis: Threat Intelligence investigation for Threat_0024. Threat Indicators shows 4 patterns. Threat Actors analysis identified 48 connections. Threat Campaigns data processed.", "entities": [[0, 8, "ANALYSIS_TYPE"], [68, 78, "PATTERN_TYPE"], [97, 110, "COUNT"], [104, 119, "CONNECTION_TYPE"], [120, 133, "DATA_TYPE"]]}
+{"text": "Intelligence report: Threat Intelligence case Threat_0097 analyzed. Threat Actors investigation found 485 indicators. Threat Campaigns assessment completed.", "entities": [[75, 81, "COUNT"]]}
+{"text": "Analysis: Threat investigation Threat_0095 found 190 threat indicators records. Threat Actors analysis shows 0 connections. Threat Campaigns data updated.", "entities": [[0, 8, "ANALYSIS_TYPE"], [71, 79, "COUNT"]]}
+{"text": "Analysis: Threat Intelligence investigation for Threat_0029. Threat Indicators shows 9 patterns. Threat Actors analysis identified 58 connections. Threat Campaigns data processed.", "entities": [[0, 8, "ANALYSIS_TYPE"], [68, 78, "PATTERN_TYPE"], [97, 110, "COUNT"], [104, 119, "CONNECTION_TYPE"], [120, 133, "DATA_TYPE"]]}
+{"text": "Database entry: Threat_ID Threat_0031, Type: threat indicators, Value: value_31, Created: 2024-08-15, Status: Active, Records: 93", "entities": [[26, 37, "TYPE"], [52, 62, "VALUE"], [90, 101, "METRIC_TYPE"], [102, 108, "COUNT"]]}
+{"text": "Intelligence report: Threat Intelligence case Threat_0097 analyzed. Threat Actors investigation found 485 indicators. Threat Campaigns assessment completed.", "entities": [[75, 81, "COUNT"]]}
+{"text": "Analysis: Threat Intelligence investigation for Threat_0084. Threat Indicators shows 4 patterns. Threat Actors analysis identified 168 connections. Threat Campaigns data processed.", "entities": [[0, 8, "ANALYSIS_TYPE"], [68, 78, "PATTERN_TYPE"], [97, 110, "COUNT"], [104, 119, "CONNECTION_TYPE"], [120, 134, "DATA_TYPE"]]}
+{"text": "Analysis: Threat investigation Threat_0090 found 180 threat indicators records. Threat Actors analysis shows 0 connections. Threat Campaigns data updated.", "entities": [[0, 8, "ANALYSIS_TYPE"], [71, 79, "COUNT"]]}
+{"text": "Database entry: Threat_ID Threat_0066, Type: threat indicators, Value: value_66, Created: 2024-07-15, Status: Active, Records: 198", "entities": [[26, 37, "TYPE"], [52, 62, "VALUE"], [90, 101, "METRIC_TYPE"], [102, 108, "COUNT"]]}
+{"text": "Analysis: Threat Intelligence investigation for Threat_0039. Threat Indicators shows 9 patterns. Threat Actors analysis identified 78 connections. Threat Campaigns data processed.", "entities": [[0, 8, "ANALYSIS_TYPE"], [68, 78, "PATTERN_TYPE"], [97, 110, "COUNT"], [104, 119, "CONNECTION_TYPE"], [120, 133, "DATA_TYPE"]]}
+{"text": "Record: Threat_0058, threat indicators: data_58, threat actors: info_58, threat campaigns: record_58, Date: 2024-11-15, Verified: True", "entities": [[0, 6, "RECORD_TYPE"], [28, 38, "DATA"], [56, 71, "KEYWORD"], [64, 79, "RECORD"], [80, 90, "DATE"], [91, 101, "VERIFICATION_TYPE"], [102, 112, "STATUS"]]}
+{"text": "Database entry: Threat_ID Threat_0021, Type: threat indicators, Value: value_21, Created: 2024-10-15, Status: Active, Records: 63", "entities": [[26, 37, "TYPE"], [52, 62, "VALUE"], [90, 101, "METRIC_TYPE"], [102, 108, "COUNT"]]}
+{"text": "Analysis: Threat Intelligence investigation for Threat_0069. Threat Indicators shows 9 patterns. Threat Actors analysis identified 138 connections. Threat Campaigns data processed.", "entities": [[0, 8, "ANALYSIS_TYPE"], [68, 78, "PATTERN_TYPE"], [97, 110, "COUNT"], [104, 119, "CONNECTION_TYPE"], [120, 134, "DATA_TYPE"]]}
+{"text": "Intelligence report: Threat Intelligence case Threat_0082 analyzed. Threat Actors investigation found 410 indicators. Threat Campaigns assessment completed.", "entities": [[75, 81, "COUNT"]]}
+{"text": "Record: Threat_0003, threat indicators: data_3, threat actors: info_3, threat campaigns: record_3, Date: 2024-04-15, Verified: False", "entities": [[0, 6, "RECORD_TYPE"], [28, 38, "DATA"], [55, 69, "KEYWORD"], [71, 87, "DATE"], [78, 97, "DATE"], [89, 103, "VERIFICATION_TYPE"], [99, 109, "STATUS"]]}
+{"text": "Analysis: Threat investigation Threat_0020 found 40 threat indicators records. Threat Actors analysis shows 0 connections. Threat Campaigns data updated.", "entities": [[0, 8, "ANALYSIS_TYPE"], [70, 78, "COUNT"]]}
+{"text": "Record: Threat_0048, threat indicators: data_48, threat actors: info_48, threat campaigns: record_48, Date: 2024-01-15, Verified: True", "entities": [[0, 6, "RECORD_TYPE"], [28, 38, "DATA"], [56, 71, "KEYWORD"], [64, 79, "RECORD"], [80, 90, "DATE"], [91, 101, "VERIFICATION_TYPE"], [102, 112, "STATUS"]]}
+{"text": "Analysis: Threat investigation Threat_0015 found 30 threat indicators records. Threat Actors analysis shows 0 connections. Threat Campaigns data updated.", "entities": [[0, 8, "ANALYSIS_TYPE"], [70, 78, "COUNT"]]}
+{"text": "Analysis: Threat Intelligence investigation for Threat_0084. Threat Indicators shows 4 patterns. Threat Actors analysis identified 168 connections. Threat Campaigns data processed.", "entities": [[0, 8, "ANALYSIS_TYPE"], [68, 78, "PATTERN_TYPE"], [97, 110, "COUNT"], [104, 119, "CONNECTION_TYPE"], [120, 134, "DATA_TYPE"]]}
+{"text": "Database entry: Threat_ID Threat_0066, Type: threat indicators, Value: value_66, Created: 2024-07-15, Status: Active, Records: 198", "entities": [[26, 37, "TYPE"], [52, 62, "VALUE"], [90, 101, "METRIC_TYPE"], [102, 108, "COUNT"]]}
+{"text": "Analysis: Threat Intelligence investigation for Threat_0019. Threat Indicators shows 9 patterns. Threat Actors analysis identified 38 connections. Threat Campaigns data processed.", "entities": [[0, 8, "ANALYSIS_TYPE"], [68, 78, "PATTERN_TYPE"], [97, 110, "COUNT"], [104, 119, "CONNECTION_TYPE"], [120, 133, "DATA_TYPE"]]}
+{"text": "Analysis: Threat Intelligence investigation for Threat_0024. Threat Indicators shows 4 patterns. Threat Actors analysis identified 48 connections. Threat Campaigns data processed.", "entities": [[0, 8, "ANALYSIS_TYPE"], [68, 78, "PATTERN_TYPE"], [97, 110, "COUNT"], [104, 119, "CONNECTION_TYPE"], [120, 133, "DATA_TYPE"]]}
+{"text": "Analysis: Threat Intelligence investigation for Threat_0024. Threat Indicators shows 4 patterns. Threat Actors analysis identified 48 connections. Threat Campaigns data processed.", "entities": [[0, 8, "ANALYSIS_TYPE"], [68, 78, "PATTERN_TYPE"], [97, 110, "COUNT"], [104, 119, "CONNECTION_TYPE"], [120, 133, "DATA_TYPE"]]}
+{"text": "Intelligence report: Threat Intelligence case Threat_0052 analyzed. Threat Actors investigation found 260 indicators. Threat Campaigns assessment completed.", "entities": [[75, 81, "COUNT"]]}
+{"text": "Database entry: Threat_ID Threat_0016, Type: threat indicators, Value: value_16, Created: 2024-05-15, Status: Active, Records: 48", "entities": [[26, 37, "TYPE"], [52, 62, "VALUE"], [90, 101, "METRIC_TYPE"], [102, 108, "COUNT"]]}
+{"text": "Record: Threat_0078, threat indicators: data_78, threat actors: info_78, threat campaigns: record_78, Date: 2024-07-15, Verified: True", "entities": [[0, 6, "RECORD_TYPE"], [28, 38, "DATA"], [56, 71, "KEYWORD"], [64, 79, "RECORD"], [80, 90, "DATE"], [91, 101, "VERIFICATION_TYPE"], [102, 112, "STATUS"]]}
+{"text": "Analysis: Threat Intelligence investigation for Threat_0009. Threat Indicators shows 9 patterns. Threat Actors analysis identified 18 connections. Threat Campaigns data processed.", "entities": [[0, 8, "ANALYSIS_TYPE"], [68, 78, "PATTERN_TYPE"], [97, 110, "COUNT"], [104, 119, "CONNECTION_TYPE"], [120, 133, "DATA_TYPE"]]}
+{"text": "Analysis: Threat Intelligence investigation for Threat_0039. Threat Indicators shows 9 patterns. Threat Actors analysis identified 78 connections. Threat Campaigns data processed.", "entities": [[0, 8, "ANALYSIS_TYPE"], [68, 78, "PATTERN_TYPE"], [97, 110, "COUNT"], [104, 119, "CONNECTION_TYPE"], [120, 133, "DATA_TYPE"]]}
+{"text": "Analysis: Threat investigation Threat_0075 found 150 threat indicators records. Threat Actors analysis shows 0 connections. Threat Campaigns data updated.", "entities": [[0, 8, "ANALYSIS_TYPE"], [71, 79, "COUNT"]]}
+{"text": "Analysis: Threat Intelligence investigation for Threat_0019. Threat Indicators shows 9 patterns. Threat Actors analysis identified 38 connections. Threat Campaigns data processed.", "entities": [[0, 8, "ANALYSIS_TYPE"], [68, 78, "PATTERN_TYPE"], [97, 110, "COUNT"], [104, 119, "CONNECTION_TYPE"], [120, 133, "DATA_TYPE"]]}
+{"text": "Analysis: Threat investigation Threat_0090 found 180 threat indicators records. Threat Actors analysis shows 0 connections. Threat Campaigns data updated.", "entities": [[0, 8, "ANALYSIS_TYPE"], [71, 79, "COUNT"]]}
+{"text": "Record: Threat_0028, threat indicators: data_28, threat actors: info_28, threat campaigns: record_28, Date: 2024-05-15, Verified: True", "entities": [[0, 6, "RECORD_TYPE"], [28, 38, "DATA"], [56, 71, "KEYWORD"], [64, 79, "RECORD"], [80, 90, "DATE"], [91, 101, "VERIFICATION_TYPE"], [102, 112, "STATUS"]]}
+{"text": "Analysis: Threat Intelligence investigation for Threat_0034. Threat Indicators shows 4 patterns. Threat Actors analysis identified 68 connections. Threat Campaigns data processed.", "entities": [[0, 8, "ANALYSIS_TYPE"], [68, 78, "PATTERN_TYPE"], [97, 110, "COUNT"], [104, 119, "CONNECTION_TYPE"], [120, 133, "DATA_TYPE"]]}
+{"text": "Intelligence report: Threat Intelligence case Threat_0022 analyzed. Threat Actors investigation found 110 indicators. Threat Campaigns assessment completed.", "entities": [[75, 81, "COUNT"]]}
+{"text": "Record: Threat_0088, threat indicators: data_88, threat actors: info_88, threat campaigns: record_88, Date: 2024-05-15, Verified: True", "entities": [[0, 6, "RECORD_TYPE"], [28, 38, "DATA"], [56, 71, "KEYWORD"], [64, 79, "RECORD"], [80, 90, "DATE"], [91, 101, "VERIFICATION_TYPE"], [102, 112, "STATUS"]]}
+{"text": "Intelligence report: Threat Intelligence case Threat_0082 analyzed. Threat Actors investigation found 410 indicators. Threat Campaigns assessment completed.", "entities": [[75, 81, "COUNT"]]}
+{"text": "Analysis: Threat Intelligence investigation for Threat_0074. Threat Indicators shows 4 patterns. Threat Actors analysis identified 148 connections. Threat Campaigns data processed.", "entities": [[0, 8, "ANALYSIS_TYPE"], [68, 78, "PATTERN_TYPE"], [97, 110, "COUNT"], [104, 119, "CONNECTION_TYPE"], [120, 134, "DATA_TYPE"]]}
+{"text": "Record: Threat_0013, threat indicators: data_13, threat actors: info_13, threat campaigns: record_13, Date: 2024-02-15, Verified: False", "entities": [[0, 6, "RECORD_TYPE"], [28, 38, "DATA"], [56, 71, "KEYWORD"], [64, 79, "RECORD"], [80, 90, "DATE"], [91, 101, "VERIFICATION_TYPE"], [102, 112, "STATUS"]]}
+{"text": "Intelligence report: Threat Intelligence case Threat_0002 analyzed. Threat Actors investigation found 10 indicators. Threat Campaigns assessment completed.", "entities": [[75, 81, "COUNT"]]}
+{"text": "Database entry: Threat_ID Threat_0021, Type: threat indicators, Value: value_21, Created: 2024-10-15, Status: Active, Records: 63", "entities": [[26, 37, "TYPE"], [52, 62, "VALUE"], [90, 101, "METRIC_TYPE"], [102, 108, "COUNT"]]}
+{"text": "Database entry: Threat_ID Threat_0086, Type: threat indicators, Value: value_86, Created: 2024-03-15, Status: Active, Records: 258", "entities": [[26, 37, "TYPE"], [52, 62, "VALUE"], [90, 101, "METRIC_TYPE"], [102, 108, "COUNT"]]}
+{"text": "Analysis: Threat investigation Threat_0080 found 160 threat indicators records. Threat Actors analysis shows 0 connections. Threat Campaigns data updated.", "entities": [[0, 8, "ANALYSIS_TYPE"], [71, 79, "COUNT"]]}
+{"text": "Database entry: Threat_ID Threat_0031, Type: threat indicators, Value: value_31, Created: 2024-08-15, Status: Active, Records: 93", "entities": [[26, 37, "TYPE"], [52, 62, "VALUE"], [90, 101, "METRIC_TYPE"], [102, 108, "COUNT"]]}
+{"text": "Analysis: Threat investigation Threat_0055 found 110 threat indicators records. Threat Actors analysis shows 0 connections. Threat Campaigns data updated.", "entities": [[0, 8, "ANALYSIS_TYPE"], [71, 79, "COUNT"]]}
+{"text": "Database entry: Threat_ID Threat_0021, Type: threat indicators, Value: value_21, Created: 2024-10-15, Status: Active, Records: 63", "entities": [[26, 37, "TYPE"], [52, 62, "VALUE"], [90, 101, "METRIC_TYPE"], [102, 108, "COUNT"]]}
+{"text": "Record: Threat_0038, threat indicators: data_38, threat actors: info_38, threat campaigns: record_38, Date: 2024-03-15, Verified: True", "entities": [[0, 6, "RECORD_TYPE"], [28, 38, "DATA"], [56, 71, "KEYWORD"], [64, 79, "RECORD"], [80, 90, "DATE"], [91, 101, "VERIFICATION_TYPE"], [102, 112, "STATUS"]]}
+{"text": "Analysis: Threat Intelligence investigation for Threat_0049. Threat Indicators shows 9 patterns. Threat Actors analysis identified 98 connections. Threat Campaigns data processed.", "entities": [[0, 8, "ANALYSIS_TYPE"], [68, 78, "PATTERN_TYPE"], [97, 110, "COUNT"], [104, 119, "CONNECTION_TYPE"], [120, 133, "DATA_TYPE"]]}
+{"text": "Analysis: Threat Intelligence investigation for Threat_0069. Threat Indicators shows 9 patterns. Threat Actors analysis identified 138 connections. Threat Campaigns data processed.", "entities": [[0, 8, "ANALYSIS_TYPE"], [68, 78, "PATTERN_TYPE"], [97, 110, "COUNT"], [104, 119, "CONNECTION_TYPE"], [120, 134, "DATA_TYPE"]]}
+{"text": "Analysis: Threat investigation Threat_0050 found 100 threat indicators records. Threat Actors analysis shows 0 connections. Threat Campaigns data updated.", "entities": [[0, 8, "ANALYSIS_TYPE"], [71, 79, "COUNT"]]}
+{"text": "Database entry: Threat_ID Threat_0036, Type: threat indicators, Value: value_36, Created: 2024-01-15, Status: Active, Records: 108", "entities": [[26, 37, "TYPE"], [52, 62, "VALUE"], [90, 101, "METRIC_TYPE"], [102, 108, "COUNT"]]}
+{"text": "Record: Threat_0023, threat indicators: data_23, threat actors: info_23, threat campaigns: record_23, Date: 2024-12-15, Verified: False", "entities": [[0, 6, "RECORD_TYPE"], [28, 38, "DATA"], [56, 71, "KEYWORD"], [64, 79, "RECORD"], [80, 90, "DATE"], [91, 101, "VERIFICATION_TYPE"], [102, 112, "STATUS"]]}
+{"text": "Database entry: Threat_ID Threat_0091, Type: threat indicators, Value: value_91, Created: 2024-08-15, Status: Active, Records: 273", "entities": [[26, 37, "TYPE"], [52, 62, "VALUE"], [90, 101, "METRIC_TYPE"], [102, 108, "COUNT"]]}
+{"text": "Analysis: Threat investigation Threat_0015 found 30 threat indicators records. Threat Actors analysis shows 0 connections. Threat Campaigns data updated.", "entities": [[0, 8, "ANALYSIS_TYPE"], [70, 78, "COUNT"]]}
+{"text": "Record: Threat_0043, threat indicators: data_43, threat actors: info_43, threat campaigns: record_43, Date: 2024-08-15, Verified: False", "entities": [[0, 6, "RECORD_TYPE"], [28, 38, "DATA"], [56, 71, "KEYWORD"], [64, 79, "RECORD"], [80, 90, "DATE"], [91, 101, "VERIFICATION_TYPE"], [102, 112, "STATUS"]]}
+{"text": "Database entry: Threat_ID Threat_0086, Type: threat indicators, Value: value_86, Created: 2024-03-15, Status: Active, Records: 258", "entities": [[26, 37, "TYPE"], [52, 62, "VALUE"], [90, 101, "METRIC_TYPE"], [102, 108, "COUNT"]]}
+{"text": "Report: Threat Intelligence analysis completed for case Threat_0001. Threat Indicators investigation revealed 5 key findings. Threat Actors data shows 3 connections.", "entities": [[28, 46, "CASE"], [76, 100, "FINDING_TYPE"]]}
+{"text": "Database entry: Threat_ID Threat_0051, Type: threat indicators, Value: value_51, Created: 2024-04-15, Status: Active, Records: 153", "entities": [[26, 37, "TYPE"], [52, 62, "VALUE"], [90, 101, "METRIC_TYPE"], [102, 108, "COUNT"]]}
+{"text": "Analysis: Threat Intelligence investigation for Threat_0029. Threat Indicators shows 9 patterns. Threat Actors analysis identified 58 connections. Threat Campaigns data processed.", "entities": [[0, 8, "ANALYSIS_TYPE"], [68, 78, "PATTERN_TYPE"], [97, 110, "COUNT"], [104, 119, "CONNECTION_TYPE"], [120, 133, "DATA_TYPE"]]}
+{"text": "Analysis: Threat investigation Threat_0005 found 10 threat indicators records. Threat Actors analysis shows 0 connections. Threat Campaigns data updated.", "entities": [[0, 8, "ANALYSIS_TYPE"], [70, 78, "COUNT"]]}
+{"text": "Database entry: Threat_ID Threat_0076, Type: threat indicators, Value: value_76, Created: 2024-05-15, Status: Active, Records: 228", "entities": [[26, 37, "TYPE"], [52, 62, "VALUE"], [90, 101, "METRIC_TYPE"], [102, 108, "COUNT"]]}
+{"text": "Record: Threat_0038, threat indicators: data_38, threat actors: info_38, threat campaigns: record_38, Date: 2024-03-15, Verified: True", "entities": [[0, 6, "RECORD_TYPE"], [28, 38, "DATA"], [56, 71, "KEYWORD"], [64, 79, "RECORD"], [80, 90, "DATE"], [91, 101, "VERIFICATION_TYPE"], [102, 112, "STATUS"]]}
+{"text": "Intelligence report: Threat Intelligence case Threat_0062 analyzed. Threat Actors investigation found 310 indicators. Threat Campaigns assessment completed.", "entities": [[75, 81, "COUNT"]]}
+{"text": "Analysis: Threat investigation Threat_0050 found 100 threat indicators records. Threat Actors analysis shows 0 connections. Threat Campaigns data updated.", "entities": [[0, 8, "ANALYSIS_TYPE"], [71, 79, "COUNT"]]}
+{"text": "Intelligence report: Threat Intelligence case Threat_0052 analyzed. Threat Actors investigation found 260 indicators. Threat Campaigns assessment completed.", "entities": [[75, 81, "COUNT"]]}
+{"text": "Analysis: Threat investigation Threat_0000 found 0 threat indicators records. Threat Actors analysis shows 0 connections. Threat Campaigns data updated.", "entities": [[0, 8, "ANALYSIS_TYPE"], [69, 84, "COUNT"]]}
+{"text": "Record: Threat_0038, threat indicators: data_38, threat actors: info_38, threat campaigns: record_38, Date: 2024-03-15, Verified: True", "entities": [[0, 6, "RECORD_TYPE"], [28, 38, "DATA"], [56, 71, "KEYWORD"], [64, 79, "RECORD"], [80, 90, "DATE"], [91, 101, "VERIFICATION_TYPE"], [102, 112, "STATUS"]]}
+{"text": "Intelligence report: Threat Intelligence case Threat_0087 analyzed. Threat Actors investigation found 435 indicators. Threat Campaigns assessment completed.", "entities": [[75, 81, "COUNT"]]}
+{"text": "Record: Threat_0048, threat indicators: data_48, threat actors: info_48, threat campaigns: record_48, Date: 2024-01-15, Verified: True", "entities": [[0, 6, "RECORD_TYPE"], [28, 38, "DATA"], [56, 71, "KEYWORD"], [64, 79, "RECORD"], [80, 90, "DATE"], [91, 101, "VERIFICATION_TYPE"], [102, 112, "STATUS"]]}
+{"text": "Analysis: Threat Intelligence investigation for Threat_0049. Threat Indicators shows 9 patterns. Threat Actors analysis identified 98 connections. Threat Campaigns data processed.", "entities": [[0, 8, "ANALYSIS_TYPE"], [68, 78, "PATTERN_TYPE"], [97, 110, "COUNT"], [104, 119, "CONNECTION_TYPE"], [120, 133, "DATA_TYPE"]]}
+{"text": "Intelligence report: Threat Intelligence case Threat_0072 analyzed. Threat Actors investigation found 360 indicators. Threat Campaigns assessment completed.", "entities": [[75, 81, "COUNT"]]}
+{"text": "Intelligence report: Threat Intelligence case Threat_0062 analyzed. Threat Actors investigation found 310 indicators. Threat Campaigns assessment completed.", "entities": [[75, 81, "COUNT"]]}
+{"text": "Database entry: Threat_ID Threat_0076, Type: threat indicators, Value: value_76, Created: 2024-05-15, Status: Active, Records: 228", "entities": [[26, 37, "TYPE"], [52, 62, "VALUE"], [90, 101, "METRIC_TYPE"], [102, 108, "COUNT"]]}
+{"text": "Intelligence report: Threat Intelligence case Threat_0092 analyzed. Threat Actors investigation found 460 indicators. Threat Campaigns assessment completed.", "entities": [[75, 81, "COUNT"]]}
+{"text": "Analysis: Threat Intelligence investigation for Threat_0094. Threat Indicators shows 4 patterns. Threat Actors analysis identified 188 connections. Threat Campaigns data processed.", "entities": [[0, 8, "ANALYSIS_TYPE"], [68, 78, "PATTERN_TYPE"], [97, 110, "COUNT"], [104, 119, "CONNECTION_TYPE"], [120, 134, "DATA_TYPE"]]}
+{"text": "Analysis: Threat Intelligence investigation for Threat_0079. Threat Indicators shows 9 patterns. Threat Actors analysis identified 158 connections. Threat Campaigns data processed.", "entities": [[0, 8, "ANALYSIS_TYPE"], [68, 78, "PATTERN_TYPE"], [97, 110, "COUNT"], [104, 119, "CONNECTION_TYPE"], [120, 134, "DATA_TYPE"]]}
+{"text": "Analysis: Threat Intelligence investigation for Threat_0054. Threat Indicators shows 4 patterns. Threat Actors analysis identified 108 connections. Threat Campaigns data processed.", "entities": [[0, 8, "ANALYSIS_TYPE"], [68, 78, "PATTERN_TYPE"], [97, 110, "COUNT"], [104, 119, "CONNECTION_TYPE"], [120, 134, "DATA_TYPE"]]}
+{"text": "Analysis: Threat Intelligence investigation for Threat_0059. Threat Indicators shows 9 patterns. Threat Actors analysis identified 118 connections. Threat Campaigns data processed.", "entities": [[0, 8, "ANALYSIS_TYPE"], [68, 78, "PATTERN_TYPE"], [97, 110, "COUNT"], [104, 119, "CONNECTION_TYPE"], [120, 134, "DATA_TYPE"]]}
+{"text": "Record: Threat_0048, threat indicators: data_48, threat actors: info_48, threat campaigns: record_48, Date: 2024-01-15, Verified: True", "entities": [[0, 6, "RECORD_TYPE"], [28, 38, "DATA"], [56, 71, "KEYWORD"], [64, 79, "RECORD"], [80, 90, "DATE"], [91, 101, "VERIFICATION_TYPE"], [102, 112, "STATUS"]]}
+{"text": "Intelligence report: Threat Intelligence case Threat_0087 analyzed. Threat Actors investigation found 435 indicators. Threat Campaigns assessment completed.", "entities": [[75, 81, "COUNT"]]}
+{"text": "Analysis: Threat investigation Threat_0080 found 160 threat indicators records. Threat Actors analysis shows 0 connections. Threat Campaigns data updated.", "entities": [[0, 8, "ANALYSIS_TYPE"], [71, 79, "COUNT"]]}
+{"text": "Record: Threat_0093, threat indicators: data_93, threat actors: info_93, threat campaigns: record_93, Date: 2024-10-15, Verified: False", "entities": [[0, 6, "RECORD_TYPE"], [28, 38, "DATA"], [56, 71, "KEYWORD"], [64, 79, "RECORD"], [80, 90, "DATE"], [91, 101, "VERIFICATION_TYPE"], [102, 112, "STATUS"]]}
+{"text": "Analysis: Threat Intelligence investigation for Threat_0094. Threat Indicators shows 4 patterns. Threat Actors analysis identified 188 connections. Threat Campaigns data processed.", "entities": [[0, 8, "ANALYSIS_TYPE"], [68, 78, "PATTERN_TYPE"], [97, 110, "COUNT"], [104, 119, "CONNECTION_TYPE"], [120, 134, "DATA_TYPE"]]}
+{"text": "Analysis: Threat investigation Threat_0065 found 130 threat indicators records. Threat Actors analysis shows 0 connections. Threat Campaigns data updated.", "entities": [[0, 8, "ANALYSIS_TYPE"], [71, 79, "COUNT"]]}
+{"text": "Database entry: Threat_ID Threat_0046, Type: threat indicators, Value: value_46, Created: 2024-11-15, Status: Active, Records: 138", "entities": [[26, 37, "TYPE"], [52, 62, "VALUE"], [90, 101, "METRIC_TYPE"], [102, 108, "COUNT"]]}
+{"text": "Intelligence report: Threat Intelligence case Threat_0027 analyzed. Threat Actors investigation found 135 indicators. Threat Campaigns assessment completed.", "entities": [[75, 81, "COUNT"]]}
+{"text": "Analysis: Threat investigation Threat_0085 found 170 threat indicators records. Threat Actors analysis shows 0 connections. Threat Campaigns data updated.", "entities": [[0, 8, "ANALYSIS_TYPE"], [71, 79, "COUNT"]]}
+{"text": "Record: Threat_0083, threat indicators: data_83, threat actors: info_83, threat campaigns: record_83, Date: 2024-12-15, Verified: False", "entities": [[0, 6, "RECORD_TYPE"], [28, 38, "DATA"], [56, 71, "KEYWORD"], [64, 79, "RECORD"], [80, 90, "DATE"], [91, 101, "VERIFICATION_TYPE"], [102, 112, "STATUS"]]}
+{"text": "Analysis: Threat Intelligence investigation for Threat_0089. Threat Indicators shows 9 patterns. Threat Actors analysis identified 178 connections. Threat Campaigns data processed.", "entities": [[0, 8, "ANALYSIS_TYPE"], [68, 78, "PATTERN_TYPE"], [97, 110, "COUNT"], [104, 119, "CONNECTION_TYPE"], [120, 134, "DATA_TYPE"]]}
+{"text": "Database entry: Threat_ID Threat_0011, Type: threat indicators, Value: value_11, Created: 2024-12-15, Status: Active, Records: 33", "entities": [[26, 37, "TYPE"], [52, 62, "VALUE"], [90, 101, "METRIC_TYPE"], [102, 108, "COUNT"]]}
+{"text": "Intelligence report: Threat Intelligence case Threat_0032 analyzed. Threat Actors investigation found 160 indicators. Threat Campaigns assessment completed.", "entities": [[75, 81, "COUNT"]]}
+{"text": "Record: Threat_0008, threat indicators: data_8, threat actors: info_8, threat campaigns: record_8, Date: 2024-09-15, Verified: True", "entities": [[0, 6, "RECORD_TYPE"], [28, 38, "DATA"], [55, 69, "KEYWORD"], [71, 87, "DATE"], [78, 97, "DATE"], [89, 103, "VERIFICATION_TYPE"], [99, 109, "STATUS"]]}
+{"text": "Database entry: Threat_ID Threat_0096, Type: threat indicators, Value: value_96, Created: 2024-01-15, Status: Active, Records: 288", "entities": [[26, 37, "TYPE"], [52, 62, "VALUE"], [90, 101, "METRIC_TYPE"], [102, 108, "COUNT"]]}
+{"text": "Record: Threat_0078, threat indicators: data_78, threat actors: info_78, threat campaigns: record_78, Date: 2024-07-15, Verified: True", "entities": [[0, 6, "RECORD_TYPE"], [28, 38, "DATA"], [56, 71, "KEYWORD"], [64, 79, "RECORD"], [80, 90, "DATE"], [91, 101, "VERIFICATION_TYPE"], [102, 112, "STATUS"]]}
+{"text": "Record: Threat_0018, threat indicators: data_18, threat actors: info_18, threat campaigns: record_18, Date: 2024-07-15, Verified: True", "entities": [[0, 6, "RECORD_TYPE"], [28, 38, "DATA"], [56, 71, "KEYWORD"], [64, 79, "RECORD"], [80, 90, "DATE"], [91, 101, "VERIFICATION_TYPE"], [102, 112, "STATUS"]]}
+{"text": "Database entry: Threat_ID Threat_0006, Type: threat indicators, Value: value_6, Created: 2024-07-15, Status: Active, Records: 18", "entities": [[26, 37, "TYPE"], [52, 62, "VALUE"], [80, 93, "STATUS"], [89, 100, "METRIC_TYPE"], [101, 107, "COUNT"]]}
+{"text": "Record: Threat_0063, threat indicators: data_63, threat actors: info_63, threat campaigns: record_63, Date: 2024-04-15, Verified: False", "entities": [[0, 6, "RECORD_TYPE"], [28, 38, "DATA"], [56, 71, "KEYWORD"], [64, 79, "RECORD"], [80, 90, "DATE"], [91, 101, "VERIFICATION_TYPE"], [102, 112, "STATUS"]]}
+{"text": "Database entry: Threat_ID Threat_0071, Type: threat indicators, Value: value_71, Created: 2024-12-15, Status: Active, Records: 213", "entities": [[26, 37, "TYPE"], [52, 62, "VALUE"], [90, 101, "METRIC_TYPE"], [102, 108, "COUNT"]]}
+{"text": "Intelligence report: Threat Intelligence case Threat_0092 analyzed. Threat Actors investigation found 460 indicators. Threat Campaigns assessment completed.", "entities": [[75, 81, "COUNT"]]}
+{"text": "Analysis: Threat investigation Threat_0005 found 10 threat indicators records. Threat Actors analysis shows 0 connections. Threat Campaigns data updated.", "entities": [[0, 8, "ANALYSIS_TYPE"], [70, 78, "COUNT"]]}
+{"text": "Intelligence report: Threat Intelligence case Threat_0037 analyzed. Threat Actors investigation found 185 indicators. Threat Campaigns assessment completed.", "entities": [[75, 81, "COUNT"]]}
+{"text": "Analysis: Threat Intelligence investigation for Threat_0014. Threat Indicators shows 4 patterns. Threat Actors analysis identified 28 connections. Threat Campaigns data processed.", "entities": [[0, 8, "ANALYSIS_TYPE"], [68, 78, "PATTERN_TYPE"], [97, 110, "COUNT"], [104, 119, "CONNECTION_TYPE"], [120, 133, "DATA_TYPE"]]}
+{"text": "Analysis: Threat Intelligence investigation for Threat_0089. Threat Indicators shows 9 patterns. Threat Actors analysis identified 178 connections. Threat Campaigns data processed.", "entities": [[0, 8, "ANALYSIS_TYPE"], [68, 78, "PATTERN_TYPE"], [97, 110, "COUNT"], [104, 119, "CONNECTION_TYPE"], [120, 134, "DATA_TYPE"]]}
+{"text": "Database entry: Threat_ID Threat_0056, Type: threat indicators, Value: value_56, Created: 2024-09-15, Status: Active, Records: 168", "entities": [[26, 37, "TYPE"], [52, 62, "VALUE"], [90, 101, "METRIC_TYPE"], [102, 108, "COUNT"]]}
+{"text": "Database entry: Threat_ID Threat_0036, Type: threat indicators, Value: value_36, Created: 2024-01-15, Status: Active, Records: 108", "entities": [[26, 37, "TYPE"], [52, 62, "VALUE"], [90, 101, "METRIC_TYPE"], [102, 108, "COUNT"]]}
+{"text": "Database entry: Threat_ID Threat_0001, Type: threat indicators, Value: value_1, Created: 2024-02-15, Status: Active, Records: 3", "entities": [[26, 37, "TYPE"], [52, 62, "VALUE"], [80, 93, "STATUS"], [89, 100, "METRIC_TYPE"], [101, 107, "COUNT"]]}
+{"text": "Analysis: Threat Intelligence investigation for Threat_0084. Threat Indicators shows 4 patterns. Threat Actors analysis identified 168 connections. Threat Campaigns data processed.", "entities": [[0, 8, "ANALYSIS_TYPE"], [68, 78, "PATTERN_TYPE"], [97, 110, "COUNT"], [104, 119, "CONNECTION_TYPE"], [120, 134, "DATA_TYPE"]]}
+{"text": "Analysis: Threat investigation Threat_0020 found 40 threat indicators records. Threat Actors analysis shows 0 connections. Threat Campaigns data updated.", "entities": [[0, 8, "ANALYSIS_TYPE"], [70, 78, "COUNT"]]}
+{"text": "Database entry: Threat_ID Threat_0096, Type: threat indicators, Value: value_96, Created: 2024-01-15, Status: Active, Records: 288", "entities": [[26, 37, "TYPE"], [52, 62, "VALUE"], [90, 101, "METRIC_TYPE"], [102, 108, "COUNT"]]}
+{"text": "Record: Threat_0018, threat indicators: data_18, threat actors: info_18, threat campaigns: record_18, Date: 2024-07-15, Verified: True", "entities": [[0, 6, "RECORD_TYPE"], [28, 38, "DATA"], [56, 71, "KEYWORD"], [64, 79, "RECORD"], [80, 90, "DATE"], [91, 101, "VERIFICATION_TYPE"], [102, 112, "STATUS"]]}
+{"text": "Intelligence report: Threat Intelligence case Threat_0087 analyzed. Threat Actors investigation found 435 indicators. Threat Campaigns assessment completed.", "entities": [[75, 81, "COUNT"]]}
+{"text": "Analysis: Threat Intelligence investigation for Threat_0019. Threat Indicators shows 9 patterns. Threat Actors analysis identified 38 connections. Threat Campaigns data processed.", "entities": [[0, 8, "ANALYSIS_TYPE"], [68, 78, "PATTERN_TYPE"], [97, 110, "COUNT"], [104, 119, "CONNECTION_TYPE"], [120, 133, "DATA_TYPE"]]}
+{"text": "Can you help me with this?", "entities": []}
+{"text": "I need to check something.", "entities": []}
+{"text": "What is the status?", "entities": []}
+{"text": "How do I do this?", "entities": []}
+{"text": "Tell me more about it.", "entities": []}
+{"text": "Is this safe to use?", "entities": []}
+{"text": "Let me know if you need anything.", "entities": []}
+{"text": "Thanks for your help.", "entities": []}
+{"text": "I will get back to you.", "entities": []}
+{"text": "Please review this document.", "entities": []}
+{"text": "What should I do next?", "entities": []}
+{"text": "How does this work?", "entities": []}
+{"text": "Why is this happening?", "entities": []}
+{"text": "When will this be ready?", "entities": []}
+{"text": "Where can I find this?", "entities": []}
+{"text": "Who should I contact?", "entities": []}
+{"text": "Hey, what's up?", "entities": []}
+{"text": "That's interesting.", "entities": []}
+{"text": "I see what you mean.", "entities": []}
+{"text": "That makes sense.", "entities": []}
+{"text": "Got it, thanks.", "entities": []}
+{"text": "Follow the steps carefully.", "entities": []}
+{"text": "Make sure to save your work.", "entities": []}
+{"text": "Check the settings first.", "entities": []}
+{"text": "Review the documentation.", "entities": []}
+{"text": "Read the instructions.", "entities": []}
+{"text": "This is important.", "entities": []}
+{"text": "That looks good.", "entities": []}
+{"text": "Everything seems fine.", "entities": []}
+{"text": "Nothing to report.", "entities": []}
+{"text": "All systems operational.", "entities": []}
+{"text": "The system is secure.", "entities": []}
+{"text": "All checks passed.", "entities": []}
+{"text": "No issues detected.", "entities": []}
+{"text": "Everything is working correctly.", "entities": []}
+{"text": "The configuration looks good.", "entities": []}
+{"text": "No vulnerabilities found.", "entities": []}
+{"text": "Security measures are in place.", "entities": []}
+{"text": "The audit was successful.", "entities": []}
+{"text": "The information is verified.", "entities": []}
+{"text": "Scan for CVE-2019-78411 across all endpoints", "entities": [[9, 23, "CVE_ID"]]}
+{"text": "Critical vulnerability CVE-2022-44167 requires immediate attention", "entities": [[23, 37, "CVE_ID"]]}
+{"text": "CVSS score for CVE-2018-53243 is 9.8", "entities": [[15, 29, "CVE_ID"]]}
+{"text": "Remediate CVE-2018-76223 before the next security audit", "entities": [[10, 24, "CVE_ID"]]}
+{"text": "Vulnerability CVE-2022-19095 was discovered in the system", "entities": [[14, 28, "CVE_ID"]]}
+{"text": "Threat intelligence indicates active exploitation of CVE-2018-73239", "entities": [[53, 67, "CVE_ID"]]}
+{"text": "Vulnerability CVE-2019-48664 was discovered in the system", "entities": [[14, 28, "CVE_ID"]]}
+{"text": "CVSS score for CVE-2022-37753 is 9.8", "entities": [[15, 29, "CVE_ID"]]}
+{"text": "Affected systems must patch CVE-2022-71819 by end of week", "entities": [[28, 42, "CVE_ID"]]}
+{"text": "Affected systems must patch CVE-2020-73016 by end of week", "entities": [[28, 42, "CVE_ID"]]}
+{"text": "Remediate CVE-2024-60040 before the next security audit", "entities": [[10, 24, "CVE_ID"]]}
+{"text": "Critical vulnerability CVE-2020-76022 requires immediate attention", "entities": [[23, 37, "CVE_ID"]]}
+{"text": "Exploit for CVE-2019-03163 is available in the wild", "entities": [[12, 26, "CVE_ID"]]}
+{"text": "Exploit for CVE-2020-37106 is available in the wild", "entities": [[12, 26, "CVE_ID"]]}
+{"text": "Patch CVE-2022-18703 immediately to prevent exploitation", "entities": [[6, 20, "CVE_ID"]]}
+{"text": "Threat intelligence indicates active exploitation of CVE-2023-00271", "entities": [[53, 67, "CVE_ID"]]}
+{"text": "Patch CVE-2021-31085 immediately to prevent exploitation", "entities": [[6, 20, "CVE_ID"]]}
+{"text": "Remediate CVE-2018-59442 before the next security audit", "entities": [[10, 24, "CVE_ID"]]}
+{"text": "Scan for CVE-2018-50094 across all endpoints", "entities": [[9, 23, "CVE_ID"]]}
+{"text": "CVSS score for CVE-2024-94224 is 9.8", "entities": [[15, 29, "CVE_ID"]]}
+{"text": "Vulnerability CVE-2022-02961 was discovered in the system", "entities": [[14, 28, "CVE_ID"]]}
+{"text": "Affected systems must patch CVE-2021-66234 by end of week", "entities": [[28, 42, "CVE_ID"]]}
+{"text": "Scan for CVE-2023-26842 across all endpoints", "entities": [[9, 23, "CVE_ID"]]}
+{"text": "Security team investigating CVE-2018-48818 impact", "entities": [[28, 42, "CVE_ID"]]}
+{"text": "Scan for CVE-2024-81345 across all endpoints", "entities": [[9, 23, "CVE_ID"]]}
+{"text": "Remediate CVE-2023-91346 before the next security audit", "entities": [[10, 24, "CVE_ID"]]}
+{"text": "Vulnerability CVE-2020-67312 was discovered in the system", "entities": [[14, 28, "CVE_ID"]]}
+{"text": "Remediate CVE-2023-29837 before the next security audit", "entities": [[10, 24, "CVE_ID"]]}
+{"text": "Remediate CVE-2019-21252 before the next security audit", "entities": [[10, 24, "CVE_ID"]]}
+{"text": "Security team investigating CVE-2021-47199 impact", "entities": [[28, 42, "CVE_ID"]]}
+{"text": "Exploit for CVE-2023-28443 is available in the wild", "entities": [[12, 26, "CVE_ID"]]}
+{"text": "Security team investigating CVE-2020-39371 impact", "entities": [[28, 42, "CVE_ID"]]}
+{"text": "Scan for CVE-2019-55615 across all endpoints", "entities": [[9, 23, "CVE_ID"]]}
+{"text": "Remediate CVE-2020-59131 before the next security audit", "entities": [[10, 24, "CVE_ID"]]}
+{"text": "Patch CVE-2021-35302 immediately to prevent exploitation", "entities": [[6, 20, "CVE_ID"]]}
+{"text": "Exploit for CVE-2018-63575 is available in the wild", "entities": [[12, 26, "CVE_ID"]]}
+{"text": "Critical vulnerability CVE-2018-75267 requires immediate attention", "entities": [[23, 37, "CVE_ID"]]}
+{"text": "Affected systems must patch CVE-2021-82755 by end of week", "entities": [[28, 42, "CVE_ID"]]}
+{"text": "Patch CVE-2020-69146 immediately to prevent exploitation", "entities": [[6, 20, "CVE_ID"]]}
+{"text": "Remediate CVE-2023-26435 before the next security audit", "entities": [[10, 24, "CVE_ID"]]}
+{"text": "Remediate CVE-2023-95784 before the next security audit", "entities": [[10, 24, "CVE_ID"]]}
+{"text": "Security team investigating CVE-2020-87848 impact", "entities": [[28, 42, "CVE_ID"]]}
+{"text": "Patch CVE-2021-11093 immediately to prevent exploitation", "entities": [[6, 20, "CVE_ID"]]}
+{"text": "CVSS score for CVE-2022-45702 is 9.8", "entities": [[15, 29, "CVE_ID"]]}
+{"text": "Affected systems must patch CVE-2022-51336 by end of week", "entities": [[28, 42, "CVE_ID"]]}
+{"text": "Remediate CVE-2023-86693 before the next security audit", "entities": [[10, 24, "CVE_ID"]]}
+{"text": "Patch CVE-2022-56328 immediately to prevent exploitation", "entities": [[6, 20, "CVE_ID"]]}
+{"text": "Exploit for CVE-2022-24551 is available in the wild", "entities": [[12, 26, "CVE_ID"]]}
+{"text": "CVSS score for CVE-2020-93265 is 9.8", "entities": [[15, 29, "CVE_ID"]]}
+{"text": "Threat intelligence indicates active exploitation of CVE-2024-33786", "entities": [[53, 67, "CVE_ID"]]}
+{"text": "Security team investigating CVE-2022-41480 impact", "entities": [[28, 42, "CVE_ID"]]}
+{"text": "Vulnerability CVE-2020-32322 was discovered in the system", "entities": [[14, 28, "CVE_ID"]]}
+{"text": "Scan for CVE-2018-73665 across all endpoints", "entities": [[9, 23, "CVE_ID"]]}
+{"text": "Exploit for CVE-2019-93177 is available in the wild", "entities": [[12, 26, "CVE_ID"]]}
+{"text": "Exploit for CVE-2018-11566 is available in the wild", "entities": [[12, 26, "CVE_ID"]]}
+{"text": "Vulnerability CVE-2018-34002 was discovered in the system", "entities": [[14, 28, "CVE_ID"]]}
+{"text": "Security team investigating CVE-2024-30007 impact", "entities": [[28, 42, "CVE_ID"]]}
+{"text": "Remediate CVE-2023-50922 before the next security audit", "entities": [[10, 24, "CVE_ID"]]}
+{"text": "Remediate CVE-2022-92291 before the next security audit", "entities": [[10, 24, "CVE_ID"]]}
+{"text": "Critical vulnerability CVE-2019-91789 requires immediate attention", "entities": [[23, 37, "CVE_ID"]]}
+{"text": "Security team investigating CVE-2021-62325 impact", "entities": [[28, 42, "CVE_ID"]]}
+{"text": "Threat intelligence indicates active exploitation of CVE-2021-81293", "entities": [[53, 67, "CVE_ID"]]}
+{"text": "Threat intelligence indicates active exploitation of CVE-2023-22897", "entities": [[53, 67, "CVE_ID"]]}
+{"text": "Security team investigating CVE-2021-99573 impact", "entities": [[28, 42, "CVE_ID"]]}
+{"text": "Critical vulnerability CVE-2024-01571 requires immediate attention", "entities": [[23, 37, "CVE_ID"]]}
+{"text": "Remediate CVE-2023-65817 before the next security audit", "entities": [[10, 24, "CVE_ID"]]}
+{"text": "Remediate CVE-2024-92754 before the next security audit", "entities": [[10, 24, "CVE_ID"]]}
+{"text": "Vulnerability CVE-2024-12940 was discovered in the system", "entities": [[14, 28, "CVE_ID"]]}
+{"text": "Affected systems must patch CVE-2023-07074 by end of week", "entities": [[28, 42, "CVE_ID"]]}
+{"text": "Critical vulnerability CVE-2024-14557 requires immediate attention", "entities": [[23, 37, "CVE_ID"]]}
+{"text": "Scan for CVE-2023-80306 across all endpoints", "entities": [[9, 23, "CVE_ID"]]}
+{"text": "Vulnerability CVE-2021-25577 was discovered in the system", "entities": [[14, 28, "CVE_ID"]]}
+{"text": "Vulnerability CVE-2024-78459 was discovered in the system", "entities": [[14, 28, "CVE_ID"]]}
+{"text": "Critical vulnerability CVE-2020-14265 requires immediate attention", "entities": [[23, 37, "CVE_ID"]]}
+{"text": "CVSS score for CVE-2021-84230 is 9.8", "entities": [[15, 29, "CVE_ID"]]}
+{"text": "CVSS score for CVE-2019-31993 is 9.8", "entities": [[15, 29, "CVE_ID"]]}
+{"text": "Patch CVE-2024-68205 immediately to prevent exploitation", "entities": [[6, 20, "CVE_ID"]]}
+{"text": "Threat intelligence indicates active exploitation of CVE-2018-50526", "entities": [[53, 67, "CVE_ID"]]}
+{"text": "Threat intelligence indicates active exploitation of CVE-2018-20776", "entities": [[53, 67, "CVE_ID"]]}
+{"text": "Threat intelligence indicates active exploitation of CVE-2023-45696", "entities": [[53, 67, "CVE_ID"]]}
+{"text": "Critical vulnerability CVE-2022-32651 requires immediate attention", "entities": [[23, 37, "CVE_ID"]]}
+{"text": "Vulnerability CVE-2019-16571 was discovered in the system", "entities": [[14, 28, "CVE_ID"]]}
+{"text": "Scan for CVE-2024-89694 across all endpoints", "entities": [[9, 23, "CVE_ID"]]}
+{"text": "Profile Equation Group capabilities and motivations", "entities": [[8, 22, "THREAT_ACTOR"]]}
+{"text": "Egregor is known for targeting financial institutions", "entities": [[0, 7, "THREAT_ACTOR"]]}
+{"text": "Ragnar Locker uses sophisticated evasion techniques", "entities": [[0, 13, "THREAT_ACTOR"]]}
+{"text": "REvil has been linked to multiple breaches", "entities": [[0, 5, "THREAT_ACTOR"]]}
+{"text": "Conti has been linked to multiple breaches", "entities": [[0, 5, "THREAT_ACTOR"]]}
+{"text": "Intelligence indicates Ragnar Locker is behind this attack", "entities": [[23, 36, "THREAT_ACTOR"]]}
+{"text": "Mespinoza has been linked to multiple breaches", "entities": [[0, 9, "THREAT_ACTOR"]]}
+{"text": "Intelligence indicates Ragnar Locker is behind this attack", "entities": [[23, 36, "THREAT_ACTOR"]]}
+{"text": "Attribution analysis points to APT28", "entities": [[31, 36, "THREAT_ACTOR"]]}
+{"text": "Profile Sandworm capabilities and motivations", "entities": [[8, 16, "THREAT_ACTOR"]]}
+{"text": "Conti uses sophisticated evasion techniques", "entities": [[0, 5, "THREAT_ACTOR"]]}
+{"text": "Profile Cozy Bear capabilities and motivations", "entities": [[8, 17, "THREAT_ACTOR"]]}
+{"text": "Track ALPHV infrastructure and indicators", "entities": [[6, 11, "THREAT_ACTOR"]]}
+{"text": "Track APT28 infrastructure and indicators", "entities": [[6, 11, "THREAT_ACTOR"]]}
+{"text": "ALPHV uses sophisticated evasion techniques", "entities": [[0, 5, "THREAT_ACTOR"]]}
+{"text": "Attribution analysis points to ALPHV", "entities": [[31, 36, "THREAT_ACTOR"]]}
+{"text": "Threat actor Ryuk has been active in recent campaigns", "entities": [[13, 17, "THREAT_ACTOR"]]}
+{"text": "Sandworm is known for targeting financial institutions", "entities": [[0, 8, "THREAT_ACTOR"]]}
+{"text": "Threat actor ALPHV has been active in recent campaigns", "entities": [[13, 18, "THREAT_ACTOR"]]}
+{"text": "Track APT41 infrastructure and indicators", "entities": [[6, 11, "THREAT_ACTOR"]]}
+{"text": "Turla is known for targeting financial institutions", "entities": [[0, 5, "THREAT_ACTOR"]]}
+{"text": "Track Wizard Spider infrastructure and indicators", "entities": [[6, 19, "THREAT_ACTOR"]]}
+{"text": "Track BlackCat infrastructure and indicators", "entities": [[6, 14, "THREAT_ACTOR"]]}
+{"text": "Equation Group has been linked to multiple breaches", "entities": [[0, 14, "THREAT_ACTOR"]]}
+{"text": "LockBit uses sophisticated evasion techniques", "entities": [[0, 7, "THREAT_ACTOR"]]}
+{"text": "Investigate Turla activities in our network", "entities": [[12, 17, "THREAT_ACTOR"]]}
+{"text": "Threat actor Egregor has been active in recent campaigns", "entities": [[13, 20, "THREAT_ACTOR"]]}
+{"text": "Intelligence indicates REvil is behind this attack", "entities": [[23, 28, "THREAT_ACTOR"]]}
+{"text": "Attribution analysis points to Cozy Bear", "entities": [[31, 40, "THREAT_ACTOR"]]}
+{"text": "Investigate REvil activities in our network", "entities": [[12, 17, "THREAT_ACTOR"]]}
+{"text": "Intelligence indicates Wizard Spider is behind this attack", "entities": [[23, 36, "THREAT_ACTOR"]]}
+{"text": "APT41 is known for targeting financial institutions", "entities": [[0, 5, "THREAT_ACTOR"]]}
+{"text": "Ragnar Locker has been linked to multiple breaches", "entities": [[0, 13, "THREAT_ACTOR"]]}
+{"text": "Investigate APT29 activities in our network", "entities": [[12, 17, "THREAT_ACTOR"]]}
+{"text": "Mespinoza has been linked to multiple breaches", "entities": [[0, 9, "THREAT_ACTOR"]]}
+{"text": "Intelligence indicates APT41 is behind this attack", "entities": [[23, 28, "THREAT_ACTOR"]]}
+{"text": "Threat actor Fancy Bear has been active in recent campaigns", "entities": [[13, 23, "THREAT_ACTOR"]]}
+{"text": "Profile Wizard Spider capabilities and motivations", "entities": [[8, 21, "THREAT_ACTOR"]]}
+{"text": "Mespinoza has been linked to multiple breaches", "entities": [[0, 9, "THREAT_ACTOR"]]}
+{"text": "Threat actor Cozy Bear has been active in recent campaigns", "entities": [[13, 22, "THREAT_ACTOR"]]}
+{"text": "REvil is known for targeting financial institutions", "entities": [[0, 5, "THREAT_ACTOR"]]}
+{"text": "UNC2452 has been linked to multiple breaches", "entities": [[0, 7, "THREAT_ACTOR"]]}
+{"text": "Investigate REvil activities in our network", "entities": [[12, 17, "THREAT_ACTOR"]]}
+{"text": "Profile Sandworm capabilities and motivations", "entities": [[8, 16, "THREAT_ACTOR"]]}
+{"text": "Ryuk has been linked to multiple breaches", "entities": [[0, 4, "THREAT_ACTOR"]]}
+{"text": "Track Conti infrastructure and indicators", "entities": [[6, 11, "THREAT_ACTOR"]]}
+{"text": "Monitor for UNC2452 TTPs in security logs", "entities": [[12, 19, "THREAT_ACTOR"]]}
+{"text": "Investigate DarkSide activities in our network", "entities": [[12, 20, "THREAT_ACTOR"]]}
+{"text": "Intelligence indicates ALPHV is behind this attack", "entities": [[23, 28, "THREAT_ACTOR"]]}
+{"text": "Profile BlackCat capabilities and motivations", "entities": [[8, 16, "THREAT_ACTOR"]]}
+{"text": "Intelligence indicates LockBit is behind this attack", "entities": [[23, 30, "THREAT_ACTOR"]]}
+{"text": "Monitor for Maze TTPs in security logs", "entities": [[12, 16, "THREAT_ACTOR"]]}
+{"text": "Investigate Turla activities in our network", "entities": [[12, 17, "THREAT_ACTOR"]]}
+{"text": "Threat actor Fancy Bear has been active in recent campaigns", "entities": [[13, 23, "THREAT_ACTOR"]]}
+{"text": "Investigate UNC2452 activities in our network", "entities": [[12, 19, "THREAT_ACTOR"]]}
+{"text": "Profile Lazarus capabilities and motivations", "entities": [[8, 15, "THREAT_ACTOR"]]}
+{"text": "Intelligence indicates LockBit is behind this attack", "entities": [[23, 30, "THREAT_ACTOR"]]}
+{"text": "Monitor for Equation Group TTPs in security logs", "entities": [[12, 26, "THREAT_ACTOR"]]}
+{"text": "Intelligence indicates APT41 is behind this attack", "entities": [[23, 28, "THREAT_ACTOR"]]}
+{"text": "Ragnar Locker has been linked to multiple breaches", "entities": [[0, 13, "THREAT_ACTOR"]]}
+{"text": "Threat actor APT29 has been active in recent campaigns", "entities": [[13, 18, "THREAT_ACTOR"]]}
+{"text": "REvil uses sophisticated evasion techniques", "entities": [[0, 5, "THREAT_ACTOR"]]}
+{"text": "Intelligence indicates Mespinoza is behind this attack", "entities": [[23, 32, "THREAT_ACTOR"]]}
+{"text": "Wizard Spider is known for targeting financial institutions", "entities": [[0, 13, "THREAT_ACTOR"]]}
+{"text": "APT41 has been linked to multiple breaches", "entities": [[0, 5, "THREAT_ACTOR"]]}
+{"text": "Investigate ALPHV activities in our network", "entities": [[12, 17, "THREAT_ACTOR"]]}
+{"text": "UNC2452 is known for targeting financial institutions", "entities": [[0, 7, "THREAT_ACTOR"]]}
+{"text": "ALPHV is known for targeting financial institutions", "entities": [[0, 5, "THREAT_ACTOR"]]}
+{"text": "Attribution analysis points to UNC2452", "entities": [[31, 38, "THREAT_ACTOR"]]}
+{"text": "Threat actor APT41 has been active in recent campaigns", "entities": [[13, 18, "THREAT_ACTOR"]]}
+{"text": "Profile APT28 capabilities and motivations", "entities": [[8, 13, "THREAT_ACTOR"]]}
+{"text": "DoppelPaymer has been linked to multiple breaches", "entities": [[0, 12, "THREAT_ACTOR"]]}
+{"text": "Threat actor LockBit has been active in recent campaigns", "entities": [[13, 20, "THREAT_ACTOR"]]}
+{"text": "Threat actor Equation Group has been active in recent campaigns", "entities": [[13, 27, "THREAT_ACTOR"]]}
+{"text": "Monitor for APT41 TTPs in security logs", "entities": [[12, 17, "THREAT_ACTOR"]]}
+{"text": "Monitor for APT29 TTPs in security logs", "entities": [[12, 17, "THREAT_ACTOR"]]}
+{"text": "Track Ragnar Locker infrastructure and indicators", "entities": [[6, 19, "THREAT_ACTOR"]]}
+{"text": "Threat actor APT29 has been active in recent campaigns", "entities": [[13, 18, "THREAT_ACTOR"]]}
+{"text": "Monitor for APT41 TTPs in security logs", "entities": [[12, 17, "THREAT_ACTOR"]]}
+{"text": "Attribution analysis points to Sandworm", "entities": [[31, 39, "THREAT_ACTOR"]]}
+{"text": "Profile APT41 capabilities and motivations", "entities": [[8, 13, "THREAT_ACTOR"]]}
+{"text": "APT41 uses sophisticated evasion techniques", "entities": [[0, 5, "THREAT_ACTOR"]]}
+{"text": "Threat actor Ryuk has been active in recent campaigns", "entities": [[13, 17, "THREAT_ACTOR"]]}
+{"text": "Wallet 0x465f5d0542f9456f084524bd81418ff109f3b169 has been flagged for investigation", "entities": [[7, 49, "WALLET_ADDRESS"]]}
+{"text": "Trace funds to wallet 0x842e48d891166ff8cf7a604dd10a51d74b726d9f", "entities": [[22, 64, "WALLET_ADDRESS"]]}
+{"text": "Trace funds to wallet 0x23f56ff2776d1dfac6d5ec8d268a778fbca67376", "entities": [[22, 64, "WALLET_ADDRESS"]]}
+{"text": "Investigate wallet 0x7d4a1dee5196d44a70247c55f12d84fc5e1d23ce linked to ransomware payment", "entities": [[19, 61, "WALLET_ADDRESS"]]}
+{"text": "Wallet 0xe758ba7ffa8bb9b8f9af2455d2f28d1aa1bfeae5 has been flagged for investigation", "entities": [[7, 49, "WALLET_ADDRESS"]]}
+{"text": "Investigate wallet 0xb394a95f6bc0cdb17aaf7c3c1172a66f99a2ec99 linked to ransomware payment", "entities": [[19, 61, "WALLET_ADDRESS"]]}
+{"text": "Wallet 0xf29ea243173aaea7e34848d5756d2431e3ae69aa shows patterns consistent with fraud", "entities": [[7, 49, "WALLET_ADDRESS"]]}
+{"text": "Wallet 0x94b2c1cc65e1da8cf8aaee738daad32e7a0f66b8 shows patterns consistent with fraud", "entities": [[7, 49, "WALLET_ADDRESS"]]}
+{"text": "Wallet 0x99e4fc4a7ad2d13ed418649a1dc4dbaf503c577a has been flagged for investigation", "entities": [[7, 49, "WALLET_ADDRESS"]]}
+{"text": "Wallet 0x98d7f4ad07c7e6433e6d1c94de52056dd1eca502 shows patterns consistent with fraud", "entities": [[7, 49, "WALLET_ADDRESS"]]}
+{"text": "Track transactions from wallet 0xd3923116702aa9a0d13fad414c978bb0518d564b", "entities": [[31, 73, "WALLET_ADDRESS"]]}
+{"text": "Wallet 0x861db29bf11bd4011e19af82611e5b6bd2019198 shows patterns consistent with fraud", "entities": [[7, 49, "WALLET_ADDRESS"]]}
+{"text": "Wallet 0x18d50015f9e9cccd8dc9d53d57b9066810a7d737 associated with cryptocurrency theft", "entities": [[7, 49, "WALLET_ADDRESS"]]}
+{"text": "Trace funds to wallet 0xbd87ae74843a15091c7515c0dc1bd70392ee88cf", "entities": [[22, 64, "WALLET_ADDRESS"]]}
+{"text": "Wallet 0xf0a94980fef21cf35afb6e2431571b095a278f6e associated with cryptocurrency theft", "entities": [[7, 49, "WALLET_ADDRESS"]]}
+{"text": "Wallet 0x4038d8d549a1b398f73c73f5c3b67b94bb75a4b4 shows patterns consistent with fraud", "entities": [[7, 49, "WALLET_ADDRESS"]]}
+{"text": "Blockchain analysis of 0x7b575f1f1c6784a7de7d7e5e767cbe20120f55e3 reveals money laundering", "entities": [[23, 65, "WALLET_ADDRESS"]]}
+{"text": "Blockchain analysis of 0xe9d12fbcbc4346b70ad1d33497ed22d4ade2c782 reveals money laundering", "entities": [[23, 65, "WALLET_ADDRESS"]]}
+{"text": "Wallet 0x5cff33d5cf4cb4f4938d4bef3477d55930ad135e associated with cryptocurrency theft", "entities": [[7, 49, "WALLET_ADDRESS"]]}
+{"text": "Investigate wallet 0x4f886c9d26101c2f3083e44329eaba201683d30e linked to ransomware payment", "entities": [[19, 61, "WALLET_ADDRESS"]]}
+{"text": "Trace funds to wallet 0x0eaba64ef13498c9106a3cd1afc694ca03421706", "entities": [[22, 64, "WALLET_ADDRESS"]]}
+{"text": "Blockchain analysis of 0xfdf316fa4e962a9e27380832718fee7d80fb4f5d reveals money laundering", "entities": [[23, 65, "WALLET_ADDRESS"]]}
+{"text": "Wallet 0xf33dceb7e35a5bea895a124ca4426125becdd447 associated with cryptocurrency theft", "entities": [[7, 49, "WALLET_ADDRESS"]]}
+{"text": "Investigate wallet 0x1492365c3202bc22a7cf947d6e17dd69d20a529a linked to ransomware payment", "entities": [[19, 61, "WALLET_ADDRESS"]]}
+{"text": "Track transactions from wallet 0xaf397be6de1e39b4594de3be454641a1b3e00969", "entities": [[31, 73, "WALLET_ADDRESS"]]}
+{"text": "Track transactions from wallet 0x6d8ced4e9a0e44fa074a32e11d9d91ccc41ca130", "entities": [[31, 73, "WALLET_ADDRESS"]]}
+{"text": "Wallet 0xa8137d828ceb9f9a8362d4461780ea5e6c9a9765 shows patterns consistent with fraud", "entities": [[7, 49, "WALLET_ADDRESS"]]}
+{"text": "Analyze 0x0e0c3d3d033938a9eb3ad62c88c154699b346921 transaction history", "entities": [[8, 50, "WALLET_ADDRESS"]]}
+{"text": "Wallet 0x24e82daeeeb50f4aff71bd7fe8c00c1a6b860a02 associated with cryptocurrency theft", "entities": [[7, 49, "WALLET_ADDRESS"]]}
+{"text": "Wallet 0xa97ef50625f140b6044a45a9176cbecbc0f2c8c5 associated with cryptocurrency theft", "entities": [[7, 49, "WALLET_ADDRESS"]]}
+{"text": "Wallet 0xce4a6331ebb9e717198c0048a527f54cbaaf5d3e has been flagged for investigation", "entities": [[7, 49, "WALLET_ADDRESS"]]}
+{"text": "Analyze 0x709d8e8dfc9fe1f7c76c4c332ac503bb383d5417 transaction history", "entities": [[8, 50, "WALLET_ADDRESS"]]}
+{"text": "Analyze 0xbd5e77eff4a303dbd2083f918ad932ce3103fbfd transaction history", "entities": [[8, 50, "WALLET_ADDRESS"]]}
+{"text": "Wallet 0x90371ec741e2b023c6e5a35a7f4c10e26c64eb8c associated with cryptocurrency theft", "entities": [[7, 49, "WALLET_ADDRESS"]]}
+{"text": "Monitor wallet address 0xb15cf0d033c6ff427756e4d2e0e9536ab86452ba for suspicious activity", "entities": [[23, 65, "WALLET_ADDRESS"]]}
+{"text": "Blockchain analysis of 0x32a3146488695f5cac506821868717745f81b487 reveals money laundering", "entities": [[23, 65, "WALLET_ADDRESS"]]}
+{"text": "Track transactions from wallet 0x3220394ecb07592e78e75b97d6d328001080ab26", "entities": [[31, 73, "WALLET_ADDRESS"]]}
+{"text": "Monitor wallet address 0x6b3dc3ef9e14e8c0a0f6015f66dd521cd1cc0980 for suspicious activity", "entities": [[23, 65, "WALLET_ADDRESS"]]}
+{"text": "Track transactions from wallet 0xdb69ff6d1e3313316ff261babb1983bbdbccbd17", "entities": [[31, 73, "WALLET_ADDRESS"]]}
+{"text": "Analyze 0xa59bf3a96395f88a44854eb03b9ae1d9f2bb9e1b transaction history", "entities": [[8, 50, "WALLET_ADDRESS"]]}
+{"text": "URL https://test.org/download/file linked to threat actor", "entities": [[4, 34, "URL"]]}
+{"text": "Investigate URL https://test.org/search?q=test for suspicious activity", "entities": [[16, 46, "URL"]]}
+{"text": "Monitor traffic to https://test.org/search?q=test", "entities": [[19, 49, "URL"]]}
+{"text": "URL https://malicious.io/api/v1/data associated with malware", "entities": [[4, 36, "URL"]]}
+{"text": "URL https://example.com/page flagged for phishing", "entities": [[4, 28, "URL"]]}
+{"text": "URL https://company.com/download/file flagged for phishing", "entities": [[4, 37, "URL"]]}
+{"text": "Investigate URL https://example.com/download/file for suspicious activity", "entities": [[16, 49, "URL"]]}
+{"text": "URL https://malicious.io/search?q=test associated with malware", "entities": [[4, 38, "URL"]]}
+{"text": "URL https://malicious.io/search?q=test associated with malware", "entities": [[4, 38, "URL"]]}
+{"text": "Block access to https://example.com/user/profile", "entities": [[16, 48, "URL"]]}
+{"text": "URL https://test.org/search?q=test flagged for phishing", "entities": [[4, 34, "URL"]]}
+{"text": "URL https://example.com/download/file associated with malware", "entities": [[4, 37, "URL"]]}
+{"text": "URL https://company.com/user/profile linked to threat actor", "entities": [[4, 36, "URL"]]}
+{"text": "Monitor traffic to https://suspicious.net/search?q=test", "entities": [[19, 55, "URL"]]}
+{"text": "Analyze https://suspicious.net/search?q=test content", "entities": [[8, 44, "URL"]]}
+{"text": "Investigate URL https://malicious.io/search?q=test for suspicious activity", "entities": [[16, 50, "URL"]]}
+{"text": "Block access to https://malicious.io/page", "entities": [[16, 41, "URL"]]}
+{"text": "URL https://malicious.io/page used in attack campaign", "entities": [[4, 29, "URL"]]}
+{"text": "URL https://suspicious.net/search?q=test linked to threat actor", "entities": [[4, 40, "URL"]]}
+{"text": "URL https://example.com/page linked to threat actor", "entities": [[4, 28, "URL"]]}
+{"text": "URL https://test.org/page flagged for phishing", "entities": [[4, 25, "URL"]]}
+{"text": "Scan https://malicious.io/page for vulnerabilities", "entities": [[5, 30, "URL"]]}
+{"text": "Block access to https://malicious.io/download/file", "entities": [[16, 50, "URL"]]}
+{"text": "URL https://suspicious.net/search?q=test flagged for phishing", "entities": [[4, 40, "URL"]]}
+{"text": "Scan https://example.com/page for vulnerabilities", "entities": [[5, 29, "URL"]]}
+{"text": "Monitor traffic to https://example.com/page", "entities": [[19, 43, "URL"]]}
+{"text": "URL https://suspicious.net/user/profile linked to threat actor", "entities": [[4, 39, "URL"]]}
+{"text": "URL https://malicious.io/search?q=test associated with malware", "entities": [[4, 38, "URL"]]}
+{"text": "URL https://example.com/page associated with malware", "entities": [[4, 28, "URL"]]}
+{"text": "Analyze https://suspicious.net/download/file content", "entities": [[8, 44, "URL"]]}
+{"text": "URL https://malicious.io/download/file linked to threat actor", "entities": [[4, 38, "URL"]]}
+{"text": "Block access to https://test.org/search?q=test", "entities": [[16, 46, "URL"]]}
+{"text": "Check https://company.com/download/file reputation", "entities": [[6, 39, "URL"]]}
+{"text": "URL https://company.com/api/v1/data linked to threat actor", "entities": [[4, 35, "URL"]]}
+{"text": "URL https://company.com/api/v1/data used in attack campaign", "entities": [[4, 35, "URL"]]}
+{"text": "Block access to https://company.com/user/profile", "entities": [[16, 48, "URL"]]}
+{"text": "URL https://suspicious.net/api/v1/data used in attack campaign", "entities": [[4, 38, "URL"]]}
+{"text": "Check https://malicious.io/download/file reputation", "entities": [[6, 40, "URL"]]}
+{"text": "URL https://company.com/page associated with malware", "entities": [[4, 28, "URL"]]}
+{"text": "Check https://company.com/api/v1/data reputation", "entities": [[6, 37, "URL"]]}
+{"text": "URL https://company.com/download/file linked to threat actor", "entities": [[4, 37, "URL"]]}
+{"text": "URL https://company.com/download/file flagged for phishing", "entities": [[4, 37, "URL"]]}
+{"text": "URL https://suspicious.net/page flagged for phishing", "entities": [[4, 31, "URL"]]}
+{"text": "Investigate URL https://company.com/user/profile for suspicious activity", "entities": [[16, 48, "URL"]]}
+{"text": "URL https://company.com/page linked to threat actor", "entities": [[4, 28, "URL"]]}
+{"text": "Analyze https://example.com/download/file content", "entities": [[8, 41, "URL"]]}
+{"text": "Block access to https://example.com/search?q=test", "entities": [[16, 49, "URL"]]}
+{"text": "Investigate URL https://example.com/page for suspicious activity", "entities": [[16, 40, "URL"]]}
+{"text": "Analyze https://test.org/search?q=test content", "entities": [[8, 38, "URL"]]}
+{"text": "URL https://example.com/download/file used in attack campaign", "entities": [[4, 37, "URL"]]}
+{"text": "URL https://company.com/page linked to threat actor", "entities": [[4, 28, "URL"]]}
+{"text": "Scan https://example.com/api/v1/data for vulnerabilities", "entities": [[5, 36, "URL"]]}
+{"text": "URL https://test.org/user/profile associated with malware", "entities": [[4, 33, "URL"]]}
+{"text": "Block access to https://suspicious.net/page", "entities": [[16, 43, "URL"]]}
+{"text": "Check https://test.org/user/profile reputation", "entities": [[6, 35, "URL"]]}
+{"text": "URL https://test.org/page flagged for phishing", "entities": [[4, 25, "URL"]]}
+{"text": "Scan https://test.org/user/profile for vulnerabilities", "entities": [[5, 34, "URL"]]}
+{"text": "Scan https://test.org/user/profile for vulnerabilities", "entities": [[5, 34, "URL"]]}
+{"text": "Scan https://suspicious.net/download/file for vulnerabilities", "entities": [[5, 41, "URL"]]}
+{"text": "Monitor traffic to https://example.com/search?q=test", "entities": [[19, 52, "URL"]]}
+{"text": "IPv6 9e3:39da:6c3:9dc4:6591:3c7f:45ca:546f linked to threat actor", "entities": [[5, 42, "IPV6_ADDRESS"]]}
+{"text": "IPv6 3ed6:f129:ab87:9271:af7f:50d6:7e82:3219 linked to threat actor", "entities": [[5, 44, "IPV6_ADDRESS"]]}
+{"text": "Trace connections from b61a:db67:1d8b:c12a:2e2:a036:c6f6:aa4c", "entities": [[23, 61, "IPV6_ADDRESS"]]}
+{"text": "IPv6 848c:9b08:3d38:215:cbab:7d12:a447:6f29 used in DDoS attack", "entities": [[5, 43, "IPV6_ADDRESS"]]}
+{"text": "IPv6 7c8:73f2:9b0:2eda:5620:6083:e29f:caf9 used in DDoS attack", "entities": [[5, 42, "IPV6_ADDRESS"]]}
+{"text": "Traffic from 5ec:19a2:13bd:a985:adfc:f55c:e13d:7c16 detected", "entities": [[13, 51, "IPV6_ADDRESS"]]}
+{"text": "Traffic from 96cd:df60:8dab:702e:907:4a3c:2169:98d2 detected", "entities": [[13, 51, "IPV6_ADDRESS"]]}
+{"text": "Traffic from 55d6:9d14:d3c9:fdc0:ba45:fcdc:85dd:e656 detected", "entities": [[13, 52, "IPV6_ADDRESS"]]}
+{"text": "Monitor 1fb1:7ac2:d0e8:eff5:3960:5e2c:fabd:3dd for suspicious activity", "entities": [[8, 46, "IPV6_ADDRESS"]]}
+{"text": "Traffic from 55d0:5dbd:1fa6:cee6:d310:3fcd:6a40:a7a1 detected", "entities": [[13, 52, "IPV6_ADDRESS"]]}
+{"text": "Investigate a12e:d632:1f1f:ec25:a3ea:c4ea:7c2a:68b0 network activity", "entities": [[12, 51, "IPV6_ADDRESS"]]}
+{"text": "IPv6 address 580:6a40:b4c8:95ea:45df:d24:a25c:f06e flagged", "entities": [[13, 50, "IPV6_ADDRESS"]]}
+{"text": "IPv6 a8c4:11b5:22bb:5ca6:af88:3028:9135:61f5 used in DDoS attack", "entities": [[5, 44, "IPV6_ADDRESS"]]}
+{"text": "Traffic from fdb6:74e4:9e85:34bb:b825:b646:a5ec:67c0 detected", "entities": [[13, 52, "IPV6_ADDRESS"]]}
+{"text": "Investigate 422f:1245:e188:b993:db3e:d7d5:53f1:8190 network activity", "entities": [[12, 51, "IPV6_ADDRESS"]]}
+{"text": "Traffic from 9aa8:3cba:4411:7913:1581:7d42:3b07:d10 detected", "entities": [[13, 51, "IPV6_ADDRESS"]]}
+{"text": "Block 61b:f3f8:8ebe:8e6e:bf88:db6e:8755:62d9 at firewall", "entities": [[6, 44, "IPV6_ADDRESS"]]}
+{"text": "IPv6 e2d8:9bc8:5825:2541:d995:34b3:cdc7:85ae used in DDoS attack", "entities": [[5, 44, "IPV6_ADDRESS"]]}
+{"text": "Monitor f79b:8c66:ac:ee72:d4b3:8d20:2fc1:7caa for suspicious activity", "entities": [[8, 45, "IPV6_ADDRESS"]]}
+{"text": "IPv6 address a80:fd54:1d54:9f7a:8119:7046:e100:e88 flagged", "entities": [[13, 50, "IPV6_ADDRESS"]]}
+{"text": "IPv6 address 4540:18a7:d4b0:896d:429f:9162:41d9:35bc flagged", "entities": [[13, 52, "IPV6_ADDRESS"]]}
+{"text": "Monitor 942:ef3a:4e17:fb27:ca95:8a18:5009:cf0c for suspicious activity", "entities": [[8, 46, "IPV6_ADDRESS"]]}
+{"text": "Block 6f43:fb1c:5764:3d17:31ad:7012:c82d:5d13 at firewall", "entities": [[6, 45, "IPV6_ADDRESS"]]}
+{"text": "Monitor c566:ec9d:4c9a:f75d:3227:c58b:8b1e:5bae for suspicious activity", "entities": [[8, 47, "IPV6_ADDRESS"]]}
+{"text": "IPv6 4fbd:c992:7f6b:a63e:9f8c:551:df10:abec used in DDoS attack", "entities": [[5, 43, "IPV6_ADDRESS"]]}
+{"text": "IPv6 address 89f1:b628:2c3a:9d44:b629:e196:52ee:ed73 flagged", "entities": [[13, 52, "IPV6_ADDRESS"]]}
+{"text": "Monitor dfdb:2856:9648:d57d:138f:d78c:7f0f:be05 for suspicious activity", "entities": [[8, 47, "IPV6_ADDRESS"]]}
+{"text": "Trace connections from 20cb:1340:44f1:3780:350c:af7b:853f:4965", "entities": [[23, 62, "IPV6_ADDRESS"]]}
+{"text": "Block 645e:78be:a95c:fa07:e682:3d7:b556:8704 at firewall", "entities": [[6, 44, "IPV6_ADDRESS"]]}
+{"text": "Traffic from f8c5:35ed:4d70:948b:96e8:a67f:259e:41c detected", "entities": [[13, 51, "IPV6_ADDRESS"]]}
+{"text": "IPv6 c129:690:3118:62be:8a46:c166:5b45:c71f associated with attack", "entities": [[5, 43, "IPV6_ADDRESS"]]}
+{"text": "IPv6 address d41f:34b1:26cb:c99c:500a:73cd:1ee1:7fba flagged", "entities": [[13, 52, "IPV6_ADDRESS"]]}
+{"text": "IPv6 63ff:b75d:5004:cda9:ed01:5669:e5e9:5090 used in DDoS attack", "entities": [[5, 44, "IPV6_ADDRESS"]]}
+{"text": "Monitor 71e1:4eb5:b76f:eb84:14a0:a877:25a2:2722 for suspicious activity", "entities": [[8, 47, "IPV6_ADDRESS"]]}
+{"text": "Traffic from d346:c39a:9a9b:86f:8441:15a1:e15d:a29c detected", "entities": [[13, 51, "IPV6_ADDRESS"]]}
+{"text": "IPv6 5a6a:a9e5:454b:a71d:1459:b681:7b76:e67b used in DDoS attack", "entities": [[5, 44, "IPV6_ADDRESS"]]}
+{"text": "IPv6 address ee36:4197:dedb:3b01:2aee:5ab1:6992:36d flagged", "entities": [[13, 51, "IPV6_ADDRESS"]]}
+{"text": "Block IPv6 address cda3:756f:47a1:62ec:eb5e:53f4:65ba:5af0", "entities": [[19, 58, "IPV6_ADDRESS"]]}
+{"text": "Trace connections from 55cf:6a20:c806:e28d:279d:66b4:4a91:748e", "entities": [[23, 62, "IPV6_ADDRESS"]]}
+{"text": "IPv6 address b750:cd3f:1ea2:8fdc:ca22:86e1:9a0b:3e58 flagged", "entities": [[13, 52, "IPV6_ADDRESS"]]}
+{"text": "IPv6 1ece:13f4:d972:2dd3:20a5:aacf:742e:afec used in DDoS attack", "entities": [[5, 44, "IPV6_ADDRESS"]]}
+{"text": "IPv6 a2d8:433d:ff72:62c:cc0a:9796:e77b:a86c linked to threat actor", "entities": [[5, 43, "IPV6_ADDRESS"]]}
+{"text": "Trace connections from 2bc8:8d00:e1e9:db4:365a:b502:17cf:5d9d", "entities": [[23, 61, "IPV6_ADDRESS"]]}
+{"text": "Monitor ddcf:27e6:1a45:cb01:4127:87da:af8b:f6c3 for suspicious activity", "entities": [[8, 47, "IPV6_ADDRESS"]]}
+{"text": "Block 3c3f:7935:d891:214e:2bb7:ea36:6295:127f at firewall", "entities": [[6, 45, "IPV6_ADDRESS"]]}
+{"text": "Monitor d7ad:7a68:c790:6e5b:e645:b18:c9f:5d65 for suspicious activity", "entities": [[8, 45, "IPV6_ADDRESS"]]}
+{"text": "IPv6 e4d7:c84c:1696:6b50:c6b:188a:384d:5d27 linked to threat actor", "entities": [[5, 43, "IPV6_ADDRESS"]]}
+{"text": "Trace connections from 9784:2e5e:c2d4:1bd8:c906:8ba9:7dca:4504", "entities": [[23, 62, "IPV6_ADDRESS"]]}
+{"text": "Block 5906:50b1:ee47:e8cd:17eb:a342:825a:c1a7 at firewall", "entities": [[6, 45, "IPV6_ADDRESS"]]}
+{"text": "IPv6 93e7:79f0:7cdb:5e2e:ad5:e4c8:71d6:12dd used in DDoS attack", "entities": [[5, 43, "IPV6_ADDRESS"]]}
+{"text": "URL https://test.org/user/profile flagged for phishing", "entities": [[4, 33, "URL"]]}
+{"text": "Analyze https://company.com/search?q=test content", "entities": [[8, 41, "URL"]]}
+{"text": "Investigate URL https://suspicious.net/search?q=test for suspicious activity", "entities": [[16, 52, "URL"]]}
+{"text": "URL https://example.com/page associated with malware", "entities": [[4, 28, "URL"]]}
+{"text": "Check https://malicious.io/search?q=test reputation", "entities": [[6, 40, "URL"]]}
+{"text": "Check https://example.com/download/file reputation", "entities": [[6, 39, "URL"]]}
+{"text": "URL https://test.org/search?q=test flagged for phishing", "entities": [[4, 34, "URL"]]}
+{"text": "Check https://malicious.io/user/profile reputation", "entities": [[6, 39, "URL"]]}
+{"text": "Block access to https://suspicious.net/page", "entities": [[16, 43, "URL"]]}
+{"text": "Monitor traffic to https://example.com/user/profile", "entities": [[19, 51, "URL"]]}
+{"text": "Analyze https://company.com/user/profile content", "entities": [[8, 40, "URL"]]}
+{"text": "Analyze https://suspicious.net/search?q=test content", "entities": [[8, 44, "URL"]]}
+{"text": "Investigate URL https://example.com/page for suspicious activity", "entities": [[16, 40, "URL"]]}
+{"text": "URL https://test.org/download/file used in attack campaign", "entities": [[4, 34, "URL"]]}
+{"text": "Monitor traffic to https://malicious.io/download/file", "entities": [[19, 53, "URL"]]}
+{"text": "Investigate URL https://company.com/page for suspicious activity", "entities": [[16, 40, "URL"]]}
+{"text": "Scan https://company.com/download/file for vulnerabilities", "entities": [[5, 38, "URL"]]}
+{"text": "Scan https://test.org/api/v1/data for vulnerabilities", "entities": [[5, 33, "URL"]]}
+{"text": "URL https://malicious.io/page linked to threat actor", "entities": [[4, 29, "URL"]]}
+{"text": "Scan https://suspicious.net/user/profile for vulnerabilities", "entities": [[5, 40, "URL"]]}
+{"text": "Block access to https://company.com/user/profile", "entities": [[16, 48, "URL"]]}
+{"text": "Scan https://company.com/user/profile for vulnerabilities", "entities": [[5, 37, "URL"]]}
+{"text": "URL https://test.org/user/profile associated with malware", "entities": [[4, 33, "URL"]]}
+{"text": "URL https://test.org/download/file associated with malware", "entities": [[4, 34, "URL"]]}
+{"text": "Investigate URL https://malicious.io/search?q=test for suspicious activity", "entities": [[16, 50, "URL"]]}
+{"text": "Analyze https://malicious.io/page content", "entities": [[8, 33, "URL"]]}
+{"text": "Investigate URL https://suspicious.net/user/profile for suspicious activity", "entities": [[16, 51, "URL"]]}
+{"text": "Block access to https://malicious.io/page", "entities": [[16, 41, "URL"]]}
+{"text": "Scan https://malicious.io/download/file for vulnerabilities", "entities": [[5, 39, "URL"]]}
+{"text": "Block access to https://company.com/user/profile", "entities": [[16, 48, "URL"]]}
+{"text": "Investigate URL https://suspicious.net/api/v1/data for suspicious activity", "entities": [[16, 50, "URL"]]}
+{"text": "Analyze https://suspicious.net/user/profile content", "entities": [[8, 43, "URL"]]}
+{"text": "Analyze https://suspicious.net/api/v1/data content", "entities": [[8, 42, "URL"]]}
+{"text": "Scan https://suspicious.net/api/v1/data for vulnerabilities", "entities": [[5, 39, "URL"]]}
+{"text": "Analyze https://suspicious.net/search?q=test content", "entities": [[8, 44, "URL"]]}
+{"text": "URL https://malicious.io/page flagged for phishing", "entities": [[4, 29, "URL"]]}
+{"text": "Monitor traffic to https://malicious.io/search?q=test", "entities": [[19, 53, "URL"]]}
+{"text": "Analyze https://malicious.io/search?q=test content", "entities": [[8, 42, "URL"]]}
+{"text": "Investigate URL https://company.com/download/file for suspicious activity", "entities": [[16, 49, "URL"]]}
+{"text": "Analyze https://example.com/user/profile content", "entities": [[8, 40, "URL"]]}
+{"text": "Analyze https://test.org/api/v1/data content", "entities": [[8, 36, "URL"]]}
+{"text": "Check https://company.com/download/file reputation", "entities": [[6, 39, "URL"]]}
+{"text": "Block access to https://test.org/download/file", "entities": [[16, 46, "URL"]]}
+{"text": "Block access to https://test.org/search?q=test", "entities": [[16, 46, "URL"]]}
+{"text": "URL https://company.com/api/v1/data linked to threat actor", "entities": [[4, 35, "URL"]]}
+{"text": "Investigate URL https://test.org/page for suspicious activity", "entities": [[16, 37, "URL"]]}
+{"text": "Check https://malicious.io/page reputation", "entities": [[6, 31, "URL"]]}
+{"text": "Investigate URL https://malicious.io/user/profile for suspicious activity", "entities": [[16, 49, "URL"]]}
+{"text": "Monitor traffic to https://suspicious.net/search?q=test", "entities": [[19, 55, "URL"]]}
+{"text": "Scan https://malicious.io/page for vulnerabilities", "entities": [[5, 30, "URL"]]}
+{"text": "Monitor traffic to https://suspicious.net/user/profile", "entities": [[19, 54, "URL"]]}
+{"text": "Investigate URL https://malicious.io/search?q=test for suspicious activity", "entities": [[16, 50, "URL"]]}
+{"text": "Check https://company.com/download/file reputation", "entities": [[6, 39, "URL"]]}
+{"text": "URL https://suspicious.net/download/file used in attack campaign", "entities": [[4, 40, "URL"]]}
+{"text": "URL https://test.org/api/v1/data used in attack campaign", "entities": [[4, 32, "URL"]]}
+{"text": "Block access to https://test.org/user/profile", "entities": [[16, 45, "URL"]]}
+{"text": "Block access to https://test.org/user/profile", "entities": [[16, 45, "URL"]]}
+{"text": "URL https://suspicious.net/page flagged for phishing", "entities": [[4, 31, "URL"]]}
+{"text": "Analyze https://suspicious.net/api/v1/data content", "entities": [[8, 42, "URL"]]}
+{"text": "Monitor traffic to https://company.com/download/file", "entities": [[19, 52, "URL"]]}
+{"text": "IPv6 1ca2:3e64:34a:ed69:d18a:221e:e08c:7234 linked to threat actor", "entities": [[5, 43, "IPV6_ADDRESS"]]}
+{"text": "IPv6 e286:b0e4:f4d:80a3:f5fb:138f:2d8:b3b0 associated with attack", "entities": [[5, 42, "IPV6_ADDRESS"]]}
+{"text": "Traffic from a9b2:8343:b3a3:92c5:eff0:f3ee:cbfa:d2ea detected", "entities": [[13, 52, "IPV6_ADDRESS"]]}
+{"text": "Trace connections from d985:bde0:3bfe:28de:5718:7bd2:8b2e:34db", "entities": [[23, 62, "IPV6_ADDRESS"]]}
+{"text": "IPv6 652c:6631:6e30:f1c5:5f02:71b1:85ba:dc89 linked to threat actor", "entities": [[5, 44, "IPV6_ADDRESS"]]}
+{"text": "Investigate 186b:853e:6694:77a0:d20b:361a:651a:24e3 network activity", "entities": [[12, 51, "IPV6_ADDRESS"]]}
+{"text": "IPv6 2dba:e202:4ff6:6f50:e463:e2e1:a504:2208 linked to threat actor", "entities": [[5, 44, "IPV6_ADDRESS"]]}
+{"text": "Investigate a8e4:f2ee:d45a:207e:d7cb:36f2:a762:350e network activity", "entities": [[12, 51, "IPV6_ADDRESS"]]}
+{"text": "IPv6 address 6869:ec8f:e88b:1d9c:29d8:4175:b053:b544 flagged", "entities": [[13, 52, "IPV6_ADDRESS"]]}
+{"text": "IPv6 3042:a659:7939:2b3c:c0fe:6d3f:a718:7e67 used in DDoS attack", "entities": [[5, 44, "IPV6_ADDRESS"]]}
+{"text": "IPv6 address 3200:74d5:175e:300e:d98c:932f:ad8c:7520 flagged", "entities": [[13, 52, "IPV6_ADDRESS"]]}
+{"text": "IPv6 address b4d9:9162:934:39af:162d:79ac:ecda:b2b2 flagged", "entities": [[13, 51, "IPV6_ADDRESS"]]}
+{"text": "IPv6 3124:be0a:87fa:758d:15f5:643b:295:1931 used in DDoS attack", "entities": [[5, 43, "IPV6_ADDRESS"]]}
+{"text": "Traffic from 1445:dcb3:aba4:6fad:604:6e63:86a3:3b1d detected", "entities": [[13, 51, "IPV6_ADDRESS"]]}
+{"text": "Traffic from 26e7:78b3:bd2:f7cc:8269:d21b:48fa:483a detected", "entities": [[13, 51, "IPV6_ADDRESS"]]}
+{"text": "IPv6 8b11:2cef:fd71:be79:ba4b:c88c:1118:3635 associated with attack", "entities": [[5, 44, "IPV6_ADDRESS"]]}
+{"text": "Trace connections from fb86:1f3a:4d6b:5d34:b4f3:ba9f:2eaf:b4dc", "entities": [[23, 62, "IPV6_ADDRESS"]]}
+{"text": "Investigate cd4a:9c30:e383:4291:7c5a:d018:d28a:a6a1 network activity", "entities": [[12, 51, "IPV6_ADDRESS"]]}
+{"text": "IPv6 378d:e367:ca51:d2f7:a414:18f4:f7cd:f62 used in DDoS attack", "entities": [[5, 43, "IPV6_ADDRESS"]]}
+{"text": "Traffic from cb07:d39b:a382:780:7407:e1e9:2602:8979 detected", "entities": [[13, 51, "IPV6_ADDRESS"]]}
+{"text": "Investigate ffc6:457b:a928:432a:3922:5e6a:8b95:d51a network activity", "entities": [[12, 51, "IPV6_ADDRESS"]]}
+{"text": "IPv6 33dc:db5e:c422:ab66:e4f0:2b9a:8b29:e93d linked to threat actor", "entities": [[5, 44, "IPV6_ADDRESS"]]}
+{"text": "Block f529:6763:780b:cf31:d0c7:88e7:f00c:21d3 at firewall", "entities": [[6, 45, "IPV6_ADDRESS"]]}
+{"text": "IPv6 address 50d3:e656:ebe6:88de:3628:9c56:86b4:eed4 flagged", "entities": [[13, 52, "IPV6_ADDRESS"]]}
+{"text": "Monitor 6b69:7ab:f669:f45a:f0e6:547c:eec0:38e6 for suspicious activity", "entities": [[8, 46, "IPV6_ADDRESS"]]}
+{"text": "Block e7d:faa4:eed6:97a9:1fe4:ae3b:73d6:e171 at firewall", "entities": [[6, 44, "IPV6_ADDRESS"]]}
+{"text": "Trace connections from 837c:cc9b:fdc2:cd5d:e837:709:9b2:b696", "entities": [[23, 60, "IPV6_ADDRESS"]]}
+{"text": "Investigate 2581:e986:f1e2:9425:d6a4:6181:75bd:50ea network activity", "entities": [[12, 51, "IPV6_ADDRESS"]]}
+{"text": "Block 536c:5d9c:e447:84cf:2430:6008:fd91:7bca at firewall", "entities": [[6, 45, "IPV6_ADDRESS"]]}
+{"text": "Block aab8:5de1:3786:9101:87da:3a7b:4ec:aff9 at firewall", "entities": [[6, 44, "IPV6_ADDRESS"]]}
+{"text": "IPv6 25f1:789d:8aed:e075:9ae5:8235:d9d1:4235 linked to threat actor", "entities": [[5, 44, "IPV6_ADDRESS"]]}
+{"text": "Block a245:af4e:da0:5fd1:1aa1:9ec8:68fc:f3ee at firewall", "entities": [[6, 44, "IPV6_ADDRESS"]]}
+{"text": "Block IPv6 address 2641:bc63:63c3:5805:a5d8:9461:56d:eae5", "entities": [[19, 57, "IPV6_ADDRESS"]]}
+{"text": "IPv6 7442:ae30:ed04:a485:3afd:418e:fbaa:8f99 linked to threat actor", "entities": [[5, 44, "IPV6_ADDRESS"]]}
+{"text": "Block 6e79:b141:58e7:993c:eed9:1a84:7d05:98f8 at firewall", "entities": [[6, 45, "IPV6_ADDRESS"]]}
+{"text": "Block 3b15:7c6f:85fd:127d:fca1:7193:294:5d52 at firewall", "entities": [[6, 44, "IPV6_ADDRESS"]]}
+{"text": "IPv6 4838:be3d:39c4:9325:c447:2fdd:9e63:9955 used in DDoS attack", "entities": [[5, 44, "IPV6_ADDRESS"]]}
+{"text": "IPv6 2b2a:2c25:d263:b10e:1239:1e65:1734:2e4c used in DDoS attack", "entities": [[5, 44, "IPV6_ADDRESS"]]}
+{"text": "Traffic from 353e:bab8:ab28:3bbc:3579:4a1d:8278:f175 detected", "entities": [[13, 52, "IPV6_ADDRESS"]]}
+{"text": "Block IPv6 address 5a8e:9102:6d6:17b1:4129:88c7:e1d3:957c", "entities": [[19, 57, "IPV6_ADDRESS"]]}
+{"text": "Traffic from 4349:20e0:e807:8fbf:6dfc:bf41:f4f1:80ea detected", "entities": [[13, 52, "IPV6_ADDRESS"]]}
+{"text": "IPv6 5c99:eed5:1b24:3ddd:133a:f5f8:717d:d2ec linked to threat actor", "entities": [[5, 44, "IPV6_ADDRESS"]]}
+{"text": "Block IPv6 address 561c:abd1:25a3:f062:d08:3eff:b605:6d2b", "entities": [[19, 57, "IPV6_ADDRESS"]]}
+{"text": "Block b7dd:4ad2:9784:1691:2dd:9779:df03:d7c0 at firewall", "entities": [[6, 44, "IPV6_ADDRESS"]]}
+{"text": "Block IPv6 address a660:858d:e254:f990:e8fb:6ff1:c949:fe28", "entities": [[19, 58, "IPV6_ADDRESS"]]}
+{"text": "Block 62f:cae2:b49d:f935:c816:add1:e4af:8845 at firewall", "entities": [[6, 44, "IPV6_ADDRESS"]]}
+{"text": "Investigate 8ff3:3b35:416a:6c2f:2def:7ba4:7a59:50c9 network activity", "entities": [[12, 51, "IPV6_ADDRESS"]]}
+{"text": "Investigate c011:18b3:9e58:a7f9:47fa:1883:6e63:b0c4 network activity", "entities": [[12, 51, "IPV6_ADDRESS"]]}
+{"text": "IPv6 8657:ab4e:ee5e:79ff:7200:7247:15ae:4765 associated with attack", "entities": [[5, 44, "IPV6_ADDRESS"]]}
+{"text": "Trace connections from 5187:8130:49eb:e4c9:2d9d:38a3:a2c0:16ca", "entities": [[23, 62, "IPV6_ADDRESS"]]}
+{"text": "Repository facebook/threat-intel contains sensitive data", "entities": [[11, 32, "GITHUB_REPO"]]}
+{"text": "Repository wycats/forensics-tool under investigation", "entities": [[11, 32, "GITHUB_REPO"]]}
+{"text": "Repository apple/forensics-tool under investigation", "entities": [[11, 31, "GITHUB_REPO"]]}
+{"text": "Check octocat/vulnerability-scanner commit history", "entities": [[6, 35, "GITHUB_REPO"]]}
+{"text": "Repo tj/osint-framework linked to threat actor", "entities": [[5, 23, "GITHUB_REPO"]]}
+{"text": "Repository defunkt/threat-intel under investigation", "entities": [[11, 31, "GITHUB_REPO"]]}
+{"text": "Scan brynary/osint-framework for vulnerabilities", "entities": [[5, 28, "GITHUB_REPO"]]}
+{"text": "Repository brynary/threat-intel contains malware", "entities": [[11, 31, "GITHUB_REPO"]]}
+{"text": "Repo google/awesome-project flagged for security issues", "entities": [[5, 27, "GITHUB_REPO"]]}
+{"text": "Monitor apple/pentest-toolkit for updates", "entities": [[8, 29, "GITHUB_REPO"]]}
+{"text": "Scan brynary/security-tool for vulnerabilities", "entities": [[5, 26, "GITHUB_REPO"]]}
+{"text": "Repo microsoft/forensics-tool linked to threat actor", "entities": [[5, 29, "GITHUB_REPO"]]}
+{"text": "Monitor defunkt/pentest-toolkit for updates", "entities": [[8, 31, "GITHUB_REPO"]]}
+{"text": "Check wycats/threat-intel commit history", "entities": [[6, 25, "GITHUB_REPO"]]}
+{"text": "Repository mojombo/forensics-tool contains sensitive data", "entities": [[11, 33, "GITHUB_REPO"]]}
+{"text": "Repo mojombo/forensics-tool linked to threat actor", "entities": [[5, 27, "GITHUB_REPO"]]}
+{"text": "Repo gaearon/forensics-tool linked to threat actor", "entities": [[5, 27, "GITHUB_REPO"]]}
+{"text": "Repo wycats/pentest-toolkit flagged for security issues", "entities": [[5, 27, "GITHUB_REPO"]]}
+{"text": "Scan mojombo/malware-analysis for vulnerabilities", "entities": [[5, 29, "GITHUB_REPO"]]}
+{"text": "Repo github/vulnerability-scanner flagged for security issues", "entities": [[5, 33, "GITHUB_REPO"]]}
+{"text": "Check docker/threat-intel commit history", "entities": [[6, 25, "GITHUB_REPO"]]}
+{"text": "Repo brynary/threat-intel flagged for security issues", "entities": [[5, 25, "GITHUB_REPO"]]}
+{"text": "Repository tj/osint-framework contains sensitive data", "entities": [[11, 29, "GITHUB_REPO"]]}
+{"text": "Check torvalds/forensics-tool commit history", "entities": [[6, 29, "GITHUB_REPO"]]}
+{"text": "Repository tj/threat-intel under investigation", "entities": [[11, 26, "GITHUB_REPO"]]}
+{"text": "Clone netflix/vulnerability-scanner for analysis", "entities": [[6, 35, "GITHUB_REPO"]]}
+{"text": "Repo docker/pentest-toolkit linked to threat actor", "entities": [[5, 27, "GITHUB_REPO"]]}
+{"text": "Repository google/vulnerability-scanner under investigation", "entities": [[11, 39, "GITHUB_REPO"]]}
+{"text": "Repository google/awesome-project contains malware", "entities": [[11, 33, "GITHUB_REPO"]]}
+{"text": "Monitor ezmobius/osint-framework for updates", "entities": [[8, 32, "GITHUB_REPO"]]}
+{"text": "Check github/malware-analysis commit history", "entities": [[6, 29, "GITHUB_REPO"]]}
+{"text": "Repository airbnb/security-tool contains malware", "entities": [[11, 31, "GITHUB_REPO"]]}
+{"text": "Scan github/pentest-toolkit for vulnerabilities", "entities": [[5, 27, "GITHUB_REPO"]]}
+{"text": "Check github/vulnerability-scanner commit history", "entities": [[6, 34, "GITHUB_REPO"]]}
+{"text": "Monitor uber/osint-framework for updates", "entities": [[8, 28, "GITHUB_REPO"]]}
+{"text": "Analyze mojombo/vulnerability-scanner source code", "entities": [[8, 37, "GITHUB_REPO"]]}
+{"text": "Scan mojombo/pentest-toolkit for vulnerabilities", "entities": [[5, 28, "GITHUB_REPO"]]}
+{"text": "Repository defunkt/vulnerability-scanner under investigation", "entities": [[11, 40, "GITHUB_REPO"]]}
+{"text": "Scan octocat/malware-analysis for vulnerabilities", "entities": [[5, 29, "GITHUB_REPO"]]}
+{"text": "Repo torvalds/pentest-toolkit flagged for security issues", "entities": [[5, 29, "GITHUB_REPO"]]}
+{"text": "Repository mojombo/pentest-toolkit contains sensitive data", "entities": [[11, 34, "GITHUB_REPO"]]}
+{"text": "Repository twitter/osint-framework under investigation", "entities": [[11, 34, "GITHUB_REPO"]]}
+{"text": "Repo mojombo/osint-framework flagged for security issues", "entities": [[5, 28, "GITHUB_REPO"]]}
+{"text": "Analyze google/pentest-toolkit source code", "entities": [[8, 30, "GITHUB_REPO"]]}
+{"text": "Check wycats/threat-intel commit history", "entities": [[6, 25, "GITHUB_REPO"]]}
+{"text": "Repo netflix/vulnerability-scanner linked to threat actor", "entities": [[5, 34, "GITHUB_REPO"]]}
+{"text": "Monitor mojombo/pentest-toolkit for updates", "entities": [[8, 31, "GITHUB_REPO"]]}
+{"text": "Analyze brynary/vulnerability-scanner source code", "entities": [[8, 37, "GITHUB_REPO"]]}
+{"text": "Repo facebook/malware-analysis linked to threat actor", "entities": [[5, 30, "GITHUB_REPO"]]}
+{"text": "Check wycats/forensics-tool commit history", "entities": [[6, 27, "GITHUB_REPO"]]}
+{"text": "Repository https://github.com/apple/osint-framework/releases associated with attack", "entities": [[11, 60, "GITHUB_REPO_URL"]]}
+{"text": "Check https://github.com/defunkt/awesome-project/blob/main/README.md commit history", "entities": [[6, 68, "GITHUB_REPO_URL"]]}
+{"text": "Check https://github.com/microsoft/awesome-project/pulls commit history", "entities": [[6, 56, "GITHUB_REPO_URL"]]}
+{"text": "Repository https://github.com/uber/awesome-project/releases contains vulnerabilities", "entities": [[11, 59, "GITHUB_REPO_URL"]]}
+{"text": "Repository URL https://github.com/wycats/awesome-project/blob/main/README.md under investigation", "entities": [[15, 76, "GITHUB_REPO_URL"]]}
+{"text": "Clone from https://github.com/ezmobius/vulnerability-scanner/releases", "entities": [[11, 69, "GITHUB_REPO_URL"]]}
+{"text": "Analyze https://github.com/gaearon/security-tool/tree/main source code", "entities": [[8, 58, "GITHUB_REPO_URL"]]}
+{"text": "Analyze https://github.com/torvalds/awesome-project/tree/main source code", "entities": [[8, 61, "GITHUB_REPO_URL"]]}
+{"text": "Check https://github.com/mojombo/security-tool commit history", "entities": [[6, 46, "GITHUB_REPO_URL"]]}
+{"text": "Clone from https://github.com/pjhyatt/vulnerability-scanner/issues", "entities": [[11, 66, "GITHUB_REPO_URL"]]}
+{"text": "Repository https://github.com/defunkt/security-tool/tree/main associated with attack", "entities": [[11, 61, "GITHUB_REPO_URL"]]}
+{"text": "Repository https://github.com/wycats/security-tool associated with attack", "entities": [[11, 50, "GITHUB_REPO_URL"]]}
+{"text": "URL https://github.com/uber/security-tool/tree/main flagged", "entities": [[4, 51, "GITHUB_REPO_URL"]]}
+{"text": "URL https://github.com/torvalds/osint-framework/issues flagged", "entities": [[4, 54, "GITHUB_REPO_URL"]]}
+{"text": "Repository URL https://github.com/octocat/awesome-project/issues under investigation", "entities": [[15, 64, "GITHUB_REPO_URL"]]}
+{"text": "URL https://github.com/wycats/security-tool/blob/main/README.md linked to threat actor", "entities": [[4, 63, "GITHUB_REPO_URL"]]}
+{"text": "Analyze https://github.com/brynary/vulnerability-scanner/issues source code", "entities": [[8, 63, "GITHUB_REPO_URL"]]}
+{"text": "Repository https://github.com/mojombo/security-tool/releases contains vulnerabilities", "entities": [[11, 60, "GITHUB_REPO_URL"]]}
+{"text": "Repository https://github.com/mojombo/awesome-project/blob/main/README.md contains vulnerabilities", "entities": [[11, 73, "GITHUB_REPO_URL"]]}
+{"text": "Check https://github.com/mojombo/vulnerability-scanner/issues commit history", "entities": [[6, 61, "GITHUB_REPO_URL"]]}
+{"text": "Repository https://github.com/microsoft/vulnerability-scanner/blob/main/README.md contains vulnerabilities", "entities": [[11, 81, "GITHUB_REPO_URL"]]}
+{"text": "Repository https://github.com/ezmobius/security-tool associated with attack", "entities": [[11, 52, "GITHUB_REPO_URL"]]}
+{"text": "Repository URL https://github.com/facebook/awesome-project/pulls under investigation", "entities": [[15, 64, "GITHUB_REPO_URL"]]}
+{"text": "Check https://github.com/apple/security-tool/releases commit history", "entities": [[6, 53, "GITHUB_REPO_URL"]]}
+{"text": "Check https://github.com/ezmobius/osint-framework/blob/main/README.md commit history", "entities": [[6, 69, "GITHUB_REPO_URL"]]}
+{"text": "Scan https://github.com/mojombo/security-tool/blob/main/README.md for security issues", "entities": [[5, 65, "GITHUB_REPO_URL"]]}
+{"text": "Monitor https://github.com/google/awesome-project/pulls for suspicious activity", "entities": [[8, 55, "GITHUB_REPO_URL"]]}
+{"text": "URL https://github.com/mojombo/awesome-project/pulls linked to threat actor", "entities": [[4, 52, "GITHUB_REPO_URL"]]}
+{"text": "Check https://github.com/brynary/security-tool commit history", "entities": [[6, 46, "GITHUB_REPO_URL"]]}
+{"text": "Analyze https://github.com/mojombo/vulnerability-scanner/issues source code", "entities": [[8, 63, "GITHUB_REPO_URL"]]}
+{"text": "Monitor https://github.com/google/osint-framework for suspicious activity", "entities": [[8, 49, "GITHUB_REPO_URL"]]}
+{"text": "URL https://github.com/docker/osint-framework/releases flagged", "entities": [[4, 54, "GITHUB_REPO_URL"]]}
+{"text": "Repository URL https://github.com/defunkt/security-tool/issues under investigation", "entities": [[15, 62, "GITHUB_REPO_URL"]]}
+{"text": "URL https://github.com/tj/awesome-project/pulls flagged", "entities": [[4, 47, "GITHUB_REPO_URL"]]}
+{"text": "Analyze https://github.com/tj/security-tool/issues source code", "entities": [[8, 50, "GITHUB_REPO_URL"]]}
+{"text": "URL https://github.com/torvalds/vulnerability-scanner/blob/main/README.md linked to threat actor", "entities": [[4, 73, "GITHUB_REPO_URL"]]}
+{"text": "Check https://github.com/tj/security-tool/releases commit history", "entities": [[6, 50, "GITHUB_REPO_URL"]]}
+{"text": "Repository https://github.com/defunkt/vulnerability-scanner/issues contains vulnerabilities", "entities": [[11, 66, "GITHUB_REPO_URL"]]}
+{"text": "Repository https://github.com/torvalds/osint-framework associated with attack", "entities": [[11, 54, "GITHUB_REPO_URL"]]}
+{"text": "Clone from https://github.com/apple/osint-framework", "entities": [[11, 51, "GITHUB_REPO_URL"]]}
+{"text": "Repository URL https://github.com/facebook/osint-framework under investigation", "entities": [[15, 58, "GITHUB_REPO_URL"]]}
+{"text": "Monitor https://github.com/octocat/security-tool/tree/main for suspicious activity", "entities": [[8, 58, "GITHUB_REPO_URL"]]}
+{"text": "Repository https://github.com/gaearon/vulnerability-scanner/pulls contains vulnerabilities", "entities": [[11, 65, "GITHUB_REPO_URL"]]}
+{"text": "URL https://github.com/wycats/awesome-project/tree/main flagged", "entities": [[4, 55, "GITHUB_REPO_URL"]]}
+{"text": "Clone from https://github.com/ezmobius/vulnerability-scanner", "entities": [[11, 60, "GITHUB_REPO_URL"]]}
+{"text": "Monitor https://github.com/docker/security-tool/blob/main/README.md for suspicious activity", "entities": [[8, 67, "GITHUB_REPO_URL"]]}
+{"text": "Check https://github.com/twitter/osint-framework/blob/main/README.md commit history", "entities": [[6, 68, "GITHUB_REPO_URL"]]}
+{"text": "Scan https://github.com/ezmobius/awesome-project/releases for security issues", "entities": [[5, 57, "GITHUB_REPO_URL"]]}
+{"text": "URL https://github.com/apple/vulnerability-scanner/issues flagged", "entities": [[4, 57, "GITHUB_REPO_URL"]]}
+{"text": "Repository https://github.com/defunkt/security-tool/pulls contains vulnerabilities", "entities": [[11, 57, "GITHUB_REPO_URL"]]}
+{"text": "Scan https://github.com/pjhyatt/osint-framework/pulls for security issues", "entities": [[5, 53, "GITHUB_REPO_URL"]]}
+{"text": "Scan https://github.com/wycats/awesome-project/issues for security issues", "entities": [[5, 53, "GITHUB_REPO_URL"]]}
+{"text": "Repository https://github.com/defunkt/security-tool/tree/main associated with attack", "entities": [[11, 61, "GITHUB_REPO_URL"]]}
+{"text": "Check https://github.com/facebook/osint-framework/blob/main/README.md commit history", "entities": [[6, 69, "GITHUB_REPO_URL"]]}
+{"text": "Repository https://github.com/torvalds/security-tool/tree/main contains vulnerabilities", "entities": [[11, 62, "GITHUB_REPO_URL"]]}
+{"text": "URL https://github.com/airbnb/awesome-project/blob/main/README.md linked to threat actor", "entities": [[4, 65, "GITHUB_REPO_URL"]]}
+{"text": "URL https://github.com/pjhyatt/osint-framework/issues flagged", "entities": [[4, 53, "GITHUB_REPO_URL"]]}
+{"text": "Repository https://github.com/facebook/security-tool/pulls associated with attack", "entities": [[11, 58, "GITHUB_REPO_URL"]]}
+{"text": "Analyze https://github.com/torvalds/awesome-project source code", "entities": [[8, 51, "GITHUB_REPO_URL"]]}
+{"text": "Repository https://github.com/torvalds/osint-framework/issues contains vulnerabilities", "entities": [[11, 61, "GITHUB_REPO_URL"]]}
+{"text": "User @brynary linked to threat actor", "entities": [[0, 4, "GITHUB_USER"]]}
+{"text": "Profile torvalds under review", "entities": [[0, 7, "GITHUB_USER"]]}
+{"text": "User @gaearon linked to threat actor", "entities": [[0, 4, "GITHUB_USER"]]}
+{"text": "GitHub user gaearon under investigation", "entities": [[7, 11, "GITHUB_USER"]]}
+{"text": "User @pjhyatt linked to threat actor", "entities": [[0, 4, "GITHUB_USER"]]}
+{"text": "Account @pjhyatt associated with attack", "entities": [[0, 7, "GITHUB_USER"]]}
+{"text": "Account wycats verified", "entities": [[0, 7, "GITHUB_USER"]]}
+{"text": "GitHub user octocat in contact list", "entities": [[7, 11, "GITHUB_USER"]]}
+{"text": "Profile wycats flagged", "entities": [[0, 7, "GITHUB_USER"]]}
+{"text": "Monitor @tj repositories", "entities": [[0, 7, "GITHUB_USER"]]}
+{"text": "User gaearon linked to threat actor", "entities": [[0, 4, "GITHUB_USER"]]}
+{"text": "GitHub user octocat in contact list", "entities": [[7, 11, "GITHUB_USER"]]}
+{"text": "Account brynary verified", "entities": [[0, 7, "GITHUB_USER"]]}
+{"text": "Account @wycats verified", "entities": [[0, 7, "GITHUB_USER"]]}
+{"text": "User @torvalds linked to threat actor", "entities": [[5, 14, "GITHUB_USER"]]}
+{"text": "GitHub account pjhyatt suspicious", "entities": [[7, 14, "GITHUB_USER"]]}
+{"text": "Profile @octocat flagged", "entities": [[0, 7, "GITHUB_USER"]]}
+{"text": "GitHub user @torvalds under investigation", "entities": [[12, 21, "GITHUB_USER"]]}
+{"text": "User gaearon repositories analyzed", "entities": [[0, 4, "GITHUB_USER"]]}
+{"text": "Account @pjhyatt associated with attack", "entities": [[0, 7, "GITHUB_USER"]]}
+{"text": "Profile defunkt under review", "entities": [[0, 7, "GITHUB_USER"]]}
+{"text": "User pjhyatt repositories analyzed", "entities": [[0, 4, "GITHUB_USER"]]}
+{"text": "Account @torvalds associated with attack", "entities": [[8, 17, "GITHUB_USER"]]}
+{"text": "User @wycats repositories analyzed", "entities": [[0, 4, "GITHUB_USER"]]}
+{"text": "GitHub user @tj under investigation", "entities": [[7, 11, "GITHUB_USER"]]}
+{"text": "User @mojombo linked to threat actor", "entities": [[0, 4, "GITHUB_USER"]]}
+{"text": "GitHub user @gaearon under investigation", "entities": [[7, 11, "GITHUB_USER"]]}
+{"text": "User @octocat repositories analyzed", "entities": [[0, 4, "GITHUB_USER"]]}
+{"text": "Account wycats associated with attack", "entities": [[0, 7, "GITHUB_USER"]]}
+{"text": "Monitor @defunkt repositories", "entities": [[0, 7, "GITHUB_USER"]]}
+{"text": "Profile brynary under review", "entities": [[0, 7, "GITHUB_USER"]]}
+{"text": "Monitor @ezmobius repositories", "entities": [[8, 17, "GITHUB_USER"]]}
+{"text": "GitHub account mojombo suspicious", "entities": [[7, 14, "GITHUB_USER"]]}
+{"text": "GitHub user pjhyatt under investigation", "entities": [[7, 11, "GITHUB_USER"]]}
+{"text": "Account @defunkt associated with attack", "entities": [[0, 7, "GITHUB_USER"]]}
+{"text": "User @pjhyatt linked to threat actor", "entities": [[0, 4, "GITHUB_USER"]]}
+{"text": "GitHub account @torvalds suspicious", "entities": [[15, 24, "GITHUB_USER"]]}
+{"text": "Monitor gaearon repositories", "entities": [[0, 7, "GITHUB_USER"]]}
+{"text": "Monitor tj repositories", "entities": [[0, 7, "GITHUB_USER"]]}
+{"text": "User brynary repositories analyzed", "entities": [[0, 4, "GITHUB_USER"]]}
+{"text": "Monitor github organization activity", "entities": [[8, 14, "GITHUB_ORGANIZATION"]]}
+{"text": "Organization microsoft flagged", "entities": [[13, 22, "GITHUB_ORGANIZATION"]]}
+{"text": "Monitor netflix for security updates", "entities": [[8, 15, "GITHUB_ORGANIZATION"]]}
+{"text": "Monitor google for security updates", "entities": [[8, 14, "GITHUB_ORGANIZATION"]]}
+{"text": "Organization microsoft verified", "entities": [[13, 22, "GITHUB_ORGANIZATION"]]}
+{"text": "Org netflix linked to security research", "entities": [[4, 11, "GITHUB_ORGANIZATION"]]}
+{"text": "Organization github verified", "entities": [[13, 19, "GITHUB_ORGANIZATION"]]}
+{"text": "Org docker linked to security research", "entities": [[4, 10, "GITHUB_ORGANIZATION"]]}
+{"text": "Org airbnb associated with threat intelligence", "entities": [[4, 10, "GITHUB_ORGANIZATION"]]}
+{"text": "Monitor airbnb organization activity", "entities": [[8, 14, "GITHUB_ORGANIZATION"]]}
+{"text": "Organization facebook verified", "entities": [[13, 21, "GITHUB_ORGANIZATION"]]}
+{"text": "Organization google repositories analyzed", "entities": [[13, 19, "GITHUB_ORGANIZATION"]]}
+{"text": "Monitor facebook organization activity", "entities": [[8, 16, "GITHUB_ORGANIZATION"]]}
+{"text": "GitHub org uber under investigation", "entities": [[11, 15, "GITHUB_ORGANIZATION"]]}
+{"text": "Monitor github for security updates", "entities": [[8, 14, "GITHUB_ORGANIZATION"]]}
+{"text": "Organization netflix repositories analyzed", "entities": [[13, 20, "GITHUB_ORGANIZATION"]]}
+{"text": "Org facebook associated with threat intelligence", "entities": [[4, 12, "GITHUB_ORGANIZATION"]]}
+{"text": "Organization microsoft verified", "entities": [[13, 22, "GITHUB_ORGANIZATION"]]}
+{"text": "Monitor uber for security updates", "entities": [[8, 12, "GITHUB_ORGANIZATION"]]}
+{"text": "Organization github repositories analyzed", "entities": [[13, 19, "GITHUB_ORGANIZATION"]]}
+{"text": "Org google linked to security research", "entities": [[4, 10, "GITHUB_ORGANIZATION"]]}
+{"text": "Org uber linked to security research", "entities": [[4, 8, "GITHUB_ORGANIZATION"]]}
+{"text": "GitHub org netflix under investigation", "entities": [[11, 18, "GITHUB_ORGANIZATION"]]}
+{"text": "Organization microsoft flagged", "entities": [[13, 22, "GITHUB_ORGANIZATION"]]}
+{"text": "GitHub org microsoft under investigation", "entities": [[11, 20, "GITHUB_ORGANIZATION"]]}
+{"text": "Monitor netflix organization activity", "entities": [[8, 15, "GITHUB_ORGANIZATION"]]}
+{"text": "GitHub org docker under investigation", "entities": [[11, 17, "GITHUB_ORGANIZATION"]]}
+{"text": "Organization google flagged", "entities": [[13, 19, "GITHUB_ORGANIZATION"]]}
+{"text": "Monitor github for security updates", "entities": [[8, 14, "GITHUB_ORGANIZATION"]]}
+{"text": "GitHub org github repositories reviewed", "entities": [[11, 17, "GITHUB_ORGANIZATION"]]}
+{"text": "Org microsoft linked to security research", "entities": [[4, 13, "GITHUB_ORGANIZATION"]]}
+{"text": "Organization github verified", "entities": [[13, 19, "GITHUB_ORGANIZATION"]]}
+{"text": "Organization apple flagged", "entities": [[13, 18, "GITHUB_ORGANIZATION"]]}
+{"text": "GitHub organization twitter repositories scanned", "entities": [[20, 27, "GITHUB_ORGANIZATION"]]}
+{"text": "Organization docker flagged", "entities": [[13, 19, "GITHUB_ORGANIZATION"]]}
+{"text": "GitHub org google under investigation", "entities": [[11, 17, "GITHUB_ORGANIZATION"]]}
+{"text": "Organization microsoft flagged", "entities": [[13, 22, "GITHUB_ORGANIZATION"]]}
+{"text": "Org facebook linked to security research", "entities": [[4, 12, "GITHUB_ORGANIZATION"]]}
+{"text": "Gist https://gist.github.com/brynary/c443ee3ddb9f3243c048dc990fb94e6d flagged for security issues", "entities": [[5, 69, "GITHUB_GIST"]]}
+{"text": "Gist https://gist.github.com/tj/2719321cbc7a50e07e0af4e64a2dce0b under investigation", "entities": [[5, 64, "GITHUB_GIST"]]}
+{"text": "Review https://gist.github.com/torvalds/a9933a6d7ef3a29536f51ff79c8b57b9 content", "entities": [[7, 72, "GITHUB_GIST"]]}
+{"text": "Gist https://gist.github.com/pjhyatt/e96ef7a0e278a4f3f18ba210a31dc01d under investigation", "entities": [[5, 69, "GITHUB_GIST"]]}
+{"text": "Gist https://gist.github.com/torvalds/91b09c32caca3cb10f785a20287e7184 contains malware", "entities": [[5, 70, "GITHUB_GIST"]]}
+{"text": "Analyze https://gist.github.com/defunkt/dd6f261212a5c23ba360107722929c6e code", "entities": [[8, 72, "GITHUB_GIST"]]}
+{"text": "Gist https://gist.github.com/torvalds/ab2cfff2f2c0cbf3c13fc7ad3ec13d52 contains malware", "entities": [[5, 70, "GITHUB_GIST"]]}
+{"text": "Review https://gist.github.com/mojombo/72d24c5572f5df9c2d502bbf3252db73 content", "entities": [[7, 71, "GITHUB_GIST"]]}
+{"text": "Gist https://gist.github.com/pjhyatt/478e0f6e942f515275689faf7a80e069 contains sensitive code", "entities": [[5, 69, "GITHUB_GIST"]]}
+{"text": "Review https://gist.github.com/brynary/c77eee7fdb091ace38dedd3e024ccc70 content", "entities": [[7, 71, "GITHUB_GIST"]]}
+{"text": "Gist https://gist.github.com/brynary/5bef86f42748d878f4350407bd11248e flagged for security issues", "entities": [[5, 69, "GITHUB_GIST"]]}
+{"text": "Gist https://gist.github.com/brynary/7bfb9bb77786fc6c1f8bef0b9e10b180 linked to threat", "entities": [[5, 69, "GITHUB_GIST"]]}
+{"text": "Gist https://gist.github.com/mojombo/459f1170a34ab5fb01773c9f829c2a96 flagged for security issues", "entities": [[5, 69, "GITHUB_GIST"]]}
+{"text": "Gist https://gist.github.com/pjhyatt/e3c39d666aaab1b08d19eb4ea00ff01f contains malware", "entities": [[5, 69, "GITHUB_GIST"]]}
+{"text": "Check https://gist.github.com/ezmobius/714e0d3a839a3fa6a57da8fbf782a30e for vulnerabilities", "entities": [[6, 71, "GITHUB_GIST"]]}
+{"text": "Analyze gist https://gist.github.com/tj/d9c8d8038b767a4d3b15b6b8caaaecc1", "entities": [[13, 72, "GITHUB_GIST"]]}
+{"text": "Analyze https://gist.github.com/octocat/1e00f3d5b2543be42828ba7c64949447 code", "entities": [[8, 72, "GITHUB_GIST"]]}
+{"text": "Gist https://gist.github.com/gaearon/d7cd83206ee361a9247668736d188384 under investigation", "entities": [[5, 69, "GITHUB_GIST"]]}
+{"text": "Gist https://gist.github.com/brynary/f68a231f832a38037ee654f728366bbd under investigation", "entities": [[5, 69, "GITHUB_GIST"]]}
+{"text": "Gist https://gist.github.com/defunkt/a56627975691fd51887a128a78544688 under investigation", "entities": [[5, 69, "GITHUB_GIST"]]}
+{"text": "Analyze gist https://gist.github.com/torvalds/509858b0b277aed6c9ec90fccdf0f0b9", "entities": [[13, 78, "GITHUB_GIST"]]}
+{"text": "Gist https://gist.github.com/pjhyatt/bcaf2cd5867953da3666526cb0480f11 under investigation", "entities": [[5, 69, "GITHUB_GIST"]]}
+{"text": "Gist https://gist.github.com/mojombo/98d88e972bab28af5c73c4813db6f779 under investigation", "entities": [[5, 69, "GITHUB_GIST"]]}
+{"text": "Gist https://gist.github.com/octocat/99f9d66ffe5afbe8ff0372cb2b511e13 linked to threat", "entities": [[5, 69, "GITHUB_GIST"]]}
+{"text": "Gist https://gist.github.com/pjhyatt/1b052bf1af217f09632ae2964465d59a contains malware", "entities": [[5, 69, "GITHUB_GIST"]]}
+{"text": "Review https://gist.github.com/mojombo/9ecd7b606c5dd9a145bf773846c78b02 content", "entities": [[7, 71, "GITHUB_GIST"]]}
+{"text": "Analyze https://gist.github.com/ezmobius/fe7be4dbba71855cbdd4358f20b16843 code", "entities": [[8, 73, "GITHUB_GIST"]]}
+{"text": "Check https://gist.github.com/octocat/5ee3cc7694d8a834de982a3379d00308 for vulnerabilities", "entities": [[6, 70, "GITHUB_GIST"]]}
+{"text": "Gist https://gist.github.com/tj/1b65b67f4ad94525a5e188d67a4d22d3 flagged for security issues", "entities": [[5, 64, "GITHUB_GIST"]]}
+{"text": "Gist https://gist.github.com/torvalds/1c201a84610975042c66b6b717539c37 contains sensitive code", "entities": [[5, 70, "GITHUB_GIST"]]}
+{"text": "Analyze gist https://gist.github.com/tj/abf4dd764b7749c7b2dd0403a473ff3d", "entities": [[13, 72, "GITHUB_GIST"]]}
+{"text": "Gist https://gist.github.com/gaearon/46cff04a3e1657e1ae76a778e0bdebdb flagged for security issues", "entities": [[5, 69, "GITHUB_GIST"]]}
+{"text": "Review https://gist.github.com/mojombo/0cc31c9a6013365377a89371453bdb2c content", "entities": [[7, 71, "GITHUB_GIST"]]}
+{"text": "Gist https://gist.github.com/wycats/409171df7d7680af7c716e37bd6c7553 contains sensitive code", "entities": [[5, 68, "GITHUB_GIST"]]}
+{"text": "Gist https://gist.github.com/pjhyatt/f40aac040d0d1546f435f0f602a48ea5 flagged for security issues", "entities": [[5, 69, "GITHUB_GIST"]]}
+{"text": "Analyze gist https://gist.github.com/mojombo/e9cb5c7caa6fcf1a7bb07581e22dc908", "entities": [[13, 77, "GITHUB_GIST"]]}
+{"text": "Gist https://gist.github.com/defunkt/566ad7e45944f03a51de15ee380ee751 contains malware", "entities": [[5, 69, "GITHUB_GIST"]]}
+{"text": "Analyze https://gist.github.com/torvalds/6fa116bf280a6394435b7990fe215535 code", "entities": [[8, 73, "GITHUB_GIST"]]}
+{"text": "Gist https://gist.github.com/tj/950cef2cf9f748056909b6b61770becd linked to threat", "entities": [[5, 64, "GITHUB_GIST"]]}
+{"text": "Review https://gist.github.com/octocat/6eba485f5cd11e563b254e98d0e80e3e content", "entities": [[7, 71, "GITHUB_GIST"]]}
+{"text": "Gist https://gist.github.com/tj/164230de0e5eb0a8e2c8ac6945486def under investigation", "entities": [[5, 64, "GITHUB_GIST"]]}
+{"text": "Analyze https://gist.github.com/pjhyatt/e203f50e6d507b8ab9d640a0622429e4 code", "entities": [[8, 72, "GITHUB_GIST"]]}
+{"text": "Check https://gist.github.com/octocat/7fe97747acbd300dcb908071310d5c19 for vulnerabilities", "entities": [[6, 70, "GITHUB_GIST"]]}
+{"text": "Analyze https://gist.github.com/mojombo/cf0c42bf98e83257cb46bfcfb73ad613 code", "entities": [[8, 72, "GITHUB_GIST"]]}
+{"text": "Analyze https://gist.github.com/octocat/ae62018cdee01a204e1ebe67286ee884 code", "entities": [[8, 72, "GITHUB_GIST"]]}
+{"text": "Check https://gist.github.com/mojombo/29a1da456e7595a97bb1bcb7bf5bbb06 for vulnerabilities", "entities": [[6, 70, "GITHUB_GIST"]]}
+{"text": "Gist https://gist.github.com/brynary/945e678fba41f5e5c03ceacabcbe2582 linked to threat", "entities": [[5, 69, "GITHUB_GIST"]]}
+{"text": "Check https://gist.github.com/mojombo/b0a3e7eb124a8d197c68a6250848b16a for vulnerabilities", "entities": [[6, 70, "GITHUB_GIST"]]}
+{"text": "Gist https://gist.github.com/wycats/cef366a3c380dfe75a390b54425747f2 contains sensitive code", "entities": [[5, 68, "GITHUB_GIST"]]}
+{"text": "Analyze https://gist.github.com/wycats/ca0acdb597e3b4d7369b9f37c439f36a code", "entities": [[8, 71, "GITHUB_GIST"]]}

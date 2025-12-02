@@ -1,0 +1,1008 @@
+{"text": "Forensics: Image forensics platforms detected manipulation_52. Timestamp verification tools show date 2024-05-15. Image enhancement software processed image.", "entities": [[102, 131, "TOOL"]]}
+{"text": "Record: Image_ID IMINT_0059, Source: photo_59.jpg, Camera: camera_59, Date: 2024-12-15, Objects: 4, Verification: Pending", "entities": [[0, 6, "RECORD_TYPE"], [8, 22, "RECORD_ID"], [17, 28, "SOURCE"], [37, 49, "CAMERA"], [51, 58, "CAMERA"], [59, 65, "DATE"], [59, 75, "DATE"], [76, 86, "METRIC_TYPE"], [84, 95, "COUNT"], [88, 112, "VERIFICATION_TYPE"]]}
+{"text": "Facial recognition: Software identified person_66 with 86% confidence. Photo verification services confirmed. Object recognition tools detected 1 objects.", "entities": [[40, 49, "CONFIDENCE"], [99, 116, "COUNT"], [117, 128, "OBJECT_TYPE"]]}
+{"text": "Record: Image_ID IMINT_0074, Source: photo_74.jpg, Camera: camera_74, Date: 2024-03-15, Objects: 4, Verification: Verified", "entities": [[0, 6, "RECORD_TYPE"], [8, 22, "RECORD_ID"], [17, 28, "SOURCE"], [37, 49, "CAMERA"], [51, 58, "CAMERA"], [59, 65, "DATE"], [59, 75, "DATE"], [76, 86, "METRIC_TYPE"], [84, 95, "COUNT"], [88, 112, "VERIFICATION_TYPE"]]}
+{"text": "Record: Image_ID IMINT_0019, Source: photo_19.jpg, Camera: camera_19, Date: 2024-08-15, Objects: 4, Verification: Pending", "entities": [[0, 6, "RECORD_TYPE"], [8, 22, "RECORD_ID"], [17, 28, "SOURCE"], [37, 49, "CAMERA"], [51, 58, "CAMERA"], [59, 65, "DATE"], [59, 75, "DATE"], [76, 86, "METRIC_TYPE"], [84, 95, "COUNT"], [88, 112, "VERIFICATION_TYPE"]]}
+{"text": "Facial recognition: Software identified person_76 with 96% confidence. Photo verification services confirmed. Object recognition tools detected 1 objects.", "entities": [[40, 49, "CONFIDENCE"], [99, 116, "COUNT"], [117, 128, "OBJECT_TYPE"]]}
+{"text": "Image forensics report: Photo shows signs of manipulation. Image forensics platforms detected cloning artifacts. Timestamp verification tools show creation date 2024-06-15 14:30:00, but metadata suggests 2024-06-10.", "entities": [[16, 29, "MEDIA_TYPE"], [30, 57, "MANIPULATION_TYPE"], [102, 135, "TOOL"], [156, 165, "TIME"], [169, 177, "DATA_TYPE"]]}
+{"text": "Camera identification: Image enhancement software identified camera model iPhone 13 Pro from sensor pattern. Camera identification tools confirmed. Image comparison software found 85% similarity to reference image.", "entities": [[23, 28, "CAMERA"], [29, 40, "MODEL"], [93, 107, "PATTERN_TYPE"], [100, 130, "TOOL"]]}
+{"text": "Image search: Google Images found 85 matches. TinEye shows 83 results. Yandex Images found 88 matches. Image metadata shows camera_80, date 2024-09-15.", "entities": [[0, 12, "TOOL"], [14, 27, "TOOL"], [34, 36, "COUNT"], [37, 44, "MATCH_TYPE"], [62, 77, "RESULT_TYPE"], [94, 102, "COUNT"], [103, 108, "MATCH_TYPE"], [131, 139, "CAMERA"], [140, 150, "DATE"]]}
+{"text": "Record: Image_ID IMINT_0019, Source: photo_19.jpg, Camera: camera_19, Date: 2024-08-15, Objects: 4, Verification: Pending", "entities": [[0, 6, "RECORD_TYPE"], [8, 22, "RECORD_ID"], [17, 28, "SOURCE"], [37, 49, "CAMERA"], [51, 58, "CAMERA"], [59, 65, "DATE"], [59, 75, "DATE"], [76, 86, "METRIC_TYPE"], [84, 95, "COUNT"], [88, 112, "VERIFICATION_TYPE"]]}
+{"text": "Image search: Google Images found 100 matches. TinEye shows 98 results. Yandex Images found 103 matches. Image metadata shows camera_95, date 2024-12-15.", "entities": [[0, 12, "TOOL"], [14, 27, "TOOL"], [34, 37, "COUNT"], [38, 45, "MATCH_TYPE"], [47, 59, "TOOL"], [60, 70, "COUNT"], [63, 78, "RESULT_TYPE"], [96, 103, "COUNT"], [96, 110, "MATCH_TYPE"], [126, 136, "CAMERA"], [137, 149, "DATE"]]}
+{"text": "Forensics: Image forensics platforms detected manipulation_62. Timestamp verification tools show date 2024-03-15. Image enhancement software processed image.", "entities": [[102, 131, "TOOL"]]}
+{"text": "Record: Image_ID IMINT_0084, Source: photo_84.jpg, Camera: camera_84, Date: 2024-01-15, Objects: 4, Verification: Verified", "entities": [[0, 6, "RECORD_TYPE"], [8, 22, "RECORD_ID"], [17, 28, "SOURCE"], [37, 49, "CAMERA"], [51, 58, "CAMERA"], [59, 65, "DATE"], [59, 75, "DATE"], [76, 86, "METRIC_TYPE"], [84, 95, "COUNT"], [88, 112, "VERIFICATION_TYPE"]]}
+{"text": "Camera ID: Image enhancement software identified camera_53. Camera identification tools confirmed model_53. Image comparison software found 93% similarity.", "entities": [[0, 9, "TOOL"], [11, 28, "TOOL"], [38, 66, "TOOL"], [108, 113, "PERCENTAGE"], [114, 124, "SIMILARITY_TYPE"]]}
+{"text": "Image search: Google Images found 25 matches. TinEye shows 23 results. Yandex Images found 28 matches. Image metadata shows camera_20, date 2024-09-15.", "entities": [[0, 12, "TOOL"], [14, 27, "TOOL"], [34, 36, "COUNT"], [37, 44, "MATCH_TYPE"], [62, 77, "RESULT_TYPE"], [94, 102, "COUNT"], [103, 108, "MATCH_TYPE"], [131, 139, "CAMERA"], [140, 150, "DATE"]]}
+{"text": "Camera ID: Image enhancement software identified camera_18. Camera identification tools confirmed model_18. Image comparison software found 88% similarity.", "entities": [[0, 9, "TOOL"], [11, 28, "TOOL"], [38, 66, "TOOL"], [108, 113, "PERCENTAGE"], [114, 124, "SIMILARITY_TYPE"]]}
+{"text": "Image search: Google Images found 75 matches. TinEye shows 73 results. Yandex Images found 78 matches. Image metadata shows camera_70, date 2024-11-15.", "entities": [[0, 12, "TOOL"], [14, 27, "TOOL"], [34, 36, "COUNT"], [37, 44, "MATCH_TYPE"], [62, 77, "RESULT_TYPE"], [94, 102, "COUNT"], [103, 108, "MATCH_TYPE"], [131, 139, "CAMERA"], [140, 150, "DATE"]]}
+{"text": "Image search: Google Images found 75 matches. TinEye shows 73 results. Yandex Images found 78 matches. Image metadata shows camera_70, date 2024-11-15.", "entities": [[0, 12, "TOOL"], [14, 27, "TOOL"], [34, 36, "COUNT"], [37, 44, "MATCH_TYPE"], [62, 77, "RESULT_TYPE"], [94, 102, "COUNT"], [103, 108, "MATCH_TYPE"], [131, 139, "CAMERA"], [140, 150, "DATE"]]}
+{"text": "Camera ID: Image enhancement software identified camera_33. Camera identification tools confirmed model_33. Image comparison software found 73% similarity.", "entities": [[0, 9, "TOOL"], [11, 28, "TOOL"], [38, 66, "TOOL"], [108, 113, "PERCENTAGE"], [114, 124, "SIMILARITY_TYPE"]]}
+{"text": "Image search: Google Images found 80 matches. TinEye shows 78 results. Yandex Images found 83 matches. Image metadata shows camera_75, date 2024-04-15.", "entities": [[0, 12, "TOOL"], [14, 27, "TOOL"], [34, 36, "COUNT"], [37, 44, "MATCH_TYPE"], [62, 77, "RESULT_TYPE"], [94, 102, "COUNT"], [103, 108, "MATCH_TYPE"], [131, 139, "CAMERA"], [140, 150, "DATE"]]}
+{"text": "Record: Image_ID IMINT_0069, Source: photo_69.jpg, Camera: camera_69, Date: 2024-10-15, Objects: 4, Verification: Pending", "entities": [[0, 6, "RECORD_TYPE"], [8, 22, "RECORD_ID"], [17, 28, "SOURCE"], [37, 49, "CAMERA"], [51, 58, "CAMERA"], [59, 65, "DATE"], [59, 75, "DATE"], [76, 86, "METRIC_TYPE"], [84, 95, "COUNT"], [88, 112, "VERIFICATION_TYPE"]]}
+{"text": "Camera ID: Image enhancement software identified camera_78. Camera identification tools confirmed model_78. Image comparison software found 88% similarity.", "entities": [[0, 9, "TOOL"], [11, 28, "TOOL"], [38, 66, "TOOL"], [108, 113, "PERCENTAGE"], [114, 124, "SIMILARITY_TYPE"]]}
+{"text": "Forensics: Image forensics platforms detected manipulation_42. Timestamp verification tools show date 2024-07-15. Image enhancement software processed image.", "entities": [[102, 131, "TOOL"]]}
+{"text": "Forensics: Image forensics platforms detected manipulation_82. Timestamp verification tools show date 2024-11-15. Image enhancement software processed image.", "entities": [[102, 131, "TOOL"]]}
+{"text": "Forensics: Image forensics platforms detected manipulation_32. Timestamp verification tools show date 2024-09-15. Image enhancement software processed image.", "entities": [[102, 131, "TOOL"]]}
+{"text": "Camera ID: Image enhancement software identified camera_58. Camera identification tools confirmed model_58. Image comparison software found 98% similarity.", "entities": [[0, 9, "TOOL"], [11, 28, "TOOL"], [38, 66, "TOOL"], [108, 113, "PERCENTAGE"], [114, 124, "SIMILARITY_TYPE"]]}
+{"text": "Camera ID: Image enhancement software identified camera_28. Camera identification tools confirmed model_28. Image comparison software found 98% similarity.", "entities": [[0, 9, "TOOL"], [11, 28, "TOOL"], [38, 66, "TOOL"], [108, 113, "PERCENTAGE"], [114, 124, "SIMILARITY_TYPE"]]}
+{"text": "Record: Image_ID IMINT_0029, Source: photo_29.jpg, Camera: camera_29, Date: 2024-06-15, Objects: 4, Verification: Pending", "entities": [[0, 6, "RECORD_TYPE"], [8, 22, "RECORD_ID"], [17, 28, "SOURCE"], [37, 49, "CAMERA"], [51, 58, "CAMERA"], [59, 65, "DATE"], [59, 75, "DATE"], [76, 86, "METRIC_TYPE"], [84, 95, "COUNT"], [88, 112, "VERIFICATION_TYPE"]]}
+{"text": "Facial recognition: Software identified person_36 with 96% confidence. Photo verification services confirmed. Object recognition tools detected 1 objects.", "entities": [[40, 49, "CONFIDENCE"], [99, 116, "COUNT"], [117, 128, "OBJECT_TYPE"]]}
+{"text": "Image search: Google Images found 5 matches. TinEye shows 3 results. Yandex Images found 8 matches. Image metadata shows camera_0, date 2024-01-15.", "entities": [[0, 12, "TOOL"], [14, 27, "TOOL"], [34, 43, "COUNT"], [36, 44, "MATCH_TYPE"], [60, 67, "COUNT"], [91, 105, "COUNT"], [131, 140, "CAMERA"]]}
+{"text": "Facial recognition: Software identified person_76 with 96% confidence. Photo verification services confirmed. Object recognition tools detected 1 objects.", "entities": [[40, 49, "CONFIDENCE"], [99, 116, "COUNT"], [117, 128, "OBJECT_TYPE"]]}
+{"text": "Facial recognition: Software identified person_86 with 86% confidence. Photo verification services confirmed. Object recognition tools detected 1 objects.", "entities": [[40, 49, "CONFIDENCE"], [99, 116, "COUNT"], [117, 128, "OBJECT_TYPE"]]}
+{"text": "Forensics: Image forensics platforms detected manipulation_57. Timestamp verification tools show date 2024-10-15. Image enhancement software processed image.", "entities": [[102, 131, "TOOL"]]}
+{"text": "Facial recognition: Software identified person_76 with 96% confidence. Photo verification services confirmed. Object recognition tools detected 1 objects.", "entities": [[40, 49, "CONFIDENCE"], [99, 116, "COUNT"], [117, 128, "OBJECT_TYPE"]]}
+{"text": "Forensics: Image forensics platforms detected manipulation_72. Timestamp verification tools show date 2024-01-15. Image enhancement software processed image.", "entities": [[102, 131, "TOOL"]]}
+{"text": "Camera ID: Image enhancement software identified camera_83. Camera identification tools confirmed model_83. Image comparison software found 93% similarity.", "entities": [[0, 9, "TOOL"], [11, 28, "TOOL"], [38, 66, "TOOL"], [108, 113, "PERCENTAGE"], [114, 124, "SIMILARITY_TYPE"]]}
+{"text": "Record: Image_ID IMINT_0024, Source: photo_24.jpg, Camera: camera_24, Date: 2024-01-15, Objects: 4, Verification: Verified", "entities": [[0, 6, "RECORD_TYPE"], [8, 22, "RECORD_ID"], [17, 28, "SOURCE"], [37, 49, "CAMERA"], [51, 58, "CAMERA"], [59, 65, "DATE"], [59, 75, "DATE"], [76, 86, "METRIC_TYPE"], [84, 95, "COUNT"], [88, 112, "VERIFICATION_TYPE"]]}
+{"text": "Image search: Google Images found 95 matches. TinEye shows 93 results. Yandex Images found 98 matches. Image metadata shows camera_90, date 2024-07-15.", "entities": [[0, 12, "TOOL"], [14, 27, "TOOL"], [34, 36, "COUNT"], [37, 44, "MATCH_TYPE"], [62, 77, "RESULT_TYPE"], [94, 102, "COUNT"], [103, 108, "MATCH_TYPE"], [131, 139, "CAMERA"], [140, 150, "DATE"]]}
+{"text": "Reverse image search: Google Images found 15 matches for uploaded photo. TinEye shows 8 results, Yandex Images found 12 matches. Image metadata analysis tools extracted EXIF data: Camera: Canon EOS 5D, Date: 2024-06-15.", "entities": [[0, 20, "TOOL"], [22, 35, "TOOL"], [45, 52, "MATCH_TYPE"], [66, 79, "RESULT_TYPE"], [104, 110, "MATCH_TYPE"], [135, 152, "DATA_TYPE"], [144, 152, "DATA_TYPE"], [180, 193, "DATE"]]}
+{"text": "Image search: Google Images found 65 matches. TinEye shows 63 results. Yandex Images found 68 matches. Image metadata shows camera_60, date 2024-01-15.", "entities": [[0, 12, "TOOL"], [14, 27, "TOOL"], [34, 36, "COUNT"], [37, 44, "MATCH_TYPE"], [62, 77, "RESULT_TYPE"], [94, 102, "COUNT"], [103, 108, "MATCH_TYPE"], [131, 139, "CAMERA"], [140, 150, "DATE"]]}
+{"text": "Camera ID: Image enhancement software identified camera_43. Camera identification tools confirmed model_43. Image comparison software found 83% similarity.", "entities": [[0, 9, "TOOL"], [11, 28, "TOOL"], [38, 66, "TOOL"], [108, 113, "PERCENTAGE"], [114, 124, "SIMILARITY_TYPE"]]}
+{"text": "Forensics: Image forensics platforms detected manipulation_77. Timestamp verification tools show date 2024-06-15. Image enhancement software processed image.", "entities": [[102, 131, "TOOL"]]}
+{"text": "Facial recognition: Software identified person_11 with 91% confidence. Photo verification services confirmed. Object recognition tools detected 1 objects.", "entities": [[40, 49, "CONFIDENCE"], [99, 116, "COUNT"], [117, 128, "OBJECT_TYPE"]]}
+{"text": "Forensics: Image forensics platforms detected manipulation_82. Timestamp verification tools show date 2024-11-15. Image enhancement software processed image.", "entities": [[102, 131, "TOOL"]]}
+{"text": "Camera ID: Image enhancement software identified camera_88. Camera identification tools confirmed model_88. Image comparison software found 98% similarity.", "entities": [[0, 9, "TOOL"], [11, 28, "TOOL"], [38, 66, "TOOL"], [108, 113, "PERCENTAGE"], [114, 124, "SIMILARITY_TYPE"]]}
+{"text": "Image forensics report: Photo shows signs of manipulation. Image forensics platforms detected cloning artifacts. Timestamp verification tools show creation date 2024-06-15 14:30:00, but metadata suggests 2024-06-10.", "entities": [[16, 29, "MEDIA_TYPE"], [30, 57, "MANIPULATION_TYPE"], [102, 135, "TOOL"], [156, 165, "TIME"], [169, 177, "DATA_TYPE"]]}
+{"text": "Camera ID: Image enhancement software identified camera_38. Camera identification tools confirmed model_38. Image comparison software found 78% similarity.", "entities": [[0, 9, "TOOL"], [11, 28, "TOOL"], [38, 66, "TOOL"], [108, 113, "PERCENTAGE"], [114, 124, "SIMILARITY_TYPE"]]}
+{"text": "Forensics: Image forensics platforms detected manipulation_72. Timestamp verification tools show date 2024-01-15. Image enhancement software processed image.", "entities": [[102, 131, "TOOL"]]}
+{"text": "Forensics: Image forensics platforms detected manipulation_27. Timestamp verification tools show date 2024-04-15. Image enhancement software processed image.", "entities": [[102, 131, "TOOL"]]}
+{"text": "Forensics: Image forensics platforms detected manipulation_92. Timestamp verification tools show date 2024-09-15. Image enhancement software processed image.", "entities": [[102, 131, "TOOL"]]}
+{"text": "Image search: Google Images found 35 matches. TinEye shows 33 results. Yandex Images found 38 matches. Image metadata shows camera_30, date 2024-07-15.", "entities": [[0, 12, "TOOL"], [14, 27, "TOOL"], [34, 36, "COUNT"], [37, 44, "MATCH_TYPE"], [62, 77, "RESULT_TYPE"], [94, 102, "COUNT"], [103, 108, "MATCH_TYPE"], [131, 139, "CAMERA"], [140, 150, "DATE"]]}
+{"text": "Record: Image_ID IMINT_0089, Source: photo_89.jpg, Camera: camera_89, Date: 2024-06-15, Objects: 4, Verification: Pending", "entities": [[0, 6, "RECORD_TYPE"], [8, 22, "RECORD_ID"], [17, 28, "SOURCE"], [37, 49, "CAMERA"], [51, 58, "CAMERA"], [59, 65, "DATE"], [59, 75, "DATE"], [76, 86, "METRIC_TYPE"], [84, 95, "COUNT"], [88, 112, "VERIFICATION_TYPE"]]}
+{"text": "Facial recognition: Software identified person_26 with 86% confidence. Photo verification services confirmed. Object recognition tools detected 1 objects.", "entities": [[40, 49, "CONFIDENCE"], [99, 116, "COUNT"], [117, 128, "OBJECT_TYPE"]]}
+{"text": "Record: Image_ID IMINT_0049, Source: photo_49.jpg, Camera: camera_49, Date: 2024-02-15, Objects: 4, Verification: Pending", "entities": [[0, 6, "RECORD_TYPE"], [8, 22, "RECORD_ID"], [17, 28, "SOURCE"], [37, 49, "CAMERA"], [51, 58, "CAMERA"], [59, 65, "DATE"], [59, 75, "DATE"], [76, 86, "METRIC_TYPE"], [84, 95, "COUNT"], [88, 112, "VERIFICATION_TYPE"]]}
+{"text": "Forensics: Image forensics platforms detected manipulation_7. Timestamp verification tools show date 2024-08-15. Image enhancement software processed image.", "entities": [[101, 130, "TOOL"]]}
+{"text": "Image search: Google Images found 30 matches. TinEye shows 28 results. Yandex Images found 33 matches. Image metadata shows camera_25, date 2024-02-15.", "entities": [[0, 12, "TOOL"], [14, 27, "TOOL"], [34, 36, "COUNT"], [37, 44, "MATCH_TYPE"], [62, 77, "RESULT_TYPE"], [94, 102, "COUNT"], [103, 108, "MATCH_TYPE"], [131, 139, "CAMERA"], [140, 150, "DATE"]]}
+{"text": "Facial recognition: Software identified person_16 with 96% confidence. Photo verification services confirmed. Object recognition tools detected 1 objects.", "entities": [[40, 49, "CONFIDENCE"], [99, 116, "COUNT"], [117, 128, "OBJECT_TYPE"]]}
+{"text": "Camera ID: Image enhancement software identified camera_63. Camera identification tools confirmed model_63. Image comparison software found 73% similarity.", "entities": [[0, 9, "TOOL"], [11, 28, "TOOL"], [38, 66, "TOOL"], [108, 113, "PERCENTAGE"], [114, 124, "SIMILARITY_TYPE"]]}
+{"text": "Record: Image_ID IMINT_0084, Source: photo_84.jpg, Camera: camera_84, Date: 2024-01-15, Objects: 4, Verification: Verified", "entities": [[0, 6, "RECORD_TYPE"], [8, 22, "RECORD_ID"], [17, 28, "SOURCE"], [37, 49, "CAMERA"], [51, 58, "CAMERA"], [59, 65, "DATE"], [59, 75, "DATE"], [76, 86, "METRIC_TYPE"], [84, 95, "COUNT"], [88, 112, "VERIFICATION_TYPE"]]}
+{"text": "Camera ID: Image enhancement software identified camera_53. Camera identification tools confirmed model_53. Image comparison software found 93% similarity.", "entities": [[0, 9, "TOOL"], [11, 28, "TOOL"], [38, 66, "TOOL"], [108, 113, "PERCENTAGE"], [114, 124, "SIMILARITY_TYPE"]]}
+{"text": "Image search: Google Images found 15 matches. TinEye shows 13 results. Yandex Images found 18 matches. Image metadata shows camera_10, date 2024-11-15.", "entities": [[0, 12, "TOOL"], [14, 27, "TOOL"], [34, 36, "COUNT"], [37, 44, "MATCH_TYPE"], [62, 77, "RESULT_TYPE"], [94, 102, "COUNT"], [103, 108, "MATCH_TYPE"], [131, 139, "CAMERA"], [140, 150, "DATE"]]}
+{"text": "Forensics: Image forensics platforms detected manipulation_27. Timestamp verification tools show date 2024-04-15. Image enhancement software processed image.", "entities": [[102, 131, "TOOL"]]}
+{"text": "Image search: Google Images found 90 matches. TinEye shows 88 results. Yandex Images found 93 matches. Image metadata shows camera_85, date 2024-02-15.", "entities": [[0, 12, "TOOL"], [14, 27, "TOOL"], [34, 36, "COUNT"], [37, 44, "MATCH_TYPE"], [62, 77, "RESULT_TYPE"], [94, 102, "COUNT"], [103, 108, "MATCH_TYPE"], [131, 139, "CAMERA"], [140, 150, "DATE"]]}
+{"text": "Camera ID: Image enhancement software identified camera_38. Camera identification tools confirmed model_38. Image comparison software found 78% similarity.", "entities": [[0, 9, "TOOL"], [11, 28, "TOOL"], [38, 66, "TOOL"], [108, 113, "PERCENTAGE"], [114, 124, "SIMILARITY_TYPE"]]}
+{"text": "Forensics: Image forensics platforms detected manipulation_47. Timestamp verification tools show date 2024-12-15. Image enhancement software processed image.", "entities": [[102, 131, "TOOL"]]}
+{"text": "Facial recognition: Software identified person_21 with 81% confidence. Photo verification services confirmed. Object recognition tools detected 1 objects.", "entities": [[40, 49, "CONFIDENCE"], [99, 116, "COUNT"], [117, 128, "OBJECT_TYPE"]]}
+{"text": "Facial recognition: Software identified person_41 with 81% confidence. Photo verification services confirmed. Object recognition tools detected 1 objects.", "entities": [[40, 49, "CONFIDENCE"], [99, 116, "COUNT"], [117, 128, "OBJECT_TYPE"]]}
+{"text": "Record: Image_ID IMINT_0069, Source: photo_69.jpg, Camera: camera_69, Date: 2024-10-15, Objects: 4, Verification: Pending", "entities": [[0, 6, "RECORD_TYPE"], [8, 22, "RECORD_ID"], [17, 28, "SOURCE"], [37, 49, "CAMERA"], [51, 58, "CAMERA"], [59, 65, "DATE"], [59, 75, "DATE"], [76, 86, "METRIC_TYPE"], [84, 95, "COUNT"], [88, 112, "VERIFICATION_TYPE"]]}
+{"text": "Camera ID: Image enhancement software identified camera_73. Camera identification tools confirmed model_73. Image comparison software found 83% similarity.", "entities": [[0, 9, "TOOL"], [11, 28, "TOOL"], [38, 66, "TOOL"], [108, 113, "PERCENTAGE"], [114, 124, "SIMILARITY_TYPE"]]}
+{"text": "Image search: Google Images found 55 matches. TinEye shows 53 results. Yandex Images found 58 matches. Image metadata shows camera_50, date 2024-03-15.", "entities": [[0, 12, "TOOL"], [14, 27, "TOOL"], [34, 36, "COUNT"], [37, 44, "MATCH_TYPE"], [62, 77, "RESULT_TYPE"], [94, 102, "COUNT"], [103, 108, "MATCH_TYPE"], [131, 139, "CAMERA"], [140, 150, "DATE"]]}
+{"text": "Camera ID: Image enhancement software identified camera_93. Camera identification tools confirmed model_93. Image comparison software found 73% similarity.", "entities": [[0, 9, "TOOL"], [11, 28, "TOOL"], [38, 66, "TOOL"], [108, 113, "PERCENTAGE"], [114, 124, "SIMILARITY_TYPE"]]}
+{"text": "Forensics: Image forensics platforms detected manipulation_32. Timestamp verification tools show date 2024-09-15. Image enhancement software processed image.", "entities": [[102, 131, "TOOL"]]}
+{"text": "Record: Image_ID IMINT_0049, Source: photo_49.jpg, Camera: camera_49, Date: 2024-02-15, Objects: 4, Verification: Pending", "entities": [[0, 6, "RECORD_TYPE"], [8, 22, "RECORD_ID"], [17, 28, "SOURCE"], [37, 49, "CAMERA"], [51, 58, "CAMERA"], [59, 65, "DATE"], [59, 75, "DATE"], [76, 86, "METRIC_TYPE"], [84, 95, "COUNT"], [88, 112, "VERIFICATION_TYPE"]]}
+{"text": "Camera ID: Image enhancement software identified camera_23. Camera identification tools confirmed model_23. Image comparison software found 93% similarity.", "entities": [[0, 9, "TOOL"], [11, 28, "TOOL"], [38, 66, "TOOL"], [108, 113, "PERCENTAGE"], [114, 124, "SIMILARITY_TYPE"]]}
+{"text": "Camera ID: Image enhancement software identified camera_18. Camera identification tools confirmed model_18. Image comparison software found 88% similarity.", "entities": [[0, 9, "TOOL"], [11, 28, "TOOL"], [38, 66, "TOOL"], [108, 113, "PERCENTAGE"], [114, 124, "SIMILARITY_TYPE"]]}
+{"text": "Camera ID: Image enhancement software identified camera_68. Camera identification tools confirmed model_68. Image comparison software found 78% similarity.", "entities": [[0, 9, "TOOL"], [11, 28, "TOOL"], [38, 66, "TOOL"], [108, 113, "PERCENTAGE"], [114, 124, "SIMILARITY_TYPE"]]}
+{"text": "Image search: Google Images found 45 matches. TinEye shows 43 results. Yandex Images found 48 matches. Image metadata shows camera_40, date 2024-05-15.", "entities": [[0, 12, "TOOL"], [14, 27, "TOOL"], [34, 36, "COUNT"], [37, 44, "MATCH_TYPE"], [62, 77, "RESULT_TYPE"], [94, 102, "COUNT"], [103, 108, "MATCH_TYPE"], [131, 139, "CAMERA"], [140, 150, "DATE"]]}
+{"text": "Forensics: Image forensics platforms detected manipulation_67. Timestamp verification tools show date 2024-08-15. Image enhancement software processed image.", "entities": [[102, 131, "TOOL"]]}
+{"text": "Camera ID: Image enhancement software identified camera_3. Camera identification tools confirmed model_3. Image comparison software found 73% similarity.", "entities": [[0, 9, "TOOL"], [11, 28, "TOOL"], [38, 65, "TOOL"], [106, 111, "PERCENTAGE"], [112, 122, "SIMILARITY_TYPE"]]}
+{"text": "Facial recognition: Software identified person_56 with 96% confidence. Photo verification services confirmed. Object recognition tools detected 1 objects.", "entities": [[40, 49, "CONFIDENCE"], [99, 116, "COUNT"], [117, 128, "OBJECT_TYPE"]]}
+{"text": "Record: Image_ID IMINT_0079, Source: photo_79.jpg, Camera: camera_79, Date: 2024-08-15, Objects: 4, Verification: Pending", "entities": [[0, 6, "RECORD_TYPE"], [8, 22, "RECORD_ID"], [17, 28, "SOURCE"], [37, 49, "CAMERA"], [51, 58, "CAMERA"], [59, 65, "DATE"], [59, 75, "DATE"], [76, 86, "METRIC_TYPE"], [84, 95, "COUNT"], [88, 112, "VERIFICATION_TYPE"]]}
+{"text": "Camera ID: Image enhancement software identified camera_3. Camera identification tools confirmed model_3. Image comparison software found 73% similarity.", "entities": [[0, 9, "TOOL"], [11, 28, "TOOL"], [38, 65, "TOOL"], [106, 111, "PERCENTAGE"], [112, 122, "SIMILARITY_TYPE"]]}
+{"text": "Forensics: Image forensics platforms detected manipulation_47. Timestamp verification tools show date 2024-12-15. Image enhancement software processed image.", "entities": [[102, 131, "TOOL"]]}
+{"text": "Camera ID: Image enhancement software identified camera_93. Camera identification tools confirmed model_93. Image comparison software found 73% similarity.", "entities": [[0, 9, "TOOL"], [11, 28, "TOOL"], [38, 66, "TOOL"], [108, 113, "PERCENTAGE"], [114, 124, "SIMILARITY_TYPE"]]}
+{"text": "Record: Image_ID IMINT_0084, Source: photo_84.jpg, Camera: camera_84, Date: 2024-01-15, Objects: 4, Verification: Verified", "entities": [[0, 6, "RECORD_TYPE"], [8, 22, "RECORD_ID"], [17, 28, "SOURCE"], [37, 49, "CAMERA"], [51, 58, "CAMERA"], [59, 65, "DATE"], [59, 75, "DATE"], [76, 86, "METRIC_TYPE"], [84, 95, "COUNT"], [88, 112, "VERIFICATION_TYPE"]]}
+{"text": "Image search: Google Images found 20 matches. TinEye shows 18 results. Yandex Images found 23 matches. Image metadata shows camera_15, date 2024-04-15.", "entities": [[0, 12, "TOOL"], [14, 27, "TOOL"], [34, 36, "COUNT"], [37, 44, "MATCH_TYPE"], [62, 77, "RESULT_TYPE"], [94, 102, "COUNT"], [103, 108, "MATCH_TYPE"], [131, 139, "CAMERA"], [140, 150, "DATE"]]}
+{"text": "Camera ID: Image enhancement software identified camera_58. Camera identification tools confirmed model_58. Image comparison software found 98% similarity.", "entities": [[0, 9, "TOOL"], [11, 28, "TOOL"], [38, 66, "TOOL"], [108, 113, "PERCENTAGE"], [114, 124, "SIMILARITY_TYPE"]]}
+{"text": "Camera ID: Image enhancement software identified camera_88. Camera identification tools confirmed model_88. Image comparison software found 98% similarity.", "entities": [[0, 9, "TOOL"], [11, 28, "TOOL"], [38, 66, "TOOL"], [108, 113, "PERCENTAGE"], [114, 124, "SIMILARITY_TYPE"]]}
+{"text": "Record: Image_ID IMINT_0059, Source: photo_59.jpg, Camera: camera_59, Date: 2024-12-15, Objects: 4, Verification: Pending", "entities": [[0, 6, "RECORD_TYPE"], [8, 22, "RECORD_ID"], [17, 28, "SOURCE"], [37, 49, "CAMERA"], [51, 58, "CAMERA"], [59, 65, "DATE"], [59, 75, "DATE"], [76, 86, "METRIC_TYPE"], [84, 95, "COUNT"], [88, 112, "VERIFICATION_TYPE"]]}
+{"text": "Image search: Google Images found 70 matches. TinEye shows 68 results. Yandex Images found 73 matches. Image metadata shows camera_65, date 2024-06-15.", "entities": [[0, 12, "TOOL"], [14, 27, "TOOL"], [34, 36, "COUNT"], [37, 44, "MATCH_TYPE"], [62, 77, "RESULT_TYPE"], [94, 102, "COUNT"], [103, 108, "MATCH_TYPE"], [131, 139, "CAMERA"], [140, 150, "DATE"]]}
+{"text": "Record: Image_ID IMINT_0044, Source: photo_44.jpg, Camera: camera_44, Date: 2024-09-15, Objects: 4, Verification: Verified", "entities": [[0, 6, "RECORD_TYPE"], [8, 22, "RECORD_ID"], [17, 28, "SOURCE"], [37, 49, "CAMERA"], [51, 58, "CAMERA"], [59, 65, "DATE"], [59, 75, "DATE"], [76, 86, "METRIC_TYPE"], [84, 95, "COUNT"], [88, 112, "VERIFICATION_TYPE"]]}
+{"text": "Record: Image_ID IMINT_0074, Source: photo_74.jpg, Camera: camera_74, Date: 2024-03-15, Objects: 4, Verification: Verified", "entities": [[0, 6, "RECORD_TYPE"], [8, 22, "RECORD_ID"], [17, 28, "SOURCE"], [37, 49, "CAMERA"], [51, 58, "CAMERA"], [59, 65, "DATE"], [59, 75, "DATE"], [76, 86, "METRIC_TYPE"], [84, 95, "COUNT"], [88, 112, "VERIFICATION_TYPE"]]}
+{"text": "Image search: Google Images found 85 matches. TinEye shows 83 results. Yandex Images found 88 matches. Image metadata shows camera_80, date 2024-09-15.", "entities": [[0, 12, "TOOL"], [14, 27, "TOOL"], [34, 36, "COUNT"], [37, 44, "MATCH_TYPE"], [62, 77, "RESULT_TYPE"], [94, 102, "COUNT"], [103, 108, "MATCH_TYPE"], [131, 139, "CAMERA"], [140, 150, "DATE"]]}
+{"text": "Facial recognition: Software identified person_6 with 86% confidence. Photo verification services confirmed. Object recognition tools detected 1 objects.", "entities": [[40, 48, "CONFIDENCE"], [109, 115, "COUNT"], [116, 127, "OBJECT_TYPE"]]}
+{"text": "Reverse image search: Google Images found 15 matches for uploaded photo. TinEye shows 8 results, Yandex Images found 12 matches. Image metadata analysis tools extracted EXIF data: Camera: Canon EOS 5D, Date: 2024-06-15.", "entities": [[0, 20, "TOOL"], [22, 35, "TOOL"], [45, 52, "MATCH_TYPE"], [66, 79, "RESULT_TYPE"], [104, 110, "MATCH_TYPE"], [135, 152, "DATA_TYPE"], [144, 152, "DATA_TYPE"], [180, 193, "DATE"]]}
+{"text": "Facial recognition: Software identified person_91 with 91% confidence. Photo verification services confirmed. Object recognition tools detected 1 objects.", "entities": [[40, 49, "CONFIDENCE"], [99, 116, "COUNT"], [117, 128, "OBJECT_TYPE"]]}
+{"text": "Record: Image_ID IMINT_0004, Source: photo_4.jpg, Camera: camera_4, Date: 2024-05-15, Objects: 4, Verification: Verified", "entities": [[0, 6, "RECORD_TYPE"], [8, 22, "RECORD_ID"], [17, 28, "SOURCE"], [37, 48, "CAMERA"], [50, 57, "CAMERA"], [58, 64, "DATE"], [65, 78, "DATE"], [74, 84, "METRIC_TYPE"], [86, 93, "COUNT"], [86, 110, "VERIFICATION_TYPE"]]}
+{"text": "Image search: Google Images found 20 matches. TinEye shows 18 results. Yandex Images found 23 matches. Image metadata shows camera_15, date 2024-04-15.", "entities": [[0, 12, "TOOL"], [14, 27, "TOOL"], [34, 36, "COUNT"], [37, 44, "MATCH_TYPE"], [62, 77, "RESULT_TYPE"], [94, 102, "COUNT"], [103, 108, "MATCH_TYPE"], [131, 139, "CAMERA"], [140, 150, "DATE"]]}
+{"text": "Image search: Google Images found 90 matches. TinEye shows 88 results. Yandex Images found 93 matches. Image metadata shows camera_85, date 2024-02-15.", "entities": [[0, 12, "TOOL"], [14, 27, "TOOL"], [34, 36, "COUNT"], [37, 44, "MATCH_TYPE"], [62, 77, "RESULT_TYPE"], [94, 102, "COUNT"], [103, 108, "MATCH_TYPE"], [131, 139, "CAMERA"], [140, 150, "DATE"]]}
+{"text": "Facial recognition: Software identified person_16 with 96% confidence. Photo verification services confirmed. Object recognition tools detected 1 objects.", "entities": [[40, 49, "CONFIDENCE"], [99, 116, "COUNT"], [117, 128, "OBJECT_TYPE"]]}
+{"text": "Camera ID: Image enhancement software identified camera_18. Camera identification tools confirmed model_18. Image comparison software found 88% similarity.", "entities": [[0, 9, "TOOL"], [11, 28, "TOOL"], [38, 66, "TOOL"], [108, 113, "PERCENTAGE"], [114, 124, "SIMILARITY_TYPE"]]}
+{"text": "Image search: Google Images found 55 matches. TinEye shows 53 results. Yandex Images found 58 matches. Image metadata shows camera_50, date 2024-03-15.", "entities": [[0, 12, "TOOL"], [14, 27, "TOOL"], [34, 36, "COUNT"], [37, 44, "MATCH_TYPE"], [62, 77, "RESULT_TYPE"], [94, 102, "COUNT"], [103, 108, "MATCH_TYPE"], [131, 139, "CAMERA"], [140, 150, "DATE"]]}
+{"text": "Image search: Google Images found 50 matches. TinEye shows 48 results. Yandex Images found 53 matches. Image metadata shows camera_45, date 2024-10-15.", "entities": [[0, 12, "TOOL"], [14, 27, "TOOL"], [34, 36, "COUNT"], [37, 44, "MATCH_TYPE"], [62, 77, "RESULT_TYPE"], [94, 102, "COUNT"], [103, 108, "MATCH_TYPE"], [131, 139, "CAMERA"], [140, 150, "DATE"]]}
+{"text": "Image search: Google Images found 50 matches. TinEye shows 48 results. Yandex Images found 53 matches. Image metadata shows camera_45, date 2024-10-15.", "entities": [[0, 12, "TOOL"], [14, 27, "TOOL"], [34, 36, "COUNT"], [37, 44, "MATCH_TYPE"], [62, 77, "RESULT_TYPE"], [94, 102, "COUNT"], [103, 108, "MATCH_TYPE"], [131, 139, "CAMERA"], [140, 150, "DATE"]]}
+{"text": "Record: Image_ID IMINT_0054, Source: photo_54.jpg, Camera: camera_54, Date: 2024-07-15, Objects: 4, Verification: Verified", "entities": [[0, 6, "RECORD_TYPE"], [8, 22, "RECORD_ID"], [17, 28, "SOURCE"], [37, 49, "CAMERA"], [51, 58, "CAMERA"], [59, 65, "DATE"], [59, 75, "DATE"], [76, 86, "METRIC_TYPE"], [84, 95, "COUNT"], [88, 112, "VERIFICATION_TYPE"]]}
+{"text": "Image search: Google Images found 5 matches. TinEye shows 3 results. Yandex Images found 8 matches. Image metadata shows camera_0, date 2024-01-15.", "entities": [[0, 12, "TOOL"], [14, 27, "TOOL"], [34, 43, "COUNT"], [36, 44, "MATCH_TYPE"], [60, 67, "COUNT"], [91, 105, "COUNT"], [131, 140, "CAMERA"]]}
+{"text": "Image search: Google Images found 40 matches. TinEye shows 38 results. Yandex Images found 43 matches. Image metadata shows camera_35, date 2024-12-15.", "entities": [[0, 12, "TOOL"], [14, 27, "TOOL"], [34, 36, "COUNT"], [37, 44, "MATCH_TYPE"], [62, 77, "RESULT_TYPE"], [94, 102, "COUNT"], [103, 108, "MATCH_TYPE"], [131, 139, "CAMERA"], [140, 150, "DATE"]]}
+{"text": "Camera identification: Image enhancement software identified camera model iPhone 13 Pro from sensor pattern. Camera identification tools confirmed. Image comparison software found 85% similarity to reference image.", "entities": [[23, 28, "CAMERA"], [29, 40, "MODEL"], [93, 107, "PATTERN_TYPE"], [100, 130, "TOOL"]]}
+{"text": "Facial recognition: Software identified person_11 with 91% confidence. Photo verification services confirmed. Object recognition tools detected 1 objects.", "entities": [[40, 49, "CONFIDENCE"], [99, 116, "COUNT"], [117, 128, "OBJECT_TYPE"]]}
+{"text": "Image search: Google Images found 95 matches. TinEye shows 93 results. Yandex Images found 98 matches. Image metadata shows camera_90, date 2024-07-15.", "entities": [[0, 12, "TOOL"], [14, 27, "TOOL"], [34, 36, "COUNT"], [37, 44, "MATCH_TYPE"], [62, 77, "RESULT_TYPE"], [94, 102, "COUNT"], [103, 108, "MATCH_TYPE"], [131, 139, "CAMERA"], [140, 150, "DATE"]]}
+{"text": "Record: Image_ID IMINT_0034, Source: photo_34.jpg, Camera: camera_34, Date: 2024-11-15, Objects: 4, Verification: Verified", "entities": [[0, 6, "RECORD_TYPE"], [8, 22, "RECORD_ID"], [17, 28, "SOURCE"], [37, 49, "CAMERA"], [51, 58, "CAMERA"], [59, 65, "DATE"], [59, 75, "DATE"], [76, 86, "METRIC_TYPE"], [84, 95, "COUNT"], [88, 112, "VERIFICATION_TYPE"]]}
+{"text": "Camera ID: Image enhancement software identified camera_88. Camera identification tools confirmed model_88. Image comparison software found 98% similarity.", "entities": [[0, 9, "TOOL"], [11, 28, "TOOL"], [38, 66, "TOOL"], [108, 113, "PERCENTAGE"], [114, 124, "SIMILARITY_TYPE"]]}
+{"text": "Facial recognition: Software identified person_51 with 91% confidence. Photo verification services confirmed. Object recognition tools detected 1 objects.", "entities": [[40, 49, "CONFIDENCE"], [99, 116, "COUNT"], [117, 128, "OBJECT_TYPE"]]}
+{"text": "Image search: Google Images found 60 matches. TinEye shows 58 results. Yandex Images found 63 matches. Image metadata shows camera_55, date 2024-08-15.", "entities": [[0, 12, "TOOL"], [14, 27, "TOOL"], [34, 36, "COUNT"], [37, 44, "MATCH_TYPE"], [62, 77, "RESULT_TYPE"], [94, 102, "COUNT"], [103, 108, "MATCH_TYPE"], [131, 139, "CAMERA"], [140, 150, "DATE"]]}
+{"text": "Record: Image_ID IMINT_0044, Source: photo_44.jpg, Camera: camera_44, Date: 2024-09-15, Objects: 4, Verification: Verified", "entities": [[0, 6, "RECORD_TYPE"], [8, 22, "RECORD_ID"], [17, 28, "SOURCE"], [37, 49, "CAMERA"], [51, 58, "CAMERA"], [59, 65, "DATE"], [59, 75, "DATE"], [76, 86, "METRIC_TYPE"], [84, 95, "COUNT"], [88, 112, "VERIFICATION_TYPE"]]}
+{"text": "Camera ID: Image enhancement software identified camera_43. Camera identification tools confirmed model_43. Image comparison software found 83% similarity.", "entities": [[0, 9, "TOOL"], [11, 28, "TOOL"], [38, 66, "TOOL"], [108, 113, "PERCENTAGE"], [114, 124, "SIMILARITY_TYPE"]]}
+{"text": "Image search: Google Images found 85 matches. TinEye shows 83 results. Yandex Images found 88 matches. Image metadata shows camera_80, date 2024-09-15.", "entities": [[0, 12, "TOOL"], [14, 27, "TOOL"], [34, 36, "COUNT"], [37, 44, "MATCH_TYPE"], [62, 77, "RESULT_TYPE"], [94, 102, "COUNT"], [103, 108, "MATCH_TYPE"], [131, 139, "CAMERA"], [140, 150, "DATE"]]}
+{"text": "Facial recognition: Software identified person_81 with 81% confidence. Photo verification services confirmed. Object recognition tools detected 1 objects.", "entities": [[40, 49, "CONFIDENCE"], [99, 116, "COUNT"], [117, 128, "OBJECT_TYPE"]]}
+{"text": "Facial recognition: Software identified person_61 with 81% confidence. Photo verification services confirmed. Object recognition tools detected 1 objects.", "entities": [[40, 49, "CONFIDENCE"], [99, 116, "COUNT"], [117, 128, "OBJECT_TYPE"]]}
+{"text": "Record: Image_ID IMINT_0089, Source: photo_89.jpg, Camera: camera_89, Date: 2024-06-15, Objects: 4, Verification: Pending", "entities": [[0, 6, "RECORD_TYPE"], [8, 22, "RECORD_ID"], [17, 28, "SOURCE"], [37, 49, "CAMERA"], [51, 58, "CAMERA"], [59, 65, "DATE"], [59, 75, "DATE"], [76, 86, "METRIC_TYPE"], [84, 95, "COUNT"], [88, 112, "VERIFICATION_TYPE"]]}
+{"text": "Facial recognition: Software identified person_41 with 81% confidence. Photo verification services confirmed. Object recognition tools detected 1 objects.", "entities": [[40, 49, "CONFIDENCE"], [99, 116, "COUNT"], [117, 128, "OBJECT_TYPE"]]}
+{"text": "Record: Image_ID IMINT_0014, Source: photo_14.jpg, Camera: camera_14, Date: 2024-03-15, Objects: 4, Verification: Verified", "entities": [[0, 6, "RECORD_TYPE"], [8, 22, "RECORD_ID"], [17, 28, "SOURCE"], [37, 49, "CAMERA"], [51, 58, "CAMERA"], [59, 65, "DATE"], [59, 75, "DATE"], [76, 86, "METRIC_TYPE"], [84, 95, "COUNT"], [88, 112, "VERIFICATION_TYPE"]]}
+{"text": "Facial recognition: Software identified person_26 with 86% confidence. Photo verification services confirmed. Object recognition tools detected 1 objects.", "entities": [[40, 49, "CONFIDENCE"], [99, 116, "COUNT"], [117, 128, "OBJECT_TYPE"]]}
+{"text": "Forensics: Image forensics platforms detected manipulation_62. Timestamp verification tools show date 2024-03-15. Image enhancement software processed image.", "entities": [[102, 131, "TOOL"]]}
+{"text": "Record: Image_ID IMINT_0059, Source: photo_59.jpg, Camera: camera_59, Date: 2024-12-15, Objects: 4, Verification: Pending", "entities": [[0, 6, "RECORD_TYPE"], [8, 22, "RECORD_ID"], [17, 28, "SOURCE"], [37, 49, "CAMERA"], [51, 58, "CAMERA"], [59, 65, "DATE"], [59, 75, "DATE"], [76, 86, "METRIC_TYPE"], [84, 95, "COUNT"], [88, 112, "VERIFICATION_TYPE"]]}
+{"text": "Image search: Google Images found 25 matches. TinEye shows 23 results. Yandex Images found 28 matches. Image metadata shows camera_20, date 2024-09-15.", "entities": [[0, 12, "TOOL"], [14, 27, "TOOL"], [34, 36, "COUNT"], [37, 44, "MATCH_TYPE"], [62, 77, "RESULT_TYPE"], [94, 102, "COUNT"], [103, 108, "MATCH_TYPE"], [131, 139, "CAMERA"], [140, 150, "DATE"]]}
+{"text": "Facial recognition: Software identified person_26 with 86% confidence. Photo verification services confirmed. Object recognition tools detected 1 objects.", "entities": [[40, 49, "CONFIDENCE"], [99, 116, "COUNT"], [117, 128, "OBJECT_TYPE"]]}
+{"text": "Image forensics report: Photo shows signs of manipulation. Image forensics platforms detected cloning artifacts. Timestamp verification tools show creation date 2024-06-15 14:30:00, but metadata suggests 2024-06-10.", "entities": [[16, 29, "MEDIA_TYPE"], [30, 57, "MANIPULATION_TYPE"], [102, 135, "TOOL"], [156, 165, "TIME"], [169, 177, "DATA_TYPE"]]}
+{"text": "Record: Image_ID IMINT_0029, Source: photo_29.jpg, Camera: camera_29, Date: 2024-06-15, Objects: 4, Verification: Pending", "entities": [[0, 6, "RECORD_TYPE"], [8, 22, "RECORD_ID"], [17, 28, "SOURCE"], [37, 49, "CAMERA"], [51, 58, "CAMERA"], [59, 65, "DATE"], [59, 75, "DATE"], [76, 86, "METRIC_TYPE"], [84, 95, "COUNT"], [88, 112, "VERIFICATION_TYPE"]]}
+{"text": "Forensics: Image forensics platforms detected manipulation_7. Timestamp verification tools show date 2024-08-15. Image enhancement software processed image.", "entities": [[101, 130, "TOOL"]]}
+{"text": "Camera ID: Image enhancement software identified camera_88. Camera identification tools confirmed model_88. Image comparison software found 98% similarity.", "entities": [[0, 9, "TOOL"], [11, 28, "TOOL"], [38, 66, "TOOL"], [108, 113, "PERCENTAGE"], [114, 124, "SIMILARITY_TYPE"]]}
+{"text": "Forensics: Image forensics platforms detected manipulation_57. Timestamp verification tools show date 2024-10-15. Image enhancement software processed image.", "entities": [[102, 131, "TOOL"]]}
+{"text": "Facial recognition: Software identified person_66 with 86% confidence. Photo verification services confirmed. Object recognition tools detected 1 objects.", "entities": [[40, 49, "CONFIDENCE"], [99, 116, "COUNT"], [117, 128, "OBJECT_TYPE"]]}
+{"text": "Record: Image_ID IMINT_0014, Source: photo_14.jpg, Camera: camera_14, Date: 2024-03-15, Objects: 4, Verification: Verified", "entities": [[0, 6, "RECORD_TYPE"], [8, 22, "RECORD_ID"], [17, 28, "SOURCE"], [37, 49, "CAMERA"], [51, 58, "CAMERA"], [59, 65, "DATE"], [59, 75, "DATE"], [76, 86, "METRIC_TYPE"], [84, 95, "COUNT"], [88, 112, "VERIFICATION_TYPE"]]}
+{"text": "Image search: Google Images found 20 matches. TinEye shows 18 results. Yandex Images found 23 matches. Image metadata shows camera_15, date 2024-04-15.", "entities": [[0, 12, "TOOL"], [14, 27, "TOOL"], [34, 36, "COUNT"], [37, 44, "MATCH_TYPE"], [62, 77, "RESULT_TYPE"], [94, 102, "COUNT"], [103, 108, "MATCH_TYPE"], [131, 139, "CAMERA"], [140, 150, "DATE"]]}
+{"text": "Image search: Google Images found 40 matches. TinEye shows 38 results. Yandex Images found 43 matches. Image metadata shows camera_35, date 2024-12-15.", "entities": [[0, 12, "TOOL"], [14, 27, "TOOL"], [34, 36, "COUNT"], [37, 44, "MATCH_TYPE"], [62, 77, "RESULT_TYPE"], [94, 102, "COUNT"], [103, 108, "MATCH_TYPE"], [131, 139, "CAMERA"], [140, 150, "DATE"]]}
+{"text": "Image search: Google Images found 95 matches. TinEye shows 93 results. Yandex Images found 98 matches. Image metadata shows camera_90, date 2024-07-15.", "entities": [[0, 12, "TOOL"], [14, 27, "TOOL"], [34, 36, "COUNT"], [37, 44, "MATCH_TYPE"], [62, 77, "RESULT_TYPE"], [94, 102, "COUNT"], [103, 108, "MATCH_TYPE"], [131, 139, "CAMERA"], [140, 150, "DATE"]]}
+{"text": "Forensics: Image forensics platforms detected manipulation_22. Timestamp verification tools show date 2024-11-15. Image enhancement software processed image.", "entities": [[102, 131, "TOOL"]]}
+{"text": "Record: Image_ID IMINT_0079, Source: photo_79.jpg, Camera: camera_79, Date: 2024-08-15, Objects: 4, Verification: Pending", "entities": [[0, 6, "RECORD_TYPE"], [8, 22, "RECORD_ID"], [17, 28, "SOURCE"], [37, 49, "CAMERA"], [51, 58, "CAMERA"], [59, 65, "DATE"], [59, 75, "DATE"], [76, 86, "METRIC_TYPE"], [84, 95, "COUNT"], [88, 112, "VERIFICATION_TYPE"]]}
+{"text": "Record: Image_ID IMINT_0014, Source: photo_14.jpg, Camera: camera_14, Date: 2024-03-15, Objects: 4, Verification: Verified", "entities": [[0, 6, "RECORD_TYPE"], [8, 22, "RECORD_ID"], [17, 28, "SOURCE"], [37, 49, "CAMERA"], [51, 58, "CAMERA"], [59, 65, "DATE"], [59, 75, "DATE"], [76, 86, "METRIC_TYPE"], [84, 95, "COUNT"], [88, 112, "VERIFICATION_TYPE"]]}
+{"text": "Image search: Google Images found 50 matches. TinEye shows 48 results. Yandex Images found 53 matches. Image metadata shows camera_45, date 2024-10-15.", "entities": [[0, 12, "TOOL"], [14, 27, "TOOL"], [34, 36, "COUNT"], [37, 44, "MATCH_TYPE"], [62, 77, "RESULT_TYPE"], [94, 102, "COUNT"], [103, 108, "MATCH_TYPE"], [131, 139, "CAMERA"], [140, 150, "DATE"]]}
+{"text": "Record: Image_ID IMINT_0084, Source: photo_84.jpg, Camera: camera_84, Date: 2024-01-15, Objects: 4, Verification: Verified", "entities": [[0, 6, "RECORD_TYPE"], [8, 22, "RECORD_ID"], [17, 28, "SOURCE"], [37, 49, "CAMERA"], [51, 58, "CAMERA"], [59, 65, "DATE"], [59, 75, "DATE"], [76, 86, "METRIC_TYPE"], [84, 95, "COUNT"], [88, 112, "VERIFICATION_TYPE"]]}
+{"text": "Facial recognition: Software identified person_36 with 96% confidence. Photo verification services confirmed. Object recognition tools detected 1 objects.", "entities": [[40, 49, "CONFIDENCE"], [99, 116, "COUNT"], [117, 128, "OBJECT_TYPE"]]}
+{"text": "Image search: Google Images found 10 matches. TinEye shows 8 results. Yandex Images found 13 matches. Image metadata shows camera_5, date 2024-06-15.", "entities": [[0, 12, "TOOL"], [14, 27, "TOOL"], [34, 36, "COUNT"], [37, 44, "MATCH_TYPE"], [61, 68, "COUNT"], [93, 101, "COUNT"], [102, 116, "MATCH_TYPE"], [130, 137, "CAMERA"], [138, 149, "DATE"]]}
+{"text": "Facial recognition: Software identified person with 92% confidence. Photo verification services confirmed match to database entry. Object recognition tools detected: Vehicle, Building, 3 People.", "entities": [[29, 39, "PERCENTAGE"], [29, 46, "CONFIDENCE"], [87, 105, "DATABASE_TYPE"], [124, 137, "OBJECT_TYPE"], [138, 149, "OBJECT_TYPE"]]}
+{"text": "Facial recognition: Software identified person_81 with 81% confidence. Photo verification services confirmed. Object recognition tools detected 1 objects.", "entities": [[40, 49, "CONFIDENCE"], [99, 116, "COUNT"], [117, 128, "OBJECT_TYPE"]]}
+{"text": "Facial recognition: Software identified person_31 with 91% confidence. Photo verification services confirmed. Object recognition tools detected 1 objects.", "entities": [[40, 49, "CONFIDENCE"], [99, 116, "COUNT"], [117, 128, "OBJECT_TYPE"]]}
+{"text": "Record: Image_ID IMINT_0059, Source: photo_59.jpg, Camera: camera_59, Date: 2024-12-15, Objects: 4, Verification: Pending", "entities": [[0, 6, "RECORD_TYPE"], [8, 22, "RECORD_ID"], [17, 28, "SOURCE"], [37, 49, "CAMERA"], [51, 58, "CAMERA"], [59, 65, "DATE"], [59, 75, "DATE"], [76, 86, "METRIC_TYPE"], [84, 95, "COUNT"], [88, 112, "VERIFICATION_TYPE"]]}
+{"text": "Forensics: Image forensics platforms detected manipulation_7. Timestamp verification tools show date 2024-08-15. Image enhancement software processed image.", "entities": [[101, 130, "TOOL"]]}
+{"text": "Image search: Google Images found 50 matches. TinEye shows 48 results. Yandex Images found 53 matches. Image metadata shows camera_45, date 2024-10-15.", "entities": [[0, 12, "TOOL"], [14, 27, "TOOL"], [34, 36, "COUNT"], [37, 44, "MATCH_TYPE"], [62, 77, "RESULT_TYPE"], [94, 102, "COUNT"], [103, 108, "MATCH_TYPE"], [131, 139, "CAMERA"], [140, 150, "DATE"]]}
+{"text": "Camera ID: Image enhancement software identified camera_28. Camera identification tools confirmed model_28. Image comparison software found 98% similarity.", "entities": [[0, 9, "TOOL"], [11, 28, "TOOL"], [38, 66, "TOOL"], [108, 113, "PERCENTAGE"], [114, 124, "SIMILARITY_TYPE"]]}
+{"text": "Record: Image_ID IMINT_0094, Source: photo_94.jpg, Camera: camera_94, Date: 2024-11-15, Objects: 4, Verification: Verified", "entities": [[0, 6, "RECORD_TYPE"], [8, 22, "RECORD_ID"], [17, 28, "SOURCE"], [37, 49, "CAMERA"], [51, 58, "CAMERA"], [59, 65, "DATE"], [59, 75, "DATE"], [76, 86, "METRIC_TYPE"], [84, 95, "COUNT"], [88, 112, "VERIFICATION_TYPE"]]}
+{"text": "Image search: Google Images found 10 matches. TinEye shows 8 results. Yandex Images found 13 matches. Image metadata shows camera_5, date 2024-06-15.", "entities": [[0, 12, "TOOL"], [14, 27, "TOOL"], [34, 36, "COUNT"], [37, 44, "MATCH_TYPE"], [61, 68, "COUNT"], [93, 101, "COUNT"], [102, 116, "MATCH_TYPE"], [130, 137, "CAMERA"], [138, 149, "DATE"]]}
+{"text": "Facial recognition: Software identified person_91 with 91% confidence. Photo verification services confirmed. Object recognition tools detected 1 objects.", "entities": [[40, 49, "CONFIDENCE"], [99, 116, "COUNT"], [117, 128, "OBJECT_TYPE"]]}
+{"text": "Reverse image search: Google Images found 15 matches for uploaded photo. TinEye shows 8 results, Yandex Images found 12 matches. Image metadata analysis tools extracted EXIF data: Camera: Canon EOS 5D, Date: 2024-06-15.", "entities": [[0, 20, "TOOL"], [22, 35, "TOOL"], [45, 52, "MATCH_TYPE"], [66, 79, "RESULT_TYPE"], [104, 110, "MATCH_TYPE"], [135, 152, "DATA_TYPE"], [144, 152, "DATA_TYPE"], [180, 193, "DATE"]]}
+{"text": "Record: Image_ID IMINT_0064, Source: photo_64.jpg, Camera: camera_64, Date: 2024-05-15, Objects: 4, Verification: Verified", "entities": [[0, 6, "RECORD_TYPE"], [8, 22, "RECORD_ID"], [17, 28, "SOURCE"], [37, 49, "CAMERA"], [51, 58, "CAMERA"], [59, 65, "DATE"], [59, 75, "DATE"], [76, 86, "METRIC_TYPE"], [84, 95, "COUNT"], [88, 112, "VERIFICATION_TYPE"]]}
+{"text": "Forensics: Image forensics platforms detected manipulation_52. Timestamp verification tools show date 2024-05-15. Image enhancement software processed image.", "entities": [[102, 131, "TOOL"]]}
+{"text": "Image search: Google Images found 70 matches. TinEye shows 68 results. Yandex Images found 73 matches. Image metadata shows camera_65, date 2024-06-15.", "entities": [[0, 12, "TOOL"], [14, 27, "TOOL"], [34, 36, "COUNT"], [37, 44, "MATCH_TYPE"], [62, 77, "RESULT_TYPE"], [94, 102, "COUNT"], [103, 108, "MATCH_TYPE"], [131, 139, "CAMERA"], [140, 150, "DATE"]]}
+{"text": "Image search: Google Images found 75 matches. TinEye shows 73 results. Yandex Images found 78 matches. Image metadata shows camera_70, date 2024-11-15.", "entities": [[0, 12, "TOOL"], [14, 27, "TOOL"], [34, 36, "COUNT"], [37, 44, "MATCH_TYPE"], [62, 77, "RESULT_TYPE"], [94, 102, "COUNT"], [103, 108, "MATCH_TYPE"], [131, 139, "CAMERA"], [140, 150, "DATE"]]}
+{"text": "Facial recognition: Software identified person_31 with 91% confidence. Photo verification services confirmed. Object recognition tools detected 1 objects.", "entities": [[40, 49, "CONFIDENCE"], [99, 116, "COUNT"], [117, 128, "OBJECT_TYPE"]]}
+{"text": "Record: Image_ID IMINT_0064, Source: photo_64.jpg, Camera: camera_64, Date: 2024-05-15, Objects: 4, Verification: Verified", "entities": [[0, 6, "RECORD_TYPE"], [8, 22, "RECORD_ID"], [17, 28, "SOURCE"], [37, 49, "CAMERA"], [51, 58, "CAMERA"], [59, 65, "DATE"], [59, 75, "DATE"], [76, 86, "METRIC_TYPE"], [84, 95, "COUNT"], [88, 112, "VERIFICATION_TYPE"]]}
+{"text": "Facial recognition: Software identified person with 92% confidence. Photo verification services confirmed match to database entry. Object recognition tools detected: Vehicle, Building, 3 People.", "entities": [[29, 39, "PERCENTAGE"], [29, 46, "CONFIDENCE"], [87, 105, "DATABASE_TYPE"], [124, 137, "OBJECT_TYPE"], [138, 149, "OBJECT_TYPE"]]}
+{"text": "Facial recognition: Software identified person_6 with 86% confidence. Photo verification services confirmed. Object recognition tools detected 1 objects.", "entities": [[40, 48, "CONFIDENCE"], [109, 115, "COUNT"], [116, 127, "OBJECT_TYPE"]]}
+{"text": "Image search: Google Images found 55 matches. TinEye shows 53 results. Yandex Images found 58 matches. Image metadata shows camera_50, date 2024-03-15.", "entities": [[0, 12, "TOOL"], [14, 27, "TOOL"], [34, 36, "COUNT"], [37, 44, "MATCH_TYPE"], [62, 77, "RESULT_TYPE"], [94, 102, "COUNT"], [103, 108, "MATCH_TYPE"], [131, 139, "CAMERA"], [140, 150, "DATE"]]}
+{"text": "Camera ID: Image enhancement software identified camera_48. Camera identification tools confirmed model_48. Image comparison software found 88% similarity.", "entities": [[0, 9, "TOOL"], [11, 28, "TOOL"], [38, 66, "TOOL"], [108, 113, "PERCENTAGE"], [114, 124, "SIMILARITY_TYPE"]]}
+{"text": "Facial recognition: Software identified person_1 with 81% confidence. Photo verification services confirmed. Object recognition tools detected 1 objects.", "entities": [[40, 48, "CONFIDENCE"], [109, 115, "COUNT"], [116, 127, "OBJECT_TYPE"]]}
+{"text": "Record: Image_ID IMINT_0089, Source: photo_89.jpg, Camera: camera_89, Date: 2024-06-15, Objects: 4, Verification: Pending", "entities": [[0, 6, "RECORD_TYPE"], [8, 22, "RECORD_ID"], [17, 28, "SOURCE"], [37, 49, "CAMERA"], [51, 58, "CAMERA"], [59, 65, "DATE"], [59, 75, "DATE"], [76, 86, "METRIC_TYPE"], [84, 95, "COUNT"], [88, 112, "VERIFICATION_TYPE"]]}
+{"text": "Facial recognition: Software identified person_21 with 81% confidence. Photo verification services confirmed. Object recognition tools detected 1 objects.", "entities": [[40, 49, "CONFIDENCE"], [99, 116, "COUNT"], [117, 128, "OBJECT_TYPE"]]}
+{"text": "Forensics: Image forensics platforms detected manipulation_92. Timestamp verification tools show date 2024-09-15. Image enhancement software processed image.", "entities": [[102, 131, "TOOL"]]}
+{"text": "Image search: Google Images found 90 matches. TinEye shows 88 results. Yandex Images found 93 matches. Image metadata shows camera_85, date 2024-02-15.", "entities": [[0, 12, "TOOL"], [14, 27, "TOOL"], [34, 36, "COUNT"], [37, 44, "MATCH_TYPE"], [62, 77, "RESULT_TYPE"], [94, 102, "COUNT"], [103, 108, "MATCH_TYPE"], [131, 139, "CAMERA"], [140, 150, "DATE"]]}
+{"text": "Forensics: Image forensics platforms detected manipulation_17. Timestamp verification tools show date 2024-06-15. Image enhancement software processed image.", "entities": [[102, 131, "TOOL"]]}
+{"text": "Forensics: Image forensics platforms detected manipulation_22. Timestamp verification tools show date 2024-11-15. Image enhancement software processed image.", "entities": [[102, 131, "TOOL"]]}
+{"text": "Facial recognition: Software identified person_66 with 86% confidence. Photo verification services confirmed. Object recognition tools detected 1 objects.", "entities": [[40, 49, "CONFIDENCE"], [99, 116, "COUNT"], [117, 128, "OBJECT_TYPE"]]}
+{"text": "Forensics: Image forensics platforms detected manipulation_12. Timestamp verification tools show date 2024-01-15. Image enhancement software processed image.", "entities": [[102, 131, "TOOL"]]}
+{"text": "Record: Image_ID IMINT_0004, Source: photo_4.jpg, Camera: camera_4, Date: 2024-05-15, Objects: 4, Verification: Verified", "entities": [[0, 6, "RECORD_TYPE"], [8, 22, "RECORD_ID"], [17, 28, "SOURCE"], [37, 48, "CAMERA"], [50, 57, "CAMERA"], [58, 64, "DATE"], [65, 78, "DATE"], [74, 84, "METRIC_TYPE"], [86, 93, "COUNT"], [86, 110, "VERIFICATION_TYPE"]]}
+{"text": "Image search: Google Images found 40 matches. TinEye shows 38 results. Yandex Images found 43 matches. Image metadata shows camera_35, date 2024-12-15.", "entities": [[0, 12, "TOOL"], [14, 27, "TOOL"], [34, 36, "COUNT"], [37, 44, "MATCH_TYPE"], [62, 77, "RESULT_TYPE"], [94, 102, "COUNT"], [103, 108, "MATCH_TYPE"], [131, 139, "CAMERA"], [140, 150, "DATE"]]}
+{"text": "Image search: Google Images found 55 matches. TinEye shows 53 results. Yandex Images found 58 matches. Image metadata shows camera_50, date 2024-03-15.", "entities": [[0, 12, "TOOL"], [14, 27, "TOOL"], [34, 36, "COUNT"], [37, 44, "MATCH_TYPE"], [62, 77, "RESULT_TYPE"], [94, 102, "COUNT"], [103, 108, "MATCH_TYPE"], [131, 139, "CAMERA"], [140, 150, "DATE"]]}
+{"text": "Camera ID: Image enhancement software identified camera_33. Camera identification tools confirmed model_33. Image comparison software found 73% similarity.", "entities": [[0, 9, "TOOL"], [11, 28, "TOOL"], [38, 66, "TOOL"], [108, 113, "PERCENTAGE"], [114, 124, "SIMILARITY_TYPE"]]}
+{"text": "Image search: Google Images found 30 matches. TinEye shows 28 results. Yandex Images found 33 matches. Image metadata shows camera_25, date 2024-02-15.", "entities": [[0, 12, "TOOL"], [14, 27, "TOOL"], [34, 36, "COUNT"], [37, 44, "MATCH_TYPE"], [62, 77, "RESULT_TYPE"], [94, 102, "COUNT"], [103, 108, "MATCH_TYPE"], [131, 139, "CAMERA"], [140, 150, "DATE"]]}
+{"text": "Forensics: Image forensics platforms detected manipulation_77. Timestamp verification tools show date 2024-06-15. Image enhancement software processed image.", "entities": [[102, 131, "TOOL"]]}
+{"text": "Record: Image_ID IMINT_0064, Source: photo_64.jpg, Camera: camera_64, Date: 2024-05-15, Objects: 4, Verification: Verified", "entities": [[0, 6, "RECORD_TYPE"], [8, 22, "RECORD_ID"], [17, 28, "SOURCE"], [37, 49, "CAMERA"], [51, 58, "CAMERA"], [59, 65, "DATE"], [59, 75, "DATE"], [76, 86, "METRIC_TYPE"], [84, 95, "COUNT"], [88, 112, "VERIFICATION_TYPE"]]}
+{"text": "Forensics: Image forensics platforms detected manipulation_67. Timestamp verification tools show date 2024-08-15. Image enhancement software processed image.", "entities": [[102, 131, "TOOL"]]}
+{"text": "Record: Image_ID IMINT_0039, Source: photo_39.jpg, Camera: camera_39, Date: 2024-04-15, Objects: 4, Verification: Pending", "entities": [[0, 6, "RECORD_TYPE"], [8, 22, "RECORD_ID"], [17, 28, "SOURCE"], [37, 49, "CAMERA"], [51, 58, "CAMERA"], [59, 65, "DATE"], [59, 75, "DATE"], [76, 86, "METRIC_TYPE"], [84, 95, "COUNT"], [88, 112, "VERIFICATION_TYPE"]]}
+{"text": "Camera ID: Image enhancement software identified camera_13. Camera identification tools confirmed model_13. Image comparison software found 83% similarity.", "entities": [[0, 9, "TOOL"], [11, 28, "TOOL"], [38, 66, "TOOL"], [108, 113, "PERCENTAGE"], [114, 124, "SIMILARITY_TYPE"]]}
+{"text": "Record: Image_ID IMINT_0034, Source: photo_34.jpg, Camera: camera_34, Date: 2024-11-15, Objects: 4, Verification: Verified", "entities": [[0, 6, "RECORD_TYPE"], [8, 22, "RECORD_ID"], [17, 28, "SOURCE"], [37, 49, "CAMERA"], [51, 58, "CAMERA"], [59, 65, "DATE"], [59, 75, "DATE"], [76, 86, "METRIC_TYPE"], [84, 95, "COUNT"], [88, 112, "VERIFICATION_TYPE"]]}
+{"text": "Image search: Google Images found 70 matches. TinEye shows 68 results. Yandex Images found 73 matches. Image metadata shows camera_65, date 2024-06-15.", "entities": [[0, 12, "TOOL"], [14, 27, "TOOL"], [34, 36, "COUNT"], [37, 44, "MATCH_TYPE"], [62, 77, "RESULT_TYPE"], [94, 102, "COUNT"], [103, 108, "MATCH_TYPE"], [131, 139, "CAMERA"], [140, 150, "DATE"]]}
+{"text": "Record: Image_ID IMINT_0094, Source: photo_94.jpg, Camera: camera_94, Date: 2024-11-15, Objects: 4, Verification: Verified", "entities": [[0, 6, "RECORD_TYPE"], [8, 22, "RECORD_ID"], [17, 28, "SOURCE"], [37, 49, "CAMERA"], [51, 58, "CAMERA"], [59, 65, "DATE"], [59, 75, "DATE"], [76, 86, "METRIC_TYPE"], [84, 95, "COUNT"], [88, 112, "VERIFICATION_TYPE"]]}
+{"text": "Facial recognition: Software identified person_81 with 81% confidence. Photo verification services confirmed. Object recognition tools detected 1 objects.", "entities": [[40, 49, "CONFIDENCE"], [99, 116, "COUNT"], [117, 128, "OBJECT_TYPE"]]}
+{"text": "Camera ID: Image enhancement software identified camera_78. Camera identification tools confirmed model_78. Image comparison software found 88% similarity.", "entities": [[0, 9, "TOOL"], [11, 28, "TOOL"], [38, 66, "TOOL"], [108, 113, "PERCENTAGE"], [114, 124, "SIMILARITY_TYPE"]]}
+{"text": "Forensics: Image forensics platforms detected manipulation_37. Timestamp verification tools show date 2024-02-15. Image enhancement software processed image.", "entities": [[102, 131, "TOOL"]]}
+{"text": "Image search: Google Images found 10 matches. TinEye shows 8 results. Yandex Images found 13 matches. Image metadata shows camera_5, date 2024-06-15.", "entities": [[0, 12, "TOOL"], [14, 27, "TOOL"], [34, 36, "COUNT"], [37, 44, "MATCH_TYPE"], [61, 68, "COUNT"], [93, 101, "COUNT"], [102, 116, "MATCH_TYPE"], [130, 137, "CAMERA"], [138, 149, "DATE"]]}
+{"text": "Camera ID: Image enhancement software identified camera_13. Camera identification tools confirmed model_13. Image comparison software found 83% similarity.", "entities": [[0, 9, "TOOL"], [11, 28, "TOOL"], [38, 66, "TOOL"], [108, 113, "PERCENTAGE"], [114, 124, "SIMILARITY_TYPE"]]}
+{"text": "Camera ID: Image enhancement software identified camera_78. Camera identification tools confirmed model_78. Image comparison software found 88% similarity.", "entities": [[0, 9, "TOOL"], [11, 28, "TOOL"], [38, 66, "TOOL"], [108, 113, "PERCENTAGE"], [114, 124, "SIMILARITY_TYPE"]]}
+{"text": "Record: Image_ID IMINT_0044, Source: photo_44.jpg, Camera: camera_44, Date: 2024-09-15, Objects: 4, Verification: Verified", "entities": [[0, 6, "RECORD_TYPE"], [8, 22, "RECORD_ID"], [17, 28, "SOURCE"], [37, 49, "CAMERA"], [51, 58, "CAMERA"], [59, 65, "DATE"], [59, 75, "DATE"], [76, 86, "METRIC_TYPE"], [84, 95, "COUNT"], [88, 112, "VERIFICATION_TYPE"]]}
+{"text": "Record: Image_ID IMINT_0024, Source: photo_24.jpg, Camera: camera_24, Date: 2024-01-15, Objects: 4, Verification: Verified", "entities": [[0, 6, "RECORD_TYPE"], [8, 22, "RECORD_ID"], [17, 28, "SOURCE"], [37, 49, "CAMERA"], [51, 58, "CAMERA"], [59, 65, "DATE"], [59, 75, "DATE"], [76, 86, "METRIC_TYPE"], [84, 95, "COUNT"], [88, 112, "VERIFICATION_TYPE"]]}
+{"text": "Facial recognition: Software identified person_56 with 96% confidence. Photo verification services confirmed. Object recognition tools detected 1 objects.", "entities": [[40, 49, "CONFIDENCE"], [99, 116, "COUNT"], [117, 128, "OBJECT_TYPE"]]}
+{"text": "Record: Image_ID IMINT_0069, Source: photo_69.jpg, Camera: camera_69, Date: 2024-10-15, Objects: 4, Verification: Pending", "entities": [[0, 6, "RECORD_TYPE"], [8, 22, "RECORD_ID"], [17, 28, "SOURCE"], [37, 49, "CAMERA"], [51, 58, "CAMERA"], [59, 65, "DATE"], [59, 75, "DATE"], [76, 86, "METRIC_TYPE"], [84, 95, "COUNT"], [88, 112, "VERIFICATION_TYPE"]]}
+{"text": "Record: Image_ID IMINT_0039, Source: photo_39.jpg, Camera: camera_39, Date: 2024-04-15, Objects: 4, Verification: Pending", "entities": [[0, 6, "RECORD_TYPE"], [8, 22, "RECORD_ID"], [17, 28, "SOURCE"], [37, 49, "CAMERA"], [51, 58, "CAMERA"], [59, 65, "DATE"], [59, 75, "DATE"], [76, 86, "METRIC_TYPE"], [84, 95, "COUNT"], [88, 112, "VERIFICATION_TYPE"]]}
+{"text": "Image search: Google Images found 5 matches. TinEye shows 3 results. Yandex Images found 8 matches. Image metadata shows camera_0, date 2024-01-15.", "entities": [[0, 12, "TOOL"], [14, 27, "TOOL"], [34, 43, "COUNT"], [36, 44, "MATCH_TYPE"], [60, 67, "COUNT"], [91, 105, "COUNT"], [131, 140, "CAMERA"]]}
+{"text": "Facial recognition: Software identified person with 92% confidence. Photo verification services confirmed match to database entry. Object recognition tools detected: Vehicle, Building, 3 People.", "entities": [[29, 39, "PERCENTAGE"], [29, 46, "CONFIDENCE"], [87, 105, "DATABASE_TYPE"], [124, 137, "OBJECT_TYPE"], [138, 149, "OBJECT_TYPE"]]}
+{"text": "Facial recognition: Software identified person_56 with 96% confidence. Photo verification services confirmed. Object recognition tools detected 1 objects.", "entities": [[40, 49, "CONFIDENCE"], [99, 116, "COUNT"], [117, 128, "OBJECT_TYPE"]]}
+{"text": "Record: Image_ID IMINT_0079, Source: photo_79.jpg, Camera: camera_79, Date: 2024-08-15, Objects: 4, Verification: Pending", "entities": [[0, 6, "RECORD_TYPE"], [8, 22, "RECORD_ID"], [17, 28, "SOURCE"], [37, 49, "CAMERA"], [51, 58, "CAMERA"], [59, 65, "DATE"], [59, 75, "DATE"], [76, 86, "METRIC_TYPE"], [84, 95, "COUNT"], [88, 112, "VERIFICATION_TYPE"]]}
+{"text": "Camera ID: Image enhancement software identified camera_68. Camera identification tools confirmed model_68. Image comparison software found 78% similarity.", "entities": [[0, 9, "TOOL"], [11, 28, "TOOL"], [38, 66, "TOOL"], [108, 113, "PERCENTAGE"], [114, 124, "SIMILARITY_TYPE"]]}
+{"text": "Image search: Google Images found 45 matches. TinEye shows 43 results. Yandex Images found 48 matches. Image metadata shows camera_40, date 2024-05-15.", "entities": [[0, 12, "TOOL"], [14, 27, "TOOL"], [34, 36, "COUNT"], [37, 44, "MATCH_TYPE"], [62, 77, "RESULT_TYPE"], [94, 102, "COUNT"], [103, 108, "MATCH_TYPE"], [131, 139, "CAMERA"], [140, 150, "DATE"]]}
+{"text": "Facial recognition: Software identified person_21 with 81% confidence. Photo verification services confirmed. Object recognition tools detected 1 objects.", "entities": [[40, 49, "CONFIDENCE"], [99, 116, "COUNT"], [117, 128, "OBJECT_TYPE"]]}
+{"text": "Camera ID: Image enhancement software identified camera_68. Camera identification tools confirmed model_68. Image comparison software found 78% similarity.", "entities": [[0, 9, "TOOL"], [11, 28, "TOOL"], [38, 66, "TOOL"], [108, 113, "PERCENTAGE"], [114, 124, "SIMILARITY_TYPE"]]}
+{"text": "Record: Image_ID IMINT_0009, Source: photo_9.jpg, Camera: camera_9, Date: 2024-10-15, Objects: 4, Verification: Pending", "entities": [[0, 6, "RECORD_TYPE"], [8, 22, "RECORD_ID"], [17, 28, "SOURCE"], [37, 48, "CAMERA"], [50, 57, "CAMERA"], [58, 64, "DATE"], [65, 78, "DATE"], [74, 84, "METRIC_TYPE"], [86, 93, "COUNT"], [86, 110, "VERIFICATION_TYPE"]]}
+{"text": "Image search: Google Images found 25 matches. TinEye shows 23 results. Yandex Images found 28 matches. Image metadata shows camera_20, date 2024-09-15.", "entities": [[0, 12, "TOOL"], [14, 27, "TOOL"], [34, 36, "COUNT"], [37, 44, "MATCH_TYPE"], [62, 77, "RESULT_TYPE"], [94, 102, "COUNT"], [103, 108, "MATCH_TYPE"], [131, 139, "CAMERA"], [140, 150, "DATE"]]}
+{"text": "Facial recognition: Software identified person_51 with 91% confidence. Photo verification services confirmed. Object recognition tools detected 1 objects.", "entities": [[40, 49, "CONFIDENCE"], [99, 116, "COUNT"], [117, 128, "OBJECT_TYPE"]]}
+{"text": "Image search: Google Images found 5 matches. TinEye shows 3 results. Yandex Images found 8 matches. Image metadata shows camera_0, date 2024-01-15.", "entities": [[0, 12, "TOOL"], [14, 27, "TOOL"], [34, 43, "COUNT"], [36, 44, "MATCH_TYPE"], [60, 67, "COUNT"], [91, 105, "COUNT"], [131, 140, "CAMERA"]]}
+{"text": "Record: Image_ID IMINT_0074, Source: photo_74.jpg, Camera: camera_74, Date: 2024-03-15, Objects: 4, Verification: Verified", "entities": [[0, 6, "RECORD_TYPE"], [8, 22, "RECORD_ID"], [17, 28, "SOURCE"], [37, 49, "CAMERA"], [51, 58, "CAMERA"], [59, 65, "DATE"], [59, 75, "DATE"], [76, 86, "METRIC_TYPE"], [84, 95, "COUNT"], [88, 112, "VERIFICATION_TYPE"]]}
+{"text": "Forensics: Image forensics platforms detected manipulation_27. Timestamp verification tools show date 2024-04-15. Image enhancement software processed image.", "entities": [[102, 131, "TOOL"]]}
+{"text": "Facial recognition: Software identified person_46 with 86% confidence. Photo verification services confirmed. Object recognition tools detected 1 objects.", "entities": [[40, 49, "CONFIDENCE"], [99, 116, "COUNT"], [117, 128, "OBJECT_TYPE"]]}
+{"text": "Image search: Google Images found 60 matches. TinEye shows 58 results. Yandex Images found 63 matches. Image metadata shows camera_55, date 2024-08-15.", "entities": [[0, 12, "TOOL"], [14, 27, "TOOL"], [34, 36, "COUNT"], [37, 44, "MATCH_TYPE"], [62, 77, "RESULT_TYPE"], [94, 102, "COUNT"], [103, 108, "MATCH_TYPE"], [131, 139, "CAMERA"], [140, 150, "DATE"]]}
+{"text": "Forensics: Image forensics platforms detected manipulation_2. Timestamp verification tools show date 2024-03-15. Image enhancement software processed image.", "entities": [[101, 130, "TOOL"]]}
+{"text": "Forensics: Image forensics platforms detected manipulation_17. Timestamp verification tools show date 2024-06-15. Image enhancement software processed image.", "entities": [[102, 131, "TOOL"]]}
+{"text": "Facial recognition: Software identified person_61 with 81% confidence. Photo verification services confirmed. Object recognition tools detected 1 objects.", "entities": [[40, 49, "CONFIDENCE"], [99, 116, "COUNT"], [117, 128, "OBJECT_TYPE"]]}
+{"text": "Record: Image_ID IMINT_0039, Source: photo_39.jpg, Camera: camera_39, Date: 2024-04-15, Objects: 4, Verification: Pending", "entities": [[0, 6, "RECORD_TYPE"], [8, 22, "RECORD_ID"], [17, 28, "SOURCE"], [37, 49, "CAMERA"], [51, 58, "CAMERA"], [59, 65, "DATE"], [59, 75, "DATE"], [76, 86, "METRIC_TYPE"], [84, 95, "COUNT"], [88, 112, "VERIFICATION_TYPE"]]}
+{"text": "Image search: Google Images found 15 matches. TinEye shows 13 results. Yandex Images found 18 matches. Image metadata shows camera_10, date 2024-11-15.", "entities": [[0, 12, "TOOL"], [14, 27, "TOOL"], [34, 36, "COUNT"], [37, 44, "MATCH_TYPE"], [62, 77, "RESULT_TYPE"], [94, 102, "COUNT"], [103, 108, "MATCH_TYPE"], [131, 139, "CAMERA"], [140, 150, "DATE"]]}
+{"text": "Forensics: Image forensics platforms detected manipulation_42. Timestamp verification tools show date 2024-07-15. Image enhancement software processed image.", "entities": [[102, 131, "TOOL"]]}
+{"text": "Forensics: Image forensics platforms detected manipulation_87. Timestamp verification tools show date 2024-04-15. Image enhancement software processed image.", "entities": [[102, 131, "TOOL"]]}
+{"text": "Record: Image_ID IMINT_0094, Source: photo_94.jpg, Camera: camera_94, Date: 2024-11-15, Objects: 4, Verification: Verified", "entities": [[0, 6, "RECORD_TYPE"], [8, 22, "RECORD_ID"], [17, 28, "SOURCE"], [37, 49, "CAMERA"], [51, 58, "CAMERA"], [59, 65, "DATE"], [59, 75, "DATE"], [76, 86, "METRIC_TYPE"], [84, 95, "COUNT"], [88, 112, "VERIFICATION_TYPE"]]}
+{"text": "Forensics: Image forensics platforms detected manipulation_22. Timestamp verification tools show date 2024-11-15. Image enhancement software processed image.", "entities": [[102, 131, "TOOL"]]}
+{"text": "Image search: Google Images found 35 matches. TinEye shows 33 results. Yandex Images found 38 matches. Image metadata shows camera_30, date 2024-07-15.", "entities": [[0, 12, "TOOL"], [14, 27, "TOOL"], [34, 36, "COUNT"], [37, 44, "MATCH_TYPE"], [62, 77, "RESULT_TYPE"], [94, 102, "COUNT"], [103, 108, "MATCH_TYPE"], [131, 139, "CAMERA"], [140, 150, "DATE"]]}
+{"text": "Facial recognition: Software identified person_61 with 81% confidence. Photo verification services confirmed. Object recognition tools detected 1 objects.", "entities": [[40, 49, "CONFIDENCE"], [99, 116, "COUNT"], [117, 128, "OBJECT_TYPE"]]}
+{"text": "Facial recognition: Software identified person_51 with 91% confidence. Photo verification services confirmed. Object recognition tools detected 1 objects.", "entities": [[40, 49, "CONFIDENCE"], [99, 116, "COUNT"], [117, 128, "OBJECT_TYPE"]]}
+{"text": "Forensics: Image forensics platforms detected manipulation_82. Timestamp verification tools show date 2024-11-15. Image enhancement software processed image.", "entities": [[102, 131, "TOOL"]]}
+{"text": "Forensics: Image forensics platforms detected manipulation_57. Timestamp verification tools show date 2024-10-15. Image enhancement software processed image.", "entities": [[102, 131, "TOOL"]]}
+{"text": "Camera ID: Image enhancement software identified camera_8. Camera identification tools confirmed model_8. Image comparison software found 78% similarity.", "entities": [[0, 9, "TOOL"], [11, 28, "TOOL"], [38, 65, "TOOL"], [106, 111, "PERCENTAGE"], [112, 122, "SIMILARITY_TYPE"]]}
+{"text": "Camera ID: Image enhancement software identified camera_93. Camera identification tools confirmed model_93. Image comparison software found 73% similarity.", "entities": [[0, 9, "TOOL"], [11, 28, "TOOL"], [38, 66, "TOOL"], [108, 113, "PERCENTAGE"], [114, 124, "SIMILARITY_TYPE"]]}
+{"text": "Forensics: Image forensics platforms detected manipulation_17. Timestamp verification tools show date 2024-06-15. Image enhancement software processed image.", "entities": [[102, 131, "TOOL"]]}
+{"text": "Image search: Google Images found 10 matches. TinEye shows 8 results. Yandex Images found 13 matches. Image metadata shows camera_5, date 2024-06-15.", "entities": [[0, 12, "TOOL"], [14, 27, "TOOL"], [34, 36, "COUNT"], [37, 44, "MATCH_TYPE"], [61, 68, "COUNT"], [93, 101, "COUNT"], [102, 116, "MATCH_TYPE"], [130, 137, "CAMERA"], [138, 149, "DATE"]]}
+{"text": "Facial recognition: Software identified person_71 with 91% confidence. Photo verification services confirmed. Object recognition tools detected 1 objects.", "entities": [[40, 49, "CONFIDENCE"], [99, 116, "COUNT"], [117, 128, "OBJECT_TYPE"]]}
+{"text": "Reverse image search: Google Images found 15 matches for uploaded photo. TinEye shows 8 results, Yandex Images found 12 matches. Image metadata analysis tools extracted EXIF data: Camera: Canon EOS 5D, Date: 2024-06-15.", "entities": [[0, 20, "TOOL"], [22, 35, "TOOL"], [45, 52, "MATCH_TYPE"], [66, 79, "RESULT_TYPE"], [104, 110, "MATCH_TYPE"], [135, 152, "DATA_TYPE"], [144, 152, "DATA_TYPE"], [180, 193, "DATE"]]}
+{"text": "Image search: Google Images found 95 matches. TinEye shows 93 results. Yandex Images found 98 matches. Image metadata shows camera_90, date 2024-07-15.", "entities": [[0, 12, "TOOL"], [14, 27, "TOOL"], [34, 36, "COUNT"], [37, 44, "MATCH_TYPE"], [62, 77, "RESULT_TYPE"], [94, 102, "COUNT"], [103, 108, "MATCH_TYPE"], [131, 139, "CAMERA"], [140, 150, "DATE"]]}
+{"text": "Facial recognition: Software identified person_6 with 86% confidence. Photo verification services confirmed. Object recognition tools detected 1 objects.", "entities": [[40, 48, "CONFIDENCE"], [109, 115, "COUNT"], [116, 127, "OBJECT_TYPE"]]}
+{"text": "Forensics: Image forensics platforms detected manipulation_52. Timestamp verification tools show date 2024-05-15. Image enhancement software processed image.", "entities": [[102, 131, "TOOL"]]}
+{"text": "Image search: Google Images found 60 matches. TinEye shows 58 results. Yandex Images found 63 matches. Image metadata shows camera_55, date 2024-08-15.", "entities": [[0, 12, "TOOL"], [14, 27, "TOOL"], [34, 36, "COUNT"], [37, 44, "MATCH_TYPE"], [62, 77, "RESULT_TYPE"], [94, 102, "COUNT"], [103, 108, "MATCH_TYPE"], [131, 139, "CAMERA"], [140, 150, "DATE"]]}
+{"text": "Record: Image_ID IMINT_0039, Source: photo_39.jpg, Camera: camera_39, Date: 2024-04-15, Objects: 4, Verification: Pending", "entities": [[0, 6, "RECORD_TYPE"], [8, 22, "RECORD_ID"], [17, 28, "SOURCE"], [37, 49, "CAMERA"], [51, 58, "CAMERA"], [59, 65, "DATE"], [59, 75, "DATE"], [76, 86, "METRIC_TYPE"], [84, 95, "COUNT"], [88, 112, "VERIFICATION_TYPE"]]}
+{"text": "Camera ID: Image enhancement software identified camera_18. Camera identification tools confirmed model_18. Image comparison software found 88% similarity.", "entities": [[0, 9, "TOOL"], [11, 28, "TOOL"], [38, 66, "TOOL"], [108, 113, "PERCENTAGE"], [114, 124, "SIMILARITY_TYPE"]]}
+{"text": "Camera ID: Image enhancement software identified camera_38. Camera identification tools confirmed model_38. Image comparison software found 78% similarity.", "entities": [[0, 9, "TOOL"], [11, 28, "TOOL"], [38, 66, "TOOL"], [108, 113, "PERCENTAGE"], [114, 124, "SIMILARITY_TYPE"]]}
+{"text": "Record: Image_ID IMINT_0049, Source: photo_49.jpg, Camera: camera_49, Date: 2024-02-15, Objects: 4, Verification: Pending", "entities": [[0, 6, "RECORD_TYPE"], [8, 22, "RECORD_ID"], [17, 28, "SOURCE"], [37, 49, "CAMERA"], [51, 58, "CAMERA"], [59, 65, "DATE"], [59, 75, "DATE"], [76, 86, "METRIC_TYPE"], [84, 95, "COUNT"], [88, 112, "VERIFICATION_TYPE"]]}
+{"text": "Forensics: Image forensics platforms detected manipulation_42. Timestamp verification tools show date 2024-07-15. Image enhancement software processed image.", "entities": [[102, 131, "TOOL"]]}
+{"text": "Camera ID: Image enhancement software identified camera_8. Camera identification tools confirmed model_8. Image comparison software found 78% similarity.", "entities": [[0, 9, "TOOL"], [11, 28, "TOOL"], [38, 65, "TOOL"], [106, 111, "PERCENTAGE"], [112, 122, "SIMILARITY_TYPE"]]}
+{"text": "Camera ID: Image enhancement software identified camera_73. Camera identification tools confirmed model_73. Image comparison software found 83% similarity.", "entities": [[0, 9, "TOOL"], [11, 28, "TOOL"], [38, 66, "TOOL"], [108, 113, "PERCENTAGE"], [114, 124, "SIMILARITY_TYPE"]]}
+{"text": "Camera ID: Image enhancement software identified camera_83. Camera identification tools confirmed model_83. Image comparison software found 93% similarity.", "entities": [[0, 9, "TOOL"], [11, 28, "TOOL"], [38, 66, "TOOL"], [108, 113, "PERCENTAGE"], [114, 124, "SIMILARITY_TYPE"]]}
+{"text": "Camera identification: Image enhancement software identified camera model iPhone 13 Pro from sensor pattern. Camera identification tools confirmed. Image comparison software found 85% similarity to reference image.", "entities": [[23, 28, "CAMERA"], [29, 40, "MODEL"], [93, 107, "PATTERN_TYPE"], [100, 130, "TOOL"]]}
+{"text": "Camera ID: Image enhancement software identified camera_33. Camera identification tools confirmed model_33. Image comparison software found 73% similarity.", "entities": [[0, 9, "TOOL"], [11, 28, "TOOL"], [38, 66, "TOOL"], [108, 113, "PERCENTAGE"], [114, 124, "SIMILARITY_TYPE"]]}
+{"text": "Image search: Google Images found 90 matches. TinEye shows 88 results. Yandex Images found 93 matches. Image metadata shows camera_85, date 2024-02-15.", "entities": [[0, 12, "TOOL"], [14, 27, "TOOL"], [34, 36, "COUNT"], [37, 44, "MATCH_TYPE"], [62, 77, "RESULT_TYPE"], [94, 102, "COUNT"], [103, 108, "MATCH_TYPE"], [131, 139, "CAMERA"], [140, 150, "DATE"]]}
+{"text": "Camera ID: Image enhancement software identified camera_63. Camera identification tools confirmed model_63. Image comparison software found 73% similarity.", "entities": [[0, 9, "TOOL"], [11, 28, "TOOL"], [38, 66, "TOOL"], [108, 113, "PERCENTAGE"], [114, 124, "SIMILARITY_TYPE"]]}
+{"text": "Forensics: Image forensics platforms detected manipulation_17. Timestamp verification tools show date 2024-06-15. Image enhancement software processed image.", "entities": [[102, 131, "TOOL"]]}
+{"text": "Record: Image_ID IMINT_0044, Source: photo_44.jpg, Camera: camera_44, Date: 2024-09-15, Objects: 4, Verification: Verified", "entities": [[0, 6, "RECORD_TYPE"], [8, 22, "RECORD_ID"], [17, 28, "SOURCE"], [37, 49, "CAMERA"], [51, 58, "CAMERA"], [59, 65, "DATE"], [59, 75, "DATE"], [76, 86, "METRIC_TYPE"], [84, 95, "COUNT"], [88, 112, "VERIFICATION_TYPE"]]}
+{"text": "Image search: Google Images found 20 matches. TinEye shows 18 results. Yandex Images found 23 matches. Image metadata shows camera_15, date 2024-04-15.", "entities": [[0, 12, "TOOL"], [14, 27, "TOOL"], [34, 36, "COUNT"], [37, 44, "MATCH_TYPE"], [62, 77, "RESULT_TYPE"], [94, 102, "COUNT"], [103, 108, "MATCH_TYPE"], [131, 139, "CAMERA"], [140, 150, "DATE"]]}
+{"text": "Camera ID: Image enhancement software identified camera_63. Camera identification tools confirmed model_63. Image comparison software found 73% similarity.", "entities": [[0, 9, "TOOL"], [11, 28, "TOOL"], [38, 66, "TOOL"], [108, 113, "PERCENTAGE"], [114, 124, "SIMILARITY_TYPE"]]}
+{"text": "Image search: Google Images found 80 matches. TinEye shows 78 results. Yandex Images found 83 matches. Image metadata shows camera_75, date 2024-04-15.", "entities": [[0, 12, "TOOL"], [14, 27, "TOOL"], [34, 36, "COUNT"], [37, 44, "MATCH_TYPE"], [62, 77, "RESULT_TYPE"], [94, 102, "COUNT"], [103, 108, "MATCH_TYPE"], [131, 139, "CAMERA"], [140, 150, "DATE"]]}
+{"text": "Forensics: Image forensics platforms detected manipulation_72. Timestamp verification tools show date 2024-01-15. Image enhancement software processed image.", "entities": [[102, 131, "TOOL"]]}
+{"text": "Facial recognition: Software identified person_16 with 96% confidence. Photo verification services confirmed. Object recognition tools detected 1 objects.", "entities": [[40, 49, "CONFIDENCE"], [99, 116, "COUNT"], [117, 128, "OBJECT_TYPE"]]}
+{"text": "Record: Image_ID IMINT_0089, Source: photo_89.jpg, Camera: camera_89, Date: 2024-06-15, Objects: 4, Verification: Pending", "entities": [[0, 6, "RECORD_TYPE"], [8, 22, "RECORD_ID"], [17, 28, "SOURCE"], [37, 49, "CAMERA"], [51, 58, "CAMERA"], [59, 65, "DATE"], [59, 75, "DATE"], [76, 86, "METRIC_TYPE"], [84, 95, "COUNT"], [88, 112, "VERIFICATION_TYPE"]]}
+{"text": "Forensics: Image forensics platforms detected manipulation_92. Timestamp verification tools show date 2024-09-15. Image enhancement software processed image.", "entities": [[102, 131, "TOOL"]]}
+{"text": "Image search: Google Images found 80 matches. TinEye shows 78 results. Yandex Images found 83 matches. Image metadata shows camera_75, date 2024-04-15.", "entities": [[0, 12, "TOOL"], [14, 27, "TOOL"], [34, 36, "COUNT"], [37, 44, "MATCH_TYPE"], [62, 77, "RESULT_TYPE"], [94, 102, "COUNT"], [103, 108, "MATCH_TYPE"], [131, 139, "CAMERA"], [140, 150, "DATE"]]}
+{"text": "Facial recognition: Software identified person_86 with 86% confidence. Photo verification services confirmed. Object recognition tools detected 1 objects.", "entities": [[40, 49, "CONFIDENCE"], [99, 116, "COUNT"], [117, 128, "OBJECT_TYPE"]]}
+{"text": "Facial recognition: Software identified person_46 with 86% confidence. Photo verification services confirmed. Object recognition tools detected 1 objects.", "entities": [[40, 49, "CONFIDENCE"], [99, 116, "COUNT"], [117, 128, "OBJECT_TYPE"]]}
+{"text": "Facial recognition: Software identified person_91 with 91% confidence. Photo verification services confirmed. Object recognition tools detected 1 objects.", "entities": [[40, 49, "CONFIDENCE"], [99, 116, "COUNT"], [117, 128, "OBJECT_TYPE"]]}
+{"text": "Facial recognition: Software identified person_56 with 96% confidence. Photo verification services confirmed. Object recognition tools detected 1 objects.", "entities": [[40, 49, "CONFIDENCE"], [99, 116, "COUNT"], [117, 128, "OBJECT_TYPE"]]}
+{"text": "Record: Image_ID IMINT_0034, Source: photo_34.jpg, Camera: camera_34, Date: 2024-11-15, Objects: 4, Verification: Verified", "entities": [[0, 6, "RECORD_TYPE"], [8, 22, "RECORD_ID"], [17, 28, "SOURCE"], [37, 49, "CAMERA"], [51, 58, "CAMERA"], [59, 65, "DATE"], [59, 75, "DATE"], [76, 86, "METRIC_TYPE"], [84, 95, "COUNT"], [88, 112, "VERIFICATION_TYPE"]]}
+{"text": "Image search: Google Images found 85 matches. TinEye shows 83 results. Yandex Images found 88 matches. Image metadata shows camera_80, date 2024-09-15.", "entities": [[0, 12, "TOOL"], [14, 27, "TOOL"], [34, 36, "COUNT"], [37, 44, "MATCH_TYPE"], [62, 77, "RESULT_TYPE"], [94, 102, "COUNT"], [103, 108, "MATCH_TYPE"], [131, 139, "CAMERA"], [140, 150, "DATE"]]}
+{"text": "Image search: Google Images found 30 matches. TinEye shows 28 results. Yandex Images found 33 matches. Image metadata shows camera_25, date 2024-02-15.", "entities": [[0, 12, "TOOL"], [14, 27, "TOOL"], [34, 36, "COUNT"], [37, 44, "MATCH_TYPE"], [62, 77, "RESULT_TYPE"], [94, 102, "COUNT"], [103, 108, "MATCH_TYPE"], [131, 139, "CAMERA"], [140, 150, "DATE"]]}
+{"text": "Camera ID: Image enhancement software identified camera_8. Camera identification tools confirmed model_8. Image comparison software found 78% similarity.", "entities": [[0, 9, "TOOL"], [11, 28, "TOOL"], [38, 65, "TOOL"], [106, 111, "PERCENTAGE"], [112, 122, "SIMILARITY_TYPE"]]}
+{"text": "Forensics: Image forensics platforms detected manipulation_47. Timestamp verification tools show date 2024-12-15. Image enhancement software processed image.", "entities": [[102, 131, "TOOL"]]}
+{"text": "Image search: Google Images found 100 matches. TinEye shows 98 results. Yandex Images found 103 matches. Image metadata shows camera_95, date 2024-12-15.", "entities": [[0, 12, "TOOL"], [14, 27, "TOOL"], [34, 37, "COUNT"], [38, 45, "MATCH_TYPE"], [47, 59, "TOOL"], [60, 70, "COUNT"], [63, 78, "RESULT_TYPE"], [96, 103, "COUNT"], [96, 110, "MATCH_TYPE"], [126, 136, "CAMERA"], [137, 149, "DATE"]]}
+{"text": "Image search: Google Images found 100 matches. TinEye shows 98 results. Yandex Images found 103 matches. Image metadata shows camera_95, date 2024-12-15.", "entities": [[0, 12, "TOOL"], [14, 27, "TOOL"], [34, 37, "COUNT"], [38, 45, "MATCH_TYPE"], [47, 59, "TOOL"], [60, 70, "COUNT"], [63, 78, "RESULT_TYPE"], [96, 103, "COUNT"], [96, 110, "MATCH_TYPE"], [126, 136, "CAMERA"], [137, 149, "DATE"]]}
+{"text": "Forensics: Image forensics platforms detected manipulation_27. Timestamp verification tools show date 2024-04-15. Image enhancement software processed image.", "entities": [[102, 131, "TOOL"]]}
+{"text": "Camera ID: Image enhancement software identified camera_83. Camera identification tools confirmed model_83. Image comparison software found 93% similarity.", "entities": [[0, 9, "TOOL"], [11, 28, "TOOL"], [38, 66, "TOOL"], [108, 113, "PERCENTAGE"], [114, 124, "SIMILARITY_TYPE"]]}
+{"text": "Record: Image_ID IMINT_0019, Source: photo_19.jpg, Camera: camera_19, Date: 2024-08-15, Objects: 4, Verification: Pending", "entities": [[0, 6, "RECORD_TYPE"], [8, 22, "RECORD_ID"], [17, 28, "SOURCE"], [37, 49, "CAMERA"], [51, 58, "CAMERA"], [59, 65, "DATE"], [59, 75, "DATE"], [76, 86, "METRIC_TYPE"], [84, 95, "COUNT"], [88, 112, "VERIFICATION_TYPE"]]}
+{"text": "Camera ID: Image enhancement software identified camera_73. Camera identification tools confirmed model_73. Image comparison software found 83% similarity.", "entities": [[0, 9, "TOOL"], [11, 28, "TOOL"], [38, 66, "TOOL"], [108, 113, "PERCENTAGE"], [114, 124, "SIMILARITY_TYPE"]]}
+{"text": "Forensics: Image forensics platforms detected manipulation_7. Timestamp verification tools show date 2024-08-15. Image enhancement software processed image.", "entities": [[101, 130, "TOOL"]]}
+{"text": "Image search: Google Images found 25 matches. TinEye shows 23 results. Yandex Images found 28 matches. Image metadata shows camera_20, date 2024-09-15.", "entities": [[0, 12, "TOOL"], [14, 27, "TOOL"], [34, 36, "COUNT"], [37, 44, "MATCH_TYPE"], [62, 77, "RESULT_TYPE"], [94, 102, "COUNT"], [103, 108, "MATCH_TYPE"], [131, 139, "CAMERA"], [140, 150, "DATE"]]}
+{"text": "Forensics: Image forensics platforms detected manipulation_57. Timestamp verification tools show date 2024-10-15. Image enhancement software processed image.", "entities": [[102, 131, "TOOL"]]}
+{"text": "Facial recognition: Software identified person_71 with 91% confidence. Photo verification services confirmed. Object recognition tools detected 1 objects.", "entities": [[40, 49, "CONFIDENCE"], [99, 116, "COUNT"], [117, 128, "OBJECT_TYPE"]]}
+{"text": "Camera ID: Image enhancement software identified camera_58. Camera identification tools confirmed model_58. Image comparison software found 98% similarity.", "entities": [[0, 9, "TOOL"], [11, 28, "TOOL"], [38, 66, "TOOL"], [108, 113, "PERCENTAGE"], [114, 124, "SIMILARITY_TYPE"]]}
+{"text": "Facial recognition: Software identified person_21 with 81% confidence. Photo verification services confirmed. Object recognition tools detected 1 objects.", "entities": [[40, 49, "CONFIDENCE"], [99, 116, "COUNT"], [117, 128, "OBJECT_TYPE"]]}
+{"text": "Facial recognition: Software identified person_86 with 86% confidence. Photo verification services confirmed. Object recognition tools detected 1 objects.", "entities": [[40, 49, "CONFIDENCE"], [99, 116, "COUNT"], [117, 128, "OBJECT_TYPE"]]}
+{"text": "Forensics: Image forensics platforms detected manipulation_2. Timestamp verification tools show date 2024-03-15. Image enhancement software processed image.", "entities": [[101, 130, "TOOL"]]}
+{"text": "Facial recognition: Software identified person_1 with 81% confidence. Photo verification services confirmed. Object recognition tools detected 1 objects.", "entities": [[40, 48, "CONFIDENCE"], [109, 115, "COUNT"], [116, 127, "OBJECT_TYPE"]]}
+{"text": "Forensics: Image forensics platforms detected manipulation_37. Timestamp verification tools show date 2024-02-15. Image enhancement software processed image.", "entities": [[102, 131, "TOOL"]]}
+{"text": "Facial recognition: Software identified person_46 with 86% confidence. Photo verification services confirmed. Object recognition tools detected 1 objects.", "entities": [[40, 49, "CONFIDENCE"], [99, 116, "COUNT"], [117, 128, "OBJECT_TYPE"]]}
+{"text": "Record: Image_ID IMINT_0014, Source: photo_14.jpg, Camera: camera_14, Date: 2024-03-15, Objects: 4, Verification: Verified", "entities": [[0, 6, "RECORD_TYPE"], [8, 22, "RECORD_ID"], [17, 28, "SOURCE"], [37, 49, "CAMERA"], [51, 58, "CAMERA"], [59, 65, "DATE"], [59, 75, "DATE"], [76, 86, "METRIC_TYPE"], [84, 95, "COUNT"], [88, 112, "VERIFICATION_TYPE"]]}
+{"text": "Facial recognition: Software identified person_11 with 91% confidence. Photo verification services confirmed. Object recognition tools detected 1 objects.", "entities": [[40, 49, "CONFIDENCE"], [99, 116, "COUNT"], [117, 128, "OBJECT_TYPE"]]}
+{"text": "Facial recognition: Software identified person_16 with 96% confidence. Photo verification services confirmed. Object recognition tools detected 1 objects.", "entities": [[40, 49, "CONFIDENCE"], [99, 116, "COUNT"], [117, 128, "OBJECT_TYPE"]]}
+{"text": "Record: Image_ID IMINT_0064, Source: photo_64.jpg, Camera: camera_64, Date: 2024-05-15, Objects: 4, Verification: Verified", "entities": [[0, 6, "RECORD_TYPE"], [8, 22, "RECORD_ID"], [17, 28, "SOURCE"], [37, 49, "CAMERA"], [51, 58, "CAMERA"], [59, 65, "DATE"], [59, 75, "DATE"], [76, 86, "METRIC_TYPE"], [84, 95, "COUNT"], [88, 112, "VERIFICATION_TYPE"]]}
+{"text": "Camera ID: Image enhancement software identified camera_93. Camera identification tools confirmed model_93. Image comparison software found 73% similarity.", "entities": [[0, 9, "TOOL"], [11, 28, "TOOL"], [38, 66, "TOOL"], [108, 113, "PERCENTAGE"], [114, 124, "SIMILARITY_TYPE"]]}
+{"text": "Forensics: Image forensics platforms detected manipulation_67. Timestamp verification tools show date 2024-08-15. Image enhancement software processed image.", "entities": [[102, 131, "TOOL"]]}
+{"text": "Forensics: Image forensics platforms detected manipulation_72. Timestamp verification tools show date 2024-01-15. Image enhancement software processed image.", "entities": [[102, 131, "TOOL"]]}
+{"text": "Record: Image_ID IMINT_0024, Source: photo_24.jpg, Camera: camera_24, Date: 2024-01-15, Objects: 4, Verification: Verified", "entities": [[0, 6, "RECORD_TYPE"], [8, 22, "RECORD_ID"], [17, 28, "SOURCE"], [37, 49, "CAMERA"], [51, 58, "CAMERA"], [59, 65, "DATE"], [59, 75, "DATE"], [76, 86, "METRIC_TYPE"], [84, 95, "COUNT"], [88, 112, "VERIFICATION_TYPE"]]}
+{"text": "Facial recognition: Software identified person_61 with 81% confidence. Photo verification services confirmed. Object recognition tools detected 1 objects.", "entities": [[40, 49, "CONFIDENCE"], [99, 116, "COUNT"], [117, 128, "OBJECT_TYPE"]]}
+{"text": "Record: Image_ID IMINT_0079, Source: photo_79.jpg, Camera: camera_79, Date: 2024-08-15, Objects: 4, Verification: Pending", "entities": [[0, 6, "RECORD_TYPE"], [8, 22, "RECORD_ID"], [17, 28, "SOURCE"], [37, 49, "CAMERA"], [51, 58, "CAMERA"], [59, 65, "DATE"], [59, 75, "DATE"], [76, 86, "METRIC_TYPE"], [84, 95, "COUNT"], [88, 112, "VERIFICATION_TYPE"]]}
+{"text": "Facial recognition: Software identified person_11 with 91% confidence. Photo verification services confirmed. Object recognition tools detected 1 objects.", "entities": [[40, 49, "CONFIDENCE"], [99, 116, "COUNT"], [117, 128, "OBJECT_TYPE"]]}
+{"text": "Camera ID: Image enhancement software identified camera_3. Camera identification tools confirmed model_3. Image comparison software found 73% similarity.", "entities": [[0, 9, "TOOL"], [11, 28, "TOOL"], [38, 65, "TOOL"], [106, 111, "PERCENTAGE"], [112, 122, "SIMILARITY_TYPE"]]}
+{"text": "Facial recognition: Software identified person_76 with 96% confidence. Photo verification services confirmed. Object recognition tools detected 1 objects.", "entities": [[40, 49, "CONFIDENCE"], [99, 116, "COUNT"], [117, 128, "OBJECT_TYPE"]]}
+{"text": "Record: Image_ID IMINT_0004, Source: photo_4.jpg, Camera: camera_4, Date: 2024-05-15, Objects: 4, Verification: Verified", "entities": [[0, 6, "RECORD_TYPE"], [8, 22, "RECORD_ID"], [17, 28, "SOURCE"], [37, 48, "CAMERA"], [50, 57, "CAMERA"], [58, 64, "DATE"], [65, 78, "DATE"], [74, 84, "METRIC_TYPE"], [86, 93, "COUNT"], [86, 110, "VERIFICATION_TYPE"]]}
+{"text": "Image search: Google Images found 70 matches. TinEye shows 68 results. Yandex Images found 73 matches. Image metadata shows camera_65, date 2024-06-15.", "entities": [[0, 12, "TOOL"], [14, 27, "TOOL"], [34, 36, "COUNT"], [37, 44, "MATCH_TYPE"], [62, 77, "RESULT_TYPE"], [94, 102, "COUNT"], [103, 108, "MATCH_TYPE"], [131, 139, "CAMERA"], [140, 150, "DATE"]]}
+{"text": "Record: Image_ID IMINT_0054, Source: photo_54.jpg, Camera: camera_54, Date: 2024-07-15, Objects: 4, Verification: Verified", "entities": [[0, 6, "RECORD_TYPE"], [8, 22, "RECORD_ID"], [17, 28, "SOURCE"], [37, 49, "CAMERA"], [51, 58, "CAMERA"], [59, 65, "DATE"], [59, 75, "DATE"], [76, 86, "METRIC_TYPE"], [84, 95, "COUNT"], [88, 112, "VERIFICATION_TYPE"]]}
+{"text": "Facial recognition: Software identified person_41 with 81% confidence. Photo verification services confirmed. Object recognition tools detected 1 objects.", "entities": [[40, 49, "CONFIDENCE"], [99, 116, "COUNT"], [117, 128, "OBJECT_TYPE"]]}
+{"text": "Record: Image_ID IMINT_0074, Source: photo_74.jpg, Camera: camera_74, Date: 2024-03-15, Objects: 4, Verification: Verified", "entities": [[0, 6, "RECORD_TYPE"], [8, 22, "RECORD_ID"], [17, 28, "SOURCE"], [37, 49, "CAMERA"], [51, 58, "CAMERA"], [59, 65, "DATE"], [59, 75, "DATE"], [76, 86, "METRIC_TYPE"], [84, 95, "COUNT"], [88, 112, "VERIFICATION_TYPE"]]}
+{"text": "Forensics: Image forensics platforms detected manipulation_62. Timestamp verification tools show date 2024-03-15. Image enhancement software processed image.", "entities": [[102, 131, "TOOL"]]}
+{"text": "Facial recognition: Software identified person_51 with 91% confidence. Photo verification services confirmed. Object recognition tools detected 1 objects.", "entities": [[40, 49, "CONFIDENCE"], [99, 116, "COUNT"], [117, 128, "OBJECT_TYPE"]]}
+{"text": "Camera ID: Image enhancement software identified camera_73. Camera identification tools confirmed model_73. Image comparison software found 83% similarity.", "entities": [[0, 9, "TOOL"], [11, 28, "TOOL"], [38, 66, "TOOL"], [108, 113, "PERCENTAGE"], [114, 124, "SIMILARITY_TYPE"]]}
+{"text": "Image search: Google Images found 65 matches. TinEye shows 63 results. Yandex Images found 68 matches. Image metadata shows camera_60, date 2024-01-15.", "entities": [[0, 12, "TOOL"], [14, 27, "TOOL"], [34, 36, "COUNT"], [37, 44, "MATCH_TYPE"], [62, 77, "RESULT_TYPE"], [94, 102, "COUNT"], [103, 108, "MATCH_TYPE"], [131, 139, "CAMERA"], [140, 150, "DATE"]]}
+{"text": "Camera ID: Image enhancement software identified camera_58. Camera identification tools confirmed model_58. Image comparison software found 98% similarity.", "entities": [[0, 9, "TOOL"], [11, 28, "TOOL"], [38, 66, "TOOL"], [108, 113, "PERCENTAGE"], [114, 124, "SIMILARITY_TYPE"]]}
+{"text": "Image forensics report: Photo shows signs of manipulation. Image forensics platforms detected cloning artifacts. Timestamp verification tools show creation date 2024-06-15 14:30:00, but metadata suggests 2024-06-10.", "entities": [[16, 29, "MEDIA_TYPE"], [30, 57, "MANIPULATION_TYPE"], [102, 135, "TOOL"], [156, 165, "TIME"], [169, 177, "DATA_TYPE"]]}
+{"text": "Facial recognition: Software identified person_36 with 96% confidence. Photo verification services confirmed. Object recognition tools detected 1 objects.", "entities": [[40, 49, "CONFIDENCE"], [99, 116, "COUNT"], [117, 128, "OBJECT_TYPE"]]}
+{"text": "Camera ID: Image enhancement software identified camera_23. Camera identification tools confirmed model_23. Image comparison software found 93% similarity.", "entities": [[0, 9, "TOOL"], [11, 28, "TOOL"], [38, 66, "TOOL"], [108, 113, "PERCENTAGE"], [114, 124, "SIMILARITY_TYPE"]]}
+{"text": "Facial recognition: Software identified person_71 with 91% confidence. Photo verification services confirmed. Object recognition tools detected 1 objects.", "entities": [[40, 49, "CONFIDENCE"], [99, 116, "COUNT"], [117, 128, "OBJECT_TYPE"]]}
+{"text": "Camera ID: Image enhancement software identified camera_23. Camera identification tools confirmed model_23. Image comparison software found 93% similarity.", "entities": [[0, 9, "TOOL"], [11, 28, "TOOL"], [38, 66, "TOOL"], [108, 113, "PERCENTAGE"], [114, 124, "SIMILARITY_TYPE"]]}
+{"text": "Record: Image_ID IMINT_0024, Source: photo_24.jpg, Camera: camera_24, Date: 2024-01-15, Objects: 4, Verification: Verified", "entities": [[0, 6, "RECORD_TYPE"], [8, 22, "RECORD_ID"], [17, 28, "SOURCE"], [37, 49, "CAMERA"], [51, 58, "CAMERA"], [59, 65, "DATE"], [59, 75, "DATE"], [76, 86, "METRIC_TYPE"], [84, 95, "COUNT"], [88, 112, "VERIFICATION_TYPE"]]}
+{"text": "Camera ID: Image enhancement software identified camera_48. Camera identification tools confirmed model_48. Image comparison software found 88% similarity.", "entities": [[0, 9, "TOOL"], [11, 28, "TOOL"], [38, 66, "TOOL"], [108, 113, "PERCENTAGE"], [114, 124, "SIMILARITY_TYPE"]]}
+{"text": "Facial recognition: Software identified person_81 with 81% confidence. Photo verification services confirmed. Object recognition tools detected 1 objects.", "entities": [[40, 49, "CONFIDENCE"], [99, 116, "COUNT"], [117, 128, "OBJECT_TYPE"]]}
+{"text": "Camera ID: Image enhancement software identified camera_83. Camera identification tools confirmed model_83. Image comparison software found 93% similarity.", "entities": [[0, 9, "TOOL"], [11, 28, "TOOL"], [38, 66, "TOOL"], [108, 113, "PERCENTAGE"], [114, 124, "SIMILARITY_TYPE"]]}
+{"text": "Record: Image_ID IMINT_0054, Source: photo_54.jpg, Camera: camera_54, Date: 2024-07-15, Objects: 4, Verification: Verified", "entities": [[0, 6, "RECORD_TYPE"], [8, 22, "RECORD_ID"], [17, 28, "SOURCE"], [37, 49, "CAMERA"], [51, 58, "CAMERA"], [59, 65, "DATE"], [59, 75, "DATE"], [76, 86, "METRIC_TYPE"], [84, 95, "COUNT"], [88, 112, "VERIFICATION_TYPE"]]}
+{"text": "Camera ID: Image enhancement software identified camera_43. Camera identification tools confirmed model_43. Image comparison software found 83% similarity.", "entities": [[0, 9, "TOOL"], [11, 28, "TOOL"], [38, 66, "TOOL"], [108, 113, "PERCENTAGE"], [114, 124, "SIMILARITY_TYPE"]]}
+{"text": "Facial recognition: Software identified person_91 with 91% confidence. Photo verification services confirmed. Object recognition tools detected 1 objects.", "entities": [[40, 49, "CONFIDENCE"], [99, 116, "COUNT"], [117, 128, "OBJECT_TYPE"]]}
+{"text": "Record: Image_ID IMINT_0029, Source: photo_29.jpg, Camera: camera_29, Date: 2024-06-15, Objects: 4, Verification: Pending", "entities": [[0, 6, "RECORD_TYPE"], [8, 22, "RECORD_ID"], [17, 28, "SOURCE"], [37, 49, "CAMERA"], [51, 58, "CAMERA"], [59, 65, "DATE"], [59, 75, "DATE"], [76, 86, "METRIC_TYPE"], [84, 95, "COUNT"], [88, 112, "VERIFICATION_TYPE"]]}
+{"text": "Camera ID: Image enhancement software identified camera_8. Camera identification tools confirmed model_8. Image comparison software found 78% similarity.", "entities": [[0, 9, "TOOL"], [11, 28, "TOOL"], [38, 65, "TOOL"], [106, 111, "PERCENTAGE"], [112, 122, "SIMILARITY_TYPE"]]}
+{"text": "Camera ID: Image enhancement software identified camera_38. Camera identification tools confirmed model_38. Image comparison software found 78% similarity.", "entities": [[0, 9, "TOOL"], [11, 28, "TOOL"], [38, 66, "TOOL"], [108, 113, "PERCENTAGE"], [114, 124, "SIMILARITY_TYPE"]]}
+{"text": "Forensics: Image forensics platforms detected manipulation_2. Timestamp verification tools show date 2024-03-15. Image enhancement software processed image.", "entities": [[101, 130, "TOOL"]]}
+{"text": "Facial recognition: Software identified person with 92% confidence. Photo verification services confirmed match to database entry. Object recognition tools detected: Vehicle, Building, 3 People.", "entities": [[29, 39, "PERCENTAGE"], [29, 46, "CONFIDENCE"], [87, 105, "DATABASE_TYPE"], [124, 137, "OBJECT_TYPE"], [138, 149, "OBJECT_TYPE"]]}
+{"text": "Record: Image_ID IMINT_0049, Source: photo_49.jpg, Camera: camera_49, Date: 2024-02-15, Objects: 4, Verification: Pending", "entities": [[0, 6, "RECORD_TYPE"], [8, 22, "RECORD_ID"], [17, 28, "SOURCE"], [37, 49, "CAMERA"], [51, 58, "CAMERA"], [59, 65, "DATE"], [59, 75, "DATE"], [76, 86, "METRIC_TYPE"], [84, 95, "COUNT"], [88, 112, "VERIFICATION_TYPE"]]}
+{"text": "Forensics: Image forensics platforms detected manipulation_87. Timestamp verification tools show date 2024-04-15. Image enhancement software processed image.", "entities": [[102, 131, "TOOL"]]}
+{"text": "Forensics: Image forensics platforms detected manipulation_12. Timestamp verification tools show date 2024-01-15. Image enhancement software processed image.", "entities": [[102, 131, "TOOL"]]}
+{"text": "Camera ID: Image enhancement software identified camera_13. Camera identification tools confirmed model_13. Image comparison software found 83% similarity.", "entities": [[0, 9, "TOOL"], [11, 28, "TOOL"], [38, 66, "TOOL"], [108, 113, "PERCENTAGE"], [114, 124, "SIMILARITY_TYPE"]]}
+{"text": "Record: Image_ID IMINT_0069, Source: photo_69.jpg, Camera: camera_69, Date: 2024-10-15, Objects: 4, Verification: Pending", "entities": [[0, 6, "RECORD_TYPE"], [8, 22, "RECORD_ID"], [17, 28, "SOURCE"], [37, 49, "CAMERA"], [51, 58, "CAMERA"], [59, 65, "DATE"], [59, 75, "DATE"], [76, 86, "METRIC_TYPE"], [84, 95, "COUNT"], [88, 112, "VERIFICATION_TYPE"]]}
+{"text": "Camera ID: Image enhancement software identified camera_63. Camera identification tools confirmed model_63. Image comparison software found 73% similarity.", "entities": [[0, 9, "TOOL"], [11, 28, "TOOL"], [38, 66, "TOOL"], [108, 113, "PERCENTAGE"], [114, 124, "SIMILARITY_TYPE"]]}
+{"text": "Image search: Google Images found 35 matches. TinEye shows 33 results. Yandex Images found 38 matches. Image metadata shows camera_30, date 2024-07-15.", "entities": [[0, 12, "TOOL"], [14, 27, "TOOL"], [34, 36, "COUNT"], [37, 44, "MATCH_TYPE"], [62, 77, "RESULT_TYPE"], [94, 102, "COUNT"], [103, 108, "MATCH_TYPE"], [131, 139, "CAMERA"], [140, 150, "DATE"]]}
+{"text": "Image search: Google Images found 65 matches. TinEye shows 63 results. Yandex Images found 68 matches. Image metadata shows camera_60, date 2024-01-15.", "entities": [[0, 12, "TOOL"], [14, 27, "TOOL"], [34, 36, "COUNT"], [37, 44, "MATCH_TYPE"], [62, 77, "RESULT_TYPE"], [94, 102, "COUNT"], [103, 108, "MATCH_TYPE"], [131, 139, "CAMERA"], [140, 150, "DATE"]]}
+{"text": "Facial recognition: Software identified person_1 with 81% confidence. Photo verification services confirmed. Object recognition tools detected 1 objects.", "entities": [[40, 48, "CONFIDENCE"], [109, 115, "COUNT"], [116, 127, "OBJECT_TYPE"]]}
+{"text": "Camera ID: Image enhancement software identified camera_13. Camera identification tools confirmed model_13. Image comparison software found 83% similarity.", "entities": [[0, 9, "TOOL"], [11, 28, "TOOL"], [38, 66, "TOOL"], [108, 113, "PERCENTAGE"], [114, 124, "SIMILARITY_TYPE"]]}
+{"text": "Record: Image_ID IMINT_0094, Source: photo_94.jpg, Camera: camera_94, Date: 2024-11-15, Objects: 4, Verification: Verified", "entities": [[0, 6, "RECORD_TYPE"], [8, 22, "RECORD_ID"], [17, 28, "SOURCE"], [37, 49, "CAMERA"], [51, 58, "CAMERA"], [59, 65, "DATE"], [59, 75, "DATE"], [76, 86, "METRIC_TYPE"], [84, 95, "COUNT"], [88, 112, "VERIFICATION_TYPE"]]}
+{"text": "Image search: Google Images found 45 matches. TinEye shows 43 results. Yandex Images found 48 matches. Image metadata shows camera_40, date 2024-05-15.", "entities": [[0, 12, "TOOL"], [14, 27, "TOOL"], [34, 36, "COUNT"], [37, 44, "MATCH_TYPE"], [62, 77, "RESULT_TYPE"], [94, 102, "COUNT"], [103, 108, "MATCH_TYPE"], [131, 139, "CAMERA"], [140, 150, "DATE"]]}
+{"text": "Camera ID: Image enhancement software identified camera_78. Camera identification tools confirmed model_78. Image comparison software found 88% similarity.", "entities": [[0, 9, "TOOL"], [11, 28, "TOOL"], [38, 66, "TOOL"], [108, 113, "PERCENTAGE"], [114, 124, "SIMILARITY_TYPE"]]}
+{"text": "Forensics: Image forensics platforms detected manipulation_77. Timestamp verification tools show date 2024-06-15. Image enhancement software processed image.", "entities": [[102, 131, "TOOL"]]}
+{"text": "Forensics: Image forensics platforms detected manipulation_22. Timestamp verification tools show date 2024-11-15. Image enhancement software processed image.", "entities": [[102, 131, "TOOL"]]}
+{"text": "Camera ID: Image enhancement software identified camera_43. Camera identification tools confirmed model_43. Image comparison software found 83% similarity.", "entities": [[0, 9, "TOOL"], [11, 28, "TOOL"], [38, 66, "TOOL"], [108, 113, "PERCENTAGE"], [114, 124, "SIMILARITY_TYPE"]]}
+{"text": "Forensics: Image forensics platforms detected manipulation_87. Timestamp verification tools show date 2024-04-15. Image enhancement software processed image.", "entities": [[102, 131, "TOOL"]]}
+{"text": "Forensics: Image forensics platforms detected manipulation_82. Timestamp verification tools show date 2024-11-15. Image enhancement software processed image.", "entities": [[102, 131, "TOOL"]]}
+{"text": "Facial recognition: Software identified person_26 with 86% confidence. Photo verification services confirmed. Object recognition tools detected 1 objects.", "entities": [[40, 49, "CONFIDENCE"], [99, 116, "COUNT"], [117, 128, "OBJECT_TYPE"]]}
+{"text": "Facial recognition: Software identified person_36 with 96% confidence. Photo verification services confirmed. Object recognition tools detected 1 objects.", "entities": [[40, 49, "CONFIDENCE"], [99, 116, "COUNT"], [117, 128, "OBJECT_TYPE"]]}
+{"text": "Image search: Google Images found 15 matches. TinEye shows 13 results. Yandex Images found 18 matches. Image metadata shows camera_10, date 2024-11-15.", "entities": [[0, 12, "TOOL"], [14, 27, "TOOL"], [34, 36, "COUNT"], [37, 44, "MATCH_TYPE"], [62, 77, "RESULT_TYPE"], [94, 102, "COUNT"], [103, 108, "MATCH_TYPE"], [131, 139, "CAMERA"], [140, 150, "DATE"]]}
+{"text": "Image search: Google Images found 35 matches. TinEye shows 33 results. Yandex Images found 38 matches. Image metadata shows camera_30, date 2024-07-15.", "entities": [[0, 12, "TOOL"], [14, 27, "TOOL"], [34, 36, "COUNT"], [37, 44, "MATCH_TYPE"], [62, 77, "RESULT_TYPE"], [94, 102, "COUNT"], [103, 108, "MATCH_TYPE"], [131, 139, "CAMERA"], [140, 150, "DATE"]]}
+{"text": "Facial recognition: Software identified person_86 with 86% confidence. Photo verification services confirmed. Object recognition tools detected 1 objects.", "entities": [[40, 49, "CONFIDENCE"], [99, 116, "COUNT"], [117, 128, "OBJECT_TYPE"]]}
+{"text": "Forensics: Image forensics platforms detected manipulation_2. Timestamp verification tools show date 2024-03-15. Image enhancement software processed image.", "entities": [[101, 130, "TOOL"]]}
+{"text": "Forensics: Image forensics platforms detected manipulation_42. Timestamp verification tools show date 2024-07-15. Image enhancement software processed image.", "entities": [[102, 131, "TOOL"]]}
+{"text": "Record: Image_ID IMINT_0009, Source: photo_9.jpg, Camera: camera_9, Date: 2024-10-15, Objects: 4, Verification: Pending", "entities": [[0, 6, "RECORD_TYPE"], [8, 22, "RECORD_ID"], [17, 28, "SOURCE"], [37, 48, "CAMERA"], [50, 57, "CAMERA"], [58, 64, "DATE"], [65, 78, "DATE"], [74, 84, "METRIC_TYPE"], [86, 93, "COUNT"], [86, 110, "VERIFICATION_TYPE"]]}
+{"text": "Image search: Google Images found 100 matches. TinEye shows 98 results. Yandex Images found 103 matches. Image metadata shows camera_95, date 2024-12-15.", "entities": [[0, 12, "TOOL"], [14, 27, "TOOL"], [34, 37, "COUNT"], [38, 45, "MATCH_TYPE"], [47, 59, "TOOL"], [60, 70, "COUNT"], [63, 78, "RESULT_TYPE"], [96, 103, "COUNT"], [96, 110, "MATCH_TYPE"], [126, 136, "CAMERA"], [137, 149, "DATE"]]}
+{"text": "Image search: Google Images found 60 matches. TinEye shows 58 results. Yandex Images found 63 matches. Image metadata shows camera_55, date 2024-08-15.", "entities": [[0, 12, "TOOL"], [14, 27, "TOOL"], [34, 36, "COUNT"], [37, 44, "MATCH_TYPE"], [62, 77, "RESULT_TYPE"], [94, 102, "COUNT"], [103, 108, "MATCH_TYPE"], [131, 139, "CAMERA"], [140, 150, "DATE"]]}
+{"text": "Camera ID: Image enhancement software identified camera_53. Camera identification tools confirmed model_53. Image comparison software found 93% similarity.", "entities": [[0, 9, "TOOL"], [11, 28, "TOOL"], [38, 66, "TOOL"], [108, 113, "PERCENTAGE"], [114, 124, "SIMILARITY_TYPE"]]}
+{"text": "Forensics: Image forensics platforms detected manipulation_37. Timestamp verification tools show date 2024-02-15. Image enhancement software processed image.", "entities": [[102, 131, "TOOL"]]}
+{"text": "Forensics: Image forensics platforms detected manipulation_77. Timestamp verification tools show date 2024-06-15. Image enhancement software processed image.", "entities": [[102, 131, "TOOL"]]}
+{"text": "Camera ID: Image enhancement software identified camera_53. Camera identification tools confirmed model_53. Image comparison software found 93% similarity.", "entities": [[0, 9, "TOOL"], [11, 28, "TOOL"], [38, 66, "TOOL"], [108, 113, "PERCENTAGE"], [114, 124, "SIMILARITY_TYPE"]]}
+{"text": "Facial recognition: Software identified person_1 with 81% confidence. Photo verification services confirmed. Object recognition tools detected 1 objects.", "entities": [[40, 48, "CONFIDENCE"], [109, 115, "COUNT"], [116, 127, "OBJECT_TYPE"]]}
+{"text": "Record: Image_ID IMINT_0009, Source: photo_9.jpg, Camera: camera_9, Date: 2024-10-15, Objects: 4, Verification: Pending", "entities": [[0, 6, "RECORD_TYPE"], [8, 22, "RECORD_ID"], [17, 28, "SOURCE"], [37, 48, "CAMERA"], [50, 57, "CAMERA"], [58, 64, "DATE"], [65, 78, "DATE"], [74, 84, "METRIC_TYPE"], [86, 93, "COUNT"], [86, 110, "VERIFICATION_TYPE"]]}
+{"text": "Record: Image_ID IMINT_0019, Source: photo_19.jpg, Camera: camera_19, Date: 2024-08-15, Objects: 4, Verification: Pending", "entities": [[0, 6, "RECORD_TYPE"], [8, 22, "RECORD_ID"], [17, 28, "SOURCE"], [37, 49, "CAMERA"], [51, 58, "CAMERA"], [59, 65, "DATE"], [59, 75, "DATE"], [76, 86, "METRIC_TYPE"], [84, 95, "COUNT"], [88, 112, "VERIFICATION_TYPE"]]}
+{"text": "Camera ID: Image enhancement software identified camera_68. Camera identification tools confirmed model_68. Image comparison software found 78% similarity.", "entities": [[0, 9, "TOOL"], [11, 28, "TOOL"], [38, 66, "TOOL"], [108, 113, "PERCENTAGE"], [114, 124, "SIMILARITY_TYPE"]]}
+{"text": "Camera ID: Image enhancement software identified camera_28. Camera identification tools confirmed model_28. Image comparison software found 98% similarity.", "entities": [[0, 9, "TOOL"], [11, 28, "TOOL"], [38, 66, "TOOL"], [108, 113, "PERCENTAGE"], [114, 124, "SIMILARITY_TYPE"]]}
+{"text": "Record: Image_ID IMINT_0029, Source: photo_29.jpg, Camera: camera_29, Date: 2024-06-15, Objects: 4, Verification: Pending", "entities": [[0, 6, "RECORD_TYPE"], [8, 22, "RECORD_ID"], [17, 28, "SOURCE"], [37, 49, "CAMERA"], [51, 58, "CAMERA"], [59, 65, "DATE"], [59, 75, "DATE"], [76, 86, "METRIC_TYPE"], [84, 95, "COUNT"], [88, 112, "VERIFICATION_TYPE"]]}
+{"text": "Forensics: Image forensics platforms detected manipulation_32. Timestamp verification tools show date 2024-09-15. Image enhancement software processed image.", "entities": [[102, 131, "TOOL"]]}
+{"text": "Forensics: Image forensics platforms detected manipulation_47. Timestamp verification tools show date 2024-12-15. Image enhancement software processed image.", "entities": [[102, 131, "TOOL"]]}
+{"text": "Facial recognition: Software identified person_31 with 91% confidence. Photo verification services confirmed. Object recognition tools detected 1 objects.", "entities": [[40, 49, "CONFIDENCE"], [99, 116, "COUNT"], [117, 128, "OBJECT_TYPE"]]}
+{"text": "Record: Image_ID IMINT_0009, Source: photo_9.jpg, Camera: camera_9, Date: 2024-10-15, Objects: 4, Verification: Pending", "entities": [[0, 6, "RECORD_TYPE"], [8, 22, "RECORD_ID"], [17, 28, "SOURCE"], [37, 48, "CAMERA"], [50, 57, "CAMERA"], [58, 64, "DATE"], [65, 78, "DATE"], [74, 84, "METRIC_TYPE"], [86, 93, "COUNT"], [86, 110, "VERIFICATION_TYPE"]]}
+{"text": "Image search: Google Images found 45 matches. TinEye shows 43 results. Yandex Images found 48 matches. Image metadata shows camera_40, date 2024-05-15.", "entities": [[0, 12, "TOOL"], [14, 27, "TOOL"], [34, 36, "COUNT"], [37, 44, "MATCH_TYPE"], [62, 77, "RESULT_TYPE"], [94, 102, "COUNT"], [103, 108, "MATCH_TYPE"], [131, 139, "CAMERA"], [140, 150, "DATE"]]}
+{"text": "Image search: Google Images found 15 matches. TinEye shows 13 results. Yandex Images found 18 matches. Image metadata shows camera_10, date 2024-11-15.", "entities": [[0, 12, "TOOL"], [14, 27, "TOOL"], [34, 36, "COUNT"], [37, 44, "MATCH_TYPE"], [62, 77, "RESULT_TYPE"], [94, 102, "COUNT"], [103, 108, "MATCH_TYPE"], [131, 139, "CAMERA"], [140, 150, "DATE"]]}
+{"text": "Image search: Google Images found 30 matches. TinEye shows 28 results. Yandex Images found 33 matches. Image metadata shows camera_25, date 2024-02-15.", "entities": [[0, 12, "TOOL"], [14, 27, "TOOL"], [34, 36, "COUNT"], [37, 44, "MATCH_TYPE"], [62, 77, "RESULT_TYPE"], [94, 102, "COUNT"], [103, 108, "MATCH_TYPE"], [131, 139, "CAMERA"], [140, 150, "DATE"]]}
+{"text": "Camera ID: Image enhancement software identified camera_48. Camera identification tools confirmed model_48. Image comparison software found 88% similarity.", "entities": [[0, 9, "TOOL"], [11, 28, "TOOL"], [38, 66, "TOOL"], [108, 113, "PERCENTAGE"], [114, 124, "SIMILARITY_TYPE"]]}
+{"text": "Facial recognition: Software identified person_6 with 86% confidence. Photo verification services confirmed. Object recognition tools detected 1 objects.", "entities": [[40, 48, "CONFIDENCE"], [109, 115, "COUNT"], [116, 127, "OBJECT_TYPE"]]}
+{"text": "Forensics: Image forensics platforms detected manipulation_37. Timestamp verification tools show date 2024-02-15. Image enhancement software processed image.", "entities": [[102, 131, "TOOL"]]}
+{"text": "Facial recognition: Software identified person_31 with 91% confidence. Photo verification services confirmed. Object recognition tools detected 1 objects.", "entities": [[40, 49, "CONFIDENCE"], [99, 116, "COUNT"], [117, 128, "OBJECT_TYPE"]]}
+{"text": "Camera ID: Image enhancement software identified camera_23. Camera identification tools confirmed model_23. Image comparison software found 93% similarity.", "entities": [[0, 9, "TOOL"], [11, 28, "TOOL"], [38, 66, "TOOL"], [108, 113, "PERCENTAGE"], [114, 124, "SIMILARITY_TYPE"]]}
+{"text": "Facial recognition: Software identified person_71 with 91% confidence. Photo verification services confirmed. Object recognition tools detected 1 objects.", "entities": [[40, 49, "CONFIDENCE"], [99, 116, "COUNT"], [117, 128, "OBJECT_TYPE"]]}
+{"text": "Camera ID: Image enhancement software identified camera_33. Camera identification tools confirmed model_33. Image comparison software found 73% similarity.", "entities": [[0, 9, "TOOL"], [11, 28, "TOOL"], [38, 66, "TOOL"], [108, 113, "PERCENTAGE"], [114, 124, "SIMILARITY_TYPE"]]}
+{"text": "Forensics: Image forensics platforms detected manipulation_87. Timestamp verification tools show date 2024-04-15. Image enhancement software processed image.", "entities": [[102, 131, "TOOL"]]}
+{"text": "Image search: Google Images found 80 matches. TinEye shows 78 results. Yandex Images found 83 matches. Image metadata shows camera_75, date 2024-04-15.", "entities": [[0, 12, "TOOL"], [14, 27, "TOOL"], [34, 36, "COUNT"], [37, 44, "MATCH_TYPE"], [62, 77, "RESULT_TYPE"], [94, 102, "COUNT"], [103, 108, "MATCH_TYPE"], [131, 139, "CAMERA"], [140, 150, "DATE"]]}
+{"text": "Record: Image_ID IMINT_0004, Source: photo_4.jpg, Camera: camera_4, Date: 2024-05-15, Objects: 4, Verification: Verified", "entities": [[0, 6, "RECORD_TYPE"], [8, 22, "RECORD_ID"], [17, 28, "SOURCE"], [37, 48, "CAMERA"], [50, 57, "CAMERA"], [58, 64, "DATE"], [65, 78, "DATE"], [74, 84, "METRIC_TYPE"], [86, 93, "COUNT"], [86, 110, "VERIFICATION_TYPE"]]}
+{"text": "Record: Image_ID IMINT_0034, Source: photo_34.jpg, Camera: camera_34, Date: 2024-11-15, Objects: 4, Verification: Verified", "entities": [[0, 6, "RECORD_TYPE"], [8, 22, "RECORD_ID"], [17, 28, "SOURCE"], [37, 49, "CAMERA"], [51, 58, "CAMERA"], [59, 65, "DATE"], [59, 75, "DATE"], [76, 86, "METRIC_TYPE"], [84, 95, "COUNT"], [88, 112, "VERIFICATION_TYPE"]]}
+{"text": "Image search: Google Images found 65 matches. TinEye shows 63 results. Yandex Images found 68 matches. Image metadata shows camera_60, date 2024-01-15.", "entities": [[0, 12, "TOOL"], [14, 27, "TOOL"], [34, 36, "COUNT"], [37, 44, "MATCH_TYPE"], [62, 77, "RESULT_TYPE"], [94, 102, "COUNT"], [103, 108, "MATCH_TYPE"], [131, 139, "CAMERA"], [140, 150, "DATE"]]}
+{"text": "Facial recognition: Software identified person_41 with 81% confidence. Photo verification services confirmed. Object recognition tools detected 1 objects.", "entities": [[40, 49, "CONFIDENCE"], [99, 116, "COUNT"], [117, 128, "OBJECT_TYPE"]]}
+{"text": "Forensics: Image forensics platforms detected manipulation_62. Timestamp verification tools show date 2024-03-15. Image enhancement software processed image.", "entities": [[102, 131, "TOOL"]]}
+{"text": "Camera ID: Image enhancement software identified camera_3. Camera identification tools confirmed model_3. Image comparison software found 73% similarity.", "entities": [[0, 9, "TOOL"], [11, 28, "TOOL"], [38, 65, "TOOL"], [106, 111, "PERCENTAGE"], [112, 122, "SIMILARITY_TYPE"]]}
+{"text": "Camera ID: Image enhancement software identified camera_28. Camera identification tools confirmed model_28. Image comparison software found 98% similarity.", "entities": [[0, 9, "TOOL"], [11, 28, "TOOL"], [38, 66, "TOOL"], [108, 113, "PERCENTAGE"], [114, 124, "SIMILARITY_TYPE"]]}
+{"text": "Image search: Google Images found 75 matches. TinEye shows 73 results. Yandex Images found 78 matches. Image metadata shows camera_70, date 2024-11-15.", "entities": [[0, 12, "TOOL"], [14, 27, "TOOL"], [34, 36, "COUNT"], [37, 44, "MATCH_TYPE"], [62, 77, "RESULT_TYPE"], [94, 102, "COUNT"], [103, 108, "MATCH_TYPE"], [131, 139, "CAMERA"], [140, 150, "DATE"]]}
+{"text": "Facial recognition: Software identified person_46 with 86% confidence. Photo verification services confirmed. Object recognition tools detected 1 objects.", "entities": [[40, 49, "CONFIDENCE"], [99, 116, "COUNT"], [117, 128, "OBJECT_TYPE"]]}
+{"text": "Forensics: Image forensics platforms detected manipulation_12. Timestamp verification tools show date 2024-01-15. Image enhancement software processed image.", "entities": [[102, 131, "TOOL"]]}
+{"text": "Forensics: Image forensics platforms detected manipulation_32. Timestamp verification tools show date 2024-09-15. Image enhancement software processed image.", "entities": [[102, 131, "TOOL"]]}
+{"text": "Camera identification: Image enhancement software identified camera model iPhone 13 Pro from sensor pattern. Camera identification tools confirmed. Image comparison software found 85% similarity to reference image.", "entities": [[23, 28, "CAMERA"], [29, 40, "MODEL"], [93, 107, "PATTERN_TYPE"], [100, 130, "TOOL"]]}
+{"text": "Forensics: Image forensics platforms detected manipulation_12. Timestamp verification tools show date 2024-01-15. Image enhancement software processed image.", "entities": [[102, 131, "TOOL"]]}
+{"text": "Image search: Google Images found 40 matches. TinEye shows 38 results. Yandex Images found 43 matches. Image metadata shows camera_35, date 2024-12-15.", "entities": [[0, 12, "TOOL"], [14, 27, "TOOL"], [34, 36, "COUNT"], [37, 44, "MATCH_TYPE"], [62, 77, "RESULT_TYPE"], [94, 102, "COUNT"], [103, 108, "MATCH_TYPE"], [131, 139, "CAMERA"], [140, 150, "DATE"]]}
+{"text": "Forensics: Image forensics platforms detected manipulation_52. Timestamp verification tools show date 2024-05-15. Image enhancement software processed image.", "entities": [[102, 131, "TOOL"]]}
+{"text": "Forensics: Image forensics platforms detected manipulation_92. Timestamp verification tools show date 2024-09-15. Image enhancement software processed image.", "entities": [[102, 131, "TOOL"]]}
+{"text": "Forensics: Image forensics platforms detected manipulation_67. Timestamp verification tools show date 2024-08-15. Image enhancement software processed image.", "entities": [[102, 131, "TOOL"]]}
+{"text": "Facial recognition: Software identified person_66 with 86% confidence. Photo verification services confirmed. Object recognition tools detected 1 objects.", "entities": [[40, 49, "CONFIDENCE"], [99, 116, "COUNT"], [117, 128, "OBJECT_TYPE"]]}
+{"text": "Record: Image_ID IMINT_0054, Source: photo_54.jpg, Camera: camera_54, Date: 2024-07-15, Objects: 4, Verification: Verified", "entities": [[0, 6, "RECORD_TYPE"], [8, 22, "RECORD_ID"], [17, 28, "SOURCE"], [37, 49, "CAMERA"], [51, 58, "CAMERA"], [59, 65, "DATE"], [59, 75, "DATE"], [76, 86, "METRIC_TYPE"], [84, 95, "COUNT"], [88, 112, "VERIFICATION_TYPE"]]}
+{"text": "Camera ID: Image enhancement software identified camera_48. Camera identification tools confirmed model_48. Image comparison software found 88% similarity.", "entities": [[0, 9, "TOOL"], [11, 28, "TOOL"], [38, 66, "TOOL"], [108, 113, "PERCENTAGE"], [114, 124, "SIMILARITY_TYPE"]]}
+{"text": "Can you help me with this?", "entities": []}
+{"text": "I need to check something.", "entities": []}
+{"text": "What is the status?", "entities": []}
+{"text": "How do I do this?", "entities": []}
+{"text": "Tell me more about it.", "entities": []}
+{"text": "Is this safe to use?", "entities": []}
+{"text": "Let me know if you need anything.", "entities": []}
+{"text": "Thanks for your help.", "entities": []}
+{"text": "I will get back to you.", "entities": []}
+{"text": "Please review this document.", "entities": []}
+{"text": "What should I do next?", "entities": []}
+{"text": "How does this work?", "entities": []}
+{"text": "Why is this happening?", "entities": []}
+{"text": "When will this be ready?", "entities": []}
+{"text": "Where can I find this?", "entities": []}
+{"text": "Who should I contact?", "entities": []}
+{"text": "Hey, what's up?", "entities": []}
+{"text": "That's interesting.", "entities": []}
+{"text": "I see what you mean.", "entities": []}
+{"text": "That makes sense.", "entities": []}
+{"text": "Got it, thanks.", "entities": []}
+{"text": "Follow the steps carefully.", "entities": []}
+{"text": "Make sure to save your work.", "entities": []}
+{"text": "Check the settings first.", "entities": []}
+{"text": "Review the documentation.", "entities": []}
+{"text": "Read the instructions.", "entities": []}
+{"text": "This is important.", "entities": []}
+{"text": "That looks good.", "entities": []}
+{"text": "Everything seems fine.", "entities": []}
+{"text": "Nothing to report.", "entities": []}
+{"text": "All systems operational.", "entities": []}
+{"text": "The system is secure.", "entities": []}
+{"text": "All checks passed.", "entities": []}
+{"text": "No issues detected.", "entities": []}
+{"text": "Everything is working correctly.", "entities": []}
+{"text": "The configuration looks good.", "entities": []}
+{"text": "No vulnerabilities found.", "entities": []}
+{"text": "Security measures are in place.", "entities": []}
+{"text": "The audit was successful.", "entities": []}
+{"text": "The information is verified.", "entities": []}
+{"text": "Map location -6.573079, 136.462905", "entities": [[13, 22, "LATITUDE"], [24, 34, "LONGITUDE"]]}
+{"text": "Location at latitude 47.326735 longitude -13.642075", "entities": [[21, 30, "LATITUDE"], [41, 51, "LONGITUDE"]]}
+{"text": "Location at latitude -77.430452 longitude -22.86546", "entities": [[21, 31, "LATITUDE"], [42, 51, "LONGITUDE"]]}
+{"text": "Position -12.668998, 118.256609 confirmed", "entities": [[9, 19, "LATITUDE"], [21, 31, "LONGITUDE"]]}
+{"text": "Latitude -58.292183 and longitude -146.274219", "entities": [[9, 19, "LATITUDE"], [34, 45, "LONGITUDE"]]}
+{"text": "Location at latitude -10.837356 longitude 136.229081", "entities": [[21, 31, "LATITUDE"], [42, 52, "LONGITUDE"]]}
+{"text": "Location coordinates: -22.41073, 0.263459", "entities": [[22, 31, "LATITUDE"], [33, 41, "LONGITUDE"]]}
+{"text": "GPS coordinates -47.115371, 105.689337 identified", "entities": [[16, 26, "LATITUDE"], [28, 38, "LONGITUDE"]]}
+{"text": "Geolocation -2.339558, -164.595354 extracted from image", "entities": [[12, 21, "LATITUDE"], [23, 34, "LONGITUDE"]]}
+{"text": "Latitude -14.155749 and longitude -56.460241", "entities": [[9, 19, "LATITUDE"], [34, 44, "LONGITUDE"]]}
+{"text": "GPS coordinates -22.213883, -132.722787 identified", "entities": [[16, 26, "LATITUDE"], [28, 39, "LONGITUDE"]]}
+{"text": "Coordinates 49.173945, 99.534414 verified", "entities": [[12, 21, "LATITUDE"], [23, 32, "LONGITUDE"]]}
+{"text": "GPS coordinates 14.427057, -126.035256 identified", "entities": [[16, 25, "LATITUDE"], [27, 38, "LONGITUDE"]]}
+{"text": "Location at latitude -44.490287 longitude 68.454345", "entities": [[21, 31, "LATITUDE"], [42, 51, "LONGITUDE"]]}
+{"text": "Coordinates: 48.985378, 136.541687", "entities": [[13, 22, "LATITUDE"], [24, 34, "LONGITUDE"]]}
+{"text": "Map location 85.4793, 122.387472", "entities": [[13, 20, "LATITUDE"], [22, 32, "LONGITUDE"]]}
+{"text": "Geolocation -38.939409, -91.48311 extracted from image", "entities": [[12, 22, "LATITUDE"], [24, 33, "LONGITUDE"]]}
+{"text": "GPS coordinates 14.043945, -105.890825 identified", "entities": [[16, 25, "LATITUDE"], [27, 38, "LONGITUDE"]]}
+{"text": "Coordinates -20.635604, -65.019681 verified", "entities": [[12, 22, "LATITUDE"], [24, 34, "LONGITUDE"]]}
+{"text": "GPS coordinates -58.823397, 69.645325 identified", "entities": [[16, 26, "LATITUDE"], [28, 37, "LONGITUDE"]]}
+{"text": "Geographic position: 89.124219, -165.4795", "entities": [[21, 30, "LATITUDE"], [32, 41, "LONGITUDE"]]}
+{"text": "Coordinates 83.778072, -135.752825 verified", "entities": [[12, 21, "LATITUDE"], [23, 34, "LONGITUDE"]]}
+{"text": "Latitude -50.827458 and longitude -134.900069", "entities": [[9, 19, "LATITUDE"], [34, 45, "LONGITUDE"]]}
+{"text": "Latitude 33.69705 and longitude 65.469719", "entities": [[9, 17, "LATITUDE"], [32, 41, "LONGITUDE"]]}
+{"text": "Location coordinates: 3.462203, 144.433775", "entities": [[22, 30, "LATITUDE"], [32, 42, "LONGITUDE"]]}
+{"text": "Map location 51.085321, -70.15632", "entities": [[13, 22, "LATITUDE"], [24, 33, "LONGITUDE"]]}
+{"text": "GPS coordinates -36.191685, -89.193205 identified", "entities": [[16, 26, "LATITUDE"], [28, 38, "LONGITUDE"]]}
+{"text": "Position 72.555319, 74.949383 confirmed", "entities": [[9, 18, "LATITUDE"], [20, 29, "LONGITUDE"]]}
+{"text": "Location coordinates: -54.752395, -32.472139", "entities": [[22, 32, "LATITUDE"], [34, 44, "LONGITUDE"]]}
+{"text": "Location at latitude -34.083027 longitude -155.664535", "entities": [[21, 31, "LATITUDE"], [42, 53, "LONGITUDE"]]}
+{"text": "GPS coordinates 32.359828, 74.81554 identified", "entities": [[16, 25, "LATITUDE"], [27, 35, "LONGITUDE"]]}
+{"text": "Geographic position: 89.467918, 19.15453", "entities": [[21, 30, "LATITUDE"], [32, 40, "LONGITUDE"]]}
+{"text": "Geolocation 62.920671, -74.761141 extracted from image", "entities": [[12, 21, "LATITUDE"], [23, 33, "LONGITUDE"]]}
+{"text": "Latitude -43.526771 and longitude 69.189055", "entities": [[9, 19, "LATITUDE"], [34, 43, "LONGITUDE"]]}
+{"text": "Location at latitude -61.198311 longitude -42.961967", "entities": [[21, 31, "LATITUDE"], [42, 52, "LONGITUDE"]]}
+{"text": "Map location -20.562404, -144.071062", "entities": [[13, 23, "LATITUDE"], [25, 36, "LONGITUDE"]]}
+{"text": "Geolocation 44.413242, -27.198441 extracted from image", "entities": [[12, 21, "LATITUDE"], [23, 33, "LONGITUDE"]]}
+{"text": "Location coordinates: 36.933192, -102.814884", "entities": [[22, 31, "LATITUDE"], [33, 44, "LONGITUDE"]]}
+{"text": "Geolocation 49.452716, -151.503292 extracted from image", "entities": [[12, 21, "LATITUDE"], [23, 34, "LONGITUDE"]]}
+{"text": "Geolocation 64.604719, 9.117853 extracted from image", "entities": [[12, 21, "LATITUDE"], [23, 31, "LONGITUDE"]]}
+{"text": "Geographic position: 45.704474, -172.670973", "entities": [[21, 30, "LATITUDE"], [32, 43, "LONGITUDE"]]}
+{"text": "Coordinates -9.161191, 143.051702 verified", "entities": [[12, 21, "LATITUDE"], [23, 33, "LONGITUDE"]]}
+{"text": "Location coordinates: 57.68981, -141.670114", "entities": [[22, 30, "LATITUDE"], [32, 43, "LONGITUDE"]]}
+{"text": "Coordinates 43.713538, -83.993805 verified", "entities": [[12, 21, "LATITUDE"], [23, 33, "LONGITUDE"]]}
+{"text": "Map location 84.860528, -85.450487", "entities": [[13, 22, "LATITUDE"], [24, 34, "LONGITUDE"]]}
+{"text": "Position 34.116544, 143.000601 confirmed", "entities": [[9, 18, "LATITUDE"], [20, 30, "LONGITUDE"]]}
+{"text": "GPS coordinates -74.90835, 58.174544 identified", "entities": [[16, 25, "LATITUDE"], [27, 36, "LONGITUDE"]]}
+{"text": "Geolocation -40.623354, -66.946918 extracted from image", "entities": [[12, 22, "LATITUDE"], [24, 34, "LONGITUDE"]]}
+{"text": "Coordinates: 0.415987, -12.827259", "entities": [[13, 21, "LATITUDE"], [23, 33, "LONGITUDE"]]}
+{"text": "Coordinates: -38.390009, -127.265853", "entities": [[13, 23, "LATITUDE"], [25, 36, "LONGITUDE"]]}
+{"text": "Geographic position: 42.853929, 172.946786", "entities": [[21, 30, "LATITUDE"], [32, 42, "LONGITUDE"]]}
+{"text": "Latitude 44.635436 and longitude -133.13934", "entities": [[9, 18, "LATITUDE"], [33, 43, "LONGITUDE"]]}
+{"text": "Geographic position: 19.948119, -136.61396", "entities": [[21, 30, "LATITUDE"], [32, 42, "LONGITUDE"]]}
+{"text": "Latitude -35.171623 and longitude 71.484501", "entities": [[9, 19, "LATITUDE"], [34, 43, "LONGITUDE"]]}
+{"text": "Coordinates 79.522722, 96.291936 verified", "entities": [[12, 21, "LATITUDE"], [23, 32, "LONGITUDE"]]}
+{"text": "Location coordinates: -73.501779, 28.341285", "entities": [[22, 32, "LATITUDE"], [34, 43, "LONGITUDE"]]}
+{"text": "Location coordinates: -44.55054, -159.481679", "entities": [[22, 31, "LATITUDE"], [33, 44, "LONGITUDE"]]}
+{"text": "Coordinates 30.075818, -10.318693 verified", "entities": [[12, 21, "LATITUDE"], [23, 33, "LONGITUDE"]]}
+{"text": "Location at latitude 58.359215 longitude -121.883375", "entities": [[21, 30, "LATITUDE"], [41, 52, "LONGITUDE"]]}
+{"text": "Geographic position: -40.855007, -46.037646", "entities": [[21, 31, "LATITUDE"], [33, 43, "LONGITUDE"]]}
+{"text": "Geographic position: -27.625279, 126.564918", "entities": [[21, 31, "LATITUDE"], [33, 43, "LONGITUDE"]]}
+{"text": "Position 16.076456, -9.396812 confirmed", "entities": [[9, 18, "LATITUDE"], [20, 29, "LONGITUDE"]]}
+{"text": "Geographic position: -76.777792, 139.738932", "entities": [[21, 31, "LATITUDE"], [33, 43, "LONGITUDE"]]}
+{"text": "Geolocation -13.756976, 52.805241 extracted from image", "entities": [[12, 22, "LATITUDE"], [24, 33, "LONGITUDE"]]}
+{"text": "Coordinates 59.762722, 85.320524 verified", "entities": [[12, 21, "LATITUDE"], [23, 32, "LONGITUDE"]]}
+{"text": "Location at latitude -15.138596 longitude -108.958403", "entities": [[21, 31, "LATITUDE"], [42, 53, "LONGITUDE"]]}
+{"text": "Coordinates -65.184856, -26.763597 verified", "entities": [[12, 22, "LATITUDE"], [24, 34, "LONGITUDE"]]}
+{"text": "Coordinates: 29.335671, -171.196683", "entities": [[13, 22, "LATITUDE"], [24, 35, "LONGITUDE"]]}
+{"text": "GPS coordinates -55.076204, -20.075214 identified", "entities": [[16, 26, "LATITUDE"], [28, 38, "LONGITUDE"]]}
+{"text": "Latitude 72.854427 and longitude -104.428789", "entities": [[9, 18, "LATITUDE"], [33, 44, "LONGITUDE"]]}
+{"text": "Coordinates 18.736546, -3.483581 verified", "entities": [[12, 21, "LATITUDE"], [23, 32, "LONGITUDE"]]}
+{"text": "Location at latitude -89.586084 longitude 120.604573", "entities": [[21, 31, "LATITUDE"], [42, 52, "LONGITUDE"]]}
+{"text": "Location at latitude 3.598684 longitude 22.648321", "entities": [[21, 29, "LATITUDE"], [40, 49, "LONGITUDE"]]}
+{"text": "Geolocation -7.341393, 108.748643 extracted from image", "entities": [[12, 21, "LATITUDE"], [23, 33, "LONGITUDE"]]}
+{"text": "Geolocation -56.595734, 75.57337 extracted from image", "entities": [[12, 22, "LATITUDE"], [24, 32, "LONGITUDE"]]}
+{"text": "Latitude 35.692908 and longitude -35.739334", "entities": [[9, 18, "LATITUDE"], [33, 43, "LONGITUDE"]]}
+{"text": "Latitude -24.762803 and longitude -76.458557", "entities": [[9, 19, "LATITUDE"], [34, 44, "LONGITUDE"]]}
+{"text": "GPS coordinates -74.269807, -77.898318 identified", "entities": [[16, 26, "LATITUDE"], [28, 38, "LONGITUDE"]]}
+{"text": "Geographic position: -89.317439, -41.336082", "entities": [[21, 31, "LATITUDE"], [33, 43, "LONGITUDE"]]}
+{"text": "Location coordinates: -37.233123, 144.682447", "entities": [[22, 32, "LATITUDE"], [34, 44, "LONGITUDE"]]}
+{"text": "Latitude 87.756106 and longitude -148.441142", "entities": [[9, 18, "LATITUDE"], [33, 44, "LONGITUDE"]]}
+{"text": "Location coordinates: 47.943911, -10.19532", "entities": [[22, 31, "LATITUDE"], [33, 42, "LONGITUDE"]]}
+{"text": "Location at latitude -35.013802 longitude -22.376739", "entities": [[21, 31, "LATITUDE"], [42, 52, "LONGITUDE"]]}
+{"text": "Coordinates 46.83065, 41.548208 verified", "entities": [[12, 20, "LATITUDE"], [22, 31, "LONGITUDE"]]}
+{"text": "Location at latitude 82.608975 longitude -13.708563", "entities": [[21, 30, "LATITUDE"], [41, 51, "LONGITUDE"]]}
+{"text": "GPS coordinates 11.116534, -148.069065 identified", "entities": [[16, 25, "LATITUDE"], [27, 38, "LONGITUDE"]]}
+{"text": "Location at latitude 51.659194 longitude -159.928453", "entities": [[21, 30, "LATITUDE"], [41, 52, "LONGITUDE"]]}
+{"text": "Location coordinates: -63.909423, 101.332125", "entities": [[22, 32, "LATITUDE"], [34, 44, "LONGITUDE"]]}
+{"text": "Coordinates 84.544483, 8.660461 verified", "entities": [[12, 21, "LATITUDE"], [23, 31, "LONGITUDE"]]}
+{"text": "Map location 6.248152, 122.793591", "entities": [[13, 21, "LATITUDE"], [23, 33, "LONGITUDE"]]}
+{"text": "Map location 29.118602, 97.787197", "entities": [[13, 22, "LATITUDE"], [24, 33, "LONGITUDE"]]}
+{"text": "Geolocation 31.479275, 28.442911 extracted from image", "entities": [[12, 21, "LATITUDE"], [23, 32, "LONGITUDE"]]}
+{"text": "Geographic position: 79.408162, 58.017435", "entities": [[21, 30, "LATITUDE"], [32, 41, "LONGITUDE"]]}
+{"text": "GPS coordinates -80.549076, 98.247524 identified", "entities": [[16, 26, "LATITUDE"], [28, 37, "LONGITUDE"]]}
+{"text": "Coordinates: 42.503775, -1.700102", "entities": [[13, 22, "LATITUDE"], [24, 33, "LONGITUDE"]]}
+{"text": "Latitude 27.701022 and longitude -58.572219", "entities": [[9, 18, "LATITUDE"], [33, 43, "LONGITUDE"]]}
+{"text": "Location coordinates: 81.680706, 165.215849", "entities": [[22, 31, "LATITUDE"], [33, 43, "LONGITUDE"]]}
+{"text": "Location at latitude 22.268184 longitude 114.930046", "entities": [[21, 30, "LATITUDE"], [41, 51, "LONGITUDE"]]}
+{"text": "Latitude 3.996684 and longitude -149.384318", "entities": [[9, 17, "LATITUDE"], [32, 43, "LONGITUDE"]]}
+{"text": "Map location -85.344412, 85.609979", "entities": [[13, 23, "LATITUDE"], [25, 34, "LONGITUDE"]]}
+{"text": "Geographic position {\"type\": \"Point\", \"coordinates\": [179.481971, -82.915445]}", "entities": [[20, 78, "GEOJSON"]]}
+{"text": "Geographic data {\"type\": \"Point\", \"coordinates\": [-84.26644, -56.181583]} found", "entities": [[16, 73, "GEOJSON"]]}
+{"text": "Point {\"type\": \"Point\", \"coordinates\": [-39.834748, -65.106632]} on map", "entities": [[6, 64, "GEOJSON"]]}
+{"text": "GeoJSON coordinates {\"type\": \"Point\", \"coordinates\": [123.14308, 77.610454]} extracted", "entities": [[20, 76, "GEOJSON"]]}
+{"text": "Location data: {\"type\": \"Point\", \"coordinates\": [134.487628, -49.674139]}", "entities": [[15, 73, "GEOJSON"]]}
+{"text": "Location data: {\"type\": \"Point\", \"coordinates\": [-179.2705, -27.909162]}", "entities": [[15, 72, "GEOJSON"]]}
+{"text": "Point location {\"type\": \"Point\", \"coordinates\": [18.018792, 61.028008]} identified", "entities": [[15, 71, "GEOJSON"]]}
+{"text": "Geographic data {\"type\": \"Point\", \"coordinates\": [72.073755, -32.906202]} found", "entities": [[16, 73, "GEOJSON"]]}
+{"text": "Geographic position {\"type\": \"Point\", \"coordinates\": [-30.571384, -86.202482]}", "entities": [[20, 78, "GEOJSON"]]}
+{"text": "Geographic data {\"type\": \"Point\", \"coordinates\": [-174.948896, 36.601417]} found", "entities": [[16, 74, "GEOJSON"]]}
+{"text": "Location {\"type\": \"Point\", \"coordinates\": [-55.578501, 42.040393]} verified", "entities": [[9, 66, "GEOJSON"]]}
+{"text": "GeoJSON {\"type\": \"Point\", \"coordinates\": [111.450298, -11.178398]} from satellite", "entities": [[8, 66, "GEOJSON"]]}
+{"text": "Location data: {\"type\": \"Point\", \"coordinates\": [-103.320049, 81.322717]}", "entities": [[15, 73, "GEOJSON"]]}
+{"text": "Location data: {\"type\": \"Point\", \"coordinates\": [-143.64328, 31.604597]}", "entities": [[15, 72, "GEOJSON"]]}
+{"text": "Geographic position {\"type\": \"Point\", \"coordinates\": [145.549536, -21.568121]}", "entities": [[20, 78, "GEOJSON"]]}
+{"text": "Coordinates {\"type\": \"Point\", \"coordinates\": [-9.85474, -43.723584]} confirmed", "entities": [[12, 68, "GEOJSON"]]}
+{"text": "Location {\"type\": \"Point\", \"coordinates\": [-25.681803, 29.14739]} verified", "entities": [[9, 65, "GEOJSON"]]}
+{"text": "Coordinates {\"type\": \"Point\", \"coordinates\": [65.156718, -45.275219]} confirmed", "entities": [[12, 69, "GEOJSON"]]}
+{"text": "Point location {\"type\": \"Point\", \"coordinates\": [10.36844, -60.560692]} identified", "entities": [[15, 71, "GEOJSON"]]}
+{"text": "Location data: {\"type\": \"Point\", \"coordinates\": [-141.154988, 57.034521]}", "entities": [[15, 73, "GEOJSON"]]}
+{"text": "Geographic position {\"type\": \"Point\", \"coordinates\": [-87.013692, 27.875203]}", "entities": [[20, 77, "GEOJSON"]]}
+{"text": "Point {\"type\": \"Point\", \"coordinates\": [-139.948787, -61.823181]} on map", "entities": [[6, 65, "GEOJSON"]]}
+{"text": "Point {\"type\": \"Point\", \"coordinates\": [82.318263, -45.552412]} on map", "entities": [[6, 63, "GEOJSON"]]}
+{"text": "Geographic position {\"type\": \"Point\", \"coordinates\": [-43.47363, 1.567873]}", "entities": [[20, 75, "GEOJSON"]]}
+{"text": "Point {\"type\": \"Point\", \"coordinates\": [-119.106569, 25.95641]} on map", "entities": [[6, 63, "GEOJSON"]]}
+{"text": "Coordinates in GeoJSON format: {\"type\": \"Point\", \"coordinates\": [-1.652412, -19.548312]}", "entities": [[31, 88, "GEOJSON"]]}
+{"text": "Geographic data {\"type\": \"Point\", \"coordinates\": [-170.020973, 80.026198]} found", "entities": [[16, 74, "GEOJSON"]]}
+{"text": "GeoJSON coordinates {\"type\": \"Point\", \"coordinates\": [120.103467, 85.530675]} extracted", "entities": [[20, 77, "GEOJSON"]]}
+{"text": "Location {\"type\": \"Point\", \"coordinates\": [71.710042, 67.576912]} verified", "entities": [[9, 65, "GEOJSON"]]}
+{"text": "Location data: {\"type\": \"Point\", \"coordinates\": [128.801159, 8.869421]}", "entities": [[15, 71, "GEOJSON"]]}
+{"text": "GeoJSON {\"type\": \"Point\", \"coordinates\": [-21.184, -25.225166]} from satellite", "entities": [[8, 63, "GEOJSON"]]}
+{"text": "GeoJSON coordinates {\"type\": \"Point\", \"coordinates\": [-136.236448, -40.961328]} extracted", "entities": [[20, 79, "GEOJSON"]]}
+{"text": "Coordinates in GeoJSON format: {\"type\": \"Point\", \"coordinates\": [-177.626232, 85.447985]}", "entities": [[31, 89, "GEOJSON"]]}
+{"text": "Point {\"type\": \"Point\", \"coordinates\": [-75.384629, 38.209284]} on map", "entities": [[6, 63, "GEOJSON"]]}
+{"text": "Location {\"type\": \"Point\", \"coordinates\": [46.68008, -18.583522]} verified", "entities": [[9, 65, "GEOJSON"]]}
+{"text": "Coordinates {\"type\": \"Point\", \"coordinates\": [134.433882, 33.519268]} confirmed", "entities": [[12, 69, "GEOJSON"]]}
+{"text": "Location {\"type\": \"Point\", \"coordinates\": [5.00603, -43.183461]} verified", "entities": [[9, 64, "GEOJSON"]]}
+{"text": "Coordinates in GeoJSON format: {\"type\": \"Point\", \"coordinates\": [-5.47168, 57.10947]}", "entities": [[31, 85, "GEOJSON"]]}
+{"text": "Coordinates {\"type\": \"Point\", \"coordinates\": [69.394333, 22.08024]} confirmed", "entities": [[12, 67, "GEOJSON"]]}
+{"text": "Geographic position {\"type\": \"Point\", \"coordinates\": [-93.370504, 80.93191]}", "entities": [[20, 76, "GEOJSON"]]}
+{"text": "GeoJSON coordinates {\"type\": \"Point\", \"coordinates\": [109.809335, 46.84669]} extracted", "entities": [[20, 76, "GEOJSON"]]}
+{"text": "Point {\"type\": \"Point\", \"coordinates\": [-26.315563, -58.374341]} on map", "entities": [[6, 64, "GEOJSON"]]}
+{"text": "Coordinates {\"type\": \"Point\", \"coordinates\": [46.685959, -25.737208]} confirmed", "entities": [[12, 69, "GEOJSON"]]}
+{"text": "GeoJSON coordinates {\"type\": \"Point\", \"coordinates\": [-74.063415, 51.491843]} extracted", "entities": [[20, 77, "GEOJSON"]]}
+{"text": "Coordinates in GeoJSON format: {\"type\": \"Point\", \"coordinates\": [21.932724, -87.165349]}", "entities": [[31, 88, "GEOJSON"]]}
+{"text": "GeoJSON {\"type\": \"Point\", \"coordinates\": [106.360786, 83.840967]} from satellite", "entities": [[8, 65, "GEOJSON"]]}
+{"text": "Coordinates in GeoJSON format: {\"type\": \"Point\", \"coordinates\": [106.859847, 25.948844]}", "entities": [[31, 88, "GEOJSON"]]}
+{"text": "Geographic position {\"type\": \"Point\", \"coordinates\": [-10.873955, -16.89693]}", "entities": [[20, 77, "GEOJSON"]]}
+{"text": "Geographic position {\"type\": \"Point\", \"coordinates\": [118.815421, -16.499916]}", "entities": [[20, 78, "GEOJSON"]]}
+{"text": "Geographic position {\"type\": \"Point\", \"coordinates\": [84.200043, 9.61093]}", "entities": [[20, 74, "GEOJSON"]]}
+{"text": "Point location {\"type\": \"Point\", \"coordinates\": [90.122924, 16.495528]} identified", "entities": [[15, 71, "GEOJSON"]]}
+{"text": "Geographic position {\"type\": \"Point\", \"coordinates\": [80.033727, 54.605474]}", "entities": [[20, 76, "GEOJSON"]]}
+{"text": "Coordinates {\"type\": \"Point\", \"coordinates\": [154.872718, -67.192028]} confirmed", "entities": [[12, 70, "GEOJSON"]]}
+{"text": "GeoJSON {\"type\": \"Point\", \"coordinates\": [-69.008276, 30.866659]} from satellite", "entities": [[8, 65, "GEOJSON"]]}
+{"text": "Geographic data {\"type\": \"Point\", \"coordinates\": [60.325458, -62.483657]} found", "entities": [[16, 73, "GEOJSON"]]}
+{"text": "Geographic position {\"type\": \"Point\", \"coordinates\": [-109.450759, -25.940754]}", "entities": [[20, 79, "GEOJSON"]]}
+{"text": "GeoJSON coordinates {\"type\": \"Point\", \"coordinates\": [123.292422, 57.603151]} extracted", "entities": [[20, 77, "GEOJSON"]]}
+{"text": "Coordinates {\"type\": \"Point\", \"coordinates\": [-43.087727, -85.568685]} confirmed", "entities": [[12, 70, "GEOJSON"]]}
+{"text": "Location data: {\"type\": \"Point\", \"coordinates\": [-171.574847, 63.818771]}", "entities": [[15, 73, "GEOJSON"]]}
+{"text": "Location {\"type\": \"Point\", \"coordinates\": [-50.340429, -67.230359]} verified", "entities": [[9, 67, "GEOJSON"]]}
+{"text": "Point location {\"type\": \"Point\", \"coordinates\": [61.359384, -13.724307]} identified", "entities": [[15, 72, "GEOJSON"]]}
+{"text": "Coordinates {\"type\": \"Point\", \"coordinates\": [-86.164847, 0.911978]} confirmed", "entities": [[12, 68, "GEOJSON"]]}
+{"text": "Location data: {\"type\": \"Point\", \"coordinates\": [130.194426, -6.223015]}", "entities": [[15, 72, "GEOJSON"]]}
+{"text": "Point {\"type\": \"Point\", \"coordinates\": [-177.537319, -60.341961]} on map", "entities": [[6, 65, "GEOJSON"]]}
+{"text": "Point {\"type\": \"Point\", \"coordinates\": [42.182279, 17.284745]} on map", "entities": [[6, 62, "GEOJSON"]]}
+{"text": "Geographic position {\"type\": \"Point\", \"coordinates\": [-38.690924, 53.414301]}", "entities": [[20, 77, "GEOJSON"]]}
+{"text": "Point location {\"type\": \"Point\", \"coordinates\": [120.858197, -81.859836]} identified", "entities": [[15, 73, "GEOJSON"]]}
+{"text": "Coordinates 19°10'42.26\"S 72°47'1.88\"W identified", "entities": [[12, 38, "DMS_COORDINATES"]]}
+{"text": "Position 65°2'34.48\"S 108°36'24.5\"E verified", "entities": [[9, 35, "DMS_COORDINATES"]]}
+{"text": "Position 38°48'40.95\"N 103°52'34.05\"W on map", "entities": [[9, 37, "DMS_COORDINATES"]]}
+{"text": "DMS format: 13°46'4.7\"S 2°23'14.22\"W", "entities": [[12, 36, "DMS_COORDINATES"]]}
+{"text": "Coordinates 79°59'55.99\"N 97°42'21.97\"E identified", "entities": [[12, 39, "DMS_COORDINATES"]]}
+{"text": "DMS format: 23°3'32.57\"S 172°6'20.72\"E", "entities": [[12, 38, "DMS_COORDINATES"]]}
+{"text": "Position 50°52'3.19\"S 109°47'55.97\"W on map", "entities": [[9, 36, "DMS_COORDINATES"]]}
+{"text": "DMS 80°51'34.52\"N 169°35'5.66\"W extracted", "entities": [[4, 31, "DMS_COORDINATES"]]}
+{"text": "DMS 39°28'24.69\"N 14°30'5.21\"E extracted", "entities": [[4, 30, "DMS_COORDINATES"]]}
+{"text": "Coordinates 59°17'41.88\"S 161°28'36.36\"W found", "entities": [[12, 40, "DMS_COORDINATES"]]}
+{"text": "Location 77°22'2.66\"N 43°25'39.04\"W confirmed", "entities": [[9, 35, "DMS_COORDINATES"]]}
+{"text": "DMS 86°28'54.8\"N 23°26'41.97\"E extracted", "entities": [[4, 30, "DMS_COORDINATES"]]}
+{"text": "DMS 80°26'32.2\"S 25°31'8.15\"E extracted", "entities": [[4, 29, "DMS_COORDINATES"]]}
+{"text": "Position 4°5'17.93\"S 87°51'14.72\"E verified", "entities": [[9, 34, "DMS_COORDINATES"]]}
+{"text": "DMS 25°20'17.53\"S 62°35'2.9\"E extracted", "entities": [[4, 29, "DMS_COORDINATES"]]}
+{"text": "Location at 65°15'6.89\"S 111°4'13.94\"E", "entities": [[12, 38, "DMS_COORDINATES"]]}
+{"text": "Coordinates 80°5'54.99\"S 27°9'43.04\"W found", "entities": [[12, 37, "DMS_COORDINATES"]]}
+{"text": "DMS format: 66°33'42.34\"N 86°20'59.15\"E", "entities": [[12, 39, "DMS_COORDINATES"]]}
+{"text": "Location 14°45'40.38\"S 121°52'35.72\"E confirmed", "entities": [[9, 37, "DMS_COORDINATES"]]}
+{"text": "Location 52°1'27.98\"S 0°19'0.2\"E validated", "entities": [[9, 32, "DMS_COORDINATES"]]}
+{"text": "Coordinates 90°33'57.76\"S 12°17'39.4\"E found", "entities": [[12, 38, "DMS_COORDINATES"]]}
+{"text": "Coordinates 38°52'46.91\"N 100°11'19.1\"W identified", "entities": [[12, 39, "DMS_COORDINATES"]]}
+{"text": "DMS 2°47'20.03\"N 167°15'43.65\"W extracted", "entities": [[4, 31, "DMS_COORDINATES"]]}
+{"text": "Location 19°20'57.39\"N 61°45'1.73\"E confirmed", "entities": [[9, 35, "DMS_COORDINATES"]]}
+{"text": "Location at 42°57'4.46\"N 53°35'10.86\"E", "entities": [[12, 38, "DMS_COORDINATES"]]}
+{"text": "DMS 55°10'56.39\"N 149°18'4.35\"E extracted", "entities": [[4, 31, "DMS_COORDINATES"]]}
+{"text": "Position 69°23'32.58\"N 144°52'0.2\"E verified", "entities": [[9, 35, "DMS_COORDINATES"]]}
+{"text": "Coordinates 15°11'0.38\"N 175°1'59.52\"E identified", "entities": [[12, 38, "DMS_COORDINATES"]]}
+{"text": "Position 18°50'12.17\"S 147°2'41.97\"E on map", "entities": [[9, 36, "DMS_COORDINATES"]]}
+{"text": "Location 45°51'12.11\"S 161°19'23.06\"W validated", "entities": [[9, 37, "DMS_COORDINATES"]]}
+{"text": "DMS format: 77°20'26.01\"N 91°24'37.16\"E", "entities": [[12, 39, "DMS_COORDINATES"]]}
+{"text": "Location 25°37'49.59\"N 56°48'0.32\"W validated", "entities": [[9, 35, "DMS_COORDINATES"]]}
+{"text": "Coordinates 34°0'25.23\"N 161°24'22.29\"W found", "entities": [[12, 39, "DMS_COORDINATES"]]}
+{"text": "DMS format: 35°17'2.03\"S 87°35'15.24\"W", "entities": [[12, 38, "DMS_COORDINATES"]]}
+{"text": "DMS 19°48'5.71\"S 65°40'35.6\"E extracted", "entities": [[4, 29, "DMS_COORDINATES"]]}
+{"text": "Position 75°35'50.0\"N 58°54'51.88\"W on map", "entities": [[9, 35, "DMS_COORDINATES"]]}
+{"text": "DMS format: 88°47'10.51\"S 144°53'47.38\"W", "entities": [[12, 40, "DMS_COORDINATES"]]}
+{"text": "Position 73°43'35.22\"S 180°14'55.09\"E on map", "entities": [[9, 37, "DMS_COORDINATES"]]}
+{"text": "Location 62°44'11.66\"S 85°34'17.58\"W confirmed", "entities": [[9, 36, "DMS_COORDINATES"]]}
+{"text": "Location 70°16'28.3\"N 14°15'34.59\"W confirmed", "entities": [[9, 35, "DMS_COORDINATES"]]}
+{"text": "Position 32°4'2.58\"N 161°43'12.66\"E verified", "entities": [[9, 35, "DMS_COORDINATES"]]}
+{"text": "Position 43°57'19.47\"N 103°22'47.82\"W verified", "entities": [[9, 37, "DMS_COORDINATES"]]}
+{"text": "Location 59°35'36.81\"N 22°53'25.61\"E confirmed", "entities": [[9, 36, "DMS_COORDINATES"]]}
+{"text": "Location 6°8'55.51\"S 9°59'38.9\"E validated", "entities": [[9, 32, "DMS_COORDINATES"]]}
+{"text": "Position 79°50'30.4\"N 142°5'13.65\"E on map", "entities": [[9, 35, "DMS_COORDINATES"]]}
+{"text": "Position 76°30'53.81\"S 74°6'45.97\"W on map", "entities": [[9, 35, "DMS_COORDINATES"]]}
+{"text": "Location 62°4'21.07\"S 99°54'8.19\"W validated", "entities": [[9, 34, "DMS_COORDINATES"]]}
+{"text": "DMS 7°32'5.23\"N 78°43'27.87\"E extracted", "entities": [[4, 29, "DMS_COORDINATES"]]}
+{"text": "Coordinates 42°54'26.43\"S 85°7'22.99\"W found", "entities": [[12, 38, "DMS_COORDINATES"]]}
+{"text": "Location 9°27'23.32\"S 72°33'25.69\"E validated", "entities": [[9, 35, "DMS_COORDINATES"]]}
+{"text": "Location 15°4'17.33\"N 48°19'16.63\"E validated", "entities": [[9, 35, "DMS_COORDINATES"]]}
+{"text": "Location 87°54'41.6\"S 7°15'52.08\"E validated", "entities": [[9, 34, "DMS_COORDINATES"]]}
+{"text": "Coordinates 20°43'52.28\"N 65°16'13.43\"W from GPS", "entities": [[12, 39, "DMS_COORDINATES"]]}
+{"text": "Location 17°52'55.57\"N 107°43'53.82\"W validated", "entities": [[9, 37, "DMS_COORDINATES"]]}
+{"text": "Location 40°57'8.76\"N 178°15'49.05\"E validated", "entities": [[9, 36, "DMS_COORDINATES"]]}
+{"text": "Position 43°48'6.72\"S 45°39'43.1\"E verified", "entities": [[9, 34, "DMS_COORDINATES"]]}
+{"text": "Location at 53°22'29.85\"S 153°13'10.23\"E", "entities": [[12, 40, "DMS_COORDINATES"]]}
+{"text": "Location 18°19'39.48\"N 173°26'39.58\"E confirmed", "entities": [[9, 37, "DMS_COORDINATES"]]}
+{"text": "Location 71°38'44.43\"S 91°10'0.68\"E confirmed", "entities": [[9, 35, "DMS_COORDINATES"]]}
+{"text": "Location 2°34'54.33\"S 175°9'4.14\"W validated", "entities": [[9, 34, "DMS_COORDINATES"]]}
+{"text": "Location 32°40'34.13\"N 136°15'53.25\"E validated", "entities": [[9, 37, "DMS_COORDINATES"]]}
+{"text": "DMS format: 19°7'13.99\"S 8°9'18.54\"W", "entities": [[12, 36, "DMS_COORDINATES"]]}
+{"text": "Location 66°50'34.94\"N 177°14'46.33\"E confirmed", "entities": [[9, 37, "DMS_COORDINATES"]]}
+{"text": "Location at 83°1'53.29\"N 14°27'3.9\"W", "entities": [[12, 36, "DMS_COORDINATES"]]}
+{"text": "Coordinates 70°20'39.18\"N 18°56'51.78\"E identified", "entities": [[12, 39, "DMS_COORDINATES"]]}
+{"text": "Location 41°32'30.72\"N 39°12'32.9\"W confirmed", "entities": [[9, 35, "DMS_COORDINATES"]]}
+{"text": "Coordinates 66°32'28.08\"N 139°30'52.87\"W found", "entities": [[12, 40, "DMS_COORDINATES"]]}
+{"text": "Position 35°53'32.33\"N 152°59'35.81\"E verified", "entities": [[9, 37, "DMS_COORDINATES"]]}
+{"text": "Coordinates 53°22'35.97\"N 78°52'57.64\"E found", "entities": [[12, 39, "DMS_COORDINATES"]]}
+{"text": "DMS format: 74°49'13.5\"N 61°19'33.71\"E", "entities": [[12, 38, "DMS_COORDINATES"]]}
+{"text": "DMS format: 15°56'36.16\"S 179°16'33.64\"W", "entities": [[12, 40, "DMS_COORDINATES"]]}
+{"text": "DMS 85°43'32.76\"S 53°26'3.32\"E extracted", "entities": [[4, 30, "DMS_COORDINATES"]]}
+{"text": "Location at 18°53'48.25\"S 78°46'41.89\"W", "entities": [[12, 39, "DMS_COORDINATES"]]}
+{"text": "Position 0°33'20.85\"N 40°56'12.97\"W verified", "entities": [[9, 35, "DMS_COORDINATES"]]}
+{"text": "DMS format: 10°27'52.92\"S 123°6'48.03\"W", "entities": [[12, 39, "DMS_COORDINATES"]]}
+{"text": "Position 2°49'14.38\"S 112°23'12.22\"W verified", "entities": [[9, 36, "DMS_COORDINATES"]]}
+{"text": "Position 89°18'35.41\"N 52°6'25.41\"W on map", "entities": [[9, 35, "DMS_COORDINATES"]]}
+{"text": "Location 17°45'18.26\"S 113°50'28.08\"W confirmed", "entities": [[9, 37, "DMS_COORDINATES"]]}
+{"text": "Position 17°39'5.83\"N 24°5'5.75\"W on map", "entities": [[9, 33, "DMS_COORDINATES"]]}
+{"text": "Location 5°49'34.53\"S 104°4'11.66\"E validated", "entities": [[9, 35, "DMS_COORDINATES"]]}
+{"text": "Coordinates 10°3'58.44\"N 105°1'59.78\"E identified", "entities": [[12, 38, "DMS_COORDINATES"]]}
+{"text": "Location 22°59'42.17\"N 138°52'23.08\"E validated", "entities": [[9, 37, "DMS_COORDINATES"]]}
+{"text": "Coordinates 44°47'44.75\"N 166°39'59.56\"E found", "entities": [[12, 40, "DMS_COORDINATES"]]}
+{"text": "DMS format: 34°31'49.63\"N 128°47'27.53\"W", "entities": [[12, 40, "DMS_COORDINATES"]]}
+{"text": "Position 21°32'37.05\"N 17°50'0.41\"E verified", "entities": [[9, 35, "DMS_COORDINATES"]]}
+{"text": "Coordinates 53°44'43.09\"N 33°13'29.31\"W identified", "entities": [[12, 39, "DMS_COORDINATES"]]}
+{"text": "DMS 46°25'34.32\"N 6°27'24.59\"W extracted", "entities": [[4, 30, "DMS_COORDINATES"]]}
+{"text": "DMS format: 80°58'15.2\"S 175°1'54.99\"W", "entities": [[12, 38, "DMS_COORDINATES"]]}
+{"text": "Position 24°57'30.0\"N 51°31'4.2\"W verified", "entities": [[9, 33, "DMS_COORDINATES"]]}
+{"text": "Position 59°2'33.21\"N 171°55'56.81\"E verified", "entities": [[9, 36, "DMS_COORDINATES"]]}
+{"text": "DMS 15°51'46.48\"N 18°39'57.9\"E extracted", "entities": [[4, 30, "DMS_COORDINATES"]]}
+{"text": "Coordinates 16°1'33.65\"S 136°52'53.16\"W from GPS", "entities": [[12, 39, "DMS_COORDINATES"]]}
+{"text": "Location at 86°58'30.77\"S 47°35'18.23\"E", "entities": [[12, 39, "DMS_COORDINATES"]]}
+{"text": "Position 2°28'55.04\"N 160°23'41.6\"E verified", "entities": [[9, 35, "DMS_COORDINATES"]]}
+{"text": "Location 66°0'40.53\"N 172°32'41.85\"E validated", "entities": [[9, 36, "DMS_COORDINATES"]]}
+{"text": "DMS 62°59'27.9\"N 7°58'46.17\"W extracted", "entities": [[4, 29, "DMS_COORDINATES"]]}
+{"text": "Location 82°56'44.89\"S 180°28'49.79\"E confirmed", "entities": [[9, 37, "DMS_COORDINATES"]]}
+{"text": "Coordinates 30°24'53.62\"S 68°7'27.92\"E found", "entities": [[12, 38, "DMS_COORDINATES"]]}
+{"text": "Location at 74°5'7.34\"N 40°16'43.17\"W", "entities": [[12, 37, "DMS_COORDINATES"]]}
+{"text": "Location 36°30'50.89\"N 29°3'6.9\"E confirmed", "entities": [[9, 33, "DMS_COORDINATES"]]}
+{"text": "Coordinates latitude=37.529713&longitude=133.885907 extracted", "entities": [[12, 51, "CUSTOM_COORDINATES"]]}
+{"text": "Position latitude=-18.21707&longitude=-37.106395 verified", "entities": [[9, 48, "CUSTOM_COORDINATES"]]}
+{"text": "Coordinates {\"location\": {\"latitude\": -74.456104, \"longitude\": -145.066599}} extracted", "entities": [[12, 76, "CUSTOM_COORDINATES"]]}
+{"text": "Location latitude=-51.155015&longitude=-23.239363 confirmed", "entities": [[9, 49, "CUSTOM_COORDINATES"]]}
+{"text": "Location {\"lat\": -73.515836, \"lng\": -58.958206} identified", "entities": [[9, 47, "CUSTOM_COORDINATES"]]}
+{"text": "Location {\"lat\": -73.632265, \"lng\": 65.461103} validated", "entities": [[9, 46, "CUSTOM_COORDINATES"]]}
+{"text": "Coordinates lat:25.916693,lon:34.872933 found", "entities": [[12, 39, "CUSTOM_COORDINATES"]]}
+{"text": "Coordinates {\"lat\": 49.883134, \"lng\": 74.688385} extracted", "entities": [[12, 48, "CUSTOM_COORDINATES"]]}
+{"text": "Coordinates {\"coordinates\": {\"lat\": -87.07105, \"lon\": 1.596038}} extracted", "entities": [[12, 64, "CUSTOM_COORDINATES"]]}
+{"text": "Position latitude=20.758647&longitude=90.440552 verified", "entities": [[9, 47, "CUSTOM_COORDINATES"]]}
+{"text": "Coordinates {\"lat\": -50.947436, \"lng\": -114.670377} parsed", "entities": [[12, 51, "CUSTOM_COORDINATES"]]}
+{"text": "Coordinates {\"location\": {\"latitude\": 60.074905, \"longitude\": 170.992014}} from API", "entities": [[12, 74, "CUSTOM_COORDINATES"]]}
+{"text": "Custom format: {\"coordinates\": {\"lat\": -77.773712, \"lon\": -42.06758}}", "entities": [[15, 69, "CUSTOM_COORDINATES"]]}
+{"text": "Coordinates {\"lat\": 25.195923, \"lng\": 145.794366} extracted", "entities": [[12, 49, "CUSTOM_COORDINATES"]]}
+{"text": "Position latitude=-17.079263&longitude=52.256422 verified", "entities": [[9, 48, "CUSTOM_COORDINATES"]]}
+{"text": "Location {\"location\": {\"latitude\": 24.369481, \"longitude\": -61.773961}} confirmed", "entities": [[9, 71, "CUSTOM_COORDINATES"]]}
+{"text": "Coordinates {\"coordinates\": {\"lat\": 14.468754, \"lon\": -90.922054}} extracted", "entities": [[12, 66, "CUSTOM_COORDINATES"]]}
+{"text": "Position {\"lat\": -85.532125, \"lng\": 134.861196} verified", "entities": [[9, 47, "CUSTOM_COORDINATES"]]}
+{"text": "Location {\"coordinates\": {\"lat\": -25.80328, \"lon\": -22.172899}} identified", "entities": [[9, 63, "CUSTOM_COORDINATES"]]}
+{"text": "Coordinates {\"location\": {\"latitude\": 88.540525, \"longitude\": -172.59796}} extracted", "entities": [[12, 74, "CUSTOM_COORDINATES"]]}
+{"text": "Location {\"lat\": 20.935498, \"lng\": 18.160771} confirmed", "entities": [[9, 45, "CUSTOM_COORDINATES"]]}
+{"text": "Location data: latitude=-21.904831&longitude=48.297549", "entities": [[15, 54, "CUSTOM_COORDINATES"]]}
+{"text": "Coordinates {\"coordinates\": {\"lat\": -69.433714, \"lon\": 168.820143}} from API", "entities": [[12, 67, "CUSTOM_COORDINATES"]]}
+{"text": "Coordinates latitude=87.012746&longitude=12.047052 from API", "entities": [[12, 50, "CUSTOM_COORDINATES"]]}
+{"text": "Location data: {\"location\": {\"latitude\": 88.79101, \"longitude\": -134.905551}}", "entities": [[15, 77, "CUSTOM_COORDINATES"]]}
+{"text": "Coordinates {\"lat\": -2.161468, \"lng\": -89.652351} extracted", "entities": [[12, 49, "CUSTOM_COORDINATES"]]}
+{"text": "Custom format: {\"coordinates\": {\"lat\": 17.065464, \"lon\": -6.315968}}", "entities": [[15, 68, "CUSTOM_COORDINATES"]]}
+{"text": "Coordinates {\"coordinates\": {\"lat\": -67.177637, \"lon\": 74.474001}} found", "entities": [[12, 66, "CUSTOM_COORDINATES"]]}
+{"text": "Location lat:57.808528,lon:22.663902 identified", "entities": [[9, 36, "CUSTOM_COORDINATES"]]}
+{"text": "Position lat:28.838801,lon:-3.940141 verified", "entities": [[9, 36, "CUSTOM_COORDINATES"]]}
+{"text": "Custom format: {\"lat\": 71.599119, \"lng\": 107.629899}", "entities": [[15, 52, "CUSTOM_COORDINATES"]]}
+{"text": "Location {\"coordinates\": {\"lat\": -77.874184, \"lon\": 85.847379}} validated", "entities": [[9, 63, "CUSTOM_COORDINATES"]]}
+{"text": "Position {\"lat\": -22.861848, \"lng\": -105.230118} verified", "entities": [[9, 48, "CUSTOM_COORDINATES"]]}
+{"text": "Position {\"lat\": 79.389119, \"lng\": -19.588375} verified", "entities": [[9, 46, "CUSTOM_COORDINATES"]]}
+{"text": "Coordinates {\"location\": {\"latitude\": -14.374255, \"longitude\": -175.685648}} extracted", "entities": [[12, 76, "CUSTOM_COORDINATES"]]}
+{"text": "Location {\"location\": {\"latitude\": -65.249948, \"longitude\": 141.412305}} identified", "entities": [[9, 72, "CUSTOM_COORDINATES"]]}
+{"text": "Location {\"location\": {\"latitude\": -27.563958, \"longitude\": -117.812012}} confirmed", "entities": [[9, 73, "CUSTOM_COORDINATES"]]}
+{"text": "Location {\"location\": {\"latitude\": 53.644625, \"longitude\": 154.24963}} validated", "entities": [[9, 70, "CUSTOM_COORDINATES"]]}
+{"text": "Location lat:74.648244,lon:97.269078 validated", "entities": [[9, 36, "CUSTOM_COORDINATES"]]}
+{"text": "Coordinates lat:-42.494001,lon:23.76104 found", "entities": [[12, 39, "CUSTOM_COORDINATES"]]}
+{"text": "Coordinates {\"lat\": 80.280263, \"lng\": -64.019325} extracted", "entities": [[12, 49, "CUSTOM_COORDINATES"]]}
+{"text": "Coordinates {\"coordinates\": {\"lat\": -88.932886, \"lon\": -80.133522}} parsed", "entities": [[12, 67, "CUSTOM_COORDINATES"]]}
+{"text": "Location {\"coordinates\": {\"lat\": -44.027419, \"lon\": 51.4727}} identified", "entities": [[9, 61, "CUSTOM_COORDINATES"]]}
+{"text": "Location {\"location\": {\"latitude\": 53.222631, \"longitude\": -158.81707}} confirmed", "entities": [[9, 71, "CUSTOM_COORDINATES"]]}
+{"text": "Location {\"lat\": 21.461667, \"lng\": 110.206475} confirmed", "entities": [[9, 46, "CUSTOM_COORDINATES"]]}
+{"text": "Coordinates latitude=5.345499&longitude=132.173678 from API", "entities": [[12, 50, "CUSTOM_COORDINATES"]]}
+{"text": "Custom format: latitude=89.009305&longitude=-10.525267", "entities": [[15, 54, "CUSTOM_COORDINATES"]]}
+{"text": "Location {\"lat\": 72.000284, \"lng\": -11.879618} identified", "entities": [[9, 46, "CUSTOM_COORDINATES"]]}
+{"text": "Custom format: lat:13.740124,lon:-45.880252", "entities": [[15, 43, "CUSTOM_COORDINATES"]]}
+{"text": "Location {\"location\": {\"latitude\": 78.5465, \"longitude\": -89.098271}} validated", "entities": [[9, 69, "CUSTOM_COORDINATES"]]}
+{"text": "Coordinates {\"coordinates\": {\"lat\": 10.960044, \"lon\": 57.106038}} from API", "entities": [[12, 65, "CUSTOM_COORDINATES"]]}
+{"text": "Location lat:-69.372311,lon:-144.673484 identified", "entities": [[9, 39, "CUSTOM_COORDINATES"]]}
+{"text": "Coordinates lat:-58.534907,lon:-1.236112 found", "entities": [[12, 40, "CUSTOM_COORDINATES"]]}
+{"text": "Position lat:60.392463,lon:-57.000594 verified", "entities": [[9, 37, "CUSTOM_COORDINATES"]]}
+{"text": "Position latitude=-29.354074&longitude=-99.915357 verified", "entities": [[9, 49, "CUSTOM_COORDINATES"]]}
+{"text": "Coordinates latitude=74.840374&longitude=-81.744113 extracted", "entities": [[12, 51, "CUSTOM_COORDINATES"]]}
+{"text": "Position {\"lat\": -36.433313, \"lng\": 34.125523} verified", "entities": [[9, 46, "CUSTOM_COORDINATES"]]}
+{"text": "Coordinates lat:42.847085,lon:69.136025 parsed", "entities": [[12, 39, "CUSTOM_COORDINATES"]]}
+{"text": "Location {\"location\": {\"latitude\": 88.233696, \"longitude\": -130.679893}} identified", "entities": [[9, 72, "CUSTOM_COORDINATES"]]}
+{"text": "Location latitude=-62.43534&longitude=133.413353 confirmed", "entities": [[9, 48, "CUSTOM_COORDINATES"]]}
+{"text": "Position {\"location\": {\"latitude\": -56.325569, \"longitude\": -133.85221}} verified", "entities": [[9, 72, "CUSTOM_COORDINATES"]]}
+{"text": "Coordinates {\"lat\": 79.545593, \"lng\": 138.868167} extracted", "entities": [[12, 49, "CUSTOM_COORDINATES"]]}
+{"text": "Location {\"location\": {\"latitude\": -14.887564, \"longitude\": -175.333168}} validated", "entities": [[9, 73, "CUSTOM_COORDINATES"]]}
+{"text": "Location {\"location\": {\"latitude\": -38.106303, \"longitude\": 120.811945}} validated", "entities": [[9, 72, "CUSTOM_COORDINATES"]]}
+{"text": "Location {\"location\": {\"latitude\": -63.591333, \"longitude\": -75.726781}} confirmed", "entities": [[9, 72, "CUSTOM_COORDINATES"]]}
+{"text": "Coordinates {\"lat\": -74.913143, \"lng\": 58.400182} parsed", "entities": [[12, 49, "CUSTOM_COORDINATES"]]}
+{"text": "Location {\"coordinates\": {\"lat\": -39.369053, \"lon\": 177.677347}} identified", "entities": [[9, 64, "CUSTOM_COORDINATES"]]}
+{"text": "Location {\"type\": \"Point\", \"coordinates\": [61.520965, -81.612597]} verified", "entities": [[9, 66, "GEOJSON"]]}
+{"text": "Geographic position {\"type\": \"Point\", \"coordinates\": [79.639218, 38.998847]}", "entities": [[20, 76, "GEOJSON"]]}
+{"text": "GeoJSON coordinates {\"type\": \"Point\", \"coordinates\": [-171.014392, 21.098605]} extracted", "entities": [[20, 78, "GEOJSON"]]}
+{"text": "GeoJSON {\"type\": \"Point\", \"coordinates\": [54.078061, -72.634598]} from satellite", "entities": [[8, 65, "GEOJSON"]]}
+{"text": "GeoJSON {\"type\": \"Point\", \"coordinates\": [150.512083, 72.29306]} from satellite", "entities": [[8, 64, "GEOJSON"]]}
+{"text": "GeoJSON {\"type\": \"Point\", \"coordinates\": [-96.415989, 83.223541]} from satellite", "entities": [[8, 65, "GEOJSON"]]}
+{"text": "Geographic position {\"type\": \"Point\", \"coordinates\": [18.166059, -41.276317]}", "entities": [[20, 77, "GEOJSON"]]}
+{"text": "Location data: {\"type\": \"Point\", \"coordinates\": [119.075854, 9.773806]}", "entities": [[15, 71, "GEOJSON"]]}
+{"text": "Coordinates {\"type\": \"Point\", \"coordinates\": [-43.409678, -10.391051]} confirmed", "entities": [[12, 70, "GEOJSON"]]}
+{"text": "Point {\"type\": \"Point\", \"coordinates\": [-136.60109, -39.914853]} on map", "entities": [[6, 64, "GEOJSON"]]}
+{"text": "Geographic position {\"type\": \"Point\", \"coordinates\": [160.029398, 20.147439]}", "entities": [[20, 77, "GEOJSON"]]}
+{"text": "Location {\"type\": \"Point\", \"coordinates\": [166.14176, -36.623592]} verified", "entities": [[9, 66, "GEOJSON"]]}
+{"text": "Geographic position {\"type\": \"Point\", \"coordinates\": [118.363058, 26.797275]}", "entities": [[20, 77, "GEOJSON"]]}
+{"text": "Location data: {\"type\": \"Point\", \"coordinates\": [109.497667, -65.979517]}", "entities": [[15, 73, "GEOJSON"]]}
+{"text": "GeoJSON coordinates {\"type\": \"Point\", \"coordinates\": [-48.855162, -81.966694]} extracted", "entities": [[20, 78, "GEOJSON"]]}
+{"text": "Geographic position {\"type\": \"Point\", \"coordinates\": [-178.152899, -70.14202]}", "entities": [[20, 78, "GEOJSON"]]}
+{"text": "Geographic position {\"type\": \"Point\", \"coordinates\": [117.318645, -48.822128]}", "entities": [[20, 78, "GEOJSON"]]}
+{"text": "Geographic data {\"type\": \"Point\", \"coordinates\": [67.327505, 2.466418]} found", "entities": [[16, 71, "GEOJSON"]]}
+{"text": "Geographic position {\"type\": \"Point\", \"coordinates\": [33.805012, 41.087264]}", "entities": [[20, 76, "GEOJSON"]]}
+{"text": "GeoJSON {\"type\": \"Point\", \"coordinates\": [53.344202, 26.455828]} from satellite", "entities": [[8, 64, "GEOJSON"]]}
+{"text": "Point {\"type\": \"Point\", \"coordinates\": [-24.916885, 48.590824]} on map", "entities": [[6, 63, "GEOJSON"]]}
+{"text": "Geographic position {\"type\": \"Point\", \"coordinates\": [-109.596534, 26.198727]}", "entities": [[20, 78, "GEOJSON"]]}
+{"text": "Geographic data {\"type\": \"Point\", \"coordinates\": [167.014017, -38.586382]} found", "entities": [[16, 74, "GEOJSON"]]}
+{"text": "GeoJSON coordinates {\"type\": \"Point\", \"coordinates\": [-155.152199, -82.325014]} extracted", "entities": [[20, 79, "GEOJSON"]]}
+{"text": "Geographic data {\"type\": \"Point\", \"coordinates\": [-85.169559, 65.827576]} found", "entities": [[16, 73, "GEOJSON"]]}
+{"text": "Geographic data {\"type\": \"Point\", \"coordinates\": [124.93258, -69.004639]} found", "entities": [[16, 73, "GEOJSON"]]}
+{"text": "Point {\"type\": \"Point\", \"coordinates\": [-125.55511, 1.974125]} on map", "entities": [[6, 62, "GEOJSON"]]}
+{"text": "Location {\"type\": \"Point\", \"coordinates\": [-176.818065, 89.832859]} verified", "entities": [[9, 67, "GEOJSON"]]}
+{"text": "GeoJSON {\"type\": \"Point\", \"coordinates\": [91.452966, 78.600488]} from satellite", "entities": [[8, 64, "GEOJSON"]]}
+{"text": "Point {\"type\": \"Point\", \"coordinates\": [-78.328359, -89.616515]} on map", "entities": [[6, 64, "GEOJSON"]]}
+{"text": "Coordinates in GeoJSON format: {\"type\": \"Point\", \"coordinates\": [5.582646, -58.976525]}", "entities": [[31, 87, "GEOJSON"]]}
+{"text": "Coordinates in GeoJSON format: {\"type\": \"Point\", \"coordinates\": [-166.203807, 4.823632]}", "entities": [[31, 88, "GEOJSON"]]}
+{"text": "Coordinates {\"type\": \"Point\", \"coordinates\": [30.764582, 64.348764]} confirmed", "entities": [[12, 68, "GEOJSON"]]}
+{"text": "Location {\"type\": \"Point\", \"coordinates\": [98.147151, 69.492544]} verified", "entities": [[9, 65, "GEOJSON"]]}
+{"text": "GeoJSON coordinates {\"type\": \"Point\", \"coordinates\": [-76.882669, -4.198634]} extracted", "entities": [[20, 77, "GEOJSON"]]}
+{"text": "Point {\"type\": \"Point\", \"coordinates\": [-99.886591, -63.864474]} on map", "entities": [[6, 64, "GEOJSON"]]}
+{"text": "Location {\"type\": \"Point\", \"coordinates\": [-168.836436, 30.46708]} verified", "entities": [[9, 66, "GEOJSON"]]}
+{"text": "Location data: {\"type\": \"Point\", \"coordinates\": [-101.320113, 25.007977]}", "entities": [[15, 73, "GEOJSON"]]}
+{"text": "GeoJSON {\"type\": \"Point\", \"coordinates\": [60.821723, -15.087841]} from satellite", "entities": [[8, 65, "GEOJSON"]]}
+{"text": "Coordinates in GeoJSON format: {\"type\": \"Point\", \"coordinates\": [162.013283, 34.469813]}", "entities": [[31, 88, "GEOJSON"]]}
+{"text": "Location data: {\"type\": \"Point\", \"coordinates\": [-17.248033, -21.058534]}", "entities": [[15, 73, "GEOJSON"]]}
+{"text": "Geographic position {\"type\": \"Point\", \"coordinates\": [83.690932, 73.008686]}", "entities": [[20, 76, "GEOJSON"]]}
+{"text": "Geographic position {\"type\": \"Point\", \"coordinates\": [-119.553323, 44.287628]}", "entities": [[20, 78, "GEOJSON"]]}
+{"text": "Coordinates in GeoJSON format: {\"type\": \"Point\", \"coordinates\": [171.074852, -14.055653]}", "entities": [[31, 89, "GEOJSON"]]}
+{"text": "GeoJSON {\"type\": \"Point\", \"coordinates\": [-177.386562, -63.977157]} from satellite", "entities": [[8, 67, "GEOJSON"]]}
+{"text": "Point location {\"type\": \"Point\", \"coordinates\": [115.873295, 32.437701]} identified", "entities": [[15, 72, "GEOJSON"]]}
+{"text": "Geographic data {\"type\": \"Point\", \"coordinates\": [110.428547, -86.724807]} found", "entities": [[16, 74, "GEOJSON"]]}
+{"text": "Coordinates in GeoJSON format: {\"type\": \"Point\", \"coordinates\": [119.811821, 18.882779]}", "entities": [[31, 88, "GEOJSON"]]}
+{"text": "Geographic data {\"type\": \"Point\", \"coordinates\": [-133.695203, -77.156413]} found", "entities": [[16, 75, "GEOJSON"]]}
+{"text": "Point location {\"type\": \"Point\", \"coordinates\": [-33.756294, 72.406613]} identified", "entities": [[15, 72, "GEOJSON"]]}
+{"text": "Geographic data {\"type\": \"Point\", \"coordinates\": [-119.506479, 51.984877]} found", "entities": [[16, 74, "GEOJSON"]]}
+{"text": "Point location {\"type\": \"Point\", \"coordinates\": [80.051137, 21.870824]} identified", "entities": [[15, 71, "GEOJSON"]]}
+{"text": "Coordinates in GeoJSON format: {\"type\": \"Point\", \"coordinates\": [113.122753, -45.470749]}", "entities": [[31, 89, "GEOJSON"]]}
+{"text": "GeoJSON {\"type\": \"Point\", \"coordinates\": [-51.78625, 59.893022]} from satellite", "entities": [[8, 64, "GEOJSON"]]}
+{"text": "Location {\"type\": \"Point\", \"coordinates\": [5.158874, 76.774481]} verified", "entities": [[9, 64, "GEOJSON"]]}
+{"text": "GeoJSON {\"type\": \"Point\", \"coordinates\": [-168.053816, 38.074807]} from satellite", "entities": [[8, 66, "GEOJSON"]]}
+{"text": "Location data: {\"type\": \"Point\", \"coordinates\": [64.384447, 59.042921]}", "entities": [[15, 71, "GEOJSON"]]}
+{"text": "Point {\"type\": \"Point\", \"coordinates\": [-129.097561, -23.908465]} on map", "entities": [[6, 65, "GEOJSON"]]}
+{"text": "Geographic position {\"type\": \"Point\", \"coordinates\": [141.176927, -13.535923]}", "entities": [[20, 78, "GEOJSON"]]}
+{"text": "GeoJSON {\"type\": \"Point\", \"coordinates\": [175.397666, 39.503539]} from satellite", "entities": [[8, 65, "GEOJSON"]]}
+{"text": "GeoJSON coordinates {\"type\": \"Point\", \"coordinates\": [64.968252, -70.964476]} extracted", "entities": [[20, 77, "GEOJSON"]]}
+{"text": "Geographic position {\"type\": \"Point\", \"coordinates\": [94.463298, -13.564535]}", "entities": [[20, 77, "GEOJSON"]]}
+{"text": "Geographic data {\"type\": \"Point\", \"coordinates\": [-141.068811, 76.958636]} found", "entities": [[16, 74, "GEOJSON"]]}
+{"text": "GeoJSON coordinates {\"type\": \"Point\", \"coordinates\": [-65.834479, 73.370561]} extracted", "entities": [[20, 77, "GEOJSON"]]}
+{"text": "Location data: {\"type\": \"Point\", \"coordinates\": [-33.158367, 60.293049]}", "entities": [[15, 72, "GEOJSON"]]}
+{"text": "Geographic data {\"type\": \"Point\", \"coordinates\": [174.353388, -15.832818]} found", "entities": [[16, 74, "GEOJSON"]]}
+{"text": "Location {\"type\": \"Point\", \"coordinates\": [-166.719332, -42.970398]} verified", "entities": [[9, 68, "GEOJSON"]]}
+{"text": "Coordinates 71°32'23.81\"N 154°2'39.82\"E identified", "entities": [[12, 39, "DMS_COORDINATES"]]}
+{"text": "Coordinates 69°7'51.11\"N 51°59'5.98\"E from GPS", "entities": [[12, 37, "DMS_COORDINATES"]]}
+{"text": "Coordinates 36°21'20.49\"S 0°42'52.81\"E from GPS", "entities": [[12, 38, "DMS_COORDINATES"]]}
+{"text": "DMS format: 12°5'32.18\"N 171°30'15.53\"W", "entities": [[12, 39, "DMS_COORDINATES"]]}
+{"text": "DMS format: 5°3'40.85\"S 162°20'27.73\"W", "entities": [[12, 38, "DMS_COORDINATES"]]}
+{"text": "Position 6°47'21.89\"S 159°57'53.91\"E on map", "entities": [[9, 36, "DMS_COORDINATES"]]}
+{"text": "Coordinates 40°5'0.9\"N 28°39'30.25\"W found", "entities": [[12, 36, "DMS_COORDINATES"]]}
+{"text": "Location 34°14'27.97\"N 133°9'9.93\"E validated", "entities": [[9, 35, "DMS_COORDINATES"]]}
+{"text": "Coordinates 17°36'51.75\"S 149°52'37.79\"W found", "entities": [[12, 40, "DMS_COORDINATES"]]}
+{"text": "Location 80°15'35.22\"N 60°42'36.27\"W validated", "entities": [[9, 36, "DMS_COORDINATES"]]}
+{"text": "Location 53°48'10.98\"N 42°8'4.05\"E confirmed", "entities": [[9, 34, "DMS_COORDINATES"]]}
+{"text": "Location 33°6'53.91\"N 89°53'51.32\"W validated", "entities": [[9, 35, "DMS_COORDINATES"]]}
+{"text": "Position 54°2'31.17\"N 128°37'26.18\"E verified", "entities": [[9, 36, "DMS_COORDINATES"]]}
+{"text": "Coordinates 36°41'15.97\"S 81°1'18.97\"W identified", "entities": [[12, 38, "DMS_COORDINATES"]]}
+{"text": "Position 0°10'3.73\"N 13°33'45.76\"W on map", "entities": [[9, 34, "DMS_COORDINATES"]]}
+{"text": "Location 38°15'43.98\"S 177°28'14.77\"E validated", "entities": [[9, 37, "DMS_COORDINATES"]]}
+{"text": "Coordinates 64°25'50.66\"S 46°38'14.48\"W identified", "entities": [[12, 39, "DMS_COORDINATES"]]}
+{"text": "Position 11°43'28.39\"N 78°31'41.84\"E verified", "entities": [[9, 36, "DMS_COORDINATES"]]}
+{"text": "Position 75°16'29.91\"S 64°12'24.95\"W verified", "entities": [[9, 36, "DMS_COORDINATES"]]}
+{"text": "Coordinates 27°1'5.8\"S 103°52'7.89\"E identified", "entities": [[12, 36, "DMS_COORDINATES"]]}
+{"text": "Coordinates 67°46'20.6\"S 16°58'7.77\"E identified", "entities": [[12, 37, "DMS_COORDINATES"]]}
+{"text": "Position 27°21'11.36\"N 162°17'6.05\"W verified", "entities": [[9, 36, "DMS_COORDINATES"]]}
+{"text": "Position 16°16'8.39\"S 74°44'42.29\"W verified", "entities": [[9, 35, "DMS_COORDINATES"]]}
+{"text": "DMS 25°53'3.71\"N 160°38'13.73\"E extracted", "entities": [[4, 31, "DMS_COORDINATES"]]}
+{"text": "Location 90°4'42.4\"S 92°32'32.84\"W validated", "entities": [[9, 34, "DMS_COORDINATES"]]}
+{"text": "Position 85°32'42.26\"S 86°42'8.17\"E on map", "entities": [[9, 35, "DMS_COORDINATES"]]}
+{"text": "DMS 81°6'45.35\"N 105°50'14.3\"W extracted", "entities": [[4, 30, "DMS_COORDINATES"]]}
+{"text": "Coordinates 33°34'31.34\"S 88°37'28.49\"E identified", "entities": [[12, 39, "DMS_COORDINATES"]]}
+{"text": "Location at 19°38'6.91\"N 7°17'19.1\"E", "entities": [[12, 36, "DMS_COORDINATES"]]}
+{"text": "DMS format: 86°32'2.89\"N 60°19'10.02\"E", "entities": [[12, 38, "DMS_COORDINATES"]]}
+{"text": "Position 85°23'34.49\"N 23°57'1.04\"W on map", "entities": [[9, 35, "DMS_COORDINATES"]]}
+{"text": "Coordinates 43°48'24.4\"N 143°10'15.5\"W found", "entities": [[12, 38, "DMS_COORDINATES"]]}
+{"text": "Coordinates 8°21'58.94\"N 16°48'51.03\"W identified", "entities": [[12, 38, "DMS_COORDINATES"]]}
+{"text": "Coordinates 34°0'42.3\"S 59°0'17.34\"W identified", "entities": [[12, 36, "DMS_COORDINATES"]]}
+{"text": "Coordinates 64°50'12.77\"S 129°21'31.54\"E identified", "entities": [[12, 40, "DMS_COORDINATES"]]}
+{"text": "Location at 66°47'2.4\"N 85°54'25.9\"E", "entities": [[12, 36, "DMS_COORDINATES"]]}
+{"text": "Location 72°28'29.1\"N 112°51'35.58\"W confirmed", "entities": [[9, 36, "DMS_COORDINATES"]]}
+{"text": "Position 2°50'9.11\"S 49°43'13.25\"E verified", "entities": [[9, 34, "DMS_COORDINATES"]]}
+{"text": "Location 61°14'31.63\"N 116°8'51.21\"E confirmed", "entities": [[9, 36, "DMS_COORDINATES"]]}
+{"text": "Position 44°28'41.85\"N 163°45'56.57\"W on map", "entities": [[9, 37, "DMS_COORDINATES"]]}
+{"text": "DMS format: 25°33'9.9\"S 165°52'16.08\"W", "entities": [[12, 38, "DMS_COORDINATES"]]}
+{"text": "Location at 50°57'8.37\"N 108°33'7.87\"W", "entities": [[12, 38, "DMS_COORDINATES"]]}
+{"text": "Coordinates 28°0'57.74\"S 28°53'11.29\"E identified", "entities": [[12, 38, "DMS_COORDINATES"]]}
+{"text": "Coordinates 47°48'13.19\"N 84°24'38.32\"W identified", "entities": [[12, 39, "DMS_COORDINATES"]]}
+{"text": "Position 84°22'39.02\"N 164°3'31.64\"E verified", "entities": [[9, 36, "DMS_COORDINATES"]]}
+{"text": "Coordinates 18°1'53.33\"N 166°16'17.99\"E from GPS", "entities": [[12, 39, "DMS_COORDINATES"]]}
+{"text": "DMS 67°19'0.03\"S 87°46'59.72\"E extracted", "entities": [[4, 30, "DMS_COORDINATES"]]}
+{"text": "Coordinates 35°28'57.23\"S 26°42'37.47\"W found", "entities": [[12, 39, "DMS_COORDINATES"]]}
+{"text": "Location 10°29'50.41\"S 75°4'48.57\"E validated", "entities": [[9, 35, "DMS_COORDINATES"]]}
+{"text": "Position 6°57'8.2\"S 78°18'2.06\"W verified", "entities": [[9, 32, "DMS_COORDINATES"]]}
+{"text": "Location at 32°13'22.18\"S 84°17'46.65\"W", "entities": [[12, 39, "DMS_COORDINATES"]]}
+{"text": "Coordinates 75°22'40.97\"S 38°3'19.74\"W from GPS", "entities": [[12, 38, "DMS_COORDINATES"]]}
+{"text": "Coordinates 11°23'52.78\"N 7°31'13.08\"W from GPS", "entities": [[12, 38, "DMS_COORDINATES"]]}
+{"text": "Location 76°38'20.1\"S 115°54'58.36\"W confirmed", "entities": [[9, 36, "DMS_COORDINATES"]]}
+{"text": "DMS 10°42'59.77\"N 2°50'19.54\"W extracted", "entities": [[4, 30, "DMS_COORDINATES"]]}
+{"text": "DMS format: 63°4'45.5\"S 60°6'40.55\"E", "entities": [[12, 36, "DMS_COORDINATES"]]}
+{"text": "Location 54°50'8.2\"S 31°30'22.7\"E confirmed", "entities": [[9, 33, "DMS_COORDINATES"]]}
+{"text": "DMS 57°7'47.08\"N 144°34'32.97\"E extracted", "entities": [[4, 31, "DMS_COORDINATES"]]}
+{"text": "Position 79°45'44.27\"S 173°28'25.73\"E on map", "entities": [[9, 37, "DMS_COORDINATES"]]}
+{"text": "Location 16°4'51.64\"N 10°46'57.48\"E confirmed", "entities": [[9, 35, "DMS_COORDINATES"]]}
+{"text": "Position 3°17'4.58\"N 129°30'59.22\"W on map", "entities": [[9, 35, "DMS_COORDINATES"]]}
+{"text": "Location 15°54'14.12\"N 125°1'47.97\"E confirmed", "entities": [[9, 36, "DMS_COORDINATES"]]}
+{"text": "Coordinates 34°13'41.73\"S 41°28'23.91\"E identified", "entities": [[12, 39, "DMS_COORDINATES"]]}
+{"text": "Coordinates 70°59'10.42\"S 62°31'51.08\"E found", "entities": [[12, 39, "DMS_COORDINATES"]]}
+{"text": "Position 5°57'10.44\"N 68°57'41.04\"E on map", "entities": [[9, 35, "DMS_COORDINATES"]]}
+{"text": "Position 69°18'54.82\"N 81°33'3.27\"E verified", "entities": [[9, 35, "DMS_COORDINATES"]]}
+{"text": "DMS 21°38'46.18\"S 62°36'35.21\"W extracted", "entities": [[4, 31, "DMS_COORDINATES"]]}
+{"text": "Coordinates 18°33'38.98\"N 99°24'37.07\"E identified", "entities": [[12, 39, "DMS_COORDINATES"]]}
+{"text": "Coordinates 84°57'30.18\"N 133°57'50.56\"E from GPS", "entities": [[12, 40, "DMS_COORDINATES"]]}
+{"text": "Position 51°32'49.86\"N 118°17'57.56\"W on map", "entities": [[9, 37, "DMS_COORDINATES"]]}
+{"text": "Position 13°30'42.84\"S 6°13'28.38\"W on map", "entities": [[9, 35, "DMS_COORDINATES"]]}
+{"text": "Coordinates 43°26'1.73\"S 29°8'10.17\"W from GPS", "entities": [[12, 37, "DMS_COORDINATES"]]}
+{"text": "Coordinates 69°1'22.27\"S 41°14'49.96\"W from GPS", "entities": [[12, 38, "DMS_COORDINATES"]]}
+{"text": "Coordinates 21°46'50.07\"N 105°30'26.26\"E found", "entities": [[12, 40, "DMS_COORDINATES"]]}
+{"text": "Coordinates 65°31'32.29\"S 50°38'21.45\"W identified", "entities": [[12, 39, "DMS_COORDINATES"]]}
+{"text": "Location 30°17'34.32\"N 168°6'43.23\"E validated", "entities": [[9, 36, "DMS_COORDINATES"]]}
+{"text": "Location 41°33'28.12\"N 117°0'20.39\"W confirmed", "entities": [[9, 36, "DMS_COORDINATES"]]}
+{"text": "Position 51°5'2.34\"S 64°28'14.51\"E verified", "entities": [[9, 34, "DMS_COORDINATES"]]}
+{"text": "Coordinates 86°7'39.82\"N 176°28'44.49\"E found", "entities": [[12, 39, "DMS_COORDINATES"]]}
+{"text": "DMS format: 32°37'0.32\"N 27°18'20.54\"W", "entities": [[12, 38, "DMS_COORDINATES"]]}
+{"text": "DMS 58°57'24.28\"S 88°42'10.68\"E extracted", "entities": [[4, 31, "DMS_COORDINATES"]]}
+{"text": "Location at 2°1'40.77\"S 144°0'10.56\"E", "entities": [[12, 37, "DMS_COORDINATES"]]}
+{"text": "Location 16°28'45.98\"S 33°9'45.59\"E confirmed", "entities": [[9, 35, "DMS_COORDINATES"]]}
+{"text": "Location 59°22'49.55\"S 160°18'48.6\"W validated", "entities": [[9, 36, "DMS_COORDINATES"]]}
+{"text": "Position 88°25'33.96\"S 166°34'14.45\"W on map", "entities": [[9, 37, "DMS_COORDINATES"]]}
+{"text": "Location at 62°49'20.75\"S 168°21'19.38\"E", "entities": [[12, 40, "DMS_COORDINATES"]]}
+{"text": "Coordinates 82°20'56.61\"N 136°23'20.14\"W from GPS", "entities": [[12, 40, "DMS_COORDINATES"]]}
+{"text": "Location 20°27'59.9\"S 159°10'6.13\"W confirmed", "entities": [[9, 35, "DMS_COORDINATES"]]}
+{"text": "Location 54°59'15.45\"S 127°21'7.3\"E validated", "entities": [[9, 35, "DMS_COORDINATES"]]}
+{"text": "Position 39°22'22.97\"N 116°2'59.7\"W on map", "entities": [[9, 35, "DMS_COORDINATES"]]}
+{"text": "DMS 27°59'39.32\"N 154°5'43.76\"E extracted", "entities": [[4, 31, "DMS_COORDINATES"]]}
+{"text": "Position 40°12'1.52\"N 13°38'17.16\"E verified", "entities": [[9, 35, "DMS_COORDINATES"]]}
+{"text": "Coordinates 42°15'25.26\"S 165°41'35.94\"E from GPS", "entities": [[12, 40, "DMS_COORDINATES"]]}
+{"text": "Position 8°2'37.71\"S 117°16'29.54\"W on map", "entities": [[9, 35, "DMS_COORDINATES"]]}
+{"text": "Coordinates 61°59'29.36\"N 158°24'54.11\"W identified", "entities": [[12, 40, "DMS_COORDINATES"]]}
+{"text": "DMS 55°41'29.68\"S 176°18'52.42\"W extracted", "entities": [[4, 32, "DMS_COORDINATES"]]}
+{"text": "Position 73°4'29.59\"N 168°48'18.03\"E verified", "entities": [[9, 36, "DMS_COORDINATES"]]}
+{"text": "DMS format: 46°20'43.67\"S 169°37'36.49\"E", "entities": [[12, 40, "DMS_COORDINATES"]]}
+{"text": "Location at 6°17'18.04\"N 162°29'43.39\"E", "entities": [[12, 39, "DMS_COORDINATES"]]}
+{"text": "DMS format: 79°3'22.64\"S 35°59'1.77\"E", "entities": [[12, 37, "DMS_COORDINATES"]]}
+{"text": "Coordinates lat:-33.191382,lon:112.743963 found", "entities": [[12, 41, "CUSTOM_COORDINATES"]]}
+{"text": "Coordinates {\"lat\": -29.803637, \"lng\": 25.442909} found", "entities": [[12, 49, "CUSTOM_COORDINATES"]]}
+{"text": "Custom format: {\"coordinates\": {\"lat\": -1.532539, \"lon\": 0.838637}}", "entities": [[15, 67, "CUSTOM_COORDINATES"]]}
+{"text": "Location {\"lat\": -49.476294, \"lng\": -91.864378} validated", "entities": [[9, 47, "CUSTOM_COORDINATES"]]}
+{"text": "Coordinates {\"location\": {\"latitude\": -64.346857, \"longitude\": 63.821334}} parsed", "entities": [[12, 74, "CUSTOM_COORDINATES"]]}
+{"text": "Custom format: lat:-20.360086,lon:-55.779729", "entities": [[15, 44, "CUSTOM_COORDINATES"]]}
+{"text": "Custom format: {\"location\": {\"latitude\": 84.173982, \"longitude\": 95.277323}}", "entities": [[15, 76, "CUSTOM_COORDINATES"]]}
+{"text": "Coordinates {\"location\": {\"latitude\": -6.331056, \"longitude\": -133.62381}} from API", "entities": [[12, 74, "CUSTOM_COORDINATES"]]}
+{"text": "Coordinates latitude=-6.811626&longitude=-37.024317 from API", "entities": [[12, 51, "CUSTOM_COORDINATES"]]}
+{"text": "Coordinates lat:-24.921486,lon:-97.270365 from API", "entities": [[12, 41, "CUSTOM_COORDINATES"]]}
+{"text": "Coordinates lat:-84.620397,lon:147.714713 extracted", "entities": [[12, 41, "CUSTOM_COORDINATES"]]}
+{"text": "Coordinates {\"coordinates\": {\"lat\": 10.277223, \"lon\": -41.032601}} from API", "entities": [[12, 66, "CUSTOM_COORDINATES"]]}
+{"text": "Position latitude=-28.182921&longitude=28.883202 verified", "entities": [[9, 48, "CUSTOM_COORDINATES"]]}
+{"text": "Coordinates {\"coordinates\": {\"lat\": 55.365561, \"lon\": -84.487774}} from API", "entities": [[12, 66, "CUSTOM_COORDINATES"]]}
+{"text": "Custom format: {\"location\": {\"latitude\": -35.729077, \"longitude\": -84.201008}}", "entities": [[15, 78, "CUSTOM_COORDINATES"]]}
+{"text": "Location {\"lat\": -37.472355, \"lng\": 99.709138} identified", "entities": [[9, 46, "CUSTOM_COORDINATES"]]}
+{"text": "Coordinates {\"lat\": 61.569991, \"lng\": -145.709503} extracted", "entities": [[12, 50, "CUSTOM_COORDINATES"]]}
+{"text": "Coordinates latitude=-77.540288&longitude=60.907417 parsed", "entities": [[12, 51, "CUSTOM_COORDINATES"]]}
+{"text": "Coordinates lat:-85.778763,lon:-46.328075 found", "entities": [[12, 41, "CUSTOM_COORDINATES"]]}
+{"text": "Position {\"lat\": 86.023926, \"lng\": -3.302454} verified", "entities": [[9, 45, "CUSTOM_COORDINATES"]]}
+{"text": "Coordinates {\"location\": {\"latitude\": 69.763412, \"longitude\": 34.648175}} parsed", "entities": [[12, 73, "CUSTOM_COORDINATES"]]}
+{"text": "Location data: {\"location\": {\"latitude\": 87.560458, \"longitude\": -54.017745}}", "entities": [[15, 77, "CUSTOM_COORDINATES"]]}
+{"text": "Location {\"coordinates\": {\"lat\": -57.098133, \"lon\": -73.945352}} identified", "entities": [[9, 64, "CUSTOM_COORDINATES"]]}
+{"text": "Custom format: {\"location\": {\"latitude\": -33.301579, \"longitude\": 128.266392}}", "entities": [[15, 78, "CUSTOM_COORDINATES"]]}
+{"text": "Coordinates latitude=-20.624541&longitude=-58.449956 found", "entities": [[12, 52, "CUSTOM_COORDINATES"]]}
+{"text": "Location {\"coordinates\": {\"lat\": 60.051001, \"lon\": -41.084222}} identified", "entities": [[9, 63, "CUSTOM_COORDINATES"]]}
+{"text": "Position latitude=-42.619364&longitude=-39.823557 verified", "entities": [[9, 49, "CUSTOM_COORDINATES"]]}
+{"text": "Location latitude=35.518891&longitude=-170.252416 confirmed", "entities": [[9, 49, "CUSTOM_COORDINATES"]]}
+{"text": "Coordinates {\"location\": {\"latitude\": 26.553954, \"longitude\": 124.847994}} parsed", "entities": [[12, 74, "CUSTOM_COORDINATES"]]}
+{"text": "Coordinates {\"coordinates\": {\"lat\": -22.43379, \"lon\": 147.881366}} extracted", "entities": [[12, 66, "CUSTOM_COORDINATES"]]}
+{"text": "Location lat:-27.314967,lon:140.860369 identified", "entities": [[9, 38, "CUSTOM_COORDINATES"]]}
+{"text": "Position {\"coordinates\": {\"lat\": 53.423248, \"lon\": -123.964318}} verified", "entities": [[9, 64, "CUSTOM_COORDINATES"]]}
+{"text": "Location {\"location\": {\"latitude\": -54.411874, \"longitude\": -61.054307}} confirmed", "entities": [[9, 72, "CUSTOM_COORDINATES"]]}
+{"text": "Coordinates {\"lat\": -61.205348, \"lng\": 179.120174} from API", "entities": [[12, 50, "CUSTOM_COORDINATES"]]}
+{"text": "Position latitude=47.961964&longitude=106.246975 verified", "entities": [[9, 48, "CUSTOM_COORDINATES"]]}
+{"text": "Coordinates {\"lat\": -0.416998, \"lng\": -131.327969} found", "entities": [[12, 50, "CUSTOM_COORDINATES"]]}
+{"text": "Coordinates lat:-43.561886,lon:42.727623 parsed", "entities": [[12, 40, "CUSTOM_COORDINATES"]]}
+{"text": "Location {\"lat\": 2.305455, \"lng\": 125.897024} confirmed", "entities": [[9, 45, "CUSTOM_COORDINATES"]]}
+{"text": "Location data: latitude=-66.265979&longitude=19.768075", "entities": [[15, 54, "CUSTOM_COORDINATES"]]}
+{"text": "Position lat:-54.060072,lon:147.228329 verified", "entities": [[9, 38, "CUSTOM_COORDINATES"]]}
+{"text": "Coordinates {\"lat\": 61.373867, \"lng\": 137.063365} parsed", "entities": [[12, 49, "CUSTOM_COORDINATES"]]}
+{"text": "Coordinates latitude=67.186663&longitude=-40.648247 parsed", "entities": [[12, 51, "CUSTOM_COORDINATES"]]}
+{"text": "Coordinates {\"lat\": -70.2323, \"lng\": -125.800118} found", "entities": [[12, 49, "CUSTOM_COORDINATES"]]}
+{"text": "Location latitude=65.186779&longitude=133.433047 validated", "entities": [[9, 48, "CUSTOM_COORDINATES"]]}
+{"text": "Location {\"lat\": 48.301473, \"lng\": -30.409811} validated", "entities": [[9, 46, "CUSTOM_COORDINATES"]]}
+{"text": "Coordinates latitude=20.002578&longitude=69.708232 parsed", "entities": [[12, 50, "CUSTOM_COORDINATES"]]}
+{"text": "Coordinates latitude=-1.378483&longitude=-5.90288 found", "entities": [[12, 49, "CUSTOM_COORDINATES"]]}
+{"text": "Coordinates latitude=82.953196&longitude=129.203525 found", "entities": [[12, 51, "CUSTOM_COORDINATES"]]}
+{"text": "Coordinates {\"coordinates\": {\"lat\": 43.021469, \"lon\": -67.072591}} from API", "entities": [[12, 66, "CUSTOM_COORDINATES"]]}
+{"text": "Location data: lat:13.355586,lon:108.869556", "entities": [[15, 43, "CUSTOM_COORDINATES"]]}
+{"text": "Location data: {\"location\": {\"latitude\": 11.422376, \"longitude\": -4.827524}}", "entities": [[15, 76, "CUSTOM_COORDINATES"]]}
+{"text": "Location {\"location\": {\"latitude\": 46.1258, \"longitude\": 18.068625}} validated", "entities": [[9, 68, "CUSTOM_COORDINATES"]]}
+{"text": "Custom format: latitude=-71.514016&longitude=-45.494239", "entities": [[15, 55, "CUSTOM_COORDINATES"]]}
+{"text": "Location {\"coordinates\": {\"lat\": -52.952536, \"lon\": -29.962277}} validated", "entities": [[9, 64, "CUSTOM_COORDINATES"]]}
+{"text": "Coordinates lat:42.195703,lon:163.478962 found", "entities": [[12, 40, "CUSTOM_COORDINATES"]]}
+{"text": "Location lat:80.91097,lon:167.402445 identified", "entities": [[9, 36, "CUSTOM_COORDINATES"]]}
+{"text": "Coordinates lat:9.109432,lon:159.484183 from API", "entities": [[12, 39, "CUSTOM_COORDINATES"]]}
+{"text": "Location {\"lat\": 14.941076, \"lng\": 28.648561} confirmed", "entities": [[9, 45, "CUSTOM_COORDINATES"]]}
+{"text": "Location latitude=-50.868065&longitude=-99.181682 confirmed", "entities": [[9, 49, "CUSTOM_COORDINATES"]]}
+{"text": "Location {\"location\": {\"latitude\": 23.128906, \"longitude\": 134.666634}} confirmed", "entities": [[9, 71, "CUSTOM_COORDINATES"]]}
+{"text": "Location lat:-49.648174,lon:-7.257471 confirmed", "entities": [[9, 37, "CUSTOM_COORDINATES"]]}
+{"text": "Location lat:34.471534,lon:109.73147 confirmed", "entities": [[9, 36, "CUSTOM_COORDINATES"]]}
+{"text": "Location {\"location\": {\"latitude\": -57.783167, \"longitude\": -96.774387}} confirmed", "entities": [[9, 72, "CUSTOM_COORDINATES"]]}
+{"text": "Location lat:65.161486,lon:-55.815032 identified", "entities": [[9, 37, "CUSTOM_COORDINATES"]]}
+{"text": "Coordinates {\"coordinates\": {\"lat\": 9.301684, \"lon\": -16.991633}} from API", "entities": [[12, 65, "CUSTOM_COORDINATES"]]}
+{"text": "Location latitude=-57.772965&longitude=-49.984879 confirmed", "entities": [[9, 49, "CUSTOM_COORDINATES"]]}
+{"text": "Location {\"location\": {\"latitude\": -56.556496, \"longitude\": 125.863624}} validated", "entities": [[9, 72, "CUSTOM_COORDINATES"]]}

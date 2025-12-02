@@ -1,0 +1,292 @@
+{"text": "Escalate confirmed incidents to Incident Commander classifying severity SEV-1 SEV-2 or SEV-3", "intents": {"ESCALATE_INCIDENT": 1.0, "CLASSIFY_SEVERITY": 1.0, "DECLARE_INCIDENT": 1.0, "ACTIVATE_RESPONSE": 1.0, "RESPOND_TO_INCIDENT": 1.0, "AUDIT_COMPLIANCE": 0.0}}
+{"text": "I need to investigate security incident detected in SIEM", "intents": {"INVESTIGATE_INCIDENT": 1.0, "ANALYZE_SIEM": 1.0, "ASSESS_RISK": 1.0, "RESPOND_TO_INCIDENT": 1.0, "AUDIT_COMPLIANCE": 0.0, "DEFINE_STRATEGY": 0.0}}
+{"text": "Maintain legal chain of custody logging evidence handling ownership and transfers", "intents": {"MAINTAIN_CUSTODY": 1.0, "LOG_EVIDENCE": 1.0, "TRACK_OWNERSHIP": 1.0, "DOCUMENT_TRANSFERS": 1.0, "RESPOND_TO_INCIDENT": 1.0, "AUDIT_COMPLIANCE": 1.0}}
+{"text": "Validate incident response policies and compliance requirements", "intents": {"VALIDATE_POLICIES": 1.0, "CHECK_COMPLIANCE": 1.0, "AUDIT_COMPLIANCE": 1.0, "REVIEW_REQUIREMENTS": 1.0, "RESPOND_TO_INCIDENT": 0.0, "DEFINE_STRATEGY": 0.0}}
+{"text": "I need to monitor and triage alerts classifying as false positive informational or incident", "intents": {"MONITOR_ALERTS": 1.0, "TRIAGE_ALERTS": 1.0, "CLASSIFY_ALERTS": 1.0, "ESCALATE_INCIDENTS": 1.0, "RESPOND_TO_INCIDENT": 1.0, "AUDIT_COMPLIANCE": 0.0}}
+{"text": "Simulate security incidents and validate response procedures", "intents": {"SIMULATE_INCIDENTS": 1.0, "TEST_RESPONSE": 1.0, "VALIDATE_PROCEDURES": 1.0, "IMPROVE_READINESS": 1.0, "RESPOND_TO_INCIDENT": 0.0, "AUDIT_COMPLIANCE": 0.0}}
+{"text": "Handle insider-driven incidents using insider risk playbook and DLP data", "intents": {"HANDLE_INSIDER": 1.0, "USE_PLAYBOOK": 1.0, "ANALYZE_DLP": 1.0, "INVESTIGATE_ABUSE": 1.0, "RESPOND_TO_INCIDENT": 1.0, "AUDIT_COMPLIANCE": 0.0}}
+{"text": "Report the data breach to regulators and notify all affected data subjects within 72 hours", "intents": {"REPORT_BREACH": 1.0, "REPORT_TO_REGULATOR": 1.0, "NOTIFY_DATA_SUBJECTS": 1.0, "FULFILL_BREACH_NOTIFICATION": 1.0, "NOTIFY_REGULATORS": 0.0}}
+{"text": "Coordinate response across multiple business units vendors and regulators", "intents": {"COORDINATE_RESPONSE": 1.0, "MANAGE_TEAMS": 1.0, "LIAISE_VENDORS": 1.0, "NOTIFY_REGULATORS": 1.0, "RESPOND_TO_INCIDENT": 1.0, "AUDIT_COMPLIANCE": 0.0}}
+{"text": "Coordinate with legal counsel and cyber insurance ensuring compliance and claims", "intents": {"COORDINATE_LEGAL": 1.0, "LIAISE_INSURANCE": 1.0, "ENSURE_COMPLIANCE": 1.0, "SUBMIT_CLAIMS": 1.0, "RESPOND_TO_INCIDENT": 1.0, "AUDIT_COMPLIANCE": 1.0}}
+{"text": "I need to contain the incident by isolating the affected endpoint and blocking the malicious IP address", "intents": {"CONTAIN_INCIDENT": 1.0, "CONTAIN_ENDPOINT": 1.0, "CONTAIN_NETWORK": 1.0, "ISOLATE_INCIDENT": 1.0, "RESPOND_TO_INCIDENT": 1.0, "BLOCK_IP": 0.0}}
+{"text": "Coordinate with legal counsel and cyber insurance ensuring compliance and claims", "intents": {"COORDINATE_LEGAL": 1.0, "LIAISE_INSURANCE": 1.0, "ENSURE_COMPLIANCE": 1.0, "SUBMIT_CLAIMS": 1.0, "RESPOND_TO_INCIDENT": 1.0, "AUDIT_COMPLIANCE": 1.0}}
+{"text": "Engage external MDR MSSP providers exchanging telemetry and containment actions", "intents": {"ENGAGE_MDR": 1.0, "EXCHANGE_TELEMETRY": 1.0, "SHARE_IOCS": 1.0, "EXECUTE_CONTAINMENT": 1.0, "RESPOND_TO_INCIDENT": 1.0, "AUDIT_COMPLIANCE": 0.0}}
+{"text": "Perform manual containment when automation insufficient using EDR firewall and containment tools", "intents": {"PERFORM_CONTAINMENT": 1.0, "ISOLATE_ASSETS": 1.0, "BLOCK_TRAFFIC": 1.0, "SECURE_SYSTEMS": 1.0, "RESPOND_TO_INCIDENT": 1.0, "AUDIT_COMPLIANCE": 0.0}}
+{"text": "Generate IR performance metrics including MTTD MTTR and automated response rate", "intents": {"GENERATE_METRICS": 1.0, "MEASURE_MTTD": 1.0, "MEASURE_MTTR": 1.0, "CALCULATE_AUTOMATION": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Conduct post-incident review and document lessons learned from this security breach", "intents": {"POST_INCIDENT_REVIEW": 1.0, "POST_MORTEM": 1.0, "LESSONS_LEARNED": 1.0, "REVIEW_INCIDENT": 0.0}}
+{"text": "Test incident response capabilities and validate procedures", "intents": {"TEST_CAPABILITIES": 1.0, "VALIDATE_PROCEDURES": 1.0, "SIMULATE_INCIDENTS": 1.0, "IMPROVE_RESPONSE": 1.0, "RESPOND_TO_INCIDENT": 0.0, "AUDIT_COMPLIANCE": 0.0}}
+{"text": "Validate incident response policies and compliance requirements", "intents": {"VALIDATE_POLICIES": 1.0, "CHECK_COMPLIANCE": 1.0, "AUDIT_COMPLIANCE": 1.0, "REVIEW_REQUIREMENTS": 1.0, "RESPOND_TO_INCIDENT": 0.0, "DEFINE_STRATEGY": 0.0}}
+{"text": "I need to investigate security incident detected in SIEM", "intents": {"INVESTIGATE_INCIDENT": 1.0, "ANALYZE_SIEM": 1.0, "ASSESS_RISK": 1.0, "RESPOND_TO_INCIDENT": 1.0, "AUDIT_COMPLIANCE": 0.0, "DEFINE_STRATEGY": 0.0}}
+{"text": "Handle insider-driven incidents using insider risk playbook and DLP data", "intents": {"HANDLE_INSIDER": 1.0, "USE_PLAYBOOK": 1.0, "ANALYZE_DLP": 1.0, "INVESTIGATE_ABUSE": 1.0, "RESPOND_TO_INCIDENT": 1.0, "AUDIT_COMPLIANCE": 0.0}}
+{"text": "Document lessons learned and incident response improvements", "intents": {"DOCUMENT_LEARNINGS": 1.0, "CAPTURE_IMPROVEMENTS": 1.0, "IMPROVE_PROCESSES": 1.0, "ENHANCE_RESPONSE": 1.0, "RESPOND_TO_INCIDENT": 0.0, "AUDIT_COMPLIANCE": 0.0}}
+{"text": "Conduct IR simulation exercises including tabletop and red team measuring readiness", "intents": {"CONDUCT_SIMULATIONS": 1.0, "RUN_TABLETOP": 1.0, "EXECUTE_RED_TEAM": 1.0, "MEASURE_READINESS": 1.0, "RESPOND_TO_INCIDENT": 0.0, "AUDIT_COMPLIANCE": 0.0}}
+{"text": "Document lessons learned and incident response improvements", "intents": {"DOCUMENT_LEARNINGS": 1.0, "CAPTURE_IMPROVEMENTS": 1.0, "IMPROVE_PROCESSES": 1.0, "ENHANCE_RESPONSE": 1.0, "RESPOND_TO_INCIDENT": 0.0, "AUDIT_COMPLIANCE": 0.0}}
+{"text": "Validate incident response policies and compliance requirements", "intents": {"VALIDATE_POLICIES": 1.0, "CHECK_COMPLIANCE": 1.0, "AUDIT_COMPLIANCE": 1.0, "REVIEW_REQUIREMENTS": 1.0, "RESPOND_TO_INCIDENT": 0.0, "DEFINE_STRATEGY": 0.0}}
+{"text": "Remove malware and restore systems from clean backups", "intents": {"REMOVE_MALWARE": 1.0, "RESTORE_SYSTEMS": 1.0, "RESPOND_TO_INCIDENT": 1.0, "RECOVER_SERVICES": 1.0, "AUDIT_COMPLIANCE": 0.0, "DEFINE_STRATEGY": 0.0}}
+{"text": "Simulate security incidents and validate response procedures", "intents": {"SIMULATE_INCIDENTS": 1.0, "TEST_RESPONSE": 1.0, "VALIDATE_PROCEDURES": 1.0, "IMPROVE_READINESS": 1.0, "RESPOND_TO_INCIDENT": 0.0, "AUDIT_COMPLIANCE": 0.0}}
+{"text": "Review incident response vendor postures and certifications", "intents": {"REVIEW_VENDORS": 1.0, "ASSESS_CERTIFICATIONS": 1.0, "EVALUATE_VENDORS": 1.0, "MANAGE_RISKS": 1.0, "RESPOND_TO_INCIDENT": 0.0, "AUDIT_COMPLIANCE": 0.0}}
+{"text": "Please contain threat immediately and isolate compromised systems", "intents": {"CONTAIN_THREAT": 1.0, "ISOLATE_SYSTEMS": 1.0, "RESPOND_TO_INCIDENT": 1.0, "SECURE_ASSETS": 1.0, "AUDIT_COMPLIANCE": 0.0, "DEFINE_STRATEGY": 0.0}}
+{"text": "Please enrich incident data with threat intelligence identifying related campaigns", "intents": {"ENRICH_INCIDENT": 1.0, "GATHER_INTELLIGENCE": 1.0, "IDENTIFY_CAMPAIGNS": 1.0, "MATCH_IOCS": 1.0, "RESPOND_TO_INCIDENT": 1.0, "AUDIT_COMPLIANCE": 0.0}}
+{"text": "Perform manual containment when automation insufficient using EDR firewall and containment tools", "intents": {"PERFORM_CONTAINMENT": 1.0, "ISOLATE_ASSETS": 1.0, "BLOCK_TRAFFIC": 1.0, "SECURE_SYSTEMS": 1.0, "RESPOND_TO_INCIDENT": 1.0, "AUDIT_COMPLIANCE": 0.0}}
+{"text": "Eradicate the malware from all infected systems and remove persistence mechanisms", "intents": {"ERADICATE_MALWARE": 1.0, "ERADICATE_PERSISTENCE": 1.0, "ERADICATE_THREAT": 0.0, "QUARANTINE_MALWARE": 0.0}}
+{"text": "Please contain threat immediately and isolate compromised systems", "intents": {"CONTAIN_THREAT": 1.0, "ISOLATE_SYSTEMS": 1.0, "RESPOND_TO_INCIDENT": 1.0, "SECURE_ASSETS": 1.0, "AUDIT_COMPLIANCE": 0.0, "DEFINE_STRATEGY": 0.0}}
+{"text": "Remove malware and restore systems from clean backups", "intents": {"REMOVE_MALWARE": 1.0, "RESTORE_SYSTEMS": 1.0, "RESPOND_TO_INCIDENT": 1.0, "RECOVER_SERVICES": 1.0, "AUDIT_COMPLIANCE": 0.0, "DEFINE_STRATEGY": 0.0}}
+{"text": "Remove malicious artifacts and persistence using EDR and forensic tools validating cleanup", "intents": {"REMOVE_MALWARE": 1.0, "CLEAN_PERSISTENCE": 1.0, "VALIDATE_CLEANUP": 1.0, "ERADICATE_THREAT": 1.0, "RESPOND_TO_INCIDENT": 1.0, "AUDIT_COMPLIANCE": 0.0}}
+{"text": "Test incident response capabilities and validate procedures", "intents": {"TEST_CAPABILITIES": 1.0, "VALIDATE_PROCEDURES": 1.0, "SIMULATE_INCIDENTS": 1.0, "IMPROVE_RESPONSE": 1.0, "RESPOND_TO_INCIDENT": 0.0, "AUDIT_COMPLIANCE": 0.0}}
+{"text": "Recover the incident by restoring systems from clean backups and resuming business operations", "intents": {"RECOVER_INCIDENT": 1.0, "RECOVER_FROM_BACKUP": 1.0, "RESTORE_BUSINESS_OPERATIONS": 1.0, "RESUME_OPERATIONS": 1.0, "RESTORE_SERVICES": 0.0}}
+{"text": "Perform memory forensics on the compromised system and analyze the disk image for artifacts", "intents": {"PERFORM_MEMORY_FORENSICS": 1.0, "PERFORM_DISK_FORENSICS": 1.0, "ANALYZE_MEMORY_DUMP": 1.0, "ANALYZE_DISK_IMAGE": 1.0, "EXTRACT_ARTIFACTS": 1.0, "FORENSIC_ANALYSIS": 0.0}}
+{"text": "Restore systems from clean backups validating with file integrity and EDR scans", "intents": {"RESTORE_SYSTEMS": 1.0, "VALIDATE_RESTORE": 1.0, "CHECK_INTEGRITY": 1.0, "SCAN_ENDPOINTS": 1.0, "RESPOND_TO_INCIDENT": 1.0, "AUDIT_COMPLIANCE": 0.0}}
+{"text": "Execute automated response workflows including account disablement IP blocking and isolation", "intents": {"EXECUTE_AUTOMATION": 1.0, "DISABLE_ACCOUNTS": 1.0, "BLOCK_IPS": 1.0, "ISOLATE_ENDPOINTS": 1.0, "RESPOND_TO_INCIDENT": 1.0, "AUDIT_COMPLIANCE": 0.0}}
+{"text": "I need to investigate security incident detected in SIEM", "intents": {"INVESTIGATE_INCIDENT": 1.0, "ANALYZE_SIEM": 1.0, "ASSESS_RISK": 1.0, "RESPOND_TO_INCIDENT": 1.0, "AUDIT_COMPLIANCE": 0.0, "DEFINE_STRATEGY": 0.0}}
+{"text": "Review incident response vendor postures and certifications", "intents": {"REVIEW_VENDORS": 1.0, "ASSESS_CERTIFICATIONS": 1.0, "EVALUATE_VENDORS": 1.0, "MANAGE_RISKS": 1.0, "RESPOND_TO_INCIDENT": 0.0, "AUDIT_COMPLIANCE": 0.0}}
+{"text": "Test incident response capabilities and validate procedures", "intents": {"TEST_CAPABILITIES": 1.0, "VALIDATE_PROCEDURES": 1.0, "SIMULATE_INCIDENTS": 1.0, "IMPROVE_RESPONSE": 1.0, "RESPOND_TO_INCIDENT": 0.0, "AUDIT_COMPLIANCE": 0.0}}
+{"text": "Conduct IR simulation exercises including tabletop and red team measuring readiness", "intents": {"CONDUCT_SIMULATIONS": 1.0, "RUN_TABLETOP": 1.0, "EXECUTE_RED_TEAM": 1.0, "MEASURE_READINESS": 1.0, "RESPOND_TO_INCIDENT": 0.0, "AUDIT_COMPLIANCE": 0.0}}
+{"text": "Conduct post-incident review and document lessons learned from this security breach", "intents": {"POST_INCIDENT_REVIEW": 1.0, "POST_MORTEM": 1.0, "LESSONS_LEARNED": 1.0, "REVIEW_INCIDENT": 0.0}}
+{"text": "Please contain threat immediately and isolate compromised systems", "intents": {"CONTAIN_THREAT": 1.0, "ISOLATE_SYSTEMS": 1.0, "RESPOND_TO_INCIDENT": 1.0, "SECURE_ASSETS": 1.0, "AUDIT_COMPLIANCE": 0.0, "DEFINE_STRATEGY": 0.0}}
+{"text": "Generate IR performance metrics including MTTD MTTR and automated response rate", "intents": {"GENERATE_METRICS": 1.0, "MEASURE_MTTD": 1.0, "MEASURE_MTTR": 1.0, "CALCULATE_AUTOMATION": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Conduct post-incident review documenting strengths gaps and improvements", "intents": {"CONDUCT_REVIEW": 1.0, "DOCUMENT_STRENGTHS": 1.0, "IDENTIFY_GAPS": 1.0, "CAPTURE_IMPROVEMENTS": 1.0, "RESPOND_TO_INCIDENT": 1.0, "AUDIT_COMPLIANCE": 0.0}}
+{"text": "Recover the incident by restoring systems from clean backups and resuming business operations", "intents": {"RECOVER_INCIDENT": 1.0, "RECOVER_FROM_BACKUP": 1.0, "RESTORE_BUSINESS_OPERATIONS": 1.0, "RESUME_OPERATIONS": 1.0, "RESTORE_SERVICES": 0.0}}
+{"text": "Eradicate the malware from all infected systems and remove persistence mechanisms", "intents": {"ERADICATE_MALWARE": 1.0, "ERADICATE_PERSISTENCE": 1.0, "ERADICATE_THREAT": 0.0, "QUARANTINE_MALWARE": 0.0}}
+{"text": "Perform forensic collection and analysis building root cause and timeline", "intents": {"PERFORM_FORENSICS": 1.0, "COLLECT_EVIDENCE": 1.0, "ANALYZE_ARTIFACTS": 1.0, "BUILD_TIMELINE": 1.0, "RESPOND_TO_INCIDENT": 1.0, "AUDIT_COMPLIANCE": 0.0}}
+{"text": "Escalate confirmed incidents to Incident Commander classifying severity SEV-1 SEV-2 or SEV-3", "intents": {"ESCALATE_INCIDENT": 1.0, "CLASSIFY_SEVERITY": 1.0, "DECLARE_INCIDENT": 1.0, "ACTIVATE_RESPONSE": 1.0, "RESPOND_TO_INCIDENT": 1.0, "AUDIT_COMPLIANCE": 0.0}}
+{"text": "Perform forensic collection and analysis building root cause and timeline", "intents": {"PERFORM_FORENSICS": 1.0, "COLLECT_EVIDENCE": 1.0, "ANALYZE_ARTIFACTS": 1.0, "BUILD_TIMELINE": 1.0, "RESPOND_TO_INCIDENT": 1.0, "AUDIT_COMPLIANCE": 0.0}}
+{"text": "Execute automated response workflows including account disablement IP blocking and isolation", "intents": {"EXECUTE_AUTOMATION": 1.0, "DISABLE_ACCOUNTS": 1.0, "BLOCK_IPS": 1.0, "ISOLATE_ENDPOINTS": 1.0, "RESPOND_TO_INCIDENT": 1.0, "AUDIT_COMPLIANCE": 0.0}}
+{"text": "Please enrich incident data with threat intelligence identifying related campaigns", "intents": {"ENRICH_INCIDENT": 1.0, "GATHER_INTELLIGENCE": 1.0, "IDENTIFY_CAMPAIGNS": 1.0, "MATCH_IOCS": 1.0, "RESPOND_TO_INCIDENT": 1.0, "AUDIT_COMPLIANCE": 0.0}}
+{"text": "Review incident response vendor postures and certifications", "intents": {"REVIEW_VENDORS": 1.0, "ASSESS_CERTIFICATIONS": 1.0, "EVALUATE_VENDORS": 1.0, "MANAGE_RISKS": 1.0, "RESPOND_TO_INCIDENT": 0.0, "AUDIT_COMPLIANCE": 0.0}}
+{"text": "Document incident and capture lessons learned", "intents": {"DOCUMENT_INCIDENT": 1.0, "CAPTURE_LEARNINGS": 1.0, "RESPOND_TO_INCIDENT": 1.0, "IMPROVE_PROCESSES": 1.0, "AUDIT_COMPLIANCE": 0.0, "DEFINE_STRATEGY": 0.0}}
+{"text": "Simulate security incidents and validate response procedures", "intents": {"SIMULATE_INCIDENTS": 1.0, "TEST_RESPONSE": 1.0, "VALIDATE_PROCEDURES": 1.0, "IMPROVE_READINESS": 1.0, "RESPOND_TO_INCIDENT": 0.0, "AUDIT_COMPLIANCE": 0.0}}
+{"text": "Recover the incident by restoring systems from clean backups and resuming business operations", "intents": {"RECOVER_INCIDENT": 1.0, "RECOVER_FROM_BACKUP": 1.0, "RESTORE_BUSINESS_OPERATIONS": 1.0, "RESUME_OPERATIONS": 1.0, "RESTORE_SERVICES": 0.0}}
+{"text": "Reconstruct the attack timeline and build a complete incident timeline for the investigation", "intents": {"RECONSTRUCT_ATTACK": 1.0, "BUILD_INCIDENT_TIMELINE": 1.0, "BUILD_TIMELINE": 0.0, "ANALYZE_INCIDENT": 0.0}}
+{"text": "I need to contain the incident by isolating the affected endpoint and blocking the malicious IP address", "intents": {"CONTAIN_INCIDENT": 1.0, "CONTAIN_ENDPOINT": 1.0, "CONTAIN_NETWORK": 1.0, "ISOLATE_INCIDENT": 1.0, "RESPOND_TO_INCIDENT": 1.0, "BLOCK_IP": 0.0}}
+{"text": "Restore systems from clean backups validating with file integrity and EDR scans", "intents": {"RESTORE_SYSTEMS": 1.0, "VALIDATE_RESTORE": 1.0, "CHECK_INTEGRITY": 1.0, "SCAN_ENDPOINTS": 1.0, "RESPOND_TO_INCIDENT": 1.0, "AUDIT_COMPLIANCE": 0.0}}
+{"text": "Communicate incident status to executives regulators and customers", "intents": {"COMMUNICATE_STATUS": 1.0, "BRIEF_EXECUTIVES": 1.0, "NOTIFY_REGULATORS": 1.0, "INFORM_CUSTOMERS": 1.0, "RESPOND_TO_INCIDENT": 1.0, "AUDIT_COMPLIANCE": 0.0}}
+{"text": "Perform forensic collection and analysis building root cause and timeline", "intents": {"PERFORM_FORENSICS": 1.0, "COLLECT_EVIDENCE": 1.0, "ANALYZE_ARTIFACTS": 1.0, "BUILD_TIMELINE": 1.0, "RESPOND_TO_INCIDENT": 1.0, "AUDIT_COMPLIANCE": 0.0}}
+{"text": "I need to monitor and triage alerts classifying as false positive informational or incident", "intents": {"MONITOR_ALERTS": 1.0, "TRIAGE_ALERTS": 1.0, "CLASSIFY_ALERTS": 1.0, "ESCALATE_INCIDENTS": 1.0, "RESPOND_TO_INCIDENT": 1.0, "AUDIT_COMPLIANCE": 0.0}}
+{"text": "Handle insider-driven incidents using insider risk playbook and DLP data", "intents": {"HANDLE_INSIDER": 1.0, "USE_PLAYBOOK": 1.0, "ANALYZE_DLP": 1.0, "INVESTIGATE_ABUSE": 1.0, "RESPOND_TO_INCIDENT": 1.0, "AUDIT_COMPLIANCE": 0.0}}
+{"text": "Remove malicious artifacts and persistence using EDR and forensic tools validating cleanup", "intents": {"REMOVE_MALWARE": 1.0, "CLEAN_PERSISTENCE": 1.0, "VALIDATE_CLEANUP": 1.0, "ERADICATE_THREAT": 1.0, "RESPOND_TO_INCIDENT": 1.0, "AUDIT_COMPLIANCE": 0.0}}
+{"text": "Assess incident response tool effectiveness and integration capabilities", "intents": {"ASSESS_TOOLS": 1.0, "EVALUATE_EFFECTIVENESS": 1.0, "REVIEW_INTEGRATION": 1.0, "MAKE_RECOMMENDATIONS": 1.0, "RESPOND_TO_INCIDENT": 0.0, "AUDIT_COMPLIANCE": 0.0}}
+{"text": "Test incident response capabilities and validate procedures", "intents": {"TEST_CAPABILITIES": 1.0, "VALIDATE_PROCEDURES": 1.0, "SIMULATE_INCIDENTS": 1.0, "IMPROVE_RESPONSE": 1.0, "RESPOND_TO_INCIDENT": 0.0, "AUDIT_COMPLIANCE": 0.0}}
+{"text": "Please contain threat immediately and isolate compromised systems", "intents": {"CONTAIN_THREAT": 1.0, "ISOLATE_SYSTEMS": 1.0, "RESPOND_TO_INCIDENT": 1.0, "SECURE_ASSETS": 1.0, "AUDIT_COMPLIANCE": 0.0, "DEFINE_STRATEGY": 0.0}}
+{"text": "Update incident response playbooks and improve automation", "intents": {"UPDATE_PLAYBOOKS": 1.0, "IMPROVE_AUTOMATION": 1.0, "ENHANCE_RESPONSE": 1.0, "MAINTAIN_SYSTEMS": 1.0, "RESPOND_TO_INCIDENT": 1.0, "AUDIT_COMPLIANCE": 0.0}}
+{"text": "Please enrich incident data with threat intelligence identifying related campaigns", "intents": {"ENRICH_INCIDENT": 1.0, "GATHER_INTELLIGENCE": 1.0, "IDENTIFY_CAMPAIGNS": 1.0, "MATCH_IOCS": 1.0, "RESPOND_TO_INCIDENT": 1.0, "AUDIT_COMPLIANCE": 0.0}}
+{"text": "Remove malware and restore systems from clean backups", "intents": {"REMOVE_MALWARE": 1.0, "RESTORE_SYSTEMS": 1.0, "RESPOND_TO_INCIDENT": 1.0, "RECOVER_SERVICES": 1.0, "AUDIT_COMPLIANCE": 0.0, "DEFINE_STRATEGY": 0.0}}
+{"text": "Escalate confirmed incidents to Incident Commander classifying severity SEV-1 SEV-2 or SEV-3", "intents": {"ESCALATE_INCIDENT": 1.0, "CLASSIFY_SEVERITY": 1.0, "DECLARE_INCIDENT": 1.0, "ACTIVATE_RESPONSE": 1.0, "RESPOND_TO_INCIDENT": 1.0, "AUDIT_COMPLIANCE": 0.0}}
+{"text": "Execute the incident response playbook and runbook for ransomware containment", "intents": {"EXECUTE_INCIDENT_PLAYBOOK": 1.0, "EXECUTE_RUNBOOK": 1.0, "EXECUTE_RESPONSE_PLAYBOOK": 1.0, "EXECUTE_PLAYBOOKS": 0.0}}
+{"text": "Communicate incident status to executives regulators and customers", "intents": {"COMMUNICATE_STATUS": 1.0, "BRIEF_EXECUTIVES": 1.0, "NOTIFY_REGULATORS": 1.0, "INFORM_CUSTOMERS": 1.0, "RESPOND_TO_INCIDENT": 1.0, "AUDIT_COMPLIANCE": 0.0}}
+{"text": "Engage external MDR MSSP providers exchanging telemetry and containment actions", "intents": {"ENGAGE_MDR": 1.0, "EXCHANGE_TELEMETRY": 1.0, "SHARE_IOCS": 1.0, "EXECUTE_CONTAINMENT": 1.0, "RESPOND_TO_INCIDENT": 1.0, "AUDIT_COMPLIANCE": 0.0}}
+{"text": "Restore systems from clean backups validating with file integrity and EDR scans", "intents": {"RESTORE_SYSTEMS": 1.0, "VALIDATE_RESTORE": 1.0, "CHECK_INTEGRITY": 1.0, "SCAN_ENDPOINTS": 1.0, "RESPOND_TO_INCIDENT": 1.0, "AUDIT_COMPLIANCE": 0.0}}
+{"text": "Execute the incident response playbook and runbook for ransomware containment", "intents": {"EXECUTE_INCIDENT_PLAYBOOK": 1.0, "EXECUTE_RUNBOOK": 1.0, "EXECUTE_RESPONSE_PLAYBOOK": 1.0, "EXECUTE_PLAYBOOKS": 0.0}}
+{"text": "Please enrich incident data with threat intelligence identifying related campaigns", "intents": {"ENRICH_INCIDENT": 1.0, "GATHER_INTELLIGENCE": 1.0, "IDENTIFY_CAMPAIGNS": 1.0, "MATCH_IOCS": 1.0, "RESPOND_TO_INCIDENT": 1.0, "AUDIT_COMPLIANCE": 0.0}}
+{"text": "Coordinate with legal counsel and cyber insurance ensuring compliance and claims", "intents": {"COORDINATE_LEGAL": 1.0, "LIAISE_INSURANCE": 1.0, "ENSURE_COMPLIANCE": 1.0, "SUBMIT_CLAIMS": 1.0, "RESPOND_TO_INCIDENT": 1.0, "AUDIT_COMPLIANCE": 1.0}}
+{"text": "Perform memory forensics on the compromised system and analyze the disk image for artifacts", "intents": {"PERFORM_MEMORY_FORENSICS": 1.0, "PERFORM_DISK_FORENSICS": 1.0, "ANALYZE_MEMORY_DUMP": 1.0, "ANALYZE_DISK_IMAGE": 1.0, "EXTRACT_ARTIFACTS": 1.0, "FORENSIC_ANALYSIS": 0.0}}
+{"text": "I need to monitor and triage alerts classifying as false positive informational or incident", "intents": {"MONITOR_ALERTS": 1.0, "TRIAGE_ALERTS": 1.0, "CLASSIFY_ALERTS": 1.0, "ESCALATE_INCIDENTS": 1.0, "RESPOND_TO_INCIDENT": 1.0, "AUDIT_COMPLIANCE": 0.0}}
+{"text": "Review incident response architecture and update design principles", "intents": {"REVIEW_ARCHITECTURE": 1.0, "UPDATE_DESIGN": 1.0, "DEFINE_STRATEGY": 1.0, "IMPROVE_RESPONSE": 1.0, "RESPOND_TO_INCIDENT": 0.0, "AUDIT_COMPLIANCE": 0.0}}
+{"text": "Escalate confirmed incidents to Incident Commander classifying severity SEV-1 SEV-2 or SEV-3", "intents": {"ESCALATE_INCIDENT": 1.0, "CLASSIFY_SEVERITY": 1.0, "DECLARE_INCIDENT": 1.0, "ACTIVATE_RESPONSE": 1.0, "RESPOND_TO_INCIDENT": 1.0, "AUDIT_COMPLIANCE": 0.0}}
+{"text": "Review incident response architecture and update design principles", "intents": {"REVIEW_ARCHITECTURE": 1.0, "UPDATE_DESIGN": 1.0, "DEFINE_STRATEGY": 1.0, "IMPROVE_RESPONSE": 1.0, "RESPOND_TO_INCIDENT": 0.0, "AUDIT_COMPLIANCE": 0.0}}
+{"text": "Perform memory forensics on the compromised system and analyze the disk image for artifacts", "intents": {"PERFORM_MEMORY_FORENSICS": 1.0, "PERFORM_DISK_FORENSICS": 1.0, "ANALYZE_MEMORY_DUMP": 1.0, "ANALYZE_DISK_IMAGE": 1.0, "EXTRACT_ARTIFACTS": 1.0, "FORENSIC_ANALYSIS": 0.0}}
+{"text": "Update incident response playbooks and improve automation", "intents": {"UPDATE_PLAYBOOKS": 1.0, "IMPROVE_AUTOMATION": 1.0, "ENHANCE_RESPONSE": 1.0, "MAINTAIN_SYSTEMS": 1.0, "RESPOND_TO_INCIDENT": 1.0, "AUDIT_COMPLIANCE": 0.0}}
+{"text": "Make recommendations for incident response platform investments", "intents": {"MAKE_RECOMMENDATIONS": 1.0, "EVALUATE_INVESTMENTS": 1.0, "PLAN_INITIATIVES": 1.0, "STRATEGIC_PLANNING": 1.0, "RESPOND_TO_INCIDENT": 0.0, "AUDIT_COMPLIANCE": 0.0}}
+{"text": "Document lessons learned and incident response improvements", "intents": {"DOCUMENT_LEARNINGS": 1.0, "CAPTURE_IMPROVEMENTS": 1.0, "IMPROVE_PROCESSES": 1.0, "ENHANCE_RESPONSE": 1.0, "RESPOND_TO_INCIDENT": 0.0, "AUDIT_COMPLIANCE": 0.0}}
+{"text": "Make recommendations for incident response platform investments", "intents": {"MAKE_RECOMMENDATIONS": 1.0, "EVALUATE_INVESTMENTS": 1.0, "PLAN_INITIATIVES": 1.0, "STRATEGIC_PLANNING": 1.0, "RESPOND_TO_INCIDENT": 0.0, "AUDIT_COMPLIANCE": 0.0}}
+{"text": "Reconstruct the attack timeline and build a complete incident timeline for the investigation", "intents": {"RECONSTRUCT_ATTACK": 1.0, "BUILD_INCIDENT_TIMELINE": 1.0, "BUILD_TIMELINE": 0.0, "ANALYZE_INCIDENT": 0.0}}
+{"text": "Coordinate response across multiple business units vendors and regulators", "intents": {"COORDINATE_RESPONSE": 1.0, "MANAGE_TEAMS": 1.0, "LIAISE_VENDORS": 1.0, "NOTIFY_REGULATORS": 1.0, "RESPOND_TO_INCIDENT": 1.0, "AUDIT_COMPLIANCE": 0.0}}
+{"text": "Assess incident response tool effectiveness and integration capabilities", "intents": {"ASSESS_TOOLS": 1.0, "EVALUATE_EFFECTIVENESS": 1.0, "REVIEW_INTEGRATION": 1.0, "MAKE_RECOMMENDATIONS": 1.0, "RESPOND_TO_INCIDENT": 0.0, "AUDIT_COMPLIANCE": 0.0}}
+{"text": "Execute the incident response playbook and runbook for ransomware containment", "intents": {"EXECUTE_INCIDENT_PLAYBOOK": 1.0, "EXECUTE_RUNBOOK": 1.0, "EXECUTE_RESPONSE_PLAYBOOK": 1.0, "EXECUTE_PLAYBOOKS": 0.0}}
+{"text": "Make recommendations for incident response platform investments", "intents": {"MAKE_RECOMMENDATIONS": 1.0, "EVALUATE_INVESTMENTS": 1.0, "PLAN_INITIATIVES": 1.0, "STRATEGIC_PLANNING": 1.0, "RESPOND_TO_INCIDENT": 0.0, "AUDIT_COMPLIANCE": 0.0}}
+{"text": "Handle insider-driven incidents using insider risk playbook and DLP data", "intents": {"HANDLE_INSIDER": 1.0, "USE_PLAYBOOK": 1.0, "ANALYZE_DLP": 1.0, "INVESTIGATE_ABUSE": 1.0, "RESPOND_TO_INCIDENT": 1.0, "AUDIT_COMPLIANCE": 0.0}}
+{"text": "Generate IR performance metrics including MTTD MTTR and automated response rate", "intents": {"GENERATE_METRICS": 1.0, "MEASURE_MTTD": 1.0, "MEASURE_MTTR": 1.0, "CALCULATE_AUTOMATION": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Restore systems from clean backups validating with file integrity and EDR scans", "intents": {"RESTORE_SYSTEMS": 1.0, "VALIDATE_RESTORE": 1.0, "CHECK_INTEGRITY": 1.0, "SCAN_ENDPOINTS": 1.0, "RESPOND_TO_INCIDENT": 1.0, "AUDIT_COMPLIANCE": 0.0}}
+{"text": "Conduct post-incident review documenting strengths gaps and improvements", "intents": {"CONDUCT_REVIEW": 1.0, "DOCUMENT_STRENGTHS": 1.0, "IDENTIFY_GAPS": 1.0, "CAPTURE_IMPROVEMENTS": 1.0, "RESPOND_TO_INCIDENT": 1.0, "AUDIT_COMPLIANCE": 0.0}}
+{"text": "Document incident and capture lessons learned", "intents": {"DOCUMENT_INCIDENT": 1.0, "CAPTURE_LEARNINGS": 1.0, "RESPOND_TO_INCIDENT": 1.0, "IMPROVE_PROCESSES": 1.0, "AUDIT_COMPLIANCE": 0.0, "DEFINE_STRATEGY": 0.0}}
+{"text": "I need to contain the incident by isolating the affected endpoint and blocking the malicious IP address", "intents": {"CONTAIN_INCIDENT": 1.0, "CONTAIN_ENDPOINT": 1.0, "CONTAIN_NETWORK": 1.0, "ISOLATE_INCIDENT": 1.0, "RESPOND_TO_INCIDENT": 1.0, "BLOCK_IP": 0.0}}
+{"text": "Coordinate response across multiple business units vendors and regulators", "intents": {"COORDINATE_RESPONSE": 1.0, "MANAGE_TEAMS": 1.0, "LIAISE_VENDORS": 1.0, "NOTIFY_REGULATORS": 1.0, "RESPOND_TO_INCIDENT": 1.0, "AUDIT_COMPLIANCE": 0.0}}
+{"text": "Report the data breach to regulators and notify all affected data subjects within 72 hours", "intents": {"REPORT_BREACH": 1.0, "REPORT_TO_REGULATOR": 1.0, "NOTIFY_DATA_SUBJECTS": 1.0, "FULFILL_BREACH_NOTIFICATION": 1.0, "NOTIFY_REGULATORS": 0.0}}
+{"text": "Recover the incident by restoring systems from clean backups and resuming business operations", "intents": {"RECOVER_INCIDENT": 1.0, "RECOVER_FROM_BACKUP": 1.0, "RESTORE_BUSINESS_OPERATIONS": 1.0, "RESUME_OPERATIONS": 1.0, "RESTORE_SERVICES": 0.0}}
+{"text": "Remove malicious artifacts and persistence using EDR and forensic tools validating cleanup", "intents": {"REMOVE_MALWARE": 1.0, "CLEAN_PERSISTENCE": 1.0, "VALIDATE_CLEANUP": 1.0, "ERADICATE_THREAT": 1.0, "RESPOND_TO_INCIDENT": 1.0, "AUDIT_COMPLIANCE": 0.0}}
+{"text": "Conduct post-incident review documenting strengths gaps and improvements", "intents": {"CONDUCT_REVIEW": 1.0, "DOCUMENT_STRENGTHS": 1.0, "IDENTIFY_GAPS": 1.0, "CAPTURE_IMPROVEMENTS": 1.0, "RESPOND_TO_INCIDENT": 1.0, "AUDIT_COMPLIANCE": 0.0}}
+{"text": "Eradicate the malware from all infected systems and remove persistence mechanisms", "intents": {"ERADICATE_MALWARE": 1.0, "ERADICATE_PERSISTENCE": 1.0, "ERADICATE_THREAT": 0.0, "QUARANTINE_MALWARE": 0.0}}
+{"text": "Maintain legal chain of custody logging evidence handling ownership and transfers", "intents": {"MAINTAIN_CUSTODY": 1.0, "LOG_EVIDENCE": 1.0, "TRACK_OWNERSHIP": 1.0, "DOCUMENT_TRANSFERS": 1.0, "RESPOND_TO_INCIDENT": 1.0, "AUDIT_COMPLIANCE": 1.0}}
+{"text": "Document lessons learned and incident response improvements", "intents": {"DOCUMENT_LEARNINGS": 1.0, "CAPTURE_IMPROVEMENTS": 1.0, "IMPROVE_PROCESSES": 1.0, "ENHANCE_RESPONSE": 1.0, "RESPOND_TO_INCIDENT": 0.0, "AUDIT_COMPLIANCE": 0.0}}
+{"text": "Conduct post-incident review and document lessons learned from this security breach", "intents": {"POST_INCIDENT_REVIEW": 1.0, "POST_MORTEM": 1.0, "LESSONS_LEARNED": 1.0, "REVIEW_INCIDENT": 0.0}}
+{"text": "Coordinate response across multiple business units vendors and regulators", "intents": {"COORDINATE_RESPONSE": 1.0, "MANAGE_TEAMS": 1.0, "LIAISE_VENDORS": 1.0, "NOTIFY_REGULATORS": 1.0, "RESPOND_TO_INCIDENT": 1.0, "AUDIT_COMPLIANCE": 0.0}}
+{"text": "Remove malware and restore systems from clean backups", "intents": {"REMOVE_MALWARE": 1.0, "RESTORE_SYSTEMS": 1.0, "RESPOND_TO_INCIDENT": 1.0, "RECOVER_SERVICES": 1.0, "AUDIT_COMPLIANCE": 0.0, "DEFINE_STRATEGY": 0.0}}
+{"text": "Execute the incident response playbook and runbook for ransomware containment", "intents": {"EXECUTE_INCIDENT_PLAYBOOK": 1.0, "EXECUTE_RUNBOOK": 1.0, "EXECUTE_RESPONSE_PLAYBOOK": 1.0, "EXECUTE_PLAYBOOKS": 0.0}}
+{"text": "Conduct IR simulation exercises including tabletop and red team measuring readiness", "intents": {"CONDUCT_SIMULATIONS": 1.0, "RUN_TABLETOP": 1.0, "EXECUTE_RED_TEAM": 1.0, "MEASURE_READINESS": 1.0, "RESPOND_TO_INCIDENT": 0.0, "AUDIT_COMPLIANCE": 0.0}}
+{"text": "Validate incident response policies and compliance requirements", "intents": {"VALIDATE_POLICIES": 1.0, "CHECK_COMPLIANCE": 1.0, "AUDIT_COMPLIANCE": 1.0, "REVIEW_REQUIREMENTS": 1.0, "RESPOND_TO_INCIDENT": 0.0, "DEFINE_STRATEGY": 0.0}}
+{"text": "Eradicate the malware from all infected systems and remove persistence mechanisms", "intents": {"ERADICATE_MALWARE": 1.0, "ERADICATE_PERSISTENCE": 1.0, "ERADICATE_THREAT": 0.0, "QUARANTINE_MALWARE": 0.0}}
+{"text": "Conduct IR simulation exercises including tabletop and red team measuring readiness", "intents": {"CONDUCT_SIMULATIONS": 1.0, "RUN_TABLETOP": 1.0, "EXECUTE_RED_TEAM": 1.0, "MEASURE_READINESS": 1.0, "RESPOND_TO_INCIDENT": 0.0, "AUDIT_COMPLIANCE": 0.0}}
+{"text": "Conduct post-incident review documenting strengths gaps and improvements", "intents": {"CONDUCT_REVIEW": 1.0, "DOCUMENT_STRENGTHS": 1.0, "IDENTIFY_GAPS": 1.0, "CAPTURE_IMPROVEMENTS": 1.0, "RESPOND_TO_INCIDENT": 1.0, "AUDIT_COMPLIANCE": 0.0}}
+{"text": "Assess incident response tool effectiveness and integration capabilities", "intents": {"ASSESS_TOOLS": 1.0, "EVALUATE_EFFECTIVENESS": 1.0, "REVIEW_INTEGRATION": 1.0, "MAKE_RECOMMENDATIONS": 1.0, "RESPOND_TO_INCIDENT": 0.0, "AUDIT_COMPLIANCE": 0.0}}
+{"text": "Perform memory forensics on the compromised system and analyze the disk image for artifacts", "intents": {"PERFORM_MEMORY_FORENSICS": 1.0, "PERFORM_DISK_FORENSICS": 1.0, "ANALYZE_MEMORY_DUMP": 1.0, "ANALYZE_DISK_IMAGE": 1.0, "EXTRACT_ARTIFACTS": 1.0, "FORENSIC_ANALYSIS": 0.0}}
+{"text": "Generate IR performance metrics including MTTD MTTR and automated response rate", "intents": {"GENERATE_METRICS": 1.0, "MEASURE_MTTD": 1.0, "MEASURE_MTTR": 1.0, "CALCULATE_AUTOMATION": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Reconstruct the attack timeline and build a complete incident timeline for the investigation", "intents": {"RECONSTRUCT_ATTACK": 1.0, "BUILD_INCIDENT_TIMELINE": 1.0, "BUILD_TIMELINE": 0.0, "ANALYZE_INCIDENT": 0.0}}
+{"text": "Execute automated response workflows including account disablement IP blocking and isolation", "intents": {"EXECUTE_AUTOMATION": 1.0, "DISABLE_ACCOUNTS": 1.0, "BLOCK_IPS": 1.0, "ISOLATE_ENDPOINTS": 1.0, "RESPOND_TO_INCIDENT": 1.0, "AUDIT_COMPLIANCE": 0.0}}
+{"text": "Document incident and capture lessons learned", "intents": {"DOCUMENT_INCIDENT": 1.0, "CAPTURE_LEARNINGS": 1.0, "RESPOND_TO_INCIDENT": 1.0, "IMPROVE_PROCESSES": 1.0, "AUDIT_COMPLIANCE": 0.0, "DEFINE_STRATEGY": 0.0}}
+{"text": "Review incident response vendor postures and certifications", "intents": {"REVIEW_VENDORS": 1.0, "ASSESS_CERTIFICATIONS": 1.0, "EVALUATE_VENDORS": 1.0, "MANAGE_RISKS": 1.0, "RESPOND_TO_INCIDENT": 0.0, "AUDIT_COMPLIANCE": 0.0}}
+{"text": "Report the data breach to regulators and notify all affected data subjects within 72 hours", "intents": {"REPORT_BREACH": 1.0, "REPORT_TO_REGULATOR": 1.0, "NOTIFY_DATA_SUBJECTS": 1.0, "FULFILL_BREACH_NOTIFICATION": 1.0, "NOTIFY_REGULATORS": 0.0}}
+{"text": "Perform manual containment when automation insufficient using EDR firewall and containment tools", "intents": {"PERFORM_CONTAINMENT": 1.0, "ISOLATE_ASSETS": 1.0, "BLOCK_TRAFFIC": 1.0, "SECURE_SYSTEMS": 1.0, "RESPOND_TO_INCIDENT": 1.0, "AUDIT_COMPLIANCE": 0.0}}
+{"text": "Perform manual containment when automation insufficient using EDR firewall and containment tools", "intents": {"PERFORM_CONTAINMENT": 1.0, "ISOLATE_ASSETS": 1.0, "BLOCK_TRAFFIC": 1.0, "SECURE_SYSTEMS": 1.0, "RESPOND_TO_INCIDENT": 1.0, "AUDIT_COMPLIANCE": 0.0}}
+{"text": "Communicate incident status to executives regulators and customers", "intents": {"COMMUNICATE_STATUS": 1.0, "BRIEF_EXECUTIVES": 1.0, "NOTIFY_REGULATORS": 1.0, "INFORM_CUSTOMERS": 1.0, "RESPOND_TO_INCIDENT": 1.0, "AUDIT_COMPLIANCE": 0.0}}
+{"text": "I need to investigate security incident detected in SIEM", "intents": {"INVESTIGATE_INCIDENT": 1.0, "ANALYZE_SIEM": 1.0, "ASSESS_RISK": 1.0, "RESPOND_TO_INCIDENT": 1.0, "AUDIT_COMPLIANCE": 0.0, "DEFINE_STRATEGY": 0.0}}
+{"text": "Document incident and capture lessons learned", "intents": {"DOCUMENT_INCIDENT": 1.0, "CAPTURE_LEARNINGS": 1.0, "RESPOND_TO_INCIDENT": 1.0, "IMPROVE_PROCESSES": 1.0, "AUDIT_COMPLIANCE": 0.0, "DEFINE_STRATEGY": 0.0}}
+{"text": "Communicate incident status to executives regulators and customers", "intents": {"COMMUNICATE_STATUS": 1.0, "BRIEF_EXECUTIVES": 1.0, "NOTIFY_REGULATORS": 1.0, "INFORM_CUSTOMERS": 1.0, "RESPOND_TO_INCIDENT": 1.0, "AUDIT_COMPLIANCE": 0.0}}
+{"text": "Engage external MDR MSSP providers exchanging telemetry and containment actions", "intents": {"ENGAGE_MDR": 1.0, "EXCHANGE_TELEMETRY": 1.0, "SHARE_IOCS": 1.0, "EXECUTE_CONTAINMENT": 1.0, "RESPOND_TO_INCIDENT": 1.0, "AUDIT_COMPLIANCE": 0.0}}
+{"text": "I need to contain the incident by isolating the affected endpoint and blocking the malicious IP address", "intents": {"CONTAIN_INCIDENT": 1.0, "CONTAIN_ENDPOINT": 1.0, "CONTAIN_NETWORK": 1.0, "ISOLATE_INCIDENT": 1.0, "RESPOND_TO_INCIDENT": 1.0, "BLOCK_IP": 0.0}}
+{"text": "Maintain legal chain of custody logging evidence handling ownership and transfers", "intents": {"MAINTAIN_CUSTODY": 1.0, "LOG_EVIDENCE": 1.0, "TRACK_OWNERSHIP": 1.0, "DOCUMENT_TRANSFERS": 1.0, "RESPOND_TO_INCIDENT": 1.0, "AUDIT_COMPLIANCE": 1.0}}
+{"text": "Coordinate with legal counsel and cyber insurance ensuring compliance and claims", "intents": {"COORDINATE_LEGAL": 1.0, "LIAISE_INSURANCE": 1.0, "ENSURE_COMPLIANCE": 1.0, "SUBMIT_CLAIMS": 1.0, "RESPOND_TO_INCIDENT": 1.0, "AUDIT_COMPLIANCE": 1.0}}
+{"text": "Assess incident response tool effectiveness and integration capabilities", "intents": {"ASSESS_TOOLS": 1.0, "EVALUATE_EFFECTIVENESS": 1.0, "REVIEW_INTEGRATION": 1.0, "MAKE_RECOMMENDATIONS": 1.0, "RESPOND_TO_INCIDENT": 0.0, "AUDIT_COMPLIANCE": 0.0}}
+{"text": "I need to monitor and triage alerts classifying as false positive informational or incident", "intents": {"MONITOR_ALERTS": 1.0, "TRIAGE_ALERTS": 1.0, "CLASSIFY_ALERTS": 1.0, "ESCALATE_INCIDENTS": 1.0, "RESPOND_TO_INCIDENT": 1.0, "AUDIT_COMPLIANCE": 0.0}}
+{"text": "Engage external MDR MSSP providers exchanging telemetry and containment actions", "intents": {"ENGAGE_MDR": 1.0, "EXCHANGE_TELEMETRY": 1.0, "SHARE_IOCS": 1.0, "EXECUTE_CONTAINMENT": 1.0, "RESPOND_TO_INCIDENT": 1.0, "AUDIT_COMPLIANCE": 0.0}}
+{"text": "Maintain legal chain of custody logging evidence handling ownership and transfers", "intents": {"MAINTAIN_CUSTODY": 1.0, "LOG_EVIDENCE": 1.0, "TRACK_OWNERSHIP": 1.0, "DOCUMENT_TRANSFERS": 1.0, "RESPOND_TO_INCIDENT": 1.0, "AUDIT_COMPLIANCE": 1.0}}
+{"text": "Update incident response playbooks and improve automation", "intents": {"UPDATE_PLAYBOOKS": 1.0, "IMPROVE_AUTOMATION": 1.0, "ENHANCE_RESPONSE": 1.0, "MAINTAIN_SYSTEMS": 1.0, "RESPOND_TO_INCIDENT": 1.0, "AUDIT_COMPLIANCE": 0.0}}
+{"text": "Make recommendations for incident response platform investments", "intents": {"MAKE_RECOMMENDATIONS": 1.0, "EVALUATE_INVESTMENTS": 1.0, "PLAN_INITIATIVES": 1.0, "STRATEGIC_PLANNING": 1.0, "RESPOND_TO_INCIDENT": 0.0, "AUDIT_COMPLIANCE": 0.0}}
+{"text": "Execute automated response workflows including account disablement IP blocking and isolation", "intents": {"EXECUTE_AUTOMATION": 1.0, "DISABLE_ACCOUNTS": 1.0, "BLOCK_IPS": 1.0, "ISOLATE_ENDPOINTS": 1.0, "RESPOND_TO_INCIDENT": 1.0, "AUDIT_COMPLIANCE": 0.0}}
+{"text": "Report the data breach to regulators and notify all affected data subjects within 72 hours", "intents": {"REPORT_BREACH": 1.0, "REPORT_TO_REGULATOR": 1.0, "NOTIFY_DATA_SUBJECTS": 1.0, "FULFILL_BREACH_NOTIFICATION": 1.0, "NOTIFY_REGULATORS": 0.0}}
+{"text": "Review incident response architecture and update design principles", "intents": {"REVIEW_ARCHITECTURE": 1.0, "UPDATE_DESIGN": 1.0, "DEFINE_STRATEGY": 1.0, "IMPROVE_RESPONSE": 1.0, "RESPOND_TO_INCIDENT": 0.0, "AUDIT_COMPLIANCE": 0.0}}
+{"text": "Simulate security incidents and validate response procedures", "intents": {"SIMULATE_INCIDENTS": 1.0, "TEST_RESPONSE": 1.0, "VALIDATE_PROCEDURES": 1.0, "IMPROVE_READINESS": 1.0, "RESPOND_TO_INCIDENT": 0.0, "AUDIT_COMPLIANCE": 0.0}}
+{"text": "Perform forensic collection and analysis building root cause and timeline", "intents": {"PERFORM_FORENSICS": 1.0, "COLLECT_EVIDENCE": 1.0, "ANALYZE_ARTIFACTS": 1.0, "BUILD_TIMELINE": 1.0, "RESPOND_TO_INCIDENT": 1.0, "AUDIT_COMPLIANCE": 0.0}}
+{"text": "Reconstruct the attack timeline and build a complete incident timeline for the investigation", "intents": {"RECONSTRUCT_ATTACK": 1.0, "BUILD_INCIDENT_TIMELINE": 1.0, "BUILD_TIMELINE": 0.0, "ANALYZE_INCIDENT": 0.0}}
+{"text": "Review incident response architecture and update design principles", "intents": {"REVIEW_ARCHITECTURE": 1.0, "UPDATE_DESIGN": 1.0, "DEFINE_STRATEGY": 1.0, "IMPROVE_RESPONSE": 1.0, "RESPOND_TO_INCIDENT": 0.0, "AUDIT_COMPLIANCE": 0.0}}
+{"text": "Conduct post-incident review and document lessons learned from this security breach", "intents": {"POST_INCIDENT_REVIEW": 1.0, "POST_MORTEM": 1.0, "LESSONS_LEARNED": 1.0, "REVIEW_INCIDENT": 0.0}}
+{"text": "Update incident response playbooks and improve automation", "intents": {"UPDATE_PLAYBOOKS": 1.0, "IMPROVE_AUTOMATION": 1.0, "ENHANCE_RESPONSE": 1.0, "MAINTAIN_SYSTEMS": 1.0, "RESPOND_TO_INCIDENT": 1.0, "AUDIT_COMPLIANCE": 0.0}}
+{"text": "Remove malicious artifacts and persistence using EDR and forensic tools validating cleanup", "intents": {"REMOVE_MALWARE": 1.0, "CLEAN_PERSISTENCE": 1.0, "VALIDATE_CLEANUP": 1.0, "ERADICATE_THREAT": 1.0, "RESPOND_TO_INCIDENT": 1.0, "AUDIT_COMPLIANCE": 0.0}}
+{"text": "Scan the GitHub repository for vulnerabilities", "intents": {"ANALYZE_GITHUB_REPO": 1.0}}
+{"text": "Investigate a repo for security issues", "intents": {"ANALYZE_GITHUB_REPO": 1.0}}
+{"text": "Review a repo code for potential threats", "intents": {"ANALYZE_GITHUB_REPO": 1.0}}
+{"text": "Review the repository code for potential threats", "intents": {"ANALYZE_GITHUB_REPO": 1.0}}
+{"text": "Investigate the repository for security issues", "intents": {"ANALYZE_GITHUB_REPO": 1.0}}
+{"text": "Scan the github repository for vulnerabilities", "intents": {"ANALYZE_GITHUB_REPO": 1.0}}
+{"text": "Scan a GitHub repo for vulnerabilities", "intents": {"ANALYZE_GITHUB_REPO": 1.0}}
+{"text": "Analyze the github repository for security vulnerabilities", "intents": {"ANALYZE_GITHUB_REPO": 1.0}}
+{"text": "Analyze the github repository for security vulnerabilities", "intents": {"ANALYZE_GITHUB_REPO": 1.0}}
+{"text": "Analyze a GitHub repo for security vulnerabilities", "intents": {"ANALYZE_GITHUB_REPO": 1.0}}
+{"text": "Examine a GitHub repo for malicious code", "intents": {"ANALYZE_GITHUB_REPO": 1.0}}
+{"text": "Investigate a repo for security issues", "intents": {"ANALYZE_GITHUB_REPO": 1.0}}
+{"text": "Investigate a repo for security issues", "intents": {"ANALYZE_GITHUB_REPO": 1.0}}
+{"text": "Examine the GitHub repo for malicious code", "intents": {"ANALYZE_GITHUB_REPO": 1.0}}
+{"text": "Investigate a repo for security issues", "intents": {"ANALYZE_GITHUB_REPO": 1.0}}
+{"text": "Investigate a repo for security issues", "intents": {"ANALYZE_GITHUB_REPO": 1.0}}
+{"text": "Scan the github repository for vulnerabilities", "intents": {"ANALYZE_GITHUB_REPO": 1.0}}
+{"text": "Investigate the repository for security issues", "intents": {"ANALYZE_GITHUB_REPO": 1.0}}
+{"text": "Examine a github repo for malicious code", "intents": {"ANALYZE_GITHUB_REPO": 1.0}}
+{"text": "Scan the github repository for vulnerabilities", "intents": {"ANALYZE_GITHUB_REPO": 1.0}}
+{"text": "Monitor repository for suspicious activity", "intents": {"MONITOR_GITHUB_REPO": 1.0}}
+{"text": "Keep track of repository changes", "intents": {"MONITOR_GITHUB_REPO": 1.0}}
+{"text": "Monitor repo for suspicious activity", "intents": {"MONITOR_GITHUB_REPO": 1.0}}
+{"text": "Keep track of repository changes", "intents": {"MONITOR_GITHUB_REPO": 1.0}}
+{"text": "Watch for new commits in the repository", "intents": {"MONITOR_GITHUB_REPO": 1.0}}
+{"text": "Monitor repo for suspicious activity", "intents": {"MONITOR_GITHUB_REPO": 1.0}}
+{"text": "Keep track of repository changes", "intents": {"MONITOR_GITHUB_REPO": 1.0}}
+{"text": "Monitor the GitHub repository for changes", "intents": {"MONITOR_GITHUB_REPO": 1.0}}
+{"text": "Watch for new commits in a repo", "intents": {"MONITOR_GITHUB_REPO": 1.0}}
+{"text": "Track repo activity and updates", "intents": {"MONITOR_GITHUB_REPO": 1.0}}
+{"text": "Watch for new commits in the repository", "intents": {"MONITOR_GITHUB_REPO": 1.0}}
+{"text": "Track repo activity and updates", "intents": {"MONITOR_GITHUB_REPO": 1.0}}
+{"text": "Monitor repository for suspicious activity", "intents": {"MONITOR_GITHUB_REPO": 1.0}}
+{"text": "Keep track of repo changes", "intents": {"MONITOR_GITHUB_REPO": 1.0}}
+{"text": "Watch for new commits in the repository", "intents": {"MONITOR_GITHUB_REPO": 1.0}}
+{"text": "Keep track of repo changes", "intents": {"MONITOR_GITHUB_REPO": 1.0}}
+{"text": "Monitor repository for suspicious activity", "intents": {"MONITOR_GITHUB_REPO": 1.0}}
+{"text": "Keep track of repository changes", "intents": {"MONITOR_GITHUB_REPO": 1.0}}
+{"text": "Watch for new commits in a repo", "intents": {"MONITOR_GITHUB_REPO": 1.0}}
+{"text": "Monitor repository for suspicious activity", "intents": {"MONITOR_GITHUB_REPO": 1.0}}
+{"text": "Get a copy of the repository", "intents": {"CLONE_GITHUB_REPO": 1.0}}
+{"text": "Download the repository for investigation", "intents": {"CLONE_GITHUB_REPO": 1.0}}
+{"text": "Download the repository for investigation", "intents": {"CLONE_GITHUB_REPO": 1.0}}
+{"text": "Download repository code", "intents": {"CLONE_GITHUB_REPO": 1.0}}
+{"text": "Download the repository for investigation", "intents": {"CLONE_GITHUB_REPO": 1.0}}
+{"text": "Clone the github repository for analysis", "intents": {"CLONE_GITHUB_REPO": 1.0}}
+{"text": "Clone the GitHub repository for analysis", "intents": {"CLONE_GITHUB_REPO": 1.0}}
+{"text": "Download repository code", "intents": {"CLONE_GITHUB_REPO": 1.0}}
+{"text": "Clone the GitHub repository for analysis", "intents": {"CLONE_GITHUB_REPO": 1.0}}
+{"text": "Clone a GitHub repo for analysis", "intents": {"CLONE_GITHUB_REPO": 1.0}}
+{"text": "Clone repo for security review", "intents": {"CLONE_GITHUB_REPO": 1.0}}
+{"text": "Clone the GitHub repository for analysis", "intents": {"CLONE_GITHUB_REPO": 1.0}}
+{"text": "Clone repo for security review", "intents": {"CLONE_GITHUB_REPO": 1.0}}
+{"text": "Clone repo for security review", "intents": {"CLONE_GITHUB_REPO": 1.0}}
+{"text": "Download repository code", "intents": {"CLONE_GITHUB_REPO": 1.0}}
+{"text": "Download the repository for investigation", "intents": {"CLONE_GITHUB_REPO": 1.0}}
+{"text": "Get a copy of the repository", "intents": {"CLONE_GITHUB_REPO": 1.0}}
+{"text": "Clone the GitHub repository for analysis", "intents": {"CLONE_GITHUB_REPO": 1.0}}
+{"text": "Download the repository for investigation", "intents": {"CLONE_GITHUB_REPO": 1.0}}
+{"text": "Clone repo for security review", "intents": {"CLONE_GITHUB_REPO": 1.0}}
+{"text": "Track changes in repo commits", "intents": {"TRACK_GITHUB_COMMITS": 1.0}}
+{"text": "Track changes in repo commits", "intents": {"TRACK_GITHUB_COMMITS": 1.0}}
+{"text": "Track commits in the repository", "intents": {"TRACK_GITHUB_COMMITS": 1.0}}
+{"text": "Monitor repository commit history", "intents": {"TRACK_GITHUB_COMMITS": 1.0}}
+{"text": "Monitor commit patterns", "intents": {"TRACK_GITHUB_COMMITS": 1.0}}
+{"text": "Follow commit activity in repo", "intents": {"TRACK_GITHUB_COMMITS": 1.0}}
+{"text": "Monitor commit patterns", "intents": {"TRACK_GITHUB_COMMITS": 1.0}}
+{"text": "Follow commit activity in repo", "intents": {"TRACK_GITHUB_COMMITS": 1.0}}
+{"text": "Monitor repository commit history", "intents": {"TRACK_GITHUB_COMMITS": 1.0}}
+{"text": "Track changes in repo commits", "intents": {"TRACK_GITHUB_COMMITS": 1.0}}
+{"text": "Track changes in repository commits", "intents": {"TRACK_GITHUB_COMMITS": 1.0}}
+{"text": "Follow commit activity in repo", "intents": {"TRACK_GITHUB_COMMITS": 1.0}}
+{"text": "Monitor repository commit history", "intents": {"TRACK_GITHUB_COMMITS": 1.0}}
+{"text": "Follow commit activity in repo", "intents": {"TRACK_GITHUB_COMMITS": 1.0}}
+{"text": "Monitor commit patterns", "intents": {"TRACK_GITHUB_COMMITS": 1.0}}
+{"text": "Track changes in repo commits", "intents": {"TRACK_GITHUB_COMMITS": 1.0}}
+{"text": "Follow commit activity in repo", "intents": {"TRACK_GITHUB_COMMITS": 1.0}}
+{"text": "Monitor repo commit history", "intents": {"TRACK_GITHUB_COMMITS": 1.0}}
+{"text": "Follow commit activity in repo", "intents": {"TRACK_GITHUB_COMMITS": 1.0}}
+{"text": "Monitor repository commit history", "intents": {"TRACK_GITHUB_COMMITS": 1.0}}
+{"text": "Monitor github activity for threats", "intents": {"MONITOR_GITHUB_ACTIVITY": 1.0}}
+{"text": "Watch for suspicious github activity", "intents": {"MONITOR_GITHUB_ACTIVITY": 1.0}}
+{"text": "Monitor user activity on GitHub", "intents": {"MONITOR_GITHUB_ACTIVITY": 1.0}}
+{"text": "Track repository activity patterns", "intents": {"MONITOR_GITHUB_ACTIVITY": 1.0}}
+{"text": "Monitor user activity on github", "intents": {"MONITOR_GITHUB_ACTIVITY": 1.0}}
+{"text": "Monitor user activity on github", "intents": {"MONITOR_GITHUB_ACTIVITY": 1.0}}
+{"text": "Watch for suspicious GitHub activity", "intents": {"MONITOR_GITHUB_ACTIVITY": 1.0}}
+{"text": "Watch for suspicious github activity", "intents": {"MONITOR_GITHUB_ACTIVITY": 1.0}}
+{"text": "Track repository activity patterns", "intents": {"MONITOR_GITHUB_ACTIVITY": 1.0}}
+{"text": "Watch for suspicious github activity", "intents": {"MONITOR_GITHUB_ACTIVITY": 1.0}}
+{"text": "Monitor user activity on GitHub", "intents": {"MONITOR_GITHUB_ACTIVITY": 1.0}}
+{"text": "Track GitHub organization activity", "intents": {"MONITOR_GITHUB_ACTIVITY": 1.0}}
+{"text": "Track repository activity patterns", "intents": {"MONITOR_GITHUB_ACTIVITY": 1.0}}
+{"text": "Track repository activity patterns", "intents": {"MONITOR_GITHUB_ACTIVITY": 1.0}}
+{"text": "Track GitHub organization activity", "intents": {"MONITOR_GITHUB_ACTIVITY": 1.0}}
+{"text": "Watch for suspicious GitHub activity", "intents": {"MONITOR_GITHUB_ACTIVITY": 1.0}}
+{"text": "Monitor github activity for threats", "intents": {"MONITOR_GITHUB_ACTIVITY": 1.0}}
+{"text": "Monitor user activity on GitHub", "intents": {"MONITOR_GITHUB_ACTIVITY": 1.0}}
+{"text": "Monitor GitHub activity for threats", "intents": {"MONITOR_GITHUB_ACTIVITY": 1.0}}
+{"text": "Monitor github activity for threats", "intents": {"MONITOR_GITHUB_ACTIVITY": 1.0}}
+{"text": "Detect malicious exploits in repo", "intents": {"DETECT_GITHUB_EXPLOITS": 1.0}}
+{"text": "Identify exploit code patterns", "intents": {"DETECT_GITHUB_EXPLOITS": 1.0}}
+{"text": "Detect exploit code in GitHub", "intents": {"DETECT_GITHUB_EXPLOITS": 1.0}}
+{"text": "Find exploit repositories", "intents": {"DETECT_GITHUB_EXPLOITS": 1.0}}
+{"text": "Find exploit repositories", "intents": {"DETECT_GITHUB_EXPLOITS": 1.0}}
+{"text": "Find exploit development code", "intents": {"DETECT_GITHUB_EXPLOITS": 1.0}}
+{"text": "Detect exploit code in GitHub", "intents": {"DETECT_GITHUB_EXPLOITS": 1.0}}
+{"text": "Identify exploit code patterns", "intents": {"DETECT_GITHUB_EXPLOITS": 1.0}}
+{"text": "Detect exploit code in GitHub", "intents": {"DETECT_GITHUB_EXPLOITS": 1.0}}
+{"text": "Identify exploit code patterns", "intents": {"DETECT_GITHUB_EXPLOITS": 1.0}}
+{"text": "Find exploit development code", "intents": {"DETECT_GITHUB_EXPLOITS": 1.0}}
+{"text": "Detect exploit code in github", "intents": {"DETECT_GITHUB_EXPLOITS": 1.0}}
+{"text": "Find exploit repositories", "intents": {"DETECT_GITHUB_EXPLOITS": 1.0}}
+{"text": "Find exploit repositories", "intents": {"DETECT_GITHUB_EXPLOITS": 1.0}}
+{"text": "Detect exploit code in GitHub", "intents": {"DETECT_GITHUB_EXPLOITS": 1.0}}
+{"text": "Detect exploit code in GitHub", "intents": {"DETECT_GITHUB_EXPLOITS": 1.0}}
+{"text": "Find exploit development code", "intents": {"DETECT_GITHUB_EXPLOITS": 1.0}}
+{"text": "Detect malicious exploits in repo", "intents": {"DETECT_GITHUB_EXPLOITS": 1.0}}
+{"text": "Detect malicious exploits in repo", "intents": {"DETECT_GITHUB_EXPLOITS": 1.0}}
+{"text": "Find exploit repositories", "intents": {"DETECT_GITHUB_EXPLOITS": 1.0}}
+{"text": "Analyze repository commits for threats", "intents": {"ANALYZE_GITHUB_COMMITS": 1.0}}
+{"text": "Analyze repository commits for threats", "intents": {"ANALYZE_GITHUB_COMMITS": 1.0}}
+{"text": "Check commits for malicious code", "intents": {"ANALYZE_GITHUB_COMMITS": 1.0}}
+{"text": "Check commits for malicious code", "intents": {"ANALYZE_GITHUB_COMMITS": 1.0}}
+{"text": "Analyze commit patterns", "intents": {"ANALYZE_GITHUB_COMMITS": 1.0}}
+{"text": "Examine commits for vulnerabilities", "intents": {"ANALYZE_GITHUB_COMMITS": 1.0}}
+{"text": "Examine commits for vulnerabilities", "intents": {"ANALYZE_GITHUB_COMMITS": 1.0}}
+{"text": "Examine commits for vulnerabilities", "intents": {"ANALYZE_GITHUB_COMMITS": 1.0}}
+{"text": "Analyze commit patterns", "intents": {"ANALYZE_GITHUB_COMMITS": 1.0}}
+{"text": "Analyze repo commits for threats", "intents": {"ANALYZE_GITHUB_COMMITS": 1.0}}
+{"text": "Check commits for malicious code", "intents": {"ANALYZE_GITHUB_COMMITS": 1.0}}
+{"text": "Analyze repository commits for threats", "intents": {"ANALYZE_GITHUB_COMMITS": 1.0}}
+{"text": "Check commits for malicious code", "intents": {"ANALYZE_GITHUB_COMMITS": 1.0}}
+{"text": "Review commit history for security", "intents": {"ANALYZE_GITHUB_COMMITS": 1.0}}
+{"text": "Examine commits for vulnerabilities", "intents": {"ANALYZE_GITHUB_COMMITS": 1.0}}
+{"text": "Analyze commit patterns", "intents": {"ANALYZE_GITHUB_COMMITS": 1.0}}
+{"text": "Analyze repository commits for threats", "intents": {"ANALYZE_GITHUB_COMMITS": 1.0}}
+{"text": "Analyze repo commits for threats", "intents": {"ANALYZE_GITHUB_COMMITS": 1.0}}
+{"text": "Analyze repository commits for threats", "intents": {"ANALYZE_GITHUB_COMMITS": 1.0}}
+{"text": "Check commits for malicious code", "intents": {"ANALYZE_GITHUB_COMMITS": 1.0}}

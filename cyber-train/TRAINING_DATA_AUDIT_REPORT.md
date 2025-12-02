@@ -1,476 +1,476 @@
 # Training Data Audit Report
 
-**Date:** 1764691611.2218645
+**Date:** 1764691723.7880785
 
 ## Summary
 
 - Total Files: 49
-- Total Examples: 20922
-- Total Entities: 83364
-- Average Boundary Accuracy: 57.11%
+- Total Examples: 24047
+- Total Entities: 85233
+- Average Boundary Accuracy: 99.04%
 
 ## Critical Entities
 
-- CVE_ID: 4
-- DOMAIN: 568
-- EMAIL: 504
-- EMAIL_ADDRESS: 20
-- IP_ADDRESS: 620
-- LATITUDE: 0
-- LOCATION: 312
-- LONGITUDE: 0
+- CVE_ID: 904
+- DOMAIN: 332
+- EMAIL: 256
+- EMAIL_ADDRESS: 466
+- IP_ADDRESS: 524
+- LATITUDE: 400
+- LOCATION: 304
+- LONGITUDE: 400
 - ORGANIZATION: 424
 - PERSON: 560
-- PHONE_NUMBER: 48
-- THREAT_ACTOR: 28
-- WALLET_ADDRESS: 0
+- PHONE_NUMBER: 383
+- THREAT_ACTOR: 828
+- WALLET_ADDRESS: 200
 
 ## Issues
 
 - Misclassified: 0
-- Boundary Issues: 35868
-- Missing Entities: 3408
+- Boundary Issues: 1095
+- Missing Entities: 3923
 
 ## Per-File Results
 
 ### ai_security_entities.jsonl
 
-- Examples: 994
-- Entities: 1952
-- Boundary Accuracy: 55.94%
+- Examples: 1177
+- Entities: 2123
+- Boundary Accuracy: 100.00%
 - Misclassified: 0
-- Boundary Issues: 860
+- Boundary Issues: 0
 - Missing: 20
 
 ### api_security_entities.jsonl
 
 - Examples: 440
 - Entities: 1240
-- Boundary Accuracy: 61.61%
+- Boundary Accuracy: 100.00%
 - Misclassified: 0
-- Boundary Issues: 476
+- Boundary Issues: 0
 - Missing: 0
 
 ### application_security_entities.jsonl
 
-- Examples: 458
-- Entities: 1052
-- Boundary Accuracy: 62.74%
+- Examples: 642
+- Entities: 1236
+- Boundary Accuracy: 100.00%
 - Misclassified: 0
-- Boundary Issues: 392
-- Missing: 12
+- Boundary Issues: 0
+- Missing: 164
 
 ### audit_compliance_entities.jsonl
 
 - Examples: 454
-- Entities: 1108
-- Boundary Accuracy: 49.82%
+- Entities: 1100
+- Boundary Accuracy: 100.00%
 - Misclassified: 0
-- Boundary Issues: 556
-- Missing: 8
+- Boundary Issues: 0
+- Missing: 12
 
 ### authentication_entities.jsonl
 
 - Examples: 440
-- Entities: 1316
-- Boundary Accuracy: 65.96%
+- Entities: 1284
+- Boundary Accuracy: 100.00%
 - Misclassified: 0
-- Boundary Issues: 448
+- Boundary Issues: 0
 - Missing: 0
 
 ### authorization_entities.jsonl
 
 - Examples: 440
-- Entities: 1356
-- Boundary Accuracy: 60.77%
+- Entities: 1288
+- Boundary Accuracy: 100.00%
 - Misclassified: 0
-- Boundary Issues: 532
+- Boundary Issues: 0
 - Missing: 0
 
 ### cloud_security_cnapp_entities.jsonl
 
 - Examples: 458
-- Entities: 1272
-- Boundary Accuracy: 54.40%
+- Entities: 1260
+- Boundary Accuracy: 100.00%
 - Misclassified: 0
-- Boundary Issues: 580
+- Boundary Issues: 0
 - Missing: 0
 
 ### container_security_entities.jsonl
 
 - Examples: 440
-- Entities: 1504
-- Boundary Accuracy: 62.23%
+- Entities: 1488
+- Boundary Accuracy: 100.00%
 - Misclassified: 0
-- Boundary Issues: 568
+- Boundary Issues: 0
 - Missing: 0
 
 ### data_privacy_sovereignty_entities.jsonl
 
-- Examples: 462
-- Entities: 1168
-- Boundary Accuracy: 48.63%
+- Examples: 732
+- Entities: 1402
+- Boundary Accuracy: 92.37%
 - Misclassified: 0
-- Boundary Issues: 600
-- Missing: 24
+- Boundary Issues: 107
+- Missing: 28
 
 ### data_protection_backup_entities.jsonl
 
 - Examples: 462
-- Entities: 1580
-- Boundary Accuracy: 67.85%
+- Entities: 1564
+- Boundary Accuracy: 100.00%
 - Misclassified: 0
-- Boundary Issues: 508
-- Missing: 12
+- Boundary Issues: 0
+- Missing: 16
 
 ### detection_correlation_entities.jsonl
 
 - Examples: 440
-- Entities: 1232
-- Boundary Accuracy: 66.88%
+- Entities: 1224
+- Boundary Accuracy: 100.00%
 - Misclassified: 0
-- Boundary Issues: 408
+- Boundary Issues: 0
 - Missing: 0
 
 ### disaster_recovery_entities.jsonl
 
 - Examples: 440
-- Entities: 1244
-- Boundary Accuracy: 65.92%
+- Entities: 1240
+- Boundary Accuracy: 100.00%
 - Misclassified: 0
-- Boundary Issues: 424
+- Boundary Issues: 0
 - Missing: 0
 
 ### due_diligence_entities.jsonl
 
 - Examples: 145
 - Entities: 392
-- Boundary Accuracy: 56.12%
+- Boundary Accuracy: 100.00%
 - Misclassified: 0
-- Boundary Issues: 172
+- Boundary Issues: 0
 - Missing: 0
 
 ### encryption_entities.jsonl
 
 - Examples: 484
-- Entities: 1624
-- Boundary Accuracy: 54.68%
+- Entities: 1612
+- Boundary Accuracy: 100.00%
 - Misclassified: 0
-- Boundary Issues: 736
+- Boundary Issues: 0
 - Missing: 8
 
 ### endpoint_security_entities.jsonl
 
 - Examples: 440
-- Entities: 1560
-- Boundary Accuracy: 66.41%
+- Entities: 1544
+- Boundary Accuracy: 100.00%
 - Misclassified: 0
-- Boundary Issues: 524
+- Boundary Issues: 0
 - Missing: 4
 
 ### governance_risk_strategy_entities.jsonl
 
 - Examples: 440
-- Entities: 1380
-- Boundary Accuracy: 60.00%
+- Entities: 1376
+- Boundary Accuracy: 100.00%
 - Misclassified: 0
-- Boundary Issues: 552
+- Boundary Issues: 0
 - Missing: 0
 
 ### identity_governance_iga_entities.jsonl
 
 - Examples: 150
-- Entities: 480
-- Boundary Accuracy: 58.33%
+- Entities: 476
+- Boundary Accuracy: 100.00%
 - Misclassified: 0
-- Boundary Issues: 200
+- Boundary Issues: 0
 - Missing: 0
 
 ### incident_response_entities.jsonl
 
-- Examples: 141
-- Entities: 376
-- Boundary Accuracy: 58.51%
+- Examples: 703
+- Entities: 934
+- Boundary Accuracy: 94.97%
 - Misclassified: 0
-- Boundary Issues: 156
-- Missing: 8
+- Boundary Issues: 47
+- Missing: 177
 
 ### network_security_entities.jsonl
 
-- Examples: 458
-- Entities: 1604
-- Boundary Accuracy: 68.08%
+- Examples: 541
+- Entities: 1671
+- Boundary Accuracy: 100.00%
 - Misclassified: 0
-- Boundary Issues: 512
+- Boundary Issues: 0
 - Missing: 4
 
 ### ai-int_entities.jsonl
 
-- Examples: 448
-- Entities: 3340
-- Boundary Accuracy: 57.49%
+- Examples: 548
+- Entities: 3540
+- Boundary Accuracy: 94.35%
 - Misclassified: 0
-- Boundary Issues: 1420
+- Boundary Issues: 200
 - Missing: 8
 
 ### comint_entities.jsonl
 
-- Examples: 444
-- Entities: 2288
-- Boundary Accuracy: 67.66%
+- Examples: 664
+- Entities: 2368
+- Boundary Accuracy: 89.40%
 - Misclassified: 0
-- Boundary Issues: 740
-- Missing: 404
+- Boundary Issues: 251
+- Missing: 336
 
 ### cybint_entities.jsonl
 
-- Examples: 448
-- Entities: 1704
-- Boundary Accuracy: 60.80%
+- Examples: 654
+- Entities: 1894
+- Boundary Accuracy: 100.00%
 - Misclassified: 0
-- Boundary Issues: 668
-- Missing: 264
+- Boundary Issues: 0
+- Missing: 259
 
 ### darkint_entities.jsonl
 
-- Examples: 444
-- Entities: 2228
-- Boundary Accuracy: 46.68%
+- Examples: 484
+- Entities: 2268
+- Boundary Accuracy: 100.00%
 - Misclassified: 0
-- Boundary Issues: 1188
+- Boundary Issues: 0
 - Missing: 8
 
 ### digint_entities.jsonl
 
 - Examples: 440
 - Entities: 2548
-- Boundary Accuracy: 73.31%
+- Boundary Accuracy: 100.00%
 - Misclassified: 0
-- Boundary Issues: 680
+- Boundary Issues: 0
 - Missing: 80
 
 ### dnint_entities.jsonl
 
 - Examples: 440
-- Entities: 2424
-- Boundary Accuracy: 52.97%
+- Entities: 2272
+- Boundary Accuracy: 100.00%
 - Misclassified: 0
-- Boundary Issues: 1140
+- Boundary Issues: 0
 - Missing: 80
 
 ### domain_intel_entities.jsonl
 
 - Examples: 448
-- Entities: 2580
-- Boundary Accuracy: 44.81%
+- Entities: 2416
+- Boundary Accuracy: 100.00%
 - Misclassified: 0
-- Boundary Issues: 1424
+- Boundary Issues: 0
 - Missing: 160
 
 ### ecoint_entities.jsonl
 
 - Examples: 440
 - Entities: 2624
-- Boundary Accuracy: 32.93%
+- Boundary Accuracy: 100.00%
 - Misclassified: 0
-- Boundary Issues: 1760
+- Boundary Issues: 0
 - Missing: 160
 
 ### eduint_entities.jsonl
 
 - Examples: 440
 - Entities: 1728
-- Boundary Accuracy: 41.44%
+- Boundary Accuracy: 100.00%
 - Misclassified: 0
-- Boundary Issues: 1012
+- Boundary Issues: 0
 - Missing: 80
 
 ### finint_entities.jsonl
 
-- Examples: 448
-- Entities: 2588
-- Boundary Accuracy: 54.71%
+- Examples: 488
+- Entities: 2628
+- Boundary Accuracy: 100.00%
 - Misclassified: 0
-- Boundary Issues: 1172
-- Missing: 236
+- Boundary Issues: 0
+- Missing: 172
 
 ### geoint_entities.jsonl
 
-- Examples: 457
-- Entities: 2924
-- Boundary Accuracy: 67.03%
+- Examples: 557
+- Entities: 3104
+- Boundary Accuracy: 93.56%
 - Misclassified: 0
-- Boundary Issues: 964
+- Boundary Issues: 200
 - Missing: 108
 
 ### humint_entities.jsonl
 
-- Examples: 448
-- Entities: 3680
-- Boundary Accuracy: 69.89%
+- Examples: 568
+- Entities: 3688
+- Boundary Accuracy: 98.64%
 - Misclassified: 0
-- Boundary Issues: 1108
-- Missing: 212
+- Boundary Issues: 50
+- Missing: 216
 
 ### imint_entities.jsonl
 
-- Examples: 440
-- Entities: 2252
-- Boundary Accuracy: 63.94%
+- Examples: 540
+- Entities: 2452
+- Boundary Accuracy: 91.84%
 - Misclassified: 0
-- Boundary Issues: 812
+- Boundary Issues: 200
 - Missing: 100
 
 ### infint_entities.jsonl
 
 - Examples: 440
 - Entities: 1848
-- Boundary Accuracy: 12.77%
+- Boundary Accuracy: 100.00%
 - Misclassified: 0
-- Boundary Issues: 1612
+- Boundary Issues: 0
 - Missing: 160
 
 ### legint_entities.jsonl
 
 - Examples: 440
 - Entities: 2020
-- Boundary Accuracy: 54.65%
+- Boundary Accuracy: 100.00%
 - Misclassified: 0
-- Boundary Issues: 916
+- Boundary Issues: 0
 - Missing: 248
 
 ### masint_entities.jsonl
 
 - Examples: 440
 - Entities: 2080
-- Boundary Accuracy: 60.58%
+- Boundary Accuracy: 100.00%
 - Misclassified: 0
-- Boundary Issues: 820
+- Boundary Issues: 0
 - Missing: 80
 
 ### medint_entities.jsonl
 
 - Examples: 440
 - Entities: 1344
-- Boundary Accuracy: 66.67%
+- Boundary Accuracy: 100.00%
 - Misclassified: 0
-- Boundary Issues: 448
-- Missing: 80
+- Boundary Issues: 0
+- Missing: 72
 
 ### natint_entities.jsonl
 
 - Examples: 440
-- Entities: 1744
-- Boundary Accuracy: 27.52%
+- Entities: 1580
+- Boundary Accuracy: 100.00%
 - Misclassified: 0
-- Boundary Issues: 1264
+- Boundary Issues: 0
 - Missing: 80
 
 ### orbint_entities.jsonl
 
 - Examples: 440
 - Entities: 1868
-- Boundary Accuracy: 62.96%
+- Boundary Accuracy: 100.00%
 - Misclassified: 0
-- Boundary Issues: 692
-- Missing: 160
+- Boundary Issues: 0
+- Missing: 88
 
 ### sigint_entities.jsonl
 
 - Examples: 440
-- Entities: 1820
-- Boundary Accuracy: 43.30%
+- Entities: 1748
+- Boundary Accuracy: 100.00%
 - Misclassified: 0
-- Boundary Issues: 1032
+- Boundary Issues: 0
 - Missing: 80
 
 ### socmint_entities.jsonl
 
-- Examples: 453
-- Entities: 1688
-- Boundary Accuracy: 39.81%
+- Examples: 573
+- Entities: 1796
+- Boundary Accuracy: 97.77%
 - Misclassified: 0
-- Boundary Issues: 1016
+- Boundary Issues: 40
 - Missing: 144
 
 ### techint_entities.jsonl
 
 - Examples: 444
-- Entities: 2072
-- Boundary Accuracy: 69.88%
+- Entities: 1836
+- Boundary Accuracy: 100.00%
 - Misclassified: 0
-- Boundary Issues: 624
+- Boundary Issues: 0
 - Missing: 92
 
 ### threat_intel_entities.jsonl
 
-- Examples: 440
-- Entities: 1516
-- Boundary Accuracy: 68.60%
+- Examples: 646
+- Entities: 1722
+- Boundary Accuracy: 100.00%
 - Misclassified: 0
-- Boundary Issues: 476
-- Missing: 88
+- Boundary Issues: 0
+- Missing: 155
 
 ### tradint_entities.jsonl
 
 - Examples: 440
 - Entities: 1944
-- Boundary Accuracy: 55.76%
+- Boundary Accuracy: 100.00%
 - Misclassified: 0
-- Boundary Issues: 860
+- Boundary Issues: 0
 - Missing: 88
 
 ### vatint_entities.jsonl
 
 - Examples: 440
-- Entities: 2280
-- Boundary Accuracy: 61.40%
+- Entities: 2120
+- Boundary Accuracy: 100.00%
 - Misclassified: 0
-- Boundary Issues: 880
+- Boundary Issues: 0
 - Missing: 8
 
 ### ot_ics_physical_security_entities.jsonl
 
 - Examples: 150
-- Entities: 500
-- Boundary Accuracy: 61.60%
+- Entities: 496
+- Boundary Accuracy: 100.00%
 - Misclassified: 0
-- Boundary Issues: 192
+- Boundary Issues: 0
 - Missing: 0
 
 ### security_awareness_training_entities.jsonl
 
 - Examples: 440
-- Entities: 1192
-- Boundary Accuracy: 60.07%
+- Entities: 1188
+- Boundary Accuracy: 100.00%
 - Misclassified: 0
-- Boundary Issues: 476
+- Boundary Issues: 0
 - Missing: 0
 
 ### threat_intelligence_entities.jsonl
 
-- Examples: 440
-- Entities: 1224
-- Boundary Accuracy: 61.11%
+- Examples: 847
+- Entities: 1603
+- Boundary Accuracy: 100.00%
 - Misclassified: 0
-- Boundary Issues: 476
-- Missing: 0
+- Boundary Issues: 0
+- Missing: 170
 
 ### vendor_mgmt_entities.jsonl
 
 - Examples: 136
-- Entities: 468
-- Boundary Accuracy: 53.85%
+- Entities: 464
+- Boundary Accuracy: 100.00%
 - Misclassified: 0
-- Boundary Issues: 216
+- Boundary Issues: 0
 - Missing: 0
 
 ### vulnerability_mgmt_entities.jsonl
 
-- Examples: 488
-- Entities: 1408
-- Boundary Accuracy: 59.09%
+- Examples: 672
+- Entities: 1592
+- Boundary Accuracy: 100.00%
 - Misclassified: 0
-- Boundary Issues: 576
-- Missing: 100
+- Boundary Issues: 0
+- Missing: 258
 

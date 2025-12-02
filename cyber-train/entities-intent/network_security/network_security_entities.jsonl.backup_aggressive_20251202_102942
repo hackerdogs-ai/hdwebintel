@@ -1,0 +1,761 @@
+{"text": "Network infrastructure at datacenter elevation 50 meters. Server room coordinates: latitude 37.7749, longitude -122.4194, altitude 10m above ground level.", "entities": [[37, 56, "MEASUREMENT"], [65, 81, "COORDINATE"], [95, 110, "ALTITUDE"], [112, 120, "MEASUREMENT"]]}
+{"text": "Vendor Access Audit Tool reviewed partnerA and vendorB connectivity finding excessive privileges", "entities": [[25, 42, "VENDOR_TYPE"], [34, 42, "ACCESS_TYPE"], [47, 54, "TOOL"], [55, 67, "PARTNER_NAME"], [76, 96, "CONNECTIVITY_TYPE"]]}
+{"text": "ZTNA migration completed with 520 users and 98% coverage achieved", "entities": [[0, 4, "TOOL"], [30, 33, "USER_TYPE"], [44, 46, "METRIC_TYPE"], [48, 56, "COVERAGE_TYPE"]]}
+{"text": "East-west traffic monitoring analyzed 50000 flows detecting 12 anomalies", "entities": [[0, 9, "TRAFFIC_TYPE"], [10, 17, "TRAFFIC_TYPE"], [29, 43, "COUNT"], [38, 49, "FLOW_TYPE"], [50, 72, "ANOMALY_TYPE"]]}
+{"text": "Zero Trust Policy Generator created policy enabling ZTNA and encrypted traffic inspection", "entities": [[0, 27, "TOOL"], [36, 51, "POLICY_TYPE"], [71, 78, "ENCRYPTION_TYPE"]]}
+{"text": "Network Analytics Specialist analyzed 50000 east-west traffic flows detecting anomalies", "entities": [[38, 43, "NETWORK_TYPE"], [44, 53, "ANALYTICS_TYPE"], [54, 67, "SPECIALIST_TYPE"]]}
+{"text": "Network Analytics Specialist analyzed 50000 east-west traffic flows detecting anomalies", "entities": [[38, 43, "NETWORK_TYPE"], [44, 53, "ANALYTICS_TYPE"], [54, 67, "SPECIALIST_TYPE"]]}
+{"text": "OPNsense advanced firewall platform enforced segmentation policies", "entities": [[0, 8, "TOOL"], [9, 26, "FIREWALL_TYPE"], [18, 35, "PLATFORM_TYPE"]]}
+{"text": "Network security audit score improved to 90% with segmentation coverage at 95%", "entities": [[23, 37, "AUDIT_TYPE"], [29, 37, "METRIC_TYPE"], [41, 44, "METRIC_TYPE"], [63, 71, "COVERAGE_TYPE"], [75, 78, "METRIC_TYPE"]]}
+{"text": "ZTNA enforcement migrated 520 users from legacy VPN with 98% coverage", "entities": [[0, 4, "TOOL"], [17, 35, "MIGRATION_TYPE"], [57, 59, "PROTOCOL_TYPE"], [61, 69, "METRIC_TYPE"]]}
+{"text": "Network security audit score improved to 90% with segmentation coverage at 95%", "entities": [[23, 37, "AUDIT_TYPE"], [29, 37, "METRIC_TYPE"], [41, 44, "METRIC_TYPE"], [63, 71, "COVERAGE_TYPE"], [75, 78, "METRIC_TYPE"]]}
+{"text": "CISO approved network security strategy with zero trust and segmentation roadmap", "entities": [[0, 4, "ROLE"]]}
+{"text": "Arista Awake Security NDR detected data exfiltration over DNS", "entities": [[0, 6, "TOOL"], [7, 12, "TOOL"], [22, 25, "TOOL"], [58, 61, "PROTOCOL_TYPE"]]}
+{"text": "SSL TLS inspection decrypted 20000 sessions finding 12 malware samples", "entities": [[0, 3, "PROTOCOL_TYPE"], [4, 7, "PROTOCOL_TYPE"], [19, 43, "DECRYPTION_TYPE"], [35, 51, "COUNT"]]}
+{"text": "DDoS Protection Tool simulated HTTP Flood attack achieving 99% mitigation rate", "entities": [[0, 4, "TOOL"], [31, 41, "SIMULATION_TYPE"], [42, 58, "PROTOCOL_TYPE"]]}
+{"text": "Encrypted Traffic Inspection Tool inspected 20000 sessions detecting 12 malware instances", "entities": [[44, 58, "INSPECTION_TYPE"], [69, 79, "COUNT"]]}
+{"text": "ZTNA coverage achieved 98% with zero legacy VPN sessions remaining", "entities": [[0, 4, "TOOL"], [5, 13, "COVERAGE_TYPE"], [14, 22, "METRIC_TYPE"], [23, 26, "METRIC_TYPE"], [32, 43, "METRIC_TYPE"], [37, 47, "LEGACY_TYPE"], [48, 66, "SESSION_TYPE"]]}
+{"text": "Network anomaly detection identified slow data exfiltration patterns", "entities": [[26, 36, "DETECTION_TYPE"]]}
+{"text": "Vendor Access Audit Tool reviewed partnerA and vendorB connectivity finding excessive privileges", "entities": [[25, 42, "VENDOR_TYPE"], [34, 42, "ACCESS_TYPE"], [47, 54, "TOOL"], [55, 67, "PARTNER_NAME"], [76, 96, "CONNECTIVITY_TYPE"]]}
+{"text": "Zero trust policy enforcement migrated 520 users achieving 98% coverage", "entities": [[0, 10, "TRUST_TYPE"], [11, 17, "TRUST_TYPE"], [11, 29, "POLICY_TYPE"], [43, 48, "COUNT"], [63, 71, "METRIC_TYPE"]]}
+{"text": "Network security metrics reporting showed 95% firewall hygiene and 98% IDS detection", "entities": [[35, 44, "METRIC_TYPE"], [42, 54, "METRIC_TYPE"], [46, 62, "FIREWALL_TYPE"], [55, 62, "METRIC_TYPE"], [67, 70, "METRIC_TYPE"], [71, 74, "METRIC_TYPE"]]}
+{"text": "Vendor network access audit identified 3 vendors with excessive privileges", "entities": [[0, 6, "VENDOR_TYPE"], [28, 48, "VENDOR_TYPE"], [54, 74, "PRIVILEGE_TYPE"]]}
+{"text": "SSL TLS inspection decrypted 20000 sessions finding 12 malware samples", "entities": [[0, 3, "PROTOCOL_TYPE"], [4, 7, "PROTOCOL_TYPE"], [19, 43, "DECRYPTION_TYPE"], [35, 51, "COUNT"]]}
+{"text": "Firewall rule hygiene achieved 95% with zero overly permissive rules", "entities": [[0, 8, "FIREWALL_TYPE"], [9, 13, "RULE_TYPE"], [14, 21, "HYGIENE_TYPE"], [22, 30, "METRIC_TYPE"], [22, 33, "METRIC_TYPE"], [40, 44, "METRIC_TYPE"], [45, 51, "PERMISSION_TYPE"], [52, 62, "RULE_TYPE"]]}
+{"text": "Network security KPI dashboard showed 95% firewall hygiene 98% IDS detection", "entities": [[17, 20, "METRIC_TYPE"], [21, 30, "DASHBOARD_TYPE"], [38, 41, "METRIC_TYPE"], [42, 50, "FIREWALL_TYPE"], [51, 58, "METRIC_TYPE"], [59, 61, "METRIC_TYPE"], [63, 66, "METRIC_TYPE"]]}
+{"text": "pfSense open-source firewall router blocked 230 malicious connections", "entities": [[0, 7, "TOOL"], [20, 28, "FIREWALL_TYPE"], [29, 35, "ROUTER_TYPE"], [44, 47, "COUNT"], [48, 57, "MALICIOUS_TYPE"]]}
+{"text": "ExtraHop Reveal X NDR platform analyzed 50000 east-west flows", "entities": [[0, 8, "TOOL"], [9, 15, "TOOL"], [16, 21, "TOOL"], [31, 45, "PLATFORM_TYPE"], [51, 61, "COUNT"]]}
+{"text": "Network Monitoring Specialist detected 120 IDS alerts with 15 critical SQL injection attempts", "entities": [[30, 46, "NETWORK_TYPE"], [75, 93, "ALERT_TYPE"]]}
+{"text": "Network behavior analysis identified DNS tunneling exfiltration attempt", "entities": [[8, 16, "BEHAVIOR_TYPE"], [17, 25, "ANALYSIS_TYPE"], [51, 71, "ATTEMPT_TYPE"]]}
+{"text": "Network monitoring detected traffic from datacenter IP 10.0.0.1. Location: Primary datacenter at latitude 40.7580, longitude -73.9855.", "entities": [[19, 35, "DATACENTER"], [55, 63, "IP_ADDRESS"], [41, 57, "DATACENTER"]]}
+{"text": "VPN ZTNA Manager Tool managed 230 active sessions with 97% MFA compliance", "entities": [[0, 3, "TOOL"], [4, 8, "TOOL"], [34, 40, "SESSION_TYPE"], [41, 49, "SESSION_TYPE"], [55, 58, "METRIC_TYPE"], [59, 62, "AUTH_TYPE"]]}
+{"text": "Palo Alto Networks firewall platform protected 5000 endpoints with 95% rule hygiene", "entities": [[0, 4, "TOOL"], [5, 9, "TOOL"], [10, 27, "FIREWALL_TYPE"], [19, 36, "PLATFORM_TYPE"], [47, 61, "ENDPOINT_TYPE"], [67, 75, "RULE_TYPE"], [71, 83, "HYGIENE_TYPE"]]}
+{"text": "Network Flow Monitor correlated events escalating incident INC123 to SOC", "entities": [[32, 38, "FLOW_TYPE"], [50, 65, "CORRELATION_TYPE"]]}
+{"text": "Network Security Engineer configured Palo Alto NGFW with threat prevention enabled", "entities": [[26, 41, "TOOL"], [42, 46, "TOOL"], [47, 51, "TOOL"]]}
+{"text": "Encrypted traffic inspection analyzed 20000 sessions detecting 12 malware", "entities": [[10, 17, "TRAFFIC_TYPE"], [38, 43, "COUNT"], [44, 52, "SESSION_TYPE"]]}
+{"text": "Network Security Strategist defined network security policy with segmentation NAC and ZTNA", "entities": [[53, 59, "POLICY_TYPE"]]}
+{"text": "Vendor Access Audit Tool validated 12 vendor VPN connections with 3 violations", "entities": []}
+{"text": "Akamai Kona Site Defender DDoS and WAF blocked 5000 attack requests", "entities": [[0, 6, "TOOL"], [7, 11, "TOOL"], [12, 16, "TOOL"], [17, 25, "TOOL"], [26, 30, "TOOL"], [35, 38, "TOOL"], [47, 51, "COUNT"], [59, 67, "REQUEST_TYPE"]]}
+{"text": "Wireshark deep packet inspection analyzed 20000 encrypted sessions", "entities": [[0, 9, "TOOL"], [10, 32, "TOOL"], [22, 32, "PACKET_TYPE"], [22, 41, "INSPECTION_TYPE"], [42, 57, "COUNT"]]}
+{"text": "Network anomaly detection identified slow data exfiltration patterns", "entities": [[26, 36, "DETECTION_TYPE"]]}
+{"text": "ExtraHop Reveal X NDR platform analyzed 50000 east-west flows", "entities": [[0, 8, "TOOL"], [9, 15, "TOOL"], [16, 21, "TOOL"], [31, 45, "PLATFORM_TYPE"], [51, 61, "COUNT"]]}
+{"text": "Akamai Kona Site Defender DDoS and WAF blocked 5000 attack requests", "entities": [[0, 6, "TOOL"], [7, 11, "TOOL"], [12, 16, "TOOL"], [17, 25, "TOOL"], [26, 30, "TOOL"], [35, 38, "TOOL"], [47, 51, "COUNT"], [59, 67, "REQUEST_TYPE"]]}
+{"text": "IDS detection rate reached 98% with automated response blocking 90% of threats", "entities": [[0, 3, "TOOL"], [19, 26, "METRIC_TYPE"], [19, 29, "METRIC_TYPE"], [36, 54, "RESPONSE_TYPE"], [64, 66, "METRIC_TYPE"]]}
+{"text": "Encrypted Traffic Inspection Tool inspected 20000 sessions detecting 12 malware instances", "entities": [[44, 58, "INSPECTION_TYPE"], [69, 79, "COUNT"]]}
+{"text": "Network security control coverage achieved 96% with 93% compliance rate", "entities": [[17, 24, "CONTROL_TYPE"], [25, 33, "COVERAGE_TYPE"], [43, 46, "METRIC_TYPE"], [52, 55, "METRIC_TYPE"]]}
+{"text": "Elastic Stack ELK ingested network logs from 500 endpoints", "entities": [[0, 13, "TOOL"], [14, 17, "TOOL"]]}
+{"text": "DDoS protection simulation tested HTTP flood achieving 99% mitigation", "entities": [[0, 4, "TOOL"], [39, 44, "PROTOCOL_TYPE"], [39, 54, "ATTACK_TYPE"], [55, 69, "METRIC_TYPE"]]}
+{"text": "Network threat hunting identified C2 beaconing to IP 198.51.100.10 escalating incident INC789", "entities": [[15, 33, "HUNTING_TYPE"], [53, 59, "PROTOCOL_TYPE"], [53, 66, "IP_ADDRESS"]]}
+{"text": "Network Flow Monitor correlated events escalating incident INC123 to SOC", "entities": [[32, 38, "FLOW_TYPE"], [50, 65, "CORRELATION_TYPE"]]}
+{"text": "East-west traffic monitoring detected suspicious SMB lateral movement requiring investigation", "entities": [[0, 9, "TRAFFIC_TYPE"], [10, 17, "TRAFFIC_TYPE"], [38, 60, "MOVEMENT_TYPE"], [53, 69, "MOVEMENT_TYPE"]]}
+{"text": "Head of Network Security reviewed firewall ruleset with 450 rules and 23 violations", "entities": [[34, 50, "RULESET_TYPE"], [56, 59, "RULE_TYPE"]]}
+{"text": "Firewall logs show nameserver queries from datacenter subnet. Location coordinates: latitude 47.6062, longitude -122.3321.", "entities": [[0, 8, "FIREWALL_TYPE"], [9, 13, "LOG_TYPE"], [19, 29, "NAMESERVER"], [43, 60, "NETWORK_TYPE"], [62, 82, "COORDINATE"]]}
+{"text": "Network infrastructure at datacenter elevation 50 meters. Server room coordinates: latitude 37.7749, longitude -122.4194, altitude 10m above ground level.", "entities": [[37, 56, "MEASUREMENT"], [65, 81, "COORDINATE"], [95, 110, "ALTITUDE"], [112, 120, "MEASUREMENT"]]}
+{"text": "Network Analytics Specialist analyzed 50000 east-west traffic flows detecting anomalies", "entities": [[38, 43, "NETWORK_TYPE"], [44, 53, "ANALYTICS_TYPE"], [54, 67, "SPECIALIST_TYPE"]]}
+{"text": "NAC Management Tool checked 1200 devices blocking 23 non-compliant endpoints", "entities": [[0, 3, "TOOL"], [4, 14, "TOOL"], [33, 40, "COUNT"], [53, 56, "COUNT"], [53, 76, "COMPLIANCE_STATUS"]]}
+{"text": "Palo Alto Networks firewall platform protected 5000 endpoints with 95% rule hygiene", "entities": [[0, 4, "TOOL"], [5, 9, "TOOL"], [10, 27, "FIREWALL_TYPE"], [19, 36, "PLATFORM_TYPE"], [47, 61, "ENDPOINT_TYPE"], [67, 75, "RULE_TYPE"], [71, 83, "HYGIENE_TYPE"]]}
+{"text": "NAC Management Tool checked 1200 devices blocking 23 non-compliant endpoints", "entities": [[0, 3, "TOOL"], [4, 14, "TOOL"], [33, 40, "COUNT"], [53, 56, "COUNT"], [53, 76, "COMPLIANCE_STATUS"]]}
+{"text": "ZTNA migration completed with 520 users and 98% coverage achieved", "entities": [[0, 4, "TOOL"], [30, 33, "USER_TYPE"], [44, 46, "METRIC_TYPE"], [48, 56, "COVERAGE_TYPE"]]}
+{"text": "Network compliance audit scored 90% with 2 remediation items", "entities": [[25, 34, "METRIC_TYPE"]]}
+{"text": "Network Compliance Analyst validated PCI DSS controls with 96% compliance rate", "entities": [[27, 40, "NETWORK_TYPE"]]}
+{"text": "Firewall logs from datacenter at elevation 200m. Location: latitude 51.5074, longitude -0.1278, altitude 25m. Network monitoring active.", "entities": [[0, 8, "FIREWALL_TYPE"], [9, 13, "LOG_TYPE"], [43, 48, "MEASUREMENT"], [90, 104, "NETWORK_TYPE"], [96, 109, "MONITORING_TYPE"]]}
+{"text": "Network Security Strategist defined network security policy with segmentation NAC and ZTNA", "entities": [[53, 59, "POLICY_TYPE"]]}
+{"text": "VPN session monitoring tracked 230 active sessions with 97% MFA compliance", "entities": [[0, 3, "PROTOCOL_TYPE"], [4, 11, "SESSION_TYPE"], [31, 41, "SESSION_TYPE"], [35, 50, "SESSION_TYPE"], [56, 63, "AUTH_TYPE"]]}
+{"text": "Network security false positive rate reduced to 1.9% improving alert accuracy", "entities": [[17, 31, "SECURITY_TYPE"], [63, 77, "METRIC_TYPE"]]}
+{"text": "NAC device posture validation checked 1200 devices blocking 23 non-compliant", "entities": [[0, 3, "TOOL"], [4, 18, "TOOL"], [11, 18, "DEVICE_TYPE"]]}
+{"text": "Check Point Quantum Security Gateway NGFW IDS IPS detected APT activity", "entities": [[12, 19, "TOOL"], [20, 36, "GATEWAY_TYPE"], [29, 41, "TOOL"], [37, 41, "TOOL"], [42, 45, "TOOL"]]}
+{"text": "Firewall hygiene score improved to 95% with 23 unused rules removed", "entities": [[0, 8, "FIREWALL_TYPE"], [9, 16, "METRIC_TYPE"], [17, 22, "METRIC_TYPE"], [23, 31, "METRIC_TYPE"], [47, 53, "COUNT"], [54, 59, "RULE_TYPE"], [60, 67, "RULE_TYPE"]]}
+{"text": "Network Performance Specialist optimized network latency reducing it by 35%", "entities": [[31, 48, "NETWORK_TYPE"], [41, 56, "PERFORMANCE_TYPE"]]}
+{"text": "Firewall logs from datacenter at elevation 200m. Location: latitude 51.5074, longitude -0.1278, altitude 25m. Network monitoring active.", "entities": [[0, 8, "FIREWALL_TYPE"], [9, 13, "LOG_TYPE"], [43, 48, "MEASUREMENT"], [90, 104, "NETWORK_TYPE"], [96, 109, "MONITORING_TYPE"]]}
+{"text": "Network Architecture Design Tool separated prod dev OT and DMZ zones with microsegmentation", "entities": [[59, 62, "DESIGN_TYPE"], [63, 68, "TOOL"], [74, 91, "ZONE_TYPE"]]}
+{"text": "Network behavior anomaly detection identified slow exfiltration over DNS", "entities": [[8, 16, "BEHAVIOR_TYPE"], [17, 24, "ANOMALY_TYPE"], [46, 50, "EXFILTRATION_TYPE"], [51, 63, "PROTOCOL_TYPE"]]}
+{"text": "Vendor Access Audit Tool reviewed partnerA and vendorB connectivity finding excessive privileges", "entities": [[25, 42, "VENDOR_TYPE"], [34, 42, "ACCESS_TYPE"], [47, 54, "TOOL"], [55, 67, "PARTNER_NAME"], [76, 96, "CONNECTIVITY_TYPE"]]}
+{"text": "Network Security Tester executed penetration test finding 8 critical vulnerabilities", "entities": [[33, 44, "NETWORK_TYPE"]]}
+{"text": "Network threat hunting identified C2 beaconing to IP 198.51.100.10 escalating incident INC789", "entities": [[15, 33, "HUNTING_TYPE"], [53, 59, "PROTOCOL_TYPE"], [53, 66, "IP_ADDRESS"]]}
+{"text": "Suricata IDS IPS open source detected 5000 alerts with 98% detection accuracy", "entities": [[0, 8, "TOOL"], [9, 12, "TOOL"], [13, 16, "TOOL"], [17, 21, "TOOL"], [43, 49, "COUNT"], [59, 77, "DETECTION_TYPE"]]}
+{"text": "SSL TLS inspection decrypted 20000 sessions finding 12 malware samples", "entities": [[0, 3, "PROTOCOL_TYPE"], [4, 7, "PROTOCOL_TYPE"], [19, 43, "DECRYPTION_TYPE"], [35, 51, "COUNT"]]}
+{"text": "DDoS resilience achieved 99% mitigation rate during HTTP flood simulation", "entities": [[0, 4, "TOOL"], [5, 24, "RESILIENCE_TYPE"], [25, 39, "METRIC_TYPE"], [52, 56, "PROTOCOL_TYPE"], [57, 62, "ATTACK_TYPE"]]}
+{"text": "ZTNA coverage achieved 98% with 520 users migrated from legacy VPN", "entities": [[0, 4, "TOOL"], [5, 22, "COVERAGE_TYPE"], [23, 26, "METRIC_TYPE"], [36, 41, "COUNT"], [36, 50, "USER_TYPE"], [56, 62, "LEGACY_TYPE"]]}
+{"text": "VPN ZTNA Manager Tool managed 230 active sessions with 97% MFA compliance", "entities": [[0, 3, "TOOL"], [4, 8, "TOOL"], [34, 40, "SESSION_TYPE"], [41, 49, "SESSION_TYPE"], [55, 58, "METRIC_TYPE"], [59, 62, "AUTH_TYPE"]]}
+{"text": "Network Flow Monitor correlated events escalating incident INC123 to SOC", "entities": [[32, 38, "FLOW_TYPE"], [50, 65, "CORRELATION_TYPE"]]}
+{"text": "Network security posture improved to 96% with enhanced monitoring", "entities": [[17, 24, "POSTURE_TYPE"], [37, 40, "METRIC_TYPE"], [46, 54, "MONITORING_TYPE"]]}
+{"text": "East-west traffic monitoring analyzed 50000 flows detecting 12 anomalies", "entities": [[0, 9, "TRAFFIC_TYPE"], [10, 17, "TRAFFIC_TYPE"], [29, 43, "COUNT"], [38, 49, "FLOW_TYPE"], [50, 72, "ANOMALY_TYPE"]]}
+{"text": "IDS IPS signature updates applied detecting 120 new attack patterns", "entities": [[0, 3, "TOOL"], [4, 7, "TOOL"], [8, 25, "SIGNATURE_TYPE"], [18, 33, "UPDATE_TYPE"], [44, 47, "COUNT"], [48, 58, "ATTACK_TYPE"]]}
+{"text": "Firewall rule optimization removed 23 unused rules and restricted 8 permissive rules", "entities": [[0, 8, "FIREWALL_TYPE"], [9, 13, "RULE_TYPE"], [35, 44, "RULE_TYPE"], [38, 50, "RULE_TYPE"], [68, 78, "RULE_TYPE"]]}
+{"text": "Network Compliance Analyst validated PCI DSS controls with 96% compliance rate", "entities": [[27, 40, "NETWORK_TYPE"]]}
+{"text": "Akamai Kona Site Defender DDoS and WAF blocked 5000 attack requests", "entities": [[0, 6, "TOOL"], [7, 11, "TOOL"], [12, 16, "TOOL"], [17, 25, "TOOL"], [26, 30, "TOOL"], [35, 38, "TOOL"], [47, 51, "COUNT"], [59, 67, "REQUEST_TYPE"]]}
+{"text": "Palo Alto Networks firewall platform protected 5000 endpoints with 95% rule hygiene", "entities": [[0, 4, "TOOL"], [5, 9, "TOOL"], [10, 27, "FIREWALL_TYPE"], [19, 36, "PLATFORM_TYPE"], [47, 61, "ENDPOINT_TYPE"], [67, 75, "RULE_TYPE"], [71, 83, "HYGIENE_TYPE"]]}
+{"text": "Vendor Access Audit Tool validated 12 vendor VPN connections with 3 violations", "entities": []}
+{"text": "NAC Management Tool checked 1200 devices blocking 23 non-compliant endpoints", "entities": [[0, 3, "TOOL"], [4, 14, "TOOL"], [33, 40, "COUNT"], [53, 56, "COUNT"], [53, 76, "COMPLIANCE_STATUS"]]}
+{"text": "Cloud network security scan found 50 accounts with 12 misconfigurations", "entities": [[0, 5, "CLOUD_TYPE"], [51, 53, "COUNT"]]}
+{"text": "Zeek Bro network traffic analysis identified C2 beaconing to 203.0.113.5", "entities": [[0, 4, "TOOL"], [5, 8, "TOOL"], [17, 24, "TRAFFIC_TYPE"], [25, 33, "ANALYSIS_TYPE"], [61, 72, "IP_ADDRESS"]]}
+{"text": "Vendor network access audit identified 3 vendors with excessive privileges", "entities": [[0, 6, "VENDOR_TYPE"], [28, 48, "VENDOR_TYPE"], [54, 74, "PRIVILEGE_TYPE"]]}
+{"text": "CrowdStrike Falcon NDR AI-driven platform detected lateral movement", "entities": [[0, 11, "TOOL"], [12, 18, "TOOL"], [19, 22, "TOOL"], [23, 32, "TOOL"], [26, 32, "AI_MODEL_TYPE"], [26, 41, "TOOL"], [33, 50, "PLATFORM_TYPE"], [51, 67, "MOVEMENT_TYPE"]]}
+{"text": "Network monitoring detected traffic from datacenter IP 10.0.0.1. Location: Primary datacenter at latitude 40.7580, longitude -73.9855.", "entities": [[19, 35, "DATACENTER"], [55, 63, "IP_ADDRESS"], [41, 57, "DATACENTER"]]}
+{"text": "Network Architecture Design Tool separated prod dev OT and DMZ zones with microsegmentation", "entities": [[59, 62, "DESIGN_TYPE"], [63, 68, "TOOL"], [74, 91, "ZONE_TYPE"]]}
+{"text": "Network behavior anomaly detection identified slow exfiltration over DNS", "entities": [[8, 16, "BEHAVIOR_TYPE"], [17, 24, "ANOMALY_TYPE"], [46, 50, "EXFILTRATION_TYPE"], [51, 63, "PROTOCOL_TYPE"]]}
+{"text": "Network infrastructure at datacenter elevation 50 meters. Server room coordinates: latitude 37.7749, longitude -122.4194, altitude 10m above ground level.", "entities": [[37, 56, "MEASUREMENT"], [65, 81, "COORDINATE"], [95, 110, "ALTITUDE"], [112, 120, "MEASUREMENT"]]}
+{"text": "Network Security Tester executed penetration test finding 8 critical vulnerabilities", "entities": [[33, 44, "NETWORK_TYPE"]]}
+{"text": "pfSense open source firewall managed network segmentation for 200 servers", "entities": [[0, 7, "TOOL"], [8, 12, "TOOL"], [29, 36, "NETWORK_TYPE"]]}
+{"text": "Cisco Firepower NGFW and IPS blocked 150 intrusion attempts", "entities": [[0, 5, "TOOL"], [6, 15, "TOOL"], [16, 20, "TOOL"], [29, 40, "COUNT"], [37, 50, "INTRUSION_TYPE"], [41, 59, "ATTEMPT_TYPE"]]}
+{"text": "Firewall hygiene score improved to 95% with 23 unused rules removed", "entities": [[0, 8, "FIREWALL_TYPE"], [9, 16, "METRIC_TYPE"], [17, 22, "METRIC_TYPE"], [23, 31, "METRIC_TYPE"], [47, 53, "COUNT"], [54, 59, "RULE_TYPE"], [60, 67, "RULE_TYPE"]]}
+{"text": "Fortinet FortiGate enterprise NGFW platform enforced zero trust policies", "entities": [[30, 34, "TOOL"], [58, 72, "TRUST_TYPE"]]}
+{"text": "DDoS mitigation tested achieving 99% success rate during flood simulation", "entities": [[0, 4, "TOOL"], [33, 35, "METRIC_TYPE"], [37, 44, "SUCCESS_TYPE"], [50, 62, "ATTACK_TYPE"]]}
+{"text": "Encrypted traffic inspection analyzed 20000 sessions detecting 12 malware", "entities": [[10, 17, "TRAFFIC_TYPE"], [38, 43, "COUNT"], [44, 52, "SESSION_TYPE"]]}
+{"text": "Suricata IDS IPS open source detected 5000 alerts with 98% detection accuracy", "entities": [[0, 8, "TOOL"], [9, 12, "TOOL"], [13, 16, "TOOL"], [17, 21, "TOOL"], [43, 49, "COUNT"], [59, 77, "DETECTION_TYPE"]]}
+{"text": "Principal Network Security Architect designed microsegmentation for prod dev and OT zones", "entities": [[46, 63, "NETWORK_TYPE"]]}
+{"text": "Palo Alto Networks firewall platform protected 5000 endpoints with 95% rule hygiene", "entities": [[0, 4, "TOOL"], [5, 9, "TOOL"], [10, 27, "FIREWALL_TYPE"], [19, 36, "PLATFORM_TYPE"], [47, 61, "ENDPOINT_TYPE"], [67, 75, "RULE_TYPE"], [71, 83, "HYGIENE_TYPE"]]}
+{"text": "NAC block rate reduced to 2% with improved device posture validation", "entities": [[0, 3, "TOOL"], [15, 22, "METRIC_TYPE"], [15, 25, "METRIC_TYPE"], [34, 42, "DEVICE_TYPE"], [43, 49, "POSTURE_TYPE"], [50, 68, "VALIDATION_TYPE"]]}
+{"text": "Network security posture improved to 96% with enhanced monitoring", "entities": [[17, 24, "POSTURE_TYPE"], [37, 40, "METRIC_TYPE"], [46, 54, "MONITORING_TYPE"]]}
+{"text": "DDoS resilience achieved 99% with automated mitigation enabled", "entities": [[0, 4, "TOOL"], [5, 24, "RESILIENCE_TYPE"], [16, 27, "METRIC_TYPE"]]}
+{"text": "Network security false positive rate reduced to 1.9% improving alert accuracy", "entities": [[17, 31, "SECURITY_TYPE"], [63, 77, "METRIC_TYPE"]]}
+{"text": "Network audit score reached 90% with 2 findings requiring remediation", "entities": [[14, 19, "METRIC_TYPE"], [20, 30, "METRIC_TYPE"]]}
+{"text": "Security Onion NSM distro monitored network security across 3 data centers", "entities": [[15, 25, "TOOL"], [19, 25, "TOOL"]]}
+{"text": "Network anomaly detection identified slow data exfiltration patterns", "entities": [[26, 36, "DETECTION_TYPE"]]}
+{"text": "Threat hunting exercise conducted 5 hunts finding C2 communication", "entities": [[15, 23, "EXERCISE_TYPE"], [24, 41, "HUNTING_TYPE"], [42, 66, "COMMUNICATION_TYPE"]]}
+{"text": "ZTNA enforcement migrated 520 users from legacy VPN with 98% coverage", "entities": [[0, 4, "TOOL"], [17, 35, "MIGRATION_TYPE"], [57, 59, "PROTOCOL_TYPE"], [61, 69, "METRIC_TYPE"]]}
+{"text": "Cloud security group audit found 50 accounts with 12 open ingress rules", "entities": [[0, 5, "CLOUD_TYPE"], [15, 20, "GROUP_TYPE"], [50, 52, "COUNT"], [53, 57, "INGRESS_TYPE"]]}
+{"text": "Network behavior analysis identified DNS tunneling exfiltration attempt", "entities": [[8, 16, "BEHAVIOR_TYPE"], [17, 25, "ANALYSIS_TYPE"], [51, 71, "ATTEMPT_TYPE"]]}
+{"text": "Security Onion NSM distro monitored network security across 3 data centers", "entities": [[15, 25, "TOOL"], [19, 25, "TOOL"]]}
+{"text": "DDoS resilience achieved 99% mitigation rate during HTTP flood simulation", "entities": [[0, 4, "TOOL"], [5, 24, "RESILIENCE_TYPE"], [25, 39, "METRIC_TYPE"], [52, 56, "PROTOCOL_TYPE"], [57, 62, "ATTACK_TYPE"]]}
+{"text": "Network Log Analysis Tool correlated events from IDS IPS and firewall logs", "entities": [[8, 11, "LOG_TYPE"], [12, 20, "ANALYSIS_TYPE"], [53, 56, "TOOL"], [61, 74, "FIREWALL_TYPE"]]}
+{"text": "Cloud network security scan found 50 accounts with 12 misconfigurations", "entities": [[0, 5, "CLOUD_TYPE"], [51, 53, "COUNT"]]}
+{"text": "Check Point Quantum Security Gateway NGFW IDS IPS detected APT activity", "entities": [[12, 19, "TOOL"], [20, 36, "GATEWAY_TYPE"], [29, 41, "TOOL"], [37, 41, "TOOL"], [42, 45, "TOOL"]]}
+{"text": "Network infrastructure at datacenter elevation 50 meters. Server room coordinates: latitude 37.7749, longitude -122.4194, altitude 10m above ground level.", "entities": [[37, 56, "MEASUREMENT"], [65, 81, "COORDINATE"], [95, 110, "ALTITUDE"], [112, 120, "MEASUREMENT"]]}
+{"text": "Zero Trust Policy Generator created policy enabling ZTNA and encrypted traffic inspection", "entities": [[0, 27, "TOOL"], [36, 51, "POLICY_TYPE"], [71, 78, "ENCRYPTION_TYPE"]]}
+{"text": "VPN session monitoring tracked 230 active sessions with 97% MFA compliance", "entities": [[0, 3, "PROTOCOL_TYPE"], [4, 11, "SESSION_TYPE"], [31, 41, "SESSION_TYPE"], [35, 50, "SESSION_TYPE"], [56, 63, "AUTH_TYPE"]]}
+{"text": "Firewall rule audit completed removing 23 unused and 8 overly permissive rules", "entities": [[0, 8, "FIREWALL_TYPE"], [9, 13, "RULE_TYPE"]]}
+{"text": "Network Flow Monitor correlated events escalating incident INC123 to SOC", "entities": [[32, 38, "FLOW_TYPE"], [50, 65, "CORRELATION_TYPE"]]}
+{"text": "pfSense open-source firewall router blocked 230 malicious connections", "entities": [[0, 7, "TOOL"], [20, 28, "FIREWALL_TYPE"], [29, 35, "ROUTER_TYPE"], [44, 47, "COUNT"], [48, 57, "MALICIOUS_TYPE"]]}
+{"text": "Network Log Analysis Tool correlated events from IDS IPS and firewall logs", "entities": [[8, 11, "LOG_TYPE"], [12, 20, "ANALYSIS_TYPE"], [53, 56, "TOOL"], [61, 74, "FIREWALL_TYPE"]]}
+{"text": "East-west traffic monitoring analyzed 50000 flows detecting 12 anomalies", "entities": [[0, 9, "TRAFFIC_TYPE"], [10, 17, "TRAFFIC_TYPE"], [29, 43, "COUNT"], [38, 49, "FLOW_TYPE"], [50, 72, "ANOMALY_TYPE"]]}
+{"text": "VPN ZTNA Manager Tool managed 230 active sessions with 97% MFA compliance", "entities": [[0, 3, "TOOL"], [4, 8, "TOOL"], [34, 40, "SESSION_TYPE"], [41, 49, "SESSION_TYPE"], [55, 58, "METRIC_TYPE"], [59, 62, "AUTH_TYPE"]]}
+{"text": "Network Security Engineer configured Palo Alto NGFW with threat prevention enabled", "entities": [[26, 41, "TOOL"], [42, 46, "TOOL"], [47, 51, "TOOL"]]}
+{"text": "Network Performance Specialist optimized network latency reducing it by 35%", "entities": [[31, 48, "NETWORK_TYPE"], [41, 56, "PERFORMANCE_TYPE"]]}
+{"text": "Network compliance audit scored 90% with 2 remediation items", "entities": [[25, 34, "METRIC_TYPE"]]}
+{"text": "ZTNA enforcement migrated 520 users from legacy VPN with 98% coverage", "entities": [[0, 4, "TOOL"], [17, 35, "MIGRATION_TYPE"], [57, 59, "PROTOCOL_TYPE"], [61, 69, "METRIC_TYPE"]]}
+{"text": "Check Point Quantum Security Gateway NGFW IDS IPS detected APT activity", "entities": [[12, 19, "TOOL"], [20, 36, "GATEWAY_TYPE"], [29, 41, "TOOL"], [37, 41, "TOOL"], [42, 45, "TOOL"]]}
+{"text": "Network anomaly detection identified slow data exfiltration patterns", "entities": [[26, 36, "DETECTION_TYPE"]]}
+{"text": "Incident Responder investigated network breach affecting 3 data centers", "entities": [[64, 71, "DATA_TYPE"]]}
+{"text": "Network behavior analysis identified DNS tunneling exfiltration attempt", "entities": [[8, 16, "BEHAVIOR_TYPE"], [17, 25, "ANALYSIS_TYPE"], [51, 71, "ATTEMPT_TYPE"]]}
+{"text": "Network security training completion reached 92% for all network engineers", "entities": [[26, 44, "COMPLETION_TYPE"], [45, 47, "METRIC_TYPE"], [65, 74, "ROLE_TYPE"]]}
+{"text": "OPNsense advanced firewall platform enforced segmentation policies", "entities": [[0, 8, "TOOL"], [9, 26, "FIREWALL_TYPE"], [18, 35, "PLATFORM_TYPE"]]}
+{"text": "ntopng network traffic flow monitoring detected 12 anomalies", "entities": [[0, 6, "TOOL"], [15, 22, "TRAFFIC_TYPE"], [23, 27, "FLOW_TYPE"], [48, 60, "ANOMALY_TYPE"]]}
+{"text": "Security Onion NSM distro monitored network security across 3 data centers", "entities": [[15, 25, "TOOL"], [19, 25, "TOOL"]]}
+{"text": "Network segmentation validation tested 12 VLAN boundaries with zero violations", "entities": [[42, 46, "COUNT"], [42, 57, "PROTOCOL_TYPE"], [63, 78, "COUNT"]]}
+{"text": "CISO approved network security strategy with zero trust and segmentation roadmap", "entities": [[0, 4, "ROLE"]]}
+{"text": "Network security metrics reporting showed 95% firewall hygiene and 98% IDS detection", "entities": [[35, 44, "METRIC_TYPE"], [42, 54, "METRIC_TYPE"], [46, 62, "FIREWALL_TYPE"], [55, 62, "METRIC_TYPE"], [67, 70, "METRIC_TYPE"], [71, 74, "METRIC_TYPE"]]}
+{"text": "pfSense open source firewall managed network segmentation for 200 servers", "entities": [[0, 7, "TOOL"], [8, 12, "TOOL"], [29, 36, "NETWORK_TYPE"]]}
+{"text": "Wireshark deep packet inspection analyzed 20000 encrypted sessions", "entities": [[0, 9, "TOOL"], [10, 32, "TOOL"], [22, 32, "PACKET_TYPE"], [22, 41, "INSPECTION_TYPE"], [42, 57, "COUNT"]]}
+{"text": "pfSense open-source firewall router blocked 230 malicious connections", "entities": [[0, 7, "TOOL"], [20, 28, "FIREWALL_TYPE"], [29, 35, "ROUTER_TYPE"], [44, 47, "COUNT"], [48, 57, "MALICIOUS_TYPE"]]}
+{"text": "Network Security Tester executed penetration test finding 8 critical vulnerabilities", "entities": [[33, 44, "NETWORK_TYPE"]]}
+{"text": "NAC enforcement validated 1200 devices with 23 non-compliant blocked", "entities": [[0, 3, "TOOL"], [31, 38, "COUNT"], [47, 60, "COUNT"]]}
+{"text": "ntopng network traffic flow monitoring detected 12 anomalies", "entities": [[0, 6, "TOOL"], [15, 22, "TRAFFIC_TYPE"], [23, 27, "FLOW_TYPE"], [48, 60, "ANOMALY_TYPE"]]}
+{"text": "Firewall logs show nameserver queries from datacenter subnet. Location coordinates: latitude 47.6062, longitude -122.3321.", "entities": [[0, 8, "FIREWALL_TYPE"], [9, 13, "LOG_TYPE"], [19, 29, "NAMESERVER"], [43, 60, "NETWORK_TYPE"], [62, 82, "COORDINATE"]]}
+{"text": "Suricata IDS IPS open source detected 5000 alerts with 98% detection accuracy", "entities": [[0, 8, "TOOL"], [9, 12, "TOOL"], [13, 16, "TOOL"], [17, 21, "TOOL"], [43, 49, "COUNT"], [59, 77, "DETECTION_TYPE"]]}
+{"text": "Fortinet FortiGate firewall detected and blocked 150 intrusion attempts", "entities": [[9, 27, "FIREWALL_TYPE"], [41, 52, "ACTION_TYPE"]]}
+{"text": "Network Segmentation Specialist enforced microsegmentation policies across 12 VLANs", "entities": [[32, 58, "NETWORK_TYPE"]]}
+{"text": "Network security metrics reporting showed 95% firewall hygiene and 98% IDS detection", "entities": [[35, 44, "METRIC_TYPE"], [42, 54, "METRIC_TYPE"], [46, 62, "FIREWALL_TYPE"], [55, 62, "METRIC_TYPE"], [67, 70, "METRIC_TYPE"], [71, 74, "METRIC_TYPE"]]}
+{"text": "East-west traffic analysis detected suspicious SMB lateral movement", "entities": [[0, 9, "TRAFFIC_TYPE"], [10, 17, "TRAFFIC_TYPE"], [10, 26, "ANALYSIS_TYPE"], [27, 46, "SUSPICIOUS_TYPE"], [47, 58, "MOVEMENT_TYPE"], [51, 67, "MOVEMENT_TYPE"]]}
+{"text": "Nmap network scanning discovered 1200 devices with 45 open ports", "entities": [[0, 4, "TOOL"], [22, 37, "COUNT"], [33, 45, "DEVICE_TYPE"], [51, 53, "PORT_TYPE"], [54, 58, "PORT_TYPE"]]}
+{"text": "Arista Awake Security NDR detected data exfiltration over DNS", "entities": [[0, 6, "TOOL"], [7, 12, "TOOL"], [22, 25, "TOOL"], [58, 61, "PROTOCOL_TYPE"]]}
+{"text": "Fortinet FortiGate firewall detected and blocked 150 intrusion attempts", "entities": [[9, 27, "FIREWALL_TYPE"], [41, 52, "ACTION_TYPE"]]}
+{"text": "Network security KPI dashboard showed 95% firewall hygiene 98% IDS detection", "entities": [[17, 20, "METRIC_TYPE"], [21, 30, "DASHBOARD_TYPE"], [38, 41, "METRIC_TYPE"], [42, 50, "FIREWALL_TYPE"], [51, 58, "METRIC_TYPE"], [59, 61, "METRIC_TYPE"], [63, 66, "METRIC_TYPE"]]}
+{"text": "Snort IDS detected 45 intrusion attempts from IP 198.51.100.10", "entities": [[0, 5, "TOOL"], [6, 9, "TOOL"], [19, 21, "DETECTION_TYPE"], [22, 40, "INTRUSION_TYPE"], [49, 52, "PROTOCOL_TYPE"]]}
+{"text": "DDoS protection simulation tested HTTP flood achieving 99% mitigation", "entities": [[0, 4, "TOOL"], [39, 44, "PROTOCOL_TYPE"], [39, 54, "ATTACK_TYPE"], [55, 69, "METRIC_TYPE"]]}
+{"text": "Cisco Firepower NGFW and IPS blocked 150 intrusion attempts", "entities": [[0, 5, "TOOL"], [6, 15, "TOOL"], [16, 20, "TOOL"], [29, 40, "COUNT"], [37, 50, "INTRUSION_TYPE"], [41, 59, "ATTEMPT_TYPE"]]}
+{"text": "Zero trust policy enforcement migrated 520 users achieving 98% coverage", "entities": [[0, 10, "TRUST_TYPE"], [11, 17, "TRUST_TYPE"], [11, 29, "POLICY_TYPE"], [43, 48, "COUNT"], [63, 71, "METRIC_TYPE"]]}
+{"text": "DDoS mitigation tested achieving 99% success rate during flood simulation", "entities": [[0, 4, "TOOL"], [33, 35, "METRIC_TYPE"], [37, 44, "SUCCESS_TYPE"], [50, 62, "ATTACK_TYPE"]]}
+{"text": "Encrypted traffic inspection analyzed 20000 sessions detecting 12 malware", "entities": [[10, 17, "TRAFFIC_TYPE"], [38, 43, "COUNT"], [44, 52, "SESSION_TYPE"]]}
+{"text": "Vendor network access review identified 3 vendors with privilege issues", "entities": [[0, 6, "VENDOR_TYPE"], [29, 49, "VENDOR_TYPE"], [55, 64, "ISSUE_TYPE"]]}
+{"text": "Network security posture improved to 96% with enhanced monitoring", "entities": [[17, 24, "POSTURE_TYPE"], [37, 40, "METRIC_TYPE"], [46, 54, "MONITORING_TYPE"]]}
+{"text": "OPNsense advanced firewall platform enforced segmentation policies", "entities": [[0, 8, "TOOL"], [9, 26, "FIREWALL_TYPE"], [18, 35, "PLATFORM_TYPE"]]}
+{"text": "Cloud Network Security Tool detected 0.0.0.0/0 SSH open violation requiring restriction", "entities": [[0, 5, "CLOUD_TYPE"], [47, 55, "IP_RANGE"]]}
+{"text": "Network security training completion reached 92% for all network engineers", "entities": [[26, 44, "COMPLETION_TYPE"], [45, 47, "METRIC_TYPE"], [65, 74, "ROLE_TYPE"]]}
+{"text": "Compliance Framework Tool mapped network controls to PCI DSS ISO 27001", "entities": [[57, 70, "NETWORK_TYPE"]]}
+{"text": "Firewall hygiene score improved to 95% with 23 unused rules removed", "entities": [[0, 8, "FIREWALL_TYPE"], [9, 16, "METRIC_TYPE"], [17, 22, "METRIC_TYPE"], [23, 31, "METRIC_TYPE"], [47, 53, "COUNT"], [54, 59, "RULE_TYPE"], [60, 67, "RULE_TYPE"]]}
+{"text": "Snort IDS detected 45 intrusion attempts from IP 198.51.100.10", "entities": [[0, 5, "TOOL"], [6, 9, "TOOL"], [19, 21, "DETECTION_TYPE"], [22, 40, "INTRUSION_TYPE"], [49, 52, "PROTOCOL_TYPE"]]}
+{"text": "Network security training completion reached 92% for all network engineers", "entities": [[26, 44, "COMPLETION_TYPE"], [45, 47, "METRIC_TYPE"], [65, 74, "ROLE_TYPE"]]}
+{"text": "East-west traffic monitoring detected suspicious SMB lateral movement requiring investigation", "entities": [[0, 9, "TRAFFIC_TYPE"], [10, 17, "TRAFFIC_TYPE"], [38, 60, "MOVEMENT_TYPE"], [53, 69, "MOVEMENT_TYPE"]]}
+{"text": "Cloud Network Security Tool detected 0.0.0.0/0 SSH open violation requiring restriction", "entities": [[0, 5, "CLOUD_TYPE"], [47, 55, "IP_RANGE"]]}
+{"text": "Darktrace AI-based network anomaly detection identified insider threat", "entities": [[0, 9, "TOOL"], [10, 18, "AI_MODEL_TYPE"], [13, 26, "TOOL"], [27, 44, "ANOMALY_TYPE"], [56, 63, "THREAT_TYPE"]]}
+{"text": "Proactive threat hunting found C2 beaconing to 198.51.100.10", "entities": [[0, 9, "HUNTING_TYPE"], [47, 60, "IP_ADDRESS"]]}
+{"text": "Suricata high-performance IDS IPS detected malware in encrypted traffic", "entities": [[0, 8, "TOOL"], [26, 29, "TOOL"], [30, 33, "TOOL"]]}
+{"text": "Encrypted Traffic Inspection Tool inspected 20000 sessions detecting 12 malware instances", "entities": [[44, 58, "INSPECTION_TYPE"], [69, 79, "COUNT"]]}
+{"text": "DDoS Protection Tool simulated HTTP Flood attack achieving 99% mitigation rate", "entities": [[0, 4, "TOOL"], [31, 41, "SIMULATION_TYPE"], [42, 58, "PROTOCOL_TYPE"]]}
+{"text": "Network threat hunting identified C2 beaconing to IP 198.51.100.10 escalating incident INC789", "entities": [[15, 33, "HUNTING_TYPE"], [53, 59, "PROTOCOL_TYPE"], [53, 66, "IP_ADDRESS"]]}
+{"text": "Snort IDS detected 45 intrusion attempts from IP 198.51.100.10", "entities": [[0, 5, "TOOL"], [6, 9, "TOOL"], [19, 21, "DETECTION_TYPE"], [22, 40, "INTRUSION_TYPE"], [49, 52, "PROTOCOL_TYPE"]]}
+{"text": "Compliance Framework Tool mapped network controls to PCI DSS ISO 27001", "entities": [[57, 70, "NETWORK_TYPE"]]}
+{"text": "Network Segmentation Specialist enforced microsegmentation policies across 12 VLANs", "entities": [[32, 58, "NETWORK_TYPE"]]}
+{"text": "Cloud security group audit found 50 accounts with 12 open ingress rules", "entities": [[0, 5, "CLOUD_TYPE"], [15, 20, "GROUP_TYPE"], [50, 52, "COUNT"], [53, 57, "INGRESS_TYPE"]]}
+{"text": "Encrypted traffic analysis inspected 20000 sessions detecting malware", "entities": [[10, 17, "TRAFFIC_TYPE"], [18, 26, "ANALYSIS_TYPE"], [37, 42, "COUNT"], [43, 51, "SESSION_TYPE"]]}
+{"text": "Nmap network scanning discovered 1200 devices with 45 open ports", "entities": [[0, 4, "TOOL"], [22, 37, "COUNT"], [33, 45, "DEVICE_TYPE"], [51, 53, "PORT_TYPE"], [54, 58, "PORT_TYPE"]]}
+{"text": "ZTNA migration completed with 520 users and 98% coverage achieved", "entities": [[0, 4, "TOOL"], [30, 33, "USER_TYPE"], [44, 46, "METRIC_TYPE"], [48, 56, "COVERAGE_TYPE"]]}
+{"text": "Network Security Tester executed penetration test finding 8 critical vulnerabilities", "entities": [[33, 44, "NETWORK_TYPE"]]}
+{"text": "Network Performance Specialist optimized network latency reducing it by 35%", "entities": [[31, 48, "NETWORK_TYPE"], [41, 56, "PERFORMANCE_TYPE"]]}
+{"text": "NAC enforcement validated 1200 devices with 23 non-compliant blocked", "entities": [[0, 3, "TOOL"], [31, 38, "COUNT"], [47, 60, "COUNT"]]}
+{"text": "Suricata high-performance IDS IPS detected malware in encrypted traffic", "entities": [[0, 8, "TOOL"], [26, 29, "TOOL"], [30, 33, "TOOL"]]}
+{"text": "Elastic Stack ELK ingested network logs from 500 endpoints", "entities": [[0, 13, "TOOL"], [14, 17, "TOOL"]]}
+{"text": "Compliance Framework Tool mapped network controls to PCI DSS ISO 27001", "entities": [[57, 70, "NETWORK_TYPE"]]}
+{"text": "DDoS resilience achieved 99% with automated mitigation enabled", "entities": [[0, 4, "TOOL"], [5, 24, "RESILIENCE_TYPE"], [16, 27, "METRIC_TYPE"]]}
+{"text": "ZTNA coverage achieved 98% with 520 users migrated from legacy VPN", "entities": [[0, 4, "TOOL"], [5, 22, "COVERAGE_TYPE"], [23, 26, "METRIC_TYPE"], [36, 41, "COUNT"], [36, 50, "USER_TYPE"], [56, 62, "LEGACY_TYPE"]]}
+{"text": "NBAD Anomaly Detection Tool identified slow exfiltration over DNS with high risk", "entities": [[0, 4, "TOOL"], [5, 12, "TOOL"], [39, 56, "EXFILTRATION_TYPE"], [44, 56, "EXFILTRATION_TYPE"], [44, 61, "PROTOCOL_TYPE"]]}
+{"text": "NBAD Anomaly Detection Tool identified slow exfiltration over DNS with high risk", "entities": [[0, 4, "TOOL"], [5, 12, "TOOL"], [39, 56, "EXFILTRATION_TYPE"], [44, 56, "EXFILTRATION_TYPE"], [44, 61, "PROTOCOL_TYPE"]]}
+{"text": "Vendor connectivity audit reviewed 12 vendor VPNs with 3 access violations", "entities": [[0, 6, "VENDOR_TYPE"], [7, 19, "CONNECTIVITY_TYPE"], [35, 44, "VENDOR_TYPE"], [45, 49, "PROTOCOL_TYPE"], [55, 63, "ACCESS_TYPE"]]}
+{"text": "Suricata high-performance IDS IPS detected malware in encrypted traffic", "entities": [[0, 8, "TOOL"], [26, 29, "TOOL"], [30, 33, "TOOL"]]}
+{"text": "ZTNA coverage achieved 98% with zero legacy VPN sessions remaining", "entities": [[0, 4, "TOOL"], [5, 13, "COVERAGE_TYPE"], [14, 22, "METRIC_TYPE"], [23, 26, "METRIC_TYPE"], [32, 43, "METRIC_TYPE"], [37, 47, "LEGACY_TYPE"], [48, 66, "SESSION_TYPE"]]}
+{"text": "Network compliance audit scored 90% with 2 remediation items", "entities": [[25, 34, "METRIC_TYPE"]]}
+{"text": "IDS IPS signature updates applied detecting 120 new attack patterns", "entities": [[0, 3, "TOOL"], [4, 7, "TOOL"], [8, 25, "SIGNATURE_TYPE"], [18, 33, "UPDATE_TYPE"], [44, 47, "COUNT"], [48, 58, "ATTACK_TYPE"]]}
+{"text": "NAC block rate reduced to 2% with improved device posture validation", "entities": [[0, 3, "TOOL"], [15, 22, "METRIC_TYPE"], [15, 25, "METRIC_TYPE"], [34, 42, "DEVICE_TYPE"], [43, 49, "POSTURE_TYPE"], [50, 68, "VALIDATION_TYPE"]]}
+{"text": "Firewall Manager Tool audited 450 rules removing 23 unused and restricting overly permissive", "entities": [[0, 16, "TOOL"], [34, 39, "MANAGER_TYPE"], [52, 58, "COUNT"], [82, 92, "RESTRICTION_TYPE"]]}
+{"text": "DDoS resilience achieved 99% with automated mitigation enabled", "entities": [[0, 4, "TOOL"], [5, 24, "RESILIENCE_TYPE"], [16, 27, "METRIC_TYPE"]]}
+{"text": "Network Monitoring Specialist detected 120 IDS alerts with 15 critical SQL injection attempts", "entities": [[30, 46, "NETWORK_TYPE"], [75, 93, "ALERT_TYPE"]]}
+{"text": "Threat hunting exercise conducted 5 hunts finding C2 communication", "entities": [[15, 23, "EXERCISE_TYPE"], [24, 41, "HUNTING_TYPE"], [42, 66, "COMMUNICATION_TYPE"]]}
+{"text": "Threat hunting conducted 5 proactive hunts finding C2 beaconing", "entities": [[25, 36, "HUNTING_TYPE"], [27, 42, "HUNTING_TYPE"]]}
+{"text": "Firewall logs from datacenter at elevation 200m. Location: latitude 51.5074, longitude -0.1278, altitude 25m. Network monitoring active.", "entities": [[0, 8, "FIREWALL_TYPE"], [9, 13, "LOG_TYPE"], [43, 48, "MEASUREMENT"], [90, 104, "NETWORK_TYPE"], [96, 109, "MONITORING_TYPE"]]}
+{"text": "Principal Network Security Architect designed microsegmentation for prod dev and OT zones", "entities": [[46, 63, "NETWORK_TYPE"]]}
+{"text": "Vendor connectivity audit reviewed 12 vendor VPNs with 3 access violations", "entities": [[0, 6, "VENDOR_TYPE"], [7, 19, "CONNECTIVITY_TYPE"], [35, 44, "VENDOR_TYPE"], [45, 49, "PROTOCOL_TYPE"], [55, 63, "ACCESS_TYPE"]]}
+{"text": "pfSense open source firewall managed network segmentation for 200 servers", "entities": [[0, 7, "TOOL"], [8, 12, "TOOL"], [29, 36, "NETWORK_TYPE"]]}
+{"text": "Network Security Strategist defined network security policy with segmentation NAC and ZTNA", "entities": [[53, 59, "POLICY_TYPE"]]}
+{"text": "Encrypted Traffic Inspection Tool inspected 20000 sessions detecting 12 malware instances", "entities": [[44, 58, "INSPECTION_TYPE"], [69, 79, "COUNT"]]}
+{"text": "Network behavior anomaly detection identified slow exfiltration over DNS", "entities": [[8, 16, "BEHAVIOR_TYPE"], [17, 24, "ANOMALY_TYPE"], [46, 50, "EXFILTRATION_TYPE"], [51, 63, "PROTOCOL_TYPE"]]}
+{"text": "Suricata IDS IPS open source detected 5000 alerts with 98% detection accuracy", "entities": [[0, 8, "TOOL"], [9, 12, "TOOL"], [13, 16, "TOOL"], [17, 21, "TOOL"], [43, 49, "COUNT"], [59, 77, "DETECTION_TYPE"]]}
+{"text": "ZTNA coverage achieved 98% with zero legacy VPN sessions remaining", "entities": [[0, 4, "TOOL"], [5, 13, "COVERAGE_TYPE"], [14, 22, "METRIC_TYPE"], [23, 26, "METRIC_TYPE"], [32, 43, "METRIC_TYPE"], [37, 47, "LEGACY_TYPE"], [48, 66, "SESSION_TYPE"]]}
+{"text": "Firewall Manager Tool audited 450 rules removing 23 unused and restricting overly permissive", "entities": [[0, 16, "TOOL"], [34, 39, "MANAGER_TYPE"], [52, 58, "COUNT"], [82, 92, "RESTRICTION_TYPE"]]}
+{"text": "IDS IPS Tool detected 120 alerts with critical SQL injection from IP 203.0.113.5", "entities": [[0, 3, "TOOL"], [4, 7, "TOOL"], [13, 25, "DETECTION_TYPE"], [38, 60, "SEVERITY_TYPE"], [69, 72, "ATTACK_TYPE"], [75, 78, "PROTOCOL_TYPE"]]}
+{"text": "NAC enforcement validated 1200 devices with 23 non-compliant blocked", "entities": [[0, 3, "TOOL"], [31, 38, "COUNT"], [47, 60, "COUNT"]]}
+{"text": "Principal Network Security Architect designed microsegmentation for prod dev and OT zones", "entities": [[46, 63, "NETWORK_TYPE"]]}
+{"text": "Firewall logs show nameserver queries from datacenter subnet. Location coordinates: latitude 47.6062, longitude -122.3321.", "entities": [[0, 8, "FIREWALL_TYPE"], [9, 13, "LOG_TYPE"], [19, 29, "NAMESERVER"], [43, 60, "NETWORK_TYPE"], [62, 82, "COORDINATE"]]}
+{"text": "East-west traffic monitoring detected suspicious SMB lateral movement requiring investigation", "entities": [[0, 9, "TRAFFIC_TYPE"], [10, 17, "TRAFFIC_TYPE"], [38, 60, "MOVEMENT_TYPE"], [53, 69, "MOVEMENT_TYPE"]]}
+{"text": "Firewall rule hygiene achieved 95% with zero overly permissive rules", "entities": [[0, 8, "FIREWALL_TYPE"], [9, 13, "RULE_TYPE"], [14, 21, "HYGIENE_TYPE"], [22, 30, "METRIC_TYPE"], [22, 33, "METRIC_TYPE"], [40, 44, "METRIC_TYPE"], [45, 51, "PERMISSION_TYPE"], [52, 62, "RULE_TYPE"]]}
+{"text": "Network Analytics Specialist analyzed 50000 east-west traffic flows detecting anomalies", "entities": [[38, 43, "NETWORK_TYPE"], [44, 53, "ANALYTICS_TYPE"], [54, 67, "SPECIALIST_TYPE"]]}
+{"text": "NBAD Anomaly Detection Tool identified slow exfiltration over DNS with high risk", "entities": [[0, 4, "TOOL"], [5, 12, "TOOL"], [39, 56, "EXFILTRATION_TYPE"], [44, 56, "EXFILTRATION_TYPE"], [44, 61, "PROTOCOL_TYPE"]]}
+{"text": "Fortinet FortiGate enterprise NGFW platform enforced zero trust policies", "entities": [[30, 34, "TOOL"], [58, 72, "TRUST_TYPE"]]}
+{"text": "Vendor connectivity audit reviewed 12 vendor VPNs with 3 access violations", "entities": [[0, 6, "VENDOR_TYPE"], [7, 19, "CONNECTIVITY_TYPE"], [35, 44, "VENDOR_TYPE"], [45, 49, "PROTOCOL_TYPE"], [55, 63, "ACCESS_TYPE"]]}
+{"text": "pfSense open source firewall managed network segmentation for 200 servers", "entities": [[0, 7, "TOOL"], [8, 12, "TOOL"], [29, 36, "NETWORK_TYPE"]]}
+{"text": "Firewall rule audit completed removing 23 unused and 8 overly permissive rules", "entities": [[0, 8, "FIREWALL_TYPE"], [9, 13, "RULE_TYPE"]]}
+{"text": "NAC block rate reduced to 2% with improved device posture validation", "entities": [[0, 3, "TOOL"], [15, 22, "METRIC_TYPE"], [15, 25, "METRIC_TYPE"], [34, 42, "DEVICE_TYPE"], [43, 49, "POSTURE_TYPE"], [50, 68, "VALIDATION_TYPE"]]}
+{"text": "Network segmentation validation tested 12 VLAN boundaries with zero violations", "entities": [[42, 46, "COUNT"], [42, 57, "PROTOCOL_TYPE"], [63, 78, "COUNT"]]}
+{"text": "IDS detection rate reached 98% with automated response blocking 90% of threats", "entities": [[0, 3, "TOOL"], [19, 26, "METRIC_TYPE"], [19, 29, "METRIC_TYPE"], [36, 54, "RESPONSE_TYPE"], [64, 66, "METRIC_TYPE"]]}
+{"text": "Arista Awake Security NDR detected data exfiltration over DNS", "entities": [[0, 6, "TOOL"], [7, 12, "TOOL"], [22, 25, "TOOL"], [58, 61, "PROTOCOL_TYPE"]]}
+{"text": "Network monitoring detected traffic from datacenter IP 10.0.0.1. Location: Primary datacenter at latitude 40.7580, longitude -73.9855.", "entities": [[19, 35, "DATACENTER"], [55, 63, "IP_ADDRESS"], [41, 57, "DATACENTER"]]}
+{"text": "ZTNA enforcement migrated 520 users from legacy VPN with 98% coverage", "entities": [[0, 4, "TOOL"], [17, 35, "MIGRATION_TYPE"], [57, 59, "PROTOCOL_TYPE"], [61, 69, "METRIC_TYPE"]]}
+{"text": "IDS detection rate reached 98% with 120 alerts processed daily", "entities": [[0, 3, "TOOL"], [19, 26, "RATE_TYPE"], [36, 46, "METRIC_TYPE"], [47, 56, "ALERT_TYPE"]]}
+{"text": "Principal Network Security Architect designed microsegmentation for prod dev and OT zones", "entities": [[46, 63, "NETWORK_TYPE"]]}
+{"text": "East-west monitoring detected 12 anomalies in 50000 traffic flows", "entities": [[0, 9, "TRAFFIC_TYPE"], [33, 45, "ANOMALY_TYPE"], [52, 59, "COUNT"], [52, 65, "TRAFFIC_TYPE"]]}
+{"text": "Zscaler ZIA ZPA cloud-based secure access zero trust managed 520 users", "entities": [[8, 11, "TOOL"], [12, 15, "TOOL"], [16, 21, "TOOL"], [16, 27, "CLOUD_TYPE"], [28, 34, "ACCESS_TYPE"], [35, 46, "TRUST_TYPE"], [47, 52, "TRUST_TYPE"], [61, 64, "COUNT"], [65, 70, "USER_TYPE"]]}
+{"text": "Suricata high-performance IDS IPS detected malware in encrypted traffic", "entities": [[0, 8, "TOOL"], [26, 29, "TOOL"], [30, 33, "TOOL"]]}
+{"text": "Fortinet FortiGate enterprise NGFW platform enforced zero trust policies", "entities": [[30, 34, "TOOL"], [58, 72, "TRUST_TYPE"]]}
+{"text": "ZTNA coverage achieved 98% with zero legacy VPN sessions remaining", "entities": [[0, 4, "TOOL"], [5, 13, "COVERAGE_TYPE"], [14, 22, "METRIC_TYPE"], [23, 26, "METRIC_TYPE"], [32, 43, "METRIC_TYPE"], [37, 47, "LEGACY_TYPE"], [48, 66, "SESSION_TYPE"]]}
+{"text": "Cisco Firepower NGFW and IPS blocked 150 intrusion attempts", "entities": [[0, 5, "TOOL"], [6, 15, "TOOL"], [16, 20, "TOOL"], [29, 40, "COUNT"], [37, 50, "INTRUSION_TYPE"], [41, 59, "ATTEMPT_TYPE"]]}
+{"text": "Vendor network access review identified 3 vendors with privilege issues", "entities": [[0, 6, "VENDOR_TYPE"], [29, 49, "VENDOR_TYPE"], [55, 64, "ISSUE_TYPE"]]}
+{"text": "Encrypted traffic analysis inspected 20000 sessions detecting malware", "entities": [[10, 17, "TRAFFIC_TYPE"], [18, 26, "ANALYSIS_TYPE"], [37, 42, "COUNT"], [43, 51, "SESSION_TYPE"]]}
+{"text": "Darktrace AI-based network anomaly detection identified insider threat", "entities": [[0, 9, "TOOL"], [10, 18, "AI_MODEL_TYPE"], [13, 26, "TOOL"], [27, 44, "ANOMALY_TYPE"], [56, 63, "THREAT_TYPE"]]}
+{"text": "Threat hunting exercise conducted 5 hunts finding C2 communication", "entities": [[15, 23, "EXERCISE_TYPE"], [24, 41, "HUNTING_TYPE"], [42, 66, "COMMUNICATION_TYPE"]]}
+{"text": "Proactive threat hunting found C2 beaconing to 198.51.100.10", "entities": [[0, 9, "HUNTING_TYPE"], [47, 60, "IP_ADDRESS"]]}
+{"text": "East-west monitoring detected 12 anomalies in 50000 traffic flows", "entities": [[0, 9, "TRAFFIC_TYPE"], [33, 45, "ANOMALY_TYPE"], [52, 59, "COUNT"], [52, 65, "TRAFFIC_TYPE"]]}
+{"text": "Vendor Access Audit Tool validated 12 vendor VPN connections with 3 violations", "entities": []}
+{"text": "ExtraHop Reveal X NDR platform analyzed 50000 east-west flows", "entities": [[0, 8, "TOOL"], [9, 15, "TOOL"], [16, 21, "TOOL"], [31, 45, "PLATFORM_TYPE"], [51, 61, "COUNT"]]}
+{"text": "IDS detection rate reached 98% with 120 alerts processed daily", "entities": [[0, 3, "TOOL"], [19, 26, "RATE_TYPE"], [36, 46, "METRIC_TYPE"], [47, 56, "ALERT_TYPE"]]}
+{"text": "DDoS protection simulation tested HTTP flood achieving 99% mitigation", "entities": [[0, 4, "TOOL"], [39, 44, "PROTOCOL_TYPE"], [39, 54, "ATTACK_TYPE"], [55, 69, "METRIC_TYPE"]]}
+{"text": "NAC device posture validation checked 1200 devices blocking 23 non-compliant", "entities": [[0, 3, "TOOL"], [4, 18, "TOOL"], [11, 18, "DEVICE_TYPE"]]}
+{"text": "Elastic Stack ELK ingested network logs from 500 endpoints", "entities": [[0, 13, "TOOL"], [14, 17, "TOOL"]]}
+{"text": "Network Security Engineer configured Palo Alto NGFW with threat prevention enabled", "entities": [[26, 41, "TOOL"], [42, 46, "TOOL"], [47, 51, "TOOL"]]}
+{"text": "Zscaler ZIA ZPA cloud-based secure access zero trust managed 520 users", "entities": [[8, 11, "TOOL"], [12, 15, "TOOL"], [16, 21, "TOOL"], [16, 27, "CLOUD_TYPE"], [28, 34, "ACCESS_TYPE"], [35, 46, "TRUST_TYPE"], [47, 52, "TRUST_TYPE"], [61, 64, "COUNT"], [65, 70, "USER_TYPE"]]}
+{"text": "Fortinet FortiGate enterprise NGFW platform enforced zero trust policies", "entities": [[30, 34, "TOOL"], [58, 72, "TRUST_TYPE"]]}
+{"text": "DDoS protection simulation tested HTTP flood achieving 99% mitigation", "entities": [[0, 4, "TOOL"], [39, 44, "PROTOCOL_TYPE"], [39, 54, "ATTACK_TYPE"], [55, 69, "METRIC_TYPE"]]}
+{"text": "Threat hunting conducted 5 proactive hunts finding C2 beaconing", "entities": [[25, 36, "HUNTING_TYPE"], [27, 42, "HUNTING_TYPE"]]}
+{"text": "Network Segmentation Specialist enforced microsegmentation policies across 12 VLANs", "entities": [[32, 58, "NETWORK_TYPE"]]}
+{"text": "Snort IDS detected 45 intrusion attempts from IP 198.51.100.10", "entities": [[0, 5, "TOOL"], [6, 9, "TOOL"], [19, 21, "DETECTION_TYPE"], [22, 40, "INTRUSION_TYPE"], [49, 52, "PROTOCOL_TYPE"]]}
+{"text": "Firewall rule hygiene achieved 95% with zero overly permissive rules", "entities": [[0, 8, "FIREWALL_TYPE"], [9, 13, "RULE_TYPE"], [14, 21, "HYGIENE_TYPE"], [22, 30, "METRIC_TYPE"], [22, 33, "METRIC_TYPE"], [40, 44, "METRIC_TYPE"], [45, 51, "PERMISSION_TYPE"], [52, 62, "RULE_TYPE"]]}
+{"text": "Cloud security group audit found 50 accounts with 12 open ingress rules", "entities": [[0, 5, "CLOUD_TYPE"], [15, 20, "GROUP_TYPE"], [50, 52, "COUNT"], [53, 57, "INGRESS_TYPE"]]}
+{"text": "Zero Trust Policy Generator created policy enabling ZTNA and encrypted traffic inspection", "entities": [[0, 27, "TOOL"], [36, 51, "POLICY_TYPE"], [71, 78, "ENCRYPTION_TYPE"]]}
+{"text": "East-west traffic monitoring analyzed 50000 flows detecting 12 anomalies", "entities": [[0, 9, "TRAFFIC_TYPE"], [10, 17, "TRAFFIC_TYPE"], [29, 43, "COUNT"], [38, 49, "FLOW_TYPE"], [50, 72, "ANOMALY_TYPE"]]}
+{"text": "Threat hunting conducted 5 proactive hunts finding C2 beaconing", "entities": [[25, 36, "HUNTING_TYPE"], [27, 42, "HUNTING_TYPE"]]}
+{"text": "Network Architecture Design Tool separated prod dev OT and DMZ zones with microsegmentation", "entities": [[59, 62, "DESIGN_TYPE"], [63, 68, "TOOL"], [74, 91, "ZONE_TYPE"]]}
+{"text": "IDS detection rate reached 98% with automated response blocking 90% of threats", "entities": [[0, 3, "TOOL"], [19, 26, "METRIC_TYPE"], [19, 29, "METRIC_TYPE"], [36, 54, "RESPONSE_TYPE"], [64, 66, "METRIC_TYPE"]]}
+{"text": "Vendor network access audit identified 3 vendors with excessive privileges", "entities": [[0, 6, "VENDOR_TYPE"], [28, 48, "VENDOR_TYPE"], [54, 74, "PRIVILEGE_TYPE"]]}
+{"text": "Check Point Quantum Security Gateway NGFW IDS IPS detected APT activity", "entities": [[12, 19, "TOOL"], [20, 36, "GATEWAY_TYPE"], [29, 41, "TOOL"], [37, 41, "TOOL"], [42, 45, "TOOL"]]}
+{"text": "Cloud Network Security Tool detected 0.0.0.0/0 SSH open violation requiring restriction", "entities": [[0, 5, "CLOUD_TYPE"], [47, 55, "IP_RANGE"]]}
+{"text": "Network Security Strategist defined network security policy with segmentation NAC and ZTNA", "entities": [[53, 59, "POLICY_TYPE"]]}
+{"text": "Network security audit score improved to 90% with segmentation coverage at 95%", "entities": [[23, 37, "AUDIT_TYPE"], [29, 37, "METRIC_TYPE"], [41, 44, "METRIC_TYPE"], [63, 71, "COVERAGE_TYPE"], [75, 78, "METRIC_TYPE"]]}
+{"text": "DDoS Protection Tool simulated HTTP Flood attack achieving 99% mitigation rate", "entities": [[0, 4, "TOOL"], [31, 41, "SIMULATION_TYPE"], [42, 58, "PROTOCOL_TYPE"]]}
+{"text": "Zeek Bro network traffic analysis identified C2 beaconing to 203.0.113.5", "entities": [[0, 4, "TOOL"], [5, 8, "TOOL"], [17, 24, "TRAFFIC_TYPE"], [25, 33, "ANALYSIS_TYPE"], [61, 72, "IP_ADDRESS"]]}
+{"text": "Wireshark deep packet inspection analyzed 20000 encrypted sessions", "entities": [[0, 9, "TOOL"], [10, 32, "TOOL"], [22, 32, "PACKET_TYPE"], [22, 41, "INSPECTION_TYPE"], [42, 57, "COUNT"]]}
+{"text": "Vendor connectivity audit reviewed 12 vendor VPNs with 3 access violations", "entities": [[0, 6, "VENDOR_TYPE"], [7, 19, "CONNECTIVITY_TYPE"], [35, 44, "VENDOR_TYPE"], [45, 49, "PROTOCOL_TYPE"], [55, 63, "ACCESS_TYPE"]]}
+{"text": "CISO approved network security strategy with zero trust and segmentation roadmap", "entities": [[0, 4, "ROLE"]]}
+{"text": "Nmap network scanning discovered 1200 devices with 45 open ports", "entities": [[0, 4, "TOOL"], [22, 37, "COUNT"], [33, 45, "DEVICE_TYPE"], [51, 53, "PORT_TYPE"], [54, 58, "PORT_TYPE"]]}
+{"text": "OPNsense advanced firewall platform enforced segmentation policies", "entities": [[0, 8, "TOOL"], [9, 26, "FIREWALL_TYPE"], [18, 35, "PLATFORM_TYPE"]]}
+{"text": "Zero trust policy enforcement migrated 520 users achieving 98% coverage", "entities": [[0, 10, "TRUST_TYPE"], [11, 17, "TRUST_TYPE"], [11, 29, "POLICY_TYPE"], [43, 48, "COUNT"], [63, 71, "METRIC_TYPE"]]}
+{"text": "Network segmentation validation tested 12 VLAN boundaries with zero violations", "entities": [[42, 46, "COUNT"], [42, 57, "PROTOCOL_TYPE"], [63, 78, "COUNT"]]}
+{"text": "Network compliance audit scored 90% with 2 remediation items", "entities": [[25, 34, "METRIC_TYPE"]]}
+{"text": "IDS IPS signature updates applied detecting 120 new attack patterns", "entities": [[0, 3, "TOOL"], [4, 7, "TOOL"], [8, 25, "SIGNATURE_TYPE"], [18, 33, "UPDATE_TYPE"], [44, 47, "COUNT"], [48, 58, "ATTACK_TYPE"]]}
+{"text": "NAC enforcement validated 1200 devices with 23 non-compliant blocked", "entities": [[0, 3, "TOOL"], [31, 38, "COUNT"], [47, 60, "COUNT"]]}
+{"text": "NAC block rate reduced to 2% with improved device posture validation", "entities": [[0, 3, "TOOL"], [15, 22, "METRIC_TYPE"], [15, 25, "METRIC_TYPE"], [34, 42, "DEVICE_TYPE"], [43, 49, "POSTURE_TYPE"], [50, 68, "VALIDATION_TYPE"]]}
+{"text": "East-west traffic analysis detected suspicious SMB lateral movement", "entities": [[0, 9, "TRAFFIC_TYPE"], [10, 17, "TRAFFIC_TYPE"], [10, 26, "ANALYSIS_TYPE"], [27, 46, "SUSPICIOUS_TYPE"], [47, 58, "MOVEMENT_TYPE"], [51, 67, "MOVEMENT_TYPE"]]}
+{"text": "NAC Management Tool checked 1200 devices blocking 23 non-compliant endpoints", "entities": [[0, 3, "TOOL"], [4, 14, "TOOL"], [33, 40, "COUNT"], [53, 56, "COUNT"], [53, 76, "COMPLIANCE_STATUS"]]}
+{"text": "Fortinet FortiGate firewall detected and blocked 150 intrusion attempts", "entities": [[9, 27, "FIREWALL_TYPE"], [41, 52, "ACTION_TYPE"]]}
+{"text": "ZTNA migration completed with 520 users and 98% coverage achieved", "entities": [[0, 4, "TOOL"], [30, 33, "USER_TYPE"], [44, 46, "METRIC_TYPE"], [48, 56, "COVERAGE_TYPE"]]}
+{"text": "Network Log Analysis Tool correlated events from IDS IPS and firewall logs", "entities": [[8, 11, "LOG_TYPE"], [12, 20, "ANALYSIS_TYPE"], [53, 56, "TOOL"], [61, 74, "FIREWALL_TYPE"]]}
+{"text": "Vendor Access Audit Tool reviewed partnerA and vendorB connectivity finding excessive privileges", "entities": [[25, 42, "VENDOR_TYPE"], [34, 42, "ACCESS_TYPE"], [47, 54, "TOOL"], [55, 67, "PARTNER_NAME"], [76, 96, "CONNECTIVITY_TYPE"]]}
+{"text": "Cloud security group audit found 50 accounts with 12 open ingress rules", "entities": [[0, 5, "CLOUD_TYPE"], [15, 20, "GROUP_TYPE"], [50, 52, "COUNT"], [53, 57, "INGRESS_TYPE"]]}
+{"text": "ExtraHop Reveal X NDR platform analyzed 50000 east-west flows", "entities": [[0, 8, "TOOL"], [9, 15, "TOOL"], [16, 21, "TOOL"], [31, 45, "PLATFORM_TYPE"], [51, 61, "COUNT"]]}
+{"text": "Cloud Network Security Tool detected 0.0.0.0/0 SSH open violation requiring restriction", "entities": [[0, 5, "CLOUD_TYPE"], [47, 55, "IP_RANGE"]]}
+{"text": "Encrypted traffic analysis inspected 20000 sessions detecting malware", "entities": [[10, 17, "TRAFFIC_TYPE"], [18, 26, "ANALYSIS_TYPE"], [37, 42, "COUNT"], [43, 51, "SESSION_TYPE"]]}
+{"text": "Network Monitoring Specialist detected 120 IDS alerts with 15 critical SQL injection attempts", "entities": [[30, 46, "NETWORK_TYPE"], [75, 93, "ALERT_TYPE"]]}
+{"text": "CISO approved network security strategy with zero trust and segmentation roadmap", "entities": [[0, 4, "ROLE"]]}
+{"text": "Firewall rule audit completed removing 23 unused and 8 overly permissive rules", "entities": [[0, 8, "FIREWALL_TYPE"], [9, 13, "RULE_TYPE"]]}
+{"text": "Network security false positive rate reduced to 1.9% improving alert accuracy", "entities": [[17, 31, "SECURITY_TYPE"], [63, 77, "METRIC_TYPE"]]}
+{"text": "DDoS mitigation tested achieving 99% success rate during flood simulation", "entities": [[0, 4, "TOOL"], [33, 35, "METRIC_TYPE"], [37, 44, "SUCCESS_TYPE"], [50, 62, "ATTACK_TYPE"]]}
+{"text": "pfSense open-source firewall router blocked 230 malicious connections", "entities": [[0, 7, "TOOL"], [20, 28, "FIREWALL_TYPE"], [29, 35, "ROUTER_TYPE"], [44, 47, "COUNT"], [48, 57, "MALICIOUS_TYPE"]]}
+{"text": "Incident Responder investigated network breach affecting 3 data centers", "entities": [[64, 71, "DATA_TYPE"]]}
+{"text": "Head of Network Security reviewed firewall ruleset with 450 rules and 23 violations", "entities": [[34, 50, "RULESET_TYPE"], [56, 59, "RULE_TYPE"]]}
+{"text": "ntopng network traffic flow monitoring detected 12 anomalies", "entities": [[0, 6, "TOOL"], [15, 22, "TRAFFIC_TYPE"], [23, 27, "FLOW_TYPE"], [48, 60, "ANOMALY_TYPE"]]}
+{"text": "Security Onion NSM distro monitored network security across 3 data centers", "entities": [[15, 25, "TOOL"], [19, 25, "TOOL"]]}
+{"text": "ZTNA coverage achieved 98% with 520 users migrated from legacy VPN", "entities": [[0, 4, "TOOL"], [5, 22, "COVERAGE_TYPE"], [23, 26, "METRIC_TYPE"], [36, 41, "COUNT"], [36, 50, "USER_TYPE"], [56, 62, "LEGACY_TYPE"]]}
+{"text": "DDoS resilience achieved 99% with automated mitigation enabled", "entities": [[0, 4, "TOOL"], [5, 24, "RESILIENCE_TYPE"], [16, 27, "METRIC_TYPE"]]}
+{"text": "Firewall rule optimization removed 23 unused rules and restricted 8 permissive rules", "entities": [[0, 8, "FIREWALL_TYPE"], [9, 13, "RULE_TYPE"], [35, 44, "RULE_TYPE"], [38, 50, "RULE_TYPE"], [68, 78, "RULE_TYPE"]]}
+{"text": "Network Segmentation Specialist enforced microsegmentation policies across 12 VLANs", "entities": [[32, 58, "NETWORK_TYPE"]]}
+{"text": "Zero trust policy enforcement migrated 520 users achieving 98% coverage", "entities": [[0, 10, "TRUST_TYPE"], [11, 17, "TRUST_TYPE"], [11, 29, "POLICY_TYPE"], [43, 48, "COUNT"], [63, 71, "METRIC_TYPE"]]}
+{"text": "Network threat hunting identified C2 beaconing to IP 198.51.100.10 escalating incident INC789", "entities": [[15, 33, "HUNTING_TYPE"], [53, 59, "PROTOCOL_TYPE"], [53, 66, "IP_ADDRESS"]]}
+{"text": "Compliance Framework Tool mapped network controls to PCI DSS ISO 27001", "entities": [[57, 70, "NETWORK_TYPE"]]}
+{"text": "Network audit score reached 90% with 2 findings requiring remediation", "entities": [[14, 19, "METRIC_TYPE"], [20, 30, "METRIC_TYPE"]]}
+{"text": "Cloud network security scan found 50 accounts with 12 misconfigurations", "entities": [[0, 5, "CLOUD_TYPE"], [51, 53, "COUNT"]]}
+{"text": "Vendor network access review identified 3 vendors with privilege issues", "entities": [[0, 6, "VENDOR_TYPE"], [29, 49, "VENDOR_TYPE"], [55, 64, "ISSUE_TYPE"]]}
+{"text": "Network Performance Specialist optimized network latency reducing it by 35%", "entities": [[31, 48, "NETWORK_TYPE"], [41, 56, "PERFORMANCE_TYPE"]]}
+{"text": "East-west traffic analysis detected suspicious SMB lateral movement", "entities": [[0, 9, "TRAFFIC_TYPE"], [10, 17, "TRAFFIC_TYPE"], [10, 26, "ANALYSIS_TYPE"], [27, 46, "SUSPICIOUS_TYPE"], [47, 58, "MOVEMENT_TYPE"], [51, 67, "MOVEMENT_TYPE"]]}
+{"text": "Network security metrics reporting showed 95% firewall hygiene and 98% IDS detection", "entities": [[35, 44, "METRIC_TYPE"], [42, 54, "METRIC_TYPE"], [46, 62, "FIREWALL_TYPE"], [55, 62, "METRIC_TYPE"], [67, 70, "METRIC_TYPE"], [71, 74, "METRIC_TYPE"]]}
+{"text": "Network Architecture Design Tool separated prod dev OT and DMZ zones with microsegmentation", "entities": [[59, 62, "DESIGN_TYPE"], [63, 68, "TOOL"], [74, 91, "ZONE_TYPE"]]}
+{"text": "Firewall Manager Tool audited 450 rules removing 23 unused and restricting overly permissive", "entities": [[0, 16, "TOOL"], [34, 39, "MANAGER_TYPE"], [52, 58, "COUNT"], [82, 92, "RESTRICTION_TYPE"]]}
+{"text": "Darktrace AI-based network anomaly detection identified insider threat", "entities": [[0, 9, "TOOL"], [10, 18, "AI_MODEL_TYPE"], [13, 26, "TOOL"], [27, 44, "ANOMALY_TYPE"], [56, 63, "THREAT_TYPE"]]}
+{"text": "Vendor network access review identified 3 vendors with privilege issues", "entities": [[0, 6, "VENDOR_TYPE"], [29, 49, "VENDOR_TYPE"], [55, 64, "ISSUE_TYPE"]]}
+{"text": "VPN session monitoring tracked 230 active sessions with 97% MFA compliance", "entities": [[0, 3, "PROTOCOL_TYPE"], [4, 11, "SESSION_TYPE"], [31, 41, "SESSION_TYPE"], [35, 50, "SESSION_TYPE"], [56, 63, "AUTH_TYPE"]]}
+{"text": "VPN ZTNA Manager Tool managed 230 active sessions with 97% MFA compliance", "entities": [[0, 3, "TOOL"], [4, 8, "TOOL"], [34, 40, "SESSION_TYPE"], [41, 49, "SESSION_TYPE"], [55, 58, "METRIC_TYPE"], [59, 62, "AUTH_TYPE"]]}
+{"text": "IDS detection rate reached 98% with 120 alerts processed daily", "entities": [[0, 3, "TOOL"], [19, 26, "RATE_TYPE"], [36, 46, "METRIC_TYPE"], [47, 56, "ALERT_TYPE"]]}
+{"text": "East-west traffic analysis detected suspicious SMB lateral movement", "entities": [[0, 9, "TRAFFIC_TYPE"], [10, 17, "TRAFFIC_TYPE"], [10, 26, "ANALYSIS_TYPE"], [27, 46, "SUSPICIOUS_TYPE"], [47, 58, "MOVEMENT_TYPE"], [51, 67, "MOVEMENT_TYPE"]]}
+{"text": "Head of Network Security reviewed firewall ruleset with 450 rules and 23 violations", "entities": [[34, 50, "RULESET_TYPE"], [56, 59, "RULE_TYPE"]]}
+{"text": "CrowdStrike Falcon NDR AI-driven platform detected lateral movement", "entities": [[0, 11, "TOOL"], [12, 18, "TOOL"], [19, 22, "TOOL"], [23, 32, "TOOL"], [26, 32, "AI_MODEL_TYPE"], [26, 41, "TOOL"], [33, 50, "PLATFORM_TYPE"], [51, 67, "MOVEMENT_TYPE"]]}
+{"text": "DDoS resilience achieved 99% mitigation rate during HTTP flood simulation", "entities": [[0, 4, "TOOL"], [5, 24, "RESILIENCE_TYPE"], [25, 39, "METRIC_TYPE"], [52, 56, "PROTOCOL_TYPE"], [57, 62, "ATTACK_TYPE"]]}
+{"text": "Akamai Kona Site Defender DDoS and WAF blocked 5000 attack requests", "entities": [[0, 6, "TOOL"], [7, 11, "TOOL"], [12, 16, "TOOL"], [17, 25, "TOOL"], [26, 30, "TOOL"], [35, 38, "TOOL"], [47, 51, "COUNT"], [59, 67, "REQUEST_TYPE"]]}
+{"text": "Network security training completion reached 92% for all network engineers", "entities": [[26, 44, "COMPLETION_TYPE"], [45, 47, "METRIC_TYPE"], [65, 74, "ROLE_TYPE"]]}
+{"text": "Network Security Engineer configured Palo Alto NGFW with threat prevention enabled", "entities": [[26, 41, "TOOL"], [42, 46, "TOOL"], [47, 51, "TOOL"]]}
+{"text": "Network Compliance Analyst validated PCI DSS controls with 96% compliance rate", "entities": [[27, 40, "NETWORK_TYPE"]]}
+{"text": "Zero Trust Policy Generator created policy enabling ZTNA and encrypted traffic inspection", "entities": [[0, 27, "TOOL"], [36, 51, "POLICY_TYPE"], [71, 78, "ENCRYPTION_TYPE"]]}
+{"text": "IDS detection rate reached 98% with 120 alerts processed daily", "entities": [[0, 3, "TOOL"], [19, 26, "RATE_TYPE"], [36, 46, "METRIC_TYPE"], [47, 56, "ALERT_TYPE"]]}
+{"text": "Nmap network scanning discovered 1200 devices with 45 open ports", "entities": [[0, 4, "TOOL"], [22, 37, "COUNT"], [33, 45, "DEVICE_TYPE"], [51, 53, "PORT_TYPE"], [54, 58, "PORT_TYPE"]]}
+{"text": "SSL TLS inspection decrypted 20000 sessions finding 12 malware samples", "entities": [[0, 3, "PROTOCOL_TYPE"], [4, 7, "PROTOCOL_TYPE"], [19, 43, "DECRYPTION_TYPE"], [35, 51, "COUNT"]]}
+{"text": "Network segmentation validation tested 12 VLAN boundaries with zero violations", "entities": [[42, 46, "COUNT"], [42, 57, "PROTOCOL_TYPE"], [63, 78, "COUNT"]]}
+{"text": "ZTNA coverage achieved 98% with 520 users migrated from legacy VPN", "entities": [[0, 4, "TOOL"], [5, 22, "COVERAGE_TYPE"], [23, 26, "METRIC_TYPE"], [36, 41, "COUNT"], [36, 50, "USER_TYPE"], [56, 62, "LEGACY_TYPE"]]}
+{"text": "ntopng network traffic flow monitoring detected 12 anomalies", "entities": [[0, 6, "TOOL"], [15, 22, "TRAFFIC_TYPE"], [23, 27, "FLOW_TYPE"], [48, 60, "ANOMALY_TYPE"]]}
+{"text": "NAC block rate maintained at 2% with 23 non-compliant endpoints blocked", "entities": [[0, 3, "TOOL"], [15, 25, "RATE_TYPE"], [40, 53, "COUNT"], [44, 63, "COMPLIANCE_STATUS"]]}
+{"text": "IDS IPS Tool detected 120 alerts with critical SQL injection from IP 203.0.113.5", "entities": [[0, 3, "TOOL"], [4, 7, "TOOL"], [13, 25, "DETECTION_TYPE"], [38, 60, "SEVERITY_TYPE"], [69, 72, "ATTACK_TYPE"], [75, 78, "PROTOCOL_TYPE"]]}
+{"text": "Encrypted traffic inspection analyzed 20000 sessions detecting 12 malware", "entities": [[10, 17, "TRAFFIC_TYPE"], [38, 43, "COUNT"], [44, 52, "SESSION_TYPE"]]}
+{"text": "Firewall logs show nameserver queries from datacenter subnet. Location coordinates: latitude 47.6062, longitude -122.3321.", "entities": [[0, 8, "FIREWALL_TYPE"], [9, 13, "LOG_TYPE"], [19, 29, "NAMESERVER"], [43, 60, "NETWORK_TYPE"], [62, 82, "COORDINATE"]]}
+{"text": "Firewall logs from datacenter at elevation 200m. Location: latitude 51.5074, longitude -0.1278, altitude 25m. Network monitoring active.", "entities": [[0, 8, "FIREWALL_TYPE"], [9, 13, "LOG_TYPE"], [43, 48, "MEASUREMENT"], [90, 104, "NETWORK_TYPE"], [96, 109, "MONITORING_TYPE"]]}
+{"text": "Cisco Firepower NGFW and IPS blocked 150 intrusion attempts", "entities": [[0, 5, "TOOL"], [6, 15, "TOOL"], [16, 20, "TOOL"], [29, 40, "COUNT"], [37, 50, "INTRUSION_TYPE"], [41, 59, "ATTEMPT_TYPE"]]}
+{"text": "Network audit score reached 90% with 2 findings requiring remediation", "entities": [[14, 19, "METRIC_TYPE"], [20, 30, "METRIC_TYPE"]]}
+{"text": "Elastic Stack ELK ingested network logs from 500 endpoints", "entities": [[0, 13, "TOOL"], [14, 17, "TOOL"]]}
+{"text": "Threat hunting exercise conducted 5 hunts finding C2 communication", "entities": [[15, 23, "EXERCISE_TYPE"], [24, 41, "HUNTING_TYPE"], [42, 66, "COMMUNICATION_TYPE"]]}
+{"text": "Head of Network Security reviewed firewall ruleset with 450 rules and 23 violations", "entities": [[34, 50, "RULESET_TYPE"], [56, 59, "RULE_TYPE"]]}
+{"text": "Network audit score reached 90% with 2 findings requiring remediation", "entities": [[14, 19, "METRIC_TYPE"], [20, 30, "METRIC_TYPE"]]}
+{"text": "NBAD Anomaly Detection Tool identified slow exfiltration over DNS with high risk", "entities": [[0, 4, "TOOL"], [5, 12, "TOOL"], [39, 56, "EXFILTRATION_TYPE"], [44, 56, "EXFILTRATION_TYPE"], [44, 61, "PROTOCOL_TYPE"]]}
+{"text": "Network behavior anomaly detection identified slow exfiltration over DNS", "entities": [[8, 16, "BEHAVIOR_TYPE"], [17, 24, "ANOMALY_TYPE"], [46, 50, "EXFILTRATION_TYPE"], [51, 63, "PROTOCOL_TYPE"]]}
+{"text": "NAC block rate maintained at 2% with 23 non-compliant endpoints blocked", "entities": [[0, 3, "TOOL"], [15, 25, "RATE_TYPE"], [40, 53, "COUNT"], [44, 63, "COMPLIANCE_STATUS"]]}
+{"text": "Network security control coverage achieved 96% with 93% compliance rate", "entities": [[17, 24, "CONTROL_TYPE"], [25, 33, "COVERAGE_TYPE"], [43, 46, "METRIC_TYPE"], [52, 55, "METRIC_TYPE"]]}
+{"text": "Network security KPI dashboard showed 95% firewall hygiene 98% IDS detection", "entities": [[17, 20, "METRIC_TYPE"], [21, 30, "DASHBOARD_TYPE"], [38, 41, "METRIC_TYPE"], [42, 50, "FIREWALL_TYPE"], [51, 58, "METRIC_TYPE"], [59, 61, "METRIC_TYPE"], [63, 66, "METRIC_TYPE"]]}
+{"text": "NAC block rate maintained at 2% with 23 non-compliant endpoints blocked", "entities": [[0, 3, "TOOL"], [15, 25, "RATE_TYPE"], [40, 53, "COUNT"], [44, 63, "COMPLIANCE_STATUS"]]}
+{"text": "Network security control coverage achieved 96% with 93% compliance rate", "entities": [[17, 24, "CONTROL_TYPE"], [25, 33, "COVERAGE_TYPE"], [43, 46, "METRIC_TYPE"], [52, 55, "METRIC_TYPE"]]}
+{"text": "Zscaler ZIA ZPA cloud-based secure access zero trust managed 520 users", "entities": [[8, 11, "TOOL"], [12, 15, "TOOL"], [16, 21, "TOOL"], [16, 27, "CLOUD_TYPE"], [28, 34, "ACCESS_TYPE"], [35, 46, "TRUST_TYPE"], [47, 52, "TRUST_TYPE"], [61, 64, "COUNT"], [65, 70, "USER_TYPE"]]}
+{"text": "Threat hunting conducted 5 proactive hunts finding C2 beaconing", "entities": [[25, 36, "HUNTING_TYPE"], [27, 42, "HUNTING_TYPE"]]}
+{"text": "IDS detection rate reached 98% with automated response blocking 90% of threats", "entities": [[0, 3, "TOOL"], [19, 26, "METRIC_TYPE"], [19, 29, "METRIC_TYPE"], [36, 54, "RESPONSE_TYPE"], [64, 66, "METRIC_TYPE"]]}
+{"text": "Firewall rule optimization removed 23 unused rules and restricted 8 permissive rules", "entities": [[0, 8, "FIREWALL_TYPE"], [9, 13, "RULE_TYPE"], [35, 44, "RULE_TYPE"], [38, 50, "RULE_TYPE"], [68, 78, "RULE_TYPE"]]}
+{"text": "CrowdStrike Falcon NDR AI-driven platform detected lateral movement", "entities": [[0, 11, "TOOL"], [12, 18, "TOOL"], [19, 22, "TOOL"], [23, 32, "TOOL"], [26, 32, "AI_MODEL_TYPE"], [26, 41, "TOOL"], [33, 50, "PLATFORM_TYPE"], [51, 67, "MOVEMENT_TYPE"]]}
+{"text": "Firewall rule hygiene achieved 95% with zero overly permissive rules", "entities": [[0, 8, "FIREWALL_TYPE"], [9, 13, "RULE_TYPE"], [14, 21, "HYGIENE_TYPE"], [22, 30, "METRIC_TYPE"], [22, 33, "METRIC_TYPE"], [40, 44, "METRIC_TYPE"], [45, 51, "PERMISSION_TYPE"], [52, 62, "RULE_TYPE"]]}
+{"text": "Network behavior analysis identified DNS tunneling exfiltration attempt", "entities": [[8, 16, "BEHAVIOR_TYPE"], [17, 25, "ANALYSIS_TYPE"], [51, 71, "ATTEMPT_TYPE"]]}
+{"text": "Network security control coverage achieved 96% with 93% compliance rate", "entities": [[17, 24, "CONTROL_TYPE"], [25, 33, "COVERAGE_TYPE"], [43, 46, "METRIC_TYPE"], [52, 55, "METRIC_TYPE"]]}
+{"text": "Network security KPI dashboard showed 95% firewall hygiene 98% IDS detection", "entities": [[17, 20, "METRIC_TYPE"], [21, 30, "DASHBOARD_TYPE"], [38, 41, "METRIC_TYPE"], [42, 50, "FIREWALL_TYPE"], [51, 58, "METRIC_TYPE"], [59, 61, "METRIC_TYPE"], [63, 66, "METRIC_TYPE"]]}
+{"text": "DDoS mitigation tested achieving 99% success rate during flood simulation", "entities": [[0, 4, "TOOL"], [33, 35, "METRIC_TYPE"], [37, 44, "SUCCESS_TYPE"], [50, 62, "ATTACK_TYPE"]]}
+{"text": "East-west monitoring detected 12 anomalies in 50000 traffic flows", "entities": [[0, 9, "TRAFFIC_TYPE"], [33, 45, "ANOMALY_TYPE"], [52, 59, "COUNT"], [52, 65, "TRAFFIC_TYPE"]]}
+{"text": "Firewall rule optimization removed 23 unused rules and restricted 8 permissive rules", "entities": [[0, 8, "FIREWALL_TYPE"], [9, 13, "RULE_TYPE"], [35, 44, "RULE_TYPE"], [38, 50, "RULE_TYPE"], [68, 78, "RULE_TYPE"]]}
+{"text": "Network Log Analysis Tool correlated events from IDS IPS and firewall logs", "entities": [[8, 11, "LOG_TYPE"], [12, 20, "ANALYSIS_TYPE"], [53, 56, "TOOL"], [61, 74, "FIREWALL_TYPE"]]}
+{"text": "Darktrace AI-based network anomaly detection identified insider threat", "entities": [[0, 9, "TOOL"], [10, 18, "AI_MODEL_TYPE"], [13, 26, "TOOL"], [27, 44, "ANOMALY_TYPE"], [56, 63, "THREAT_TYPE"]]}
+{"text": "Network monitoring detected traffic from datacenter IP 10.0.0.1. Location: Primary datacenter at latitude 40.7580, longitude -73.9855.", "entities": [[19, 35, "DATACENTER"], [55, 63, "IP_ADDRESS"], [41, 57, "DATACENTER"]]}
+{"text": "East-west monitoring detected 12 anomalies in 50000 traffic flows", "entities": [[0, 9, "TRAFFIC_TYPE"], [33, 45, "ANOMALY_TYPE"], [52, 59, "COUNT"], [52, 65, "TRAFFIC_TYPE"]]}
+{"text": "Firewall hygiene score improved to 95% with 23 unused rules removed", "entities": [[0, 8, "FIREWALL_TYPE"], [9, 16, "METRIC_TYPE"], [17, 22, "METRIC_TYPE"], [23, 31, "METRIC_TYPE"], [47, 53, "COUNT"], [54, 59, "RULE_TYPE"], [60, 67, "RULE_TYPE"]]}
+{"text": "Encrypted traffic analysis inspected 20000 sessions detecting malware", "entities": [[10, 17, "TRAFFIC_TYPE"], [18, 26, "ANALYSIS_TYPE"], [37, 42, "COUNT"], [43, 51, "SESSION_TYPE"]]}
+{"text": "NAC device posture validation checked 1200 devices blocking 23 non-compliant", "entities": [[0, 3, "TOOL"], [4, 18, "TOOL"], [11, 18, "DEVICE_TYPE"]]}
+{"text": "Wireshark deep packet inspection analyzed 20000 encrypted sessions", "entities": [[0, 9, "TOOL"], [10, 32, "TOOL"], [22, 32, "PACKET_TYPE"], [22, 41, "INSPECTION_TYPE"], [42, 57, "COUNT"]]}
+{"text": "Proactive threat hunting found C2 beaconing to 198.51.100.10", "entities": [[0, 9, "HUNTING_TYPE"], [47, 60, "IP_ADDRESS"]]}
+{"text": "DDoS resilience achieved 99% mitigation rate during HTTP flood simulation", "entities": [[0, 4, "TOOL"], [5, 24, "RESILIENCE_TYPE"], [25, 39, "METRIC_TYPE"], [52, 56, "PROTOCOL_TYPE"], [57, 62, "ATTACK_TYPE"]]}
+{"text": "Network Compliance Analyst validated PCI DSS controls with 96% compliance rate", "entities": [[27, 40, "NETWORK_TYPE"]]}
+{"text": "Firewall Manager Tool audited 450 rules removing 23 unused and restricting overly permissive", "entities": [[0, 16, "TOOL"], [34, 39, "MANAGER_TYPE"], [52, 58, "COUNT"], [82, 92, "RESTRICTION_TYPE"]]}
+{"text": "Cloud network security scan found 50 accounts with 12 misconfigurations", "entities": [[0, 5, "CLOUD_TYPE"], [51, 53, "COUNT"]]}
+{"text": "Zeek Bro network traffic analysis identified C2 beaconing to 203.0.113.5", "entities": [[0, 4, "TOOL"], [5, 8, "TOOL"], [17, 24, "TRAFFIC_TYPE"], [25, 33, "ANALYSIS_TYPE"], [61, 72, "IP_ADDRESS"]]}
+{"text": "VPN session monitoring tracked 230 active sessions with 97% MFA compliance", "entities": [[0, 3, "PROTOCOL_TYPE"], [4, 11, "SESSION_TYPE"], [31, 41, "SESSION_TYPE"], [35, 50, "SESSION_TYPE"], [56, 63, "AUTH_TYPE"]]}
+{"text": "IDS IPS signature updates applied detecting 120 new attack patterns", "entities": [[0, 3, "TOOL"], [4, 7, "TOOL"], [8, 25, "SIGNATURE_TYPE"], [18, 33, "UPDATE_TYPE"], [44, 47, "COUNT"], [48, 58, "ATTACK_TYPE"]]}
+{"text": "Fortinet FortiGate firewall detected and blocked 150 intrusion attempts", "entities": [[9, 27, "FIREWALL_TYPE"], [41, 52, "ACTION_TYPE"]]}
+{"text": "Vendor network access audit identified 3 vendors with excessive privileges", "entities": [[0, 6, "VENDOR_TYPE"], [28, 48, "VENDOR_TYPE"], [54, 74, "PRIVILEGE_TYPE"]]}
+{"text": "IDS IPS Tool detected 120 alerts with critical SQL injection from IP 203.0.113.5", "entities": [[0, 3, "TOOL"], [4, 7, "TOOL"], [13, 25, "DETECTION_TYPE"], [38, 60, "SEVERITY_TYPE"], [69, 72, "ATTACK_TYPE"], [75, 78, "PROTOCOL_TYPE"]]}
+{"text": "Network security false positive rate reduced to 1.9% improving alert accuracy", "entities": [[17, 31, "SECURITY_TYPE"], [63, 77, "METRIC_TYPE"]]}
+{"text": "NAC device posture validation checked 1200 devices blocking 23 non-compliant", "entities": [[0, 3, "TOOL"], [4, 18, "TOOL"], [11, 18, "DEVICE_TYPE"]]}
+{"text": "Incident Responder investigated network breach affecting 3 data centers", "entities": [[64, 71, "DATA_TYPE"]]}
+{"text": "Zeek Bro network traffic analysis identified C2 beaconing to 203.0.113.5", "entities": [[0, 4, "TOOL"], [5, 8, "TOOL"], [17, 24, "TRAFFIC_TYPE"], [25, 33, "ANALYSIS_TYPE"], [61, 72, "IP_ADDRESS"]]}
+{"text": "East-west traffic monitoring detected suspicious SMB lateral movement requiring investigation", "entities": [[0, 9, "TRAFFIC_TYPE"], [10, 17, "TRAFFIC_TYPE"], [38, 60, "MOVEMENT_TYPE"], [53, 69, "MOVEMENT_TYPE"]]}
+{"text": "Incident Responder investigated network breach affecting 3 data centers", "entities": [[64, 71, "DATA_TYPE"]]}
+{"text": "Vendor Access Audit Tool validated 12 vendor VPN connections with 3 violations", "entities": []}
+{"text": "IDS IPS Tool detected 120 alerts with critical SQL injection from IP 203.0.113.5", "entities": [[0, 3, "TOOL"], [4, 7, "TOOL"], [13, 25, "DETECTION_TYPE"], [38, 60, "SEVERITY_TYPE"], [69, 72, "ATTACK_TYPE"], [75, 78, "PROTOCOL_TYPE"]]}
+{"text": "Proactive threat hunting found C2 beaconing to 198.51.100.10", "entities": [[0, 9, "HUNTING_TYPE"], [47, 60, "IP_ADDRESS"]]}
+{"text": "Zscaler ZIA ZPA cloud-based secure access zero trust managed 520 users", "entities": [[8, 11, "TOOL"], [12, 15, "TOOL"], [16, 21, "TOOL"], [16, 27, "CLOUD_TYPE"], [28, 34, "ACCESS_TYPE"], [35, 46, "TRUST_TYPE"], [47, 52, "TRUST_TYPE"], [61, 64, "COUNT"], [65, 70, "USER_TYPE"]]}
+{"text": "NAC block rate maintained at 2% with 23 non-compliant endpoints blocked", "entities": [[0, 3, "TOOL"], [15, 25, "RATE_TYPE"], [40, 53, "COUNT"], [44, 63, "COMPLIANCE_STATUS"]]}
+{"text": "Network security posture improved to 96% with enhanced monitoring", "entities": [[17, 24, "POSTURE_TYPE"], [37, 40, "METRIC_TYPE"], [46, 54, "MONITORING_TYPE"]]}
+{"text": "Arista Awake Security NDR detected data exfiltration over DNS", "entities": [[0, 6, "TOOL"], [7, 12, "TOOL"], [22, 25, "TOOL"], [58, 61, "PROTOCOL_TYPE"]]}
+{"text": "Network security audit score improved to 90% with segmentation coverage at 95%", "entities": [[23, 37, "AUDIT_TYPE"], [29, 37, "METRIC_TYPE"], [41, 44, "METRIC_TYPE"], [63, 71, "COVERAGE_TYPE"], [75, 78, "METRIC_TYPE"]]}
+{"text": "Network Monitoring Specialist detected 120 IDS alerts with 15 critical SQL injection attempts", "entities": [[30, 46, "NETWORK_TYPE"], [75, 93, "ALERT_TYPE"]]}
+{"text": "DDoS Protection Tool simulated HTTP Flood attack achieving 99% mitigation rate", "entities": [[0, 4, "TOOL"], [31, 41, "SIMULATION_TYPE"], [42, 58, "PROTOCOL_TYPE"]]}
+{"text": "Firewall rule audit completed removing 23 unused and 8 overly permissive rules", "entities": [[0, 8, "FIREWALL_TYPE"], [9, 13, "RULE_TYPE"]]}
+{"text": "CrowdStrike Falcon NDR AI-driven platform detected lateral movement", "entities": [[0, 11, "TOOL"], [12, 18, "TOOL"], [19, 22, "TOOL"], [23, 32, "TOOL"], [26, 32, "AI_MODEL_TYPE"], [26, 41, "TOOL"], [33, 50, "PLATFORM_TYPE"], [51, 67, "MOVEMENT_TYPE"]]}
+{"text": "Can you help me with this?", "entities": []}
+{"text": "I need to check something.", "entities": []}
+{"text": "What is the status?", "entities": []}
+{"text": "How do I do this?", "entities": []}
+{"text": "Tell me more about it.", "entities": []}
+{"text": "Is this safe to use?", "entities": []}
+{"text": "Let me know if you need anything.", "entities": []}
+{"text": "Thanks for your help.", "entities": []}
+{"text": "I will get back to you.", "entities": []}
+{"text": "Please review this document.", "entities": []}
+{"text": "What should I do next?", "entities": []}
+{"text": "How does this work?", "entities": []}
+{"text": "Why is this happening?", "entities": []}
+{"text": "When will this be ready?", "entities": []}
+{"text": "Where can I find this?", "entities": []}
+{"text": "Who should I contact?", "entities": []}
+{"text": "Hey, what's up?", "entities": []}
+{"text": "That's interesting.", "entities": []}
+{"text": "I see what you mean.", "entities": []}
+{"text": "That makes sense.", "entities": []}
+{"text": "Got it, thanks.", "entities": []}
+{"text": "Follow the steps carefully.", "entities": []}
+{"text": "Make sure to save your work.", "entities": []}
+{"text": "Check the settings first.", "entities": []}
+{"text": "Review the documentation.", "entities": []}
+{"text": "Read the instructions.", "entities": []}
+{"text": "This is important.", "entities": []}
+{"text": "That looks good.", "entities": []}
+{"text": "Everything seems fine.", "entities": []}
+{"text": "Nothing to report.", "entities": []}
+{"text": "All systems operational.", "entities": []}
+{"text": "The system is secure.", "entities": []}
+{"text": "All checks passed.", "entities": []}
+{"text": "No issues detected.", "entities": []}
+{"text": "Everything is working correctly.", "entities": []}
+{"text": "The configuration looks good.", "entities": []}
+{"text": "No vulnerabilities found.", "entities": []}
+{"text": "Security measures are in place.", "entities": []}
+{"text": "The audit was successful.", "entities": []}
+{"text": "The information is verified.", "entities": []}
+{"text": "Sources are reliable.", "entities": []}
+{"text": "The data is consistent.", "entities": []}
+{"text": "Investigate ALPHV activities in our network", "entities": [[12, 17, "THREAT_ACTOR"]]}
+{"text": "Profile BlackCat capabilities and motivations", "entities": [[8, 16, "THREAT_ACTOR"]]}
+{"text": "BlackCat uses sophisticated evasion techniques", "entities": [[0, 8, "THREAT_ACTOR"]]}
+{"text": "Profile Wizard Spider capabilities and motivations", "entities": [[8, 21, "THREAT_ACTOR"]]}
+{"text": "Attribution analysis points to Fancy Bear", "entities": [[31, 41, "THREAT_ACTOR"]]}
+{"text": "Track Ragnar Locker infrastructure and indicators", "entities": [[6, 19, "THREAT_ACTOR"]]}
+{"text": "Attribution analysis points to Mespinoza", "entities": [[31, 40, "THREAT_ACTOR"]]}
+{"text": "Attribution analysis points to Ragnar Locker", "entities": [[31, 44, "THREAT_ACTOR"]]}
+{"text": "Profile Ryuk capabilities and motivations", "entities": [[8, 12, "THREAT_ACTOR"]]}
+{"text": "Attribution analysis points to LockBit", "entities": [[31, 38, "THREAT_ACTOR"]]}
+{"text": "Ragnar Locker has been linked to multiple breaches", "entities": [[0, 13, "THREAT_ACTOR"]]}
+{"text": "Track Ryuk infrastructure and indicators", "entities": [[6, 10, "THREAT_ACTOR"]]}
+{"text": "Maze uses sophisticated evasion techniques", "entities": [[0, 4, "THREAT_ACTOR"]]}
+{"text": "Attribution analysis points to BlackCat", "entities": [[31, 39, "THREAT_ACTOR"]]}
+{"text": "Intelligence indicates Wizard Spider is behind this attack", "entities": [[23, 36, "THREAT_ACTOR"]]}
+{"text": "Investigate Equation Group activities in our network", "entities": [[12, 26, "THREAT_ACTOR"]]}
+{"text": "Monitor for Wizard Spider TTPs in security logs", "entities": [[12, 25, "THREAT_ACTOR"]]}
+{"text": "Profile APT29 capabilities and motivations", "entities": [[8, 13, "THREAT_ACTOR"]]}
+{"text": "Threat actor LockBit has been active in recent campaigns", "entities": [[13, 20, "THREAT_ACTOR"]]}
+{"text": "Maze is known for targeting financial institutions", "entities": [[0, 4, "THREAT_ACTOR"]]}
+{"text": "Profile Cozy Bear capabilities and motivations", "entities": [[8, 17, "THREAT_ACTOR"]]}
+{"text": "APT28 has been linked to multiple breaches", "entities": [[0, 5, "THREAT_ACTOR"]]}
+{"text": "REvil has been linked to multiple breaches", "entities": [[0, 5, "THREAT_ACTOR"]]}
+{"text": "Intelligence indicates ALPHV is behind this attack", "entities": [[23, 28, "THREAT_ACTOR"]]}
+{"text": "Investigate Sandworm activities in our network", "entities": [[12, 20, "THREAT_ACTOR"]]}
+{"text": "Lazarus is known for targeting financial institutions", "entities": [[0, 7, "THREAT_ACTOR"]]}
+{"text": "Profile Maze capabilities and motivations", "entities": [[8, 12, "THREAT_ACTOR"]]}
+{"text": "Monitor for Mespinoza TTPs in security logs", "entities": [[12, 21, "THREAT_ACTOR"]]}
+{"text": "Investigate APT29 activities in our network", "entities": [[12, 17, "THREAT_ACTOR"]]}
+{"text": "Egregor is known for targeting financial institutions", "entities": [[0, 7, "THREAT_ACTOR"]]}
+{"text": "Investigate Lazarus activities in our network", "entities": [[12, 19, "THREAT_ACTOR"]]}
+{"text": "Intelligence indicates Egregor is behind this attack", "entities": [[23, 30, "THREAT_ACTOR"]]}
+{"text": "Investigate UNC2452 activities in our network", "entities": [[12, 19, "THREAT_ACTOR"]]}
+{"text": "ALPHV uses sophisticated evasion techniques", "entities": [[0, 5, "THREAT_ACTOR"]]}
+{"text": "DarkSide uses sophisticated evasion techniques", "entities": [[0, 8, "THREAT_ACTOR"]]}
+{"text": "Attribution analysis points to BlackCat", "entities": [[31, 39, "THREAT_ACTOR"]]}
+{"text": "Attribution analysis points to LockBit", "entities": [[31, 38, "THREAT_ACTOR"]]}
+{"text": "Threat actor Lazarus has been active in recent campaigns", "entities": [[13, 20, "THREAT_ACTOR"]]}
+{"text": "Track Ryuk infrastructure and indicators", "entities": [[6, 10, "THREAT_ACTOR"]]}
+{"text": "Threat actor Ragnar Locker has been active in recent campaigns", "entities": [[13, 26, "THREAT_ACTOR"]]}
+{"text": "DarkSide uses sophisticated evasion techniques", "entities": [[0, 8, "THREAT_ACTOR"]]}
+{"text": "Conti uses sophisticated evasion techniques", "entities": [[0, 5, "THREAT_ACTOR"]]}
+{"text": "Fancy Bear is known for targeting financial institutions", "entities": [[0, 10, "THREAT_ACTOR"]]}
+{"text": "Monitor for LockBit TTPs in security logs", "entities": [[12, 19, "THREAT_ACTOR"]]}
+{"text": "Investigate UNC2452 activities in our network", "entities": [[12, 19, "THREAT_ACTOR"]]}
+{"text": "Track Wizard Spider infrastructure and indicators", "entities": [[6, 19, "THREAT_ACTOR"]]}
+{"text": "ALPHV has been linked to multiple breaches", "entities": [[0, 5, "THREAT_ACTOR"]]}
+{"text": "Intelligence indicates LockBit is behind this attack", "entities": [[23, 30, "THREAT_ACTOR"]]}
+{"text": "Track Turla infrastructure and indicators", "entities": [[6, 11, "THREAT_ACTOR"]]}
+{"text": "Monitor for APT29 TTPs in security logs", "entities": [[12, 17, "THREAT_ACTOR"]]}
+{"text": "Attribution analysis points to Sandworm", "entities": [[31, 39, "THREAT_ACTOR"]]}
+{"text": "Intelligence indicates Equation Group is behind this attack", "entities": [[23, 37, "THREAT_ACTOR"]]}
+{"text": "APT41 is known for targeting financial institutions", "entities": [[0, 5, "THREAT_ACTOR"]]}
+{"text": "Track Equation Group infrastructure and indicators", "entities": [[6, 20, "THREAT_ACTOR"]]}
+{"text": "Investigate Ragnar Locker activities in our network", "entities": [[12, 25, "THREAT_ACTOR"]]}
+{"text": "Maze is known for targeting financial institutions", "entities": [[0, 4, "THREAT_ACTOR"]]}
+{"text": "Track Conti infrastructure and indicators", "entities": [[6, 11, "THREAT_ACTOR"]]}
+{"text": "LockBit has been linked to multiple breaches", "entities": [[0, 7, "THREAT_ACTOR"]]}
+{"text": "Monitor for Wizard Spider TTPs in security logs", "entities": [[12, 25, "THREAT_ACTOR"]]}
+{"text": "Threat actor DarkSide has been active in recent campaigns", "entities": [[13, 21, "THREAT_ACTOR"]]}
+{"text": "Intelligence indicates APT28 is behind this attack", "entities": [[23, 28, "THREAT_ACTOR"]]}
+{"text": "Equation Group uses sophisticated evasion techniques", "entities": [[0, 14, "THREAT_ACTOR"]]}
+{"text": "DoppelPaymer uses sophisticated evasion techniques", "entities": [[0, 12, "THREAT_ACTOR"]]}
+{"text": "Monitor for DarkSide TTPs in security logs", "entities": [[12, 20, "THREAT_ACTOR"]]}
+{"text": "Investigate Fancy Bear activities in our network", "entities": [[12, 22, "THREAT_ACTOR"]]}
+{"text": "Profile Conti capabilities and motivations", "entities": [[8, 13, "THREAT_ACTOR"]]}
+{"text": "Profile REvil capabilities and motivations", "entities": [[8, 13, "THREAT_ACTOR"]]}
+{"text": "Wizard Spider uses sophisticated evasion techniques", "entities": [[0, 13, "THREAT_ACTOR"]]}
+{"text": "FIN7 uses sophisticated evasion techniques", "entities": [[0, 4, "THREAT_ACTOR"]]}
+{"text": "Track Maze infrastructure and indicators", "entities": [[6, 10, "THREAT_ACTOR"]]}
+{"text": "Maze has been linked to multiple breaches", "entities": [[0, 4, "THREAT_ACTOR"]]}
+{"text": "LockBit has been linked to multiple breaches", "entities": [[0, 7, "THREAT_ACTOR"]]}
+{"text": "BlackCat has been linked to multiple breaches", "entities": [[0, 8, "THREAT_ACTOR"]]}
+{"text": "Attribution analysis points to REvil", "entities": [[31, 36, "THREAT_ACTOR"]]}
+{"text": "Threat actor Mespinoza has been active in recent campaigns", "entities": [[13, 22, "THREAT_ACTOR"]]}
+{"text": "Track Equation Group infrastructure and indicators", "entities": [[6, 20, "THREAT_ACTOR"]]}
+{"text": "Profile BlackCat capabilities and motivations", "entities": [[8, 16, "THREAT_ACTOR"]]}
+{"text": "Attribution analysis points to APT41", "entities": [[31, 36, "THREAT_ACTOR"]]}
+{"text": "Attribution analysis points to Ragnar Locker", "entities": [[31, 44, "THREAT_ACTOR"]]}
+{"text": "Investigate Conti activities in our network", "entities": [[12, 17, "THREAT_ACTOR"]]}
+{"text": "APT29 is known for targeting financial institutions", "entities": [[0, 5, "THREAT_ACTOR"]]}
+{"text": "Track APT41 infrastructure and indicators", "entities": [[6, 11, "THREAT_ACTOR"]]}
+{"text": "Monitor for ALPHV TTPs in security logs", "entities": [[12, 17, "THREAT_ACTOR"]]}
+{"text": "Scan https://company.com/download/file for vulnerabilities", "entities": [[5, 38, "URL"]]}
+{"text": "Scan https://company.com/download/file for vulnerabilities", "entities": [[5, 38, "URL"]]}
+{"text": "URL https://suspicious.net/download/file associated with malware", "entities": [[4, 40, "URL"]]}
+{"text": "Analyze https://malicious.io/download/file content", "entities": [[8, 42, "URL"]]}
+{"text": "Investigate URL https://suspicious.net/download/file for suspicious activity", "entities": [[16, 52, "URL"]]}
+{"text": "Investigate URL https://example.com/api/v1/data for suspicious activity", "entities": [[16, 47, "URL"]]}
+{"text": "URL https://example.com/user/profile flagged for phishing", "entities": [[4, 36, "URL"]]}
+{"text": "Monitor traffic to https://company.com/page", "entities": [[19, 43, "URL"]]}
+{"text": "Check https://test.org/download/file reputation", "entities": [[6, 36, "URL"]]}
+{"text": "Check https://malicious.io/user/profile reputation", "entities": [[6, 39, "URL"]]}
+{"text": "Analyze https://suspicious.net/search?q=test content", "entities": [[8, 44, "URL"]]}
+{"text": "URL https://example.com/page used in attack campaign", "entities": [[4, 28, "URL"]]}
+{"text": "Check https://example.com/page reputation", "entities": [[6, 30, "URL"]]}
+{"text": "URL https://example.com/api/v1/data associated with malware", "entities": [[4, 35, "URL"]]}
+{"text": "Block access to https://suspicious.net/page", "entities": [[16, 43, "URL"]]}
+{"text": "URL https://test.org/api/v1/data associated with malware", "entities": [[4, 32, "URL"]]}
+{"text": "URL https://example.com/page associated with malware", "entities": [[4, 28, "URL"]]}
+{"text": "Scan https://malicious.io/page for vulnerabilities", "entities": [[5, 30, "URL"]]}
+{"text": "Scan https://company.com/search?q=test for vulnerabilities", "entities": [[5, 38, "URL"]]}
+{"text": "Block access to https://company.com/user/profile", "entities": [[16, 48, "URL"]]}
+{"text": "Block access to https://malicious.io/download/file", "entities": [[16, 50, "URL"]]}
+{"text": "URL https://test.org/user/profile associated with malware", "entities": [[4, 33, "URL"]]}
+{"text": "URL https://example.com/page flagged for phishing", "entities": [[4, 28, "URL"]]}
+{"text": "URL https://test.org/download/file linked to threat actor", "entities": [[4, 34, "URL"]]}
+{"text": "URL https://company.com/download/file used in attack campaign", "entities": [[4, 37, "URL"]]}
+{"text": "Check https://test.org/user/profile reputation", "entities": [[6, 35, "URL"]]}
+{"text": "Block access to https://malicious.io/user/profile", "entities": [[16, 49, "URL"]]}
+{"text": "Scan https://suspicious.net/page for vulnerabilities", "entities": [[5, 32, "URL"]]}
+{"text": "URL https://suspicious.net/search?q=test associated with malware", "entities": [[4, 40, "URL"]]}
+{"text": "Monitor traffic to https://malicious.io/page", "entities": [[19, 44, "URL"]]}
+{"text": "Check https://test.org/api/v1/data reputation", "entities": [[6, 34, "URL"]]}
+{"text": "URL https://malicious.io/download/file associated with malware", "entities": [[4, 38, "URL"]]}
+{"text": "URL https://example.com/user/profile linked to threat actor", "entities": [[4, 36, "URL"]]}
+{"text": "Block access to https://test.org/api/v1/data", "entities": [[16, 44, "URL"]]}
+{"text": "Check https://company.com/download/file reputation", "entities": [[6, 39, "URL"]]}
+{"text": "Scan https://test.org/page for vulnerabilities", "entities": [[5, 26, "URL"]]}
+{"text": "Monitor traffic to https://company.com/search?q=test", "entities": [[19, 52, "URL"]]}
+{"text": "Analyze https://malicious.io/api/v1/data content", "entities": [[8, 40, "URL"]]}
+{"text": "URL https://example.com/search?q=test associated with malware", "entities": [[4, 37, "URL"]]}
+{"text": "Analyze https://test.org/search?q=test content", "entities": [[8, 38, "URL"]]}
+{"text": "URL https://company.com/api/v1/data flagged for phishing", "entities": [[4, 35, "URL"]]}
+{"text": "Monitor traffic to https://example.com/page", "entities": [[19, 43, "URL"]]}
+{"text": "URL https://suspicious.net/api/v1/data associated with malware", "entities": [[4, 38, "URL"]]}
+{"text": "Investigate URL https://example.com/download/file for suspicious activity", "entities": [[16, 49, "URL"]]}
+{"text": "URL https://malicious.io/api/v1/data flagged for phishing", "entities": [[4, 36, "URL"]]}
+{"text": "URL https://suspicious.net/download/file flagged for phishing", "entities": [[4, 40, "URL"]]}
+{"text": "Block access to https://example.com/user/profile", "entities": [[16, 48, "URL"]]}
+{"text": "URL https://malicious.io/search?q=test used in attack campaign", "entities": [[4, 38, "URL"]]}
+{"text": "URL https://malicious.io/user/profile used in attack campaign", "entities": [[4, 37, "URL"]]}
+{"text": "URL https://test.org/page flagged for phishing", "entities": [[4, 25, "URL"]]}
+{"text": "Scan https://example.com/user/profile for vulnerabilities", "entities": [[5, 37, "URL"]]}
+{"text": "Block access to https://suspicious.net/api/v1/data", "entities": [[16, 50, "URL"]]}
+{"text": "URL https://company.com/search?q=test used in attack campaign", "entities": [[4, 37, "URL"]]}
+{"text": "Block access to https://test.org/api/v1/data", "entities": [[16, 44, "URL"]]}
+{"text": "Investigate URL https://suspicious.net/download/file for suspicious activity", "entities": [[16, 52, "URL"]]}
+{"text": "Check https://company.com/user/profile reputation", "entities": [[6, 38, "URL"]]}
+{"text": "Scan https://company.com/api/v1/data for vulnerabilities", "entities": [[5, 36, "URL"]]}
+{"text": "Check https://example.com/api/v1/data reputation", "entities": [[6, 37, "URL"]]}
+{"text": "Check https://example.com/search?q=test reputation", "entities": [[6, 39, "URL"]]}
+{"text": "Block access to https://malicious.io/api/v1/data", "entities": [[16, 48, "URL"]]}
+{"text": "IPv6 7529:9dbe:a600:e79f:bda5:3b8d:202c:4ed2 associated with attack", "entities": [[5, 44, "IPV6_ADDRESS"]]}
+{"text": "Monitor 7a33:d973:bd94:756e:753d:aca2:d83b:d0a for suspicious activity", "entities": [[8, 46, "IPV6_ADDRESS"]]}
+{"text": "Investigate 7bbb:cd08:f39e:7180:bb26:842e:9ffe:54f2 network activity", "entities": [[12, 51, "IPV6_ADDRESS"]]}
+{"text": "IPv6 d55e:d4de:f21d:9bac:6197:b890:52b9:65af associated with attack", "entities": [[5, 44, "IPV6_ADDRESS"]]}
+{"text": "Monitor 6ad3:bc70:9da6:6a2d:7dc2:7b54:c0e1:528d for suspicious activity", "entities": [[8, 47, "IPV6_ADDRESS"]]}
+{"text": "Monitor aaf4:c085:a1ce:f4b5:df32:98c:1fe0:5f97 for suspicious activity", "entities": [[8, 46, "IPV6_ADDRESS"]]}
+{"text": "Traffic from 8b0a:2d1b:f894:9423:d8c:592f:89bd:93e3 detected", "entities": [[13, 51, "IPV6_ADDRESS"]]}
+{"text": "IPv6 49f3:1111:149a:fd0e:ee69:2e9d:f38b:1366 associated with attack", "entities": [[5, 44, "IPV6_ADDRESS"]]}
+{"text": "Block 2a1c:7f45:2c40:dcd6:b79a:4f37:694c:4ea7 at firewall", "entities": [[6, 45, "IPV6_ADDRESS"]]}
+{"text": "Traffic from f46e:5170:731a:622c:7503:8adb:fc71:45c4 detected", "entities": [[13, 52, "IPV6_ADDRESS"]]}
+{"text": "Monitor 240c:cfa7:fee2:b008:d3f4:821d:d946:c562 for suspicious activity", "entities": [[8, 47, "IPV6_ADDRESS"]]}
+{"text": "IPv6 f830:1fbc:9613:3321:98d4:980b:2951:f677 associated with attack", "entities": [[5, 44, "IPV6_ADDRESS"]]}
+{"text": "IPv6 c3a1:f747:e17a:7c3c:bf4c:ad16:5300:18af used in DDoS attack", "entities": [[5, 44, "IPV6_ADDRESS"]]}
+{"text": "Monitor 1289:7eed:cc70:e32b:195b:53c1:f1fb:d936 for suspicious activity", "entities": [[8, 47, "IPV6_ADDRESS"]]}
+{"text": "Trace connections from af86:55bd:b921:447c:3a9d:1934:acbe:53b9", "entities": [[23, 62, "IPV6_ADDRESS"]]}
+{"text": "Block a795:761:9366:cf4d:e9ac:48b0:69e5:98db at firewall", "entities": [[6, 44, "IPV6_ADDRESS"]]}
+{"text": "Block IPv6 address 27db:52b8:78dd:a452:2b37:675e:f81d:86d", "entities": [[19, 57, "IPV6_ADDRESS"]]}
+{"text": "Investigate 398e:9d15:5c02:c4d9:e019:9fc4:c11c:6566 network activity", "entities": [[12, 51, "IPV6_ADDRESS"]]}
+{"text": "Block 19d7:7755:ed4:722e:bde8:c997:2b8c:1fe7 at firewall", "entities": [[6, 44, "IPV6_ADDRESS"]]}
+{"text": "Monitor 5772:a624:78cb:ec98:82d1:8ae7:37f9:cab0 for suspicious activity", "entities": [[8, 47, "IPV6_ADDRESS"]]}
+{"text": "Block 81c0:5685:f1a6:3d1e:22d2:6463:9614:e9db at firewall", "entities": [[6, 45, "IPV6_ADDRESS"]]}
+{"text": "Traffic from 59fb:8f7d:32d6:f9ac:e0d8:cb96:9a8:e825 detected", "entities": [[13, 51, "IPV6_ADDRESS"]]}
+{"text": "Monitor f31c:de7c:ceed:97e2:71c7:4db5:e97f:78e2 for suspicious activity", "entities": [[8, 47, "IPV6_ADDRESS"]]}
+{"text": "IPv6 8e85:db73:432a:261f:2ab8:40d7:fa75:af99 associated with attack", "entities": [[5, 44, "IPV6_ADDRESS"]]}
+{"text": "IPv6 address 8155:1862:4636:ef17:2ac7:abef:40d8:d54a flagged", "entities": [[13, 52, "IPV6_ADDRESS"]]}
+{"text": "Block b50d:d3aa:3893:78cb:4bf8:7456:a26a:fa12 at firewall", "entities": [[6, 45, "IPV6_ADDRESS"]]}
+{"text": "IPv6 f0e0:281f:7747:8885:e4db:b305:b4d4:3c8e used in DDoS attack", "entities": [[5, 44, "IPV6_ADDRESS"]]}
+{"text": "IPv6 5a32:aea5:de32:fcff:7fb7:2aca:189:f4fe linked to threat actor", "entities": [[5, 43, "IPV6_ADDRESS"]]}
+{"text": "IPv6 eb20:ce0a:fa3e:4e46:294d:2829:1103:77f6 associated with attack", "entities": [[5, 44, "IPV6_ADDRESS"]]}
+{"text": "Block c352:e9cb:b283:b3bc:89ba:416a:e9b8:51c9 at firewall", "entities": [[6, 45, "IPV6_ADDRESS"]]}
+{"text": "Traffic from d64c:7376:bffb:9457:335a:9fb1:665f:76d3 detected", "entities": [[13, 52, "IPV6_ADDRESS"]]}
+{"text": "Trace connections from 72df:51bb:23c:babe:70a8:6cf:aff0:f61d", "entities": [[23, 60, "IPV6_ADDRESS"]]}
+{"text": "Block IPv6 address e913:9bdc:b49:64d3:fb6a:b541:ef28:7c37", "entities": [[19, 57, "IPV6_ADDRESS"]]}
+{"text": "Monitor 3d81:14c3:f5a9:36e2:3bba:ecb4:ca6c:2968 for suspicious activity", "entities": [[8, 47, "IPV6_ADDRESS"]]}
+{"text": "IPv6 506d:86be:6f06:4532:3fac:dd4d:fa71:6b6b associated with attack", "entities": [[5, 44, "IPV6_ADDRESS"]]}
+{"text": "Traffic from 1017:7c7c:db0f:7bb0:f23c:8be1:54f9:3aae detected", "entities": [[13, 52, "IPV6_ADDRESS"]]}
+{"text": "IPv6 222f:f1a:cb0d:160f:c4c7:af9d:f167:1a03 associated with attack", "entities": [[5, 43, "IPV6_ADDRESS"]]}
+{"text": "Block IPv6 address 39c5:5d84:28fa:de24:5d72:c1e2:1925:642d", "entities": [[19, 58, "IPV6_ADDRESS"]]}
+{"text": "IPv6 2302:7168:e21e:601c:c4c5:443b:6ecd:82aa used in DDoS attack", "entities": [[5, 44, "IPV6_ADDRESS"]]}
+{"text": "Trace connections from 5fd0:97c4:3363:fdf9:b5db:5b6f:c588:448e", "entities": [[23, 62, "IPV6_ADDRESS"]]}
+{"text": "Block IPv6 address f0f1:7a67:3ce2:c9b0:d352:9751:a1b9:3791", "entities": [[19, 58, "IPV6_ADDRESS"]]}
+{"text": "Monitor e50b:5eed:1604:b412:739:9975:e877:e392 for suspicious activity", "entities": [[8, 46, "IPV6_ADDRESS"]]}
+{"text": "Trace connections from f01:1ad3:8caa:dfa2:8e1e:dae7:8ffa:c37f", "entities": [[23, 61, "IPV6_ADDRESS"]]}
+{"text": "Trace connections from 9b5c:5f10:a203:f2c4:428a:c73:14d8:da47", "entities": [[23, 61, "IPV6_ADDRESS"]]}
+{"text": "Trace connections from acea:28d1:a132:d1c9:896:14bf:b5e9:7cb5", "entities": [[23, 61, "IPV6_ADDRESS"]]}
+{"text": "Block 1129:aaa6:f0b3:24c2:e9b5:31a1:ee7d:3209 at firewall", "entities": [[6, 45, "IPV6_ADDRESS"]]}
+{"text": "Investigate 9f08:9b7b:7d25:3796:8ee1:4100:406c:85a2 network activity", "entities": [[12, 51, "IPV6_ADDRESS"]]}
+{"text": "Traffic from 1313:4d8c:adc:3c95:964c:3a1:e1dd:7bfd detected", "entities": [[13, 50, "IPV6_ADDRESS"]]}
+{"text": "Block IPv6 address 8d9a:40e5:536f:7103:ac45:dc31:c31e:562a", "entities": [[19, 58, "IPV6_ADDRESS"]]}
+{"text": "Block IPv6 address 39e0:eb3f:6e96:9d0d:6041:6e99:4bfd:dc1", "entities": [[19, 57, "IPV6_ADDRESS"]]}
+{"text": "Investigate URL https://test.org/api/v1/data for suspicious activity", "entities": [[16, 44, "URL"]]}
+{"text": "Check https://test.org/search?q=test reputation", "entities": [[6, 36, "URL"]]}
+{"text": "Analyze https://example.com/page content", "entities": [[8, 32, "URL"]]}
+{"text": "Investigate URL https://malicious.io/search?q=test for suspicious activity", "entities": [[16, 50, "URL"]]}
+{"text": "Scan https://test.org/page for vulnerabilities", "entities": [[5, 26, "URL"]]}
+{"text": "Analyze https://test.org/search?q=test content", "entities": [[8, 38, "URL"]]}
+{"text": "URL https://test.org/api/v1/data linked to threat actor", "entities": [[4, 32, "URL"]]}
+{"text": "Block access to https://company.com/user/profile", "entities": [[16, 48, "URL"]]}
+{"text": "URL https://test.org/download/file flagged for phishing", "entities": [[4, 34, "URL"]]}
+{"text": "Analyze https://malicious.io/download/file content", "entities": [[8, 42, "URL"]]}
+{"text": "Monitor traffic to https://suspicious.net/search?q=test", "entities": [[19, 55, "URL"]]}
+{"text": "Block access to https://test.org/download/file", "entities": [[16, 46, "URL"]]}
+{"text": "Investigate URL https://example.com/page for suspicious activity", "entities": [[16, 40, "URL"]]}
+{"text": "URL https://example.com/api/v1/data used in attack campaign", "entities": [[4, 35, "URL"]]}
+{"text": "Check https://malicious.io/page reputation", "entities": [[6, 31, "URL"]]}
+{"text": "Check https://example.com/api/v1/data reputation", "entities": [[6, 37, "URL"]]}
+{"text": "Monitor traffic to https://suspicious.net/download/file", "entities": [[19, 55, "URL"]]}
+{"text": "URL https://malicious.io/search?q=test used in attack campaign", "entities": [[4, 38, "URL"]]}
+{"text": "Block access to https://company.com/search?q=test", "entities": [[16, 49, "URL"]]}
+{"text": "URL https://company.com/user/profile flagged for phishing", "entities": [[4, 36, "URL"]]}
+{"text": "URL https://malicious.io/user/profile associated with malware", "entities": [[4, 37, "URL"]]}
+{"text": "URL https://example.com/download/file flagged for phishing", "entities": [[4, 37, "URL"]]}
+{"text": "URL https://example.com/search?q=test flagged for phishing", "entities": [[4, 37, "URL"]]}
+{"text": "URL https://test.org/search?q=test flagged for phishing", "entities": [[4, 34, "URL"]]}
+{"text": "URL https://test.org/page used in attack campaign", "entities": [[4, 25, "URL"]]}
+{"text": "Block access to https://company.com/page", "entities": [[16, 40, "URL"]]}
+{"text": "Check https://suspicious.net/search?q=test reputation", "entities": [[6, 42, "URL"]]}
+{"text": "Monitor traffic to https://test.org/user/profile", "entities": [[19, 48, "URL"]]}
+{"text": "Investigate URL https://malicious.io/api/v1/data for suspicious activity", "entities": [[16, 48, "URL"]]}
+{"text": "Block access to https://malicious.io/page", "entities": [[16, 41, "URL"]]}
+{"text": "URL https://suspicious.net/user/profile used in attack campaign", "entities": [[4, 39, "URL"]]}
+{"text": "URL https://company.com/search?q=test linked to threat actor", "entities": [[4, 37, "URL"]]}
+{"text": "Monitor traffic to https://suspicious.net/api/v1/data", "entities": [[19, 53, "URL"]]}
+{"text": "Monitor traffic to https://example.com/download/file", "entities": [[19, 52, "URL"]]}
+{"text": "Scan https://test.org/page for vulnerabilities", "entities": [[5, 26, "URL"]]}
+{"text": "Monitor traffic to https://suspicious.net/download/file", "entities": [[19, 55, "URL"]]}
+{"text": "URL https://company.com/page used in attack campaign", "entities": [[4, 28, "URL"]]}
+{"text": "Block access to https://malicious.io/user/profile", "entities": [[16, 49, "URL"]]}
+{"text": "Scan https://malicious.io/page for vulnerabilities", "entities": [[5, 30, "URL"]]}
+{"text": "Scan https://company.com/page for vulnerabilities", "entities": [[5, 29, "URL"]]}
+{"text": "URL https://example.com/search?q=test flagged for phishing", "entities": [[4, 37, "URL"]]}
+{"text": "URL https://suspicious.net/user/profile linked to threat actor", "entities": [[4, 39, "URL"]]}
+{"text": "Block access to https://malicious.io/api/v1/data", "entities": [[16, 48, "URL"]]}
+{"text": "Monitor traffic to https://example.com/download/file", "entities": [[19, 52, "URL"]]}
+{"text": "URL https://company.com/user/profile linked to threat actor", "entities": [[4, 36, "URL"]]}
+{"text": "Block access to https://test.org/download/file", "entities": [[16, 46, "URL"]]}
+{"text": "URL https://company.com/page associated with malware", "entities": [[4, 28, "URL"]]}
+{"text": "URL https://test.org/search?q=test associated with malware", "entities": [[4, 34, "URL"]]}
+{"text": "Investigate URL https://company.com/download/file for suspicious activity", "entities": [[16, 49, "URL"]]}
+{"text": "URL https://suspicious.net/api/v1/data associated with malware", "entities": [[4, 38, "URL"]]}
+{"text": "URL https://example.com/api/v1/data used in attack campaign", "entities": [[4, 35, "URL"]]}
+{"text": "URL https://test.org/api/v1/data associated with malware", "entities": [[4, 32, "URL"]]}
+{"text": "URL https://test.org/download/file linked to threat actor", "entities": [[4, 34, "URL"]]}
+{"text": "URL https://company.com/download/file linked to threat actor", "entities": [[4, 37, "URL"]]}
+{"text": "URL https://suspicious.net/user/profile used in attack campaign", "entities": [[4, 39, "URL"]]}
+{"text": "URL https://suspicious.net/page associated with malware", "entities": [[4, 31, "URL"]]}
+{"text": "Analyze https://malicious.io/download/file content", "entities": [[8, 42, "URL"]]}
+{"text": "URL https://example.com/download/file associated with malware", "entities": [[4, 37, "URL"]]}
+{"text": "URL https://company.com/download/file used in attack campaign", "entities": [[4, 37, "URL"]]}
+{"text": "URL https://suspicious.net/download/file associated with malware", "entities": [[4, 40, "URL"]]}
+{"text": "Traffic from 6cb5:ea3:82e3:31cd:f740:9125:5de3:3dfc detected", "entities": [[13, 51, "IPV6_ADDRESS"]]}
+{"text": "Monitor 125d:67d2:36fc:f212:e1e:73dd:276:ef91 for suspicious activity", "entities": [[8, 45, "IPV6_ADDRESS"]]}
+{"text": "Monitor e3b3:bf54:8976:2729:d7c2:84bf:5f31:efdd for suspicious activity", "entities": [[8, 47, "IPV6_ADDRESS"]]}
+{"text": "IPv6 address e172:fce9:30c9:c694:2e74:795b:852f:35b6 flagged", "entities": [[13, 52, "IPV6_ADDRESS"]]}
+{"text": "Investigate 890:a8f8:eae2:b455:86dc:291c:3ffe:1775 network activity", "entities": [[12, 50, "IPV6_ADDRESS"]]}
+{"text": "IPv6 60cc:5648:648f:8f2:488b:1544:6fcc:1533 associated with attack", "entities": [[5, 43, "IPV6_ADDRESS"]]}
+{"text": "Block 607d:3bbc:4772:25b9:fb0a:43a3:5eb7:31d0 at firewall", "entities": [[6, 45, "IPV6_ADDRESS"]]}
+{"text": "Monitor 5068:d5d1:bc25:6d07:afbe:f858:1e2f:1741 for suspicious activity", "entities": [[8, 47, "IPV6_ADDRESS"]]}
+{"text": "IPv6 e182:6468:a01d:5ec7:2463:fba:5b68:3d9f used in DDoS attack", "entities": [[5, 43, "IPV6_ADDRESS"]]}
+{"text": "IPv6 b0ec:6f74:57df:f51:e50:8c3c:7dd:acb used in DDoS attack", "entities": [[5, 40, "IPV6_ADDRESS"]]}
+{"text": "IPv6 address 9065:84be:3ed5:9361:3291:bc45:dbaf:1c1e flagged", "entities": [[13, 52, "IPV6_ADDRESS"]]}
+{"text": "Monitor a190:65cc:faf8:7a4e:2eb0:195f:f2c6:1de9 for suspicious activity", "entities": [[8, 47, "IPV6_ADDRESS"]]}
+{"text": "Monitor c88:6c52:6129:e8d6:ab43:3feb:9834:cf7f for suspicious activity", "entities": [[8, 46, "IPV6_ADDRESS"]]}
+{"text": "IPv6 e12b:bc15:78bc:bb45:5431:2074:57fe:b024 linked to threat actor", "entities": [[5, 44, "IPV6_ADDRESS"]]}
+{"text": "Block 52d8:7e33:b173:6781:c2b2:15d4:3ebe:1d5 at firewall", "entities": [[6, 44, "IPV6_ADDRESS"]]}
+{"text": "IPv6 d86a:7051:38eb:f4e3:5092:126c:79ea:845e used in DDoS attack", "entities": [[5, 44, "IPV6_ADDRESS"]]}
+{"text": "Block IPv6 address 8d6b:88ee:94bf:69c0:7c97:a6a7:612a:1f4", "entities": [[19, 57, "IPV6_ADDRESS"]]}
+{"text": "Traffic from 37b7:a1fc:c583:68ba:59e1:88bc:4666:a344 detected", "entities": [[13, 52, "IPV6_ADDRESS"]]}
+{"text": "Traffic from 1da5:7de:b188:b904:55f3:b343:7eac:818e detected", "entities": [[13, 51, "IPV6_ADDRESS"]]}
+{"text": "IPv6 7bb:3cb0:8d9:a389:738d:a78c:8952:a3bd used in DDoS attack", "entities": [[5, 42, "IPV6_ADDRESS"]]}
+{"text": "Monitor b9b1:b5fb:b9f:2241:70e9:392f:f88b:e6d7 for suspicious activity", "entities": [[8, 46, "IPV6_ADDRESS"]]}
+{"text": "IPv6 address b651:bed9:45be:e56b:b2a9:cb06:3865:c56b flagged", "entities": [[13, 52, "IPV6_ADDRESS"]]}
+{"text": "Investigate b121:ee34:7738:958c:d6ae:b091:76cd:41af network activity", "entities": [[12, 51, "IPV6_ADDRESS"]]}
+{"text": "IPv6 address 8e94:a8ce:8ca9:544c:57df:eac7:81cf:7e0 flagged", "entities": [[13, 51, "IPV6_ADDRESS"]]}
+{"text": "Trace connections from f653:3804:2b2c:8dd8:d107:c24a:3f0b:5d2c", "entities": [[23, 62, "IPV6_ADDRESS"]]}
+{"text": "IPv6 268f:6c94:82b4:8c79:7e85:c449:c1bc:8244 used in DDoS attack", "entities": [[5, 44, "IPV6_ADDRESS"]]}
+{"text": "Monitor 409e:e1f:805a:9cbe:ddad:5abf:a470:eede for suspicious activity", "entities": [[8, 46, "IPV6_ADDRESS"]]}
+{"text": "IPv6 e602:fd98:dfe5:c329:6c1:40d:1df9:22cb linked to threat actor", "entities": [[5, 42, "IPV6_ADDRESS"]]}
+{"text": "Monitor fd38:bd48:d2bc:c411:424:7aa2:af01:5709 for suspicious activity", "entities": [[8, 46, "IPV6_ADDRESS"]]}
+{"text": "Traffic from d1de:58:c0b1:6747:9cb6:c2ee:ad00:5da0 detected", "entities": [[13, 50, "IPV6_ADDRESS"]]}
+{"text": "Block IPv6 address 74b1:df20:34eb:65dd:130:dab1:347a:86c5", "entities": [[19, 57, "IPV6_ADDRESS"]]}
+{"text": "Trace connections from a5e9:2bf:cb91:1d21:dab9:e8d6:447:a445", "entities": [[23, 60, "IPV6_ADDRESS"]]}
+{"text": "IPv6 46c0:256c:83af:5986:633:dcb1:d7f4:6fc1 used in DDoS attack", "entities": [[5, 43, "IPV6_ADDRESS"]]}
+{"text": "Block IPv6 address 1f0f:f41e:3286:9b81:ea56:879e:9497:7359", "entities": [[19, 58, "IPV6_ADDRESS"]]}
+{"text": "IPv6 89d:acaa:6675:61e5:e2c3:ec99:379c:e13f used in DDoS attack", "entities": [[5, 43, "IPV6_ADDRESS"]]}
+{"text": "IPv6 f595:6df1:ddb0:7c7d:6861:e47:9fe7:ad56 linked to threat actor", "entities": [[5, 43, "IPV6_ADDRESS"]]}
+{"text": "IPv6 address 19ec:327b:6c:8a1b:7fd0:98a:5e20:c9fe flagged", "entities": [[13, 49, "IPV6_ADDRESS"]]}
+{"text": "IPv6 6e50:bed8:d1ca:a7d6:e49d:9b4:b617:37e2 linked to threat actor", "entities": [[5, 43, "IPV6_ADDRESS"]]}
+{"text": "Traffic from 8e96:2875:d7e2:1157:ffa6:7a4f:a327:5411 detected", "entities": [[13, 52, "IPV6_ADDRESS"]]}
+{"text": "IPv6 34d8:c60d:8b10:ab26:96ae:75e5:6ae5:f4b6 linked to threat actor", "entities": [[5, 44, "IPV6_ADDRESS"]]}
+{"text": "Investigate b073:e7c1:a1fb:892f:8e32:2291:d224:49b0 network activity", "entities": [[12, 51, "IPV6_ADDRESS"]]}
+{"text": "Trace connections from 337:6826:bb62:72ff:db8a:7a90:a904:e847", "entities": [[23, 61, "IPV6_ADDRESS"]]}
+{"text": "IPv6 162c:fb65:cec8:c920:6443:8953:d58e:85bb used in DDoS attack", "entities": [[5, 44, "IPV6_ADDRESS"]]}
+{"text": "Monitor 2935:55a8:85d6:75b0:7062:92f5:d9c4:8173 for suspicious activity", "entities": [[8, 47, "IPV6_ADDRESS"]]}
+{"text": "IPv6 146:d31f:1a8d:14f8:1487:8169:da9c:2225 linked to threat actor", "entities": [[5, 43, "IPV6_ADDRESS"]]}
+{"text": "Block IPv6 address ce13:a895:c939:b09a:af1a:f091:8d47:7100", "entities": [[19, 58, "IPV6_ADDRESS"]]}
+{"text": "IPv6 5631:1ee7:6fc8:77c8:f486:587f:8f62:31c6 linked to threat actor", "entities": [[5, 44, "IPV6_ADDRESS"]]}
+{"text": "Block 2284:fe24:aa7b:24aa:a553:b51c:3e8c:5d06 at firewall", "entities": [[6, 45, "IPV6_ADDRESS"]]}
+{"text": "Traffic from d013:9df:58b2:a2ad:4614:3d90:a788:dc40 detected", "entities": [[13, 51, "IPV6_ADDRESS"]]}
+{"text": "Investigate b742:31f:94df:915d:8f6d:fa50:2891:72ec network activity", "entities": [[12, 50, "IPV6_ADDRESS"]]}

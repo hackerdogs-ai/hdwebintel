@@ -1,0 +1,150 @@
+{"text": "Identity Analytics Tool compared entitlements across 12 peer groups flagging 8 anomalous", "entities": [[29, 36, "IDENTITY_TYPE"], [37, 45, "ANALYTICS_TYPE"], [56, 67, "ENTITLEMENT_TYPE"], [77, 88, "GROUP_TYPE"]]}
+{"text": "Identity attack path analysis identified 15 paths with 5 critical requiring remediation", "entities": [[16, 23, "ATTACK_TYPE"], [21, 31, "PATH_TYPE"], [30, 40, "ANALYSIS_TYPE"]]}
+{"text": "Session Recording System captured 23 privileged sessions for audit and compliance", "entities": [[31, 38, "SESSION_TYPE"], [37, 47, "RECORDING_TYPE"], [48, 56, "SYSTEM_TYPE"]]}
+{"text": "Attack Path Simulator identified 5 critical privilege escalation routes", "entities": [[29, 34, "ATTACK_TYPE"]]}
+{"text": "Access review completion reached 92% with 18 SoD conflicts remediated", "entities": [[12, 18, "REVIEW_TYPE"], [33, 36, "METRIC_TYPE"], [45, 48, "VIOLATION_TYPE"], [49, 62, "CONFLICT_TYPE"]]}
+{"text": "Cloud SaaS Identity Integrator managed identities across O365 Google Salesforce and Slack", "entities": [[0, 5, "CLOUD_TYPE"], [6, 10, "APPLICATION_TYPE"], [11, 19, "IDENTITY_TYPE"], [39, 49, "IDENTITY_TYPE"], [62, 68, "APPLICATION_NAME"]]}
+{"text": "SoD Analyzer detected 18 conflicts with 12 remediated and 6 escalated", "entities": [[0, 3, "TOOL"], [22, 28, "CONFLICT_TYPE"]]}
+{"text": "Risk Scoring Engine quantified identity risk for 5200 identities with 15 high-risk flagged", "entities": [[28, 32, "RISK_TYPE"], [31, 39, "SCORING_TYPE"], [54, 60, "COUNT"], [73, 82, "COUNT"], [78, 90, "RISK_TYPE"]]}
+{"text": "Service Account Discovery Tool inventoried 320 service accounts with 4 toxic combinations", "entities": [[31, 42, "ACCOUNT_TYPE"], [43, 50, "ACCOUNT_TYPE"], [51, 59, "DISCOVERY_TYPE"], [77, 84, "ACCOUNT_TYPE"]]}
+{"text": "Access Review Tool sent 220 reviews with 195 completed and 15 violations identified", "entities": [[24, 31, "ACCESS_TYPE"], [70, 78, "COMPLETION_TYPE"]]}
+{"text": "SailPoint identity governance platform managed 10000 identities with 96% provisioning SLA", "entities": [[0, 9, "TOOL"], [10, 29, "GOVERNANCE_TYPE"], [39, 48, "PLATFORM_TYPE"], [57, 63, "COUNT"], [73, 79, "METRIC_TYPE"]]}
+{"text": "Certificate Key Rotator automated rotation for 150 machine identities", "entities": [[0, 23, "TOOL"]]}
+{"text": "IGA Policy Generator created policy enforcing SoD PAM integration and zero-trust identity", "entities": [[27, 30, "POLICY_TYPE"], [29, 35, "TOOL"], [50, 53, "VIOLATION_TYPE"]]}
+{"text": "JIT Access Tool enforced just-in-time access for privileged operations", "entities": [[25, 29, "ACCESS_TYPE"], [30, 33, "TOOL"], [49, 64, "AUTH_TYPE"]]}
+{"text": "Access review completion reached 92% with 18 SoD conflicts remediated", "entities": [[12, 18, "REVIEW_TYPE"], [33, 36, "METRIC_TYPE"], [45, 48, "VIOLATION_TYPE"], [49, 62, "CONFLICT_TYPE"]]}
+{"text": "Role Recommendation Tool suggested 12 optimized roles replacing 28 redundant roles", "entities": [[35, 47, "RECOMMENDATION_TYPE"], [48, 53, "TOOL"], [64, 76, "ROLE_TYPE"], [77, 82, "COUNT"]]}
+{"text": "SaaS identity sprawl reduced to 120 unmanaged accounts from 500 requiring remediation", "entities": [[0, 4, "APPLICATION_TYPE"], [5, 13, "IDENTITY_TYPE"], [14, 20, "SPRAWL_TYPE"], [32, 45, "ACCOUNT_TYPE"], [60, 63, "COUNT"]]}
+{"text": "Anomaly Detector identified risky dormant and orphaned identities requiring review", "entities": [[25, 33, "ANOMALY_TYPE"], [34, 41, "DETECTOR_TYPE"], [55, 65, "IDENTITY_TYPE"]]}
+{"text": "SaaS Identity Scanner detected 120 unmanaged accounts across 25 SaaS applications", "entities": [[28, 34, "IDENTITY_TYPE"], [61, 70, "MANAGEMENT_STATUS"]]}
+{"text": "IGA Strategist defined identity governance strategy covering JML lifecycle and role-based access", "entities": [[23, 31, "GOVERNANCE_TYPE"], [32, 42, "IDENTITY_TYPE"], [61, 64, "LIFECYCLE_TYPE"], [83, 89, "ACCESS_TYPE"]]}
+{"text": "midPoint open source IGA managed identity lifecycle for 5000 users", "entities": [[0, 8, "TOOL"], [29, 36, "IDENTITY_TYPE"], [37, 45, "LIFECYCLE_TYPE"], [61, 66, "USER_TYPE"]]}
+{"text": "Cloud SaaS Identity Integrator managed identities across O365 Google Salesforce and Slack", "entities": [[0, 5, "CLOUD_TYPE"], [6, 10, "APPLICATION_TYPE"], [11, 19, "IDENTITY_TYPE"], [39, 49, "IDENTITY_TYPE"], [62, 68, "APPLICATION_NAME"]]}
+{"text": "SailPoint identity governance platform managed 10000 identities with 96% provisioning SLA", "entities": [[0, 9, "TOOL"], [10, 29, "GOVERNANCE_TYPE"], [39, 48, "PLATFORM_TYPE"], [57, 63, "COUNT"], [73, 79, "METRIC_TYPE"]]}
+{"text": "IGA Strategist defined identity governance strategy covering JML lifecycle and role-based access", "entities": [[23, 31, "GOVERNANCE_TYPE"], [32, 42, "IDENTITY_TYPE"], [61, 64, "LIFECYCLE_TYPE"], [83, 89, "ACCESS_TYPE"]]}
+{"text": "Anomaly Detector identified risky dormant and orphaned identities requiring review", "entities": [[25, 33, "ANOMALY_TYPE"], [34, 41, "DETECTOR_TYPE"], [55, 65, "IDENTITY_TYPE"]]}
+{"text": "Role Recommendation Tool suggested 12 optimized roles replacing 28 redundant roles", "entities": [[35, 47, "RECOMMENDATION_TYPE"], [48, 53, "TOOL"], [64, 76, "ROLE_TYPE"], [77, 82, "COUNT"]]}
+{"text": "SaaS identity sprawl reduced to 120 unmanaged accounts from 500 requiring remediation", "entities": [[0, 4, "APPLICATION_TYPE"], [5, 13, "IDENTITY_TYPE"], [14, 20, "SPRAWL_TYPE"], [32, 45, "ACCOUNT_TYPE"], [60, 63, "COUNT"]]}
+{"text": "Role Mining Tool discovered 28 roles with 4 toxic combinations and 6 redundant roles", "entities": [[28, 36, "MINING_TYPE"], [31, 36, "TOOL"], [75, 84, "ROLE_TYPE"]]}
+{"text": "IGA Platform API automated joiner-mover-leaver processes across HR IT and SaaS systems", "entities": [[0, 3, "TOOL"], [13, 18, "API_TYPE"], [27, 35, "AUTOMATION_TYPE"], [34, 46, "PROCESS_TYPE"], [44, 50, "PROCESS_TYPE"], [51, 58, "PROCESS_TYPE"], [74, 78, "APPLICATION_TYPE"]]}
+{"text": "midPoint open source IGA managed identity lifecycle for 5000 users", "entities": [[0, 8, "TOOL"], [29, 36, "IDENTITY_TYPE"], [37, 45, "LIFECYCLE_TYPE"], [61, 66, "USER_TYPE"]]}
+{"text": "Identity governance training completion reached 95% for all IGA engineers", "entities": [[0, 19, "GOVERNANCE_TYPE"], [26, 34, "TRAINING_TYPE"], [48, 51, "METRIC_TYPE"], [60, 63, "TOOL"], [64, 73, "ROLE_TYPE"]]}
+{"text": "midPoint open source IGA managed identity lifecycle for 5000 users", "entities": [[0, 8, "TOOL"], [29, 36, "IDENTITY_TYPE"], [37, 45, "LIFECYCLE_TYPE"], [61, 66, "USER_TYPE"]]}
+{"text": "Identity Graph Builder mapped 5200 nodes and 14000 edges identifying 15 attack paths", "entities": [[0, 22, "TOOL"], [30, 36, "IDENTITY_TYPE"], [79, 84, "EDGE_TYPE"]]}
+{"text": "Identity Graph Builder mapped 5200 nodes and 14000 edges identifying 15 attack paths", "entities": [[0, 22, "TOOL"], [30, 36, "IDENTITY_TYPE"], [79, 84, "EDGE_TYPE"]]}
+{"text": "Entitlement Clustering Engine recommended RBAC models reducing role sprawl by 40%", "entities": [[68, 74, "AUTH_TYPE"]]}
+{"text": "Secrets Manager rotated credentials for 280 service accounts enforcing least privilege", "entities": [[0, 15, "TOOL"], [24, 31, "SECRET_TYPE"], [48, 56, "ROTATION_TYPE"], [57, 63, "CREDENTIAL_TYPE"], [71, 79, "ACCOUNT_TYPE"]]}
+{"text": "SoD Analyzer detected 18 conflicts with 12 remediated and 6 escalated", "entities": [[0, 3, "TOOL"], [22, 28, "CONFLICT_TYPE"]]}
+{"text": "Saviynt IGA platform automated access reviews achieving 92% completion rate", "entities": [[0, 7, "TOOL"], [8, 11, "TOOL"]]}
+{"text": "Service account governance achieved 100% inventory with 280 credentials rotated", "entities": [[14, 26, "GOVERNANCE_TYPE"], [27, 35, "METRIC_TYPE"], [36, 39, "METRIC_TYPE"], [36, 40, "METRIC_TYPE"], [60, 71, "ROTATION_TYPE"]]}
+{"text": "Identity governance false positive rate reduced to 1.6% improving access review accuracy", "entities": [[0, 19, "GOVERNANCE_TYPE"], [18, 25, "IDENTITY_TYPE"], [40, 47, "METRIC_TYPE"], [46, 50, "METRIC_TYPE"], [66, 72, "REVIEW_TYPE"]]}
+{"text": "IGA Policy Generator created policy enforcing SoD PAM integration and zero-trust identity", "entities": [[27, 30, "POLICY_TYPE"], [29, 35, "TOOL"], [50, 53, "VIOLATION_TYPE"]]}
+{"text": "Saviynt IGA platform automated access reviews achieving 92% completion rate", "entities": [[0, 7, "TOOL"], [8, 11, "TOOL"]]}
+{"text": "Session Recording System captured 23 privileged sessions for audit and compliance", "entities": [[31, 38, "SESSION_TYPE"], [37, 47, "RECORDING_TYPE"], [48, 56, "SYSTEM_TYPE"]]}
+{"text": "Identity governance false positive rate reduced to 1.6% improving access review accuracy", "entities": [[0, 19, "GOVERNANCE_TYPE"], [18, 25, "IDENTITY_TYPE"], [40, 47, "METRIC_TYPE"], [46, 50, "METRIC_TYPE"], [66, 72, "REVIEW_TYPE"]]}
+{"text": "IGA Policy Generator created policy enforcing SoD PAM integration and zero-trust identity", "entities": [[27, 30, "POLICY_TYPE"], [29, 35, "TOOL"], [50, 53, "VIOLATION_TYPE"]]}
+{"text": "Identity governance coverage improved to 93% with zero orphaned accounts", "entities": [[0, 19, "GOVERNANCE_TYPE"], [18, 28, "IDENTITY_TYPE"], [26, 33, "COVERAGE_TYPE"], [50, 63, "ACCOUNT_TYPE"]]}
+{"text": "Anomaly Detector identified risky dormant and orphaned identities requiring review", "entities": [[25, 33, "ANOMALY_TYPE"], [34, 41, "DETECTOR_TYPE"], [55, 65, "IDENTITY_TYPE"]]}
+{"text": "Risk Scoring Engine quantified identity risk for 5200 identities with 15 high-risk flagged", "entities": [[28, 32, "RISK_TYPE"], [31, 39, "SCORING_TYPE"], [54, 60, "COUNT"], [73, 82, "COUNT"], [78, 90, "RISK_TYPE"]]}
+{"text": "Adaptive Review Trigger launched 7 event-driven reviews detecting 2 violations", "entities": [[29, 36, "REVIEW_TYPE"], [35, 47, "TRIGGER_TYPE"]]}
+{"text": "SaaS Identity Scanner detected 120 unmanaged accounts across 25 SaaS applications", "entities": [[28, 34, "IDENTITY_TYPE"], [61, 70, "MANAGEMENT_STATUS"]]}
+{"text": "HR System Connector synchronized 55 onboarded 14 transfers and 11 offboarded employees", "entities": [[10, 19, "CONNECTOR_TYPE"], [28, 35, "SYNCHRONIZATION_TYPE"], [43, 53, "ACTION_TYPE"]]}
+{"text": "midPoint open source IGA managed identity lifecycle for 5000 users", "entities": [[0, 8, "TOOL"], [29, 36, "IDENTITY_TYPE"], [37, 45, "LIFECYCLE_TYPE"], [61, 66, "USER_TYPE"]]}
+{"text": "Saviynt IGA platform automated access reviews achieving 92% completion rate", "entities": [[0, 7, "TOOL"], [8, 11, "TOOL"]]}
+{"text": "Access review completion reached 92% with 18 SoD conflicts remediated", "entities": [[12, 18, "REVIEW_TYPE"], [33, 36, "METRIC_TYPE"], [45, 48, "VIOLATION_TYPE"], [49, 62, "CONFLICT_TYPE"]]}
+{"text": "HR System Connector synchronized 55 onboarded 14 transfers and 11 offboarded employees", "entities": [[10, 19, "CONNECTOR_TYPE"], [28, 35, "SYNCHRONIZATION_TYPE"], [43, 53, "ACTION_TYPE"]]}
+{"text": "Service account governance achieved 100% inventory with 280 credentials rotated", "entities": [[14, 26, "GOVERNANCE_TYPE"], [27, 35, "METRIC_TYPE"], [36, 39, "METRIC_TYPE"], [36, 40, "METRIC_TYPE"], [60, 71, "ROTATION_TYPE"]]}
+{"text": "Entitlement Clustering Engine recommended RBAC models reducing role sprawl by 40%", "entities": [[68, 74, "AUTH_TYPE"]]}
+{"text": "Identity Analytics Tool compared entitlements across 12 peer groups flagging 8 anomalous", "entities": [[29, 36, "IDENTITY_TYPE"], [37, 45, "ANALYTICS_TYPE"], [56, 67, "ENTITLEMENT_TYPE"], [77, 88, "GROUP_TYPE"]]}
+{"text": "Identity governance training completion reached 95% for all IGA engineers", "entities": [[0, 19, "GOVERNANCE_TYPE"], [26, 34, "TRAINING_TYPE"], [48, 51, "METRIC_TYPE"], [60, 63, "TOOL"], [64, 73, "ROLE_TYPE"]]}
+{"text": "Access Review Tool sent 220 reviews with 195 completed and 15 violations identified", "entities": [[24, 31, "ACCESS_TYPE"], [70, 78, "COMPLETION_TYPE"]]}
+{"text": "Entitlement Clustering Engine recommended RBAC models reducing role sprawl by 40%", "entities": [[68, 74, "AUTH_TYPE"]]}
+{"text": "IGA Strategist defined identity governance strategy covering JML lifecycle and role-based access", "entities": [[23, 31, "GOVERNANCE_TYPE"], [32, 42, "IDENTITY_TYPE"], [61, 64, "LIFECYCLE_TYPE"], [83, 89, "ACCESS_TYPE"]]}
+{"text": "IGA Policy Generator created policy enforcing SoD PAM integration and zero-trust identity", "entities": [[27, 30, "POLICY_TYPE"], [29, 35, "TOOL"], [50, 53, "VIOLATION_TYPE"]]}
+{"text": "SSO Federation Tool enforced single sign-on for 95% of SaaS applications", "entities": [[0, 3, "TOOL"], [36, 43, "AUTH_TYPE"], [55, 59, "METRIC_TYPE"]]}
+{"text": "PAM IGA Connector governed 48 privileged accounts with 25 JIT grants and 23 sessions recorded", "entities": [[0, 3, "TOOL"], [4, 7, "TOOL"], [12, 19, "CONNECTOR_TYPE"], [27, 36, "GOVERNANCE_TYPE"], [55, 63, "ACCOUNT_TYPE"]]}
+{"text": "Identity governance false positive rate reduced to 1.6% improving access review accuracy", "entities": [[0, 19, "GOVERNANCE_TYPE"], [18, 25, "IDENTITY_TYPE"], [40, 47, "METRIC_TYPE"], [46, 50, "METRIC_TYPE"], [66, 72, "REVIEW_TYPE"]]}
+{"text": "Adaptive Review Trigger launched 7 event-driven reviews detecting 2 violations", "entities": [[29, 36, "REVIEW_TYPE"], [35, 47, "TRIGGER_TYPE"]]}
+{"text": "Session Recording System captured 23 privileged sessions for audit and compliance", "entities": [[31, 38, "SESSION_TYPE"], [37, 47, "RECORDING_TYPE"], [48, 56, "SYSTEM_TYPE"]]}
+{"text": "Identity Graph Builder mapped 5200 nodes and 14000 edges identifying 15 attack paths", "entities": [[0, 22, "TOOL"], [30, 36, "IDENTITY_TYPE"], [79, 84, "EDGE_TYPE"]]}
+{"text": "Certificate Key Rotator automated rotation for 150 machine identities", "entities": [[0, 23, "TOOL"]]}
+{"text": "IGA Platform API automated joiner-mover-leaver processes across HR IT and SaaS systems", "entities": [[0, 3, "TOOL"], [13, 18, "API_TYPE"], [27, 35, "AUTOMATION_TYPE"], [34, 46, "PROCESS_TYPE"], [44, 50, "PROCESS_TYPE"], [51, 58, "PROCESS_TYPE"], [74, 78, "APPLICATION_TYPE"]]}
+{"text": "Role Mining Tool discovered 28 roles with 4 toxic combinations and 6 redundant roles", "entities": [[28, 36, "MINING_TYPE"], [31, 36, "TOOL"], [75, 84, "ROLE_TYPE"]]}
+{"text": "IGA Strategist defined identity governance strategy covering JML lifecycle and role-based access", "entities": [[23, 31, "GOVERNANCE_TYPE"], [32, 42, "IDENTITY_TYPE"], [61, 64, "LIFECYCLE_TYPE"], [83, 89, "ACCESS_TYPE"]]}
+{"text": "SSO Federation Tool enforced single sign-on for 95% of SaaS applications", "entities": [[0, 3, "TOOL"], [36, 43, "AUTH_TYPE"], [55, 59, "METRIC_TYPE"]]}
+{"text": "Service account governance achieved 100% inventory with 280 credentials rotated", "entities": [[14, 26, "GOVERNANCE_TYPE"], [27, 35, "METRIC_TYPE"], [36, 39, "METRIC_TYPE"], [36, 40, "METRIC_TYPE"], [60, 71, "ROTATION_TYPE"]]}
+{"text": "SSO Federation Tool enforced single sign-on for 95% of SaaS applications", "entities": [[0, 3, "TOOL"], [36, 43, "AUTH_TYPE"], [55, 59, "METRIC_TYPE"]]}
+{"text": "Identity attack path analysis identified 15 paths with 5 critical requiring remediation", "entities": [[16, 23, "ATTACK_TYPE"], [21, 31, "PATH_TYPE"], [30, 40, "ANALYSIS_TYPE"]]}
+{"text": "Role Recommendation Tool suggested 12 optimized roles replacing 28 redundant roles", "entities": [[35, 47, "RECOMMENDATION_TYPE"], [48, 53, "TOOL"], [64, 76, "ROLE_TYPE"], [77, 82, "COUNT"]]}
+{"text": "Certificate Key Rotator automated rotation for 150 machine identities", "entities": [[0, 23, "TOOL"]]}
+{"text": "SailPoint identity governance platform managed 10000 identities with 96% provisioning SLA", "entities": [[0, 9, "TOOL"], [10, 29, "GOVERNANCE_TYPE"], [39, 48, "PLATFORM_TYPE"], [57, 63, "COUNT"], [73, 79, "METRIC_TYPE"]]}
+{"text": "Attack Path Simulator identified 5 critical privilege escalation routes", "entities": [[29, 34, "ATTACK_TYPE"]]}
+{"text": "SoD Analyzer detected 18 conflicts with 12 remediated and 6 escalated", "entities": [[0, 3, "TOOL"], [22, 28, "CONFLICT_TYPE"]]}
+{"text": "Attack Path Simulator identified 5 critical privilege escalation routes", "entities": [[29, 34, "ATTACK_TYPE"]]}
+{"text": "HR System Connector synchronized 55 onboarded 14 transfers and 11 offboarded employees", "entities": [[10, 19, "CONNECTOR_TYPE"], [28, 35, "SYNCHRONIZATION_TYPE"], [43, 53, "ACTION_TYPE"]]}
+{"text": "Access Review Tool sent 220 reviews with 195 completed and 15 violations identified", "entities": [[24, 31, "ACCESS_TYPE"], [70, 78, "COMPLETION_TYPE"]]}
+{"text": "Adaptive Review Trigger launched 7 event-driven reviews detecting 2 violations", "entities": [[29, 36, "REVIEW_TYPE"], [35, 47, "TRIGGER_TYPE"]]}
+{"text": "Certificate Key Rotator automated rotation for 150 machine identities", "entities": [[0, 23, "TOOL"]]}
+{"text": "Anomaly Detector identified risky dormant and orphaned identities requiring review", "entities": [[25, 33, "ANOMALY_TYPE"], [34, 41, "DETECTOR_TYPE"], [55, 65, "IDENTITY_TYPE"]]}
+{"text": "Identity governance training completion reached 95% for all IGA engineers", "entities": [[0, 19, "GOVERNANCE_TYPE"], [26, 34, "TRAINING_TYPE"], [48, 51, "METRIC_TYPE"], [60, 63, "TOOL"], [64, 73, "ROLE_TYPE"]]}
+{"text": "Identity governance coverage improved to 93% with zero orphaned accounts", "entities": [[0, 19, "GOVERNANCE_TYPE"], [18, 28, "IDENTITY_TYPE"], [26, 33, "COVERAGE_TYPE"], [50, 63, "ACCOUNT_TYPE"]]}
+{"text": "Role Recommendation Tool suggested 12 optimized roles replacing 28 redundant roles", "entities": [[35, 47, "RECOMMENDATION_TYPE"], [48, 53, "TOOL"], [64, 76, "ROLE_TYPE"], [77, 82, "COUNT"]]}
+{"text": "IGA Platform API automated joiner-mover-leaver processes across HR IT and SaaS systems", "entities": [[0, 3, "TOOL"], [13, 18, "API_TYPE"], [27, 35, "AUTOMATION_TYPE"], [34, 46, "PROCESS_TYPE"], [44, 50, "PROCESS_TYPE"], [51, 58, "PROCESS_TYPE"], [74, 78, "APPLICATION_TYPE"]]}
+{"text": "Service account governance achieved 100% inventory with 280 credentials rotated", "entities": [[14, 26, "GOVERNANCE_TYPE"], [27, 35, "METRIC_TYPE"], [36, 39, "METRIC_TYPE"], [36, 40, "METRIC_TYPE"], [60, 71, "ROTATION_TYPE"]]}
+{"text": "JIT Access Tool enforced just-in-time access for privileged operations", "entities": [[25, 29, "ACCESS_TYPE"], [30, 33, "TOOL"], [49, 64, "AUTH_TYPE"]]}
+{"text": "Access review completion reached 92% with 18 SoD conflicts remediated", "entities": [[12, 18, "REVIEW_TYPE"], [33, 36, "METRIC_TYPE"], [45, 48, "VIOLATION_TYPE"], [49, 62, "CONFLICT_TYPE"]]}
+{"text": "Service Account Discovery Tool inventoried 320 service accounts with 4 toxic combinations", "entities": [[31, 42, "ACCOUNT_TYPE"], [43, 50, "ACCOUNT_TYPE"], [51, 59, "DISCOVERY_TYPE"], [77, 84, "ACCOUNT_TYPE"]]}
+{"text": "Access Review Tool sent 220 reviews with 195 completed and 15 violations identified", "entities": [[24, 31, "ACCESS_TYPE"], [70, 78, "COMPLETION_TYPE"]]}
+{"text": "Identity Analytics Tool compared entitlements across 12 peer groups flagging 8 anomalous", "entities": [[29, 36, "IDENTITY_TYPE"], [37, 45, "ANALYTICS_TYPE"], [56, 67, "ENTITLEMENT_TYPE"], [77, 88, "GROUP_TYPE"]]}
+{"text": "Secrets Manager rotated credentials for 280 service accounts enforcing least privilege", "entities": [[0, 15, "TOOL"], [24, 31, "SECRET_TYPE"], [48, 56, "ROTATION_TYPE"], [57, 63, "CREDENTIAL_TYPE"], [71, 79, "ACCOUNT_TYPE"]]}
+{"text": "SaaS identity sprawl reduced to 120 unmanaged accounts from 500 requiring remediation", "entities": [[0, 4, "APPLICATION_TYPE"], [5, 13, "IDENTITY_TYPE"], [14, 20, "SPRAWL_TYPE"], [32, 45, "ACCOUNT_TYPE"], [60, 63, "COUNT"]]}
+{"text": "Role Mining Tool discovered 28 roles with 4 toxic combinations and 6 redundant roles", "entities": [[28, 36, "MINING_TYPE"], [31, 36, "TOOL"], [75, 84, "ROLE_TYPE"]]}
+{"text": "Secrets Manager rotated credentials for 280 service accounts enforcing least privilege", "entities": [[0, 15, "TOOL"], [24, 31, "SECRET_TYPE"], [48, 56, "ROTATION_TYPE"], [57, 63, "CREDENTIAL_TYPE"], [71, 79, "ACCOUNT_TYPE"]]}
+{"text": "JIT Access Tool enforced just-in-time access for privileged operations", "entities": [[25, 29, "ACCESS_TYPE"], [30, 33, "TOOL"], [49, 64, "AUTH_TYPE"]]}
+{"text": "Identity governance coverage improved to 93% with zero orphaned accounts", "entities": [[0, 19, "GOVERNANCE_TYPE"], [18, 28, "IDENTITY_TYPE"], [26, 33, "COVERAGE_TYPE"], [50, 63, "ACCOUNT_TYPE"]]}
+{"text": "Service Account Discovery Tool inventoried 320 service accounts with 4 toxic combinations", "entities": [[31, 42, "ACCOUNT_TYPE"], [43, 50, "ACCOUNT_TYPE"], [51, 59, "DISCOVERY_TYPE"], [77, 84, "ACCOUNT_TYPE"]]}
+{"text": "SaaS identity sprawl reduced to 120 unmanaged accounts from 500 requiring remediation", "entities": [[0, 4, "APPLICATION_TYPE"], [5, 13, "IDENTITY_TYPE"], [14, 20, "SPRAWL_TYPE"], [32, 45, "ACCOUNT_TYPE"], [60, 63, "COUNT"]]}
+{"text": "Adaptive Review Trigger launched 7 event-driven reviews detecting 2 violations", "entities": [[29, 36, "REVIEW_TYPE"], [35, 47, "TRIGGER_TYPE"]]}
+{"text": "Entitlement Clustering Engine recommended RBAC models reducing role sprawl by 40%", "entities": [[68, 74, "AUTH_TYPE"]]}
+{"text": "PAM IGA Connector governed 48 privileged accounts with 25 JIT grants and 23 sessions recorded", "entities": [[0, 3, "TOOL"], [4, 7, "TOOL"], [12, 19, "CONNECTOR_TYPE"], [27, 36, "GOVERNANCE_TYPE"], [55, 63, "ACCOUNT_TYPE"]]}
+{"text": "Secrets Manager rotated credentials for 280 service accounts enforcing least privilege", "entities": [[0, 15, "TOOL"], [24, 31, "SECRET_TYPE"], [48, 56, "ROTATION_TYPE"], [57, 63, "CREDENTIAL_TYPE"], [71, 79, "ACCOUNT_TYPE"]]}
+{"text": "Risk Scoring Engine quantified identity risk for 5200 identities with 15 high-risk flagged", "entities": [[28, 32, "RISK_TYPE"], [31, 39, "SCORING_TYPE"], [54, 60, "COUNT"], [73, 82, "COUNT"], [78, 90, "RISK_TYPE"]]}
+{"text": "SaaS Identity Scanner detected 120 unmanaged accounts across 25 SaaS applications", "entities": [[28, 34, "IDENTITY_TYPE"], [61, 70, "MANAGEMENT_STATUS"]]}
+{"text": "Identity governance false positive rate reduced to 1.6% improving access review accuracy", "entities": [[0, 19, "GOVERNANCE_TYPE"], [18, 25, "IDENTITY_TYPE"], [40, 47, "METRIC_TYPE"], [46, 50, "METRIC_TYPE"], [66, 72, "REVIEW_TYPE"]]}
+{"text": "Role Mining Tool discovered 28 roles with 4 toxic combinations and 6 redundant roles", "entities": [[28, 36, "MINING_TYPE"], [31, 36, "TOOL"], [75, 84, "ROLE_TYPE"]]}
+{"text": "SailPoint identity governance platform managed 10000 identities with 96% provisioning SLA", "entities": [[0, 9, "TOOL"], [10, 29, "GOVERNANCE_TYPE"], [39, 48, "PLATFORM_TYPE"], [57, 63, "COUNT"], [73, 79, "METRIC_TYPE"]]}
+{"text": "Cloud SaaS Identity Integrator managed identities across O365 Google Salesforce and Slack", "entities": [[0, 5, "CLOUD_TYPE"], [6, 10, "APPLICATION_TYPE"], [11, 19, "IDENTITY_TYPE"], [39, 49, "IDENTITY_TYPE"], [62, 68, "APPLICATION_NAME"]]}
+{"text": "SSO Federation Tool enforced single sign-on for 95% of SaaS applications", "entities": [[0, 3, "TOOL"], [36, 43, "AUTH_TYPE"], [55, 59, "METRIC_TYPE"]]}
+{"text": "PAM IGA Connector governed 48 privileged accounts with 25 JIT grants and 23 sessions recorded", "entities": [[0, 3, "TOOL"], [4, 7, "TOOL"], [12, 19, "CONNECTOR_TYPE"], [27, 36, "GOVERNANCE_TYPE"], [55, 63, "ACCOUNT_TYPE"]]}
+{"text": "Service Account Discovery Tool inventoried 320 service accounts with 4 toxic combinations", "entities": [[31, 42, "ACCOUNT_TYPE"], [43, 50, "ACCOUNT_TYPE"], [51, 59, "DISCOVERY_TYPE"], [77, 84, "ACCOUNT_TYPE"]]}
+{"text": "Identity Graph Builder mapped 5200 nodes and 14000 edges identifying 15 attack paths", "entities": [[0, 22, "TOOL"], [30, 36, "IDENTITY_TYPE"], [79, 84, "EDGE_TYPE"]]}
+{"text": "JIT Access Tool enforced just-in-time access for privileged operations", "entities": [[25, 29, "ACCESS_TYPE"], [30, 33, "TOOL"], [49, 64, "AUTH_TYPE"]]}
+{"text": "Saviynt IGA platform automated access reviews achieving 92% completion rate", "entities": [[0, 7, "TOOL"], [8, 11, "TOOL"]]}
+{"text": "Identity governance training completion reached 95% for all IGA engineers", "entities": [[0, 19, "GOVERNANCE_TYPE"], [26, 34, "TRAINING_TYPE"], [48, 51, "METRIC_TYPE"], [60, 63, "TOOL"], [64, 73, "ROLE_TYPE"]]}
+{"text": "HR System Connector synchronized 55 onboarded 14 transfers and 11 offboarded employees", "entities": [[10, 19, "CONNECTOR_TYPE"], [28, 35, "SYNCHRONIZATION_TYPE"], [43, 53, "ACTION_TYPE"]]}
+{"text": "IGA Platform API automated joiner-mover-leaver processes across HR IT and SaaS systems", "entities": [[0, 3, "TOOL"], [13, 18, "API_TYPE"], [27, 35, "AUTOMATION_TYPE"], [34, 46, "PROCESS_TYPE"], [44, 50, "PROCESS_TYPE"], [51, 58, "PROCESS_TYPE"], [74, 78, "APPLICATION_TYPE"]]}
+{"text": "Identity attack path analysis identified 15 paths with 5 critical requiring remediation", "entities": [[16, 23, "ATTACK_TYPE"], [21, 31, "PATH_TYPE"], [30, 40, "ANALYSIS_TYPE"]]}
+{"text": "PAM IGA Connector governed 48 privileged accounts with 25 JIT grants and 23 sessions recorded", "entities": [[0, 3, "TOOL"], [4, 7, "TOOL"], [12, 19, "CONNECTOR_TYPE"], [27, 36, "GOVERNANCE_TYPE"], [55, 63, "ACCOUNT_TYPE"]]}
+{"text": "SoD Analyzer detected 18 conflicts with 12 remediated and 6 escalated", "entities": [[0, 3, "TOOL"], [22, 28, "CONFLICT_TYPE"]]}
+{"text": "Risk Scoring Engine quantified identity risk for 5200 identities with 15 high-risk flagged", "entities": [[28, 32, "RISK_TYPE"], [31, 39, "SCORING_TYPE"], [54, 60, "COUNT"], [73, 82, "COUNT"], [78, 90, "RISK_TYPE"]]}
+{"text": "Attack Path Simulator identified 5 critical privilege escalation routes", "entities": [[29, 34, "ATTACK_TYPE"]]}
+{"text": "Session Recording System captured 23 privileged sessions for audit and compliance", "entities": [[31, 38, "SESSION_TYPE"], [37, 47, "RECORDING_TYPE"], [48, 56, "SYSTEM_TYPE"]]}
+{"text": "Identity attack path analysis identified 15 paths with 5 critical requiring remediation", "entities": [[16, 23, "ATTACK_TYPE"], [21, 31, "PATH_TYPE"], [30, 40, "ANALYSIS_TYPE"]]}
+{"text": "Cloud SaaS Identity Integrator managed identities across O365 Google Salesforce and Slack", "entities": [[0, 5, "CLOUD_TYPE"], [6, 10, "APPLICATION_TYPE"], [11, 19, "IDENTITY_TYPE"], [39, 49, "IDENTITY_TYPE"], [62, 68, "APPLICATION_NAME"]]}
+{"text": "Identity Analytics Tool compared entitlements across 12 peer groups flagging 8 anomalous", "entities": [[29, 36, "IDENTITY_TYPE"], [37, 45, "ANALYTICS_TYPE"], [56, 67, "ENTITLEMENT_TYPE"], [77, 88, "GROUP_TYPE"]]}
+{"text": "Identity governance coverage improved to 93% with zero orphaned accounts", "entities": [[0, 19, "GOVERNANCE_TYPE"], [18, 28, "IDENTITY_TYPE"], [26, 33, "COVERAGE_TYPE"], [50, 63, "ACCOUNT_TYPE"]]}
+{"text": "SaaS Identity Scanner detected 120 unmanaged accounts across 25 SaaS applications", "entities": [[28, 34, "IDENTITY_TYPE"], [61, 70, "MANAGEMENT_STATUS"]]}
+{"text": "Can you help me with this?", "entities": []}
+{"text": "I need to check something.", "entities": []}
+{"text": "What is the status?", "entities": []}
+{"text": "How do I do this?", "entities": []}
+{"text": "Tell me more about it.", "entities": []}
+{"text": "Is this safe to use?", "entities": []}
+{"text": "Let me know if you need anything.", "entities": []}
+{"text": "Thanks for your help.", "entities": []}
+{"text": "I will get back to you.", "entities": []}
+{"text": "Please review this document.", "entities": []}
+{"text": "What should I do next?", "entities": []}
+{"text": "How does this work?", "entities": []}
+{"text": "Why is this happening?", "entities": []}
+{"text": "When will this be ready?", "entities": []}

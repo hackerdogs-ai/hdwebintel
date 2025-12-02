@@ -1,0 +1,580 @@
+{"text": "What threat indicators information is available?", "cats": {"INVESTIGATE": 1.0, "ENRICH": 1.0, "DETECT": 0.0, "MONITOR": 0.0, "ANALYZE": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Find threat campaigns information for entity_77", "cats": {"INVESTIGATE": 1.0, "DETECT": 1.0, "ENRICH": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Analyze threat actors data for record_51", "cats": {"INVESTIGATE": 1.0, "ANALYZE": 1.0, "DETECT": 0.0, "MONITOR": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Investigate threat indicators for case_55", "cats": {"INVESTIGATE": 1.0, "DETECT": 1.0, "ENRICH": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Analyze threat actors data for record_6", "cats": {"INVESTIGATE": 1.0, "ANALYZE": 1.0, "DETECT": 0.0, "MONITOR": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Find threat campaigns information for entity_12", "cats": {"INVESTIGATE": 1.0, "DETECT": 1.0, "ENRICH": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Find threat campaigns information for entity_77", "cats": {"INVESTIGATE": 1.0, "DETECT": 1.0, "ENRICH": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Analyze threat actors for this case", "cats": {"INVESTIGATE": 1.0, "ANALYZE": 1.0, "DETECT": 0.0, "MONITOR": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Analyze threat actors data for record_76", "cats": {"INVESTIGATE": 1.0, "ANALYZE": 1.0, "DETECT": 0.0, "MONITOR": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Track threat actors changes for item_19", "cats": {"INVESTIGATE": 1.0, "TRACK": 1.0, "MONITOR": 1.0, "ANALYZE": 1.0, "DETECT": 0.0, "VALIDATE": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Track threat actors changes for item_64", "cats": {"INVESTIGATE": 1.0, "TRACK": 1.0, "MONITOR": 1.0, "ANALYZE": 1.0, "DETECT": 0.0, "VALIDATE": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Verify threat indicators records for case_8", "cats": {"INVESTIGATE": 1.0, "VALIDATE": 1.0, "DETECT": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 1.0}}
+{"text": "Verify threat indicators records for case_18", "cats": {"INVESTIGATE": 1.0, "VALIDATE": 1.0, "DETECT": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 1.0}}
+{"text": "Analyze threat actors data for record_66", "cats": {"INVESTIGATE": 1.0, "ANALYZE": 1.0, "DETECT": 0.0, "MONITOR": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Investigate threat indicators for case_50", "cats": {"INVESTIGATE": 1.0, "DETECT": 1.0, "ENRICH": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Verify threat indicators records for case_73", "cats": {"INVESTIGATE": 1.0, "VALIDATE": 1.0, "DETECT": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 1.0}}
+{"text": "Track threat actors changes for item_4", "cats": {"INVESTIGATE": 1.0, "TRACK": 1.0, "MONITOR": 1.0, "ANALYZE": 1.0, "DETECT": 0.0, "VALIDATE": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Check threat indicators records for verification", "cats": {"INVESTIGATE": 1.0, "VALIDATE": 1.0, "DETECT": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 1.0}}
+{"text": "Find threat campaigns information for entity_27", "cats": {"INVESTIGATE": 1.0, "DETECT": 1.0, "ENRICH": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Analyze threat actors data for record_41", "cats": {"INVESTIGATE": 1.0, "ANALYZE": 1.0, "DETECT": 0.0, "MONITOR": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Verify threat indicators records for case_43", "cats": {"INVESTIGATE": 1.0, "VALIDATE": 1.0, "DETECT": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 1.0}}
+{"text": "Analyze threat actors data for record_66", "cats": {"INVESTIGATE": 1.0, "ANALYZE": 1.0, "DETECT": 0.0, "MONITOR": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Track threat actors changes for item_39", "cats": {"INVESTIGATE": 1.0, "TRACK": 1.0, "MONITOR": 1.0, "ANALYZE": 1.0, "DETECT": 0.0, "VALIDATE": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Investigate threat indicators for case_35", "cats": {"INVESTIGATE": 1.0, "DETECT": 1.0, "ENRICH": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Analyze threat actors data for record_36", "cats": {"INVESTIGATE": 1.0, "ANALYZE": 1.0, "DETECT": 0.0, "MONITOR": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Verify threat indicators records for case_93", "cats": {"INVESTIGATE": 1.0, "VALIDATE": 1.0, "DETECT": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 1.0}}
+{"text": "Verify threat indicators records for case_3", "cats": {"INVESTIGATE": 1.0, "VALIDATE": 1.0, "DETECT": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 1.0}}
+{"text": "Track threat actors changes for item_69", "cats": {"INVESTIGATE": 1.0, "TRACK": 1.0, "MONITOR": 1.0, "ANALYZE": 1.0, "DETECT": 0.0, "VALIDATE": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Track threat actors changes for item_59", "cats": {"INVESTIGATE": 1.0, "TRACK": 1.0, "MONITOR": 1.0, "ANALYZE": 1.0, "DETECT": 0.0, "VALIDATE": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Track threat actors changes for item_94", "cats": {"INVESTIGATE": 1.0, "TRACK": 1.0, "MONITOR": 1.0, "ANALYZE": 1.0, "DETECT": 0.0, "VALIDATE": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Analyze threat actors data for record_1", "cats": {"INVESTIGATE": 1.0, "ANALYZE": 1.0, "DETECT": 0.0, "MONITOR": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Investigate threat indicators for case_85", "cats": {"INVESTIGATE": 1.0, "DETECT": 1.0, "ENRICH": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Investigate threat indicators for case_0", "cats": {"INVESTIGATE": 1.0, "DETECT": 1.0, "ENRICH": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Monitor threat actors changes over time", "cats": {"INVESTIGATE": 1.0, "MONITOR": 1.0, "TRACK": 1.0, "ANALYZE": 1.0, "DETECT": 0.0, "VALIDATE": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Verify threat indicators records for case_18", "cats": {"INVESTIGATE": 1.0, "VALIDATE": 1.0, "DETECT": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 1.0}}
+{"text": "Investigate threat indicators for case_55", "cats": {"INVESTIGATE": 1.0, "DETECT": 1.0, "ENRICH": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Analyze threat actors data for record_21", "cats": {"INVESTIGATE": 1.0, "ANALYZE": 1.0, "DETECT": 0.0, "MONITOR": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Investigate threat indicators for case_25", "cats": {"INVESTIGATE": 1.0, "DETECT": 1.0, "ENRICH": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Analyze threat actors data for record_1", "cats": {"INVESTIGATE": 1.0, "ANALYZE": 1.0, "DETECT": 0.0, "MONITOR": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Verify threat indicators records for case_63", "cats": {"INVESTIGATE": 1.0, "VALIDATE": 1.0, "DETECT": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 1.0}}
+{"text": "Analyze threat actors data for record_86", "cats": {"INVESTIGATE": 1.0, "ANALYZE": 1.0, "DETECT": 0.0, "MONITOR": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Verify threat indicators records for case_43", "cats": {"INVESTIGATE": 1.0, "VALIDATE": 1.0, "DETECT": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 1.0}}
+{"text": "Investigate threat indicators for case_20", "cats": {"INVESTIGATE": 1.0, "DETECT": 1.0, "ENRICH": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Investigate threat indicators for case_20", "cats": {"INVESTIGATE": 1.0, "DETECT": 1.0, "ENRICH": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Investigate threat indicators for case_15", "cats": {"INVESTIGATE": 1.0, "DETECT": 1.0, "ENRICH": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Investigate threat indicators for case_35", "cats": {"INVESTIGATE": 1.0, "DETECT": 1.0, "ENRICH": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Verify threat indicators records for case_13", "cats": {"INVESTIGATE": 1.0, "VALIDATE": 1.0, "DETECT": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 1.0}}
+{"text": "Track threat actors changes for item_29", "cats": {"INVESTIGATE": 1.0, "TRACK": 1.0, "MONITOR": 1.0, "ANALYZE": 1.0, "DETECT": 0.0, "VALIDATE": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Find threat campaigns information for entity_57", "cats": {"INVESTIGATE": 1.0, "DETECT": 1.0, "ENRICH": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Track threat actors changes for item_29", "cats": {"INVESTIGATE": 1.0, "TRACK": 1.0, "MONITOR": 1.0, "ANALYZE": 1.0, "DETECT": 0.0, "VALIDATE": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Analyze threat actors data for record_6", "cats": {"INVESTIGATE": 1.0, "ANALYZE": 1.0, "DETECT": 0.0, "MONITOR": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Find threat campaigns information for entity_67", "cats": {"INVESTIGATE": 1.0, "DETECT": 1.0, "ENRICH": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Verify threat indicators records for case_93", "cats": {"INVESTIGATE": 1.0, "VALIDATE": 1.0, "DETECT": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 1.0}}
+{"text": "Track threat actors changes for item_94", "cats": {"INVESTIGATE": 1.0, "TRACK": 1.0, "MONITOR": 1.0, "ANALYZE": 1.0, "DETECT": 0.0, "VALIDATE": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Analyze threat actors data for record_61", "cats": {"INVESTIGATE": 1.0, "ANALYZE": 1.0, "DETECT": 0.0, "MONITOR": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "What threat indicators information is available?", "cats": {"INVESTIGATE": 1.0, "ENRICH": 1.0, "DETECT": 0.0, "MONITOR": 0.0, "ANALYZE": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "What threat indicators information is available?", "cats": {"INVESTIGATE": 1.0, "ENRICH": 1.0, "DETECT": 0.0, "MONITOR": 0.0, "ANALYZE": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Analyze threat actors data for record_46", "cats": {"INVESTIGATE": 1.0, "ANALYZE": 1.0, "DETECT": 0.0, "MONITOR": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Analyze threat actors data for record_81", "cats": {"INVESTIGATE": 1.0, "ANALYZE": 1.0, "DETECT": 0.0, "MONITOR": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Find threat campaigns information for entity_32", "cats": {"INVESTIGATE": 1.0, "DETECT": 1.0, "ENRICH": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Analyze threat actors data for record_11", "cats": {"INVESTIGATE": 1.0, "ANALYZE": 1.0, "DETECT": 0.0, "MONITOR": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Track threat actors changes for item_24", "cats": {"INVESTIGATE": 1.0, "TRACK": 1.0, "MONITOR": 1.0, "ANALYZE": 1.0, "DETECT": 0.0, "VALIDATE": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Investigate threat indicators for case_75", "cats": {"INVESTIGATE": 1.0, "DETECT": 1.0, "ENRICH": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Analyze threat actors data for record_86", "cats": {"INVESTIGATE": 1.0, "ANALYZE": 1.0, "DETECT": 0.0, "MONITOR": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Analyze threat actors data for record_26", "cats": {"INVESTIGATE": 1.0, "ANALYZE": 1.0, "DETECT": 0.0, "MONITOR": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Find threat campaigns information for entity_2", "cats": {"INVESTIGATE": 1.0, "DETECT": 1.0, "ENRICH": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Track threat actors changes for item_49", "cats": {"INVESTIGATE": 1.0, "TRACK": 1.0, "MONITOR": 1.0, "ANALYZE": 1.0, "DETECT": 0.0, "VALIDATE": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Find threat campaigns information for entity_22", "cats": {"INVESTIGATE": 1.0, "DETECT": 1.0, "ENRICH": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Analyze threat actors data for record_16", "cats": {"INVESTIGATE": 1.0, "ANALYZE": 1.0, "DETECT": 0.0, "MONITOR": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Find threat campaigns information for entity_37", "cats": {"INVESTIGATE": 1.0, "DETECT": 1.0, "ENRICH": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Verify threat indicators records for case_83", "cats": {"INVESTIGATE": 1.0, "VALIDATE": 1.0, "DETECT": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 1.0}}
+{"text": "Track threat actors changes for item_74", "cats": {"INVESTIGATE": 1.0, "TRACK": 1.0, "MONITOR": 1.0, "ANALYZE": 1.0, "DETECT": 0.0, "VALIDATE": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Find threat campaigns information for entity_22", "cats": {"INVESTIGATE": 1.0, "DETECT": 1.0, "ENRICH": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Find threat campaigns information for entity_67", "cats": {"INVESTIGATE": 1.0, "DETECT": 1.0, "ENRICH": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Verify threat indicators records for case_13", "cats": {"INVESTIGATE": 1.0, "VALIDATE": 1.0, "DETECT": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 1.0}}
+{"text": "Verify threat indicators records for case_43", "cats": {"INVESTIGATE": 1.0, "VALIDATE": 1.0, "DETECT": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 1.0}}
+{"text": "Find threat campaigns information for entity_7", "cats": {"INVESTIGATE": 1.0, "DETECT": 1.0, "ENRICH": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Find threat campaigns information for entity_7", "cats": {"INVESTIGATE": 1.0, "DETECT": 1.0, "ENRICH": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Investigate threat indicators for case_40", "cats": {"INVESTIGATE": 1.0, "DETECT": 1.0, "ENRICH": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Verify threat indicators records for case_28", "cats": {"INVESTIGATE": 1.0, "VALIDATE": 1.0, "DETECT": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 1.0}}
+{"text": "Investigate threat indicators for case_5", "cats": {"INVESTIGATE": 1.0, "DETECT": 1.0, "ENRICH": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Investigate threat indicators for case_25", "cats": {"INVESTIGATE": 1.0, "DETECT": 1.0, "ENRICH": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Track threat actors changes for item_89", "cats": {"INVESTIGATE": 1.0, "TRACK": 1.0, "MONITOR": 1.0, "ANALYZE": 1.0, "DETECT": 0.0, "VALIDATE": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Analyze threat actors data for record_71", "cats": {"INVESTIGATE": 1.0, "ANALYZE": 1.0, "DETECT": 0.0, "MONITOR": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Investigate threat indicators for case_35", "cats": {"INVESTIGATE": 1.0, "DETECT": 1.0, "ENRICH": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Track threat actors changes for item_34", "cats": {"INVESTIGATE": 1.0, "TRACK": 1.0, "MONITOR": 1.0, "ANALYZE": 1.0, "DETECT": 0.0, "VALIDATE": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Find threat campaigns information for entity_92", "cats": {"INVESTIGATE": 1.0, "DETECT": 1.0, "ENRICH": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Analyze threat actors data for record_11", "cats": {"INVESTIGATE": 1.0, "ANALYZE": 1.0, "DETECT": 0.0, "MONITOR": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Track threat actors changes for item_19", "cats": {"INVESTIGATE": 1.0, "TRACK": 1.0, "MONITOR": 1.0, "ANALYZE": 1.0, "DETECT": 0.0, "VALIDATE": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Find threat campaigns information for entity_32", "cats": {"INVESTIGATE": 1.0, "DETECT": 1.0, "ENRICH": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Verify threat indicators records for case_38", "cats": {"INVESTIGATE": 1.0, "VALIDATE": 1.0, "DETECT": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 1.0}}
+{"text": "Find threat campaigns information for entity_27", "cats": {"INVESTIGATE": 1.0, "DETECT": 1.0, "ENRICH": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Track threat actors changes for item_14", "cats": {"INVESTIGATE": 1.0, "TRACK": 1.0, "MONITOR": 1.0, "ANALYZE": 1.0, "DETECT": 0.0, "VALIDATE": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Check threat indicators records for verification", "cats": {"INVESTIGATE": 1.0, "VALIDATE": 1.0, "DETECT": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 1.0}}
+{"text": "Find threat campaigns information for entity_72", "cats": {"INVESTIGATE": 1.0, "DETECT": 1.0, "ENRICH": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Find threat campaigns information for entity_2", "cats": {"INVESTIGATE": 1.0, "DETECT": 1.0, "ENRICH": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Investigate threat indicators for case_30", "cats": {"INVESTIGATE": 1.0, "DETECT": 1.0, "ENRICH": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Find threat campaigns information for entity_67", "cats": {"INVESTIGATE": 1.0, "DETECT": 1.0, "ENRICH": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Find threat campaigns related to this", "cats": {"INVESTIGATE": 1.0, "DETECT": 1.0, "ENRICH": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Track threat actors changes for item_44", "cats": {"INVESTIGATE": 1.0, "TRACK": 1.0, "MONITOR": 1.0, "ANALYZE": 1.0, "DETECT": 0.0, "VALIDATE": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Track threat actors changes for item_4", "cats": {"INVESTIGATE": 1.0, "TRACK": 1.0, "MONITOR": 1.0, "ANALYZE": 1.0, "DETECT": 0.0, "VALIDATE": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Investigate threat indicators for case_55", "cats": {"INVESTIGATE": 1.0, "DETECT": 1.0, "ENRICH": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Investigate threat indicators for case_40", "cats": {"INVESTIGATE": 1.0, "DETECT": 1.0, "ENRICH": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Check threat indicators records for verification", "cats": {"INVESTIGATE": 1.0, "VALIDATE": 1.0, "DETECT": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 1.0}}
+{"text": "Track threat actors changes for item_89", "cats": {"INVESTIGATE": 1.0, "TRACK": 1.0, "MONITOR": 1.0, "ANALYZE": 1.0, "DETECT": 0.0, "VALIDATE": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Track threat actors changes for item_4", "cats": {"INVESTIGATE": 1.0, "TRACK": 1.0, "MONITOR": 1.0, "ANALYZE": 1.0, "DETECT": 0.0, "VALIDATE": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Investigate threat indicators for case_65", "cats": {"INVESTIGATE": 1.0, "DETECT": 1.0, "ENRICH": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Verify threat indicators records for case_73", "cats": {"INVESTIGATE": 1.0, "VALIDATE": 1.0, "DETECT": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 1.0}}
+{"text": "Track threat actors changes for item_24", "cats": {"INVESTIGATE": 1.0, "TRACK": 1.0, "MONITOR": 1.0, "ANALYZE": 1.0, "DETECT": 0.0, "VALIDATE": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Find threat campaigns related to this", "cats": {"INVESTIGATE": 1.0, "DETECT": 1.0, "ENRICH": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Analyze threat actors data for record_36", "cats": {"INVESTIGATE": 1.0, "ANALYZE": 1.0, "DETECT": 0.0, "MONITOR": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Verify threat indicators records for case_48", "cats": {"INVESTIGATE": 1.0, "VALIDATE": 1.0, "DETECT": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 1.0}}
+{"text": "Analyze threat actors data for record_71", "cats": {"INVESTIGATE": 1.0, "ANALYZE": 1.0, "DETECT": 0.0, "MONITOR": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Find threat campaigns information for entity_62", "cats": {"INVESTIGATE": 1.0, "DETECT": 1.0, "ENRICH": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Analyze threat actors data for record_31", "cats": {"INVESTIGATE": 1.0, "ANALYZE": 1.0, "DETECT": 0.0, "MONITOR": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Verify threat indicators records for case_3", "cats": {"INVESTIGATE": 1.0, "VALIDATE": 1.0, "DETECT": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 1.0}}
+{"text": "Investigate threat indicators for case_75", "cats": {"INVESTIGATE": 1.0, "DETECT": 1.0, "ENRICH": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Find threat campaigns information for entity_87", "cats": {"INVESTIGATE": 1.0, "DETECT": 1.0, "ENRICH": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Track threat actors changes for item_44", "cats": {"INVESTIGATE": 1.0, "TRACK": 1.0, "MONITOR": 1.0, "ANALYZE": 1.0, "DETECT": 0.0, "VALIDATE": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Find threat campaigns information for entity_17", "cats": {"INVESTIGATE": 1.0, "DETECT": 1.0, "ENRICH": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Find threat campaigns information for entity_17", "cats": {"INVESTIGATE": 1.0, "DETECT": 1.0, "ENRICH": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Find threat campaigns information for entity_32", "cats": {"INVESTIGATE": 1.0, "DETECT": 1.0, "ENRICH": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Investigate threat indicators for case_20", "cats": {"INVESTIGATE": 1.0, "DETECT": 1.0, "ENRICH": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Track threat actors changes for item_84", "cats": {"INVESTIGATE": 1.0, "TRACK": 1.0, "MONITOR": 1.0, "ANALYZE": 1.0, "DETECT": 0.0, "VALIDATE": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Analyze threat actors data for record_51", "cats": {"INVESTIGATE": 1.0, "ANALYZE": 1.0, "DETECT": 0.0, "MONITOR": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Find threat campaigns information for entity_42", "cats": {"INVESTIGATE": 1.0, "DETECT": 1.0, "ENRICH": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Investigate threat indicators for case_10", "cats": {"INVESTIGATE": 1.0, "DETECT": 1.0, "ENRICH": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Track threat actors changes for item_29", "cats": {"INVESTIGATE": 1.0, "TRACK": 1.0, "MONITOR": 1.0, "ANALYZE": 1.0, "DETECT": 0.0, "VALIDATE": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Find threat campaigns information for entity_82", "cats": {"INVESTIGATE": 1.0, "DETECT": 1.0, "ENRICH": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Investigate threat indicators for case_65", "cats": {"INVESTIGATE": 1.0, "DETECT": 1.0, "ENRICH": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Find threat campaigns information for entity_77", "cats": {"INVESTIGATE": 1.0, "DETECT": 1.0, "ENRICH": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Track threat actors changes for item_19", "cats": {"INVESTIGATE": 1.0, "TRACK": 1.0, "MONITOR": 1.0, "ANALYZE": 1.0, "DETECT": 0.0, "VALIDATE": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Verify threat indicators records for case_73", "cats": {"INVESTIGATE": 1.0, "VALIDATE": 1.0, "DETECT": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 1.0}}
+{"text": "Verify threat indicators records for case_83", "cats": {"INVESTIGATE": 1.0, "VALIDATE": 1.0, "DETECT": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 1.0}}
+{"text": "Find threat campaigns information for entity_67", "cats": {"INVESTIGATE": 1.0, "DETECT": 1.0, "ENRICH": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Investigate threat indicators for case_0", "cats": {"INVESTIGATE": 1.0, "DETECT": 1.0, "ENRICH": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Track threat actors changes for item_94", "cats": {"INVESTIGATE": 1.0, "TRACK": 1.0, "MONITOR": 1.0, "ANALYZE": 1.0, "DETECT": 0.0, "VALIDATE": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Track threat actors changes for item_79", "cats": {"INVESTIGATE": 1.0, "TRACK": 1.0, "MONITOR": 1.0, "ANALYZE": 1.0, "DETECT": 0.0, "VALIDATE": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Track threat actors changes for item_9", "cats": {"INVESTIGATE": 1.0, "TRACK": 1.0, "MONITOR": 1.0, "ANALYZE": 1.0, "DETECT": 0.0, "VALIDATE": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Track threat actors changes for item_4", "cats": {"INVESTIGATE": 1.0, "TRACK": 1.0, "MONITOR": 1.0, "ANALYZE": 1.0, "DETECT": 0.0, "VALIDATE": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Analyze threat actors data for record_21", "cats": {"INVESTIGATE": 1.0, "ANALYZE": 1.0, "DETECT": 0.0, "MONITOR": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Verify threat indicators records for case_78", "cats": {"INVESTIGATE": 1.0, "VALIDATE": 1.0, "DETECT": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 1.0}}
+{"text": "Find threat campaigns information for entity_37", "cats": {"INVESTIGATE": 1.0, "DETECT": 1.0, "ENRICH": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Analyze threat actors data for record_36", "cats": {"INVESTIGATE": 1.0, "ANALYZE": 1.0, "DETECT": 0.0, "MONITOR": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Investigate threat indicators for case_40", "cats": {"INVESTIGATE": 1.0, "DETECT": 1.0, "ENRICH": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Find threat campaigns information for entity_92", "cats": {"INVESTIGATE": 1.0, "DETECT": 1.0, "ENRICH": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Verify threat indicators records for case_8", "cats": {"INVESTIGATE": 1.0, "VALIDATE": 1.0, "DETECT": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 1.0}}
+{"text": "Verify threat indicators records for case_63", "cats": {"INVESTIGATE": 1.0, "VALIDATE": 1.0, "DETECT": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 1.0}}
+{"text": "Analyze threat actors data for record_71", "cats": {"INVESTIGATE": 1.0, "ANALYZE": 1.0, "DETECT": 0.0, "MONITOR": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Investigate threat indicators for case_15", "cats": {"INVESTIGATE": 1.0, "DETECT": 1.0, "ENRICH": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Analyze threat actors data for record_56", "cats": {"INVESTIGATE": 1.0, "ANALYZE": 1.0, "DETECT": 0.0, "MONITOR": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Analyze threat actors for this case", "cats": {"INVESTIGATE": 1.0, "ANALYZE": 1.0, "DETECT": 0.0, "MONITOR": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Find threat campaigns information for entity_87", "cats": {"INVESTIGATE": 1.0, "DETECT": 1.0, "ENRICH": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Investigate threat indicators for case_70", "cats": {"INVESTIGATE": 1.0, "DETECT": 1.0, "ENRICH": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Find threat campaigns information for entity_57", "cats": {"INVESTIGATE": 1.0, "DETECT": 1.0, "ENRICH": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Analyze threat actors data for record_21", "cats": {"INVESTIGATE": 1.0, "ANALYZE": 1.0, "DETECT": 0.0, "MONITOR": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Track threat actors changes for item_19", "cats": {"INVESTIGATE": 1.0, "TRACK": 1.0, "MONITOR": 1.0, "ANALYZE": 1.0, "DETECT": 0.0, "VALIDATE": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Investigate threat indicators for case_70", "cats": {"INVESTIGATE": 1.0, "DETECT": 1.0, "ENRICH": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Find threat campaigns information for entity_7", "cats": {"INVESTIGATE": 1.0, "DETECT": 1.0, "ENRICH": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Find threat campaigns information for entity_62", "cats": {"INVESTIGATE": 1.0, "DETECT": 1.0, "ENRICH": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Find threat campaigns information for entity_52", "cats": {"INVESTIGATE": 1.0, "DETECT": 1.0, "ENRICH": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Verify threat indicators records for case_38", "cats": {"INVESTIGATE": 1.0, "VALIDATE": 1.0, "DETECT": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 1.0}}
+{"text": "Find threat campaigns information for entity_32", "cats": {"INVESTIGATE": 1.0, "DETECT": 1.0, "ENRICH": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Find threat campaigns related to this", "cats": {"INVESTIGATE": 1.0, "DETECT": 1.0, "ENRICH": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Find threat campaigns information for entity_12", "cats": {"INVESTIGATE": 1.0, "DETECT": 1.0, "ENRICH": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Verify threat indicators records for case_33", "cats": {"INVESTIGATE": 1.0, "VALIDATE": 1.0, "DETECT": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 1.0}}
+{"text": "Investigate threat indicators for case_45", "cats": {"INVESTIGATE": 1.0, "DETECT": 1.0, "ENRICH": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Verify threat indicators records for case_83", "cats": {"INVESTIGATE": 1.0, "VALIDATE": 1.0, "DETECT": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 1.0}}
+{"text": "Investigate threat indicators for case_5", "cats": {"INVESTIGATE": 1.0, "DETECT": 1.0, "ENRICH": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Verify threat indicators records for case_18", "cats": {"INVESTIGATE": 1.0, "VALIDATE": 1.0, "DETECT": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 1.0}}
+{"text": "Investigate threat indicators for case_50", "cats": {"INVESTIGATE": 1.0, "DETECT": 1.0, "ENRICH": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Verify threat indicators records for case_8", "cats": {"INVESTIGATE": 1.0, "VALIDATE": 1.0, "DETECT": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 1.0}}
+{"text": "Verify threat indicators records for case_93", "cats": {"INVESTIGATE": 1.0, "VALIDATE": 1.0, "DETECT": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 1.0}}
+{"text": "Find threat campaigns information for entity_82", "cats": {"INVESTIGATE": 1.0, "DETECT": 1.0, "ENRICH": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Find threat campaigns information for entity_42", "cats": {"INVESTIGATE": 1.0, "DETECT": 1.0, "ENRICH": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Verify threat indicators records for case_3", "cats": {"INVESTIGATE": 1.0, "VALIDATE": 1.0, "DETECT": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 1.0}}
+{"text": "Verify threat indicators records for case_53", "cats": {"INVESTIGATE": 1.0, "VALIDATE": 1.0, "DETECT": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 1.0}}
+{"text": "Track threat actors changes for item_34", "cats": {"INVESTIGATE": 1.0, "TRACK": 1.0, "MONITOR": 1.0, "ANALYZE": 1.0, "DETECT": 0.0, "VALIDATE": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Analyze threat actors data for record_26", "cats": {"INVESTIGATE": 1.0, "ANALYZE": 1.0, "DETECT": 0.0, "MONITOR": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Verify threat indicators records for case_33", "cats": {"INVESTIGATE": 1.0, "VALIDATE": 1.0, "DETECT": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 1.0}}
+{"text": "Investigate threat indicators for case_45", "cats": {"INVESTIGATE": 1.0, "DETECT": 1.0, "ENRICH": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Investigate threat indicators for case_90", "cats": {"INVESTIGATE": 1.0, "DETECT": 1.0, "ENRICH": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Analyze threat actors data for record_61", "cats": {"INVESTIGATE": 1.0, "ANALYZE": 1.0, "DETECT": 0.0, "MONITOR": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Find threat campaigns information for entity_2", "cats": {"INVESTIGATE": 1.0, "DETECT": 1.0, "ENRICH": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Track threat actors changes for item_24", "cats": {"INVESTIGATE": 1.0, "TRACK": 1.0, "MONITOR": 1.0, "ANALYZE": 1.0, "DETECT": 0.0, "VALIDATE": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Verify threat indicators records for case_68", "cats": {"INVESTIGATE": 1.0, "VALIDATE": 1.0, "DETECT": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 1.0}}
+{"text": "Analyze threat actors data for record_1", "cats": {"INVESTIGATE": 1.0, "ANALYZE": 1.0, "DETECT": 0.0, "MONITOR": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Analyze threat actors data for record_46", "cats": {"INVESTIGATE": 1.0, "ANALYZE": 1.0, "DETECT": 0.0, "MONITOR": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Investigate threat indicators for case_5", "cats": {"INVESTIGATE": 1.0, "DETECT": 1.0, "ENRICH": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Analyze threat actors data for record_61", "cats": {"INVESTIGATE": 1.0, "ANALYZE": 1.0, "DETECT": 0.0, "MONITOR": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Find threat campaigns information for entity_47", "cats": {"INVESTIGATE": 1.0, "DETECT": 1.0, "ENRICH": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Find threat campaigns information for entity_87", "cats": {"INVESTIGATE": 1.0, "DETECT": 1.0, "ENRICH": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Verify threat indicators records for case_88", "cats": {"INVESTIGATE": 1.0, "VALIDATE": 1.0, "DETECT": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 1.0}}
+{"text": "Analyze threat actors data for record_81", "cats": {"INVESTIGATE": 1.0, "ANALYZE": 1.0, "DETECT": 0.0, "MONITOR": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Verify threat indicators records for case_53", "cats": {"INVESTIGATE": 1.0, "VALIDATE": 1.0, "DETECT": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 1.0}}
+{"text": "Track threat actors changes for item_54", "cats": {"INVESTIGATE": 1.0, "TRACK": 1.0, "MONITOR": 1.0, "ANALYZE": 1.0, "DETECT": 0.0, "VALIDATE": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Verify threat indicators records for case_38", "cats": {"INVESTIGATE": 1.0, "VALIDATE": 1.0, "DETECT": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 1.0}}
+{"text": "Investigate threat indicators for case_65", "cats": {"INVESTIGATE": 1.0, "DETECT": 1.0, "ENRICH": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Investigate threat indicators for case_80", "cats": {"INVESTIGATE": 1.0, "DETECT": 1.0, "ENRICH": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Find threat campaigns information for entity_92", "cats": {"INVESTIGATE": 1.0, "DETECT": 1.0, "ENRICH": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Analyze threat actors data for record_41", "cats": {"INVESTIGATE": 1.0, "ANALYZE": 1.0, "DETECT": 0.0, "MONITOR": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Analyze threat actors data for record_56", "cats": {"INVESTIGATE": 1.0, "ANALYZE": 1.0, "DETECT": 0.0, "MONITOR": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Investigate threat indicators for case_40", "cats": {"INVESTIGATE": 1.0, "DETECT": 1.0, "ENRICH": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Track threat actors changes for item_64", "cats": {"INVESTIGATE": 1.0, "TRACK": 1.0, "MONITOR": 1.0, "ANALYZE": 1.0, "DETECT": 0.0, "VALIDATE": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Investigate threat indicators for case_30", "cats": {"INVESTIGATE": 1.0, "DETECT": 1.0, "ENRICH": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Investigate threat indicators for case_30", "cats": {"INVESTIGATE": 1.0, "DETECT": 1.0, "ENRICH": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Analyze threat actors data for record_86", "cats": {"INVESTIGATE": 1.0, "ANALYZE": 1.0, "DETECT": 0.0, "MONITOR": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Investigate threat indicators for case_85", "cats": {"INVESTIGATE": 1.0, "DETECT": 1.0, "ENRICH": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Analyze threat actors data for record_71", "cats": {"INVESTIGATE": 1.0, "ANALYZE": 1.0, "DETECT": 0.0, "MONITOR": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Find threat campaigns information for entity_37", "cats": {"INVESTIGATE": 1.0, "DETECT": 1.0, "ENRICH": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Track threat actors changes for item_74", "cats": {"INVESTIGATE": 1.0, "TRACK": 1.0, "MONITOR": 1.0, "ANALYZE": 1.0, "DETECT": 0.0, "VALIDATE": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Investigate threat indicators for case_45", "cats": {"INVESTIGATE": 1.0, "DETECT": 1.0, "ENRICH": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Investigate threat indicators for case_15", "cats": {"INVESTIGATE": 1.0, "DETECT": 1.0, "ENRICH": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Analyze threat actors data for record_91", "cats": {"INVESTIGATE": 1.0, "ANALYZE": 1.0, "DETECT": 0.0, "MONITOR": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Track threat actors changes for item_59", "cats": {"INVESTIGATE": 1.0, "TRACK": 1.0, "MONITOR": 1.0, "ANALYZE": 1.0, "DETECT": 0.0, "VALIDATE": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Verify threat indicators records for case_33", "cats": {"INVESTIGATE": 1.0, "VALIDATE": 1.0, "DETECT": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 1.0}}
+{"text": "Verify threat indicators records for case_58", "cats": {"INVESTIGATE": 1.0, "VALIDATE": 1.0, "DETECT": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 1.0}}
+{"text": "Analyze threat actors data for record_46", "cats": {"INVESTIGATE": 1.0, "ANALYZE": 1.0, "DETECT": 0.0, "MONITOR": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Track threat actors changes for item_44", "cats": {"INVESTIGATE": 1.0, "TRACK": 1.0, "MONITOR": 1.0, "ANALYZE": 1.0, "DETECT": 0.0, "VALIDATE": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Track threat actors changes for item_24", "cats": {"INVESTIGATE": 1.0, "TRACK": 1.0, "MONITOR": 1.0, "ANALYZE": 1.0, "DETECT": 0.0, "VALIDATE": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Track threat actors changes for item_14", "cats": {"INVESTIGATE": 1.0, "TRACK": 1.0, "MONITOR": 1.0, "ANALYZE": 1.0, "DETECT": 0.0, "VALIDATE": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Find threat campaigns information for entity_77", "cats": {"INVESTIGATE": 1.0, "DETECT": 1.0, "ENRICH": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Verify threat indicators records for case_8", "cats": {"INVESTIGATE": 1.0, "VALIDATE": 1.0, "DETECT": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 1.0}}
+{"text": "Investigate threat indicators for case_50", "cats": {"INVESTIGATE": 1.0, "DETECT": 1.0, "ENRICH": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Monitor threat actors changes over time", "cats": {"INVESTIGATE": 1.0, "MONITOR": 1.0, "TRACK": 1.0, "ANALYZE": 1.0, "DETECT": 0.0, "VALIDATE": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Find threat campaigns information for entity_22", "cats": {"INVESTIGATE": 1.0, "DETECT": 1.0, "ENRICH": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Verify threat indicators records for case_43", "cats": {"INVESTIGATE": 1.0, "VALIDATE": 1.0, "DETECT": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 1.0}}
+{"text": "Analyze threat actors data for record_36", "cats": {"INVESTIGATE": 1.0, "ANALYZE": 1.0, "DETECT": 0.0, "MONITOR": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Investigate threat indicators for case_10", "cats": {"INVESTIGATE": 1.0, "DETECT": 1.0, "ENRICH": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Verify threat indicators records for case_88", "cats": {"INVESTIGATE": 1.0, "VALIDATE": 1.0, "DETECT": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 1.0}}
+{"text": "Track threat actors changes for item_64", "cats": {"INVESTIGATE": 1.0, "TRACK": 1.0, "MONITOR": 1.0, "ANALYZE": 1.0, "DETECT": 0.0, "VALIDATE": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Analyze threat actors data for record_41", "cats": {"INVESTIGATE": 1.0, "ANALYZE": 1.0, "DETECT": 0.0, "MONITOR": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Verify threat indicators records for case_13", "cats": {"INVESTIGATE": 1.0, "VALIDATE": 1.0, "DETECT": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 1.0}}
+{"text": "Investigate threat indicators for case_60", "cats": {"INVESTIGATE": 1.0, "DETECT": 1.0, "ENRICH": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Find threat campaigns information for entity_57", "cats": {"INVESTIGATE": 1.0, "DETECT": 1.0, "ENRICH": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Verify threat indicators records for case_73", "cats": {"INVESTIGATE": 1.0, "VALIDATE": 1.0, "DETECT": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 1.0}}
+{"text": "Track threat actors changes for item_59", "cats": {"INVESTIGATE": 1.0, "TRACK": 1.0, "MONITOR": 1.0, "ANALYZE": 1.0, "DETECT": 0.0, "VALIDATE": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Analyze threat actors data for record_11", "cats": {"INVESTIGATE": 1.0, "ANALYZE": 1.0, "DETECT": 0.0, "MONITOR": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Track threat actors changes for item_74", "cats": {"INVESTIGATE": 1.0, "TRACK": 1.0, "MONITOR": 1.0, "ANALYZE": 1.0, "DETECT": 0.0, "VALIDATE": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Investigate threat indicators for case_15", "cats": {"INVESTIGATE": 1.0, "DETECT": 1.0, "ENRICH": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Verify threat indicators records for case_23", "cats": {"INVESTIGATE": 1.0, "VALIDATE": 1.0, "DETECT": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 1.0}}
+{"text": "Find threat campaigns information for entity_82", "cats": {"INVESTIGATE": 1.0, "DETECT": 1.0, "ENRICH": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Verify threat indicators records for case_48", "cats": {"INVESTIGATE": 1.0, "VALIDATE": 1.0, "DETECT": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 1.0}}
+{"text": "Analyze threat actors data for record_76", "cats": {"INVESTIGATE": 1.0, "ANALYZE": 1.0, "DETECT": 0.0, "MONITOR": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Analyze threat actors data for record_46", "cats": {"INVESTIGATE": 1.0, "ANALYZE": 1.0, "DETECT": 0.0, "MONITOR": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Investigate threat indicators for case_10", "cats": {"INVESTIGATE": 1.0, "DETECT": 1.0, "ENRICH": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Track threat actors changes for item_84", "cats": {"INVESTIGATE": 1.0, "TRACK": 1.0, "MONITOR": 1.0, "ANALYZE": 1.0, "DETECT": 0.0, "VALIDATE": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Track threat actors changes for item_59", "cats": {"INVESTIGATE": 1.0, "TRACK": 1.0, "MONITOR": 1.0, "ANALYZE": 1.0, "DETECT": 0.0, "VALIDATE": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Monitor threat actors changes over time", "cats": {"INVESTIGATE": 1.0, "MONITOR": 1.0, "TRACK": 1.0, "ANALYZE": 1.0, "DETECT": 0.0, "VALIDATE": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Analyze threat actors data for record_61", "cats": {"INVESTIGATE": 1.0, "ANALYZE": 1.0, "DETECT": 0.0, "MONITOR": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Track threat actors changes for item_74", "cats": {"INVESTIGATE": 1.0, "TRACK": 1.0, "MONITOR": 1.0, "ANALYZE": 1.0, "DETECT": 0.0, "VALIDATE": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Find threat campaigns information for entity_52", "cats": {"INVESTIGATE": 1.0, "DETECT": 1.0, "ENRICH": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "What threat indicators information is available?", "cats": {"INVESTIGATE": 1.0, "ENRICH": 1.0, "DETECT": 0.0, "MONITOR": 0.0, "ANALYZE": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Track threat actors changes for item_29", "cats": {"INVESTIGATE": 1.0, "TRACK": 1.0, "MONITOR": 1.0, "ANALYZE": 1.0, "DETECT": 0.0, "VALIDATE": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Track threat actors changes for item_49", "cats": {"INVESTIGATE": 1.0, "TRACK": 1.0, "MONITOR": 1.0, "ANALYZE": 1.0, "DETECT": 0.0, "VALIDATE": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Find threat campaigns information for entity_52", "cats": {"INVESTIGATE": 1.0, "DETECT": 1.0, "ENRICH": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Analyze threat actors data for record_31", "cats": {"INVESTIGATE": 1.0, "ANALYZE": 1.0, "DETECT": 0.0, "MONITOR": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Verify threat indicators records for case_68", "cats": {"INVESTIGATE": 1.0, "VALIDATE": 1.0, "DETECT": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 1.0}}
+{"text": "Analyze threat actors data for record_6", "cats": {"INVESTIGATE": 1.0, "ANALYZE": 1.0, "DETECT": 0.0, "MONITOR": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Verify threat indicators records for case_93", "cats": {"INVESTIGATE": 1.0, "VALIDATE": 1.0, "DETECT": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 1.0}}
+{"text": "Analyze threat actors data for record_16", "cats": {"INVESTIGATE": 1.0, "ANALYZE": 1.0, "DETECT": 0.0, "MONITOR": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Analyze threat actors data for record_91", "cats": {"INVESTIGATE": 1.0, "ANALYZE": 1.0, "DETECT": 0.0, "MONITOR": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Analyze threat actors data for record_91", "cats": {"INVESTIGATE": 1.0, "ANALYZE": 1.0, "DETECT": 0.0, "MONITOR": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Investigate threat indicators for case_35", "cats": {"INVESTIGATE": 1.0, "DETECT": 1.0, "ENRICH": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Track threat actors changes for item_89", "cats": {"INVESTIGATE": 1.0, "TRACK": 1.0, "MONITOR": 1.0, "ANALYZE": 1.0, "DETECT": 0.0, "VALIDATE": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Find threat campaigns information for entity_92", "cats": {"INVESTIGATE": 1.0, "DETECT": 1.0, "ENRICH": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Analyze threat actors data for record_76", "cats": {"INVESTIGATE": 1.0, "ANALYZE": 1.0, "DETECT": 0.0, "MONITOR": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Analyze threat actors data for record_21", "cats": {"INVESTIGATE": 1.0, "ANALYZE": 1.0, "DETECT": 0.0, "MONITOR": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Analyze threat actors for this case", "cats": {"INVESTIGATE": 1.0, "ANALYZE": 1.0, "DETECT": 0.0, "MONITOR": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Track threat actors changes for item_54", "cats": {"INVESTIGATE": 1.0, "TRACK": 1.0, "MONITOR": 1.0, "ANALYZE": 1.0, "DETECT": 0.0, "VALIDATE": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Verify threat indicators records for case_63", "cats": {"INVESTIGATE": 1.0, "VALIDATE": 1.0, "DETECT": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 1.0}}
+{"text": "Find threat campaigns information for entity_57", "cats": {"INVESTIGATE": 1.0, "DETECT": 1.0, "ENRICH": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Analyze threat actors data for record_31", "cats": {"INVESTIGATE": 1.0, "ANALYZE": 1.0, "DETECT": 0.0, "MONITOR": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Find threat campaigns information for entity_62", "cats": {"INVESTIGATE": 1.0, "DETECT": 1.0, "ENRICH": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Verify threat indicators records for case_13", "cats": {"INVESTIGATE": 1.0, "VALIDATE": 1.0, "DETECT": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 1.0}}
+{"text": "Investigate threat indicators for case_75", "cats": {"INVESTIGATE": 1.0, "DETECT": 1.0, "ENRICH": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Analyze threat actors data for record_66", "cats": {"INVESTIGATE": 1.0, "ANALYZE": 1.0, "DETECT": 0.0, "MONITOR": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Analyze threat actors data for record_56", "cats": {"INVESTIGATE": 1.0, "ANALYZE": 1.0, "DETECT": 0.0, "MONITOR": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Track threat actors changes for item_49", "cats": {"INVESTIGATE": 1.0, "TRACK": 1.0, "MONITOR": 1.0, "ANALYZE": 1.0, "DETECT": 0.0, "VALIDATE": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Verify threat indicators records for case_38", "cats": {"INVESTIGATE": 1.0, "VALIDATE": 1.0, "DETECT": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 1.0}}
+{"text": "Track threat actors changes for item_64", "cats": {"INVESTIGATE": 1.0, "TRACK": 1.0, "MONITOR": 1.0, "ANALYZE": 1.0, "DETECT": 0.0, "VALIDATE": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Track threat actors changes for item_94", "cats": {"INVESTIGATE": 1.0, "TRACK": 1.0, "MONITOR": 1.0, "ANALYZE": 1.0, "DETECT": 0.0, "VALIDATE": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Check threat indicators records for verification", "cats": {"INVESTIGATE": 1.0, "VALIDATE": 1.0, "DETECT": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 1.0}}
+{"text": "Track threat actors changes for item_44", "cats": {"INVESTIGATE": 1.0, "TRACK": 1.0, "MONITOR": 1.0, "ANALYZE": 1.0, "DETECT": 0.0, "VALIDATE": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Investigate threat indicators for case_70", "cats": {"INVESTIGATE": 1.0, "DETECT": 1.0, "ENRICH": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Track threat actors changes for item_79", "cats": {"INVESTIGATE": 1.0, "TRACK": 1.0, "MONITOR": 1.0, "ANALYZE": 1.0, "DETECT": 0.0, "VALIDATE": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Investigate threat indicators for case_0", "cats": {"INVESTIGATE": 1.0, "DETECT": 1.0, "ENRICH": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Find threat campaigns information for entity_47", "cats": {"INVESTIGATE": 1.0, "DETECT": 1.0, "ENRICH": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Analyze threat actors data for record_31", "cats": {"INVESTIGATE": 1.0, "ANALYZE": 1.0, "DETECT": 0.0, "MONITOR": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Investigate threat indicators for case_60", "cats": {"INVESTIGATE": 1.0, "DETECT": 1.0, "ENRICH": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Track threat actors changes for item_79", "cats": {"INVESTIGATE": 1.0, "TRACK": 1.0, "MONITOR": 1.0, "ANALYZE": 1.0, "DETECT": 0.0, "VALIDATE": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Find threat campaigns information for entity_17", "cats": {"INVESTIGATE": 1.0, "DETECT": 1.0, "ENRICH": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Investigate threat indicators for case_90", "cats": {"INVESTIGATE": 1.0, "DETECT": 1.0, "ENRICH": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Analyze threat actors data for record_26", "cats": {"INVESTIGATE": 1.0, "ANALYZE": 1.0, "DETECT": 0.0, "MONITOR": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Verify threat indicators records for case_78", "cats": {"INVESTIGATE": 1.0, "VALIDATE": 1.0, "DETECT": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 1.0}}
+{"text": "Find threat campaigns information for entity_72", "cats": {"INVESTIGATE": 1.0, "DETECT": 1.0, "ENRICH": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Track threat actors changes for item_69", "cats": {"INVESTIGATE": 1.0, "TRACK": 1.0, "MONITOR": 1.0, "ANALYZE": 1.0, "DETECT": 0.0, "VALIDATE": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Analyze threat actors data for record_51", "cats": {"INVESTIGATE": 1.0, "ANALYZE": 1.0, "DETECT": 0.0, "MONITOR": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Analyze threat actors data for record_51", "cats": {"INVESTIGATE": 1.0, "ANALYZE": 1.0, "DETECT": 0.0, "MONITOR": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Analyze threat actors data for record_1", "cats": {"INVESTIGATE": 1.0, "ANALYZE": 1.0, "DETECT": 0.0, "MONITOR": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Analyze threat actors data for record_76", "cats": {"INVESTIGATE": 1.0, "ANALYZE": 1.0, "DETECT": 0.0, "MONITOR": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Verify threat indicators records for case_48", "cats": {"INVESTIGATE": 1.0, "VALIDATE": 1.0, "DETECT": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 1.0}}
+{"text": "Analyze threat actors data for record_26", "cats": {"INVESTIGATE": 1.0, "ANALYZE": 1.0, "DETECT": 0.0, "MONITOR": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Find threat campaigns information for entity_12", "cats": {"INVESTIGATE": 1.0, "DETECT": 1.0, "ENRICH": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Verify threat indicators records for case_88", "cats": {"INVESTIGATE": 1.0, "VALIDATE": 1.0, "DETECT": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 1.0}}
+{"text": "Find threat campaigns information for entity_72", "cats": {"INVESTIGATE": 1.0, "DETECT": 1.0, "ENRICH": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Find threat campaigns information for entity_7", "cats": {"INVESTIGATE": 1.0, "DETECT": 1.0, "ENRICH": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Analyze threat actors data for record_81", "cats": {"INVESTIGATE": 1.0, "ANALYZE": 1.0, "DETECT": 0.0, "MONITOR": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Investigate threat indicators for case_90", "cats": {"INVESTIGATE": 1.0, "DETECT": 1.0, "ENRICH": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Find threat campaigns information for entity_17", "cats": {"INVESTIGATE": 1.0, "DETECT": 1.0, "ENRICH": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Analyze threat actors data for record_16", "cats": {"INVESTIGATE": 1.0, "ANALYZE": 1.0, "DETECT": 0.0, "MONITOR": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Find threat campaigns related to this", "cats": {"INVESTIGATE": 1.0, "DETECT": 1.0, "ENRICH": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Track threat actors changes for item_84", "cats": {"INVESTIGATE": 1.0, "TRACK": 1.0, "MONITOR": 1.0, "ANALYZE": 1.0, "DETECT": 0.0, "VALIDATE": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Track threat actors changes for item_34", "cats": {"INVESTIGATE": 1.0, "TRACK": 1.0, "MONITOR": 1.0, "ANALYZE": 1.0, "DETECT": 0.0, "VALIDATE": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Investigate threat indicators for case_5", "cats": {"INVESTIGATE": 1.0, "DETECT": 1.0, "ENRICH": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Verify threat indicators records for case_58", "cats": {"INVESTIGATE": 1.0, "VALIDATE": 1.0, "DETECT": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 1.0}}
+{"text": "Track threat actors changes for item_39", "cats": {"INVESTIGATE": 1.0, "TRACK": 1.0, "MONITOR": 1.0, "ANALYZE": 1.0, "DETECT": 0.0, "VALIDATE": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Track threat actors changes for item_84", "cats": {"INVESTIGATE": 1.0, "TRACK": 1.0, "MONITOR": 1.0, "ANALYZE": 1.0, "DETECT": 0.0, "VALIDATE": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Track threat actors changes for item_54", "cats": {"INVESTIGATE": 1.0, "TRACK": 1.0, "MONITOR": 1.0, "ANALYZE": 1.0, "DETECT": 0.0, "VALIDATE": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Investigate threat indicators for case_70", "cats": {"INVESTIGATE": 1.0, "DETECT": 1.0, "ENRICH": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Investigate threat indicators for case_85", "cats": {"INVESTIGATE": 1.0, "DETECT": 1.0, "ENRICH": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Verify threat indicators records for case_48", "cats": {"INVESTIGATE": 1.0, "VALIDATE": 1.0, "DETECT": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 1.0}}
+{"text": "Find threat campaigns information for entity_87", "cats": {"INVESTIGATE": 1.0, "DETECT": 1.0, "ENRICH": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Investigate threat indicators for case_75", "cats": {"INVESTIGATE": 1.0, "DETECT": 1.0, "ENRICH": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Find threat campaigns information for entity_52", "cats": {"INVESTIGATE": 1.0, "DETECT": 1.0, "ENRICH": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Track threat actors changes for item_34", "cats": {"INVESTIGATE": 1.0, "TRACK": 1.0, "MONITOR": 1.0, "ANALYZE": 1.0, "DETECT": 0.0, "VALIDATE": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Find threat campaigns information for entity_22", "cats": {"INVESTIGATE": 1.0, "DETECT": 1.0, "ENRICH": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Investigate threat indicators for case_65", "cats": {"INVESTIGATE": 1.0, "DETECT": 1.0, "ENRICH": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Investigate threat indicators for case_25", "cats": {"INVESTIGATE": 1.0, "DETECT": 1.0, "ENRICH": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Analyze threat actors data for record_86", "cats": {"INVESTIGATE": 1.0, "ANALYZE": 1.0, "DETECT": 0.0, "MONITOR": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Verify threat indicators records for case_63", "cats": {"INVESTIGATE": 1.0, "VALIDATE": 1.0, "DETECT": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 1.0}}
+{"text": "Investigate threat indicators for case_80", "cats": {"INVESTIGATE": 1.0, "DETECT": 1.0, "ENRICH": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Find threat campaigns information for entity_2", "cats": {"INVESTIGATE": 1.0, "DETECT": 1.0, "ENRICH": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Find threat campaigns information for entity_62", "cats": {"INVESTIGATE": 1.0, "DETECT": 1.0, "ENRICH": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Find threat campaigns information for entity_42", "cats": {"INVESTIGATE": 1.0, "DETECT": 1.0, "ENRICH": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Find threat campaigns information for entity_42", "cats": {"INVESTIGATE": 1.0, "DETECT": 1.0, "ENRICH": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Track threat actors changes for item_9", "cats": {"INVESTIGATE": 1.0, "TRACK": 1.0, "MONITOR": 1.0, "ANALYZE": 1.0, "DETECT": 0.0, "VALIDATE": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Track threat actors changes for item_89", "cats": {"INVESTIGATE": 1.0, "TRACK": 1.0, "MONITOR": 1.0, "ANALYZE": 1.0, "DETECT": 0.0, "VALIDATE": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Investigate threat indicators for case_90", "cats": {"INVESTIGATE": 1.0, "DETECT": 1.0, "ENRICH": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Analyze threat actors data for record_16", "cats": {"INVESTIGATE": 1.0, "ANALYZE": 1.0, "DETECT": 0.0, "MONITOR": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Verify threat indicators records for case_68", "cats": {"INVESTIGATE": 1.0, "VALIDATE": 1.0, "DETECT": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 1.0}}
+{"text": "Verify threat indicators records for case_3", "cats": {"INVESTIGATE": 1.0, "VALIDATE": 1.0, "DETECT": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 1.0}}
+{"text": "Investigate threat indicators for case_20", "cats": {"INVESTIGATE": 1.0, "DETECT": 1.0, "ENRICH": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Verify threat indicators records for case_28", "cats": {"INVESTIGATE": 1.0, "VALIDATE": 1.0, "DETECT": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 1.0}}
+{"text": "Verify threat indicators records for case_68", "cats": {"INVESTIGATE": 1.0, "VALIDATE": 1.0, "DETECT": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 1.0}}
+{"text": "Track threat actors changes for item_54", "cats": {"INVESTIGATE": 1.0, "TRACK": 1.0, "MONITOR": 1.0, "ANALYZE": 1.0, "DETECT": 0.0, "VALIDATE": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Monitor threat actors changes over time", "cats": {"INVESTIGATE": 1.0, "MONITOR": 1.0, "TRACK": 1.0, "ANALYZE": 1.0, "DETECT": 0.0, "VALIDATE": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Verify threat indicators records for case_33", "cats": {"INVESTIGATE": 1.0, "VALIDATE": 1.0, "DETECT": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 1.0}}
+{"text": "Track threat actors changes for item_9", "cats": {"INVESTIGATE": 1.0, "TRACK": 1.0, "MONITOR": 1.0, "ANALYZE": 1.0, "DETECT": 0.0, "VALIDATE": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Track threat actors changes for item_69", "cats": {"INVESTIGATE": 1.0, "TRACK": 1.0, "MONITOR": 1.0, "ANALYZE": 1.0, "DETECT": 0.0, "VALIDATE": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Analyze threat actors data for record_91", "cats": {"INVESTIGATE": 1.0, "ANALYZE": 1.0, "DETECT": 0.0, "MONITOR": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Investigate threat indicators for case_60", "cats": {"INVESTIGATE": 1.0, "DETECT": 1.0, "ENRICH": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Verify threat indicators records for case_23", "cats": {"INVESTIGATE": 1.0, "VALIDATE": 1.0, "DETECT": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 1.0}}
+{"text": "Investigate threat indicators for case_0", "cats": {"INVESTIGATE": 1.0, "DETECT": 1.0, "ENRICH": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Track threat actors changes for item_14", "cats": {"INVESTIGATE": 1.0, "TRACK": 1.0, "MONITOR": 1.0, "ANALYZE": 1.0, "DETECT": 0.0, "VALIDATE": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Verify threat indicators records for case_58", "cats": {"INVESTIGATE": 1.0, "VALIDATE": 1.0, "DETECT": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 1.0}}
+{"text": "Verify threat indicators records for case_28", "cats": {"INVESTIGATE": 1.0, "VALIDATE": 1.0, "DETECT": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 1.0}}
+{"text": "Find threat campaigns information for entity_47", "cats": {"INVESTIGATE": 1.0, "DETECT": 1.0, "ENRICH": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Find threat campaigns information for entity_72", "cats": {"INVESTIGATE": 1.0, "DETECT": 1.0, "ENRICH": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Verify threat indicators records for case_23", "cats": {"INVESTIGATE": 1.0, "VALIDATE": 1.0, "DETECT": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 1.0}}
+{"text": "Track threat actors changes for item_39", "cats": {"INVESTIGATE": 1.0, "TRACK": 1.0, "MONITOR": 1.0, "ANALYZE": 1.0, "DETECT": 0.0, "VALIDATE": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Find threat campaigns information for entity_12", "cats": {"INVESTIGATE": 1.0, "DETECT": 1.0, "ENRICH": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Verify threat indicators records for case_23", "cats": {"INVESTIGATE": 1.0, "VALIDATE": 1.0, "DETECT": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 1.0}}
+{"text": "Find threat campaigns information for entity_47", "cats": {"INVESTIGATE": 1.0, "DETECT": 1.0, "ENRICH": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Track threat actors changes for item_79", "cats": {"INVESTIGATE": 1.0, "TRACK": 1.0, "MONITOR": 1.0, "ANALYZE": 1.0, "DETECT": 0.0, "VALIDATE": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Analyze threat actors for this case", "cats": {"INVESTIGATE": 1.0, "ANALYZE": 1.0, "DETECT": 0.0, "MONITOR": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Investigate threat indicators for case_85", "cats": {"INVESTIGATE": 1.0, "DETECT": 1.0, "ENRICH": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Investigate threat indicators for case_60", "cats": {"INVESTIGATE": 1.0, "DETECT": 1.0, "ENRICH": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Investigate threat indicators for case_55", "cats": {"INVESTIGATE": 1.0, "DETECT": 1.0, "ENRICH": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Verify threat indicators records for case_18", "cats": {"INVESTIGATE": 1.0, "VALIDATE": 1.0, "DETECT": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 1.0}}
+{"text": "Investigate threat indicators for case_10", "cats": {"INVESTIGATE": 1.0, "DETECT": 1.0, "ENRICH": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Track threat actors changes for item_14", "cats": {"INVESTIGATE": 1.0, "TRACK": 1.0, "MONITOR": 1.0, "ANALYZE": 1.0, "DETECT": 0.0, "VALIDATE": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Investigate threat indicators for case_50", "cats": {"INVESTIGATE": 1.0, "DETECT": 1.0, "ENRICH": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Investigate threat indicators for case_80", "cats": {"INVESTIGATE": 1.0, "DETECT": 1.0, "ENRICH": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Find threat campaigns information for entity_27", "cats": {"INVESTIGATE": 1.0, "DETECT": 1.0, "ENRICH": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Analyze threat actors data for record_11", "cats": {"INVESTIGATE": 1.0, "ANALYZE": 1.0, "DETECT": 0.0, "MONITOR": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Verify threat indicators records for case_28", "cats": {"INVESTIGATE": 1.0, "VALIDATE": 1.0, "DETECT": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 1.0}}
+{"text": "Verify threat indicators records for case_58", "cats": {"INVESTIGATE": 1.0, "VALIDATE": 1.0, "DETECT": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 1.0}}
+{"text": "Analyze threat actors data for record_41", "cats": {"INVESTIGATE": 1.0, "ANALYZE": 1.0, "DETECT": 0.0, "MONITOR": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Track threat actors changes for item_69", "cats": {"INVESTIGATE": 1.0, "TRACK": 1.0, "MONITOR": 1.0, "ANALYZE": 1.0, "DETECT": 0.0, "VALIDATE": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Track threat actors changes for item_39", "cats": {"INVESTIGATE": 1.0, "TRACK": 1.0, "MONITOR": 1.0, "ANALYZE": 1.0, "DETECT": 0.0, "VALIDATE": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Find threat campaigns information for entity_37", "cats": {"INVESTIGATE": 1.0, "DETECT": 1.0, "ENRICH": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Analyze threat actors data for record_81", "cats": {"INVESTIGATE": 1.0, "ANALYZE": 1.0, "DETECT": 0.0, "MONITOR": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Analyze threat actors data for record_56", "cats": {"INVESTIGATE": 1.0, "ANALYZE": 1.0, "DETECT": 0.0, "MONITOR": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Verify threat indicators records for case_78", "cats": {"INVESTIGATE": 1.0, "VALIDATE": 1.0, "DETECT": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 1.0}}
+{"text": "Track threat actors changes for item_49", "cats": {"INVESTIGATE": 1.0, "TRACK": 1.0, "MONITOR": 1.0, "ANALYZE": 1.0, "DETECT": 0.0, "VALIDATE": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Analyze threat actors data for record_66", "cats": {"INVESTIGATE": 1.0, "ANALYZE": 1.0, "DETECT": 0.0, "MONITOR": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Verify threat indicators records for case_78", "cats": {"INVESTIGATE": 1.0, "VALIDATE": 1.0, "DETECT": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 1.0}}
+{"text": "Track threat actors changes for item_9", "cats": {"INVESTIGATE": 1.0, "TRACK": 1.0, "MONITOR": 1.0, "ANALYZE": 1.0, "DETECT": 0.0, "VALIDATE": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Find threat campaigns information for entity_27", "cats": {"INVESTIGATE": 1.0, "DETECT": 1.0, "ENRICH": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Investigate threat indicators for case_45", "cats": {"INVESTIGATE": 1.0, "DETECT": 1.0, "ENRICH": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Investigate threat indicators for case_80", "cats": {"INVESTIGATE": 1.0, "DETECT": 1.0, "ENRICH": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Find threat campaigns information for entity_82", "cats": {"INVESTIGATE": 1.0, "DETECT": 1.0, "ENRICH": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Verify threat indicators records for case_83", "cats": {"INVESTIGATE": 1.0, "VALIDATE": 1.0, "DETECT": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 1.0}}
+{"text": "Investigate threat indicators for case_25", "cats": {"INVESTIGATE": 1.0, "DETECT": 1.0, "ENRICH": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Verify threat indicators records for case_88", "cats": {"INVESTIGATE": 1.0, "VALIDATE": 1.0, "DETECT": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 1.0}}
+{"text": "Investigate threat indicators for case_30", "cats": {"INVESTIGATE": 1.0, "DETECT": 1.0, "ENRICH": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Verify threat indicators records for case_53", "cats": {"INVESTIGATE": 1.0, "VALIDATE": 1.0, "DETECT": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 1.0}}
+{"text": "Analyze threat actors data for record_6", "cats": {"INVESTIGATE": 1.0, "ANALYZE": 1.0, "DETECT": 0.0, "MONITOR": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Verify threat indicators records for case_53", "cats": {"INVESTIGATE": 1.0, "VALIDATE": 1.0, "DETECT": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 1.0}}
+{"text": "Review a repo code for potential threats", "intents": {"ANALYZE_GITHUB_REPO": 1.0}}
+{"text": "Scan a github repo for vulnerabilities", "intents": {"ANALYZE_GITHUB_REPO": 1.0}}
+{"text": "Scan the GitHub repository for vulnerabilities", "intents": {"ANALYZE_GITHUB_REPO": 1.0}}
+{"text": "Investigate the repository for security issues", "intents": {"ANALYZE_GITHUB_REPO": 1.0}}
+{"text": "Scan the GitHub repository for vulnerabilities", "intents": {"ANALYZE_GITHUB_REPO": 1.0}}
+{"text": "Analyze the github repository for security vulnerabilities", "intents": {"ANALYZE_GITHUB_REPO": 1.0}}
+{"text": "Examine the GitHub repo for malicious code", "intents": {"ANALYZE_GITHUB_REPO": 1.0}}
+{"text": "Review the repository code for potential threats", "intents": {"ANALYZE_GITHUB_REPO": 1.0}}
+{"text": "Scan the GitHub repository for vulnerabilities", "intents": {"ANALYZE_GITHUB_REPO": 1.0}}
+{"text": "Investigate the repository for security issues", "intents": {"ANALYZE_GITHUB_REPO": 1.0}}
+{"text": "Examine the GitHub repo for malicious code", "intents": {"ANALYZE_GITHUB_REPO": 1.0}}
+{"text": "Examine the GitHub repo for malicious code", "intents": {"ANALYZE_GITHUB_REPO": 1.0}}
+{"text": "Investigate the repository for security issues", "intents": {"ANALYZE_GITHUB_REPO": 1.0}}
+{"text": "Review the repository code for potential threats", "intents": {"ANALYZE_GITHUB_REPO": 1.0}}
+{"text": "Examine the GitHub repo for malicious code", "intents": {"ANALYZE_GITHUB_REPO": 1.0}}
+{"text": "Analyze the github repository for security vulnerabilities", "intents": {"ANALYZE_GITHUB_REPO": 1.0}}
+{"text": "Analyze the github repository for security vulnerabilities", "intents": {"ANALYZE_GITHUB_REPO": 1.0}}
+{"text": "Examine a GitHub repo for malicious code", "intents": {"ANALYZE_GITHUB_REPO": 1.0}}
+{"text": "Scan the github repository for vulnerabilities", "intents": {"ANALYZE_GITHUB_REPO": 1.0}}
+{"text": "Investigate the repository for security issues", "intents": {"ANALYZE_GITHUB_REPO": 1.0}}
+{"text": "Monitor the GitHub repository for changes", "intents": {"MONITOR_GITHUB_REPO": 1.0}}
+{"text": "Track repository activity and updates", "intents": {"MONITOR_GITHUB_REPO": 1.0}}
+{"text": "Keep track of repository changes", "intents": {"MONITOR_GITHUB_REPO": 1.0}}
+{"text": "Monitor a GitHub repo for changes", "intents": {"MONITOR_GITHUB_REPO": 1.0}}
+{"text": "Monitor the GitHub repository for changes", "intents": {"MONITOR_GITHUB_REPO": 1.0}}
+{"text": "Track repository activity and updates", "intents": {"MONITOR_GITHUB_REPO": 1.0}}
+{"text": "Watch for new commits in the repository", "intents": {"MONITOR_GITHUB_REPO": 1.0}}
+{"text": "Monitor repo for suspicious activity", "intents": {"MONITOR_GITHUB_REPO": 1.0}}
+{"text": "Monitor a GitHub repo for changes", "intents": {"MONITOR_GITHUB_REPO": 1.0}}
+{"text": "Monitor the GitHub repository for changes", "intents": {"MONITOR_GITHUB_REPO": 1.0}}
+{"text": "Keep track of repository changes", "intents": {"MONITOR_GITHUB_REPO": 1.0}}
+{"text": "Watch for new commits in the repository", "intents": {"MONITOR_GITHUB_REPO": 1.0}}
+{"text": "Monitor the GitHub repository for changes", "intents": {"MONITOR_GITHUB_REPO": 1.0}}
+{"text": "Monitor the GitHub repository for changes", "intents": {"MONITOR_GITHUB_REPO": 1.0}}
+{"text": "Monitor repo for suspicious activity", "intents": {"MONITOR_GITHUB_REPO": 1.0}}
+{"text": "Watch for new commits in the repository", "intents": {"MONITOR_GITHUB_REPO": 1.0}}
+{"text": "Keep track of repository changes", "intents": {"MONITOR_GITHUB_REPO": 1.0}}
+{"text": "Track repository activity and updates", "intents": {"MONITOR_GITHUB_REPO": 1.0}}
+{"text": "Monitor repo for suspicious activity", "intents": {"MONITOR_GITHUB_REPO": 1.0}}
+{"text": "Track repo activity and updates", "intents": {"MONITOR_GITHUB_REPO": 1.0}}
+{"text": "Review user's github profile", "intents": {"INVESTIGATE_GITHUB_USER": 1.0}}
+{"text": "Analyze user's GitHub activity", "intents": {"INVESTIGATE_GITHUB_USER": 1.0}}
+{"text": "Review user's github profile", "intents": {"INVESTIGATE_GITHUB_USER": 1.0}}
+{"text": "Investigate a GitHub user's repositories", "intents": {"INVESTIGATE_GITHUB_USER": 1.0}}
+{"text": "Investigate a github user's repositories", "intents": {"INVESTIGATE_GITHUB_USER": 1.0}}
+{"text": "Check user's GitHub account", "intents": {"INVESTIGATE_GITHUB_USER": 1.0}}
+{"text": "Review user's GitHub profile", "intents": {"INVESTIGATE_GITHUB_USER": 1.0}}
+{"text": "Review user's GitHub profile", "intents": {"INVESTIGATE_GITHUB_USER": 1.0}}
+{"text": "Examine user's repository contributions", "intents": {"INVESTIGATE_GITHUB_USER": 1.0}}
+{"text": "Analyze user's GitHub activity", "intents": {"INVESTIGATE_GITHUB_USER": 1.0}}
+{"text": "Review user's GitHub profile", "intents": {"INVESTIGATE_GITHUB_USER": 1.0}}
+{"text": "Check user's github account", "intents": {"INVESTIGATE_GITHUB_USER": 1.0}}
+{"text": "Review user's github profile", "intents": {"INVESTIGATE_GITHUB_USER": 1.0}}
+{"text": "Examine user's repository contributions", "intents": {"INVESTIGATE_GITHUB_USER": 1.0}}
+{"text": "Review user's github profile", "intents": {"INVESTIGATE_GITHUB_USER": 1.0}}
+{"text": "Check user's github account", "intents": {"INVESTIGATE_GITHUB_USER": 1.0}}
+{"text": "Examine user's repository contributions", "intents": {"INVESTIGATE_GITHUB_USER": 1.0}}
+{"text": "Analyze user's GitHub activity", "intents": {"INVESTIGATE_GITHUB_USER": 1.0}}
+{"text": "Check user's github account", "intents": {"INVESTIGATE_GITHUB_USER": 1.0}}
+{"text": "Examine user's repo contributions", "intents": {"INVESTIGATE_GITHUB_USER": 1.0}}
+{"text": "Track repository activity patterns", "intents": {"MONITOR_GITHUB_ACTIVITY": 1.0}}
+{"text": "Watch for suspicious GitHub activity", "intents": {"MONITOR_GITHUB_ACTIVITY": 1.0}}
+{"text": "Monitor user activity on GitHub", "intents": {"MONITOR_GITHUB_ACTIVITY": 1.0}}
+{"text": "Monitor GitHub activity for threats", "intents": {"MONITOR_GITHUB_ACTIVITY": 1.0}}
+{"text": "Monitor user activity on GitHub", "intents": {"MONITOR_GITHUB_ACTIVITY": 1.0}}
+{"text": "Monitor user activity on github", "intents": {"MONITOR_GITHUB_ACTIVITY": 1.0}}
+{"text": "Track GitHub organization activity", "intents": {"MONITOR_GITHUB_ACTIVITY": 1.0}}
+{"text": "Monitor user activity on github", "intents": {"MONITOR_GITHUB_ACTIVITY": 1.0}}
+{"text": "Monitor user activity on GitHub", "intents": {"MONITOR_GITHUB_ACTIVITY": 1.0}}
+{"text": "Track GitHub organization activity", "intents": {"MONITOR_GITHUB_ACTIVITY": 1.0}}
+{"text": "Monitor GitHub activity for threats", "intents": {"MONITOR_GITHUB_ACTIVITY": 1.0}}
+{"text": "Watch for suspicious github activity", "intents": {"MONITOR_GITHUB_ACTIVITY": 1.0}}
+{"text": "Monitor GitHub activity for threats", "intents": {"MONITOR_GITHUB_ACTIVITY": 1.0}}
+{"text": "Track github organization activity", "intents": {"MONITOR_GITHUB_ACTIVITY": 1.0}}
+{"text": "Track GitHub organization activity", "intents": {"MONITOR_GITHUB_ACTIVITY": 1.0}}
+{"text": "Watch for suspicious GitHub activity", "intents": {"MONITOR_GITHUB_ACTIVITY": 1.0}}
+{"text": "Monitor GitHub activity for threats", "intents": {"MONITOR_GITHUB_ACTIVITY": 1.0}}
+{"text": "Monitor GitHub activity for threats", "intents": {"MONITOR_GITHUB_ACTIVITY": 1.0}}
+{"text": "Monitor GitHub activity for threats", "intents": {"MONITOR_GITHUB_ACTIVITY": 1.0}}
+{"text": "Track repository activity patterns", "intents": {"MONITOR_GITHUB_ACTIVITY": 1.0}}
+{"text": "Collect intelligence from github", "intents": {"EXTRACT_GITHUB_INTELLIGENCE": 1.0}}
+{"text": "Gather OSINT from GitHub repositories", "intents": {"EXTRACT_GITHUB_INTELLIGENCE": 1.0}}
+{"text": "Gather OSINT from GitHub repositories", "intents": {"EXTRACT_GITHUB_INTELLIGENCE": 1.0}}
+{"text": "Gather OSINT from github repositories", "intents": {"EXTRACT_GITHUB_INTELLIGENCE": 1.0}}
+{"text": "Extract threat intelligence from github", "intents": {"EXTRACT_GITHUB_INTELLIGENCE": 1.0}}
+{"text": "Gather OSINT from GitHub repositories", "intents": {"EXTRACT_GITHUB_INTELLIGENCE": 1.0}}
+{"text": "Gather threat data from github", "intents": {"EXTRACT_GITHUB_INTELLIGENCE": 1.0}}
+{"text": "Gaar threat data from github", "intents": {"EXTRACT_GITHUB_INTELLIGENCE": 1.0}}
+{"text": "Gather OSINT from GitHub repositories", "intents": {"EXTRACT_GITHUB_INTELLIGENCE": 1.0}}
+{"text": "Extract threat intelligence from github", "intents": {"EXTRACT_GITHUB_INTELLIGENCE": 1.0}}
+{"text": "Extract security information from repo", "intents": {"EXTRACT_GITHUB_INTELLIGENCE": 1.0}}
+{"text": "Extract security information from repo", "intents": {"EXTRACT_GITHUB_INTELLIGENCE": 1.0}}
+{"text": "Collect intelligence from GitHub", "intents": {"EXTRACT_GITHUB_INTELLIGENCE": 1.0}}
+{"text": "Extract threat intelligence from GitHub", "intents": {"EXTRACT_GITHUB_INTELLIGENCE": 1.0}}
+{"text": "Collect intelligence from GitHub", "intents": {"EXTRACT_GITHUB_INTELLIGENCE": 1.0}}
+{"text": "Gather threat data from GitHub", "intents": {"EXTRACT_GITHUB_INTELLIGENCE": 1.0}}
+{"text": "Collect intelligence from GitHub", "intents": {"EXTRACT_GITHUB_INTELLIGENCE": 1.0}}
+{"text": "Collect intelligence from GitHub", "intents": {"EXTRACT_GITHUB_INTELLIGENCE": 1.0}}
+{"text": "Collect intelligence from github", "intents": {"EXTRACT_GITHUB_INTELLIGENCE": 1.0}}
+{"text": "Gather OSINT from GitHub repositories", "intents": {"EXTRACT_GITHUB_INTELLIGENCE": 1.0}}
+{"text": "Search for specific code patterns", "intents": {"SEARCH_GITHUB_REPOS": 1.0}}
+{"text": "Find repositories related to threat", "intents": {"SEARCH_GITHUB_REPOS": 1.0}}
+{"text": "Find repositories related to threat", "intents": {"SEARCH_GITHUB_REPOS": 1.0}}
+{"text": "Find repositories related to threat", "intents": {"SEARCH_GITHUB_REPOS": 1.0}}
+{"text": "Look for repositories with vulnerabilities", "intents": {"SEARCH_GITHUB_REPOS": 1.0}}
+{"text": "Search GitHub for security tools", "intents": {"SEARCH_GITHUB_REPOS": 1.0}}
+{"text": "Search GitHub repositories for keywords", "intents": {"SEARCH_GITHUB_REPOS": 1.0}}
+{"text": "Search GitHub for security tools", "intents": {"SEARCH_GITHUB_REPOS": 1.0}}
+{"text": "Look for repositories with vulnerabilities", "intents": {"SEARCH_GITHUB_REPOS": 1.0}}
+{"text": "Look for repositories with vulnerabilities", "intents": {"SEARCH_GITHUB_REPOS": 1.0}}
+{"text": "Look for repositories with vulnerabilities", "intents": {"SEARCH_GITHUB_REPOS": 1.0}}
+{"text": "Find repositories related to threat", "intents": {"SEARCH_GITHUB_REPOS": 1.0}}
+{"text": "Search for specific code patterns", "intents": {"SEARCH_GITHUB_REPOS": 1.0}}
+{"text": "Search GitHub for security tools", "intents": {"SEARCH_GITHUB_REPOS": 1.0}}
+{"text": "Search GitHub repositories for keywords", "intents": {"SEARCH_GITHUB_REPOS": 1.0}}
+{"text": "Search GitHub repositories for keywords", "intents": {"SEARCH_GITHUB_REPOS": 1.0}}
+{"text": "Search GitHub for security tools", "intents": {"SEARCH_GITHUB_REPOS": 1.0}}
+{"text": "Look for repositories with vulnerabilities", "intents": {"SEARCH_GITHUB_REPOS": 1.0}}
+{"text": "Find repositories related to threat", "intents": {"SEARCH_GITHUB_REPOS": 1.0}}
+{"text": "Look for repositories with vulnerabilities", "intents": {"SEARCH_GITHUB_REPOS": 1.0}}
+{"text": "Analyze org's repo security", "intents": {"ANALYZE_GITHUB_ORGANIZATION": 1.0}}
+{"text": "Analyze GitHub organization repositories", "intents": {"ANALYZE_GITHUB_ORGANIZATION": 1.0}}
+{"text": "Check organization for vulnerabilities", "intents": {"ANALYZE_GITHUB_ORGANIZATION": 1.0}}
+{"text": "Analyze GitHub organization repositories", "intents": {"ANALYZE_GITHUB_ORGANIZATION": 1.0}}
+{"text": "Examine organization's codebase", "intents": {"ANALYZE_GITHUB_ORGANIZATION": 1.0}}
+{"text": "Analyze github organization repositories", "intents": {"ANALYZE_GITHUB_ORGANIZATION": 1.0}}
+{"text": "Check organization for vulnerabilities", "intents": {"ANALYZE_GITHUB_ORGANIZATION": 1.0}}
+{"text": "Check organization for vulnerabilities", "intents": {"ANALYZE_GITHUB_ORGANIZATION": 1.0}}
+{"text": "Analyze org's repo security", "intents": {"ANALYZE_GITHUB_ORGANIZATION": 1.0}}
+{"text": "Analyze GitHub organization repositories", "intents": {"ANALYZE_GITHUB_ORGANIZATION": 1.0}}
+{"text": "Check organization for vulnerabilities", "intents": {"ANALYZE_GITHUB_ORGANIZATION": 1.0}}
+{"text": "Examine organization's codebase", "intents": {"ANALYZE_GITHUB_ORGANIZATION": 1.0}}
+{"text": "Review organization's security practices", "intents": {"ANALYZE_GITHUB_ORGANIZATION": 1.0}}
+{"text": "Analyze GitHub organization repositories", "intents": {"ANALYZE_GITHUB_ORGANIZATION": 1.0}}
+{"text": "Analyze github organization repositories", "intents": {"ANALYZE_GITHUB_ORGANIZATION": 1.0}}
+{"text": "Check organization for vulnerabilities", "intents": {"ANALYZE_GITHUB_ORGANIZATION": 1.0}}
+{"text": "Examine organization's codebase", "intents": {"ANALYZE_GITHUB_ORGANIZATION": 1.0}}
+{"text": "Examine organization's codebase", "intents": {"ANALYZE_GITHUB_ORGANIZATION": 1.0}}
+{"text": "Analyze org's repository security", "intents": {"ANALYZE_GITHUB_ORGANIZATION": 1.0}}
+{"text": "Analyze org's repository security", "intents": {"ANALYZE_GITHUB_ORGANIZATION": 1.0}}
+{"text": "Analyze GitHub gists for threats", "intents": {"ANALYZE_GITHUB_GISTS": 1.0}}
+{"text": "Check gists for sensitive data", "intents": {"ANALYZE_GITHUB_GISTS": 1.0}}
+{"text": "Check gists for sensitive data", "intents": {"ANALYZE_GITHUB_GISTS": 1.0}}
+{"text": "Examine gist content", "intents": {"ANALYZE_GITHUB_GISTS": 1.0}}
+{"text": "Examine gist content", "intents": {"ANALYZE_GITHUB_GISTS": 1.0}}
+{"text": "Analyze github gists for threats", "intents": {"ANALYZE_GITHUB_GISTS": 1.0}}
+{"text": "Examine gist content", "intents": {"ANALYZE_GITHUB_GISTS": 1.0}}
+{"text": "Analyze GitHub gists for threats", "intents": {"ANALYZE_GITHUB_GISTS": 1.0}}
+{"text": "Check gists for sensitive data", "intents": {"ANALYZE_GITHUB_GISTS": 1.0}}
+{"text": "Review gist code for vulnerabilities", "intents": {"ANALYZE_GITHUB_GISTS": 1.0}}
+{"text": "Examine gist content", "intents": {"ANALYZE_GITHUB_GISTS": 1.0}}
+{"text": "Analyze GitHub gists for threats", "intents": {"ANALYZE_GITHUB_GISTS": 1.0}}
+{"text": "Analyze GitHub gists for threats", "intents": {"ANALYZE_GITHUB_GISTS": 1.0}}
+{"text": "Review gist code for vulnerabilities", "intents": {"ANALYZE_GITHUB_GISTS": 1.0}}
+{"text": "Analyze GitHub gists for threats", "intents": {"ANALYZE_GITHUB_GISTS": 1.0}}
+{"text": "Analyze github gists for threats", "intents": {"ANALYZE_GITHUB_GISTS": 1.0}}
+{"text": "Review gist code for vulnerabilities", "intents": {"ANALYZE_GITHUB_GISTS": 1.0}}
+{"text": "Analyze gist for security issues", "intents": {"ANALYZE_GITHUB_GISTS": 1.0}}
+{"text": "Check gists for sensitive data", "intents": {"ANALYZE_GITHUB_GISTS": 1.0}}
+{"text": "Analyze GitHub gists for threats", "intents": {"ANALYZE_GITHUB_GISTS": 1.0}}
+{"text": "Find exploit development code", "intents": {"DETECT_GITHUB_EXPLOITS": 1.0}}
+{"text": "Detect malicious exploits in repo", "intents": {"DETECT_GITHUB_EXPLOITS": 1.0}}
+{"text": "Find exploit development code", "intents": {"DETECT_GITHUB_EXPLOITS": 1.0}}
+{"text": "Detect exploit code in GitHub", "intents": {"DETECT_GITHUB_EXPLOITS": 1.0}}
+{"text": "Find exploit repositories", "intents": {"DETECT_GITHUB_EXPLOITS": 1.0}}
+{"text": "Detect malicious exploits in repo", "intents": {"DETECT_GITHUB_EXPLOITS": 1.0}}
+{"text": "Identify exploit code patterns", "intents": {"DETECT_GITHUB_EXPLOITS": 1.0}}
+{"text": "Find exploit development code", "intents": {"DETECT_GITHUB_EXPLOITS": 1.0}}
+{"text": "Identify exploit code patterns", "intents": {"DETECT_GITHUB_EXPLOITS": 1.0}}
+{"text": "Find exploit development code", "intents": {"DETECT_GITHUB_EXPLOITS": 1.0}}
+{"text": "Identify exploit code patterns", "intents": {"DETECT_GITHUB_EXPLOITS": 1.0}}
+{"text": "Find exploit repositories", "intents": {"DETECT_GITHUB_EXPLOITS": 1.0}}
+{"text": "Detect malicious exploits in repo", "intents": {"DETECT_GITHUB_EXPLOITS": 1.0}}
+{"text": "Find exploit repositories", "intents": {"DETECT_GITHUB_EXPLOITS": 1.0}}
+{"text": "Detect malicious exploits in repo", "intents": {"DETECT_GITHUB_EXPLOITS": 1.0}}
+{"text": "Detect exploit code in GitHub", "intents": {"DETECT_GITHUB_EXPLOITS": 1.0}}
+{"text": "Identify exploit code patterns", "intents": {"DETECT_GITHUB_EXPLOITS": 1.0}}
+{"text": "Detect malicious exploits in repo", "intents": {"DETECT_GITHUB_EXPLOITS": 1.0}}
+{"text": "Find exploit development code", "intents": {"DETECT_GITHUB_EXPLOITS": 1.0}}
+{"text": "Find exploit development code", "intents": {"DETECT_GITHUB_EXPLOITS": 1.0}}

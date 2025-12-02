@@ -1,0 +1,1255 @@
+{"text": "SOC Analyst triaged 200 alerts identifying 12 potential incidents and 150 false positives", "entities": [[0, 11, "ROLE"], [12, 19, "ROLE"], [24, 42, "TRIAGE_TYPE"], [31, 55, "ALERT_TYPE"], [70, 79, "INCIDENT_TYPE"]]}
+{"text": "Chain-of-Custody Tracker logged evidence handling for disk.img with forensic_analyst1", "entities": [[0, 24, "TOOL"], [25, 49, "TRACKING_TYPE"]]}
+{"text": "MDR MSSP provider engaged sharing IOCs and executing joint containment", "entities": [[0, 3, "SERVICE_TYPE"], [4, 8, "SERVICE_TYPE"], [18, 33, "ENGAGEMENT_TYPE"], [34, 38, "IOC_TYPE"], [53, 70, "CONTAINMENT_TYPE"]]}
+{"text": "Incident Commander declared SEV-1 incident INC123 coordinating response across teams", "entities": [[19, 42, "INCIDENT_TYPE"], [50, 62, "SEVERITY_TYPE"]]}
+{"text": "EDR XDR Tool removed trojan.exe and cleaned persistence mechanisms", "entities": [[0, 3, "TOOL"], [4, 7, "TOOL"], [21, 27, "REMOVAL_TYPE"], [44, 55, "CLEANING_TYPE"], [44, 66, "PERSISTENCE_TYPE"]]}
+{"text": "Chain-of-Custody Tracker logged evidence handling for disk.img with forensic_analyst1", "entities": [[0, 24, "TOOL"], [25, 49, "TRACKING_TYPE"]]}
+{"text": "Splunk SIEM platform correlated 50000 events detecting 12 security incidents", "entities": [[0, 6, "TOOL"], [7, 11, "TOOL"], [38, 44, "COUNT"]]}
+{"text": "Legal Workflow Tool coordinated with counsel and insurance providers", "entities": [[37, 44, "TOOL"], [49, 68, "COORDINATION_TYPE"]]}
+{"text": "Insurance Notification Tool submitted claim for incident INC123", "entities": []}
+{"text": "Incident Commander declared SEV-1 incident INC123 coordinating response across teams", "entities": [[19, 42, "INCIDENT_TYPE"], [50, 62, "SEVERITY_TYPE"]]}
+{"text": "MTTD reduced to 5 minutes with improved SIEM correlation and threat intelligence", "entities": [[0, 4, "METRIC_TYPE"], [16, 25, "TIME_UNIT"], [40, 56, "CORRELATION_TYPE"]]}
+{"text": "Incident response resilience score improved to 88% with enhanced automation", "entities": [[18, 28, "RESPONSE_TYPE"], [29, 43, "RESILIENCE_TYPE"], [44, 49, "METRIC_TYPE"], [56, 64, "ENHANCEMENT_TYPE"]]}
+{"text": "EDR XDR Tool removed trojan.exe and cleaned persistence mechanisms", "entities": [[0, 3, "TOOL"], [4, 7, "TOOL"], [21, 27, "REMOVAL_TYPE"], [44, 55, "CLEANING_TYPE"], [44, 66, "PERSISTENCE_TYPE"]]}
+{"text": "Incident Commander declared SEV-1 incident INC123 coordinating response across teams", "entities": [[19, 42, "INCIDENT_TYPE"], [50, 62, "SEVERITY_TYPE"]]}
+{"text": "Crisis Communication Tool sent executive brief and regulator notification", "entities": [[31, 40, "CRISIS_TYPE"], [51, 60, "TOOL"]]}
+{"text": "SIEM Tool correlated events detecting SQL injection from IP 203.0.113.5", "entities": [[21, 37, "CORRELATION_TYPE"], [64, 69, "PROTOCOL_TYPE"], [60, 71, "IP_ADDRESS"]]}
+{"text": "Incident response training completion reached 94% for all IR engineers", "entities": [[38, 48, "COMPLETION_TYPE"]]}
+{"text": "Insurance Notification Tool submitted claim for incident INC123", "entities": []}
+{"text": "Legal Workflow Tool coordinated with counsel and insurance providers", "entities": [[37, 44, "TOOL"], [49, 68, "COORDINATION_TYPE"]]}
+{"text": "Post-incident review documented strengths gaps and improvements updating runbooks", "entities": [[21, 41, "REVIEW_TYPE"], [51, 63, "GAP_TYPE"]]}
+{"text": "IR performance metrics showed 5-minute MTTD and 2-hour MTTR with 45% automated", "entities": [[30, 38, "METRIC_TYPE"], [32, 43, "TIME_UNIT"], [50, 54, "COUNT"], [50, 59, "TIME_UNIT"], [65, 68, "METRIC_TYPE"]]}
+{"text": "SOC Analyst triaged 200 alerts identifying 12 potential incidents and 150 false positives", "entities": [[0, 11, "ROLE"], [12, 19, "ROLE"], [24, 42, "TRIAGE_TYPE"], [31, 55, "ALERT_TYPE"], [70, 79, "INCIDENT_TYPE"]]}
+{"text": "Containment Automation Tool isolated laptop42 and blocked IP 203.0.113.5", "entities": [[28, 45, "CONTAINMENT_TYPE"]]}
+{"text": "Legal Workflow Tool coordinated with counsel and insurance providers", "entities": [[37, 44, "TOOL"], [49, 68, "COORDINATION_TYPE"]]}
+{"text": "Ticketing System Tool coordinated response across SOC Legal and VendorX teams", "entities": []}
+{"text": "SOAR Platform Tool executed automated playbook blocking IPs and disabling accounts", "entities": [[19, 37, "PLATFORM_TYPE"], [38, 55, "AUTOMATION_TYPE"]]}
+{"text": "Chain-of-Custody Tracker logged evidence handling for disk.img with forensic_analyst1", "entities": [[0, 24, "TOOL"], [25, 49, "TRACKING_TYPE"]]}
+{"text": "IR performance metrics showed 5-minute MTTD and 2-hour MTTR with 45% automated", "entities": [[30, 38, "METRIC_TYPE"], [32, 43, "TIME_UNIT"], [50, 54, "COUNT"], [50, 59, "TIME_UNIT"], [65, 68, "METRIC_TYPE"]]}
+{"text": "Splunk SIEM platform correlated 50000 events detecting 12 security incidents", "entities": [[0, 6, "TOOL"], [7, 11, "TOOL"], [38, 44, "COUNT"]]}
+{"text": "Incident Runbook Tool classified severity and activated containment procedures", "entities": [[22, 41, "INCIDENT_TYPE"], [56, 67, "SEVERITY_TYPE"], [68, 78, "ACTIVATION_TYPE"]]}
+{"text": "File Integrity Tool validated recovery integrity confirming clean restore", "entities": [[20, 38, "FILE_TYPE"], [30, 48, "INTEGRITY_TYPE"], [39, 48, "TOOL"], [60, 73, "INTEGRITY_TYPE"]]}
+{"text": "MDR MSSP provider engaged sharing IOCs and executing joint containment", "entities": [[0, 3, "SERVICE_TYPE"], [4, 8, "SERVICE_TYPE"], [18, 33, "ENGAGEMENT_TYPE"], [34, 38, "IOC_TYPE"], [53, 70, "CONTAINMENT_TYPE"]]}
+{"text": "Forensic Acquisition Tool collected disk image and memory dump preserving evidence", "entities": [[51, 57, "TOOL"]]}
+{"text": "Elastic Security open source SIEM monitored 1000 endpoints with real-time alerting", "entities": [[0, 7, "TOOL"], [17, 21, "TOOL"], [44, 48, "COUNT"], [49, 58, "ENDPOINT_TYPE"], [64, 73, "ALERTING_TYPE"]]}
+{"text": "Incident response resilience score improved to 88% with enhanced automation", "entities": [[18, 28, "RESPONSE_TYPE"], [29, 43, "RESILIENCE_TYPE"], [44, 49, "METRIC_TYPE"], [56, 64, "ENHANCEMENT_TYPE"]]}
+{"text": "Forensic Acquisition Tool collected disk image and memory dump preserving evidence", "entities": [[51, 57, "TOOL"]]}
+{"text": "Post-incident review documented strengths gaps and improvements updating runbooks", "entities": [[21, 41, "REVIEW_TYPE"], [51, 63, "GAP_TYPE"]]}
+{"text": "Chain-of-Custody Tracker logged evidence handling for disk.img with forensic_analyst1", "entities": [[0, 24, "TOOL"], [25, 49, "TRACKING_TYPE"]]}
+{"text": "Incident response false positive rate reduced to 2.1% improving alert accuracy", "entities": [[18, 32, "RESPONSE_TYPE"], [49, 53, "METRIC_TYPE"], [54, 69, "ALERT_TYPE"], [64, 78, "METRIC_TYPE"]]}
+{"text": "SOAR Platform Tool executed automated playbook blocking IPs and disabling accounts", "entities": [[19, 37, "PLATFORM_TYPE"], [38, 55, "AUTOMATION_TYPE"]]}
+{"text": "STIX TAXII Feeds provided threat context linking hash123 and IP 203.0.113.5 to campaign", "entities": [[0, 4, "PROTOCOL_TYPE"], [5, 10, "PROTOCOL_TYPE"], [26, 40, "CONTEXT_TYPE"], [41, 56, "HASH_TYPE"], [64, 75, "IP_ADDRESS"], [64, 75, "CAMPAIGN_TYPE"]]}
+{"text": "SOC Analyst triaged 200 alerts identifying 12 potential incidents and 150 false positives", "entities": [[0, 11, "ROLE"], [12, 19, "ROLE"], [24, 42, "TRIAGE_TYPE"], [31, 55, "ALERT_TYPE"], [70, 79, "INCIDENT_TYPE"]]}
+{"text": "Ticketing System Tool coordinated response across SOC Legal and VendorX teams", "entities": []}
+{"text": "Splunk SIEM platform correlated 50000 events detecting 12 security incidents", "entities": [[0, 6, "TOOL"], [7, 11, "TOOL"], [38, 44, "COUNT"]]}
+{"text": "Threat Intelligence Tool enriched incident with TA505 phishing campaign and matched IOCs", "entities": [[25, 42, "THREAT_TYPE"], [48, 53, "TOOL"], [76, 83, "THREAT_ACTOR"]]}
+{"text": "File Integrity Tool validated recovery integrity confirming clean restore", "entities": [[20, 38, "FILE_TYPE"], [30, 48, "INTEGRITY_TYPE"], [39, 48, "TOOL"], [60, 73, "INTEGRITY_TYPE"]]}
+{"text": "Insurance Notification Tool submitted claim for incident INC123", "entities": []}
+{"text": "MTTD reduced to 5 minutes with improved SIEM correlation and threat intelligence", "entities": [[0, 4, "METRIC_TYPE"], [16, 25, "TIME_UNIT"], [40, 56, "CORRELATION_TYPE"]]}
+{"text": "Regulator Notification Tool sent breach notification to GDPR and HIPAA regulators", "entities": [[40, 55, "TOOL"], [65, 81, "NOTIFICATION_TYPE"]]}
+{"text": "Insurance Notification Tool submitted claim for incident INC123", "entities": []}
+{"text": "Incident response training completion reached 94% for all IR engineers", "entities": [[38, 48, "COMPLETION_TYPE"]]}
+{"text": "SOAR Platform Tool executed automated playbook blocking IPs and disabling accounts", "entities": [[19, 37, "PLATFORM_TYPE"], [38, 55, "AUTOMATION_TYPE"]]}
+{"text": "Ticketing System Tool coordinated response across SOC Legal and VendorX teams", "entities": []}
+{"text": "Memory Forensics Tool analyzed memory dump identifying Mimikatz execution", "entities": [[22, 37, "MEMORY_TYPE"], [38, 54, "FORENSIC_TYPE"], [55, 73, "MEMORY_TYPE"]]}
+{"text": "Elastic Security open source SIEM monitored 1000 endpoints with real-time alerting", "entities": [[0, 7, "TOOL"], [17, 21, "TOOL"], [44, 48, "COUNT"], [49, 58, "ENDPOINT_TYPE"], [64, 73, "ALERTING_TYPE"]]}
+{"text": "IBM QRadar SIEM detected advanced persistent threat with 98% detection accuracy", "entities": [[0, 3, "TOOL"], [4, 10, "TOOL"], [11, 15, "TOOL"], [25, 33, "DETECTION_TYPE"], [34, 44, "THREAT_TYPE"]]}
+{"text": "Incident response false positive rate reduced to 2.1% improving alert accuracy", "entities": [[18, 32, "RESPONSE_TYPE"], [49, 53, "METRIC_TYPE"], [54, 69, "ALERT_TYPE"], [64, 78, "METRIC_TYPE"]]}
+{"text": "Elastic Security open source SIEM monitored 1000 endpoints with real-time alerting", "entities": [[0, 7, "TOOL"], [17, 21, "TOOL"], [44, 48, "COUNT"], [49, 58, "ENDPOINT_TYPE"], [64, 73, "ALERTING_TYPE"]]}
+{"text": "Ticketing System Tool coordinated response across SOC Legal and VendorX teams", "entities": []}
+{"text": "Incident Runbook Tool classified severity and activated containment procedures", "entities": [[22, 41, "INCIDENT_TYPE"], [56, 67, "SEVERITY_TYPE"], [68, 78, "ACTIVATION_TYPE"]]}
+{"text": "Automated response rate increased to 45% reducing manual intervention", "entities": [[37, 40, "METRIC_TYPE"], [50, 56, "MANUAL_TYPE"]]}
+{"text": "Post-incident review documented strengths gaps and improvements updating runbooks", "entities": [[21, 41, "REVIEW_TYPE"], [51, 63, "GAP_TYPE"]]}
+{"text": "SIEM Tool correlated events detecting SQL injection from IP 203.0.113.5", "entities": [[21, 37, "CORRELATION_TYPE"], [64, 69, "PROTOCOL_TYPE"], [60, 71, "IP_ADDRESS"]]}
+{"text": "File Integrity Tool validated recovery integrity confirming clean restore", "entities": [[20, 38, "FILE_TYPE"], [30, 48, "INTEGRITY_TYPE"], [39, 48, "TOOL"], [60, 73, "INTEGRITY_TYPE"]]}
+{"text": "IR performance metrics showed 5-minute MTTD and 2-hour MTTR with 45% automated", "entities": [[30, 38, "METRIC_TYPE"], [32, 43, "TIME_UNIT"], [50, 54, "COUNT"], [50, 59, "TIME_UNIT"], [65, 68, "METRIC_TYPE"]]}
+{"text": "Elastic Security open source SIEM monitored 1000 endpoints with real-time alerting", "entities": [[0, 7, "TOOL"], [17, 21, "TOOL"], [44, 48, "COUNT"], [49, 58, "ENDPOINT_TYPE"], [64, 73, "ALERTING_TYPE"]]}
+{"text": "MTTR improved to 2 hours with automated containment and recovery procedures", "entities": [[0, 4, "METRIC_TYPE"], [17, 24, "TIME_UNIT"], [56, 75, "PROCEDURE_TYPE"]]}
+{"text": "Incident response false positive rate reduced to 2.1% improving alert accuracy", "entities": [[18, 32, "RESPONSE_TYPE"], [49, 53, "METRIC_TYPE"], [54, 69, "ALERT_TYPE"], [64, 78, "METRIC_TYPE"]]}
+{"text": "Regulator Notification Tool sent breach notification to GDPR and HIPAA regulators", "entities": [[40, 55, "TOOL"], [65, 81, "NOTIFICATION_TYPE"]]}
+{"text": "Memory Forensics Tool analyzed memory dump identifying Mimikatz execution", "entities": [[22, 37, "MEMORY_TYPE"], [38, 54, "FORENSIC_TYPE"], [55, 73, "MEMORY_TYPE"]]}
+{"text": "IBM QRadar SIEM detected advanced persistent threat with 98% detection accuracy", "entities": [[0, 3, "TOOL"], [4, 10, "TOOL"], [11, 15, "TOOL"], [25, 33, "DETECTION_TYPE"], [34, 44, "THREAT_TYPE"]]}
+{"text": "Insider Risk Playbook Tool guided response for employee123 privilege abuse and data exfil", "entities": [[59, 74, "EMPLOYEE_ID"]]}
+{"text": "MTTD reduced to 5 minutes with improved SIEM correlation and threat intelligence", "entities": [[0, 4, "METRIC_TYPE"], [16, 25, "TIME_UNIT"], [40, 56, "CORRELATION_TYPE"]]}
+{"text": "Insider Risk Playbook Tool guided response for employee123 privilege abuse and data exfil", "entities": [[59, 74, "EMPLOYEE_ID"]]}
+{"text": "Incident response false positive rate reduced to 2.1% improving alert accuracy", "entities": [[18, 32, "RESPONSE_TYPE"], [49, 53, "METRIC_TYPE"], [54, 69, "ALERT_TYPE"], [64, 78, "METRIC_TYPE"]]}
+{"text": "File Integrity Tool validated recovery integrity confirming clean restore", "entities": [[20, 38, "FILE_TYPE"], [30, 48, "INTEGRITY_TYPE"], [39, 48, "TOOL"], [60, 73, "INTEGRITY_TYPE"]]}
+{"text": "Threat Intelligence Tool enriched incident with TA505 phishing campaign and matched IOCs", "entities": [[25, 42, "THREAT_TYPE"], [48, 53, "TOOL"], [76, 83, "THREAT_ACTOR"]]}
+{"text": "MDR MSSP provider engaged sharing IOCs and executing joint containment", "entities": [[0, 3, "SERVICE_TYPE"], [4, 8, "SERVICE_TYPE"], [18, 33, "ENGAGEMENT_TYPE"], [34, 38, "IOC_TYPE"], [53, 70, "CONTAINMENT_TYPE"]]}
+{"text": "Regulator Notification Tool sent breach notification to GDPR and HIPAA regulators", "entities": [[40, 55, "TOOL"], [65, 81, "NOTIFICATION_TYPE"]]}
+{"text": "Forensic Acquisition Tool collected disk image and memory dump preserving evidence", "entities": [[51, 57, "TOOL"]]}
+{"text": "EDR XDR Tool removed trojan.exe and cleaned persistence mechanisms", "entities": [[0, 3, "TOOL"], [4, 7, "TOOL"], [21, 27, "REMOVAL_TYPE"], [44, 55, "CLEANING_TYPE"], [44, 66, "PERSISTENCE_TYPE"]]}
+{"text": "STIX TAXII Feeds provided threat context linking hash123 and IP 203.0.113.5 to campaign", "entities": [[0, 4, "PROTOCOL_TYPE"], [5, 10, "PROTOCOL_TYPE"], [26, 40, "CONTEXT_TYPE"], [41, 56, "HASH_TYPE"], [64, 75, "IP_ADDRESS"], [64, 75, "CAMPAIGN_TYPE"]]}
+{"text": "IR simulation exercise tested ransomware scenario achieving 85% readiness score", "entities": [[14, 22, "EXERCISE_TYPE"], [30, 49, "SCENARIO_TYPE"], [50, 62, "METRIC_TYPE"], [64, 79, "READINESS_TYPE"]]}
+{"text": "IR performance metrics showed 5-minute MTTD and 2-hour MTTR with 45% automated", "entities": [[30, 38, "METRIC_TYPE"], [32, 43, "TIME_UNIT"], [50, 54, "COUNT"], [50, 59, "TIME_UNIT"], [65, 68, "METRIC_TYPE"]]}
+{"text": "Insider Risk Playbook Tool guided response for employee123 privilege abuse and data exfil", "entities": [[59, 74, "EMPLOYEE_ID"]]}
+{"text": "Crisis Communication Tool sent executive brief and regulator notification", "entities": [[31, 40, "CRISIS_TYPE"], [51, 60, "TOOL"]]}
+{"text": "Incident Runbook Tool classified severity and activated containment procedures", "entities": [[22, 41, "INCIDENT_TYPE"], [56, 67, "SEVERITY_TYPE"], [68, 78, "ACTIVATION_TYPE"]]}
+{"text": "Splunk SIEM platform correlated 50000 events detecting 12 security incidents", "entities": [[0, 6, "TOOL"], [7, 11, "TOOL"], [38, 44, "COUNT"]]}
+{"text": "MDR MSSP provider engaged sharing IOCs and executing joint containment", "entities": [[0, 3, "SERVICE_TYPE"], [4, 8, "SERVICE_TYPE"], [18, 33, "ENGAGEMENT_TYPE"], [34, 38, "IOC_TYPE"], [53, 70, "CONTAINMENT_TYPE"]]}
+{"text": "Automated response rate increased to 45% reducing manual intervention", "entities": [[37, 40, "METRIC_TYPE"], [50, 56, "MANUAL_TYPE"]]}
+{"text": "Crisis Communication Tool sent executive brief and regulator notification", "entities": [[31, 40, "CRISIS_TYPE"], [51, 60, "TOOL"]]}
+{"text": "Regulator Notification Tool sent breach notification to GDPR and HIPAA regulators", "entities": [[40, 55, "TOOL"], [65, 81, "NOTIFICATION_TYPE"]]}
+{"text": "STIX TAXII Feeds provided threat context linking hash123 and IP 203.0.113.5 to campaign", "entities": [[0, 4, "PROTOCOL_TYPE"], [5, 10, "PROTOCOL_TYPE"], [26, 40, "CONTEXT_TYPE"], [41, 56, "HASH_TYPE"], [64, 75, "IP_ADDRESS"], [64, 75, "CAMPAIGN_TYPE"]]}
+{"text": "MTTR improved to 2 hours with automated containment and recovery procedures", "entities": [[0, 4, "METRIC_TYPE"], [17, 24, "TIME_UNIT"], [56, 75, "PROCEDURE_TYPE"]]}
+{"text": "Incident response training completion reached 94% for all IR engineers", "entities": [[38, 48, "COMPLETION_TYPE"]]}
+{"text": "Forensic Acquisition Tool collected disk image and memory dump preserving evidence", "entities": [[51, 57, "TOOL"]]}
+{"text": "Automated response rate increased to 45% reducing manual intervention", "entities": [[37, 40, "METRIC_TYPE"], [50, 56, "MANUAL_TYPE"]]}
+{"text": "Incident response training completion reached 94% for all IR engineers", "entities": [[38, 48, "COMPLETION_TYPE"]]}
+{"text": "MTTR improved to 2 hours with automated containment and recovery procedures", "entities": [[0, 4, "METRIC_TYPE"], [17, 24, "TIME_UNIT"], [56, 75, "PROCEDURE_TYPE"]]}
+{"text": "Automated response rate increased to 45% reducing manual intervention", "entities": [[37, 40, "METRIC_TYPE"], [50, 56, "MANUAL_TYPE"]]}
+{"text": "Incident Runbook Tool classified severity and activated containment procedures", "entities": [[22, 41, "INCIDENT_TYPE"], [56, 67, "SEVERITY_TYPE"], [68, 78, "ACTIVATION_TYPE"]]}
+{"text": "Containment Automation Tool isolated laptop42 and blocked IP 203.0.113.5", "entities": [[28, 45, "CONTAINMENT_TYPE"]]}
+{"text": "Crisis Communication Tool sent executive brief and regulator notification", "entities": [[31, 40, "CRISIS_TYPE"], [51, 60, "TOOL"]]}
+{"text": "Insider Risk Playbook Tool guided response for employee123 privilege abuse and data exfil", "entities": [[59, 74, "EMPLOYEE_ID"]]}
+{"text": "Threat Intelligence Tool enriched incident with TA505 phishing campaign and matched IOCs", "entities": [[25, 42, "THREAT_TYPE"], [48, 53, "TOOL"], [76, 83, "THREAT_ACTOR"]]}
+{"text": "MTTR improved to 2 hours with automated containment and recovery procedures", "entities": [[0, 4, "METRIC_TYPE"], [17, 24, "TIME_UNIT"], [56, 75, "PROCEDURE_TYPE"]]}
+{"text": "Threat Intelligence Tool enriched incident with TA505 phishing campaign and matched IOCs", "entities": [[25, 42, "THREAT_TYPE"], [48, 53, "TOOL"], [76, 83, "THREAT_ACTOR"]]}
+{"text": "MTTD reduced to 5 minutes with improved SIEM correlation and threat intelligence", "entities": [[0, 4, "METRIC_TYPE"], [16, 25, "TIME_UNIT"], [40, 56, "CORRELATION_TYPE"]]}
+{"text": "SIEM Tool correlated events detecting SQL injection from IP 203.0.113.5", "entities": [[21, 37, "CORRELATION_TYPE"], [64, 69, "PROTOCOL_TYPE"], [60, 71, "IP_ADDRESS"]]}
+{"text": "Incident response resilience score improved to 88% with enhanced automation", "entities": [[18, 28, "RESPONSE_TYPE"], [29, 43, "RESILIENCE_TYPE"], [44, 49, "METRIC_TYPE"], [56, 64, "ENHANCEMENT_TYPE"]]}
+{"text": "IR simulation exercise tested ransomware scenario achieving 85% readiness score", "entities": [[14, 22, "EXERCISE_TYPE"], [30, 49, "SCENARIO_TYPE"], [50, 62, "METRIC_TYPE"], [64, 79, "READINESS_TYPE"]]}
+{"text": "Containment Automation Tool isolated laptop42 and blocked IP 203.0.113.5", "entities": [[28, 45, "CONTAINMENT_TYPE"]]}
+{"text": "Memory Forensics Tool analyzed memory dump identifying Mimikatz execution", "entities": [[22, 37, "MEMORY_TYPE"], [38, 54, "FORENSIC_TYPE"], [55, 73, "MEMORY_TYPE"]]}
+{"text": "STIX TAXII Feeds provided threat context linking hash123 and IP 203.0.113.5 to campaign", "entities": [[0, 4, "PROTOCOL_TYPE"], [5, 10, "PROTOCOL_TYPE"], [26, 40, "CONTEXT_TYPE"], [41, 56, "HASH_TYPE"], [64, 75, "IP_ADDRESS"], [64, 75, "CAMPAIGN_TYPE"]]}
+{"text": "Post-incident review documented strengths gaps and improvements updating runbooks", "entities": [[21, 41, "REVIEW_TYPE"], [51, 63, "GAP_TYPE"]]}
+{"text": "EDR XDR Tool removed trojan.exe and cleaned persistence mechanisms", "entities": [[0, 3, "TOOL"], [4, 7, "TOOL"], [21, 27, "REMOVAL_TYPE"], [44, 55, "CLEANING_TYPE"], [44, 66, "PERSISTENCE_TYPE"]]}
+{"text": "Incident response resilience score improved to 88% with enhanced automation", "entities": [[18, 28, "RESPONSE_TYPE"], [29, 43, "RESILIENCE_TYPE"], [44, 49, "METRIC_TYPE"], [56, 64, "ENHANCEMENT_TYPE"]]}
+{"text": "IR simulation exercise tested ransomware scenario achieving 85% readiness score", "entities": [[14, 22, "EXERCISE_TYPE"], [30, 49, "SCENARIO_TYPE"], [50, 62, "METRIC_TYPE"], [64, 79, "READINESS_TYPE"]]}
+{"text": "IR simulation exercise tested ransomware scenario achieving 85% readiness score", "entities": [[14, 22, "EXERCISE_TYPE"], [30, 49, "SCENARIO_TYPE"], [50, 62, "METRIC_TYPE"], [64, 79, "READINESS_TYPE"]]}
+{"text": "Legal Workflow Tool coordinated with counsel and insurance providers", "entities": [[37, 44, "TOOL"], [49, 68, "COORDINATION_TYPE"]]}
+{"text": "IBM QRadar SIEM detected advanced persistent threat with 98% detection accuracy", "entities": [[0, 3, "TOOL"], [4, 10, "TOOL"], [11, 15, "TOOL"], [25, 33, "DETECTION_TYPE"], [34, 44, "THREAT_TYPE"]]}
+{"text": "Containment Automation Tool isolated laptop42 and blocked IP 203.0.113.5", "entities": [[28, 45, "CONTAINMENT_TYPE"]]}
+{"text": "IBM QRadar SIEM detected advanced persistent threat with 98% detection accuracy", "entities": [[0, 3, "TOOL"], [4, 10, "TOOL"], [11, 15, "TOOL"], [25, 33, "DETECTION_TYPE"], [34, 44, "THREAT_TYPE"]]}
+{"text": "Memory Forensics Tool analyzed memory dump identifying Mimikatz execution", "entities": [[22, 37, "MEMORY_TYPE"], [38, 54, "FORENSIC_TYPE"], [55, 73, "MEMORY_TYPE"]]}
+{"text": "SIEM Tool correlated events detecting SQL injection from IP 203.0.113.5", "entities": [[21, 37, "CORRELATION_TYPE"], [64, 69, "PROTOCOL_TYPE"], [60, 71, "IP_ADDRESS"]]}
+{"text": "SOAR Platform Tool executed automated playbook blocking IPs and disabling accounts", "entities": [[19, 37, "PLATFORM_TYPE"], [38, 55, "AUTOMATION_TYPE"]]}
+{"text": "Incident Commander declared SEV-1 incident INC123 coordinating response across teams", "entities": [[19, 42, "INCIDENT_TYPE"], [50, 62, "SEVERITY_TYPE"]]}
+{"text": "SOC Analyst triaged 200 alerts identifying 12 potential incidents and 150 false positives", "entities": [[0, 11, "ROLE"], [12, 19, "ROLE"], [24, 42, "TRIAGE_TYPE"], [31, 55, "ALERT_TYPE"], [70, 79, "INCIDENT_TYPE"]]}
+{"text": "Can you help me with this?", "entities": []}
+{"text": "I need to check something.", "entities": []}
+{"text": "What is the status?", "entities": []}
+{"text": "How do I do this?", "entities": []}
+{"text": "Tell me more about it.", "entities": []}
+{"text": "Is this safe to use?", "entities": []}
+{"text": "Let me know if you need anything.", "entities": []}
+{"text": "Thanks for your help.", "entities": []}
+{"text": "I will get back to you.", "entities": []}
+{"text": "Please review this document.", "entities": []}
+{"text": "What should I do next?", "entities": []}
+{"text": "How does this work?", "entities": []}
+{"text": "Why is this happening?", "entities": []}
+{"text": "Remediate CVE-2021-85278 before the next security audit", "entities": [[10, 24, "CVE_ID"]]}
+{"text": "CVSS score for CVE-2023-12397 is 9.8", "entities": [[15, 29, "CVE_ID"]]}
+{"text": "Affected systems must patch CVE-2021-93956 by end of week", "entities": [[28, 42, "CVE_ID"]]}
+{"text": "CVSS score for CVE-2021-16252 is 9.8", "entities": [[15, 29, "CVE_ID"]]}
+{"text": "Critical vulnerability CVE-2021-95425 requires immediate attention", "entities": [[23, 37, "CVE_ID"]]}
+{"text": "Remediate CVE-2024-96676 before the next security audit", "entities": [[10, 24, "CVE_ID"]]}
+{"text": "Threat intelligence indicates active exploitation of CVE-2018-16088", "entities": [[53, 67, "CVE_ID"]]}
+{"text": "Remediate CVE-2019-24012 before the next security audit", "entities": [[10, 24, "CVE_ID"]]}
+{"text": "Critical vulnerability CVE-2018-99064 requires immediate attention", "entities": [[23, 37, "CVE_ID"]]}
+{"text": "Affected systems must patch CVE-2019-60534 by end of week", "entities": [[28, 42, "CVE_ID"]]}
+{"text": "Remediate CVE-2021-11085 before the next security audit", "entities": [[10, 24, "CVE_ID"]]}
+{"text": "Vulnerability CVE-2020-64005 was discovered in the system", "entities": [[14, 28, "CVE_ID"]]}
+{"text": "Exploit for CVE-2018-24201 is available in the wild", "entities": [[12, 26, "CVE_ID"]]}
+{"text": "Security team investigating CVE-2018-07590 impact", "entities": [[28, 42, "CVE_ID"]]}
+{"text": "Vulnerability CVE-2024-48239 was discovered in the system", "entities": [[14, 28, "CVE_ID"]]}
+{"text": "Exploit for CVE-2024-46393 is available in the wild", "entities": [[12, 26, "CVE_ID"]]}
+{"text": "Patch CVE-2024-93905 immediately to prevent exploitation", "entities": [[6, 20, "CVE_ID"]]}
+{"text": "Patch CVE-2020-70554 immediately to prevent exploitation", "entities": [[6, 20, "CVE_ID"]]}
+{"text": "Affected systems must patch CVE-2023-98333 by end of week", "entities": [[28, 42, "CVE_ID"]]}
+{"text": "Threat intelligence indicates active exploitation of CVE-2021-54861", "entities": [[53, 67, "CVE_ID"]]}
+{"text": "Security team investigating CVE-2023-19141 impact", "entities": [[28, 42, "CVE_ID"]]}
+{"text": "Scan for CVE-2024-33670 across all endpoints", "entities": [[9, 23, "CVE_ID"]]}
+{"text": "Security team investigating CVE-2023-67244 impact", "entities": [[28, 42, "CVE_ID"]]}
+{"text": "Vulnerability CVE-2024-55764 was discovered in the system", "entities": [[14, 28, "CVE_ID"]]}
+{"text": "Security team investigating CVE-2023-34253 impact", "entities": [[28, 42, "CVE_ID"]]}
+{"text": "Critical vulnerability CVE-2020-90023 requires immediate attention", "entities": [[23, 37, "CVE_ID"]]}
+{"text": "Security team investigating CVE-2024-77979 impact", "entities": [[28, 42, "CVE_ID"]]}
+{"text": "Vulnerability CVE-2020-35026 was discovered in the system", "entities": [[14, 28, "CVE_ID"]]}
+{"text": "Remediate CVE-2022-81083 before the next security audit", "entities": [[10, 24, "CVE_ID"]]}
+{"text": "Patch CVE-2022-10580 immediately to prevent exploitation", "entities": [[6, 20, "CVE_ID"]]}
+{"text": "Security team investigating CVE-2019-50951 impact", "entities": [[28, 42, "CVE_ID"]]}
+{"text": "CVSS score for CVE-2018-80483 is 9.8", "entities": [[15, 29, "CVE_ID"]]}
+{"text": "Scan for CVE-2024-23694 across all endpoints", "entities": [[9, 23, "CVE_ID"]]}
+{"text": "Scan for CVE-2022-17841 across all endpoints", "entities": [[9, 23, "CVE_ID"]]}
+{"text": "Scan for CVE-2019-44625 across all endpoints", "entities": [[9, 23, "CVE_ID"]]}
+{"text": "Vulnerability CVE-2018-28134 was discovered in the system", "entities": [[14, 28, "CVE_ID"]]}
+{"text": "Remediate CVE-2020-61667 before the next security audit", "entities": [[10, 24, "CVE_ID"]]}
+{"text": "Patch CVE-2018-77391 immediately to prevent exploitation", "entities": [[6, 20, "CVE_ID"]]}
+{"text": "Threat intelligence indicates active exploitation of CVE-2021-40417", "entities": [[53, 67, "CVE_ID"]]}
+{"text": "Affected systems must patch CVE-2022-47086 by end of week", "entities": [[28, 42, "CVE_ID"]]}
+{"text": "Remediate CVE-2021-99615 before the next security audit", "entities": [[10, 24, "CVE_ID"]]}
+{"text": "Threat intelligence indicates active exploitation of CVE-2020-26747", "entities": [[53, 67, "CVE_ID"]]}
+{"text": "Exploit for CVE-2023-08020 is available in the wild", "entities": [[12, 26, "CVE_ID"]]}
+{"text": "Affected systems must patch CVE-2018-25438 by end of week", "entities": [[28, 42, "CVE_ID"]]}
+{"text": "Patch CVE-2023-52377 immediately to prevent exploitation", "entities": [[6, 20, "CVE_ID"]]}
+{"text": "Patch CVE-2023-71605 immediately to prevent exploitation", "entities": [[6, 20, "CVE_ID"]]}
+{"text": "Affected systems must patch CVE-2024-80000 by end of week", "entities": [[28, 42, "CVE_ID"]]}
+{"text": "Patch CVE-2024-75407 immediately to prevent exploitation", "entities": [[6, 20, "CVE_ID"]]}
+{"text": "Exploit for CVE-2020-76572 is available in the wild", "entities": [[12, 26, "CVE_ID"]]}
+{"text": "CVSS score for CVE-2019-83172 is 9.8", "entities": [[15, 29, "CVE_ID"]]}
+{"text": "Exploit for CVE-2021-62612 is available in the wild", "entities": [[12, 26, "CVE_ID"]]}
+{"text": "Scan for CVE-2023-80001 across all endpoints", "entities": [[9, 23, "CVE_ID"]]}
+{"text": "CVSS score for CVE-2021-89281 is 9.8", "entities": [[15, 29, "CVE_ID"]]}
+{"text": "Affected systems must patch CVE-2018-20631 by end of week", "entities": [[28, 42, "CVE_ID"]]}
+{"text": "Affected systems must patch CVE-2018-84253 by end of week", "entities": [[28, 42, "CVE_ID"]]}
+{"text": "CVSS score for CVE-2020-22699 is 9.8", "entities": [[15, 29, "CVE_ID"]]}
+{"text": "Security team investigating CVE-2021-83913 impact", "entities": [[28, 42, "CVE_ID"]]}
+{"text": "Scan for CVE-2018-63726 across all endpoints", "entities": [[9, 23, "CVE_ID"]]}
+{"text": "Affected systems must patch CVE-2022-66630 by end of week", "entities": [[28, 42, "CVE_ID"]]}
+{"text": "Vulnerability CVE-2024-83632 was discovered in the system", "entities": [[14, 28, "CVE_ID"]]}
+{"text": "Security team investigating CVE-2020-99764 impact", "entities": [[28, 42, "CVE_ID"]]}
+{"text": "Patch CVE-2020-68932 immediately to prevent exploitation", "entities": [[6, 20, "CVE_ID"]]}
+{"text": "Remediate CVE-2018-18727 before the next security audit", "entities": [[10, 24, "CVE_ID"]]}
+{"text": "Patch CVE-2022-29117 immediately to prevent exploitation", "entities": [[6, 20, "CVE_ID"]]}
+{"text": "Exploit for CVE-2018-56587 is available in the wild", "entities": [[12, 26, "CVE_ID"]]}
+{"text": "Remediate CVE-2020-99682 before the next security audit", "entities": [[10, 24, "CVE_ID"]]}
+{"text": "CVSS score for CVE-2020-65826 is 9.8", "entities": [[15, 29, "CVE_ID"]]}
+{"text": "Exploit for CVE-2021-62794 is available in the wild", "entities": [[12, 26, "CVE_ID"]]}
+{"text": "Remediate CVE-2020-11356 before the next security audit", "entities": [[10, 24, "CVE_ID"]]}
+{"text": "Critical vulnerability CVE-2023-15567 requires immediate attention", "entities": [[23, 37, "CVE_ID"]]}
+{"text": "Threat intelligence indicates active exploitation of CVE-2018-04363", "entities": [[53, 67, "CVE_ID"]]}
+{"text": "Threat intelligence indicates active exploitation of CVE-2018-29873", "entities": [[53, 67, "CVE_ID"]]}
+{"text": "Patch CVE-2021-94119 immediately to prevent exploitation", "entities": [[6, 20, "CVE_ID"]]}
+{"text": "Exploit for CVE-2021-98316 is available in the wild", "entities": [[12, 26, "CVE_ID"]]}
+{"text": "Scan for CVE-2020-02062 across all endpoints", "entities": [[9, 23, "CVE_ID"]]}
+{"text": "Vulnerability CVE-2020-04733 was discovered in the system", "entities": [[14, 28, "CVE_ID"]]}
+{"text": "Affected systems must patch CVE-2021-57356 by end of week", "entities": [[28, 42, "CVE_ID"]]}
+{"text": "Critical vulnerability CVE-2023-83441 requires immediate attention", "entities": [[23, 37, "CVE_ID"]]}
+{"text": "Exploit for CVE-2021-10162 is available in the wild", "entities": [[12, 26, "CVE_ID"]]}
+{"text": "Scan for CVE-2023-61429 across all endpoints", "entities": [[9, 23, "CVE_ID"]]}
+{"text": "Security team investigating CVE-2018-15526 impact", "entities": [[28, 42, "CVE_ID"]]}
+{"text": "Scan for CVE-2019-70795 across all endpoints", "entities": [[9, 23, "CVE_ID"]]}
+{"text": "CVSS score for CVE-2018-91854 is 9.8", "entities": [[15, 29, "CVE_ID"]]}
+{"text": "CVSS score for CVE-2021-82517 is 9.8", "entities": [[15, 29, "CVE_ID"]]}
+{"text": "Patch CVE-2020-86471 immediately to prevent exploitation", "entities": [[6, 20, "CVE_ID"]]}
+{"text": "Patch CVE-2020-73768 immediately to prevent exploitation", "entities": [[6, 20, "CVE_ID"]]}
+{"text": "Affected systems must patch CVE-2019-58476 by end of week", "entities": [[28, 42, "CVE_ID"]]}
+{"text": "Remediate CVE-2024-07749 before the next security audit", "entities": [[10, 24, "CVE_ID"]]}
+{"text": "Vulnerability CVE-2020-42190 was discovered in the system", "entities": [[14, 28, "CVE_ID"]]}
+{"text": "Critical vulnerability CVE-2024-19917 requires immediate attention", "entities": [[23, 37, "CVE_ID"]]}
+{"text": "Patch CVE-2022-95820 immediately to prevent exploitation", "entities": [[6, 20, "CVE_ID"]]}
+{"text": "Critical vulnerability CVE-2024-97151 requires immediate attention", "entities": [[23, 37, "CVE_ID"]]}
+{"text": "Scan for CVE-2018-47773 across all endpoints", "entities": [[9, 23, "CVE_ID"]]}
+{"text": "Security team investigating CVE-2018-35507 impact", "entities": [[28, 42, "CVE_ID"]]}
+{"text": "Scan for CVE-2021-83631 across all endpoints", "entities": [[9, 23, "CVE_ID"]]}
+{"text": "Security team investigating CVE-2019-81941 impact", "entities": [[28, 42, "CVE_ID"]]}
+{"text": "Affected systems must patch CVE-2021-18697 by end of week", "entities": [[28, 42, "CVE_ID"]]}
+{"text": "CVSS score for CVE-2021-70486 is 9.8", "entities": [[15, 29, "CVE_ID"]]}
+{"text": "Security team investigating CVE-2024-34066 impact", "entities": [[28, 42, "CVE_ID"]]}
+{"text": "Patch CVE-2021-81809 immediately to prevent exploitation", "entities": [[6, 20, "CVE_ID"]]}
+{"text": "Profile APT41 capabilities and motivations", "entities": [[8, 13, "THREAT_ACTOR"]]}
+{"text": "Investigate APT29 activities in our network", "entities": [[12, 17, "THREAT_ACTOR"]]}
+{"text": "Cozy Bear has been linked to multiple breaches", "entities": [[0, 9, "THREAT_ACTOR"]]}
+{"text": "Mespinoza has been linked to multiple breaches", "entities": [[0, 9, "THREAT_ACTOR"]]}
+{"text": "APT41 uses sophisticated evasion techniques", "entities": [[0, 5, "THREAT_ACTOR"]]}
+{"text": "UNC2452 uses sophisticated evasion techniques", "entities": [[0, 7, "THREAT_ACTOR"]]}
+{"text": "Threat actor Ryuk has been active in recent campaigns", "entities": [[13, 17, "THREAT_ACTOR"]]}
+{"text": "Conti has been linked to multiple breaches", "entities": [[0, 5, "THREAT_ACTOR"]]}
+{"text": "Attribution analysis points to Cozy Bear", "entities": [[31, 40, "THREAT_ACTOR"]]}
+{"text": "Attribution analysis points to Wizard Spider", "entities": [[31, 44, "THREAT_ACTOR"]]}
+{"text": "Threat actor Mespinoza has been active in recent campaigns", "entities": [[13, 22, "THREAT_ACTOR"]]}
+{"text": "Intelligence indicates UNC2452 is behind this attack", "entities": [[23, 30, "THREAT_ACTOR"]]}
+{"text": "Monitor for Fancy Bear TTPs in security logs", "entities": [[12, 22, "THREAT_ACTOR"]]}
+{"text": "Threat actor Ryuk has been active in recent campaigns", "entities": [[13, 17, "THREAT_ACTOR"]]}
+{"text": "Monitor for DarkSide TTPs in security logs", "entities": [[12, 20, "THREAT_ACTOR"]]}
+{"text": "Monitor for Equation Group TTPs in security logs", "entities": [[12, 26, "THREAT_ACTOR"]]}
+{"text": "Intelligence indicates Lazarus is behind this attack", "entities": [[23, 30, "THREAT_ACTOR"]]}
+{"text": "Investigate APT41 activities in our network", "entities": [[12, 17, "THREAT_ACTOR"]]}
+{"text": "Monitor for FIN7 TTPs in security logs", "entities": [[12, 16, "THREAT_ACTOR"]]}
+{"text": "Attribution analysis points to Sandworm", "entities": [[31, 39, "THREAT_ACTOR"]]}
+{"text": "Intelligence indicates Fancy Bear is behind this attack", "entities": [[23, 33, "THREAT_ACTOR"]]}
+{"text": "Profile UNC2452 capabilities and motivations", "entities": [[8, 15, "THREAT_ACTOR"]]}
+{"text": "Profile Lazarus capabilities and motivations", "entities": [[8, 15, "THREAT_ACTOR"]]}
+{"text": "Intelligence indicates FIN7 is behind this attack", "entities": [[23, 27, "THREAT_ACTOR"]]}
+{"text": "Track Maze infrastructure and indicators", "entities": [[6, 10, "THREAT_ACTOR"]]}
+{"text": "Lazarus has been linked to multiple breaches", "entities": [[0, 7, "THREAT_ACTOR"]]}
+{"text": "Intelligence indicates Turla is behind this attack", "entities": [[23, 28, "THREAT_ACTOR"]]}
+{"text": "ALPHV is known for targeting financial institutions", "entities": [[0, 5, "THREAT_ACTOR"]]}
+{"text": "Turla has been linked to multiple breaches", "entities": [[0, 5, "THREAT_ACTOR"]]}
+{"text": "Monitor for DoppelPaymer TTPs in security logs", "entities": [[12, 24, "THREAT_ACTOR"]]}
+{"text": "Profile Sandworm capabilities and motivations", "entities": [[8, 16, "THREAT_ACTOR"]]}
+{"text": "Profile Equation Group capabilities and motivations", "entities": [[8, 22, "THREAT_ACTOR"]]}
+{"text": "Investigate Equation Group activities in our network", "entities": [[12, 26, "THREAT_ACTOR"]]}
+{"text": "Monitor for REvil TTPs in security logs", "entities": [[12, 17, "THREAT_ACTOR"]]}
+{"text": "Monitor for Mespinoza TTPs in security logs", "entities": [[12, 21, "THREAT_ACTOR"]]}
+{"text": "DarkSide is known for targeting financial institutions", "entities": [[0, 8, "THREAT_ACTOR"]]}
+{"text": "DarkSide is known for targeting financial institutions", "entities": [[0, 8, "THREAT_ACTOR"]]}
+{"text": "Track DoppelPaymer infrastructure and indicators", "entities": [[6, 18, "THREAT_ACTOR"]]}
+{"text": "APT28 has been linked to multiple breaches", "entities": [[0, 5, "THREAT_ACTOR"]]}
+{"text": "Threat actor UNC2452 has been active in recent campaigns", "entities": [[13, 20, "THREAT_ACTOR"]]}
+{"text": "Profile Ragnar Locker capabilities and motivations", "entities": [[8, 21, "THREAT_ACTOR"]]}
+{"text": "Profile Sandworm capabilities and motivations", "entities": [[8, 16, "THREAT_ACTOR"]]}
+{"text": "Conti is known for targeting financial institutions", "entities": [[0, 5, "THREAT_ACTOR"]]}
+{"text": "Attribution analysis points to APT28", "entities": [[31, 36, "THREAT_ACTOR"]]}
+{"text": "DarkSide is known for targeting financial institutions", "entities": [[0, 8, "THREAT_ACTOR"]]}
+{"text": "Attribution analysis points to Fancy Bear", "entities": [[31, 41, "THREAT_ACTOR"]]}
+{"text": "Attribution analysis points to Wizard Spider", "entities": [[31, 44, "THREAT_ACTOR"]]}
+{"text": "Investigate Lazarus activities in our network", "entities": [[12, 19, "THREAT_ACTOR"]]}
+{"text": "Profile Mespinoza capabilities and motivations", "entities": [[8, 17, "THREAT_ACTOR"]]}
+{"text": "Attribution analysis points to Wizard Spider", "entities": [[31, 44, "THREAT_ACTOR"]]}
+{"text": "Monitor for Turla TTPs in security logs", "entities": [[12, 17, "THREAT_ACTOR"]]}
+{"text": "Monitor for APT29 TTPs in security logs", "entities": [[12, 17, "THREAT_ACTOR"]]}
+{"text": "Mespinoza has been linked to multiple breaches", "entities": [[0, 9, "THREAT_ACTOR"]]}
+{"text": "Ragnar Locker uses sophisticated evasion techniques", "entities": [[0, 13, "THREAT_ACTOR"]]}
+{"text": "Investigate Ryuk activities in our network", "entities": [[12, 16, "THREAT_ACTOR"]]}
+{"text": "Intelligence indicates DarkSide is behind this attack", "entities": [[23, 31, "THREAT_ACTOR"]]}
+{"text": "Intelligence indicates Ragnar Locker is behind this attack", "entities": [[23, 36, "THREAT_ACTOR"]]}
+{"text": "Profile Ryuk capabilities and motivations", "entities": [[8, 12, "THREAT_ACTOR"]]}
+{"text": "Threat actor Egregor has been active in recent campaigns", "entities": [[13, 20, "THREAT_ACTOR"]]}
+{"text": "APT29 has been linked to multiple breaches", "entities": [[0, 5, "THREAT_ACTOR"]]}
+{"text": "Profile LockBit capabilities and motivations", "entities": [[8, 15, "THREAT_ACTOR"]]}
+{"text": "BlackCat uses sophisticated evasion techniques", "entities": [[0, 8, "THREAT_ACTOR"]]}
+{"text": "Track DarkSide infrastructure and indicators", "entities": [[6, 14, "THREAT_ACTOR"]]}
+{"text": "Attribution analysis points to Conti", "entities": [[31, 36, "THREAT_ACTOR"]]}
+{"text": "ALPHV is known for targeting financial institutions", "entities": [[0, 5, "THREAT_ACTOR"]]}
+{"text": "Intelligence indicates ALPHV is behind this attack", "entities": [[23, 28, "THREAT_ACTOR"]]}
+{"text": "Conti uses sophisticated evasion techniques", "entities": [[0, 5, "THREAT_ACTOR"]]}
+{"text": "Investigate APT41 activities in our network", "entities": [[12, 17, "THREAT_ACTOR"]]}
+{"text": "UNC2452 uses sophisticated evasion techniques", "entities": [[0, 7, "THREAT_ACTOR"]]}
+{"text": "Investigate DarkSide activities in our network", "entities": [[12, 20, "THREAT_ACTOR"]]}
+{"text": "Monitor for DoppelPaymer TTPs in security logs", "entities": [[12, 24, "THREAT_ACTOR"]]}
+{"text": "Threat actor Mespinoza has been active in recent campaigns", "entities": [[13, 22, "THREAT_ACTOR"]]}
+{"text": "Intelligence indicates Equation Group is behind this attack", "entities": [[23, 37, "THREAT_ACTOR"]]}
+{"text": "Investigate Mespinoza activities in our network", "entities": [[12, 21, "THREAT_ACTOR"]]}
+{"text": "ALPHV is known for targeting financial institutions", "entities": [[0, 5, "THREAT_ACTOR"]]}
+{"text": "Profile REvil capabilities and motivations", "entities": [[8, 13, "THREAT_ACTOR"]]}
+{"text": "Threat actor Egregor has been active in recent campaigns", "entities": [[13, 20, "THREAT_ACTOR"]]}
+{"text": "Equation Group uses sophisticated evasion techniques", "entities": [[0, 14, "THREAT_ACTOR"]]}
+{"text": "Track REvil infrastructure and indicators", "entities": [[6, 11, "THREAT_ACTOR"]]}
+{"text": "Investigate Maze activities in our network", "entities": [[12, 16, "THREAT_ACTOR"]]}
+{"text": "APT41 uses sophisticated evasion techniques", "entities": [[0, 5, "THREAT_ACTOR"]]}
+{"text": "Conti uses sophisticated evasion techniques", "entities": [[0, 5, "THREAT_ACTOR"]]}
+{"text": "Profile Sandworm capabilities and motivations", "entities": [[8, 16, "THREAT_ACTOR"]]}
+{"text": "Track Turla infrastructure and indicators", "entities": [[6, 11, "THREAT_ACTOR"]]}
+{"text": "Investigate ALPHV activities in our network", "entities": [[12, 17, "THREAT_ACTOR"]]}
+{"text": "Attribution analysis points to Fancy Bear", "entities": [[31, 41, "THREAT_ACTOR"]]}
+{"text": "Attribution analysis points to Lazarus", "entities": [[31, 38, "THREAT_ACTOR"]]}
+{"text": "Attribution analysis points to REvil", "entities": [[31, 36, "THREAT_ACTOR"]]}
+{"text": "Monitor for Cozy Bear TTPs in security logs", "entities": [[12, 21, "THREAT_ACTOR"]]}
+{"text": "Track ALPHV infrastructure and indicators", "entities": [[6, 11, "THREAT_ACTOR"]]}
+{"text": "Track ALPHV infrastructure and indicators", "entities": [[6, 11, "THREAT_ACTOR"]]}
+{"text": "Track Wizard Spider infrastructure and indicators", "entities": [[6, 19, "THREAT_ACTOR"]]}
+{"text": "Profile Mespinoza capabilities and motivations", "entities": [[8, 17, "THREAT_ACTOR"]]}
+{"text": "Attribution analysis points to REvil", "entities": [[31, 36, "THREAT_ACTOR"]]}
+{"text": "Track APT29 infrastructure and indicators", "entities": [[6, 11, "THREAT_ACTOR"]]}
+{"text": "UNC2452 is known for targeting financial institutions", "entities": [[0, 7, "THREAT_ACTOR"]]}
+{"text": "Attribution analysis points to Turla", "entities": [[31, 36, "THREAT_ACTOR"]]}
+{"text": "Profile Turla capabilities and motivations", "entities": [[8, 13, "THREAT_ACTOR"]]}
+{"text": "Intelligence indicates Fancy Bear is behind this attack", "entities": [[23, 33, "THREAT_ACTOR"]]}
+{"text": "Monitor for APT41 TTPs in security logs", "entities": [[12, 17, "THREAT_ACTOR"]]}
+{"text": "Email user682@suspicious.io associated with threat actor", "entities": [[6, 27, "EMAIL_ADDRESS"]]}
+{"text": "Email user199@company.net used in phishing campaign", "entities": [[6, 25, "EMAIL_ADDRESS"]]}
+{"text": "Email security885@test.org registered with fake credentials", "entities": [[6, 26, "EMAIL_ADDRESS"]]}
+{"text": "Investigate account info104@suspicious.io", "entities": [[20, 41, "EMAIL_ADDRESS"]]}
+{"text": "Investigate account security592@suspicious.io", "entities": [[20, 45, "EMAIL_ADDRESS"]]}
+{"text": "Account noreply380@example.com shows signs of compromise", "entities": [[8, 30, "EMAIL_ADDRESS"]]}
+{"text": "Monitor admin428@suspicious.io for suspicious activity", "entities": [[8, 30, "EMAIL_ADDRESS"]]}
+{"text": "Monitor admin75@company.net for suspicious activity", "entities": [[8, 27, "EMAIL_ADDRESS"]]}
+{"text": "Email support782@malicious.biz registered with fake credentials", "entities": [[6, 30, "EMAIL_ADDRESS"]]}
+{"text": "Contact noreply63@test.org for security inquiry", "entities": [[8, 26, "EMAIL_ADDRESS"]]}
+{"text": "Contact user133@suspicious.io for security inquiry", "entities": [[8, 29, "EMAIL_ADDRESS"]]}
+{"text": "Email user279@suspicious.io was compromised", "entities": [[6, 27, "EMAIL_ADDRESS"]]}
+{"text": "Verify ownership of contact903@company.net", "entities": [[20, 42, "EMAIL_ADDRESS"]]}
+{"text": "Email noreply772@malicious.biz associated with threat actor", "entities": [[6, 30, "EMAIL_ADDRESS"]]}
+{"text": "Email info456@example.com registered with fake credentials", "entities": [[6, 25, "EMAIL_ADDRESS"]]}
+{"text": "Email security694@test.org used in phishing campaign", "entities": [[6, 26, "EMAIL_ADDRESS"]]}
+{"text": "Investigate account support292@example.com", "entities": [[20, 42, "EMAIL_ADDRESS"]]}
+{"text": "Email noreply395@example.com registered with fake credentials", "entities": [[6, 28, "EMAIL_ADDRESS"]]}
+{"text": "Account contact888@company.net shows signs of compromise", "entities": [[8, 30, "EMAIL_ADDRESS"]]}
+{"text": "Investigate account admin956@example.com", "entities": [[20, 40, "EMAIL_ADDRESS"]]}
+{"text": "Contact user253@company.net for security inquiry", "entities": [[8, 27, "EMAIL_ADDRESS"]]}
+{"text": "Email support65@malicious.biz registered with fake credentials", "entities": [[6, 29, "EMAIL_ADDRESS"]]}
+{"text": "Account admin469@test.org shows signs of compromise", "entities": [[8, 25, "EMAIL_ADDRESS"]]}
+{"text": "Contact support191@company.net for security inquiry", "entities": [[8, 30, "EMAIL_ADDRESS"]]}
+{"text": "Email contact713@suspicious.io used in phishing campaign", "entities": [[6, 30, "EMAIL_ADDRESS"]]}
+{"text": "Account contact49@malicious.biz shows signs of compromise", "entities": [[8, 31, "EMAIL_ADDRESS"]]}
+{"text": "Monitor noreply529@suspicious.io for suspicious activity", "entities": [[8, 32, "EMAIL_ADDRESS"]]}
+{"text": "Contact security546@test.org for security inquiry", "entities": [[8, 28, "EMAIL_ADDRESS"]]}
+{"text": "Account info995@company.net shows signs of compromise", "entities": [[8, 27, "EMAIL_ADDRESS"]]}
+{"text": "Email admin60@example.com registered with fake credentials", "entities": [[6, 25, "EMAIL_ADDRESS"]]}
+{"text": "Account admin618@malicious.biz shows signs of compromise", "entities": [[8, 30, "EMAIL_ADDRESS"]]}
+{"text": "Investigate account security300@malicious.biz", "entities": [[20, 45, "EMAIL_ADDRESS"]]}
+{"text": "Email security153@suspicious.io registered with fake credentials", "entities": [[6, 31, "EMAIL_ADDRESS"]]}
+{"text": "Contact admin823@company.net for security inquiry", "entities": [[8, 28, "EMAIL_ADDRESS"]]}
+{"text": "Investigate account support823@suspicious.io", "entities": [[20, 44, "EMAIL_ADDRESS"]]}
+{"text": "Email info981@example.com associated with threat actor", "entities": [[6, 25, "EMAIL_ADDRESS"]]}
+{"text": "Verify ownership of admin700@company.net", "entities": [[20, 40, "EMAIL_ADDRESS"]]}
+{"text": "Verify ownership of info279@suspicious.io", "entities": [[20, 41, "EMAIL_ADDRESS"]]}
+{"text": "Email support220@company.net was compromised", "entities": [[6, 28, "EMAIL_ADDRESS"]]}
+{"text": "Email support367@suspicious.io was compromised", "entities": [[6, 30, "EMAIL_ADDRESS"]]}
+{"text": "Monitor contact20@example.com for suspicious activity", "entities": [[8, 29, "EMAIL_ADDRESS"]]}
+{"text": "Account support149@test.org shows signs of compromise", "entities": [[8, 27, "EMAIL_ADDRESS"]]}
+{"text": "Email security469@suspicious.io associated with threat actor", "entities": [[6, 31, "EMAIL_ADDRESS"]]}
+{"text": "Email address contact906@suspicious.io linked to data breach", "entities": [[14, 38, "EMAIL_ADDRESS"]]}
+{"text": "Email info623@suspicious.io was compromised", "entities": [[6, 27, "EMAIL_ADDRESS"]]}
+{"text": "Email info287@malicious.biz associated with threat actor", "entities": [[6, 27, "EMAIL_ADDRESS"]]}
+{"text": "Email address security546@malicious.biz linked to data breach", "entities": [[14, 39, "EMAIL_ADDRESS"]]}
+{"text": "Email security560@example.com used in phishing campaign", "entities": [[6, 29, "EMAIL_ADDRESS"]]}
+{"text": "Email info562@company.net registered with fake credentials", "entities": [[6, 25, "EMAIL_ADDRESS"]]}
+{"text": "Email admin248@company.net was compromised", "entities": [[6, 26, "EMAIL_ADDRESS"]]}
+{"text": "Email security288@example.com registered with fake credentials", "entities": [[6, 29, "EMAIL_ADDRESS"]]}
+{"text": "Verify ownership of security17@test.org", "entities": [[20, 39, "EMAIL_ADDRESS"]]}
+{"text": "Monitor info889@suspicious.io for suspicious activity", "entities": [[8, 29, "EMAIL_ADDRESS"]]}
+{"text": "Monitor support683@malicious.biz for suspicious activity", "entities": [[8, 32, "EMAIL_ADDRESS"]]}
+{"text": "Email noreply638@suspicious.io was compromised", "entities": [[6, 30, "EMAIL_ADDRESS"]]}
+{"text": "Email address contact884@malicious.biz linked to data breach", "entities": [[14, 38, "EMAIL_ADDRESS"]]}
+{"text": "Verify ownership of admin494@malicious.biz", "entities": [[20, 42, "EMAIL_ADDRESS"]]}
+{"text": "Email admin532@suspicious.io was compromised", "entities": [[6, 28, "EMAIL_ADDRESS"]]}
+{"text": "Monitor user657@example.com for suspicious activity", "entities": [[8, 27, "EMAIL_ADDRESS"]]}
+{"text": "Account security459@suspicious.io shows signs of compromise", "entities": [[8, 33, "EMAIL_ADDRESS"]]}
+{"text": "Email user797@company.net used in phishing campaign", "entities": [[6, 25, "EMAIL_ADDRESS"]]}
+{"text": "Email support769@suspicious.io used in phishing campaign", "entities": [[6, 30, "EMAIL_ADDRESS"]]}
+{"text": "Contact contact328@malicious.biz for security inquiry", "entities": [[8, 32, "EMAIL_ADDRESS"]]}
+{"text": "Email support182@malicious.biz was compromised", "entities": [[6, 30, "EMAIL_ADDRESS"]]}
+{"text": "Monitor contact840@test.org for suspicious activity", "entities": [[8, 27, "EMAIL_ADDRESS"]]}
+{"text": "Monitor contact106@malicious.biz for suspicious activity", "entities": [[8, 32, "EMAIL_ADDRESS"]]}
+{"text": "Email admin653@suspicious.io used in phishing campaign", "entities": [[6, 28, "EMAIL_ADDRESS"]]}
+{"text": "Investigate account admin907@suspicious.io", "entities": [[20, 42, "EMAIL_ADDRESS"]]}
+{"text": "Email support714@malicious.biz was compromised", "entities": [[6, 30, "EMAIL_ADDRESS"]]}
+{"text": "Contact admin449@suspicious.io for security inquiry", "entities": [[8, 30, "EMAIL_ADDRESS"]]}
+{"text": "Email address security207@example.com linked to data breach", "entities": [[14, 37, "EMAIL_ADDRESS"]]}
+{"text": "Email security377@malicious.biz used in phishing campaign", "entities": [[6, 31, "EMAIL_ADDRESS"]]}
+{"text": "Monitor contact79@company.net for suspicious activity", "entities": [[8, 29, "EMAIL_ADDRESS"]]}
+{"text": "Account noreply791@company.net shows signs of compromise", "entities": [[8, 30, "EMAIL_ADDRESS"]]}
+{"text": "Account security280@company.net shows signs of compromise", "entities": [[8, 31, "EMAIL_ADDRESS"]]}
+{"text": "Critical vulnerability CVE-2023-58144 requires immediate attention", "entities": [[23, 37, "CVE_ID"]]}
+{"text": "Remediate CVE-2024-80471 before the next security audit", "entities": [[10, 24, "CVE_ID"]]}
+{"text": "Security team investigating CVE-2022-49216 impact", "entities": [[28, 42, "CVE_ID"]]}
+{"text": "Critical vulnerability CVE-2018-37986 requires immediate attention", "entities": [[23, 37, "CVE_ID"]]}
+{"text": "Threat intelligence indicates active exploitation of CVE-2019-04437", "entities": [[53, 67, "CVE_ID"]]}
+{"text": "Threat intelligence indicates active exploitation of CVE-2024-51299", "entities": [[53, 67, "CVE_ID"]]}
+{"text": "Critical vulnerability CVE-2018-16277 requires immediate attention", "entities": [[23, 37, "CVE_ID"]]}
+{"text": "CVSS score for CVE-2020-27589 is 9.8", "entities": [[15, 29, "CVE_ID"]]}
+{"text": "Critical vulnerability CVE-2022-87726 requires immediate attention", "entities": [[23, 37, "CVE_ID"]]}
+{"text": "Security team investigating CVE-2021-65471 impact", "entities": [[28, 42, "CVE_ID"]]}
+{"text": "Remediate CVE-2021-93816 before the next security audit", "entities": [[10, 24, "CVE_ID"]]}
+{"text": "Vulnerability CVE-2020-39025 was discovered in the system", "entities": [[14, 28, "CVE_ID"]]}
+{"text": "Vulnerability CVE-2018-87846 was discovered in the system", "entities": [[14, 28, "CVE_ID"]]}
+{"text": "Threat intelligence indicates active exploitation of CVE-2023-60651", "entities": [[53, 67, "CVE_ID"]]}
+{"text": "Exploit for CVE-2023-76380 is available in the wild", "entities": [[12, 26, "CVE_ID"]]}
+{"text": "Security team investigating CVE-2023-32059 impact", "entities": [[28, 42, "CVE_ID"]]}
+{"text": "Remediate CVE-2021-58946 before the next security audit", "entities": [[10, 24, "CVE_ID"]]}
+{"text": "Affected systems must patch CVE-2020-57385 by end of week", "entities": [[28, 42, "CVE_ID"]]}
+{"text": "Exploit for CVE-2020-86036 is available in the wild", "entities": [[12, 26, "CVE_ID"]]}
+{"text": "Threat intelligence indicates active exploitation of CVE-2023-41777", "entities": [[53, 67, "CVE_ID"]]}
+{"text": "Affected systems must patch CVE-2020-22794 by end of week", "entities": [[28, 42, "CVE_ID"]]}
+{"text": "Exploit for CVE-2020-76735 is available in the wild", "entities": [[12, 26, "CVE_ID"]]}
+{"text": "Vulnerability CVE-2023-33568 was discovered in the system", "entities": [[14, 28, "CVE_ID"]]}
+{"text": "CVSS score for CVE-2020-98069 is 9.8", "entities": [[15, 29, "CVE_ID"]]}
+{"text": "Threat intelligence indicates active exploitation of CVE-2020-59659", "entities": [[53, 67, "CVE_ID"]]}
+{"text": "Affected systems must patch CVE-2018-46555 by end of week", "entities": [[28, 42, "CVE_ID"]]}
+{"text": "Scan for CVE-2021-64698 across all endpoints", "entities": [[9, 23, "CVE_ID"]]}
+{"text": "Affected systems must patch CVE-2019-48085 by end of week", "entities": [[28, 42, "CVE_ID"]]}
+{"text": "Patch CVE-2024-84607 immediately to prevent exploitation", "entities": [[6, 20, "CVE_ID"]]}
+{"text": "Scan for CVE-2020-20184 across all endpoints", "entities": [[9, 23, "CVE_ID"]]}
+{"text": "Critical vulnerability CVE-2019-65263 requires immediate attention", "entities": [[23, 37, "CVE_ID"]]}
+{"text": "Vulnerability CVE-2021-26392 was discovered in the system", "entities": [[14, 28, "CVE_ID"]]}
+{"text": "CVSS score for CVE-2021-24160 is 9.8", "entities": [[15, 29, "CVE_ID"]]}
+{"text": "Patch CVE-2024-53282 immediately to prevent exploitation", "entities": [[6, 20, "CVE_ID"]]}
+{"text": "Patch CVE-2024-01084 immediately to prevent exploitation", "entities": [[6, 20, "CVE_ID"]]}
+{"text": "Threat intelligence indicates active exploitation of CVE-2021-91299", "entities": [[53, 67, "CVE_ID"]]}
+{"text": "Scan for CVE-2018-36550 across all endpoints", "entities": [[9, 23, "CVE_ID"]]}
+{"text": "Remediate CVE-2022-37446 before the next security audit", "entities": [[10, 24, "CVE_ID"]]}
+{"text": "Security team investigating CVE-2022-74578 impact", "entities": [[28, 42, "CVE_ID"]]}
+{"text": "Exploit for CVE-2022-65924 is available in the wild", "entities": [[12, 26, "CVE_ID"]]}
+{"text": "Security team investigating CVE-2019-69095 impact", "entities": [[28, 42, "CVE_ID"]]}
+{"text": "Security team investigating CVE-2022-68898 impact", "entities": [[28, 42, "CVE_ID"]]}
+{"text": "Critical vulnerability CVE-2022-90984 requires immediate attention", "entities": [[23, 37, "CVE_ID"]]}
+{"text": "Remediate CVE-2021-82061 before the next security audit", "entities": [[10, 24, "CVE_ID"]]}
+{"text": "CVSS score for CVE-2018-01039 is 9.8", "entities": [[15, 29, "CVE_ID"]]}
+{"text": "Threat intelligence indicates active exploitation of CVE-2019-02700", "entities": [[53, 67, "CVE_ID"]]}
+{"text": "Scan for CVE-2019-98849 across all endpoints", "entities": [[9, 23, "CVE_ID"]]}
+{"text": "Security team investigating CVE-2020-03958 impact", "entities": [[28, 42, "CVE_ID"]]}
+{"text": "Security team investigating CVE-2022-36698 impact", "entities": [[28, 42, "CVE_ID"]]}
+{"text": "Remediate CVE-2019-35277 before the next security audit", "entities": [[10, 24, "CVE_ID"]]}
+{"text": "CVSS score for CVE-2022-41212 is 9.8", "entities": [[15, 29, "CVE_ID"]]}
+{"text": "Critical vulnerability CVE-2019-50483 requires immediate attention", "entities": [[23, 37, "CVE_ID"]]}
+{"text": "Affected systems must patch CVE-2018-45087 by end of week", "entities": [[28, 42, "CVE_ID"]]}
+{"text": "CVSS score for CVE-2021-33158 is 9.8", "entities": [[15, 29, "CVE_ID"]]}
+{"text": "Scan for CVE-2018-90480 across all endpoints", "entities": [[9, 23, "CVE_ID"]]}
+{"text": "CVSS score for CVE-2021-67116 is 9.8", "entities": [[15, 29, "CVE_ID"]]}
+{"text": "Exploit for CVE-2023-62368 is available in the wild", "entities": [[12, 26, "CVE_ID"]]}
+{"text": "Vulnerability CVE-2022-70939 was discovered in the system", "entities": [[14, 28, "CVE_ID"]]}
+{"text": "Security team investigating CVE-2018-02607 impact", "entities": [[28, 42, "CVE_ID"]]}
+{"text": "CVSS score for CVE-2021-29476 is 9.8", "entities": [[15, 29, "CVE_ID"]]}
+{"text": "Threat intelligence indicates active exploitation of CVE-2018-46441", "entities": [[53, 67, "CVE_ID"]]}
+{"text": "Patch CVE-2021-12858 immediately to prevent exploitation", "entities": [[6, 20, "CVE_ID"]]}
+{"text": "Scan for CVE-2022-68290 across all endpoints", "entities": [[9, 23, "CVE_ID"]]}
+{"text": "Vulnerability CVE-2022-21025 was discovered in the system", "entities": [[14, 28, "CVE_ID"]]}
+{"text": "Remediate CVE-2022-89675 before the next security audit", "entities": [[10, 24, "CVE_ID"]]}
+{"text": "CVSS score for CVE-2024-60924 is 9.8", "entities": [[15, 29, "CVE_ID"]]}
+{"text": "Vulnerability CVE-2019-93370 was discovered in the system", "entities": [[14, 28, "CVE_ID"]]}
+{"text": "Patch CVE-2020-40433 immediately to prevent exploitation", "entities": [[6, 20, "CVE_ID"]]}
+{"text": "CVSS score for CVE-2024-56227 is 9.8", "entities": [[15, 29, "CVE_ID"]]}
+{"text": "Critical vulnerability CVE-2019-35178 requires immediate attention", "entities": [[23, 37, "CVE_ID"]]}
+{"text": "Critical vulnerability CVE-2022-41116 requires immediate attention", "entities": [[23, 37, "CVE_ID"]]}
+{"text": "Exploit for CVE-2019-04328 is available in the wild", "entities": [[12, 26, "CVE_ID"]]}
+{"text": "Security team investigating CVE-2019-12701 impact", "entities": [[28, 42, "CVE_ID"]]}
+{"text": "Scan for CVE-2024-44134 across all endpoints", "entities": [[9, 23, "CVE_ID"]]}
+{"text": "Scan for CVE-2019-95856 across all endpoints", "entities": [[9, 23, "CVE_ID"]]}
+{"text": "Critical vulnerability CVE-2022-49418 requires immediate attention", "entities": [[23, 37, "CVE_ID"]]}
+{"text": "CVSS score for CVE-2018-63175 is 9.8", "entities": [[15, 29, "CVE_ID"]]}
+{"text": "Patch CVE-2020-33810 immediately to prevent exploitation", "entities": [[6, 20, "CVE_ID"]]}
+{"text": "Patch CVE-2024-40813 immediately to prevent exploitation", "entities": [[6, 20, "CVE_ID"]]}
+{"text": "Critical vulnerability CVE-2019-38796 requires immediate attention", "entities": [[23, 37, "CVE_ID"]]}
+{"text": "Affected systems must patch CVE-2023-38249 by end of week", "entities": [[28, 42, "CVE_ID"]]}
+{"text": "Vulnerability CVE-2024-93829 was discovered in the system", "entities": [[14, 28, "CVE_ID"]]}
+{"text": "Remediate CVE-2023-58867 before the next security audit", "entities": [[10, 24, "CVE_ID"]]}
+{"text": "Profile Sandworm capabilities and motivations", "entities": [[8, 16, "THREAT_ACTOR"]]}
+{"text": "APT29 has been linked to multiple breaches", "entities": [[0, 5, "THREAT_ACTOR"]]}
+{"text": "LockBit is known for targeting financial institutions", "entities": [[0, 7, "THREAT_ACTOR"]]}
+{"text": "Ryuk uses sophisticated evasion techniques", "entities": [[0, 4, "THREAT_ACTOR"]]}
+{"text": "Monitor for DoppelPaymer TTPs in security logs", "entities": [[12, 24, "THREAT_ACTOR"]]}
+{"text": "Monitor for Wizard Spider TTPs in security logs", "entities": [[12, 25, "THREAT_ACTOR"]]}
+{"text": "Attribution analysis points to LockBit", "entities": [[31, 38, "THREAT_ACTOR"]]}
+{"text": "Threat actor UNC2452 has been active in recent campaigns", "entities": [[13, 20, "THREAT_ACTOR"]]}
+{"text": "Investigate Turla activities in our network", "entities": [[12, 17, "THREAT_ACTOR"]]}
+{"text": "Threat actor Sandworm has been active in recent campaigns", "entities": [[13, 21, "THREAT_ACTOR"]]}
+{"text": "Egregor is known for targeting financial institutions", "entities": [[0, 7, "THREAT_ACTOR"]]}
+{"text": "Attribution analysis points to Egregor", "entities": [[31, 38, "THREAT_ACTOR"]]}
+{"text": "Sandworm is known for targeting financial institutions", "entities": [[0, 8, "THREAT_ACTOR"]]}
+{"text": "DarkSide uses sophisticated evasion techniques", "entities": [[0, 8, "THREAT_ACTOR"]]}
+{"text": "Investigate DoppelPaymer activities in our network", "entities": [[12, 24, "THREAT_ACTOR"]]}
+{"text": "APT41 is known for targeting financial institutions", "entities": [[0, 5, "THREAT_ACTOR"]]}
+{"text": "Intelligence indicates Sandworm is behind this attack", "entities": [[23, 31, "THREAT_ACTOR"]]}
+{"text": "Track Fancy Bear infrastructure and indicators", "entities": [[6, 16, "THREAT_ACTOR"]]}
+{"text": "Mespinoza has been linked to multiple breaches", "entities": [[0, 9, "THREAT_ACTOR"]]}
+{"text": "Intelligence indicates DarkSide is behind this attack", "entities": [[23, 31, "THREAT_ACTOR"]]}
+{"text": "Profile Maze capabilities and motivations", "entities": [[8, 12, "THREAT_ACTOR"]]}
+{"text": "APT28 uses sophisticated evasion techniques", "entities": [[0, 5, "THREAT_ACTOR"]]}
+{"text": "Threat actor Lazarus has been active in recent campaigns", "entities": [[13, 20, "THREAT_ACTOR"]]}
+{"text": "Attribution analysis points to APT28", "entities": [[31, 36, "THREAT_ACTOR"]]}
+{"text": "Investigate DoppelPaymer activities in our network", "entities": [[12, 24, "THREAT_ACTOR"]]}
+{"text": "Sandworm has been linked to multiple breaches", "entities": [[0, 8, "THREAT_ACTOR"]]}
+{"text": "Track Ragnar Locker infrastructure and indicators", "entities": [[6, 19, "THREAT_ACTOR"]]}
+{"text": "Threat actor Wizard Spider has been active in recent campaigns", "entities": [[13, 26, "THREAT_ACTOR"]]}
+{"text": "Intelligence indicates Equation Group is behind this attack", "entities": [[23, 37, "THREAT_ACTOR"]]}
+{"text": "Threat actor DarkSide has been active in recent campaigns", "entities": [[13, 21, "THREAT_ACTOR"]]}
+{"text": "REvil is known for targeting financial institutions", "entities": [[0, 5, "THREAT_ACTOR"]]}
+{"text": "Track Ryuk infrastructure and indicators", "entities": [[6, 10, "THREAT_ACTOR"]]}
+{"text": "Investigate Wizard Spider activities in our network", "entities": [[12, 25, "THREAT_ACTOR"]]}
+{"text": "Mespinoza has been linked to multiple breaches", "entities": [[0, 9, "THREAT_ACTOR"]]}
+{"text": "BlackCat has been linked to multiple breaches", "entities": [[0, 8, "THREAT_ACTOR"]]}
+{"text": "Intelligence indicates Turla is behind this attack", "entities": [[23, 28, "THREAT_ACTOR"]]}
+{"text": "Profile APT28 capabilities and motivations", "entities": [[8, 13, "THREAT_ACTOR"]]}
+{"text": "Monitor for BlackCat TTPs in security logs", "entities": [[12, 20, "THREAT_ACTOR"]]}
+{"text": "Turla is known for targeting financial institutions", "entities": [[0, 5, "THREAT_ACTOR"]]}
+{"text": "Monitor for Ryuk TTPs in security logs", "entities": [[12, 16, "THREAT_ACTOR"]]}
+{"text": "Investigate LockBit activities in our network", "entities": [[12, 19, "THREAT_ACTOR"]]}
+{"text": "Investigate Lazarus activities in our network", "entities": [[12, 19, "THREAT_ACTOR"]]}
+{"text": "Track DarkSide infrastructure and indicators", "entities": [[6, 14, "THREAT_ACTOR"]]}
+{"text": "Track Fancy Bear infrastructure and indicators", "entities": [[6, 16, "THREAT_ACTOR"]]}
+{"text": "Profile Ragnar Locker capabilities and motivations", "entities": [[8, 21, "THREAT_ACTOR"]]}
+{"text": "Attribution analysis points to Lazarus", "entities": [[31, 38, "THREAT_ACTOR"]]}
+{"text": "Attribution analysis points to LockBit", "entities": [[31, 38, "THREAT_ACTOR"]]}
+{"text": "Monitor for Egregor TTPs in security logs", "entities": [[12, 19, "THREAT_ACTOR"]]}
+{"text": "LockBit uses sophisticated evasion techniques", "entities": [[0, 7, "THREAT_ACTOR"]]}
+{"text": "LockBit has been linked to multiple breaches", "entities": [[0, 7, "THREAT_ACTOR"]]}
+{"text": "Attribution analysis points to ALPHV", "entities": [[31, 36, "THREAT_ACTOR"]]}
+{"text": "Profile APT28 capabilities and motivations", "entities": [[8, 13, "THREAT_ACTOR"]]}
+{"text": "Monitor for Mespinoza TTPs in security logs", "entities": [[12, 21, "THREAT_ACTOR"]]}
+{"text": "BlackCat uses sophisticated evasion techniques", "entities": [[0, 8, "THREAT_ACTOR"]]}
+{"text": "APT41 has been linked to multiple breaches", "entities": [[0, 5, "THREAT_ACTOR"]]}
+{"text": "Turla is known for targeting financial institutions", "entities": [[0, 5, "THREAT_ACTOR"]]}
+{"text": "Cozy Bear has been linked to multiple breaches", "entities": [[0, 9, "THREAT_ACTOR"]]}
+{"text": "APT29 has been linked to multiple breaches", "entities": [[0, 5, "THREAT_ACTOR"]]}
+{"text": "Track Wizard Spider infrastructure and indicators", "entities": [[6, 19, "THREAT_ACTOR"]]}
+{"text": "Monitor for Ryuk TTPs in security logs", "entities": [[12, 16, "THREAT_ACTOR"]]}
+{"text": "Attribution analysis points to APT28", "entities": [[31, 36, "THREAT_ACTOR"]]}
+{"text": "Threat actor APT41 has been active in recent campaigns", "entities": [[13, 18, "THREAT_ACTOR"]]}
+{"text": "Attribution analysis points to LockBit", "entities": [[31, 38, "THREAT_ACTOR"]]}
+{"text": "Profile Maze capabilities and motivations", "entities": [[8, 12, "THREAT_ACTOR"]]}
+{"text": "Threat actor Conti has been active in recent campaigns", "entities": [[13, 18, "THREAT_ACTOR"]]}
+{"text": "Monitor for APT41 TTPs in security logs", "entities": [[12, 17, "THREAT_ACTOR"]]}
+{"text": "Profile DoppelPaymer capabilities and motivations", "entities": [[8, 20, "THREAT_ACTOR"]]}
+{"text": "Monitor for Turla TTPs in security logs", "entities": [[12, 17, "THREAT_ACTOR"]]}
+{"text": "APT28 has been linked to multiple breaches", "entities": [[0, 5, "THREAT_ACTOR"]]}
+{"text": "Lazarus has been linked to multiple breaches", "entities": [[0, 7, "THREAT_ACTOR"]]}
+{"text": "Cozy Bear uses sophisticated evasion techniques", "entities": [[0, 9, "THREAT_ACTOR"]]}
+{"text": "Track DarkSide infrastructure and indicators", "entities": [[6, 14, "THREAT_ACTOR"]]}
+{"text": "Intelligence indicates APT28 is behind this attack", "entities": [[23, 28, "THREAT_ACTOR"]]}
+{"text": "Monitor for Maze TTPs in security logs", "entities": [[12, 16, "THREAT_ACTOR"]]}
+{"text": "Monitor for LockBit TTPs in security logs", "entities": [[12, 19, "THREAT_ACTOR"]]}
+{"text": "DoppelPaymer is known for targeting financial institutions", "entities": [[0, 12, "THREAT_ACTOR"]]}
+{"text": "Intelligence indicates Conti is behind this attack", "entities": [[23, 28, "THREAT_ACTOR"]]}
+{"text": "Monitor for FIN7 TTPs in security logs", "entities": [[12, 16, "THREAT_ACTOR"]]}
+{"text": "LockBit uses sophisticated evasion techniques", "entities": [[0, 7, "THREAT_ACTOR"]]}
+{"text": "Profile LockBit capabilities and motivations", "entities": [[8, 15, "THREAT_ACTOR"]]}
+{"text": "Attribution analysis points to Ryuk", "entities": [[31, 35, "THREAT_ACTOR"]]}
+{"text": "Track DarkSide infrastructure and indicators", "entities": [[6, 14, "THREAT_ACTOR"]]}
+{"text": "Sandworm uses sophisticated evasion techniques", "entities": [[0, 8, "THREAT_ACTOR"]]}
+{"text": "Threat actor Fancy Bear has been active in recent campaigns", "entities": [[13, 23, "THREAT_ACTOR"]]}
+{"text": "Phone +97-94-237-1448 was used in the fraudulent transaction", "entities": [[7, 22, "PHONE_NUMBER"]]}
+{"text": "Phone number (908) 224-4852 flagged for suspicious activity", "entities": [[12, 28, "PHONE_NUMBER"]]}
+{"text": "Verify phone +62-51-306-3050 ownership", "entities": [[14, 29, "PHONE_NUMBER"]]}
+{"text": "Phone (418) 742-7057 linked to multiple accounts", "entities": [[5, 21, "PHONE_NUMBER"]]}
+{"text": "Investigate phone number +1-831-687-1138", "entities": [[26, 40, "PHONE_NUMBER"]]}
+{"text": "Phone +20-82-414-2785 used in social engineering attack", "entities": [[7, 22, "PHONE_NUMBER"]]}
+{"text": "Phone number +1-771-681-1129 flagged for suspicious activity", "entities": [[14, 29, "PHONE_NUMBER"]]}
+{"text": "Trace calls from +1-712-454-2073", "entities": [[18, 32, "PHONE_NUMBER"]]}
+{"text": "Phone +1-740-322-8829 was used in the fraudulent transaction", "entities": [[7, 22, "PHONE_NUMBER"]]}
+{"text": "Phone +1-705-951-5667 was used in the fraudulent transaction", "entities": [[7, 22, "PHONE_NUMBER"]]}
+{"text": "Phone (865) 595-9519 was used in the fraudulent transaction", "entities": [[5, 21, "PHONE_NUMBER"]]}
+{"text": "Phone +44-20-7038-7554 used in social engineering attack", "entities": [[7, 23, "PHONE_NUMBER"]]}
+{"text": "Monitor communications from +98-70-502-2010", "entities": [[29, 43, "PHONE_NUMBER"]]}
+{"text": "Phone (964) 278-8067 linked to multiple accounts", "entities": [[5, 21, "PHONE_NUMBER"]]}
+{"text": "Trace calls from (629) 418-2123", "entities": [[16, 31, "PHONE_NUMBER"]]}
+{"text": "Monitor communications from +38-73-647-8183", "entities": [[29, 43, "PHONE_NUMBER"]]}
+{"text": "Contact number +44-20-7153-7633 is associated with the suspect", "entities": [[16, 32, "PHONE_NUMBER"]]}
+{"text": "Monitor communications from (777) 763-3782", "entities": [[27, 42, "PHONE_NUMBER"]]}
+{"text": "Phone +44-20-7975-8766 registered to fake identity", "entities": [[7, 23, "PHONE_NUMBER"]]}
+{"text": "Contact number (266) 719-9527 is associated with the suspect", "entities": [[14, 30, "PHONE_NUMBER"]]}
+{"text": "Phone number +1-783-849-3666 flagged for suspicious activity", "entities": [[14, 29, "PHONE_NUMBER"]]}
+{"text": "Phone +1-655-759-8331 registered to fake identity", "entities": [[7, 22, "PHONE_NUMBER"]]}
+{"text": "Contact number +54-40-950-1279 is associated with the suspect", "entities": [[16, 31, "PHONE_NUMBER"]]}
+{"text": "Phone number +54-45-533-2576 flagged for suspicious activity", "entities": [[14, 29, "PHONE_NUMBER"]]}
+{"text": "Verify phone +11-14-359-6184 ownership", "entities": [[14, 29, "PHONE_NUMBER"]]}
+{"text": "Contact number +1-917-811-1653 is associated with the suspect", "entities": [[16, 31, "PHONE_NUMBER"]]}
+{"text": "Verify phone +42-28-969-9655 ownership", "entities": [[14, 29, "PHONE_NUMBER"]]}
+{"text": "Contact number +4-94-120-6618 is associated with the suspect", "entities": [[16, 30, "PHONE_NUMBER"]]}
+{"text": "Phone +93-12-553-6900 was used in the fraudulent transaction", "entities": [[7, 22, "PHONE_NUMBER"]]}
+{"text": "Trace calls from +1-275-607-5546", "entities": [[18, 32, "PHONE_NUMBER"]]}
+{"text": "Phone number (209) 400-1907 flagged for suspicious activity", "entities": [[12, 28, "PHONE_NUMBER"]]}
+{"text": "Contact number +94-35-366-5465 is associated with the suspect", "entities": [[16, 31, "PHONE_NUMBER"]]}
+{"text": "Phone +1-267-855-2524 used in social engineering attack", "entities": [[7, 22, "PHONE_NUMBER"]]}
+{"text": "Contact number +48-77-964-5134 is associated with the suspect", "entities": [[16, 31, "PHONE_NUMBER"]]}
+{"text": "Phone +1-421-634-8239 was used in the fraudulent transaction", "entities": [[7, 22, "PHONE_NUMBER"]]}
+{"text": "Trace calls from (737) 425-4058", "entities": [[16, 31, "PHONE_NUMBER"]]}
+{"text": "Verify phone +22-55-678-6994 ownership", "entities": [[14, 29, "PHONE_NUMBER"]]}
+{"text": "Verify phone (466) 937-1767 ownership", "entities": [[12, 28, "PHONE_NUMBER"]]}
+{"text": "Verify phone +32-74-453-6155 ownership", "entities": [[14, 29, "PHONE_NUMBER"]]}
+{"text": "Contact number +4-75-439-2063 is associated with the suspect", "entities": [[16, 30, "PHONE_NUMBER"]]}
+{"text": "Trace calls from +1-543-987-8260", "entities": [[18, 32, "PHONE_NUMBER"]]}
+{"text": "Phone +44-20-7285-3830 used in social engineering attack", "entities": [[7, 23, "PHONE_NUMBER"]]}
+{"text": "Phone +17-72-276-5660 linked to multiple accounts", "entities": [[7, 22, "PHONE_NUMBER"]]}
+{"text": "Phone number +71-70-113-8985 flagged for suspicious activity", "entities": [[14, 29, "PHONE_NUMBER"]]}
+{"text": "Phone (364) 543-6964 linked to multiple accounts", "entities": [[5, 21, "PHONE_NUMBER"]]}
+{"text": "Phone (647) 213-2815 was used in the fraudulent transaction", "entities": [[5, 21, "PHONE_NUMBER"]]}
+{"text": "Monitor communications from +18-92-527-6174", "entities": [[29, 43, "PHONE_NUMBER"]]}
+{"text": "Phone +1-686-411-7277 linked to multiple accounts", "entities": [[7, 22, "PHONE_NUMBER"]]}
+{"text": "Investigate phone number +58-21-791-8658", "entities": [[26, 40, "PHONE_NUMBER"]]}
+{"text": "Monitor communications from +8-76-841-3401", "entities": [[29, 42, "PHONE_NUMBER"]]}
+{"text": "Monitor communications from +1-394-549-9885", "entities": [[29, 43, "PHONE_NUMBER"]]}
+{"text": "Phone +1-230-609-4016 linked to multiple accounts", "entities": [[7, 22, "PHONE_NUMBER"]]}
+{"text": "Trace calls from +44-20-7183-4516", "entities": [[18, 33, "PHONE_NUMBER"]]}
+{"text": "Phone +1-502-314-1491 registered to fake identity", "entities": [[7, 22, "PHONE_NUMBER"]]}
+{"text": "Trace calls from (318) 763-5534", "entities": [[16, 31, "PHONE_NUMBER"]]}
+{"text": "Monitor communications from +44-20-7696-6060", "entities": [[29, 44, "PHONE_NUMBER"]]}
+{"text": "Phone +1-223-954-4182 linked to multiple accounts", "entities": [[7, 22, "PHONE_NUMBER"]]}
+{"text": "Phone number +87-55-696-6150 flagged for suspicious activity", "entities": [[14, 29, "PHONE_NUMBER"]]}
+{"text": "Monitor communications from +44-20-7359-4177", "entities": [[29, 44, "PHONE_NUMBER"]]}
+{"text": "Phone +44-20-7836-3425 used in social engineering attack", "entities": [[7, 23, "PHONE_NUMBER"]]}
+{"text": "Email contact531@company.net associated with threat actor", "entities": [[6, 28, "EMAIL_ADDRESS"]]}
+{"text": "Account noreply519@example.com shows signs of compromise", "entities": [[8, 30, "EMAIL_ADDRESS"]]}
+{"text": "Monitor contact545@test.org for suspicious activity", "entities": [[8, 27, "EMAIL_ADDRESS"]]}
+{"text": "Email info420@test.org was compromised", "entities": [[6, 22, "EMAIL_ADDRESS"]]}
+{"text": "Email noreply957@company.net was compromised", "entities": [[6, 28, "EMAIL_ADDRESS"]]}
+{"text": "Investigate account info378@suspicious.io", "entities": [[20, 41, "EMAIL_ADDRESS"]]}
+{"text": "Contact support328@malicious.biz for security inquiry", "entities": [[8, 32, "EMAIL_ADDRESS"]]}
+{"text": "Email support577@company.net registered with fake credentials", "entities": [[6, 28, "EMAIL_ADDRESS"]]}
+{"text": "Contact user714@malicious.biz for security inquiry", "entities": [[8, 29, "EMAIL_ADDRESS"]]}
+{"text": "Account contact293@malicious.biz shows signs of compromise", "entities": [[8, 32, "EMAIL_ADDRESS"]]}
+{"text": "Email address security42@example.com linked to data breach", "entities": [[14, 36, "EMAIL_ADDRESS"]]}
+{"text": "Monitor info889@suspicious.io for suspicious activity", "entities": [[8, 29, "EMAIL_ADDRESS"]]}
+{"text": "Account admin409@test.org shows signs of compromise", "entities": [[8, 25, "EMAIL_ADDRESS"]]}
+{"text": "Email user914@suspicious.io used in phishing campaign", "entities": [[6, 27, "EMAIL_ADDRESS"]]}
+{"text": "Email security426@example.com used in phishing campaign", "entities": [[6, 29, "EMAIL_ADDRESS"]]}
+{"text": "Email address contact134@example.com linked to data breach", "entities": [[14, 36, "EMAIL_ADDRESS"]]}
+{"text": "Contact noreply880@malicious.biz for security inquiry", "entities": [[8, 32, "EMAIL_ADDRESS"]]}
+{"text": "Investigate account info858@suspicious.io", "entities": [[20, 41, "EMAIL_ADDRESS"]]}
+{"text": "Email security569@test.org registered with fake credentials", "entities": [[6, 26, "EMAIL_ADDRESS"]]}
+{"text": "Email security89@example.com was compromised", "entities": [[6, 28, "EMAIL_ADDRESS"]]}
+{"text": "Investigate account info579@malicious.biz", "entities": [[20, 41, "EMAIL_ADDRESS"]]}
+{"text": "Email address admin295@company.net linked to data breach", "entities": [[14, 34, "EMAIL_ADDRESS"]]}
+{"text": "Email noreply399@company.net used in phishing campaign", "entities": [[6, 28, "EMAIL_ADDRESS"]]}
+{"text": "Account user117@test.org shows signs of compromise", "entities": [[8, 24, "EMAIL_ADDRESS"]]}
+{"text": "Email address user247@malicious.biz linked to data breach", "entities": [[14, 35, "EMAIL_ADDRESS"]]}
+{"text": "Email admin858@test.org used in phishing campaign", "entities": [[6, 23, "EMAIL_ADDRESS"]]}
+{"text": "Monitor admin539@test.org for suspicious activity", "entities": [[8, 25, "EMAIL_ADDRESS"]]}
+{"text": "Email info471@company.net used in phishing campaign", "entities": [[6, 25, "EMAIL_ADDRESS"]]}
+{"text": "Monitor support145@company.net for suspicious activity", "entities": [[8, 30, "EMAIL_ADDRESS"]]}
+{"text": "Email user601@malicious.biz was compromised", "entities": [[6, 27, "EMAIL_ADDRESS"]]}
+{"text": "Email info55@test.org associated with threat actor", "entities": [[6, 21, "EMAIL_ADDRESS"]]}
+{"text": "Monitor noreply10@malicious.biz for suspicious activity", "entities": [[8, 31, "EMAIL_ADDRESS"]]}
+{"text": "Email admin612@suspicious.io used in phishing campaign", "entities": [[6, 28, "EMAIL_ADDRESS"]]}
+{"text": "Email address admin899@example.com linked to data breach", "entities": [[14, 34, "EMAIL_ADDRESS"]]}
+{"text": "Verify ownership of security575@test.org", "entities": [[20, 40, "EMAIL_ADDRESS"]]}
+{"text": "Investigate account contact949@company.net", "entities": [[20, 42, "EMAIL_ADDRESS"]]}
+{"text": "Email contact407@company.net was compromised", "entities": [[6, 28, "EMAIL_ADDRESS"]]}
+{"text": "Verify ownership of info579@test.org", "entities": [[20, 36, "EMAIL_ADDRESS"]]}
+{"text": "Monitor noreply546@malicious.biz for suspicious activity", "entities": [[8, 32, "EMAIL_ADDRESS"]]}
+{"text": "Email noreply893@example.com registered with fake credentials", "entities": [[6, 28, "EMAIL_ADDRESS"]]}
+{"text": "Monitor info952@company.net for suspicious activity", "entities": [[8, 27, "EMAIL_ADDRESS"]]}
+{"text": "Email security14@test.org registered with fake credentials", "entities": [[6, 25, "EMAIL_ADDRESS"]]}
+{"text": "Monitor support308@company.net for suspicious activity", "entities": [[8, 30, "EMAIL_ADDRESS"]]}
+{"text": "Investigate account admin788@example.com", "entities": [[20, 40, "EMAIL_ADDRESS"]]}
+{"text": "Email contact112@malicious.biz registered with fake credentials", "entities": [[6, 30, "EMAIL_ADDRESS"]]}
+{"text": "Email address security95@test.org linked to data breach", "entities": [[14, 33, "EMAIL_ADDRESS"]]}
+{"text": "Monitor info776@test.org for suspicious activity", "entities": [[8, 24, "EMAIL_ADDRESS"]]}
+{"text": "Email address info131@company.net linked to data breach", "entities": [[14, 33, "EMAIL_ADDRESS"]]}
+{"text": "Monitor info870@malicious.biz for suspicious activity", "entities": [[8, 29, "EMAIL_ADDRESS"]]}
+{"text": "Email address info193@suspicious.io linked to data breach", "entities": [[14, 35, "EMAIL_ADDRESS"]]}
+{"text": "Investigate account noreply840@malicious.biz", "entities": [[20, 44, "EMAIL_ADDRESS"]]}
+{"text": "Verify ownership of security837@suspicious.io", "entities": [[20, 45, "EMAIL_ADDRESS"]]}
+{"text": "Monitor user247@example.com for suspicious activity", "entities": [[8, 27, "EMAIL_ADDRESS"]]}
+{"text": "Email user370@example.com associated with threat actor", "entities": [[6, 25, "EMAIL_ADDRESS"]]}
+{"text": "Investigate account user780@malicious.biz", "entities": [[20, 41, "EMAIL_ADDRESS"]]}
+{"text": "Verify ownership of contact14@malicious.biz", "entities": [[20, 43, "EMAIL_ADDRESS"]]}
+{"text": "Email security473@example.com registered with fake credentials", "entities": [[6, 29, "EMAIL_ADDRESS"]]}
+{"text": "Account contact674@company.net shows signs of compromise", "entities": [[8, 30, "EMAIL_ADDRESS"]]}
+{"text": "Monitor contact723@suspicious.io for suspicious activity", "entities": [[8, 32, "EMAIL_ADDRESS"]]}
+{"text": "Verify ownership of noreply695@example.com", "entities": [[20, 42, "EMAIL_ADDRESS"]]}
+{"text": "Monitor traffic to https://suspicious.net/download/file", "entities": [[19, 55, "URL"]]}
+{"text": "Monitor traffic to https://company.com/search?q=test", "entities": [[19, 52, "URL"]]}
+{"text": "URL https://malicious.io/page associated with malware", "entities": [[4, 29, "URL"]]}
+{"text": "URL https://malicious.io/page flagged for phishing", "entities": [[4, 29, "URL"]]}
+{"text": "URL https://test.org/api/v1/data linked to threat actor", "entities": [[4, 32, "URL"]]}
+{"text": "Monitor traffic to https://suspicious.net/download/file", "entities": [[19, 55, "URL"]]}
+{"text": "URL https://suspicious.net/api/v1/data associated with malware", "entities": [[4, 38, "URL"]]}
+{"text": "Analyze https://company.com/api/v1/data content", "entities": [[8, 39, "URL"]]}
+{"text": "URL https://malicious.io/page used in attack campaign", "entities": [[4, 29, "URL"]]}
+{"text": "URL https://example.com/user/profile associated with malware", "entities": [[4, 36, "URL"]]}
+{"text": "Check https://malicious.io/download/file reputation", "entities": [[6, 40, "URL"]]}
+{"text": "Check https://example.com/download/file reputation", "entities": [[6, 39, "URL"]]}
+{"text": "URL https://suspicious.net/user/profile flagged for phishing", "entities": [[4, 39, "URL"]]}
+{"text": "Monitor traffic to https://suspicious.net/search?q=test", "entities": [[19, 55, "URL"]]}
+{"text": "URL https://test.org/page used in attack campaign", "entities": [[4, 25, "URL"]]}
+{"text": "URL https://test.org/user/profile linked to threat actor", "entities": [[4, 33, "URL"]]}
+{"text": "URL https://test.org/user/profile associated with malware", "entities": [[4, 33, "URL"]]}
+{"text": "URL https://malicious.io/user/profile flagged for phishing", "entities": [[4, 37, "URL"]]}
+{"text": "Check https://company.com/api/v1/data reputation", "entities": [[6, 37, "URL"]]}
+{"text": "Check https://example.com/search?q=test reputation", "entities": [[6, 39, "URL"]]}
+{"text": "Check https://company.com/page reputation", "entities": [[6, 30, "URL"]]}
+{"text": "Scan https://malicious.io/api/v1/data for vulnerabilities", "entities": [[5, 37, "URL"]]}
+{"text": "Investigate URL https://suspicious.net/search?q=test for suspicious activity", "entities": [[16, 52, "URL"]]}
+{"text": "Block access to https://company.com/page", "entities": [[16, 40, "URL"]]}
+{"text": "URL https://company.com/page used in attack campaign", "entities": [[4, 28, "URL"]]}
+{"text": "URL https://suspicious.net/search?q=test used in attack campaign", "entities": [[4, 40, "URL"]]}
+{"text": "URL https://company.com/search?q=test associated with malware", "entities": [[4, 37, "URL"]]}
+{"text": "Block access to https://test.org/api/v1/data", "entities": [[16, 44, "URL"]]}
+{"text": "Block access to https://company.com/search?q=test", "entities": [[16, 49, "URL"]]}
+{"text": "Scan https://company.com/api/v1/data for vulnerabilities", "entities": [[5, 36, "URL"]]}
+{"text": "Monitor traffic to https://example.com/page", "entities": [[19, 43, "URL"]]}
+{"text": "URL https://malicious.io/search?q=test used in attack campaign", "entities": [[4, 38, "URL"]]}
+{"text": "Block access to https://test.org/page", "entities": [[16, 37, "URL"]]}
+{"text": "URL https://test.org/search?q=test used in attack campaign", "entities": [[4, 34, "URL"]]}
+{"text": "URL https://test.org/search?q=test flagged for phishing", "entities": [[4, 34, "URL"]]}
+{"text": "Investigate URL https://company.com/api/v1/data for suspicious activity", "entities": [[16, 47, "URL"]]}
+{"text": "URL https://malicious.io/search?q=test flagged for phishing", "entities": [[4, 38, "URL"]]}
+{"text": "URL https://company.com/search?q=test associated with malware", "entities": [[4, 37, "URL"]]}
+{"text": "Investigate URL https://suspicious.net/user/profile for suspicious activity", "entities": [[16, 51, "URL"]]}
+{"text": "Investigate URL https://company.com/search?q=test for suspicious activity", "entities": [[16, 49, "URL"]]}
+{"text": "URL https://example.com/api/v1/data flagged for phishing", "entities": [[4, 35, "URL"]]}
+{"text": "Monitor traffic to https://suspicious.net/search?q=test", "entities": [[19, 55, "URL"]]}
+{"text": "Monitor traffic to https://example.com/search?q=test", "entities": [[19, 52, "URL"]]}
+{"text": "Analyze https://company.com/api/v1/data content", "entities": [[8, 39, "URL"]]}
+{"text": "Scan https://suspicious.net/search?q=test for vulnerabilities", "entities": [[5, 41, "URL"]]}
+{"text": "Monitor traffic to https://example.com/search?q=test", "entities": [[19, 52, "URL"]]}
+{"text": "URL https://company.com/user/profile linked to threat actor", "entities": [[4, 36, "URL"]]}
+{"text": "Monitor traffic to https://malicious.io/api/v1/data", "entities": [[19, 51, "URL"]]}
+{"text": "URL https://malicious.io/search?q=test linked to threat actor", "entities": [[4, 38, "URL"]]}
+{"text": "URL https://test.org/user/profile used in attack campaign", "entities": [[4, 33, "URL"]]}
+{"text": "URL https://test.org/download/file used in attack campaign", "entities": [[4, 34, "URL"]]}
+{"text": "URL https://suspicious.net/user/profile associated with malware", "entities": [[4, 39, "URL"]]}
+{"text": "Monitor traffic to https://suspicious.net/user/profile", "entities": [[19, 54, "URL"]]}
+{"text": "Block access to https://test.org/download/file", "entities": [[16, 46, "URL"]]}
+{"text": "Monitor traffic to https://test.org/user/profile", "entities": [[19, 48, "URL"]]}
+{"text": "Investigate URL https://example.com/download/file for suspicious activity", "entities": [[16, 49, "URL"]]}
+{"text": "URL https://suspicious.net/api/v1/data associated with malware", "entities": [[4, 38, "URL"]]}
+{"text": "Scan https://malicious.io/search?q=test for vulnerabilities", "entities": [[5, 39, "URL"]]}
+{"text": "Block access to https://test.org/page", "entities": [[16, 37, "URL"]]}
+{"text": "URL https://suspicious.net/page used in attack campaign", "entities": [[4, 31, "URL"]]}
+{"text": "IPv6 6c51:4c26:671:a4b1:4910:5edb:c3ef:953d associated with attack", "entities": [[5, 43, "IPV6_ADDRESS"]]}
+{"text": "IPv6 cbb9:314:ffb4:debc:5aad:6cbe:91fc:bc56 associated with attack", "entities": [[5, 43, "IPV6_ADDRESS"]]}
+{"text": "IPv6 f2c8:2839:5054:66f:dee1:fc0a:6bba:9f35 linked to threat actor", "entities": [[5, 43, "IPV6_ADDRESS"]]}
+{"text": "Block IPv6 address 28b8:c4f1:24c3:2e5b:7a1c:837a:4cb6:9717", "entities": [[19, 58, "IPV6_ADDRESS"]]}
+{"text": "IPv6 74a:9856:5b52:7797:fd0c:9d2a:86e9:dc7 associated with attack", "entities": [[5, 42, "IPV6_ADDRESS"]]}
+{"text": "Monitor 1591:be5f:d91c:ae7d:a8a8:611e:4472:72c7 for suspicious activity", "entities": [[8, 47, "IPV6_ADDRESS"]]}
+{"text": "IPv6 a215:6522:421a:2734:6cc1:20cb:c66f:b0fb associated with attack", "entities": [[5, 44, "IPV6_ADDRESS"]]}
+{"text": "Block IPv6 address 6189:ed46:88ec:7af8:e74:7c59:990e:90fd", "entities": [[19, 57, "IPV6_ADDRESS"]]}
+{"text": "IPv6 4109:de08:d974:7e9f:6aed:b2b5:708:cc0c associated with attack", "entities": [[5, 43, "IPV6_ADDRESS"]]}
+{"text": "IPv6 939c:3da7:9a0a:e887:e105:81e7:c2c7:3355 associated with attack", "entities": [[5, 44, "IPV6_ADDRESS"]]}
+{"text": "Block IPv6 address 971e:e2d9:34b4:4f13:1d34:eec9:83f3:7509", "entities": [[19, 58, "IPV6_ADDRESS"]]}
+{"text": "Traffic from ba90:aeaa:3f02:afcd:edb2:2900:5eb5:d7ac detected", "entities": [[13, 52, "IPV6_ADDRESS"]]}
+{"text": "IPv6 1486:53bb:4659:b198:5f4d:98a3:343e:290b linked to threat actor", "entities": [[5, 44, "IPV6_ADDRESS"]]}
+{"text": "IPv6 ede4:e314:ada3:3644:4bb7:26ba:50c5:d8d5 associated with attack", "entities": [[5, 44, "IPV6_ADDRESS"]]}
+{"text": "Block 71d9:9e1e:938d:7c28:76:3a95:a798:eb6e at firewall", "entities": [[6, 43, "IPV6_ADDRESS"]]}
+{"text": "Traffic from 9ddb:ac53:3815:eb40:4816:9e0c:6e7a:a340 detected", "entities": [[13, 52, "IPV6_ADDRESS"]]}
+{"text": "Block 56af:160c:66dd:16d3:2a38:e12a:d575:c699 at firewall", "entities": [[6, 45, "IPV6_ADDRESS"]]}
+{"text": "IPv6 a9ce:64be:8236:77ed:30b1:e618:6a1c:7d used in DDoS attack", "entities": [[5, 42, "IPV6_ADDRESS"]]}
+{"text": "Trace connections from e31b:afcc:d966:8d3b:74d4:878c:7963:41c2", "entities": [[23, 62, "IPV6_ADDRESS"]]}
+{"text": "IPv6 address 50b8:13d8:4082:333:31e2:8c7e:e8e9:4902 flagged", "entities": [[13, 51, "IPV6_ADDRESS"]]}
+{"text": "Investigate ad6d:e6db:a6a7:b96:d828:e7cd:227d:6b46 network activity", "entities": [[12, 50, "IPV6_ADDRESS"]]}
+{"text": "Traffic from 1ef7:d1b9:933b:22c0:70e7:a813:8ea8:27b0 detected", "entities": [[13, 52, "IPV6_ADDRESS"]]}
+{"text": "IPv6 2e34:2439:d7b5:e560:9c83:616a:4190:520f associated with attack", "entities": [[5, 44, "IPV6_ADDRESS"]]}
+{"text": "Trace connections from 6865:7f7a:c63d:7a73:7285:238c:a17d:9727", "entities": [[23, 62, "IPV6_ADDRESS"]]}
+{"text": "Traffic from be1a:61cd:757:dda4:9833:2da4:c428:e6ab detected", "entities": [[13, 51, "IPV6_ADDRESS"]]}
+{"text": "Investigate c12a:15c9:59af:cc38:2742:a918:30f8:bff network activity", "entities": [[12, 50, "IPV6_ADDRESS"]]}
+{"text": "IPv6 30ff:76a:8d23:7f98:cbee:396e:917f:e6bb linked to threat actor", "entities": [[5, 43, "IPV6_ADDRESS"]]}
+{"text": "IPv6 90d6:7c1f:ace:d210:248e:567c:297b:cd3f linked to threat actor", "entities": [[5, 43, "IPV6_ADDRESS"]]}
+{"text": "Monitor e195:80be:9d9e:af35:108d:b39c:3edc:a4a7 for suspicious activity", "entities": [[8, 47, "IPV6_ADDRESS"]]}
+{"text": "Trace connections from d549:7627:ba60:df83:5d29:8941:f067:ffd1", "entities": [[23, 62, "IPV6_ADDRESS"]]}
+{"text": "Traffic from d808:8c54:2d1a:e366:5641:636d:7a3e:1011 detected", "entities": [[13, 52, "IPV6_ADDRESS"]]}
+{"text": "IPv6 e506:57c6:d0a9:3de1:72ab:ff56:42b8:b29 linked to threat actor", "entities": [[5, 43, "IPV6_ADDRESS"]]}
+{"text": "Block IPv6 address 8902:9445:5b4e:3a37:76ce:2c85:4090:ead3", "entities": [[19, 58, "IPV6_ADDRESS"]]}
+{"text": "Traffic from 3894:a94f:ae83:a59b:602e:f23e:6127:9ba5 detected", "entities": [[13, 52, "IPV6_ADDRESS"]]}
+{"text": "IPv6 12fc:c655:ea2f:eb5f:85c0:29d9:ef39:8fd8 linked to threat actor", "entities": [[5, 44, "IPV6_ADDRESS"]]}
+{"text": "Investigate 4c7c:df69:ebf4:a835:1178:2ba2:236a:933d network activity", "entities": [[12, 51, "IPV6_ADDRESS"]]}
+{"text": "Block IPv6 address 40d7:f564:87d:2793:21e2:b122:8460:2074", "entities": [[19, 57, "IPV6_ADDRESS"]]}
+{"text": "IPv6 f992:e500:4c2:f86f:5d77:5628:cb90:7914 used in DDoS attack", "entities": [[5, 43, "IPV6_ADDRESS"]]}
+{"text": "Block IPv6 address 1d34:57d1:d2bc:71de:95dc:50be:45bf:83b", "entities": [[19, 57, "IPV6_ADDRESS"]]}
+{"text": "IPv6 2d83:bae0:622a:88d6:fb6d:1192:314e:159e used in DDoS attack", "entities": [[5, 44, "IPV6_ADDRESS"]]}
+{"text": "IPv6 address cff4:e74a:4e97:dfdb:5c34:5484:e397:d5d8 flagged", "entities": [[13, 52, "IPV6_ADDRESS"]]}
+{"text": "Block IPv6 address d449:8260:54d2:4532:fe0d:e985:e35d:7774", "entities": [[19, 58, "IPV6_ADDRESS"]]}
+{"text": "Monitor f5e9:b130:a72d:fded:1bcc:6083:c7af:e541 for suspicious activity", "entities": [[8, 47, "IPV6_ADDRESS"]]}
+{"text": "Trace connections from 7493:6123:ea7a:1c7d:b193:d2a9:263b:666e", "entities": [[23, 62, "IPV6_ADDRESS"]]}
+{"text": "Traffic from 838c:68fc:d73e:2fb2:451:d601:6df:7aec detected", "entities": [[13, 50, "IPV6_ADDRESS"]]}
+{"text": "IPv6 5350:4a12:e82e:64b9:49b0:6e8a:be3d:f544 linked to threat actor", "entities": [[5, 44, "IPV6_ADDRESS"]]}
+{"text": "IPv6 d1c8:531e:6e34:7632:857b:e215:7aa1:f4fa associated with attack", "entities": [[5, 44, "IPV6_ADDRESS"]]}
+{"text": "IPv6 60:b570:f00d:5261:7de4:5d1d:78b0:d0c1 linked to threat actor", "entities": [[5, 42, "IPV6_ADDRESS"]]}
+{"text": "IPv6 22d4:932e:6806:b025:a467:32de:ee73:8750 used in DDoS attack", "entities": [[5, 44, "IPV6_ADDRESS"]]}
+{"text": "IPv6 address f272:cfb:bc97:7e6e:7d68:72b5:7e6:398b flagged", "entities": [[13, 50, "IPV6_ADDRESS"]]}
+{"text": "Investigate URL https://company.com/page for suspicious activity", "entities": [[16, 40, "URL"]]}
+{"text": "Analyze https://example.com/search?q=test content", "entities": [[8, 41, "URL"]]}
+{"text": "URL https://test.org/api/v1/data associated with malware", "entities": [[4, 32, "URL"]]}
+{"text": "URL https://example.com/api/v1/data associated with malware", "entities": [[4, 35, "URL"]]}
+{"text": "URL https://example.com/user/profile flagged for phishing", "entities": [[4, 36, "URL"]]}
+{"text": "URL https://suspicious.net/search?q=test associated with malware", "entities": [[4, 40, "URL"]]}
+{"text": "URL https://suspicious.net/page associated with malware", "entities": [[4, 31, "URL"]]}
+{"text": "URL https://malicious.io/page used in attack campaign", "entities": [[4, 29, "URL"]]}
+{"text": "URL https://suspicious.net/user/profile used in attack campaign", "entities": [[4, 39, "URL"]]}
+{"text": "URL https://example.com/user/profile flagged for phishing", "entities": [[4, 36, "URL"]]}
+{"text": "URL https://malicious.io/download/file used in attack campaign", "entities": [[4, 38, "URL"]]}
+{"text": "URL https://malicious.io/page used in attack campaign", "entities": [[4, 29, "URL"]]}
+{"text": "URL https://example.com/user/profile associated with malware", "entities": [[4, 36, "URL"]]}
+{"text": "URL https://example.com/page used in attack campaign", "entities": [[4, 28, "URL"]]}
+{"text": "Block access to https://test.org/api/v1/data", "entities": [[16, 44, "URL"]]}
+{"text": "URL https://company.com/search?q=test flagged for phishing", "entities": [[4, 37, "URL"]]}
+{"text": "URL https://malicious.io/user/profile flagged for phishing", "entities": [[4, 37, "URL"]]}
+{"text": "Block access to https://example.com/api/v1/data", "entities": [[16, 47, "URL"]]}
+{"text": "Scan https://company.com/search?q=test for vulnerabilities", "entities": [[5, 38, "URL"]]}
+{"text": "URL https://suspicious.net/user/profile used in attack campaign", "entities": [[4, 39, "URL"]]}
+{"text": "URL https://company.com/api/v1/data used in attack campaign", "entities": [[4, 35, "URL"]]}
+{"text": "Monitor traffic to https://example.com/download/file", "entities": [[19, 52, "URL"]]}
+{"text": "Scan https://suspicious.net/download/file for vulnerabilities", "entities": [[5, 41, "URL"]]}
+{"text": "Monitor traffic to https://suspicious.net/search?q=test", "entities": [[19, 55, "URL"]]}
+{"text": "Monitor traffic to https://malicious.io/download/file", "entities": [[19, 53, "URL"]]}
+{"text": "Scan https://test.org/page for vulnerabilities", "entities": [[5, 26, "URL"]]}
+{"text": "URL https://malicious.io/search?q=test associated with malware", "entities": [[4, 38, "URL"]]}
+{"text": "Investigate URL https://example.com/user/profile for suspicious activity", "entities": [[16, 48, "URL"]]}
+{"text": "URL https://company.com/search?q=test used in attack campaign", "entities": [[4, 37, "URL"]]}
+{"text": "URL https://suspicious.net/download/file linked to threat actor", "entities": [[4, 40, "URL"]]}
+{"text": "URL https://company.com/search?q=test flagged for phishing", "entities": [[4, 37, "URL"]]}
+{"text": "URL https://suspicious.net/search?q=test associated with malware", "entities": [[4, 40, "URL"]]}
+{"text": "Check https://malicious.io/api/v1/data reputation", "entities": [[6, 38, "URL"]]}
+{"text": "URL https://malicious.io/download/file linked to threat actor", "entities": [[4, 38, "URL"]]}
+{"text": "URL https://malicious.io/search?q=test linked to threat actor", "entities": [[4, 38, "URL"]]}
+{"text": "URL https://malicious.io/search?q=test used in attack campaign", "entities": [[4, 38, "URL"]]}
+{"text": "URL https://example.com/search?q=test associated with malware", "entities": [[4, 37, "URL"]]}
+{"text": "URL https://test.org/user/profile linked to threat actor", "entities": [[4, 33, "URL"]]}
+{"text": "Check https://example.com/search?q=test reputation", "entities": [[6, 39, "URL"]]}
+{"text": "Check https://malicious.io/user/profile reputation", "entities": [[6, 39, "URL"]]}
+{"text": "Check https://company.com/search?q=test reputation", "entities": [[6, 39, "URL"]]}
+{"text": "URL https://test.org/page associated with malware", "entities": [[4, 25, "URL"]]}
+{"text": "Check https://test.org/download/file reputation", "entities": [[6, 36, "URL"]]}
+{"text": "Monitor traffic to https://malicious.io/api/v1/data", "entities": [[19, 51, "URL"]]}
+{"text": "URL https://malicious.io/page associated with malware", "entities": [[4, 29, "URL"]]}
+{"text": "URL https://test.org/download/file linked to threat actor", "entities": [[4, 34, "URL"]]}
+{"text": "Check https://suspicious.net/page reputation", "entities": [[6, 33, "URL"]]}
+{"text": "Check https://malicious.io/search?q=test reputation", "entities": [[6, 40, "URL"]]}
+{"text": "URL https://company.com/user/profile flagged for phishing", "entities": [[4, 36, "URL"]]}
+{"text": "Check https://test.org/page reputation", "entities": [[6, 27, "URL"]]}
+{"text": "Monitor traffic to https://example.com/search?q=test", "entities": [[19, 52, "URL"]]}
+{"text": "Analyze https://example.com/search?q=test content", "entities": [[8, 41, "URL"]]}
+{"text": "Block access to https://company.com/download/file", "entities": [[16, 49, "URL"]]}
+{"text": "URL https://example.com/download/file linked to threat actor", "entities": [[4, 37, "URL"]]}
+{"text": "Analyze https://test.org/download/file content", "entities": [[8, 38, "URL"]]}
+{"text": "URL https://suspicious.net/search?q=test linked to threat actor", "entities": [[4, 40, "URL"]]}
+{"text": "URL https://malicious.io/search?q=test used in attack campaign", "entities": [[4, 38, "URL"]]}
+{"text": "Analyze https://malicious.io/user/profile content", "entities": [[8, 41, "URL"]]}
+{"text": "URL https://malicious.io/download/file flagged for phishing", "entities": [[4, 38, "URL"]]}
+{"text": "Analyze https://malicious.io/api/v1/data content", "entities": [[8, 40, "URL"]]}
+{"text": "Traffic from 727d:ae8c:6279:173:ef89:40e4:c2f3:d31e detected", "entities": [[13, 51, "IPV6_ADDRESS"]]}
+{"text": "IPv6 address d2d3:db28:4f98:c308:2eb2:131d:d40a:315b flagged", "entities": [[13, 52, "IPV6_ADDRESS"]]}
+{"text": "Trace connections from 9183:820c:87db:c71a:fd20:84d5:6c0b:fd01", "entities": [[23, 62, "IPV6_ADDRESS"]]}
+{"text": "Traffic from e70f:7820:7953:9eaa:5998:3840:6d78:1c5b detected", "entities": [[13, 52, "IPV6_ADDRESS"]]}
+{"text": "Trace connections from decc:c99:32b:9d7a:490b:e0c5:a605:48c2", "entities": [[23, 60, "IPV6_ADDRESS"]]}
+{"text": "Trace connections from 93d2:d91a:ab88:2b5d:ad1c:4428:b775:6a5d", "entities": [[23, 62, "IPV6_ADDRESS"]]}
+{"text": "Block IPv6 address c3cb:f77b:35b1:fa90:3af3:8abb:e536:f300", "entities": [[19, 58, "IPV6_ADDRESS"]]}
+{"text": "Block IPv6 address 47bd:9c02:cf6c:f036:c9a6:d4be:6d81:6779", "entities": [[19, 58, "IPV6_ADDRESS"]]}
+{"text": "IPv6 479a:761a:4de6:960b:ce26:8c5c:6ff2:50d1 linked to threat actor", "entities": [[5, 44, "IPV6_ADDRESS"]]}
+{"text": "Trace connections from 971f:93f2:9627:141:f42c:aac4:c820:2dc9", "entities": [[23, 61, "IPV6_ADDRESS"]]}
+{"text": "Investigate ccac:d198:c104:3cca:afe4:662:b216:ad19 network activity", "entities": [[12, 50, "IPV6_ADDRESS"]]}
+{"text": "Investigate d0f8:b425:6f5:896f:78ac:443a:bd43:8415 network activity", "entities": [[12, 50, "IPV6_ADDRESS"]]}
+{"text": "Monitor 508e:3773:db08:d1b4:a0dc:aa9:825:607a for suspicious activity", "entities": [[8, 45, "IPV6_ADDRESS"]]}
+{"text": "IPv6 41ad:5fad:32e8:2a1b:ec34:9d53:a0f:b6c4 linked to threat actor", "entities": [[5, 43, "IPV6_ADDRESS"]]}
+{"text": "Traffic from 9ddb:ecf4:8bb4:e304:96d8:2156:34bd:8b00 detected", "entities": [[13, 52, "IPV6_ADDRESS"]]}
+{"text": "Investigate 4f83:5632:8175:c820:b7e2:b2de:dd62:3dcb network activity", "entities": [[12, 51, "IPV6_ADDRESS"]]}
+{"text": "Block IPv6 address 2e47:a3d4:ef27:b11c:f9c:a273:1f23:98ed", "entities": [[19, 57, "IPV6_ADDRESS"]]}
+{"text": "Trace connections from 85c3:7ee3:31ee:acd7:5a54:4f05:6e51:d7d6", "entities": [[23, 62, "IPV6_ADDRESS"]]}
+{"text": "Monitor bf8d:9658:1d51:7b6c:1d78:1900:d23c:2524 for suspicious activity", "entities": [[8, 47, "IPV6_ADDRESS"]]}
+{"text": "IPv6 c3ca:bc35:ad7a:8419:f2e0:e0a4:cf6b:bf84 associated with attack", "entities": [[5, 44, "IPV6_ADDRESS"]]}
+{"text": "Block 6470:9fad:8590:62b0:c127:b373:57ad:96a1 at firewall", "entities": [[6, 45, "IPV6_ADDRESS"]]}
+{"text": "IPv6 2e2f:49d:65dd:5555:f3eb:b31:859f:bf47 associated with attack", "entities": [[5, 42, "IPV6_ADDRESS"]]}
+{"text": "Traffic from 3e61:f1cd:f24f:4704:6a3:209b:c4a:82c9 detected", "entities": [[13, 50, "IPV6_ADDRESS"]]}
+{"text": "Block eb5b:7dfa:619e:abf9:fa31:17cf:2a33:e385 at firewall", "entities": [[6, 45, "IPV6_ADDRESS"]]}
+{"text": "Investigate 1e5e:2011:a591:c211:1270:9ca7:d1cf:a945 network activity", "entities": [[12, 51, "IPV6_ADDRESS"]]}
+{"text": "IPv6 24e8:ce1d:8ca8:13fd:167d:a21e:8458:13a8 linked to threat actor", "entities": [[5, 44, "IPV6_ADDRESS"]]}
+{"text": "Traffic from 4248:f0a8:88dd:3e69:7654:bad3:4cd4:a866 detected", "entities": [[13, 52, "IPV6_ADDRESS"]]}
+{"text": "Block IPv6 address f1f4:146f:ee44:2d13:c712:a67b:a632:93d0", "entities": [[19, 58, "IPV6_ADDRESS"]]}
+{"text": "Investigate 3a3b:b6cb:b431:973b:fb2b:7c1b:70dc:4cb2 network activity", "entities": [[12, 51, "IPV6_ADDRESS"]]}
+{"text": "Monitor 24e7:efb0:8fdb:c878:aa10:33ca:628d:b6db for suspicious activity", "entities": [[8, 47, "IPV6_ADDRESS"]]}
+{"text": "Traffic from 1f43:2355:d355:eb9a:a227:3171:4102:ec7 detected", "entities": [[13, 51, "IPV6_ADDRESS"]]}
+{"text": "Monitor 708b:2ad6:91cb:604d:6493:3c98:24a0:a717 for suspicious activity", "entities": [[8, 47, "IPV6_ADDRESS"]]}
+{"text": "IPv6 dd36:ca4a:dd4e:54e3:a196:7df9:f3a9:de4c associated with attack", "entities": [[5, 44, "IPV6_ADDRESS"]]}
+{"text": "Traffic from 2036:142a:50b5:abf8:9faf:25e4:22f4:f532 detected", "entities": [[13, 52, "IPV6_ADDRESS"]]}
+{"text": "Block 8bba:8c9f:373d:22b:d20d:a4b6:1ded:8ad8 at firewall", "entities": [[6, 44, "IPV6_ADDRESS"]]}
+{"text": "IPv6 address 3707:3b:7ef6:b887:46d:40c6:fce2:8f92 flagged", "entities": [[13, 49, "IPV6_ADDRESS"]]}
+{"text": "Trace connections from 935d:50e0:b481:2893:7067:2a46:b2bb:be0b", "entities": [[23, 62, "IPV6_ADDRESS"]]}
+{"text": "IPv6 6441:8e05:12d6:8d0:a9ef:c09a:eb92:49e5 associated with attack", "entities": [[5, 43, "IPV6_ADDRESS"]]}
+{"text": "Block 5b8c:3dec:ab1f:fc9a:20cb:af11:eab3:cf7e at firewall", "entities": [[6, 45, "IPV6_ADDRESS"]]}
+{"text": "Trace connections from 11f7:11d5:f026:c48d:fc5a:e071:398a:40d2", "entities": [[23, 62, "IPV6_ADDRESS"]]}
+{"text": "Monitor 61c:9499:6334:ea36:95e2:802a:70c6:1006 for suspicious activity", "entities": [[8, 46, "IPV6_ADDRESS"]]}
+{"text": "Trace connections from 3478:fd04:289f:1d3a:484a:69da:7d57:d66f", "entities": [[23, 62, "IPV6_ADDRESS"]]}
+{"text": "Investigate 1af2:8a20:3607:5dd7:9695:96ab:2f14:da5d network activity", "entities": [[12, 51, "IPV6_ADDRESS"]]}
+{"text": "Trace connections from 6b7f:d8d5:4248:c7a7:3f43:98e:f89d:72fa", "entities": [[23, 61, "IPV6_ADDRESS"]]}
+{"text": "IPv6 9bb6:1044:b119:a342:8eb2:bcb3:4178:4824 associated with attack", "entities": [[5, 44, "IPV6_ADDRESS"]]}
+{"text": "IPv6 aa5:1675:302f:b8d6:719c:2a0b:1c8a:b37c linked to threat actor", "entities": [[5, 43, "IPV6_ADDRESS"]]}
+{"text": "IPv6 df43:5634:b4d8:fc6e:cd35:84d:65a8:412a associated with attack", "entities": [[5, 43, "IPV6_ADDRESS"]]}
+{"text": "Traffic from 5e07:306f:20c3:76d4:722e:993:98e9:18f9 detected", "entities": [[13, 51, "IPV6_ADDRESS"]]}
+{"text": "IPv6 address fc91:886:86e1:5364:4d05:9452:a8d0:f86e flagged", "entities": [[13, 51, "IPV6_ADDRESS"]]}
+{"text": "Monitor 3ce7:e3ad:2adf:2a0d:23e3:8c4c:cfbd:11e6 for suspicious activity", "entities": [[8, 47, "IPV6_ADDRESS"]]}
+{"text": "Repository mojombo/malware-analysis contains sensitive data", "entities": [[11, 35, "GITHUB_REPO"]]}
+{"text": "Scan ezmobius/security-tool for vulnerabilities", "entities": [[5, 27, "GITHUB_REPO"]]}
+{"text": "Repository microsoft/vulnerability-scanner contains malware", "entities": [[11, 42, "GITHUB_REPO"]]}
+{"text": "Monitor twitter/pentest-toolkit for updates", "entities": [[8, 31, "GITHUB_REPO"]]}
+{"text": "Analyze apple/security-tool source code", "entities": [[8, 27, "GITHUB_REPO"]]}
+{"text": "Check github/threat-intel commit history", "entities": [[6, 25, "GITHUB_REPO"]]}
+{"text": "Analyze tj/vulnerability-scanner source code", "entities": [[8, 32, "GITHUB_REPO"]]}
+{"text": "Analyze apple/pentest-toolkit source code", "entities": [[8, 29, "GITHUB_REPO"]]}
+{"text": "Check defunkt/security-tool commit history", "entities": [[6, 27, "GITHUB_REPO"]]}
+{"text": "Monitor docker/awesome-project for updates", "entities": [[8, 30, "GITHUB_REPO"]]}
+{"text": "Clone github/awesome-project for analysis", "entities": [[6, 28, "GITHUB_REPO"]]}
+{"text": "Clone tj/forensics-tool for analysis", "entities": [[6, 23, "GITHUB_REPO"]]}
+{"text": "Repository tj/awesome-project contains malware", "entities": [[11, 29, "GITHUB_REPO"]]}
+{"text": "Scan defunkt/osint-framework for vulnerabilities", "entities": [[5, 28, "GITHUB_REPO"]]}
+{"text": "Scan defunkt/malware-analysis for vulnerabilities", "entities": [[5, 29, "GITHUB_REPO"]]}
+{"text": "Repo netflix/malware-analysis linked to threat actor", "entities": [[5, 29, "GITHUB_REPO"]]}
+{"text": "Repository defunkt/forensics-tool contains sensitive data", "entities": [[11, 33, "GITHUB_REPO"]]}
+{"text": "Monitor airbnb/forensics-tool for updates", "entities": [[8, 29, "GITHUB_REPO"]]}
+{"text": "Monitor github/osint-framework for updates", "entities": [[8, 30, "GITHUB_REPO"]]}
+{"text": "Repo ezmobius/pentest-toolkit flagged for security issues", "entities": [[5, 29, "GITHUB_REPO"]]}
+{"text": "Analyze pjhyatt/threat-intel source code", "entities": [[8, 28, "GITHUB_REPO"]]}
+{"text": "Repo docker/malware-analysis flagged for security issues", "entities": [[5, 28, "GITHUB_REPO"]]}
+{"text": "Check ezmobius/security-tool commit history", "entities": [[6, 28, "GITHUB_REPO"]]}
+{"text": "Monitor pjhyatt/vulnerability-scanner for updates", "entities": [[8, 37, "GITHUB_REPO"]]}
+{"text": "Scan octocat/forensics-tool for vulnerabilities", "entities": [[5, 27, "GITHUB_REPO"]]}
+{"text": "Repository torvalds/security-tool contains malware", "entities": [[11, 33, "GITHUB_REPO"]]}
+{"text": "Check github/vulnerability-scanner commit history", "entities": [[6, 34, "GITHUB_REPO"]]}
+{"text": "Monitor docker/osint-framework for updates", "entities": [[8, 30, "GITHUB_REPO"]]}
+{"text": "Repository brynary/osint-framework contains malware", "entities": [[11, 34, "GITHUB_REPO"]]}
+{"text": "Monitor microsoft/security-tool for updates", "entities": [[8, 31, "GITHUB_REPO"]]}
+{"text": "Repository netflix/pentest-toolkit under investigation", "entities": [[11, 34, "GITHUB_REPO"]]}
+{"text": "Analyze tj/malware-analysis source code", "entities": [[8, 27, "GITHUB_REPO"]]}
+{"text": "Check gaearon/malware-analysis commit history", "entities": [[6, 30, "GITHUB_REPO"]]}
+{"text": "Repository netflix/awesome-project contains malware", "entities": [[11, 34, "GITHUB_REPO"]]}
+{"text": "Clone mojombo/osint-framework for analysis", "entities": [[6, 29, "GITHUB_REPO"]]}
+{"text": "Repository tj/malware-analysis contains malware", "entities": [[11, 30, "GITHUB_REPO"]]}
+{"text": "Repo defunkt/pentest-toolkit flagged for security issues", "entities": [[5, 28, "GITHUB_REPO"]]}
+{"text": "Scan netflix/vulnerability-scanner for vulnerabilities", "entities": [[5, 34, "GITHUB_REPO"]]}
+{"text": "Repository torvalds/vulnerability-scanner under investigation", "entities": [[11, 41, "GITHUB_REPO"]]}
+{"text": "Clone gaearon/vulnerability-scanner for analysis", "entities": [[6, 35, "GITHUB_REPO"]]}
+{"text": "Repository torvalds/forensics-tool contains sensitive data", "entities": [[11, 34, "GITHUB_REPO"]]}
+{"text": "Repository github/vulnerability-scanner under investigation", "entities": [[11, 39, "GITHUB_REPO"]]}
+{"text": "Repository facebook/vulnerability-scanner under investigation", "entities": [[11, 41, "GITHUB_REPO"]]}
+{"text": "Repository microsoft/pentest-toolkit contains sensitive data", "entities": [[11, 36, "GITHUB_REPO"]]}
+{"text": "Scan airbnb/awesome-project for vulnerabilities", "entities": [[5, 27, "GITHUB_REPO"]]}
+{"text": "Analyze apple/malware-analysis source code", "entities": [[8, 30, "GITHUB_REPO"]]}
+{"text": "Scan octocat/pentest-toolkit for vulnerabilities", "entities": [[5, 28, "GITHUB_REPO"]]}
+{"text": "Repo wycats/threat-intel flagged for security issues", "entities": [[5, 24, "GITHUB_REPO"]]}
+{"text": "Clone github/threat-intel for analysis", "entities": [[6, 25, "GITHUB_REPO"]]}
+{"text": "Check tj/security-tool commit history", "entities": [[6, 22, "GITHUB_REPO"]]}
+{"text": "URL https://github.com/github/vulnerability-scanner flagged", "entities": [[4, 51, "GITHUB_REPO_URL"]]}
+{"text": "Analyze https://github.com/docker/osint-framework/releases source code", "entities": [[8, 58, "GITHUB_REPO_URL"]]}
+{"text": "URL https://github.com/airbnb/awesome-project/tree/main flagged", "entities": [[4, 55, "GITHUB_REPO_URL"]]}
+{"text": "Clone from https://github.com/github/vulnerability-scanner/issues", "entities": [[11, 65, "GITHUB_REPO_URL"]]}
+{"text": "Clone from https://github.com/google/osint-framework/pulls", "entities": [[11, 58, "GITHUB_REPO_URL"]]}
+{"text": "Repository https://github.com/uber/security-tool/releases associated with attack", "entities": [[11, 57, "GITHUB_REPO_URL"]]}
+{"text": "Repository URL https://github.com/google/osint-framework/releases under investigation", "entities": [[15, 65, "GITHUB_REPO_URL"]]}
+{"text": "Clone from https://github.com/google/awesome-project/pulls", "entities": [[11, 58, "GITHUB_REPO_URL"]]}
+{"text": "Clone from https://github.com/wycats/vulnerability-scanner/releases", "entities": [[11, 67, "GITHUB_REPO_URL"]]}
+{"text": "Clone from https://github.com/netflix/osint-framework/pulls", "entities": [[11, 59, "GITHUB_REPO_URL"]]}
+{"text": "URL https://github.com/docker/vulnerability-scanner/blob/main/README.md flagged", "entities": [[4, 71, "GITHUB_REPO_URL"]]}
+{"text": "Check https://github.com/google/osint-framework/releases commit history", "entities": [[6, 56, "GITHUB_REPO_URL"]]}
+{"text": "Check https://github.com/octocat/security-tool/tree/main commit history", "entities": [[6, 56, "GITHUB_REPO_URL"]]}
+{"text": "URL https://github.com/microsoft/security-tool/blob/main/README.md flagged", "entities": [[4, 66, "GITHUB_REPO_URL"]]}
+{"text": "Clone from https://github.com/google/osint-framework/pulls", "entities": [[11, 58, "GITHUB_REPO_URL"]]}
+{"text": "Repository URL https://github.com/pjhyatt/awesome-project/tree/main under investigation", "entities": [[15, 67, "GITHUB_REPO_URL"]]}
+{"text": "Scan https://github.com/github/osint-framework/tree/main for security issues", "entities": [[5, 56, "GITHUB_REPO_URL"]]}
+{"text": "Monitor https://github.com/airbnb/awesome-project for suspicious activity", "entities": [[8, 49, "GITHUB_REPO_URL"]]}
+{"text": "Check https://github.com/apple/osint-framework/releases commit history", "entities": [[6, 55, "GITHUB_REPO_URL"]]}
+{"text": "Repository https://github.com/mojombo/awesome-project/blob/main/README.md contains vulnerabilities", "entities": [[11, 73, "GITHUB_REPO_URL"]]}
+{"text": "Repository https://github.com/octocat/awesome-project/releases contains vulnerabilities", "entities": [[11, 62, "GITHUB_REPO_URL"]]}
+{"text": "Monitor https://github.com/pjhyatt/security-tool/releases for suspicious activity", "entities": [[8, 57, "GITHUB_REPO_URL"]]}
+{"text": "Repository https://github.com/google/vulnerability-scanner/issues associated with attack", "entities": [[11, 65, "GITHUB_REPO_URL"]]}
+{"text": "Clone from https://github.com/github/security-tool/issues", "entities": [[11, 57, "GITHUB_REPO_URL"]]}
+{"text": "Check https://github.com/docker/vulnerability-scanner/tree/main commit history", "entities": [[6, 63, "GITHUB_REPO_URL"]]}
+{"text": "Check https://github.com/brynary/awesome-project/issues commit history", "entities": [[6, 55, "GITHUB_REPO_URL"]]}
+{"text": "URL https://github.com/apple/osint-framework/blob/main/README.md linked to threat actor", "entities": [[4, 64, "GITHUB_REPO_URL"]]}
+{"text": "Repository URL https://github.com/wycats/vulnerability-scanner/releases under investigation", "entities": [[15, 71, "GITHUB_REPO_URL"]]}
+{"text": "Repository https://github.com/google/security-tool/pulls associated with attack", "entities": [[11, 56, "GITHUB_REPO_URL"]]}
+{"text": "Scan https://github.com/octocat/awesome-project/pulls for security issues", "entities": [[5, 53, "GITHUB_REPO_URL"]]}
+{"text": "URL https://github.com/tj/awesome-project/pulls linked to threat actor", "entities": [[4, 47, "GITHUB_REPO_URL"]]}
+{"text": "URL https://github.com/octocat/vulnerability-scanner linked to threat actor", "entities": [[4, 52, "GITHUB_REPO_URL"]]}
+{"text": "Check https://github.com/mojombo/security-tool/pulls commit history", "entities": [[6, 52, "GITHUB_REPO_URL"]]}
+{"text": "Scan https://github.com/pjhyatt/security-tool/pulls for security issues", "entities": [[5, 51, "GITHUB_REPO_URL"]]}
+{"text": "Scan https://github.com/gaearon/vulnerability-scanner/tree/main for security issues", "entities": [[5, 63, "GITHUB_REPO_URL"]]}
+{"text": "Check https://github.com/airbnb/awesome-project commit history", "entities": [[6, 47, "GITHUB_REPO_URL"]]}
+{"text": "Check https://github.com/brynary/osint-framework/issues commit history", "entities": [[6, 55, "GITHUB_REPO_URL"]]}
+{"text": "Repository https://github.com/ezmobius/awesome-project/blob/main/README.md contains vulnerabilities", "entities": [[11, 74, "GITHUB_REPO_URL"]]}
+{"text": "URL https://github.com/tj/osint-framework linked to threat actor", "entities": [[4, 41, "GITHUB_REPO_URL"]]}
+{"text": "Scan https://github.com/ezmobius/awesome-project/blob/main/README.md for security issues", "entities": [[5, 68, "GITHUB_REPO_URL"]]}
+{"text": "Check https://github.com/twitter/awesome-project/issues commit history", "entities": [[6, 55, "GITHUB_REPO_URL"]]}
+{"text": "Scan https://github.com/ezmobius/osint-framework/blob/main/README.md for security issues", "entities": [[5, 68, "GITHUB_REPO_URL"]]}
+{"text": "Repository https://github.com/docker/vulnerability-scanner/tree/main associated with attack", "entities": [[11, 68, "GITHUB_REPO_URL"]]}
+{"text": "Repository URL https://github.com/mojombo/security-tool/pulls under investigation", "entities": [[15, 61, "GITHUB_REPO_URL"]]}
+{"text": "URL https://github.com/uber/osint-framework/tree/main flagged", "entities": [[4, 53, "GITHUB_REPO_URL"]]}
+{"text": "Scan https://github.com/github/osint-framework/pulls for security issues", "entities": [[5, 52, "GITHUB_REPO_URL"]]}
+{"text": "Analyze https://github.com/docker/vulnerability-scanner source code", "entities": [[8, 55, "GITHUB_REPO_URL"]]}
+{"text": "Check https://github.com/brynary/awesome-project/releases commit history", "entities": [[6, 57, "GITHUB_REPO_URL"]]}
+{"text": "Monitor https://github.com/gaearon/vulnerability-scanner/blob/main/README.md for suspicious activity", "entities": [[8, 76, "GITHUB_REPO_URL"]]}
+{"text": "Repository https://github.com/airbnb/awesome-project/issues associated with attack", "entities": [[11, 59, "GITHUB_REPO_URL"]]}
+{"text": "Repository https://github.com/wycats/awesome-project/tree/main associated with attack", "entities": [[11, 62, "GITHUB_REPO_URL"]]}
+{"text": "URL https://github.com/defunkt/osint-framework/pulls linked to threat actor", "entities": [[4, 52, "GITHUB_REPO_URL"]]}
+{"text": "Repository https://github.com/google/awesome-project contains vulnerabilities", "entities": [[11, 52, "GITHUB_REPO_URL"]]}
+{"text": "Monitor https://github.com/tj/awesome-project/pulls for suspicious activity", "entities": [[8, 51, "GITHUB_REPO_URL"]]}
+{"text": "URL https://github.com/octocat/vulnerability-scanner/issues flagged", "entities": [[4, 59, "GITHUB_REPO_URL"]]}
+{"text": "URL https://github.com/facebook/vulnerability-scanner/tree/main linked to threat actor", "entities": [[4, 63, "GITHUB_REPO_URL"]]}
+{"text": "Clone from https://github.com/facebook/awesome-project/pulls", "entities": [[11, 60, "GITHUB_REPO_URL"]]}
+{"text": "Monitor https://github.com/docker/vulnerability-scanner/blob/main/README.md for suspicious activity", "entities": [[8, 75, "GITHUB_REPO_URL"]]}
+{"text": "Analyze https://github.com/brynary/security-tool/pulls source code", "entities": [[8, 54, "GITHUB_REPO_URL"]]}
+{"text": "Analyze https://github.com/apple/awesome-project/blob/main/README.md source code", "entities": [[8, 68, "GITHUB_REPO_URL"]]}
+{"text": "User wycats repositories analyzed", "entities": [[5, 11, "GITHUB_USER"]]}
+{"text": "User defunkt repositories analyzed", "entities": [[5, 12, "GITHUB_USER"]]}
+{"text": "GitHub account @tj suspicious", "entities": [[15, 18, "GITHUB_USER"]]}
+{"text": "Monitor defunkt repositories", "entities": [[8, 15, "GITHUB_USER"]]}
+{"text": "GitHub account wycats suspicious", "entities": [[15, 21, "GITHUB_USER"]]}
+{"text": "User @wycats linked to threat actor", "entities": [[5, 12, "GITHUB_USER"]]}
+{"text": "User torvalds linked to threat actor", "entities": [[5, 13, "GITHUB_USER"]]}
+{"text": "Account defunkt verified", "entities": [[8, 15, "GITHUB_USER"]]}
+{"text": "GitHub account @gaearon suspicious", "entities": [[15, 23, "GITHUB_USER"]]}
+{"text": "GitHub user @brynary in contact list", "entities": [[12, 20, "GITHUB_USER"]]}
+{"text": "Profile @gaearon under review", "entities": [[8, 16, "GITHUB_USER"]]}
+{"text": "GitHub account brynary suspicious", "entities": [[15, 22, "GITHUB_USER"]]}
+{"text": "GitHub account @ezmobius suspicious", "entities": [[15, 24, "GITHUB_USER"]]}
+{"text": "User pjhyatt linked to threat actor", "entities": [[5, 12, "GITHUB_USER"]]}
+{"text": "GitHub user octocat in contact list", "entities": [[12, 19, "GITHUB_USER"]]}
+{"text": "Account @ezmobius associated with attack", "entities": [[8, 17, "GITHUB_USER"]]}
+{"text": "Profile @torvalds flagged", "entities": [[8, 17, "GITHUB_USER"]]}
+{"text": "Profile @brynary under review", "entities": [[8, 16, "GITHUB_USER"]]}
+{"text": "User @tj linked to threat actor", "entities": [[5, 8, "GITHUB_USER"]]}
+{"text": "Monitor wycats repositories", "entities": [[8, 14, "GITHUB_USER"]]}
+{"text": "Monitor brynary repositories", "entities": [[8, 15, "GITHUB_USER"]]}
+{"text": "Profile @pjhyatt under review", "entities": [[8, 16, "GITHUB_USER"]]}
+{"text": "GitHub user ezmobius in contact list", "entities": [[12, 20, "GITHUB_USER"]]}
+{"text": "GitHub user octocat in contact list", "entities": [[12, 19, "GITHUB_USER"]]}
+{"text": "GitHub user @defunkt in contact list", "entities": [[12, 20, "GITHUB_USER"]]}
+{"text": "Account @gaearon verified", "entities": [[8, 16, "GITHUB_USER"]]}
+{"text": "Profile ezmobius under review", "entities": [[8, 16, "GITHUB_USER"]]}
+{"text": "GitHub user @octocat in contact list", "entities": [[12, 20, "GITHUB_USER"]]}
+{"text": "GitHub account @pjhyatt suspicious", "entities": [[15, 23, "GITHUB_USER"]]}
+{"text": "Monitor gaearon repositories", "entities": [[8, 15, "GITHUB_USER"]]}
+{"text": "Account gaearon verified", "entities": [[8, 15, "GITHUB_USER"]]}
+{"text": "Account @tj associated with attack", "entities": [[8, 11, "GITHUB_USER"]]}
+{"text": "User defunkt linked to threat actor", "entities": [[5, 12, "GITHUB_USER"]]}
+{"text": "GitHub account @tj suspicious", "entities": [[15, 18, "GITHUB_USER"]]}
+{"text": "Account torvalds verified", "entities": [[8, 16, "GITHUB_USER"]]}
+{"text": "Profile @ezmobius flagged", "entities": [[8, 17, "GITHUB_USER"]]}
+{"text": "User @ezmobius linked to threat actor", "entities": [[5, 14, "GITHUB_USER"]]}
+{"text": "User tj repositories analyzed", "entities": [[5, 7, "GITHUB_USER"]]}
+{"text": "Account mojombo verified", "entities": [[8, 15, "GITHUB_USER"]]}
+{"text": "Profile @gaearon under review", "entities": [[8, 16, "GITHUB_USER"]]}
+{"text": "Gist https://gist.github.com/gaearon/21075097edbfed96458f86201298f998 contains malware", "entities": [[5, 69, "GITHUB_GIST"]]}
+{"text": "Gist https://gist.github.com/gaearon/e9ee664ae53e7bfe4314a68267bacf14 under investigation", "entities": [[5, 69, "GITHUB_GIST"]]}
+{"text": "Analyze gist https://gist.github.com/defunkt/6a2c604bff206e54d88f17d3db005202", "entities": [[13, 77, "GITHUB_GIST"]]}
+{"text": "Gist https://gist.github.com/tj/fd206bb19de714be27f6896935f08886 under investigation", "entities": [[5, 64, "GITHUB_GIST"]]}
+{"text": "Gist https://gist.github.com/defunkt/96e2ae8646412c945affad0438ff6341 linked to threat", "entities": [[5, 69, "GITHUB_GIST"]]}
+{"text": "Review https://gist.github.com/gaearon/3644b3c69c12309db52f4cfcacb67fb4 content", "entities": [[7, 71, "GITHUB_GIST"]]}
+{"text": "Gist https://gist.github.com/wycats/203882d928a1a34c72b3d69fd8e305bb contains sensitive code", "entities": [[5, 68, "GITHUB_GIST"]]}
+{"text": "Gist https://gist.github.com/brynary/ca29927ccdcee0dc5063973e7d840f6c under investigation", "entities": [[5, 69, "GITHUB_GIST"]]}
+{"text": "Gist https://gist.github.com/brynary/c15568ae300986b50f13e55a9ae31a67 contains malware", "entities": [[5, 69, "GITHUB_GIST"]]}
+{"text": "Gist https://gist.github.com/tj/01657a91d8d067d10b1453c7f2b54ebf linked to threat", "entities": [[5, 64, "GITHUB_GIST"]]}
+{"text": "Analyze gist https://gist.github.com/pjhyatt/dfa0ed45e3e25b4de58794e7ef73887b", "entities": [[13, 77, "GITHUB_GIST"]]}
+{"text": "Analyze https://gist.github.com/ezmobius/0bf48ab299bbb51dade6ef6c522c8d7f code", "entities": [[8, 73, "GITHUB_GIST"]]}
+{"text": "Check https://gist.github.com/wycats/c4afedbb8dffa2c81fd3889253f6e79e for vulnerabilities", "entities": [[6, 69, "GITHUB_GIST"]]}
+{"text": "Gist https://gist.github.com/wycats/2fe5ee102a0a2f4c54a398d67287c516 linked to threat", "entities": [[5, 68, "GITHUB_GIST"]]}
+{"text": "Monitor https://gist.github.com/brynary/58aa6b8fb05c29e85f1dfb772ab93e5a for changes", "entities": [[8, 72, "GITHUB_GIST"]]}
+{"text": "Gist https://gist.github.com/defunkt/47a798a709625987a29df9ba55e692d4 flagged for security issues", "entities": [[5, 69, "GITHUB_GIST"]]}
+{"text": "Review https://gist.github.com/pjhyatt/4f0845b09e529561993cb8fe124495af content", "entities": [[7, 71, "GITHUB_GIST"]]}
+{"text": "Review https://gist.github.com/torvalds/f9cabecb6909ab645e8422a112233bfd content", "entities": [[7, 72, "GITHUB_GIST"]]}
+{"text": "Monitor https://gist.github.com/tj/da841364765ce7fa45f1b53ced596ced for changes", "entities": [[8, 67, "GITHUB_GIST"]]}
+{"text": "Gist https://gist.github.com/torvalds/8a650acd177e2b2600f864731d6de7bf under investigation", "entities": [[5, 70, "GITHUB_GIST"]]}
+{"text": "Gist https://gist.github.com/pjhyatt/917e52b08cd0a5d63c7d1fcab1c96ac6 under investigation", "entities": [[5, 69, "GITHUB_GIST"]]}
+{"text": "Gist https://gist.github.com/brynary/2ea2c87450b4262cde5c428174f929fa contains sensitive code", "entities": [[5, 69, "GITHUB_GIST"]]}
+{"text": "Monitor https://gist.github.com/octocat/955a31853d1fab10ce94920799efb512 for changes", "entities": [[8, 72, "GITHUB_GIST"]]}
+{"text": "Review https://gist.github.com/tj/51d9aaf266ab0d4f317a93524301e2f7 content", "entities": [[7, 66, "GITHUB_GIST"]]}
+{"text": "Monitor https://gist.github.com/torvalds/e821ca518fdb3fe23cd205220a863249 for changes", "entities": [[8, 73, "GITHUB_GIST"]]}
+{"text": "Review https://gist.github.com/tj/180391f5648af37cf82c5732c21441f7 content", "entities": [[7, 66, "GITHUB_GIST"]]}
+{"text": "Gist https://gist.github.com/torvalds/228e44aa53ace02dce0c11b08f15d5fd flagged for security issues", "entities": [[5, 70, "GITHUB_GIST"]]}
+{"text": "Monitor https://gist.github.com/torvalds/702dec6342fc29aa8be05ffc6772fa1d for changes", "entities": [[8, 73, "GITHUB_GIST"]]}
+{"text": "Gist https://gist.github.com/octocat/689ea8e748d63cad380bd2d61d9e1160 contains sensitive code", "entities": [[5, 69, "GITHUB_GIST"]]}
+{"text": "Gist https://gist.github.com/mojombo/d71eb95307859134b84e50ddc5a3e28c flagged for security issues", "entities": [[5, 69, "GITHUB_GIST"]]}
+{"text": "Gist https://gist.github.com/defunkt/5b8509270889b408fe000634fa232bd1 contains sensitive code", "entities": [[5, 69, "GITHUB_GIST"]]}
+{"text": "Check https://gist.github.com/defunkt/2e0cfb01b162fbaad57f890723285c39 for vulnerabilities", "entities": [[6, 70, "GITHUB_GIST"]]}
+{"text": "Gist https://gist.github.com/tj/baa610fd3f7413c7ab359de945777a1b contains malware", "entities": [[5, 64, "GITHUB_GIST"]]}
+{"text": "Gist https://gist.github.com/wycats/f08422dd05ad9b97a6b15f3068b1cd7d flagged for security issues", "entities": [[5, 68, "GITHUB_GIST"]]}
+{"text": "Monitor https://gist.github.com/mojombo/24b8bb1cbad2894320968bce9b477f95 for changes", "entities": [[8, 72, "GITHUB_GIST"]]}
+{"text": "Gist https://gist.github.com/gaearon/3f67ed23678f695134af33d4f96ab777 contains malware", "entities": [[5, 69, "GITHUB_GIST"]]}
+{"text": "Check https://gist.github.com/octocat/a24b455b3a9e64ce2af9b03b694d85fe for vulnerabilities", "entities": [[6, 70, "GITHUB_GIST"]]}
+{"text": "Monitor https://gist.github.com/brynary/07d00710268263d51e55c82b7aada79f for changes", "entities": [[8, 72, "GITHUB_GIST"]]}
+{"text": "Gist https://gist.github.com/defunkt/732b2161daa8a8bb597f4f0274adc7fd contains sensitive code", "entities": [[5, 69, "GITHUB_GIST"]]}
+{"text": "Monitor https://gist.github.com/torvalds/d4291551b2bc531dc606806675cafebb for changes", "entities": [[8, 73, "GITHUB_GIST"]]}
+{"text": "Gist https://gist.github.com/gaearon/f5359aa5d6265e548e938942b1251d71 under investigation", "entities": [[5, 69, "GITHUB_GIST"]]}
+{"text": "Gist https://gist.github.com/pjhyatt/49a553b63abb13cf9025d4afb3cf1e1e contains malware", "entities": [[5, 69, "GITHUB_GIST"]]}
+{"text": "Gist https://gist.github.com/tj/2471ce11ad37db9000b92dc31c3add7f flagged for security issues", "entities": [[5, 64, "GITHUB_GIST"]]}
+{"text": "Review https://gist.github.com/ezmobius/1c088aa4df1bf05031e56c8274d899d0 content", "entities": [[7, 72, "GITHUB_GIST"]]}
+{"text": "Monitor https://gist.github.com/torvalds/2c700738d8c35da32d49f4bfaef299b7 for changes", "entities": [[8, 73, "GITHUB_GIST"]]}
+{"text": "Gist https://gist.github.com/gaearon/5ac9d0a55b4ec361ebe6f54b00ed804f linked to threat", "entities": [[5, 69, "GITHUB_GIST"]]}
+{"text": "Analyze https://gist.github.com/gaearon/cd5176d4d7594b8218ad311b67fd1d5b code", "entities": [[8, 72, "GITHUB_GIST"]]}
+{"text": "Gist https://gist.github.com/mojombo/fe6eb5886f50a04aba6eb448133079ee under investigation", "entities": [[5, 69, "GITHUB_GIST"]]}
+{"text": "Check https://gist.github.com/torvalds/3cac805c1b31b923ad5c2614cbb9779d for vulnerabilities", "entities": [[6, 71, "GITHUB_GIST"]]}
+{"text": "Analyze https://gist.github.com/ezmobius/b21ff913d7aea65fc59cbf1c3673930b code", "entities": [[8, 73, "GITHUB_GIST"]]}
+{"text": "Issue #1169 contains vulnerability details", "entities": [[6, 11, "GITHUB_ISSUE"]]}
+{"text": "Issue #7191 contains exploit code", "entities": [[6, 11, "GITHUB_ISSUE"]]}
+{"text": "Check #7719 for disclosure", "entities": [[6, 11, "GITHUB_ISSUE"]]}
+{"text": "Analyze #3250 comments", "entities": [[8, 13, "GITHUB_ISSUE"]]}
+{"text": "Monitor issue #2087", "entities": [[14, 19, "GITHUB_ISSUE"]]}
+{"text": "Review #9057 for sensitive data", "entities": [[7, 12, "GITHUB_ISSUE"]]}
+{"text": "Monitor issue #1065", "entities": [[14, 19, "GITHUB_ISSUE"]]}
+{"text": "Issue #5899 under investigation", "entities": [[6, 11, "GITHUB_ISSUE"]]}
+{"text": "Review #621 for sensitive data", "entities": [[7, 11, "GITHUB_ISSUE"]]}
+{"text": "Issue #507 contains vulnerability details", "entities": [[6, 10, "GITHUB_ISSUE"]]}
+{"text": "Issue #7608 contains exploit code", "entities": [[6, 11, "GITHUB_ISSUE"]]}
+{"text": "Review #680 for sensitive data", "entities": [[7, 11, "GITHUB_ISSUE"]]}
+{"text": "Issue #9420 linked to threat", "entities": [[6, 11, "GITHUB_ISSUE"]]}
+{"text": "Issue #5614 contains vulnerability details", "entities": [[6, 11, "GITHUB_ISSUE"]]}
+{"text": "Issue #6723 flagged for security", "entities": [[6, 11, "GITHUB_ISSUE"]]}
+{"text": "Issue #6413 contains vulnerability details", "entities": [[6, 11, "GITHUB_ISSUE"]]}
+{"text": "Issue #3131 flagged for security", "entities": [[6, 11, "GITHUB_ISSUE"]]}
+{"text": "Review #1957 content", "entities": [[7, 12, "GITHUB_ISSUE"]]}
+{"text": "Issue #4578 flagged for security", "entities": [[6, 11, "GITHUB_ISSUE"]]}
+{"text": "Monitor issue #3432", "entities": [[14, 19, "GITHUB_ISSUE"]]}
+{"text": "Analyze #5384 comments", "entities": [[8, 13, "GITHUB_ISSUE"]]}
+{"text": "Review #7972 for sensitive data", "entities": [[7, 12, "GITHUB_ISSUE"]]}
+{"text": "Issue #1136 under investigation", "entities": [[6, 11, "GITHUB_ISSUE"]]}
+{"text": "Monitor issue #475", "entities": [[14, 18, "GITHUB_ISSUE"]]}
+{"text": "Issue #5542 linked to threat", "entities": [[6, 11, "GITHUB_ISSUE"]]}
+{"text": "Issue #610 linked to threat", "entities": [[6, 10, "GITHUB_ISSUE"]]}
+{"text": "Issue #9306 contains exploit code", "entities": [[6, 11, "GITHUB_ISSUE"]]}
+{"text": "Issue #9958 linked to threat", "entities": [[6, 11, "GITHUB_ISSUE"]]}
+{"text": "Issue #1109 linked to threat", "entities": [[6, 11, "GITHUB_ISSUE"]]}
+{"text": "Issue #1537 contains vulnerability details", "entities": [[6, 11, "GITHUB_ISSUE"]]}
+{"text": "Review #1091 content", "entities": [[7, 12, "GITHUB_ISSUE"]]}
+{"text": "Issue #5306 under investigation", "entities": [[6, 11, "GITHUB_ISSUE"]]}
+{"text": "Issue #646 linked to threat", "entities": [[6, 10, "GITHUB_ISSUE"]]}
+{"text": "Issue #1738 flagged for security", "entities": [[6, 11, "GITHUB_ISSUE"]]}
+{"text": "Check #8571 for disclosure", "entities": [[6, 11, "GITHUB_ISSUE"]]}
+{"text": "Analyze #6414 comments", "entities": [[8, 13, "GITHUB_ISSUE"]]}
+{"text": "Monitor issue #587", "entities": [[14, 18, "GITHUB_ISSUE"]]}
+{"text": "Analyze #4196 comments", "entities": [[8, 13, "GITHUB_ISSUE"]]}
+{"text": "Analyze #7056 comments", "entities": [[8, 13, "GITHUB_ISSUE"]]}
+{"text": "Issue #9188 flagged for security", "entities": [[6, 11, "GITHUB_ISSUE"]]}
+{"text": "Issue #2563 contains vulnerability details", "entities": [[6, 11, "GITHUB_ISSUE"]]}
+{"text": "Issue #7038 flagged for security", "entities": [[6, 11, "GITHUB_ISSUE"]]}
+{"text": "Check #9 for disclosure", "entities": [[6, 8, "GITHUB_ISSUE"]]}
+{"text": "Check #4062 for disclosure", "entities": [[6, 11, "GITHUB_ISSUE"]]}
+{"text": "Monitor issue #1805", "entities": [[14, 19, "GITHUB_ISSUE"]]}
+{"text": "Issue #2899 contains exploit code", "entities": [[6, 11, "GITHUB_ISSUE"]]}
+{"text": "Check #3371 for disclosure", "entities": [[6, 11, "GITHUB_ISSUE"]]}
+{"text": "Analyze #1119 comments", "entities": [[8, 13, "GITHUB_ISSUE"]]}
+{"text": "Issue #7630 contains vulnerability details", "entities": [[6, 11, "GITHUB_ISSUE"]]}
+{"text": "Issue #4382 contains exploit code", "entities": [[6, 11, "GITHUB_ISSUE"]]}
+{"text": "Monitor issue #9365", "entities": [[14, 19, "GITHUB_ISSUE"]]}
+{"text": "Issue #9077 linked to threat", "entities": [[6, 11, "GITHUB_ISSUE"]]}
+{"text": "Review #426 content", "entities": [[7, 11, "GITHUB_ISSUE"]]}
+{"text": "Review #3169 for sensitive data", "entities": [[7, 12, "GITHUB_ISSUE"]]}
+{"text": "Review #9949 content", "entities": [[7, 12, "GITHUB_ISSUE"]]}
+{"text": "Check #1185 for disclosure", "entities": [[6, 11, "GITHUB_ISSUE"]]}
+{"text": "Review #2323 for sensitive data", "entities": [[7, 12, "GITHUB_ISSUE"]]}
+{"text": "Issue #7185 contains vulnerability details", "entities": [[6, 11, "GITHUB_ISSUE"]]}
+{"text": "Issue #4513 contains vulnerability details", "entities": [[6, 11, "GITHUB_ISSUE"]]}
+{"text": "Check #19 for disclosure", "entities": [[6, 9, "GITHUB_ISSUE"]]}
+{"text": "Issue #2072 contains exploit code", "entities": [[6, 11, "GITHUB_ISSUE"]]}
+{"text": "Analyze #7519 comments", "entities": [[8, 13, "GITHUB_ISSUE"]]}
+{"text": "Issue #9131 contains exploit code", "entities": [[6, 11, "GITHUB_ISSUE"]]}
+{"text": "Issue #234 contains vulnerability details", "entities": [[6, 10, "GITHUB_ISSUE"]]}
+{"text": "Issue #5194 contains exploit code", "entities": [[6, 11, "GITHUB_ISSUE"]]}
+{"text": "Analyze #9286 comments", "entities": [[8, 13, "GITHUB_ISSUE"]]}
+{"text": "Examine e6d141017cc36557e4fdf80246d8d1bc21a77ba3 modifications", "entities": [[8, 48, "GITHUB_COMMIT"]]}
+{"text": "Commit 47685caa flagged for review", "entities": [[7, 15, "GITHUB_COMMIT"]]}
+{"text": "Examine a752647 modifications", "entities": [[8, 15, "GITHUB_COMMIT"]]}
+{"text": "Commit 4c823a5 contains backdoor", "entities": [[7, 14, "GITHUB_COMMIT"]]}
+{"text": "Commit 116258d428a23219ed00fda9184701f277ea7ec7 contains malicious code", "entities": [[7, 47, "GITHUB_COMMIT"]]}
+{"text": "Commit 0e069e4 contains backdoor", "entities": [[7, 14, "GITHUB_COMMIT"]]}
+{"text": "Commit f4ca539b8e3baf45094f74ff444e059ef86bb56a flagged for review", "entities": [[7, 47, "GITHUB_COMMIT"]]}
+{"text": "Analyze 93973b6 changes", "entities": [[8, 15, "GITHUB_COMMIT"]]}
+{"text": "Commit 0ba127efe8a09e9ef746b6beb08201ec37a67d76 contains backdoor", "entities": [[7, 47, "GITHUB_COMMIT"]]}
+{"text": "Commit 3ddef53 flagged for review", "entities": [[7, 14, "GITHUB_COMMIT"]]}
+{"text": "Examine 367bfde7302388d1c4d00dfefeb004e44181c858 modifications", "entities": [[8, 48, "GITHUB_COMMIT"]]}
+{"text": "Commit 0f1315aeda3667d98241fe98d5e62a10eb3e6e2d contains malicious code", "entities": [[7, 47, "GITHUB_COMMIT"]]}
+{"text": "Commit 616b28a5164efd82ee89537f1d05c31c0797d5bd flagged for review", "entities": [[7, 47, "GITHUB_COMMIT"]]}
+{"text": "Commit bca7dfaa3c37787649f2c758eecf1cf7b176563c contains backdoor", "entities": [[7, 47, "GITHUB_COMMIT"]]}
+{"text": "Examine 5edcd01 modifications", "entities": [[8, 15, "GITHUB_COMMIT"]]}
+{"text": "Commit 172d00c3 contains malicious code", "entities": [[7, 15, "GITHUB_COMMIT"]]}
+{"text": "Examine 878b587e modifications", "entities": [[8, 16, "GITHUB_COMMIT"]]}
+{"text": "Analyze 38e83727e34679d7cdd6c87a88585a17284876b6 changes", "entities": [[8, 48, "GITHUB_COMMIT"]]}
+{"text": "Review 7b58a34 diff", "entities": [[7, 14, "GITHUB_COMMIT"]]}
+{"text": "Commit 452b4a8f under investigation", "entities": [[7, 15, "GITHUB_COMMIT"]]}
+{"text": "Commit 0b6e7428dceddda7a14d97715bdc67b12938f208 linked to attack", "entities": [[7, 47, "GITHUB_COMMIT"]]}
+{"text": "Analyze 1292e6d0 changes", "entities": [[8, 16, "GITHUB_COMMIT"]]}
+{"text": "Check 2be6ad8 changes", "entities": [[6, 13, "GITHUB_COMMIT"]]}
+{"text": "Examine c48b5ce1450a8e6fc8ef14b5143ef53b6cc44168 modifications", "entities": [[8, 48, "GITHUB_COMMIT"]]}
+{"text": "Analyze commit c45e62d853f05f7be035156a44d4e93ffdd97cc7", "entities": [[15, 55, "GITHUB_COMMIT"]]}
+{"text": "Review cdc16cfc diff", "entities": [[7, 15, "GITHUB_COMMIT"]]}
+{"text": "Examine 4ead6207 modifications", "entities": [[8, 16, "GITHUB_COMMIT"]]}
+{"text": "Analyze 102d435c63b086b5926ba0e3f1a1b476fa59cda5 changes", "entities": [[8, 48, "GITHUB_COMMIT"]]}
+{"text": "Review 423308d9 diff", "entities": [[7, 15, "GITHUB_COMMIT"]]}
+{"text": "Commit 027510c4 under investigation", "entities": [[7, 15, "GITHUB_COMMIT"]]}
+{"text": "Examine b9633e1 modifications", "entities": [[8, 15, "GITHUB_COMMIT"]]}
+{"text": "Commit ff552e0e flagged for review", "entities": [[7, 15, "GITHUB_COMMIT"]]}
+{"text": "Commit 35bb703 under investigation", "entities": [[7, 14, "GITHUB_COMMIT"]]}
+{"text": "Commit 849c9c9 contains backdoor", "entities": [[7, 14, "GITHUB_COMMIT"]]}
+{"text": "Commit 7b260acd under investigation", "entities": [[7, 15, "GITHUB_COMMIT"]]}
+{"text": "Commit ef4497f3 linked to attack", "entities": [[7, 15, "GITHUB_COMMIT"]]}
+{"text": "Commit 46a6525292593f58e641ecb964ebcda7ac410fc1 linked to attack", "entities": [[7, 47, "GITHUB_COMMIT"]]}
+{"text": "Commit 8b42d8e5 linked to attack", "entities": [[7, 15, "GITHUB_COMMIT"]]}
+{"text": "Commit 35c9c43edbaf607c799b4fe8ac6837ff8234175c linked to attack", "entities": [[7, 47, "GITHUB_COMMIT"]]}
+{"text": "Examine 75a5477 modifications", "entities": [[8, 15, "GITHUB_COMMIT"]]}
+{"text": "Review 59e1441c diff", "entities": [[7, 15, "GITHUB_COMMIT"]]}
+{"text": "Commit cf383aa9 flagged for review", "entities": [[7, 15, "GITHUB_COMMIT"]]}
+{"text": "Review aa73c447ae2be5f1e04ad3ef934cce48e77784eb diff", "entities": [[7, 47, "GITHUB_COMMIT"]]}
+{"text": "Commit 1dec0f1 contains malicious code", "entities": [[7, 14, "GITHUB_COMMIT"]]}
+{"text": "Commit 6c00d5fc contains malicious code", "entities": [[7, 15, "GITHUB_COMMIT"]]}
+{"text": "Check f8ab75e7 changes", "entities": [[6, 14, "GITHUB_COMMIT"]]}
+{"text": "Commit fd4f90675951e3af264beba95eba9ed78273556d under investigation", "entities": [[7, 47, "GITHUB_COMMIT"]]}
+{"text": "Commit 2063c56c under investigation", "entities": [[7, 15, "GITHUB_COMMIT"]]}
+{"text": "Commit 5d843f4 contains malicious code", "entities": [[7, 14, "GITHUB_COMMIT"]]}
+{"text": "Analyze 5f3baf6da452f21785cabab2e56292f6ac5dd58f changes", "entities": [[8, 48, "GITHUB_COMMIT"]]}
+{"text": "Analyze commit e59fd355014af161d6477325046c35befe5fb96b", "entities": [[15, 55, "GITHUB_COMMIT"]]}
+{"text": "Analyze commit b28e0e9", "entities": [[15, 22, "GITHUB_COMMIT"]]}
+{"text": "Commit 8728effc contains backdoor", "entities": [[7, 15, "GITHUB_COMMIT"]]}
+{"text": "Commit f516de1640dd7d20375469243950f85ed5fef7cc flagged for review", "entities": [[7, 47, "GITHUB_COMMIT"]]}
+{"text": "Commit 6057893 linked to attack", "entities": [[7, 14, "GITHUB_COMMIT"]]}
+{"text": "Examine d837526 modifications", "entities": [[8, 15, "GITHUB_COMMIT"]]}
+{"text": "Commit c62a984 flagged for review", "entities": [[7, 14, "GITHUB_COMMIT"]]}
+{"text": "Commit 2a2d61e29c40caec11778ceece7cd1292acb8473 contains malicious code", "entities": [[7, 47, "GITHUB_COMMIT"]]}
+{"text": "Commit 386da1bf contains backdoor", "entities": [[7, 15, "GITHUB_COMMIT"]]}
+{"text": "Analyze 4380491a changes", "entities": [[8, 16, "GITHUB_COMMIT"]]}
+{"text": "Commit b064cd927aea2a5b26c352d7211da6d8aa1d4489 flagged for review", "entities": [[7, 47, "GITHUB_COMMIT"]]}
+{"text": "Commit 3a8adf43ff66eb7578a5fa2d117b50c26115bc40 contains backdoor", "entities": [[7, 47, "GITHUB_COMMIT"]]}
+{"text": "Review 85b6220b diff", "entities": [[7, 15, "GITHUB_COMMIT"]]}
+{"text": "Analyze cc82a7ad592662835beed35a8498a030cc166c47 changes", "entities": [[8, 48, "GITHUB_COMMIT"]]}
+{"text": "Review 51a037f8 diff", "entities": [[7, 15, "GITHUB_COMMIT"]]}
+{"text": "Commit 067d7dbe flagged for review", "entities": [[7, 15, "GITHUB_COMMIT"]]}

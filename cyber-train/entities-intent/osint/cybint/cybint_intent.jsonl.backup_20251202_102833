@@ -1,0 +1,648 @@
+{"text": "Check if this IP address is a known threat", "intents": {"INVESTIGATE": 1.0, "DETECT": 1.0, "VALIDATE": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 1.0}}
+{"text": "Track malware sample_18 behavior", "intents": {"INVESTIGATE": 1.0, "TRACK": 1.0, "ANALYZE": 1.0, "DETECT": 0.0, "MONITOR": 0.0, "VALIDATE": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Track malware sample_78 behavior", "intents": {"INVESTIGATE": 1.0, "TRACK": 1.0, "ANALYZE": 1.0, "DETECT": 0.0, "MONITOR": 0.0, "VALIDATE": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Find indicators for campaign_14", "intents": {"INVESTIGATE": 1.0, "DETECT": 1.0, "ENRICH": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Check IOC database for indicator_41", "intents": {"INVESTIGATE": 1.0, "DETECT": 1.0, "VALIDATE": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 1.0}}
+{"text": "Track malware sample_23 behavior", "intents": {"INVESTIGATE": 1.0, "TRACK": 1.0, "ANALYZE": 1.0, "DETECT": 0.0, "MONITOR": 0.0, "VALIDATE": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Check IOC database for indicator_46", "intents": {"INVESTIGATE": 1.0, "DETECT": 1.0, "VALIDATE": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 1.0}}
+{"text": "Find indicators for campaign_34", "intents": {"INVESTIGATE": 1.0, "DETECT": 1.0, "ENRICH": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Check IOC database for indicator_86", "intents": {"INVESTIGATE": 1.0, "DETECT": 1.0, "VALIDATE": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 1.0}}
+{"text": "Find indicators for campaign_44", "intents": {"INVESTIGATE": 1.0, "DETECT": 1.0, "ENRICH": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Analyze threat actor_75 targeting sector_75", "intents": {"INVESTIGATE": 1.0, "ANALYZE": 1.0, "DETECT": 1.0, "MONITOR": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Check if this IP address is a known threat", "intents": {"INVESTIGATE": 1.0, "DETECT": 1.0, "VALIDATE": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 1.0}}
+{"text": "Track malware sample_53 behavior", "intents": {"INVESTIGATE": 1.0, "TRACK": 1.0, "ANALYZE": 1.0, "DETECT": 0.0, "MONITOR": 0.0, "VALIDATE": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Track malware sample_38 behavior", "intents": {"INVESTIGATE": 1.0, "TRACK": 1.0, "ANALYZE": 1.0, "DETECT": 0.0, "MONITOR": 0.0, "VALIDATE": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Map campaign infrastructure for threat_77", "intents": {"INVESTIGATE": 1.0, "MAP": 1.0, "ANALYZE": 1.0, "DETECT": 1.0, "MONITOR": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Find indicators for campaign_29", "intents": {"INVESTIGATE": 1.0, "DETECT": 1.0, "ENRICH": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Analyze threat actor_40 targeting sector_40", "intents": {"INVESTIGATE": 1.0, "ANALYZE": 1.0, "DETECT": 1.0, "MONITOR": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Map campaign infrastructure for threat_47", "intents": {"INVESTIGATE": 1.0, "MAP": 1.0, "ANALYZE": 1.0, "DETECT": 1.0, "MONITOR": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Track malware sample_13 behavior", "intents": {"INVESTIGATE": 1.0, "TRACK": 1.0, "ANALYZE": 1.0, "DETECT": 0.0, "MONITOR": 0.0, "VALIDATE": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Map campaign infrastructure for threat_67", "intents": {"INVESTIGATE": 1.0, "MAP": 1.0, "ANALYZE": 1.0, "DETECT": 1.0, "MONITOR": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Track malware sample_53 behavior", "intents": {"INVESTIGATE": 1.0, "TRACK": 1.0, "ANALYZE": 1.0, "DETECT": 0.0, "MONITOR": 0.0, "VALIDATE": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Find indicators for campaign_94", "intents": {"INVESTIGATE": 1.0, "DETECT": 1.0, "ENRICH": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Map the campaign infrastructure for this threat", "intents": {"INVESTIGATE": 1.0, "MAP": 1.0, "ANALYZE": 1.0, "DETECT": 1.0, "MONITOR": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Analyze threat actor_10 targeting sector_10", "intents": {"INVESTIGATE": 1.0, "ANALYZE": 1.0, "DETECT": 1.0, "MONITOR": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Check IOC database for indicator_86", "intents": {"INVESTIGATE": 1.0, "DETECT": 1.0, "VALIDATE": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 1.0}}
+{"text": "Track malware sample_18 behavior", "intents": {"INVESTIGATE": 1.0, "TRACK": 1.0, "ANALYZE": 1.0, "DETECT": 0.0, "MONITOR": 0.0, "VALIDATE": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Find indicators for campaign_24", "intents": {"INVESTIGATE": 1.0, "DETECT": 1.0, "ENRICH": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Find indicators for campaign_9", "intents": {"INVESTIGATE": 1.0, "DETECT": 1.0, "ENRICH": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Find indicators for campaign_4", "intents": {"INVESTIGATE": 1.0, "DETECT": 1.0, "ENRICH": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Map campaign infrastructure for threat_92", "intents": {"INVESTIGATE": 1.0, "MAP": 1.0, "ANALYZE": 1.0, "DETECT": 1.0, "MONITOR": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Analyze threat actor_30 targeting sector_30", "intents": {"INVESTIGATE": 1.0, "ANALYZE": 1.0, "DETECT": 1.0, "MONITOR": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Track malware sample_23 behavior", "intents": {"INVESTIGATE": 1.0, "TRACK": 1.0, "ANALYZE": 1.0, "DETECT": 0.0, "MONITOR": 0.0, "VALIDATE": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Analyze threat actor_70 targeting sector_70", "intents": {"INVESTIGATE": 1.0, "ANALYZE": 1.0, "DETECT": 1.0, "MONITOR": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Track malware sample_23 behavior", "intents": {"INVESTIGATE": 1.0, "TRACK": 1.0, "ANALYZE": 1.0, "DETECT": 0.0, "MONITOR": 0.0, "VALIDATE": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Map campaign infrastructure for threat_37", "intents": {"INVESTIGATE": 1.0, "MAP": 1.0, "ANALYZE": 1.0, "DETECT": 1.0, "MONITOR": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Check if this IP address is a known threat", "intents": {"INVESTIGATE": 1.0, "DETECT": 1.0, "VALIDATE": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 1.0}}
+{"text": "Check IOC database for indicator_71", "intents": {"INVESTIGATE": 1.0, "DETECT": 1.0, "VALIDATE": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 1.0}}
+{"text": "Map campaign infrastructure for threat_32", "intents": {"INVESTIGATE": 1.0, "MAP": 1.0, "ANALYZE": 1.0, "DETECT": 1.0, "MONITOR": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Map campaign infrastructure for threat_2", "intents": {"INVESTIGATE": 1.0, "MAP": 1.0, "ANALYZE": 1.0, "DETECT": 1.0, "MONITOR": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Analyze threat actor_35 targeting sector_35", "intents": {"INVESTIGATE": 1.0, "ANALYZE": 1.0, "DETECT": 1.0, "MONITOR": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Track malware sample_3 behavior", "intents": {"INVESTIGATE": 1.0, "TRACK": 1.0, "ANALYZE": 1.0, "DETECT": 0.0, "MONITOR": 0.0, "VALIDATE": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Find indicators for campaign_9", "intents": {"INVESTIGATE": 1.0, "DETECT": 1.0, "ENRICH": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Find indicators for campaign_34", "intents": {"INVESTIGATE": 1.0, "DETECT": 1.0, "ENRICH": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Analyze threat actor_30 targeting sector_30", "intents": {"INVESTIGATE": 1.0, "ANALYZE": 1.0, "DETECT": 1.0, "MONITOR": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Analyze threat actor_0 targeting sector_0", "intents": {"INVESTIGATE": 1.0, "ANALYZE": 1.0, "DETECT": 1.0, "MONITOR": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Track malware sample_43 behavior", "intents": {"INVESTIGATE": 1.0, "TRACK": 1.0, "ANALYZE": 1.0, "DETECT": 0.0, "MONITOR": 0.0, "VALIDATE": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Find indicators for campaign_24", "intents": {"INVESTIGATE": 1.0, "DETECT": 1.0, "ENRICH": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Track malware sample_8 behavior", "intents": {"INVESTIGATE": 1.0, "TRACK": 1.0, "ANALYZE": 1.0, "DETECT": 0.0, "MONITOR": 0.0, "VALIDATE": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Analyze threat actor_65 targeting sector_65", "intents": {"INVESTIGATE": 1.0, "ANALYZE": 1.0, "DETECT": 1.0, "MONITOR": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Find indicators for campaign_44", "intents": {"INVESTIGATE": 1.0, "DETECT": 1.0, "ENRICH": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Find indicators for campaign_39", "intents": {"INVESTIGATE": 1.0, "DETECT": 1.0, "ENRICH": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Find indicators for campaign_34", "intents": {"INVESTIGATE": 1.0, "DETECT": 1.0, "ENRICH": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Track malware sample_13 behavior", "intents": {"INVESTIGATE": 1.0, "TRACK": 1.0, "ANALYZE": 1.0, "DETECT": 0.0, "MONITOR": 0.0, "VALIDATE": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Check IOC database for indicator_31", "intents": {"INVESTIGATE": 1.0, "DETECT": 1.0, "VALIDATE": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 1.0}}
+{"text": "Map campaign infrastructure for threat_32", "intents": {"INVESTIGATE": 1.0, "MAP": 1.0, "ANALYZE": 1.0, "DETECT": 1.0, "MONITOR": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Map campaign infrastructure for threat_77", "intents": {"INVESTIGATE": 1.0, "MAP": 1.0, "ANALYZE": 1.0, "DETECT": 1.0, "MONITOR": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Check IOC database for indicator_46", "intents": {"INVESTIGATE": 1.0, "DETECT": 1.0, "VALIDATE": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 1.0}}
+{"text": "Map campaign infrastructure for threat_87", "intents": {"INVESTIGATE": 1.0, "MAP": 1.0, "ANALYZE": 1.0, "DETECT": 1.0, "MONITOR": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Analyze threat actor_75 targeting sector_75", "intents": {"INVESTIGATE": 1.0, "ANALYZE": 1.0, "DETECT": 1.0, "MONITOR": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Find indicators for campaign_84", "intents": {"INVESTIGATE": 1.0, "DETECT": 1.0, "ENRICH": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Track malware sample_83 behavior", "intents": {"INVESTIGATE": 1.0, "TRACK": 1.0, "ANALYZE": 1.0, "DETECT": 0.0, "MONITOR": 0.0, "VALIDATE": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Analyze threat actor_70 targeting sector_70", "intents": {"INVESTIGATE": 1.0, "ANALYZE": 1.0, "DETECT": 1.0, "MONITOR": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Find indicators for campaign_19", "intents": {"INVESTIGATE": 1.0, "DETECT": 1.0, "ENRICH": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Find indicators for campaign_49", "intents": {"INVESTIGATE": 1.0, "DETECT": 1.0, "ENRICH": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Map campaign infrastructure for threat_57", "intents": {"INVESTIGATE": 1.0, "MAP": 1.0, "ANALYZE": 1.0, "DETECT": 1.0, "MONITOR": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Track malware sample_43 behavior", "intents": {"INVESTIGATE": 1.0, "TRACK": 1.0, "ANALYZE": 1.0, "DETECT": 0.0, "MONITOR": 0.0, "VALIDATE": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Check IOC database for indicator_51", "intents": {"INVESTIGATE": 1.0, "DETECT": 1.0, "VALIDATE": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 1.0}}
+{"text": "Analyze threat actor_55 targeting sector_55", "intents": {"INVESTIGATE": 1.0, "ANALYZE": 1.0, "DETECT": 1.0, "MONITOR": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Analyze threat actor_70 targeting sector_70", "intents": {"INVESTIGATE": 1.0, "ANALYZE": 1.0, "DETECT": 1.0, "MONITOR": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "What threat actors are targeting our industry?", "intents": {"INVESTIGATE": 1.0, "DETECT": 1.0, "MONITOR": 1.0, "ANALYZE": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Profile the threat actor behind this cyber attack", "intents": {"PROFILE_THREAT_ACTOR": 1.0, "PROFILE_ACTOR": 1.0, "ANALYZE_ACTORS": 0.0}}
+{"text": "Check IOC database for indicator_71", "intents": {"INVESTIGATE": 1.0, "DETECT": 1.0, "VALIDATE": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 1.0}}
+{"text": "Find indicators for campaign_9", "intents": {"INVESTIGATE": 1.0, "DETECT": 1.0, "ENRICH": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Find indicators for campaign_44", "intents": {"INVESTIGATE": 1.0, "DETECT": 1.0, "ENRICH": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Check IOC database for indicator_11", "intents": {"INVESTIGATE": 1.0, "DETECT": 1.0, "VALIDATE": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 1.0}}
+{"text": "Analyze threat actor_85 targeting sector_85", "intents": {"INVESTIGATE": 1.0, "ANALYZE": 1.0, "DETECT": 1.0, "MONITOR": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Analyze threat actor_45 targeting sector_45", "intents": {"INVESTIGATE": 1.0, "ANALYZE": 1.0, "DETECT": 1.0, "MONITOR": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Track malware sample_83 behavior", "intents": {"INVESTIGATE": 1.0, "TRACK": 1.0, "ANALYZE": 1.0, "DETECT": 0.0, "MONITOR": 0.0, "VALIDATE": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Analyze threat actor_80 targeting sector_80", "intents": {"INVESTIGATE": 1.0, "ANALYZE": 1.0, "DETECT": 1.0, "MONITOR": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Map campaign infrastructure for threat_62", "intents": {"INVESTIGATE": 1.0, "MAP": 1.0, "ANALYZE": 1.0, "DETECT": 1.0, "MONITOR": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Map campaign infrastructure for threat_2", "intents": {"INVESTIGATE": 1.0, "MAP": 1.0, "ANALYZE": 1.0, "DETECT": 1.0, "MONITOR": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Analyze threat actor_45 targeting sector_45", "intents": {"INVESTIGATE": 1.0, "ANALYZE": 1.0, "DETECT": 1.0, "MONITOR": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Check IOC database for indicator_81", "intents": {"INVESTIGATE": 1.0, "DETECT": 1.0, "VALIDATE": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 1.0}}
+{"text": "Track threat actor activity over time", "intents": {"INVESTIGATE": 1.0, "TRACK": 1.0, "MONITOR": 1.0, "ANALYZE": 1.0, "DETECT": 0.0, "VALIDATE": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Track malware sample_63 behavior", "intents": {"INVESTIGATE": 1.0, "TRACK": 1.0, "ANALYZE": 1.0, "DETECT": 0.0, "MONITOR": 0.0, "VALIDATE": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Map campaign infrastructure for threat_12", "intents": {"INVESTIGATE": 1.0, "MAP": 1.0, "ANALYZE": 1.0, "DETECT": 1.0, "MONITOR": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Check IOC database for indicator_6", "intents": {"INVESTIGATE": 1.0, "DETECT": 1.0, "VALIDATE": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 1.0}}
+{"text": "Track malware sample_53 behavior", "intents": {"INVESTIGATE": 1.0, "TRACK": 1.0, "ANALYZE": 1.0, "DETECT": 0.0, "MONITOR": 0.0, "VALIDATE": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Find indicators for campaign_64", "intents": {"INVESTIGATE": 1.0, "DETECT": 1.0, "ENRICH": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Analyze threat actor_55 targeting sector_55", "intents": {"INVESTIGATE": 1.0, "ANALYZE": 1.0, "DETECT": 1.0, "MONITOR": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Check IOC database for indicator_56", "intents": {"INVESTIGATE": 1.0, "DETECT": 1.0, "VALIDATE": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 1.0}}
+{"text": "Track malware sample_58 behavior", "intents": {"INVESTIGATE": 1.0, "TRACK": 1.0, "ANALYZE": 1.0, "DETECT": 0.0, "MONITOR": 0.0, "VALIDATE": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Track malware sample_68 behavior", "intents": {"INVESTIGATE": 1.0, "TRACK": 1.0, "ANALYZE": 1.0, "DETECT": 0.0, "MONITOR": 0.0, "VALIDATE": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Track malware sample_33 behavior", "intents": {"INVESTIGATE": 1.0, "TRACK": 1.0, "ANALYZE": 1.0, "DETECT": 0.0, "MONITOR": 0.0, "VALIDATE": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Track malware sample_33 behavior", "intents": {"INVESTIGATE": 1.0, "TRACK": 1.0, "ANALYZE": 1.0, "DETECT": 0.0, "MONITOR": 0.0, "VALIDATE": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Map campaign infrastructure for threat_12", "intents": {"INVESTIGATE": 1.0, "MAP": 1.0, "ANALYZE": 1.0, "DETECT": 1.0, "MONITOR": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Find indicators for campaign_49", "intents": {"INVESTIGATE": 1.0, "DETECT": 1.0, "ENRICH": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Check if this IP address is a known threat", "intents": {"INVESTIGATE": 1.0, "DETECT": 1.0, "VALIDATE": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 1.0}}
+{"text": "Find indicators for campaign_89", "intents": {"INVESTIGATE": 1.0, "DETECT": 1.0, "ENRICH": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Analyze threat actor_40 targeting sector_40", "intents": {"INVESTIGATE": 1.0, "ANALYZE": 1.0, "DETECT": 1.0, "MONITOR": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Check IOC database for indicator_81", "intents": {"INVESTIGATE": 1.0, "DETECT": 1.0, "VALIDATE": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 1.0}}
+{"text": "Map campaign infrastructure for threat_27", "intents": {"INVESTIGATE": 1.0, "MAP": 1.0, "ANALYZE": 1.0, "DETECT": 1.0, "MONITOR": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Check IOC database for indicator_91", "intents": {"INVESTIGATE": 1.0, "DETECT": 1.0, "VALIDATE": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 1.0}}
+{"text": "Analyze this malware sample for indicators", "intents": {"INVESTIGATE": 1.0, "ANALYZE": 1.0, "DETECT": 1.0, "MONITOR": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Map campaign infrastructure for threat_67", "intents": {"INVESTIGATE": 1.0, "MAP": 1.0, "ANALYZE": 1.0, "DETECT": 1.0, "MONITOR": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Map campaign infrastructure for threat_17", "intents": {"INVESTIGATE": 1.0, "MAP": 1.0, "ANALYZE": 1.0, "DETECT": 1.0, "MONITOR": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Profile the threat actor behind this cyber attack", "intents": {"PROFILE_THREAT_ACTOR": 1.0, "PROFILE_ACTOR": 1.0, "ANALYZE_ACTORS": 0.0}}
+{"text": "Check IOC database for indicator_91", "intents": {"INVESTIGATE": 1.0, "DETECT": 1.0, "VALIDATE": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 1.0}}
+{"text": "Analyze threat actor_35 targeting sector_35", "intents": {"INVESTIGATE": 1.0, "ANALYZE": 1.0, "DETECT": 1.0, "MONITOR": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Analyze threat actor_45 targeting sector_45", "intents": {"INVESTIGATE": 1.0, "ANALYZE": 1.0, "DETECT": 1.0, "MONITOR": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Profile the threat actor behind this cyber attack", "intents": {"PROFILE_THREAT_ACTOR": 1.0, "PROFILE_ACTOR": 1.0, "ANALYZE_ACTORS": 0.0}}
+{"text": "Analyze threat actor_40 targeting sector_40", "intents": {"INVESTIGATE": 1.0, "ANALYZE": 1.0, "DETECT": 1.0, "MONITOR": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Analyze threat actor_70 targeting sector_70", "intents": {"INVESTIGATE": 1.0, "ANALYZE": 1.0, "DETECT": 1.0, "MONITOR": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Analyze this malware sample for indicators", "intents": {"INVESTIGATE": 1.0, "ANALYZE": 1.0, "DETECT": 1.0, "MONITOR": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Find indicators for campaign_59", "intents": {"INVESTIGATE": 1.0, "DETECT": 1.0, "ENRICH": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Attribute this attack to a known threat actor and map the campaign TTPs", "intents": {"ATTRIBUTE_ATTACK": 1.0, "ATTRIBUTE_CAMPAIGN": 1.0, "MAP_TTP": 1.0, "ATTRIBUTE": 0.0}}
+{"text": "Track malware sample_3 behavior", "intents": {"INVESTIGATE": 1.0, "TRACK": 1.0, "ANALYZE": 1.0, "DETECT": 0.0, "MONITOR": 0.0, "VALIDATE": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Find indicators for campaign_89", "intents": {"INVESTIGATE": 1.0, "DETECT": 1.0, "ENRICH": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Find indicators for campaign_74", "intents": {"INVESTIGATE": 1.0, "DETECT": 1.0, "ENRICH": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Find indicators for campaign_69", "intents": {"INVESTIGATE": 1.0, "DETECT": 1.0, "ENRICH": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Track malware sample_28 behavior", "intents": {"INVESTIGATE": 1.0, "TRACK": 1.0, "ANALYZE": 1.0, "DETECT": 0.0, "MONITOR": 0.0, "VALIDATE": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Map campaign infrastructure for threat_47", "intents": {"INVESTIGATE": 1.0, "MAP": 1.0, "ANALYZE": 1.0, "DETECT": 1.0, "MONITOR": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Map campaign infrastructure for threat_72", "intents": {"INVESTIGATE": 1.0, "MAP": 1.0, "ANALYZE": 1.0, "DETECT": 1.0, "MONITOR": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Analyze threat actor_10 targeting sector_10", "intents": {"INVESTIGATE": 1.0, "ANALYZE": 1.0, "DETECT": 1.0, "MONITOR": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Check IOC database for indicator_1", "intents": {"INVESTIGATE": 1.0, "DETECT": 1.0, "VALIDATE": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 1.0}}
+{"text": "Analyze threat actor_15 targeting sector_15", "intents": {"INVESTIGATE": 1.0, "ANALYZE": 1.0, "DETECT": 1.0, "MONITOR": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Find indicators for campaign_84", "intents": {"INVESTIGATE": 1.0, "DETECT": 1.0, "ENRICH": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Check IOC database for indicator_76", "intents": {"INVESTIGATE": 1.0, "DETECT": 1.0, "VALIDATE": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 1.0}}
+{"text": "Map campaign infrastructure for threat_67", "intents": {"INVESTIGATE": 1.0, "MAP": 1.0, "ANALYZE": 1.0, "DETECT": 1.0, "MONITOR": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Check IOC database for indicator_41", "intents": {"INVESTIGATE": 1.0, "DETECT": 1.0, "VALIDATE": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 1.0}}
+{"text": "Check IOC database for indicator_21", "intents": {"INVESTIGATE": 1.0, "DETECT": 1.0, "VALIDATE": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 1.0}}
+{"text": "Find indicators for campaign_64", "intents": {"INVESTIGATE": 1.0, "DETECT": 1.0, "ENRICH": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Track malware sample_23 behavior", "intents": {"INVESTIGATE": 1.0, "TRACK": 1.0, "ANALYZE": 1.0, "DETECT": 0.0, "MONITOR": 0.0, "VALIDATE": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Map campaign infrastructure for threat_42", "intents": {"INVESTIGATE": 1.0, "MAP": 1.0, "ANALYZE": 1.0, "DETECT": 1.0, "MONITOR": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Track malware sample_78 behavior", "intents": {"INVESTIGATE": 1.0, "TRACK": 1.0, "ANALYZE": 1.0, "DETECT": 0.0, "MONITOR": 0.0, "VALIDATE": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Check IOC database for indicator_31", "intents": {"INVESTIGATE": 1.0, "DETECT": 1.0, "VALIDATE": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 1.0}}
+{"text": "Check IOC database for indicator_81", "intents": {"INVESTIGATE": 1.0, "DETECT": 1.0, "VALIDATE": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 1.0}}
+{"text": "Check IOC database for indicator_86", "intents": {"INVESTIGATE": 1.0, "DETECT": 1.0, "VALIDATE": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 1.0}}
+{"text": "Map campaign infrastructure for threat_57", "intents": {"INVESTIGATE": 1.0, "MAP": 1.0, "ANALYZE": 1.0, "DETECT": 1.0, "MONITOR": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Find indicators for campaign_14", "intents": {"INVESTIGATE": 1.0, "DETECT": 1.0, "ENRICH": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Check IOC database for indicator_16", "intents": {"INVESTIGATE": 1.0, "DETECT": 1.0, "VALIDATE": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 1.0}}
+{"text": "Find indicators for campaign_49", "intents": {"INVESTIGATE": 1.0, "DETECT": 1.0, "ENRICH": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Map the campaign infrastructure for this threat", "intents": {"INVESTIGATE": 1.0, "MAP": 1.0, "ANALYZE": 1.0, "DETECT": 1.0, "MONITOR": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Track malware sample_63 behavior", "intents": {"INVESTIGATE": 1.0, "TRACK": 1.0, "ANALYZE": 1.0, "DETECT": 0.0, "MONITOR": 0.0, "VALIDATE": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Map campaign infrastructure for threat_22", "intents": {"INVESTIGATE": 1.0, "MAP": 1.0, "ANALYZE": 1.0, "DETECT": 1.0, "MONITOR": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Find indicators for campaign_19", "intents": {"INVESTIGATE": 1.0, "DETECT": 1.0, "ENRICH": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Check IOC database for indicator_1", "intents": {"INVESTIGATE": 1.0, "DETECT": 1.0, "VALIDATE": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 1.0}}
+{"text": "Find indicators for campaign_89", "intents": {"INVESTIGATE": 1.0, "DETECT": 1.0, "ENRICH": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Find indicators for campaign_39", "intents": {"INVESTIGATE": 1.0, "DETECT": 1.0, "ENRICH": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Find indicators for campaign_14", "intents": {"INVESTIGATE": 1.0, "DETECT": 1.0, "ENRICH": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Check IOC database for indicator_6", "intents": {"INVESTIGATE": 1.0, "DETECT": 1.0, "VALIDATE": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 1.0}}
+{"text": "Analyze threat actor_5 targeting sector_5", "intents": {"INVESTIGATE": 1.0, "ANALYZE": 1.0, "DETECT": 1.0, "MONITOR": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Find indicators for campaign_74", "intents": {"INVESTIGATE": 1.0, "DETECT": 1.0, "ENRICH": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Check IOC database for indicator_21", "intents": {"INVESTIGATE": 1.0, "DETECT": 1.0, "VALIDATE": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 1.0}}
+{"text": "Track malware sample_33 behavior", "intents": {"INVESTIGATE": 1.0, "TRACK": 1.0, "ANALYZE": 1.0, "DETECT": 0.0, "MONITOR": 0.0, "VALIDATE": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Check IOC database for indicator_11", "intents": {"INVESTIGATE": 1.0, "DETECT": 1.0, "VALIDATE": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 1.0}}
+{"text": "Map campaign infrastructure for threat_82", "intents": {"INVESTIGATE": 1.0, "MAP": 1.0, "ANALYZE": 1.0, "DETECT": 1.0, "MONITOR": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Check IOC database for indicator_36", "intents": {"INVESTIGATE": 1.0, "DETECT": 1.0, "VALIDATE": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 1.0}}
+{"text": "Track threat actor activity over time", "intents": {"INVESTIGATE": 1.0, "TRACK": 1.0, "MONITOR": 1.0, "ANALYZE": 1.0, "DETECT": 0.0, "VALIDATE": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Map campaign infrastructure for threat_77", "intents": {"INVESTIGATE": 1.0, "MAP": 1.0, "ANALYZE": 1.0, "DETECT": 1.0, "MONITOR": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Track malware sample_3 behavior", "intents": {"INVESTIGATE": 1.0, "TRACK": 1.0, "ANALYZE": 1.0, "DETECT": 0.0, "MONITOR": 0.0, "VALIDATE": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Check IOC database for indicator_1", "intents": {"INVESTIGATE": 1.0, "DETECT": 1.0, "VALIDATE": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 1.0}}
+{"text": "Track malware sample_3 behavior", "intents": {"INVESTIGATE": 1.0, "TRACK": 1.0, "ANALYZE": 1.0, "DETECT": 0.0, "MONITOR": 0.0, "VALIDATE": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Check IOC database for indicator_56", "intents": {"INVESTIGATE": 1.0, "DETECT": 1.0, "VALIDATE": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 1.0}}
+{"text": "Analyze threat actor_80 targeting sector_80", "intents": {"INVESTIGATE": 1.0, "ANALYZE": 1.0, "DETECT": 1.0, "MONITOR": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Analyze threat actor_90 targeting sector_90", "intents": {"INVESTIGATE": 1.0, "ANALYZE": 1.0, "DETECT": 1.0, "MONITOR": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Find indicators for campaign_39", "intents": {"INVESTIGATE": 1.0, "DETECT": 1.0, "ENRICH": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Map campaign infrastructure for threat_92", "intents": {"INVESTIGATE": 1.0, "MAP": 1.0, "ANALYZE": 1.0, "DETECT": 1.0, "MONITOR": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Analyze threat actor_85 targeting sector_85", "intents": {"INVESTIGATE": 1.0, "ANALYZE": 1.0, "DETECT": 1.0, "MONITOR": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Track malware sample_48 behavior", "intents": {"INVESTIGATE": 1.0, "TRACK": 1.0, "ANALYZE": 1.0, "DETECT": 0.0, "MONITOR": 0.0, "VALIDATE": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Track malware sample_73 behavior", "intents": {"INVESTIGATE": 1.0, "TRACK": 1.0, "ANALYZE": 1.0, "DETECT": 0.0, "MONITOR": 0.0, "VALIDATE": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Analyze threat actor_60 targeting sector_60", "intents": {"INVESTIGATE": 1.0, "ANALYZE": 1.0, "DETECT": 1.0, "MONITOR": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Find indicators for campaign_49", "intents": {"INVESTIGATE": 1.0, "DETECT": 1.0, "ENRICH": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Map campaign infrastructure for threat_52", "intents": {"INVESTIGATE": 1.0, "MAP": 1.0, "ANALYZE": 1.0, "DETECT": 1.0, "MONITOR": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Map campaign infrastructure for threat_77", "intents": {"INVESTIGATE": 1.0, "MAP": 1.0, "ANALYZE": 1.0, "DETECT": 1.0, "MONITOR": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Check IOC database for indicator_61", "intents": {"INVESTIGATE": 1.0, "DETECT": 1.0, "VALIDATE": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 1.0}}
+{"text": "Find indicators for campaign_59", "intents": {"INVESTIGATE": 1.0, "DETECT": 1.0, "ENRICH": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Analyze threat actor_80 targeting sector_80", "intents": {"INVESTIGATE": 1.0, "ANALYZE": 1.0, "DETECT": 1.0, "MONITOR": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Map the campaign infrastructure for this threat", "intents": {"INVESTIGATE": 1.0, "MAP": 1.0, "ANALYZE": 1.0, "DETECT": 1.0, "MONITOR": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Find indicators for campaign_64", "intents": {"INVESTIGATE": 1.0, "DETECT": 1.0, "ENRICH": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Find indicators for campaign_34", "intents": {"INVESTIGATE": 1.0, "DETECT": 1.0, "ENRICH": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Check IOC database for indicator_31", "intents": {"INVESTIGATE": 1.0, "DETECT": 1.0, "VALIDATE": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 1.0}}
+{"text": "Map campaign infrastructure for threat_82", "intents": {"INVESTIGATE": 1.0, "MAP": 1.0, "ANALYZE": 1.0, "DETECT": 1.0, "MONITOR": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Analyze threat actor_30 targeting sector_30", "intents": {"INVESTIGATE": 1.0, "ANALYZE": 1.0, "DETECT": 1.0, "MONITOR": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Check IOC database for indicator_26", "intents": {"INVESTIGATE": 1.0, "DETECT": 1.0, "VALIDATE": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 1.0}}
+{"text": "Map campaign infrastructure for threat_87", "intents": {"INVESTIGATE": 1.0, "MAP": 1.0, "ANALYZE": 1.0, "DETECT": 1.0, "MONITOR": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Analyze threat actor_85 targeting sector_85", "intents": {"INVESTIGATE": 1.0, "ANALYZE": 1.0, "DETECT": 1.0, "MONITOR": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Map campaign infrastructure for threat_37", "intents": {"INVESTIGATE": 1.0, "MAP": 1.0, "ANALYZE": 1.0, "DETECT": 1.0, "MONITOR": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Check IOC database for indicator_31", "intents": {"INVESTIGATE": 1.0, "DETECT": 1.0, "VALIDATE": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 1.0}}
+{"text": "Check IOC database for indicator_46", "intents": {"INVESTIGATE": 1.0, "DETECT": 1.0, "VALIDATE": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 1.0}}
+{"text": "Map campaign infrastructure for threat_7", "intents": {"INVESTIGATE": 1.0, "MAP": 1.0, "ANALYZE": 1.0, "DETECT": 1.0, "MONITOR": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Check IOC database for indicator_51", "intents": {"INVESTIGATE": 1.0, "DETECT": 1.0, "VALIDATE": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 1.0}}
+{"text": "What threat actors are targeting our industry?", "intents": {"INVESTIGATE": 1.0, "DETECT": 1.0, "MONITOR": 1.0, "ANALYZE": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Analyze threat actor_45 targeting sector_45", "intents": {"INVESTIGATE": 1.0, "ANALYZE": 1.0, "DETECT": 1.0, "MONITOR": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Analyze threat actor_55 targeting sector_55", "intents": {"INVESTIGATE": 1.0, "ANALYZE": 1.0, "DETECT": 1.0, "MONITOR": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Check IOC database for indicator_21", "intents": {"INVESTIGATE": 1.0, "DETECT": 1.0, "VALIDATE": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 1.0}}
+{"text": "Analyze threat actor_20 targeting sector_20", "intents": {"INVESTIGATE": 1.0, "ANALYZE": 1.0, "DETECT": 1.0, "MONITOR": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Map campaign infrastructure for threat_47", "intents": {"INVESTIGATE": 1.0, "MAP": 1.0, "ANALYZE": 1.0, "DETECT": 1.0, "MONITOR": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Check IOC database for indicator_36", "intents": {"INVESTIGATE": 1.0, "DETECT": 1.0, "VALIDATE": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 1.0}}
+{"text": "Find indicators for campaign_89", "intents": {"INVESTIGATE": 1.0, "DETECT": 1.0, "ENRICH": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Find indicators for campaign_54", "intents": {"INVESTIGATE": 1.0, "DETECT": 1.0, "ENRICH": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Map campaign infrastructure for threat_12", "intents": {"INVESTIGATE": 1.0, "MAP": 1.0, "ANALYZE": 1.0, "DETECT": 1.0, "MONITOR": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Track malware sample_88 behavior", "intents": {"INVESTIGATE": 1.0, "TRACK": 1.0, "ANALYZE": 1.0, "DETECT": 0.0, "MONITOR": 0.0, "VALIDATE": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Map campaign infrastructure for threat_82", "intents": {"INVESTIGATE": 1.0, "MAP": 1.0, "ANALYZE": 1.0, "DETECT": 1.0, "MONITOR": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Track malware sample_68 behavior", "intents": {"INVESTIGATE": 1.0, "TRACK": 1.0, "ANALYZE": 1.0, "DETECT": 0.0, "MONITOR": 0.0, "VALIDATE": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Find indicators for campaign_94", "intents": {"INVESTIGATE": 1.0, "DETECT": 1.0, "ENRICH": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Track malware sample_58 behavior", "intents": {"INVESTIGATE": 1.0, "TRACK": 1.0, "ANALYZE": 1.0, "DETECT": 0.0, "MONITOR": 0.0, "VALIDATE": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Find indicators for campaign_44", "intents": {"INVESTIGATE": 1.0, "DETECT": 1.0, "ENRICH": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Find indicators for campaign_69", "intents": {"INVESTIGATE": 1.0, "DETECT": 1.0, "ENRICH": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Track malware sample_53 behavior", "intents": {"INVESTIGATE": 1.0, "TRACK": 1.0, "ANALYZE": 1.0, "DETECT": 0.0, "MONITOR": 0.0, "VALIDATE": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Find indicators for campaign_54", "intents": {"INVESTIGATE": 1.0, "DETECT": 1.0, "ENRICH": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Check IOC database for indicator_6", "intents": {"INVESTIGATE": 1.0, "DETECT": 1.0, "VALIDATE": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 1.0}}
+{"text": "Map campaign infrastructure for threat_92", "intents": {"INVESTIGATE": 1.0, "MAP": 1.0, "ANALYZE": 1.0, "DETECT": 1.0, "MONITOR": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Find indicators for campaign_64", "intents": {"INVESTIGATE": 1.0, "DETECT": 1.0, "ENRICH": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Check IOC database for indicator_16", "intents": {"INVESTIGATE": 1.0, "DETECT": 1.0, "VALIDATE": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 1.0}}
+{"text": "Analyze threat actor_50 targeting sector_50", "intents": {"INVESTIGATE": 1.0, "ANALYZE": 1.0, "DETECT": 1.0, "MONITOR": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Map campaign infrastructure for threat_72", "intents": {"INVESTIGATE": 1.0, "MAP": 1.0, "ANALYZE": 1.0, "DETECT": 1.0, "MONITOR": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Analyze threat actor_50 targeting sector_50", "intents": {"INVESTIGATE": 1.0, "ANALYZE": 1.0, "DETECT": 1.0, "MONITOR": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Track malware sample_28 behavior", "intents": {"INVESTIGATE": 1.0, "TRACK": 1.0, "ANALYZE": 1.0, "DETECT": 0.0, "MONITOR": 0.0, "VALIDATE": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Track malware sample_78 behavior", "intents": {"INVESTIGATE": 1.0, "TRACK": 1.0, "ANALYZE": 1.0, "DETECT": 0.0, "MONITOR": 0.0, "VALIDATE": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Map campaign infrastructure for threat_87", "intents": {"INVESTIGATE": 1.0, "MAP": 1.0, "ANALYZE": 1.0, "DETECT": 1.0, "MONITOR": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Map campaign infrastructure for threat_67", "intents": {"INVESTIGATE": 1.0, "MAP": 1.0, "ANALYZE": 1.0, "DETECT": 1.0, "MONITOR": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Map campaign infrastructure for threat_92", "intents": {"INVESTIGATE": 1.0, "MAP": 1.0, "ANALYZE": 1.0, "DETECT": 1.0, "MONITOR": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Profile the threat actor behind this cyber attack", "intents": {"PROFILE_THREAT_ACTOR": 1.0, "PROFILE_ACTOR": 1.0, "ANALYZE_ACTORS": 0.0}}
+{"text": "Track malware sample_73 behavior", "intents": {"INVESTIGATE": 1.0, "TRACK": 1.0, "ANALYZE": 1.0, "DETECT": 0.0, "MONITOR": 0.0, "VALIDATE": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Check IOC database for indicator_81", "intents": {"INVESTIGATE": 1.0, "DETECT": 1.0, "VALIDATE": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 1.0}}
+{"text": "Analyze threat actor_10 targeting sector_10", "intents": {"INVESTIGATE": 1.0, "ANALYZE": 1.0, "DETECT": 1.0, "MONITOR": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Check IOC database for indicator_1", "intents": {"INVESTIGATE": 1.0, "DETECT": 1.0, "VALIDATE": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 1.0}}
+{"text": "Check IOC database for indicator_66", "intents": {"INVESTIGATE": 1.0, "DETECT": 1.0, "VALIDATE": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 1.0}}
+{"text": "Find indicators for campaign_74", "intents": {"INVESTIGATE": 1.0, "DETECT": 1.0, "ENRICH": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Track malware sample_63 behavior", "intents": {"INVESTIGATE": 1.0, "TRACK": 1.0, "ANALYZE": 1.0, "DETECT": 0.0, "MONITOR": 0.0, "VALIDATE": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Track malware sample_73 behavior", "intents": {"INVESTIGATE": 1.0, "TRACK": 1.0, "ANALYZE": 1.0, "DETECT": 0.0, "MONITOR": 0.0, "VALIDATE": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Analyze threat actor_25 targeting sector_25", "intents": {"INVESTIGATE": 1.0, "ANALYZE": 1.0, "DETECT": 1.0, "MONITOR": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Find indicators for campaign_24", "intents": {"INVESTIGATE": 1.0, "DETECT": 1.0, "ENRICH": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Check IOC database for indicator_76", "intents": {"INVESTIGATE": 1.0, "DETECT": 1.0, "VALIDATE": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 1.0}}
+{"text": "Track malware sample_48 behavior", "intents": {"INVESTIGATE": 1.0, "TRACK": 1.0, "ANALYZE": 1.0, "DETECT": 0.0, "MONITOR": 0.0, "VALIDATE": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Check IOC database for indicator_71", "intents": {"INVESTIGATE": 1.0, "DETECT": 1.0, "VALIDATE": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 1.0}}
+{"text": "Analyze threat actor_85 targeting sector_85", "intents": {"INVESTIGATE": 1.0, "ANALYZE": 1.0, "DETECT": 1.0, "MONITOR": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Check IOC database for indicator_26", "intents": {"INVESTIGATE": 1.0, "DETECT": 1.0, "VALIDATE": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 1.0}}
+{"text": "Map campaign infrastructure for threat_7", "intents": {"INVESTIGATE": 1.0, "MAP": 1.0, "ANALYZE": 1.0, "DETECT": 1.0, "MONITOR": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Map campaign infrastructure for threat_82", "intents": {"INVESTIGATE": 1.0, "MAP": 1.0, "ANALYZE": 1.0, "DETECT": 1.0, "MONITOR": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Check IOC database for indicator_41", "intents": {"INVESTIGATE": 1.0, "DETECT": 1.0, "VALIDATE": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 1.0}}
+{"text": "Find indicators for campaign_69", "intents": {"INVESTIGATE": 1.0, "DETECT": 1.0, "ENRICH": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Map campaign infrastructure for threat_42", "intents": {"INVESTIGATE": 1.0, "MAP": 1.0, "ANALYZE": 1.0, "DETECT": 1.0, "MONITOR": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Find indicators for campaign_79", "intents": {"INVESTIGATE": 1.0, "DETECT": 1.0, "ENRICH": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Track malware sample_93 behavior", "intents": {"INVESTIGATE": 1.0, "TRACK": 1.0, "ANALYZE": 1.0, "DETECT": 0.0, "MONITOR": 0.0, "VALIDATE": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Track malware sample_13 behavior", "intents": {"INVESTIGATE": 1.0, "TRACK": 1.0, "ANALYZE": 1.0, "DETECT": 0.0, "MONITOR": 0.0, "VALIDATE": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Analyze threat actor_25 targeting sector_25", "intents": {"INVESTIGATE": 1.0, "ANALYZE": 1.0, "DETECT": 1.0, "MONITOR": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Track malware sample_18 behavior", "intents": {"INVESTIGATE": 1.0, "TRACK": 1.0, "ANALYZE": 1.0, "DETECT": 0.0, "MONITOR": 0.0, "VALIDATE": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "What threat actors are targeting our industry?", "intents": {"INVESTIGATE": 1.0, "DETECT": 1.0, "MONITOR": 1.0, "ANALYZE": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Track malware sample_58 behavior", "intents": {"INVESTIGATE": 1.0, "TRACK": 1.0, "ANALYZE": 1.0, "DETECT": 0.0, "MONITOR": 0.0, "VALIDATE": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Track malware sample_43 behavior", "intents": {"INVESTIGATE": 1.0, "TRACK": 1.0, "ANALYZE": 1.0, "DETECT": 0.0, "MONITOR": 0.0, "VALIDATE": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Map campaign infrastructure for threat_17", "intents": {"INVESTIGATE": 1.0, "MAP": 1.0, "ANALYZE": 1.0, "DETECT": 1.0, "MONITOR": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Find indicators for campaign_69", "intents": {"INVESTIGATE": 1.0, "DETECT": 1.0, "ENRICH": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Find indicators for campaign_59", "intents": {"INVESTIGATE": 1.0, "DETECT": 1.0, "ENRICH": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Check IOC database for indicator_91", "intents": {"INVESTIGATE": 1.0, "DETECT": 1.0, "VALIDATE": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 1.0}}
+{"text": "Track malware sample_73 behavior", "intents": {"INVESTIGATE": 1.0, "TRACK": 1.0, "ANALYZE": 1.0, "DETECT": 0.0, "MONITOR": 0.0, "VALIDATE": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Find indicators for campaign_24", "intents": {"INVESTIGATE": 1.0, "DETECT": 1.0, "ENRICH": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Check IOC database for indicator_46", "intents": {"INVESTIGATE": 1.0, "DETECT": 1.0, "VALIDATE": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 1.0}}
+{"text": "Map campaign infrastructure for threat_62", "intents": {"INVESTIGATE": 1.0, "MAP": 1.0, "ANALYZE": 1.0, "DETECT": 1.0, "MONITOR": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Track malware sample_68 behavior", "intents": {"INVESTIGATE": 1.0, "TRACK": 1.0, "ANALYZE": 1.0, "DETECT": 0.0, "MONITOR": 0.0, "VALIDATE": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Analyze threat actor_40 targeting sector_40", "intents": {"INVESTIGATE": 1.0, "ANALYZE": 1.0, "DETECT": 1.0, "MONITOR": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Analyze threat actor_20 targeting sector_20", "intents": {"INVESTIGATE": 1.0, "ANALYZE": 1.0, "DETECT": 1.0, "MONITOR": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Check IOC database for indicator_76", "intents": {"INVESTIGATE": 1.0, "DETECT": 1.0, "VALIDATE": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 1.0}}
+{"text": "Analyze threat actor_15 targeting sector_15", "intents": {"INVESTIGATE": 1.0, "ANALYZE": 1.0, "DETECT": 1.0, "MONITOR": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Map campaign infrastructure for threat_22", "intents": {"INVESTIGATE": 1.0, "MAP": 1.0, "ANALYZE": 1.0, "DETECT": 1.0, "MONITOR": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Check IOC database for indicator_36", "intents": {"INVESTIGATE": 1.0, "DETECT": 1.0, "VALIDATE": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 1.0}}
+{"text": "Analyze threat actor_5 targeting sector_5", "intents": {"INVESTIGATE": 1.0, "ANALYZE": 1.0, "DETECT": 1.0, "MONITOR": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Map campaign infrastructure for threat_72", "intents": {"INVESTIGATE": 1.0, "MAP": 1.0, "ANALYZE": 1.0, "DETECT": 1.0, "MONITOR": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Find indicators for campaign_14", "intents": {"INVESTIGATE": 1.0, "DETECT": 1.0, "ENRICH": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Find indicators for campaign_79", "intents": {"INVESTIGATE": 1.0, "DETECT": 1.0, "ENRICH": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Analyze threat actor_20 targeting sector_20", "intents": {"INVESTIGATE": 1.0, "ANALYZE": 1.0, "DETECT": 1.0, "MONITOR": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Analyze threat actor_25 targeting sector_25", "intents": {"INVESTIGATE": 1.0, "ANALYZE": 1.0, "DETECT": 1.0, "MONITOR": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Map campaign infrastructure for threat_37", "intents": {"INVESTIGATE": 1.0, "MAP": 1.0, "ANALYZE": 1.0, "DETECT": 1.0, "MONITOR": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Attribute this attack to a known threat actor and map the campaign TTPs", "intents": {"ATTRIBUTE_ATTACK": 1.0, "ATTRIBUTE_CAMPAIGN": 1.0, "MAP_TTP": 1.0, "ATTRIBUTE": 0.0}}
+{"text": "Analyze this malware sample for indicators", "intents": {"INVESTIGATE": 1.0, "ANALYZE": 1.0, "DETECT": 1.0, "MONITOR": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Check IOC database for indicator_16", "intents": {"INVESTIGATE": 1.0, "DETECT": 1.0, "VALIDATE": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 1.0}}
+{"text": "Analyze threat actor_65 targeting sector_65", "intents": {"INVESTIGATE": 1.0, "ANALYZE": 1.0, "DETECT": 1.0, "MONITOR": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Find indicators for campaign_29", "intents": {"INVESTIGATE": 1.0, "DETECT": 1.0, "ENRICH": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Track malware sample_93 behavior", "intents": {"INVESTIGATE": 1.0, "TRACK": 1.0, "ANALYZE": 1.0, "DETECT": 0.0, "MONITOR": 0.0, "VALIDATE": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Check IOC database for indicator_21", "intents": {"INVESTIGATE": 1.0, "DETECT": 1.0, "VALIDATE": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 1.0}}
+{"text": "Find indicators for campaign_79", "intents": {"INVESTIGATE": 1.0, "DETECT": 1.0, "ENRICH": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Track malware sample_88 behavior", "intents": {"INVESTIGATE": 1.0, "TRACK": 1.0, "ANALYZE": 1.0, "DETECT": 0.0, "MONITOR": 0.0, "VALIDATE": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Track malware sample_8 behavior", "intents": {"INVESTIGATE": 1.0, "TRACK": 1.0, "ANALYZE": 1.0, "DETECT": 0.0, "MONITOR": 0.0, "VALIDATE": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Analyze threat actor_0 targeting sector_0", "intents": {"INVESTIGATE": 1.0, "ANALYZE": 1.0, "DETECT": 1.0, "MONITOR": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Analyze threat actor_50 targeting sector_50", "intents": {"INVESTIGATE": 1.0, "ANALYZE": 1.0, "DETECT": 1.0, "MONITOR": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Track malware sample_63 behavior", "intents": {"INVESTIGATE": 1.0, "TRACK": 1.0, "ANALYZE": 1.0, "DETECT": 0.0, "MONITOR": 0.0, "VALIDATE": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Analyze threat actor_20 targeting sector_20", "intents": {"INVESTIGATE": 1.0, "ANALYZE": 1.0, "DETECT": 1.0, "MONITOR": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Track malware sample_83 behavior", "intents": {"INVESTIGATE": 1.0, "TRACK": 1.0, "ANALYZE": 1.0, "DETECT": 0.0, "MONITOR": 0.0, "VALIDATE": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Track malware sample_68 behavior", "intents": {"INVESTIGATE": 1.0, "TRACK": 1.0, "ANALYZE": 1.0, "DETECT": 0.0, "MONITOR": 0.0, "VALIDATE": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Analyze threat actor_5 targeting sector_5", "intents": {"INVESTIGATE": 1.0, "ANALYZE": 1.0, "DETECT": 1.0, "MONITOR": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Track malware sample_18 behavior", "intents": {"INVESTIGATE": 1.0, "TRACK": 1.0, "ANALYZE": 1.0, "DETECT": 0.0, "MONITOR": 0.0, "VALIDATE": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Attribute this attack to a known threat actor and map the campaign TTPs", "intents": {"ATTRIBUTE_ATTACK": 1.0, "ATTRIBUTE_CAMPAIGN": 1.0, "MAP_TTP": 1.0, "ATTRIBUTE": 0.0}}
+{"text": "Map campaign infrastructure for threat_27", "intents": {"INVESTIGATE": 1.0, "MAP": 1.0, "ANALYZE": 1.0, "DETECT": 1.0, "MONITOR": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Map campaign infrastructure for threat_57", "intents": {"INVESTIGATE": 1.0, "MAP": 1.0, "ANALYZE": 1.0, "DETECT": 1.0, "MONITOR": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Find indicators for campaign_84", "intents": {"INVESTIGATE": 1.0, "DETECT": 1.0, "ENRICH": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Map campaign infrastructure for threat_52", "intents": {"INVESTIGATE": 1.0, "MAP": 1.0, "ANALYZE": 1.0, "DETECT": 1.0, "MONITOR": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Find indicators for campaign_39", "intents": {"INVESTIGATE": 1.0, "DETECT": 1.0, "ENRICH": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Check IOC database for indicator_51", "intents": {"INVESTIGATE": 1.0, "DETECT": 1.0, "VALIDATE": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 1.0}}
+{"text": "Analyze threat actor_10 targeting sector_10", "intents": {"INVESTIGATE": 1.0, "ANALYZE": 1.0, "DETECT": 1.0, "MONITOR": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Track malware sample_38 behavior", "intents": {"INVESTIGATE": 1.0, "TRACK": 1.0, "ANALYZE": 1.0, "DETECT": 0.0, "MONITOR": 0.0, "VALIDATE": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Map campaign infrastructure for threat_52", "intents": {"INVESTIGATE": 1.0, "MAP": 1.0, "ANALYZE": 1.0, "DETECT": 1.0, "MONITOR": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Map campaign infrastructure for threat_12", "intents": {"INVESTIGATE": 1.0, "MAP": 1.0, "ANALYZE": 1.0, "DETECT": 1.0, "MONITOR": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Track malware sample_93 behavior", "intents": {"INVESTIGATE": 1.0, "TRACK": 1.0, "ANALYZE": 1.0, "DETECT": 0.0, "MONITOR": 0.0, "VALIDATE": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Check IOC database for indicator_11", "intents": {"INVESTIGATE": 1.0, "DETECT": 1.0, "VALIDATE": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 1.0}}
+{"text": "Track malware sample_93 behavior", "intents": {"INVESTIGATE": 1.0, "TRACK": 1.0, "ANALYZE": 1.0, "DETECT": 0.0, "MONITOR": 0.0, "VALIDATE": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Check IOC database for indicator_26", "intents": {"INVESTIGATE": 1.0, "DETECT": 1.0, "VALIDATE": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 1.0}}
+{"text": "Analyze threat actor_80 targeting sector_80", "intents": {"INVESTIGATE": 1.0, "ANALYZE": 1.0, "DETECT": 1.0, "MONITOR": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Map campaign infrastructure for threat_87", "intents": {"INVESTIGATE": 1.0, "MAP": 1.0, "ANALYZE": 1.0, "DETECT": 1.0, "MONITOR": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Map campaign infrastructure for threat_17", "intents": {"INVESTIGATE": 1.0, "MAP": 1.0, "ANALYZE": 1.0, "DETECT": 1.0, "MONITOR": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Track malware sample_38 behavior", "intents": {"INVESTIGATE": 1.0, "TRACK": 1.0, "ANALYZE": 1.0, "DETECT": 0.0, "MONITOR": 0.0, "VALIDATE": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Analyze threat actor_35 targeting sector_35", "intents": {"INVESTIGATE": 1.0, "ANALYZE": 1.0, "DETECT": 1.0, "MONITOR": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Find indicators for campaign_94", "intents": {"INVESTIGATE": 1.0, "DETECT": 1.0, "ENRICH": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Map campaign infrastructure for threat_7", "intents": {"INVESTIGATE": 1.0, "MAP": 1.0, "ANALYZE": 1.0, "DETECT": 1.0, "MONITOR": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Track threat actor activity over time", "intents": {"INVESTIGATE": 1.0, "TRACK": 1.0, "MONITOR": 1.0, "ANALYZE": 1.0, "DETECT": 0.0, "VALIDATE": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Analyze threat actor_0 targeting sector_0", "intents": {"INVESTIGATE": 1.0, "ANALYZE": 1.0, "DETECT": 1.0, "MONITOR": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Check IOC database for indicator_11", "intents": {"INVESTIGATE": 1.0, "DETECT": 1.0, "VALIDATE": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 1.0}}
+{"text": "Map campaign infrastructure for threat_2", "intents": {"INVESTIGATE": 1.0, "MAP": 1.0, "ANALYZE": 1.0, "DETECT": 1.0, "MONITOR": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Find indicators for campaign_94", "intents": {"INVESTIGATE": 1.0, "DETECT": 1.0, "ENRICH": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Find indicators for campaign_29", "intents": {"INVESTIGATE": 1.0, "DETECT": 1.0, "ENRICH": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Check IOC database for indicator_76", "intents": {"INVESTIGATE": 1.0, "DETECT": 1.0, "VALIDATE": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 1.0}}
+{"text": "Check IOC database for indicator_71", "intents": {"INVESTIGATE": 1.0, "DETECT": 1.0, "VALIDATE": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 1.0}}
+{"text": "Find indicators for campaign_74", "intents": {"INVESTIGATE": 1.0, "DETECT": 1.0, "ENRICH": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Check IOC database for indicator_91", "intents": {"INVESTIGATE": 1.0, "DETECT": 1.0, "VALIDATE": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 1.0}}
+{"text": "Find indicators for campaign_19", "intents": {"INVESTIGATE": 1.0, "DETECT": 1.0, "ENRICH": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Map campaign infrastructure for threat_22", "intents": {"INVESTIGATE": 1.0, "MAP": 1.0, "ANALYZE": 1.0, "DETECT": 1.0, "MONITOR": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Find indicators for campaign_4", "intents": {"INVESTIGATE": 1.0, "DETECT": 1.0, "ENRICH": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Check IOC database for indicator_61", "intents": {"INVESTIGATE": 1.0, "DETECT": 1.0, "VALIDATE": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 1.0}}
+{"text": "Map the campaign infrastructure for this threat", "intents": {"INVESTIGATE": 1.0, "MAP": 1.0, "ANALYZE": 1.0, "DETECT": 1.0, "MONITOR": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Check IOC database for indicator_66", "intents": {"INVESTIGATE": 1.0, "DETECT": 1.0, "VALIDATE": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 1.0}}
+{"text": "Attribute this attack to a known threat actor and map the campaign TTPs", "intents": {"ATTRIBUTE_ATTACK": 1.0, "ATTRIBUTE_CAMPAIGN": 1.0, "MAP_TTP": 1.0, "ATTRIBUTE": 0.0}}
+{"text": "Track malware sample_28 behavior", "intents": {"INVESTIGATE": 1.0, "TRACK": 1.0, "ANALYZE": 1.0, "DETECT": 0.0, "MONITOR": 0.0, "VALIDATE": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Find indicators for campaign_19", "intents": {"INVESTIGATE": 1.0, "DETECT": 1.0, "ENRICH": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Track malware sample_38 behavior", "intents": {"INVESTIGATE": 1.0, "TRACK": 1.0, "ANALYZE": 1.0, "DETECT": 0.0, "MONITOR": 0.0, "VALIDATE": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Map campaign infrastructure for threat_42", "intents": {"INVESTIGATE": 1.0, "MAP": 1.0, "ANALYZE": 1.0, "DETECT": 1.0, "MONITOR": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Check IOC database for indicator_66", "intents": {"INVESTIGATE": 1.0, "DETECT": 1.0, "VALIDATE": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 1.0}}
+{"text": "Map campaign infrastructure for threat_32", "intents": {"INVESTIGATE": 1.0, "MAP": 1.0, "ANALYZE": 1.0, "DETECT": 1.0, "MONITOR": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Map campaign infrastructure for threat_17", "intents": {"INVESTIGATE": 1.0, "MAP": 1.0, "ANALYZE": 1.0, "DETECT": 1.0, "MONITOR": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Map campaign infrastructure for threat_27", "intents": {"INVESTIGATE": 1.0, "MAP": 1.0, "ANALYZE": 1.0, "DETECT": 1.0, "MONITOR": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Map campaign infrastructure for threat_62", "intents": {"INVESTIGATE": 1.0, "MAP": 1.0, "ANALYZE": 1.0, "DETECT": 1.0, "MONITOR": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Map campaign infrastructure for threat_47", "intents": {"INVESTIGATE": 1.0, "MAP": 1.0, "ANALYZE": 1.0, "DETECT": 1.0, "MONITOR": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Find indicators for campaign_9", "intents": {"INVESTIGATE": 1.0, "DETECT": 1.0, "ENRICH": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Analyze threat actor_75 targeting sector_75", "intents": {"INVESTIGATE": 1.0, "ANALYZE": 1.0, "DETECT": 1.0, "MONITOR": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Map campaign infrastructure for threat_27", "intents": {"INVESTIGATE": 1.0, "MAP": 1.0, "ANALYZE": 1.0, "DETECT": 1.0, "MONITOR": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Analyze threat actor_55 targeting sector_55", "intents": {"INVESTIGATE": 1.0, "ANALYZE": 1.0, "DETECT": 1.0, "MONITOR": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Map campaign infrastructure for threat_52", "intents": {"INVESTIGATE": 1.0, "MAP": 1.0, "ANALYZE": 1.0, "DETECT": 1.0, "MONITOR": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Analyze threat actor_90 targeting sector_90", "intents": {"INVESTIGATE": 1.0, "ANALYZE": 1.0, "DETECT": 1.0, "MONITOR": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Find indicators for campaign_54", "intents": {"INVESTIGATE": 1.0, "DETECT": 1.0, "ENRICH": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Check IOC database for indicator_86", "intents": {"INVESTIGATE": 1.0, "DETECT": 1.0, "VALIDATE": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 1.0}}
+{"text": "Analyze threat actor_75 targeting sector_75", "intents": {"INVESTIGATE": 1.0, "ANALYZE": 1.0, "DETECT": 1.0, "MONITOR": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Analyze threat actor_90 targeting sector_90", "intents": {"INVESTIGATE": 1.0, "ANALYZE": 1.0, "DETECT": 1.0, "MONITOR": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Map campaign infrastructure for threat_62", "intents": {"INVESTIGATE": 1.0, "MAP": 1.0, "ANALYZE": 1.0, "DETECT": 1.0, "MONITOR": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Analyze threat actor_65 targeting sector_65", "intents": {"INVESTIGATE": 1.0, "ANALYZE": 1.0, "DETECT": 1.0, "MONITOR": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Check IOC database for indicator_56", "intents": {"INVESTIGATE": 1.0, "DETECT": 1.0, "VALIDATE": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 1.0}}
+{"text": "Map campaign infrastructure for threat_37", "intents": {"INVESTIGATE": 1.0, "MAP": 1.0, "ANALYZE": 1.0, "DETECT": 1.0, "MONITOR": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Check IOC database for indicator_51", "intents": {"INVESTIGATE": 1.0, "DETECT": 1.0, "VALIDATE": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 1.0}}
+{"text": "Track malware sample_48 behavior", "intents": {"INVESTIGATE": 1.0, "TRACK": 1.0, "ANALYZE": 1.0, "DETECT": 0.0, "MONITOR": 0.0, "VALIDATE": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Analyze threat actor_60 targeting sector_60", "intents": {"INVESTIGATE": 1.0, "ANALYZE": 1.0, "DETECT": 1.0, "MONITOR": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Analyze threat actor_65 targeting sector_65", "intents": {"INVESTIGATE": 1.0, "ANALYZE": 1.0, "DETECT": 1.0, "MONITOR": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Map campaign infrastructure for threat_7", "intents": {"INVESTIGATE": 1.0, "MAP": 1.0, "ANALYZE": 1.0, "DETECT": 1.0, "MONITOR": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Track malware sample_83 behavior", "intents": {"INVESTIGATE": 1.0, "TRACK": 1.0, "ANALYZE": 1.0, "DETECT": 0.0, "MONITOR": 0.0, "VALIDATE": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Check IOC database for indicator_26", "intents": {"INVESTIGATE": 1.0, "DETECT": 1.0, "VALIDATE": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 1.0}}
+{"text": "Analyze this malware sample for indicators", "intents": {"INVESTIGATE": 1.0, "ANALYZE": 1.0, "DETECT": 1.0, "MONITOR": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Track malware sample_43 behavior", "intents": {"INVESTIGATE": 1.0, "TRACK": 1.0, "ANALYZE": 1.0, "DETECT": 0.0, "MONITOR": 0.0, "VALIDATE": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "What threat actors are targeting our industry?", "intents": {"INVESTIGATE": 1.0, "DETECT": 1.0, "MONITOR": 1.0, "ANALYZE": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Analyze threat actor_15 targeting sector_15", "intents": {"INVESTIGATE": 1.0, "ANALYZE": 1.0, "DETECT": 1.0, "MONITOR": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Analyze threat actor_30 targeting sector_30", "intents": {"INVESTIGATE": 1.0, "ANALYZE": 1.0, "DETECT": 1.0, "MONITOR": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Track malware sample_58 behavior", "intents": {"INVESTIGATE": 1.0, "TRACK": 1.0, "ANALYZE": 1.0, "DETECT": 0.0, "MONITOR": 0.0, "VALIDATE": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Track malware sample_88 behavior", "intents": {"INVESTIGATE": 1.0, "TRACK": 1.0, "ANALYZE": 1.0, "DETECT": 0.0, "MONITOR": 0.0, "VALIDATE": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Find indicators for campaign_54", "intents": {"INVESTIGATE": 1.0, "DETECT": 1.0, "ENRICH": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Analyze threat actor_15 targeting sector_15", "intents": {"INVESTIGATE": 1.0, "ANALYZE": 1.0, "DETECT": 1.0, "MONITOR": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Check IOC database for indicator_61", "intents": {"INVESTIGATE": 1.0, "DETECT": 1.0, "VALIDATE": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 1.0}}
+{"text": "Check IOC database for indicator_41", "intents": {"INVESTIGATE": 1.0, "DETECT": 1.0, "VALIDATE": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 1.0}}
+{"text": "Analyze threat actor_60 targeting sector_60", "intents": {"INVESTIGATE": 1.0, "ANALYZE": 1.0, "DETECT": 1.0, "MONITOR": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Track malware sample_88 behavior", "intents": {"INVESTIGATE": 1.0, "TRACK": 1.0, "ANALYZE": 1.0, "DETECT": 0.0, "MONITOR": 0.0, "VALIDATE": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Map campaign infrastructure for threat_72", "intents": {"INVESTIGATE": 1.0, "MAP": 1.0, "ANALYZE": 1.0, "DETECT": 1.0, "MONITOR": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Analyze threat actor_60 targeting sector_60", "intents": {"INVESTIGATE": 1.0, "ANALYZE": 1.0, "DETECT": 1.0, "MONITOR": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Track malware sample_28 behavior", "intents": {"INVESTIGATE": 1.0, "TRACK": 1.0, "ANALYZE": 1.0, "DETECT": 0.0, "MONITOR": 0.0, "VALIDATE": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Analyze threat actor_5 targeting sector_5", "intents": {"INVESTIGATE": 1.0, "ANALYZE": 1.0, "DETECT": 1.0, "MONITOR": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Find indicators for campaign_4", "intents": {"INVESTIGATE": 1.0, "DETECT": 1.0, "ENRICH": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Check IOC database for indicator_6", "intents": {"INVESTIGATE": 1.0, "DETECT": 1.0, "VALIDATE": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 1.0}}
+{"text": "Track malware sample_48 behavior", "intents": {"INVESTIGATE": 1.0, "TRACK": 1.0, "ANALYZE": 1.0, "DETECT": 0.0, "MONITOR": 0.0, "VALIDATE": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Track malware sample_8 behavior", "intents": {"INVESTIGATE": 1.0, "TRACK": 1.0, "ANALYZE": 1.0, "DETECT": 0.0, "MONITOR": 0.0, "VALIDATE": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Map campaign infrastructure for threat_2", "intents": {"INVESTIGATE": 1.0, "MAP": 1.0, "ANALYZE": 1.0, "DETECT": 1.0, "MONITOR": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Analyze threat actor_0 targeting sector_0", "intents": {"INVESTIGATE": 1.0, "ANALYZE": 1.0, "DETECT": 1.0, "MONITOR": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Analyze threat actor_90 targeting sector_90", "intents": {"INVESTIGATE": 1.0, "ANALYZE": 1.0, "DETECT": 1.0, "MONITOR": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Analyze threat actor_35 targeting sector_35", "intents": {"INVESTIGATE": 1.0, "ANALYZE": 1.0, "DETECT": 1.0, "MONITOR": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Track malware sample_78 behavior", "intents": {"INVESTIGATE": 1.0, "TRACK": 1.0, "ANALYZE": 1.0, "DETECT": 0.0, "MONITOR": 0.0, "VALIDATE": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Check IOC database for indicator_66", "intents": {"INVESTIGATE": 1.0, "DETECT": 1.0, "VALIDATE": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 1.0}}
+{"text": "Check IOC database for indicator_61", "intents": {"INVESTIGATE": 1.0, "DETECT": 1.0, "VALIDATE": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 1.0}}
+{"text": "Map campaign infrastructure for threat_22", "intents": {"INVESTIGATE": 1.0, "MAP": 1.0, "ANALYZE": 1.0, "DETECT": 1.0, "MONITOR": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Map campaign infrastructure for threat_57", "intents": {"INVESTIGATE": 1.0, "MAP": 1.0, "ANALYZE": 1.0, "DETECT": 1.0, "MONITOR": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Find indicators for campaign_29", "intents": {"INVESTIGATE": 1.0, "DETECT": 1.0, "ENRICH": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Find indicators for campaign_59", "intents": {"INVESTIGATE": 1.0, "DETECT": 1.0, "ENRICH": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Find indicators for campaign_79", "intents": {"INVESTIGATE": 1.0, "DETECT": 1.0, "ENRICH": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Map campaign infrastructure for threat_42", "intents": {"INVESTIGATE": 1.0, "MAP": 1.0, "ANALYZE": 1.0, "DETECT": 1.0, "MONITOR": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Find indicators for campaign_4", "intents": {"INVESTIGATE": 1.0, "DETECT": 1.0, "ENRICH": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Track malware sample_13 behavior", "intents": {"INVESTIGATE": 1.0, "TRACK": 1.0, "ANALYZE": 1.0, "DETECT": 0.0, "MONITOR": 0.0, "VALIDATE": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Analyze threat actor_50 targeting sector_50", "intents": {"INVESTIGATE": 1.0, "ANALYZE": 1.0, "DETECT": 1.0, "MONITOR": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Track malware sample_8 behavior", "intents": {"INVESTIGATE": 1.0, "TRACK": 1.0, "ANALYZE": 1.0, "DETECT": 0.0, "MONITOR": 0.0, "VALIDATE": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Track threat actor activity over time", "intents": {"INVESTIGATE": 1.0, "TRACK": 1.0, "MONITOR": 1.0, "ANALYZE": 1.0, "DETECT": 0.0, "VALIDATE": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Track malware sample_33 behavior", "intents": {"INVESTIGATE": 1.0, "TRACK": 1.0, "ANALYZE": 1.0, "DETECT": 0.0, "MONITOR": 0.0, "VALIDATE": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Check IOC database for indicator_36", "intents": {"INVESTIGATE": 1.0, "DETECT": 1.0, "VALIDATE": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 1.0}}
+{"text": "Find indicators for campaign_84", "intents": {"INVESTIGATE": 1.0, "DETECT": 1.0, "ENRICH": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Check IOC database for indicator_56", "intents": {"INVESTIGATE": 1.0, "DETECT": 1.0, "VALIDATE": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 1.0}}
+{"text": "Check IOC database for indicator_16", "intents": {"INVESTIGATE": 1.0, "DETECT": 1.0, "VALIDATE": 1.0, "MONITOR": 0.0, "ANALYZE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 1.0}}
+{"text": "Analyze threat actor_25 targeting sector_25", "intents": {"INVESTIGATE": 1.0, "ANALYZE": 1.0, "DETECT": 1.0, "MONITOR": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "MAP": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Map campaign infrastructure for threat_32", "intents": {"INVESTIGATE": 1.0, "MAP": 1.0, "ANALYZE": 1.0, "DETECT": 1.0, "MONITOR": 0.0, "VALIDATE": 0.0, "TRACK": 0.0, "ENRICH": 0.0, "GENERATE": 0.0, "CHECK": 0.0}}
+{"text": "Examine the GitHub repo for malicious code", "intents": {"ANALYZE_GITHUB_REPO": 1.0}}
+{"text": "Review the repository code for potential threats", "intents": {"ANALYZE_GITHUB_REPO": 1.0}}
+{"text": "Examine the GitHub repo for malicious code", "intents": {"ANALYZE_GITHUB_REPO": 1.0}}
+{"text": "Examine a GitHub repo for malicious code", "intents": {"ANALYZE_GITHUB_REPO": 1.0}}
+{"text": "Analyze the GitHub repository for security vulnerabilities", "intents": {"ANALYZE_GITHUB_REPO": 1.0}}
+{"text": "Investigate the repository for security issues", "intents": {"ANALYZE_GITHUB_REPO": 1.0}}
+{"text": "Investigate a repo for security issues", "intents": {"ANALYZE_GITHUB_REPO": 1.0}}
+{"text": "Examine a github repo for malicious code", "intents": {"ANALYZE_GITHUB_REPO": 1.0}}
+{"text": "Review the repository code for potential threats", "intents": {"ANALYZE_GITHUB_REPO": 1.0}}
+{"text": "Examine the GitHub repo for malicious code", "intents": {"ANALYZE_GITHUB_REPO": 1.0}}
+{"text": "Examine the github repo for malicious code", "intents": {"ANALYZE_GITHUB_REPO": 1.0}}
+{"text": "Analyze the GitHub repository for security vulnerabilities", "intents": {"ANALYZE_GITHUB_REPO": 1.0}}
+{"text": "Investigate the repository for security issues", "intents": {"ANALYZE_GITHUB_REPO": 1.0}}
+{"text": "Analyze a github repo for security vulnerabilities", "intents": {"ANALYZE_GITHUB_REPO": 1.0}}
+{"text": "Review the repository code for potential threats", "intents": {"ANALYZE_GITHUB_REPO": 1.0}}
+{"text": "Review the repository code for potential threats", "intents": {"ANALYZE_GITHUB_REPO": 1.0}}
+{"text": "Analyze the GitHub repository for security vulnerabilities", "intents": {"ANALYZE_GITHUB_REPO": 1.0}}
+{"text": "Examine a GitHub repo for malicious code", "intents": {"ANALYZE_GITHUB_REPO": 1.0}}
+{"text": "Investigate the repository for security issues", "intents": {"ANALYZE_GITHUB_REPO": 1.0}}
+{"text": "Investigate a repo for security issues", "intents": {"ANALYZE_GITHUB_REPO": 1.0}}
+{"text": "Perform security scan on a repo", "intents": {"SCAN_GITHUB_REPO": 1.0}}
+{"text": "Check repository for security issues", "intents": {"SCAN_GITHUB_REPO": 1.0}}
+{"text": "Perform security scan on the repository", "intents": {"SCAN_GITHUB_REPO": 1.0}}
+{"text": "Perform security scan on the repository", "intents": {"SCAN_GITHUB_REPO": 1.0}}
+{"text": "Perform security scan on a repo", "intents": {"SCAN_GITHUB_REPO": 1.0}}
+{"text": "Scan repository for exposed secrets", "intents": {"SCAN_GITHUB_REPO": 1.0}}
+{"text": "Scan repository for exposed secrets", "intents": {"SCAN_GITHUB_REPO": 1.0}}
+{"text": "Perform security scan on the repository", "intents": {"SCAN_GITHUB_REPO": 1.0}}
+{"text": "Scan the GitHub repository for security vulnerabilities", "intents": {"SCAN_GITHUB_REPO": 1.0}}
+{"text": "Scan repository for exposed secrets", "intents": {"SCAN_GITHUB_REPO": 1.0}}
+{"text": "Check repository for security issues", "intents": {"SCAN_GITHUB_REPO": 1.0}}
+{"text": "Run vulnerability scan on GitHub repo", "intents": {"SCAN_GITHUB_REPO": 1.0}}
+{"text": "Scan repository for exposed secrets", "intents": {"SCAN_GITHUB_REPO": 1.0}}
+{"text": "Run vulnerability scan on github repo", "intents": {"SCAN_GITHUB_REPO": 1.0}}
+{"text": "Perform security scan on the repository", "intents": {"SCAN_GITHUB_REPO": 1.0}}
+{"text": "Scan the GitHub repository for security vulnerabilities", "intents": {"SCAN_GITHUB_REPO": 1.0}}
+{"text": "Perform security scan on the repository", "intents": {"SCAN_GITHUB_REPO": 1.0}}
+{"text": "Check repo for security issues", "intents": {"SCAN_GITHUB_REPO": 1.0}}
+{"text": "Perform security scan on the repository", "intents": {"SCAN_GITHUB_REPO": 1.0}}
+{"text": "Run vulnerability scan on GitHub repo", "intents": {"SCAN_GITHUB_REPO": 1.0}}
+{"text": "Monitor the GitHub repository for changes", "intents": {"MONITOR_GITHUB_REPO": 1.0}}
+{"text": "Keep track of repo changes", "intents": {"MONITOR_GITHUB_REPO": 1.0}}
+{"text": "Monitor the GitHub repository for changes", "intents": {"MONITOR_GITHUB_REPO": 1.0}}
+{"text": "Keep track of repo changes", "intents": {"MONITOR_GITHUB_REPO": 1.0}}
+{"text": "Track repository activity and updates", "intents": {"MONITOR_GITHUB_REPO": 1.0}}
+{"text": "Track repository activity and updates", "intents": {"MONITOR_GITHUB_REPO": 1.0}}
+{"text": "Keep track of repository changes", "intents": {"MONITOR_GITHUB_REPO": 1.0}}
+{"text": "Track repository activity and updates", "intents": {"MONITOR_GITHUB_REPO": 1.0}}
+{"text": "Watch for new commits in a repo", "intents": {"MONITOR_GITHUB_REPO": 1.0}}
+{"text": "Watch for new commits in the repository", "intents": {"MONITOR_GITHUB_REPO": 1.0}}
+{"text": "Monitor repo for suspicious activity", "intents": {"MONITOR_GITHUB_REPO": 1.0}}
+{"text": "Monitor repository for suspicious activity", "intents": {"MONITOR_GITHUB_REPO": 1.0}}
+{"text": "Track repository activity and updates", "intents": {"MONITOR_GITHUB_REPO": 1.0}}
+{"text": "Monitor the GitHub repository for changes", "intents": {"MONITOR_GITHUB_REPO": 1.0}}
+{"text": "Keep track of repo changes", "intents": {"MONITOR_GITHUB_REPO": 1.0}}
+{"text": "Keep track of repo changes", "intents": {"MONITOR_GITHUB_REPO": 1.0}}
+{"text": "Monitor repository for suspicious activity", "intents": {"MONITOR_GITHUB_REPO": 1.0}}
+{"text": "Keep track of repo changes", "intents": {"MONITOR_GITHUB_REPO": 1.0}}
+{"text": "Monitor repository for suspicious activity", "intents": {"MONITOR_GITHUB_REPO": 1.0}}
+{"text": "Monitor the GitHub repository for changes", "intents": {"MONITOR_GITHUB_REPO": 1.0}}
+{"text": "Get a copy of a repo", "intents": {"CLONE_GITHUB_REPO": 1.0}}
+{"text": "Download the repository for investigation", "intents": {"CLONE_GITHUB_REPO": 1.0}}
+{"text": "Clone a github repo for analysis", "intents": {"CLONE_GITHUB_REPO": 1.0}}
+{"text": "Download repository code", "intents": {"CLONE_GITHUB_REPO": 1.0}}
+{"text": "Get a copy of a repo", "intents": {"CLONE_GITHUB_REPO": 1.0}}
+{"text": "Download repository code", "intents": {"CLONE_GITHUB_REPO": 1.0}}
+{"text": "Download repository code", "intents": {"CLONE_GITHUB_REPO": 1.0}}
+{"text": "Get a copy of the repository", "intents": {"CLONE_GITHUB_REPO": 1.0}}
+{"text": "Download repository code", "intents": {"CLONE_GITHUB_REPO": 1.0}}
+{"text": "Clone repo for security review", "intents": {"CLONE_GITHUB_REPO": 1.0}}
+{"text": "Download repository code", "intents": {"CLONE_GITHUB_REPO": 1.0}}
+{"text": "Download the repository for investigation", "intents": {"CLONE_GITHUB_REPO": 1.0}}
+{"text": "Download the repository for investigation", "intents": {"CLONE_GITHUB_REPO": 1.0}}
+{"text": "Get a copy of a repo", "intents": {"CLONE_GITHUB_REPO": 1.0}}
+{"text": "Clone repo for security review", "intents": {"CLONE_GITHUB_REPO": 1.0}}
+{"text": "Clone the GitHub repository for analysis", "intents": {"CLONE_GITHUB_REPO": 1.0}}
+{"text": "Download a repo for investigation", "intents": {"CLONE_GITHUB_REPO": 1.0}}
+{"text": "Download repository code", "intents": {"CLONE_GITHUB_REPO": 1.0}}
+{"text": "Get a copy of the repository", "intents": {"CLONE_GITHUB_REPO": 1.0}}
+{"text": "Download a repo for investigation", "intents": {"CLONE_GITHUB_REPO": 1.0}}
+{"text": "Investigate the GitHub user's repositories", "intents": {"INVESTIGATE_GITHUB_USER": 1.0}}
+{"text": "Investigate the GitHub user's repositories", "intents": {"INVESTIGATE_GITHUB_USER": 1.0}}
+{"text": "Examine user's repository contributions", "intents": {"INVESTIGATE_GITHUB_USER": 1.0}}
+{"text": "Investigate the GitHub user's repositories", "intents": {"INVESTIGATE_GITHUB_USER": 1.0}}
+{"text": "Investigate a GitHub user's repositories", "intents": {"INVESTIGATE_GITHUB_USER": 1.0}}
+{"text": "Check user's GitHub account", "intents": {"INVESTIGATE_GITHUB_USER": 1.0}}
+{"text": "Check user's GitHub account", "intents": {"INVESTIGATE_GITHUB_USER": 1.0}}
+{"text": "Examine user's repository contributions", "intents": {"INVESTIGATE_GITHUB_USER": 1.0}}
+{"text": "Analyze user's github activity", "intents": {"INVESTIGATE_GITHUB_USER": 1.0}}
+{"text": "Examine user's repo contributions", "intents": {"INVESTIGATE_GITHUB_USER": 1.0}}
+{"text": "Examine user's repo contributions", "intents": {"INVESTIGATE_GITHUB_USER": 1.0}}
+{"text": "Investigate the GitHub user's repositories", "intents": {"INVESTIGATE_GITHUB_USER": 1.0}}
+{"text": "Examine user's repo contributions", "intents": {"INVESTIGATE_GITHUB_USER": 1.0}}
+{"text": "Investigate the GitHub user's repositories", "intents": {"INVESTIGATE_GITHUB_USER": 1.0}}
+{"text": "Analyze user's GitHub activity", "intents": {"INVESTIGATE_GITHUB_USER": 1.0}}
+{"text": "Investigate the GitHub user's repositories", "intents": {"INVESTIGATE_GITHUB_USER": 1.0}}
+{"text": "Examine user's repository contributions", "intents": {"INVESTIGATE_GITHUB_USER": 1.0}}
+{"text": "Investigate a GitHub user's repositories", "intents": {"INVESTIGATE_GITHUB_USER": 1.0}}
+{"text": "Investigate the GitHub user's repositories", "intents": {"INVESTIGATE_GITHUB_USER": 1.0}}
+{"text": "Review user's github profile", "intents": {"INVESTIGATE_GITHUB_USER": 1.0}}
+{"text": "Check for security flaws in repository", "intents": {"DETECT_GITHUB_VULNERABILITIES": 1.0}}
+{"text": "Detect vulnerabilities in GitHub repo", "intents": {"DETECT_GITHUB_VULNERABILITIES": 1.0}}
+{"text": "Check for security flaws in repository", "intents": {"DETECT_GITHUB_VULNERABILITIES": 1.0}}
+{"text": "Detect vulnerabilities in GitHub repo", "intents": {"DETECT_GITHUB_VULNERABILITIES": 1.0}}
+{"text": "Detect security vulnerabilities", "intents": {"DETECT_GITHUB_VULNERABILITIES": 1.0}}
+{"text": "Detect security vulnerabilities", "intents": {"DETECT_GITHUB_VULNERABILITIES": 1.0}}
+{"text": "Detect vulnerabilities in GitHub repository", "intents": {"DETECT_GITHUB_VULNERABILITIES": 1.0}}
+{"text": "Detect vulnerabilities in github repository", "intents": {"DETECT_GITHUB_VULNERABILITIES": 1.0}}
+{"text": "Identify vulnerabilities in code", "intents": {"DETECT_GITHUB_VULNERABILITIES": 1.0}}
+{"text": "Identify vulnerabilities in code", "intents": {"DETECT_GITHUB_VULNERABILITIES": 1.0}}
+{"text": "Identify vulnerabilities in code", "intents": {"DETECT_GITHUB_VULNERABILITIES": 1.0}}
+{"text": "Check for security flaws in repository", "intents": {"DETECT_GITHUB_VULNERABILITIES": 1.0}}
+{"text": "Check for security flaws in repository", "intents": {"DETECT_GITHUB_VULNERABILITIES": 1.0}}
+{"text": "Detect security vulnerabilities", "intents": {"DETECT_GITHUB_VULNERABILITIES": 1.0}}
+{"text": "Check for security flaws in repository", "intents": {"DETECT_GITHUB_VULNERABILITIES": 1.0}}
+{"text": "Detect security vulnerabilities", "intents": {"DETECT_GITHUB_VULNERABILITIES": 1.0}}
+{"text": "Find security issues in repo", "intents": {"DETECT_GITHUB_VULNERABILITIES": 1.0}}
+{"text": "Find security issues in repo", "intents": {"DETECT_GITHUB_VULNERABILITIES": 1.0}}
+{"text": "Check for security flaws in repo", "intents": {"DETECT_GITHUB_VULNERABILITIES": 1.0}}
+{"text": "Detect vulnerabilities in GitHub repository", "intents": {"DETECT_GITHUB_VULNERABILITIES": 1.0}}
+{"text": "Watch for suspicious GitHub activity", "intents": {"MONITOR_GITHUB_ACTIVITY": 1.0}}
+{"text": "Track repository activity patterns", "intents": {"MONITOR_GITHUB_ACTIVITY": 1.0}}
+{"text": "Track GitHub organization activity", "intents": {"MONITOR_GITHUB_ACTIVITY": 1.0}}
+{"text": "Watch for suspicious GitHub activity", "intents": {"MONITOR_GITHUB_ACTIVITY": 1.0}}
+{"text": "Monitor GitHub activity for threats", "intents": {"MONITOR_GITHUB_ACTIVITY": 1.0}}
+{"text": "Monitor user activity on github", "intents": {"MONITOR_GITHUB_ACTIVITY": 1.0}}
+{"text": "Track repository activity patterns", "intents": {"MONITOR_GITHUB_ACTIVITY": 1.0}}
+{"text": "Monitor GitHub activity for threats", "intents": {"MONITOR_GITHUB_ACTIVITY": 1.0}}
+{"text": "Track GitHub organization activity", "intents": {"MONITOR_GITHUB_ACTIVITY": 1.0}}
+{"text": "Watch for suspicious GitHub activity", "intents": {"MONITOR_GITHUB_ACTIVITY": 1.0}}
+{"text": "Monitor user activity on GitHub", "intents": {"MONITOR_GITHUB_ACTIVITY": 1.0}}
+{"text": "Monitor GitHub activity for threats", "intents": {"MONITOR_GITHUB_ACTIVITY": 1.0}}
+{"text": "Track GitHub organization activity", "intents": {"MONITOR_GITHUB_ACTIVITY": 1.0}}
+{"text": "Monitor user activity on github", "intents": {"MONITOR_GITHUB_ACTIVITY": 1.0}}
+{"text": "Track repository activity patterns", "intents": {"MONITOR_GITHUB_ACTIVITY": 1.0}}
+{"text": "Watch for suspicious github activity", "intents": {"MONITOR_GITHUB_ACTIVITY": 1.0}}
+{"text": "Watch for suspicious github activity", "intents": {"MONITOR_GITHUB_ACTIVITY": 1.0}}
+{"text": "Watch for suspicious GitHub activity", "intents": {"MONITOR_GITHUB_ACTIVITY": 1.0}}
+{"text": "Track repository activity patterns", "intents": {"MONITOR_GITHUB_ACTIVITY": 1.0}}
+{"text": "Track repository activity patterns", "intents": {"MONITOR_GITHUB_ACTIVITY": 1.0}}
+{"text": "Extract security information from repo", "intents": {"EXTRACT_GITHUB_INTELLIGENCE": 1.0}}
+{"text": "Collect intelligence from github", "intents": {"EXTRACT_GITHUB_INTELLIGENCE": 1.0}}
+{"text": "Collect intelligence from GitHub", "intents": {"EXTRACT_GITHUB_INTELLIGENCE": 1.0}}
+{"text": "Collect intelligence from GitHub", "intents": {"EXTRACT_GITHUB_INTELLIGENCE": 1.0}}
+{"text": "Extract security information from repo", "intents": {"EXTRACT_GITHUB_INTELLIGENCE": 1.0}}
+{"text": "Extract threat intelligence from GitHub", "intents": {"EXTRACT_GITHUB_INTELLIGENCE": 1.0}}
+{"text": "Gather OSINT from GitHub repositories", "intents": {"EXTRACT_GITHUB_INTELLIGENCE": 1.0}}
+{"text": "Collect intelligence from GitHub", "intents": {"EXTRACT_GITHUB_INTELLIGENCE": 1.0}}
+{"text": "Extract threat intelligence from github", "intents": {"EXTRACT_GITHUB_INTELLIGENCE": 1.0}}
+{"text": "Gather OSINT from GitHub repositories", "intents": {"EXTRACT_GITHUB_INTELLIGENCE": 1.0}}
+{"text": "Gaar threat data from GitHub", "intents": {"EXTRACT_GITHUB_INTELLIGENCE": 1.0}}
+{"text": "Extract threat intelligence from GitHub", "intents": {"EXTRACT_GITHUB_INTELLIGENCE": 1.0}}
+{"text": "Collect intelligence from GitHub", "intents": {"EXTRACT_GITHUB_INTELLIGENCE": 1.0}}
+{"text": "Gaar threat data from github", "intents": {"EXTRACT_GITHUB_INTELLIGENCE": 1.0}}
+{"text": "Extract threat intelligence from github", "intents": {"EXTRACT_GITHUB_INTELLIGENCE": 1.0}}
+{"text": "Collect intelligence from GitHub", "intents": {"EXTRACT_GITHUB_INTELLIGENCE": 1.0}}
+{"text": "Collect intelligence from github", "intents": {"EXTRACT_GITHUB_INTELLIGENCE": 1.0}}
+{"text": "Gaar OSINT from GitHub repositories", "intents": {"EXTRACT_GITHUB_INTELLIGENCE": 1.0}}
+{"text": "Gaar threat data from GitHub", "intents": {"EXTRACT_GITHUB_INTELLIGENCE": 1.0}}
+{"text": "Gather threat data from GitHub", "intents": {"EXTRACT_GITHUB_INTELLIGENCE": 1.0}}
+{"text": "Search GitHub repositories for keywords", "intents": {"SEARCH_GITHUB_REPOS": 1.0}}
+{"text": "Look for repositories with vulnerabilities", "intents": {"SEARCH_GITHUB_REPOS": 1.0}}
+{"text": "Find repositories related to threat", "intents": {"SEARCH_GITHUB_REPOS": 1.0}}
+{"text": "Search for specific code patterns", "intents": {"SEARCH_GITHUB_REPOS": 1.0}}
+{"text": "Search github for security tools", "intents": {"SEARCH_GITHUB_REPOS": 1.0}}
+{"text": "Search GitHub repositories for keywords", "intents": {"SEARCH_GITHUB_REPOS": 1.0}}
+{"text": "Look for repositories with vulnerabilities", "intents": {"SEARCH_GITHUB_REPOS": 1.0}}
+{"text": "Search for specific code patterns", "intents": {"SEARCH_GITHUB_REPOS": 1.0}}
+{"text": "Search GitHub repositories for keywords", "intents": {"SEARCH_GITHUB_REPOS": 1.0}}
+{"text": "Search GitHub for security tools", "intents": {"SEARCH_GITHUB_REPOS": 1.0}}
+{"text": "Search github repositories for keywords", "intents": {"SEARCH_GITHUB_REPOS": 1.0}}
+{"text": "Look for repositories with vulnerabilities", "intents": {"SEARCH_GITHUB_REPOS": 1.0}}
+{"text": "Search GitHub for security tools", "intents": {"SEARCH_GITHUB_REPOS": 1.0}}
+{"text": "Look for repositories with vulnerabilities", "intents": {"SEARCH_GITHUB_REPOS": 1.0}}
+{"text": "Find repositories related to threat", "intents": {"SEARCH_GITHUB_REPOS": 1.0}}
+{"text": "Search GitHub for security tools", "intents": {"SEARCH_GITHUB_REPOS": 1.0}}
+{"text": "Find repositories related to threat", "intents": {"SEARCH_GITHUB_REPOS": 1.0}}
+{"text": "Search GitHub for security tools", "intents": {"SEARCH_GITHUB_REPOS": 1.0}}
+{"text": "Search for specific code patterns", "intents": {"SEARCH_GITHUB_REPOS": 1.0}}
+{"text": "Find repositories related to threat", "intents": {"SEARCH_GITHUB_REPOS": 1.0}}
+{"text": "Check organization for vulnerabilities", "intents": {"ANALYZE_GITHUB_ORGANIZATION": 1.0}}
+{"text": "Review organization's security practices", "intents": {"ANALYZE_GITHUB_ORGANIZATION": 1.0}}
+{"text": "Review organization's security practices", "intents": {"ANALYZE_GITHUB_ORGANIZATION": 1.0}}
+{"text": "Analyze org's repository security", "intents": {"ANALYZE_GITHUB_ORGANIZATION": 1.0}}
+{"text": "Analyze GitHub organization repositories", "intents": {"ANALYZE_GITHUB_ORGANIZATION": 1.0}}
+{"text": "Review organization's security practices", "intents": {"ANALYZE_GITHUB_ORGANIZATION": 1.0}}
+{"text": "Check organization for vulnerabilities", "intents": {"ANALYZE_GITHUB_ORGANIZATION": 1.0}}
+{"text": "Analyze GitHub organization repositories", "intents": {"ANALYZE_GITHUB_ORGANIZATION": 1.0}}
+{"text": "Analyze org's repository security", "intents": {"ANALYZE_GITHUB_ORGANIZATION": 1.0}}
+{"text": "Analyze github organization repositories", "intents": {"ANALYZE_GITHUB_ORGANIZATION": 1.0}}
+{"text": "Review organization's security practices", "intents": {"ANALYZE_GITHUB_ORGANIZATION": 1.0}}
+{"text": "Check organization for vulnerabilities", "intents": {"ANALYZE_GITHUB_ORGANIZATION": 1.0}}
+{"text": "Analyze org's repo security", "intents": {"ANALYZE_GITHUB_ORGANIZATION": 1.0}}
+{"text": "Review organization's security practices", "intents": {"ANALYZE_GITHUB_ORGANIZATION": 1.0}}
+{"text": "Analyze GitHub organization repositories", "intents": {"ANALYZE_GITHUB_ORGANIZATION": 1.0}}
+{"text": "Examine organization's codebase", "intents": {"ANALYZE_GITHUB_ORGANIZATION": 1.0}}
+{"text": "Check organization for vulnerabilities", "intents": {"ANALYZE_GITHUB_ORGANIZATION": 1.0}}
+{"text": "Analyze org's repo security", "intents": {"ANALYZE_GITHUB_ORGANIZATION": 1.0}}
+{"text": "Examine organization's codebase", "intents": {"ANALYZE_GITHUB_ORGANIZATION": 1.0}}
+{"text": "Check organization for vulnerabilities", "intents": {"ANALYZE_GITHUB_ORGANIZATION": 1.0}}
+{"text": "Examine gist content", "intents": {"ANALYZE_GITHUB_GISTS": 1.0}}
+{"text": "Analyze gist for security issues", "intents": {"ANALYZE_GITHUB_GISTS": 1.0}}
+{"text": "Check gists for sensitive data", "intents": {"ANALYZE_GITHUB_GISTS": 1.0}}
+{"text": "Analyze GitHub gists for threats", "intents": {"ANALYZE_GITHUB_GISTS": 1.0}}
+{"text": "Analyze gist for security issues", "intents": {"ANALYZE_GITHUB_GISTS": 1.0}}
+{"text": "Check gists for sensitive data", "intents": {"ANALYZE_GITHUB_GISTS": 1.0}}
+{"text": "Check gists for sensitive data", "intents": {"ANALYZE_GITHUB_GISTS": 1.0}}
+{"text": "Analyze github gists for threats", "intents": {"ANALYZE_GITHUB_GISTS": 1.0}}
+{"text": "Check gists for sensitive data", "intents": {"ANALYZE_GITHUB_GISTS": 1.0}}
+{"text": "Examine gist content", "intents": {"ANALYZE_GITHUB_GISTS": 1.0}}
+{"text": "Check gists for sensitive data", "intents": {"ANALYZE_GITHUB_GISTS": 1.0}}
+{"text": "Examine gist content", "intents": {"ANALYZE_GITHUB_GISTS": 1.0}}
+{"text": "Review gist code for vulnerabilities", "intents": {"ANALYZE_GITHUB_GISTS": 1.0}}
+{"text": "Examine gist content", "intents": {"ANALYZE_GITHUB_GISTS": 1.0}}
+{"text": "Analyze github gists for threats", "intents": {"ANALYZE_GITHUB_GISTS": 1.0}}
+{"text": "Analyze github gists for threats", "intents": {"ANALYZE_GITHUB_GISTS": 1.0}}
+{"text": "Check gists for sensitive data", "intents": {"ANALYZE_GITHUB_GISTS": 1.0}}
+{"text": "Analyze gist for security issues", "intents": {"ANALYZE_GITHUB_GISTS": 1.0}}
+{"text": "Review gist code for vulnerabilities", "intents": {"ANALYZE_GITHUB_GISTS": 1.0}}
+{"text": "Check gists for sensitive data", "intents": {"ANALYZE_GITHUB_GISTS": 1.0}}
+{"text": "Find exploit repositories", "intents": {"DETECT_GITHUB_EXPLOITS": 1.0}}
+{"text": "Find exploit development code", "intents": {"DETECT_GITHUB_EXPLOITS": 1.0}}
+{"text": "Detect exploit code in GitHub", "intents": {"DETECT_GITHUB_EXPLOITS": 1.0}}
+{"text": "Detect malicious exploits in repo", "intents": {"DETECT_GITHUB_EXPLOITS": 1.0}}
+{"text": "Detect exploit code in github", "intents": {"DETECT_GITHUB_EXPLOITS": 1.0}}
+{"text": "Find exploit development code", "intents": {"DETECT_GITHUB_EXPLOITS": 1.0}}
+{"text": "Detect malicious exploits in repo", "intents": {"DETECT_GITHUB_EXPLOITS": 1.0}}
+{"text": "Find exploit repositories", "intents": {"DETECT_GITHUB_EXPLOITS": 1.0}}
+{"text": "Detect exploit code in github", "intents": {"DETECT_GITHUB_EXPLOITS": 1.0}}
+{"text": "Detect malicious exploits in repo", "intents": {"DETECT_GITHUB_EXPLOITS": 1.0}}
+{"text": "Find exploit repositories", "intents": {"DETECT_GITHUB_EXPLOITS": 1.0}}
+{"text": "Detect malicious exploits in repo", "intents": {"DETECT_GITHUB_EXPLOITS": 1.0}}
+{"text": "Detect malicious exploits in repo", "intents": {"DETECT_GITHUB_EXPLOITS": 1.0}}
+{"text": "Identify exploit code patterns", "intents": {"DETECT_GITHUB_EXPLOITS": 1.0}}
+{"text": "Find exploit repositories", "intents": {"DETECT_GITHUB_EXPLOITS": 1.0}}
+{"text": "Detect exploit code in GitHub", "intents": {"DETECT_GITHUB_EXPLOITS": 1.0}}
+{"text": "Detect malicious exploits in repo", "intents": {"DETECT_GITHUB_EXPLOITS": 1.0}}
+{"text": "Detect malicious exploits in repo", "intents": {"DETECT_GITHUB_EXPLOITS": 1.0}}
+{"text": "Find exploit development code", "intents": {"DETECT_GITHUB_EXPLOITS": 1.0}}
+{"text": "Find exploit repositories", "intents": {"DETECT_GITHUB_EXPLOITS": 1.0}}

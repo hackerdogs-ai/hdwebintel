@@ -1,0 +1,1148 @@
+{"text": "Bug Bounty Platform Integrator ingested 42 reports triaging 28 valid findings", "entities": [[40, 42, "COUNT"]]}
+{"text": "Secure Coding Lab Tool trained developers on OWASP Top 10 and secure coding practices", "entities": [[45, 54, "FRAMEWORK"], [51, 57, "FRAMEWORK"], [62, 68, "PRACTICE_TYPE"]]}
+{"text": "Snyk Open Source SCA tool scanned 4800 dependencies finding 22 critical vulnerabilities", "entities": [[0, 4, "TOOL"], [72, 87, "SEVERITY_TYPE"]]}
+{"text": "Evidence Packaging Tool compiled audit evidence for 150 applications meeting compliance requirements", "entities": [[33, 47, "EVIDENCE_TYPE"], [52, 55, "COUNT"]]}
+{"text": "Code review of repository github.com/org/microservice found hardcoded secrets in source code. Finding requires immediate remediation.", "entities": [[26, 59, "REPOSITORY"]]}
+{"text": "SAST Tool scanned 90 repositories finding 14 critical and 36 high severity vulnerabilities", "entities": [[10, 20, "COUNT"], [21, 33, "REPOSITORY_TYPE"], [58, 65, "SEVERITY_TYPE"], [61, 90, "VULNERABILITY_TYPE"]]}
+{"text": "Threat Modeling Tool performed STRIDE LINDDUN analysis mapping threats to MITRE ATT&CK", "entities": [[21, 37, "ANALYSIS_TYPE"], [31, 45, "ANALYSIS_TYPE"], [46, 62, "THREAT_TYPE"], [63, 79, "FRAMEWORK"]]}
+{"text": "OSS License Scanner detected GPL-3.0 AGPL-3.0 and incompatible licenses in CRM ERP apps", "entities": [[20, 36, "LICENSE_TYPE"], [37, 43, "LICENSE_TYPE"], [63, 71, "APPLICATION_TYPE"]]}
+{"text": "Fuzzing Tool ran API protocol and binary fuzzing on 25 applications finding 8 crashes", "entities": [[17, 29, "FUZZING_TYPE"], [52, 54, "COUNT"]]}
+{"text": "Jenkins CI/CD platform integrated SAST DAST and SCA scans in 70 pipelines", "entities": [[0, 7, "TOOL"], [8, 13, "TOOL"], [34, 43, "TOOL"]]}
+{"text": "Architecture Diagramming Tool created attack trees documenting spoofing and tampering mitigations", "entities": []}
+{"text": "SIEM Tool integrated runtime security events from WAF RASP and API gateway", "entities": [[0, 4, "TOOL"], [10, 20, "TOOL"], [21, 37, "SECURITY_TYPE"], [29, 44, "EVENT_TYPE"]]}
+{"text": "Dependabot automated dependency updates patched 45 vulnerable packages", "entities": [[0, 10, "TOOL"], [11, 31, "DEPENDENCY_TYPE"], [21, 39, "UPDATE_TYPE"], [40, 47, "COUNT"], [40, 61, "VULNERABILITY_TYPE"], [51, 70, "PACKAGE_TYPE"]]}
+{"text": "CI/CD Security Engineer automated SAST DAST SCA scans in 70 pipelines blocking 11 builds", "entities": [[24, 38, "TOOL"], [34, 43, "TOOL"], [39, 47, "TOOL"], [44, 53, "SCAN_TYPE"], [79, 88, "BUILD_TYPE"]]}
+{"text": "Snyk Open Source scanner found Log4j vulnerability CVE-2021-44228 in dependencies", "entities": [[0, 4, "TOOL"], [51, 65, "CVE_ID"], [51, 65, "DEPENDENCY_TYPE"]]}
+{"text": "Snyk Code SAST tool provided IDE feedback fixing 280 security findings in real-time", "entities": [[0, 4, "TOOL"]]}
+{"text": "Compliance Mapping Tool validated AppSec controls against GDPR PCI DSS and SOC2", "entities": [[34, 49, "CONTROL_TYPE"], [50, 66, "FRAMEWORK"]]}
+{"text": "Secrets Detection Tool found 48 hardcoded secrets in repositories requiring immediate revocation", "entities": [[42, 65, "REPOSITORY_TYPE"]]}
+{"text": "Regulatory Alignment Tool mapped secure SDLC practices to NIST CSF and ISO 27001", "entities": [[33, 39, "TOOL"], [45, 57, "PRACTICE_TYPE"], [58, 62, "FRAMEWORK"], [63, 66, "FRAMEWORK"], [71, 74, "FRAMEWORK"]]}
+{"text": "ML Adversarial Testing Tool tested 4 AI models with adversarial input and prompt injection", "entities": []}
+{"text": "Checkmarx SAST tool scanned 90 repositories identifying 14 critical SQL injection vulnerabilities", "entities": [[10, 14, "TOOL"], [20, 43, "REPOSITORY_TYPE"]]}
+{"text": "IriusRisk threat modeling tool mapped threats to MITRE ATT&CK techniques", "entities": [[0, 9, "TOOL"], [46, 54, "FRAMEWORK"], [49, 72, "TECHNIQUE_TYPE"]]}
+{"text": "CI/CD Security Plugin blocked 11 builds with critical vulnerabilities preventing production deployment", "entities": [[30, 39, "COUNT"], [54, 80, "VULNERABILITY_TYPE"]]}
+{"text": "SBOM Exchange Tool validated accuracy and completeness of 7 vendor SBOMs", "entities": [[58, 66, "VENDOR_TYPE"], [60, 72, "DOCUMENT_TYPE"]]}
+{"text": "SIEM Tool integrated runtime security events from WAF RASP and API gateway", "entities": [[0, 4, "TOOL"], [10, 20, "TOOL"], [21, 37, "SECURITY_TYPE"], [29, 44, "EVENT_TYPE"]]}
+{"text": "API Discovery Tool mapped 18 shadow APIs requiring security controls", "entities": []}
+{"text": "Application Security Posture Management ASPM platform aggregated SAST DAST SCA findings", "entities": [[54, 69, "FINDING_TYPE"]]}
+{"text": "Threat Modeling Specialist performed STRIDE analysis identifying spoofing and tampering threats", "entities": [[37, 43, "ANALYSIS_TYPE"]]}
+{"text": "Dependabot SCA tool created 45 pull requests for dependency updates", "entities": [[0, 10, "TOOL"], [36, 44, "DEPENDENCY_TYPE"]]}
+{"text": "RASP Tool detected 60 attacks in 20 monitored applications blocking 56 and missing 4", "entities": [[46, 67, "ACTION_TYPE"]]}
+{"text": "Code review: Repository github.com/company/app, branch feature/auth-fix, commit a1b2c3d4 contains SQL injection vulnerability. Source code analysis required.", "entities": [[24, 46, "REPOSITORY"], [55, 71, "BRANCH"], [80, 88, "COMMIT"], [112, 125, "VULNERABILITY_TYPE"]]}
+{"text": "GitHub Issues tracked 45 security findings with assigned developers and due dates", "entities": [[22, 24, "COUNT"], [48, 56, "ROLE_TYPE"]]}
+{"text": "tfsec Infrastructure as Code scanner found 12 misconfigurations in Terraform templates", "entities": [[0, 5, "TOOL"]]}
+{"text": "Trivy container scanner identified 15 high severity vulnerabilities in Docker images", "entities": [[0, 5, "TOOL"], [6, 15, "SCANNER_TYPE"], [24, 37, "COUNT"], [38, 51, "SEVERITY_TYPE"], [43, 67, "VULNERABILITY_TYPE"], [68, 77, "IMAGE_TYPE"]]}
+{"text": "WAF Tool blocked 2500 OWASP Top 10 attacks with 1.3% false positive rate", "entities": [[9, 21, "COUNT"]]}
+{"text": "tfsec Infrastructure as Code scanner found 12 misconfigurations in Terraform templates", "entities": [[0, 5, "TOOL"]]}
+{"text": "Jira Bug Tracking System managed 150 security vulnerabilities with remediation workflows", "entities": [[0, 4, "TOOL"]]}
+{"text": "Threat Modeling Specialist performed STRIDE analysis identifying spoofing and tampering threats", "entities": [[37, 43, "ANALYSIS_TYPE"]]}
+{"text": "Container Scanner detected 12 critical vulnerabilities in 210 Docker container images", "entities": [[30, 54, "VULNERABILITY_TYPE"], [58, 68, "CONTAINER_TYPE"], [62, 78, "CONTAINER_TYPE"]]}
+{"text": "Checkmarx SAST scanner identified SQL injection vulnerability in payment processing code", "entities": [[10, 14, "TOOL"], [23, 47, "ATTACK_TYPE"], [48, 64, "CODE_CATEGORY"], [65, 83, "CODE_CATEGORY"]]}
+{"text": "GitLab CI platform enforced security gates blocking builds with critical vulnerabilities", "entities": [[0, 6, "TOOL"], [37, 42, "BUILD_TYPE"], [43, 58, "SEVERITY_TYPE"]]}
+{"text": "Jira Bug Tracking System managed 150 security vulnerabilities with remediation workflows", "entities": [[0, 4, "TOOL"]]}
+{"text": "Application Security false positive rate reduced to 2.5% improving scan accuracy", "entities": [[49, 56, "SCAN_TYPE"]]}
+{"text": "IaC Scanner identified 9 critical misconfigurations in Terraform CloudFormation and Kubernetes", "entities": []}
+{"text": "Clair container scanner identified vulnerable packages in container images", "entities": [[0, 5, "TOOL"], [6, 15, "SCANNER_TYPE"], [16, 34, "PACKAGE_TYPE"], [35, 45, "CONTAINER_TYPE"], [35, 54, "CONTAINER_TYPE"]]}
+{"text": "SBOM compliance achieved 94% with mandatory generation for all applications", "entities": [[0, 4, "DOCUMENT_TYPE"], [16, 24, "METRIC_TYPE"], [16, 27, "METRIC_TYPE"]]}
+{"text": "Snyk Code SAST tool provided IDE feedback fixing 280 security findings in real-time", "entities": [[0, 4, "TOOL"]]}
+{"text": "Container Scanner detected 12 critical vulnerabilities in 210 container images requiring patching", "entities": [[30, 54, "VULNERABILITY_TYPE"], [58, 71, "CONTAINER_TYPE"], [62, 78, "ACTION_TYPE"]]}
+{"text": "IaC Scanner identified 9 critical misconfigurations in Terraform CloudFormation and Kubernetes", "entities": []}
+{"text": "Threat Modeling Specialist performed STRIDE analysis identifying spoofing and tampering threats", "entities": [[37, 43, "ANALYSIS_TYPE"]]}
+{"text": "SBOM Generator created software bill of materials for 12 vendor integrations", "entities": [[54, 63, "VENDOR_TYPE"]]}
+{"text": "IDE Security Plugin provided just-in-time guidance to 120 developers fixing 280 findings", "entities": [[34, 41, "COUNT"], [37, 50, "ROLE_TYPE"], [54, 57, "COUNT"], [58, 68, "FINDING_TYPE"]]}
+{"text": "Application Security Chaos Engineer ran fuzz tests on 25 applications discovering 4 unique bugs", "entities": [[45, 50, "TEST_TYPE"], [84, 95, "BUG_TYPE"]]}
+{"text": "Contrast Security IAST tool provided runtime vulnerability detection during application execution", "entities": [[9, 22, "TOOL"], [37, 58, "DETECTION_TYPE"]]}
+{"text": "Code review of repository github.com/org/microservice found hardcoded secrets in source code. Finding requires immediate remediation.", "entities": [[26, 59, "REPOSITORY"]]}
+{"text": "MITRE ATT&CK Mapper linked application threats to TA0001 and TA0008 techniques", "entities": [[0, 5, "FRAMEWORK"], [6, 12, "FRAMEWORK"], [13, 19, "MAPPER_TYPE"], [50, 56, "TACTIC_TYPE"]]}
+{"text": "API Discovery Tool mapped 18 shadow APIs requiring security controls", "entities": []}
+{"text": "Secure coding training completion reached 88% for all software developers", "entities": [[0, 6, "TRAINING_TYPE"], [23, 41, "ROLE_TYPE"]]}
+{"text": "SAST scan found hardcoded secrets in repository github.com/org/service, branch main, commit e5f6g7h8. Source code file config.py requires immediate remediation.", "entities": [[26, 36, "SECRET_TYPE"], [48, 71, "REPOSITORY"], [79, 84, "BRANCH"], [92, 101, "COMMIT"], [114, 125, "FILE_TYPE"], [119, 128, "REMEDIATION_TYPE"]]}
+{"text": "SBOM Exchange Tool validated accuracy and completeness of 7 vendor SBOMs", "entities": [[58, 66, "VENDOR_TYPE"], [60, 72, "DOCUMENT_TYPE"]]}
+{"text": "MITRE ATT&CK Mapper linked application threats to TA0001 and TA0008 techniques", "entities": [[0, 5, "FRAMEWORK"], [6, 12, "FRAMEWORK"], [13, 19, "MAPPER_TYPE"], [50, 56, "TACTIC_TYPE"]]}
+{"text": "SAST scanner found SQL injection in source code file api/users.py. Repository github.com/company/app contains 12 critical findings.", "entities": [[53, 62, "REPOSITORY"], [89, 109, "SEVERITY_TYPE"], [101, 112, "FINDING"]]}
+{"text": "DAST Tool performed dynamic analysis on billing-service identifying SQL injection vulnerabilities", "entities": [[10, 27, "ANALYSIS_TYPE"], [48, 67, "ATTACK_TYPE"]]}
+{"text": "Fuzzing Tool discovered 8 crashes and 4 unique bugs in 25 tested applications", "entities": [[40, 46, "BUG_TYPE"]]}
+{"text": "Open Source Risk Analyst audited 4800 dependencies for vulnerabilities and license risks", "entities": []}
+{"text": "Application Security Chaos Engineer ran fuzz tests on 25 applications discovering 4 unique bugs", "entities": [[45, 50, "TEST_TYPE"], [84, 95, "BUG_TYPE"]]}
+{"text": "Audit Checklist Tool validated AppSec program scoring 96% with 89% SLA compliance", "entities": [[21, 37, "PROGRAM_TYPE"], [54, 57, "METRIC_TYPE"], [63, 65, "COMPLIANCE_TYPE"]]}
+{"text": "Application Security coverage reached 95% across all production and development environments", "entities": [[21, 37, "METRIC_TYPE"]]}
+{"text": "Metrics Dashboard Tool displayed chaos experiment results with 10 successes and 2 failures", "entities": [[33, 38, "EXPERIMENT_TYPE"], [39, 49, "RESULT_TYPE"]]}
+{"text": "Vulnerability backlog reduced to 45 critical and 120 high severity issues", "entities": [[0, 21, "METRIC_TYPE"], [22, 29, "METRIC_TYPE"], [49, 57, "COUNT"], [53, 66, "SEVERITY_TYPE"], [58, 66, "ISSUE_TYPE"]]}
+{"text": "Architecture Diagramming Tool created attack trees documenting spoofing and tampering mitigations", "entities": []}
+{"text": "Threat Intelligence integration mapped 32 CVEs to ERP and payment applications at risk", "entities": [[39, 41, "APPLICATION_TYPE"], [47, 53, "APPLICATION_TYPE"], [58, 65, "RISK_TYPE"]]}
+{"text": "Chaos Engineering Tool ran 12 experiments killing dependencies and injecting attacks", "entities": [[27, 29, "COUNT"], [30, 41, "EXPERIMENT_TYPE"]]}
+{"text": "SCA Dependency Scanner detected supply chain risks in 5 applications with vulnerable libraries", "entities": [[0, 3, "TOOL"], [4, 14, "SCANNER_TYPE"], [39, 55, "APPLICATION_TYPE"]]}
+{"text": "IDE Security Plugin provided real-time feedback to 120 developers with 340 findings", "entities": [[34, 38, "COUNT"], [39, 50, "ROLE_TYPE"]]}
+{"text": "Clair vulnerability scanner detected 8 critical issues in container registry", "entities": [[0, 5, "TOOL"], [6, 19, "SCANNER_TYPE"], [58, 76, "REGISTRY_TYPE"]]}
+{"text": "SAST scanner found SQL injection in source code file api/users.py. Repository github.com/company/app contains 12 critical findings.", "entities": [[53, 62, "REPOSITORY"], [89, 109, "SEVERITY_TYPE"], [101, 112, "FINDING"]]}
+{"text": "AppSec Policy Generator created secure SDLC policy with bug bounty scope and SBOM requirements", "entities": [[0, 6, "TOOL"], [0, 13, "POLICY_TYPE"], [24, 43, "POLICY_TYPE"], [39, 50, "FRAMEWORK"], [60, 72, "SCOPE_TYPE"], [77, 94, "REQUIREMENT_TYPE"]]}
+{"text": "Metrics Dashboard Tool displayed chaos experiment results with 10 successes and 2 failures", "entities": [[33, 38, "EXPERIMENT_TYPE"], [39, 49, "RESULT_TYPE"]]}
+{"text": "API Security Gateway secured 135 APIs detecting 16 violations and blocking 14", "entities": [[29, 32, "COUNT"], [33, 37, "API_TYPE"], [48, 61, "VIOLATION_TYPE"]]}
+{"text": "IaC Scanner identified 9 critical misconfigurations in 260 Terraform and Kubernetes files", "entities": [[55, 58, "COUNT"], [73, 89, "INFRASTRUCTURE_TYPE"]]}
+{"text": "Contrast Security IAST detected runtime vulnerability in authentication flow", "entities": [[9, 22, "TOOL"], [32, 53, "VULNERABILITY_TYPE"]]}
+{"text": "Audit Checklist Tool validated AppSec program scoring 96% with 89% SLA compliance", "entities": [[21, 37, "PROGRAM_TYPE"], [54, 57, "METRIC_TYPE"], [63, 65, "COMPLIANCE_TYPE"]]}
+{"text": "Checkmarx SAST scanner identified SQL injection vulnerability in payment processing code", "entities": [[10, 14, "TOOL"], [23, 47, "ATTACK_TYPE"], [48, 64, "CODE_CATEGORY"], [65, 83, "CODE_CATEGORY"]]}
+{"text": "DAST Tool performed dynamic analysis on billing-service identifying SQL injection vulnerabilities", "entities": [[10, 27, "ANALYSIS_TYPE"], [48, 67, "ATTACK_TYPE"]]}
+{"text": "SAST scan found hardcoded secrets in repository github.com/org/service, branch main, commit e5f6g7h8. Source code file config.py requires immediate remediation.", "entities": [[26, 36, "SECRET_TYPE"], [48, 71, "REPOSITORY"], [79, 84, "BRANCH"], [92, 101, "COMMIT"], [114, 125, "FILE_TYPE"], [119, 128, "REMEDIATION_TYPE"]]}
+{"text": "IaC Scanner identified 9 critical misconfigurations in 260 Terraform and Kubernetes files", "entities": [[55, 58, "COUNT"], [73, 89, "INFRASTRUCTURE_TYPE"]]}
+{"text": "Snyk Code SAST tool provided IDE feedback fixing 280 security findings in real-time", "entities": [[0, 4, "TOOL"]]}
+{"text": "SBOM Generator created software bill of materials for 12 vendor integrations", "entities": [[54, 63, "VENDOR_TYPE"]]}
+{"text": "Bug Bounty Platform Integrator ingested 42 reports triaging 28 valid findings", "entities": [[40, 42, "COUNT"]]}
+{"text": "Fuzzing Tool ran API protocol and binary fuzzing on 25 applications finding 8 crashes", "entities": [[17, 29, "FUZZING_TYPE"], [52, 54, "COUNT"]]}
+{"text": "API Discovery Tool mapped 18 shadow APIs requiring security controls", "entities": []}
+{"text": "Secure SDLC adoption reached 92% with security gates in all CI/CD pipelines", "entities": [[0, 6, "FRAMEWORK"], [7, 11, "FRAMEWORK"], [21, 31, "METRIC_TYPE"], [47, 52, "PIPELINE_TYPE"], [56, 65, "PIPELINE_TYPE"]]}
+{"text": "Open Policy Agent enforced policy-as-code blocking insecure container deployments", "entities": [[0, 17, "TOOL"], [51, 69, "DEPLOYMENT_TYPE"]]}
+{"text": "checkov IaC security scanner detected insecure S3 bucket configuration in CloudFormation", "entities": [[8, 11, "TOOL"], [38, 46, "CLOUD_RESOURCE"], [47, 70, "INFRASTRUCTURE_TYPE"]]}
+{"text": "Secrets Detection Tool scanned 90 repositories finding 48 hardcoded API keys and tokens", "entities": [[31, 46, "REPOSITORY_TYPE"], [58, 71, "SECRET_TYPE"]]}
+{"text": "Application Security Strategist defined secure SDLC policy with 7-day SLA for critical vulnerabilities", "entities": [[40, 51, "POLICY_TYPE"], [52, 58, "FRAMEWORK"], [64, 69, "COUNT"], [87, 102, "VULNERABILITY_TYPE"]]}
+{"text": "OSS License Scanner detected GPL-3.0 AGPL-3.0 and incompatible licenses in CRM ERP apps", "entities": [[20, 36, "LICENSE_TYPE"], [37, 43, "LICENSE_TYPE"], [63, 71, "APPLICATION_TYPE"]]}
+{"text": "Threat Modeling Specialist performed STRIDE analysis identifying spoofing and tampering threats", "entities": [[37, 43, "ANALYSIS_TYPE"]]}
+{"text": "Evidence Packaging Tool compiled audit evidence for 150 applications meeting compliance requirements", "entities": [[33, 47, "EVIDENCE_TYPE"], [52, 55, "COUNT"]]}
+{"text": "Burp Suite Enterprise DAST tool performed dynamic analysis on web applications", "entities": [[0, 10, "TOOL"], [11, 21, "TOOL"], [32, 49, "APPLICATION_TYPE"], [42, 58, "APPLICATION_TYPE"]]}
+{"text": "Contrast Security IAST tool provided runtime vulnerability detection during application execution", "entities": [[9, 22, "TOOL"], [37, 58, "DETECTION_TYPE"]]}
+{"text": "Threat Dragon tool generated threat model for billing service identifying authentication bypass", "entities": []}
+{"text": "Chaos Engineering Tool ran 12 experiments with 10 successes identifying database timeout failures", "entities": [[27, 29, "COUNT"], [30, 41, "EXPERIMENT_TYPE"], [47, 49, "COUNT"], [50, 59, "RESULT_TYPE"], [72, 88, "FAILURE_TYPE"]]}
+{"text": "SBOM compliance achieved 94% with mandatory generation for all applications", "entities": [[0, 4, "DOCUMENT_TYPE"], [16, 24, "METRIC_TYPE"], [16, 27, "METRIC_TYPE"]]}
+{"text": "Application Security coverage reached 95% across all production and development environments", "entities": [[21, 37, "METRIC_TYPE"]]}
+{"text": "Clair vulnerability scanner detected 8 critical issues in container registry", "entities": [[0, 5, "TOOL"], [6, 19, "SCANNER_TYPE"], [58, 76, "REGISTRY_TYPE"]]}
+{"text": "OWASP Top 10 coverage achieved 100% with all vulnerability categories addressed", "entities": [[6, 12, "FRAMEWORK"], [13, 21, "METRIC_TYPE"], [41, 58, "CATEGORY_TYPE"], [59, 69, "ACTION_TYPE"]]}
+{"text": "Invicti DAST tool detected 36 high severity XSS and CSRF vulnerabilities", "entities": [[0, 7, "TOOL"], [27, 29, "ATTACK_TYPE"], [30, 43, "ATTACK_TYPE"]]}
+{"text": "OSS License Scanner identified GPL-3.0 and AGPL-3.0 license violations in CRM and ERP applications", "entities": [[20, 36, "LICENSE_TYPE"], [43, 51, "VIOLATION_TYPE"], [52, 59, "APPLICATION_TYPE"]]}
+{"text": "Application Security false positive rate reduced to 2.5% improving scan accuracy", "entities": [[49, 56, "SCAN_TYPE"]]}
+{"text": "Jira Bug Tracking System managed 150 security vulnerabilities with remediation workflows", "entities": [[0, 4, "TOOL"]]}
+{"text": "Burp Suite Enterprise DAST tool performed dynamic analysis on web applications", "entities": [[0, 10, "TOOL"], [11, 21, "TOOL"], [32, 49, "APPLICATION_TYPE"], [42, 58, "APPLICATION_TYPE"]]}
+{"text": "GitLab CI platform enforced security gates blocking builds with critical vulnerabilities", "entities": [[0, 6, "TOOL"], [37, 42, "BUILD_TYPE"], [43, 58, "SEVERITY_TYPE"]]}
+{"text": "Regulatory Alignment Tool mapped secure SDLC practices to NIST CSF and ISO 27001", "entities": [[33, 39, "TOOL"], [45, 57, "PRACTICE_TYPE"], [58, 62, "FRAMEWORK"], [63, 66, "FRAMEWORK"], [71, 74, "FRAMEWORK"]]}
+{"text": "CI/CD Security Engineer automated SAST DAST SCA scans in 70 pipelines blocking 11 builds", "entities": [[24, 38, "TOOL"], [34, 43, "TOOL"], [39, 47, "TOOL"], [44, 53, "SCAN_TYPE"], [79, 88, "BUILD_TYPE"]]}
+{"text": "Vulnerability backlog reduced to 45 critical and 120 high severity issues", "entities": [[0, 21, "METRIC_TYPE"], [22, 29, "METRIC_TYPE"], [49, 57, "COUNT"], [53, 66, "SEVERITY_TYPE"], [58, 66, "ISSUE_TYPE"]]}
+{"text": "SAST Tool scanned 90 repositories finding 14 critical and 36 high severity vulnerabilities", "entities": [[10, 20, "COUNT"], [21, 33, "REPOSITORY_TYPE"], [58, 65, "SEVERITY_TYPE"], [61, 90, "VULNERABILITY_TYPE"]]}
+{"text": "Application Security coverage reached 95% across all production and development environments", "entities": [[21, 37, "METRIC_TYPE"]]}
+{"text": "OSS License Scanner detected GPL-3.0 AGPL-3.0 and incompatible licenses in CRM ERP apps", "entities": [[20, 36, "LICENSE_TYPE"], [37, 43, "LICENSE_TYPE"], [63, 71, "APPLICATION_TYPE"]]}
+{"text": "Reporting Dashboard Tool generated executive KPIs showing 6-day MTTR for critical vulnerabilities", "entities": [[10, 19, "DASHBOARD_TYPE"], [50, 59, "TIME_UNIT"]]}
+{"text": "SCA Dependency Scanner detected supply chain risks in 5 applications with vulnerable libraries", "entities": [[0, 3, "TOOL"], [4, 14, "SCANNER_TYPE"], [39, 55, "APPLICATION_TYPE"]]}
+{"text": "Threat Modeling Tool performed STRIDE LINDDUN analysis mapping threats to MITRE ATT&CK", "entities": [[21, 37, "ANALYSIS_TYPE"], [31, 45, "ANALYSIS_TYPE"], [46, 62, "THREAT_TYPE"], [63, 79, "FRAMEWORK"]]}
+{"text": "Invicti DAST tool detected 36 high severity XSS and CSRF vulnerabilities", "entities": [[0, 7, "TOOL"], [27, 29, "ATTACK_TYPE"], [30, 43, "ATTACK_TYPE"]]}
+{"text": "Runtime attacks blocked increased to 2550 with WAF and RASP protection enabled", "entities": [[0, 7, "ENVIRONMENT"], [24, 33, "COUNT"], [34, 41, "TOOL"]]}
+{"text": "Clair container scanner identified vulnerable packages in container images", "entities": [[0, 5, "TOOL"], [6, 15, "SCANNER_TYPE"], [16, 34, "PACKAGE_TYPE"], [35, 45, "CONTAINER_TYPE"], [35, 54, "CONTAINER_TYPE"]]}
+{"text": "Trivy container scanner identified 15 high severity vulnerabilities in Docker images", "entities": [[0, 5, "TOOL"], [6, 15, "SCANNER_TYPE"], [24, 37, "COUNT"], [38, 51, "SEVERITY_TYPE"], [43, 67, "VULNERABILITY_TYPE"], [68, 77, "IMAGE_TYPE"]]}
+{"text": "SBOM Generator created software bill of materials in SPDX format for 12 vendor integrations", "entities": [[72, 91, "INTEGRATION_TYPE"]]}
+{"text": "Code review: Repository github.com/company/app, branch feature/auth-fix, commit a1b2c3d4 contains SQL injection vulnerability. Source code analysis required.", "entities": [[24, 46, "REPOSITORY"], [55, 71, "BRANCH"], [80, 88, "COMMIT"], [112, 125, "VULNERABILITY_TYPE"]]}
+{"text": "GitHub Issues tracked 45 security findings with assigned developers and due dates", "entities": [[22, 24, "COUNT"], [48, 56, "ROLE_TYPE"]]}
+{"text": "Secure Coding Mentor reviewed 90 repositories providing contextual guidance for 83% remediation rate", "entities": [[30, 45, "REPOSITORY_TYPE"], [56, 75, "REMEDIATION_TYPE"]]}
+{"text": "IriusRisk threat modeling platform mapped threats to MITRE ATT&CK framework", "entities": [[0, 9, "TOOL"], [59, 75, "FRAMEWORK"]]}
+{"text": "GitHub Actions automated security scanning in CI/CD workflows", "entities": [[43, 51, "WORKFLOW_TYPE"]]}
+{"text": "IriusRisk threat modeling tool mapped threats to MITRE ATT&CK techniques", "entities": [[0, 9, "TOOL"], [46, 54, "FRAMEWORK"], [49, 72, "TECHNIQUE_TYPE"]]}
+{"text": "API Security Gateway enforced OAuth2 authentication and schema validation on 135 APIs", "entities": [[21, 36, "AUTH_TYPE"], [56, 62, "API_TYPE"]]}
+{"text": "SCA Dependency Scanner detected 22 critical vulnerabilities in 4800 dependencies", "entities": [[0, 3, "TOOL"], [4, 14, "SCANNER_TYPE"], [44, 59, "COUNT"], [44, 80, "DEPENDENCY_TYPE"]]}
+{"text": "Bug Bounty Manager triaged 42 reports with 28 valid findings integrated into remediation pipelines", "entities": [[0, 18, "ROLE"], [27, 29, "COUNT"], [43, 45, "COUNT"]]}
+{"text": "IaC Scanner identified 9 critical misconfigurations in 260 Terraform and Kubernetes files", "entities": [[55, 58, "COUNT"], [73, 89, "INFRASTRUCTURE_TYPE"]]}
+{"text": "MITRE ATT&CK Mapper linked application threats to TA0001 and TA0008 techniques", "entities": [[0, 5, "FRAMEWORK"], [6, 12, "FRAMEWORK"], [13, 19, "MAPPER_TYPE"], [50, 56, "TACTIC_TYPE"]]}
+{"text": "Bug bounty closure rate improved to 71% with average resolution time of 12 days", "entities": [[0, 18, "PROGRAM_TYPE"], [45, 52, "METRIC_TYPE"]]}
+{"text": "SCA Dependency Scanner detected supply chain risks in 5 applications with vulnerable libraries", "entities": [[0, 3, "TOOL"], [4, 14, "SCANNER_TYPE"], [39, 55, "APPLICATION_TYPE"]]}
+{"text": "Contrast Security IAST tool provided runtime vulnerability detection during application execution", "entities": [[9, 22, "TOOL"], [37, 58, "DETECTION_TYPE"]]}
+{"text": "Snyk Open Source scanner found Log4j vulnerability CVE-2021-44228 in dependencies", "entities": [[0, 4, "TOOL"], [51, 65, "CVE_ID"], [51, 65, "DEPENDENCY_TYPE"]]}
+{"text": "Audit Checklist Tool validated AppSec program scoring 96% with 89% SLA compliance", "entities": [[21, 37, "PROGRAM_TYPE"], [54, 57, "METRIC_TYPE"], [63, 65, "COMPLIANCE_TYPE"]]}
+{"text": "Open Policy Agent enforced policy-as-code blocking insecure container deployments", "entities": [[0, 17, "TOOL"], [51, 69, "DEPLOYMENT_TYPE"]]}
+{"text": "Secure Coding Mentor reviewed 90 repositories providing contextual guidance for 83% remediation rate", "entities": [[30, 45, "REPOSITORY_TYPE"], [56, 75, "REMEDIATION_TYPE"]]}
+{"text": "Checkmarx SAST scanner identified SQL injection vulnerability in payment processing code", "entities": [[10, 14, "TOOL"], [23, 47, "ATTACK_TYPE"], [48, 64, "CODE_CATEGORY"], [65, 83, "CODE_CATEGORY"]]}
+{"text": "Bug Bounty Platform Integrator ingested 42 reports triaging 28 valid findings", "entities": [[40, 42, "COUNT"]]}
+{"text": "GitLab CI platform enforced security gates blocking builds with critical vulnerabilities", "entities": [[0, 6, "TOOL"], [37, 42, "BUILD_TYPE"], [43, 58, "SEVERITY_TYPE"]]}
+{"text": "Secure SDLC adoption reached 92% with security gates in all CI/CD pipelines", "entities": [[0, 6, "FRAMEWORK"], [7, 11, "FRAMEWORK"], [21, 31, "METRIC_TYPE"], [47, 52, "PIPELINE_TYPE"], [56, 65, "PIPELINE_TYPE"]]}
+{"text": "Application Security Strategist defined secure SDLC policy with 7-day SLA for critical vulnerabilities", "entities": [[40, 51, "POLICY_TYPE"], [52, 58, "FRAMEWORK"], [64, 69, "COUNT"], [87, 102, "VULNERABILITY_TYPE"]]}
+{"text": "Trivy container scanner detected 12 critical vulnerabilities in 210 Docker images", "entities": [[0, 5, "TOOL"], [6, 15, "SCANNER_TYPE"], [45, 60, "CONTAINER_TYPE"], [61, 67, "CONTAINER_TYPE"]]}
+{"text": "SonarLint IDE plugin flagged 23 code smells and security hotspots during development", "entities": [[0, 9, "TOOL"], [10, 13, "TOOL"], [14, 20, "PLUGIN_TYPE"], [48, 65, "HOTSPOT_TYPE"]]}
+{"text": "Checkmarx SAST tool scanned 90 repositories identifying 14 critical SQL injection vulnerabilities", "entities": [[10, 14, "TOOL"], [20, 43, "REPOSITORY_TYPE"]]}
+{"text": "Bug bounty closure rate improved to 71% with average resolution time of 12 days", "entities": [[0, 18, "PROGRAM_TYPE"], [45, 52, "METRIC_TYPE"]]}
+{"text": "IDE Security Plugin provided real-time feedback to 120 developers with 340 findings", "entities": [[34, 38, "COUNT"], [39, 50, "ROLE_TYPE"]]}
+{"text": "Mean time to remediate critical vulnerabilities improved to 6 days meeting SLA", "entities": [[0, 4, "METRIC_TYPE"], [5, 9, "METRIC_TYPE"], [32, 56, "TIME_UNIT"]]}
+{"text": "Bug Bounty Manager triaged 42 reports with 28 valid findings integrated into remediation pipelines", "entities": [[0, 18, "ROLE"], [27, 29, "COUNT"], [43, 45, "COUNT"]]}
+{"text": "Application Security posture management platform tracked 150 applications with 85% secure", "entities": [[21, 39, "POSTURE_TYPE"], [29, 48, "MANAGEMENT_TYPE"], [57, 60, "COUNT"], [79, 82, "METRIC_TYPE"]]}
+{"text": "SonarLint IDE plugin flagged 23 code smells and security hotspots during development", "entities": [[0, 9, "TOOL"], [10, 13, "TOOL"], [14, 20, "PLUGIN_TYPE"], [48, 65, "HOTSPOT_TYPE"]]}
+{"text": "Bug Bounty Platform Integrator ingested 42 reports triaging 28 valid findings", "entities": [[40, 42, "COUNT"]]}
+{"text": "IriusRisk threat modeling tool mapped threats to MITRE ATT&CK techniques", "entities": [[0, 9, "TOOL"], [46, 54, "FRAMEWORK"], [49, 72, "TECHNIQUE_TYPE"]]}
+{"text": "Invicti DAST tool detected 36 high severity XSS and CSRF vulnerabilities", "entities": [[0, 7, "TOOL"], [27, 29, "ATTACK_TYPE"], [30, 43, "ATTACK_TYPE"]]}
+{"text": "Application Security posture management platform tracked 150 applications with 85% secure", "entities": [[21, 39, "POSTURE_TYPE"], [29, 48, "MANAGEMENT_TYPE"], [57, 60, "COUNT"], [79, 82, "METRIC_TYPE"]]}
+{"text": "SonarLint IDE plugin flagged 23 code smells and security hotspots during development", "entities": [[0, 9, "TOOL"], [10, 13, "TOOL"], [14, 20, "PLUGIN_TYPE"], [48, 65, "HOTSPOT_TYPE"]]}
+{"text": "SBOM Generator created software bill of materials in SPDX format for 12 vendor integrations", "entities": [[72, 91, "INTEGRATION_TYPE"]]}
+{"text": "Application Security false positive rate reduced to 2.5% improving scan accuracy", "entities": [[49, 56, "SCAN_TYPE"]]}
+{"text": "Clair container scanner identified vulnerable packages in container images", "entities": [[0, 5, "TOOL"], [6, 15, "SCANNER_TYPE"], [16, 34, "PACKAGE_TYPE"], [35, 45, "CONTAINER_TYPE"], [35, 54, "CONTAINER_TYPE"]]}
+{"text": "GitHub Actions automated security scanning in CI/CD workflows", "entities": [[43, 51, "WORKFLOW_TYPE"]]}
+{"text": "Runtime attacks blocked increased to 2550 with WAF and RASP protection enabled", "entities": [[0, 7, "ENVIRONMENT"], [24, 33, "COUNT"], [34, 41, "TOOL"]]}
+{"text": "Audit Checklist Tool validated AppSec program scoring 96% with 89% SLA compliance", "entities": [[21, 37, "PROGRAM_TYPE"], [54, 57, "METRIC_TYPE"], [63, 65, "COMPLIANCE_TYPE"]]}
+{"text": "Application Security Strategist defined secure SDLC policy with 7-day SLA for critical vulnerabilities", "entities": [[40, 51, "POLICY_TYPE"], [52, 58, "FRAMEWORK"], [64, 69, "COUNT"], [87, 102, "VULNERABILITY_TYPE"]]}
+{"text": "API Security Gateway secured 135 APIs detecting 16 violations and blocking 14", "entities": [[29, 32, "COUNT"], [33, 37, "API_TYPE"], [48, 61, "VIOLATION_TYPE"]]}
+{"text": "Secrets Detection Tool scanned 90 repositories finding 48 hardcoded API keys and tokens", "entities": [[31, 46, "REPOSITORY_TYPE"], [58, 71, "SECRET_TYPE"]]}
+{"text": "Mean time to remediate critical vulnerabilities improved to 6 days meeting SLA", "entities": [[0, 4, "METRIC_TYPE"], [5, 9, "METRIC_TYPE"], [32, 56, "TIME_UNIT"]]}
+{"text": "Dependabot automated dependency updates patched 45 vulnerable packages", "entities": [[0, 10, "TOOL"], [11, 31, "DEPENDENCY_TYPE"], [21, 39, "UPDATE_TYPE"], [40, 47, "COUNT"], [40, 61, "VULNERABILITY_TYPE"], [51, 70, "PACKAGE_TYPE"]]}
+{"text": "API Security Gateway enforced OAuth2 authentication and schema validation on 135 APIs", "entities": [[21, 36, "AUTH_TYPE"], [56, 62, "API_TYPE"]]}
+{"text": "IDE Security Plugin provided just-in-time guidance to 120 developers fixing 280 findings", "entities": [[34, 41, "COUNT"], [37, 50, "ROLE_TYPE"], [54, 57, "COUNT"], [58, 68, "FINDING_TYPE"]]}
+{"text": "Trivy container scanner identified 15 high severity vulnerabilities in Docker images", "entities": [[0, 5, "TOOL"], [6, 15, "SCANNER_TYPE"], [24, 37, "COUNT"], [38, 51, "SEVERITY_TYPE"], [43, 67, "VULNERABILITY_TYPE"], [68, 77, "IMAGE_TYPE"]]}
+{"text": "Open Source Risk Analyst audited 4800 dependencies for vulnerabilities and license risks", "entities": []}
+{"text": "MITRE ATT&CK Mapper linked application threats to TA0001 and TA0008 techniques", "entities": [[0, 5, "FRAMEWORK"], [6, 12, "FRAMEWORK"], [13, 19, "MAPPER_TYPE"], [50, 56, "TACTIC_TYPE"]]}
+{"text": "IDE Security Plugin provided real-time feedback to 120 developers with 340 findings", "entities": [[34, 38, "COUNT"], [39, 50, "ROLE_TYPE"]]}
+{"text": "Secure Coding Lab Tool trained developers on OWASP Top 10 and secure coding practices", "entities": [[45, 54, "FRAMEWORK"], [51, 57, "FRAMEWORK"], [62, 68, "PRACTICE_TYPE"]]}
+{"text": "Open Source Risk Analyst audited 4800 dependencies for vulnerabilities and license risks", "entities": []}
+{"text": "Fuzzing Tool discovered 8 crashes and 4 unique bugs in 25 tested applications", "entities": [[40, 46, "BUG_TYPE"]]}
+{"text": "IriusRisk threat modeling platform mapped threats to MITRE ATT&CK framework", "entities": [[0, 9, "TOOL"], [59, 75, "FRAMEWORK"]]}
+{"text": "Application Security Strategist defined secure SDLC policy with 7-day SLA for critical vulnerabilities", "entities": [[40, 51, "POLICY_TYPE"], [52, 58, "FRAMEWORK"], [64, 69, "COUNT"], [87, 102, "VULNERABILITY_TYPE"]]}
+{"text": "IDE Security Plugin provided real-time feedback to 120 developers with 340 findings", "entities": [[34, 38, "COUNT"], [39, 50, "ROLE_TYPE"]]}
+{"text": "Chaos Engineering Tool ran 12 experiments with 10 successes identifying database timeout failures", "entities": [[27, 29, "COUNT"], [30, 41, "EXPERIMENT_TYPE"], [47, 49, "COUNT"], [50, 59, "RESULT_TYPE"], [72, 88, "FAILURE_TYPE"]]}
+{"text": "Vulnerability backlog reduced to 45 critical and 120 high severity issues", "entities": [[0, 21, "METRIC_TYPE"], [22, 29, "METRIC_TYPE"], [49, 57, "COUNT"], [53, 66, "SEVERITY_TYPE"], [58, 66, "ISSUE_TYPE"]]}
+{"text": "Threat Intelligence integration mapped 32 CVEs to ERP and payment applications at risk", "entities": [[39, 41, "APPLICATION_TYPE"], [47, 53, "APPLICATION_TYPE"], [58, 65, "RISK_TYPE"]]}
+{"text": "API Security Gateway secured 135 APIs detecting 16 violations and blocking 14", "entities": [[29, 32, "COUNT"], [33, 37, "API_TYPE"], [48, 61, "VIOLATION_TYPE"]]}
+{"text": "IriusRisk threat modeling platform mapped threats to MITRE ATT&CK framework", "entities": [[0, 9, "TOOL"], [59, 75, "FRAMEWORK"]]}
+{"text": "Threat Dragon tool generated threat model for billing service identifying authentication bypass", "entities": []}
+{"text": "SIEM Tool integrated runtime security events from WAF RASP and API gateway", "entities": [[0, 4, "TOOL"], [10, 20, "TOOL"], [21, 37, "SECURITY_TYPE"], [29, 44, "EVENT_TYPE"]]}
+{"text": "SCA Dependency Scanner detected 22 critical vulnerabilities in 4800 dependencies", "entities": [[0, 3, "TOOL"], [4, 14, "SCANNER_TYPE"], [44, 59, "COUNT"], [44, 80, "DEPENDENCY_TYPE"]]}
+{"text": "Container Scanner detected 12 critical vulnerabilities in 210 Docker container images", "entities": [[30, 54, "VULNERABILITY_TYPE"], [58, 68, "CONTAINER_TYPE"], [62, 78, "CONTAINER_TYPE"]]}
+{"text": "Open Policy Agent enforced policy-as-code blocking insecure container deployments", "entities": [[0, 17, "TOOL"], [51, 69, "DEPLOYMENT_TYPE"]]}
+{"text": "Runtime attacks blocked increased to 2550 with WAF and RASP protection enabled", "entities": [[0, 7, "ENVIRONMENT"], [24, 33, "COUNT"], [34, 41, "TOOL"]]}
+{"text": "Vulnerability Tracker managed bug bounty findings with 20 patched and 8 in remediation", "entities": [[22, 40, "FINDING_TYPE"]]}
+{"text": "ML Adversarial Testing Tool tested 4 AI models with adversarial input and prompt injection", "entities": []}
+{"text": "Secrets Detection Tool found 48 hardcoded secrets in repositories requiring immediate revocation", "entities": [[42, 65, "REPOSITORY_TYPE"]]}
+{"text": "Checkmarx SAST scanner identified SQL injection vulnerability in payment processing code", "entities": [[10, 14, "TOOL"], [23, 47, "ATTACK_TYPE"], [48, 64, "CODE_CATEGORY"], [65, 83, "CODE_CATEGORY"]]}
+{"text": "Regulatory Alignment Tool mapped secure SDLC practices to NIST CSF and ISO 27001", "entities": [[33, 39, "TOOL"], [45, 57, "PRACTICE_TYPE"], [58, 62, "FRAMEWORK"], [63, 66, "FRAMEWORK"], [71, 74, "FRAMEWORK"]]}
+{"text": "RASP Tool operated runtime protection on 20 applications detecting 60 attacks and blocking 56", "entities": [[19, 26, "PROTECTION_TYPE"], [27, 56, "APPLICATION_TYPE"]]}
+{"text": "Evidence Packaging Tool compiled audit evidence for 150 applications meeting compliance requirements", "entities": [[33, 47, "EVIDENCE_TYPE"], [52, 55, "COUNT"]]}
+{"text": "CI/CD Security Engineer automated SAST DAST SCA scans in 70 pipelines blocking 11 builds", "entities": [[24, 38, "TOOL"], [34, 43, "TOOL"], [39, 47, "TOOL"], [44, 53, "SCAN_TYPE"], [79, 88, "BUILD_TYPE"]]}
+{"text": "Code review of repository github.com/org/microservice found hardcoded secrets in source code. Finding requires immediate remediation.", "entities": [[26, 59, "REPOSITORY"]]}
+{"text": "Bug Bounty Platform received 42 reports with 28 valid findings and 20 patched", "entities": []}
+{"text": "ML Adversarial Testing Tool tested 4 AI models with adversarial input and prompt injection", "entities": []}
+{"text": "API Security Gateway enforced OAuth2 authentication and schema validation on 135 APIs", "entities": [[21, 36, "AUTH_TYPE"], [56, 62, "API_TYPE"]]}
+{"text": "Burp Suite Enterprise DAST tool performed dynamic analysis on web applications", "entities": [[0, 10, "TOOL"], [11, 21, "TOOL"], [32, 49, "APPLICATION_TYPE"], [42, 58, "APPLICATION_TYPE"]]}
+{"text": "GitHub Issues tracked 45 security findings with assigned developers and due dates", "entities": [[22, 24, "COUNT"], [48, 56, "ROLE_TYPE"]]}
+{"text": "Chaos Engineering Tool ran 12 experiments with 10 successes identifying database timeout failures", "entities": [[27, 29, "COUNT"], [30, 41, "EXPERIMENT_TYPE"], [47, 49, "COUNT"], [50, 59, "RESULT_TYPE"], [72, 88, "FAILURE_TYPE"]]}
+{"text": "Vulnerability backlog reduced to 45 critical and 120 high severity issues", "entities": [[0, 21, "METRIC_TYPE"], [22, 29, "METRIC_TYPE"], [49, 57, "COUNT"], [53, 66, "SEVERITY_TYPE"], [58, 66, "ISSUE_TYPE"]]}
+{"text": "Application Security audit score reached 96% with 89% SLA compliance and 95% coverage", "entities": [[27, 32, "AUDIT_TYPE"], [33, 40, "METRIC_TYPE"], [50, 53, "SLA_TYPE"]]}
+{"text": "Application Security audit score reached 96% with 89% SLA compliance and 95% coverage", "entities": [[27, 32, "AUDIT_TYPE"], [33, 40, "METRIC_TYPE"], [50, 53, "SLA_TYPE"]]}
+{"text": "Reporting Dashboard Tool generated executive KPIs showing 6-day MTTR for critical vulnerabilities", "entities": [[10, 19, "DASHBOARD_TYPE"], [50, 59, "TIME_UNIT"]]}
+{"text": "SCA Dependency Scanner detected 22 critical vulnerabilities in 4800 dependencies", "entities": [[0, 3, "TOOL"], [4, 14, "SCANNER_TYPE"], [44, 59, "COUNT"], [44, 80, "DEPENDENCY_TYPE"]]}
+{"text": "Jenkins CI/CD platform integrated SAST DAST and SCA scans in 70 pipelines", "entities": [[0, 7, "TOOL"], [8, 13, "TOOL"], [34, 43, "TOOL"]]}
+{"text": "OSS License Scanner detected GPL-3.0 AGPL-3.0 and incompatible licenses in CRM ERP apps", "entities": [[20, 36, "LICENSE_TYPE"], [37, 43, "LICENSE_TYPE"], [63, 71, "APPLICATION_TYPE"]]}
+{"text": "Clair vulnerability scanner detected 8 critical issues in container registry", "entities": [[0, 5, "TOOL"], [6, 19, "SCANNER_TYPE"], [58, 76, "REGISTRY_TYPE"]]}
+{"text": "checkov IaC security scanner detected insecure S3 bucket configuration in CloudFormation", "entities": [[8, 11, "TOOL"], [38, 46, "CLOUD_RESOURCE"], [47, 70, "INFRASTRUCTURE_TYPE"]]}
+{"text": "Secure Coding Lab Tool trained developers on OWASP Top 10 and secure coding practices", "entities": [[45, 54, "FRAMEWORK"], [51, 57, "FRAMEWORK"], [62, 68, "PRACTICE_TYPE"]]}
+{"text": "RASP Tool operated runtime protection on 20 applications detecting 60 attacks and blocking 56", "entities": [[19, 26, "PROTECTION_TYPE"], [27, 56, "APPLICATION_TYPE"]]}
+{"text": "Application Security Posture Management ASPM platform aggregated SAST DAST SCA findings", "entities": [[54, 69, "FINDING_TYPE"]]}
+{"text": "Trivy container scanner identified 15 high severity vulnerabilities in Docker images", "entities": [[0, 5, "TOOL"], [6, 15, "SCANNER_TYPE"], [24, 37, "COUNT"], [38, 51, "SEVERITY_TYPE"], [43, 67, "VULNERABILITY_TYPE"], [68, 77, "IMAGE_TYPE"]]}
+{"text": "OSS License Scanner identified GPL-3.0 and AGPL-3.0 license violations in CRM and ERP applications", "entities": [[20, 36, "LICENSE_TYPE"], [43, 51, "VIOLATION_TYPE"], [52, 59, "APPLICATION_TYPE"]]}
+{"text": "DAST Tool performed dynamic analysis on billing-service identifying SQL injection vulnerabilities", "entities": [[10, 27, "ANALYSIS_TYPE"], [48, 67, "ATTACK_TYPE"]]}
+{"text": "CI/CD Security Engineer automated SAST DAST SCA scans in 70 pipelines blocking 11 builds", "entities": [[24, 38, "TOOL"], [34, 43, "TOOL"], [39, 47, "TOOL"], [44, 53, "SCAN_TYPE"], [79, 88, "BUILD_TYPE"]]}
+{"text": "Runtime Application Security Engineer deployed WAF rules blocking 2500 OWASP Top 10 attacks", "entities": [[47, 50, "TOOL"], [51, 56, "RULE_TYPE"], [57, 70, "COUNT"], [71, 80, "ATTACK_TYPE"]]}
+{"text": "Application Security audit score reached 96% with 89% SLA compliance and 95% coverage", "entities": [[27, 32, "AUDIT_TYPE"], [33, 40, "METRIC_TYPE"], [50, 53, "SLA_TYPE"]]}
+{"text": "Jira Bug Tracking System managed 150 security vulnerabilities with remediation workflows", "entities": [[0, 4, "TOOL"]]}
+{"text": "OWASP Top 10 coverage achieved 100% with all vulnerability categories addressed", "entities": [[6, 12, "FRAMEWORK"], [13, 21, "METRIC_TYPE"], [41, 58, "CATEGORY_TYPE"], [59, 69, "ACTION_TYPE"]]}
+{"text": "DAST Tool performed dynamic analysis on billing-service identifying SQL injection vulnerabilities", "entities": [[10, 27, "ANALYSIS_TYPE"], [48, 67, "ATTACK_TYPE"]]}
+{"text": "SAST Tool scanned 90 repositories finding 14 critical and 36 high severity vulnerabilities", "entities": [[10, 20, "COUNT"], [21, 33, "REPOSITORY_TYPE"], [58, 65, "SEVERITY_TYPE"], [61, 90, "VULNERABILITY_TYPE"]]}
+{"text": "Runtime Application Security Engineer deployed WAF rules blocking 2500 OWASP Top 10 attacks", "entities": [[47, 50, "TOOL"], [51, 56, "RULE_TYPE"], [57, 70, "COUNT"], [71, 80, "ATTACK_TYPE"]]}
+{"text": "Threat Modeling Specialist performed STRIDE analysis identifying spoofing and tampering threats", "entities": [[37, 43, "ANALYSIS_TYPE"]]}
+{"text": "Jenkins CI/CD platform integrated SAST DAST and SCA scans in 70 pipelines", "entities": [[0, 7, "TOOL"], [8, 13, "TOOL"], [34, 43, "TOOL"]]}
+{"text": "IDE Security Plugin provided just-in-time guidance to 120 developers fixing 280 findings", "entities": [[34, 41, "COUNT"], [37, 50, "ROLE_TYPE"], [54, 57, "COUNT"], [58, 68, "FINDING_TYPE"]]}
+{"text": "Secrets Detection Tool scanned 90 repositories finding 48 hardcoded API keys and tokens", "entities": [[31, 46, "REPOSITORY_TYPE"], [58, 71, "SECRET_TYPE"]]}
+{"text": "Application Security Auditor measured MTTR of 6 days for critical vulnerabilities", "entities": [[29, 42, "METRIC_TYPE"], [46, 52, "TIME_UNIT"]]}
+{"text": "tfsec Infrastructure as Code scanner found 12 misconfigurations in Terraform templates", "entities": [[0, 5, "TOOL"]]}
+{"text": "SBOM compliance achieved 94% with mandatory generation for all applications", "entities": [[0, 4, "DOCUMENT_TYPE"], [16, 24, "METRIC_TYPE"], [16, 27, "METRIC_TYPE"]]}
+{"text": "Application Security Posture Management ASPM platform aggregated SAST DAST SCA findings", "entities": [[54, 69, "FINDING_TYPE"]]}
+{"text": "Fuzzing Tool ran API protocol and binary fuzzing on 25 applications finding 8 crashes", "entities": [[17, 29, "FUZZING_TYPE"], [52, 54, "COUNT"]]}
+{"text": "GitHub Actions automated security scanning in CI/CD workflows", "entities": [[43, 51, "WORKFLOW_TYPE"]]}
+{"text": "SAST scan found hardcoded secrets in repository github.com/org/service, branch main, commit e5f6g7h8. Source code file config.py requires immediate remediation.", "entities": [[26, 36, "SECRET_TYPE"], [48, 71, "REPOSITORY"], [79, 84, "BRANCH"], [92, 101, "COMMIT"], [114, 125, "FILE_TYPE"], [119, 128, "REMEDIATION_TYPE"]]}
+{"text": "Dependabot SCA tool created 45 pull requests for dependency updates", "entities": [[0, 10, "TOOL"], [36, 44, "DEPENDENCY_TYPE"]]}
+{"text": "SBOM Exchange Tool validated accuracy and completeness of 7 vendor SBOMs", "entities": [[58, 66, "VENDOR_TYPE"], [60, 72, "DOCUMENT_TYPE"]]}
+{"text": "Vulnerability Tracker managed bug bounty findings with 20 patched and 8 in remediation", "entities": [[22, 40, "FINDING_TYPE"]]}
+{"text": "Application Security false positive rate reduced to 2.5% improving scan accuracy", "entities": [[49, 56, "SCAN_TYPE"]]}
+{"text": "Snyk Open Source scanner found Log4j vulnerability CVE-2021-44228 in dependencies", "entities": [[0, 4, "TOOL"], [51, 65, "CVE_ID"], [51, 65, "DEPENDENCY_TYPE"]]}
+{"text": "SBOM compliance achieved 94% with mandatory generation for all applications", "entities": [[0, 4, "DOCUMENT_TYPE"], [16, 24, "METRIC_TYPE"], [16, 27, "METRIC_TYPE"]]}
+{"text": "Reporting Dashboard Tool generated executive KPIs showing 6-day MTTR for critical vulnerabilities", "entities": [[10, 19, "DASHBOARD_TYPE"], [50, 59, "TIME_UNIT"]]}
+{"text": "Clair vulnerability scanner detected 8 critical issues in container registry", "entities": [[0, 5, "TOOL"], [6, 19, "SCANNER_TYPE"], [58, 76, "REGISTRY_TYPE"]]}
+{"text": "Snyk Code SAST tool provided IDE feedback fixing 280 security findings in real-time", "entities": [[0, 4, "TOOL"]]}
+{"text": "Secure SDLC adoption reached 92% with security gates in all CI/CD pipelines", "entities": [[0, 6, "FRAMEWORK"], [7, 11, "FRAMEWORK"], [21, 31, "METRIC_TYPE"], [47, 52, "PIPELINE_TYPE"], [56, 65, "PIPELINE_TYPE"]]}
+{"text": "Container Scanner detected 12 critical vulnerabilities in 210 Docker container images", "entities": [[30, 54, "VULNERABILITY_TYPE"], [58, 68, "CONTAINER_TYPE"], [62, 78, "CONTAINER_TYPE"]]}
+{"text": "IaC Scanner identified 9 critical misconfigurations in Terraform CloudFormation and Kubernetes", "entities": []}
+{"text": "Snyk Open Source SCA tool scanned 4800 dependencies finding 22 critical vulnerabilities", "entities": [[0, 4, "TOOL"], [72, 87, "SEVERITY_TYPE"]]}
+{"text": "Threat Modeling Specialist performed STRIDE analysis identifying spoofing and tampering threats", "entities": [[37, 43, "ANALYSIS_TYPE"]]}
+{"text": "API Security Gateway enforced OAuth2 authentication and schema validation on 135 APIs", "entities": [[21, 36, "AUTH_TYPE"], [56, 62, "API_TYPE"]]}
+{"text": "Regulatory Alignment Tool mapped secure SDLC practices to NIST CSF and ISO 27001", "entities": [[33, 39, "TOOL"], [45, 57, "PRACTICE_TYPE"], [58, 62, "FRAMEWORK"], [63, 66, "FRAMEWORK"], [71, 74, "FRAMEWORK"]]}
+{"text": "Threat Dragon threat modeling tool created STRIDE analysis for billing-service application", "entities": [[43, 58, "SERVICE_NAME"]]}
+{"text": "AppSec Policy Generator created secure SDLC policy with bug bounty scope and SBOM requirements", "entities": [[0, 6, "TOOL"], [0, 13, "POLICY_TYPE"], [24, 43, "POLICY_TYPE"], [39, 50, "FRAMEWORK"], [60, 72, "SCOPE_TYPE"], [77, 94, "REQUIREMENT_TYPE"]]}
+{"text": "ML Adversarial Testing Tool tested 4 AI models with adversarial input and prompt injection", "entities": []}
+{"text": "Application Security audit score reached 96% with 89% SLA compliance and 95% coverage", "entities": [[27, 32, "AUDIT_TYPE"], [33, 40, "METRIC_TYPE"], [50, 53, "SLA_TYPE"]]}
+{"text": "Snyk Open Source scanner found Log4j vulnerability CVE-2021-44228 in dependencies", "entities": [[0, 4, "TOOL"], [51, 65, "CVE_ID"], [51, 65, "DEPENDENCY_TYPE"]]}
+{"text": "Burp Suite Enterprise DAST tool performed dynamic analysis on web applications", "entities": [[0, 10, "TOOL"], [11, 21, "TOOL"], [32, 49, "APPLICATION_TYPE"], [42, 58, "APPLICATION_TYPE"]]}
+{"text": "CI/CD Security Plugin blocked 11 builds with critical vulnerabilities preventing production deployment", "entities": [[30, 39, "COUNT"], [54, 80, "VULNERABILITY_TYPE"]]}
+{"text": "Bug bounty closure rate improved to 71% with average resolution time of 12 days", "entities": [[0, 18, "PROGRAM_TYPE"], [45, 52, "METRIC_TYPE"]]}
+{"text": "Secure coding training completion reached 88% for all software developers", "entities": [[0, 6, "TRAINING_TYPE"], [23, 41, "ROLE_TYPE"]]}
+{"text": "Reporting Dashboard Tool generated executive KPIs showing 6-day MTTR for critical vulnerabilities", "entities": [[10, 19, "DASHBOARD_TYPE"], [50, 59, "TIME_UNIT"]]}
+{"text": "Application Security Auditor measured MTTR of 6 days for critical vulnerabilities", "entities": [[29, 42, "METRIC_TYPE"], [46, 52, "TIME_UNIT"]]}
+{"text": "RASP Tool detected 60 attacks in 20 monitored applications blocking 56 and missing 4", "entities": [[46, 67, "ACTION_TYPE"]]}
+{"text": "SBOM Generator created software bill of materials in SPDX format for 12 vendor integrations", "entities": [[72, 91, "INTEGRATION_TYPE"]]}
+{"text": "Trivy container scanner detected 12 critical vulnerabilities in 210 Docker images", "entities": [[0, 5, "TOOL"], [6, 15, "SCANNER_TYPE"], [45, 60, "CONTAINER_TYPE"], [61, 67, "CONTAINER_TYPE"]]}
+{"text": "IDE Security Plugin provided just-in-time guidance to 120 developers fixing 280 findings", "entities": [[34, 41, "COUNT"], [37, 50, "ROLE_TYPE"], [54, 57, "COUNT"], [58, 68, "FINDING_TYPE"]]}
+{"text": "SBOM Generator created software bill of materials for 12 vendor integrations", "entities": [[54, 63, "VENDOR_TYPE"]]}
+{"text": "Metrics Dashboard Tool displayed chaos experiment results with 10 successes and 2 failures", "entities": [[33, 38, "EXPERIMENT_TYPE"], [39, 49, "RESULT_TYPE"]]}
+{"text": "Bug Bounty Platform received 42 reports with 28 valid findings and 20 patched", "entities": []}
+{"text": "checkov IaC security scanner detected insecure S3 bucket configuration in CloudFormation", "entities": [[8, 11, "TOOL"], [38, 46, "CLOUD_RESOURCE"], [47, 70, "INFRASTRUCTURE_TYPE"]]}
+{"text": "Chaos Engineering Tool ran 12 experiments killing dependencies and injecting attacks", "entities": [[27, 29, "COUNT"], [30, 41, "EXPERIMENT_TYPE"]]}
+{"text": "WAF Tool blocked 2500 OWASP Top 10 attacks with 1.3% false positive rate", "entities": [[9, 21, "COUNT"]]}
+{"text": "RASP Tool detected 60 attacks in 20 monitored applications blocking 56 and missing 4", "entities": [[46, 67, "ACTION_TYPE"]]}
+{"text": "Metrics Dashboard Tool displayed chaos experiment results with 10 successes and 2 failures", "entities": [[33, 38, "EXPERIMENT_TYPE"], [39, 49, "RESULT_TYPE"]]}
+{"text": "RASP Tool operated runtime protection on 20 applications detecting 60 attacks and blocking 56", "entities": [[19, 26, "PROTECTION_TYPE"], [27, 56, "APPLICATION_TYPE"]]}
+{"text": "checkov IaC security scanner detected insecure S3 bucket configuration in CloudFormation", "entities": [[8, 11, "TOOL"], [38, 46, "CLOUD_RESOURCE"], [47, 70, "INFRASTRUCTURE_TYPE"]]}
+{"text": "Trivy container scanner detected 12 critical vulnerabilities in 210 Docker images", "entities": [[0, 5, "TOOL"], [6, 15, "SCANNER_TYPE"], [45, 60, "CONTAINER_TYPE"], [61, 67, "CONTAINER_TYPE"]]}
+{"text": "IriusRisk threat modeling tool mapped threats to MITRE ATT&CK techniques", "entities": [[0, 9, "TOOL"], [46, 54, "FRAMEWORK"], [49, 72, "TECHNIQUE_TYPE"]]}
+{"text": "Chaos Engineering Tool ran 12 experiments with 10 successes identifying database timeout failures", "entities": [[27, 29, "COUNT"], [30, 41, "EXPERIMENT_TYPE"], [47, 49, "COUNT"], [50, 59, "RESULT_TYPE"], [72, 88, "FAILURE_TYPE"]]}
+{"text": "ML Adversarial Testing Tool found 3 vulnerabilities in 4 AI models requiring mitigation", "entities": [[36, 51, "VULNERABILITY_TYPE"]]}
+{"text": "SAST scanner found SQL injection in source code file api/users.py. Repository github.com/company/app contains 12 critical findings.", "entities": [[53, 62, "REPOSITORY"], [89, 109, "SEVERITY_TYPE"], [101, 112, "FINDING"]]}
+{"text": "RASP Tool operated runtime protection on 20 applications detecting 60 attacks and blocking 56", "entities": [[19, 26, "PROTECTION_TYPE"], [27, 56, "APPLICATION_TYPE"]]}
+{"text": "Threat Intelligence integration mapped 32 CVEs to ERP and payment applications at risk", "entities": [[39, 41, "APPLICATION_TYPE"], [47, 53, "APPLICATION_TYPE"], [58, 65, "RISK_TYPE"]]}
+{"text": "Threat Modeling Tool performed STRIDE LINDDUN analysis mapping threats to MITRE ATT&CK", "entities": [[21, 37, "ANALYSIS_TYPE"], [31, 45, "ANALYSIS_TYPE"], [46, 62, "THREAT_TYPE"], [63, 79, "FRAMEWORK"]]}
+{"text": "Dependabot SCA tool created 45 pull requests for dependency updates", "entities": [[0, 10, "TOOL"], [36, 44, "DEPENDENCY_TYPE"]]}
+{"text": "Code review of repository github.com/org/microservice found hardcoded secrets in source code. Finding requires immediate remediation.", "entities": [[26, 59, "REPOSITORY"]]}
+{"text": "Clair container scanner identified vulnerable packages in container images", "entities": [[0, 5, "TOOL"], [6, 15, "SCANNER_TYPE"], [16, 34, "PACKAGE_TYPE"], [35, 45, "CONTAINER_TYPE"], [35, 54, "CONTAINER_TYPE"]]}
+{"text": "SCA Dependency Scanner detected supply chain risks in 5 applications with vulnerable libraries", "entities": [[0, 3, "TOOL"], [4, 14, "SCANNER_TYPE"], [39, 55, "APPLICATION_TYPE"]]}
+{"text": "IaC Scanner identified 9 critical misconfigurations in Terraform CloudFormation and Kubernetes", "entities": []}
+{"text": "Threat Dragon tool generated threat model for billing service identifying authentication bypass", "entities": []}
+{"text": "Threat Dragon threat modeling tool created STRIDE analysis for billing-service application", "entities": [[43, 58, "SERVICE_NAME"]]}
+{"text": "Vulnerability Tracker managed bug bounty findings with 20 patched and 8 in remediation", "entities": [[22, 40, "FINDING_TYPE"]]}
+{"text": "Application Security posture management platform tracked 150 applications with 85% secure", "entities": [[21, 39, "POSTURE_TYPE"], [29, 48, "MANAGEMENT_TYPE"], [57, 60, "COUNT"], [79, 82, "METRIC_TYPE"]]}
+{"text": "Secure Coding Mentor reviewed 90 repositories providing contextual guidance for 83% remediation rate", "entities": [[30, 45, "REPOSITORY_TYPE"], [56, 75, "REMEDIATION_TYPE"]]}
+{"text": "Burp Suite Enterprise DAST detected cross-site scripting in login endpoint", "entities": [[0, 21, "TOOL"], [11, 26, "TOOL"], [57, 65, "ENDPOINT_TYPE"]]}
+{"text": "Chaos Engineering Tool ran 12 experiments killing dependencies and injecting attacks", "entities": [[27, 29, "COUNT"], [30, 41, "EXPERIMENT_TYPE"]]}
+{"text": "Application Security Strategist defined secure SDLC policy with 7-day SLA for critical vulnerabilities", "entities": [[40, 51, "POLICY_TYPE"], [52, 58, "FRAMEWORK"], [64, 69, "COUNT"], [87, 102, "VULNERABILITY_TYPE"]]}
+{"text": "Architecture Diagramming Tool created attack trees documenting spoofing and tampering mitigations", "entities": []}
+{"text": "Application Security Auditor measured MTTR of 6 days for critical vulnerabilities", "entities": [[29, 42, "METRIC_TYPE"], [46, 52, "TIME_UNIT"]]}
+{"text": "Application Security Chaos Engineer ran fuzz tests on 25 applications discovering 4 unique bugs", "entities": [[45, 50, "TEST_TYPE"], [84, 95, "BUG_TYPE"]]}
+{"text": "Threat Intelligence integration mapped 32 CVEs to ERP and payment applications at risk", "entities": [[39, 41, "APPLICATION_TYPE"], [47, 53, "APPLICATION_TYPE"], [58, 65, "RISK_TYPE"]]}
+{"text": "Secrets Detection Tool scanned 90 repositories finding 48 hardcoded API keys and tokens", "entities": [[31, 46, "REPOSITORY_TYPE"], [58, 71, "SECRET_TYPE"]]}
+{"text": "Application Security coverage reached 95% across all production and development environments", "entities": [[21, 37, "METRIC_TYPE"]]}
+{"text": "OWASP Top 10 coverage achieved 100% with all vulnerability categories addressed", "entities": [[6, 12, "FRAMEWORK"], [13, 21, "METRIC_TYPE"], [41, 58, "CATEGORY_TYPE"], [59, 69, "ACTION_TYPE"]]}
+{"text": "IaC Scanner identified 9 critical misconfigurations in 260 Terraform and Kubernetes files", "entities": [[55, 58, "COUNT"], [73, 89, "INFRASTRUCTURE_TYPE"]]}
+{"text": "API Discovery Tool mapped 18 shadow APIs requiring security controls", "entities": []}
+{"text": "Contrast Security IAST detected runtime vulnerability in authentication flow", "entities": [[9, 22, "TOOL"], [32, 53, "VULNERABILITY_TYPE"]]}
+{"text": "Runtime attacks blocked increased to 2550 with WAF and RASP protection enabled", "entities": [[0, 7, "ENVIRONMENT"], [24, 33, "COUNT"], [34, 41, "TOOL"]]}
+{"text": "AppSec Policy Generator created secure SDLC policy with bug bounty scope and SBOM requirements", "entities": [[0, 6, "TOOL"], [0, 13, "POLICY_TYPE"], [24, 43, "POLICY_TYPE"], [39, 50, "FRAMEWORK"], [60, 72, "SCOPE_TYPE"], [77, 94, "REQUIREMENT_TYPE"]]}
+{"text": "Runtime Application Security Engineer deployed WAF rules blocking 2500 OWASP Top 10 attacks", "entities": [[47, 50, "TOOL"], [51, 56, "RULE_TYPE"], [57, 70, "COUNT"], [71, 80, "ATTACK_TYPE"]]}
+{"text": "SBOM Generator created software bill of materials in SPDX format for 12 vendor integrations", "entities": [[72, 91, "INTEGRATION_TYPE"]]}
+{"text": "GitHub Actions automated security scanning in CI/CD workflows", "entities": [[43, 51, "WORKFLOW_TYPE"]]}
+{"text": "GitHub Issues tracked 45 security findings with assigned developers and due dates", "entities": [[22, 24, "COUNT"], [48, 56, "ROLE_TYPE"]]}
+{"text": "Contrast Security IAST tool provided runtime vulnerability detection during application execution", "entities": [[9, 22, "TOOL"], [37, 58, "DETECTION_TYPE"]]}
+{"text": "Code review: Repository github.com/company/app, branch feature/auth-fix, commit a1b2c3d4 contains SQL injection vulnerability. Source code analysis required.", "entities": [[24, 46, "REPOSITORY"], [55, 71, "BRANCH"], [80, 88, "COMMIT"], [112, 125, "VULNERABILITY_TYPE"]]}
+{"text": "Compliance Mapping Tool validated AppSec controls against GDPR PCI DSS and SOC2", "entities": [[34, 49, "CONTROL_TYPE"], [50, 66, "FRAMEWORK"]]}
+{"text": "Mean time to remediate critical vulnerabilities improved to 6 days meeting SLA", "entities": [[0, 4, "METRIC_TYPE"], [5, 9, "METRIC_TYPE"], [32, 56, "TIME_UNIT"]]}
+{"text": "CI/CD Security Plugin blocked 11 builds with critical vulnerabilities preventing production deployment", "entities": [[30, 39, "COUNT"], [54, 80, "VULNERABILITY_TYPE"]]}
+{"text": "Container Scanner detected 12 critical vulnerabilities in 210 container images requiring patching", "entities": [[30, 54, "VULNERABILITY_TYPE"], [58, 71, "CONTAINER_TYPE"], [62, 78, "ACTION_TYPE"]]}
+{"text": "OWASP Top 10 coverage achieved 100% with all vulnerability categories addressed", "entities": [[6, 12, "FRAMEWORK"], [13, 21, "METRIC_TYPE"], [41, 58, "CATEGORY_TYPE"], [59, 69, "ACTION_TYPE"]]}
+{"text": "Bug bounty closure rate improved to 71% with average resolution time of 12 days", "entities": [[0, 18, "PROGRAM_TYPE"], [45, 52, "METRIC_TYPE"]]}
+{"text": "Container Scanner detected 12 critical vulnerabilities in 210 container images requiring patching", "entities": [[30, 54, "VULNERABILITY_TYPE"], [58, 71, "CONTAINER_TYPE"], [62, 78, "ACTION_TYPE"]]}
+{"text": "GitLab CI platform enforced security gates blocking builds with critical vulnerabilities", "entities": [[0, 6, "TOOL"], [37, 42, "BUILD_TYPE"], [43, 58, "SEVERITY_TYPE"]]}
+{"text": "Mean time to remediate critical vulnerabilities improved to 6 days meeting SLA", "entities": [[0, 4, "METRIC_TYPE"], [5, 9, "METRIC_TYPE"], [32, 56, "TIME_UNIT"]]}
+{"text": "Checkmarx SAST tool scanned 90 repositories identifying 14 critical SQL injection vulnerabilities", "entities": [[10, 14, "TOOL"], [20, 43, "REPOSITORY_TYPE"]]}
+{"text": "Bug Bounty Platform received 42 reports with 28 valid findings and 20 patched", "entities": []}
+{"text": "Bug Bounty Manager triaged 42 reports with 28 valid findings integrated into remediation pipelines", "entities": [[0, 18, "ROLE"], [27, 29, "COUNT"], [43, 45, "COUNT"]]}
+{"text": "Application Security Posture Management ASPM platform aggregated SAST DAST SCA findings", "entities": [[54, 69, "FINDING_TYPE"]]}
+{"text": "SAST Tool scanned 90 repositories finding 14 critical and 36 high severity vulnerabilities", "entities": [[10, 20, "COUNT"], [21, 33, "REPOSITORY_TYPE"], [58, 65, "SEVERITY_TYPE"], [61, 90, "VULNERABILITY_TYPE"]]}
+{"text": "Application Security posture management platform tracked 150 applications with 85% secure", "entities": [[21, 39, "POSTURE_TYPE"], [29, 48, "MANAGEMENT_TYPE"], [57, 60, "COUNT"], [79, 82, "METRIC_TYPE"]]}
+{"text": "Secure coding training completion reached 88% for all software developers", "entities": [[0, 6, "TRAINING_TYPE"], [23, 41, "ROLE_TYPE"]]}
+{"text": "Vulnerability Tracker managed bug bounty findings with 20 patched and 8 in remediation", "entities": [[22, 40, "FINDING_TYPE"]]}
+{"text": "Burp Suite Enterprise DAST detected cross-site scripting in login endpoint", "entities": [[0, 21, "TOOL"], [11, 26, "TOOL"], [57, 65, "ENDPOINT_TYPE"]]}
+{"text": "Threat Dragon threat modeling tool created STRIDE analysis for billing-service application", "entities": [[43, 58, "SERVICE_NAME"]]}
+{"text": "Secure Coding Mentor reviewed 90 repositories providing contextual guidance for 83% remediation rate", "entities": [[30, 45, "REPOSITORY_TYPE"], [56, 75, "REMEDIATION_TYPE"]]}
+{"text": "Application Security Strategist defined secure SDLC policy with 7-day SLA for critical vulnerabilities", "entities": [[40, 51, "POLICY_TYPE"], [52, 58, "FRAMEWORK"], [64, 69, "COUNT"], [87, 102, "VULNERABILITY_TYPE"]]}
+{"text": "Jenkins CI/CD platform integrated SAST DAST and SCA scans in 70 pipelines", "entities": [[0, 7, "TOOL"], [8, 13, "TOOL"], [34, 43, "TOOL"]]}
+{"text": "Threat Dragon tool generated threat model for billing service identifying authentication bypass", "entities": []}
+{"text": "Open Policy Agent enforced policy-as-code blocking insecure container deployments", "entities": [[0, 17, "TOOL"], [51, 69, "DEPLOYMENT_TYPE"]]}
+{"text": "Threat Modeling Tool performed STRIDE LINDDUN analysis mapping threats to MITRE ATT&CK", "entities": [[21, 37, "ANALYSIS_TYPE"], [31, 45, "ANALYSIS_TYPE"], [46, 62, "THREAT_TYPE"], [63, 79, "FRAMEWORK"]]}
+{"text": "Application Security Chaos Engineer ran fuzz tests on 25 applications discovering 4 unique bugs", "entities": [[45, 50, "TEST_TYPE"], [84, 95, "BUG_TYPE"]]}
+{"text": "Open Source Risk Analyst audited 4800 dependencies for vulnerabilities and license risks", "entities": []}
+{"text": "Trivy container scanner detected 12 critical vulnerabilities in 210 Docker images", "entities": [[0, 5, "TOOL"], [6, 15, "SCANNER_TYPE"], [45, 60, "CONTAINER_TYPE"], [61, 67, "CONTAINER_TYPE"]]}
+{"text": "Burp Suite Enterprise DAST detected cross-site scripting in login endpoint", "entities": [[0, 21, "TOOL"], [11, 26, "TOOL"], [57, 65, "ENDPOINT_TYPE"]]}
+{"text": "Contrast Security IAST detected runtime vulnerability in authentication flow", "entities": [[9, 22, "TOOL"], [32, 53, "VULNERABILITY_TYPE"]]}
+{"text": "tfsec Infrastructure as Code scanner found 12 misconfigurations in Terraform templates", "entities": [[0, 5, "TOOL"]]}
+{"text": "Compliance Mapping Tool validated AppSec controls against GDPR PCI DSS and SOC2", "entities": [[34, 49, "CONTROL_TYPE"], [50, 66, "FRAMEWORK"]]}
+{"text": "Application Security Strategist defined secure SDLC policy with 7-day SLA for critical vulnerabilities", "entities": [[40, 51, "POLICY_TYPE"], [52, 58, "FRAMEWORK"], [64, 69, "COUNT"], [87, 102, "VULNERABILITY_TYPE"]]}
+{"text": "Threat Dragon threat modeling tool created STRIDE analysis for billing-service application", "entities": [[43, 58, "SERVICE_NAME"]]}
+{"text": "Application Security Strategist defined secure SDLC policy with 7-day SLA for critical vulnerabilities", "entities": [[40, 51, "POLICY_TYPE"], [52, 58, "FRAMEWORK"], [64, 69, "COUNT"], [87, 102, "VULNERABILITY_TYPE"]]}
+{"text": "OSS License Scanner identified GPL-3.0 and AGPL-3.0 license violations in CRM and ERP applications", "entities": [[20, 36, "LICENSE_TYPE"], [43, 51, "VIOLATION_TYPE"], [52, 59, "APPLICATION_TYPE"]]}
+{"text": "API Security Gateway secured 135 APIs detecting 16 violations and blocking 14", "entities": [[29, 32, "COUNT"], [33, 37, "API_TYPE"], [48, 61, "VIOLATION_TYPE"]]}
+{"text": "Threat Modeling Specialist performed STRIDE analysis identifying spoofing and tampering threats", "entities": [[37, 43, "ANALYSIS_TYPE"]]}
+{"text": "Bug Bounty Manager triaged 42 reports with 28 valid findings integrated into remediation pipelines", "entities": [[0, 18, "ROLE"], [27, 29, "COUNT"], [43, 45, "COUNT"]]}
+{"text": "Application Security Auditor measured MTTR of 6 days for critical vulnerabilities", "entities": [[29, 42, "METRIC_TYPE"], [46, 52, "TIME_UNIT"]]}
+{"text": "Container Scanner detected 12 critical vulnerabilities in 210 container images requiring patching", "entities": [[30, 54, "VULNERABILITY_TYPE"], [58, 71, "CONTAINER_TYPE"], [62, 78, "ACTION_TYPE"]]}
+{"text": "Fuzzing Tool discovered 8 crashes and 4 unique bugs in 25 tested applications", "entities": [[40, 46, "BUG_TYPE"]]}
+{"text": "Secure coding training completion reached 88% for all software developers", "entities": [[0, 6, "TRAINING_TYPE"], [23, 41, "ROLE_TYPE"]]}
+{"text": "Invicti DAST tool detected 36 high severity XSS and CSRF vulnerabilities", "entities": [[0, 7, "TOOL"], [27, 29, "ATTACK_TYPE"], [30, 43, "ATTACK_TYPE"]]}
+{"text": "API Discovery Tool mapped 18 shadow APIs and 15 zombie APIs requiring security controls", "entities": []}
+{"text": "Snyk Open Source SCA tool scanned 4800 dependencies finding 22 critical vulnerabilities", "entities": [[0, 4, "TOOL"], [72, 87, "SEVERITY_TYPE"]]}
+{"text": "Runtime Application Security Engineer deployed WAF rules blocking 2500 OWASP Top 10 attacks", "entities": [[47, 50, "TOOL"], [51, 56, "RULE_TYPE"], [57, 70, "COUNT"], [71, 80, "ATTACK_TYPE"]]}
+{"text": "Architecture Diagramming Tool created attack trees documenting spoofing and tampering mitigations", "entities": []}
+{"text": "API Discovery Tool mapped 18 shadow APIs and 15 zombie APIs requiring security controls", "entities": []}
+{"text": "ML Adversarial Testing Tool found 3 vulnerabilities in 4 AI models requiring mitigation", "entities": [[36, 51, "VULNERABILITY_TYPE"]]}
+{"text": "Threat Modeling Specialist performed STRIDE analysis identifying spoofing and tampering threats", "entities": [[37, 43, "ANALYSIS_TYPE"]]}
+{"text": "SAST scan found hardcoded secrets in repository github.com/org/service, branch main, commit e5f6g7h8. Source code file config.py requires immediate remediation.", "entities": [[26, 36, "SECRET_TYPE"], [48, 71, "REPOSITORY"], [79, 84, "BRANCH"], [92, 101, "COMMIT"], [114, 125, "FILE_TYPE"], [119, 128, "REMEDIATION_TYPE"]]}
+{"text": "Snyk Open Source SCA tool scanned 4800 dependencies finding 22 critical vulnerabilities", "entities": [[0, 4, "TOOL"], [72, 87, "SEVERITY_TYPE"]]}
+{"text": "IriusRisk threat modeling platform mapped threats to MITRE ATT&CK framework", "entities": [[0, 9, "TOOL"], [59, 75, "FRAMEWORK"]]}
+{"text": "Chaos Engineering Tool ran 12 experiments killing dependencies and injecting attacks", "entities": [[27, 29, "COUNT"], [30, 41, "EXPERIMENT_TYPE"]]}
+{"text": "Bug Bounty Platform received 42 reports with 28 valid findings and 20 patched", "entities": []}
+{"text": "Fuzzing Tool ran API protocol and binary fuzzing on 25 applications finding 8 crashes", "entities": [[17, 29, "FUZZING_TYPE"], [52, 54, "COUNT"]]}
+{"text": "Container Scanner detected 12 critical vulnerabilities in 210 Docker container images", "entities": [[30, 54, "VULNERABILITY_TYPE"], [58, 68, "CONTAINER_TYPE"], [62, 78, "CONTAINER_TYPE"]]}
+{"text": "Contrast Security IAST detected runtime vulnerability in authentication flow", "entities": [[9, 22, "TOOL"], [32, 53, "VULNERABILITY_TYPE"]]}
+{"text": "Checkmarx SAST tool scanned 90 repositories identifying 14 critical SQL injection vulnerabilities", "entities": [[10, 14, "TOOL"], [20, 43, "REPOSITORY_TYPE"]]}
+{"text": "Evidence Packaging Tool compiled audit evidence for 150 applications meeting compliance requirements", "entities": [[33, 47, "EVIDENCE_TYPE"], [52, 55, "COUNT"]]}
+{"text": "Dependabot automated dependency updates patched 45 vulnerable packages", "entities": [[0, 10, "TOOL"], [11, 31, "DEPENDENCY_TYPE"], [21, 39, "UPDATE_TYPE"], [40, 47, "COUNT"], [40, 61, "VULNERABILITY_TYPE"], [51, 70, "PACKAGE_TYPE"]]}
+{"text": "WAF Tool blocked 2500 OWASP Top 10 attacks with 1.3% false positive rate", "entities": [[9, 21, "COUNT"]]}
+{"text": "OSS License Scanner identified GPL-3.0 and AGPL-3.0 license violations in CRM and ERP applications", "entities": [[20, 36, "LICENSE_TYPE"], [43, 51, "VIOLATION_TYPE"], [52, 59, "APPLICATION_TYPE"]]}
+{"text": "Dependabot SCA tool created 45 pull requests for dependency updates", "entities": [[0, 10, "TOOL"], [36, 44, "DEPENDENCY_TYPE"]]}
+{"text": "SBOM Generator created software bill of materials for 12 vendor integrations", "entities": [[54, 63, "VENDOR_TYPE"]]}
+{"text": "Secrets Detection Tool found 48 hardcoded secrets in repositories requiring immediate revocation", "entities": [[42, 65, "REPOSITORY_TYPE"]]}
+{"text": "SonarLint IDE plugin flagged 23 code smells and security hotspots during development", "entities": [[0, 9, "TOOL"], [10, 13, "TOOL"], [14, 20, "PLUGIN_TYPE"], [48, 65, "HOTSPOT_TYPE"]]}
+{"text": "RASP Tool detected 60 attacks in 20 monitored applications blocking 56 and missing 4", "entities": [[46, 67, "ACTION_TYPE"]]}
+{"text": "Secure SDLC adoption reached 92% with security gates in all CI/CD pipelines", "entities": [[0, 6, "FRAMEWORK"], [7, 11, "FRAMEWORK"], [21, 31, "METRIC_TYPE"], [47, 52, "PIPELINE_TYPE"], [56, 65, "PIPELINE_TYPE"]]}
+{"text": "Burp Suite Enterprise DAST detected cross-site scripting in login endpoint", "entities": [[0, 21, "TOOL"], [11, 26, "TOOL"], [57, 65, "ENDPOINT_TYPE"]]}
+{"text": "API Discovery Tool mapped 18 shadow APIs and 15 zombie APIs requiring security controls", "entities": []}
+{"text": "Secrets Detection Tool found 48 hardcoded secrets in repositories requiring immediate revocation", "entities": [[42, 65, "REPOSITORY_TYPE"]]}
+{"text": "Dependabot automated dependency updates patched 45 vulnerable packages", "entities": [[0, 10, "TOOL"], [11, 31, "DEPENDENCY_TYPE"], [21, 39, "UPDATE_TYPE"], [40, 47, "COUNT"], [40, 61, "VULNERABILITY_TYPE"], [51, 70, "PACKAGE_TYPE"]]}
+{"text": "SAST scanner found SQL injection in source code file api/users.py. Repository github.com/company/app contains 12 critical findings.", "entities": [[53, 62, "REPOSITORY"], [89, 109, "SEVERITY_TYPE"], [101, 112, "FINDING"]]}
+{"text": "ML Adversarial Testing Tool found 3 vulnerabilities in 4 AI models requiring mitigation", "entities": [[36, 51, "VULNERABILITY_TYPE"]]}
+{"text": "SIEM Tool integrated runtime security events from WAF RASP and API gateway", "entities": [[0, 4, "TOOL"], [10, 20, "TOOL"], [21, 37, "SECURITY_TYPE"], [29, 44, "EVENT_TYPE"]]}
+{"text": "WAF Tool blocked 2500 OWASP Top 10 attacks with 1.3% false positive rate", "entities": [[9, 21, "COUNT"]]}
+{"text": "AppSec Policy Generator created secure SDLC policy with bug bounty scope and SBOM requirements", "entities": [[0, 6, "TOOL"], [0, 13, "POLICY_TYPE"], [24, 43, "POLICY_TYPE"], [39, 50, "FRAMEWORK"], [60, 72, "SCOPE_TYPE"], [77, 94, "REQUIREMENT_TYPE"]]}
+{"text": "Code review: Repository github.com/company/app, branch feature/auth-fix, commit a1b2c3d4 contains SQL injection vulnerability. Source code analysis required.", "entities": [[24, 46, "REPOSITORY"], [55, 71, "BRANCH"], [80, 88, "COMMIT"], [112, 125, "VULNERABILITY_TYPE"]]}
+{"text": "ML Adversarial Testing Tool found 3 vulnerabilities in 4 AI models requiring mitigation", "entities": [[36, 51, "VULNERABILITY_TYPE"]]}
+{"text": "API Discovery Tool mapped 18 shadow APIs and 15 zombie APIs requiring security controls", "entities": []}
+{"text": "SBOM Exchange Tool validated accuracy and completeness of 7 vendor SBOMs", "entities": [[58, 66, "VENDOR_TYPE"], [60, 72, "DOCUMENT_TYPE"]]}
+{"text": "Compliance Mapping Tool validated AppSec controls against GDPR PCI DSS and SOC2", "entities": [[34, 49, "CONTROL_TYPE"], [50, 66, "FRAMEWORK"]]}
+{"text": "SCA Dependency Scanner detected 22 critical vulnerabilities in 4800 dependencies", "entities": [[0, 3, "TOOL"], [4, 14, "SCANNER_TYPE"], [44, 59, "COUNT"], [44, 80, "DEPENDENCY_TYPE"]]}
+{"text": "Secure Coding Lab Tool trained developers on OWASP Top 10 and secure coding practices", "entities": [[45, 54, "FRAMEWORK"], [51, 57, "FRAMEWORK"], [62, 68, "PRACTICE_TYPE"]]}
+{"text": "CI/CD Security Plugin blocked 11 builds with critical vulnerabilities preventing production deployment", "entities": [[30, 39, "COUNT"], [54, 80, "VULNERABILITY_TYPE"]]}
+{"text": "Fuzzing Tool discovered 8 crashes and 4 unique bugs in 25 tested applications", "entities": [[40, 46, "BUG_TYPE"]]}
+{"text": "Can you help me with this?", "entities": []}
+{"text": "I need to check something.", "entities": []}
+{"text": "What is the status?", "entities": []}
+{"text": "How do I do this?", "entities": []}
+{"text": "Tell me more about it.", "entities": []}
+{"text": "Is this safe to use?", "entities": []}
+{"text": "Let me know if you need anything.", "entities": []}
+{"text": "Thanks for your help.", "entities": []}
+{"text": "I will get back to you.", "entities": []}
+{"text": "Please review this document.", "entities": []}
+{"text": "What should I do next?", "entities": []}
+{"text": "How does this work?", "entities": []}
+{"text": "Why is this happening?", "entities": []}
+{"text": "When will this be ready?", "entities": []}
+{"text": "Where can I find this?", "entities": []}
+{"text": "Who should I contact?", "entities": []}
+{"text": "Hey, what's up?", "entities": []}
+{"text": "That's interesting.", "entities": []}
+{"text": "I see what you mean.", "entities": []}
+{"text": "That makes sense.", "entities": []}
+{"text": "Got it, thanks.", "entities": []}
+{"text": "Follow the steps carefully.", "entities": []}
+{"text": "Make sure to save your work.", "entities": []}
+{"text": "Check the settings first.", "entities": []}
+{"text": "Review the documentation.", "entities": []}
+{"text": "Read the instructions.", "entities": []}
+{"text": "This is important.", "entities": []}
+{"text": "That looks good.", "entities": []}
+{"text": "Everything seems fine.", "entities": []}
+{"text": "Nothing to report.", "entities": []}
+{"text": "All systems operational.", "entities": []}
+{"text": "The system is secure.", "entities": []}
+{"text": "All checks passed.", "entities": []}
+{"text": "No issues detected.", "entities": []}
+{"text": "Everything is working correctly.", "entities": []}
+{"text": "The configuration looks good.", "entities": []}
+{"text": "No vulnerabilities found.", "entities": []}
+{"text": "Security measures are in place.", "entities": []}
+{"text": "The audit was successful.", "entities": []}
+{"text": "The information is verified.", "entities": []}
+{"text": "Sources are reliable.", "entities": []}
+{"text": "The data is consistent.", "entities": []}
+{"text": "Patch CVE-2018-82694 immediately to prevent exploitation", "entities": [[6, 20, "CVE_ID"]]}
+{"text": "Security team investigating CVE-2022-73659 impact", "entities": [[28, 42, "CVE_ID"]]}
+{"text": "Critical vulnerability CVE-2022-36765 requires immediate attention", "entities": [[23, 37, "CVE_ID"]]}
+{"text": "Scan for CVE-2019-35731 across all endpoints", "entities": [[9, 23, "CVE_ID"]]}
+{"text": "CVSS score for CVE-2024-78173 is 9.8", "entities": [[15, 29, "CVE_ID"]]}
+{"text": "Affected systems must patch CVE-2021-39162 by end of week", "entities": [[28, 42, "CVE_ID"]]}
+{"text": "Affected systems must patch CVE-2024-35428 by end of week", "entities": [[28, 42, "CVE_ID"]]}
+{"text": "Patch CVE-2021-83815 immediately to prevent exploitation", "entities": [[6, 20, "CVE_ID"]]}
+{"text": "Remediate CVE-2018-61299 before the next security audit", "entities": [[10, 24, "CVE_ID"]]}
+{"text": "Patch CVE-2021-78481 immediately to prevent exploitation", "entities": [[6, 20, "CVE_ID"]]}
+{"text": "Threat intelligence indicates active exploitation of CVE-2021-55629", "entities": [[53, 67, "CVE_ID"]]}
+{"text": "Threat intelligence indicates active exploitation of CVE-2021-75923", "entities": [[53, 67, "CVE_ID"]]}
+{"text": "Patch CVE-2020-08631 immediately to prevent exploitation", "entities": [[6, 20, "CVE_ID"]]}
+{"text": "Affected systems must patch CVE-2024-15729 by end of week", "entities": [[28, 42, "CVE_ID"]]}
+{"text": "Security team investigating CVE-2024-00351 impact", "entities": [[28, 42, "CVE_ID"]]}
+{"text": "Exploit for CVE-2021-27527 is available in the wild", "entities": [[12, 26, "CVE_ID"]]}
+{"text": "Scan for CVE-2023-29797 across all endpoints", "entities": [[9, 23, "CVE_ID"]]}
+{"text": "Affected systems must patch CVE-2024-63381 by end of week", "entities": [[28, 42, "CVE_ID"]]}
+{"text": "Remediate CVE-2020-28499 before the next security audit", "entities": [[10, 24, "CVE_ID"]]}
+{"text": "Vulnerability CVE-2020-08818 was discovered in the system", "entities": [[14, 28, "CVE_ID"]]}
+{"text": "Security team investigating CVE-2019-86768 impact", "entities": [[28, 42, "CVE_ID"]]}
+{"text": "Threat intelligence indicates active exploitation of CVE-2023-04341", "entities": [[53, 67, "CVE_ID"]]}
+{"text": "Affected systems must patch CVE-2020-92031 by end of week", "entities": [[28, 42, "CVE_ID"]]}
+{"text": "Security team investigating CVE-2021-44013 impact", "entities": [[28, 42, "CVE_ID"]]}
+{"text": "Exploit for CVE-2019-94800 is available in the wild", "entities": [[12, 26, "CVE_ID"]]}
+{"text": "Threat intelligence indicates active exploitation of CVE-2021-95057", "entities": [[53, 67, "CVE_ID"]]}
+{"text": "Threat intelligence indicates active exploitation of CVE-2023-92090", "entities": [[53, 67, "CVE_ID"]]}
+{"text": "Security team investigating CVE-2022-98929 impact", "entities": [[28, 42, "CVE_ID"]]}
+{"text": "Remediate CVE-2022-21703 before the next security audit", "entities": [[10, 24, "CVE_ID"]]}
+{"text": "Exploit for CVE-2021-72317 is available in the wild", "entities": [[12, 26, "CVE_ID"]]}
+{"text": "Exploit for CVE-2020-70491 is available in the wild", "entities": [[12, 26, "CVE_ID"]]}
+{"text": "Exploit for CVE-2024-15782 is available in the wild", "entities": [[12, 26, "CVE_ID"]]}
+{"text": "Security team investigating CVE-2021-08443 impact", "entities": [[28, 42, "CVE_ID"]]}
+{"text": "Scan for CVE-2022-06669 across all endpoints", "entities": [[9, 23, "CVE_ID"]]}
+{"text": "Security team investigating CVE-2022-77655 impact", "entities": [[28, 42, "CVE_ID"]]}
+{"text": "Patch CVE-2018-84735 immediately to prevent exploitation", "entities": [[6, 20, "CVE_ID"]]}
+{"text": "Threat intelligence indicates active exploitation of CVE-2022-84960", "entities": [[53, 67, "CVE_ID"]]}
+{"text": "Exploit for CVE-2019-85413 is available in the wild", "entities": [[12, 26, "CVE_ID"]]}
+{"text": "Exploit for CVE-2020-20807 is available in the wild", "entities": [[12, 26, "CVE_ID"]]}
+{"text": "Threat intelligence indicates active exploitation of CVE-2024-80731", "entities": [[53, 67, "CVE_ID"]]}
+{"text": "Critical vulnerability CVE-2021-94460 requires immediate attention", "entities": [[23, 37, "CVE_ID"]]}
+{"text": "Critical vulnerability CVE-2022-80409 requires immediate attention", "entities": [[23, 37, "CVE_ID"]]}
+{"text": "Exploit for CVE-2024-04493 is available in the wild", "entities": [[12, 26, "CVE_ID"]]}
+{"text": "Threat intelligence indicates active exploitation of CVE-2019-67041", "entities": [[53, 67, "CVE_ID"]]}
+{"text": "Threat intelligence indicates active exploitation of CVE-2019-01737", "entities": [[53, 67, "CVE_ID"]]}
+{"text": "Critical vulnerability CVE-2020-38444 requires immediate attention", "entities": [[23, 37, "CVE_ID"]]}
+{"text": "Security team investigating CVE-2024-49702 impact", "entities": [[28, 42, "CVE_ID"]]}
+{"text": "Security team investigating CVE-2023-26755 impact", "entities": [[28, 42, "CVE_ID"]]}
+{"text": "Scan for CVE-2023-72119 across all endpoints", "entities": [[9, 23, "CVE_ID"]]}
+{"text": "Exploit for CVE-2019-23667 is available in the wild", "entities": [[12, 26, "CVE_ID"]]}
+{"text": "Patch CVE-2021-42871 immediately to prevent exploitation", "entities": [[6, 20, "CVE_ID"]]}
+{"text": "Scan for CVE-2019-73685 across all endpoints", "entities": [[9, 23, "CVE_ID"]]}
+{"text": "Affected systems must patch CVE-2018-08090 by end of week", "entities": [[28, 42, "CVE_ID"]]}
+{"text": "Remediate CVE-2023-49101 before the next security audit", "entities": [[10, 24, "CVE_ID"]]}
+{"text": "Threat intelligence indicates active exploitation of CVE-2021-60488", "entities": [[53, 67, "CVE_ID"]]}
+{"text": "Critical vulnerability CVE-2024-69086 requires immediate attention", "entities": [[23, 37, "CVE_ID"]]}
+{"text": "Security team investigating CVE-2020-43174 impact", "entities": [[28, 42, "CVE_ID"]]}
+{"text": "Threat intelligence indicates active exploitation of CVE-2023-05466", "entities": [[53, 67, "CVE_ID"]]}
+{"text": "Remediate CVE-2022-77646 before the next security audit", "entities": [[10, 24, "CVE_ID"]]}
+{"text": "Exploit for CVE-2022-69672 is available in the wild", "entities": [[12, 26, "CVE_ID"]]}
+{"text": "Scan for CVE-2019-87014 across all endpoints", "entities": [[9, 23, "CVE_ID"]]}
+{"text": "CVSS score for CVE-2023-93666 is 9.8", "entities": [[15, 29, "CVE_ID"]]}
+{"text": "Scan for CVE-2023-34445 across all endpoints", "entities": [[9, 23, "CVE_ID"]]}
+{"text": "Security team investigating CVE-2022-64770 impact", "entities": [[28, 42, "CVE_ID"]]}
+{"text": "Threat intelligence indicates active exploitation of CVE-2020-40572", "entities": [[53, 67, "CVE_ID"]]}
+{"text": "Exploit for CVE-2021-60595 is available in the wild", "entities": [[12, 26, "CVE_ID"]]}
+{"text": "Scan for CVE-2018-65686 across all endpoints", "entities": [[9, 23, "CVE_ID"]]}
+{"text": "Scan for CVE-2020-07406 across all endpoints", "entities": [[9, 23, "CVE_ID"]]}
+{"text": "Critical vulnerability CVE-2024-14075 requires immediate attention", "entities": [[23, 37, "CVE_ID"]]}
+{"text": "CVSS score for CVE-2023-67668 is 9.8", "entities": [[15, 29, "CVE_ID"]]}
+{"text": "Remediate CVE-2023-76300 before the next security audit", "entities": [[10, 24, "CVE_ID"]]}
+{"text": "Affected systems must patch CVE-2020-27002 by end of week", "entities": [[28, 42, "CVE_ID"]]}
+{"text": "Security team investigating CVE-2024-65349 impact", "entities": [[28, 42, "CVE_ID"]]}
+{"text": "Patch CVE-2024-76961 immediately to prevent exploitation", "entities": [[6, 20, "CVE_ID"]]}
+{"text": "Threat intelligence indicates active exploitation of CVE-2023-13714", "entities": [[53, 67, "CVE_ID"]]}
+{"text": "Affected systems must patch CVE-2021-28802 by end of week", "entities": [[28, 42, "CVE_ID"]]}
+{"text": "Threat intelligence indicates active exploitation of CVE-2023-93533", "entities": [[53, 67, "CVE_ID"]]}
+{"text": "Critical vulnerability CVE-2024-05494 requires immediate attention", "entities": [[23, 37, "CVE_ID"]]}
+{"text": "Remediate CVE-2018-56928 before the next security audit", "entities": [[10, 24, "CVE_ID"]]}
+{"text": "Security team investigating CVE-2023-94633 impact", "entities": [[28, 42, "CVE_ID"]]}
+{"text": "Threat intelligence indicates active exploitation of CVE-2020-57727", "entities": [[53, 67, "CVE_ID"]]}
+{"text": "Scan for CVE-2024-07131 across all endpoints", "entities": [[9, 23, "CVE_ID"]]}
+{"text": "Threat intelligence indicates active exploitation of CVE-2019-48209", "entities": [[53, 67, "CVE_ID"]]}
+{"text": "Vulnerability CVE-2018-14777 was discovered in the system", "entities": [[14, 28, "CVE_ID"]]}
+{"text": "CVSS score for CVE-2023-89992 is 9.8", "entities": [[15, 29, "CVE_ID"]]}
+{"text": "Vulnerability CVE-2022-45795 was discovered in the system", "entities": [[14, 28, "CVE_ID"]]}
+{"text": "Security team investigating CVE-2023-71232 impact", "entities": [[28, 42, "CVE_ID"]]}
+{"text": "Threat intelligence indicates active exploitation of CVE-2024-89456", "entities": [[53, 67, "CVE_ID"]]}
+{"text": "CVSS score for CVE-2018-90109 is 9.8", "entities": [[15, 29, "CVE_ID"]]}
+{"text": "Affected systems must patch CVE-2022-77444 by end of week", "entities": [[28, 42, "CVE_ID"]]}
+{"text": "Patch CVE-2020-05987 immediately to prevent exploitation", "entities": [[6, 20, "CVE_ID"]]}
+{"text": "Remediate CVE-2023-50876 before the next security audit", "entities": [[10, 24, "CVE_ID"]]}
+{"text": "Security team investigating CVE-2021-80927 impact", "entities": [[28, 42, "CVE_ID"]]}
+{"text": "Security team investigating CVE-2024-57391 impact", "entities": [[28, 42, "CVE_ID"]]}
+{"text": "Vulnerability CVE-2020-29535 was discovered in the system", "entities": [[14, 28, "CVE_ID"]]}
+{"text": "Critical vulnerability CVE-2024-59932 requires immediate attention", "entities": [[23, 37, "CVE_ID"]]}
+{"text": "Affected systems must patch CVE-2022-21380 by end of week", "entities": [[28, 42, "CVE_ID"]]}
+{"text": "Scan for CVE-2020-82637 across all endpoints", "entities": [[9, 23, "CVE_ID"]]}
+{"text": "Exploit for CVE-2023-97281 is available in the wild", "entities": [[12, 26, "CVE_ID"]]}
+{"text": "Critical vulnerability CVE-2021-57840 requires immediate attention", "entities": [[23, 37, "CVE_ID"]]}
+{"text": "Threat intelligence indicates active exploitation of CVE-2022-96066", "entities": [[53, 67, "CVE_ID"]]}
+{"text": "Exploit for CVE-2020-62818 is available in the wild", "entities": [[12, 26, "CVE_ID"]]}
+{"text": "Affected systems must patch CVE-2024-15797 by end of week", "entities": [[28, 42, "CVE_ID"]]}
+{"text": "Critical vulnerability CVE-2018-66234 requires immediate attention", "entities": [[23, 37, "CVE_ID"]]}
+{"text": "Threat intelligence indicates active exploitation of CVE-2021-62468", "entities": [[53, 67, "CVE_ID"]]}
+{"text": "Scan for CVE-2023-00130 across all endpoints", "entities": [[9, 23, "CVE_ID"]]}
+{"text": "Remediate CVE-2022-24601 before the next security audit", "entities": [[10, 24, "CVE_ID"]]}
+{"text": "Vulnerability CVE-2021-01266 was discovered in the system", "entities": [[14, 28, "CVE_ID"]]}
+{"text": "Security team investigating CVE-2021-30189 impact", "entities": [[28, 42, "CVE_ID"]]}
+{"text": "CVSS score for CVE-2023-29819 is 9.8", "entities": [[15, 29, "CVE_ID"]]}
+{"text": "Threat intelligence indicates active exploitation of CVE-2022-43611", "entities": [[53, 67, "CVE_ID"]]}
+{"text": "Affected systems must patch CVE-2020-33261 by end of week", "entities": [[28, 42, "CVE_ID"]]}
+{"text": "Scan for CVE-2023-63287 across all endpoints", "entities": [[9, 23, "CVE_ID"]]}
+{"text": "Remediate CVE-2018-70795 before the next security audit", "entities": [[10, 24, "CVE_ID"]]}
+{"text": "CVSS score for CVE-2023-38444 is 9.8", "entities": [[15, 29, "CVE_ID"]]}
+{"text": "Patch CVE-2018-19554 immediately to prevent exploitation", "entities": [[6, 20, "CVE_ID"]]}
+{"text": "Patch CVE-2021-75861 immediately to prevent exploitation", "entities": [[6, 20, "CVE_ID"]]}
+{"text": "Threat intelligence indicates active exploitation of CVE-2023-23990", "entities": [[53, 67, "CVE_ID"]]}
+{"text": "Remediate CVE-2020-73214 before the next security audit", "entities": [[10, 24, "CVE_ID"]]}
+{"text": "Scan for CVE-2023-26062 across all endpoints", "entities": [[9, 23, "CVE_ID"]]}
+{"text": "Affected systems must patch CVE-2018-52234 by end of week", "entities": [[28, 42, "CVE_ID"]]}
+{"text": "Threat intelligence indicates active exploitation of CVE-2019-03158", "entities": [[53, 67, "CVE_ID"]]}
+{"text": "Threat intelligence indicates active exploitation of CVE-2023-06580", "entities": [[53, 67, "CVE_ID"]]}
+{"text": "Security team investigating CVE-2024-69555 impact", "entities": [[28, 42, "CVE_ID"]]}
+{"text": "Exploit for CVE-2020-92863 is available in the wild", "entities": [[12, 26, "CVE_ID"]]}
+{"text": "Remediate CVE-2022-12094 before the next security audit", "entities": [[10, 24, "CVE_ID"]]}
+{"text": "CVSS score for CVE-2020-65584 is 9.8", "entities": [[15, 29, "CVE_ID"]]}
+{"text": "CVSS score for CVE-2023-56921 is 9.8", "entities": [[15, 29, "CVE_ID"]]}
+{"text": "Patch CVE-2021-98242 immediately to prevent exploitation", "entities": [[6, 20, "CVE_ID"]]}
+{"text": "Scan for CVE-2021-93816 across all endpoints", "entities": [[9, 23, "CVE_ID"]]}
+{"text": "Exploit for CVE-2022-29449 is available in the wild", "entities": [[12, 26, "CVE_ID"]]}
+{"text": "Security team investigating CVE-2019-10312 impact", "entities": [[28, 42, "CVE_ID"]]}
+{"text": "Threat intelligence indicates active exploitation of CVE-2023-80707", "entities": [[53, 67, "CVE_ID"]]}
+{"text": "Threat intelligence indicates active exploitation of CVE-2020-45071", "entities": [[53, 67, "CVE_ID"]]}
+{"text": "Vulnerability CVE-2022-12374 was discovered in the system", "entities": [[14, 28, "CVE_ID"]]}
+{"text": "Exploit for CVE-2018-58972 is available in the wild", "entities": [[12, 26, "CVE_ID"]]}
+{"text": "Threat intelligence indicates active exploitation of CVE-2024-90734", "entities": [[53, 67, "CVE_ID"]]}
+{"text": "Vulnerability CVE-2024-71532 was discovered in the system", "entities": [[14, 28, "CVE_ID"]]}
+{"text": "Threat intelligence indicates active exploitation of CVE-2022-66695", "entities": [[53, 67, "CVE_ID"]]}
+{"text": "Critical vulnerability CVE-2018-47820 requires immediate attention", "entities": [[23, 37, "CVE_ID"]]}
+{"text": "Affected systems must patch CVE-2018-63379 by end of week", "entities": [[28, 42, "CVE_ID"]]}
+{"text": "CVSS score for CVE-2024-18509 is 9.8", "entities": [[15, 29, "CVE_ID"]]}
+{"text": "Security team investigating CVE-2018-35268 impact", "entities": [[28, 42, "CVE_ID"]]}
+{"text": "Threat intelligence indicates active exploitation of CVE-2022-18488", "entities": [[53, 67, "CVE_ID"]]}
+{"text": "Exploit for CVE-2022-65735 is available in the wild", "entities": [[12, 26, "CVE_ID"]]}
+{"text": "Exploit for CVE-2024-38556 is available in the wild", "entities": [[12, 26, "CVE_ID"]]}
+{"text": "Scan for CVE-2020-60682 across all endpoints", "entities": [[9, 23, "CVE_ID"]]}
+{"text": "CVSS score for CVE-2023-26061 is 9.8", "entities": [[15, 29, "CVE_ID"]]}
+{"text": "Exploit for CVE-2022-18538 is available in the wild", "entities": [[12, 26, "CVE_ID"]]}
+{"text": "Affected systems must patch CVE-2018-04346 by end of week", "entities": [[28, 42, "CVE_ID"]]}
+{"text": "Scan for CVE-2020-88468 across all endpoints", "entities": [[9, 23, "CVE_ID"]]}
+{"text": "Affected systems must patch CVE-2024-73208 by end of week", "entities": [[28, 42, "CVE_ID"]]}
+{"text": "Security team investigating CVE-2018-43001 impact", "entities": [[28, 42, "CVE_ID"]]}
+{"text": "Remediate CVE-2020-43686 before the next security audit", "entities": [[10, 24, "CVE_ID"]]}
+{"text": "Exploit for CVE-2023-12838 is available in the wild", "entities": [[12, 26, "CVE_ID"]]}
+{"text": "Critical vulnerability CVE-2018-47192 requires immediate attention", "entities": [[23, 37, "CVE_ID"]]}
+{"text": "Scan for CVE-2021-35766 across all endpoints", "entities": [[9, 23, "CVE_ID"]]}
+{"text": "Exploit for CVE-2024-62245 is available in the wild", "entities": [[12, 26, "CVE_ID"]]}
+{"text": "Threat intelligence indicates active exploitation of CVE-2018-08403", "entities": [[53, 67, "CVE_ID"]]}
+{"text": "Affected systems must patch CVE-2018-51848 by end of week", "entities": [[28, 42, "CVE_ID"]]}
+{"text": "Threat intelligence indicates active exploitation of CVE-2019-66920", "entities": [[53, 67, "CVE_ID"]]}
+{"text": "Exploit for CVE-2022-73816 is available in the wild", "entities": [[12, 26, "CVE_ID"]]}
+{"text": "Remediate CVE-2022-33277 before the next security audit", "entities": [[10, 24, "CVE_ID"]]}
+{"text": "Remediate CVE-2022-33007 before the next security audit", "entities": [[10, 24, "CVE_ID"]]}
+{"text": "Exploit for CVE-2020-48453 is available in the wild", "entities": [[12, 26, "CVE_ID"]]}
+{"text": "Security team investigating CVE-2024-83101 impact", "entities": [[28, 42, "CVE_ID"]]}
+{"text": "Patch CVE-2024-21025 immediately to prevent exploitation", "entities": [[6, 20, "CVE_ID"]]}
+{"text": "Security team investigating CVE-2023-48814 impact", "entities": [[28, 42, "CVE_ID"]]}
+{"text": "Threat intelligence indicates active exploitation of CVE-2024-51474", "entities": [[53, 67, "CVE_ID"]]}
+{"text": "Scan for CVE-2022-28127 across all endpoints", "entities": [[9, 23, "CVE_ID"]]}
+{"text": "Critical vulnerability CVE-2018-29418 requires immediate attention", "entities": [[23, 37, "CVE_ID"]]}
+{"text": "Scan for CVE-2021-57877 across all endpoints", "entities": [[9, 23, "CVE_ID"]]}
+{"text": "Security team investigating CVE-2019-12596 impact", "entities": [[28, 42, "CVE_ID"]]}
+{"text": "Patch CVE-2021-16149 immediately to prevent exploitation", "entities": [[6, 20, "CVE_ID"]]}
+{"text": "Critical vulnerability CVE-2024-49113 requires immediate attention", "entities": [[23, 37, "CVE_ID"]]}
+{"text": "Scan for CVE-2024-72134 across all endpoints", "entities": [[9, 23, "CVE_ID"]]}
+{"text": "Vulnerability CVE-2020-26037 was discovered in the system", "entities": [[14, 28, "CVE_ID"]]}
+{"text": "Security team investigating CVE-2021-25578 impact", "entities": [[28, 42, "CVE_ID"]]}
+{"text": "Exploit for CVE-2018-72441 is available in the wild", "entities": [[12, 26, "CVE_ID"]]}
+{"text": "Patch CVE-2021-11210 immediately to prevent exploitation", "entities": [[6, 20, "CVE_ID"]]}
+{"text": "Affected systems must patch CVE-2023-71987 by end of week", "entities": [[28, 42, "CVE_ID"]]}
+{"text": "Scan for CVE-2022-52406 across all endpoints", "entities": [[9, 23, "CVE_ID"]]}
+{"text": "Threat intelligence indicates active exploitation of CVE-2023-31823", "entities": [[53, 67, "CVE_ID"]]}
+{"text": "Affected systems must patch CVE-2022-61514 by end of week", "entities": [[28, 42, "CVE_ID"]]}
+{"text": "Repository pjhyatt/pentest-toolkit contains malware", "entities": [[11, 34, "GITHUB_REPO"]]}
+{"text": "Repo facebook/awesome-project flagged for security issues", "entities": [[5, 29, "GITHUB_REPO"]]}
+{"text": "Repository defunkt/threat-intel contains sensitive data", "entities": [[11, 31, "GITHUB_REPO"]]}
+{"text": "Scan wycats/security-tool for vulnerabilities", "entities": [[5, 25, "GITHUB_REPO"]]}
+{"text": "Repository microsoft/osint-framework contains sensitive data", "entities": [[11, 36, "GITHUB_REPO"]]}
+{"text": "Scan mojombo/forensics-tool for vulnerabilities", "entities": [[5, 27, "GITHUB_REPO"]]}
+{"text": "Repo github/awesome-project flagged for security issues", "entities": [[5, 27, "GITHUB_REPO"]]}
+{"text": "Repository ezmobius/malware-analysis under investigation", "entities": [[11, 36, "GITHUB_REPO"]]}
+{"text": "Check octocat/threat-intel commit history", "entities": [[6, 26, "GITHUB_REPO"]]}
+{"text": "Repo google/forensics-tool linked to threat actor", "entities": [[5, 26, "GITHUB_REPO"]]}
+{"text": "Check mojombo/pentest-toolkit commit history", "entities": [[6, 29, "GITHUB_REPO"]]}
+{"text": "Scan tj/osint-framework for vulnerabilities", "entities": [[5, 23, "GITHUB_REPO"]]}
+{"text": "Repo airbnb/vulnerability-scanner linked to threat actor", "entities": [[5, 33, "GITHUB_REPO"]]}
+{"text": "Monitor google/osint-framework for updates", "entities": [[8, 30, "GITHUB_REPO"]]}
+{"text": "Repository docker/threat-intel contains sensitive data", "entities": [[11, 30, "GITHUB_REPO"]]}
+{"text": "Repository pjhyatt/pentest-toolkit under investigation", "entities": [[11, 34, "GITHUB_REPO"]]}
+{"text": "Analyze facebook/forensics-tool source code", "entities": [[8, 31, "GITHUB_REPO"]]}
+{"text": "Repo ezmobius/awesome-project flagged for security issues", "entities": [[5, 29, "GITHUB_REPO"]]}
+{"text": "Monitor google/forensics-tool for updates", "entities": [[8, 29, "GITHUB_REPO"]]}
+{"text": "Repository brynary/osint-framework under investigation", "entities": [[11, 34, "GITHUB_REPO"]]}
+{"text": "Repository defunkt/awesome-project contains sensitive data", "entities": [[11, 34, "GITHUB_REPO"]]}
+{"text": "Monitor facebook/malware-analysis for updates", "entities": [[8, 33, "GITHUB_REPO"]]}
+{"text": "Monitor netflix/threat-intel for updates", "entities": [[8, 28, "GITHUB_REPO"]]}
+{"text": "Repo ezmobius/security-tool flagged for security issues", "entities": [[5, 27, "GITHUB_REPO"]]}
+{"text": "Clone apple/security-tool for analysis", "entities": [[6, 25, "GITHUB_REPO"]]}
+{"text": "Repo wycats/forensics-tool linked to threat actor", "entities": [[5, 26, "GITHUB_REPO"]]}
+{"text": "Repository facebook/awesome-project contains sensitive data", "entities": [[11, 35, "GITHUB_REPO"]]}
+{"text": "Repository github/awesome-project under investigation", "entities": [[11, 33, "GITHUB_REPO"]]}
+{"text": "Repository mojombo/malware-analysis contains sensitive data", "entities": [[11, 35, "GITHUB_REPO"]]}
+{"text": "Repository netflix/threat-intel under investigation", "entities": [[11, 31, "GITHUB_REPO"]]}
+{"text": "Check mojombo/security-tool commit history", "entities": [[6, 27, "GITHUB_REPO"]]}
+{"text": "Repo airbnb/malware-analysis flagged for security issues", "entities": [[5, 28, "GITHUB_REPO"]]}
+{"text": "Check apple/vulnerability-scanner commit history", "entities": [[6, 33, "GITHUB_REPO"]]}
+{"text": "Scan tj/osint-framework for vulnerabilities", "entities": [[5, 23, "GITHUB_REPO"]]}
+{"text": "Scan netflix/forensics-tool for vulnerabilities", "entities": [[5, 27, "GITHUB_REPO"]]}
+{"text": "Monitor defunkt/threat-intel for updates", "entities": [[8, 28, "GITHUB_REPO"]]}
+{"text": "Repository microsoft/threat-intel contains malware", "entities": [[11, 33, "GITHUB_REPO"]]}
+{"text": "Repo apple/forensics-tool linked to threat actor", "entities": [[5, 25, "GITHUB_REPO"]]}
+{"text": "Analyze pjhyatt/malware-analysis source code", "entities": [[8, 32, "GITHUB_REPO"]]}
+{"text": "Analyze twitter/security-tool source code", "entities": [[8, 29, "GITHUB_REPO"]]}
+{"text": "Scan github/forensics-tool for vulnerabilities", "entities": [[5, 26, "GITHUB_REPO"]]}
+{"text": "Clone octocat/pentest-toolkit for analysis", "entities": [[6, 29, "GITHUB_REPO"]]}
+{"text": "Repository brynary/vulnerability-scanner under investigation", "entities": [[11, 40, "GITHUB_REPO"]]}
+{"text": "Monitor mojombo/osint-framework for updates", "entities": [[8, 31, "GITHUB_REPO"]]}
+{"text": "Repo facebook/pentest-toolkit linked to threat actor", "entities": [[5, 29, "GITHUB_REPO"]]}
+{"text": "Repository google/security-tool under investigation", "entities": [[11, 31, "GITHUB_REPO"]]}
+{"text": "Analyze apple/security-tool source code", "entities": [[8, 27, "GITHUB_REPO"]]}
+{"text": "Scan docker/pentest-toolkit for vulnerabilities", "entities": [[5, 27, "GITHUB_REPO"]]}
+{"text": "Repository uber/awesome-project under investigation", "entities": [[11, 31, "GITHUB_REPO"]]}
+{"text": "Check mojombo/malware-analysis commit history", "entities": [[6, 30, "GITHUB_REPO"]]}
+{"text": "Check https://github.com/docker/security-tool commit history", "entities": [[6, 45, "GITHUB_REPO_URL"]]}
+{"text": "Repository URL https://github.com/tj/security-tool/issues under investigation", "entities": [[15, 57, "GITHUB_REPO_URL"]]}
+{"text": "Repository https://github.com/gaearon/security-tool/tree/main associated with attack", "entities": [[11, 61, "GITHUB_REPO_URL"]]}
+{"text": "Scan https://github.com/microsoft/awesome-project/blob/main/README.md for security issues", "entities": [[5, 69, "GITHUB_REPO_URL"]]}
+{"text": "URL https://github.com/facebook/vulnerability-scanner/tree/main flagged", "entities": [[4, 63, "GITHUB_REPO_URL"]]}
+{"text": "Check https://github.com/netflix/osint-framework/pulls commit history", "entities": [[6, 54, "GITHUB_REPO_URL"]]}
+{"text": "URL https://github.com/defunkt/vulnerability-scanner/tree/main linked to threat actor", "entities": [[4, 62, "GITHUB_REPO_URL"]]}
+{"text": "URL https://github.com/netflix/osint-framework/issues linked to threat actor", "entities": [[4, 53, "GITHUB_REPO_URL"]]}
+{"text": "Repository URL https://github.com/octocat/awesome-project/pulls under investigation", "entities": [[15, 63, "GITHUB_REPO_URL"]]}
+{"text": "URL https://github.com/ezmobius/awesome-project/blob/main/README.md linked to threat actor", "entities": [[4, 67, "GITHUB_REPO_URL"]]}
+{"text": "Repository https://github.com/uber/security-tool/pulls associated with attack", "entities": [[11, 54, "GITHUB_REPO_URL"]]}
+{"text": "Clone from https://github.com/twitter/security-tool/tree/main", "entities": [[11, 61, "GITHUB_REPO_URL"]]}
+{"text": "Repository https://github.com/github/vulnerability-scanner/releases associated with attack", "entities": [[11, 67, "GITHUB_REPO_URL"]]}
+{"text": "URL https://github.com/defunkt/vulnerability-scanner/tree/main linked to threat actor", "entities": [[4, 62, "GITHUB_REPO_URL"]]}
+{"text": "Repository URL https://github.com/ezmobius/osint-framework/issues under investigation", "entities": [[15, 65, "GITHUB_REPO_URL"]]}
+{"text": "Repository https://github.com/mojombo/security-tool/releases contains vulnerabilities", "entities": [[11, 60, "GITHUB_REPO_URL"]]}
+{"text": "Monitor https://github.com/torvalds/security-tool/releases for suspicious activity", "entities": [[8, 58, "GITHUB_REPO_URL"]]}
+{"text": "Repository https://github.com/netflix/osint-framework/blob/main/README.md contains vulnerabilities", "entities": [[11, 73, "GITHUB_REPO_URL"]]}
+{"text": "Analyze https://github.com/uber/osint-framework/releases source code", "entities": [[8, 56, "GITHUB_REPO_URL"]]}
+{"text": "Repository URL https://github.com/wycats/osint-framework under investigation", "entities": [[15, 56, "GITHUB_REPO_URL"]]}
+{"text": "Repository https://github.com/mojombo/vulnerability-scanner/blob/main/README.md associated with attack", "entities": [[11, 79, "GITHUB_REPO_URL"]]}
+{"text": "URL https://github.com/netflix/osint-framework/tree/main flagged", "entities": [[4, 56, "GITHUB_REPO_URL"]]}
+{"text": "Check https://github.com/ezmobius/vulnerability-scanner commit history", "entities": [[6, 55, "GITHUB_REPO_URL"]]}
+{"text": "Analyze https://github.com/microsoft/vulnerability-scanner/issues source code", "entities": [[8, 65, "GITHUB_REPO_URL"]]}
+{"text": "Repository https://github.com/microsoft/vulnerability-scanner/issues contains vulnerabilities", "entities": [[11, 68, "GITHUB_REPO_URL"]]}
+{"text": "Monitor https://github.com/ezmobius/security-tool/releases for suspicious activity", "entities": [[8, 58, "GITHUB_REPO_URL"]]}
+{"text": "Scan https://github.com/airbnb/osint-framework/tree/main for security issues", "entities": [[5, 56, "GITHUB_REPO_URL"]]}
+{"text": "Analyze https://github.com/tj/security-tool/releases source code", "entities": [[8, 52, "GITHUB_REPO_URL"]]}
+{"text": "Repository https://github.com/torvalds/awesome-project/tree/main associated with attack", "entities": [[11, 64, "GITHUB_REPO_URL"]]}
+{"text": "Monitor https://github.com/brynary/vulnerability-scanner/issues for suspicious activity", "entities": [[8, 63, "GITHUB_REPO_URL"]]}
+{"text": "URL https://github.com/airbnb/osint-framework/blob/main/README.md linked to threat actor", "entities": [[4, 65, "GITHUB_REPO_URL"]]}
+{"text": "Analyze https://github.com/wycats/security-tool/tree/main source code", "entities": [[8, 57, "GITHUB_REPO_URL"]]}
+{"text": "Repository URL https://github.com/docker/osint-framework/tree/main under investigation", "entities": [[15, 66, "GITHUB_REPO_URL"]]}
+{"text": "Clone from https://github.com/tj/awesome-project/releases", "entities": [[11, 57, "GITHUB_REPO_URL"]]}
+{"text": "URL https://github.com/twitter/osint-framework/blob/main/README.md flagged", "entities": [[4, 66, "GITHUB_REPO_URL"]]}
+{"text": "Repository URL https://github.com/twitter/awesome-project/blob/main/README.md under investigation", "entities": [[15, 77, "GITHUB_REPO_URL"]]}
+{"text": "Monitor https://github.com/wycats/vulnerability-scanner/releases for suspicious activity", "entities": [[8, 64, "GITHUB_REPO_URL"]]}
+{"text": "Clone from https://github.com/github/osint-framework/issues", "entities": [[11, 59, "GITHUB_REPO_URL"]]}
+{"text": "URL https://github.com/wycats/vulnerability-scanner/blob/main/README.md flagged", "entities": [[4, 71, "GITHUB_REPO_URL"]]}
+{"text": "Scan https://github.com/microsoft/awesome-project/releases for security issues", "entities": [[5, 58, "GITHUB_REPO_URL"]]}
+{"text": "Clone from https://github.com/apple/osint-framework", "entities": [[11, 51, "GITHUB_REPO_URL"]]}
+{"text": "Check https://github.com/apple/security-tool/issues commit history", "entities": [[6, 51, "GITHUB_REPO_URL"]]}
+{"text": "Clone from https://github.com/gaearon/vulnerability-scanner/tree/main", "entities": [[11, 69, "GITHUB_REPO_URL"]]}
+{"text": "Repository https://github.com/tj/awesome-project/blob/main/README.md associated with attack", "entities": [[11, 68, "GITHUB_REPO_URL"]]}
+{"text": "URL https://github.com/ezmobius/osint-framework/blob/main/README.md linked to threat actor", "entities": [[4, 67, "GITHUB_REPO_URL"]]}
+{"text": "Repository https://github.com/mojombo/security-tool/releases associated with attack", "entities": [[11, 60, "GITHUB_REPO_URL"]]}
+{"text": "Repository https://github.com/airbnb/security-tool/tree/main contains vulnerabilities", "entities": [[11, 60, "GITHUB_REPO_URL"]]}
+{"text": "Repository https://github.com/tj/security-tool/releases associated with attack", "entities": [[11, 55, "GITHUB_REPO_URL"]]}
+{"text": "Scan https://github.com/torvalds/vulnerability-scanner/blob/main/README.md for security issues", "entities": [[5, 74, "GITHUB_REPO_URL"]]}
+{"text": "Scan https://github.com/github/vulnerability-scanner/releases for security issues", "entities": [[5, 61, "GITHUB_REPO_URL"]]}
+{"text": "URL https://github.com/facebook/osint-framework/releases linked to threat actor", "entities": [[4, 56, "GITHUB_REPO_URL"]]}
+{"text": "Analyze https://github.com/twitter/awesome-project/releases source code", "entities": [[8, 59, "GITHUB_REPO_URL"]]}
+{"text": "Repository https://github.com/mojombo/vulnerability-scanner/issues contains vulnerabilities", "entities": [[11, 66, "GITHUB_REPO_URL"]]}
+{"text": "Check https://github.com/google/awesome-project/pulls commit history", "entities": [[6, 53, "GITHUB_REPO_URL"]]}
+{"text": "Scan https://github.com/github/osint-framework/issues for security issues", "entities": [[5, 53, "GITHUB_REPO_URL"]]}
+{"text": "Repository https://github.com/octocat/vulnerability-scanner/issues contains vulnerabilities", "entities": [[11, 66, "GITHUB_REPO_URL"]]}
+{"text": "Repository https://github.com/github/awesome-project/issues associated with attack", "entities": [[11, 59, "GITHUB_REPO_URL"]]}
+{"text": "Clone from https://github.com/pjhyatt/awesome-project/tree/main", "entities": [[11, 63, "GITHUB_REPO_URL"]]}
+{"text": "Analyze https://github.com/facebook/awesome-project/releases source code", "entities": [[8, 60, "GITHUB_REPO_URL"]]}
+{"text": "Analyze https://github.com/airbnb/osint-framework/pulls source code", "entities": [[8, 55, "GITHUB_REPO_URL"]]}
+{"text": "Monitor github organization activity", "entities": [[8, 14, "GITHUB_ORGANIZATION"]]}
+{"text": "GitHub org docker under investigation", "entities": [[11, 17, "GITHUB_ORGANIZATION"]]}
+{"text": "Organization google verified", "entities": [[13, 19, "GITHUB_ORGANIZATION"]]}
+{"text": "Monitor github for security updates", "entities": [[8, 14, "GITHUB_ORGANIZATION"]]}
+{"text": "Monitor twitter for security updates", "entities": [[8, 15, "GITHUB_ORGANIZATION"]]}
+{"text": "Monitor facebook organization activity", "entities": [[8, 16, "GITHUB_ORGANIZATION"]]}
+{"text": "Monitor microsoft for security updates", "entities": [[8, 17, "GITHUB_ORGANIZATION"]]}
+{"text": "Organization google flagged", "entities": [[13, 19, "GITHUB_ORGANIZATION"]]}
+{"text": "Organization uber repositories analyzed", "entities": [[13, 17, "GITHUB_ORGANIZATION"]]}
+{"text": "Monitor apple organization activity", "entities": [[8, 13, "GITHUB_ORGANIZATION"]]}
+{"text": "Organization github flagged", "entities": [[13, 19, "GITHUB_ORGANIZATION"]]}
+{"text": "Monitor netflix for security updates", "entities": [[8, 15, "GITHUB_ORGANIZATION"]]}
+{"text": "Org google linked to security research", "entities": [[4, 10, "GITHUB_ORGANIZATION"]]}
+{"text": "Org facebook linked to security research", "entities": [[4, 12, "GITHUB_ORGANIZATION"]]}
+{"text": "GitHub organization airbnb repositories scanned", "entities": [[20, 26, "GITHUB_ORGANIZATION"]]}
+{"text": "Organization docker repositories analyzed", "entities": [[13, 19, "GITHUB_ORGANIZATION"]]}
+{"text": "Monitor twitter organization activity", "entities": [[8, 15, "GITHUB_ORGANIZATION"]]}
+{"text": "Monitor apple for security updates", "entities": [[8, 13, "GITHUB_ORGANIZATION"]]}
+{"text": "GitHub org facebook under investigation", "entities": [[11, 19, "GITHUB_ORGANIZATION"]]}
+{"text": "Organization microsoft flagged", "entities": [[13, 22, "GITHUB_ORGANIZATION"]]}
+{"text": "Organization netflix repositories analyzed", "entities": [[13, 20, "GITHUB_ORGANIZATION"]]}
+{"text": "Org facebook associated with threat intelligence", "entities": [[4, 12, "GITHUB_ORGANIZATION"]]}
+{"text": "Org microsoft linked to security research", "entities": [[4, 13, "GITHUB_ORGANIZATION"]]}
+{"text": "Organization microsoft verified", "entities": [[13, 22, "GITHUB_ORGANIZATION"]]}
+{"text": "Org netflix linked to security research", "entities": [[4, 11, "GITHUB_ORGANIZATION"]]}
+{"text": "Organization twitter verified", "entities": [[13, 20, "GITHUB_ORGANIZATION"]]}
+{"text": "Organization github repositories analyzed", "entities": [[13, 19, "GITHUB_ORGANIZATION"]]}
+{"text": "Organization facebook verified", "entities": [[13, 21, "GITHUB_ORGANIZATION"]]}
+{"text": "Org uber linked to security research", "entities": [[4, 8, "GITHUB_ORGANIZATION"]]}
+{"text": "Org airbnb associated with threat intelligence", "entities": [[4, 10, "GITHUB_ORGANIZATION"]]}
+{"text": "Org netflix linked to security research", "entities": [[4, 11, "GITHUB_ORGANIZATION"]]}
+{"text": "GitHub org netflix under investigation", "entities": [[11, 18, "GITHUB_ORGANIZATION"]]}
+{"text": "Monitor airbnb organization activity", "entities": [[8, 14, "GITHUB_ORGANIZATION"]]}
+{"text": "GitHub organization netflix repositories scanned", "entities": [[20, 27, "GITHUB_ORGANIZATION"]]}
+{"text": "Organization twitter flagged", "entities": [[13, 20, "GITHUB_ORGANIZATION"]]}
+{"text": "Org apple associated with threat intelligence", "entities": [[4, 9, "GITHUB_ORGANIZATION"]]}
+{"text": "Org netflix associated with threat intelligence", "entities": [[4, 11, "GITHUB_ORGANIZATION"]]}
+{"text": "Review #8386 content", "entities": [[7, 12, "GITHUB_ISSUE"]]}
+{"text": "Review #6715 for sensitive data", "entities": [[7, 12, "GITHUB_ISSUE"]]}
+{"text": "Review #2376 content", "entities": [[7, 12, "GITHUB_ISSUE"]]}
+{"text": "Issue #4318 flagged for security", "entities": [[6, 11, "GITHUB_ISSUE"]]}
+{"text": "Issue #2770 linked to threat", "entities": [[6, 11, "GITHUB_ISSUE"]]}
+{"text": "Check #4778 for disclosure", "entities": [[6, 11, "GITHUB_ISSUE"]]}
+{"text": "Review #8338 content", "entities": [[7, 12, "GITHUB_ISSUE"]]}
+{"text": "Issue #8999 contains vulnerability details", "entities": [[6, 11, "GITHUB_ISSUE"]]}
+{"text": "Review #3041 content", "entities": [[7, 12, "GITHUB_ISSUE"]]}
+{"text": "Review #2262 for sensitive data", "entities": [[7, 12, "GITHUB_ISSUE"]]}
+{"text": "Review #347 content", "entities": [[7, 11, "GITHUB_ISSUE"]]}
+{"text": "Issue #7801 contains exploit code", "entities": [[6, 11, "GITHUB_ISSUE"]]}
+{"text": "Issue #9767 contains vulnerability details", "entities": [[6, 11, "GITHUB_ISSUE"]]}
+{"text": "Issue #9861 under investigation", "entities": [[6, 11, "GITHUB_ISSUE"]]}
+{"text": "Review #6812 content", "entities": [[7, 12, "GITHUB_ISSUE"]]}
+{"text": "Review #5813 for sensitive data", "entities": [[7, 12, "GITHUB_ISSUE"]]}
+{"text": "Analyze #457 comments", "entities": [[8, 12, "GITHUB_ISSUE"]]}
+{"text": "Analyze #487 comments", "entities": [[8, 12, "GITHUB_ISSUE"]]}
+{"text": "Issue #4712 under investigation", "entities": [[6, 11, "GITHUB_ISSUE"]]}
+{"text": "Issue #4826 under investigation", "entities": [[6, 11, "GITHUB_ISSUE"]]}
+{"text": "Monitor issue #9840", "entities": [[14, 19, "GITHUB_ISSUE"]]}
+{"text": "Monitor issue #7842", "entities": [[14, 19, "GITHUB_ISSUE"]]}
+{"text": "Issue #9905 under investigation", "entities": [[6, 11, "GITHUB_ISSUE"]]}
+{"text": "Issue #4393 linked to threat", "entities": [[6, 11, "GITHUB_ISSUE"]]}
+{"text": "Issue #6058 under investigation", "entities": [[6, 11, "GITHUB_ISSUE"]]}
+{"text": "Issue #1532 contains vulnerability details", "entities": [[6, 11, "GITHUB_ISSUE"]]}
+{"text": "Review #5192 content", "entities": [[7, 12, "GITHUB_ISSUE"]]}
+{"text": "Issue #9581 contains exploit code", "entities": [[6, 11, "GITHUB_ISSUE"]]}
+{"text": "Issue #1624 flagged for security", "entities": [[6, 11, "GITHUB_ISSUE"]]}
+{"text": "Check #9630 for disclosure", "entities": [[6, 11, "GITHUB_ISSUE"]]}
+{"text": "Analyze #3858 comments", "entities": [[8, 13, "GITHUB_ISSUE"]]}
+{"text": "Issue #2455 contains vulnerability details", "entities": [[6, 11, "GITHUB_ISSUE"]]}
+{"text": "Analyze #7710 comments", "entities": [[8, 13, "GITHUB_ISSUE"]]}
+{"text": "Issue #7091 contains vulnerability details", "entities": [[6, 11, "GITHUB_ISSUE"]]}
+{"text": "Issue #6023 flagged for security", "entities": [[6, 11, "GITHUB_ISSUE"]]}
+{"text": "Review #9705 content", "entities": [[7, 12, "GITHUB_ISSUE"]]}
+{"text": "Issue #7313 under investigation", "entities": [[6, 11, "GITHUB_ISSUE"]]}
+{"text": "Monitor issue #8123", "entities": [[14, 19, "GITHUB_ISSUE"]]}
+{"text": "Analyze #1079 comments", "entities": [[8, 13, "GITHUB_ISSUE"]]}
+{"text": "Review #2655 for sensitive data", "entities": [[7, 12, "GITHUB_ISSUE"]]}
+{"text": "Issue #524 contains exploit code", "entities": [[6, 10, "GITHUB_ISSUE"]]}
+{"text": "Review #3967 for sensitive data", "entities": [[7, 12, "GITHUB_ISSUE"]]}
+{"text": "Issue #8197 contains exploit code", "entities": [[6, 11, "GITHUB_ISSUE"]]}
+{"text": "Issue #837 under investigation", "entities": [[6, 10, "GITHUB_ISSUE"]]}
+{"text": "Review #6030 content", "entities": [[7, 12, "GITHUB_ISSUE"]]}
+{"text": "Issue #2752 flagged for security", "entities": [[6, 11, "GITHUB_ISSUE"]]}
+{"text": "Issue #275 contains exploit code", "entities": [[6, 10, "GITHUB_ISSUE"]]}
+{"text": "Check #3280 for disclosure", "entities": [[6, 11, "GITHUB_ISSUE"]]}
+{"text": "Issue #7746 linked to threat", "entities": [[6, 11, "GITHUB_ISSUE"]]}
+{"text": "Check #4884 for disclosure", "entities": [[6, 11, "GITHUB_ISSUE"]]}
+{"text": "Review #2967 content", "entities": [[7, 12, "GITHUB_ISSUE"]]}
+{"text": "Issue #7438 contains vulnerability details", "entities": [[6, 11, "GITHUB_ISSUE"]]}
+{"text": "Analyze #1438 comments", "entities": [[8, 13, "GITHUB_ISSUE"]]}
+{"text": "Issue #1292 contains vulnerability details", "entities": [[6, 11, "GITHUB_ISSUE"]]}
+{"text": "Monitor issue #7274", "entities": [[14, 19, "GITHUB_ISSUE"]]}
+{"text": "Issue #4628 flagged for security", "entities": [[6, 11, "GITHUB_ISSUE"]]}
+{"text": "Issue #5182 contains vulnerability details", "entities": [[6, 11, "GITHUB_ISSUE"]]}
+{"text": "Review #8092 for sensitive data", "entities": [[7, 12, "GITHUB_ISSUE"]]}
+{"text": "Analyze #3686 comments", "entities": [[8, 13, "GITHUB_ISSUE"]]}
+{"text": "Monitor issue #2498", "entities": [[14, 19, "GITHUB_ISSUE"]]}
+{"text": "Monitor issue #8074", "entities": [[14, 19, "GITHUB_ISSUE"]]}
+{"text": "Review #6790 for sensitive data", "entities": [[7, 12, "GITHUB_ISSUE"]]}
+{"text": "Issue #1135 contains exploit code", "entities": [[6, 11, "GITHUB_ISSUE"]]}
+{"text": "Issue #8128 linked to threat", "entities": [[6, 11, "GITHUB_ISSUE"]]}
+{"text": "Review #7592 content", "entities": [[7, 12, "GITHUB_ISSUE"]]}
+{"text": "Monitor issue #2404", "entities": [[14, 19, "GITHUB_ISSUE"]]}
+{"text": "Monitor issue #1188", "entities": [[14, 19, "GITHUB_ISSUE"]]}
+{"text": "Commit 15b1ed27ccc24db6d29964a224037b462fd1fc8b under investigation", "entities": [[7, 47, "GITHUB_COMMIT"]]}
+{"text": "Commit 94659c7 contains backdoor", "entities": [[7, 14, "GITHUB_COMMIT"]]}
+{"text": "Commit e8b5c76778dfb5a40b915bb29734f34e4879b032 under investigation", "entities": [[7, 47, "GITHUB_COMMIT"]]}
+{"text": "Analyze 5aead34b6067a1ab2ba40f75b9f2ac749618a4f8 changes", "entities": [[8, 48, "GITHUB_COMMIT"]]}
+{"text": "Check d59dc11 changes", "entities": [[6, 13, "GITHUB_COMMIT"]]}
+{"text": "Commit 5a040dd contains malicious code", "entities": [[7, 14, "GITHUB_COMMIT"]]}
+{"text": "Examine 62f9376 modifications", "entities": [[8, 15, "GITHUB_COMMIT"]]}
+{"text": "Commit ea249e5a under investigation", "entities": [[7, 15, "GITHUB_COMMIT"]]}
+{"text": "Commit 37c3c77d contains backdoor", "entities": [[7, 15, "GITHUB_COMMIT"]]}
+{"text": "Commit ed68d4c95aac9c0b3a5d811c315bb7332f818c8e under investigation", "entities": [[7, 47, "GITHUB_COMMIT"]]}
+{"text": "Analyze ca1908982683ef17758235e6661b4d327ccbf88b changes", "entities": [[8, 48, "GITHUB_COMMIT"]]}
+{"text": "Examine e302243d modifications", "entities": [[8, 16, "GITHUB_COMMIT"]]}
+{"text": "Examine 406e184b3f112823f422c2c20f734b51dd30139f modifications", "entities": [[8, 48, "GITHUB_COMMIT"]]}
+{"text": "Review 93514a9 diff", "entities": [[7, 14, "GITHUB_COMMIT"]]}
+{"text": "Commit b909dcde linked to attack", "entities": [[7, 15, "GITHUB_COMMIT"]]}
+{"text": "Review a097d02 diff", "entities": [[7, 14, "GITHUB_COMMIT"]]}
+{"text": "Check 1c48093edb9703561624e1a6214dc3a5c55073f7 changes", "entities": [[6, 46, "GITHUB_COMMIT"]]}
+{"text": "Examine d288fcb6 modifications", "entities": [[8, 16, "GITHUB_COMMIT"]]}
+{"text": "Commit 58b2fc3 contains backdoor", "entities": [[7, 14, "GITHUB_COMMIT"]]}
+{"text": "Review 7d8c4741c05927097bb4ce0a90a690894d203aed diff", "entities": [[7, 47, "GITHUB_COMMIT"]]}
+{"text": "Review 7f8e0076 diff", "entities": [[7, 15, "GITHUB_COMMIT"]]}
+{"text": "Analyze 08cf014 changes", "entities": [[8, 15, "GITHUB_COMMIT"]]}
+{"text": "Commit 14467f6a03478e0c3306f401cea0fd53d8cfed35 contains backdoor", "entities": [[7, 47, "GITHUB_COMMIT"]]}
+{"text": "Review f8c9c994d879821b0d2c75a83ef13a3d2817c367 diff", "entities": [[7, 47, "GITHUB_COMMIT"]]}
+{"text": "Analyze 8a77fd5c changes", "entities": [[8, 16, "GITHUB_COMMIT"]]}
+{"text": "Check ce8d6541 changes", "entities": [[6, 14, "GITHUB_COMMIT"]]}
+{"text": "Commit 1e3aef5 contains malicious code", "entities": [[7, 14, "GITHUB_COMMIT"]]}
+{"text": "Analyze commit 4011323f", "entities": [[15, 23, "GITHUB_COMMIT"]]}
+{"text": "Commit 7ac7ffaf909833addd8fb6a9b3dab8afc7c5b427 flagged for review", "entities": [[7, 47, "GITHUB_COMMIT"]]}
+{"text": "Commit 337e0d6b flagged for review", "entities": [[7, 15, "GITHUB_COMMIT"]]}
+{"text": "Review f6518bf diff", "entities": [[7, 14, "GITHUB_COMMIT"]]}
+{"text": "Commit cd3aa6a linked to attack", "entities": [[7, 14, "GITHUB_COMMIT"]]}
+{"text": "Analyze d3cf0ce changes", "entities": [[8, 15, "GITHUB_COMMIT"]]}
+{"text": "Check 6a1bb0f9 changes", "entities": [[6, 14, "GITHUB_COMMIT"]]}
+{"text": "Commit ae8deb62 flagged for review", "entities": [[7, 15, "GITHUB_COMMIT"]]}
+{"text": "Commit 89b7e6b flagged for review", "entities": [[7, 14, "GITHUB_COMMIT"]]}
+{"text": "Analyze bbb5e280 changes", "entities": [[8, 16, "GITHUB_COMMIT"]]}
+{"text": "Commit ad1b3b7 contains malicious code", "entities": [[7, 14, "GITHUB_COMMIT"]]}
+{"text": "Commit 92882dc flagged for review", "entities": [[7, 14, "GITHUB_COMMIT"]]}
+{"text": "Commit 792689a230b209ba82df4b4734bb62e058cf33b3 under investigation", "entities": [[7, 47, "GITHUB_COMMIT"]]}
+{"text": "Commit d412a27 under investigation", "entities": [[7, 14, "GITHUB_COMMIT"]]}
+{"text": "Analyze commit a8800b54", "entities": [[15, 23, "GITHUB_COMMIT"]]}
+{"text": "Analyze commit 6b31e536", "entities": [[15, 23, "GITHUB_COMMIT"]]}
+{"text": "Analyze 8f20cb84d27bb7837a0f8e5ba1dcc52004cb6a5b changes", "entities": [[8, 48, "GITHUB_COMMIT"]]}
+{"text": "Analyze 70be7ba33f2f61663e3594d497a3c5ea5865b4fc changes", "entities": [[8, 48, "GITHUB_COMMIT"]]}
+{"text": "Commit d343aa61d63f451d95ba3593f9b0f664ed634898 contains malicious code", "entities": [[7, 47, "GITHUB_COMMIT"]]}
+{"text": "Commit 03b93de under investigation", "entities": [[7, 14, "GITHUB_COMMIT"]]}
+{"text": "Commit 175a1cbfba351624cf463ad5a720b38473528cb7 contains backdoor", "entities": [[7, 47, "GITHUB_COMMIT"]]}
+{"text": "Commit ff77531 under investigation", "entities": [[7, 14, "GITHUB_COMMIT"]]}
+{"text": "Commit 17585a548cc7e697282b070babc97a4c14a25739 under investigation", "entities": [[7, 47, "GITHUB_COMMIT"]]}
+{"text": "Check e5f6710a changes", "entities": [[6, 14, "GITHUB_COMMIT"]]}
+{"text": "Commit 69f8c0e9 contains backdoor", "entities": [[7, 15, "GITHUB_COMMIT"]]}
+{"text": "Check e0c404d8449d404fc2360229f21f486de5bd98ed changes", "entities": [[6, 46, "GITHUB_COMMIT"]]}
+{"text": "Analyze c0523d812057bd22c79033638a8d02acfbb1a734 changes", "entities": [[8, 48, "GITHUB_COMMIT"]]}
+{"text": "Review 2d71d99 diff", "entities": [[7, 14, "GITHUB_COMMIT"]]}
+{"text": "Review d7da0941ba22ee9c87a84bfd9d45174a35659cab diff", "entities": [[7, 47, "GITHUB_COMMIT"]]}
+{"text": "Check 7897c73a changes", "entities": [[6, 14, "GITHUB_COMMIT"]]}
+{"text": "Commit 7988eae contains malicious code", "entities": [[7, 14, "GITHUB_COMMIT"]]}
+{"text": "Analyze commit 04aea072", "entities": [[15, 23, "GITHUB_COMMIT"]]}
+{"text": "Commit 0c49cd17a50c81af9357327875f3e64e0f034e45 under investigation", "entities": [[7, 47, "GITHUB_COMMIT"]]}
+{"text": "Commit 19ad2bf linked to attack", "entities": [[7, 14, "GITHUB_COMMIT"]]}
+{"text": "Commit 53b26a8107abf349c8e8d22dc4b27b2a8a05e30b under investigation", "entities": [[7, 47, "GITHUB_COMMIT"]]}
+{"text": "Analyze 1f3a712e changes", "entities": [[8, 16, "GITHUB_COMMIT"]]}
+{"text": "Commit d6af72a8 linked to attack", "entities": [[7, 15, "GITHUB_COMMIT"]]}
+{"text": "Commit e9551d19d6b26af348682562265bdb8b515063d4 contains backdoor", "entities": [[7, 47, "GITHUB_COMMIT"]]}
+{"text": "Review 88b365d diff", "entities": [[7, 14, "GITHUB_COMMIT"]]}
+{"text": "Examine 353ed6a2 modifications", "entities": [[8, 16, "GITHUB_COMMIT"]]}
+{"text": "Check release/v1.0 for security issues", "entities": [[6, 18, "GITHUB_BRANCH"]]}
+{"text": "Branch master under investigation", "entities": [[7, 13, "GITHUB_BRANCH"]]}
+{"text": "Analyze master code", "entities": [[8, 14, "GITHUB_BRANCH"]]}
+{"text": "Branch master contains sensitive data", "entities": [[7, 13, "GITHUB_BRANCH"]]}
+{"text": "Branch feature/security linked to threat", "entities": [[7, 23, "GITHUB_BRANCH"]]}
+{"text": "Branch hotfix/vuln flagged for review", "entities": [[7, 18, "GITHUB_BRANCH"]]}
+{"text": "Branch hotfix/vuln under investigation", "entities": [[7, 18, "GITHUB_BRANCH"]]}
+{"text": "Branch release/v1.0 contains sensitive data", "entities": [[7, 19, "GITHUB_BRANCH"]]}
+{"text": "Review main changes", "entities": [[7, 11, "GITHUB_BRANCH"]]}
+{"text": "Monitor release/v1.0 commits", "entities": [[8, 20, "GITHUB_BRANCH"]]}
+{"text": "Branch master contains sensitive data", "entities": [[7, 13, "GITHUB_BRANCH"]]}
+{"text": "Monitor hotfix/vuln commits", "entities": [[8, 19, "GITHUB_BRANCH"]]}
+{"text": "Monitor feature/security commits", "entities": [[8, 24, "GITHUB_BRANCH"]]}
+{"text": "Branch master contains sensitive data", "entities": [[7, 13, "GITHUB_BRANCH"]]}
+{"text": "Monitor develop commits", "entities": [[8, 15, "GITHUB_BRANCH"]]}
+{"text": "Analyze master code", "entities": [[8, 14, "GITHUB_BRANCH"]]}
+{"text": "Branch release/v1.0 under investigation", "entities": [[7, 19, "GITHUB_BRANCH"]]}
+{"text": "Check release/v1.0 for security issues", "entities": [[6, 18, "GITHUB_BRANCH"]]}
+{"text": "Branch master contains malware", "entities": [[7, 13, "GITHUB_BRANCH"]]}
+{"text": "Analyze master code", "entities": [[8, 14, "GITHUB_BRANCH"]]}
+{"text": "Branch release/v1.0 flagged for review", "entities": [[7, 19, "GITHUB_BRANCH"]]}
+{"text": "Review main changes", "entities": [[7, 11, "GITHUB_BRANCH"]]}
+{"text": "Monitor feature/security commits", "entities": [[8, 24, "GITHUB_BRANCH"]]}
+{"text": "Monitor main commits", "entities": [[8, 12, "GITHUB_BRANCH"]]}
+{"text": "Branch main under investigation", "entities": [[7, 11, "GITHUB_BRANCH"]]}
+{"text": "Branch feature/security linked to threat", "entities": [[7, 23, "GITHUB_BRANCH"]]}
+{"text": "Branch main contains malware", "entities": [[7, 11, "GITHUB_BRANCH"]]}
+{"text": "Monitor release/v1.0 commits", "entities": [[8, 20, "GITHUB_BRANCH"]]}
+{"text": "Analyze main code", "entities": [[8, 12, "GITHUB_BRANCH"]]}
+{"text": "Branch hotfix/vuln flagged for review", "entities": [[7, 18, "GITHUB_BRANCH"]]}
+{"text": "Analyze release/v1.0 code", "entities": [[8, 20, "GITHUB_BRANCH"]]}
+{"text": "Branch feature/security flagged for review", "entities": [[7, 23, "GITHUB_BRANCH"]]}
+{"text": "Branch feature/security contains malware", "entities": [[7, 23, "GITHUB_BRANCH"]]}
+{"text": "Branch release/v1.0 contains malware", "entities": [[7, 19, "GITHUB_BRANCH"]]}
+{"text": "Branch main contains malware", "entities": [[7, 11, "GITHUB_BRANCH"]]}
+{"text": "Review main changes", "entities": [[7, 11, "GITHUB_BRANCH"]]}
+{"text": "Branch develop under investigation", "entities": [[7, 14, "GITHUB_BRANCH"]]}
+{"text": "Branch release/v1.0 contains sensitive data", "entities": [[7, 19, "GITHUB_BRANCH"]]}
+{"text": "Branch hotfix/vuln contains sensitive data", "entities": [[7, 18, "GITHUB_BRANCH"]]}
+{"text": "Branch main contains sensitive data", "entities": [[7, 11, "GITHUB_BRANCH"]]}
+{"text": "Check hotfix/vuln for security issues", "entities": [[6, 17, "GITHUB_BRANCH"]]}
+{"text": "Check branch main for vulnerabilities", "entities": [[13, 17, "GITHUB_BRANCH"]]}
+{"text": "Monitor develop commits", "entities": [[8, 15, "GITHUB_BRANCH"]]}
+{"text": "Check hotfix/vuln for security issues", "entities": [[6, 17, "GITHUB_BRANCH"]]}
+{"text": "Branch develop contains malware", "entities": [[7, 14, "GITHUB_BRANCH"]]}
+{"text": "Check release/v1.0 for security issues", "entities": [[6, 18, "GITHUB_BRANCH"]]}
+{"text": "Branch release/v1.0 contains malware", "entities": [[7, 19, "GITHUB_BRANCH"]]}
+{"text": "Analyze feature/security code", "entities": [[8, 24, "GITHUB_BRANCH"]]}
+{"text": "Review release/v1.0 changes", "entities": [[7, 19, "GITHUB_BRANCH"]]}
+{"text": "Monitor release/v1.0 commits", "entities": [[8, 20, "GITHUB_BRANCH"]]}
+{"text": "Branch master contains sensitive data", "entities": [[7, 13, "GITHUB_BRANCH"]]}
+{"text": "Branch main linked to threat", "entities": [[7, 11, "GITHUB_BRANCH"]]}
+{"text": "Branch hotfix/vuln contains malware", "entities": [[7, 18, "GITHUB_BRANCH"]]}
+{"text": "Check branch master for vulnerabilities", "entities": [[13, 19, "GITHUB_BRANCH"]]}
+{"text": "Monitor hotfix/vuln commits", "entities": [[8, 19, "GITHUB_BRANCH"]]}
+{"text": "Analyze hotfix/vuln code", "entities": [[8, 19, "GITHUB_BRANCH"]]}
+{"text": "Review release/v1.0 changes", "entities": [[7, 19, "GITHUB_BRANCH"]]}
+{"text": "Branch main contains malware", "entities": [[7, 11, "GITHUB_BRANCH"]]}
+{"text": "Branch feature/security contains malware", "entities": [[7, 23, "GITHUB_BRANCH"]]}
+{"text": "Branch hotfix/vuln flagged for review", "entities": [[7, 18, "GITHUB_BRANCH"]]}
+{"text": "Review hotfix/vuln changes", "entities": [[7, 18, "GITHUB_BRANCH"]]}
+{"text": "Branch feature/security contains malware", "entities": [[7, 23, "GITHUB_BRANCH"]]}
+{"text": "Branch feature/security linked to threat", "entities": [[7, 23, "GITHUB_BRANCH"]]}
+{"text": "Check develop for security issues", "entities": [[6, 13, "GITHUB_BRANCH"]]}
+{"text": "Analyze develop code", "entities": [[8, 15, "GITHUB_BRANCH"]]}
+{"text": "Branch master contains sensitive data", "entities": [[7, 13, "GITHUB_BRANCH"]]}
+{"text": "Check master for security issues", "entities": [[6, 12, "GITHUB_BRANCH"]]}
+{"text": "Branch hotfix/vuln under investigation", "entities": [[7, 18, "GITHUB_BRANCH"]]}
+{"text": "Analyze feature/security code", "entities": [[8, 24, "GITHUB_BRANCH"]]}
+{"text": "Branch hotfix/vuln contains sensitive data", "entities": [[7, 18, "GITHUB_BRANCH"]]}
+{"text": "Branch develop contains malware", "entities": [[7, 14, "GITHUB_BRANCH"]]}
+{"text": "Branch develop flagged for review", "entities": [[7, 14, "GITHUB_BRANCH"]]}
+{"text": "Branch feature/security flagged for review", "entities": [[7, 23, "GITHUB_BRANCH"]]}
+{"text": "Monitor hotfix/vuln commits", "entities": [[8, 19, "GITHUB_BRANCH"]]}
+{"text": "Monitor release/v1.0 commits", "entities": [[8, 20, "GITHUB_BRANCH"]]}
+{"text": "Analyze v1.0.0-beta code", "entities": [[8, 19, "GITHUB_TAG"]]}
+{"text": "Tag 2.1.3 contains backdoor", "entities": [[4, 9, "GITHUB_TAG"]]}
+{"text": "Tag v1.0.0 linked to threat", "entities": [[4, 10, "GITHUB_TAG"]]}
+{"text": "Monitor v2.0.0-rc1 release", "entities": [[8, 18, "GITHUB_TAG"]]}
+{"text": "Tag 1.0.0 under investigation", "entities": [[4, 9, "GITHUB_TAG"]]}
+{"text": "Monitor v1.0.0-beta release", "entities": [[8, 19, "GITHUB_TAG"]]}
+{"text": "Tag v2.1.3 contains backdoor", "entities": [[4, 10, "GITHUB_TAG"]]}
+{"text": "Tag 2.1.3 contains vulnerabilities", "entities": [[4, 9, "GITHUB_TAG"]]}
+{"text": "Tag v2.1.3 flagged for review", "entities": [[4, 10, "GITHUB_TAG"]]}
+{"text": "Check tag v2.0.0-rc1 for security issues", "entities": [[10, 20, "GITHUB_TAG"]]}
+{"text": "Check tag v2.0.0-rc1 for security issues", "entities": [[10, 20, "GITHUB_TAG"]]}
+{"text": "Analyze v2.1.3 code", "entities": [[8, 14, "GITHUB_TAG"]]}
+{"text": "Review v1.0.0-beta changes", "entities": [[7, 18, "GITHUB_TAG"]]}
+{"text": "Check v1.0.0 for exploits", "entities": [[6, 12, "GITHUB_TAG"]]}
+{"text": "Tag 1.0.0 flagged for review", "entities": [[4, 9, "GITHUB_TAG"]]}
+{"text": "Analyze v2.0.0-rc1 code", "entities": [[8, 18, "GITHUB_TAG"]]}
+{"text": "Tag v2.0.0-rc1 under investigation", "entities": [[4, 14, "GITHUB_TAG"]]}
+{"text": "Review v1.0.0 changes", "entities": [[7, 13, "GITHUB_TAG"]]}
+{"text": "Tag v1.0.0 contains vulnerabilities", "entities": [[4, 10, "GITHUB_TAG"]]}
+{"text": "Review 1.0.0 changes", "entities": [[7, 12, "GITHUB_TAG"]]}
+{"text": "Analyze 2.1.3 code", "entities": [[8, 13, "GITHUB_TAG"]]}
+{"text": "Check 2.1.3 for exploits", "entities": [[6, 11, "GITHUB_TAG"]]}
+{"text": "Check v1.0.0-beta for exploits", "entities": [[6, 17, "GITHUB_TAG"]]}
+{"text": "Check v2.1.3 for exploits", "entities": [[6, 12, "GITHUB_TAG"]]}
+{"text": "Tag v1.0.0-beta linked to threat", "entities": [[4, 15, "GITHUB_TAG"]]}
+{"text": "Review v1.0.0 changes", "entities": [[7, 13, "GITHUB_TAG"]]}
+{"text": "Check v1.0.0-beta for exploits", "entities": [[6, 17, "GITHUB_TAG"]]}
+{"text": "Tag v2.1.3 contains backdoor", "entities": [[4, 10, "GITHUB_TAG"]]}
+{"text": "Tag 1.0.0 under investigation", "entities": [[4, 9, "GITHUB_TAG"]]}
+{"text": "Check 2.1.3 for exploits", "entities": [[6, 11, "GITHUB_TAG"]]}
+{"text": "Tag v2.0.0-rc1 contains backdoor", "entities": [[4, 14, "GITHUB_TAG"]]}
+{"text": "Tag v1.0.0-beta contains vulnerabilities", "entities": [[4, 15, "GITHUB_TAG"]]}
+{"text": "Tag v2.0.0-rc1 contains backdoor", "entities": [[4, 14, "GITHUB_TAG"]]}
+{"text": "Tag v1.0.0-beta contains vulnerabilities", "entities": [[4, 15, "GITHUB_TAG"]]}
+{"text": "Review v2.0.0-rc1 changes", "entities": [[7, 17, "GITHUB_TAG"]]}
+{"text": "Tag v2.0.0-rc1 contains backdoor", "entities": [[4, 14, "GITHUB_TAG"]]}
+{"text": "Check tag 1.0.0 for security issues", "entities": [[10, 15, "GITHUB_TAG"]]}
+{"text": "Tag v2.0.0-rc1 linked to threat", "entities": [[4, 14, "GITHUB_TAG"]]}
+{"text": "Tag 1.0.0 linked to threat", "entities": [[4, 9, "GITHUB_TAG"]]}
+{"text": "Tag 1.0.0 under investigation", "entities": [[4, 9, "GITHUB_TAG"]]}
+{"text": "Tag v1.0.0-beta under investigation", "entities": [[4, 15, "GITHUB_TAG"]]}
+{"text": "Check v1.0.0 for exploits", "entities": [[6, 12, "GITHUB_TAG"]]}
+{"text": "Check v2.1.3 for exploits", "entities": [[6, 12, "GITHUB_TAG"]]}
+{"text": "Tag v1.0.0-beta flagged for review", "entities": [[4, 15, "GITHUB_TAG"]]}
+{"text": "Tag v2.0.0-rc1 contains vulnerabilities", "entities": [[4, 14, "GITHUB_TAG"]]}
+{"text": "Tag v1.0.0 contains backdoor", "entities": [[4, 10, "GITHUB_TAG"]]}
+{"text": "Tag v1.0.0-beta under investigation", "entities": [[4, 15, "GITHUB_TAG"]]}
+{"text": "Tag v2.1.3 flagged for review", "entities": [[4, 10, "GITHUB_TAG"]]}
+{"text": "Check 2.1.3 for exploits", "entities": [[6, 11, "GITHUB_TAG"]]}
+{"text": "Monitor v2.0.0-rc1 release", "entities": [[8, 18, "GITHUB_TAG"]]}
+{"text": "Tag v2.0.0-rc1 under investigation", "entities": [[4, 14, "GITHUB_TAG"]]}
+{"text": "Tag v2.1.3 flagged for review", "entities": [[4, 10, "GITHUB_TAG"]]}
+{"text": "Check tag v2.1.3 for security issues", "entities": [[10, 16, "GITHUB_TAG"]]}
+{"text": "Tag 1.0.0 flagged for review", "entities": [[4, 9, "GITHUB_TAG"]]}
+{"text": "Tag v1.0.0 contains backdoor", "entities": [[4, 10, "GITHUB_TAG"]]}
+{"text": "Tag v1.0.0-beta under investigation", "entities": [[4, 15, "GITHUB_TAG"]]}
+{"text": "Tag v2.0.0-rc1 flagged for review", "entities": [[4, 14, "GITHUB_TAG"]]}
+{"text": "Tag v1.0.0 contains vulnerabilities", "entities": [[4, 10, "GITHUB_TAG"]]}
+{"text": "Analyze v1.0.0 code", "entities": [[8, 14, "GITHUB_TAG"]]}
+{"text": "Tag v1.0.0-beta under investigation", "entities": [[4, 15, "GITHUB_TAG"]]}
+{"text": "Review 2.1.3 changes", "entities": [[7, 12, "GITHUB_TAG"]]}
+{"text": "Tag v1.0.0-beta contains backdoor", "entities": [[4, 15, "GITHUB_TAG"]]}
+{"text": "Tag 1.0.0 contains backdoor", "entities": [[4, 9, "GITHUB_TAG"]]}
+{"text": "Tag v2.1.3 under investigation", "entities": [[4, 10, "GITHUB_TAG"]]}
+{"text": "Analyze v1.0.0 code", "entities": [[8, 14, "GITHUB_TAG"]]}
+{"text": "Tag v2.1.3 under investigation", "entities": [[4, 10, "GITHUB_TAG"]]}
+{"text": "Tag v2.1.3 linked to threat", "entities": [[4, 10, "GITHUB_TAG"]]}
+{"text": "Review v2.0.0-rc1 changes", "entities": [[7, 17, "GITHUB_TAG"]]}
+{"text": "Tag 1.0.0 flagged for review", "entities": [[4, 9, "GITHUB_TAG"]]}
+{"text": "Tag 2.1.3 under investigation", "entities": [[4, 9, "GITHUB_TAG"]]}
+{"text": "Review 2.1.3 changes", "entities": [[7, 12, "GITHUB_TAG"]]}
+{"text": "Analyze v1.0.0 code", "entities": [[8, 14, "GITHUB_TAG"]]}
+{"text": "Analyze v2.1.3 code", "entities": [[8, 14, "GITHUB_TAG"]]}
+{"text": "Tag v2.0.0-rc1 flagged for review", "entities": [[4, 14, "GITHUB_TAG"]]}
+{"text": "Review 1.0.0 changes", "entities": [[7, 12, "GITHUB_TAG"]]}
+{"text": "Review v1.0.0-beta changes", "entities": [[7, 18, "GITHUB_RELEASE"]]}
+{"text": "Monitor v1.0.0 downloads", "entities": [[8, 14, "GITHUB_RELEASE"]]}
+{"text": "Analyze v1.0.0-beta artifacts", "entities": [[8, 19, "GITHUB_RELEASE"]]}
+{"text": "Release v1.0.0-beta under investigation", "entities": [[8, 19, "GITHUB_RELEASE"]]}
+{"text": "Release Critical Patch contains backdoor", "entities": [[8, 22, "GITHUB_RELEASE"]]}
+{"text": "Release Critical Patch under investigation", "entities": [[8, 22, "GITHUB_RELEASE"]]}
+{"text": "Release Critical Patch under investigation", "entities": [[8, 22, "GITHUB_RELEASE"]]}
+{"text": "Release Security Update flagged for review", "entities": [[8, 23, "GITHUB_RELEASE"]]}
+{"text": "Release v2.1.3 linked to threat", "entities": [[8, 14, "GITHUB_RELEASE"]]}
+{"text": "Release v2.1.3 linked to threat", "entities": [[8, 14, "GITHUB_RELEASE"]]}
+{"text": "Release v1.0.0-beta contains backdoor", "entities": [[8, 19, "GITHUB_RELEASE"]]}
+{"text": "Release v1.0.0-beta contains security fixes", "entities": [[8, 19, "GITHUB_RELEASE"]]}
+{"text": "Release Security Update flagged for review", "entities": [[8, 23, "GITHUB_RELEASE"]]}
+{"text": "Review v1.0.0 changes", "entities": [[7, 13, "GITHUB_RELEASE"]]}
+{"text": "Release v1.0.0-beta under investigation", "entities": [[8, 19, "GITHUB_RELEASE"]]}
+{"text": "Monitor v1.0.0 downloads", "entities": [[8, 14, "GITHUB_RELEASE"]]}
+{"text": "Release v2.1.3 under investigation", "entities": [[8, 14, "GITHUB_RELEASE"]]}
+{"text": "Release Critical Patch contains security fixes", "entities": [[8, 22, "GITHUB_RELEASE"]]}
+{"text": "Check release v2.1.3 for vulnerabilities", "entities": [[14, 20, "GITHUB_RELEASE"]]}
+{"text": "Check v2.1.3 for exploits", "entities": [[6, 12, "GITHUB_RELEASE"]]}
+{"text": "Release Security Update flagged for review", "entities": [[8, 23, "GITHUB_RELEASE"]]}
+{"text": "Release v2.1.3 under investigation", "entities": [[8, 14, "GITHUB_RELEASE"]]}
+{"text": "Release v2.1.3 contains backdoor", "entities": [[8, 14, "GITHUB_RELEASE"]]}
+{"text": "Release Security Update under investigation", "entities": [[8, 23, "GITHUB_RELEASE"]]}
+{"text": "Review v1.0.0-beta changes", "entities": [[7, 18, "GITHUB_RELEASE"]]}
+{"text": "Release Security Update under investigation", "entities": [[8, 23, "GITHUB_RELEASE"]]}
+{"text": "Check release v2.1.3 for vulnerabilities", "entities": [[14, 20, "GITHUB_RELEASE"]]}
+{"text": "Monitor Critical Patch downloads", "entities": [[8, 22, "GITHUB_RELEASE"]]}
+{"text": "Release v1.0.0-beta linked to threat", "entities": [[8, 19, "GITHUB_RELEASE"]]}
+{"text": "Release v1.0.0 contains backdoor", "entities": [[8, 14, "GITHUB_RELEASE"]]}
+{"text": "Release v1.0.0 flagged for review", "entities": [[8, 14, "GITHUB_RELEASE"]]}
+{"text": "Monitor v1.0.0 downloads", "entities": [[8, 14, "GITHUB_RELEASE"]]}
+{"text": "Check release v2.1.3 for vulnerabilities", "entities": [[14, 20, "GITHUB_RELEASE"]]}
+{"text": "Analyze v1.0.0-beta artifacts", "entities": [[8, 19, "GITHUB_RELEASE"]]}
+{"text": "Release Security Update flagged for review", "entities": [[8, 23, "GITHUB_RELEASE"]]}
+{"text": "Check Critical Patch for exploits", "entities": [[6, 20, "GITHUB_RELEASE"]]}
+{"text": "Check release v2.1.3 for vulnerabilities", "entities": [[14, 20, "GITHUB_RELEASE"]]}
+{"text": "Release v1.0.0 under investigation", "entities": [[8, 14, "GITHUB_RELEASE"]]}
+{"text": "Check v1.0.0 for exploits", "entities": [[6, 12, "GITHUB_RELEASE"]]}
+{"text": "Check v2.1.3 for exploits", "entities": [[6, 12, "GITHUB_RELEASE"]]}
+{"text": "Review Security Update changes", "entities": [[7, 22, "GITHUB_RELEASE"]]}
+{"text": "Check v2.1.3 for exploits", "entities": [[6, 12, "GITHUB_RELEASE"]]}
+{"text": "Release v1.0.0-beta linked to threat", "entities": [[8, 19, "GITHUB_RELEASE"]]}
+{"text": "Release Security Update linked to threat", "entities": [[8, 23, "GITHUB_RELEASE"]]}
+{"text": "Check release Critical Patch for vulnerabilities", "entities": [[14, 28, "GITHUB_RELEASE"]]}
+{"text": "Review v1.0.0 changes", "entities": [[7, 13, "GITHUB_RELEASE"]]}
+{"text": "Release v2.1.3 under investigation", "entities": [[8, 14, "GITHUB_RELEASE"]]}
+{"text": "Analyze Security Update artifacts", "entities": [[8, 23, "GITHUB_RELEASE"]]}
+{"text": "Check release v1.0.0-beta for vulnerabilities", "entities": [[14, 25, "GITHUB_RELEASE"]]}
+{"text": "Check v2.1.3 for exploits", "entities": [[6, 12, "GITHUB_RELEASE"]]}
+{"text": "Monitor Critical Patch downloads", "entities": [[8, 22, "GITHUB_RELEASE"]]}
+{"text": "Release Critical Patch contains backdoor", "entities": [[8, 22, "GITHUB_RELEASE"]]}
+{"text": "Release v1.0.0 contains security fixes", "entities": [[8, 14, "GITHUB_RELEASE"]]}
+{"text": "Check v1.0.0 for exploits", "entities": [[6, 12, "GITHUB_RELEASE"]]}
+{"text": "Release v1.0.0-beta contains backdoor", "entities": [[8, 19, "GITHUB_RELEASE"]]}
+{"text": "Release v1.0.0-beta contains security fixes", "entities": [[8, 19, "GITHUB_RELEASE"]]}
+{"text": "Release v2.1.3 contains backdoor", "entities": [[8, 14, "GITHUB_RELEASE"]]}
+{"text": "Analyze v2.1.3 artifacts", "entities": [[8, 14, "GITHUB_RELEASE"]]}
+{"text": "Release Critical Patch flagged for review", "entities": [[8, 22, "GITHUB_RELEASE"]]}
+{"text": "Analyze v1.0.0-beta artifacts", "entities": [[8, 19, "GITHUB_RELEASE"]]}
+{"text": "Release Security Update under investigation", "entities": [[8, 23, "GITHUB_RELEASE"]]}
+{"text": "Release v2.1.3 contains backdoor", "entities": [[8, 14, "GITHUB_RELEASE"]]}
+{"text": "Release v1.0.0-beta linked to threat", "entities": [[8, 19, "GITHUB_RELEASE"]]}
+{"text": "Monitor v1.0.0 downloads", "entities": [[8, 14, "GITHUB_RELEASE"]]}
+{"text": "Check v1.0.0 for exploits", "entities": [[6, 12, "GITHUB_RELEASE"]]}
+{"text": "Release v2.1.3 contains security fixes", "entities": [[8, 14, "GITHUB_RELEASE"]]}
+{"text": "Monitor v2.1.3 downloads", "entities": [[8, 14, "GITHUB_RELEASE"]]}
+{"text": "Release v1.0.0 contains backdoor", "entities": [[8, 14, "GITHUB_RELEASE"]]}
+{"text": "Review v2.1.3 changes", "entities": [[7, 13, "GITHUB_RELEASE"]]}
+{"text": "Release v1.0.0 flagged for review", "entities": [[8, 14, "GITHUB_RELEASE"]]}
+{"text": "Review v1.0.0-beta changes", "entities": [[7, 18, "GITHUB_RELEASE"]]}
+{"text": "Check Security Update for exploits", "entities": [[6, 21, "GITHUB_RELEASE"]]}
+{"text": "Release Critical Patch under investigation", "entities": [[8, 22, "GITHUB_RELEASE"]]}
+{"text": "Release v2.1.3 linked to threat", "entities": [[8, 14, "GITHUB_RELEASE"]]}
+{"text": "Review Security Update changes", "entities": [[7, 22, "GITHUB_RELEASE"]]}

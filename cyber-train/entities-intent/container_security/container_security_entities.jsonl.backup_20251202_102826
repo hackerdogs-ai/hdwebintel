@@ -1,0 +1,440 @@
+{"text": "Kubeaudit security scanner detected misconfigurations in Kubernetes clusters", "entities": [[27, 53, "PLATFORM_TYPE"], [57, 76, "CLUSTER_TYPE"]]}
+{"text": "Secrets Scanner detected plaintext db_pass in container environment variables", "entities": [[16, 34, "SECRET_TYPE"], [46, 67, "CONTAINER_TYPE"], [56, 77, "CONFIGURATION_TYPE"]]}
+{"text": "Kubernetes Secrets Store CSI driver integrated with Vault for secret management", "entities": [[0, 10, "PLATFORM_TYPE"], [11, 18, "SECRET_TYPE"], [19, 24, "STORE_TYPE"], [25, 28, "TOOL"], [52, 57, "SECRET_TYPE"]]}
+{"text": "Kubernetes Compliance Scanner detected RBAC wildcard and etcd encryption missing", "entities": [[39, 52, "COMPLIANCE_TYPE"]]}
+{"text": "Docker Hub container registry provided public and private image repositories", "entities": [[0, 6, "TOOL"], [7, 10, "TOOL"], [11, 20, "CONTAINER_TYPE"], [21, 29, "REGISTRY_TYPE"], [30, 45, "IMAGE_TYPE"], [50, 57, "REPOSITORY_TYPE"], [58, 76, "REPOSITORY_TYPE"]]}
+{"text": "Nexus Repository container registry provided image storage and scanning", "entities": [[0, 5, "TOOL"], [17, 26, "CONTAINER_TYPE"], [27, 35, "REGISTRY_TYPE"], [36, 50, "IMAGE_TYPE"], [51, 58, "STORAGE_TYPE"]]}
+{"text": "Container security false positive rate reduced to 2.1% improving alert accuracy", "entities": [[19, 33, "SECURITY_TYPE"], [50, 53, "METRIC_TYPE"], [65, 79, "METRIC_TYPE"]]}
+{"text": "Helm Kustomize Security Tool verified chart signing and linted manifests", "entities": [[0, 4, "TOOL"], [5, 14, "TOOL"], [38, 43, "CHART_TYPE"]]}
+{"text": "Clair container scanner identified vulnerable packages in container images", "entities": [[0, 5, "TOOL"], [6, 15, "SCANNER_TYPE"], [24, 45, "PACKAGE_TYPE"], [35, 54, "CONTAINER_TYPE"], [46, 57, "IMAGE_TYPE"]]}
+{"text": "Admission Controller Manager enforced signed images policy denying 8 deployments", "entities": [[0, 28, "TOOL"], [38, 44, "POLICY_TYPE"], [45, 58, "IMAGE_TYPE"], [52, 66, "SIGNING_TYPE"]]}
+{"text": "Drift Detection Tool found pod42 running unauthorized image requiring rollback", "entities": [[27, 32, "POD_NAME"], [41, 53, "IMAGE_TYPE"], [41, 69, "AUTHORIZATION_STATUS"]]}
+{"text": "Google Container Registry provided image storage and vulnerability scanning", "entities": [[0, 6, "TOOL"], [7, 16, "CONTAINER_TYPE"], [17, 25, "REGISTRY_TYPE"], [35, 40, "IMAGE_TYPE"], [41, 48, "STORAGE_TYPE"], [53, 66, "VULNERABILITY_TYPE"]]}
+{"text": "Drift Detection Tool found pod42 running unauthorized image requiring rollback", "entities": [[27, 32, "POD_NAME"], [41, 53, "IMAGE_TYPE"], [41, 69, "AUTHORIZATION_STATUS"]]}
+{"text": "Docker Bench Security validated container runtime security against CIS benchmarks", "entities": [[0, 6, "TOOL"], [7, 12, "TOOL"], [22, 41, "CONTAINER_TYPE"], [32, 49, "ENVIRONMENT"], [67, 81, "STANDARD_TYPE"]]}
+{"text": "Aqua Security platform scanned 500 container images with 98% compliance", "entities": [[31, 34, "COUNT"], [35, 44, "CONTAINER_TYPE"], [35, 51, "IMAGE_TYPE"]]}
+{"text": "Velero backup tool validated 98% backup success with 12-minute restore duration", "entities": [[0, 6, "TOOL"], [7, 13, "TOOL"], [29, 31, "METRIC_TYPE"], [33, 47, "BACKUP_TYPE"], [56, 70, "DURATION_TYPE"]]}
+{"text": "Service Mesh Policy Tool validated mTLS enabled with authorization policy gaps", "entities": [[25, 39, "PROTOCOL_TYPE"], [35, 39, "PROTOCOL_TYPE"], [67, 78, "POLICY_TYPE"]]}
+{"text": "Drift Detection Tool found pod running unauthorized image requiring rollback", "entities": [[27, 38, "POD_NAME"], [39, 51, "IMAGE_TYPE"], [39, 67, "AUTHORIZATION_STATUS"]]}
+{"text": "EDR XDR Tool monitored container runtime detecting malicious activity", "entities": [[0, 3, "TOOL"], [4, 7, "TOOL"], [13, 32, "CONTAINER_TYPE"], [23, 40, "ENVIRONMENT"], [51, 69, "ACTIVITY_TYPE"]]}
+{"text": "Velero backup tool validated 98% backup success with 12-minute restore duration", "entities": [[0, 6, "TOOL"], [7, 13, "TOOL"], [29, 31, "METRIC_TYPE"], [33, 47, "BACKUP_TYPE"], [56, 70, "DURATION_TYPE"]]}
+{"text": "Container Security Compliance Analyst audited container and Kubernetes security posture", "entities": [[46, 55, "COMPLIANCE_TYPE"]]}
+{"text": "Container security training completion reached 88% for all DevOps engineers", "entities": [[39, 46, "COMPLETION_TYPE"], [47, 50, "METRIC_TYPE"], [59, 65, "ROLE_TYPE"]]}
+{"text": "Container Platform Security Engineer hardened Kubernetes clusters enforcing admission controls", "entities": [[37, 45, "PLATFORM_TYPE"], [46, 56, "SECURITY_TYPE"], [46, 65, "ENGINEER_TYPE"]]}
+{"text": "Kubernetes Secrets Store CSI driver integrated with Vault for secret management", "entities": [[0, 10, "PLATFORM_TYPE"], [11, 18, "SECRET_TYPE"], [19, 24, "STORE_TYPE"], [25, 28, "TOOL"], [52, 57, "SECRET_TYPE"]]}
+{"text": "Kube-bench security scanner validated cluster against CIS Kubernetes Benchmark", "entities": [[0, 10, "TOOL"], [38, 45, "CLUSTER_TYPE"], [54, 68, "PLATFORM_TYPE"], [58, 78, "STANDARD_TYPE"]]}
+{"text": "External Secrets Operator synchronized secrets from external secret stores", "entities": [[0, 8, "SECRET_TYPE"], [9, 16, "SECRET_TYPE"], [26, 46, "SECRET_TYPE"], [52, 60, "SECRET_TYPE"], [61, 74, "STORE_TYPE"]]}
+{"text": "Harbor container registry enforced image scanning and vulnerability policies", "entities": [[0, 6, "TOOL"], [7, 16, "CONTAINER_TYPE"], [17, 25, "REGISTRY_TYPE"], [35, 40, "IMAGE_TYPE"], [54, 67, "VULNERABILITY_TYPE"], [68, 76, "POLICY_TYPE"]]}
+{"text": "Snyk container scanner detected vulnerabilities in container images", "entities": [[0, 4, "TOOL"], [5, 14, "SCANNER_TYPE"], [32, 50, "VULNERABILITY_TYPE"], [51, 67, "CONTAINER_TYPE"]]}
+{"text": "Compliance Framework Tool aligned container security with CIS Benchmarks NIST and PCI DSS", "entities": [[26, 43, "CONTAINER_TYPE"], [58, 72, "STANDARD_TYPE"]]}
+{"text": "Runtime Threat Detection Tool identified crypto miner in podX requiring isolation", "entities": [[30, 47, "ENVIRONMENT"], [41, 53, "THREAT_TYPE"], [48, 61, "DETECTION_TYPE"]]}
+{"text": "CNI Network Policy Analyzer identified isolation gap allowing cross-namespace egress", "entities": [[28, 48, "POLICY_TYPE"], [78, 84, "NAMESPACE"]]}
+{"text": "CI/CD Integration Tool blocked build due to unsigned image and critical vulnerabilities", "entities": [[31, 36, "BUILD_ID"], [41, 52, "ACTION_TYPE"], [72, 87, "SEVERITY_TYPE"]]}
+{"text": "Kube-bench security scanner validated Kubernetes cluster against CIS benchmarks", "entities": [[0, 10, "TOOL"], [38, 56, "CLUSTER_TYPE"], [65, 79, "STANDARD_TYPE"]]}
+{"text": "Consul Connect service mesh enforced service-to-service policies", "entities": [[0, 6, "TOOL"], [7, 14, "TOOL"], [23, 36, "MESH_TYPE"], [45, 55, "POLICY_TYPE"]]}
+{"text": "Compliance Mapping Tool aligned container security with CIS NIST and PCI DSS", "entities": [[24, 41, "CONTAINER_TYPE"], [56, 59, "FRAMEWORK"], [60, 64, "FRAMEWORK"]]}
+{"text": "Drift Detection Tool found pod42 running unauthorized image requiring rollback", "entities": [[27, 32, "POD_NAME"], [41, 53, "IMAGE_TYPE"], [41, 69, "AUTHORIZATION_STATUS"]]}
+{"text": "eBPF Runtime Sensor detected syscall execve /bin/sh alerting on container escape attempt", "entities": [[0, 19, "TOOL"], [44, 51, "SYSCALL_TYPE"], [49, 60, "COMMAND"], [64, 80, "CONTAINER_TYPE"], [74, 88, "ATTACK_TYPE"]]}
+{"text": "OPA Gatekeeper admission controller enforced policy blocking privileged pods", "entities": [[0, 3, "TOOL"], [4, 14, "TOOL"], [15, 35, "CONTROLLER_TYPE"], [25, 44, "ENFORCEMENT_TYPE"], [45, 60, "POLICY_TYPE"], [61, 71, "PRIVILEGE_TYPE"], [72, 76, "RESOURCE_TYPE"]]}
+{"text": "Service Mesh Policy Tool validated mTLS enabled with authorization policy gaps", "entities": [[25, 39, "PROTOCOL_TYPE"], [35, 39, "PROTOCOL_TYPE"], [67, 78, "POLICY_TYPE"]]}
+{"text": "Container security compliance score improved to 92% meeting CIS and NIST standards", "entities": [[30, 35, "COMPLIANCE_TYPE"], [36, 44, "METRIC_TYPE"], [68, 82, "STANDARD_TYPE"]]}
+{"text": "External Secrets Operator synchronized secrets from external secret stores", "entities": [[0, 8, "SECRET_TYPE"], [9, 16, "SECRET_TYPE"], [26, 46, "SECRET_TYPE"], [52, 60, "SECRET_TYPE"], [61, 74, "STORE_TYPE"]]}
+{"text": "Harbor container registry enforced image signing with cosign verification", "entities": [[0, 6, "TOOL"], [7, 16, "CONTAINER_TYPE"], [17, 25, "REGISTRY_TYPE"], [26, 40, "IMAGE_TYPE"]]}
+{"text": "Container Policy Generator created container security policies with image signing and RBAC", "entities": [[35, 44, "POLICY_TYPE"], [68, 81, "SECURITY_TYPE"]]}
+{"text": "Azure Container Registry enforced image scanning and vulnerability assessment", "entities": [[0, 5, "CLOUD_PROVIDER"], [6, 15, "CONTAINER_TYPE"], [6, 24, "REGISTRY_TYPE"], [25, 39, "IMAGE_TYPE"], [67, 77, "ASSESSMENT_TYPE"]]}
+{"text": "Secrets Scanner detected plaintext db_pass in container environment variables", "entities": [[16, 34, "SECRET_TYPE"], [46, 67, "CONTAINER_TYPE"], [56, 77, "CONFIGURATION_TYPE"]]}
+{"text": "Container Platform Security Engineer hardened Kubernetes clusters enforcing admission controls", "entities": [[37, 45, "PLATFORM_TYPE"], [46, 56, "SECURITY_TYPE"], [46, 65, "ENGINEER_TYPE"]]}
+{"text": "Aqua Security platform scanned 500 container images with 98% compliance", "entities": [[31, 34, "COUNT"], [35, 44, "CONTAINER_TYPE"], [35, 51, "IMAGE_TYPE"]]}
+{"text": "Node Hardening Tool found compilers installed on 3 worker nodes requiring removal", "entities": [[36, 50, "SOFTWARE_TYPE"], [51, 63, "INSTALLATION_TYPE"]]}
+{"text": "Container Image Scanner detected 12 critical vulnerabilities in 100 scanned images", "entities": [[24, 44, "COUNT"], [45, 60, "VULNERABILITY_TYPE"], [64, 67, "COUNT"]]}
+{"text": "Falco runtime security detected privileged container escape attempt", "entities": [[0, 5, "TOOL"], [6, 13, "SECURITY_TYPE"], [23, 42, "CONTAINER_TYPE"], [32, 52, "PRIVILEGE_TYPE"], [43, 59, "CONTAINER_TYPE"]]}
+{"text": "Sysdig container security detected 8 runtime anomalies in production cluster", "entities": [[0, 6, "TOOL"], [7, 16, "CONTAINER_TYPE"], [35, 44, "ENVIRONMENT"], [58, 76, "CLUSTER_TYPE"]]}
+{"text": "Cilium eBPF-based networking enforced network policies and observability", "entities": [[0, 6, "TOOL"], [7, 17, "NETWORKING_TYPE"], [12, 28, "TOOL"], [29, 45, "POLICY_TYPE"]]}
+{"text": "Calico network policy enforced micro-segmentation in Kubernetes clusters", "entities": [[15, 21, "POLICY_TYPE"], [22, 49, "SEGMENTATION_TYPE"], [50, 63, "PLATFORM_TYPE"], [53, 72, "CLUSTER_TYPE"]]}
+{"text": "External Secrets Operator synchronized secrets from external secret stores", "entities": [[0, 8, "SECRET_TYPE"], [9, 16, "SECRET_TYPE"], [26, 46, "SECRET_TYPE"], [52, 60, "SECRET_TYPE"], [61, 74, "STORE_TYPE"]]}
+{"text": "Falco runtime security detected privileged container escape attempt", "entities": [[0, 5, "TOOL"], [6, 13, "SECURITY_TYPE"], [23, 42, "CONTAINER_TYPE"], [32, 52, "PRIVILEGE_TYPE"], [43, 59, "CONTAINER_TYPE"]]}
+{"text": "Portworx container storage provided persistent volumes and encryption", "entities": [[0, 8, "TOOL"], [9, 18, "CONTAINER_TYPE"], [19, 26, "STORAGE_TYPE"], [36, 46, "VOLUME_TYPE"]]}
+{"text": "Kubernetes Governance Tool enforced RBAC network policies and admission controls", "entities": [[0, 10, "PLATFORM_TYPE"], [11, 21, "GOVERNANCE_TYPE"], [36, 40, "AUTH_TYPE"], [62, 80, "CONTROL_TYPE"]]}
+{"text": "Drift Detection Tool found pod42 running unauthorized image requiring rollback", "entities": [[27, 32, "POD_NAME"], [41, 53, "IMAGE_TYPE"], [41, 69, "AUTHORIZATION_STATUS"]]}
+{"text": "Kubernetes Compliance Scanner detected RBAC wildcard and etcd encryption missing", "entities": [[39, 52, "COMPLIANCE_TYPE"]]}
+{"text": "Registry Governance Tool blocked 2 unsigned images from untrusted repositories", "entities": [[25, 43, "REGISTRY_TYPE"], [35, 50, "GOVERNANCE_TYPE"], [66, 78, "SIGNING_STATUS"]]}
+{"text": "SIEM Tool correlated container security events from multiple sources", "entities": [[21, 30, "CONTAINER_TYPE"], [40, 46, "EVENT_TYPE"], [52, 60, "SOURCE_TYPE"]]}
+{"text": "JFrog Artifactory container registry managed image distribution and security", "entities": [[0, 5, "TOOL"], [6, 17, "TOOL"], [18, 27, "CONTAINER_TYPE"], [28, 36, "REGISTRY_TYPE"], [45, 50, "IMAGE_TYPE"]]}
+{"text": "Container security training completion reached 88% for all DevOps engineers", "entities": [[39, 46, "COMPLETION_TYPE"], [47, 50, "METRIC_TYPE"], [59, 65, "ROLE_TYPE"]]}
+{"text": "Kubeaudit security scanner detected misconfigurations in Kubernetes clusters", "entities": [[27, 53, "PLATFORM_TYPE"], [57, 76, "CLUSTER_TYPE"]]}
+{"text": "Container Security Operations Engineer operated container security across CI/CD image scanning and runtime", "entities": [[74, 79, "ENGINEER_TYPE"]]}
+{"text": "Risk Scoring Tool calculated container risk scores combining CVEs and exposure", "entities": [[44, 60, "CONTAINER_TYPE"], [51, 65, "SCORE_TYPE"]]}
+{"text": "GitOps Controller Tool validated SBOMs with provenance verification", "entities": [[33, 38, "COUNT"], [44, 67, "VERIFICATION_TYPE"]]}
+{"text": "Prisma Cloud container scanner found 12 critical vulnerabilities requiring patching", "entities": [[0, 12, "TOOL"], [49, 74, "VULNERABILITY_TYPE"]]}
+{"text": "AWS ECR container registry enforced image scanning and lifecycle policies", "entities": [[0, 3, "CLOUD_PROVIDER"], [4, 7, "TOOL"], [8, 26, "CONTAINER_TYPE"], [18, 35, "REGISTRY_TYPE"], [36, 50, "IMAGE_TYPE"], [55, 73, "LIFECYCLE_TYPE"]]}
+{"text": "AWS ECR container registry enforced image scanning and lifecycle policies", "entities": [[0, 3, "CLOUD_PROVIDER"], [4, 7, "TOOL"], [8, 26, "CONTAINER_TYPE"], [18, 35, "REGISTRY_TYPE"], [36, 50, "IMAGE_TYPE"], [55, 73, "LIFECYCLE_TYPE"]]}
+{"text": "Sysdig container security detected 8 runtime anomalies in production cluster", "entities": [[0, 6, "TOOL"], [7, 16, "CONTAINER_TYPE"], [35, 44, "ENVIRONMENT"], [58, 76, "CLUSTER_TYPE"]]}
+{"text": "Grype container scanner detected CVEs in container images and packages", "entities": [[0, 5, "TOOL"], [6, 15, "SCANNER_TYPE"], [38, 50, "CONTAINER_TYPE"], [41, 57, "IMAGE_TYPE"]]}
+{"text": "Aqua Security platform scanned 500 container images with 98% compliance", "entities": [[31, 34, "COUNT"], [35, 44, "CONTAINER_TYPE"], [35, 51, "IMAGE_TYPE"]]}
+{"text": "Docker Hub container registry provided public and private image repositories", "entities": [[0, 6, "TOOL"], [7, 10, "TOOL"], [11, 20, "CONTAINER_TYPE"], [21, 29, "REGISTRY_TYPE"], [30, 45, "IMAGE_TYPE"], [50, 57, "REPOSITORY_TYPE"], [58, 76, "REPOSITORY_TYPE"]]}
+{"text": "Calico network policy enforced micro-segmentation in Kubernetes clusters", "entities": [[15, 21, "POLICY_TYPE"], [22, 49, "SEGMENTATION_TYPE"], [50, 63, "PLATFORM_TYPE"], [53, 72, "CLUSTER_TYPE"]]}
+{"text": "Rook Ceph container storage provided distributed storage with encryption", "entities": [[0, 4, "TOOL"], [5, 9, "TOOL"], [10, 19, "CONTAINER_TYPE"], [20, 27, "STORAGE_TYPE"]]}
+{"text": "Incident Response Tool isolated compromised pods and removed malware", "entities": [[23, 43, "RESPONSE_TYPE"]]}
+{"text": "Kyverno policy engine validated container images requiring non-root user", "entities": [[0, 7, "TOOL"], [8, 21, "TOOL"], [42, 58, "CONTAINER_TYPE"]]}
+{"text": "Container security false positive rate reduced to 2.1% improving alert accuracy", "entities": [[19, 33, "SECURITY_TYPE"], [50, 53, "METRIC_TYPE"], [65, 79, "METRIC_TYPE"]]}
+{"text": "Kube-bench security scanner validated Kubernetes cluster against CIS benchmarks", "entities": [[0, 10, "TOOL"], [38, 56, "CLUSTER_TYPE"], [65, 79, "STANDARD_TYPE"]]}
+{"text": "Container Policy Generator created container security policies with image signing and RBAC", "entities": [[35, 44, "POLICY_TYPE"], [68, 81, "SECURITY_TYPE"]]}
+{"text": "Node Hardening Tool found compilers installed on 3 worker nodes requiring removal", "entities": [[36, 50, "SOFTWARE_TYPE"], [51, 63, "INSTALLATION_TYPE"]]}
+{"text": "Admission Controller Manager enforced signed images policy denying 8 deployments", "entities": [[0, 28, "TOOL"], [38, 44, "POLICY_TYPE"], [45, 58, "IMAGE_TYPE"], [52, 66, "SIGNING_TYPE"]]}
+{"text": "Container Image Scanner detected 12 critical vulnerabilities in 100 scanned images", "entities": [[24, 44, "COUNT"], [45, 60, "VULNERABILITY_TYPE"], [64, 67, "COUNT"]]}
+{"text": "SIEM Tool correlated container security events from multiple sources", "entities": [[21, 30, "CONTAINER_TYPE"], [40, 46, "EVENT_TYPE"], [52, 60, "SOURCE_TYPE"]]}
+{"text": "Falco runtime security detected privileged container escape attempt", "entities": [[0, 5, "TOOL"], [6, 13, "SECURITY_TYPE"], [23, 42, "CONTAINER_TYPE"], [32, 52, "PRIVILEGE_TYPE"], [43, 59, "CONTAINER_TYPE"]]}
+{"text": "Reporting Dashboard Tool generated container security KPIs showing compliance scores", "entities": [[25, 44, "CONTAINER_TYPE"]]}
+{"text": "Service Mesh Policy Tool validated mTLS enabled with authorization policy gaps", "entities": [[25, 39, "PROTOCOL_TYPE"], [35, 39, "PROTOCOL_TYPE"], [67, 78, "POLICY_TYPE"]]}
+{"text": "Container Image Scanner detected 12 critical vulnerabilities in 100 scanned images", "entities": [[24, 44, "COUNT"], [45, 60, "VULNERABILITY_TYPE"], [64, 67, "COUNT"]]}
+{"text": "Trivy container scanner identified 15 high severity CVEs in Docker image", "entities": [[0, 5, "TOOL"], [6, 15, "SCANNER_TYPE"], [24, 37, "COUNT"], [38, 51, "SEVERITY_TYPE"], [43, 51, "CVE_TYPE"], [52, 59, "CONTAINER_TYPE"], [60, 66, "IMAGE_TYPE"]]}
+{"text": "Admission Controller Manager enforced signed images policy denying 8 deployments", "entities": [[0, 28, "TOOL"], [38, 44, "POLICY_TYPE"], [45, 58, "IMAGE_TYPE"], [52, 66, "SIGNING_TYPE"]]}
+{"text": "Backup Restore Tool Velero validated backup success with restore duration", "entities": [[0, 6, "TOOL"], [7, 14, "TOOL"], [37, 43, "BACKUP_TYPE"], [57, 73, "DURATION_TYPE"]]}
+{"text": "Grype container scanner detected CVEs in container images and packages", "entities": [[0, 5, "TOOL"], [6, 15, "SCANNER_TYPE"], [38, 50, "CONTAINER_TYPE"], [41, 57, "IMAGE_TYPE"]]}
+{"text": "Prisma Cloud container scanner found 12 critical vulnerabilities requiring patching", "entities": [[0, 12, "TOOL"], [49, 74, "VULNERABILITY_TYPE"]]}
+{"text": "Google Artifact Registry managed container images with vulnerability scanning", "entities": [[0, 6, "TOOL"], [7, 15, "TOOL"], [16, 24, "CONTAINER_TYPE"], [25, 32, "IMAGE_TYPE"]]}
+{"text": "Registry Governance Tool blocked unsigned images from untrusted repositories", "entities": [[25, 41, "REGISTRY_TYPE"], [33, 48, "GOVERNANCE_TYPE"], [64, 76, "SIGNING_STATUS"]]}
+{"text": "Kyverno policy engine enforced Kubernetes policies with validation and mutation", "entities": [[0, 7, "TOOL"], [8, 21, "POLICY_TYPE"], [15, 21, "ENGINE_TYPE"], [31, 41, "PLATFORM_TYPE"], [42, 50, "POLICY_TYPE"]]}
+{"text": "Calico network policy enforced micro-segmentation in Kubernetes clusters", "entities": [[15, 21, "POLICY_TYPE"], [22, 49, "SEGMENTATION_TYPE"], [50, 63, "PLATFORM_TYPE"], [53, 72, "CLUSTER_TYPE"]]}
+{"text": "Secrets Scanner detected plaintext db_pass in container environment variables", "entities": [[16, 34, "SECRET_TYPE"], [46, 67, "CONTAINER_TYPE"], [56, 77, "CONFIGURATION_TYPE"]]}
+{"text": "Istio service mesh enforced mTLS and authorization policies", "entities": [[0, 5, "TOOL"], [6, 13, "MESH_TYPE"], [6, 18, "MESH_TYPE"], [28, 32, "PROTOCOL_TYPE"], [37, 59, "POLICY_TYPE"]]}
+{"text": "Prisma Cloud container scanner found 12 critical vulnerabilities requiring patching", "entities": [[0, 12, "TOOL"], [49, 74, "VULNERABILITY_TYPE"]]}
+{"text": "Container Image Scanner detected 12 critical vulnerabilities in 100 scanned images", "entities": [[24, 44, "COUNT"], [45, 60, "VULNERABILITY_TYPE"], [64, 67, "COUNT"]]}
+{"text": "Node Hardening Tool found compilers installed on worker nodes requiring removal", "entities": [[36, 55, "SOFTWARE_TYPE"], [49, 61, "INSTALLATION_TYPE"]]}
+{"text": "Harbor container registry enforced image signing with cosign verification", "entities": [[0, 6, "TOOL"], [7, 16, "CONTAINER_TYPE"], [17, 25, "REGISTRY_TYPE"], [26, 40, "IMAGE_TYPE"]]}
+{"text": "CNI Network Policy Analyzer identified isolation gap allowing cross-namespace egress", "entities": [[28, 48, "POLICY_TYPE"], [78, 84, "NAMESPACE"]]}
+{"text": "OPA Gatekeeper admission controller enforced policies blocking non-compliant pods", "entities": [[0, 3, "TOOL"], [4, 14, "TOOL"], [15, 35, "CONTROL_TYPE"], [25, 44, "CONTROL_TYPE"], [45, 62, "POLICY_TYPE"], [63, 76, "POD_TYPE"]]}
+{"text": "OPA Gatekeeper admission controller enforced policy blocking privileged pods", "entities": [[0, 3, "TOOL"], [4, 14, "TOOL"], [15, 35, "CONTROLLER_TYPE"], [25, 44, "ENFORCEMENT_TYPE"], [45, 60, "POLICY_TYPE"], [61, 71, "PRIVILEGE_TYPE"], [72, 76, "RESOURCE_TYPE"]]}
+{"text": "Clair container scanner identified vulnerable packages in container images", "entities": [[0, 5, "TOOL"], [6, 15, "SCANNER_TYPE"], [24, 45, "PACKAGE_TYPE"], [35, 54, "CONTAINER_TYPE"], [46, 57, "IMAGE_TYPE"]]}
+{"text": "Harbor container registry enforced image signing with cosign verification", "entities": [[0, 6, "TOOL"], [7, 16, "CONTAINER_TYPE"], [17, 25, "REGISTRY_TYPE"], [26, 40, "IMAGE_TYPE"]]}
+{"text": "Kubernetes Compliance Scanner detected RBAC wildcard and etcd encryption missing", "entities": [[39, 52, "COMPLIANCE_TYPE"]]}
+{"text": "Container supply chain security validated 94% of images with signed provenance", "entities": [[0, 9, "CONTAINER_TYPE"], [10, 22, "SUPPLY_CHAIN_TYPE"], [32, 44, "METRIC_TYPE"], [42, 48, "METRIC_TYPE"], [61, 78, "PROVENANCE_TYPE"]]}
+{"text": "Docker Bench Security validated container runtime security against CIS benchmarks", "entities": [[0, 6, "TOOL"], [7, 12, "TOOL"], [22, 41, "CONTAINER_TYPE"], [32, 49, "ENVIRONMENT"], [67, 81, "STANDARD_TYPE"]]}
+{"text": "GitHub Container Registry provided image storage and vulnerability scanning", "entities": [[0, 6, "TOOL"], [7, 16, "CONTAINER_TYPE"], [17, 25, "REGISTRY_TYPE"], [35, 40, "IMAGE_TYPE"], [41, 48, "STORAGE_TYPE"], [53, 66, "VULNERABILITY_TYPE"]]}
+{"text": "Linkerd service mesh provided mTLS and traffic policies for microservices", "entities": [[0, 7, "TOOL"], [8, 15, "MESH_TYPE"], [16, 20, "MESH_TYPE"], [30, 34, "PROTOCOL_TYPE"], [39, 55, "TRAFFIC_TYPE"]]}
+{"text": "SLSA provenance attestation validated build integrity for 38 of 40 images", "entities": [[0, 4, "FRAMEWORK"], [5, 15, "PROVENANCE_TYPE"], [38, 53, "INTEGRITY_TYPE"], [58, 60, "COUNT"], [61, 66, "IMAGE_TYPE"]]}
+{"text": "CNI Network Policy Analyzer identified isolation gap allowing nsA to nsB cross-namespace egress", "entities": [[28, 48, "POLICY_TYPE"], [69, 72, "GAP_TYPE"], [79, 95, "NAMESPACE"]]}
+{"text": "Container Security Operations Engineer operated container security across CI/CD image scanning and runtime", "entities": [[74, 79, "ENGINEER_TYPE"]]}
+{"text": "Container runtime security monitoring reached 95% coverage across all clusters", "entities": [[0, 9, "CONTAINER_TYPE"], [10, 17, "ENVIRONMENT"], [27, 45, "METRIC_TYPE"], [50, 65, "CLUSTER_TYPE"]]}
+{"text": "Falco runtime security detected privileged container escape attempt", "entities": [[0, 5, "TOOL"], [6, 13, "SECURITY_TYPE"], [23, 42, "CONTAINER_TYPE"], [32, 52, "PRIVILEGE_TYPE"], [43, 59, "CONTAINER_TYPE"]]}
+{"text": "GitLab Container Registry integrated image scanning with CI/CD pipelines", "entities": [[0, 6, "TOOL"], [7, 16, "CONTAINER_TYPE"], [7, 25, "REGISTRY_TYPE"], [37, 51, "SCANNING_TYPE"], [57, 72, "PIPELINE_TYPE"]]}
+{"text": "Calico network policy enforced micro-segmentation in Kubernetes clusters", "entities": [[15, 21, "POLICY_TYPE"], [22, 49, "SEGMENTATION_TYPE"], [50, 63, "PLATFORM_TYPE"], [53, 72, "CLUSTER_TYPE"]]}
+{"text": "Container Security Strategist defined container security strategy across build deploy and runtime", "entities": [[73, 78, "BUILD_TYPE"]]}
+{"text": "Kyverno policy engine validated container images requiring non-root user", "entities": [[0, 7, "TOOL"], [8, 21, "TOOL"], [42, 58, "CONTAINER_TYPE"]]}
+{"text": "Sealed Secrets Kubernetes operator encrypted secrets for GitOps workflows", "entities": [[0, 6, "SECRET_TYPE"], [7, 14, "SECRET_TYPE"], [15, 25, "PLATFORM_TYPE"], [35, 52, "SECRET_TYPE"], [57, 63, "TOOL"], [64, 73, "WORKFLOW_TYPE"]]}
+{"text": "Container Security Strategist defined container security strategy across build deploy and runtime", "entities": [[73, 78, "BUILD_TYPE"]]}
+{"text": "GitOps reconciliation detected 5 configuration drifts creating pull requests", "entities": [[0, 6, "TOOL"], [22, 32, "METRIC_TYPE"], [33, 46, "CONFIGURATION_TYPE"]]}
+{"text": "Secrets Scanner detected plaintext db_pass in container environment variables", "entities": [[16, 34, "SECRET_TYPE"], [46, 67, "CONTAINER_TYPE"], [56, 77, "CONFIGURATION_TYPE"]]}
+{"text": "Sealed Secrets Kubernetes operator encrypted secrets for GitOps workflows", "entities": [[0, 6, "SECRET_TYPE"], [7, 14, "SECRET_TYPE"], [15, 25, "PLATFORM_TYPE"], [35, 52, "SECRET_TYPE"], [57, 63, "TOOL"], [64, 73, "WORKFLOW_TYPE"]]}
+{"text": "Container security false positive rate reduced to 2.1% improving alert accuracy", "entities": [[19, 33, "SECURITY_TYPE"], [50, 53, "METRIC_TYPE"], [65, 79, "METRIC_TYPE"]]}
+{"text": "Velero backup tool validated 98% backup success with 12-minute restore duration", "entities": [[0, 6, "TOOL"], [7, 13, "TOOL"], [29, 31, "METRIC_TYPE"], [33, 47, "BACKUP_TYPE"], [56, 70, "DURATION_TYPE"]]}
+{"text": "CI/CD Integration Tool blocked build due to unsigned image and critical vulnerabilities", "entities": [[31, 36, "BUILD_ID"], [41, 52, "ACTION_TYPE"], [72, 87, "SEVERITY_TYPE"]]}
+{"text": "Polaris Kubernetes configuration validator detected security policy violations", "entities": [[0, 7, "TOOL"], [8, 18, "PLATFORM_TYPE"], [43, 60, "SECURITY_TYPE"], [52, 67, "POLICY_TYPE"], [61, 78, "VIOLATION_TYPE"]]}
+{"text": "Longhorn container storage provided distributed block storage for Kubernetes", "entities": [[0, 8, "TOOL"], [9, 18, "CONTAINER_TYPE"], [19, 26, "STORAGE_TYPE"]]}
+{"text": "EDR XDR Tool monitored container runtime detecting malicious activity", "entities": [[0, 3, "TOOL"], [4, 7, "TOOL"], [13, 32, "CONTAINER_TYPE"], [23, 40, "ENVIRONMENT"], [51, 69, "ACTIVITY_TYPE"]]}
+{"text": "Polaris Kubernetes configuration validator detected security policy violations", "entities": [[0, 7, "TOOL"], [8, 18, "PLATFORM_TYPE"], [43, 60, "SECURITY_TYPE"], [52, 67, "POLICY_TYPE"], [61, 78, "VIOLATION_TYPE"]]}
+{"text": "CNI Network Policy Analyzer identified isolation gap allowing cross-namespace egress", "entities": [[28, 48, "POLICY_TYPE"], [78, 84, "NAMESPACE"]]}
+{"text": "Aqua Security platform scanned 500 container images with 98% compliance", "entities": [[31, 34, "COUNT"], [35, 44, "CONTAINER_TYPE"], [35, 51, "IMAGE_TYPE"]]}
+{"text": "GitLab Container Registry integrated image scanning with CI/CD pipelines", "entities": [[0, 6, "TOOL"], [7, 16, "CONTAINER_TYPE"], [7, 25, "REGISTRY_TYPE"], [37, 51, "SCANNING_TYPE"], [57, 72, "PIPELINE_TYPE"]]}
+{"text": "Consul Connect service mesh enforced service-to-service policies", "entities": [[0, 6, "TOOL"], [7, 14, "TOOL"], [23, 36, "MESH_TYPE"], [45, 55, "POLICY_TYPE"]]}
+{"text": "Kubernetes Compliance Scanner detected RBAC wildcard and etcd encryption missing", "entities": [[39, 52, "COMPLIANCE_TYPE"]]}
+{"text": "Snyk container scanner detected vulnerabilities in container images", "entities": [[0, 4, "TOOL"], [5, 14, "SCANNER_TYPE"], [32, 50, "VULNERABILITY_TYPE"], [51, 67, "CONTAINER_TYPE"]]}
+{"text": "Kube-bench security scanner validated Kubernetes cluster against CIS benchmarks", "entities": [[0, 10, "TOOL"], [38, 56, "CLUSTER_TYPE"], [65, 79, "STANDARD_TYPE"]]}
+{"text": "GitOps Controller Tool validated SBOMs with provenance verification", "entities": [[33, 38, "COUNT"], [44, 67, "VERIFICATION_TYPE"]]}
+{"text": "eBPF Runtime Sensor detected syscall execve /bin/sh alerting on container escape", "entities": [[0, 19, "TOOL"], [44, 51, "SYSCALL_TYPE"], [49, 60, "COMMAND"], [64, 80, "CONTAINER_TYPE"]]}
+{"text": "AWS ECR container registry enforced image scanning and lifecycle policies", "entities": [[0, 3, "CLOUD_PROVIDER"], [4, 7, "TOOL"], [8, 26, "CONTAINER_TYPE"], [18, 35, "REGISTRY_TYPE"], [36, 50, "IMAGE_TYPE"], [55, 73, "LIFECYCLE_TYPE"]]}
+{"text": "Runtime Threat Detection Tool detected crypto mining and container escape attempts", "entities": [[67, 82, "THREAT_TYPE"]]}
+{"text": "Docker Bench Security validated container runtime security against CIS benchmarks", "entities": [[0, 6, "TOOL"], [7, 12, "TOOL"], [22, 41, "CONTAINER_TYPE"], [32, 49, "ENVIRONMENT"], [67, 81, "STANDARD_TYPE"]]}
+{"text": "Kube-hunter penetration testing tool identified Kubernetes cluster vulnerabilities", "entities": [[0, 11, "TOOL"], [12, 31, "TESTING_TYPE"], [37, 58, "PLATFORM_TYPE"], [48, 58, "CLUSTER_TYPE"], [67, 82, "VULNERABILITY_TYPE"]]}
+{"text": "Clair container scanner identified vulnerable packages in container images", "entities": [[0, 5, "TOOL"], [6, 15, "SCANNER_TYPE"], [24, 45, "PACKAGE_TYPE"], [35, 54, "CONTAINER_TYPE"], [46, 57, "IMAGE_TYPE"]]}
+{"text": "GitHub Container Registry provided image storage and vulnerability scanning", "entities": [[0, 6, "TOOL"], [7, 16, "CONTAINER_TYPE"], [17, 25, "REGISTRY_TYPE"], [35, 40, "IMAGE_TYPE"], [41, 48, "STORAGE_TYPE"], [53, 66, "VULNERABILITY_TYPE"]]}
+{"text": "CI/CD Integration Tool blocked build 1234 due to unsigned image and critical vulnerabilities", "entities": [[31, 36, "BUILD_ID"], [42, 48, "ACTION_TYPE"], [49, 63, "IMAGE_TYPE"], [77, 92, "SEVERITY_TYPE"]]}
+{"text": "Container Security Operations Engineer operated container security across CI/CD image scanning and runtime", "entities": [[74, 79, "ENGINEER_TYPE"]]}
+{"text": "OpenEBS container storage provided persistent volumes with encryption", "entities": [[0, 7, "TOOL"], [8, 17, "CONTAINER_TYPE"], [18, 25, "STORAGE_TYPE"], [35, 45, "VOLUME_TYPE"]]}
+{"text": "Longhorn container storage provided distributed block storage for Kubernetes", "entities": [[0, 8, "TOOL"], [9, 18, "CONTAINER_TYPE"], [19, 26, "STORAGE_TYPE"]]}
+{"text": "Container Image Scanner detected 12 critical vulnerabilities in 100 scanned images", "entities": [[24, 44, "COUNT"], [45, 60, "VULNERABILITY_TYPE"], [64, 67, "COUNT"]]}
+{"text": "Registry Governance Tool blocked unsigned images from untrusted repositories", "entities": [[25, 41, "REGISTRY_TYPE"], [33, 48, "GOVERNANCE_TYPE"], [64, 76, "SIGNING_STATUS"]]}
+{"text": "Registry Governance Tool blocked 2 unsigned images from untrusted repositories", "entities": [[25, 43, "REGISTRY_TYPE"], [35, 50, "GOVERNANCE_TYPE"], [66, 78, "SIGNING_STATUS"]]}
+{"text": "Kubeaudit security scanner detected misconfigurations in Kubernetes clusters", "entities": [[27, 53, "PLATFORM_TYPE"], [57, 76, "CLUSTER_TYPE"]]}
+{"text": "OpenEBS container storage provided persistent volumes with encryption", "entities": [[0, 7, "TOOL"], [8, 17, "CONTAINER_TYPE"], [18, 25, "STORAGE_TYPE"], [35, 45, "VOLUME_TYPE"]]}
+{"text": "Grype container scanner detected CVEs in container images and packages", "entities": [[0, 5, "TOOL"], [6, 15, "SCANNER_TYPE"], [38, 50, "CONTAINER_TYPE"], [41, 57, "IMAGE_TYPE"]]}
+{"text": "Container Image Scanner detected 12 critical vulnerabilities in 100 scanned images", "entities": [[24, 44, "COUNT"], [45, 60, "VULNERABILITY_TYPE"], [64, 67, "COUNT"]]}
+{"text": "Secrets Scanner detected plaintext secrets in container environment variables", "entities": [[16, 34, "SECRET_TYPE"], [35, 55, "SECRET_TYPE"], [46, 67, "CONTAINER_TYPE"], [56, 77, "CONFIGURATION_TYPE"]]}
+{"text": "Longhorn container storage provided distributed block storage for Kubernetes", "entities": [[0, 8, "TOOL"], [9, 18, "CONTAINER_TYPE"], [19, 26, "STORAGE_TYPE"]]}
+{"text": "Quay container registry enforced image scanning and security policies", "entities": [[0, 4, "TOOL"], [5, 23, "CONTAINER_TYPE"], [15, 32, "REGISTRY_TYPE"], [33, 47, "IMAGE_TYPE"]]}
+{"text": "Azure Container Registry enforced image scanning and vulnerability assessment", "entities": [[0, 5, "CLOUD_PROVIDER"], [6, 15, "CONTAINER_TYPE"], [6, 24, "REGISTRY_TYPE"], [25, 39, "IMAGE_TYPE"], [67, 77, "ASSESSMENT_TYPE"]]}
+{"text": "OPA Gatekeeper admission controller enforced policy blocking privileged pods", "entities": [[0, 3, "TOOL"], [4, 14, "TOOL"], [15, 35, "CONTROLLER_TYPE"], [25, 44, "ENFORCEMENT_TYPE"], [45, 60, "POLICY_TYPE"], [61, 71, "PRIVILEGE_TYPE"], [72, 76, "RESOURCE_TYPE"]]}
+{"text": "Kubernetes Governance Tool enforced RBAC network policies and admission controls", "entities": [[0, 10, "PLATFORM_TYPE"], [11, 21, "GOVERNANCE_TYPE"], [36, 40, "AUTH_TYPE"], [62, 80, "CONTROL_TYPE"]]}
+{"text": "AWS ECR container registry enforced image scanning and lifecycle policies", "entities": [[0, 3, "CLOUD_PROVIDER"], [4, 7, "TOOL"], [8, 26, "CONTAINER_TYPE"], [18, 35, "REGISTRY_TYPE"], [36, 50, "IMAGE_TYPE"], [55, 73, "LIFECYCLE_TYPE"]]}
+{"text": "Container Security Strategist defined container security policy requiring image signing and RBAC", "entities": [[57, 63, "POLICY_TYPE"], [74, 87, "IMAGE_TYPE"]]}
+{"text": "Admission Controller Manager enforced signed images policy denying deployments", "entities": [[0, 28, "TOOL"], [38, 44, "POLICY_TYPE"], [45, 58, "IMAGE_TYPE"], [52, 66, "SIGNING_TYPE"]]}
+{"text": "Portworx container storage provided persistent volumes and encryption", "entities": [[0, 8, "TOOL"], [9, 18, "CONTAINER_TYPE"], [19, 26, "STORAGE_TYPE"], [36, 46, "VOLUME_TYPE"]]}
+{"text": "Registry Governance Tool blocked 2 unsigned images from untrusted repositories", "entities": [[25, 43, "REGISTRY_TYPE"], [35, 50, "GOVERNANCE_TYPE"], [66, 78, "SIGNING_STATUS"]]}
+{"text": "Google Artifact Registry managed container images with vulnerability scanning", "entities": [[0, 6, "TOOL"], [7, 15, "TOOL"], [16, 24, "CONTAINER_TYPE"], [25, 32, "IMAGE_TYPE"]]}
+{"text": "Container Image Scanner detected 12 critical vulnerabilities in 100 scanned images", "entities": [[24, 44, "COUNT"], [45, 60, "VULNERABILITY_TYPE"], [64, 67, "COUNT"]]}
+{"text": "Kubernetes Governance Tool enforced RBAC network policies and admission controls", "entities": [[0, 10, "PLATFORM_TYPE"], [11, 21, "GOVERNANCE_TYPE"], [36, 40, "AUTH_TYPE"], [62, 80, "CONTROL_TYPE"]]}
+{"text": "CI/CD Integration Tool blocked build 1234 due to unsigned image and critical vulnerabilities", "entities": [[31, 36, "BUILD_ID"], [42, 48, "ACTION_TYPE"], [49, 63, "IMAGE_TYPE"], [77, 92, "SEVERITY_TYPE"]]}
+{"text": "OpenEBS container storage provided persistent volumes with encryption", "entities": [[0, 7, "TOOL"], [8, 17, "CONTAINER_TYPE"], [18, 25, "STORAGE_TYPE"], [35, 45, "VOLUME_TYPE"]]}
+{"text": "eBPF Runtime Sensor detected syscall execve /bin/sh alerting on container escape attempt", "entities": [[0, 19, "TOOL"], [44, 51, "SYSCALL_TYPE"], [49, 60, "COMMAND"], [64, 80, "CONTAINER_TYPE"], [74, 88, "ATTACK_TYPE"]]}
+{"text": "GitOps Controller Tool validated 40 SBOMs with 38 passing provenance verification", "entities": [[36, 41, "COUNT"], [58, 81, "VERIFICATION_TYPE"]]}
+{"text": "Cilium eBPF-based networking enforced network policies and observability", "entities": [[0, 6, "TOOL"], [7, 17, "NETWORKING_TYPE"], [12, 28, "TOOL"], [29, 45, "POLICY_TYPE"]]}
+{"text": "eBPF Runtime Sensor detected syscall execve /bin/sh alerting on container escape", "entities": [[0, 19, "TOOL"], [44, 51, "SYSCALL_TYPE"], [49, 60, "COMMAND"], [64, 80, "CONTAINER_TYPE"]]}
+{"text": "Container Security Compliance Analyst audited container and Kubernetes security posture", "entities": [[46, 55, "COMPLIANCE_TYPE"]]}
+{"text": "Admission Controller Manager enforced signed images policy denying 8 deployments", "entities": [[0, 28, "TOOL"], [38, 44, "POLICY_TYPE"], [45, 58, "IMAGE_TYPE"], [52, 66, "SIGNING_TYPE"]]}
+{"text": "Runtime Threat Detection Tool identified crypto miner in podX requiring isolation", "entities": [[30, 47, "ENVIRONMENT"], [41, 53, "THREAT_TYPE"], [48, 61, "DETECTION_TYPE"]]}
+{"text": "Kyverno policy engine validated container images requiring non-root user", "entities": [[0, 7, "TOOL"], [8, 21, "TOOL"], [42, 58, "CONTAINER_TYPE"]]}
+{"text": "Container runtime security monitoring reached 95% coverage across all clusters", "entities": [[0, 9, "CONTAINER_TYPE"], [10, 17, "ENVIRONMENT"], [27, 45, "METRIC_TYPE"], [50, 65, "CLUSTER_TYPE"]]}
+{"text": "Admission Controller Manager enforced signed images policy denying deployments", "entities": [[0, 28, "TOOL"], [38, 44, "POLICY_TYPE"], [45, 58, "IMAGE_TYPE"], [52, 66, "SIGNING_TYPE"]]}
+{"text": "Container security training completion reached 88% for all DevOps engineers", "entities": [[39, 46, "COMPLETION_TYPE"], [47, 50, "METRIC_TYPE"], [59, 65, "ROLE_TYPE"]]}
+{"text": "Polaris Kubernetes configuration validator detected security policy violations", "entities": [[0, 7, "TOOL"], [8, 18, "PLATFORM_TYPE"], [43, 60, "SECURITY_TYPE"], [52, 67, "POLICY_TYPE"], [61, 78, "VIOLATION_TYPE"]]}
+{"text": "Compliance Framework Tool aligned container security with CIS Benchmarks NIST and PCI DSS", "entities": [[26, 43, "CONTAINER_TYPE"], [58, 72, "STANDARD_TYPE"]]}
+{"text": "Docker Hub container registry provided public and private image repositories", "entities": [[0, 6, "TOOL"], [7, 10, "TOOL"], [11, 20, "CONTAINER_TYPE"], [21, 29, "REGISTRY_TYPE"], [30, 45, "IMAGE_TYPE"], [50, 57, "REPOSITORY_TYPE"], [58, 76, "REPOSITORY_TYPE"]]}
+{"text": "Docker Bench Security validated container runtime security against CIS benchmarks", "entities": [[0, 6, "TOOL"], [7, 12, "TOOL"], [22, 41, "CONTAINER_TYPE"], [32, 49, "ENVIRONMENT"], [67, 81, "STANDARD_TYPE"]]}
+{"text": "Kubernetes RBAC enforcement achieved 98% with zero wildcard permissions", "entities": [[0, 27, "PLATFORM_TYPE"], [16, 27, "AUTH_TYPE"], [16, 36, "ENFORCEMENT_TYPE"], [37, 40, "METRIC_TYPE"], [51, 59, "METRIC_TYPE"], [60, 71, "PERMISSION_TYPE"]]}
+{"text": "Helm Kustomize Security Tool verified chart signing and linted manifests", "entities": [[0, 4, "TOOL"], [5, 14, "TOOL"], [38, 43, "CHART_TYPE"]]}
+{"text": "CNI Network Policy Analyzer identified isolation gap allowing cross-namespace egress", "entities": [[28, 48, "POLICY_TYPE"], [78, 84, "NAMESPACE"]]}
+{"text": "Registry Governance Tool blocked unsigned images from untrusted repositories", "entities": [[25, 41, "REGISTRY_TYPE"], [33, 48, "GOVERNANCE_TYPE"], [64, 76, "SIGNING_STATUS"]]}
+{"text": "Cilium eBPF-based networking enforced network policies and observability", "entities": [[0, 6, "TOOL"], [7, 17, "NETWORKING_TYPE"], [12, 28, "TOOL"], [29, 45, "POLICY_TYPE"]]}
+{"text": "Service Mesh Policy Tool validated mTLS enabled with authorization policy gaps", "entities": [[25, 39, "PROTOCOL_TYPE"], [35, 39, "PROTOCOL_TYPE"], [67, 78, "POLICY_TYPE"]]}
+{"text": "Service Mesh Policy Tool validated mTLS enabled with authorization policy gaps", "entities": [[25, 39, "PROTOCOL_TYPE"], [35, 39, "PROTOCOL_TYPE"], [67, 78, "POLICY_TYPE"]]}
+{"text": "EDR XDR Tool monitored container runtime detecting malicious activity", "entities": [[0, 3, "TOOL"], [4, 7, "TOOL"], [13, 32, "CONTAINER_TYPE"], [23, 40, "ENVIRONMENT"], [51, 69, "ACTIVITY_TYPE"]]}
+{"text": "Audit Checklist Tool validated container security controls against compliance frameworks", "entities": [[31, 49, "SECURITY_TYPE"], [41, 58, "CONTROL_TYPE"]]}
+{"text": "Trivy container scanner identified 15 high severity CVEs in Docker image", "entities": [[0, 5, "TOOL"], [6, 15, "SCANNER_TYPE"], [24, 37, "COUNT"], [38, 51, "SEVERITY_TYPE"], [43, 51, "CVE_TYPE"], [52, 59, "CONTAINER_TYPE"], [60, 66, "IMAGE_TYPE"]]}
+{"text": "Aqua Security platform scanned 500 container images with 98% compliance", "entities": [[31, 34, "COUNT"], [35, 44, "CONTAINER_TYPE"], [35, 51, "IMAGE_TYPE"]]}
+{"text": "Kubernetes Secrets Store CSI driver integrated with Vault for secret management", "entities": [[0, 10, "PLATFORM_TYPE"], [11, 18, "SECRET_TYPE"], [19, 24, "STORE_TYPE"], [25, 28, "TOOL"], [52, 57, "SECRET_TYPE"]]}
+{"text": "Kube-bench security scanner validated Kubernetes cluster against CIS benchmarks", "entities": [[0, 10, "TOOL"], [38, 56, "CLUSTER_TYPE"], [65, 79, "STANDARD_TYPE"]]}
+{"text": "Container Security Operations Engineer operated container security across CI/CD image scanning and runtime", "entities": [[74, 79, "ENGINEER_TYPE"]]}
+{"text": "Rook Ceph container storage provided distributed storage with encryption", "entities": [[0, 4, "TOOL"], [5, 9, "TOOL"], [10, 19, "CONTAINER_TYPE"], [20, 27, "STORAGE_TYPE"]]}
+{"text": "Kubernetes RBAC enforcement achieved 98% with zero wildcard permissions", "entities": [[0, 27, "PLATFORM_TYPE"], [16, 27, "AUTH_TYPE"], [16, 36, "ENFORCEMENT_TYPE"], [37, 40, "METRIC_TYPE"], [51, 59, "METRIC_TYPE"], [60, 71, "PERMISSION_TYPE"]]}
+{"text": "Drift Detection Tool found pod running unauthorized image requiring rollback", "entities": [[27, 38, "POD_NAME"], [39, 51, "IMAGE_TYPE"], [39, 67, "AUTHORIZATION_STATUS"]]}
+{"text": "OpenEBS container storage provided persistent volumes with encryption", "entities": [[0, 7, "TOOL"], [8, 17, "CONTAINER_TYPE"], [18, 25, "STORAGE_TYPE"], [35, 45, "VOLUME_TYPE"]]}
+{"text": "Kubernetes RBAC enforcement achieved 98% with zero wildcard permissions", "entities": [[0, 27, "PLATFORM_TYPE"], [16, 27, "AUTH_TYPE"], [16, 36, "ENFORCEMENT_TYPE"], [37, 40, "METRIC_TYPE"], [51, 59, "METRIC_TYPE"], [60, 71, "PERMISSION_TYPE"]]}
+{"text": "CNI Network Policy Analyzer identified isolation gap allowing nsA to nsB cross-namespace egress", "entities": [[28, 48, "POLICY_TYPE"], [69, 72, "GAP_TYPE"], [79, 95, "NAMESPACE"]]}
+{"text": "Kube-bench security scanner validated cluster against CIS Kubernetes Benchmark", "entities": [[0, 10, "TOOL"], [38, 45, "CLUSTER_TYPE"], [54, 68, "PLATFORM_TYPE"], [58, 78, "STANDARD_TYPE"]]}
+{"text": "Linkerd service mesh provided mTLS and traffic policies for microservices", "entities": [[0, 7, "TOOL"], [8, 15, "MESH_TYPE"], [16, 20, "MESH_TYPE"], [30, 34, "PROTOCOL_TYPE"], [39, 55, "TRAFFIC_TYPE"]]}
+{"text": "SIEM Tool correlated container security events from multiple sources", "entities": [[21, 30, "CONTAINER_TYPE"], [40, 46, "EVENT_TYPE"], [52, 60, "SOURCE_TYPE"]]}
+{"text": "Harbor container registry enforced image signing with cosign verification", "entities": [[0, 6, "TOOL"], [7, 16, "CONTAINER_TYPE"], [17, 25, "REGISTRY_TYPE"], [26, 40, "IMAGE_TYPE"]]}
+{"text": "Reporting Dashboard Tool generated container security KPIs showing compliance scores", "entities": [[25, 44, "CONTAINER_TYPE"]]}
+{"text": "Runtime Threat Detection Tool detected crypto mining and container escape attempts", "entities": [[67, 82, "THREAT_TYPE"]]}
+{"text": "Risk Scoring Tool calculated container risk scores combining CVEs and exposure", "entities": [[44, 60, "CONTAINER_TYPE"], [51, 65, "SCORE_TYPE"]]}
+{"text": "Consul Connect service mesh enforced service-to-service policies", "entities": [[0, 6, "TOOL"], [7, 14, "TOOL"], [23, 36, "MESH_TYPE"], [45, 55, "POLICY_TYPE"]]}
+{"text": "Container Security Compliance Analyst audited container and Kubernetes security posture", "entities": [[46, 55, "COMPLIANCE_TYPE"]]}
+{"text": "Trivy container scanner identified 15 high severity CVEs in Docker image", "entities": [[0, 5, "TOOL"], [6, 15, "SCANNER_TYPE"], [24, 37, "COUNT"], [38, 51, "SEVERITY_TYPE"], [43, 51, "CVE_TYPE"], [52, 59, "CONTAINER_TYPE"], [60, 66, "IMAGE_TYPE"]]}
+{"text": "Nexus Repository container registry provided image storage and scanning", "entities": [[0, 5, "TOOL"], [17, 26, "CONTAINER_TYPE"], [27, 35, "REGISTRY_TYPE"], [36, 50, "IMAGE_TYPE"], [51, 58, "STORAGE_TYPE"]]}
+{"text": "eBPF Runtime Sensor detected syscall execve /bin/sh alerting on container escape", "entities": [[0, 19, "TOOL"], [44, 51, "SYSCALL_TYPE"], [49, 60, "COMMAND"], [64, 80, "CONTAINER_TYPE"]]}
+{"text": "Container supply chain security validated 94% of images with signed provenance", "entities": [[0, 9, "CONTAINER_TYPE"], [10, 22, "SUPPLY_CHAIN_TYPE"], [32, 44, "METRIC_TYPE"], [42, 48, "METRIC_TYPE"], [61, 78, "PROVENANCE_TYPE"]]}
+{"text": "Drift Detection Tool found pod running unauthorized image requiring rollback", "entities": [[27, 38, "POD_NAME"], [39, 51, "IMAGE_TYPE"], [39, 67, "AUTHORIZATION_STATUS"]]}
+{"text": "Falco runtime security detected privileged container escape attempt", "entities": [[0, 5, "TOOL"], [6, 13, "SECURITY_TYPE"], [23, 42, "CONTAINER_TYPE"], [32, 52, "PRIVILEGE_TYPE"], [43, 59, "CONTAINER_TYPE"]]}
+{"text": "Kubernetes Policy Enforcer enforced RBAC network policies and resource quotas", "entities": [[0, 10, "PLATFORM_TYPE"], [11, 17, "POLICY_TYPE"], [36, 40, "AUTH_TYPE"]]}
+{"text": "Registry Governance Tool blocked unsigned images from untrusted repositories", "entities": [[25, 41, "REGISTRY_TYPE"], [33, 48, "GOVERNANCE_TYPE"], [64, 76, "SIGNING_STATUS"]]}
+{"text": "Harbor container registry enforced image scanning and vulnerability policies", "entities": [[0, 6, "TOOL"], [7, 16, "CONTAINER_TYPE"], [17, 25, "REGISTRY_TYPE"], [35, 40, "IMAGE_TYPE"], [54, 67, "VULNERABILITY_TYPE"], [68, 76, "POLICY_TYPE"]]}
+{"text": "Node Hardening Tool found compilers installed on 3 worker nodes requiring removal", "entities": [[36, 50, "SOFTWARE_TYPE"], [51, 63, "INSTALLATION_TYPE"]]}
+{"text": "Container Policy Generator created container security policies with image signing and RBAC", "entities": [[35, 44, "POLICY_TYPE"], [68, 81, "SECURITY_TYPE"]]}
+{"text": "Container security compliance score improved to 92% meeting CIS and NIST standards", "entities": [[30, 35, "COMPLIANCE_TYPE"], [36, 44, "METRIC_TYPE"], [68, 82, "STANDARD_TYPE"]]}
+{"text": "GitOps Controller Tool validated 40 SBOMs with 38 passing provenance verification", "entities": [[36, 41, "COUNT"], [58, 81, "VERIFICATION_TYPE"]]}
+{"text": "GitOps reconciliation detected 5 configuration drifts creating pull requests", "entities": [[0, 6, "TOOL"], [22, 32, "METRIC_TYPE"], [33, 46, "CONFIGURATION_TYPE"]]}
+{"text": "Sealed Secrets Kubernetes operator encrypted secrets for GitOps workflows", "entities": [[0, 6, "SECRET_TYPE"], [7, 14, "SECRET_TYPE"], [15, 25, "PLATFORM_TYPE"], [35, 52, "SECRET_TYPE"], [57, 63, "TOOL"], [64, 73, "WORKFLOW_TYPE"]]}
+{"text": "Backup Restore Tool Velero validated backup success with restore duration", "entities": [[0, 6, "TOOL"], [7, 14, "TOOL"], [37, 43, "BACKUP_TYPE"], [57, 73, "DURATION_TYPE"]]}
+{"text": "eBPF Runtime Sensor detected syscall execve /bin/sh alerting on container escape attempt", "entities": [[0, 19, "TOOL"], [44, 51, "SYSCALL_TYPE"], [49, 60, "COMMAND"], [64, 80, "CONTAINER_TYPE"], [74, 88, "ATTACK_TYPE"]]}
+{"text": "Nexus Repository container registry provided image storage and scanning", "entities": [[0, 5, "TOOL"], [17, 26, "CONTAINER_TYPE"], [27, 35, "REGISTRY_TYPE"], [36, 50, "IMAGE_TYPE"], [51, 58, "STORAGE_TYPE"]]}
+{"text": "Container runtime security monitoring reached 95% coverage across all clusters", "entities": [[0, 9, "CONTAINER_TYPE"], [10, 17, "ENVIRONMENT"], [27, 45, "METRIC_TYPE"], [50, 65, "CLUSTER_TYPE"]]}
+{"text": "Secrets Scanner detected plaintext secrets in container environment variables", "entities": [[16, 34, "SECRET_TYPE"], [35, 55, "SECRET_TYPE"], [46, 67, "CONTAINER_TYPE"], [56, 77, "CONFIGURATION_TYPE"]]}
+{"text": "Helm Kustomize Security Tool verified chart signing and linted manifests", "entities": [[0, 4, "TOOL"], [5, 14, "TOOL"], [38, 43, "CHART_TYPE"]]}
+{"text": "Kubernetes Compliance Scanner detected RBAC wildcard and etcd encryption missing", "entities": [[39, 52, "COMPLIANCE_TYPE"]]}
+{"text": "Incident Response Tool isolated compromised pods and removed malware", "entities": [[23, 43, "RESPONSE_TYPE"]]}
+{"text": "Compliance Mapping Tool aligned container security with CIS NIST and PCI DSS", "entities": [[24, 41, "CONTAINER_TYPE"], [56, 59, "FRAMEWORK"], [60, 64, "FRAMEWORK"]]}
+{"text": "Kubernetes Secrets Store CSI driver integrated with Vault for secret management", "entities": [[0, 10, "PLATFORM_TYPE"], [11, 18, "SECRET_TYPE"], [19, 24, "STORE_TYPE"], [25, 28, "TOOL"], [52, 57, "SECRET_TYPE"]]}
+{"text": "Admission Controller Manager enforced signed images policy denying deployments", "entities": [[0, 28, "TOOL"], [38, 44, "POLICY_TYPE"], [45, 58, "IMAGE_TYPE"], [52, 66, "SIGNING_TYPE"]]}
+{"text": "Container supply chain security validated 94% of images with signed provenance", "entities": [[0, 9, "CONTAINER_TYPE"], [10, 22, "SUPPLY_CHAIN_TYPE"], [32, 44, "METRIC_TYPE"], [42, 48, "METRIC_TYPE"], [61, 78, "PROVENANCE_TYPE"]]}
+{"text": "CI/CD Integration Tool blocked build 1234 due to unsigned image and critical vulnerabilities", "entities": [[31, 36, "BUILD_ID"], [42, 48, "ACTION_TYPE"], [49, 63, "IMAGE_TYPE"], [77, 92, "SEVERITY_TYPE"]]}
+{"text": "GitHub Container Registry provided image storage and vulnerability scanning", "entities": [[0, 6, "TOOL"], [7, 16, "CONTAINER_TYPE"], [17, 25, "REGISTRY_TYPE"], [35, 40, "IMAGE_TYPE"], [41, 48, "STORAGE_TYPE"], [53, 66, "VULNERABILITY_TYPE"]]}
+{"text": "Kubernetes Governance Tool enforced RBAC network policies and admission controls", "entities": [[0, 10, "PLATFORM_TYPE"], [11, 21, "GOVERNANCE_TYPE"], [36, 40, "AUTH_TYPE"], [62, 80, "CONTROL_TYPE"]]}
+{"text": "Container runtime security monitoring reached 95% coverage across all clusters", "entities": [[0, 9, "CONTAINER_TYPE"], [10, 17, "ENVIRONMENT"], [27, 45, "METRIC_TYPE"], [50, 65, "CLUSTER_TYPE"]]}
+{"text": "Google Container Registry provided image storage and vulnerability scanning", "entities": [[0, 6, "TOOL"], [7, 16, "CONTAINER_TYPE"], [17, 25, "REGISTRY_TYPE"], [35, 40, "IMAGE_TYPE"], [41, 48, "STORAGE_TYPE"], [53, 66, "VULNERABILITY_TYPE"]]}
+{"text": "Rook Ceph container storage provided distributed storage with encryption", "entities": [[0, 4, "TOOL"], [5, 9, "TOOL"], [10, 19, "CONTAINER_TYPE"], [20, 27, "STORAGE_TYPE"]]}
+{"text": "Rook Ceph container storage provided distributed storage with encryption", "entities": [[0, 4, "TOOL"], [5, 9, "TOOL"], [10, 19, "CONTAINER_TYPE"], [20, 27, "STORAGE_TYPE"]]}
+{"text": "Kubernetes Policy Enforcer enforced RBAC network policies and resource quotas", "entities": [[0, 10, "PLATFORM_TYPE"], [11, 17, "POLICY_TYPE"], [36, 40, "AUTH_TYPE"]]}
+{"text": "SLSA provenance attestation validated build integrity for 38 of 40 images", "entities": [[0, 4, "FRAMEWORK"], [5, 15, "PROVENANCE_TYPE"], [38, 53, "INTEGRITY_TYPE"], [58, 60, "COUNT"], [61, 66, "IMAGE_TYPE"]]}
+{"text": "Snyk container scanner detected vulnerabilities in container images", "entities": [[0, 4, "TOOL"], [5, 14, "SCANNER_TYPE"], [32, 50, "VULNERABILITY_TYPE"], [51, 67, "CONTAINER_TYPE"]]}
+{"text": "Helm Kustomize Security Tool verified chart signing and linted manifests", "entities": [[0, 4, "TOOL"], [5, 14, "TOOL"], [38, 43, "CHART_TYPE"]]}
+{"text": "Quay container registry enforced image scanning and security policies", "entities": [[0, 4, "TOOL"], [5, 23, "CONTAINER_TYPE"], [15, 32, "REGISTRY_TYPE"], [33, 47, "IMAGE_TYPE"]]}
+{"text": "SIEM Tool correlated container security events from multiple sources", "entities": [[21, 30, "CONTAINER_TYPE"], [40, 46, "EVENT_TYPE"], [52, 60, "SOURCE_TYPE"]]}
+{"text": "Sysdig container security detected 8 runtime anomalies in production cluster", "entities": [[0, 6, "TOOL"], [7, 16, "CONTAINER_TYPE"], [35, 44, "ENVIRONMENT"], [58, 76, "CLUSTER_TYPE"]]}
+{"text": "Audit Checklist Tool validated container security controls against compliance frameworks", "entities": [[31, 49, "SECURITY_TYPE"], [41, 58, "CONTROL_TYPE"]]}
+{"text": "Kube-hunter penetration testing tool identified Kubernetes cluster vulnerabilities", "entities": [[0, 11, "TOOL"], [12, 31, "TESTING_TYPE"], [37, 58, "PLATFORM_TYPE"], [48, 58, "CLUSTER_TYPE"], [67, 82, "VULNERABILITY_TYPE"]]}
+{"text": "Harbor container registry enforced image scanning and vulnerability policies", "entities": [[0, 6, "TOOL"], [7, 16, "CONTAINER_TYPE"], [17, 25, "REGISTRY_TYPE"], [35, 40, "IMAGE_TYPE"], [54, 67, "VULNERABILITY_TYPE"], [68, 76, "POLICY_TYPE"]]}
+{"text": "Aqua Security platform scanned 500 container images with 98% compliance", "entities": [[31, 34, "COUNT"], [35, 44, "CONTAINER_TYPE"], [35, 51, "IMAGE_TYPE"]]}
+{"text": "Reporting Dashboard Tool generated container security KPIs showing compliance scores", "entities": [[25, 44, "CONTAINER_TYPE"]]}
+{"text": "OPA Gatekeeper admission controller enforced policies blocking non-compliant pods", "entities": [[0, 3, "TOOL"], [4, 14, "TOOL"], [15, 35, "CONTROL_TYPE"], [25, 44, "CONTROL_TYPE"], [45, 62, "POLICY_TYPE"], [63, 76, "POD_TYPE"]]}
+{"text": "Velero backup tool validated 98% backup success with 12-minute restore duration", "entities": [[0, 6, "TOOL"], [7, 13, "TOOL"], [29, 31, "METRIC_TYPE"], [33, 47, "BACKUP_TYPE"], [56, 70, "DURATION_TYPE"]]}
+{"text": "GitOps Controller Tool validated 40 SBOMs with 38 passing provenance verification", "entities": [[36, 41, "COUNT"], [58, 81, "VERIFICATION_TYPE"]]}
+{"text": "Kubernetes Compliance Scanner detected RBAC wildcard and etcd encryption missing", "entities": [[39, 52, "COMPLIANCE_TYPE"]]}
+{"text": "OPA Gatekeeper admission controller enforced policies blocking non-compliant pods", "entities": [[0, 3, "TOOL"], [4, 14, "TOOL"], [15, 35, "CONTROL_TYPE"], [25, 44, "CONTROL_TYPE"], [45, 62, "POLICY_TYPE"], [63, 76, "POD_TYPE"]]}
+{"text": "Service Mesh Policy Tool validated mTLS enabled with authorization policy gaps", "entities": [[25, 39, "PROTOCOL_TYPE"], [35, 39, "PROTOCOL_TYPE"], [67, 78, "POLICY_TYPE"]]}
+{"text": "Polaris Kubernetes configuration validator detected security policy violations", "entities": [[0, 7, "TOOL"], [8, 18, "PLATFORM_TYPE"], [43, 60, "SECURITY_TYPE"], [52, 67, "POLICY_TYPE"], [61, 78, "VIOLATION_TYPE"]]}
+{"text": "GitOps Controller Tool validated 40 SBOMs with 38 passing provenance verification", "entities": [[36, 41, "COUNT"], [58, 81, "VERIFICATION_TYPE"]]}
+{"text": "CNI Network Policy Analyzer identified isolation gap allowing nsA to nsB cross-namespace egress", "entities": [[28, 48, "POLICY_TYPE"], [69, 72, "GAP_TYPE"], [79, 95, "NAMESPACE"]]}
+{"text": "Container Security Strategist defined container security strategy across build deploy and runtime", "entities": [[73, 78, "BUILD_TYPE"]]}
+{"text": "Nexus Repository container registry provided image storage and scanning", "entities": [[0, 5, "TOOL"], [17, 26, "CONTAINER_TYPE"], [27, 35, "REGISTRY_TYPE"], [36, 50, "IMAGE_TYPE"], [51, 58, "STORAGE_TYPE"]]}
+{"text": "Registry Governance Tool blocked 2 unsigned images from untrusted repositories", "entities": [[25, 43, "REGISTRY_TYPE"], [35, 50, "GOVERNANCE_TYPE"], [66, 78, "SIGNING_STATUS"]]}
+{"text": "Sysdig container security detected 8 runtime anomalies in production cluster", "entities": [[0, 6, "TOOL"], [7, 16, "CONTAINER_TYPE"], [35, 44, "ENVIRONMENT"], [58, 76, "CLUSTER_TYPE"]]}
+{"text": "Google Artifact Registry managed container images with vulnerability scanning", "entities": [[0, 6, "TOOL"], [7, 15, "TOOL"], [16, 24, "CONTAINER_TYPE"], [25, 32, "IMAGE_TYPE"]]}
+{"text": "eBPF Runtime Sensor detected syscall execve /bin/sh alerting on container escape attempt", "entities": [[0, 19, "TOOL"], [44, 51, "SYSCALL_TYPE"], [49, 60, "COMMAND"], [64, 80, "CONTAINER_TYPE"], [74, 88, "ATTACK_TYPE"]]}
+{"text": "Istio service mesh enforced mTLS and authorization policies", "entities": [[0, 5, "TOOL"], [6, 13, "MESH_TYPE"], [6, 18, "MESH_TYPE"], [28, 32, "PROTOCOL_TYPE"], [37, 59, "POLICY_TYPE"]]}
+{"text": "Image scanning coverage achieved 100% with zero critical vulnerabilities in production", "entities": [[0, 5, "IMAGE_TYPE"], [15, 23, "METRIC_TYPE"], [33, 37, "METRIC_TYPE"], [57, 75, "ENVIRONMENT"]]}
+{"text": "Kubernetes Compliance Scanner detected RBAC wildcard and etcd encryption missing", "entities": [[39, 52, "COMPLIANCE_TYPE"]]}
+{"text": "Snyk container scanner detected vulnerabilities in container images", "entities": [[0, 4, "TOOL"], [5, 14, "SCANNER_TYPE"], [32, 50, "VULNERABILITY_TYPE"], [51, 67, "CONTAINER_TYPE"]]}
+{"text": "SLSA provenance attestation validated build integrity for 38 of 40 images", "entities": [[0, 4, "FRAMEWORK"], [5, 15, "PROVENANCE_TYPE"], [38, 53, "INTEGRITY_TYPE"], [58, 60, "COUNT"], [61, 66, "IMAGE_TYPE"]]}
+{"text": "Kubernetes Compliance Scanner detected RBAC wildcard and etcd encryption missing", "entities": [[39, 52, "COMPLIANCE_TYPE"]]}
+{"text": "Container supply chain security validated 94% of images with signed provenance", "entities": [[0, 9, "CONTAINER_TYPE"], [10, 22, "SUPPLY_CHAIN_TYPE"], [32, 44, "METRIC_TYPE"], [42, 48, "METRIC_TYPE"], [61, 78, "PROVENANCE_TYPE"]]}
+{"text": "Container Security Strategist defined container security policy requiring image signing and RBAC", "entities": [[57, 63, "POLICY_TYPE"], [74, 87, "IMAGE_TYPE"]]}
+{"text": "Kube-bench security scanner validated cluster against CIS Kubernetes Benchmark", "entities": [[0, 10, "TOOL"], [38, 45, "CLUSTER_TYPE"], [54, 68, "PLATFORM_TYPE"], [58, 78, "STANDARD_TYPE"]]}
+{"text": "Kubeaudit security scanner detected misconfigurations in Kubernetes clusters", "entities": [[27, 53, "PLATFORM_TYPE"], [57, 76, "CLUSTER_TYPE"]]}
+{"text": "Runtime Threat Detection Tool detected crypto mining and container escape attempts", "entities": [[67, 82, "THREAT_TYPE"]]}
+{"text": "Docker Hub container registry provided public and private image repositories", "entities": [[0, 6, "TOOL"], [7, 10, "TOOL"], [11, 20, "CONTAINER_TYPE"], [21, 29, "REGISTRY_TYPE"], [30, 45, "IMAGE_TYPE"], [50, 57, "REPOSITORY_TYPE"], [58, 76, "REPOSITORY_TYPE"]]}
+{"text": "Google Container Registry provided image storage and vulnerability scanning", "entities": [[0, 6, "TOOL"], [7, 16, "CONTAINER_TYPE"], [17, 25, "REGISTRY_TYPE"], [35, 40, "IMAGE_TYPE"], [41, 48, "STORAGE_TYPE"], [53, 66, "VULNERABILITY_TYPE"]]}
+{"text": "Trivy container scanner identified 15 high severity CVEs in Docker image", "entities": [[0, 5, "TOOL"], [6, 15, "SCANNER_TYPE"], [24, 37, "COUNT"], [38, 51, "SEVERITY_TYPE"], [43, 51, "CVE_TYPE"], [52, 59, "CONTAINER_TYPE"], [60, 66, "IMAGE_TYPE"]]}
+{"text": "Secrets Scanner detected plaintext secrets in container environment variables", "entities": [[16, 34, "SECRET_TYPE"], [35, 55, "SECRET_TYPE"], [46, 67, "CONTAINER_TYPE"], [56, 77, "CONFIGURATION_TYPE"]]}
+{"text": "Backup Restore Tool Velero validated backup success with restore duration", "entities": [[0, 6, "TOOL"], [7, 14, "TOOL"], [37, 43, "BACKUP_TYPE"], [57, 73, "DURATION_TYPE"]]}
+{"text": "Container Platform Security Engineer hardened Kubernetes clusters enforcing admission controls", "entities": [[37, 45, "PLATFORM_TYPE"], [46, 56, "SECURITY_TYPE"], [46, 65, "ENGINEER_TYPE"]]}
+{"text": "Grype container scanner detected CVEs in container images and packages", "entities": [[0, 5, "TOOL"], [6, 15, "SCANNER_TYPE"], [38, 50, "CONTAINER_TYPE"], [41, 57, "IMAGE_TYPE"]]}
+{"text": "Kyverno policy engine validated container images requiring non-root user", "entities": [[0, 7, "TOOL"], [8, 21, "TOOL"], [42, 58, "CONTAINER_TYPE"]]}
+{"text": "Audit Checklist Tool validated container security controls against compliance frameworks", "entities": [[31, 49, "SECURITY_TYPE"], [41, 58, "CONTROL_TYPE"]]}
+{"text": "CI/CD Integration Tool blocked build 1234 due to unsigned image and critical vulnerabilities", "entities": [[31, 36, "BUILD_ID"], [42, 48, "ACTION_TYPE"], [49, 63, "IMAGE_TYPE"], [77, 92, "SEVERITY_TYPE"]]}
+{"text": "Trivy container scanner identified 15 high severity CVEs in Docker image", "entities": [[0, 5, "TOOL"], [6, 15, "SCANNER_TYPE"], [24, 37, "COUNT"], [38, 51, "SEVERITY_TYPE"], [43, 51, "CVE_TYPE"], [52, 59, "CONTAINER_TYPE"], [60, 66, "IMAGE_TYPE"]]}
+{"text": "Sysdig container security detected 8 runtime anomalies in production cluster", "entities": [[0, 6, "TOOL"], [7, 16, "CONTAINER_TYPE"], [35, 44, "ENVIRONMENT"], [58, 76, "CLUSTER_TYPE"]]}
+{"text": "Reporting Dashboard Tool generated container security KPIs showing compliance scores", "entities": [[25, 44, "CONTAINER_TYPE"]]}
+{"text": "Sysdig container security detected 8 runtime anomalies in production cluster", "entities": [[0, 6, "TOOL"], [7, 16, "CONTAINER_TYPE"], [35, 44, "ENVIRONMENT"], [58, 76, "CLUSTER_TYPE"]]}
+{"text": "Service Mesh Policy Tool validated mTLS enabled with authorization policy gaps", "entities": [[25, 39, "PROTOCOL_TYPE"], [35, 39, "PROTOCOL_TYPE"], [67, 78, "POLICY_TYPE"]]}
+{"text": "Kube-bench security scanner validated cluster against CIS Kubernetes Benchmark", "entities": [[0, 10, "TOOL"], [38, 45, "CLUSTER_TYPE"], [54, 68, "PLATFORM_TYPE"], [58, 78, "STANDARD_TYPE"]]}
+{"text": "CI/CD Integration Tool blocked build due to unsigned image and critical vulnerabilities", "entities": [[31, 36, "BUILD_ID"], [41, 52, "ACTION_TYPE"], [72, 87, "SEVERITY_TYPE"]]}
+{"text": "Container security compliance score improved to 92% meeting CIS and NIST standards", "entities": [[30, 35, "COMPLIANCE_TYPE"], [36, 44, "METRIC_TYPE"], [68, 82, "STANDARD_TYPE"]]}
+{"text": "Kubernetes RBAC enforcement achieved 98% with zero wildcard permissions", "entities": [[0, 27, "PLATFORM_TYPE"], [16, 27, "AUTH_TYPE"], [16, 36, "ENFORCEMENT_TYPE"], [37, 40, "METRIC_TYPE"], [51, 59, "METRIC_TYPE"], [60, 71, "PERMISSION_TYPE"]]}
+{"text": "GitOps reconciliation detected 5 configuration drifts creating pull requests", "entities": [[0, 6, "TOOL"], [22, 32, "METRIC_TYPE"], [33, 46, "CONFIGURATION_TYPE"]]}
+{"text": "GitOps Controller Tool validated SBOMs with provenance verification", "entities": [[33, 38, "COUNT"], [44, 67, "VERIFICATION_TYPE"]]}
+{"text": "Kube-hunter penetration testing tool identified Kubernetes cluster vulnerabilities", "entities": [[0, 11, "TOOL"], [12, 31, "TESTING_TYPE"], [37, 58, "PLATFORM_TYPE"], [48, 58, "CLUSTER_TYPE"], [67, 82, "VULNERABILITY_TYPE"]]}
+{"text": "Compliance Mapping Tool aligned container security with CIS NIST and PCI DSS", "entities": [[24, 41, "CONTAINER_TYPE"], [56, 59, "FRAMEWORK"], [60, 64, "FRAMEWORK"]]}
+{"text": "Falco runtime security detected privileged container escape attempt", "entities": [[0, 5, "TOOL"], [6, 13, "SECURITY_TYPE"], [23, 42, "CONTAINER_TYPE"], [32, 52, "PRIVILEGE_TYPE"], [43, 59, "CONTAINER_TYPE"]]}
+{"text": "Service Mesh Policy Tool validated mTLS enabled with authorization policy gaps", "entities": [[25, 39, "PROTOCOL_TYPE"], [35, 39, "PROTOCOL_TYPE"], [67, 78, "POLICY_TYPE"]]}
+{"text": "Harbor container registry enforced image scanning and vulnerability policies", "entities": [[0, 6, "TOOL"], [7, 16, "CONTAINER_TYPE"], [17, 25, "REGISTRY_TYPE"], [35, 40, "IMAGE_TYPE"], [54, 67, "VULNERABILITY_TYPE"], [68, 76, "POLICY_TYPE"]]}
+{"text": "Kubernetes Policy Enforcer enforced RBAC network policies and resource quotas", "entities": [[0, 10, "PLATFORM_TYPE"], [11, 17, "POLICY_TYPE"], [36, 40, "AUTH_TYPE"]]}
+{"text": "Consul Connect service mesh enforced service-to-service policies", "entities": [[0, 6, "TOOL"], [7, 14, "TOOL"], [23, 36, "MESH_TYPE"], [45, 55, "POLICY_TYPE"]]}
+{"text": "OPA Gatekeeper admission controller enforced policies blocking non-compliant pods", "entities": [[0, 3, "TOOL"], [4, 14, "TOOL"], [15, 35, "CONTROL_TYPE"], [25, 44, "CONTROL_TYPE"], [45, 62, "POLICY_TYPE"], [63, 76, "POD_TYPE"]]}
+{"text": "Container security false positive rate reduced to 2.1% improving alert accuracy", "entities": [[19, 33, "SECURITY_TYPE"], [50, 53, "METRIC_TYPE"], [65, 79, "METRIC_TYPE"]]}
+{"text": "Container Platform Security Engineer hardened Kubernetes clusters enforcing admission controls", "entities": [[37, 45, "PLATFORM_TYPE"], [46, 56, "SECURITY_TYPE"], [46, 65, "ENGINEER_TYPE"]]}
+{"text": "Container Security Strategist defined container security policy requiring image signing and RBAC", "entities": [[57, 63, "POLICY_TYPE"], [74, 87, "IMAGE_TYPE"]]}
+{"text": "Node Hardening Tool found compilers installed on 3 worker nodes requiring removal", "entities": [[36, 50, "SOFTWARE_TYPE"], [51, 63, "INSTALLATION_TYPE"]]}
+{"text": "Incident Response Tool isolated compromised pods and removed malware", "entities": [[23, 43, "RESPONSE_TYPE"]]}
+{"text": "GitOps Controller Tool validated SBOMs with provenance verification", "entities": [[33, 38, "COUNT"], [44, 67, "VERIFICATION_TYPE"]]}
+{"text": "GitLab Container Registry integrated image scanning with CI/CD pipelines", "entities": [[0, 6, "TOOL"], [7, 16, "CONTAINER_TYPE"], [7, 25, "REGISTRY_TYPE"], [37, 51, "SCANNING_TYPE"], [57, 72, "PIPELINE_TYPE"]]}
+{"text": "Risk Scoring Tool calculated container risk scores combining CVEs and exposure", "entities": [[44, 60, "CONTAINER_TYPE"], [51, 65, "SCORE_TYPE"]]}
+{"text": "Cilium eBPF-based networking enforced network policies and observability", "entities": [[0, 6, "TOOL"], [7, 17, "NETWORKING_TYPE"], [12, 28, "TOOL"], [29, 45, "POLICY_TYPE"]]}
+{"text": "Node Hardening Tool found compilers installed on worker nodes requiring removal", "entities": [[36, 55, "SOFTWARE_TYPE"], [49, 61, "INSTALLATION_TYPE"]]}
+{"text": "Compliance Framework Tool aligned container security with CIS Benchmarks NIST and PCI DSS", "entities": [[26, 43, "CONTAINER_TYPE"], [58, 72, "STANDARD_TYPE"]]}
+{"text": "Quay container registry enforced image scanning and security policies", "entities": [[0, 4, "TOOL"], [5, 23, "CONTAINER_TYPE"], [15, 32, "REGISTRY_TYPE"], [33, 47, "IMAGE_TYPE"]]}
+{"text": "Kyverno policy engine enforced Kubernetes policies with validation and mutation", "entities": [[0, 7, "TOOL"], [8, 21, "POLICY_TYPE"], [15, 21, "ENGINE_TYPE"], [31, 41, "PLATFORM_TYPE"], [42, 50, "POLICY_TYPE"]]}
+{"text": "Node Hardening Tool found compilers installed on worker nodes requiring removal", "entities": [[36, 55, "SOFTWARE_TYPE"], [49, 61, "INSTALLATION_TYPE"]]}
+{"text": "Compliance Framework Tool aligned container security with CIS Benchmarks NIST and PCI DSS", "entities": [[26, 43, "CONTAINER_TYPE"], [58, 72, "STANDARD_TYPE"]]}
+{"text": "Sealed Secrets Kubernetes operator encrypted secrets for GitOps workflows", "entities": [[0, 6, "SECRET_TYPE"], [7, 14, "SECRET_TYPE"], [15, 25, "PLATFORM_TYPE"], [35, 52, "SECRET_TYPE"], [57, 63, "TOOL"], [64, 73, "WORKFLOW_TYPE"]]}
+{"text": "Falco runtime security detected privileged container escape attempt", "entities": [[0, 5, "TOOL"], [6, 13, "SECURITY_TYPE"], [23, 42, "CONTAINER_TYPE"], [32, 52, "PRIVILEGE_TYPE"], [43, 59, "CONTAINER_TYPE"]]}
+{"text": "Admission Controller Manager enforced signed images policy denying deployments", "entities": [[0, 28, "TOOL"], [38, 44, "POLICY_TYPE"], [45, 58, "IMAGE_TYPE"], [52, 66, "SIGNING_TYPE"]]}
+{"text": "Longhorn container storage provided distributed block storage for Kubernetes", "entities": [[0, 8, "TOOL"], [9, 18, "CONTAINER_TYPE"], [19, 26, "STORAGE_TYPE"]]}
+{"text": "eBPF Runtime Sensor detected syscall execve /bin/sh alerting on container escape", "entities": [[0, 19, "TOOL"], [44, 51, "SYSCALL_TYPE"], [49, 60, "COMMAND"], [64, 80, "CONTAINER_TYPE"]]}
+{"text": "JFrog Artifactory container registry managed image distribution and security", "entities": [[0, 5, "TOOL"], [6, 17, "TOOL"], [18, 27, "CONTAINER_TYPE"], [28, 36, "REGISTRY_TYPE"], [45, 50, "IMAGE_TYPE"]]}
+{"text": "Clair container scanner identified vulnerable packages in container images", "entities": [[0, 5, "TOOL"], [6, 15, "SCANNER_TYPE"], [24, 45, "PACKAGE_TYPE"], [35, 54, "CONTAINER_TYPE"], [46, 57, "IMAGE_TYPE"]]}
+{"text": "Backup Restore Tool Velero validated backup success with restore duration", "entities": [[0, 6, "TOOL"], [7, 14, "TOOL"], [37, 43, "BACKUP_TYPE"], [57, 73, "DURATION_TYPE"]]}
+{"text": "Container Security Strategist defined container security policy requiring image signing and RBAC", "entities": [[57, 63, "POLICY_TYPE"], [74, 87, "IMAGE_TYPE"]]}
+{"text": "Falco runtime security detected privileged container escape attempt", "entities": [[0, 5, "TOOL"], [6, 13, "SECURITY_TYPE"], [23, 42, "CONTAINER_TYPE"], [32, 52, "PRIVILEGE_TYPE"], [43, 59, "CONTAINER_TYPE"]]}
+{"text": "Google Container Registry provided image storage and vulnerability scanning", "entities": [[0, 6, "TOOL"], [7, 16, "CONTAINER_TYPE"], [17, 25, "REGISTRY_TYPE"], [35, 40, "IMAGE_TYPE"], [41, 48, "STORAGE_TYPE"], [53, 66, "VULNERABILITY_TYPE"]]}
+{"text": "Risk Scoring Tool calculated container risk scores combining CVEs and exposure", "entities": [[44, 60, "CONTAINER_TYPE"], [51, 65, "SCORE_TYPE"]]}
+{"text": "GitHub Container Registry provided image storage and vulnerability scanning", "entities": [[0, 6, "TOOL"], [7, 16, "CONTAINER_TYPE"], [17, 25, "REGISTRY_TYPE"], [35, 40, "IMAGE_TYPE"], [41, 48, "STORAGE_TYPE"], [53, 66, "VULNERABILITY_TYPE"]]}
+{"text": "Portworx container storage provided persistent volumes and encryption", "entities": [[0, 8, "TOOL"], [9, 18, "CONTAINER_TYPE"], [19, 26, "STORAGE_TYPE"], [36, 46, "VOLUME_TYPE"]]}
+{"text": "Container Security Strategist defined container security strategy across build deploy and runtime", "entities": [[73, 78, "BUILD_TYPE"]]}
+{"text": "Container Image Scanner detected 12 critical vulnerabilities in 100 scanned images", "entities": [[24, 44, "COUNT"], [45, 60, "VULNERABILITY_TYPE"], [64, 67, "COUNT"]]}
+{"text": "Audit Checklist Tool validated container security controls against compliance frameworks", "entities": [[31, 49, "SECURITY_TYPE"], [41, 58, "CONTROL_TYPE"]]}
+{"text": "CNI Network Policy Analyzer identified isolation gap allowing nsA to nsB cross-namespace egress", "entities": [[28, 48, "POLICY_TYPE"], [69, 72, "GAP_TYPE"], [79, 95, "NAMESPACE"]]}
+{"text": "Incident Response Tool isolated compromised pods and removed malware", "entities": [[23, 43, "RESPONSE_TYPE"]]}
+{"text": "Kube-hunter penetration testing tool identified Kubernetes cluster vulnerabilities", "entities": [[0, 11, "TOOL"], [12, 31, "TESTING_TYPE"], [37, 58, "PLATFORM_TYPE"], [48, 58, "CLUSTER_TYPE"], [67, 82, "VULNERABILITY_TYPE"]]}
+{"text": "Kubernetes Policy Enforcer enforced RBAC network policies and resource quotas", "entities": [[0, 10, "PLATFORM_TYPE"], [11, 17, "POLICY_TYPE"], [36, 40, "AUTH_TYPE"]]}
+{"text": "Runtime Threat Detection Tool identified crypto miner in podX requiring isolation", "entities": [[30, 47, "ENVIRONMENT"], [41, 53, "THREAT_TYPE"], [48, 61, "DETECTION_TYPE"]]}
+{"text": "Azure Container Registry enforced image scanning and vulnerability assessment", "entities": [[0, 5, "CLOUD_PROVIDER"], [6, 15, "CONTAINER_TYPE"], [6, 24, "REGISTRY_TYPE"], [25, 39, "IMAGE_TYPE"], [67, 77, "ASSESSMENT_TYPE"]]}
+{"text": "Aqua Security platform scanned 500 container images with 98% compliance", "entities": [[31, 34, "COUNT"], [35, 44, "CONTAINER_TYPE"], [35, 51, "IMAGE_TYPE"]]}
+{"text": "JFrog Artifactory container registry managed image distribution and security", "entities": [[0, 5, "TOOL"], [6, 17, "TOOL"], [18, 27, "CONTAINER_TYPE"], [28, 36, "REGISTRY_TYPE"], [45, 50, "IMAGE_TYPE"]]}
+{"text": "Prisma Cloud container scanner found 12 critical vulnerabilities requiring patching", "entities": [[0, 12, "TOOL"], [49, 74, "VULNERABILITY_TYPE"]]}
+{"text": "Image scanning coverage achieved 100% with zero critical vulnerabilities in production", "entities": [[0, 5, "IMAGE_TYPE"], [15, 23, "METRIC_TYPE"], [33, 37, "METRIC_TYPE"], [57, 75, "ENVIRONMENT"]]}
+{"text": "Google Artifact Registry managed container images with vulnerability scanning", "entities": [[0, 6, "TOOL"], [7, 15, "TOOL"], [16, 24, "CONTAINER_TYPE"], [25, 32, "IMAGE_TYPE"]]}
+{"text": "Sysdig container security detected 8 runtime anomalies in production cluster", "entities": [[0, 6, "TOOL"], [7, 16, "CONTAINER_TYPE"], [35, 44, "ENVIRONMENT"], [58, 76, "CLUSTER_TYPE"]]}
+{"text": "Trivy container scanner identified 15 high severity CVEs in Docker image", "entities": [[0, 5, "TOOL"], [6, 15, "SCANNER_TYPE"], [24, 37, "COUNT"], [38, 51, "SEVERITY_TYPE"], [43, 51, "CVE_TYPE"], [52, 59, "CONTAINER_TYPE"], [60, 66, "IMAGE_TYPE"]]}
+{"text": "Trivy container scanner identified 15 high severity CVEs in Docker image", "entities": [[0, 5, "TOOL"], [6, 15, "SCANNER_TYPE"], [24, 37, "COUNT"], [38, 51, "SEVERITY_TYPE"], [43, 51, "CVE_TYPE"], [52, 59, "CONTAINER_TYPE"], [60, 66, "IMAGE_TYPE"]]}
+{"text": "Image scanning coverage achieved 100% with zero critical vulnerabilities in production", "entities": [[0, 5, "IMAGE_TYPE"], [15, 23, "METRIC_TYPE"], [33, 37, "METRIC_TYPE"], [57, 75, "ENVIRONMENT"]]}
+{"text": "Drift Detection Tool found pod running unauthorized image requiring rollback", "entities": [[27, 38, "POD_NAME"], [39, 51, "IMAGE_TYPE"], [39, 67, "AUTHORIZATION_STATUS"]]}
+{"text": "Kyverno policy engine enforced Kubernetes policies with validation and mutation", "entities": [[0, 7, "TOOL"], [8, 21, "POLICY_TYPE"], [15, 21, "ENGINE_TYPE"], [31, 41, "PLATFORM_TYPE"], [42, 50, "POLICY_TYPE"]]}
+{"text": "Sysdig container security detected 8 runtime anomalies in production cluster", "entities": [[0, 6, "TOOL"], [7, 16, "CONTAINER_TYPE"], [35, 44, "ENVIRONMENT"], [58, 76, "CLUSTER_TYPE"]]}
+{"text": "Container security training completion reached 88% for all DevOps engineers", "entities": [[39, 46, "COMPLETION_TYPE"], [47, 50, "METRIC_TYPE"], [59, 65, "ROLE_TYPE"]]}
+{"text": "Container Policy Generator created container security policies with image signing and RBAC", "entities": [[35, 44, "POLICY_TYPE"], [68, 81, "SECURITY_TYPE"]]}
+{"text": "Runtime Threat Detection Tool identified crypto miner in podX requiring isolation", "entities": [[30, 47, "ENVIRONMENT"], [41, 53, "THREAT_TYPE"], [48, 61, "DETECTION_TYPE"]]}
+{"text": "Container security compliance score improved to 92% meeting CIS and NIST standards", "entities": [[30, 35, "COMPLIANCE_TYPE"], [36, 44, "METRIC_TYPE"], [68, 82, "STANDARD_TYPE"]]}
+{"text": "Portworx container storage provided persistent volumes and encryption", "entities": [[0, 8, "TOOL"], [9, 18, "CONTAINER_TYPE"], [19, 26, "STORAGE_TYPE"], [36, 46, "VOLUME_TYPE"]]}
+{"text": "GitOps reconciliation detected 5 configuration drifts creating pull requests", "entities": [[0, 6, "TOOL"], [22, 32, "METRIC_TYPE"], [33, 46, "CONFIGURATION_TYPE"]]}
+{"text": "Kyverno policy engine enforced Kubernetes policies with validation and mutation", "entities": [[0, 7, "TOOL"], [8, 21, "POLICY_TYPE"], [15, 21, "ENGINE_TYPE"], [31, 41, "PLATFORM_TYPE"], [42, 50, "POLICY_TYPE"]]}
+{"text": "Runtime Threat Detection Tool detected crypto mining and container escape attempts", "entities": [[67, 82, "THREAT_TYPE"]]}
+{"text": "Container Security Compliance Analyst audited container and Kubernetes security posture", "entities": [[46, 55, "COMPLIANCE_TYPE"]]}
+{"text": "Node Hardening Tool found compilers installed on worker nodes requiring removal", "entities": [[36, 55, "SOFTWARE_TYPE"], [49, 61, "INSTALLATION_TYPE"]]}
+{"text": "Trivy container scanner identified 15 high severity CVEs in Docker image", "entities": [[0, 5, "TOOL"], [6, 15, "SCANNER_TYPE"], [24, 37, "COUNT"], [38, 51, "SEVERITY_TYPE"], [43, 51, "CVE_TYPE"], [52, 59, "CONTAINER_TYPE"], [60, 66, "IMAGE_TYPE"]]}
+{"text": "Quay container registry enforced image scanning and security policies", "entities": [[0, 4, "TOOL"], [5, 23, "CONTAINER_TYPE"], [15, 32, "REGISTRY_TYPE"], [33, 47, "IMAGE_TYPE"]]}
+{"text": "Compliance Mapping Tool aligned container security with CIS NIST and PCI DSS", "entities": [[24, 41, "CONTAINER_TYPE"], [56, 59, "FRAMEWORK"], [60, 64, "FRAMEWORK"]]}
+{"text": "Istio service mesh enforced mTLS and authorization policies", "entities": [[0, 5, "TOOL"], [6, 13, "MESH_TYPE"], [6, 18, "MESH_TYPE"], [28, 32, "PROTOCOL_TYPE"], [37, 59, "POLICY_TYPE"]]}
+{"text": "Aqua Security platform scanned 500 container images with 98% compliance", "entities": [[31, 34, "COUNT"], [35, 44, "CONTAINER_TYPE"], [35, 51, "IMAGE_TYPE"]]}
+{"text": "External Secrets Operator synchronized secrets from external secret stores", "entities": [[0, 8, "SECRET_TYPE"], [9, 16, "SECRET_TYPE"], [26, 46, "SECRET_TYPE"], [52, 60, "SECRET_TYPE"], [61, 74, "STORE_TYPE"]]}
+{"text": "EDR XDR Tool monitored container runtime detecting malicious activity", "entities": [[0, 3, "TOOL"], [4, 7, "TOOL"], [13, 32, "CONTAINER_TYPE"], [23, 40, "ENVIRONMENT"], [51, 69, "ACTIVITY_TYPE"]]}
+{"text": "Linkerd service mesh provided mTLS and traffic policies for microservices", "entities": [[0, 7, "TOOL"], [8, 15, "MESH_TYPE"], [16, 20, "MESH_TYPE"], [30, 34, "PROTOCOL_TYPE"], [39, 55, "TRAFFIC_TYPE"]]}
+{"text": "OPA Gatekeeper admission controller enforced policy blocking privileged pods", "entities": [[0, 3, "TOOL"], [4, 14, "TOOL"], [15, 35, "CONTROLLER_TYPE"], [25, 44, "ENFORCEMENT_TYPE"], [45, 60, "POLICY_TYPE"], [61, 71, "PRIVILEGE_TYPE"], [72, 76, "RESOURCE_TYPE"]]}
+{"text": "JFrog Artifactory container registry managed image distribution and security", "entities": [[0, 5, "TOOL"], [6, 17, "TOOL"], [18, 27, "CONTAINER_TYPE"], [28, 36, "REGISTRY_TYPE"], [45, 50, "IMAGE_TYPE"]]}
+{"text": "Istio service mesh enforced mTLS and authorization policies", "entities": [[0, 5, "TOOL"], [6, 13, "MESH_TYPE"], [6, 18, "MESH_TYPE"], [28, 32, "PROTOCOL_TYPE"], [37, 59, "POLICY_TYPE"]]}
+{"text": "Image scanning coverage achieved 100% with zero critical vulnerabilities in production", "entities": [[0, 5, "IMAGE_TYPE"], [15, 23, "METRIC_TYPE"], [33, 37, "METRIC_TYPE"], [57, 75, "ENVIRONMENT"]]}
+{"text": "SLSA provenance attestation validated build integrity for 38 of 40 images", "entities": [[0, 4, "FRAMEWORK"], [5, 15, "PROVENANCE_TYPE"], [38, 53, "INTEGRITY_TYPE"], [58, 60, "COUNT"], [61, 66, "IMAGE_TYPE"]]}
+{"text": "CI/CD Integration Tool blocked build due to unsigned image and critical vulnerabilities", "entities": [[31, 36, "BUILD_ID"], [41, 52, "ACTION_TYPE"], [72, 87, "SEVERITY_TYPE"]]}
+{"text": "Linkerd service mesh provided mTLS and traffic policies for microservices", "entities": [[0, 7, "TOOL"], [8, 15, "MESH_TYPE"], [16, 20, "MESH_TYPE"], [30, 34, "PROTOCOL_TYPE"], [39, 55, "TRAFFIC_TYPE"]]}
+{"text": "GitLab Container Registry integrated image scanning with CI/CD pipelines", "entities": [[0, 6, "TOOL"], [7, 16, "CONTAINER_TYPE"], [7, 25, "REGISTRY_TYPE"], [37, 51, "SCANNING_TYPE"], [57, 72, "PIPELINE_TYPE"]]}
+{"text": "Azure Container Registry enforced image scanning and vulnerability assessment", "entities": [[0, 5, "CLOUD_PROVIDER"], [6, 15, "CONTAINER_TYPE"], [6, 24, "REGISTRY_TYPE"], [25, 39, "IMAGE_TYPE"], [67, 77, "ASSESSMENT_TYPE"]]}
+{"text": "Secrets Scanner detected plaintext secrets in container environment variables", "entities": [[16, 34, "SECRET_TYPE"], [35, 55, "SECRET_TYPE"], [46, 67, "CONTAINER_TYPE"], [56, 77, "CONFIGURATION_TYPE"]]}
+{"text": "Can you help me with this?", "entities": []}
+{"text": "I need to check something.", "entities": []}
+{"text": "What is the status?", "entities": []}
+{"text": "How do I do this?", "entities": []}
+{"text": "Tell me more about it.", "entities": []}
+{"text": "Is this safe to use?", "entities": []}
+{"text": "Let me know if you need anything.", "entities": []}
+{"text": "Thanks for your help.", "entities": []}
+{"text": "I will get back to you.", "entities": []}
+{"text": "Please review this document.", "entities": []}
+{"text": "What should I do next?", "entities": []}
+{"text": "How does this work?", "entities": []}
+{"text": "Why is this happening?", "entities": []}
+{"text": "When will this be ready?", "entities": []}
+{"text": "Where can I find this?", "entities": []}
+{"text": "Who should I contact?", "entities": []}
+{"text": "Hey, what's up?", "entities": []}
+{"text": "That's interesting.", "entities": []}
+{"text": "I see what you mean.", "entities": []}
+{"text": "That makes sense.", "entities": []}
+{"text": "Got it, thanks.", "entities": []}
+{"text": "Follow the steps carefully.", "entities": []}
+{"text": "Make sure to save your work.", "entities": []}
+{"text": "Check the settings first.", "entities": []}
+{"text": "Review the documentation.", "entities": []}
+{"text": "Read the instructions.", "entities": []}
+{"text": "This is important.", "entities": []}
+{"text": "That looks good.", "entities": []}
+{"text": "Everything seems fine.", "entities": []}
+{"text": "Nothing to report.", "entities": []}
+{"text": "All systems operational.", "entities": []}
+{"text": "The system is secure.", "entities": []}
+{"text": "All checks passed.", "entities": []}
+{"text": "No issues detected.", "entities": []}
+{"text": "Everything is working correctly.", "entities": []}
+{"text": "The configuration looks good.", "entities": []}
+{"text": "No vulnerabilities found.", "entities": []}
+{"text": "Security measures are in place.", "entities": []}
+{"text": "The audit was successful.", "entities": []}
+{"text": "The information is verified.", "entities": []}

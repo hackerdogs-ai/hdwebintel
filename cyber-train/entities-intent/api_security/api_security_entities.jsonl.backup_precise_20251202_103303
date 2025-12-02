@@ -1,0 +1,440 @@
+{"text": "API Gateway Security Tool blocked 23 rate limit violations from IP 192.168.1.100", "entities": [[67, 80, "IP_ADDRESS"]]}
+{"text": "API Dependency Scanner identified 12 vulnerabilities in 80 third-party SDKs and libraries", "entities": [[0, 3, "API_TYPE"], [4, 14, "DEPENDENCY_TYPE"], [34, 46, "VULNERABILITY_TYPE"], [53, 70, "DEPENDENCY_TYPE"], [65, 70, "DEPENDENCY_TYPE"]]}
+{"text": "Azure API Management detected JWT token reuse attack across multiple API endpoints", "entities": [[0, 5, "CLOUD_PROVIDER"], [6, 20, "GATEWAY_TYPE"], [28, 33, "TOKEN_TYPE"], [34, 39, "ATTACK_TYPE"]]}
+{"text": "API dependency security audit found critical vulnerability in libX version 1.2 requiring update", "entities": [[0, 3, "API_TYPE"], [4, 14, "DEPENDENCY_TYPE"], [43, 50, "VULNERABILITY_TYPE"], [59, 66, "VERSION_TAG"], [75, 81, "ACTION_TYPE"]]}
+{"text": "Depth Limiter blocked GraphQL query exceeding maximum depth of 10 levels", "entities": [[0, 13, "TOOL"], [20, 35, "QUERY_TYPE"], [30, 45, "API_TYPE"], [46, 53, "COUNT"], [54, 62, "LEVEL_TYPE"]]}
+{"text": "API metrics report showed 15 schema violations and 30 rate limit breaches in last quarter", "entities": [[0, 3, "API_TYPE"], [29, 35, "VIOLATION_TYPE"]]}
+{"text": "API security coverage achieved 98% with zero critical vulnerabilities in production", "entities": [[0, 3, "API_TYPE"], [13, 21, "METRIC_TYPE"], [31, 33, "METRIC_TYPE"], [62, 72, "ENVIRONMENT"]]}
+{"text": "Apigee API Gateway enforced API key rotation policy for external partner integrations", "entities": [[0, 6, "TOOL"], [7, 18, "GATEWAY_TYPE"], [26, 35, "KEY_TYPE"], [56, 66, "INTEGRATION_TYPE"]]}
+{"text": "Reporting Dashboard Tool generated executive KPIs showing 85% audit score and 72 risk score", "entities": [[10, 19, "DASHBOARD_TYPE"], [68, 73, "SCORE_TYPE"], [81, 85, "SCORE_TYPE"]]}
+{"text": "API rate limiting effectiveness improved to 95% blocking abuse attempts", "entities": [[0, 3, "API_TYPE"], [18, 31, "METRIC_TYPE"], [55, 62, "ATTACK_TYPE"]]}
+{"text": "API Gateway Administrator configured rate limiting to 1000 requests per minute on payment API", "entities": [[51, 58, "COUNT"], [59, 67, "TIME_UNIT"], [72, 78, "API_CATEGORY"], [79, 83, "API_TYPE"]]}
+{"text": "Insomnia API client tested authentication bypass vulnerability in REST API", "entities": [[0, 8, "TOOL"], [9, 19, "CLIENT_TYPE"], [49, 62, "API_TYPE"]]}
+{"text": "API Usage Analytics Tool detected credential stuffing pattern with 500 failed logins", "entities": [[0, 3, "API_TYPE"], [4, 9, "USAGE_TYPE"], [10, 19, "ANALYTICS_TYPE"]]}
+{"text": "API security testing coverage achieved 92% with automated scans in CI/CD pipeline", "entities": [[0, 3, "API_TYPE"], [21, 29, "METRIC_TYPE"]]}
+{"text": "GraphQL security violations detected 5 queries exceeding cost analysis thresholds", "entities": [[0, 7, "API_TYPE"], [37, 46, "QUERY_TYPE"]]}
+{"text": "API Security Tester discovered shadow API /internal/admin exposed without authentication", "entities": [[38, 57, "ENDPOINT_PATH"]]}
+{"text": "API Gateway Security Tool blocked 23 rate limit violations from IP 192.168.1.100", "entities": [[67, 80, "IP_ADDRESS"]]}
+{"text": "API Dependency Scanner found 12 vulnerabilities in third-party SDKs used by APIs", "entities": [[29, 47, "VULNERABILITY_TYPE"], [51, 62, "DEPENDENCY_TYPE"], [63, 72, "API_TYPE"]]}
+{"text": "Salt Security platform blocked 247 API abuse attempts including credential stuffing attacks", "entities": [[23, 44, "ATTACK_TYPE"]]}
+{"text": "API Behavior Analyst detected anomaly in login API call frequency exceeding baseline by 300%", "entities": [[0, 22, "ROLE"], [30, 37, "ANOMALY_TYPE"], [41, 50, "API_CATEGORY"]]}
+{"text": "Query Cost Analyzer detected expensive GraphQL query consuming 500ms execution time", "entities": [[27, 38, "QUERY_TYPE"], [36, 46, "API_TYPE"], [47, 52, "METRIC_TYPE"]]}
+{"text": "API Risk Scoring Tool calculated average risk score of 72 for 150 APIs with high-risk /payments", "entities": [[0, 3, "API_TYPE"], [4, 8, "RISK_TYPE"], [31, 40, "RISK_TYPE"], [33, 45, "SCORE_TYPE"], [46, 51, "COUNT"], [62, 70, "RISK_TYPE"]]}
+{"text": "42Crunch platform identified excessive data exposure in REST API response containing PII", "entities": [[0, 11, "TOOL"], [53, 60, "API_TYPE"], [61, 73, "RESPONSE_TYPE"], [74, 84, "DATA_TYPE"]]}
+{"text": "WAF/API Threat Detection Tool blocked BOLA attack on /orders endpoint with user ID manipulation", "entities": [[38, 42, "ATTACK_TYPE"], [43, 54, "ENDPOINT_PATH"], [61, 69, "RESOURCE_TYPE"]]}
+{"text": "API security training completion reached 98% for all API developers and engineers", "entities": [[0, 3, "API_TYPE"], [39, 43, "API_TYPE"], [57, 67, "ROLE_TYPE"]]}
+{"text": "API Security Operations Engineer discovered 12 shadow APIs and 5 zombie APIs using API Discovery Tool", "entities": [[42, 53, "API_TYPE"], [63, 71, "API_TYPE"], [72, 82, "COUNT"]]}
+{"text": "Salt Security platform blocked 247 API abuse attempts including credential stuffing attacks", "entities": [[23, 44, "ATTACK_TYPE"]]}
+{"text": "API incident response isolated /orders endpoint and revoked 12 compromised API tokens", "entities": [[0, 3, "API_TYPE"], [31, 38, "ENDPOINT_PATH"], [60, 74, "TOKEN_STATUS"]]}
+{"text": "API schema validation coverage reached 100% for all REST and GraphQL endpoints", "entities": [[0, 3, "API_TYPE"], [4, 13, "VALIDATION_TYPE"], [29, 32, "METRIC_TYPE"], [37, 42, "API_TYPE"]]}
+{"text": "Risk Scoring Tool calculated API risk score of 0.72 for payment processing endpoint", "entities": [[38, 46, "METRIC_TYPE"], [56, 65, "ENDPOINT_TYPE"]]}
+{"text": "Runtime Behavior Analysis Tool flagged unusual API call sequence indicating account takeover", "entities": [[31, 46, "API_CALL_TYPE"], [39, 50, "SEQUENCE_TYPE"], [56, 75, "ATTACK_TYPE"]]}
+{"text": "API audit findings included 12 shadow APIs and weak RBAC requiring remediation actions", "entities": [[0, 3, "API_TYPE"]]}
+{"text": "AWS API Gateway logged unauthorized access attempt from IP 203.0.113.45 to /v1/customers", "entities": [[0, 3, "CLOUD_PROVIDER"], [4, 15, "GATEWAY_TYPE"], [23, 42, "ACCESS_TYPE"], [59, 71, "IP_ADDRESS"]]}
+{"text": "DevSecOps Engineer integrated OWASP ZAP into CI/CD pipeline for automated API security scanning", "entities": [[0, 18, "ROLE"], [40, 50, "PIPELINE_TYPE"]]}
+{"text": "API rate limiting effectiveness improved to 95% blocking abuse attempts", "entities": [[0, 3, "API_TYPE"], [18, 31, "METRIC_TYPE"], [55, 62, "ATTACK_TYPE"]]}
+{"text": "API security training completion reached 98% for all API developers and engineers", "entities": [[0, 3, "API_TYPE"], [39, 43, "API_TYPE"], [57, 67, "ROLE_TYPE"]]}
+{"text": "API Drift Detection Tool identified unauthorized changes to /beta/login endpoint requiring rollback", "entities": [[0, 3, "API_TYPE"], [4, 9, "DRIFT_TYPE"], [25, 42, "CHANGE_TYPE"], [46, 59, "ENDPOINT_PATH"], [66, 80, "ACTION_TYPE"]]}
+{"text": "Query Cost Analyzer detected expensive GraphQL query consuming 500ms execution time", "entities": [[27, 38, "QUERY_TYPE"], [36, 46, "API_TYPE"], [47, 52, "METRIC_TYPE"]]}
+{"text": "API incident response isolated /orders endpoint and revoked 12 compromised API tokens", "entities": [[0, 3, "API_TYPE"], [31, 38, "ENDPOINT_PATH"], [60, 74, "TOKEN_STATUS"]]}
+{"text": "Compliance Mapping Tool aligned API security controls with PCI DSS requirements", "entities": []}
+{"text": "API gateway security configuration validated with zero misconfigurations detected", "entities": [[0, 3, "API_TYPE"], [4, 11, "GATEWAY_TYPE"]]}
+{"text": "API metrics report showed 15 schema violations and 30 rate limit breaches in last quarter", "entities": [[0, 3, "API_TYPE"], [29, 35, "VIOLATION_TYPE"]]}
+{"text": "mTLS Certificate Manager rotated TLS certificates for 45 service-to-service API connections", "entities": [[0, 24, "TOOL"], [33, 49, "CERTIFICATE_TYPE"], [54, 75, "CONNECTION_TYPE"]]}
+{"text": "Runtime Behavior Analysis Tool flagged unusual API call sequence indicating account takeover", "entities": [[31, 46, "API_CALL_TYPE"], [39, 50, "SEQUENCE_TYPE"], [56, 75, "ATTACK_TYPE"]]}
+{"text": "SIEM Tool integrated API threat alerts with 45 critical alerts escalated to incident response", "entities": [[0, 4, "TOOL"], [10, 20, "TOOL"], [25, 38, "THREAT_TYPE"]]}
+{"text": "Service Identity Manager assigned workload identity to inventory-service accessing database API", "entities": [[0, 24, "TOOL"], [31, 51, "IDENTITY_TYPE"], [52, 72, "SERVICE_NAME"]]}
+{"text": "Risk Scoring Tool calculated API risk score of 0.72 for payment processing endpoint", "entities": [[38, 46, "METRIC_TYPE"], [56, 65, "ENDPOINT_TYPE"]]}
+{"text": "Schema Validator blocked 10 non-compliant requests violating OpenAPI schema for REST API", "entities": [[23, 31, "COUNT"], [28, 41, "REQUEST_TYPE"], [58, 68, "SCHEMA_TYPE"], [69, 75, "API_TYPE"]]}
+{"text": "Burp Suite Community detected NoSQL injection in MongoDB API endpoint /api/data/query", "entities": [[0, 20, "TOOL"], [49, 56, "DATABASE_TYPE"], [57, 60, "API_TYPE"], [61, 79, "ENDPOINT_PATH"]]}
+{"text": "Azure API Management detected JWT token reuse attack across multiple API endpoints", "entities": [[0, 5, "CLOUD_PROVIDER"], [6, 20, "GATEWAY_TYPE"], [28, 33, "TOKEN_TYPE"], [34, 39, "ATTACK_TYPE"]]}
+{"text": "API security audit score of 85% with findings including shadow APIs and weak RBAC", "entities": [[0, 3, "API_TYPE"], [19, 24, "METRIC_TYPE"], [19, 27, "METRIC_TYPE"]]}
+{"text": "API Drift Detection Tool identified unauthorized changes to /beta/login endpoint requiring rollback", "entities": [[0, 3, "API_TYPE"], [4, 9, "DRIFT_TYPE"], [25, 42, "CHANGE_TYPE"], [46, 59, "ENDPOINT_PATH"], [66, 80, "ACTION_TYPE"]]}
+{"text": "API Policy Generator created enterprise API security policy with OAuth2 MFA and rate limiting", "entities": [[0, 3, "API_TYPE"], [4, 10, "POLICY_TYPE"], [29, 39, "API_TYPE"], [40, 52, "SECURITY_TYPE"], [44, 59, "POLICY_TYPE"], [65, 71, "AUTH_TYPE"]]}
+{"text": "Third-party API integration security assessed with 15 partners requiring security reviews", "entities": [[0, 11, "INTEGRATION_TYPE"], [12, 15, "API_TYPE"], [16, 27, "SECURITY_TYPE"], [28, 45, "PARTNER_TYPE"], [51, 62, "SECURITY_TYPE"], [61, 72, "REVIEW_TYPE"]]}
+{"text": "API security incident INC789 isolated /orders endpoint and revoked 12 compromised tokens", "entities": [[0, 3, "API_TYPE"], [22, 28, "INCIDENT_ID"], [59, 69, "TOKEN_STATUS"]]}
+{"text": "Business Logic Abuse Detection identified cart inflation attack on shopping cart API", "entities": [[0, 8, "BUSINESS_TYPE"], [7, 14, "LOGIC_TYPE"], [9, 20, "ABUSE_TYPE"], [38, 46, "ATTACK_TYPE"], [42, 50, "ATTACK_TYPE"]]}
+{"text": "Compliance Mapping Tool validated API security against GDPR PCI DSS and SOC2 requirements", "entities": [[38, 54, "SECURITY_TYPE"], [55, 59, "FRAMEWORK"], [60, 67, "FRAMEWORK"], [72, 76, "FRAMEWORK"]]}
+{"text": "API Inventory Manager cataloged 150 APIs across 4 different API gateway platforms", "entities": [[0, 21, "TOOL"], [32, 35, "COUNT"], [36, 40, "API_TYPE"], [50, 71, "GATEWAY_TYPE"], [64, 75, "PLATFORM_TYPE"]]}
+{"text": "SPIRE Tool validated workload identity for payment-service accessing order API", "entities": [[0, 5, "TOOL"], [51, 68, "API_CATEGORY"]]}
+{"text": "SPIRE Tool validated workload identity for payment-service accessing order API", "entities": [[0, 5, "TOOL"], [51, 68, "API_CATEGORY"]]}
+{"text": "API Governance Tool detected drift in /beta/login endpoint requiring rollback", "entities": [[26, 34, "METRIC_TYPE"], [35, 49, "ENDPOINT_PATH"]]}
+{"text": "API security testing coverage achieved 92% with automated scans in CI/CD pipeline", "entities": [[0, 3, "API_TYPE"], [21, 29, "METRIC_TYPE"]]}
+{"text": "Audit Checklist Tool validated 150 APIs against OWASP API Top 10 finding 8 violations", "entities": [[31, 34, "API_TYPE"], [46, 53, "API_TYPE"]]}
+{"text": "SIEM Tool correlated API security alerts with network anomalies identifying coordinated attack", "entities": []}
+{"text": "Audit Checklist Tool validated 150 APIs against OWASP API Top 10 finding 8 violations", "entities": [[31, 34, "API_TYPE"], [46, 53, "API_TYPE"]]}
+{"text": "Azure API Management detected JWT token reuse attack across multiple API endpoints", "entities": [[0, 5, "CLOUD_PROVIDER"], [6, 20, "GATEWAY_TYPE"], [28, 33, "TOKEN_TYPE"], [34, 39, "ATTACK_TYPE"]]}
+{"text": "API Dependency Scanner found 12 vulnerabilities in third-party SDKs used by APIs", "entities": [[29, 47, "VULNERABILITY_TYPE"], [51, 62, "DEPENDENCY_TYPE"], [63, 72, "API_TYPE"]]}
+{"text": "Schema Validator rejected 15 API requests with invalid JSON schema violations", "entities": [[29, 35, "API_TYPE"], [53, 66, "VIOLATION_TYPE"]]}
+{"text": "Reporting Dashboard Tool generated executive KPI report showing 12 shadow APIs discovered", "entities": [[33, 44, "REPORT_TYPE"], [45, 48, "REPORT_TYPE"]]}
+{"text": "API security false positive rate reduced to 3% improving alert accuracy", "entities": [[0, 3, "API_TYPE"], [13, 27, "METRIC_TYPE"], [41, 48, "ALERT_TYPE"]]}
+{"text": "API metrics report showed 15 schema violations and 30 rate limit breaches in last quarter", "entities": [[0, 3, "API_TYPE"], [29, 35, "VIOLATION_TYPE"]]}
+{"text": "Kong API Gateway enforced OAuth2 authentication with MFA for external API endpoints", "entities": [[0, 4, "TOOL"], [5, 18, "GATEWAY_TYPE"], [26, 32, "AUTH_TYPE"]]}
+{"text": "Compliance Mapping Tool aligned API security controls with PCI DSS requirements", "entities": []}
+{"text": "GraphQL Security Specialist enforced query depth limit of 10 to prevent DoS attacks", "entities": [[28, 48, "CONTROL_TYPE"], [43, 54, "COUNT"], [58, 60, "ATTACK_TYPE"], [61, 71, "ATTACK_TYPE"]]}
+{"text": "Apigee API Gateway enforced API key rotation policy for external partner integrations", "entities": [[0, 6, "TOOL"], [7, 18, "GATEWAY_TYPE"], [26, 35, "KEY_TYPE"], [56, 66, "INTEGRATION_TYPE"]]}
+{"text": "mTLS Certificate Manager rotated TLS certificates for 45 service-to-service API connections", "entities": [[0, 24, "TOOL"], [33, 49, "CERTIFICATE_TYPE"], [54, 75, "CONNECTION_TYPE"]]}
+{"text": "API security audit score of 85% with findings including shadow APIs and weak RBAC", "entities": [[0, 3, "API_TYPE"], [19, 24, "METRIC_TYPE"], [19, 27, "METRIC_TYPE"]]}
+{"text": "API logging and monitoring coverage reached 100% with real-time alerting enabled", "entities": [[0, 3, "API_TYPE"], [27, 35, "METRIC_TYPE"], [54, 63, "STATUS_TYPE"]]}
+{"text": "API Gateway Security Tool enforced rate limiting of 1000 requests per minute on payment API", "entities": [[0, 11, "API_TYPE"], [4, 14, "GATEWAY_TYPE"], [52, 56, "COUNT"], [57, 69, "TIME_UNIT"], [70, 79, "API_CATEGORY"]]}
+{"text": "API Inventory Manager documented 133 APIs with 12 shadow and 5 zombie APIs identified", "entities": [[0, 3, "API_TYPE"], [4, 13, "INVENTORY_TYPE"], [14, 21, "MANAGER_TYPE"], [33, 36, "API_TYPE"]]}
+{"text": "API security testing coverage achieved 92% with automated scans in CI/CD pipeline", "entities": [[0, 3, "API_TYPE"], [21, 29, "METRIC_TYPE"]]}
+{"text": "Service Identity Engineer configured SPIFFE workload identities for 200 microservices", "entities": [[0, 25, "ROLE"], [32, 43, "IDENTITY_TYPE"], [37, 52, "IDENTITY_TYPE"]]}
+{"text": "API Policy Generator created enterprise API security policy with OAuth2 MFA and rate limiting", "entities": [[0, 3, "API_TYPE"], [4, 10, "POLICY_TYPE"], [29, 39, "API_TYPE"], [40, 52, "SECURITY_TYPE"], [44, 59, "POLICY_TYPE"], [65, 71, "AUTH_TYPE"]]}
+{"text": "API security coverage achieved 98% with zero critical vulnerabilities in production", "entities": [[0, 3, "API_TYPE"], [13, 21, "METRIC_TYPE"], [31, 33, "METRIC_TYPE"], [62, 72, "ENVIRONMENT"]]}
+{"text": "SIEM Tool correlated API security alerts with network anomalies identifying coordinated attack", "entities": []}
+{"text": "API Security Strategist defined enterprise API security policy aligned with OWASP API Top 10", "entities": [[32, 42, "API_TYPE"], [41, 49, "SECURITY_TYPE"], [63, 70, "FRAMEWORK"], [82, 89, "FRAMEWORK"]]}
+{"text": "Kong API Gateway enforced OAuth2 authentication with MFA for external API endpoints", "entities": [[0, 4, "TOOL"], [5, 18, "GATEWAY_TYPE"], [26, 32, "AUTH_TYPE"]]}
+{"text": "API Security Compliance Analyst audited 150 APIs scoring 85% against OWASP API Top 10", "entities": [[40, 48, "AUDIT_TYPE"], [75, 82, "FRAMEWORK"]]}
+{"text": "Burp Suite Community detected NoSQL injection in MongoDB API endpoint /api/data/query", "entities": [[0, 20, "TOOL"], [49, 56, "DATABASE_TYPE"], [57, 60, "API_TYPE"], [61, 79, "ENDPOINT_PATH"]]}
+{"text": "SIEM Tool correlated API security alerts with network anomalies identifying coordinated attack", "entities": []}
+{"text": "Postman automated security tests identified 12 OWASP API Top 10 vulnerabilities", "entities": [[0, 7, "TOOL"], [25, 32, "SECURITY_TYPE"], [61, 79, "VULNERABILITY_TYPE"]]}
+{"text": "API security compliance score improved to 96% meeting PCI DSS and OWASP requirements", "entities": [[0, 3, "API_TYPE"], [24, 31, "METRIC_TYPE"], [30, 38, "METRIC_TYPE"], [54, 61, "FRAMEWORK"]]}
+{"text": "API drift detection identified unauthorized changes to /beta/login requiring immediate rollback", "entities": [[0, 3, "API_TYPE"], [4, 9, "METRIC_TYPE"], [27, 43, "CHANGE_TYPE"], [42, 51, "ENDPOINT_PATH"], [61, 76, "ACTION_TYPE"]]}
+{"text": "API Gateway Administrator configured rate limiting to 1000 requests per minute on payment API", "entities": [[51, 58, "COUNT"], [59, 67, "TIME_UNIT"], [72, 78, "API_CATEGORY"], [79, 83, "API_TYPE"]]}
+{"text": "Compliance Mapping Tool aligned API security controls with PCI DSS requirements", "entities": []}
+{"text": "API dependency security audit found critical vulnerability in libX version 1.2 requiring update", "entities": [[0, 3, "API_TYPE"], [4, 14, "DEPENDENCY_TYPE"], [43, 50, "VULNERABILITY_TYPE"], [59, 66, "VERSION_TAG"], [75, 81, "ACTION_TYPE"]]}
+{"text": "API security monitoring detected 45 threat alerts with 3 critical BOLA attacks escalated", "entities": [[0, 3, "API_TYPE"]]}
+{"text": "Business logic abuse detected in password reset API with 50 requests from single IP", "entities": [[0, 20, "ABUSE_TYPE"]]}
+{"text": "mTLS Certificate Manager rotated TLS certificates for 45 service-to-service API connections", "entities": [[0, 24, "TOOL"], [33, 49, "CERTIFICATE_TYPE"], [54, 75, "CONNECTION_TYPE"]]}
+{"text": "Third-party API integration security assessed with 15 partners requiring security reviews", "entities": [[0, 11, "INTEGRATION_TYPE"], [12, 15, "API_TYPE"], [16, 27, "SECURITY_TYPE"], [28, 45, "PARTNER_TYPE"], [51, 62, "SECURITY_TYPE"], [61, 72, "REVIEW_TYPE"]]}
+{"text": "API behavior baseline established for 1200 users with 2 anomalies escalated for investigation", "entities": [[0, 3, "API_TYPE"], [4, 12, "BEHAVIOR_TYPE"], [13, 21, "METRIC_TYPE"]]}
+{"text": "API Usage Analytics Tool detected credential stuffing pattern with 500 failed logins", "entities": [[0, 3, "API_TYPE"], [4, 9, "USAGE_TYPE"], [10, 19, "ANALYTICS_TYPE"]]}
+{"text": "API Security Engineer detected broken object level authorization attack on /users endpoint", "entities": [[31, 64, "VULNERABILITY_TYPE"], [72, 81, "ENDPOINT_PATH"]]}
+{"text": "API logging and monitoring coverage reached 100% with real-time alerting enabled", "entities": [[0, 3, "API_TYPE"], [27, 35, "METRIC_TYPE"], [54, 63, "STATUS_TYPE"]]}
+{"text": "Audit Checklist Tool validated 98% of APIs meeting OWASP API Top 10 security requirements", "entities": [[61, 69, "SECURITY_TYPE"]]}
+{"text": "Schema Validator rejected 15 API requests with invalid JSON schema violations", "entities": [[29, 35, "API_TYPE"], [53, 66, "VIOLATION_TYPE"]]}
+{"text": "API Risk Scoring Tool calculated average risk score of 72 for 150 APIs with high-risk /payments", "entities": [[0, 3, "API_TYPE"], [4, 8, "RISK_TYPE"], [31, 40, "RISK_TYPE"], [33, 45, "SCORE_TYPE"], [46, 51, "COUNT"], [62, 70, "RISK_TYPE"]]}
+{"text": "Runtime Behavior Analysis Tool identified credential stuffing pattern with 500 failed logins", "entities": [[37, 54, "ATTACK_TYPE"]]}
+{"text": "Business logic abuse detected in password reset API with 50 requests from single IP", "entities": [[0, 20, "ABUSE_TYPE"]]}
+{"text": "API Usage Analytics Tool detected credential stuffing pattern with 500 failed logins", "entities": [[0, 3, "API_TYPE"], [4, 9, "USAGE_TYPE"], [10, 19, "ANALYTICS_TYPE"]]}
+{"text": "API versioning and lifecycle management validated with proper deprecation policies", "entities": [[0, 3, "API_TYPE"], [19, 28, "LIFECYCLE_TYPE"], [29, 39, "MANAGEMENT_TYPE"], [55, 64, "POLICY_TYPE"]]}
+{"text": "API Gateway Security Tool enforced rate limiting of 1000 requests per minute on payment API", "entities": [[0, 11, "API_TYPE"], [4, 14, "GATEWAY_TYPE"], [52, 56, "COUNT"], [57, 69, "TIME_UNIT"], [70, 79, "API_CATEGORY"]]}
+{"text": "Query Cost Analyzer detected expensive GraphQL query consuming 500ms execution time", "entities": [[27, 38, "QUERY_TYPE"], [36, 46, "API_TYPE"], [47, 52, "METRIC_TYPE"]]}
+{"text": "Anomaly Detection Tool flagged unusual API call sequence indicating account takeover attempt", "entities": [[23, 38, "API_CALL_TYPE"]]}
+{"text": "Depth Limiter blocked GraphQL query exceeding maximum depth of 10 levels", "entities": [[0, 13, "TOOL"], [20, 35, "QUERY_TYPE"], [30, 45, "API_TYPE"], [46, 53, "COUNT"], [54, 62, "LEVEL_TYPE"]]}
+{"text": "Schema Validator blocked 10 non-compliant requests violating OpenAPI schema for REST API", "entities": [[23, 31, "COUNT"], [28, 41, "REQUEST_TYPE"], [58, 68, "SCHEMA_TYPE"], [69, 75, "API_TYPE"]]}
+{"text": "SPIRE tool validated workload identity for payment-service accessing order API", "entities": [[0, 5, "TOOL"], [51, 68, "API_CATEGORY"]]}
+{"text": "API Drift Detection Tool identified unauthorized changes to /beta/login endpoint requiring rollback", "entities": [[0, 3, "API_TYPE"], [4, 9, "DRIFT_TYPE"], [25, 42, "CHANGE_TYPE"], [46, 59, "ENDPOINT_PATH"], [66, 80, "ACTION_TYPE"]]}
+{"text": "API Inventory Manager documented 133 APIs with 12 shadow and 5 zombie APIs identified", "entities": [[0, 3, "API_TYPE"], [4, 13, "INVENTORY_TYPE"], [14, 21, "MANAGER_TYPE"], [33, 36, "API_TYPE"]]}
+{"text": "Anomaly Detection Tool flagged unusual API call sequence indicating account takeover attempt", "entities": [[23, 38, "API_CALL_TYPE"]]}
+{"text": "Postman automated security tests identified 12 OWASP API Top 10 vulnerabilities", "entities": [[0, 7, "TOOL"], [25, 32, "SECURITY_TYPE"], [61, 79, "VULNERABILITY_TYPE"]]}
+{"text": "Risk Scoring Tool calculated API risk score of 0.72 for payment processing endpoint", "entities": [[38, 46, "METRIC_TYPE"], [56, 65, "ENDPOINT_TYPE"]]}
+{"text": "API Inventory Manager documented 133 APIs with 12 shadow and 5 zombie APIs identified", "entities": [[0, 3, "API_TYPE"], [4, 13, "INVENTORY_TYPE"], [14, 21, "MANAGER_TYPE"], [33, 36, "API_TYPE"]]}
+{"text": "API logging and monitoring coverage reached 100% with real-time alerting enabled", "entities": [[0, 3, "API_TYPE"], [27, 35, "METRIC_TYPE"], [54, 63, "STATUS_TYPE"]]}
+{"text": "API Behavior Analyst baselined 1200 users detecting anomalies in login API call frequency", "entities": [[0, 22, "ROLE"], [31, 41, "BASELINE_TYPE"], [49, 55, "USER_TYPE"], [65, 74, "ANOMALY_TYPE"]]}
+{"text": "API Gateway Administrator configured rate limiting to 1000 requests per minute on payment API", "entities": [[51, 58, "COUNT"], [59, 67, "TIME_UNIT"], [72, 78, "API_CATEGORY"], [79, 83, "API_TYPE"]]}
+{"text": "API Segmentation Tool classified 50 external and 100 internal APIs with different policies", "entities": [[0, 3, "API_TYPE"], [31, 44, "ENDPOINT_TYPE"]]}
+{"text": "Kong API Gateway enforced OAuth2 authentication with MFA for external API endpoints", "entities": [[0, 4, "TOOL"], [5, 18, "GATEWAY_TYPE"], [26, 32, "AUTH_TYPE"]]}
+{"text": "Kong API Gateway enforced OAuth2 authentication with MFA for external API endpoints", "entities": [[0, 4, "TOOL"], [5, 18, "GATEWAY_TYPE"], [26, 32, "AUTH_TYPE"]]}
+{"text": "Azure API Management detected JWT token reuse attack across multiple API endpoints", "entities": [[0, 5, "CLOUD_PROVIDER"], [6, 20, "GATEWAY_TYPE"], [28, 33, "TOKEN_TYPE"], [34, 39, "ATTACK_TYPE"]]}
+{"text": "Apigee API Gateway detected inconsistent policies across 4 gateways with 8 violations", "entities": [[0, 6, "TOOL"], [7, 18, "GATEWAY_TYPE"], [28, 40, "POLICY_TYPE"]]}
+{"text": "Nessus scanner identified 8 API security vulnerabilities including XSS and CSRF", "entities": [[0, 6, "TOOL"]]}
+{"text": "Business Logic Abuse Detection identified cart inflation attack on shopping cart API", "entities": [[0, 8, "BUSINESS_TYPE"], [7, 14, "LOGIC_TYPE"], [9, 20, "ABUSE_TYPE"], [38, 46, "ATTACK_TYPE"], [42, 50, "ATTACK_TYPE"]]}
+{"text": "Depth Limiter enforced GraphQL query depth of 10 preventing resource exhaustion attacks", "entities": [[0, 13, "TOOL"], [20, 30, "API_TYPE"], [29, 36, "QUERY_TYPE"], [31, 42, "CONTROL_TYPE"]]}
+{"text": "Service Identity Engineer configured SPIFFE workload identities for 200 microservices", "entities": [[0, 25, "ROLE"], [32, 43, "IDENTITY_TYPE"], [37, 52, "IDENTITY_TYPE"]]}
+{"text": "Runtime Behavior Analysis Tool identified credential stuffing pattern with 500 failed logins", "entities": [[37, 54, "ATTACK_TYPE"]]}
+{"text": "API Security Compliance Analyst audited 150 APIs scoring 85% against OWASP API Top 10", "entities": [[40, 48, "AUDIT_TYPE"], [75, 82, "FRAMEWORK"]]}
+{"text": "Noname Security detected SQL injection attempt targeting GraphQL API at api.example.com", "entities": [[72, 87, "DOMAIN"]]}
+{"text": "mTLS Certificate Manager rotated TLS certificates for 45 service-to-service API connections", "entities": [[0, 24, "TOOL"], [33, 49, "CERTIFICATE_TYPE"], [54, 75, "CONNECTION_TYPE"]]}
+{"text": "API Security Tester discovered shadow API /internal/admin exposed without authentication", "entities": [[38, 57, "ENDPOINT_PATH"]]}
+{"text": "mTLS Certificate Manager rotated TLS certificates for 45 service-to-service API connections", "entities": [[0, 24, "TOOL"], [33, 49, "CERTIFICATE_TYPE"], [54, 75, "CONNECTION_TYPE"]]}
+{"text": "API Dependency Scanner identified 12 vulnerabilities in 80 third-party SDKs and libraries", "entities": [[0, 3, "API_TYPE"], [4, 14, "DEPENDENCY_TYPE"], [34, 46, "VULNERABILITY_TYPE"], [53, 70, "DEPENDENCY_TYPE"], [65, 70, "DEPENDENCY_TYPE"]]}
+{"text": "AWS API Gateway logged unauthorized access attempt from IP 203.0.113.45 to /v1/customers", "entities": [[0, 3, "CLOUD_PROVIDER"], [4, 15, "GATEWAY_TYPE"], [23, 42, "ACCESS_TYPE"], [59, 71, "IP_ADDRESS"]]}
+{"text": "API security compliance score improved to 96% meeting PCI DSS and OWASP requirements", "entities": [[0, 3, "API_TYPE"], [24, 31, "METRIC_TYPE"], [30, 38, "METRIC_TYPE"], [54, 61, "FRAMEWORK"]]}
+{"text": "Business logic abuse detected in password reset API with 50 requests from single IP", "entities": [[0, 20, "ABUSE_TYPE"]]}
+{"text": "API audit findings included 12 shadow APIs and weak RBAC requiring remediation actions", "entities": [[0, 3, "API_TYPE"]]}
+{"text": "API drift detection identified unauthorized changes to /beta/login requiring immediate rollback", "entities": [[0, 3, "API_TYPE"], [4, 9, "METRIC_TYPE"], [27, 43, "CHANGE_TYPE"], [42, 51, "ENDPOINT_PATH"], [61, 76, "ACTION_TYPE"]]}
+{"text": "Nessus scanner identified 8 API security vulnerabilities including XSS and CSRF", "entities": [[0, 6, "TOOL"]]}
+{"text": "Kong API Gateway enforced OAuth2 authentication with MFA for external API endpoints", "entities": [[0, 4, "TOOL"], [5, 18, "GATEWAY_TYPE"], [26, 32, "AUTH_TYPE"]]}
+{"text": "API Inventory Manager cataloged 150 APIs across 4 different API gateway platforms", "entities": [[0, 21, "TOOL"], [32, 35, "COUNT"], [36, 40, "API_TYPE"], [50, 71, "GATEWAY_TYPE"], [64, 75, "PLATFORM_TYPE"]]}
+{"text": "Burp Suite Community detected NoSQL injection in MongoDB API endpoint /api/data/query", "entities": [[0, 20, "TOOL"], [49, 56, "DATABASE_TYPE"], [57, 60, "API_TYPE"], [61, 79, "ENDPOINT_PATH"]]}
+{"text": "API authentication bypass rate decreased to 0.2% after implementing OAuth2 with MFA", "entities": [[0, 3, "API_TYPE"], [38, 43, "METRIC_TYPE"], [46, 54, "AUTH_TYPE"], [55, 61, "AUTH_TYPE"]]}
+{"text": "API behavior baseline established for 1200 users with 2 anomalies escalated for investigation", "entities": [[0, 3, "API_TYPE"], [4, 12, "BEHAVIOR_TYPE"], [13, 21, "METRIC_TYPE"]]}
+{"text": "AWS API Gateway logged unauthorized access attempt from IP 203.0.113.45 to /v1/customers", "entities": [[0, 3, "CLOUD_PROVIDER"], [4, 15, "GATEWAY_TYPE"], [23, 42, "ACCESS_TYPE"], [59, 71, "IP_ADDRESS"]]}
+{"text": "Service Identity Engineer configured SPIFFE workload identities for 200 microservices", "entities": [[0, 25, "ROLE"], [32, 43, "IDENTITY_TYPE"], [37, 52, "IDENTITY_TYPE"]]}
+{"text": "Service Identity Engineer configured SPIFFE workload identities for 200 microservices", "entities": [[0, 25, "ROLE"], [32, 43, "IDENTITY_TYPE"], [37, 52, "IDENTITY_TYPE"]]}
+{"text": "42Crunch platform identified excessive data exposure in REST API response containing PII", "entities": [[0, 11, "TOOL"], [53, 60, "API_TYPE"], [61, 73, "RESPONSE_TYPE"], [74, 84, "DATA_TYPE"]]}
+{"text": "Depth Limiter enforced GraphQL query depth of 10 preventing resource exhaustion attacks", "entities": [[0, 13, "TOOL"], [20, 30, "API_TYPE"], [29, 36, "QUERY_TYPE"], [31, 42, "CONTROL_TYPE"]]}
+{"text": "API incident response isolated /orders endpoint and revoked 12 compromised API tokens", "entities": [[0, 3, "API_TYPE"], [31, 38, "ENDPOINT_PATH"], [60, 74, "TOKEN_STATUS"]]}
+{"text": "API Security Tester discovered shadow API /internal/admin exposed without authentication", "entities": [[38, 57, "ENDPOINT_PATH"]]}
+{"text": "API Discovery Tool found 12 shadow APIs and 5 zombie APIs not in official inventory", "entities": [[44, 52, "API_TYPE"], [53, 61, "INVENTORY_TYPE"]]}
+{"text": "API Gateway Security Tool enforced rate limiting of 1000 requests per minute on payment API", "entities": [[0, 11, "API_TYPE"], [4, 14, "GATEWAY_TYPE"], [52, 56, "COUNT"], [57, 69, "TIME_UNIT"], [70, 79, "API_CATEGORY"]]}
+{"text": "API Threat Hunting identified reused JWT tokens across 5 API endpoints", "entities": [[0, 3, "API_TYPE"], [26, 36, "TOKEN_TYPE"], [30, 40, "TOKEN_TYPE"]]}
+{"text": "AWS API Gateway logged unauthorized access attempt from IP 203.0.113.45 to /v1/customers", "entities": [[0, 3, "CLOUD_PROVIDER"], [4, 15, "GATEWAY_TYPE"], [23, 42, "ACCESS_TYPE"], [59, 71, "IP_ADDRESS"]]}
+{"text": "API audit findings included 12 shadow APIs and weak RBAC requiring remediation actions", "entities": [[0, 3, "API_TYPE"]]}
+{"text": "Reporting Dashboard Tool generated executive KPIs showing 85% audit score and 72 risk score", "entities": [[10, 19, "DASHBOARD_TYPE"], [68, 73, "SCORE_TYPE"], [81, 85, "SCORE_TYPE"]]}
+{"text": "API dependency security audit found critical vulnerability in libX version 1.2 requiring update", "entities": [[0, 3, "API_TYPE"], [4, 14, "DEPENDENCY_TYPE"], [43, 50, "VULNERABILITY_TYPE"], [59, 66, "VERSION_TAG"], [75, 81, "ACTION_TYPE"]]}
+{"text": "Query Cost Analyzer detected expensive GraphQL query consuming 500ms execution time", "entities": [[27, 38, "QUERY_TYPE"], [36, 46, "API_TYPE"], [47, 52, "METRIC_TYPE"]]}
+{"text": "API risk scoring identified high-risk endpoints /payments and /orders with average score 72", "entities": [[0, 3, "API_TYPE"], [17, 27, "ACTION_TYPE"], [33, 47, "RISK_LEVEL"], [38, 57, "ENDPOINT_PATH"], [75, 82, "METRIC_TYPE"]]}
+{"text": "API security compliance score improved to 96% meeting PCI DSS and OWASP requirements", "entities": [[0, 3, "API_TYPE"], [24, 31, "METRIC_TYPE"], [30, 38, "METRIC_TYPE"], [54, 61, "FRAMEWORK"]]}
+{"text": "API Dependency Scanner found 12 vulnerabilities in third-party SDKs used by APIs", "entities": [[29, 47, "VULNERABILITY_TYPE"], [51, 62, "DEPENDENCY_TYPE"], [63, 72, "API_TYPE"]]}
+{"text": "Kong API Gateway enforced OAuth2 authentication with MFA for external API endpoints", "entities": [[0, 4, "TOOL"], [5, 18, "GATEWAY_TYPE"], [26, 32, "AUTH_TYPE"]]}
+{"text": "API drift detection identified unauthorized changes to /beta/login requiring immediate rollback", "entities": [[0, 3, "API_TYPE"], [4, 9, "METRIC_TYPE"], [27, 43, "CHANGE_TYPE"], [42, 51, "ENDPOINT_PATH"], [61, 76, "ACTION_TYPE"]]}
+{"text": "Insomnia API client tested authentication bypass vulnerability in REST API", "entities": [[0, 8, "TOOL"], [9, 19, "CLIENT_TYPE"], [49, 62, "API_TYPE"]]}
+{"text": "API gateway security configuration validated with zero misconfigurations detected", "entities": [[0, 3, "API_TYPE"], [4, 11, "GATEWAY_TYPE"]]}
+{"text": "API authentication bypass rate decreased to 0.2% after implementing OAuth2 with MFA", "entities": [[0, 3, "API_TYPE"], [38, 43, "METRIC_TYPE"], [46, 54, "AUTH_TYPE"], [55, 61, "AUTH_TYPE"]]}
+{"text": "SIEM Tool integrated API threat alerts with 45 critical alerts escalated to incident response", "entities": [[0, 4, "TOOL"], [10, 20, "TOOL"], [25, 38, "THREAT_TYPE"]]}
+{"text": "Noname Security detected SQL injection attempt targeting GraphQL API at api.example.com", "entities": [[72, 87, "DOMAIN"]]}
+{"text": "Schema Validator rejected 15 API requests with invalid JSON schema violations", "entities": [[29, 35, "API_TYPE"], [53, 66, "VIOLATION_TYPE"]]}
+{"text": "Query Cost Analyzer detected expensive GraphQL query consuming 500ms execution time", "entities": [[27, 38, "QUERY_TYPE"], [36, 46, "API_TYPE"], [47, 52, "METRIC_TYPE"]]}
+{"text": "API threat hunting identified JWT token reuse pattern across 12 different endpoints", "entities": [[30, 39, "ATTACK_TYPE"], [34, 45, "PATTERN_TYPE"], [61, 73, "ENDPOINT_TYPE"]]}
+{"text": "API Behavior Analyst baselined 1200 users detecting anomalies in login API call frequency", "entities": [[0, 22, "ROLE"], [31, 41, "BASELINE_TYPE"], [49, 55, "USER_TYPE"], [65, 74, "ANOMALY_TYPE"]]}
+{"text": "API Security Compliance Analyst audited 150 APIs scoring 85% against OWASP API Top 10", "entities": [[40, 48, "AUDIT_TYPE"], [75, 82, "FRAMEWORK"]]}
+{"text": "WAF API Threat Detection Tool detected BOLA attack on /users endpoint with 45 alerts", "entities": [[0, 3, "TOOL"], [4, 7, "TOOL"], [39, 50, "ATTACK_TYPE"], [44, 60, "ENDPOINT_PATH"], [61, 69, "ALERT_TYPE"]]}
+{"text": "42Crunch platform identified excessive data exposure in REST API response containing PII", "entities": [[0, 11, "TOOL"], [53, 60, "API_TYPE"], [61, 73, "RESPONSE_TYPE"], [74, 84, "DATA_TYPE"]]}
+{"text": "mTLS Certificate Manager rotated TLS certificates for 45 service-to-service API connections", "entities": [[0, 24, "TOOL"], [33, 49, "CERTIFICATE_TYPE"], [54, 75, "CONNECTION_TYPE"]]}
+{"text": "API versioning and lifecycle management validated with proper deprecation policies", "entities": [[0, 3, "API_TYPE"], [19, 28, "LIFECYCLE_TYPE"], [29, 39, "MANAGEMENT_TYPE"], [55, 64, "POLICY_TYPE"]]}
+{"text": "API Security Compliance Analyst audited 150 APIs scoring 85% against OWASP API Top 10", "entities": [[40, 48, "AUDIT_TYPE"], [75, 82, "FRAMEWORK"]]}
+{"text": "Apigee API Gateway enforced API key rotation policy for external partner integrations", "entities": [[0, 6, "TOOL"], [7, 18, "GATEWAY_TYPE"], [26, 35, "KEY_TYPE"], [56, 66, "INTEGRATION_TYPE"]]}
+{"text": "API schema validation coverage reached 100% for all REST and GraphQL endpoints", "entities": [[0, 3, "API_TYPE"], [4, 13, "VALIDATION_TYPE"], [29, 32, "METRIC_TYPE"], [37, 42, "API_TYPE"]]}
+{"text": "Depth Limiter enforced GraphQL query depth of 10 preventing resource exhaustion attacks", "entities": [[0, 13, "TOOL"], [20, 30, "API_TYPE"], [29, 36, "QUERY_TYPE"], [31, 42, "CONTROL_TYPE"]]}
+{"text": "API Discovery Tool found 12 shadow APIs and 5 zombie APIs not in official inventory", "entities": [[44, 52, "API_TYPE"], [53, 61, "INVENTORY_TYPE"]]}
+{"text": "Risk Scoring Tool calculated API risk score of 0.72 for payment processing endpoint", "entities": [[38, 46, "METRIC_TYPE"], [56, 65, "ENDPOINT_TYPE"]]}
+{"text": "API Security Operations Engineer discovered 12 shadow APIs and 5 zombie APIs using API Discovery Tool", "entities": [[42, 53, "API_TYPE"], [63, 71, "API_TYPE"], [72, 82, "COUNT"]]}
+{"text": "Apigee API Gateway detected inconsistent policies across 4 gateways with 8 violations", "entities": [[0, 6, "TOOL"], [7, 18, "GATEWAY_TYPE"], [28, 40, "POLICY_TYPE"]]}
+{"text": "API Gateway Security Tool blocked 23 rate limit violations from IP 192.168.1.100", "entities": [[67, 80, "IP_ADDRESS"]]}
+{"text": "GraphQL Security Specialist enforced query depth limit of 10 to prevent DoS attacks", "entities": [[28, 48, "CONTROL_TYPE"], [43, 54, "COUNT"], [58, 60, "ATTACK_TYPE"], [61, 71, "ATTACK_TYPE"]]}
+{"text": "Azure API Management detected JWT token reuse attack across multiple API endpoints", "entities": [[0, 5, "CLOUD_PROVIDER"], [6, 20, "GATEWAY_TYPE"], [28, 33, "TOKEN_TYPE"], [34, 39, "ATTACK_TYPE"]]}
+{"text": "API versioning and lifecycle management validated with proper deprecation policies", "entities": [[0, 3, "API_TYPE"], [19, 28, "LIFECYCLE_TYPE"], [29, 39, "MANAGEMENT_TYPE"], [55, 64, "POLICY_TYPE"]]}
+{"text": "API security monitoring detected 45 threat alerts with 3 critical BOLA attacks escalated", "entities": [[0, 3, "API_TYPE"]]}
+{"text": "Postman automated security tests identified 12 OWASP API Top 10 vulnerabilities", "entities": [[0, 7, "TOOL"], [25, 32, "SECURITY_TYPE"], [61, 79, "VULNERABILITY_TYPE"]]}
+{"text": "Business Logic Abuse Detection identified cart inflation attack on shopping cart API", "entities": [[0, 8, "BUSINESS_TYPE"], [7, 14, "LOGIC_TYPE"], [9, 20, "ABUSE_TYPE"], [38, 46, "ATTACK_TYPE"], [42, 50, "ATTACK_TYPE"]]}
+{"text": "GraphQL Security Specialist enforced query depth limit of 10 preventing DoS attacks", "entities": [[28, 42, "API_TYPE"], [37, 48, "SECURITY_TYPE"], [49, 62, "SPECIALIST_TYPE"], [70, 75, "QUERY_TYPE"]]}
+{"text": "GraphQL Security Specialist enforced query depth limit of 10 to prevent DoS attacks", "entities": [[28, 48, "CONTROL_TYPE"], [43, 54, "COUNT"], [58, 60, "ATTACK_TYPE"], [61, 71, "ATTACK_TYPE"]]}
+{"text": "API Security Engineer detected broken object level authorization attack on /users endpoint", "entities": [[31, 64, "VULNERABILITY_TYPE"], [72, 81, "ENDPOINT_PATH"]]}
+{"text": "API Threat Hunting identified reused JWT tokens across 5 API endpoints", "entities": [[0, 3, "API_TYPE"], [26, 36, "TOKEN_TYPE"], [30, 40, "TOKEN_TYPE"]]}
+{"text": "API gateway security configuration validated with zero misconfigurations detected", "entities": [[0, 3, "API_TYPE"], [4, 11, "GATEWAY_TYPE"]]}
+{"text": "API supply chain security audit identified 8 vulnerable dependencies requiring updates", "entities": [[0, 3, "API_TYPE"], [4, 16, "SUPPLY_CHAIN_TYPE"], [43, 55, "VULNERABILITY_TYPE"], [52, 68, "DEPENDENCY_TYPE"]]}
+{"text": "Third-party API integration security assessed with 15 partners requiring security reviews", "entities": [[0, 11, "INTEGRATION_TYPE"], [12, 15, "API_TYPE"], [16, 27, "SECURITY_TYPE"], [28, 45, "PARTNER_TYPE"], [51, 62, "SECURITY_TYPE"], [61, 72, "REVIEW_TYPE"]]}
+{"text": "DevSecOps Engineer integrated OWASP ZAP into CI/CD pipeline for automated API security scanning", "entities": [[0, 18, "ROLE"], [40, 50, "PIPELINE_TYPE"]]}
+{"text": "API drift detection identified unauthorized changes to /beta/login requiring immediate rollback", "entities": [[0, 3, "API_TYPE"], [4, 9, "METRIC_TYPE"], [27, 43, "CHANGE_TYPE"], [42, 51, "ENDPOINT_PATH"], [61, 76, "ACTION_TYPE"]]}
+{"text": "API supply chain security audit identified 8 vulnerable dependencies requiring updates", "entities": [[0, 3, "API_TYPE"], [4, 16, "SUPPLY_CHAIN_TYPE"], [43, 55, "VULNERABILITY_TYPE"], [52, 68, "DEPENDENCY_TYPE"]]}
+{"text": "API Inventory Manager documented 133 APIs with 12 shadow and 5 zombie APIs identified", "entities": [[0, 3, "API_TYPE"], [4, 13, "INVENTORY_TYPE"], [14, 21, "MANAGER_TYPE"], [33, 36, "API_TYPE"]]}
+{"text": "SIEM Tool integrated API threat alerts with 45 critical alerts escalated to incident response", "entities": [[0, 4, "TOOL"], [10, 20, "TOOL"], [25, 38, "THREAT_TYPE"]]}
+{"text": "WAF/API Threat Detection Tool blocked BOLA attack on /orders endpoint with user ID manipulation", "entities": [[38, 42, "ATTACK_TYPE"], [43, 54, "ENDPOINT_PATH"], [61, 69, "RESOURCE_TYPE"]]}
+{"text": "Azure API Management detected JWT token reuse attack across multiple API endpoints", "entities": [[0, 5, "CLOUD_PROVIDER"], [6, 20, "GATEWAY_TYPE"], [28, 33, "TOKEN_TYPE"], [34, 39, "ATTACK_TYPE"]]}
+{"text": "API Usage Analytics Tool reported 85% increase in API requests from unknown user agents", "entities": [[34, 36, "METRIC_TYPE"], [38, 46, "METRIC_TYPE"]]}
+{"text": "Compliance Mapping Tool validated API security against GDPR PCI DSS and SOC2 requirements", "entities": [[38, 54, "SECURITY_TYPE"], [55, 59, "FRAMEWORK"], [60, 67, "FRAMEWORK"], [72, 76, "FRAMEWORK"]]}
+{"text": "API security monitoring detected 45 threat alerts with 3 critical BOLA attacks escalated", "entities": [[0, 3, "API_TYPE"]]}
+{"text": "Service Identity Engineer configured SPIFFE workload identities for 200 microservices", "entities": [[0, 25, "ROLE"], [32, 43, "IDENTITY_TYPE"], [37, 52, "IDENTITY_TYPE"]]}
+{"text": "Service Identity Engineer configured SPIFFE workload identities for 200 microservices", "entities": [[0, 25, "ROLE"], [32, 43, "IDENTITY_TYPE"], [37, 52, "IDENTITY_TYPE"]]}
+{"text": "API threat hunting identified JWT token reuse pattern across 12 different endpoints", "entities": [[30, 39, "ATTACK_TYPE"], [34, 45, "PATTERN_TYPE"], [61, 73, "ENDPOINT_TYPE"]]}
+{"text": "API Security Strategist defined enterprise API security policy aligned with OWASP API Top 10", "entities": [[32, 42, "API_TYPE"], [41, 49, "SECURITY_TYPE"], [63, 70, "FRAMEWORK"], [82, 89, "FRAMEWORK"]]}
+{"text": "API gateway security configuration validated with zero misconfigurations detected", "entities": [[0, 3, "API_TYPE"], [4, 11, "GATEWAY_TYPE"]]}
+{"text": "Runtime Behavior Analysis Tool flagged unusual API call sequence indicating account takeover", "entities": [[31, 46, "API_CALL_TYPE"], [39, 50, "SEQUENCE_TYPE"], [56, 75, "ATTACK_TYPE"]]}
+{"text": "Audit Checklist Tool validated 150 APIs against OWASP API Top 10 finding 8 violations", "entities": [[31, 34, "API_TYPE"], [46, 53, "API_TYPE"]]}
+{"text": "API security incident response time achieved 18 minutes meeting 20-minute SLA", "entities": [[0, 3, "API_TYPE"], [31, 37, "METRIC_TYPE"], [36, 44, "TIME_UNIT"]]}
+{"text": "API Segmentation Tool classified 50 external and 100 internal APIs with different policies", "entities": [[0, 3, "API_TYPE"], [31, 44, "ENDPOINT_TYPE"]]}
+{"text": "API authentication bypass rate decreased to 0.2% after implementing OAuth2 with MFA", "entities": [[0, 3, "API_TYPE"], [38, 43, "METRIC_TYPE"], [46, 54, "AUTH_TYPE"], [55, 61, "AUTH_TYPE"]]}
+{"text": "Audit Checklist Tool validated 98% of APIs meeting OWASP API Top 10 security requirements", "entities": [[61, 69, "SECURITY_TYPE"]]}
+{"text": "Service Identity Manager assigned workload identity to inventory-service accessing database API", "entities": [[0, 24, "TOOL"], [31, 51, "IDENTITY_TYPE"], [52, 72, "SERVICE_NAME"]]}
+{"text": "GraphQL Security Specialist enforced query depth limit of 10 preventing DoS attacks", "entities": [[28, 42, "API_TYPE"], [37, 48, "SECURITY_TYPE"], [49, 62, "SPECIALIST_TYPE"], [70, 75, "QUERY_TYPE"]]}
+{"text": "GraphQL security violations detected 5 queries exceeding cost analysis thresholds", "entities": [[0, 7, "API_TYPE"], [37, 46, "QUERY_TYPE"]]}
+{"text": "Kong API Gateway enforced OAuth2 authentication with MFA for external API endpoints", "entities": [[0, 4, "TOOL"], [5, 18, "GATEWAY_TYPE"], [26, 32, "AUTH_TYPE"]]}
+{"text": "API Governance Tool detected drift in /beta/login endpoint requiring rollback", "entities": [[26, 34, "METRIC_TYPE"], [35, 49, "ENDPOINT_PATH"]]}
+{"text": "Schema Validator blocked 10 non-compliant requests violating OpenAPI schema for REST API", "entities": [[23, 31, "COUNT"], [28, 41, "REQUEST_TYPE"], [58, 68, "SCHEMA_TYPE"], [69, 75, "API_TYPE"]]}
+{"text": "API Risk Scoring Tool calculated average risk score of 72 for 150 APIs with high-risk /payments", "entities": [[0, 3, "API_TYPE"], [4, 8, "RISK_TYPE"], [31, 40, "RISK_TYPE"], [33, 45, "SCORE_TYPE"], [46, 51, "COUNT"], [62, 70, "RISK_TYPE"]]}
+{"text": "Query Cost Analyzer detected expensive GraphQL query consuming 500ms execution time", "entities": [[27, 38, "QUERY_TYPE"], [36, 46, "API_TYPE"], [47, 52, "METRIC_TYPE"]]}
+{"text": "API authentication bypass rate decreased to 0.2% after implementing OAuth2 with MFA", "entities": [[0, 3, "API_TYPE"], [38, 43, "METRIC_TYPE"], [46, 54, "AUTH_TYPE"], [55, 61, "AUTH_TYPE"]]}
+{"text": "SIEM Tool integrated API threat alerts with 45 critical alerts escalated to incident response", "entities": [[0, 4, "TOOL"], [10, 20, "TOOL"], [25, 38, "THREAT_TYPE"]]}
+{"text": "GraphQL Security Specialist enforced query depth limit of 10 to prevent DoS attacks", "entities": [[28, 48, "CONTROL_TYPE"], [43, 54, "COUNT"], [58, 60, "ATTACK_TYPE"], [61, 71, "ATTACK_TYPE"]]}
+{"text": "mTLS coverage achieved 70% for service-to-service API communication with 15 certificates rotated", "entities": [[0, 4, "PROTOCOL_TYPE"], [5, 13, "METRIC_TYPE"], [50, 61, "COMMUNICATION_TYPE"], [76, 88, "ACTION_TYPE"]]}
+{"text": "API Usage Analytics Tool reported 85% increase in API requests from unknown user agents", "entities": [[34, 36, "METRIC_TYPE"], [38, 46, "METRIC_TYPE"]]}
+{"text": "SIEM Tool correlated API security alerts with network anomalies identifying coordinated attack", "entities": []}
+{"text": "SPIRE tool validated workload identity for payment-service accessing order API", "entities": [[0, 5, "TOOL"], [51, 68, "API_CATEGORY"]]}
+{"text": "Service Identity Manager assigned workload identity to inventory-service accessing database API", "entities": [[0, 24, "TOOL"], [31, 51, "IDENTITY_TYPE"], [52, 72, "SERVICE_NAME"]]}
+{"text": "API versioning and lifecycle management validated with proper deprecation policies", "entities": [[0, 3, "API_TYPE"], [19, 28, "LIFECYCLE_TYPE"], [29, 39, "MANAGEMENT_TYPE"], [55, 64, "POLICY_TYPE"]]}
+{"text": "API security incident response time achieved 18 minutes meeting 20-minute SLA", "entities": [[0, 3, "API_TYPE"], [31, 37, "METRIC_TYPE"], [36, 44, "TIME_UNIT"]]}
+{"text": "Anomaly Detection Tool flagged unusual API call sequence indicating account takeover attempt", "entities": [[23, 38, "API_CALL_TYPE"]]}
+{"text": "API Discovery Tool found 12 shadow APIs and 5 zombie APIs not in official inventory", "entities": [[44, 52, "API_TYPE"], [53, 61, "INVENTORY_TYPE"]]}
+{"text": "API Gateway Security Tool enforced rate limiting of 1000 requests per minute on payment API", "entities": [[0, 11, "API_TYPE"], [4, 14, "GATEWAY_TYPE"], [52, 56, "COUNT"], [57, 69, "TIME_UNIT"], [70, 79, "API_CATEGORY"]]}
+{"text": "WAF API Threat Detection Tool detected BOLA attack on /users endpoint with 45 alerts", "entities": [[0, 3, "TOOL"], [4, 7, "TOOL"], [39, 50, "ATTACK_TYPE"], [44, 60, "ENDPOINT_PATH"], [61, 69, "ALERT_TYPE"]]}
+{"text": "API Governance Tool detected drift in /beta/login endpoint requiring rollback", "entities": [[26, 34, "METRIC_TYPE"], [35, 49, "ENDPOINT_PATH"]]}
+{"text": "Salt Security platform blocked 247 API abuse attempts including credential stuffing attacks", "entities": [[23, 44, "ATTACK_TYPE"]]}
+{"text": "Runtime Behavior Analysis Tool identified credential stuffing pattern with 500 failed logins", "entities": [[37, 54, "ATTACK_TYPE"]]}
+{"text": "Noname Security detected SQL injection attempt targeting GraphQL API at api.example.com", "entities": [[72, 87, "DOMAIN"]]}
+{"text": "WAF API Threat Detection Tool detected BOLA attack on /users endpoint with 45 alerts", "entities": [[0, 3, "TOOL"], [4, 7, "TOOL"], [39, 50, "ATTACK_TYPE"], [44, 60, "ENDPOINT_PATH"], [61, 69, "ALERT_TYPE"]]}
+{"text": "SPIRE Tool validated workload identity for payment-service accessing order API", "entities": [[0, 5, "TOOL"], [51, 68, "API_CATEGORY"]]}
+{"text": "mTLS coverage achieved 70% for service-to-service API communication with 15 certificates rotated", "entities": [[0, 4, "PROTOCOL_TYPE"], [5, 13, "METRIC_TYPE"], [50, 61, "COMMUNICATION_TYPE"], [76, 88, "ACTION_TYPE"]]}
+{"text": "Depth Limiter blocked GraphQL query exceeding maximum depth of 10 levels", "entities": [[0, 13, "TOOL"], [20, 35, "QUERY_TYPE"], [30, 45, "API_TYPE"], [46, 53, "COUNT"], [54, 62, "LEVEL_TYPE"]]}
+{"text": "API Behavior Analyst detected anomaly in login API call frequency exceeding baseline by 300%", "entities": [[0, 22, "ROLE"], [30, 37, "ANOMALY_TYPE"], [41, 50, "API_CATEGORY"]]}
+{"text": "API security false positive rate reduced to 3% improving alert accuracy", "entities": [[0, 3, "API_TYPE"], [13, 27, "METRIC_TYPE"], [41, 48, "ALERT_TYPE"]]}
+{"text": "Average API risk score of 72 with high-risk APIs including /payments and /orders endpoints", "entities": [[0, 7, "METRIC_TYPE"], [8, 11, "API_TYPE"], [12, 22, "RISK_TYPE"], [34, 43, "RISK_LEVEL"], [44, 48, "API_TYPE"]]}
+{"text": "Noname Security detected SQL injection attempt targeting GraphQL API at api.example.com", "entities": [[72, 87, "DOMAIN"]]}
+{"text": "Audit Checklist Tool validated 150 APIs against OWASP API Top 10 finding 8 violations", "entities": [[31, 34, "API_TYPE"], [46, 53, "API_TYPE"]]}
+{"text": "API security audit score of 85% with findings including shadow APIs and weak RBAC", "entities": [[0, 3, "API_TYPE"], [19, 24, "METRIC_TYPE"], [19, 27, "METRIC_TYPE"]]}
+{"text": "Service Identity Engineer configured SPIFFE workload identities for 200 microservices", "entities": [[0, 25, "ROLE"], [32, 43, "IDENTITY_TYPE"], [37, 52, "IDENTITY_TYPE"]]}
+{"text": "API security training completion reached 98% for all API developers and engineers", "entities": [[0, 3, "API_TYPE"], [39, 43, "API_TYPE"], [57, 67, "ROLE_TYPE"]]}
+{"text": "Reporting Dashboard Tool generated executive KPI report showing 12 shadow APIs discovered", "entities": [[33, 44, "REPORT_TYPE"], [45, 48, "REPORT_TYPE"]]}
+{"text": "Insomnia API client tested authentication bypass vulnerability in REST API", "entities": [[0, 8, "TOOL"], [9, 19, "CLIENT_TYPE"], [49, 62, "API_TYPE"]]}
+{"text": "API Usage Analytics Tool detected credential stuffing pattern with 500 failed logins", "entities": [[0, 3, "API_TYPE"], [4, 9, "USAGE_TYPE"], [10, 19, "ANALYTICS_TYPE"]]}
+{"text": "Average API risk score of 72 with high-risk APIs including /payments and /orders endpoints", "entities": [[0, 7, "METRIC_TYPE"], [8, 11, "API_TYPE"], [12, 22, "RISK_TYPE"], [34, 43, "RISK_LEVEL"], [44, 48, "API_TYPE"]]}
+{"text": "Reporting Dashboard Tool generated executive KPIs showing 85% audit score and 72 risk score", "entities": [[10, 19, "DASHBOARD_TYPE"], [68, 73, "SCORE_TYPE"], [81, 85, "SCORE_TYPE"]]}
+{"text": "API behavior baseline established for 1200 users with 2 anomalies escalated for investigation", "entities": [[0, 3, "API_TYPE"], [4, 12, "BEHAVIOR_TYPE"], [13, 21, "METRIC_TYPE"]]}
+{"text": "API Security Operations Engineer discovered 12 shadow APIs and 5 zombie APIs using API Discovery Tool", "entities": [[42, 53, "API_TYPE"], [63, 71, "API_TYPE"], [72, 82, "COUNT"]]}
+{"text": "Azure API Management detected JWT token reuse attack across multiple API endpoints", "entities": [[0, 5, "CLOUD_PROVIDER"], [6, 20, "GATEWAY_TYPE"], [28, 33, "TOKEN_TYPE"], [34, 39, "ATTACK_TYPE"]]}
+{"text": "Nessus scanner identified 8 API security vulnerabilities including XSS and CSRF", "entities": [[0, 6, "TOOL"]]}
+{"text": "mTLS coverage achieved 70% for service-to-service API communication with 15 certificates rotated", "entities": [[0, 4, "PROTOCOL_TYPE"], [5, 13, "METRIC_TYPE"], [50, 61, "COMMUNICATION_TYPE"], [76, 88, "ACTION_TYPE"]]}
+{"text": "API Security Strategist defined enterprise API security policy aligned with OWASP API Top 10", "entities": [[32, 42, "API_TYPE"], [41, 49, "SECURITY_TYPE"], [63, 70, "FRAMEWORK"], [82, 89, "FRAMEWORK"]]}
+{"text": "AWS API Gateway logged unauthorized access attempt from IP 203.0.113.45 to /v1/customers", "entities": [[0, 3, "CLOUD_PROVIDER"], [4, 15, "GATEWAY_TYPE"], [23, 42, "ACCESS_TYPE"], [59, 71, "IP_ADDRESS"]]}
+{"text": "API Security Strategist defined enterprise API security policy aligned with OWASP API Top 10", "entities": [[32, 42, "API_TYPE"], [41, 49, "SECURITY_TYPE"], [63, 70, "FRAMEWORK"], [82, 89, "FRAMEWORK"]]}
+{"text": "Service Identity Engineer configured SPIFFE workload identities for 200 microservices", "entities": [[0, 25, "ROLE"], [32, 43, "IDENTITY_TYPE"], [37, 52, "IDENTITY_TYPE"]]}
+{"text": "API Policy Generator created enterprise API security policy with OAuth2 and rate limiting", "entities": [[29, 45, "POLICY_TYPE"], [50, 59, "AUTH_TYPE"]]}
+{"text": "API Behavior Analyst detected anomaly in login API call frequency exceeding baseline by 300%", "entities": [[0, 22, "ROLE"], [30, 37, "ANOMALY_TYPE"], [41, 50, "API_CATEGORY"]]}
+{"text": "Schema Validator blocked 10 non-compliant requests violating OpenAPI schema for REST API", "entities": [[23, 31, "COUNT"], [28, 41, "REQUEST_TYPE"], [58, 68, "SCHEMA_TYPE"], [69, 75, "API_TYPE"]]}
+{"text": "Schema Validator rejected 15 API requests with invalid JSON schema violations", "entities": [[29, 35, "API_TYPE"], [53, 66, "VIOLATION_TYPE"]]}
+{"text": "API security coverage achieved 98% with zero critical vulnerabilities in production", "entities": [[0, 3, "API_TYPE"], [13, 21, "METRIC_TYPE"], [31, 33, "METRIC_TYPE"], [62, 72, "ENVIRONMENT"]]}
+{"text": "API Segmentation Tool classified 50 external and 100 internal APIs with different policies", "entities": [[0, 3, "API_TYPE"], [31, 44, "ENDPOINT_TYPE"]]}
+{"text": "API Policy Generator created enterprise API security policy with OAuth2 MFA and rate limiting", "entities": [[0, 3, "API_TYPE"], [4, 10, "POLICY_TYPE"], [29, 39, "API_TYPE"], [40, 52, "SECURITY_TYPE"], [44, 59, "POLICY_TYPE"], [65, 71, "AUTH_TYPE"]]}
+{"text": "API Policy Generator created enterprise API security policy with OAuth2 and rate limiting", "entities": [[29, 45, "POLICY_TYPE"], [50, 59, "AUTH_TYPE"]]}
+{"text": "Runtime Behavior Analysis Tool flagged unusual API call sequence indicating account takeover", "entities": [[31, 46, "API_CALL_TYPE"], [39, 50, "SEQUENCE_TYPE"], [56, 75, "ATTACK_TYPE"]]}
+{"text": "Compliance Mapping Tool aligned API security controls with PCI DSS requirements", "entities": []}
+{"text": "mTLS Certificate Manager rotated TLS certificates for 45 service-to-service API connections", "entities": [[0, 24, "TOOL"], [33, 49, "CERTIFICATE_TYPE"], [54, 75, "CONNECTION_TYPE"]]}
+{"text": "GraphQL security violations detected 5 queries exceeding cost analysis thresholds", "entities": [[0, 7, "API_TYPE"], [37, 46, "QUERY_TYPE"]]}
+{"text": "API Risk Scoring Tool calculated average risk score of 72 for 150 APIs with high-risk /payments", "entities": [[0, 3, "API_TYPE"], [4, 8, "RISK_TYPE"], [31, 40, "RISK_TYPE"], [33, 45, "SCORE_TYPE"], [46, 51, "COUNT"], [62, 70, "RISK_TYPE"]]}
+{"text": "GraphQL Security Specialist enforced query depth limit of 10 preventing DoS attacks", "entities": [[28, 42, "API_TYPE"], [37, 48, "SECURITY_TYPE"], [49, 62, "SPECIALIST_TYPE"], [70, 75, "QUERY_TYPE"]]}
+{"text": "Nessus scanner identified 8 API security vulnerabilities including XSS and CSRF", "entities": [[0, 6, "TOOL"]]}
+{"text": "Kong API Gateway enforced OAuth2 authentication with MFA for external API endpoints", "entities": [[0, 4, "TOOL"], [5, 18, "GATEWAY_TYPE"], [26, 32, "AUTH_TYPE"]]}
+{"text": "API Drift Detection Tool identified unauthorized changes to /beta/login endpoint requiring rollback", "entities": [[0, 3, "API_TYPE"], [4, 9, "DRIFT_TYPE"], [25, 42, "CHANGE_TYPE"], [46, 59, "ENDPOINT_PATH"], [66, 80, "ACTION_TYPE"]]}
+{"text": "API risk scoring identified high-risk endpoints /payments and /orders with average score 72", "entities": [[0, 3, "API_TYPE"], [17, 27, "ACTION_TYPE"], [33, 47, "RISK_LEVEL"], [38, 57, "ENDPOINT_PATH"], [75, 82, "METRIC_TYPE"]]}
+{"text": "Apigee API Gateway detected inconsistent policies across 4 gateways with 8 violations", "entities": [[0, 6, "TOOL"], [7, 18, "GATEWAY_TYPE"], [28, 40, "POLICY_TYPE"]]}
+{"text": "API incident response isolated /orders endpoint and revoked 12 compromised API tokens", "entities": [[0, 3, "API_TYPE"], [31, 38, "ENDPOINT_PATH"], [60, 74, "TOKEN_STATUS"]]}
+{"text": "Business logic abuse detected in password reset API with 50 requests from single IP", "entities": [[0, 20, "ABUSE_TYPE"]]}
+{"text": "Compliance Mapping Tool validated API security against GDPR PCI DSS and SOC2 requirements", "entities": [[38, 54, "SECURITY_TYPE"], [55, 59, "FRAMEWORK"], [60, 67, "FRAMEWORK"], [72, 76, "FRAMEWORK"]]}
+{"text": "Third-party API integration security assessed with 15 partners requiring security reviews", "entities": [[0, 11, "INTEGRATION_TYPE"], [12, 15, "API_TYPE"], [16, 27, "SECURITY_TYPE"], [28, 45, "PARTNER_TYPE"], [51, 62, "SECURITY_TYPE"], [61, 72, "REVIEW_TYPE"]]}
+{"text": "Average API risk score of 72 with high-risk APIs including /payments and /orders endpoints", "entities": [[0, 7, "METRIC_TYPE"], [8, 11, "API_TYPE"], [12, 22, "RISK_TYPE"], [34, 43, "RISK_LEVEL"], [44, 48, "API_TYPE"]]}
+{"text": "API Security Engineer detected broken object level authorization attack on /users endpoint", "entities": [[31, 64, "VULNERABILITY_TYPE"], [72, 81, "ENDPOINT_PATH"]]}
+{"text": "API Usage Analytics Tool reported 85% increase in API requests from unknown user agents", "entities": [[34, 36, "METRIC_TYPE"], [38, 46, "METRIC_TYPE"]]}
+{"text": "Burp Suite Community detected NoSQL injection in MongoDB API endpoint /api/data/query", "entities": [[0, 20, "TOOL"], [49, 56, "DATABASE_TYPE"], [57, 60, "API_TYPE"], [61, 79, "ENDPOINT_PATH"]]}
+{"text": "Apigee API Gateway enforced API key rotation policy for external partner integrations", "entities": [[0, 6, "TOOL"], [7, 18, "GATEWAY_TYPE"], [26, 35, "KEY_TYPE"], [56, 66, "INTEGRATION_TYPE"]]}
+{"text": "API security false positive rate reduced to 3% improving alert accuracy", "entities": [[0, 3, "API_TYPE"], [13, 27, "METRIC_TYPE"], [41, 48, "ALERT_TYPE"]]}
+{"text": "API Threat Hunting identified reused JWT tokens across 5 API endpoints", "entities": [[0, 3, "API_TYPE"], [26, 36, "TOKEN_TYPE"], [30, 40, "TOKEN_TYPE"]]}
+{"text": "Insomnia API client tested authentication bypass vulnerability in REST API", "entities": [[0, 8, "TOOL"], [9, 19, "CLIENT_TYPE"], [49, 62, "API_TYPE"]]}
+{"text": "AWS API Gateway logged unauthorized access attempt from IP 203.0.113.45 to /v1/customers", "entities": [[0, 3, "CLOUD_PROVIDER"], [4, 15, "GATEWAY_TYPE"], [23, 42, "ACCESS_TYPE"], [59, 71, "IP_ADDRESS"]]}
+{"text": "WAF API Threat Detection Tool detected BOLA attack on /users endpoint with 45 alerts", "entities": [[0, 3, "TOOL"], [4, 7, "TOOL"], [39, 50, "ATTACK_TYPE"], [44, 60, "ENDPOINT_PATH"], [61, 69, "ALERT_TYPE"]]}
+{"text": "Compliance Mapping Tool validated API security against GDPR PCI DSS and SOC2 requirements", "entities": [[38, 54, "SECURITY_TYPE"], [55, 59, "FRAMEWORK"], [60, 67, "FRAMEWORK"], [72, 76, "FRAMEWORK"]]}
+{"text": "AWS API Gateway logged unauthorized access attempt from IP 203.0.113.45 to /v1/customers", "entities": [[0, 3, "CLOUD_PROVIDER"], [4, 15, "GATEWAY_TYPE"], [23, 42, "ACCESS_TYPE"], [59, 71, "IP_ADDRESS"]]}
+{"text": "API Governance Tool detected drift between deployed APIs and approved definitions", "entities": [[0, 3, "API_TYPE"], [4, 14, "GOVERNANCE_TYPE"], [27, 34, "DRIFT_TYPE"], [35, 44, "API_TYPE"], [43, 56, "API_TYPE"]]}
+{"text": "DevSecOps Engineer integrated OWASP ZAP into CI/CD pipeline for automated API security scanning", "entities": [[0, 18, "ROLE"], [40, 50, "PIPELINE_TYPE"]]}
+{"text": "API security coverage achieved 98% with zero critical vulnerabilities in production", "entities": [[0, 3, "API_TYPE"], [13, 21, "METRIC_TYPE"], [31, 33, "METRIC_TYPE"], [62, 72, "ENVIRONMENT"]]}
+{"text": "API security incident INC789 isolated /orders endpoint and revoked 12 compromised tokens", "entities": [[0, 3, "API_TYPE"], [22, 28, "INCIDENT_ID"], [59, 69, "TOKEN_STATUS"]]}
+{"text": "WAF/API Threat Detection Tool blocked BOLA attack on /orders endpoint with user ID manipulation", "entities": [[38, 42, "ATTACK_TYPE"], [43, 54, "ENDPOINT_PATH"], [61, 69, "RESOURCE_TYPE"]]}
+{"text": "Business Logic Abuse Detection identified cart inflation attack on shopping cart API", "entities": [[0, 8, "BUSINESS_TYPE"], [7, 14, "LOGIC_TYPE"], [9, 20, "ABUSE_TYPE"], [38, 46, "ATTACK_TYPE"], [42, 50, "ATTACK_TYPE"]]}
+{"text": "API Inventory Manager cataloged 150 APIs across 4 different API gateway platforms", "entities": [[0, 21, "TOOL"], [32, 35, "COUNT"], [36, 40, "API_TYPE"], [50, 71, "GATEWAY_TYPE"], [64, 75, "PLATFORM_TYPE"]]}
+{"text": "Audit Checklist Tool validated 98% of APIs meeting OWASP API Top 10 security requirements", "entities": [[61, 69, "SECURITY_TYPE"]]}
+{"text": "API audit findings included 12 shadow APIs and weak RBAC requiring remediation actions", "entities": [[0, 3, "API_TYPE"]]}
+{"text": "SPIRE Tool validated workload identity for payment-service accessing order API", "entities": [[0, 5, "TOOL"], [51, 68, "API_CATEGORY"]]}
+{"text": "API dependency security audit found critical vulnerability in libX version 1.2 requiring update", "entities": [[0, 3, "API_TYPE"], [4, 14, "DEPENDENCY_TYPE"], [43, 50, "VULNERABILITY_TYPE"], [59, 66, "VERSION_TAG"], [75, 81, "ACTION_TYPE"]]}
+{"text": "API Governance Tool detected drift between deployed APIs and approved definitions", "entities": [[0, 3, "API_TYPE"], [4, 14, "GOVERNANCE_TYPE"], [27, 34, "DRIFT_TYPE"], [35, 44, "API_TYPE"], [43, 56, "API_TYPE"]]}
+{"text": "Query Cost Analyzer detected expensive GraphQL query consuming 500ms execution time", "entities": [[27, 38, "QUERY_TYPE"], [36, 46, "API_TYPE"], [47, 52, "METRIC_TYPE"]]}
+{"text": "API security incident INC789 isolated /orders endpoint and revoked 12 compromised tokens", "entities": [[0, 3, "API_TYPE"], [22, 28, "INCIDENT_ID"], [59, 69, "TOKEN_STATUS"]]}
+{"text": "Anomaly Detection Tool flagged unusual API call sequence indicating account takeover attempt", "entities": [[23, 38, "API_CALL_TYPE"]]}
+{"text": "API Governance Tool detected drift in /beta/login endpoint requiring rollback", "entities": [[26, 34, "METRIC_TYPE"], [35, 49, "ENDPOINT_PATH"]]}
+{"text": "API logging and monitoring coverage reached 100% with real-time alerting enabled", "entities": [[0, 3, "API_TYPE"], [27, 35, "METRIC_TYPE"], [54, 63, "STATUS_TYPE"]]}
+{"text": "Query Cost Analyzer detected expensive GraphQL query consuming 500ms execution time", "entities": [[27, 38, "QUERY_TYPE"], [36, 46, "API_TYPE"], [47, 52, "METRIC_TYPE"]]}
+{"text": "DevSecOps Engineer integrated OWASP ZAP into CI/CD pipeline for automated API security scanning", "entities": [[0, 18, "ROLE"], [40, 50, "PIPELINE_TYPE"]]}
+{"text": "API Policy Generator created enterprise API security policy with OAuth2 and rate limiting", "entities": [[29, 45, "POLICY_TYPE"], [50, 59, "AUTH_TYPE"]]}
+{"text": "Depth Limiter enforced GraphQL query depth of 10 preventing resource exhaustion attacks", "entities": [[0, 13, "TOOL"], [20, 30, "API_TYPE"], [29, 36, "QUERY_TYPE"], [31, 42, "CONTROL_TYPE"]]}
+{"text": "API Gateway Administrator configured rate limiting to 1000 requests per minute on payment API", "entities": [[51, 58, "COUNT"], [59, 67, "TIME_UNIT"], [72, 78, "API_CATEGORY"], [79, 83, "API_TYPE"]]}
+{"text": "API security incident response time achieved 18 minutes meeting 20-minute SLA", "entities": [[0, 3, "API_TYPE"], [31, 37, "METRIC_TYPE"], [36, 44, "TIME_UNIT"]]}
+{"text": "Azure API Management detected JWT token reuse attack across multiple API endpoints", "entities": [[0, 5, "CLOUD_PROVIDER"], [6, 20, "GATEWAY_TYPE"], [28, 33, "TOKEN_TYPE"], [34, 39, "ATTACK_TYPE"]]}
+{"text": "API security training completion reached 98% for all API developers and engineers", "entities": [[0, 3, "API_TYPE"], [39, 43, "API_TYPE"], [57, 67, "ROLE_TYPE"]]}
+{"text": "API schema validation coverage reached 100% for all REST and GraphQL endpoints", "entities": [[0, 3, "API_TYPE"], [4, 13, "VALIDATION_TYPE"], [29, 32, "METRIC_TYPE"], [37, 42, "API_TYPE"]]}
+{"text": "API security testing coverage achieved 92% with automated scans in CI/CD pipeline", "entities": [[0, 3, "API_TYPE"], [21, 29, "METRIC_TYPE"]]}
+{"text": "API security audit score of 85% with findings including shadow APIs and weak RBAC", "entities": [[0, 3, "API_TYPE"], [19, 24, "METRIC_TYPE"], [19, 27, "METRIC_TYPE"]]}
+{"text": "API Discovery Tool found 12 shadow APIs and 5 zombie APIs not in official inventory", "entities": [[44, 52, "API_TYPE"], [53, 61, "INVENTORY_TYPE"]]}
+{"text": "API behavior baseline established for 1200 users with 2 anomalies escalated for investigation", "entities": [[0, 3, "API_TYPE"], [4, 12, "BEHAVIOR_TYPE"], [13, 21, "METRIC_TYPE"]]}
+{"text": "Service Identity Manager assigned workload identity to inventory-service accessing database API", "entities": [[0, 24, "TOOL"], [31, 51, "IDENTITY_TYPE"], [52, 72, "SERVICE_NAME"]]}
+{"text": "Postman automated security tests identified 12 OWASP API Top 10 vulnerabilities", "entities": [[0, 7, "TOOL"], [25, 32, "SECURITY_TYPE"], [61, 79, "VULNERABILITY_TYPE"]]}
+{"text": "mTLS Certificate Manager rotated TLS certificates for 45 service-to-service API connections", "entities": [[0, 24, "TOOL"], [33, 49, "CERTIFICATE_TYPE"], [54, 75, "CONNECTION_TYPE"]]}
+{"text": "API threat hunting identified JWT token reuse pattern across 12 different endpoints", "entities": [[30, 39, "ATTACK_TYPE"], [34, 45, "PATTERN_TYPE"], [61, 73, "ENDPOINT_TYPE"]]}
+{"text": "API Dependency Scanner found 12 vulnerabilities in third-party SDKs used by APIs", "entities": [[29, 47, "VULNERABILITY_TYPE"], [51, 62, "DEPENDENCY_TYPE"], [63, 72, "API_TYPE"]]}
+{"text": "Reporting Dashboard Tool generated executive KPIs showing 85% audit score and 72 risk score", "entities": [[10, 19, "DASHBOARD_TYPE"], [68, 73, "SCORE_TYPE"], [81, 85, "SCORE_TYPE"]]}
+{"text": "API Behavior Analyst baselined 1200 users detecting anomalies in login API call frequency", "entities": [[0, 22, "ROLE"], [31, 41, "BASELINE_TYPE"], [49, 55, "USER_TYPE"], [65, 74, "ANOMALY_TYPE"]]}
+{"text": "Reporting Dashboard Tool generated executive KPI report showing 12 shadow APIs discovered", "entities": [[33, 44, "REPORT_TYPE"], [45, 48, "REPORT_TYPE"]]}
+{"text": "API threat hunting identified JWT token reuse pattern across 12 different endpoints", "entities": [[30, 39, "ATTACK_TYPE"], [34, 45, "PATTERN_TYPE"], [61, 73, "ENDPOINT_TYPE"]]}
+{"text": "AWS API Gateway logged unauthorized access attempt from IP 203.0.113.45 to /v1/customers", "entities": [[0, 3, "CLOUD_PROVIDER"], [4, 15, "GATEWAY_TYPE"], [23, 42, "ACCESS_TYPE"], [59, 71, "IP_ADDRESS"]]}
+{"text": "API rate limiting effectiveness improved to 95% blocking abuse attempts", "entities": [[0, 3, "API_TYPE"], [18, 31, "METRIC_TYPE"], [55, 62, "ATTACK_TYPE"]]}
+{"text": "API Segmentation Tool classified 50 external and 100 internal APIs with different policies", "entities": [[0, 3, "API_TYPE"], [31, 44, "ENDPOINT_TYPE"]]}
+{"text": "API risk scoring identified high-risk endpoints /payments and /orders with average score 72", "entities": [[0, 3, "API_TYPE"], [17, 27, "ACTION_TYPE"], [33, 47, "RISK_LEVEL"], [38, 57, "ENDPOINT_PATH"], [75, 82, "METRIC_TYPE"]]}
+{"text": "API Governance Tool detected drift between deployed APIs and approved definitions", "entities": [[0, 3, "API_TYPE"], [4, 14, "GOVERNANCE_TYPE"], [27, 34, "DRIFT_TYPE"], [35, 44, "API_TYPE"], [43, 56, "API_TYPE"]]}
+{"text": "API security incident INC789 isolated /orders endpoint and revoked 12 compromised tokens", "entities": [[0, 3, "API_TYPE"], [22, 28, "INCIDENT_ID"], [59, 69, "TOKEN_STATUS"]]}
+{"text": "Apigee API Gateway detected inconsistent policies across 4 gateways with 8 violations", "entities": [[0, 6, "TOOL"], [7, 18, "GATEWAY_TYPE"], [28, 40, "POLICY_TYPE"]]}
+{"text": "API Dependency Scanner identified 12 vulnerabilities in 80 third-party SDKs and libraries", "entities": [[0, 3, "API_TYPE"], [4, 14, "DEPENDENCY_TYPE"], [34, 46, "VULNERABILITY_TYPE"], [53, 70, "DEPENDENCY_TYPE"], [65, 70, "DEPENDENCY_TYPE"]]}
+{"text": "API Dependency Scanner identified 12 vulnerabilities in 80 third-party SDKs and libraries", "entities": [[0, 3, "API_TYPE"], [4, 14, "DEPENDENCY_TYPE"], [34, 46, "VULNERABILITY_TYPE"], [53, 70, "DEPENDENCY_TYPE"], [65, 70, "DEPENDENCY_TYPE"]]}
+{"text": "API metrics report showed 15 schema violations and 30 rate limit breaches in last quarter", "entities": [[0, 3, "API_TYPE"], [29, 35, "VIOLATION_TYPE"]]}
+{"text": "API security false positive rate reduced to 3% improving alert accuracy", "entities": [[0, 3, "API_TYPE"], [13, 27, "METRIC_TYPE"], [41, 48, "ALERT_TYPE"]]}
+{"text": "API rate limiting effectiveness improved to 95% blocking abuse attempts", "entities": [[0, 3, "API_TYPE"], [18, 31, "METRIC_TYPE"], [55, 62, "ATTACK_TYPE"]]}
+{"text": "Depth Limiter blocked GraphQL query exceeding maximum depth of 10 levels", "entities": [[0, 13, "TOOL"], [20, 35, "QUERY_TYPE"], [30, 45, "API_TYPE"], [46, 53, "COUNT"], [54, 62, "LEVEL_TYPE"]]}
+{"text": "API Security Tester discovered shadow API /internal/admin exposed without authentication", "entities": [[38, 57, "ENDPOINT_PATH"]]}
+{"text": "Salt Security platform blocked 247 API abuse attempts including credential stuffing attacks", "entities": [[23, 44, "ATTACK_TYPE"]]}
+{"text": "API Policy Generator created enterprise API security policy with OAuth2 and rate limiting", "entities": [[29, 45, "POLICY_TYPE"], [50, 59, "AUTH_TYPE"]]}
+{"text": "API security monitoring detected 45 threat alerts with 3 critical BOLA attacks escalated", "entities": [[0, 3, "API_TYPE"]]}
+{"text": "WAF/API Threat Detection Tool blocked BOLA attack on /orders endpoint with user ID manipulation", "entities": [[38, 42, "ATTACK_TYPE"], [43, 54, "ENDPOINT_PATH"], [61, 69, "RESOURCE_TYPE"]]}
+{"text": "API Threat Hunting identified reused JWT tokens across 5 API endpoints", "entities": [[0, 3, "API_TYPE"], [26, 36, "TOKEN_TYPE"], [30, 40, "TOKEN_TYPE"]]}
+{"text": "SPIRE tool validated workload identity for payment-service accessing order API", "entities": [[0, 5, "TOOL"], [51, 68, "API_CATEGORY"]]}
+{"text": "API Gateway Security Tool blocked 23 rate limit violations from IP 192.168.1.100", "entities": [[67, 80, "IP_ADDRESS"]]}
+{"text": "API Policy Generator created enterprise API security policy with OAuth2 MFA and rate limiting", "entities": [[0, 3, "API_TYPE"], [4, 10, "POLICY_TYPE"], [29, 39, "API_TYPE"], [40, 52, "SECURITY_TYPE"], [44, 59, "POLICY_TYPE"], [65, 71, "AUTH_TYPE"]]}
+{"text": "42Crunch platform identified excessive data exposure in REST API response containing PII", "entities": [[0, 11, "TOOL"], [53, 60, "API_TYPE"], [61, 73, "RESPONSE_TYPE"], [74, 84, "DATA_TYPE"]]}
+{"text": "API supply chain security audit identified 8 vulnerable dependencies requiring updates", "entities": [[0, 3, "API_TYPE"], [4, 16, "SUPPLY_CHAIN_TYPE"], [43, 55, "VULNERABILITY_TYPE"], [52, 68, "DEPENDENCY_TYPE"]]}
+{"text": "Runtime Behavior Analysis Tool identified credential stuffing pattern with 500 failed logins", "entities": [[37, 54, "ATTACK_TYPE"]]}
+{"text": "API Usage Analytics Tool reported 85% increase in API requests from unknown user agents", "entities": [[34, 36, "METRIC_TYPE"], [38, 46, "METRIC_TYPE"]]}
+{"text": "GraphQL security violations detected 5 queries exceeding cost analysis thresholds", "entities": [[0, 7, "API_TYPE"], [37, 46, "QUERY_TYPE"]]}
+{"text": "mTLS coverage achieved 70% for service-to-service API communication with 15 certificates rotated", "entities": [[0, 4, "PROTOCOL_TYPE"], [5, 13, "METRIC_TYPE"], [50, 61, "COMMUNICATION_TYPE"], [76, 88, "ACTION_TYPE"]]}
+{"text": "API Inventory Manager cataloged 150 APIs across 4 different API gateway platforms", "entities": [[0, 21, "TOOL"], [32, 35, "COUNT"], [36, 40, "API_TYPE"], [50, 71, "GATEWAY_TYPE"], [64, 75, "PLATFORM_TYPE"]]}
+{"text": "API Governance Tool detected drift between deployed APIs and approved definitions", "entities": [[0, 3, "API_TYPE"], [4, 14, "GOVERNANCE_TYPE"], [27, 34, "DRIFT_TYPE"], [35, 44, "API_TYPE"], [43, 56, "API_TYPE"]]}
+{"text": "Average API risk score of 72 with high-risk APIs including /payments and /orders endpoints", "entities": [[0, 7, "METRIC_TYPE"], [8, 11, "API_TYPE"], [12, 22, "RISK_TYPE"], [34, 43, "RISK_LEVEL"], [44, 48, "API_TYPE"]]}
+{"text": "API security compliance score improved to 96% meeting PCI DSS and OWASP requirements", "entities": [[0, 3, "API_TYPE"], [24, 31, "METRIC_TYPE"], [30, 38, "METRIC_TYPE"], [54, 61, "FRAMEWORK"]]}
+{"text": "API supply chain security audit identified 8 vulnerable dependencies requiring updates", "entities": [[0, 3, "API_TYPE"], [4, 16, "SUPPLY_CHAIN_TYPE"], [43, 55, "VULNERABILITY_TYPE"], [52, 68, "DEPENDENCY_TYPE"]]}
+{"text": "GraphQL Security Specialist enforced query depth limit of 10 preventing DoS attacks", "entities": [[28, 42, "API_TYPE"], [37, 48, "SECURITY_TYPE"], [49, 62, "SPECIALIST_TYPE"], [70, 75, "QUERY_TYPE"]]}
+{"text": "API risk scoring identified high-risk endpoints /payments and /orders with average score 72", "entities": [[0, 3, "API_TYPE"], [17, 27, "ACTION_TYPE"], [33, 47, "RISK_LEVEL"], [38, 57, "ENDPOINT_PATH"], [75, 82, "METRIC_TYPE"]]}
+{"text": "API Security Engineer detected broken object level authorization attack on /users endpoint", "entities": [[31, 64, "VULNERABILITY_TYPE"], [72, 81, "ENDPOINT_PATH"]]}
+{"text": "SPIRE tool validated workload identity for payment-service accessing order API", "entities": [[0, 5, "TOOL"], [51, 68, "API_CATEGORY"]]}
+{"text": "API Behavior Analyst baselined 1200 users detecting anomalies in login API call frequency", "entities": [[0, 22, "ROLE"], [31, 41, "BASELINE_TYPE"], [49, 55, "USER_TYPE"], [65, 74, "ANOMALY_TYPE"]]}
+{"text": "API schema validation coverage reached 100% for all REST and GraphQL endpoints", "entities": [[0, 3, "API_TYPE"], [4, 13, "VALIDATION_TYPE"], [29, 32, "METRIC_TYPE"], [37, 42, "API_TYPE"]]}
+{"text": "Reporting Dashboard Tool generated executive KPI report showing 12 shadow APIs discovered", "entities": [[33, 44, "REPORT_TYPE"], [45, 48, "REPORT_TYPE"]]}
+{"text": "API Security Operations Engineer discovered 12 shadow APIs and 5 zombie APIs using API Discovery Tool", "entities": [[42, 53, "API_TYPE"], [63, 71, "API_TYPE"], [72, 82, "COUNT"]]}
+{"text": "Audit Checklist Tool validated 98% of APIs meeting OWASP API Top 10 security requirements", "entities": [[61, 69, "SECURITY_TYPE"]]}
+{"text": "API Behavior Analyst detected anomaly in login API call frequency exceeding baseline by 300%", "entities": [[0, 22, "ROLE"], [30, 37, "ANOMALY_TYPE"], [41, 50, "API_CATEGORY"]]}
+{"text": "API security incident response time achieved 18 minutes meeting 20-minute SLA", "entities": [[0, 3, "API_TYPE"], [31, 37, "METRIC_TYPE"], [36, 44, "TIME_UNIT"]]}
+{"text": "Can you help me with this?", "entities": []}
+{"text": "I need to check something.", "entities": []}
+{"text": "What is the status?", "entities": []}
+{"text": "How do I do this?", "entities": []}
+{"text": "Tell me more about it.", "entities": []}
+{"text": "Is this safe to use?", "entities": []}
+{"text": "Let me know if you need anything.", "entities": []}
+{"text": "Thanks for your help.", "entities": []}
+{"text": "I will get back to you.", "entities": []}
+{"text": "Please review this document.", "entities": []}
+{"text": "What should I do next?", "entities": []}
+{"text": "How does this work?", "entities": []}
+{"text": "Why is this happening?", "entities": []}
+{"text": "When will this be ready?", "entities": []}
+{"text": "Where can I find this?", "entities": []}
+{"text": "Who should I contact?", "entities": []}
+{"text": "Hey, what's up?", "entities": []}
+{"text": "That's interesting.", "entities": []}
+{"text": "I see what you mean.", "entities": []}
+{"text": "That makes sense.", "entities": []}
+{"text": "Got it, thanks.", "entities": []}
+{"text": "Follow the steps carefully.", "entities": []}
+{"text": "Make sure to save your work.", "entities": []}
+{"text": "Check the settings first.", "entities": []}
+{"text": "Review the documentation.", "entities": []}
+{"text": "Read the instructions.", "entities": []}
+{"text": "This is important.", "entities": []}
+{"text": "That looks good.", "entities": []}
+{"text": "Everything seems fine.", "entities": []}
+{"text": "Nothing to report.", "entities": []}
+{"text": "All systems operational.", "entities": []}
+{"text": "The system is secure.", "entities": []}
+{"text": "All checks passed.", "entities": []}
+{"text": "No issues detected.", "entities": []}
+{"text": "Everything is working correctly.", "entities": []}
+{"text": "The configuration looks good.", "entities": []}
+{"text": "No vulnerabilities found.", "entities": []}
+{"text": "Security measures are in place.", "entities": []}
+{"text": "The audit was successful.", "entities": []}
+{"text": "The information is verified.", "entities": []}

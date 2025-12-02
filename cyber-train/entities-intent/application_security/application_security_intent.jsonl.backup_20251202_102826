@@ -1,0 +1,656 @@
+{"text": "Test AI models with adversarial input and prompt injection scenarios", "cats": {"TEST_AI_MODELS": 1.0, "DETECT_VULNERABILITIES": 1.0, "VALIDATE_SECURITY": 1.0, "IMPROVE_DEFENSES": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Run fuzz testing on APIs and applications to discover crashes and bugs", "cats": {"FUZZ_TEST": 1.0, "DISCOVER_BUGS": 1.0, "TEST_RESILIENCE": 1.0, "IMPROVE_SECURITY": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Generate executive KPIs showing MTTR trends for critical vulnerabilities", "cats": {"GENERATE_REPORTS": 1.0, "COMMUNICATE_METRICS": 1.0, "EXECUTIVE_REPORTING": 1.0, "ANALYZE_TRENDS": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Scan Kubernetes CloudFormation and Terraform files for misconfigurations", "cats": {"SCAN_IAC": 1.0, "IDENTIFY_MISCONFIGS": 1.0, "ASSESS_RISKS": 1.0, "REMEDIATE_ISSUES": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Run chaos experiments killing dependencies and injecting attacks", "cats": {"RUN_CHAOS_EXPERIMENTS": 1.0, "VALIDATE_RESILIENCE": 1.0, "TEST_DEPENDENCIES": 1.0, "IMPROVE_RELIABILITY": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Track mean time to remediate vulnerabilities by severity over time", "cats": {"TRACK_MTTR": 1.0, "MEASURE_REMEDIATION": 1.0, "ANALYZE_TRENDS": 1.0, "IMPROVE_PROCESSES": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Scan repositories with SAST tool identifying SQL injection vulnerabilities", "cats": {"SCAN_REPOS": 1.0, "IDENTIFY_VULNERABILITIES": 1.0, "DETECT_ATTACKS": 1.0, "ASSESS_SECURITY": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Update AppSec policies based on new threat intelligence and vulnerabilities", "cats": {"UPDATE_POLICIES": 1.0, "ADAPT_TO_THREATS": 1.0, "IMPROVE_CONTROLS": 1.0, "MAINTAIN_SYSTEMS": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Map shadow and zombie APIs requiring security controls", "cats": {"DISCOVER_APIS": 1.0, "IDENTIFY_SHADOW": 1.0, "ENABLE_CONTROLS": 1.0, "PROTECT_APIS": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Generate SBOM for vendor integrations and exchange with partners", "cats": {"GENERATE_SBOM": 1.0, "EXCHANGE_DOCUMENTS": 1.0, "VALIDATE_ACCURACY": 1.0, "MANAGE_SUPPLY_CHAIN": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Map threats to MITRE ATT&CK techniques using threat modeling tool", "cats": {"MAP_ATTACK": 1.0, "ANALYZE_TECHNIQUES": 1.0, "DOCUMENT_THREATS": 1.0, "ENABLE_DEFENSE": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Run SAST scan on all repositories and provide secure coding feedback to developers", "cats": {"SCAN_CODE": 1.0, "ANALYZE_VULNERABILITIES": 1.0, "PROVIDE_FEEDBACK": 1.0, "GUIDE_REMEDIATION": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Patch Log4j vulnerability CVE-2021-44228 in all affected dependencies", "cats": {"PATCH_VULNERABILITY": 1.0, "UPDATE_DEPENDENCIES": 1.0, "REMEDIATE_CVE": 1.0, "RESPOND_TO_INCIDENT": 1.0, "AUDIT_COMPLIANCE": 0.0, "DEFINE_STRATEGY": 0.0}}
+{"text": "Secure APIs with gateway enforcing authentication and schema validation", "cats": {"SECURE_APIS": 1.0, "ENFORCE_AUTH": 1.0, "VALIDATE_SCHEMAS": 1.0, "PROTECT_ENDPOINTS": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Integrate runtime security events from WAF RASP and API gateway with SIEM", "cats": {"INTEGRATE_EVENTS": 1.0, "ENABLE_DETECTION": 1.0, "STREAMLINE_MONITORING": 1.0, "MAINTAIN_SYSTEMS": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Update security baselines and deploy enhanced protection controls", "cats": {"UPDATE_BASELINES": 1.0, "DEPLOY_CONTROLS": 1.0, "IMPROVE_SECURITY": 1.0, "MAINTAIN_SYSTEMS": 1.0, "RESPOND_TO_INCIDENT": 0.5, "AUDIT_COMPLIANCE": 0.0}}
+{"text": "Update AppSec policies based on new threat intelligence and vulnerabilities", "cats": {"UPDATE_POLICIES": 1.0, "ADAPT_TO_THREATS": 1.0, "IMPROVE_CONTROLS": 1.0, "MAINTAIN_SYSTEMS": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Document security incident and capture lessons learned for improvement", "cats": {"DOCUMENT_INCIDENT": 1.0, "CAPTURE_LEARNINGS": 1.0, "IMPROVE_PROCESSES": 1.0, "RESPOND_TO_INCIDENT": 1.0, "AUDIT_COMPLIANCE": 0.0, "DEFINE_STRATEGY": 0.0}}
+{"text": "Scan repositories for hardcoded API keys and tokens requiring revocation", "cats": {"SCAN_REPOS": 1.0, "DETECT_SECRETS": 1.0, "REVOKE_CREDENTIALS": 1.0, "PROTECT_DATA": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Scan repositories with SAST tool identifying SQL injection vulnerabilities", "cats": {"SCAN_REPOS": 1.0, "IDENTIFY_VULNERABILITIES": 1.0, "DETECT_ATTACKS": 1.0, "ASSESS_SECURITY": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+
+{"text": "Review application security architecture and update design principles", "cats": {"REVIEW_ARCHITECTURE": 1.0, "UPDATE_DESIGN": 1.0, "DEFINE_STRATEGY": 1.0, "IMPROVE_SECURITY": 1.0, "RESPOND_TO_INCIDENT": 0.0, "AUDIT_COMPLIANCE": 0.0}}
+{"text": "Generate executive KPIs showing vulnerability backlog and remediation trends", "cats": {"GENERATE_KPIS": 1.0, "REPORT_METRICS": 1.0, "TRACK_BACKLOG": 1.0, "ANALYZE_TRENDS": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Review application security metrics identifying areas for improvement", "cats": {"REVIEW_METRICS": 1.0, "ANALYZE_PERFORMANCE": 1.0, "IDENTIFY_IMPROVEMENTS": 1.0, "OPTIMIZE_PROGRAM": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Analyze this malware sample in a sandbox and reverse engineer the payload", "cats": {"ANALYZE_MALWARE_SAMPLE": 1.0, "SANDBOX_MALWARE": 1.0, "ANALYZE_PAYLOAD": 1.0, "REVERSE_ENGINEER_MALWARE": 1.0, "ANALYZE_MALWARE": 0.0}}
+{"text": "Execute dependency scanning to detect vulnerable libraries and supply chain risks", "cats": {"SCAN_DEPENDENCIES": 1.0, "DETECT_VULNERABILITIES": 1.0, "ASSESS_SUPPLY_CHAIN": 1.0, "GENERATE_SBOM": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Respond to application security incident containing threat and revoking access", "cats": {"RESPOND_TO_INCIDENT": 1.0, "CONTAIN_THREAT": 1.0, "REVOKE_ACCESS": 1.0, "DOCUMENT_INCIDENT": 1.0, "AUDIT_COMPLIANCE": 0.0, "DEFINE_STRATEGY": 0.0}}
+{"text": "Update security baselines and deploy enhanced protection controls", "cats": {"UPDATE_BASELINES": 1.0, "DEPLOY_CONTROLS": 1.0, "IMPROVE_SECURITY": 1.0, "MAINTAIN_SYSTEMS": 1.0, "RESPOND_TO_INCIDENT": 0.5, "AUDIT_COMPLIANCE": 0.0}}
+{"text": "Revoke all hardcoded API keys found in source code repositories", "cats": {"REVOKE_KEYS": 1.0, "RESPOND_TO_INCIDENT": 1.0, "SECURE_SECRETS": 1.0, "REMEDIATE_EXPOSURE": 1.0, "AUDIT_COMPLIANCE": 0.0, "DEFINE_STRATEGY": 0.0}}
+{"text": "Execute dependency scanning to detect vulnerable libraries and supply chain risks", "cats": {"SCAN_DEPENDENCIES": 1.0, "DETECT_VULNERABILITIES": 1.0, "ASSESS_SUPPLY_CHAIN": 1.0, "GENERATE_SBOM": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Secure APIs with gateway enforcing authentication and schema validation", "cats": {"SECURE_APIS": 1.0, "ENFORCE_AUTH": 1.0, "VALIDATE_SCHEMAS": 1.0, "PROTECT_ENDPOINTS": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Please perform STRIDE threat modeling analysis identifying spoofing and tampering threats", "cats": {"PERFORM_THREAT_MODELING": 1.0, "IDENTIFY_THREATS": 1.0, "ANALYZE_RISKS": 1.0, "DOCUMENT_MITIGATIONS": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Document lessons learned and application security improvements from testing", "cats": {"DOCUMENT_LEARNINGS": 1.0, "CAPTURE_IMPROVEMENTS": 1.0, "IMPROVE_PROCESSES": 1.0, "ENHANCE_SECURITY": 1.0, "RESPOND_TO_INCIDENT": 0.0, "AUDIT_COMPLIANCE": 0.0}}
+{"text": "Test coordinated application attacks and validate defense mechanisms", "cats": {"TEST_COORDINATION": 1.0, "SIMULATE_ATTACKS": 1.0, "VALIDATE_DEFENSES": 1.0, "IMPROVE_SECURITY": 1.0, "RESPOND_TO_INCIDENT": 0.0, "AUDIT_COMPLIANCE": 0.0}}
+{"text": "Perform STRIDE LINDDUN threat modeling mapping threats to MITRE ATT&CK", "cats": {"PERFORM_THREAT_MODELING": 1.0, "MAP_ATTACK": 1.0, "DOCUMENT_THREATS": 1.0, "ANALYZE_RISKS": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "I need to define secure SDLC policy with 7-day SLA for critical vulnerabilities", "cats": {"DEFINE_POLICY": 1.0, "ESTABLISH_SLAS": 1.0, "PLAN_INITIATIVES": 1.0, "ENABLE_SECURITY": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Extract IOCs from the malware and analyze the C2 protocol communication", "cats": {"EXTRACT_IOCS": 1.0, "ANALYZE_C2_PROTOCOL": 1.0, "ANALYZE_IOCS": 0.0, "ANALYZE_C2": 0.0}}
+{"text": "Ingest bug bounty reports triaging valid findings", "cats": {"INGEST_REPORTS": 1.0, "TRIAGE_FINDINGS": 1.0, "MANAGE_PROGRAM": 1.0, "ENABLE_REMEDIATION": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Create attack trees documenting spoofing and tampering mitigations", "cats": {"CREATE_ATTACK_TREES": 1.0, "DOCUMENT_MITIGATIONS": 1.0, "ANALYZE_THREATS": 1.0, "ENABLE_DEFENSE": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Create STRIDE threat modeling analysis for applications", "cats": {"CREATE_THREAT_MODEL": 1.0, "PERFORM_ANALYSIS": 1.0, "DOCUMENT_THREATS": 1.0, "ENABLE_DEFENSE": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Create software bill of materials in SPDX format for vendor integrations", "cats": {"CREATE_SBOM": 1.0, "DOCUMENT_DEPENDENCIES": 1.0, "ENABLE_TRACEABILITY": 1.0, "MANAGE_SUPPLY_CHAIN": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Provide just-in-time guidance to developers fixing security findings", "cats": {"PROVIDE_GUIDANCE": 1.0, "ENABLE_REMEDIATION": 1.0, "EDUCATE_DEVELOPERS": 1.0, "IMPROVE_SECURITY": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Integrate runtime security events from WAF RASP and API gateway with SIEM", "cats": {"INTEGRATE_EVENTS": 1.0, "ENABLE_DETECTION": 1.0, "STREAMLINE_MONITORING": 1.0, "MAINTAIN_SYSTEMS": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Track security findings with assigned developers and due dates", "cats": {"TRACK_FINDINGS": 1.0, "ASSIGN_OWNERS": 1.0, "MANAGE_DEADLINES": 1.0, "ENABLE_REMEDIATION": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Scan container images for vulnerabilities and patch critical issues", "cats": {"SCAN_CONTAINERS": 1.0, "DETECT_VULNERABILITIES": 1.0, "PATCH_ISSUES": 1.0, "SECURE_DEPLOYMENTS": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Detect critical vulnerabilities in Docker container images", "cats": {"DETECT_VULNERABILITIES": 1.0, "SCAN_CONTAINERS": 1.0, "ASSESS_RISKS": 1.0, "REMEDIATE_ISSUES": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Ingest bug bounty reports triaging valid findings", "cats": {"INGEST_REPORTS": 1.0, "TRIAGE_FINDINGS": 1.0, "MANAGE_PROGRAM": 1.0, "ENABLE_REMEDIATION": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Create secure SDLC policy with bug bounty scope and SBOM requirements", "cats": {"CREATE_POLICY": 1.0, "DEFINE_SCOPE": 1.0, "ESTABLISH_REQUIREMENTS": 1.0, "PLAN_INITIATIVES": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Test ML and AI components with adversarial inputs and prompt injection", "cats": {"TEST_ML_SECURITY": 1.0, "ADVERSARIAL_TESTING": 1.0, "DETECT_VULNERABILITIES": 1.0, "MITIGATE_RISKS": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Test ML and AI components with adversarial inputs and prompt injection", "cats": {"TEST_ML_SECURITY": 1.0, "ADVERSARIAL_TESTING": 1.0, "DETECT_VULNERABILITIES": 1.0, "MITIGATE_RISKS": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Assess application security tool effectiveness and integration capabilities", "cats": {"ASSESS_TOOLS": 1.0, "EVALUATE_EFFECTIVENESS": 1.0, "REVIEW_INTEGRATION": 1.0, "MAKE_RECOMMENDATIONS": 1.0, "RESPOND_TO_INCIDENT": 0.0, "AUDIT_COMPLIANCE": 0.0}}
+{"text": "Patch Log4j vulnerability CVE-2021-44228 in all affected dependencies", "cats": {"PATCH_VULNERABILITY": 1.0, "UPDATE_DEPENDENCIES": 1.0, "REMEDIATE_CVE": 1.0, "RESPOND_TO_INCIDENT": 1.0, "AUDIT_COMPLIANCE": 0.0, "DEFINE_STRATEGY": 0.0}}
+{"text": "Review application security vendor postures and certifications", "cats": {"REVIEW_VENDORS": 1.0, "ASSESS_CERTIFICATIONS": 1.0, "EVALUATE_VENDORS": 1.0, "MANAGE_RISKS": 1.0, "RESPOND_TO_INCIDENT": 0.0, "AUDIT_COMPLIANCE": 0.0}}
+{"text": "Provide just-in-time guidance to developers fixing security findings", "cats": {"PROVIDE_GUIDANCE": 1.0, "ENABLE_REMEDIATION": 1.0, "EDUCATE_DEVELOPERS": 1.0, "IMPROVE_SECURITY": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Manage bug bounty findings tracking patched and in-remediation items", "cats": {"MANAGE_FINDINGS": 1.0, "TRACK_REMEDIATION": 1.0, "MONITOR_PROGRESS": 1.0, "ENABLE_CLOSURE": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Execute dependency scanning to detect vulnerable libraries and supply chain risks", "cats": {"SCAN_DEPENDENCIES": 1.0, "DETECT_VULNERABILITIES": 1.0, "ASSESS_SUPPLY_CHAIN": 1.0, "GENERATE_SBOM": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Validate AppSec program scoring against SLA compliance metrics", "cats": {"VALIDATE_PROGRAM": 1.0, "SCORE_METRICS": 1.0, "AUDIT_COMPLIANCE": 1.0, "MEASURE_EFFECTIVENESS": 1.0, "RESPOND_TO_INCIDENT": 0.0, "DEFINE_STRATEGY": 0.0}}
+{"text": "Run fuzz tests on applications discovering unique bugs and crashes", "cats": {"RUN_FUZZ_TESTS": 1.0, "DISCOVER_BUGS": 1.0, "VALIDATE_RESILIENCE": 1.0, "IMPROVE_SECURITY": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "I need to investigate SQL injection vulnerability found in payment processing code", "cats": {"INVESTIGATE_VULNERABILITY": 1.0, "ANALYZE_CODE": 1.0, "ASSESS_RISK": 1.0, "RESPOND_TO_INCIDENT": 0.5, "AUDIT_COMPLIANCE": 0.0, "SCAN_CODE": 0.0}}
+{"text": "Display chaos experiment results tracking successes and failures", "cats": {"TRACK_METRICS": 1.0, "ANALYZE_RESULTS": 1.0, "MEASURE_EFFECTIVENESS": 1.0, "IMPROVE_TESTING": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Create pull requests for dependency updates using automated tooling", "cats": {"CREATE_PRS": 1.0, "UPDATE_DEPENDENCIES": 1.0, "AUTOMATE_REMEDIATION": 1.0, "MAINTAIN_SYSTEMS": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Perform dynamic analysis on applications identifying SQL injection vulnerabilities", "cats": {"PERFORM_DAST": 1.0, "IDENTIFY_VULNERABILITIES": 1.0, "DETECT_ATTACKS": 1.0, "ASSESS_SECURITY": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Train development teams on application security best practices", "cats": {"TRAIN_TEAMS": 1.0, "EDUCATE_DEVELOPERS": 1.0, "IMPROVE_AWARENESS": 1.0, "ENABLE_SECURITY": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Scan Infrastructure as Code files for misconfigurations in Terraform and Kubernetes", "cats": {"SCAN_IAC": 1.0, "DETECT_MISCONFIGURATIONS": 1.0, "VALIDATE_TEMPLATES": 1.0, "REMEDIATE_ISSUES": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Identify vulnerable packages in container images", "cats": {"IDENTIFY_VULNERABILITIES": 1.0, "SCAN_CONTAINERS": 1.0, "ASSESS_RISKS": 1.0, "MANAGE_DEPENDENCIES": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Train developers on OWASP Top 10 and secure coding practices", "cats": {"TRAIN_DEVELOPERS": 1.0, "EDUCATE_TEAMS": 1.0, "IMPROVE_AWARENESS": 1.0, "ENABLE_SECURITY": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Review secure code providing contextual guidance for developers to fix vulnerabilities", "cats": {"REVIEW_CODE": 1.0, "PROVIDE_GUIDANCE": 1.0, "ENABLE_REMEDIATION": 1.0, "IMPROVE_SECURITY": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Aggregate SAST DAST and SCA findings in Application Security Posture Management platform", "cats": {"AGGREGATE_FINDINGS": 1.0, "UNIFY_VIEW": 1.0, "ENABLE_VISIBILITY": 1.0, "MAINTAIN_SYSTEMS": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Validate AppSec policies and compliance requirements", "cats": {"VALIDATE_POLICIES": 1.0, "CHECK_COMPLIANCE": 1.0, "AUDIT_COMPLIANCE": 1.0, "REVIEW_REQUIREMENTS": 1.0, "RESPOND_TO_INCIDENT": 0.0, "DEFINE_STRATEGY": 0.0}}
+{"text": "Integrate runtime security events from WAF RASP and API gateway with SIEM", "cats": {"INTEGRATE_EVENTS": 1.0, "ENABLE_DETECTION": 1.0, "STREAMLINE_MONITORING": 1.0, "MAINTAIN_SYSTEMS": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Measure MTTR for critical vulnerabilities tracking remediation trends", "cats": {"MEASURE_MTTR": 1.0, "TRACK_METRICS": 1.0, "ANALYZE_TRENDS": 1.0, "IMPROVE_REMEDIATION": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Simulate supply chain attacks and dependency compromises", "cats": {"SIMULATE_ATTACKS": 1.0, "TEST_SUPPLY_CHAIN": 1.0, "VALIDATE_DEFENSES": 1.0, "IMPROVE_SECURITY": 1.0, "RESPOND_TO_INCIDENT": 0.0, "AUDIT_COMPLIANCE": 0.0}}
+{"text": "Document security incident and capture lessons learned for improvement", "cats": {"DOCUMENT_INCIDENT": 1.0, "CAPTURE_LEARNINGS": 1.0, "IMPROVE_PROCESSES": 1.0, "RESPOND_TO_INCIDENT": 1.0, "AUDIT_COMPLIANCE": 0.0, "DEFINE_STRATEGY": 0.0}}
+{"text": "Enforce OAuth2 authentication and schema validation on APIs", "cats": {"ENFORCE_AUTH": 1.0, "VALIDATE_SCHEMAS": 1.0, "PROTECT_APIS": 1.0, "MAINTAIN_SYSTEMS": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "I need to define enterprise AppSec strategy covering secure SDLC and DevSecOps integration", "cats": {"DEFINE_STRATEGY": 1.0, "ESTABLISH_SDLC": 1.0, "INTEGRATE_DEVSECOPS": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0, "SCAN_CODE": 0.0}}
+{"text": "Identify critical misconfigurations in Terraform infrastructure", "cats": {"IDENTIFY_MISCONFIGS": 1.0, "SCAN_IAC": 1.0, "ASSESS_RISKS": 1.0, "REMEDIATE_ISSUES": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Run API protocol and binary fuzzing on applications finding crashes", "cats": {"RUN_FUZZ_TESTS": 1.0, "DISCOVER_BUGS": 1.0, "VALIDATE_RESILIENCE": 1.0, "IMPROVE_SECURITY": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Integrate SAST DAST and SCA scans in CI/CD pipelines", "cats": {"INTEGRATE_SCANS": 1.0, "ENABLE_CI_CD": 1.0, "AUTOMATE_SECURITY": 1.0, "MAINTAIN_SYSTEMS": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Map threats to MITRE ATT&CK techniques using threat modeling tool", "cats": {"MAP_ATTACK": 1.0, "ANALYZE_TECHNIQUES": 1.0, "DOCUMENT_THREATS": 1.0, "ENABLE_DEFENSE": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Please perform STRIDE threat modeling analysis identifying spoofing and tampering threats", "cats": {"PERFORM_THREAT_MODELING": 1.0, "IDENTIFY_THREATS": 1.0, "ANALYZE_RISKS": 1.0, "DOCUMENT_MITIGATIONS": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Fix container image vulnerabilities before production deployment", "cats": {"FIX_VULNERABILITIES": 1.0, "SECURE_CONTAINERS": 1.0, "PREVENT_DEPLOYMENT": 1.0, "RESPOND_TO_INCIDENT": 0.5, "AUDIT_COMPLIANCE": 0.0, "DEFINE_STRATEGY": 0.0}}
+{"text": "Review secure code providing contextual guidance for developers to fix vulnerabilities", "cats": {"REVIEW_CODE": 1.0, "PROVIDE_GUIDANCE": 1.0, "ENABLE_REMEDIATION": 1.0, "IMPROVE_SECURITY": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Provide real-time security feedback in IDEs to guide secure coding", "cats": {"PROVIDE_FEEDBACK": 1.0, "GUIDE_DEVELOPERS": 1.0, "ENABLE_SECURE_CODING": 1.0, "IMPROVE_CODE_QUALITY": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Run fuzz testing on APIs and applications to discover crashes and bugs", "cats": {"FUZZ_TEST": 1.0, "DISCOVER_BUGS": 1.0, "TEST_RESILIENCE": 1.0, "IMPROVE_SECURITY": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Train developers on OWASP Top 10 and secure coding practices", "cats": {"TRAIN_DEVELOPERS": 1.0, "EDUCATE_TEAMS": 1.0, "IMPROVE_AWARENESS": 1.0, "ENABLE_SECURITY": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Provide IDE feedback fixing security findings in real-time", "cats": {"PROVIDE_FEEDBACK": 1.0, "ENABLE_REMEDIATION": 1.0, "EDUCATE_DEVELOPERS": 1.0, "IMPROVE_SECURITY": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Scan repositories for hardcoded API keys and tokens requiring revocation", "cats": {"SCAN_REPOS": 1.0, "DETECT_SECRETS": 1.0, "REVOKE_CREDENTIALS": 1.0, "PROTECT_DATA": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Operate runtime protection on applications detecting and blocking attacks", "cats": {"OPERATE_RASP": 1.0, "DETECT_ATTACKS": 1.0, "BLOCK_THREATS": 1.0, "PROTECT_APPS": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Provide just-in-time guidance to developers fixing security findings", "cats": {"PROVIDE_GUIDANCE": 1.0, "ENABLE_REMEDIATION": 1.0, "EDUCATE_DEVELOPERS": 1.0, "IMPROVE_SECURITY": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Assess application security tool effectiveness and integration capabilities", "cats": {"ASSESS_TOOLS": 1.0, "EVALUATE_EFFECTIVENESS": 1.0, "REVIEW_INTEGRATION": 1.0, "MAKE_RECOMMENDATIONS": 1.0, "RESPOND_TO_INCIDENT": 0.0, "AUDIT_COMPLIANCE": 0.0}}
+{"text": "Run fuzz tests on applications discovering unique bugs and crashes", "cats": {"RUN_FUZZ_TESTS": 1.0, "DISCOVER_BUGS": 1.0, "VALIDATE_RESILIENCE": 1.0, "IMPROVE_SECURITY": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Validate AppSec policies and compliance requirements", "cats": {"VALIDATE_POLICIES": 1.0, "CHECK_COMPLIANCE": 1.0, "AUDIT_COMPLIANCE": 1.0, "REVIEW_REQUIREMENTS": 1.0, "RESPOND_TO_INCIDENT": 0.0, "DEFINE_STRATEGY": 0.0}}
+{"text": "Assess application security tool effectiveness and integration capabilities", "cats": {"ASSESS_TOOLS": 1.0, "EVALUATE_EFFECTIVENESS": 1.0, "REVIEW_INTEGRATION": 1.0, "MAKE_RECOMMENDATIONS": 1.0, "RESPOND_TO_INCIDENT": 0.0, "AUDIT_COMPLIANCE": 0.0}}
+{"text": "Please perform STRIDE threat modeling analysis identifying spoofing and tampering threats", "cats": {"PERFORM_THREAT_MODELING": 1.0, "IDENTIFY_THREATS": 1.0, "ANALYZE_RISKS": 1.0, "DOCUMENT_MITIGATIONS": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "I need to define secure SDLC policy with 7-day SLA for critical vulnerabilities", "cats": {"DEFINE_POLICY": 1.0, "ESTABLISH_SLAS": 1.0, "PLAN_INITIATIVES": 1.0, "ENABLE_SECURITY": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Scan container images for vulnerabilities and patch critical issues", "cats": {"SCAN_CONTAINERS": 1.0, "DETECT_VULNERABILITIES": 1.0, "PATCH_ISSUES": 1.0, "SECURE_DEPLOYMENTS": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Please perform STRIDE threat modeling analysis identifying spoofing and tampering threats", "cats": {"PERFORM_THREAT_MODELING": 1.0, "IDENTIFY_THREATS": 1.0, "ANALYZE_RISKS": 1.0, "DOCUMENT_MITIGATIONS": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Detect supply chain risks in applications with vulnerable libraries", "cats": {"DETECT_SUPPLY_CHAIN_RISKS": 1.0, "IDENTIFY_VULNERABILITIES": 1.0, "ASSESS_RISKS": 1.0, "MANAGE_DEPENDENCIES": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Identify vulnerable packages in container images", "cats": {"IDENTIFY_VULNERABILITIES": 1.0, "SCAN_CONTAINERS": 1.0, "ASSESS_RISKS": 1.0, "MANAGE_DEPENDENCIES": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Perform STRIDE LINDDUN threat modeling mapping threats to MITRE ATT&CK", "cats": {"PERFORM_THREAT_MODELING": 1.0, "MAP_ATTACK": 1.0, "DOCUMENT_THREATS": 1.0, "ANALYZE_RISKS": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Manage bug bounty findings tracking patched and in-remediation items", "cats": {"MANAGE_FINDINGS": 1.0, "TRACK_REMEDIATION": 1.0, "MONITOR_PROGRESS": 1.0, "ENABLE_CLOSURE": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Run API protocol and binary fuzzing on applications finding crashes", "cats": {"RUN_FUZZ_TESTS": 1.0, "DISCOVER_BUGS": 1.0, "VALIDATE_RESILIENCE": 1.0, "IMPROVE_SECURITY": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Map shadow and zombie APIs requiring security controls", "cats": {"DISCOVER_APIS": 1.0, "IDENTIFY_SHADOW": 1.0, "ENABLE_CONTROLS": 1.0, "PROTECT_APIS": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Audit open source dependencies for vulnerabilities and license risks", "cats": {"AUDIT_DEPENDENCIES": 1.0, "IDENTIFY_VULNERABILITIES": 1.0, "ASSESS_LICENSE_RISKS": 1.0, "MANAGE_SUPPLY_CHAIN": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Review application security metrics identifying areas for improvement", "cats": {"REVIEW_METRICS": 1.0, "ANALYZE_PERFORMANCE": 1.0, "IDENTIFY_IMPROVEMENTS": 1.0, "OPTIMIZE_PROGRAM": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Detect GPL-3.0 AGPL-3.0 and incompatible licenses in applications", "cats": {"DETECT_LICENSE_VIOLATIONS": 1.0, "ASSESS_LEGAL_RISKS": 1.0, "MANAGE_COMPLIANCE": 1.0, "REMEDIATE_ISSUES": 1.0, "AUDIT_COMPLIANCE": 1.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Display chaos experiment results tracking successes and failures", "cats": {"TRACK_METRICS": 1.0, "ANALYZE_RESULTS": 1.0, "MEASURE_EFFECTIVENESS": 1.0, "IMPROVE_TESTING": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Operate RASP with anomaly detection to protect live applications from attacks", "cats": {"OPERATE_RASP": 1.0, "DETECT_ANOMALIES": 1.0, "PROTECT_APPS": 1.0, "MONITOR_RUNTIME": 1.0, "RESPOND_TO_INCIDENT": 0.5, "AUDIT_COMPLIANCE": 0.0}}
+{"text": "Revoke all hardcoded API keys found in source code repositories", "cats": {"REVOKE_KEYS": 1.0, "RESPOND_TO_INCIDENT": 1.0, "SECURE_SECRETS": 1.0, "REMEDIATE_EXPOSURE": 1.0, "AUDIT_COMPLIANCE": 0.0, "DEFINE_STRATEGY": 0.0}}
+{"text": "Automate security scanning in CI/CD workflows", "cats": {"AUTOMATE_SCANNING": 1.0, "ENABLE_CI_CD": 1.0, "STREAMLINE_PROCESSES": 1.0, "MAINTAIN_SYSTEMS": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Deploy WAF rules to block OWASP Top 10 attacks on production applications", "cats": {"DEPLOY_WAF": 1.0, "BLOCK_ATTACKS": 1.0, "PROTECT_APPS": 1.0, "MONITOR_RUNTIME": 1.0, "RESPOND_TO_INCIDENT": 0.5, "AUDIT_COMPLIANCE": 0.0}}
+{"text": "Automate SAST DAST and SCA scans in CI/CD pipelines blocking builds with critical vulnerabilities", "cats": {"AUTOMATE_SCANNING": 1.0, "ENABLE_CI_CD": 1.0, "ENFORCE_GATES": 1.0, "PREVENT_INSECURE_DEPLOYMENTS": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "I need to investigate SQL injection vulnerability found in payment processing code", "cats": {"INVESTIGATE_VULNERABILITY": 1.0, "ANALYZE_CODE": 1.0, "ASSESS_RISK": 1.0, "RESPOND_TO_INCIDENT": 0.5, "AUDIT_COMPLIANCE": 0.0, "SCAN_CODE": 0.0}}
+{"text": "Validate AppSec controls against GDPR PCI DSS and SOC2 compliance", "cats": {"VALIDATE_COMPLIANCE": 1.0, "MAP_FRAMEWORKS": 1.0, "ENSURE_COMPLIANCE": 1.0, "AUDIT_COMPLIANCE": 1.0, "RESPOND_TO_INCIDENT": 0.0, "DEFINE_STRATEGY": 0.0}}
+{"text": "Audit open source licenses for GPL and AGPL violations in dependencies", "cats": {"AUDIT_LICENSES": 1.0, "CHECK_COMPLIANCE": 1.0, "IDENTIFY_VIOLATIONS": 1.0, "MANAGE_RISKS": 1.0, "AUDIT_COMPLIANCE": 1.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Map shadow and zombie APIs requiring security controls", "cats": {"DISCOVER_APIS": 1.0, "IDENTIFY_SHADOW": 1.0, "ENABLE_CONTROLS": 1.0, "PROTECT_APIS": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Triage bug bounty reports integrating valid findings into remediation pipelines", "cats": {"TRIAGE_REPORTS": 1.0, "INTEGRATE_FINDINGS": 1.0, "ENABLE_REMEDIATION": 1.0, "MANAGE_PROGRAM": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Detect supply chain risks in applications with vulnerable libraries", "cats": {"DETECT_SUPPLY_CHAIN_RISKS": 1.0, "IDENTIFY_VULNERABILITIES": 1.0, "ASSESS_RISKS": 1.0, "MANAGE_DEPENDENCIES": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Revoke all hardcoded API keys found in source code repositories", "cats": {"REVOKE_KEYS": 1.0, "RESPOND_TO_INCIDENT": 1.0, "SECURE_SECRETS": 1.0, "REMEDIATE_EXPOSURE": 1.0, "AUDIT_COMPLIANCE": 0.0, "DEFINE_STRATEGY": 0.0}}
+{"text": "Run fuzz testing on APIs and applications to discover crashes and bugs", "cats": {"FUZZ_TEST": 1.0, "DISCOVER_BUGS": 1.0, "TEST_RESILIENCE": 1.0, "IMPROVE_SECURITY": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Track security findings with assigned developers and due dates", "cats": {"TRACK_FINDINGS": 1.0, "ASSIGN_OWNERS": 1.0, "MANAGE_DEADLINES": 1.0, "ENABLE_REMEDIATION": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Generate executive KPIs showing MTTR trends for critical vulnerabilities", "cats": {"GENERATE_REPORTS": 1.0, "COMMUNICATE_METRICS": 1.0, "EXECUTIVE_REPORTING": 1.0, "ANALYZE_TRENDS": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Test coordinated application attacks and validate defense mechanisms", "cats": {"TEST_COORDINATION": 1.0, "SIMULATE_ATTACKS": 1.0, "VALIDATE_DEFENSES": 1.0, "IMPROVE_SECURITY": 1.0, "RESPOND_TO_INCIDENT": 0.0, "AUDIT_COMPLIANCE": 0.0}}
+{"text": "Detect XSS and CSRF vulnerabilities in web applications", "cats": {"DETECT_VULNERABILITIES": 1.0, "IDENTIFY_ATTACKS": 1.0, "ASSESS_SECURITY": 1.0, "REMEDIATE_ISSUES": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Compile audit evidence for applications meeting compliance requirements", "cats": {"COMPILE_EVIDENCE": 1.0, "DOCUMENT_COMPLIANCE": 1.0, "AUDIT_COMPLIANCE": 1.0, "ENABLE_VALIDATION": 1.0, "RESPOND_TO_INCIDENT": 0.0, "DEFINE_STRATEGY": 0.0}}
+{"text": "Document lessons learned and application security improvements from testing", "cats": {"DOCUMENT_LEARNINGS": 1.0, "CAPTURE_IMPROVEMENTS": 1.0, "IMPROVE_PROCESSES": 1.0, "ENHANCE_SECURITY": 1.0, "RESPOND_TO_INCIDENT": 0.0, "AUDIT_COMPLIANCE": 0.0}}
+{"text": "Update security baselines and deploy enhanced protection controls", "cats": {"UPDATE_BASELINES": 1.0, "DEPLOY_CONTROLS": 1.0, "IMPROVE_SECURITY": 1.0, "MAINTAIN_SYSTEMS": 1.0, "RESPOND_TO_INCIDENT": 0.5, "AUDIT_COMPLIANCE": 0.0}}
+{"text": "Enforce security gates blocking builds with critical vulnerabilities", "cats": {"ENFORCE_GATES": 1.0, "BLOCK_BUILDS": 1.0, "PREVENT_INSECURE_DEPLOYMENTS": 1.0, "MAINTAIN_SYSTEMS": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Audit open source dependencies for vulnerabilities and license risks", "cats": {"AUDIT_DEPENDENCIES": 1.0, "IDENTIFY_VULNERABILITIES": 1.0, "ASSESS_LICENSE_RISKS": 1.0, "MANAGE_SUPPLY_CHAIN": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Map secure SDLC practices to NIST CSF and ISO 27001 frameworks", "cats": {"MAP_FRAMEWORKS": 1.0, "ALIGN_PRACTICES": 1.0, "ENSURE_COMPLIANCE": 1.0, "AUDIT_COMPLIANCE": 1.0, "RESPOND_TO_INCIDENT": 0.0, "DEFINE_STRATEGY": 0.0}}
+{"text": "Make recommendations for application security platform investments", "cats": {"MAKE_RECOMMENDATIONS": 1.0, "EVALUATE_INVESTMENTS": 1.0, "PLAN_INITIATIVES": 1.0, "STRATEGIC_PLANNING": 1.0, "RESPOND_TO_INCIDENT": 0.0, "AUDIT_COMPLIANCE": 0.0}}
+{"text": "Scan Kubernetes CloudFormation and Terraform files for misconfigurations", "cats": {"SCAN_IAC": 1.0, "IDENTIFY_MISCONFIGS": 1.0, "ASSESS_RISKS": 1.0, "REMEDIATE_ISSUES": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Patch Log4j vulnerability CVE-2021-44228 in all affected dependencies", "cats": {"PATCH_VULNERABILITY": 1.0, "UPDATE_DEPENDENCIES": 1.0, "REMEDIATE_CVE": 1.0, "RESPOND_TO_INCIDENT": 1.0, "AUDIT_COMPLIANCE": 0.0, "DEFINE_STRATEGY": 0.0}}
+{"text": "Audit open source dependencies for vulnerabilities and license risks", "cats": {"AUDIT_DEPENDENCIES": 1.0, "IDENTIFY_VULNERABILITIES": 1.0, "ASSESS_LICENSE_RISKS": 1.0, "MANAGE_SUPPLY_CHAIN": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Deploy WAF rules to block OWASP Top 10 attacks on production applications", "cats": {"DEPLOY_WAF": 1.0, "BLOCK_ATTACKS": 1.0, "PROTECT_APPS": 1.0, "MONITOR_RUNTIME": 1.0, "RESPOND_TO_INCIDENT": 0.5, "AUDIT_COMPLIANCE": 0.0}}
+{"text": "Generate executive KPIs showing vulnerability backlog and remediation trends", "cats": {"GENERATE_KPIS": 1.0, "REPORT_METRICS": 1.0, "TRACK_BACKLOG": 1.0, "ANALYZE_TRENDS": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Review secure code providing contextual guidance for developers to fix vulnerabilities", "cats": {"REVIEW_CODE": 1.0, "PROVIDE_GUIDANCE": 1.0, "ENABLE_REMEDIATION": 1.0, "IMPROVE_SECURITY": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Perform dynamic analysis on web applications detecting vulnerabilities", "cats": {"PERFORM_DAST": 1.0, "DETECT_VULNERABILITIES": 1.0, "ASSESS_SECURITY": 1.0, "IMPROVE_DEFENSES": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Automate security scanning in CI/CD workflows", "cats": {"AUTOMATE_SCANNING": 1.0, "ENABLE_CI_CD": 1.0, "STREAMLINE_PROCESSES": 1.0, "MAINTAIN_SYSTEMS": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Triage bug bounty reports integrating valid findings into remediation pipelines", "cats": {"TRIAGE_REPORTS": 1.0, "INTEGRATE_FINDINGS": 1.0, "ENABLE_REMEDIATION": 1.0, "MANAGE_PROGRAM": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Discover shadow APIs and enforce security controls on unmanaged endpoints", "cats": {"DISCOVER_APIS": 1.0, "MAP_ENDPOINTS": 1.0, "ENFORCE_CONTROLS": 1.0, "SECURE_SHADOW_APIS": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Scan Kubernetes CloudFormation and Terraform files for misconfigurations", "cats": {"SCAN_IAC": 1.0, "IDENTIFY_MISCONFIGS": 1.0, "ASSESS_RISKS": 1.0, "REMEDIATE_ISSUES": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Remediate application security vulnerabilities identified in scans", "cats": {"REMEDIATE_VULNERABILITIES": 1.0, "FIX_ISSUES": 1.0, "IMPROVE_SECURITY": 1.0, "MAINTAIN_SYSTEMS": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Execute dependency scanning to detect vulnerable libraries and supply chain risks", "cats": {"SCAN_DEPENDENCIES": 1.0, "DETECT_VULNERABILITIES": 1.0, "ASSESS_SUPPLY_CHAIN": 1.0, "GENERATE_SBOM": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Map threat intelligence feeds to applications identifying at-risk systems", "cats": {"MAP_THREAT_INTEL": 1.0, "IDENTIFY_RISKS": 1.0, "CORRELATE_CVES": 1.0, "PRIORITIZE_REMEDIATION": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Make recommendations for application security platform investments", "cats": {"MAKE_RECOMMENDATIONS": 1.0, "EVALUATE_INVESTMENTS": 1.0, "PLAN_INITIATIVES": 1.0, "STRATEGIC_PLANNING": 1.0, "RESPOND_TO_INCIDENT": 0.0, "AUDIT_COMPLIANCE": 0.0}}
+{"text": "Validate AppSec program scoring against SLA compliance metrics", "cats": {"VALIDATE_PROGRAM": 1.0, "SCORE_METRICS": 1.0, "AUDIT_COMPLIANCE": 1.0, "MEASURE_EFFECTIVENESS": 1.0, "RESPOND_TO_INCIDENT": 0.0, "DEFINE_STRATEGY": 0.0}}
+{"text": "Enforce security gates blocking builds with critical vulnerabilities", "cats": {"ENFORCE_GATES": 1.0, "BLOCK_BUILDS": 1.0, "PREVENT_INSECURE_DEPLOYMENTS": 1.0, "MAINTAIN_SYSTEMS": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "I need to define secure SDLC policy with 7-day SLA for critical vulnerabilities", "cats": {"DEFINE_POLICY": 1.0, "ESTABLISH_SLAS": 1.0, "PLAN_INITIATIVES": 1.0, "ENABLE_SECURITY": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Discover shadow APIs and enforce security controls on unmanaged endpoints", "cats": {"DISCOVER_APIS": 1.0, "MAP_ENDPOINTS": 1.0, "ENFORCE_CONTROLS": 1.0, "SECURE_SHADOW_APIS": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Test coordinated application attacks and validate defense mechanisms", "cats": {"TEST_COORDINATION": 1.0, "SIMULATE_ATTACKS": 1.0, "VALIDATE_DEFENSES": 1.0, "IMPROVE_SECURITY": 1.0, "RESPOND_TO_INCIDENT": 0.0, "AUDIT_COMPLIANCE": 0.0}}
+{"text": "Simulate supply chain attacks and dependency compromises", "cats": {"SIMULATE_ATTACKS": 1.0, "TEST_SUPPLY_CHAIN": 1.0, "VALIDATE_DEFENSES": 1.0, "IMPROVE_SECURITY": 1.0, "RESPOND_TO_INCIDENT": 0.0, "AUDIT_COMPLIANCE": 0.0}}
+{"text": "Run API protocol and binary fuzzing on applications finding crashes", "cats": {"RUN_FUZZ_TESTS": 1.0, "DISCOVER_BUGS": 1.0, "VALIDATE_RESILIENCE": 1.0, "IMPROVE_SECURITY": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Fix container image vulnerabilities before production deployment", "cats": {"FIX_VULNERABILITIES": 1.0, "SECURE_CONTAINERS": 1.0, "PREVENT_DEPLOYMENT": 1.0, "RESPOND_TO_INCIDENT": 0.5, "AUDIT_COMPLIANCE": 0.0, "DEFINE_STRATEGY": 0.0}}
+{"text": "Execute chaos engineering experiments to validate application resilience", "cats": {"CHAOS_TEST": 1.0, "VALIDATE_RESILIENCE": 1.0, "TEST_FAILURES": 1.0, "IMPROVE_RELIABILITY": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Identify critical misconfigurations in Terraform CloudFormation and Kubernetes", "cats": {"IDENTIFY_MISCONFIGS": 1.0, "SCAN_IAC": 1.0, "ASSESS_RISKS": 1.0, "REMEDIATE_ISSUES": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Validate accuracy and completeness of vendor SBOMs", "cats": {"VALIDATE_SBOM": 1.0, "ENSURE_ACCURACY": 1.0, "VERIFY_COMPLETENESS": 1.0, "MANAGE_SUPPLY_CHAIN": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Fix container image vulnerabilities before production deployment", "cats": {"FIX_VULNERABILITIES": 1.0, "SECURE_CONTAINERS": 1.0, "PREVENT_DEPLOYMENT": 1.0, "RESPOND_TO_INCIDENT": 0.5, "AUDIT_COMPLIANCE": 0.0, "DEFINE_STRATEGY": 0.0}}
+{"text": "Enforce policy-as-code blocking non-compliant deployments", "cats": {"ENFORCE_POLICIES": 1.0, "BLOCK_DEPLOYMENTS": 1.0, "ENSURE_COMPLIANCE": 1.0, "MAINTAIN_SYSTEMS": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Deploy WAF rules blocking OWASP Top 10 attacks on production applications", "cats": {"DEPLOY_WAF": 1.0, "BLOCK_ATTACKS": 1.0, "PROTECT_APPS": 1.0, "MAINTAIN_SYSTEMS": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Run chaos experiments killing dependencies and injecting attacks", "cats": {"RUN_CHAOS_EXPERIMENTS": 1.0, "VALIDATE_RESILIENCE": 1.0, "TEST_DEPENDENCIES": 1.0, "IMPROVE_RELIABILITY": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Generate executive KPIs showing MTTR trends for critical vulnerabilities", "cats": {"GENERATE_REPORTS": 1.0, "COMMUNICATE_METRICS": 1.0, "EXECUTIVE_REPORTING": 1.0, "ANALYZE_TRENDS": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Enforce security gates in CI/CD pipelines blocking builds with critical vulnerabilities", "cats": {"ENFORCE_GATES": 1.0, "BLOCK_BUILDS": 1.0, "PREVENT_DEPLOYMENT": 1.0, "VALIDATE_SECURITY": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Validate AppSec program scoring against SLA compliance metrics", "cats": {"VALIDATE_PROGRAM": 1.0, "SCORE_METRICS": 1.0, "AUDIT_COMPLIANCE": 1.0, "MEASURE_EFFECTIVENESS": 1.0, "RESPOND_TO_INCIDENT": 0.0, "DEFINE_STRATEGY": 0.0}}
+{"text": "Test AI models with adversarial input and prompt injection scenarios", "cats": {"TEST_AI_MODELS": 1.0, "DETECT_VULNERABILITIES": 1.0, "VALIDATE_SECURITY": 1.0, "IMPROVE_DEFENSES": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Integrate SAST DAST and SCA scans in CI/CD pipelines", "cats": {"INTEGRATE_SCANS": 1.0, "ENABLE_CI_CD": 1.0, "AUTOMATE_SECURITY": 1.0, "MAINTAIN_SYSTEMS": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Compile audit evidence for applications meeting compliance requirements", "cats": {"COMPILE_EVIDENCE": 1.0, "DOCUMENT_COMPLIANCE": 1.0, "AUDIT_COMPLIANCE": 1.0, "ENABLE_VALIDATION": 1.0, "RESPOND_TO_INCIDENT": 0.0, "DEFINE_STRATEGY": 0.0}}
+{"text": "Train development teams on application security best practices", "cats": {"TRAIN_TEAMS": 1.0, "EDUCATE_DEVELOPERS": 1.0, "IMPROVE_AWARENESS": 1.0, "ENABLE_SECURITY": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Create software bill of materials in SPDX format for vendor integrations", "cats": {"CREATE_SBOM": 1.0, "DOCUMENT_DEPENDENCIES": 1.0, "ENABLE_TRACEABILITY": 1.0, "MANAGE_SUPPLY_CHAIN": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Review secure code providing contextual guidance for developers to fix vulnerabilities", "cats": {"REVIEW_CODE": 1.0, "PROVIDE_GUIDANCE": 1.0, "ENABLE_REMEDIATION": 1.0, "IMPROVE_SECURITY": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Map secure SDLC practices to NIST CSF and ISO 27001 frameworks", "cats": {"MAP_FRAMEWORKS": 1.0, "ALIGN_PRACTICES": 1.0, "ENSURE_COMPLIANCE": 1.0, "AUDIT_COMPLIANCE": 1.0, "RESPOND_TO_INCIDENT": 0.0, "DEFINE_STRATEGY": 0.0}}
+{"text": "Create pull requests for dependency updates using automated tooling", "cats": {"CREATE_PRS": 1.0, "UPDATE_DEPENDENCIES": 1.0, "AUTOMATE_REMEDIATION": 1.0, "MAINTAIN_SYSTEMS": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Operate runtime protection on applications detecting and blocking attacks", "cats": {"OPERATE_RASP": 1.0, "DETECT_ATTACKS": 1.0, "BLOCK_THREATS": 1.0, "PROTECT_APPS": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Audit AppSec program for secure SDLC adoption and SLA compliance", "cats": {"AUDIT_PROGRAM": 1.0, "VALIDATE_SDLC": 1.0, "CHECK_SLA": 1.0, "MEASURE_COVERAGE": 1.0, "AUDIT_COMPLIANCE": 1.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Run chaos experiments killing dependencies and injecting attacks", "cats": {"RUN_CHAOS_EXPERIMENTS": 1.0, "VALIDATE_RESILIENCE": 1.0, "TEST_DEPENDENCIES": 1.0, "IMPROVE_RELIABILITY": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Discover shadow APIs and enforce security controls on unmanaged endpoints", "cats": {"DISCOVER_APIS": 1.0, "MAP_ENDPOINTS": 1.0, "ENFORCE_CONTROLS": 1.0, "SECURE_SHADOW_APIS": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Train developers on OWASP Top 10 and secure coding practices", "cats": {"TRAIN_DEVELOPERS": 1.0, "EDUCATE_TEAMS": 1.0, "IMPROVE_AWARENESS": 1.0, "ENABLE_SECURITY": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Provide real-time security feedback in IDEs to guide secure coding", "cats": {"PROVIDE_FEEDBACK": 1.0, "GUIDE_DEVELOPERS": 1.0, "ENABLE_SECURE_CODING": 1.0, "IMPROVE_CODE_QUALITY": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Respond to application security incident containing threat and revoking access", "cats": {"RESPOND_TO_INCIDENT": 1.0, "CONTAIN_THREAT": 1.0, "REVOKE_ACCESS": 1.0, "DOCUMENT_INCIDENT": 1.0, "AUDIT_COMPLIANCE": 0.0, "DEFINE_STRATEGY": 0.0}}
+{"text": "Provide real-time security feedback in IDEs to guide secure coding", "cats": {"PROVIDE_FEEDBACK": 1.0, "GUIDE_DEVELOPERS": 1.0, "ENABLE_SECURE_CODING": 1.0, "IMPROVE_CODE_QUALITY": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Identify critical misconfigurations in Terraform infrastructure", "cats": {"IDENTIFY_MISCONFIGS": 1.0, "SCAN_IAC": 1.0, "ASSESS_RISKS": 1.0, "REMEDIATE_ISSUES": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Detect critical vulnerabilities in Docker container images", "cats": {"DETECT_VULNERABILITIES": 1.0, "SCAN_CONTAINERS": 1.0, "ASSESS_RISKS": 1.0, "REMEDIATE_ISSUES": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Enforce policy-as-code blocking non-compliant deployments", "cats": {"ENFORCE_POLICIES": 1.0, "BLOCK_DEPLOYMENTS": 1.0, "ENSURE_COMPLIANCE": 1.0, "MAINTAIN_SYSTEMS": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Identify critical misconfigurations in Terraform infrastructure", "cats": {"IDENTIFY_MISCONFIGS": 1.0, "SCAN_IAC": 1.0, "ASSESS_RISKS": 1.0, "REMEDIATE_ISSUES": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Please perform STRIDE threat modeling for billing service application", "cats": {"THREAT_MODEL": 1.0, "ANALYZE_ARCHITECTURE": 1.0, "IDENTIFY_THREATS": 1.0, "DOCUMENT_MITIGATIONS": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Scan Kubernetes CloudFormation and Terraform files for misconfigurations", "cats": {"SCAN_IAC": 1.0, "IDENTIFY_MISCONFIGS": 1.0, "ASSESS_RISKS": 1.0, "REMEDIATE_ISSUES": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Review application security metrics identifying areas for improvement", "cats": {"REVIEW_METRICS": 1.0, "ANALYZE_PERFORMANCE": 1.0, "IDENTIFY_IMPROVEMENTS": 1.0, "OPTIMIZE_PROGRAM": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "I need to define enterprise AppSec strategy covering secure SDLC and DevSecOps integration", "cats": {"DEFINE_STRATEGY": 1.0, "ESTABLISH_SDLC": 1.0, "INTEGRATE_DEVSECOPS": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0, "SCAN_CODE": 0.0}}
+{"text": "Automate SAST DAST and SCA scans in CI/CD pipelines blocking builds with critical vulnerabilities", "cats": {"AUTOMATE_SCANNING": 1.0, "ENABLE_CI_CD": 1.0, "ENFORCE_GATES": 1.0, "PREVENT_INSECURE_DEPLOYMENTS": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Audit open source dependencies for vulnerabilities and license risks", "cats": {"AUDIT_DEPENDENCIES": 1.0, "IDENTIFY_VULNERABILITIES": 1.0, "ASSESS_LICENSE_RISKS": 1.0, "MANAGE_SUPPLY_CHAIN": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Operate RASP with anomaly detection to protect live applications from attacks", "cats": {"OPERATE_RASP": 1.0, "DETECT_ANOMALIES": 1.0, "PROTECT_APPS": 1.0, "MONITOR_RUNTIME": 1.0, "RESPOND_TO_INCIDENT": 0.5, "AUDIT_COMPLIANCE": 0.0}}
+{"text": "Remediate application security vulnerabilities identified in scans", "cats": {"REMEDIATE_VULNERABILITIES": 1.0, "FIX_ISSUES": 1.0, "IMPROVE_SECURITY": 1.0, "MAINTAIN_SYSTEMS": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "I need to define secure SDLC policy with 7-day SLA for critical vulnerabilities", "cats": {"DEFINE_POLICY": 1.0, "ESTABLISH_SLAS": 1.0, "PLAN_INITIATIVES": 1.0, "ENABLE_SECURITY": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Detect critical vulnerabilities in Docker container images requiring patching", "cats": {"DETECT_VULNERABILITIES": 1.0, "SCAN_CONTAINERS": 1.0, "PRIORITIZE_PATCHES": 1.0, "REMEDIATE_ISSUES": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Simulate supply chain attacks and dependency compromises", "cats": {"SIMULATE_ATTACKS": 1.0, "TEST_SUPPLY_CHAIN": 1.0, "VALIDATE_DEFENSES": 1.0, "IMPROVE_SECURITY": 1.0, "RESPOND_TO_INCIDENT": 0.0, "AUDIT_COMPLIANCE": 0.0}}
+{"text": "Manage bug bounty findings tracking patched and in-remediation items", "cats": {"MANAGE_FINDINGS": 1.0, "TRACK_REMEDIATION": 1.0, "MONITOR_PROGRESS": 1.0, "ENABLE_CLOSURE": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Map threats to MITRE ATT&CK techniques using threat modeling tool", "cats": {"MAP_ATTACK": 1.0, "ANALYZE_TECHNIQUES": 1.0, "DOCUMENT_THREATS": 1.0, "ENABLE_DEFENSE": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Scan repositories for hardcoded API keys and tokens requiring revocation", "cats": {"SCAN_REPOS": 1.0, "DETECT_SECRETS": 1.0, "REVOKE_CREDENTIALS": 1.0, "PROTECT_DATA": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Fix container image vulnerabilities before production deployment", "cats": {"FIX_VULNERABILITIES": 1.0, "SECURE_CONTAINERS": 1.0, "PREVENT_DEPLOYMENT": 1.0, "RESPOND_TO_INCIDENT": 0.5, "AUDIT_COMPLIANCE": 0.0, "DEFINE_STRATEGY": 0.0}}
+{"text": "Perform penetration testing on our web application and conduct a pen test of the API endpoints", "cats": {"PENETRATION_TEST": 1.0, "PEN_TEST": 1.0, "TEST_SECURITY": 0.0, "RED_TEAM_TESTING": 0.0}}
+{"text": "Provide just-in-time guidance to developers fixing security findings", "cats": {"PROVIDE_GUIDANCE": 1.0, "ENABLE_REMEDIATION": 1.0, "EDUCATE_DEVELOPERS": 1.0, "IMPROVE_SECURITY": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Generate SBOM for vendor integrations and exchange with partners", "cats": {"GENERATE_SBOM": 1.0, "EXCHANGE_DOCUMENTS": 1.0, "VALIDATE_ACCURACY": 1.0, "MANAGE_SUPPLY_CHAIN": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Deploy WAF rules blocking OWASP Top 10 attacks on production applications", "cats": {"DEPLOY_WAF": 1.0, "BLOCK_ATTACKS": 1.0, "PROTECT_APPS": 1.0, "MAINTAIN_SYSTEMS": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Create STRIDE threat modeling analysis for applications", "cats": {"CREATE_THREAT_MODEL": 1.0, "PERFORM_ANALYSIS": 1.0, "DOCUMENT_THREATS": 1.0, "ENABLE_DEFENSE": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Review application security architecture and update design principles", "cats": {"REVIEW_ARCHITECTURE": 1.0, "UPDATE_DESIGN": 1.0, "DEFINE_STRATEGY": 1.0, "IMPROVE_SECURITY": 1.0, "RESPOND_TO_INCIDENT": 0.0, "AUDIT_COMPLIANCE": 0.0}}
+{"text": "Detect critical vulnerabilities in Docker container images", "cats": {"DETECT_VULNERABILITIES": 1.0, "SCAN_CONTAINERS": 1.0, "ASSESS_RISKS": 1.0, "REMEDIATE_ISSUES": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Provide IDE feedback fixing security findings in real-time", "cats": {"PROVIDE_FEEDBACK": 1.0, "ENABLE_REMEDIATION": 1.0, "EDUCATE_DEVELOPERS": 1.0, "IMPROVE_SECURITY": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Review application security vendor postures and certifications", "cats": {"REVIEW_VENDORS": 1.0, "ASSESS_CERTIFICATIONS": 1.0, "EVALUATE_VENDORS": 1.0, "MANAGE_RISKS": 1.0, "RESPOND_TO_INCIDENT": 0.0, "AUDIT_COMPLIANCE": 0.0}}
+{"text": "Enforce security gates in CI/CD pipelines blocking builds with critical vulnerabilities", "cats": {"ENFORCE_GATES": 1.0, "BLOCK_BUILDS": 1.0, "PREVENT_DEPLOYMENT": 1.0, "VALIDATE_SECURITY": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Operate runtime protection on applications detecting and blocking attacks", "cats": {"OPERATE_RASP": 1.0, "DETECT_ATTACKS": 1.0, "BLOCK_THREATS": 1.0, "PROTECT_APPS": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Please block cross-site scripting attack detected on login endpoint immediately", "cats": {"BLOCK_ATTACK": 1.0, "RESPOND_TO_INCIDENT": 1.0, "ENFORCE_CONTROLS": 1.0, "PROTECT_ENDPOINTS": 1.0, "AUDIT_COMPLIANCE": 0.0, "DEFINE_STRATEGY": 0.0}}
+{"text": "Identify critical misconfigurations in Terraform CloudFormation and Kubernetes", "cats": {"IDENTIFY_MISCONFIGS": 1.0, "SCAN_IAC": 1.0, "ASSESS_RISKS": 1.0, "REMEDIATE_ISSUES": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Scan dependencies with SCA tool finding critical vulnerabilities", "cats": {"SCAN_DEPENDENCIES": 1.0, "IDENTIFY_VULNERABILITIES": 1.0, "ASSESS_RISKS": 1.0, "MANAGE_DEPENDENCIES": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Detect GPL-3.0 AGPL-3.0 and incompatible licenses in applications", "cats": {"DETECT_LICENSE_VIOLATIONS": 1.0, "ASSESS_LEGAL_RISKS": 1.0, "MANAGE_COMPLIANCE": 1.0, "REMEDIATE_ISSUES": 1.0, "AUDIT_COMPLIANCE": 1.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Display chaos experiment results tracking successes and failures", "cats": {"TRACK_METRICS": 1.0, "ANALYZE_RESULTS": 1.0, "MEASURE_EFFECTIVENESS": 1.0, "IMPROVE_TESTING": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+
+{"text": "Make recommendations for application security platform investments", "cats": {"MAKE_RECOMMENDATIONS": 1.0, "EVALUATE_INVESTMENTS": 1.0, "PLAN_INITIATIVES": 1.0, "STRATEGIC_PLANNING": 1.0, "RESPOND_TO_INCIDENT": 0.0, "AUDIT_COMPLIANCE": 0.0}}
+{"text": "Audit AppSec program for secure SDLC adoption and SLA compliance", "cats": {"AUDIT_PROGRAM": 1.0, "VALIDATE_SDLC": 1.0, "CHECK_SLA": 1.0, "MEASURE_COVERAGE": 1.0, "AUDIT_COMPLIANCE": 1.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Run API protocol and binary fuzzing on applications finding crashes", "cats": {"RUN_FUZZ_TESTS": 1.0, "DISCOVER_BUGS": 1.0, "VALIDATE_RESILIENCE": 1.0, "IMPROVE_SECURITY": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Audit open source licenses for GPL and AGPL violations in dependencies", "cats": {"AUDIT_LICENSES": 1.0, "CHECK_COMPLIANCE": 1.0, "IDENTIFY_VIOLATIONS": 1.0, "MANAGE_RISKS": 1.0, "AUDIT_COMPLIANCE": 1.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Provide runtime vulnerability detection during application execution", "cats": {"ENABLE_IAST": 1.0, "DETECT_VULNERABILITIES": 1.0, "MONITOR_RUNTIME": 1.0, "PROTECT_APPS": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Deploy WAF rules to block OWASP Top 10 attacks on production applications", "cats": {"DEPLOY_WAF": 1.0, "BLOCK_ATTACKS": 1.0, "PROTECT_APPS": 1.0, "MONITOR_RUNTIME": 1.0, "RESPOND_TO_INCIDENT": 0.5, "AUDIT_COMPLIANCE": 0.0}}
+{"text": "I need to investigate SQL injection vulnerability found in payment processing code", "cats": {"INVESTIGATE_VULNERABILITY": 1.0, "ANALYZE_CODE": 1.0, "ASSESS_RISK": 1.0, "RESPOND_TO_INCIDENT": 0.5, "AUDIT_COMPLIANCE": 0.0, "SCAN_CODE": 0.0}}
+{"text": "Test AI models with adversarial input and prompt injection scenarios", "cats": {"TEST_AI_MODELS": 1.0, "DETECT_VULNERABILITIES": 1.0, "VALIDATE_SECURITY": 1.0, "IMPROVE_DEFENSES": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Provide runtime vulnerability detection during application execution", "cats": {"ENABLE_IAST": 1.0, "DETECT_VULNERABILITIES": 1.0, "MONITOR_RUNTIME": 1.0, "PROTECT_APPS": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Map threat intelligence feeds to applications identifying at-risk systems", "cats": {"MAP_THREAT_INTEL": 1.0, "IDENTIFY_RISKS": 1.0, "CORRELATE_CVES": 1.0, "PRIORITIZE_REMEDIATION": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Enforce policy-as-code blocking non-compliant deployments", "cats": {"ENFORCE_POLICIES": 1.0, "BLOCK_DEPLOYMENTS": 1.0, "ENSURE_COMPLIANCE": 1.0, "MAINTAIN_SYSTEMS": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Run SAST scan on all repositories and provide secure coding feedback to developers", "cats": {"SCAN_CODE": 1.0, "ANALYZE_VULNERABILITIES": 1.0, "PROVIDE_FEEDBACK": 1.0, "GUIDE_REMEDIATION": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Provide runtime vulnerability detection during application execution", "cats": {"ENABLE_IAST": 1.0, "DETECT_VULNERABILITIES": 1.0, "MONITOR_RUNTIME": 1.0, "PROTECT_APPS": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Integrate bug bounty reports and triage findings into remediation pipelines", "cats": {"MANAGE_BUG_BOUNTY": 1.0, "TRIAGE_FINDINGS": 1.0, "INTEGRATE_REPORTS": 1.0, "REMEDIATE_ISSUES": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Compile audit evidence for applications meeting compliance requirements", "cats": {"COMPILE_EVIDENCE": 1.0, "DOCUMENT_COMPLIANCE": 1.0, "AUDIT_COMPLIANCE": 1.0, "ENABLE_VALIDATION": 1.0, "RESPOND_TO_INCIDENT": 0.0, "DEFINE_STRATEGY": 0.0}}
+{"text": "Run fuzz testing on APIs and applications to discover crashes and bugs", "cats": {"FUZZ_TEST": 1.0, "DISCOVER_BUGS": 1.0, "TEST_RESILIENCE": 1.0, "IMPROVE_SECURITY": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Provide runtime vulnerability detection during application execution", "cats": {"ENABLE_IAST": 1.0, "DETECT_VULNERABILITIES": 1.0, "MONITOR_RUNTIME": 1.0, "PROTECT_APPS": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Track security findings with assigned developers and due dates", "cats": {"TRACK_FINDINGS": 1.0, "ASSIGN_OWNERS": 1.0, "MANAGE_DEADLINES": 1.0, "ENABLE_REMEDIATION": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Integrate bug bounty reports and triage findings into remediation pipelines", "cats": {"MANAGE_BUG_BOUNTY": 1.0, "TRIAGE_FINDINGS": 1.0, "INTEGRATE_REPORTS": 1.0, "REMEDIATE_ISSUES": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "I need to define enterprise AppSec strategy covering secure SDLC and DevSecOps integration", "cats": {"DEFINE_STRATEGY": 1.0, "ESTABLISH_SDLC": 1.0, "INTEGRATE_DEVSECOPS": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0, "SCAN_CODE": 0.0}}
+{"text": "Test coordinated application attacks and validate defense mechanisms", "cats": {"TEST_COORDINATION": 1.0, "SIMULATE_ATTACKS": 1.0, "VALIDATE_DEFENSES": 1.0, "IMPROVE_SECURITY": 1.0, "RESPOND_TO_INCIDENT": 0.0, "AUDIT_COMPLIANCE": 0.0}}
+{"text": "Validate AppSec policies and compliance requirements", "cats": {"VALIDATE_POLICIES": 1.0, "CHECK_COMPLIANCE": 1.0, "AUDIT_COMPLIANCE": 1.0, "REVIEW_REQUIREMENTS": 1.0, "RESPOND_TO_INCIDENT": 0.0, "DEFINE_STRATEGY": 0.0}}
+{"text": "Operate RASP with anomaly detection to protect live applications from attacks", "cats": {"OPERATE_RASP": 1.0, "DETECT_ANOMALIES": 1.0, "PROTECT_APPS": 1.0, "MONITOR_RUNTIME": 1.0, "RESPOND_TO_INCIDENT": 0.5, "AUDIT_COMPLIANCE": 0.0}}
+{"text": "Enforce security gates blocking builds with critical vulnerabilities", "cats": {"ENFORCE_GATES": 1.0, "BLOCK_BUILDS": 1.0, "PREVENT_INSECURE_DEPLOYMENTS": 1.0, "MAINTAIN_SYSTEMS": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Document security incident and capture lessons learned for improvement", "cats": {"DOCUMENT_INCIDENT": 1.0, "CAPTURE_LEARNINGS": 1.0, "IMPROVE_PROCESSES": 1.0, "RESPOND_TO_INCIDENT": 1.0, "AUDIT_COMPLIANCE": 0.0, "DEFINE_STRATEGY": 0.0}}
+{"text": "Review application security architecture and update design principles", "cats": {"REVIEW_ARCHITECTURE": 1.0, "UPDATE_DESIGN": 1.0, "DEFINE_STRATEGY": 1.0, "IMPROVE_SECURITY": 1.0, "RESPOND_TO_INCIDENT": 0.0, "AUDIT_COMPLIANCE": 0.0}}
+{"text": "Measure MTTR for critical vulnerabilities tracking remediation trends", "cats": {"MEASURE_MTTR": 1.0, "TRACK_METRICS": 1.0, "ANALYZE_TRENDS": 1.0, "IMPROVE_REMEDIATION": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Aggregate SAST DAST and SCA findings in Application Security Posture Management platform", "cats": {"AGGREGATE_FINDINGS": 1.0, "UNIFY_VIEW": 1.0, "ENABLE_VISIBILITY": 1.0, "MAINTAIN_SYSTEMS": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Perform dynamic analysis on web applications detecting vulnerabilities", "cats": {"PERFORM_DAST": 1.0, "DETECT_VULNERABILITIES": 1.0, "ASSESS_SECURITY": 1.0, "IMPROVE_DEFENSES": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Create STRIDE threat modeling analysis for applications", "cats": {"CREATE_THREAT_MODEL": 1.0, "PERFORM_ANALYSIS": 1.0, "DOCUMENT_THREATS": 1.0, "ENABLE_DEFENSE": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Revoke all hardcoded API keys found in source code repositories", "cats": {"REVOKE_KEYS": 1.0, "RESPOND_TO_INCIDENT": 1.0, "SECURE_SECRETS": 1.0, "REMEDIATE_EXPOSURE": 1.0, "AUDIT_COMPLIANCE": 0.0, "DEFINE_STRATEGY": 0.0}}
+{"text": "Enforce security gates blocking builds with critical vulnerabilities", "cats": {"ENFORCE_GATES": 1.0, "BLOCK_BUILDS": 1.0, "PREVENT_INSECURE_DEPLOYMENTS": 1.0, "MAINTAIN_SYSTEMS": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Validate AppSec policies and compliance requirements", "cats": {"VALIDATE_POLICIES": 1.0, "CHECK_COMPLIANCE": 1.0, "AUDIT_COMPLIANCE": 1.0, "REVIEW_REQUIREMENTS": 1.0, "RESPOND_TO_INCIDENT": 0.0, "DEFINE_STRATEGY": 0.0}}
+{"text": "Scan container images for vulnerabilities and patch critical issues", "cats": {"SCAN_CONTAINERS": 1.0, "DETECT_VULNERABILITIES": 1.0, "PATCH_ISSUES": 1.0, "SECURE_DEPLOYMENTS": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Scan Infrastructure as Code files for misconfigurations in Terraform and Kubernetes", "cats": {"SCAN_IAC": 1.0, "DETECT_MISCONFIGURATIONS": 1.0, "VALIDATE_TEMPLATES": 1.0, "REMEDIATE_ISSUES": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Identify vulnerable packages in container images", "cats": {"IDENTIFY_VULNERABILITIES": 1.0, "SCAN_CONTAINERS": 1.0, "ASSESS_RISKS": 1.0, "MANAGE_DEPENDENCIES": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Enforce policy-as-code blocking non-compliant deployments", "cats": {"ENFORCE_POLICIES": 1.0, "BLOCK_DEPLOYMENTS": 1.0, "ENSURE_COMPLIANCE": 1.0, "MAINTAIN_SYSTEMS": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+
+{"text": "Create pull requests for dependency updates using automated tooling", "cats": {"CREATE_PRS": 1.0, "UPDATE_DEPENDENCIES": 1.0, "AUTOMATE_REMEDIATION": 1.0, "MAINTAIN_SYSTEMS": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Respond to application security incident containing threat and revoking access", "cats": {"RESPOND_TO_INCIDENT": 1.0, "CONTAIN_THREAT": 1.0, "REVOKE_ACCESS": 1.0, "DOCUMENT_INCIDENT": 1.0, "AUDIT_COMPLIANCE": 0.0, "DEFINE_STRATEGY": 0.0}}
+{"text": "Extract IOCs from the malware and analyze the C2 protocol communication", "cats": {"EXTRACT_IOCS": 1.0, "ANALYZE_C2_PROTOCOL": 1.0, "ANALYZE_IOCS": 0.0, "ANALYZE_C2": 0.0}}
+{"text": "Document lessons learned and application security improvements from testing", "cats": {"DOCUMENT_LEARNINGS": 1.0, "CAPTURE_IMPROVEMENTS": 1.0, "IMPROVE_PROCESSES": 1.0, "ENHANCE_SECURITY": 1.0, "RESPOND_TO_INCIDENT": 0.0, "AUDIT_COMPLIANCE": 0.0}}
+{"text": "Discover shadow APIs and enforce security controls on unmanaged endpoints", "cats": {"DISCOVER_APIS": 1.0, "MAP_ENDPOINTS": 1.0, "ENFORCE_CONTROLS": 1.0, "SECURE_SHADOW_APIS": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Analyze this malware sample in a sandbox and reverse engineer the payload", "cats": {"ANALYZE_MALWARE_SAMPLE": 1.0, "SANDBOX_MALWARE": 1.0, "ANALYZE_PAYLOAD": 1.0, "REVERSE_ENGINEER_MALWARE": 1.0, "ANALYZE_MALWARE": 0.0}}
+{"text": "Create pull requests for dependency updates using automated tooling", "cats": {"CREATE_PRS": 1.0, "UPDATE_DEPENDENCIES": 1.0, "AUTOMATE_REMEDIATION": 1.0, "MAINTAIN_SYSTEMS": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Aggregate SAST DAST and SCA findings in Application Security Posture Management platform", "cats": {"AGGREGATE_FINDINGS": 1.0, "UNIFY_VIEW": 1.0, "ENABLE_VISIBILITY": 1.0, "MAINTAIN_SYSTEMS": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Track mean time to remediate vulnerabilities by severity over time", "cats": {"TRACK_MTTR": 1.0, "MEASURE_REMEDIATION": 1.0, "ANALYZE_TRENDS": 1.0, "IMPROVE_PROCESSES": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Generate executive KPIs showing vulnerability backlog and remediation trends", "cats": {"GENERATE_KPIS": 1.0, "REPORT_METRICS": 1.0, "TRACK_BACKLOG": 1.0, "ANALYZE_TRENDS": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Perform dynamic analysis on web applications detecting vulnerabilities", "cats": {"PERFORM_DAST": 1.0, "DETECT_VULNERABILITIES": 1.0, "ASSESS_SECURITY": 1.0, "IMPROVE_DEFENSES": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Scan repositories with SAST tool identifying SQL injection vulnerabilities", "cats": {"SCAN_REPOS": 1.0, "IDENTIFY_VULNERABILITIES": 1.0, "DETECT_ATTACKS": 1.0, "ASSESS_SECURITY": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Generate executive KPIs showing MTTR trends for critical vulnerabilities", "cats": {"GENERATE_REPORTS": 1.0, "COMMUNICATE_METRICS": 1.0, "EXECUTIVE_REPORTING": 1.0, "ANALYZE_TRENDS": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Validate accuracy and completeness of vendor SBOMs", "cats": {"VALIDATE_SBOM": 1.0, "ENSURE_ACCURACY": 1.0, "VERIFY_COMPLETENESS": 1.0, "MANAGE_SUPPLY_CHAIN": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Scan repositories for hardcoded secrets and automatically revoke compromised keys", "cats": {"SCAN_SECRETS": 1.0, "DETECT_EXPOSURE": 1.0, "REVOKE_KEYS": 1.0, "RESPOND_TO_INCIDENT": 1.0, "AUDIT_COMPLIANCE": 0.0, "DEFINE_STRATEGY": 0.0}}
+{"text": "Scan repositories with SAST tool identifying SQL injection vulnerabilities", "cats": {"SCAN_REPOS": 1.0, "IDENTIFY_VULNERABILITIES": 1.0, "DETECT_ATTACKS": 1.0, "ASSESS_SECURITY": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Detect supply chain risks in applications with vulnerable libraries", "cats": {"DETECT_SUPPLY_CHAIN_RISKS": 1.0, "IDENTIFY_VULNERABILITIES": 1.0, "ASSESS_RISKS": 1.0, "MANAGE_DEPENDENCIES": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Enforce OAuth2 authentication and schema validation on APIs", "cats": {"ENFORCE_AUTH": 1.0, "VALIDATE_SCHEMAS": 1.0, "PROTECT_APIS": 1.0, "MAINTAIN_SYSTEMS": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Map secure SDLC practices to NIST CSF and ISO 27001 frameworks", "cats": {"MAP_FRAMEWORKS": 1.0, "ALIGN_PRACTICES": 1.0, "ENSURE_COMPLIANCE": 1.0, "AUDIT_COMPLIANCE": 1.0, "RESPOND_TO_INCIDENT": 0.0, "DEFINE_STRATEGY": 0.0}}
+{"text": "Integrate SAST DAST and SCA scans in CI/CD pipelines", "cats": {"INTEGRATE_SCANS": 1.0, "ENABLE_CI_CD": 1.0, "AUTOMATE_SECURITY": 1.0, "MAINTAIN_SYSTEMS": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Deploy WAF rules to block OWASP Top 10 attacks on production applications", "cats": {"DEPLOY_WAF": 1.0, "BLOCK_ATTACKS": 1.0, "PROTECT_APPS": 1.0, "MONITOR_RUNTIME": 1.0, "RESPOND_TO_INCIDENT": 0.5, "AUDIT_COMPLIANCE": 0.0}}
+{"text": "Validate AppSec controls against GDPR PCI DSS and SOC2 compliance", "cats": {"VALIDATE_COMPLIANCE": 1.0, "MAP_FRAMEWORKS": 1.0, "ENSURE_COMPLIANCE": 1.0, "AUDIT_COMPLIANCE": 1.0, "RESPOND_TO_INCIDENT": 0.0, "DEFINE_STRATEGY": 0.0}}
+{"text": "Triage bug bounty reports integrating valid findings into remediation pipelines", "cats": {"TRIAGE_REPORTS": 1.0, "INTEGRATE_FINDINGS": 1.0, "ENABLE_REMEDIATION": 1.0, "MANAGE_PROGRAM": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Scan repositories for hardcoded secrets and automatically revoke compromised keys", "cats": {"SCAN_SECRETS": 1.0, "DETECT_EXPOSURE": 1.0, "REVOKE_KEYS": 1.0, "RESPOND_TO_INCIDENT": 1.0, "AUDIT_COMPLIANCE": 0.0, "DEFINE_STRATEGY": 0.0}}
+{"text": "Train development teams on application security best practices", "cats": {"TRAIN_TEAMS": 1.0, "EDUCATE_DEVELOPERS": 1.0, "IMPROVE_AWARENESS": 1.0, "ENABLE_SECURITY": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Please block cross-site scripting attack detected on login endpoint immediately", "cats": {"BLOCK_ATTACK": 1.0, "RESPOND_TO_INCIDENT": 1.0, "ENFORCE_CONTROLS": 1.0, "PROTECT_ENDPOINTS": 1.0, "AUDIT_COMPLIANCE": 0.0, "DEFINE_STRATEGY": 0.0}}
+{"text": "Please block cross-site scripting attack detected on login endpoint immediately", "cats": {"BLOCK_ATTACK": 1.0, "RESPOND_TO_INCIDENT": 1.0, "ENFORCE_CONTROLS": 1.0, "PROTECT_ENDPOINTS": 1.0, "AUDIT_COMPLIANCE": 0.0, "DEFINE_STRATEGY": 0.0}}
+{"text": "Measure MTTR for critical vulnerabilities tracking remediation trends", "cats": {"MEASURE_MTTR": 1.0, "TRACK_METRICS": 1.0, "ANALYZE_TRENDS": 1.0, "IMPROVE_REMEDIATION": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Perform penetration testing on our web application and conduct a pen test of the API endpoints", "cats": {"PENETRATION_TEST": 1.0, "PEN_TEST": 1.0, "TEST_SECURITY": 0.0, "RED_TEAM_TESTING": 0.0}}
+{"text": "Create software bill of materials in SPDX format for vendor integrations", "cats": {"CREATE_SBOM": 1.0, "DOCUMENT_DEPENDENCIES": 1.0, "ENABLE_TRACEABILITY": 1.0, "MANAGE_SUPPLY_CHAIN": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Identify critical misconfigurations in Terraform infrastructure", "cats": {"IDENTIFY_MISCONFIGS": 1.0, "SCAN_IAC": 1.0, "ASSESS_RISKS": 1.0, "REMEDIATE_ISSUES": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Patch Log4j vulnerability CVE-2021-44228 in all affected dependencies", "cats": {"PATCH_VULNERABILITY": 1.0, "UPDATE_DEPENDENCIES": 1.0, "REMEDIATE_CVE": 1.0, "RESPOND_TO_INCIDENT": 1.0, "AUDIT_COMPLIANCE": 0.0, "DEFINE_STRATEGY": 0.0}}
+{"text": "Generate executive KPIs showing vulnerability backlog and remediation trends", "cats": {"GENERATE_KPIS": 1.0, "REPORT_METRICS": 1.0, "TRACK_BACKLOG": 1.0, "ANALYZE_TRENDS": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Automate security scanning in CI/CD workflows", "cats": {"AUTOMATE_SCANNING": 1.0, "ENABLE_CI_CD": 1.0, "STREAMLINE_PROCESSES": 1.0, "MAINTAIN_SYSTEMS": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Perform dynamic analysis on applications identifying SQL injection vulnerabilities", "cats": {"PERFORM_DAST": 1.0, "IDENTIFY_VULNERABILITIES": 1.0, "DETECT_ATTACKS": 1.0, "ASSESS_SECURITY": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Create attack trees documenting spoofing and tampering mitigations", "cats": {"CREATE_ATTACK_TREES": 1.0, "DOCUMENT_MITIGATIONS": 1.0, "ANALYZE_THREATS": 1.0, "ENABLE_DEFENSE": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Run fuzz tests on applications discovering unique bugs and crashes", "cats": {"RUN_FUZZ_TESTS": 1.0, "DISCOVER_BUGS": 1.0, "VALIDATE_RESILIENCE": 1.0, "IMPROVE_SECURITY": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Extract IOCs from the malware and analyze the C2 protocol communication", "cats": {"EXTRACT_IOCS": 1.0, "ANALYZE_C2_PROTOCOL": 1.0, "ANALYZE_IOCS": 0.0, "ANALYZE_C2": 0.0}}
+{"text": "Enforce security gates in CI/CD pipelines blocking builds with critical vulnerabilities", "cats": {"ENFORCE_GATES": 1.0, "BLOCK_BUILDS": 1.0, "PREVENT_DEPLOYMENT": 1.0, "VALIDATE_SECURITY": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Scan dependencies with SCA tool finding critical vulnerabilities", "cats": {"SCAN_DEPENDENCIES": 1.0, "IDENTIFY_VULNERABILITIES": 1.0, "ASSESS_RISKS": 1.0, "MANAGE_DEPENDENCIES": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Perform dynamic analysis on applications identifying SQL injection vulnerabilities", "cats": {"PERFORM_DAST": 1.0, "IDENTIFY_VULNERABILITIES": 1.0, "DETECT_ATTACKS": 1.0, "ASSESS_SECURITY": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Remediate application security vulnerabilities identified in scans", "cats": {"REMEDIATE_VULNERABILITIES": 1.0, "FIX_ISSUES": 1.0, "IMPROVE_SECURITY": 1.0, "MAINTAIN_SYSTEMS": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Map threat intelligence feeds to applications identifying at-risk systems", "cats": {"MAP_THREAT_INTEL": 1.0, "IDENTIFY_RISKS": 1.0, "CORRELATE_CVES": 1.0, "PRIORITIZE_REMEDIATION": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Scan Infrastructure as Code files for misconfigurations in Terraform and Kubernetes", "cats": {"SCAN_IAC": 1.0, "DETECT_MISCONFIGURATIONS": 1.0, "VALIDATE_TEMPLATES": 1.0, "REMEDIATE_ISSUES": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Update AppSec policies based on new threat intelligence and vulnerabilities", "cats": {"UPDATE_POLICIES": 1.0, "ADAPT_TO_THREATS": 1.0, "IMPROVE_CONTROLS": 1.0, "MAINTAIN_SYSTEMS": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Update security baselines and deploy enhanced protection controls", "cats": {"UPDATE_BASELINES": 1.0, "DEPLOY_CONTROLS": 1.0, "IMPROVE_SECURITY": 1.0, "MAINTAIN_SYSTEMS": 1.0, "RESPOND_TO_INCIDENT": 0.5, "AUDIT_COMPLIANCE": 0.0}}
+{"text": "Automate SAST DAST and SCA scans in CI/CD pipelines blocking builds with critical vulnerabilities", "cats": {"AUTOMATE_SCANNING": 1.0, "ENABLE_CI_CD": 1.0, "ENFORCE_GATES": 1.0, "PREVENT_INSECURE_DEPLOYMENTS": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Detect GPL-3.0 AGPL-3.0 and incompatible licenses in applications", "cats": {"DETECT_LICENSE_VIOLATIONS": 1.0, "ASSESS_LEGAL_RISKS": 1.0, "MANAGE_COMPLIANCE": 1.0, "REMEDIATE_ISSUES": 1.0, "AUDIT_COMPLIANCE": 1.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Operate runtime protection on applications detecting and blocking attacks", "cats": {"OPERATE_RASP": 1.0, "DETECT_ATTACKS": 1.0, "BLOCK_THREATS": 1.0, "PROTECT_APPS": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Provide real-time security feedback in IDEs to guide secure coding", "cats": {"PROVIDE_FEEDBACK": 1.0, "GUIDE_DEVELOPERS": 1.0, "ENABLE_SECURE_CODING": 1.0, "IMPROVE_CODE_QUALITY": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Run SAST scan on all repositories and provide secure coding feedback to developers", "cats": {"SCAN_CODE": 1.0, "ANALYZE_VULNERABILITIES": 1.0, "PROVIDE_FEEDBACK": 1.0, "GUIDE_REMEDIATION": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Enforce security gates in CI/CD pipelines blocking builds with critical vulnerabilities", "cats": {"ENFORCE_GATES": 1.0, "BLOCK_BUILDS": 1.0, "PREVENT_DEPLOYMENT": 1.0, "VALIDATE_SECURITY": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Integrate runtime security events from WAF RASP and API gateway with SIEM", "cats": {"INTEGRATE_EVENTS": 1.0, "ENABLE_DETECTION": 1.0, "STREAMLINE_MONITORING": 1.0, "MAINTAIN_SYSTEMS": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Execute chaos engineering experiments to validate application resilience", "cats": {"CHAOS_TEST": 1.0, "VALIDATE_RESILIENCE": 1.0, "TEST_FAILURES": 1.0, "IMPROVE_RELIABILITY": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Automate security scanning in CI/CD workflows", "cats": {"AUTOMATE_SCANNING": 1.0, "ENABLE_CI_CD": 1.0, "STREAMLINE_PROCESSES": 1.0, "MAINTAIN_SYSTEMS": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Review application security vendor postures and certifications", "cats": {"REVIEW_VENDORS": 1.0, "ASSESS_CERTIFICATIONS": 1.0, "EVALUATE_VENDORS": 1.0, "MANAGE_RISKS": 1.0, "RESPOND_TO_INCIDENT": 0.0, "AUDIT_COMPLIANCE": 0.0}}
+{"text": "Aggregate SAST DAST and SCA findings in Application Security Posture Management platform", "cats": {"AGGREGATE_FINDINGS": 1.0, "UNIFY_VIEW": 1.0, "ENABLE_VISIBILITY": 1.0, "MAINTAIN_SYSTEMS": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Create secure SDLC policy with bug bounty scope and SBOM requirements", "cats": {"CREATE_POLICY": 1.0, "DEFINE_SCOPE": 1.0, "ESTABLISH_REQUIREMENTS": 1.0, "PLAN_INITIATIVES": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Detect XSS and CSRF vulnerabilities in web applications", "cats": {"DETECT_VULNERABILITIES": 1.0, "IDENTIFY_ATTACKS": 1.0, "ASSESS_SECURITY": 1.0, "REMEDIATE_ISSUES": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Manage security vulnerabilities with remediation workflows in bug tracking system", "cats": {"MANAGE_VULNERABILITIES": 1.0, "TRACK_REMEDIATION": 1.0, "ENABLE_WORKFLOWS": 1.0, "MAINTAIN_SYSTEMS": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Manage bug bounty findings tracking patched and in-remediation items", "cats": {"MANAGE_FINDINGS": 1.0, "TRACK_REMEDIATION": 1.0, "MONITOR_PROGRESS": 1.0, "ENABLE_CLOSURE": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Deploy WAF rules blocking OWASP Top 10 attacks on production applications", "cats": {"DEPLOY_WAF": 1.0, "BLOCK_ATTACKS": 1.0, "PROTECT_APPS": 1.0, "MAINTAIN_SYSTEMS": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Integrate bug bounty reports and triage findings into remediation pipelines", "cats": {"MANAGE_BUG_BOUNTY": 1.0, "TRIAGE_FINDINGS": 1.0, "INTEGRATE_REPORTS": 1.0, "REMEDIATE_ISSUES": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Secure APIs with gateway enforcing authentication and schema validation", "cats": {"SECURE_APIS": 1.0, "ENFORCE_AUTH": 1.0, "VALIDATE_SCHEMAS": 1.0, "PROTECT_ENDPOINTS": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Make recommendations for application security platform investments", "cats": {"MAKE_RECOMMENDATIONS": 1.0, "EVALUATE_INVESTMENTS": 1.0, "PLAN_INITIATIVES": 1.0, "STRATEGIC_PLANNING": 1.0, "RESPOND_TO_INCIDENT": 0.0, "AUDIT_COMPLIANCE": 0.0}}
+{"text": "Generate SBOM for vendor integrations and exchange with partners", "cats": {"GENERATE_SBOM": 1.0, "EXCHANGE_DOCUMENTS": 1.0, "VALIDATE_ACCURACY": 1.0, "MANAGE_SUPPLY_CHAIN": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Map shadow and zombie APIs requiring security controls", "cats": {"DISCOVER_APIS": 1.0, "IDENTIFY_SHADOW": 1.0, "ENABLE_CONTROLS": 1.0, "PROTECT_APIS": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Map threat intelligence feeds to applications identifying at-risk systems", "cats": {"MAP_THREAT_INTEL": 1.0, "IDENTIFY_RISKS": 1.0, "CORRELATE_CVES": 1.0, "PRIORITIZE_REMEDIATION": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Deploy WAF rules blocking OWASP Top 10 attacks on production applications", "cats": {"DEPLOY_WAF": 1.0, "BLOCK_ATTACKS": 1.0, "PROTECT_APPS": 1.0, "MAINTAIN_SYSTEMS": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Run SAST scan on all repositories and provide secure coding feedback to developers", "cats": {"SCAN_CODE": 1.0, "ANALYZE_VULNERABILITIES": 1.0, "PROVIDE_FEEDBACK": 1.0, "GUIDE_REMEDIATION": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Detect XSS and CSRF vulnerabilities in web applications", "cats": {"DETECT_VULNERABILITIES": 1.0, "IDENTIFY_ATTACKS": 1.0, "ASSESS_SECURITY": 1.0, "REMEDIATE_ISSUES": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Track mean time to remediate vulnerabilities by severity over time", "cats": {"TRACK_MTTR": 1.0, "MEASURE_REMEDIATION": 1.0, "ANALYZE_TRENDS": 1.0, "IMPROVE_PROCESSES": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Perform dynamic analysis on applications identifying SQL injection vulnerabilities", "cats": {"PERFORM_DAST": 1.0, "IDENTIFY_VULNERABILITIES": 1.0, "DETECT_ATTACKS": 1.0, "ASSESS_SECURITY": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Triage bug bounty reports integrating valid findings into remediation pipelines", "cats": {"TRIAGE_REPORTS": 1.0, "INTEGRATE_FINDINGS": 1.0, "ENABLE_REMEDIATION": 1.0, "MANAGE_PROGRAM": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Validate accuracy and completeness of vendor SBOMs", "cats": {"VALIDATE_SBOM": 1.0, "ENSURE_ACCURACY": 1.0, "VERIFY_COMPLETENESS": 1.0, "MANAGE_SUPPLY_CHAIN": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Run fuzz tests on applications discovering unique bugs and crashes", "cats": {"RUN_FUZZ_TESTS": 1.0, "DISCOVER_BUGS": 1.0, "VALIDATE_RESILIENCE": 1.0, "IMPROVE_SECURITY": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Identify critical misconfigurations in Terraform CloudFormation and Kubernetes", "cats": {"IDENTIFY_MISCONFIGS": 1.0, "SCAN_IAC": 1.0, "ASSESS_RISKS": 1.0, "REMEDIATE_ISSUES": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Audit open source licenses for GPL and AGPL violations in dependencies", "cats": {"AUDIT_LICENSES": 1.0, "CHECK_COMPLIANCE": 1.0, "IDENTIFY_VIOLATIONS": 1.0, "MANAGE_RISKS": 1.0, "AUDIT_COMPLIANCE": 1.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Please perform STRIDE threat modeling for billing service application", "cats": {"THREAT_MODEL": 1.0, "ANALYZE_ARCHITECTURE": 1.0, "IDENTIFY_THREATS": 1.0, "DOCUMENT_MITIGATIONS": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Create attack trees documenting spoofing and tampering mitigations", "cats": {"CREATE_ATTACK_TREES": 1.0, "DOCUMENT_MITIGATIONS": 1.0, "ANALYZE_THREATS": 1.0, "ENABLE_DEFENSE": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Ingest bug bounty reports triaging valid findings", "cats": {"INGEST_REPORTS": 1.0, "TRIAGE_FINDINGS": 1.0, "MANAGE_PROGRAM": 1.0, "ENABLE_REMEDIATION": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Review application security metrics identifying areas for improvement", "cats": {"REVIEW_METRICS": 1.0, "ANALYZE_PERFORMANCE": 1.0, "IDENTIFY_IMPROVEMENTS": 1.0, "OPTIMIZE_PROGRAM": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Audit open source licenses for GPL and AGPL violations in dependencies", "cats": {"AUDIT_LICENSES": 1.0, "CHECK_COMPLIANCE": 1.0, "IDENTIFY_VIOLATIONS": 1.0, "MANAGE_RISKS": 1.0, "AUDIT_COMPLIANCE": 1.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Perform STRIDE LINDDUN threat modeling mapping threats to MITRE ATT&CK", "cats": {"PERFORM_THREAT_MODELING": 1.0, "MAP_ATTACK": 1.0, "DOCUMENT_THREATS": 1.0, "ANALYZE_RISKS": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Train development teams on application security best practices", "cats": {"TRAIN_TEAMS": 1.0, "EDUCATE_DEVELOPERS": 1.0, "IMPROVE_AWARENESS": 1.0, "ENABLE_SECURITY": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Enforce OAuth2 authentication and schema validation on APIs", "cats": {"ENFORCE_AUTH": 1.0, "VALIDATE_SCHEMAS": 1.0, "PROTECT_APIS": 1.0, "MAINTAIN_SYSTEMS": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Test AI models with adversarial input and prompt injection scenarios", "cats": {"TEST_AI_MODELS": 1.0, "DETECT_VULNERABILITIES": 1.0, "VALIDATE_SECURITY": 1.0, "IMPROVE_DEFENSES": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Detect GPL-3.0 AGPL-3.0 and incompatible licenses in applications", "cats": {"DETECT_LICENSE_VIOLATIONS": 1.0, "ASSESS_LEGAL_RISKS": 1.0, "MANAGE_COMPLIANCE": 1.0, "REMEDIATE_ISSUES": 1.0, "AUDIT_COMPLIANCE": 1.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Perform STRIDE LINDDUN threat modeling mapping threats to MITRE ATT&CK", "cats": {"PERFORM_THREAT_MODELING": 1.0, "MAP_ATTACK": 1.0, "DOCUMENT_THREATS": 1.0, "ANALYZE_RISKS": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Validate AppSec controls against GDPR PCI DSS and SOC2 compliance", "cats": {"VALIDATE_COMPLIANCE": 1.0, "MAP_FRAMEWORKS": 1.0, "ENSURE_COMPLIANCE": 1.0, "AUDIT_COMPLIANCE": 1.0, "RESPOND_TO_INCIDENT": 0.0, "DEFINE_STRATEGY": 0.0}}
+{"text": "Generate SBOM for vendor integrations and exchange with partners", "cats": {"GENERATE_SBOM": 1.0, "EXCHANGE_DOCUMENTS": 1.0, "VALIDATE_ACCURACY": 1.0, "MANAGE_SUPPLY_CHAIN": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Perform penetration testing on our web application and conduct a pen test of the API endpoints", "cats": {"PENETRATION_TEST": 1.0, "PEN_TEST": 1.0, "TEST_SECURITY": 0.0, "RED_TEAM_TESTING": 0.0}}
+
+{"text": "Identify critical misconfigurations in Terraform CloudFormation and Kubernetes", "cats": {"IDENTIFY_MISCONFIGS": 1.0, "SCAN_IAC": 1.0, "ASSESS_RISKS": 1.0, "REMEDIATE_ISSUES": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Detect critical vulnerabilities in Docker container images requiring patching", "cats": {"DETECT_VULNERABILITIES": 1.0, "SCAN_CONTAINERS": 1.0, "PRIORITIZE_PATCHES": 1.0, "REMEDIATE_ISSUES": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Automate SAST DAST and SCA scans in CI/CD pipelines blocking builds with critical vulnerabilities", "cats": {"AUTOMATE_SCANNING": 1.0, "ENABLE_CI_CD": 1.0, "ENFORCE_GATES": 1.0, "PREVENT_INSECURE_DEPLOYMENTS": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "I need to investigate SQL injection vulnerability found in payment processing code", "cats": {"INVESTIGATE_VULNERABILITY": 1.0, "ANALYZE_CODE": 1.0, "ASSESS_RISK": 1.0, "RESPOND_TO_INCIDENT": 0.5, "AUDIT_COMPLIANCE": 0.0, "SCAN_CODE": 0.0}}
+{"text": "Create STRIDE threat modeling analysis for applications", "cats": {"CREATE_THREAT_MODEL": 1.0, "PERFORM_ANALYSIS": 1.0, "DOCUMENT_THREATS": 1.0, "ENABLE_DEFENSE": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Validate accuracy and completeness of vendor SBOMs", "cats": {"VALIDATE_SBOM": 1.0, "ENSURE_ACCURACY": 1.0, "VERIFY_COMPLETENESS": 1.0, "MANAGE_SUPPLY_CHAIN": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Execute chaos engineering experiments to validate application resilience", "cats": {"CHAOS_TEST": 1.0, "VALIDATE_RESILIENCE": 1.0, "TEST_FAILURES": 1.0, "IMPROVE_RELIABILITY": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Audit AppSec program for secure SDLC adoption and SLA compliance", "cats": {"AUDIT_PROGRAM": 1.0, "VALIDATE_SDLC": 1.0, "CHECK_SLA": 1.0, "MEASURE_COVERAGE": 1.0, "AUDIT_COMPLIANCE": 1.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "I need to define enterprise AppSec strategy covering secure SDLC and DevSecOps integration", "cats": {"DEFINE_STRATEGY": 1.0, "ESTABLISH_SDLC": 1.0, "INTEGRATE_DEVSECOPS": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0, "SCAN_CODE": 0.0}}
+{"text": "Document lessons learned and application security improvements from testing", "cats": {"DOCUMENT_LEARNINGS": 1.0, "CAPTURE_IMPROVEMENTS": 1.0, "IMPROVE_PROCESSES": 1.0, "ENHANCE_SECURITY": 1.0, "RESPOND_TO_INCIDENT": 0.0, "AUDIT_COMPLIANCE": 0.0}}
+{"text": "Measure MTTR for critical vulnerabilities tracking remediation trends", "cats": {"MEASURE_MTTR": 1.0, "TRACK_METRICS": 1.0, "ANALYZE_TRENDS": 1.0, "IMPROVE_REMEDIATION": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Remediate application security vulnerabilities identified in scans", "cats": {"REMEDIATE_VULNERABILITIES": 1.0, "FIX_ISSUES": 1.0, "IMPROVE_SECURITY": 1.0, "MAINTAIN_SYSTEMS": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Test ML and AI components with adversarial inputs and prompt injection", "cats": {"TEST_ML_SECURITY": 1.0, "ADVERSARIAL_TESTING": 1.0, "DETECT_VULNERABILITIES": 1.0, "MITIGATE_RISKS": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Review application security architecture and update design principles", "cats": {"REVIEW_ARCHITECTURE": 1.0, "UPDATE_DESIGN": 1.0, "DEFINE_STRATEGY": 1.0, "IMPROVE_SECURITY": 1.0, "RESPOND_TO_INCIDENT": 0.0, "AUDIT_COMPLIANCE": 0.0}}
+{"text": "Audit AppSec program for secure SDLC adoption and SLA compliance", "cats": {"AUDIT_PROGRAM": 1.0, "VALIDATE_SDLC": 1.0, "CHECK_SLA": 1.0, "MEASURE_COVERAGE": 1.0, "AUDIT_COMPLIANCE": 1.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Test ML and AI components with adversarial inputs and prompt injection", "cats": {"TEST_ML_SECURITY": 1.0, "ADVERSARIAL_TESTING": 1.0, "DETECT_VULNERABILITIES": 1.0, "MITIGATE_RISKS": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Analyze this malware sample in a sandbox and reverse engineer the payload", "cats": {"ANALYZE_MALWARE_SAMPLE": 1.0, "SANDBOX_MALWARE": 1.0, "ANALYZE_PAYLOAD": 1.0, "REVERSE_ENGINEER_MALWARE": 1.0, "ANALYZE_MALWARE": 0.0}}
+{"text": "Identify vulnerable packages in container images", "cats": {"IDENTIFY_VULNERABILITIES": 1.0, "SCAN_CONTAINERS": 1.0, "ASSESS_RISKS": 1.0, "MANAGE_DEPENDENCIES": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Scan repositories for hardcoded API keys and tokens requiring revocation", "cats": {"SCAN_REPOS": 1.0, "DETECT_SECRETS": 1.0, "REVOKE_CREDENTIALS": 1.0, "PROTECT_DATA": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Run chaos experiments killing dependencies and injecting attacks", "cats": {"RUN_CHAOS_EXPERIMENTS": 1.0, "VALIDATE_RESILIENCE": 1.0, "TEST_DEPENDENCIES": 1.0, "IMPROVE_RELIABILITY": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Respond to application security incident containing threat and revoking access", "cats": {"RESPOND_TO_INCIDENT": 1.0, "CONTAIN_THREAT": 1.0, "REVOKE_ACCESS": 1.0, "DOCUMENT_INCIDENT": 1.0, "AUDIT_COMPLIANCE": 0.0, "DEFINE_STRATEGY": 0.0}}
+{"text": "Validate AppSec controls against GDPR PCI DSS and SOC2 compliance", "cats": {"VALIDATE_COMPLIANCE": 1.0, "MAP_FRAMEWORKS": 1.0, "ENSURE_COMPLIANCE": 1.0, "AUDIT_COMPLIANCE": 1.0, "RESPOND_TO_INCIDENT": 0.0, "DEFINE_STRATEGY": 0.0}}
+{"text": "Scan container images for vulnerabilities and patch critical issues", "cats": {"SCAN_CONTAINERS": 1.0, "DETECT_VULNERABILITIES": 1.0, "PATCH_ISSUES": 1.0, "SECURE_DEPLOYMENTS": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Operate RASP with anomaly detection to protect live applications from attacks", "cats": {"OPERATE_RASP": 1.0, "DETECT_ANOMALIES": 1.0, "PROTECT_APPS": 1.0, "MONITOR_RUNTIME": 1.0, "RESPOND_TO_INCIDENT": 0.5, "AUDIT_COMPLIANCE": 0.0}}
+{"text": "Scan Infrastructure as Code files for misconfigurations in Terraform and Kubernetes", "cats": {"SCAN_IAC": 1.0, "DETECT_MISCONFIGURATIONS": 1.0, "VALIDATE_TEMPLATES": 1.0, "REMEDIATE_ISSUES": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Scan repositories for hardcoded secrets and automatically revoke compromised keys", "cats": {"SCAN_SECRETS": 1.0, "DETECT_EXPOSURE": 1.0, "REVOKE_KEYS": 1.0, "RESPOND_TO_INCIDENT": 1.0, "AUDIT_COMPLIANCE": 0.0, "DEFINE_STRATEGY": 0.0}}
+{"text": "Manage security vulnerabilities with remediation workflows in bug tracking system", "cats": {"MANAGE_VULNERABILITIES": 1.0, "TRACK_REMEDIATION": 1.0, "ENABLE_WORKFLOWS": 1.0, "MAINTAIN_SYSTEMS": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Enforce OAuth2 authentication and schema validation on APIs", "cats": {"ENFORCE_AUTH": 1.0, "VALIDATE_SCHEMAS": 1.0, "PROTECT_APIS": 1.0, "MAINTAIN_SYSTEMS": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Review application security vendor postures and certifications", "cats": {"REVIEW_VENDORS": 1.0, "ASSESS_CERTIFICATIONS": 1.0, "EVALUATE_VENDORS": 1.0, "MANAGE_RISKS": 1.0, "RESPOND_TO_INCIDENT": 0.0, "AUDIT_COMPLIANCE": 0.0}}
+{"text": "Detect XSS and CSRF vulnerabilities in web applications", "cats": {"DETECT_VULNERABILITIES": 1.0, "IDENTIFY_ATTACKS": 1.0, "ASSESS_SECURITY": 1.0, "REMEDIATE_ISSUES": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Train developers on OWASP Top 10 and secure coding practices", "cats": {"TRAIN_DEVELOPERS": 1.0, "EDUCATE_TEAMS": 1.0, "IMPROVE_AWARENESS": 1.0, "ENABLE_SECURITY": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Detect supply chain risks in applications with vulnerable libraries", "cats": {"DETECT_SUPPLY_CHAIN_RISKS": 1.0, "IDENTIFY_VULNERABILITIES": 1.0, "ASSESS_RISKS": 1.0, "MANAGE_DEPENDENCIES": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Scan dependencies with SCA tool finding critical vulnerabilities", "cats": {"SCAN_DEPENDENCIES": 1.0, "IDENTIFY_VULNERABILITIES": 1.0, "ASSESS_RISKS": 1.0, "MANAGE_DEPENDENCIES": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Document security incident and capture lessons learned for improvement", "cats": {"DOCUMENT_INCIDENT": 1.0, "CAPTURE_LEARNINGS": 1.0, "IMPROVE_PROCESSES": 1.0, "RESPOND_TO_INCIDENT": 1.0, "AUDIT_COMPLIANCE": 0.0, "DEFINE_STRATEGY": 0.0}}
+{"text": "Perform dynamic analysis on web applications detecting vulnerabilities", "cats": {"PERFORM_DAST": 1.0, "DETECT_VULNERABILITIES": 1.0, "ASSESS_SECURITY": 1.0, "IMPROVE_DEFENSES": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Secure APIs with gateway enforcing authentication and schema validation", "cats": {"SECURE_APIS": 1.0, "ENFORCE_AUTH": 1.0, "VALIDATE_SCHEMAS": 1.0, "PROTECT_ENDPOINTS": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Analyze this malware sample in a sandbox and reverse engineer the payload", "cats": {"ANALYZE_MALWARE_SAMPLE": 1.0, "SANDBOX_MALWARE": 1.0, "ANALYZE_PAYLOAD": 1.0, "REVERSE_ENGINEER_MALWARE": 1.0, "ANALYZE_MALWARE": 0.0}}
+{"text": "Detect critical vulnerabilities in Docker container images requiring patching", "cats": {"DETECT_VULNERABILITIES": 1.0, "SCAN_CONTAINERS": 1.0, "PRIORITIZE_PATCHES": 1.0, "REMEDIATE_ISSUES": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Manage security vulnerabilities with remediation workflows in bug tracking system", "cats": {"MANAGE_VULNERABILITIES": 1.0, "TRACK_REMEDIATION": 1.0, "ENABLE_WORKFLOWS": 1.0, "MAINTAIN_SYSTEMS": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Detect critical vulnerabilities in Docker container images", "cats": {"DETECT_VULNERABILITIES": 1.0, "SCAN_CONTAINERS": 1.0, "ASSESS_RISKS": 1.0, "REMEDIATE_ISSUES": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Create software bill of materials in SPDX format for vendor integrations", "cats": {"CREATE_SBOM": 1.0, "DOCUMENT_DEPENDENCIES": 1.0, "ENABLE_TRACEABILITY": 1.0, "MANAGE_SUPPLY_CHAIN": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Ingest bug bounty reports triaging valid findings", "cats": {"INGEST_REPORTS": 1.0, "TRIAGE_FINDINGS": 1.0, "MANAGE_PROGRAM": 1.0, "ENABLE_REMEDIATION": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Create secure SDLC policy with bug bounty scope and SBOM requirements", "cats": {"CREATE_POLICY": 1.0, "DEFINE_SCOPE": 1.0, "ESTABLISH_REQUIREMENTS": 1.0, "PLAN_INITIATIVES": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Integrate bug bounty reports and triage findings into remediation pipelines", "cats": {"MANAGE_BUG_BOUNTY": 1.0, "TRIAGE_FINDINGS": 1.0, "INTEGRATE_REPORTS": 1.0, "REMEDIATE_ISSUES": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Simulate supply chain attacks and dependency compromises", "cats": {"SIMULATE_ATTACKS": 1.0, "TEST_SUPPLY_CHAIN": 1.0, "VALIDATE_DEFENSES": 1.0, "IMPROVE_SECURITY": 1.0, "RESPOND_TO_INCIDENT": 0.0, "AUDIT_COMPLIANCE": 0.0}}
+{"text": "Map threats to MITRE ATT&CK techniques using threat modeling tool", "cats": {"MAP_ATTACK": 1.0, "ANALYZE_TECHNIQUES": 1.0, "DOCUMENT_THREATS": 1.0, "ENABLE_DEFENSE": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Provide IDE feedback fixing security findings in real-time", "cats": {"PROVIDE_FEEDBACK": 1.0, "ENABLE_REMEDIATION": 1.0, "EDUCATE_DEVELOPERS": 1.0, "IMPROVE_SECURITY": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Compile audit evidence for applications meeting compliance requirements", "cats": {"COMPILE_EVIDENCE": 1.0, "DOCUMENT_COMPLIANCE": 1.0, "AUDIT_COMPLIANCE": 1.0, "ENABLE_VALIDATION": 1.0, "RESPOND_TO_INCIDENT": 0.0, "DEFINE_STRATEGY": 0.0}}
+{"text": "Validate AppSec program scoring against SLA compliance metrics", "cats": {"VALIDATE_PROGRAM": 1.0, "SCORE_METRICS": 1.0, "AUDIT_COMPLIANCE": 1.0, "MEASURE_EFFECTIVENESS": 1.0, "RESPOND_TO_INCIDENT": 0.0, "DEFINE_STRATEGY": 0.0}}
+{"text": "Map secure SDLC practices to NIST CSF and ISO 27001 frameworks", "cats": {"MAP_FRAMEWORKS": 1.0, "ALIGN_PRACTICES": 1.0, "ENSURE_COMPLIANCE": 1.0, "AUDIT_COMPLIANCE": 1.0, "RESPOND_TO_INCIDENT": 0.0, "DEFINE_STRATEGY": 0.0}}
+{"text": "Extract IOCs from the malware and analyze the C2 protocol communication", "cats": {"EXTRACT_IOCS": 1.0, "ANALYZE_C2_PROTOCOL": 1.0, "ANALYZE_IOCS": 0.0, "ANALYZE_C2": 0.0}}
+{"text": "Manage security vulnerabilities with remediation workflows in bug tracking system", "cats": {"MANAGE_VULNERABILITIES": 1.0, "TRACK_REMEDIATION": 1.0, "ENABLE_WORKFLOWS": 1.0, "MAINTAIN_SYSTEMS": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Scan dependencies with SCA tool finding critical vulnerabilities", "cats": {"SCAN_DEPENDENCIES": 1.0, "IDENTIFY_VULNERABILITIES": 1.0, "ASSESS_RISKS": 1.0, "MANAGE_DEPENDENCIES": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Track security findings with assigned developers and due dates", "cats": {"TRACK_FINDINGS": 1.0, "ASSIGN_OWNERS": 1.0, "MANAGE_DEADLINES": 1.0, "ENABLE_REMEDIATION": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Please perform STRIDE threat modeling for billing service application", "cats": {"THREAT_MODEL": 1.0, "ANALYZE_ARCHITECTURE": 1.0, "IDENTIFY_THREATS": 1.0, "DOCUMENT_MITIGATIONS": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Provide IDE feedback fixing security findings in real-time", "cats": {"PROVIDE_FEEDBACK": 1.0, "ENABLE_REMEDIATION": 1.0, "EDUCATE_DEVELOPERS": 1.0, "IMPROVE_SECURITY": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Please perform STRIDE threat modeling for billing service application", "cats": {"THREAT_MODEL": 1.0, "ANALYZE_ARCHITECTURE": 1.0, "IDENTIFY_THREATS": 1.0, "DOCUMENT_MITIGATIONS": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Assess application security tool effectiveness and integration capabilities", "cats": {"ASSESS_TOOLS": 1.0, "EVALUATE_EFFECTIVENESS": 1.0, "REVIEW_INTEGRATION": 1.0, "MAKE_RECOMMENDATIONS": 1.0, "RESPOND_TO_INCIDENT": 0.0, "AUDIT_COMPLIANCE": 0.0}}
+{"text": "Track mean time to remediate vulnerabilities by severity over time", "cats": {"TRACK_MTTR": 1.0, "MEASURE_REMEDIATION": 1.0, "ANALYZE_TRENDS": 1.0, "IMPROVE_PROCESSES": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Scan repositories for hardcoded secrets and automatically revoke compromised keys", "cats": {"SCAN_SECRETS": 1.0, "DETECT_EXPOSURE": 1.0, "REVOKE_KEYS": 1.0, "RESPOND_TO_INCIDENT": 1.0, "AUDIT_COMPLIANCE": 0.0, "DEFINE_STRATEGY": 0.0}}
+{"text": "Integrate SAST DAST and SCA scans in CI/CD pipelines", "cats": {"INTEGRATE_SCANS": 1.0, "ENABLE_CI_CD": 1.0, "AUTOMATE_SECURITY": 1.0, "MAINTAIN_SYSTEMS": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Execute chaos engineering experiments to validate application resilience", "cats": {"CHAOS_TEST": 1.0, "VALIDATE_RESILIENCE": 1.0, "TEST_FAILURES": 1.0, "IMPROVE_RELIABILITY": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Update AppSec policies based on new threat intelligence and vulnerabilities", "cats": {"UPDATE_POLICIES": 1.0, "ADAPT_TO_THREATS": 1.0, "IMPROVE_CONTROLS": 1.0, "MAINTAIN_SYSTEMS": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Perform penetration testing on our web application and conduct a pen test of the API endpoints", "cats": {"PENETRATION_TEST": 1.0, "PEN_TEST": 1.0, "TEST_SECURITY": 0.0, "RED_TEAM_TESTING": 0.0}}
+{"text": "Display chaos experiment results tracking successes and failures", "cats": {"TRACK_METRICS": 1.0, "ANALYZE_RESULTS": 1.0, "MEASURE_EFFECTIVENESS": 1.0, "IMPROVE_TESTING": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Detect critical vulnerabilities in Docker container images requiring patching", "cats": {"DETECT_VULNERABILITIES": 1.0, "SCAN_CONTAINERS": 1.0, "PRIORITIZE_PATCHES": 1.0, "REMEDIATE_ISSUES": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Create attack trees documenting spoofing and tampering mitigations", "cats": {"CREATE_ATTACK_TREES": 1.0, "DOCUMENT_MITIGATIONS": 1.0, "ANALYZE_THREATS": 1.0, "ENABLE_DEFENSE": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Please block cross-site scripting attack detected on login endpoint immediately", "cats": {"BLOCK_ATTACK": 1.0, "RESPOND_TO_INCIDENT": 1.0, "ENFORCE_CONTROLS": 1.0, "PROTECT_ENDPOINTS": 1.0, "AUDIT_COMPLIANCE": 0.0, "DEFINE_STRATEGY": 0.0}}
+{"text": "Create secure SDLC policy with bug bounty scope and SBOM requirements", "cats": {"CREATE_POLICY": 1.0, "DEFINE_SCOPE": 1.0, "ESTABLISH_REQUIREMENTS": 1.0, "PLAN_INITIATIVES": 1.0, "AUDIT_COMPLIANCE": 0.0, "RESPOND_TO_INCIDENT": 0.0}}
+{"text": "Examine the github repo for malicious code", "intents": {"ANALYZE_GITHUB_REPO": 1.0}}
+{"text": "Review the repository code for potential threats", "intents": {"ANALYZE_GITHUB_REPO": 1.0}}
+{"text": "Investigate the repository for security issues", "intents": {"ANALYZE_GITHUB_REPO": 1.0}}
+{"text": "Scan a GitHub repo for vulnerabilities", "intents": {"ANALYZE_GITHUB_REPO": 1.0}}
+{"text": "Analyze a GitHub repo for security vulnerabilities", "intents": {"ANALYZE_GITHUB_REPO": 1.0}}
+{"text": "Analyze the GitHub repository for security vulnerabilities", "intents": {"ANALYZE_GITHUB_REPO": 1.0}}
+{"text": "Analyze the GitHub repository for security vulnerabilities", "intents": {"ANALYZE_GITHUB_REPO": 1.0}}
+{"text": "Analyze the GitHub repository for security vulnerabilities", "intents": {"ANALYZE_GITHUB_REPO": 1.0}}
+{"text": "Investigate the repository for security issues", "intents": {"ANALYZE_GITHUB_REPO": 1.0}}
+{"text": "Investigate the repository for security issues", "intents": {"ANALYZE_GITHUB_REPO": 1.0}}
+{"text": "Investigate a repo for security issues", "intents": {"ANALYZE_GITHUB_REPO": 1.0}}
+{"text": "Investigate a repo for security issues", "intents": {"ANALYZE_GITHUB_REPO": 1.0}}
+{"text": "Scan the GitHub repository for vulnerabilities", "intents": {"ANALYZE_GITHUB_REPO": 1.0}}
+{"text": "Analyze a github repo for security vulnerabilities", "intents": {"ANALYZE_GITHUB_REPO": 1.0}}
+{"text": "Review the repository code for potential threats", "intents": {"ANALYZE_GITHUB_REPO": 1.0}}
+{"text": "Review a repo code for potential threats", "intents": {"ANALYZE_GITHUB_REPO": 1.0}}
+{"text": "Examine the GitHub repo for malicious code", "intents": {"ANALYZE_GITHUB_REPO": 1.0}}
+{"text": "Analyze a GitHub repo for security vulnerabilities", "intents": {"ANALYZE_GITHUB_REPO": 1.0}}
+{"text": "Review the repository code for potential threats", "intents": {"ANALYZE_GITHUB_REPO": 1.0}}
+{"text": "Investigate the repository for security issues", "intents": {"ANALYZE_GITHUB_REPO": 1.0}}
+{"text": "Scan the GitHub repository for security vulnerabilities", "intents": {"SCAN_GITHUB_REPO": 1.0}}
+{"text": "Check repository for security issues", "intents": {"SCAN_GITHUB_REPO": 1.0}}
+{"text": "Scan the GitHub repository for security vulnerabilities", "intents": {"SCAN_GITHUB_REPO": 1.0}}
+{"text": "Run vulnerability scan on GitHub repo", "intents": {"SCAN_GITHUB_REPO": 1.0}}
+{"text": "Check repo for security issues", "intents": {"SCAN_GITHUB_REPO": 1.0}}
+{"text": "Scan repo for exposed secrets", "intents": {"SCAN_GITHUB_REPO": 1.0}}
+{"text": "Run vulnerability scan on GitHub repo", "intents": {"SCAN_GITHUB_REPO": 1.0}}
+{"text": "Check repo for security issues", "intents": {"SCAN_GITHUB_REPO": 1.0}}
+{"text": "Scan the GitHub repository for security vulnerabilities", "intents": {"SCAN_GITHUB_REPO": 1.0}}
+{"text": "Check repository for security issues", "intents": {"SCAN_GITHUB_REPO": 1.0}}
+{"text": "Scan the GitHub repository for security vulnerabilities", "intents": {"SCAN_GITHUB_REPO": 1.0}}
+{"text": "Check repo for security issues", "intents": {"SCAN_GITHUB_REPO": 1.0}}
+{"text": "Perform security scan on a repo", "intents": {"SCAN_GITHUB_REPO": 1.0}}
+{"text": "Check repository for security issues", "intents": {"SCAN_GITHUB_REPO": 1.0}}
+{"text": "Perform security scan on the repository", "intents": {"SCAN_GITHUB_REPO": 1.0}}
+{"text": "Scan the github repository for security vulnerabilities", "intents": {"SCAN_GITHUB_REPO": 1.0}}
+{"text": "Scan the GitHub repository for security vulnerabilities", "intents": {"SCAN_GITHUB_REPO": 1.0}}
+{"text": "Scan the github repository for security vulnerabilities", "intents": {"SCAN_GITHUB_REPO": 1.0}}
+{"text": "Scan repository for exposed secrets", "intents": {"SCAN_GITHUB_REPO": 1.0}}
+{"text": "Check repository for security issues", "intents": {"SCAN_GITHUB_REPO": 1.0}}
+{"text": "Clone the GitHub repository for analysis", "intents": {"CLONE_GITHUB_REPO": 1.0}}
+{"text": "Download repository code", "intents": {"CLONE_GITHUB_REPO": 1.0}}
+{"text": "Download repo code", "intents": {"CLONE_GITHUB_REPO": 1.0}}
+{"text": "Clone the github repository for analysis", "intents": {"CLONE_GITHUB_REPO": 1.0}}
+{"text": "Clone repo for security review", "intents": {"CLONE_GITHUB_REPO": 1.0}}
+{"text": "Clone repo for security review", "intents": {"CLONE_GITHUB_REPO": 1.0}}
+{"text": "Get a copy of the repository", "intents": {"CLONE_GITHUB_REPO": 1.0}}
+{"text": "Download the repository for investigation", "intents": {"CLONE_GITHUB_REPO": 1.0}}
+{"text": "Clone the GitHub repository for analysis", "intents": {"CLONE_GITHUB_REPO": 1.0}}
+{"text": "Clone the GitHub repository for analysis", "intents": {"CLONE_GITHUB_REPO": 1.0}}
+{"text": "Clone the GitHub repository for analysis", "intents": {"CLONE_GITHUB_REPO": 1.0}}
+{"text": "Clone repo for security review", "intents": {"CLONE_GITHUB_REPO": 1.0}}
+{"text": "Clone repo for security review", "intents": {"CLONE_GITHUB_REPO": 1.0}}
+{"text": "Download repository code", "intents": {"CLONE_GITHUB_REPO": 1.0}}
+{"text": "Get a copy of the repository", "intents": {"CLONE_GITHUB_REPO": 1.0}}
+{"text": "Get a copy of the repository", "intents": {"CLONE_GITHUB_REPO": 1.0}}
+{"text": "Clone repo for security review", "intents": {"CLONE_GITHUB_REPO": 1.0}}
+{"text": "Clone a GitHub repo for analysis", "intents": {"CLONE_GITHUB_REPO": 1.0}}
+{"text": "Clone repo for security review", "intents": {"CLONE_GITHUB_REPO": 1.0}}
+{"text": "Clone repo for security review", "intents": {"CLONE_GITHUB_REPO": 1.0}}
+{"text": "Follow commit activity in repo", "intents": {"TRACK_GITHUB_COMMITS": 1.0}}
+{"text": "Track commits in a repo", "intents": {"TRACK_GITHUB_COMMITS": 1.0}}
+{"text": "Track commits in the repository", "intents": {"TRACK_GITHUB_COMMITS": 1.0}}
+{"text": "Monitor commit patterns", "intents": {"TRACK_GITHUB_COMMITS": 1.0}}
+{"text": "Monitor repository commit history", "intents": {"TRACK_GITHUB_COMMITS": 1.0}}
+{"text": "Monitor commit patterns", "intents": {"TRACK_GITHUB_COMMITS": 1.0}}
+{"text": "Track changes in repository commits", "intents": {"TRACK_GITHUB_COMMITS": 1.0}}
+{"text": "Track commits in the repository", "intents": {"TRACK_GITHUB_COMMITS": 1.0}}
+{"text": "Monitor commit patterns", "intents": {"TRACK_GITHUB_COMMITS": 1.0}}
+{"text": "Follow commit activity in repo", "intents": {"TRACK_GITHUB_COMMITS": 1.0}}
+{"text": "Monitor repository commit history", "intents": {"TRACK_GITHUB_COMMITS": 1.0}}
+{"text": "Monitor repo commit history", "intents": {"TRACK_GITHUB_COMMITS": 1.0}}
+{"text": "Monitor repository commit history", "intents": {"TRACK_GITHUB_COMMITS": 1.0}}
+{"text": "Monitor commit patterns", "intents": {"TRACK_GITHUB_COMMITS": 1.0}}
+{"text": "Track commits in the repository", "intents": {"TRACK_GITHUB_COMMITS": 1.0}}
+{"text": "Monitor repo commit history", "intents": {"TRACK_GITHUB_COMMITS": 1.0}}
+{"text": "Monitor commit patterns", "intents": {"TRACK_GITHUB_COMMITS": 1.0}}
+{"text": "Track changes in repository commits", "intents": {"TRACK_GITHUB_COMMITS": 1.0}}
+{"text": "Monitor commit patterns", "intents": {"TRACK_GITHUB_COMMITS": 1.0}}
+{"text": "Monitor commit patterns", "intents": {"TRACK_GITHUB_COMMITS": 1.0}}
+{"text": "Check code quality in repository", "intents": {"REVIEW_GITHUB_CODE": 1.0}}
+{"text": "Analyze source code in repo", "intents": {"REVIEW_GITHUB_CODE": 1.0}}
+{"text": "Check code quality in repository", "intents": {"REVIEW_GITHUB_CODE": 1.0}}
+{"text": "Review repository codebase", "intents": {"REVIEW_GITHUB_CODE": 1.0}}
+{"text": "Review the GitHub repository code", "intents": {"REVIEW_GITHUB_CODE": 1.0}}
+{"text": "Analyze source code in repo", "intents": {"REVIEW_GITHUB_CODE": 1.0}}
+{"text": "Review a github repo code", "intents": {"REVIEW_GITHUB_CODE": 1.0}}
+{"text": "Review repository codebase", "intents": {"REVIEW_GITHUB_CODE": 1.0}}
+{"text": "Check code quality in repository", "intents": {"REVIEW_GITHUB_CODE": 1.0}}
+{"text": "Review the github repository code", "intents": {"REVIEW_GITHUB_CODE": 1.0}}
+{"text": "Examine code in the repository", "intents": {"REVIEW_GITHUB_CODE": 1.0}}
+{"text": "Examine code in the repository", "intents": {"REVIEW_GITHUB_CODE": 1.0}}
+{"text": "Check code quality in repository", "intents": {"REVIEW_GITHUB_CODE": 1.0}}
+{"text": "Review repo codebase", "intents": {"REVIEW_GITHUB_CODE": 1.0}}
+{"text": "Review repository codebase", "intents": {"REVIEW_GITHUB_CODE": 1.0}}
+{"text": "Review the GitHub repository code", "intents": {"REVIEW_GITHUB_CODE": 1.0}}
+{"text": "Check code quality in repository", "intents": {"REVIEW_GITHUB_CODE": 1.0}}
+{"text": "Review repository codebase", "intents": {"REVIEW_GITHUB_CODE": 1.0}}
+{"text": "Examine code in a repo", "intents": {"REVIEW_GITHUB_CODE": 1.0}}
+{"text": "Review repository codebase", "intents": {"REVIEW_GITHUB_CODE": 1.0}}
+{"text": "Find security issues in repo", "intents": {"DETECT_GITHUB_VULNERABILITIES": 1.0}}
+{"text": "Identify vulnerabilities in code", "intents": {"DETECT_GITHUB_VULNERABILITIES": 1.0}}
+{"text": "Detect security vulnerabilities", "intents": {"DETECT_GITHUB_VULNERABILITIES": 1.0}}
+{"text": "Find security issues in repo", "intents": {"DETECT_GITHUB_VULNERABILITIES": 1.0}}
+{"text": "Find security issues in repo", "intents": {"DETECT_GITHUB_VULNERABILITIES": 1.0}}
+{"text": "Detect vulnerabilities in github repo", "intents": {"DETECT_GITHUB_VULNERABILITIES": 1.0}}
+{"text": "Find security issues in repo", "intents": {"DETECT_GITHUB_VULNERABILITIES": 1.0}}
+{"text": "Identify vulnerabilities in code", "intents": {"DETECT_GITHUB_VULNERABILITIES": 1.0}}
+{"text": "Detect vulnerabilities in github repository", "intents": {"DETECT_GITHUB_VULNERABILITIES": 1.0}}
+{"text": "Find security issues in repo", "intents": {"DETECT_GITHUB_VULNERABILITIES": 1.0}}
+{"text": "Check for security flaws in repository", "intents": {"DETECT_GITHUB_VULNERABILITIES": 1.0}}
+{"text": "Find security issues in repo", "intents": {"DETECT_GITHUB_VULNERABILITIES": 1.0}}
+{"text": "Check for security flaws in repository", "intents": {"DETECT_GITHUB_VULNERABILITIES": 1.0}}
+{"text": "Check for security flaws in repo", "intents": {"DETECT_GITHUB_VULNERABILITIES": 1.0}}
+{"text": "Detect security vulnerabilities", "intents": {"DETECT_GITHUB_VULNERABILITIES": 1.0}}
+{"text": "Detect security vulnerabilities", "intents": {"DETECT_GITHUB_VULNERABILITIES": 1.0}}
+{"text": "Find security issues in repo", "intents": {"DETECT_GITHUB_VULNERABILITIES": 1.0}}
+{"text": "Detect security vulnerabilities", "intents": {"DETECT_GITHUB_VULNERABILITIES": 1.0}}
+{"text": "Check for security flaws in repository", "intents": {"DETECT_GITHUB_VULNERABILITIES": 1.0}}
+{"text": "Find security issues in repo", "intents": {"DETECT_GITHUB_VULNERABILITIES": 1.0}}
+{"text": "Check issues for vulnerability disclosures", "intents": {"ANALYZE_GITHUB_ISSUES": 1.0}}
+{"text": "Analyze github issues for security concerns", "intents": {"ANALYZE_GITHUB_ISSUES": 1.0}}
+{"text": "Analyze issue comments for threats", "intents": {"ANALYZE_GITHUB_ISSUES": 1.0}}
+{"text": "Analyze issue comments for threats", "intents": {"ANALYZE_GITHUB_ISSUES": 1.0}}
+{"text": "Check issues for vulnerability disclosures", "intents": {"ANALYZE_GITHUB_ISSUES": 1.0}}
+{"text": "Check issues for vulnerability disclosures", "intents": {"ANALYZE_GITHUB_ISSUES": 1.0}}
+{"text": "Analyze issue comments for threats", "intents": {"ANALYZE_GITHUB_ISSUES": 1.0}}
+{"text": "Analyze issue comments for threats", "intents": {"ANALYZE_GITHUB_ISSUES": 1.0}}
+{"text": "Examine GitHub issue discussions", "intents": {"ANALYZE_GITHUB_ISSUES": 1.0}}
+{"text": "Examine github issue discussions", "intents": {"ANALYZE_GITHUB_ISSUES": 1.0}}
+{"text": "Review repository issues", "intents": {"ANALYZE_GITHUB_ISSUES": 1.0}}
+{"text": "Check issues for vulnerability disclosures", "intents": {"ANALYZE_GITHUB_ISSUES": 1.0}}
+{"text": "Analyze issue comments for threats", "intents": {"ANALYZE_GITHUB_ISSUES": 1.0}}
+{"text": "Examine github issue discussions", "intents": {"ANALYZE_GITHUB_ISSUES": 1.0}}
+{"text": "Check issues for vulnerability disclosures", "intents": {"ANALYZE_GITHUB_ISSUES": 1.0}}
+{"text": "Analyze GitHub issues for security concerns", "intents": {"ANALYZE_GITHUB_ISSUES": 1.0}}
+{"text": "Review repository issues", "intents": {"ANALYZE_GITHUB_ISSUES": 1.0}}
+{"text": "Examine GitHub issue discussions", "intents": {"ANALYZE_GITHUB_ISSUES": 1.0}}
+{"text": "Analyze issue comments for threats", "intents": {"ANALYZE_GITHUB_ISSUES": 1.0}}
+{"text": "Examine GitHub issue discussions", "intents": {"ANALYZE_GITHUB_ISSUES": 1.0}}
+{"text": "Monitor release activity", "intents": {"TRACK_GITHUB_RELEASES": 1.0}}
+{"text": "Monitor new releases in repo", "intents": {"TRACK_GITHUB_RELEASES": 1.0}}
+{"text": "Monitor release activity", "intents": {"TRACK_GITHUB_RELEASES": 1.0}}
+{"text": "Monitor release activity", "intents": {"TRACK_GITHUB_RELEASES": 1.0}}
+{"text": "Track version releases", "intents": {"TRACK_GITHUB_RELEASES": 1.0}}
+{"text": "Track GitHub repo releases", "intents": {"TRACK_GITHUB_RELEASES": 1.0}}
+{"text": "Follow repository release updates", "intents": {"TRACK_GITHUB_RELEASES": 1.0}}
+{"text": "Track GitHub repo releases", "intents": {"TRACK_GITHUB_RELEASES": 1.0}}
+{"text": "Monitor new releases in repository", "intents": {"TRACK_GITHUB_RELEASES": 1.0}}
+{"text": "Monitor new releases in repository", "intents": {"TRACK_GITHUB_RELEASES": 1.0}}
+{"text": "Monitor release activity", "intents": {"TRACK_GITHUB_RELEASES": 1.0}}
+{"text": "Track GitHub repo releases", "intents": {"TRACK_GITHUB_RELEASES": 1.0}}
+{"text": "Track GitHub repo releases", "intents": {"TRACK_GITHUB_RELEASES": 1.0}}
+{"text": "Track github repository releases", "intents": {"TRACK_GITHUB_RELEASES": 1.0}}
+{"text": "Track version releases", "intents": {"TRACK_GITHUB_RELEASES": 1.0}}
+{"text": "Track GitHub repository releases", "intents": {"TRACK_GITHUB_RELEASES": 1.0}}
+{"text": "Track github repository releases", "intents": {"TRACK_GITHUB_RELEASES": 1.0}}
+{"text": "Track version releases", "intents": {"TRACK_GITHUB_RELEASES": 1.0}}
+{"text": "Track version releases", "intents": {"TRACK_GITHUB_RELEASES": 1.0}}
+{"text": "Track GitHub repository releases", "intents": {"TRACK_GITHUB_RELEASES": 1.0}}
+{"text": "Monitor branch commits", "intents": {"MONITOR_GITHUB_BRANCHES": 1.0}}
+{"text": "Watch for new branches", "intents": {"MONITOR_GITHUB_BRANCHES": 1.0}}
+{"text": "Track branch activity", "intents": {"MONITOR_GITHUB_BRANCHES": 1.0}}
+{"text": "Track branch activity", "intents": {"MONITOR_GITHUB_BRANCHES": 1.0}}
+{"text": "Track branch development", "intents": {"MONITOR_GITHUB_BRANCHES": 1.0}}
+{"text": "Watch for new branches", "intents": {"MONITOR_GITHUB_BRANCHES": 1.0}}
+{"text": "Monitor branch commits", "intents": {"MONITOR_GITHUB_BRANCHES": 1.0}}
+{"text": "Track branch activity", "intents": {"MONITOR_GITHUB_BRANCHES": 1.0}}
+{"text": "Track branch development", "intents": {"MONITOR_GITHUB_BRANCHES": 1.0}}
+{"text": "Track branch development", "intents": {"MONITOR_GITHUB_BRANCHES": 1.0}}
+{"text": "Track branch activity", "intents": {"MONITOR_GITHUB_BRANCHES": 1.0}}
+{"text": "Monitor repository branches for changes", "intents": {"MONITOR_GITHUB_BRANCHES": 1.0}}
+{"text": "Track branch activity", "intents": {"MONITOR_GITHUB_BRANCHES": 1.0}}
+{"text": "Track branch activity", "intents": {"MONITOR_GITHUB_BRANCHES": 1.0}}
+{"text": "Track branch activity", "intents": {"MONITOR_GITHUB_BRANCHES": 1.0}}
+{"text": "Monitor repo branches for changes", "intents": {"MONITOR_GITHUB_BRANCHES": 1.0}}
+{"text": "Monitor branch commits", "intents": {"MONITOR_GITHUB_BRANCHES": 1.0}}
+{"text": "Track branch development", "intents": {"MONITOR_GITHUB_BRANCHES": 1.0}}
+{"text": "Track branch development", "intents": {"MONITOR_GITHUB_BRANCHES": 1.0}}
+{"text": "Track branch development", "intents": {"MONITOR_GITHUB_BRANCHES": 1.0}}
+{"text": "Check pull requests for threats", "intents": {"REVIEW_GITHUB_PULL_REQUESTS": 1.0}}
+{"text": "Check pull requests for threats", "intents": {"REVIEW_GITHUB_PULL_REQUESTS": 1.0}}
+{"text": "Review PR code changes", "intents": {"REVIEW_GITHUB_PULL_REQUESTS": 1.0}}
+{"text": "Examine PR changes for vulnerabilities", "intents": {"REVIEW_GITHUB_PULL_REQUESTS": 1.0}}
+{"text": "Review pull requests for security", "intents": {"REVIEW_GITHUB_PULL_REQUESTS": 1.0}}
+{"text": "Analyze pull request security", "intents": {"REVIEW_GITHUB_PULL_REQUESTS": 1.0}}
+{"text": "Examine PR changes for vulnerabilities", "intents": {"REVIEW_GITHUB_PULL_REQUESTS": 1.0}}
+{"text": "Check pull requests for threats", "intents": {"REVIEW_GITHUB_PULL_REQUESTS": 1.0}}
+{"text": "Review PR code changes", "intents": {"REVIEW_GITHUB_PULL_REQUESTS": 1.0}}
+{"text": "Analyze pull request security", "intents": {"REVIEW_GITHUB_PULL_REQUESTS": 1.0}}
+{"text": "Check pull requests for threats", "intents": {"REVIEW_GITHUB_PULL_REQUESTS": 1.0}}
+{"text": "Check pull requests for threats", "intents": {"REVIEW_GITHUB_PULL_REQUESTS": 1.0}}
+{"text": "Review pull requests for security", "intents": {"REVIEW_GITHUB_PULL_REQUESTS": 1.0}}
+{"text": "Analyze pull request security", "intents": {"REVIEW_GITHUB_PULL_REQUESTS": 1.0}}
+{"text": "Review pull requests for security", "intents": {"REVIEW_GITHUB_PULL_REQUESTS": 1.0}}
+{"text": "Analyze pull request security", "intents": {"REVIEW_GITHUB_PULL_REQUESTS": 1.0}}
+{"text": "Examine PR changes for vulnerabilities", "intents": {"REVIEW_GITHUB_PULL_REQUESTS": 1.0}}
+{"text": "Check pull requests for threats", "intents": {"REVIEW_GITHUB_PULL_REQUESTS": 1.0}}
+{"text": "Examine PR changes for vulnerabilities", "intents": {"REVIEW_GITHUB_PULL_REQUESTS": 1.0}}
+{"text": "Review pull requests for security", "intents": {"REVIEW_GITHUB_PULL_REQUESTS": 1.0}}
+{"text": "Examine commits for vulnerabilities", "intents": {"ANALYZE_GITHUB_COMMITS": 1.0}}
+{"text": "Review commit history for security", "intents": {"ANALYZE_GITHUB_COMMITS": 1.0}}
+{"text": "Examine commits for vulnerabilities", "intents": {"ANALYZE_GITHUB_COMMITS": 1.0}}
+{"text": "Check commits for malicious code", "intents": {"ANALYZE_GITHUB_COMMITS": 1.0}}
+{"text": "Analyze repository commits for threats", "intents": {"ANALYZE_GITHUB_COMMITS": 1.0}}
+{"text": "Analyze commit patterns", "intents": {"ANALYZE_GITHUB_COMMITS": 1.0}}
+{"text": "Analyze repository commits for threats", "intents": {"ANALYZE_GITHUB_COMMITS": 1.0}}
+{"text": "Analyze commit patterns", "intents": {"ANALYZE_GITHUB_COMMITS": 1.0}}
+{"text": "Examine commits for vulnerabilities", "intents": {"ANALYZE_GITHUB_COMMITS": 1.0}}
+{"text": "Review commit history for security", "intents": {"ANALYZE_GITHUB_COMMITS": 1.0}}
+{"text": "Examine commits for vulnerabilities", "intents": {"ANALYZE_GITHUB_COMMITS": 1.0}}
+{"text": "Examine commits for vulnerabilities", "intents": {"ANALYZE_GITHUB_COMMITS": 1.0}}
+{"text": "Examine commits for vulnerabilities", "intents": {"ANALYZE_GITHUB_COMMITS": 1.0}}
+{"text": "Check commits for malicious code", "intents": {"ANALYZE_GITHUB_COMMITS": 1.0}}
+{"text": "Examine commits for vulnerabilities", "intents": {"ANALYZE_GITHUB_COMMITS": 1.0}}
+{"text": "Examine commits for vulnerabilities", "intents": {"ANALYZE_GITHUB_COMMITS": 1.0}}
+{"text": "Review commit history for security", "intents": {"ANALYZE_GITHUB_COMMITS": 1.0}}
+{"text": "Analyze repository commits for threats", "intents": {"ANALYZE_GITHUB_COMMITS": 1.0}}
+{"text": "Review commit history for security", "intents": {"ANALYZE_GITHUB_COMMITS": 1.0}}
+{"text": "Review commit history for security", "intents": {"ANALYZE_GITHUB_COMMITS": 1.0}}
+{"text": "Monitor repository versioning", "intents": {"TRACK_GITHUB_TAGS": 1.0}}
+{"text": "Track repo tags and versions", "intents": {"TRACK_GITHUB_TAGS": 1.0}}
+{"text": "Monitor tag releases", "intents": {"TRACK_GITHUB_TAGS": 1.0}}
+{"text": "Monitor repo versioning", "intents": {"TRACK_GITHUB_TAGS": 1.0}}
+{"text": "Track repository tags and versions", "intents": {"TRACK_GITHUB_TAGS": 1.0}}
+{"text": "Track tag updates", "intents": {"TRACK_GITHUB_TAGS": 1.0}}
+{"text": "Track tag updates", "intents": {"TRACK_GITHUB_TAGS": 1.0}}
+{"text": "Track tag updates", "intents": {"TRACK_GITHUB_TAGS": 1.0}}
+{"text": "Monitor repo versioning", "intents": {"TRACK_GITHUB_TAGS": 1.0}}
+{"text": "Monitor tag releases", "intents": {"TRACK_GITHUB_TAGS": 1.0}}
+{"text": "Monitor tag releases", "intents": {"TRACK_GITHUB_TAGS": 1.0}}
+{"text": "Monitor tag releases", "intents": {"TRACK_GITHUB_TAGS": 1.0}}
+{"text": "Track repo tags and versions", "intents": {"TRACK_GITHUB_TAGS": 1.0}}
+{"text": "Track repo tags and versions", "intents": {"TRACK_GITHUB_TAGS": 1.0}}
+{"text": "Track tag updates", "intents": {"TRACK_GITHUB_TAGS": 1.0}}
+{"text": "Monitor repository versioning", "intents": {"TRACK_GITHUB_TAGS": 1.0}}
+{"text": "Monitor repository versioning", "intents": {"TRACK_GITHUB_TAGS": 1.0}}
+{"text": "Track tag updates", "intents": {"TRACK_GITHUB_TAGS": 1.0}}
+{"text": "Track repo tags and versions", "intents": {"TRACK_GITHUB_TAGS": 1.0}}
+{"text": "Follow version tags", "intents": {"TRACK_GITHUB_TAGS": 1.0}}

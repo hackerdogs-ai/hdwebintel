@@ -1,0 +1,462 @@
+{"text": "SaaS Backup Tool protected M365 and Salesforce tenants with automated backups", "entities": [[17, 31, "APPLICATION_TYPE"], [47, 54, "APPLICATION_NAME"]]}
+{"text": "Data Protection Strategist defined 3-2-1-1-0 backup strategy with tier0 RPO 0-5m and RTO less than 15 minutes", "entities": [[37, 51, "PROTECTION_TYPE"], [66, 77, "STRATEGY_TYPE"], [85, 93, "TIER_TYPE"], [89, 93, "METRIC_TYPE"], [94, 98, "METRIC_TYPE"], [99, 101, "TIME_UNIT"]]}
+{"text": "Business Impact Analyzer identified tier1 applications with 1-hour RPO and 4-hour RTO", "entities": [[25, 41, "BUSINESS_TYPE"], [42, 54, "IMPACT_TYPE"], [67, 70, "TIER_TYPE"]]}
+{"text": "Data protection false positive rate reduced to 1.2% improving anomaly detection accuracy", "entities": [[5, 30, "PROTECTION_TYPE"], [47, 50, "METRIC_TYPE"], [70, 88, "DETECTION_TYPE"]]}
+{"text": "Google Cloud Storage retention policies enforced backup immutability", "entities": [[0, 6, "TOOL"], [7, 12, "CLOUD_PROVIDER"], [13, 20, "STORAGE_TYPE"], [31, 39, "POLICY_TYPE"], [49, 55, "BACKUP_TYPE"], [56, 68, "IMMUTABILITY_TYPE"]]}
+{"text": "Snapshot Manager managed 12500 snapshots fixing 42 unencrypted and deleting 780 expired", "entities": [[0, 16, "TOOL"], [25, 40, "SNAPSHOT_TYPE"], [31, 47, "MANAGER_TYPE"]]}
+{"text": "KMS HSM Manager designed key hierarchy with rotation and dual-control", "entities": [[0, 3, "TOOL"], [4, 7, "TOOL"], [8, 15, "MANAGEMENT_TYPE"], [16, 28, "MANAGER_TYPE"]]}
+{"text": "Recovery Time Objective RTO defined maximum acceptable downtime", "entities": [[0, 8, "METRIC_TYPE"], [9, 13, "TIME_TYPE"], [14, 23, "OBJECTIVE_TYPE"], [36, 43, "MAXIMUM_TYPE"], [44, 54, "ACCEPTABLE_TYPE"]]}
+{"text": "Veritas NetBackup platform enabled enterprise backup and recovery operations", "entities": [[0, 7, "TOOL"], [8, 17, "TOOL"], [35, 45, "BACKUP_TYPE"], [57, 65, "OPERATIONS_TYPE"]]}
+{"text": "3-2-1-1-0 backup strategy added immutable copy and zero errors", "entities": [[10, 16, "BACKUP_TYPE"], [32, 46, "IMMUTABILITY_TYPE"], [51, 62, "ERROR_TYPE"]]}
+{"text": "Snapshot Manager managed 12500 snapshots fixing 42 unencrypted and deleting 780 expired", "entities": [[0, 16, "TOOL"], [25, 40, "SNAPSHOT_TYPE"], [31, 47, "MANAGER_TYPE"]]}
+{"text": "Velero backup tool protected Kubernetes clusters with backup and restore", "entities": [[0, 6, "TOOL"], [7, 13, "BACKUP_TYPE"], [19, 39, "PLATFORM_TYPE"], [40, 48, "CLUSTER_TYPE"], [54, 60, "BACKUP_TYPE"], [65, 72, "RESTORE_TYPE"]]}
+{"text": "Data Protection Strategist defined 3-2-1-1-0 backup strategy with tier0 RPO 0-5m and RTO less than 15 minutes", "entities": [[37, 51, "PROTECTION_TYPE"], [66, 77, "STRATEGY_TYPE"], [85, 93, "TIER_TYPE"], [89, 93, "METRIC_TYPE"], [94, 98, "METRIC_TYPE"], [99, 101, "TIME_UNIT"]]}
+{"text": "Backup Orchestrator Tool discovered 143 unprotected assets including billing-db and Salesforce", "entities": [[25, 39, "BACKUP_TYPE"]]}
+{"text": "Recovery Point Objective RPO defined maximum acceptable data loss", "entities": [[0, 8, "METRIC_TYPE"], [9, 14, "POINT_TYPE"], [15, 24, "OBJECTIVE_TYPE"], [25, 28, "METRIC_TYPE"], [37, 44, "MAXIMUM_TYPE"], [45, 55, "ACCEPTABLE_TYPE"], [61, 65, "LOSS_TYPE"]]}
+{"text": "Backup Restore Operations Engineer implemented backups for infrastructure databases and SaaS", "entities": [[35, 46, "BACKUP_TYPE"]]}
+{"text": "Data recovery from backup found contact information: email address support@vendor.com, phone number +33-1-42-86-83-26. Data residency check required.", "entities": [[5, 13, "RECOVERY_TYPE"], [19, 25, "BACKUP_TYPE"], [67, 85, "EMAIL_ADDRESS"], [101, 117, "PHONE_NUMBER"], [106, 111, "DATA_TYPE"]]}
+{"text": "Azure Key Vault managed encryption keys for backup data protection", "entities": [[0, 5, "CLOUD_PROVIDER"], [6, 9, "KEY_TYPE"], [10, 15, "VAULT_TYPE"]]}
+{"text": "Tape backup system provided offline air-gapped backup storage", "entities": [[0, 4, "MEDIA_TYPE"], [5, 11, "BACKUP_TYPE"], [28, 35, "OFFLINE_TYPE"], [36, 46, "AIR_GAP_TYPE"], [40, 53, "BACKUP_TYPE"], [47, 61, "STORAGE_TYPE"]]}
+{"text": "Data Classification Tool discovered 420 datasets with 95 high sensitivity and 22 geo-restricted", "entities": [[57, 73, "TOOL"], [78, 95, "DATASET_TYPE"]]}
+{"text": "Google Cloud Storage retention policies enforced backup immutability", "entities": [[0, 6, "TOOL"], [7, 12, "CLOUD_PROVIDER"], [13, 20, "STORAGE_TYPE"], [31, 39, "POLICY_TYPE"], [49, 55, "BACKUP_TYPE"], [56, 68, "IMMUTABILITY_TYPE"]]}
+{"text": "Differential backup approach captured changes since last full backup", "entities": [[0, 12, "BACKUP_TYPE"], [13, 28, "BACKUP_TYPE"], [20, 37, "APPROACH_TYPE"], [38, 51, "CHANGE_TYPE"], [57, 61, "BACKUP_TYPE"]]}
+{"text": "Data leak detected: SSN 123-45-6789 and credit card number 4532-1234-5678-9010 found in backup files. Immediate remediation required.", "entities": [[5, 9, "LEAK_TYPE"], [24, 35, "SSN"], [59, 78, "CREDIT_CARD_NUMBER"], [69, 78, "BACKUP_TYPE"], [85, 94, "ACTION_TYPE"], [95, 111, "REMEDIATION_TYPE"]]}
+{"text": "Data recovery from backup found contact information: email address support@vendor.com, phone number +33-1-42-86-83-26. Data residency check required.", "entities": [[5, 13, "RECOVERY_TYPE"], [19, 25, "BACKUP_TYPE"], [67, 85, "EMAIL_ADDRESS"], [101, 117, "PHONE_NUMBER"], [106, 111, "DATA_TYPE"]]}
+{"text": "Restic backup tool provided encrypted incremental backups for cloud storage", "entities": [[0, 6, "TOOL"], [7, 13, "BACKUP_TYPE"], [38, 49, "INCREMENTAL_TYPE"], [50, 57, "BACKUP_TYPE"], [62, 67, "CLOUD_TYPE"], [68, 75, "STORAGE_TYPE"]]}
+{"text": "Retention Policy Manager archived 120 TB to cold storage with 9 legal holds", "entities": [[25, 37, "RETENTION_TYPE"], [38, 48, "POLICY_TYPE"], [44, 56, "MANAGER_TYPE"], [62, 69, "COUNT"]]}
+{"text": "Backup Malware Scan Tool scanned backup images detecting dormant ransomware", "entities": [[25, 39, "BACKUP_TYPE"], [40, 46, "MALWARE_TYPE"], [57, 75, "BACKUP_TYPE"]]}
+{"text": "Immutable Storage Manager enabled WORM Object Lock with MFA delete enforcement", "entities": [[0, 25, "TOOL"], [34, 45, "STORAGE_TYPE"], [60, 78, "STORAGE_TYPE"], [67, 78, "OBJECT_TYPE"]]}
+{"text": "Backup job success rate achieved 99.1% over 30 days with RPO met at 93%", "entities": [[0, 18, "BACKUP_TYPE"], [11, 18, "JOB_TYPE"], [33, 37, "METRIC_TYPE"], [36, 43, "METRIC_TYPE"], [47, 51, "TIME_UNIT"], [57, 60, "METRIC_TYPE"]]}
+{"text": "Data protection coverage improved to 96% with immutability enabled on 88% of vaults", "entities": [[5, 33, "PROTECTION_TYPE"], [25, 36, "COVERAGE_TYPE"], [37, 40, "METRIC_TYPE"], [46, 66, "IMMUTABILITY_TYPE"], [67, 73, "ENABLED_TYPE"], [77, 83, "METRIC_TYPE"]]}
+{"text": "Restore Verification Tool validated restore success with application owner sign-off", "entities": [[36, 51, "VERIFICATION_TYPE"], [57, 74, "RESTORE_TYPE"], [75, 83, "SUCCESS_TYPE"]]}
+{"text": "Commvault backup solution protected data with deduplication and compression", "entities": [[0, 9, "TOOL"], [10, 25, "BACKUP_TYPE"], [64, 75, "COMPRESSION_TYPE"]]}
+{"text": "Azure Key Vault managed encryption keys for backup data protection", "entities": [[0, 5, "CLOUD_PROVIDER"], [6, 9, "KEY_TYPE"], [10, 15, "VAULT_TYPE"]]}
+{"text": "Key Recovery Drill Tool completed 4 quarterly exercises with 9-minute RTO", "entities": [[34, 45, "RECOVERY_TYPE"], [61, 69, "EXERCISE_TYPE"]]}
+{"text": "Key Management Crypto Engineer designed envelope encryption for backups with KMS HSM", "entities": [[0, 30, "ROLE"], [22, 39, "KEY_TYPE"], [31, 48, "MANAGEMENT_TYPE"], [40, 59, "CRYPTO_TYPE"]]}
+{"text": "Backup audit score improved to 94% meeting compliance requirements", "entities": [[13, 18, "AUDIT_TYPE"], [19, 27, "METRIC_TYPE"], [28, 33, "METRIC_TYPE"], [43, 66, "REQUIREMENT_TYPE"]]}
+{"text": "Backup audit score improved to 94% meeting compliance requirements", "entities": [[13, 18, "AUDIT_TYPE"], [19, 27, "METRIC_TYPE"], [28, 33, "METRIC_TYPE"], [43, 66, "REQUIREMENT_TYPE"]]}
+{"text": "Business Impact Analyzer identified tier0 tier1 and tier2 applications with RPO RTO", "entities": [[25, 41, "BUSINESS_TYPE"], [42, 47, "IMPACT_TYPE"]]}
+{"text": "KMS HSM Manager designed 12 key rings with 90-day rotation and separation of duties", "entities": [[0, 3, "TOOL"], [4, 7, "TOOL"], [8, 15, "TOOL"], [16, 24, "MANAGER_TYPE"], [46, 58, "TOOL"], [77, 83, "COUNT"]]}
+{"text": "Data Protection Policy Tool created backup policy requiring immutability and weekly air-gap", "entities": [[36, 49, "PROTECTION_TYPE"], [60, 72, "TOOL"], [77, 91, "BACKUP_TYPE"]]}
+{"text": "Borg backup tool protected 150 servers with deduplication reducing storage by 60%", "entities": [[0, 4, "TOOL"], [5, 11, "BACKUP_TYPE"], [31, 38, "SERVER_TYPE"], [67, 74, "METRIC_TYPE"], [67, 80, "STORAGE_TYPE"]]}
+{"text": "Database Backup Tool enabled PITR for orders-db with 72-hour recovery window", "entities": [[38, 47, "TOOL"], [53, 60, "RECOVERY_TYPE"], [61, 76, "DATABASE_NAME"]]}
+{"text": "Data recovery from backup found contact information: email address support@vendor.com, phone number +33-1-42-86-83-26. Data residency check required.", "entities": [[5, 13, "RECOVERY_TYPE"], [19, 25, "BACKUP_TYPE"], [67, 85, "EMAIL_ADDRESS"], [101, 117, "PHONE_NUMBER"], [106, 111, "DATA_TYPE"]]}
+{"text": "Legal Hold eDiscovery Tool documented backup interactions with DSAR eDiscovery", "entities": [[38, 57, "BACKUP_TYPE"], [63, 67, "REQUEST_TYPE"]]}
+{"text": "Snapshot Manager managed 12500 snapshots fixing 42 unencrypted and deleting 780 expired", "entities": [[0, 16, "TOOL"], [25, 40, "SNAPSHOT_TYPE"], [31, 47, "MANAGER_TYPE"]]}
+{"text": "Rubrik data protection achieved 96% coverage with 98% restore success over 90 days", "entities": [[0, 6, "TOOL"], [12, 31, "PROTECTION_TYPE"], [36, 44, "METRIC_TYPE"], [62, 69, "METRIC_TYPE"], [62, 74, "RESTORE_TYPE"], [75, 82, "SUCCESS_TYPE"]]}
+{"text": "Full backup created complete copy of all data for recovery", "entities": [[0, 4, "BACKUP_TYPE"], [5, 11, "BACKUP_TYPE"], [20, 28, "COPY_TYPE"]]}
+{"text": "Backup job success rate achieved 99.1% over 30 days with RPO met at 93%", "entities": [[0, 18, "BACKUP_TYPE"], [11, 18, "JOB_TYPE"], [33, 37, "METRIC_TYPE"], [36, 43, "METRIC_TYPE"], [47, 51, "TIME_UNIT"], [57, 60, "METRIC_TYPE"]]}
+{"text": "Backup Malware Scan Tool quarantined 3 backup images blocking 2 restores", "entities": [[25, 36, "BACKUP_TYPE"], [37, 45, "MALWARE_TYPE"], [39, 52, "SCAN_TYPE"], [46, 52, "TOOL"], [62, 72, "BACKUP_TYPE"]]}
+{"text": "Data Protection Compliance Metrics Auditor audited policy adherence and restore success", "entities": [[51, 67, "COMPLIANCE_TYPE"], [72, 87, "AUDITOR_TYPE"]]}
+{"text": "Commvault backup solution protected data with deduplication and compression", "entities": [[0, 9, "TOOL"], [10, 25, "BACKUP_TYPE"], [64, 75, "COMPRESSION_TYPE"]]}
+{"text": "Backup verification validated backup integrity and restore readiness", "entities": [[0, 6, "BACKUP_TYPE"], [20, 36, "BACKUP_TYPE"], [37, 46, "INTEGRITY_TYPE"], [51, 58, "RESTORE_TYPE"], [59, 68, "READINESS_TYPE"]]}
+{"text": "AWS KMS key management service encrypted backup data with envelope encryption", "entities": [[0, 3, "CLOUD_PROVIDER"], [4, 7, "TOOL"], [8, 11, "KEY_TYPE"], [12, 22, "MANAGEMENT_TYPE"], [23, 30, "SERVICE_TYPE"], [31, 47, "ENCRYPTION_TYPE"]]}
+{"text": "Incremental backup strategy reduced backup storage requirements", "entities": [[0, 11, "BACKUP_TYPE"], [12, 27, "BACKUP_TYPE"], [36, 50, "BACKUP_TYPE"], [43, 63, "STORAGE_TYPE"]]}
+{"text": "Google Cloud KMS provided key management for backup encryption", "entities": [[0, 6, "TOOL"], [7, 12, "CLOUD_PROVIDER"], [13, 16, "TOOL"], [45, 62, "ENCRYPTION_TYPE"]]}
+{"text": "Restore Verification Tool tested 42 systems achieving 97% success rate with 22-minute MTTR", "entities": [[26, 43, "RESTORE_TYPE"], [44, 65, "TOOL"], [86, 90, "METRIC_TYPE"]]}
+{"text": "Key Rotation Tool executed staged key rotation validating decrypt restore", "entities": [[27, 37, "ROTATION_TYPE"], [58, 65, "VALIDATION_TYPE"]]}
+{"text": "3-2-1-1-0 backup strategy added immutable copy and zero errors", "entities": [[10, 16, "BACKUP_TYPE"], [32, 46, "IMMUTABILITY_TYPE"], [51, 62, "ERROR_TYPE"]]}
+{"text": "Backup audit discovered SWIFT code DEUTDEFF and routing number 026009593 in financial records backup. Encryption and access controls reviewed.", "entities": [[63, 75, "ROUTING_NUMBER"], [76, 93, "FINANCIAL_TYPE"], [86, 100, "RECORD_TYPE"], [94, 112, "BACKUP_TYPE"], [117, 132, "CONTROL_TYPE"]]}
+{"text": "Backup audit score improved to 94% meeting compliance requirements", "entities": [[13, 18, "AUDIT_TYPE"], [19, 27, "METRIC_TYPE"], [28, 33, "METRIC_TYPE"], [43, 66, "REQUIREMENT_TYPE"]]}
+{"text": "Borg backup tool protected 150 servers with deduplication reducing storage by 60%", "entities": [[0, 4, "TOOL"], [5, 11, "BACKUP_TYPE"], [31, 38, "SERVER_TYPE"], [67, 74, "METRIC_TYPE"], [67, 80, "STORAGE_TYPE"]]}
+{"text": "Google Cloud Archive Storage provided cold storage for backup retention", "entities": [[0, 6, "TOOL"], [7, 12, "CLOUD_PROVIDER"], [13, 20, "ARCHIVE_TYPE"], [21, 28, "STORAGE_TYPE"], [38, 42, "STORAGE_TYPE"], [55, 71, "RETENTION_TYPE"]]}
+{"text": "Data Classification Analyst classified data tagging sensitivity retention and residency", "entities": [[28, 38, "DATA_TYPE"], [52, 63, "ANALYST_TYPE"], [78, 87, "TAGGING_TYPE"]]}
+{"text": "Google Cloud Archive Storage provided cold storage for backup retention", "entities": [[0, 6, "TOOL"], [7, 12, "CLOUD_PROVIDER"], [13, 20, "ARCHIVE_TYPE"], [21, 28, "STORAGE_TYPE"], [38, 42, "STORAGE_TYPE"], [55, 71, "RETENTION_TYPE"]]}
+{"text": "Database Backup Tool enabled PITR for orders-db with 72-hour recovery window", "entities": [[38, 47, "TOOL"], [53, 60, "RECOVERY_TYPE"], [61, 76, "DATABASE_NAME"]]}
+{"text": "Backup training completion reached 92% for all backup engineers", "entities": [[7, 26, "TRAINING_TYPE"], [35, 38, "METRIC_TYPE"], [43, 53, "BACKUP_TYPE"], [47, 63, "ROLE_TYPE"]]}
+{"text": "Network-attached storage NAS provided centralized backup storage", "entities": [[17, 28, "STORAGE_TYPE"], [38, 56, "CENTRALIZED_TYPE"], [50, 64, "BACKUP_TYPE"]]}
+{"text": "Backup testing performed restore drills validating recovery procedures", "entities": [[0, 6, "BACKUP_TYPE"], [15, 32, "RESTORE_TYPE"], [25, 39, "DRILL_TYPE"]]}
+{"text": "Data Protection Compliance Metrics Auditor audited policy adherence and restore success", "entities": [[51, 67, "COMPLIANCE_TYPE"], [72, 87, "AUDITOR_TYPE"]]}
+{"text": "Cohesity backup solution provided unified backup and data management", "entities": [[0, 8, "TOOL"], [9, 15, "BACKUP_TYPE"], [34, 41, "UNIFIED_TYPE"], [42, 48, "BACKUP_TYPE"], [58, 68, "MANAGEMENT_TYPE"]]}
+{"text": "AWS Backup service protected EC2 RDS and S3 with automated backup policies", "entities": [[0, 3, "CLOUD_PROVIDER"], [4, 10, "BACKUP_TYPE"], [11, 18, "SERVICE_TYPE"], [19, 32, "SERVICE_TYPE"], [29, 36, "SERVICE_TYPE"], [59, 74, "POLICY_TYPE"]]}
+{"text": "SaaS Backup Tool protected M365 Google Workspace and Salesforce tenants", "entities": [[17, 31, "APPLICATION_TYPE"], [27, 38, "BACKUP_TYPE"]]}
+{"text": "SIEM Tool correlated backup anomalies with security events", "entities": [[0, 4, "TOOL"], [10, 27, "BACKUP_TYPE"], [21, 37, "ANOMALY_TYPE"]]}
+{"text": "Rubrik data protection achieved 96% coverage with 98% restore success over 90 days", "entities": [[0, 6, "TOOL"], [12, 31, "PROTECTION_TYPE"], [36, 44, "METRIC_TYPE"], [62, 69, "METRIC_TYPE"], [62, 74, "RESTORE_TYPE"], [75, 82, "SUCCESS_TYPE"]]}
+{"text": "Compliance Mapping Tool aligned backup policies with SOX HIPAA and GDPR", "entities": [[32, 47, "COMPLIANCE_TYPE"], [39, 47, "MAPPING_TYPE"]]}
+{"text": "Key Rotation Tool rotated 48 keys with 100% restore validation and zero rollbacks", "entities": [[18, 28, "KEY_TYPE"], [67, 81, "VALIDATION_TYPE"]]}
+{"text": "Air-Gap Transfer Tool created offline logically air-gapped copies across accounts", "entities": [[22, 37, "AIR_GAP_TYPE"], [30, 47, "TRANSFER_TYPE"], [52, 65, "OFFLINE_TYPE"]]}
+{"text": "Tape backup system provided offline air-gapped backup storage", "entities": [[0, 4, "MEDIA_TYPE"], [5, 11, "BACKUP_TYPE"], [28, 35, "OFFLINE_TYPE"], [36, 46, "AIR_GAP_TYPE"], [40, 53, "BACKUP_TYPE"], [47, 61, "STORAGE_TYPE"]]}
+{"text": "Storage area network SAN enabled high-performance backup storage", "entities": [[13, 24, "NETWORK_TYPE"], [25, 32, "NETWORK_TYPE"], [38, 56, "PERFORMANCE_TYPE"], [57, 64, "BACKUP_TYPE"]]}
+{"text": "PII scan found passport number US123456789 and driver license number DL-1234567 in unprotected database backup.", "entities": [[0, 3, "DATA_TYPE"], [24, 42, "PASSPORT_NUMBER"], [47, 68, "DRIVER_LICENSE_NUMBER"], [62, 79, "DRIVER_LICENSE_NUMBER"], [104, 110, "BACKUP_TYPE"]]}
+{"text": "Backup training completion reached 92% for all backup engineers", "entities": [[7, 26, "TRAINING_TYPE"], [35, 38, "METRIC_TYPE"], [43, 53, "BACKUP_TYPE"], [47, 63, "ROLE_TYPE"]]}
+{"text": "AWS Glacier archive storage provided long-term backup retention", "entities": [[0, 3, "CLOUD_PROVIDER"], [4, 11, "SERVICE_TYPE"], [12, 19, "ARCHIVE_TYPE"], [20, 27, "STORAGE_TYPE"], [28, 46, "RETENTION_TYPE"], [47, 53, "BACKUP_TYPE"]]}
+{"text": "Backup verification validated backup integrity and restore readiness", "entities": [[0, 6, "BACKUP_TYPE"], [20, 36, "BACKUP_TYPE"], [37, 46, "INTEGRITY_TYPE"], [51, 58, "RESTORE_TYPE"], [59, 68, "READINESS_TYPE"]]}
+{"text": "Differential backup approach captured changes since last full backup", "entities": [[0, 12, "BACKUP_TYPE"], [13, 28, "BACKUP_TYPE"], [20, 37, "APPROACH_TYPE"], [38, 51, "CHANGE_TYPE"], [57, 61, "BACKUP_TYPE"]]}
+{"text": "Borg backup tool protected 150 servers with deduplication reducing storage by 60%", "entities": [[0, 4, "TOOL"], [5, 11, "BACKUP_TYPE"], [31, 38, "SERVER_TYPE"], [67, 74, "METRIC_TYPE"], [67, 80, "STORAGE_TYPE"]]}
+{"text": "Data Protection Policy Tool created backup policy with tiered RPO RTO targets", "entities": [[43, 49, "DATA_TYPE"], [55, 61, "TOOL"]]}
+{"text": "PII scan found passport number US123456789 and driver license number DL-1234567 in unprotected database backup.", "entities": [[0, 3, "DATA_TYPE"], [24, 42, "PASSPORT_NUMBER"], [47, 68, "DRIVER_LICENSE_NUMBER"], [62, 79, "DRIVER_LICENSE_NUMBER"], [104, 110, "BACKUP_TYPE"]]}
+{"text": "Data Classification Tool discovered datasets tagging sensitivity and retention", "entities": [[45, 64, "DATA_TYPE"]]}
+{"text": "Cohesity backup platform automated lifecycle management for 2000 virtual machines", "entities": [[0, 8, "TOOL"], [9, 15, "BACKUP_TYPE"], [25, 44, "AUTOMATION_TYPE"], [35, 55, "LIFECYCLE_TYPE"], [65, 72, "COUNT"], [65, 81, "RESOURCE_TYPE"]]}
+{"text": "Audit Checklist Tool validated backup controls covering coverage and restore success", "entities": [[31, 46, "CHECKLIST_TYPE"], [47, 64, "BACKUP_TYPE"]]}
+{"text": "Immutable Storage Manager enabled WORM Object Lock with MFA delete enforcement", "entities": [[0, 25, "TOOL"], [34, 45, "STORAGE_TYPE"], [60, 78, "STORAGE_TYPE"], [67, 78, "OBJECT_TYPE"]]}
+{"text": "Azure Key Vault managed encryption keys for backup data protection", "entities": [[0, 5, "CLOUD_PROVIDER"], [6, 9, "KEY_TYPE"], [10, 15, "VAULT_TYPE"]]}
+{"text": "DLP Scanner identified PII PHI and PCI data requiring protection", "entities": [[12, 30, "SCANNER_TYPE"]]}
+{"text": "Backup Orchestrator Tool scheduled backups for servers databases and endpoints", "entities": [[25, 42, "BACKUP_TYPE"], [69, 78, "SCHEDULING_TYPE"]]}
+{"text": "Backup Malware Scan Tool scanned backup images detecting dormant ransomware", "entities": [[25, 39, "BACKUP_TYPE"], [40, 46, "MALWARE_TYPE"], [57, 75, "BACKUP_TYPE"]]}
+{"text": "Veritas NetBackup platform enabled enterprise backup and recovery operations", "entities": [[0, 7, "TOOL"], [8, 17, "TOOL"], [35, 45, "BACKUP_TYPE"], [57, 65, "OPERATIONS_TYPE"]]}
+{"text": "Storage area network SAN enabled high-performance backup storage", "entities": [[13, 24, "NETWORK_TYPE"], [25, 32, "NETWORK_TYPE"], [38, 56, "PERFORMANCE_TYPE"], [57, 64, "BACKUP_TYPE"]]}
+{"text": "Data Protection Compliance Metrics Auditor audited policy adherence and restore success", "entities": [[51, 67, "COMPLIANCE_TYPE"], [72, 87, "AUDITOR_TYPE"]]}
+{"text": "Cloud Backup Tool protected AWS Azure and GCP workloads with automated backups", "entities": [[28, 37, "BACKUP_TYPE"], [46, 55, "CLOUD_PROVIDER"]]}
+{"text": "Immutable Storage Manager enabled WORM Object Lock and retention locks", "entities": [[0, 25, "TOOL"], [34, 45, "IMMUTABILITY_TYPE"]]}
+{"text": "Data Residency Checker validated data location constraints mapping backup targets", "entities": [[47, 58, "CHECKER_TYPE"], [67, 73, "DATA_TYPE"]]}
+{"text": "Restore Verification Tool tested 42 systems achieving 97% success rate with 22-minute MTTR", "entities": [[26, 43, "RESTORE_TYPE"], [44, 65, "TOOL"], [86, 90, "METRIC_TYPE"]]}
+{"text": "Key Recovery Drill Tool performed quarterly key recovery exercises with dual-control", "entities": [[34, 43, "RECOVERY_TYPE"], [34, 47, "DRILL_TYPE"]]}
+{"text": "Cost Analyzer Tool identified 17 savings opportunities reducing monthly spend by 15640 USD", "entities": [[41, 63, "COUNT"], [64, 80, "OPPORTUNITY_TYPE"]]}
+{"text": "Enterprise Data Protection Backup Strategist defined 3-2-1-1-0 strategy with RPO RTO tiers", "entities": [[53, 62, "PROTECTION_TYPE"], [77, 90, "STRATEGY_TYPE"]]}
+{"text": "Reporting Dashboard Tool generated backup KPIs showing coverage and restore success", "entities": [[10, 19, "DASHBOARD_TYPE"], [25, 41, "BACKUP_TYPE"], [42, 46, "METRIC_TYPE"], [68, 83, "SUCCESS_TYPE"]]}
+{"text": "Borg backup tool created deduplicated encrypted backups for Linux systems", "entities": [[0, 4, "TOOL"], [5, 11, "BACKUP_TYPE"], [38, 55, "BACKUP_TYPE"]]}
+{"text": "SaaS Backup Tool protected M365 Google Workspace and Salesforce tenants", "entities": [[17, 31, "APPLICATION_TYPE"], [27, 38, "BACKUP_TYPE"]]}
+{"text": "Ransomware Resilience Backup Security Engineer enforced immutability and air-gap copies", "entities": [[56, 68, "RESILIENCE_TYPE"], [73, 87, "SECURITY_TYPE"]]}
+{"text": "Key Rotation Tool executed staged key rotation validating decrypt restore", "entities": [[27, 37, "ROTATION_TYPE"], [58, 65, "VALIDATION_TYPE"]]}
+{"text": "Database Backup Tool enabled PITR Point-in-Time Recovery for critical databases", "entities": [[21, 39, "DATABASE_TYPE"], [34, 42, "BACKUP_TYPE"], [43, 47, "TOOL"]]}
+{"text": "PII scan found passport number US123456789 and driver license number DL-1234567 in unprotected database backup.", "entities": [[0, 3, "DATA_TYPE"], [24, 42, "PASSPORT_NUMBER"], [47, 68, "DRIVER_LICENSE_NUMBER"], [62, 79, "DRIVER_LICENSE_NUMBER"], [104, 110, "BACKUP_TYPE"]]}
+{"text": "AWS S3 Object Lock enabled WORM write-once-read-many for backup immutability", "entities": [[0, 3, "CLOUD_PROVIDER"], [7, 13, "OBJECT_TYPE"], [14, 18, "LOCK_TYPE"], [27, 37, "STORAGE_TYPE"], [32, 42, "TOOL"], [43, 52, "STORAGE_TYPE"], [57, 76, "IMMUTABILITY_TYPE"]]}
+{"text": "Data Protection Policy Tool created backup policy requiring immutability and weekly air-gap", "entities": [[36, 49, "PROTECTION_TYPE"], [60, 72, "TOOL"], [77, 91, "BACKUP_TYPE"]]}
+{"text": "AWS Backup service protected EC2 RDS and S3 with automated backup policies", "entities": [[0, 3, "CLOUD_PROVIDER"], [4, 10, "BACKUP_TYPE"], [11, 18, "SERVICE_TYPE"], [19, 32, "SERVICE_TYPE"], [29, 36, "SERVICE_TYPE"], [59, 74, "POLICY_TYPE"]]}
+{"text": "Snapshot Manager managed 12500 snapshots fixing 42 unencrypted and deleting 780 expired", "entities": [[0, 16, "TOOL"], [25, 40, "SNAPSHOT_TYPE"], [31, 47, "MANAGER_TYPE"]]}
+{"text": "Retention Policy Manager enforced business legal retention and auto-archive", "entities": [[25, 42, "RETENTION_TYPE"], [63, 75, "BUSINESS_TYPE"]]}
+{"text": "KMS HSM Manager designed 12 key rings with 90-day rotation and separation of duties", "entities": [[0, 3, "TOOL"], [4, 7, "TOOL"], [8, 15, "TOOL"], [16, 24, "MANAGER_TYPE"], [46, 58, "TOOL"], [77, 83, "COUNT"]]}
+{"text": "Backup Malware Scan Tool scanned backup images detecting dormant ransomware", "entities": [[25, 39, "BACKUP_TYPE"], [40, 46, "MALWARE_TYPE"], [57, 75, "BACKUP_TYPE"]]}
+{"text": "PAM Access Review Tool removed 19 excess privileges enforcing JIT and break-glass", "entities": [[0, 3, "TOOL"], [34, 40, "COUNT"], [34, 51, "PRIVILEGE_TYPE"], [41, 51, "PRIVILEGE_TYPE"], [62, 65, "AUTH_TYPE"]]}
+{"text": "Azure Backup service protected virtual machines and databases with recovery", "entities": [[0, 5, "CLOUD_PROVIDER"], [6, 12, "BACKUP_TYPE"], [13, 20, "SERVICE_TYPE"], [21, 38, "VM_TYPE"], [39, 47, "MACHINE_TYPE"], [67, 75, "RECOVERY_TYPE"]]}
+{"text": "SaaS Backup Tool protected M365 and Salesforce tenants with automated backups", "entities": [[17, 31, "APPLICATION_TYPE"], [47, 54, "APPLICATION_NAME"]]}
+{"text": "Differential backup approach captured changes since last full backup", "entities": [[0, 12, "BACKUP_TYPE"], [13, 28, "BACKUP_TYPE"], [20, 37, "APPROACH_TYPE"], [38, 51, "CHANGE_TYPE"], [57, 61, "BACKUP_TYPE"]]}
+{"text": "Database Backup Tool enabled PITR for orders-db with 72-hour recovery window", "entities": [[38, 47, "TOOL"], [53, 60, "RECOVERY_TYPE"], [61, 76, "DATABASE_NAME"]]}
+{"text": "Enterprise Data Protection Backup Strategist defined 3-2-1-1-0 strategy with RPO RTO tiers", "entities": [[53, 62, "PROTECTION_TYPE"], [77, 90, "STRATEGY_TYPE"]]}
+{"text": "Data Residency Checker validated 220 datasets finding 7 non-compliant requiring migration", "entities": []}
+{"text": "Data protection coverage improved to 96% with immutability enabled on 88% of vaults", "entities": [[5, 33, "PROTECTION_TYPE"], [25, 36, "COVERAGE_TYPE"], [37, 40, "METRIC_TYPE"], [46, 66, "IMMUTABILITY_TYPE"], [67, 73, "ENABLED_TYPE"], [77, 83, "METRIC_TYPE"]]}
+{"text": "Backup training completion reached 92% for all backup engineers", "entities": [[7, 26, "TRAINING_TYPE"], [35, 38, "METRIC_TYPE"], [43, 53, "BACKUP_TYPE"], [47, 63, "ROLE_TYPE"]]}
+{"text": "Cohesity backup solution provided unified backup and data management", "entities": [[0, 8, "TOOL"], [9, 15, "BACKUP_TYPE"], [34, 41, "UNIFIED_TYPE"], [42, 48, "BACKUP_TYPE"], [58, 68, "MANAGEMENT_TYPE"]]}
+{"text": "Backup audit score improved to 94% meeting compliance requirements", "entities": [[13, 18, "AUDIT_TYPE"], [19, 27, "METRIC_TYPE"], [28, 33, "METRIC_TYPE"], [43, 66, "REQUIREMENT_TYPE"]]}
+{"text": "Legal Hold eDiscovery Tool documented backup interactions with DSAR eDiscovery", "entities": [[38, 57, "BACKUP_TYPE"], [63, 67, "REQUEST_TYPE"]]}
+{"text": "SIEM Tool correlated backup anomalies with security events", "entities": [[0, 4, "TOOL"], [10, 27, "BACKUP_TYPE"], [21, 37, "ANOMALY_TYPE"]]}
+{"text": "Restore Verification Tool validated restore success with application owner sign-off", "entities": [[36, 51, "VERIFICATION_TYPE"], [57, 74, "RESTORE_TYPE"], [75, 83, "SUCCESS_TYPE"]]}
+{"text": "AWS KMS key management service encrypted backup data with envelope encryption", "entities": [[0, 3, "CLOUD_PROVIDER"], [4, 7, "TOOL"], [8, 11, "KEY_TYPE"], [12, 22, "MANAGEMENT_TYPE"], [23, 30, "SERVICE_TYPE"], [31, 47, "ENCRYPTION_TYPE"]]}
+{"text": "Snapshot Manager enforced snapshot policies with encryption and retention", "entities": [[0, 16, "TOOL"], [26, 34, "SNAPSHOT_TYPE"], [35, 43, "MANAGER_TYPE"]]}
+{"text": "DLP Scanner tagged systems with PCI PHI and GDPR_EU classifications", "entities": [[44, 51, "SYSTEM_TYPE"], [52, 67, "REGULATION"]]}
+{"text": "KMS HSM Manager designed key hierarchy with rotation and dual-control", "entities": [[0, 3, "TOOL"], [4, 7, "TOOL"], [8, 15, "MANAGEMENT_TYPE"], [16, 28, "MANAGER_TYPE"]]}
+{"text": "Compliance Mapping Tool aligned backup policies with SOX HIPAA and GDPR", "entities": [[32, 47, "COMPLIANCE_TYPE"], [39, 47, "MAPPING_TYPE"]]}
+{"text": "AWS S3 Object Lock enabled WORM write-once-read-many for backup immutability", "entities": [[0, 3, "CLOUD_PROVIDER"], [7, 13, "OBJECT_TYPE"], [14, 18, "LOCK_TYPE"], [27, 37, "STORAGE_TYPE"], [32, 42, "TOOL"], [43, 52, "STORAGE_TYPE"], [57, 76, "IMMUTABILITY_TYPE"]]}
+{"text": "Data Residency Checker validated data location constraints mapping backup targets", "entities": [[47, 58, "CHECKER_TYPE"], [67, 73, "DATA_TYPE"]]}
+{"text": "Veeam backup platform managed enterprise backups with replication and restore", "entities": [[0, 5, "TOOL"], [6, 12, "BACKUP_TYPE"], [30, 40, "BACKUP_TYPE"]]}
+{"text": "Acronis backup solution provided cloud and on-premises backup protection", "entities": [[0, 7, "TOOL"], [8, 14, "BACKUP_TYPE"], [33, 38, "CLOUD_TYPE"], [43, 54, "DEPLOYMENT_TYPE"], [55, 61, "BACKUP_TYPE"]]}
+{"text": "Incremental backup strategy reduced backup storage requirements", "entities": [[0, 11, "BACKUP_TYPE"], [12, 27, "BACKUP_TYPE"], [36, 50, "BACKUP_TYPE"], [43, 63, "STORAGE_TYPE"]]}
+{"text": "Data protection false positive rate reduced to 1.2% improving anomaly detection accuracy", "entities": [[5, 30, "PROTECTION_TYPE"], [47, 50, "METRIC_TYPE"], [70, 88, "DETECTION_TYPE"]]}
+{"text": "Data Classification Analyst classified data tagging sensitivity retention and residency", "entities": [[28, 38, "DATA_TYPE"], [52, 63, "ANALYST_TYPE"], [78, 87, "TAGGING_TYPE"]]}
+{"text": "Data Classification Analyst classified data tagging sensitivity retention and residency", "entities": [[28, 38, "DATA_TYPE"], [52, 63, "ANALYST_TYPE"], [78, 87, "TAGGING_TYPE"]]}
+{"text": "Data Protection Policy Tool created backup policy with tiered RPO RTO targets", "entities": [[43, 49, "DATA_TYPE"], [55, 61, "TOOL"]]}
+{"text": "Air-Gap Transfer Tool created offline logically air-gapped copies across accounts", "entities": [[22, 37, "AIR_GAP_TYPE"], [30, 47, "TRANSFER_TYPE"], [52, 65, "OFFLINE_TYPE"]]}
+{"text": "Acronis backup solution provided cloud and on-premises backup protection", "entities": [[0, 7, "TOOL"], [8, 14, "BACKUP_TYPE"], [33, 38, "CLOUD_TYPE"], [43, 54, "DEPLOYMENT_TYPE"], [55, 61, "BACKUP_TYPE"]]}
+{"text": "Commvault backup solution protected data with deduplication and compression", "entities": [[0, 9, "TOOL"], [10, 25, "BACKUP_TYPE"], [64, 75, "COMPRESSION_TYPE"]]}
+{"text": "Azure Blob Storage immutability policies protected backups from deletion", "entities": [[0, 5, "CLOUD_PROVIDER"], [6, 10, "SERVICE_TYPE"], [11, 18, "BLOB_TYPE"], [11, 31, "STORAGE_TYPE"], [19, 40, "IMMUTABILITY_TYPE"], [32, 50, "POLICY_TYPE"]]}
+{"text": "Veeam backup platform protected 500 workloads with 99.9% backup success rate", "entities": [[0, 5, "TOOL"], [6, 12, "BACKUP_TYPE"], [22, 35, "COUNT"], [32, 45, "WORKLOAD_TYPE"], [57, 63, "BACKUP_TYPE"], [64, 71, "SUCCESS_TYPE"]]}
+{"text": "Google Cloud Backup service protected GCE instances and Cloud SQL databases", "entities": [[0, 6, "TOOL"], [7, 12, "CLOUD_PROVIDER"], [13, 19, "BACKUP_TYPE"], [20, 27, "SERVICE_TYPE"], [28, 41, "SERVICE_TYPE"], [38, 51, "INSTANCE_TYPE"], [62, 65, "SERVICE_TYPE"]]}
+{"text": "Ransomware Anomaly Detector monitored backup patterns detecting mass deletes", "entities": [[28, 44, "RANSOMWARE_TYPE"], [45, 53, "ANOMALY_TYPE"]]}
+{"text": "Audit Checklist Tool validated backup controls covering coverage and restore success", "entities": [[31, 46, "CHECKLIST_TYPE"], [47, 64, "BACKUP_TYPE"]]}
+{"text": "Full backup created complete copy of all data for recovery", "entities": [[0, 4, "BACKUP_TYPE"], [5, 11, "BACKUP_TYPE"], [20, 28, "COPY_TYPE"]]}
+{"text": "Cohesity backup platform automated lifecycle management for 2000 virtual machines", "entities": [[0, 8, "TOOL"], [9, 15, "BACKUP_TYPE"], [25, 44, "AUTOMATION_TYPE"], [35, 55, "LIFECYCLE_TYPE"], [65, 72, "COUNT"], [65, 81, "RESOURCE_TYPE"]]}
+{"text": "Backup testing performed restore drills validating recovery procedures", "entities": [[0, 6, "BACKUP_TYPE"], [15, 32, "RESTORE_TYPE"], [25, 39, "DRILL_TYPE"]]}
+{"text": "Immutable Storage Manager enabled WORM Object Lock and retention locks", "entities": [[0, 25, "TOOL"], [34, 45, "IMMUTABILITY_TYPE"]]}
+{"text": "Air-gap coverage reached 72% with weekly copies to offline media", "entities": [[0, 16, "COVERAGE_TYPE"], [8, 16, "AIR_GAP_TYPE"], [17, 24, "COVERAGE_TYPE"], [25, 28, "METRIC_TYPE"], [34, 47, "FREQUENCY_TYPE"], [41, 50, "COPY_TYPE"]]}
+{"text": "Reporting Dashboard Tool generated backup KPIs showing coverage and restore success", "entities": [[10, 19, "DASHBOARD_TYPE"], [25, 41, "BACKUP_TYPE"], [42, 46, "METRIC_TYPE"], [68, 83, "SUCCESS_TYPE"]]}
+{"text": "Ransomware Anomaly Detector suppressed 5 mass deletion attempts escalating 1 incident", "entities": [[28, 54, "THREAT_TYPE"], [55, 74, "DETECTOR_TYPE"]]}
+{"text": "Recovery Point Objective RPO defined maximum acceptable data loss", "entities": [[0, 8, "METRIC_TYPE"], [9, 14, "POINT_TYPE"], [15, 24, "OBJECTIVE_TYPE"], [25, 28, "METRIC_TYPE"], [37, 44, "MAXIMUM_TYPE"], [45, 55, "ACCEPTABLE_TYPE"], [61, 65, "LOSS_TYPE"]]}
+{"text": "Azure Backup service protected virtual machines and databases with recovery", "entities": [[0, 5, "CLOUD_PROVIDER"], [6, 12, "BACKUP_TYPE"], [13, 20, "SERVICE_TYPE"], [21, 38, "VM_TYPE"], [39, 47, "MACHINE_TYPE"], [67, 75, "RECOVERY_TYPE"]]}
+{"text": "AWS Glacier archive storage provided long-term backup retention", "entities": [[0, 3, "CLOUD_PROVIDER"], [4, 11, "SERVICE_TYPE"], [12, 19, "ARCHIVE_TYPE"], [20, 27, "STORAGE_TYPE"], [28, 46, "RETENTION_TYPE"], [47, 53, "BACKUP_TYPE"]]}
+{"text": "SIEM Tool correlated backup anomalies with security events", "entities": [[0, 4, "TOOL"], [10, 27, "BACKUP_TYPE"], [21, 37, "ANOMALY_TYPE"]]}
+{"text": "Compliance Mapping Tool aligned backup policies with SOX HIPAA and GDPR", "entities": [[32, 47, "COMPLIANCE_TYPE"], [39, 47, "MAPPING_TYPE"]]}
+{"text": "3-2-1 backup strategy required three copies two media types one offsite", "entities": [[6, 12, "BACKUP_TYPE"], [31, 36, "COPY_TYPE"], [37, 43, "MEDIA_TYPE"], [37, 47, "TYPE_TYPE"]]}
+{"text": "Ransomware Anomaly Detector suppressed 5 mass deletion attempts escalating 1 incident", "entities": [[28, 54, "THREAT_TYPE"], [55, 74, "DETECTOR_TYPE"]]}
+{"text": "Enterprise Data Protection Backup Strategist defined 3-2-1-1-0 strategy with RPO RTO tiers", "entities": [[53, 62, "PROTECTION_TYPE"], [77, 90, "STRATEGY_TYPE"]]}
+{"text": "AWS S3 Object Lock enabled WORM write-once-read-many for backup immutability", "entities": [[0, 3, "CLOUD_PROVIDER"], [7, 13, "OBJECT_TYPE"], [14, 18, "LOCK_TYPE"], [27, 37, "STORAGE_TYPE"], [32, 42, "TOOL"], [43, 52, "STORAGE_TYPE"], [57, 76, "IMMUTABILITY_TYPE"]]}
+{"text": "AWS Backup service protected EC2 RDS and S3 with automated backup policies", "entities": [[0, 3, "CLOUD_PROVIDER"], [4, 10, "BACKUP_TYPE"], [11, 18, "SERVICE_TYPE"], [19, 32, "SERVICE_TYPE"], [29, 36, "SERVICE_TYPE"], [59, 74, "POLICY_TYPE"]]}
+{"text": "Cloud Backup Tool protected AWS Azure and GCP workloads with automated backups", "entities": [[28, 37, "BACKUP_TYPE"], [46, 55, "CLOUD_PROVIDER"]]}
+{"text": "Differential backup approach captured changes since last full backup", "entities": [[0, 12, "BACKUP_TYPE"], [13, 28, "BACKUP_TYPE"], [20, 37, "APPROACH_TYPE"], [38, 51, "CHANGE_TYPE"], [57, 61, "BACKUP_TYPE"]]}
+{"text": "Google Cloud Storage retention policies enforced backup immutability", "entities": [[0, 6, "TOOL"], [7, 12, "CLOUD_PROVIDER"], [13, 20, "STORAGE_TYPE"], [31, 39, "POLICY_TYPE"], [49, 55, "BACKUP_TYPE"], [56, 68, "IMMUTABILITY_TYPE"]]}
+{"text": "Recovery Time Objective RTO defined maximum acceptable downtime", "entities": [[0, 8, "METRIC_TYPE"], [9, 13, "TIME_TYPE"], [14, 23, "OBJECTIVE_TYPE"], [36, 43, "MAXIMUM_TYPE"], [44, 54, "ACCEPTABLE_TYPE"]]}
+{"text": "Recovery Point Objective RPO defined maximum acceptable data loss", "entities": [[0, 8, "METRIC_TYPE"], [9, 14, "POINT_TYPE"], [15, 24, "OBJECTIVE_TYPE"], [25, 28, "METRIC_TYPE"], [37, 44, "MAXIMUM_TYPE"], [45, 55, "ACCEPTABLE_TYPE"], [61, 65, "LOSS_TYPE"]]}
+{"text": "Retention Policy Manager enforced business legal retention and auto-archive", "entities": [[25, 42, "RETENTION_TYPE"], [63, 75, "BUSINESS_TYPE"]]}
+{"text": "Backup scan found email address admin@company.com and phone number +1-212-555-0199 in unencrypted backup files. PII classification required.", "entities": [[32, 49, "EMAIL_ADDRESS"], [78, 97, "ENCRYPTION_STATUS"], [98, 104, "FILE_TYPE"], [105, 110, "DATA_TYPE"], [112, 130, "CLASSIFICATION_TYPE"]]}
+{"text": "Azure Blob Storage immutability policies protected backups from deletion", "entities": [[0, 5, "CLOUD_PROVIDER"], [6, 10, "SERVICE_TYPE"], [11, 18, "BLOB_TYPE"], [11, 31, "STORAGE_TYPE"], [19, 40, "IMMUTABILITY_TYPE"], [32, 50, "POLICY_TYPE"]]}
+{"text": "Backup retention policy defined maximum retention period for archived data", "entities": [[0, 6, "BACKUP_TYPE"], [17, 23, "POLICY_TYPE"], [32, 39, "MAXIMUM_TYPE"], [50, 56, "PERIOD_TYPE"], [61, 69, "ARCHIVE_TYPE"]]}
+{"text": "KMS HSM Manager designed key hierarchy with rotation and dual-control", "entities": [[0, 3, "TOOL"], [4, 7, "TOOL"], [8, 15, "MANAGEMENT_TYPE"], [16, 28, "MANAGER_TYPE"]]}
+{"text": "Data Protection Strategist defined 3-2-1-1-0 backup strategy with tier0 RPO 0-5m and RTO less than 15 minutes", "entities": [[37, 51, "PROTECTION_TYPE"], [66, 77, "STRATEGY_TYPE"], [85, 93, "TIER_TYPE"], [89, 93, "METRIC_TYPE"], [94, 98, "METRIC_TYPE"], [99, 101, "TIME_UNIT"]]}
+{"text": "Rubrik backup platform enabled immutable backups with ransomware protection", "entities": [[0, 6, "TOOL"], [7, 13, "BACKUP_TYPE"], [31, 40, "IMMUTABILITY_TYPE"], [41, 48, "BACKUP_TYPE"]]}
+{"text": "Backup scan found email address admin@company.com and phone number +1-212-555-0199 in unencrypted backup files. PII classification required.", "entities": [[32, 49, "EMAIL_ADDRESS"], [78, 97, "ENCRYPTION_STATUS"], [98, 104, "FILE_TYPE"], [105, 110, "DATA_TYPE"], [112, 130, "CLASSIFICATION_TYPE"]]}
+{"text": "Data protection false positive rate reduced to 1.2% improving anomaly detection accuracy", "entities": [[5, 30, "PROTECTION_TYPE"], [47, 50, "METRIC_TYPE"], [70, 88, "DETECTION_TYPE"]]}
+{"text": "Backup Orchestrator Tool scheduled backups for servers databases and endpoints", "entities": [[25, 42, "BACKUP_TYPE"], [69, 78, "SCHEDULING_TYPE"]]}
+{"text": "DLP Scanner identified PII PHI and PCI data requiring protection", "entities": [[12, 30, "SCANNER_TYPE"]]}
+{"text": "Retention Policy Manager archived 120 TB to cold storage with 9 legal holds", "entities": [[25, 37, "RETENTION_TYPE"], [38, 48, "POLICY_TYPE"], [44, 56, "MANAGER_TYPE"], [62, 69, "COUNT"]]}
+{"text": "PII scan found passport number US123456789 and driver license number DL-1234567 in unprotected database backup.", "entities": [[0, 3, "DATA_TYPE"], [24, 42, "PASSPORT_NUMBER"], [47, 68, "DRIVER_LICENSE_NUMBER"], [62, 79, "DRIVER_LICENSE_NUMBER"], [104, 110, "BACKUP_TYPE"]]}
+{"text": "Key Rotation Tool rotated 48 keys with 100% restore validation and zero rollbacks", "entities": [[18, 28, "KEY_TYPE"], [67, 81, "VALIDATION_TYPE"]]}
+{"text": "AWS KMS key management service encrypted backup data with envelope encryption", "entities": [[0, 3, "CLOUD_PROVIDER"], [4, 7, "TOOL"], [8, 11, "KEY_TYPE"], [12, 22, "MANAGEMENT_TYPE"], [23, 30, "SERVICE_TYPE"], [31, 47, "ENCRYPTION_TYPE"]]}
+{"text": "Velero backup tool protected Kubernetes clusters with backup and restore", "entities": [[0, 6, "TOOL"], [7, 13, "BACKUP_TYPE"], [19, 39, "PLATFORM_TYPE"], [40, 48, "CLUSTER_TYPE"], [54, 60, "BACKUP_TYPE"], [65, 72, "RESTORE_TYPE"]]}
+{"text": "Ransomware Anomaly Detector monitored backup patterns detecting mass deletes", "entities": [[28, 44, "RANSOMWARE_TYPE"], [45, 53, "ANOMALY_TYPE"]]}
+{"text": "SIEM Tool correlated backup anomalies with security events", "entities": [[0, 4, "TOOL"], [10, 27, "BACKUP_TYPE"], [21, 37, "ANOMALY_TYPE"]]}
+{"text": "Cloud Backup Tool protected AWS Azure and GCP workloads with automated backups", "entities": [[28, 37, "BACKUP_TYPE"], [46, 55, "CLOUD_PROVIDER"]]}
+{"text": "Veeam backup platform protected 500 workloads with 99.9% backup success rate", "entities": [[0, 5, "TOOL"], [6, 12, "BACKUP_TYPE"], [22, 35, "COUNT"], [32, 45, "WORKLOAD_TYPE"], [57, 63, "BACKUP_TYPE"], [64, 71, "SUCCESS_TYPE"]]}
+{"text": "Google Cloud Archive Storage provided cold storage for backup retention", "entities": [[0, 6, "TOOL"], [7, 12, "CLOUD_PROVIDER"], [13, 20, "ARCHIVE_TYPE"], [21, 28, "STORAGE_TYPE"], [38, 42, "STORAGE_TYPE"], [55, 71, "RETENTION_TYPE"]]}
+{"text": "Database Backup Tool enabled PITR Point-in-Time Recovery for critical databases", "entities": [[21, 39, "DATABASE_TYPE"], [34, 42, "BACKUP_TYPE"], [43, 47, "TOOL"]]}
+{"text": "Data Classification Analyst classified data tagging sensitivity retention and residency", "entities": [[28, 38, "DATA_TYPE"], [52, 63, "ANALYST_TYPE"], [78, 87, "TAGGING_TYPE"]]}
+{"text": "Backup retention policy defined maximum retention period for archived data", "entities": [[0, 6, "BACKUP_TYPE"], [17, 23, "POLICY_TYPE"], [32, 39, "MAXIMUM_TYPE"], [50, 56, "PERIOD_TYPE"], [61, 69, "ARCHIVE_TYPE"]]}
+{"text": "Backup malware detection found 2 hits in 30 days with automatic quarantine", "entities": [[54, 63, "TIME_UNIT"], [64, 74, "AUTOMATION_TYPE"]]}
+{"text": "Air-gap coverage reached 72% with weekly copies to offline media", "entities": [[0, 16, "COVERAGE_TYPE"], [8, 16, "AIR_GAP_TYPE"], [17, 24, "COVERAGE_TYPE"], [25, 28, "METRIC_TYPE"], [34, 47, "FREQUENCY_TYPE"], [41, 50, "COPY_TYPE"]]}
+{"text": "Acronis backup solution provided cloud and on-premises backup protection", "entities": [[0, 7, "TOOL"], [8, 14, "BACKUP_TYPE"], [33, 38, "CLOUD_TYPE"], [43, 54, "DEPLOYMENT_TYPE"], [55, 61, "BACKUP_TYPE"]]}
+{"text": "Business Impact Analyzer identified tier0 tier1 and tier2 applications with RPO RTO", "entities": [[25, 41, "BUSINESS_TYPE"], [42, 47, "IMPACT_TYPE"]]}
+{"text": "Restore Verification Tool validated restore success with application owner sign-off", "entities": [[36, 51, "VERIFICATION_TYPE"], [57, 74, "RESTORE_TYPE"], [75, 83, "SUCCESS_TYPE"]]}
+{"text": "Key Rotation Tool executed staged key rotation validating decrypt restore", "entities": [[27, 37, "ROTATION_TYPE"], [58, 65, "VALIDATION_TYPE"]]}
+{"text": "3-2-1 backup strategy required three copies two media types one offsite", "entities": [[6, 12, "BACKUP_TYPE"], [31, 36, "COPY_TYPE"], [37, 43, "MEDIA_TYPE"], [37, 47, "TYPE_TYPE"]]}
+{"text": "Data protection cost per TB reduced to 11.7 USD with optimization", "entities": [[5, 35, "PROTECTION_TYPE"], [28, 35, "COST_TYPE"], [39, 43, "STORAGE_UNIT"]]}
+{"text": "Network-attached storage NAS provided centralized backup storage", "entities": [[17, 28, "STORAGE_TYPE"], [38, 56, "CENTRALIZED_TYPE"], [50, 64, "BACKUP_TYPE"]]}
+{"text": "Retention Policy Manager archived 120 TB to cold storage with 9 legal holds", "entities": [[25, 37, "RETENTION_TYPE"], [38, 48, "POLICY_TYPE"], [44, 56, "MANAGER_TYPE"], [62, 69, "COUNT"]]}
+{"text": "AWS Glacier archive storage provided long-term backup retention", "entities": [[0, 3, "CLOUD_PROVIDER"], [4, 11, "SERVICE_TYPE"], [12, 19, "ARCHIVE_TYPE"], [20, 27, "STORAGE_TYPE"], [28, 46, "RETENTION_TYPE"], [47, 53, "BACKUP_TYPE"]]}
+{"text": "KMS HSM Manager designed 12 key rings with 90-day rotation and separation of duties", "entities": [[0, 3, "TOOL"], [4, 7, "TOOL"], [8, 15, "TOOL"], [16, 24, "MANAGER_TYPE"], [46, 58, "TOOL"], [77, 83, "COUNT"]]}
+{"text": "Data Residency Checker validated 220 datasets finding 7 non-compliant requiring migration", "entities": []}
+{"text": "Business Impact Analyzer identified tier0 tier1 and tier2 applications with RPO RTO", "entities": [[25, 41, "BUSINESS_TYPE"], [42, 47, "IMPACT_TYPE"]]}
+{"text": "Air-gap coverage reached 72% with weekly copies to offline media", "entities": [[0, 16, "COVERAGE_TYPE"], [8, 16, "AIR_GAP_TYPE"], [17, 24, "COVERAGE_TYPE"], [25, 28, "METRIC_TYPE"], [34, 47, "FREQUENCY_TYPE"], [41, 50, "COPY_TYPE"]]}
+{"text": "DLP Scanner tagged systems with PCI PHI and GDPR_EU classifications", "entities": [[44, 51, "SYSTEM_TYPE"], [52, 67, "REGULATION"]]}
+{"text": "Backup retention policy defined maximum retention period for archived data", "entities": [[0, 6, "BACKUP_TYPE"], [17, 23, "POLICY_TYPE"], [32, 39, "MAXIMUM_TYPE"], [50, 56, "PERIOD_TYPE"], [61, 69, "ARCHIVE_TYPE"]]}
+{"text": "Cost Analyzer Tool identified 17 savings opportunities reducing monthly spend by 15640 USD", "entities": [[41, 63, "COUNT"], [64, 80, "OPPORTUNITY_TYPE"]]}
+{"text": "Key Recovery Drill Tool performed quarterly key recovery exercises with dual-control", "entities": [[34, 43, "RECOVERY_TYPE"], [34, 47, "DRILL_TYPE"]]}
+{"text": "Database Backup Tool enabled PITR Point-in-Time Recovery for critical databases", "entities": [[21, 39, "DATABASE_TYPE"], [34, 42, "BACKUP_TYPE"], [43, 47, "TOOL"]]}
+{"text": "PAM Access Review Tool locked down backup consoles enforcing least-privilege", "entities": [[0, 3, "TOOL"], [35, 41, "BACKUP_TYPE"], [42, 50, "CONSOLE_TYPE"]]}
+{"text": "Key Rotation Tool executed staged key rotation validating decrypt restore", "entities": [[27, 37, "ROTATION_TYPE"], [58, 65, "VALIDATION_TYPE"]]}
+{"text": "Data Protection Policy Tool created backup policy requiring immutability and weekly air-gap", "entities": [[36, 49, "PROTECTION_TYPE"], [60, 72, "TOOL"], [77, 91, "BACKUP_TYPE"]]}
+{"text": "Air-Gap Transfer Tool created 48 weekly copies across 3 vault accounts with 6 offline media sets", "entities": [[22, 39, "TRANSFER_TYPE"], [33, 39, "TOOL"], [54, 61, "FREQUENCY_TYPE"], [56, 70, "COPY_TYPE"]]}
+{"text": "AWS KMS key management service encrypted backup data with envelope encryption", "entities": [[0, 3, "CLOUD_PROVIDER"], [4, 7, "TOOL"], [8, 11, "KEY_TYPE"], [12, 22, "MANAGEMENT_TYPE"], [23, 30, "SERVICE_TYPE"], [31, 47, "ENCRYPTION_TYPE"]]}
+{"text": "Legal Hold eDiscovery Tool documented backup interactions with DSAR eDiscovery", "entities": [[38, 57, "BACKUP_TYPE"], [63, 67, "REQUEST_TYPE"]]}
+{"text": "Azure Backup service protected virtual machines and databases with recovery", "entities": [[0, 5, "CLOUD_PROVIDER"], [6, 12, "BACKUP_TYPE"], [13, 20, "SERVICE_TYPE"], [21, 38, "VM_TYPE"], [39, 47, "MACHINE_TYPE"], [67, 75, "RECOVERY_TYPE"]]}
+{"text": "Ransomware Resilience Backup Security Engineer enforced immutability and air-gap copies", "entities": [[56, 68, "RESILIENCE_TYPE"], [73, 87, "SECURITY_TYPE"]]}
+{"text": "Ransomware Anomaly Detector monitored backup patterns detecting mass deletes", "entities": [[28, 44, "RANSOMWARE_TYPE"], [45, 53, "ANOMALY_TYPE"]]}
+{"text": "Data Classification Tool discovered 420 datasets with 95 high sensitivity and 22 geo-restricted", "entities": [[57, 73, "TOOL"], [78, 95, "DATASET_TYPE"]]}
+{"text": "Compliance Mapping Tool aligned backup policies with SOX HIPAA and GDPR", "entities": [[32, 47, "COMPLIANCE_TYPE"], [39, 47, "MAPPING_TYPE"]]}
+{"text": "Data Classification Tool discovered datasets tagging sensitivity and retention", "entities": [[45, 64, "DATA_TYPE"]]}
+{"text": "Backup job success rate achieved 99.1% over 30 days with RPO met at 93%", "entities": [[0, 18, "BACKUP_TYPE"], [11, 18, "JOB_TYPE"], [33, 37, "METRIC_TYPE"], [36, 43, "METRIC_TYPE"], [47, 51, "TIME_UNIT"], [57, 60, "METRIC_TYPE"]]}
+{"text": "Data protection coverage improved to 96% with immutability enabled on 88% of vaults", "entities": [[5, 33, "PROTECTION_TYPE"], [25, 36, "COVERAGE_TYPE"], [37, 40, "METRIC_TYPE"], [46, 66, "IMMUTABILITY_TYPE"], [67, 73, "ENABLED_TYPE"], [77, 83, "METRIC_TYPE"]]}
+{"text": "Storage area network SAN enabled high-performance backup storage", "entities": [[13, 24, "NETWORK_TYPE"], [25, 32, "NETWORK_TYPE"], [38, 56, "PERFORMANCE_TYPE"], [57, 64, "BACKUP_TYPE"]]}
+{"text": "Immutable Storage Manager enabled WORM Object Lock with MFA delete enforcement", "entities": [[0, 25, "TOOL"], [34, 45, "STORAGE_TYPE"], [60, 78, "STORAGE_TYPE"], [67, 78, "OBJECT_TYPE"]]}
+{"text": "AWS S3 Object Lock enabled WORM write-once-read-many for backup immutability", "entities": [[0, 3, "CLOUD_PROVIDER"], [7, 13, "OBJECT_TYPE"], [14, 18, "LOCK_TYPE"], [27, 37, "STORAGE_TYPE"], [32, 42, "TOOL"], [43, 52, "STORAGE_TYPE"], [57, 76, "IMMUTABILITY_TYPE"]]}
+{"text": "Air-Gap Transfer Tool created 48 weekly copies across 3 vault accounts with 6 offline media sets", "entities": [[22, 39, "TRANSFER_TYPE"], [33, 39, "TOOL"], [54, 61, "FREQUENCY_TYPE"], [56, 70, "COPY_TYPE"]]}
+{"text": "Azure Backup service protected virtual machines and databases with recovery", "entities": [[0, 5, "CLOUD_PROVIDER"], [6, 12, "BACKUP_TYPE"], [13, 20, "SERVICE_TYPE"], [21, 38, "VM_TYPE"], [39, 47, "MACHINE_TYPE"], [67, 75, "RECOVERY_TYPE"]]}
+{"text": "Storage area network SAN enabled high-performance backup storage", "entities": [[13, 24, "NETWORK_TYPE"], [25, 32, "NETWORK_TYPE"], [38, 56, "PERFORMANCE_TYPE"], [57, 64, "BACKUP_TYPE"]]}
+{"text": "Tape backup system provided offline air-gapped backup storage", "entities": [[0, 4, "MEDIA_TYPE"], [5, 11, "BACKUP_TYPE"], [28, 35, "OFFLINE_TYPE"], [36, 46, "AIR_GAP_TYPE"], [40, 53, "BACKUP_TYPE"], [47, 61, "STORAGE_TYPE"]]}
+{"text": "AWS Backup service protected EC2 RDS and S3 with automated backup policies", "entities": [[0, 3, "CLOUD_PROVIDER"], [4, 10, "BACKUP_TYPE"], [11, 18, "SERVICE_TYPE"], [19, 32, "SERVICE_TYPE"], [29, 36, "SERVICE_TYPE"], [59, 74, "POLICY_TYPE"]]}
+{"text": "Audit Checklist Tool validated backup controls covering coverage and restore success", "entities": [[31, 46, "CHECKLIST_TYPE"], [47, 64, "BACKUP_TYPE"]]}
+{"text": "Backup audit discovered SWIFT code DEUTDEFF and routing number 026009593 in financial records backup. Encryption and access controls reviewed.", "entities": [[63, 75, "ROUTING_NUMBER"], [76, 93, "FINANCIAL_TYPE"], [86, 100, "RECORD_TYPE"], [94, 112, "BACKUP_TYPE"], [117, 132, "CONTROL_TYPE"]]}
+{"text": "Key Management Crypto Engineer designed envelope encryption for backups with KMS HSM", "entities": [[0, 30, "ROLE"], [22, 39, "KEY_TYPE"], [31, 48, "MANAGEMENT_TYPE"], [40, 59, "CRYPTO_TYPE"]]}
+{"text": "Recovery Time Objective RTO defined maximum acceptable downtime", "entities": [[0, 8, "METRIC_TYPE"], [9, 13, "TIME_TYPE"], [14, 23, "OBJECTIVE_TYPE"], [36, 43, "MAXIMUM_TYPE"], [44, 54, "ACCEPTABLE_TYPE"]]}
+{"text": "Cost Analyzer Tool analyzed storage costs recommending lifecycle transitions", "entities": [[28, 35, "ANALYZER_TYPE"], [36, 41, "TOOL"], [55, 64, "COST_TYPE"]]}
+{"text": "Cloud Backup Tool protected AWS Azure and GCP workloads with automated backups", "entities": [[28, 37, "BACKUP_TYPE"], [46, 55, "CLOUD_PROVIDER"]]}
+{"text": "Restic open source backup encrypted 200 endpoints with client-side encryption", "entities": [[0, 6, "TOOL"], [7, 18, "TOOL"], [55, 77, "ENCRYPTION_TYPE"]]}
+{"text": "Backup Restore Operations Engineer implemented backups for infrastructure databases and SaaS", "entities": [[35, 46, "BACKUP_TYPE"]]}
+{"text": "Borg backup tool created deduplicated encrypted backups for Linux systems", "entities": [[0, 4, "TOOL"], [5, 11, "BACKUP_TYPE"], [38, 55, "BACKUP_TYPE"]]}
+{"text": "3-2-1 backup strategy required three copies two media types one offsite", "entities": [[6, 12, "BACKUP_TYPE"], [31, 36, "COPY_TYPE"], [37, 43, "MEDIA_TYPE"], [37, 47, "TYPE_TYPE"]]}
+{"text": "Recovery Time Objective RTO defined maximum acceptable downtime", "entities": [[0, 8, "METRIC_TYPE"], [9, 13, "TIME_TYPE"], [14, 23, "OBJECTIVE_TYPE"], [36, 43, "MAXIMUM_TYPE"], [44, 54, "ACCEPTABLE_TYPE"]]}
+{"text": "Air-Gap Transfer Tool created offline logically air-gapped copies across accounts", "entities": [[22, 37, "AIR_GAP_TYPE"], [30, 47, "TRANSFER_TYPE"], [52, 65, "OFFLINE_TYPE"]]}
+{"text": "3-2-1-1-0 backup strategy added immutable copy and zero errors", "entities": [[10, 16, "BACKUP_TYPE"], [32, 46, "IMMUTABILITY_TYPE"], [51, 62, "ERROR_TYPE"]]}
+{"text": "Backup audit discovered SWIFT code DEUTDEFF and routing number 026009593 in financial records backup. Encryption and access controls reviewed.", "entities": [[63, 75, "ROUTING_NUMBER"], [76, 93, "FINANCIAL_TYPE"], [86, 100, "RECORD_TYPE"], [94, 112, "BACKUP_TYPE"], [117, 132, "CONTROL_TYPE"]]}
+{"text": "Google Cloud Backup service protected GCE instances and Cloud SQL databases", "entities": [[0, 6, "TOOL"], [7, 12, "CLOUD_PROVIDER"], [13, 19, "BACKUP_TYPE"], [20, 27, "SERVICE_TYPE"], [28, 41, "SERVICE_TYPE"], [38, 51, "INSTANCE_TYPE"], [62, 65, "SERVICE_TYPE"]]}
+{"text": "PAM Access Review Tool removed 19 excess privileges enforcing JIT and break-glass", "entities": [[0, 3, "TOOL"], [34, 40, "COUNT"], [34, 51, "PRIVILEGE_TYPE"], [41, 51, "PRIVILEGE_TYPE"], [62, 65, "AUTH_TYPE"]]}
+{"text": "Google Cloud Storage retention policies enforced backup immutability", "entities": [[0, 6, "TOOL"], [7, 12, "CLOUD_PROVIDER"], [13, 20, "STORAGE_TYPE"], [31, 39, "POLICY_TYPE"], [49, 55, "BACKUP_TYPE"], [56, 68, "IMMUTABILITY_TYPE"]]}
+{"text": "Backup testing performed restore drills validating recovery procedures", "entities": [[0, 6, "BACKUP_TYPE"], [15, 32, "RESTORE_TYPE"], [25, 39, "DRILL_TYPE"]]}
+{"text": "Backup retention policy defined maximum retention period for archived data", "entities": [[0, 6, "BACKUP_TYPE"], [17, 23, "POLICY_TYPE"], [32, 39, "MAXIMUM_TYPE"], [50, 56, "PERIOD_TYPE"], [61, 69, "ARCHIVE_TYPE"]]}
+{"text": "Business Impact Analyzer identified tier0 tier1 and tier2 applications with RPO RTO", "entities": [[25, 41, "BUSINESS_TYPE"], [42, 47, "IMPACT_TYPE"]]}
+{"text": "Backup Orchestrator Tool discovered 143 unprotected assets including billing-db and Salesforce", "entities": [[25, 39, "BACKUP_TYPE"]]}
+{"text": "Business Impact Analyzer identified tier1 applications with 1-hour RPO and 4-hour RTO", "entities": [[25, 41, "BUSINESS_TYPE"], [42, 54, "IMPACT_TYPE"], [67, 70, "TIER_TYPE"]]}
+{"text": "Snapshot Manager enforced snapshot policies with encryption and retention", "entities": [[0, 16, "TOOL"], [26, 34, "SNAPSHOT_TYPE"], [35, 43, "MANAGER_TYPE"]]}
+{"text": "Cohesity backup solution provided unified backup and data management", "entities": [[0, 8, "TOOL"], [9, 15, "BACKUP_TYPE"], [34, 41, "UNIFIED_TYPE"], [42, 48, "BACKUP_TYPE"], [58, 68, "MANAGEMENT_TYPE"]]}
+{"text": "Backup verification validated backup integrity and restore readiness", "entities": [[0, 6, "BACKUP_TYPE"], [20, 36, "BACKUP_TYPE"], [37, 46, "INTEGRITY_TYPE"], [51, 58, "RESTORE_TYPE"], [59, 68, "READINESS_TYPE"]]}
+{"text": "Google Cloud Backup service protected GCE instances and Cloud SQL databases", "entities": [[0, 6, "TOOL"], [7, 12, "CLOUD_PROVIDER"], [13, 19, "BACKUP_TYPE"], [20, 27, "SERVICE_TYPE"], [28, 41, "SERVICE_TYPE"], [38, 51, "INSTANCE_TYPE"], [62, 65, "SERVICE_TYPE"]]}
+{"text": "Backup Malware Scan Tool quarantined 3 backup images blocking 2 restores", "entities": [[25, 36, "BACKUP_TYPE"], [37, 45, "MALWARE_TYPE"], [39, 52, "SCAN_TYPE"], [46, 52, "TOOL"], [62, 72, "BACKUP_TYPE"]]}
+{"text": "Immutable Storage Manager enabled WORM Object Lock with MFA delete enforcement", "entities": [[0, 25, "TOOL"], [34, 45, "STORAGE_TYPE"], [60, 78, "STORAGE_TYPE"], [67, 78, "OBJECT_TYPE"]]}
+{"text": "Cost Analyzer Tool analyzed storage costs recommending lifecycle transitions", "entities": [[28, 35, "ANALYZER_TYPE"], [36, 41, "TOOL"], [55, 64, "COST_TYPE"]]}
+{"text": "Rubrik data protection achieved 96% coverage with 98% restore success over 90 days", "entities": [[0, 6, "TOOL"], [12, 31, "PROTECTION_TYPE"], [36, 44, "METRIC_TYPE"], [62, 69, "METRIC_TYPE"], [62, 74, "RESTORE_TYPE"], [75, 82, "SUCCESS_TYPE"]]}
+{"text": "Data leak detected: SSN 123-45-6789 and credit card number 4532-1234-5678-9010 found in backup files. Immediate remediation required.", "entities": [[5, 9, "LEAK_TYPE"], [24, 35, "SSN"], [59, 78, "CREDIT_CARD_NUMBER"], [69, 78, "BACKUP_TYPE"], [85, 94, "ACTION_TYPE"], [95, 111, "REMEDIATION_TYPE"]]}
+{"text": "Backup Orchestrator Tool discovered 143 unprotected assets including billing-db and Salesforce", "entities": [[25, 39, "BACKUP_TYPE"]]}
+{"text": "Rubrik backup platform enabled immutable backups with ransomware protection", "entities": [[0, 6, "TOOL"], [7, 13, "BACKUP_TYPE"], [31, 40, "IMMUTABILITY_TYPE"], [41, 48, "BACKUP_TYPE"]]}
+{"text": "Azure Archive Storage enabled cost-effective long-term backup storage", "entities": [[0, 5, "CLOUD_PROVIDER"], [6, 13, "ARCHIVE_TYPE"], [14, 29, "STORAGE_TYPE"], [30, 44, "COST_TYPE"], [45, 54, "RETENTION_TYPE"], [55, 61, "BACKUP_TYPE"]]}
+{"text": "Azure Key Vault managed encryption keys for backup data protection", "entities": [[0, 5, "CLOUD_PROVIDER"], [6, 9, "KEY_TYPE"], [10, 15, "VAULT_TYPE"]]}
+{"text": "Retention Policy Manager enforced business legal retention and auto-archive", "entities": [[25, 42, "RETENTION_TYPE"], [63, 75, "BUSINESS_TYPE"]]}
+{"text": "3-2-1 backup strategy required three copies two media types one offsite", "entities": [[6, 12, "BACKUP_TYPE"], [31, 36, "COPY_TYPE"], [37, 43, "MEDIA_TYPE"], [37, 47, "TYPE_TYPE"]]}
+{"text": "Data leak detected: SSN 123-45-6789 and credit card number 4532-1234-5678-9010 found in backup files. Immediate remediation required.", "entities": [[5, 9, "LEAK_TYPE"], [24, 35, "SSN"], [59, 78, "CREDIT_CARD_NUMBER"], [69, 78, "BACKUP_TYPE"], [85, 94, "ACTION_TYPE"], [95, 111, "REMEDIATION_TYPE"]]}
+{"text": "Restore Verification Tool validated restore success with application owner sign-off", "entities": [[36, 51, "VERIFICATION_TYPE"], [57, 74, "RESTORE_TYPE"], [75, 83, "SUCCESS_TYPE"]]}
+{"text": "Restic open source backup encrypted 200 endpoints with client-side encryption", "entities": [[0, 6, "TOOL"], [7, 18, "TOOL"], [55, 77, "ENCRYPTION_TYPE"]]}
+{"text": "Key Recovery Drill Tool completed 4 quarterly exercises with 9-minute RTO", "entities": [[34, 45, "RECOVERY_TYPE"], [61, 69, "EXERCISE_TYPE"]]}
+{"text": "Backup Malware Scan Tool quarantined 3 backup images blocking 2 restores", "entities": [[25, 36, "BACKUP_TYPE"], [37, 45, "MALWARE_TYPE"], [39, 52, "SCAN_TYPE"], [46, 52, "TOOL"], [62, 72, "BACKUP_TYPE"]]}
+{"text": "DLP Scanner tagged systems with PCI PHI and GDPR_EU classifications", "entities": [[44, 51, "SYSTEM_TYPE"], [52, 67, "REGULATION"]]}
+{"text": "SaaS Backup Tool protected M365 Google Workspace and Salesforce tenants", "entities": [[17, 31, "APPLICATION_TYPE"], [27, 38, "BACKUP_TYPE"]]}
+{"text": "Data Classification Tool discovered 420 datasets with 95 high sensitivity and 22 geo-restricted", "entities": [[57, 73, "TOOL"], [78, 95, "DATASET_TYPE"]]}
+{"text": "Key Recovery Drill Tool completed 4 quarterly exercises with 9-minute RTO", "entities": [[34, 45, "RECOVERY_TYPE"], [61, 69, "EXERCISE_TYPE"]]}
+{"text": "Azure Archive Storage enabled cost-effective long-term backup storage", "entities": [[0, 5, "CLOUD_PROVIDER"], [6, 13, "ARCHIVE_TYPE"], [14, 29, "STORAGE_TYPE"], [30, 44, "COST_TYPE"], [45, 54, "RETENTION_TYPE"], [55, 61, "BACKUP_TYPE"]]}
+{"text": "Veeam backup platform managed enterprise backups with replication and restore", "entities": [[0, 5, "TOOL"], [6, 12, "BACKUP_TYPE"], [30, 40, "BACKUP_TYPE"]]}
+{"text": "Data Residency Checker validated 220 datasets finding 7 non-compliant requiring migration", "entities": []}
+{"text": "Snapshot Manager enforced snapshot policies with encryption and retention", "entities": [[0, 16, "TOOL"], [26, 34, "SNAPSHOT_TYPE"], [35, 43, "MANAGER_TYPE"]]}
+{"text": "Cost Analyzer Tool identified 17 savings opportunities reducing monthly spend by 15640 USD", "entities": [[41, 63, "COUNT"], [64, 80, "OPPORTUNITY_TYPE"]]}
+{"text": "Business Impact Analyzer identified tier1 applications with 1-hour RPO and 4-hour RTO", "entities": [[25, 41, "BUSINESS_TYPE"], [42, 54, "IMPACT_TYPE"], [67, 70, "TIER_TYPE"]]}
+{"text": "Veritas NetBackup platform enabled enterprise backup and recovery operations", "entities": [[0, 7, "TOOL"], [8, 17, "TOOL"], [35, 45, "BACKUP_TYPE"], [57, 65, "OPERATIONS_TYPE"]]}
+{"text": "Restic open source backup encrypted 200 endpoints with client-side encryption", "entities": [[0, 6, "TOOL"], [7, 18, "TOOL"], [55, 77, "ENCRYPTION_TYPE"]]}
+{"text": "Data Protection Policy Tool created backup policy with tiered RPO RTO targets", "entities": [[43, 49, "DATA_TYPE"], [55, 61, "TOOL"]]}
+{"text": "Azure Archive Storage enabled cost-effective long-term backup storage", "entities": [[0, 5, "CLOUD_PROVIDER"], [6, 13, "ARCHIVE_TYPE"], [14, 29, "STORAGE_TYPE"], [30, 44, "COST_TYPE"], [45, 54, "RETENTION_TYPE"], [55, 61, "BACKUP_TYPE"]]}
+{"text": "Ransomware Anomaly Detector suppressed 5 mass deletion attempts escalating 1 incident", "entities": [[28, 54, "THREAT_TYPE"], [55, 74, "DETECTOR_TYPE"]]}
+{"text": "Backup Orchestrator Tool discovered 143 unprotected assets including billing-db and Salesforce", "entities": [[25, 39, "BACKUP_TYPE"]]}
+{"text": "Google Cloud Archive Storage provided cold storage for backup retention", "entities": [[0, 6, "TOOL"], [7, 12, "CLOUD_PROVIDER"], [13, 20, "ARCHIVE_TYPE"], [21, 28, "STORAGE_TYPE"], [38, 42, "STORAGE_TYPE"], [55, 71, "RETENTION_TYPE"]]}
+{"text": "DLP Scanner tagged systems with PCI PHI and GDPR_EU classifications", "entities": [[44, 51, "SYSTEM_TYPE"], [52, 67, "REGULATION"]]}
+{"text": "Key Recovery Drill Tool performed quarterly key recovery exercises with dual-control", "entities": [[34, 43, "RECOVERY_TYPE"], [34, 47, "DRILL_TYPE"]]}
+{"text": "Backup scan found email address admin@company.com and phone number +1-212-555-0199 in unencrypted backup files. PII classification required.", "entities": [[32, 49, "EMAIL_ADDRESS"], [78, 97, "ENCRYPTION_STATUS"], [98, 104, "FILE_TYPE"], [105, 110, "DATA_TYPE"], [112, 130, "CLASSIFICATION_TYPE"]]}
+{"text": "Network-attached storage NAS provided centralized backup storage", "entities": [[17, 28, "STORAGE_TYPE"], [38, 56, "CENTRALIZED_TYPE"], [50, 64, "BACKUP_TYPE"]]}
+{"text": "Restore Verification Tool tested 42 systems achieving 97% success rate with 22-minute MTTR", "entities": [[26, 43, "RESTORE_TYPE"], [44, 65, "TOOL"], [86, 90, "METRIC_TYPE"]]}
+{"text": "Database Backup Tool enabled PITR for orders-db with 72-hour recovery window", "entities": [[38, 47, "TOOL"], [53, 60, "RECOVERY_TYPE"], [61, 76, "DATABASE_NAME"]]}
+{"text": "Cost Analyzer Tool identified 17 savings opportunities reducing monthly spend by 15640 USD", "entities": [[41, 63, "COUNT"], [64, 80, "OPPORTUNITY_TYPE"]]}
+{"text": "Data Classification Tool discovered 420 datasets with 95 high sensitivity and 22 geo-restricted", "entities": [[57, 73, "TOOL"], [78, 95, "DATASET_TYPE"]]}
+{"text": "Database Backup Tool enabled PITR Point-in-Time Recovery for critical databases", "entities": [[21, 39, "DATABASE_TYPE"], [34, 42, "BACKUP_TYPE"], [43, 47, "TOOL"]]}
+{"text": "Google Cloud KMS provided key management for backup encryption", "entities": [[0, 6, "TOOL"], [7, 12, "CLOUD_PROVIDER"], [13, 16, "TOOL"], [45, 62, "ENCRYPTION_TYPE"]]}
+{"text": "Restic backup tool provided encrypted incremental backups for cloud storage", "entities": [[0, 6, "TOOL"], [7, 13, "BACKUP_TYPE"], [38, 49, "INCREMENTAL_TYPE"], [50, 57, "BACKUP_TYPE"], [62, 67, "CLOUD_TYPE"], [68, 75, "STORAGE_TYPE"]]}
+{"text": "Restic open source backup encrypted 200 endpoints with client-side encryption", "entities": [[0, 6, "TOOL"], [7, 18, "TOOL"], [55, 77, "ENCRYPTION_TYPE"]]}
+{"text": "PAM Access Review Tool locked down backup consoles enforcing least-privilege", "entities": [[0, 3, "TOOL"], [35, 41, "BACKUP_TYPE"], [42, 50, "CONSOLE_TYPE"]]}
+{"text": "Full backup created complete copy of all data for recovery", "entities": [[0, 4, "BACKUP_TYPE"], [5, 11, "BACKUP_TYPE"], [20, 28, "COPY_TYPE"]]}
+{"text": "Restic backup tool provided encrypted incremental backups for cloud storage", "entities": [[0, 6, "TOOL"], [7, 13, "BACKUP_TYPE"], [38, 49, "INCREMENTAL_TYPE"], [50, 57, "BACKUP_TYPE"], [62, 67, "CLOUD_TYPE"], [68, 75, "STORAGE_TYPE"]]}
+{"text": "Google Cloud KMS provided key management for backup encryption", "entities": [[0, 6, "TOOL"], [7, 12, "CLOUD_PROVIDER"], [13, 16, "TOOL"], [45, 62, "ENCRYPTION_TYPE"]]}
+{"text": "Data Residency Checker validated 220 datasets finding 7 non-compliant requiring migration", "entities": []}
+{"text": "Rubrik backup platform enabled immutable backups with ransomware protection", "entities": [[0, 6, "TOOL"], [7, 13, "BACKUP_TYPE"], [31, 40, "IMMUTABILITY_TYPE"], [41, 48, "BACKUP_TYPE"]]}
+{"text": "Backup malware detection found 2 hits in 30 days with automatic quarantine", "entities": [[54, 63, "TIME_UNIT"], [64, 74, "AUTOMATION_TYPE"]]}
+{"text": "Cost Analyzer Tool analyzed storage costs recommending lifecycle transitions", "entities": [[28, 35, "ANALYZER_TYPE"], [36, 41, "TOOL"], [55, 64, "COST_TYPE"]]}
+{"text": "Data Classification Tool discovered datasets tagging sensitivity and retention", "entities": [[45, 64, "DATA_TYPE"]]}
+{"text": "Data protection cost per TB reduced to 11.7 USD with optimization", "entities": [[5, 35, "PROTECTION_TYPE"], [28, 35, "COST_TYPE"], [39, 43, "STORAGE_UNIT"]]}
+{"text": "Immutable Storage Manager enabled WORM Object Lock and retention locks", "entities": [[0, 25, "TOOL"], [34, 45, "IMMUTABILITY_TYPE"]]}
+{"text": "Retention Policy Manager archived 120 TB to cold storage with 9 legal holds", "entities": [[25, 37, "RETENTION_TYPE"], [38, 48, "POLICY_TYPE"], [44, 56, "MANAGER_TYPE"], [62, 69, "COUNT"]]}
+{"text": "Cost Analyzer Tool analyzed storage costs recommending lifecycle transitions", "entities": [[28, 35, "ANALYZER_TYPE"], [36, 41, "TOOL"], [55, 64, "COST_TYPE"]]}
+{"text": "Network-attached storage NAS provided centralized backup storage", "entities": [[17, 28, "STORAGE_TYPE"], [38, 56, "CENTRALIZED_TYPE"], [50, 64, "BACKUP_TYPE"]]}
+{"text": "Velero backup tool protected Kubernetes clusters with backup and restore", "entities": [[0, 6, "TOOL"], [7, 13, "BACKUP_TYPE"], [19, 39, "PLATFORM_TYPE"], [40, 48, "CLUSTER_TYPE"], [54, 60, "BACKUP_TYPE"], [65, 72, "RESTORE_TYPE"]]}
+{"text": "KMS HSM Manager designed key hierarchy with rotation and dual-control", "entities": [[0, 3, "TOOL"], [4, 7, "TOOL"], [8, 15, "MANAGEMENT_TYPE"], [16, 28, "MANAGER_TYPE"]]}
+{"text": "Data Residency Checker validated data location constraints mapping backup targets", "entities": [[47, 58, "CHECKER_TYPE"], [67, 73, "DATA_TYPE"]]}
+{"text": "Veeam backup platform protected 500 workloads with 99.9% backup success rate", "entities": [[0, 5, "TOOL"], [6, 12, "BACKUP_TYPE"], [22, 35, "COUNT"], [32, 45, "WORKLOAD_TYPE"], [57, 63, "BACKUP_TYPE"], [64, 71, "SUCCESS_TYPE"]]}
+{"text": "Incremental backup strategy reduced backup storage requirements", "entities": [[0, 11, "BACKUP_TYPE"], [12, 27, "BACKUP_TYPE"], [36, 50, "BACKUP_TYPE"], [43, 63, "STORAGE_TYPE"]]}
+{"text": "Borg backup tool created deduplicated encrypted backups for Linux systems", "entities": [[0, 4, "TOOL"], [5, 11, "BACKUP_TYPE"], [38, 55, "BACKUP_TYPE"]]}
+{"text": "Data Protection Policy Tool created backup policy requiring immutability and weekly air-gap", "entities": [[36, 49, "PROTECTION_TYPE"], [60, 72, "TOOL"], [77, 91, "BACKUP_TYPE"]]}
+{"text": "Google Cloud KMS provided key management for backup encryption", "entities": [[0, 6, "TOOL"], [7, 12, "CLOUD_PROVIDER"], [13, 16, "TOOL"], [45, 62, "ENCRYPTION_TYPE"]]}
+{"text": "Ransomware Resilience Backup Security Engineer enforced immutability and air-gap copies", "entities": [[56, 68, "RESILIENCE_TYPE"], [73, 87, "SECURITY_TYPE"]]}
+{"text": "Velero backup tool protected Kubernetes clusters with backup and restore", "entities": [[0, 6, "TOOL"], [7, 13, "BACKUP_TYPE"], [19, 39, "PLATFORM_TYPE"], [40, 48, "CLUSTER_TYPE"], [54, 60, "BACKUP_TYPE"], [65, 72, "RESTORE_TYPE"]]}
+{"text": "Immutable Storage Manager enabled WORM Object Lock and retention locks", "entities": [[0, 25, "TOOL"], [34, 45, "IMMUTABILITY_TYPE"]]}
+{"text": "Backup malware detection found 2 hits in 30 days with automatic quarantine", "entities": [[54, 63, "TIME_UNIT"], [64, 74, "AUTOMATION_TYPE"]]}
+{"text": "Data protection coverage improved to 96% with immutability enabled on 88% of vaults", "entities": [[5, 33, "PROTECTION_TYPE"], [25, 36, "COVERAGE_TYPE"], [37, 40, "METRIC_TYPE"], [46, 66, "IMMUTABILITY_TYPE"], [67, 73, "ENABLED_TYPE"], [77, 83, "METRIC_TYPE"]]}
+{"text": "Full backup created complete copy of all data for recovery", "entities": [[0, 4, "BACKUP_TYPE"], [5, 11, "BACKUP_TYPE"], [20, 28, "COPY_TYPE"]]}
+{"text": "Azure Blob Storage immutability policies protected backups from deletion", "entities": [[0, 5, "CLOUD_PROVIDER"], [6, 10, "SERVICE_TYPE"], [11, 18, "BLOB_TYPE"], [11, 31, "STORAGE_TYPE"], [19, 40, "IMMUTABILITY_TYPE"], [32, 50, "POLICY_TYPE"]]}
+{"text": "Audit Checklist Tool validated backup controls covering coverage and restore success", "entities": [[31, 46, "CHECKLIST_TYPE"], [47, 64, "BACKUP_TYPE"]]}
+{"text": "SaaS Backup Tool protected M365 and Salesforce tenants with automated backups", "entities": [[17, 31, "APPLICATION_TYPE"], [47, 54, "APPLICATION_NAME"]]}
+{"text": "Data protection cost per TB reduced to 11.7 USD with optimization", "entities": [[5, 35, "PROTECTION_TYPE"], [28, 35, "COST_TYPE"], [39, 43, "STORAGE_UNIT"]]}
+{"text": "Legal Hold eDiscovery Tool documented backup interactions with DSAR eDiscovery", "entities": [[38, 57, "BACKUP_TYPE"], [63, 67, "REQUEST_TYPE"]]}
+{"text": "Data Protection Compliance Metrics Auditor audited policy adherence and restore success", "entities": [[51, 67, "COMPLIANCE_TYPE"], [72, 87, "AUDITOR_TYPE"]]}
+{"text": "Backup Malware Scan Tool scanned backup images detecting dormant ransomware", "entities": [[25, 39, "BACKUP_TYPE"], [40, 46, "MALWARE_TYPE"], [57, 75, "BACKUP_TYPE"]]}
+{"text": "KMS HSM Manager designed 12 key rings with 90-day rotation and separation of duties", "entities": [[0, 3, "TOOL"], [4, 7, "TOOL"], [8, 15, "TOOL"], [16, 24, "MANAGER_TYPE"], [46, 58, "TOOL"], [77, 83, "COUNT"]]}
+{"text": "Key Recovery Drill Tool completed 4 quarterly exercises with 9-minute RTO", "entities": [[34, 45, "RECOVERY_TYPE"], [61, 69, "EXERCISE_TYPE"]]}
+{"text": "Backup Restore Operations Engineer implemented backups for infrastructure databases and SaaS", "entities": [[35, 46, "BACKUP_TYPE"]]}
+{"text": "Backup Restore Operations Engineer implemented backups for infrastructure databases and SaaS", "entities": [[35, 46, "BACKUP_TYPE"]]}
+{"text": "Air-gap coverage reached 72% with weekly copies to offline media", "entities": [[0, 16, "COVERAGE_TYPE"], [8, 16, "AIR_GAP_TYPE"], [17, 24, "COVERAGE_TYPE"], [25, 28, "METRIC_TYPE"], [34, 47, "FREQUENCY_TYPE"], [41, 50, "COPY_TYPE"]]}
+{"text": "Data recovery from backup found contact information: email address support@vendor.com, phone number +33-1-42-86-83-26. Data residency check required.", "entities": [[5, 13, "RECOVERY_TYPE"], [19, 25, "BACKUP_TYPE"], [67, 85, "EMAIL_ADDRESS"], [101, 117, "PHONE_NUMBER"], [106, 111, "DATA_TYPE"]]}
+{"text": "Backup audit discovered SWIFT code DEUTDEFF and routing number 026009593 in financial records backup. Encryption and access controls reviewed.", "entities": [[63, 75, "ROUTING_NUMBER"], [76, 93, "FINANCIAL_TYPE"], [86, 100, "RECORD_TYPE"], [94, 112, "BACKUP_TYPE"], [117, 132, "CONTROL_TYPE"]]}
+{"text": "AWS Glacier archive storage provided long-term backup retention", "entities": [[0, 3, "CLOUD_PROVIDER"], [4, 11, "SERVICE_TYPE"], [12, 19, "ARCHIVE_TYPE"], [20, 27, "STORAGE_TYPE"], [28, 46, "RETENTION_TYPE"], [47, 53, "BACKUP_TYPE"]]}
+{"text": "SaaS Backup Tool protected M365 and Salesforce tenants with automated backups", "entities": [[17, 31, "APPLICATION_TYPE"], [47, 54, "APPLICATION_NAME"]]}
+{"text": "Reporting Dashboard Tool generated backup KPIs showing coverage and restore success", "entities": [[10, 19, "DASHBOARD_TYPE"], [25, 41, "BACKUP_TYPE"], [42, 46, "METRIC_TYPE"], [68, 83, "SUCCESS_TYPE"]]}
+{"text": "Backup training completion reached 92% for all backup engineers", "entities": [[7, 26, "TRAINING_TYPE"], [35, 38, "METRIC_TYPE"], [43, 53, "BACKUP_TYPE"], [47, 63, "ROLE_TYPE"]]}
+{"text": "Backup Malware Scan Tool quarantined 3 backup images blocking 2 restores", "entities": [[25, 36, "BACKUP_TYPE"], [37, 45, "MALWARE_TYPE"], [39, 52, "SCAN_TYPE"], [46, 52, "TOOL"], [62, 72, "BACKUP_TYPE"]]}
+{"text": "Acronis backup solution provided cloud and on-premises backup protection", "entities": [[0, 7, "TOOL"], [8, 14, "BACKUP_TYPE"], [33, 38, "CLOUD_TYPE"], [43, 54, "DEPLOYMENT_TYPE"], [55, 61, "BACKUP_TYPE"]]}
+{"text": "Azure Blob Storage immutability policies protected backups from deletion", "entities": [[0, 5, "CLOUD_PROVIDER"], [6, 10, "SERVICE_TYPE"], [11, 18, "BLOB_TYPE"], [11, 31, "STORAGE_TYPE"], [19, 40, "IMMUTABILITY_TYPE"], [32, 50, "POLICY_TYPE"]]}
+{"text": "3-2-1-1-0 backup strategy added immutable copy and zero errors", "entities": [[10, 16, "BACKUP_TYPE"], [32, 46, "IMMUTABILITY_TYPE"], [51, 62, "ERROR_TYPE"]]}
+{"text": "Veeam backup platform managed enterprise backups with replication and restore", "entities": [[0, 5, "TOOL"], [6, 12, "BACKUP_TYPE"], [30, 40, "BACKUP_TYPE"]]}
+{"text": "Incremental backup strategy reduced backup storage requirements", "entities": [[0, 11, "BACKUP_TYPE"], [12, 27, "BACKUP_TYPE"], [36, 50, "BACKUP_TYPE"], [43, 63, "STORAGE_TYPE"]]}
+{"text": "Backup scan found email address admin@company.com and phone number +1-212-555-0199 in unencrypted backup files. PII classification required.", "entities": [[32, 49, "EMAIL_ADDRESS"], [78, 97, "ENCRYPTION_STATUS"], [98, 104, "FILE_TYPE"], [105, 110, "DATA_TYPE"], [112, 130, "CLASSIFICATION_TYPE"]]}
+{"text": "PAM Access Review Tool locked down backup consoles enforcing least-privilege", "entities": [[0, 3, "TOOL"], [35, 41, "BACKUP_TYPE"], [42, 50, "CONSOLE_TYPE"]]}
+{"text": "Air-Gap Transfer Tool created 48 weekly copies across 3 vault accounts with 6 offline media sets", "entities": [[22, 39, "TRANSFER_TYPE"], [33, 39, "TOOL"], [54, 61, "FREQUENCY_TYPE"], [56, 70, "COPY_TYPE"]]}
+{"text": "Backup Orchestrator Tool scheduled backups for servers databases and endpoints", "entities": [[25, 42, "BACKUP_TYPE"], [69, 78, "SCHEDULING_TYPE"]]}
+{"text": "SaaS Backup Tool protected M365 Google Workspace and Salesforce tenants", "entities": [[17, 31, "APPLICATION_TYPE"], [27, 38, "BACKUP_TYPE"]]}
+{"text": "Air-Gap Transfer Tool created 48 weekly copies across 3 vault accounts with 6 offline media sets", "entities": [[22, 39, "TRANSFER_TYPE"], [33, 39, "TOOL"], [54, 61, "FREQUENCY_TYPE"], [56, 70, "COPY_TYPE"]]}
+{"text": "Air-Gap Transfer Tool created offline logically air-gapped copies across accounts", "entities": [[22, 37, "AIR_GAP_TYPE"], [30, 47, "TRANSFER_TYPE"], [52, 65, "OFFLINE_TYPE"]]}
+{"text": "Data leak detected: SSN 123-45-6789 and credit card number 4532-1234-5678-9010 found in backup files. Immediate remediation required.", "entities": [[5, 9, "LEAK_TYPE"], [24, 35, "SSN"], [59, 78, "CREDIT_CARD_NUMBER"], [69, 78, "BACKUP_TYPE"], [85, 94, "ACTION_TYPE"], [95, 111, "REMEDIATION_TYPE"]]}
+{"text": "Key Management Crypto Engineer designed envelope encryption for backups with KMS HSM", "entities": [[0, 30, "ROLE"], [22, 39, "KEY_TYPE"], [31, 48, "MANAGEMENT_TYPE"], [40, 59, "CRYPTO_TYPE"]]}
+{"text": "DLP Scanner identified PII PHI and PCI data requiring protection", "entities": [[12, 30, "SCANNER_TYPE"]]}
+{"text": "Data Protection Policy Tool created backup policy with tiered RPO RTO targets", "entities": [[43, 49, "DATA_TYPE"], [55, 61, "TOOL"]]}
+{"text": "Recovery Point Objective RPO defined maximum acceptable data loss", "entities": [[0, 8, "METRIC_TYPE"], [9, 14, "POINT_TYPE"], [15, 24, "OBJECTIVE_TYPE"], [25, 28, "METRIC_TYPE"], [37, 44, "MAXIMUM_TYPE"], [45, 55, "ACCEPTABLE_TYPE"], [61, 65, "LOSS_TYPE"]]}
+{"text": "Google Cloud Backup service protected GCE instances and Cloud SQL databases", "entities": [[0, 6, "TOOL"], [7, 12, "CLOUD_PROVIDER"], [13, 19, "BACKUP_TYPE"], [20, 27, "SERVICE_TYPE"], [28, 41, "SERVICE_TYPE"], [38, 51, "INSTANCE_TYPE"], [62, 65, "SERVICE_TYPE"]]}
+{"text": "PAM Access Review Tool removed 19 excess privileges enforcing JIT and break-glass", "entities": [[0, 3, "TOOL"], [34, 40, "COUNT"], [34, 51, "PRIVILEGE_TYPE"], [41, 51, "PRIVILEGE_TYPE"], [62, 65, "AUTH_TYPE"]]}
+{"text": "Data Residency Checker validated data location constraints mapping backup targets", "entities": [[47, 58, "CHECKER_TYPE"], [67, 73, "DATA_TYPE"]]}
+{"text": "Enterprise Data Protection Backup Strategist defined 3-2-1-1-0 strategy with RPO RTO tiers", "entities": [[53, 62, "PROTECTION_TYPE"], [77, 90, "STRATEGY_TYPE"]]}
+{"text": "Rubrik backup platform enabled immutable backups with ransomware protection", "entities": [[0, 6, "TOOL"], [7, 13, "BACKUP_TYPE"], [31, 40, "IMMUTABILITY_TYPE"], [41, 48, "BACKUP_TYPE"]]}
+{"text": "Ransomware Anomaly Detector monitored backup patterns detecting mass deletes", "entities": [[28, 44, "RANSOMWARE_TYPE"], [45, 53, "ANOMALY_TYPE"]]}
+{"text": "Backup Orchestrator Tool scheduled backups for servers databases and endpoints", "entities": [[25, 42, "BACKUP_TYPE"], [69, 78, "SCHEDULING_TYPE"]]}
+{"text": "DLP Scanner identified PII PHI and PCI data requiring protection", "entities": [[12, 30, "SCANNER_TYPE"]]}
+{"text": "Cohesity backup platform automated lifecycle management for 2000 virtual machines", "entities": [[0, 8, "TOOL"], [9, 15, "BACKUP_TYPE"], [25, 44, "AUTOMATION_TYPE"], [35, 55, "LIFECYCLE_TYPE"], [65, 72, "COUNT"], [65, 81, "RESOURCE_TYPE"]]}
+{"text": "Rubrik data protection achieved 96% coverage with 98% restore success over 90 days", "entities": [[0, 6, "TOOL"], [12, 31, "PROTECTION_TYPE"], [36, 44, "METRIC_TYPE"], [62, 69, "METRIC_TYPE"], [62, 74, "RESTORE_TYPE"], [75, 82, "SUCCESS_TYPE"]]}
+{"text": "Retention Policy Manager enforced business legal retention and auto-archive", "entities": [[25, 42, "RETENTION_TYPE"], [63, 75, "BUSINESS_TYPE"]]}
+{"text": "Data Classification Tool discovered datasets tagging sensitivity and retention", "entities": [[45, 64, "DATA_TYPE"]]}
+{"text": "Borg backup tool protected 150 servers with deduplication reducing storage by 60%", "entities": [[0, 4, "TOOL"], [5, 11, "BACKUP_TYPE"], [31, 38, "SERVER_TYPE"], [67, 74, "METRIC_TYPE"], [67, 80, "STORAGE_TYPE"]]}
+{"text": "Veritas NetBackup platform enabled enterprise backup and recovery operations", "entities": [[0, 7, "TOOL"], [8, 17, "TOOL"], [35, 45, "BACKUP_TYPE"], [57, 65, "OPERATIONS_TYPE"]]}
+{"text": "Azure Archive Storage enabled cost-effective long-term backup storage", "entities": [[0, 5, "CLOUD_PROVIDER"], [6, 13, "ARCHIVE_TYPE"], [14, 29, "STORAGE_TYPE"], [30, 44, "COST_TYPE"], [45, 54, "RETENTION_TYPE"], [55, 61, "BACKUP_TYPE"]]}
+{"text": "Backup job success rate achieved 99.1% over 30 days with RPO met at 93%", "entities": [[0, 18, "BACKUP_TYPE"], [11, 18, "JOB_TYPE"], [33, 37, "METRIC_TYPE"], [36, 43, "METRIC_TYPE"], [47, 51, "TIME_UNIT"], [57, 60, "METRIC_TYPE"]]}
+{"text": "Commvault backup solution protected data with deduplication and compression", "entities": [[0, 9, "TOOL"], [10, 25, "BACKUP_TYPE"], [64, 75, "COMPRESSION_TYPE"]]}
+{"text": "Business Impact Analyzer identified tier1 applications with 1-hour RPO and 4-hour RTO", "entities": [[25, 41, "BUSINESS_TYPE"], [42, 54, "IMPACT_TYPE"], [67, 70, "TIER_TYPE"]]}
+{"text": "Backup testing performed restore drills validating recovery procedures", "entities": [[0, 6, "BACKUP_TYPE"], [15, 32, "RESTORE_TYPE"], [25, 39, "DRILL_TYPE"]]}
+{"text": "Veeam backup platform managed enterprise backups with replication and restore", "entities": [[0, 5, "TOOL"], [6, 12, "BACKUP_TYPE"], [30, 40, "BACKUP_TYPE"]]}
+{"text": "Cohesity backup solution provided unified backup and data management", "entities": [[0, 8, "TOOL"], [9, 15, "BACKUP_TYPE"], [34, 41, "UNIFIED_TYPE"], [42, 48, "BACKUP_TYPE"], [58, 68, "MANAGEMENT_TYPE"]]}
+{"text": "Backup malware detection found 2 hits in 30 days with automatic quarantine", "entities": [[54, 63, "TIME_UNIT"], [64, 74, "AUTOMATION_TYPE"]]}
+{"text": "Key Recovery Drill Tool performed quarterly key recovery exercises with dual-control", "entities": [[34, 43, "RECOVERY_TYPE"], [34, 47, "DRILL_TYPE"]]}
+{"text": "Reporting Dashboard Tool generated backup KPIs showing coverage and restore success", "entities": [[10, 19, "DASHBOARD_TYPE"], [25, 41, "BACKUP_TYPE"], [42, 46, "METRIC_TYPE"], [68, 83, "SUCCESS_TYPE"]]}
+{"text": "Restore Verification Tool tested 42 systems achieving 97% success rate with 22-minute MTTR", "entities": [[26, 43, "RESTORE_TYPE"], [44, 65, "TOOL"], [86, 90, "METRIC_TYPE"]]}
+{"text": "Veeam backup platform protected 500 workloads with 99.9% backup success rate", "entities": [[0, 5, "TOOL"], [6, 12, "BACKUP_TYPE"], [22, 35, "COUNT"], [32, 45, "WORKLOAD_TYPE"], [57, 63, "BACKUP_TYPE"], [64, 71, "SUCCESS_TYPE"]]}
+{"text": "Tape backup system provided offline air-gapped backup storage", "entities": [[0, 4, "MEDIA_TYPE"], [5, 11, "BACKUP_TYPE"], [28, 35, "OFFLINE_TYPE"], [36, 46, "AIR_GAP_TYPE"], [40, 53, "BACKUP_TYPE"], [47, 61, "STORAGE_TYPE"]]}
+{"text": "Ransomware Anomaly Detector suppressed 5 mass deletion attempts escalating 1 incident", "entities": [[28, 54, "THREAT_TYPE"], [55, 74, "DETECTOR_TYPE"]]}
+{"text": "Backup verification validated backup integrity and restore readiness", "entities": [[0, 6, "BACKUP_TYPE"], [20, 36, "BACKUP_TYPE"], [37, 46, "INTEGRITY_TYPE"], [51, 58, "RESTORE_TYPE"], [59, 68, "READINESS_TYPE"]]}
+{"text": "Cohesity backup platform automated lifecycle management for 2000 virtual machines", "entities": [[0, 8, "TOOL"], [9, 15, "BACKUP_TYPE"], [25, 44, "AUTOMATION_TYPE"], [35, 55, "LIFECYCLE_TYPE"], [65, 72, "COUNT"], [65, 81, "RESOURCE_TYPE"]]}
+{"text": "Snapshot Manager enforced snapshot policies with encryption and retention", "entities": [[0, 16, "TOOL"], [26, 34, "SNAPSHOT_TYPE"], [35, 43, "MANAGER_TYPE"]]}
+{"text": "Ransomware Resilience Backup Security Engineer enforced immutability and air-gap copies", "entities": [[56, 68, "RESILIENCE_TYPE"], [73, 87, "SECURITY_TYPE"]]}
+{"text": "Data Protection Strategist defined 3-2-1-1-0 backup strategy with tier0 RPO 0-5m and RTO less than 15 minutes", "entities": [[37, 51, "PROTECTION_TYPE"], [66, 77, "STRATEGY_TYPE"], [85, 93, "TIER_TYPE"], [89, 93, "METRIC_TYPE"], [94, 98, "METRIC_TYPE"], [99, 101, "TIME_UNIT"]]}
+{"text": "PAM Access Review Tool removed 19 excess privileges enforcing JIT and break-glass", "entities": [[0, 3, "TOOL"], [34, 40, "COUNT"], [34, 51, "PRIVILEGE_TYPE"], [41, 51, "PRIVILEGE_TYPE"], [62, 65, "AUTH_TYPE"]]}
+{"text": "PAM Access Review Tool locked down backup consoles enforcing least-privilege", "entities": [[0, 3, "TOOL"], [35, 41, "BACKUP_TYPE"], [42, 50, "CONSOLE_TYPE"]]}
+{"text": "Data protection cost per TB reduced to 11.7 USD with optimization", "entities": [[5, 35, "PROTECTION_TYPE"], [28, 35, "COST_TYPE"], [39, 43, "STORAGE_UNIT"]]}
+{"text": "Borg backup tool created deduplicated encrypted backups for Linux systems", "entities": [[0, 4, "TOOL"], [5, 11, "BACKUP_TYPE"], [38, 55, "BACKUP_TYPE"]]}
+{"text": "Key Management Crypto Engineer designed envelope encryption for backups with KMS HSM", "entities": [[0, 30, "ROLE"], [22, 39, "KEY_TYPE"], [31, 48, "MANAGEMENT_TYPE"], [40, 59, "CRYPTO_TYPE"]]}
+{"text": "Key Rotation Tool rotated 48 keys with 100% restore validation and zero rollbacks", "entities": [[18, 28, "KEY_TYPE"], [67, 81, "VALIDATION_TYPE"]]}
+{"text": "Restic backup tool provided encrypted incremental backups for cloud storage", "entities": [[0, 6, "TOOL"], [7, 13, "BACKUP_TYPE"], [38, 49, "INCREMENTAL_TYPE"], [50, 57, "BACKUP_TYPE"], [62, 67, "CLOUD_TYPE"], [68, 75, "STORAGE_TYPE"]]}
+{"text": "Key Rotation Tool rotated 48 keys with 100% restore validation and zero rollbacks", "entities": [[18, 28, "KEY_TYPE"], [67, 81, "VALIDATION_TYPE"]]}
+{"text": "Data protection false positive rate reduced to 1.2% improving anomaly detection accuracy", "entities": [[5, 30, "PROTECTION_TYPE"], [47, 50, "METRIC_TYPE"], [70, 88, "DETECTION_TYPE"]]}
+{"text": "Can you help me with this?", "entities": []}
+{"text": "I need to check something.", "entities": []}
+{"text": "What is the status?", "entities": []}
+{"text": "How do I do this?", "entities": []}
+{"text": "Tell me more about it.", "entities": []}
+{"text": "Is this safe to use?", "entities": []}
+{"text": "Let me know if you need anything.", "entities": []}
+{"text": "Thanks for your help.", "entities": []}
+{"text": "I will get back to you.", "entities": []}
+{"text": "Please review this document.", "entities": []}
+{"text": "What should I do next?", "entities": []}
+{"text": "How does this work?", "entities": []}
+{"text": "Why is this happening?", "entities": []}
+{"text": "When will this be ready?", "entities": []}
+{"text": "Where can I find this?", "entities": []}
+{"text": "Who should I contact?", "entities": []}
+{"text": "Hey, what's up?", "entities": []}
+{"text": "That's interesting.", "entities": []}
+{"text": "I see what you mean.", "entities": []}
+{"text": "That makes sense.", "entities": []}
+{"text": "Got it, thanks.", "entities": []}
+{"text": "Follow the steps carefully.", "entities": []}
+{"text": "Make sure to save your work.", "entities": []}
+{"text": "Check the settings first.", "entities": []}
+{"text": "Review the documentation.", "entities": []}
+{"text": "Read the instructions.", "entities": []}
+{"text": "This is important.", "entities": []}
+{"text": "That looks good.", "entities": []}
+{"text": "Everything seems fine.", "entities": []}
+{"text": "Nothing to report.", "entities": []}
+{"text": "All systems operational.", "entities": []}
+{"text": "The system is secure.", "entities": []}
+{"text": "All checks passed.", "entities": []}
+{"text": "No issues detected.", "entities": []}
+{"text": "Everything is working correctly.", "entities": []}
+{"text": "The configuration looks good.", "entities": []}
+{"text": "No vulnerabilities found.", "entities": []}
+{"text": "Security measures are in place.", "entities": []}
+{"text": "The audit was successful.", "entities": []}
+{"text": "The information is verified.", "entities": []}
+{"text": "Sources are reliable.", "entities": []}
+{"text": "The data is consistent.", "entities": []}

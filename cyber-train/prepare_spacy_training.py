@@ -103,9 +103,15 @@ class SpacyDataPreparer:
         """Validate intent JSONL format."""
         if "text" not in data:
             return False
-        if "cats" not in data:
-            return False
-        if not isinstance(data["cats"], dict):
+        # Support both "cats" (dict) and "intents" (dict or list) formats
+        if "cats" in data:
+            if not isinstance(data["cats"], dict):
+                return False
+        elif "intents" in data:
+            # "intents" can be either a dict (same as cats) or a list
+            if not isinstance(data["intents"], (dict, list)):
+                return False
+        else:
             return False
         return True
     
@@ -152,6 +158,17 @@ class SpacyDataPreparer:
                 try:
                     item = json.loads(line)
                     if self.validate_intent_format(item):
+                        # Convert "intents" format to "cats" (dict) format
+                        if "intents" in item and "cats" not in item:
+                            if isinstance(item["intents"], dict):
+                                # "intents" is already a dict (same format as "cats")
+                                item["cats"] = item["intents"]
+                            elif isinstance(item["intents"], list):
+                                # Convert list of intent labels to dict with 1.0 for each
+                                item["cats"] = {intent: 1.0 for intent in item["intents"]}
+                            # Remove "intents" key to avoid confusion
+                            del item["intents"]
+                        
                         data.append(item)
                         # Track labels
                         for label in item["cats"].keys():

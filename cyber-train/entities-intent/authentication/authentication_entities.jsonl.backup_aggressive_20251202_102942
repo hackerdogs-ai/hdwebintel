@@ -1,0 +1,440 @@
+{"text": "JumpCloud directory platform provided SSO for 3000 users with LDAP and SAML integration", "entities": [[0, 9, "TOOL"], [10, 19, "PLATFORM_TYPE"], [29, 41, "AUTH_TYPE"], [46, 56, "USER_TYPE"], [71, 87, "INTEGRATION_TYPE"]]}
+{"text": "Stale account remediation completed for 45 inactive accounts within 7-day SLA", "entities": [[40, 51, "ACCOUNT_TYPE"], [52, 67, "SLA_TYPE"]]}
+{"text": "Gluu identity platform managed authentication for 1000 users with OpenID Connect", "entities": [[0, 4, "TOOL"], [5, 13, "PLATFORM_TYPE"], [50, 60, "USER_TYPE"]]}
+{"text": "SSO federation coverage improved to 85% with 15 applications remaining non-federated", "entities": [[0, 3, "AUTH_TYPE"], [4, 23, "METRIC_TYPE"], [24, 32, "METRIC_TYPE"]]}
+{"text": "Privileged Access Authentication Monitor tracked root_aws and db_admin accounts detecting anomalies", "entities": [[41, 57, "ACCOUNT_NAME"]]}
+{"text": "Azure AD configured SSO federation for 45 SaaS applications with SAML authentication", "entities": [[0, 8, "CLOUD_PROVIDER"], [20, 23, "AUTH_TYPE"], [39, 59, "APPLICATION_TYPE"]]}
+{"text": "AWS IAM Identity Center configured SSO for 2000 AWS accounts with SAML federation", "entities": [[0, 3, "CLOUD_PROVIDER"], [4, 7, "TOOL"], [8, 23, "TOOL"], [43, 47, "CLOUD_PROVIDER"], [48, 60, "ACCOUNT_TYPE"]]}
+{"text": "YubiKey hardware security key enabled passwordless authentication for 500 privileged accounts", "entities": [[0, 7, "TOOL"], [17, 29, "TOKEN_TYPE"], [74, 84, "ACCOUNT_TYPE"]]}
+{"text": "Gluu identity platform managed authentication for 1000 users with OpenID Connect", "entities": [[0, 4, "TOOL"], [5, 13, "PLATFORM_TYPE"], [50, 60, "USER_TYPE"]]}
+{"text": "Compliance Framework Tool aligned authentication policy with NIST 800-63 and ISO 27001 standards", "entities": [[81, 96, "STANDARD_TYPE"]]}
+{"text": "Compliance Framework Tool aligned authentication policy with NIST 800-63 and ISO 27001 standards", "entities": [[81, 96, "STANDARD_TYPE"]]}
+{"text": "Stale account remediation completed for 45 inactive accounts within 7-day SLA", "entities": [[40, 51, "ACCOUNT_TYPE"], [52, 67, "SLA_TYPE"]]}
+{"text": "SIEM Tool detected 542 failed logins with credential stuffing and impossible travel anomalies", "entities": [[10, 22, "COUNT"], [19, 29, "LOGIN_TYPE"]]}
+{"text": "Passwordless authentication adoption reached 35% with WebAuthn and FIDO2 keys", "entities": [[54, 62, "AUTH_TYPE"]]}
+{"text": "MFA Enrollment Tracker identified 5200 enrolled users with 97.3% coverage and non-compliant accounts", "entities": [[34, 47, "USER_TYPE"], [48, 53, "METRIC_TYPE"]]}
+{"text": "Okta identity provider enforced MFA for all users with 96% enrollment completion", "entities": [[0, 4, "TOOL"], [5, 22, "PROVIDER_TYPE"], [44, 49, "METRIC_TYPE"], [59, 69, "COMPLETION_TYPE"]]}
+{"text": "Account lockout policy triggered after 5 failed login attempts requiring 30-minute cooldown", "entities": [[16, 22, "LOCKOUT_TYPE"], [33, 38, "LOGIN_TYPE"], [41, 47, "ATTEMPT_TYPE"], [54, 72, "COOLDOWN_TYPE"]]}
+{"text": "Reporting Dashboard Tool generated executive report showing 98.7% login success rate", "entities": [[25, 44, "REPORT_TYPE"], [52, 64, "LOGIN_TYPE"], [63, 71, "METRIC_TYPE"], [72, 79, "METRIC_TYPE"]]}
+{"text": "FIDO2 security keys registered for 150 high-privilege accounts requiring phishing-resistant auth", "entities": [[0, 5, "AUTH_TYPE"]]}
+{"text": "Compliance Mapping Tool verified MFA SSO session security and privileged access monitoring", "entities": [[33, 36, "AUTH_TYPE"], [37, 48, "SECURITY_TYPE"], [41, 57, "SECURITY_TYPE"]]}
+{"text": "Identity Policy Generator created MFA policy aligned with NIST 800-63 and ISO 27001", "entities": [[34, 37, "AUTH_TYPE"], [38, 44, "POLICY_TYPE"]]}
+{"text": "SIEM Tool detected 542 failed logins with credential stuffing and impossible travel anomalies", "entities": [[10, 22, "COUNT"], [19, 29, "LOGIN_TYPE"]]}
+{"text": "Ping Identity platform managed authentication for 5000 users with passwordless WebAuthn and FIDO2", "entities": [[50, 60, "USER_TYPE"], [66, 87, "AUTH_TYPE"], [79, 87, "AUTH_TYPE"]]}
+{"text": "Velocity abuse detected with 50 login attempts from single IP address in 5 minutes", "entities": [[0, 14, "ABUSE_TYPE"], [32, 37, "LOGIN_TYPE"]]}
+{"text": "Privileged Account Analytics Tool monitored root_aws and db_admin accounts detecting MFA bypass attempts", "entities": [[34, 52, "ACCOUNT_TYPE"], [57, 74, "ACCOUNT_NAME"]]}
+{"text": "Google Workspace identity provider configured SSO for 3000 users with SAML federation", "entities": [[0, 6, "TOOL"], [7, 16, "PROVIDER_TYPE"], [26, 45, "COUNT"], [35, 45, "USER_TYPE"], [54, 64, "FEDERATION_TYPE"]]}
+{"text": "Compliance Mapping Tool verified MFA SSO session security against NIST ISO and SOC2", "entities": [[33, 36, "AUTH_TYPE"], [37, 48, "SECURITY_TYPE"], [41, 57, "SECURITY_TYPE"], [71, 74, "FRAMEWORK"]]}
+{"text": "Confluence identity provider configured SSO for 800 users with SAML federation", "entities": [[0, 10, "TOOL"], [11, 19, "PROVIDER_TYPE"], [20, 28, "PROVIDER_TYPE"], [48, 51, "USER_TYPE"], [63, 78, "FEDERATION_TYPE"]]}
+{"text": "Stale account review identified 45 inactive accounts and 12 terminated employee accounts", "entities": [[32, 34, "COUNT"], [35, 43, "ACCOUNT_TYPE"]]}
+{"text": "Authentication training completion reached 95% for all employees and contractors", "entities": [[51, 64, "METRIC_TYPE"]]}
+{"text": "RSA SecurID token system provided MFA for 2000 users with hardware and software tokens", "entities": [[0, 3, "TOOL"], [4, 11, "TOOL"], [12, 17, "TOKEN_TYPE"], [34, 37, "AUTH_TYPE"], [42, 52, "USER_TYPE"]]}
+{"text": "JumpCloud directory platform provided SSO for 3000 users with LDAP and SAML integration", "entities": [[0, 9, "TOOL"], [10, 19, "PLATFORM_TYPE"], [29, 41, "AUTH_TYPE"], [46, 56, "USER_TYPE"], [71, 87, "INTEGRATION_TYPE"]]}
+{"text": "SSO federation coverage improved to 85% with 15 applications remaining non-federated", "entities": [[0, 3, "AUTH_TYPE"], [4, 23, "METRIC_TYPE"], [24, 32, "METRIC_TYPE"]]}
+{"text": "Session management audit found refresh tokens not expiring requiring 8-hour idle timeout", "entities": [[0, 18, "AUDIT_TYPE"], [31, 49, "TOKEN_TYPE"], [71, 75, "TIME_UNIT"], [71, 80, "TIMEOUT_TYPE"]]}
+{"text": "Google Workspace identity provider configured SSO for 3000 users with SAML federation", "entities": [[0, 6, "TOOL"], [7, 16, "PROVIDER_TYPE"], [26, 45, "COUNT"], [35, 45, "USER_TYPE"], [54, 64, "FEDERATION_TYPE"]]}
+{"text": "WebEx identity provider enabled SSO for 2000 users with SAML authentication", "entities": [[0, 5, "TOOL"], [6, 23, "PROVIDER_TYPE"], [15, 31, "PROVIDER_TYPE"], [40, 50, "COUNT"], [56, 60, "AUTH_TYPE"]]}
+{"text": "Ping Identity platform managed authentication for 5000 users with passwordless WebAuthn support", "entities": [[50, 60, "USER_TYPE"], [66, 87, "AUTH_TYPE"], [79, 87, "SUPPORT_TYPE"]]}
+{"text": "Azure AD B2C managed customer authentication for 50000 users with social login", "entities": [[0, 8, "CLOUD_PROVIDER"], [9, 12, "PROVIDER_TYPE"], [21, 44, "AUTH_TYPE"], [49, 60, "USER_TYPE"], [66, 78, "AUTH_TYPE"]]}
+{"text": "GitHub identity provider enforced MFA for 2000 developers with TOTP and WebAuthn", "entities": [[7, 24, "PROVIDER_TYPE"], [16, 33, "PROVIDER_TYPE"], [42, 46, "COUNT"], [47, 57, "USER_TYPE"], [63, 67, "AUTH_TYPE"], [72, 80, "AUTH_TYPE"]]}
+{"text": "OneDrive identity provider configured SSO for 2000 users with SAML federation", "entities": [[0, 8, "TOOL"], [9, 26, "PROVIDER_TYPE"], [18, 37, "PROVIDER_TYPE"], [27, 41, "AUTH_TYPE"], [46, 56, "USER_TYPE"], [62, 77, "FEDERATION_TYPE"]]}
+{"text": "Privileged Access Authentication Monitor tracked root_aws and db_admin accounts detecting anomalies", "entities": [[41, 57, "ACCOUNT_NAME"]]}
+{"text": "FIDO2 security keys registered for 150 high-privilege accounts requiring phishing-resistant auth", "entities": [[0, 5, "AUTH_TYPE"]]}
+{"text": "CyberArk privileged access management enforced MFA for 200 privileged accounts", "entities": [[0, 8, "TOOL"], [9, 26, "MANAGEMENT_TYPE"], [27, 37, "MANAGEMENT_TYPE"], [55, 69, "ACCOUNT_TYPE"]]}
+{"text": "Okta identity provider enforced MFA for 5000 users with 96% enrollment and WebAuthn support", "entities": [[0, 4, "TOOL"], [5, 22, "PROVIDER_TYPE"], [40, 50, "USER_TYPE"], [56, 70, "ENROLLMENT_TYPE"], [75, 91, "SUPPORT_TYPE"]]}
+{"text": "Azure AD B2C managed customer authentication for 50000 users with social login", "entities": [[0, 8, "CLOUD_PROVIDER"], [9, 12, "PROVIDER_TYPE"], [21, 44, "AUTH_TYPE"], [49, 60, "USER_TYPE"], [66, 78, "AUTH_TYPE"]]}
+{"text": "Latency Monitor Tool measured authentication latency with Salesforce at 245ms and Workday at 310ms", "entities": [[21, 44, "METRIC_TYPE"], [72, 77, "APPLICATION_NAME"]]}
+{"text": "Identity Provider API Tool identified 78% SSO federation coverage with Jira and Zoom pending", "entities": [[27, 45, "FEDERATION_TYPE"], [46, 56, "METRIC_TYPE"], [71, 75, "APPLICATION_NAME"]]}
+{"text": "Auth0 identity platform managed authentication for 15000 users with social login support", "entities": [[0, 5, "TOOL"], [6, 14, "PLATFORM_TYPE"], [51, 62, "USER_TYPE"], [68, 80, "SUPPORT_TYPE"]]}
+{"text": "Authentication latency SLA compliance achieved 96% with average response time 280ms", "entities": [[47, 50, "SLA_TYPE"]]}
+{"text": "Slack identity provider configured SSO for 5000 users with SAML and OAuth2", "entities": [[6, 23, "PROVIDER_TYPE"], [15, 34, "PROVIDER_TYPE"], [35, 38, "AUTH_TYPE"], [43, 47, "COUNT"], [48, 53, "USER_TYPE"], [59, 63, "AUTH_TYPE"], [68, 74, "AUTH_TYPE"]]}
+{"text": "Identity Provider API Tool identified 78% SSO federation coverage with Jira and Zoom pending", "entities": [[27, 45, "FEDERATION_TYPE"], [46, 56, "METRIC_TYPE"], [71, 75, "APPLICATION_NAME"]]}
+{"text": "FreeIPA identity management system managed 2000 user accounts with LDAP integration", "entities": [[0, 7, "TOOL"], [8, 34, "SYSTEM_TYPE"], [43, 52, "COUNT"], [48, 61, "ACCOUNT_TYPE"]]}
+{"text": "Box identity provider configured SSO for 1500 users with SAML and OAuth2", "entities": [[0, 3, "TOOL"], [4, 21, "PROVIDER_TYPE"], [22, 32, "PROVIDER_TYPE"], [41, 51, "COUNT"], [57, 61, "AUTH_TYPE"]]}
+{"text": "Azure AD configured SSO federation for 45 SaaS applications with SAML OAuth2 authentication", "entities": [[0, 8, "CLOUD_PROVIDER"], [20, 23, "AUTH_TYPE"], [39, 59, "APPLICATION_TYPE"], [65, 69, "AUTH_TYPE"]]}
+{"text": "Passwordless authentication adoption reached 35% with WebAuthn and FIDO2 keys", "entities": [[54, 62, "AUTH_TYPE"]]}
+{"text": "CyberArk privileged access management enforced MFA for 200 privileged accounts", "entities": [[0, 8, "TOOL"], [9, 26, "MANAGEMENT_TYPE"], [27, 37, "MANAGEMENT_TYPE"], [55, 69, "ACCOUNT_TYPE"]]}
+{"text": "Log Analysis Tool analyzed authentication logs identifying impossible travel and velocity abuse", "entities": []}
+{"text": "FreeIPA identity management system managed 2000 user accounts with LDAP and Kerberos", "entities": [[0, 7, "TOOL"], [8, 34, "SYSTEM_TYPE"], [43, 52, "COUNT"], [48, 61, "ACCOUNT_TYPE"]]}
+{"text": "Audit Checklist Tool validated authentication controls scoring 91% compliance with remediation findings", "entities": [[63, 65, "METRIC_TYPE"]]}
+{"text": "MFA Enrollment Tracker identified 5200 enrolled users with 97.3% coverage and non-compliant accounts", "entities": [[34, 47, "USER_TYPE"], [48, 53, "METRIC_TYPE"]]}
+{"text": "GitLab identity provider configured SSO for 1500 users with SAML and OIDC", "entities": [[0, 6, "TOOL"], [7, 24, "PROVIDER_TYPE"], [16, 35, "PROVIDER_TYPE"], [36, 39, "AUTH_TYPE"], [44, 48, "COUNT"], [49, 54, "USER_TYPE"]]}
+{"text": "Audit Checklist Tool validated authentication controls scoring 91% compliance with remediation findings", "entities": [[63, 65, "METRIC_TYPE"]]}
+{"text": "FreeIPA identity management system managed 2000 user accounts with LDAP integration", "entities": [[0, 7, "TOOL"], [8, 34, "SYSTEM_TYPE"], [43, 52, "COUNT"], [48, 61, "ACCOUNT_TYPE"]]}
+{"text": "Okta identity provider enforced MFA for all users with 96% enrollment completion", "entities": [[0, 4, "TOOL"], [5, 22, "PROVIDER_TYPE"], [44, 49, "METRIC_TYPE"], [59, 69, "COMPLETION_TYPE"]]}
+{"text": "Duo Security MFA platform blocked 23 authentication bypass attempts in last 24 hours", "entities": [[13, 16, "AUTH_TYPE"]]}
+{"text": "Microsoft Entra ID managed authentication for 10000 users with conditional access policies", "entities": [[0, 9, "TOOL"], [10, 15, "TOOL"], [46, 51, "COUNT"], [52, 57, "USER_TYPE"]]}
+{"text": "Password policy enforcement required 12-character minimum with complexity requirements", "entities": [[37, 49, "MINIMUM_TYPE"]]}
+{"text": "Authentication false positive rate reduced to 2.1% improving alert accuracy", "entities": [[46, 50, "METRIC_TYPE"], [61, 75, "METRIC_TYPE"]]}
+{"text": "Authentication Operations Engineer monitored login health detecting 542 failed logins and anomalies", "entities": [[35, 50, "LOGIN_TYPE"], [45, 57, "HEALTH_TYPE"], [68, 78, "LOGIN_TYPE"]]}
+{"text": "WSO2 Identity Server provided SSO and MFA for 5000 users with OAuth2 and SAML", "entities": [[0, 4, "TOOL"], [5, 20, "TOOL"], [21, 33, "AUTH_TYPE"], [46, 56, "USER_TYPE"]]}
+{"text": "Identity Provider API Tool identified 78% SSO federation coverage with Jira and Zoom pending", "entities": [[27, 45, "FEDERATION_TYPE"], [46, 56, "METRIC_TYPE"], [71, 75, "APPLICATION_NAME"]]}
+{"text": "Google Cloud Identity configured SSO for 1000 GCP projects with OAuth2 authentication", "entities": [[0, 6, "TOOL"], [7, 12, "CLOUD_PROVIDER"], [13, 21, "TOOL"], [41, 45, "CLOUD_PROVIDER"], [46, 58, "PROJECT_TYPE"]]}
+{"text": "Credential stuffing attack identified 1300 automated login attempts using breached credentials", "entities": [[38, 42, "COUNT"], [53, 67, "ATTEMPT_TYPE"]]}
+{"text": "Compliance Framework Tool aligned authentication policy with NIST 800-63 and ISO 27001 standards", "entities": [[81, 96, "STANDARD_TYPE"]]}
+{"text": "Google Cloud Identity configured SSO for 1000 GCP projects with OAuth2 authentication", "entities": [[0, 6, "TOOL"], [7, 12, "CLOUD_PROVIDER"], [13, 21, "TOOL"], [41, 45, "CLOUD_PROVIDER"], [46, 58, "PROJECT_TYPE"]]}
+{"text": "MFA Enrollment Tracker identified 5200 enrolled users with 97.3% coverage and 2 non-compliant accounts", "entities": [[34, 47, "USER_TYPE"], [48, 53, "METRIC_TYPE"]]}
+{"text": "Gluu identity platform managed authentication for 1000 users with OpenID Connect", "entities": [[0, 4, "TOOL"], [5, 13, "PLATFORM_TYPE"], [50, 60, "USER_TYPE"]]}
+{"text": "MFA Enrollment Tracker identified 5200 enrolled users with 97.3% coverage and 2 non-compliant accounts", "entities": [[34, 47, "USER_TYPE"], [48, 53, "METRIC_TYPE"]]}
+{"text": "YubiKey hardware tokens deployed for 300 privileged accounts requiring physical authentication", "entities": [[0, 7, "TOOL"]]}
+{"text": "Authentication Operations Engineer monitored login health detecting 542 failed logins and anomalies", "entities": [[35, 50, "LOGIN_TYPE"], [45, 57, "HEALTH_TYPE"], [68, 78, "LOGIN_TYPE"]]}
+{"text": "GitHub identity provider enforced MFA for 2000 developers with TOTP and WebAuthn", "entities": [[7, 24, "PROVIDER_TYPE"], [16, 33, "PROVIDER_TYPE"], [42, 46, "COUNT"], [47, 57, "USER_TYPE"], [63, 67, "AUTH_TYPE"], [72, 80, "AUTH_TYPE"]]}
+{"text": "Salesforce identity provider enforced MFA for 3000 users with SMS and authenticator apps", "entities": [[11, 19, "PROVIDER_TYPE"], [20, 28, "PROVIDER_TYPE"], [29, 41, "AUTH_TYPE"], [46, 56, "USER_TYPE"], [70, 83, "APPLICATION_TYPE"]]}
+{"text": "Duo Security MFA platform protected 8000 users with push biometric and hardware tokens", "entities": [[0, 3, "TOOL"], [13, 25, "PLATFORM_TYPE"], [36, 40, "COUNT"], [41, 46, "USER_TYPE"], [52, 56, "AUTH_TYPE"]]}
+{"text": "Thycotic Secret Server managed privileged account passwords with MFA and rotation", "entities": [[0, 8, "TOOL"], [9, 22, "TOOL"], [23, 41, "ACCOUNT_TYPE"], [65, 68, "AUTH_TYPE"]]}
+{"text": "Auth0 identity platform managed authentication for 15000 users with social login support", "entities": [[0, 5, "TOOL"], [6, 14, "PLATFORM_TYPE"], [51, 62, "USER_TYPE"], [68, 80, "SUPPORT_TYPE"]]}
+{"text": "WebEx identity provider enabled SSO for 2000 users with SAML authentication", "entities": [[0, 5, "TOOL"], [6, 23, "PROVIDER_TYPE"], [15, 31, "PROVIDER_TYPE"], [40, 50, "COUNT"], [56, 60, "AUTH_TYPE"]]}
+{"text": "Latency Monitor Tool measured authentication latency with Salesforce at 245ms exceeding SLA", "entities": [[21, 44, "METRIC_TYPE"], [72, 77, "METRIC_TYPE"]]}
+{"text": "Zoom identity provider configured SSO for 3000 users with SAML federation", "entities": [[0, 4, "TOOL"], [5, 22, "PROVIDER_TYPE"], [14, 33, "PROVIDER_TYPE"], [42, 46, "COUNT"], [47, 52, "USER_TYPE"], [58, 62, "AUTH_TYPE"]]}
+{"text": "Bitbucket identity provider enabled SSO for 800 users with SAML authentication", "entities": [[0, 9, "TOOL"], [10, 27, "PROVIDER_TYPE"], [19, 27, "PROVIDER_TYPE"], [36, 39, "AUTH_TYPE"], [44, 47, "COUNT"], [48, 53, "USER_TYPE"]]}
+{"text": "Stale account review identified 45 inactive accounts and 12 terminated employee accounts", "entities": [[32, 34, "COUNT"], [35, 43, "ACCOUNT_TYPE"]]}
+{"text": "SIEM Tool detected 542 failed logins with credential stuffing and impossible travel anomalies", "entities": [[10, 22, "COUNT"], [19, 29, "LOGIN_TYPE"]]}
+{"text": "Identity Policy Generator created MFA policy aligned with NIST 800-63 and ISO 27001", "entities": [[34, 37, "AUTH_TYPE"], [38, 44, "POLICY_TYPE"]]}
+{"text": "Impossible travel detection flagged login from New York followed by London within 2 hours", "entities": [[0, 17, "DETECTION_TYPE"], [28, 41, "LOGIN_TYPE"], [47, 55, "LOCATION"], [56, 64, "LOCATION"]]}
+{"text": "Box identity provider configured SSO for 1500 users with SAML and OAuth2", "entities": [[0, 3, "TOOL"], [4, 21, "PROVIDER_TYPE"], [22, 32, "PROVIDER_TYPE"], [41, 51, "COUNT"], [57, 61, "AUTH_TYPE"]]}
+{"text": "Splunk identity provider configured SSO for 500 users with SAML authentication", "entities": [[0, 6, "TOOL"], [7, 24, "PROVIDER_TYPE"], [16, 35, "PROVIDER_TYPE"], [36, 39, "AUTH_TYPE"], [44, 47, "COUNT"], [48, 53, "USER_TYPE"]]}
+{"text": "IAM Data Extractor found non-federated apps including Notion and Miro requiring SSO integration", "entities": [[65, 79, "AUTH_TYPE"]]}
+{"text": "Google Authenticator TOTP app generated time-based codes for 4500 enrolled users", "entities": [[21, 25, "AUTH_TYPE"], [26, 29, "APP_TYPE"]]}
+{"text": "CyberArk privileged access management enforced MFA for 200 privileged accounts", "entities": [[0, 8, "TOOL"], [9, 26, "MANAGEMENT_TYPE"], [27, 37, "MANAGEMENT_TYPE"], [55, 69, "ACCOUNT_TYPE"]]}
+{"text": "Authentication false positive rate reduced to 2.1% improving alert accuracy", "entities": [[46, 50, "METRIC_TYPE"], [61, 75, "METRIC_TYPE"]]}
+{"text": "BeyondTrust privileged access management required MFA for admin accounts with session recording", "entities": [[0, 11, "TOOL"], [12, 29, "MANAGEMENT_TYPE"], [30, 40, "MANAGEMENT_TYPE"], [58, 72, "ACCOUNT_TYPE"], [78, 95, "RECORDING_TYPE"]]}
+{"text": "ServiceNow identity provider configured SSO for 2000 users with SAML and OAuth2", "entities": [[0, 10, "TOOL"], [11, 19, "PROVIDER_TYPE"], [20, 28, "PROVIDER_TYPE"], [48, 52, "USER_TYPE"]]}
+{"text": "RSA SecurID token system provided MFA for 2000 users with hardware and software tokens", "entities": [[0, 3, "TOOL"], [4, 11, "TOOL"], [12, 17, "TOKEN_TYPE"], [34, 37, "AUTH_TYPE"], [42, 52, "USER_TYPE"]]}
+{"text": "Privileged Account Analytics Tool monitored privileged accounts detecting MFA bypass attempts", "entities": [[34, 54, "ACCOUNT_TYPE"], [44, 63, "ACCOUNT_TYPE"], [78, 93, "ATTACK_TYPE"]]}
+{"text": "Google Workspace identity provider configured SSO for 3000 users with SAML federation", "entities": [[0, 6, "TOOL"], [7, 16, "PROVIDER_TYPE"], [26, 45, "COUNT"], [35, 45, "USER_TYPE"], [54, 64, "FEDERATION_TYPE"]]}
+{"text": "Auth0 identity platform managed authentication for 15000 users with social login support", "entities": [[0, 5, "TOOL"], [6, 14, "PLATFORM_TYPE"], [51, 62, "USER_TYPE"], [68, 80, "SUPPORT_TYPE"]]}
+{"text": "OneDrive identity provider configured SSO for 2000 users with SAML federation", "entities": [[0, 8, "TOOL"], [9, 26, "PROVIDER_TYPE"], [18, 37, "PROVIDER_TYPE"], [27, 41, "AUTH_TYPE"], [46, 56, "USER_TYPE"], [62, 77, "FEDERATION_TYPE"]]}
+{"text": "Microsoft Teams identity provider enforced MFA for 10000 users with conditional access", "entities": [[0, 9, "TOOL"], [16, 33, "PROVIDER_TYPE"], [51, 56, "USER_TYPE"]]}
+{"text": "Zoom identity provider configured SSO for 3000 users with SAML federation", "entities": [[0, 4, "TOOL"], [5, 22, "PROVIDER_TYPE"], [14, 33, "PROVIDER_TYPE"], [42, 46, "COUNT"], [47, 52, "USER_TYPE"], [58, 62, "AUTH_TYPE"]]}
+{"text": "Enterprise Authentication Strategist designed MFA rollout strategy with passwordless adoption plan", "entities": [[37, 49, "AUTH_TYPE"], [46, 57, "STRATEGY_TYPE"]]}
+{"text": "Compliance Framework Tool aligned authentication policy with NIST 800-63 and ISO 27001 standards", "entities": [[81, 96, "STANDARD_TYPE"]]}
+{"text": "Privileged access monitoring coverage achieved 100% for all admin and service accounts", "entities": [[0, 10, "ACCESS_TYPE"], [18, 37, "METRIC_TYPE"], [29, 46, "ACCOUNT_TYPE"], [38, 51, "ACCOUNT_TYPE"]]}
+{"text": "WebEx identity provider enabled SSO for 2000 users with SAML authentication", "entities": [[0, 5, "TOOL"], [6, 23, "PROVIDER_TYPE"], [15, 31, "PROVIDER_TYPE"], [40, 50, "COUNT"], [56, 60, "AUTH_TYPE"]]}
+{"text": "Authentication Operations Engineer monitored login health detecting 542 failed logins and anomalies", "entities": [[35, 50, "LOGIN_TYPE"], [45, 57, "HEALTH_TYPE"], [68, 78, "LOGIN_TYPE"]]}
+{"text": "Authentication incident INC123 escalated to SOC with credential stuffing severity high", "entities": []}
+{"text": "Identity Provider API Tool identified 78% SSO federation coverage with Jira and Zoom pending", "entities": [[27, 45, "FEDERATION_TYPE"], [46, 56, "METRIC_TYPE"], [71, 75, "APPLICATION_NAME"]]}
+{"text": "Splunk identity provider configured SSO for 500 users with SAML authentication", "entities": [[0, 6, "TOOL"], [7, 24, "PROVIDER_TYPE"], [16, 35, "PROVIDER_TYPE"], [36, 39, "AUTH_TYPE"], [44, 47, "COUNT"], [48, 53, "USER_TYPE"]]}
+{"text": "Shibboleth identity provider enabled SAML federation for 50 applications with SSO", "entities": [[0, 10, "TOOL"], [11, 19, "PROVIDER_TYPE"], [20, 28, "PROVIDER_TYPE"], [37, 41, "AUTH_TYPE"], [42, 52, "FEDERATION_TYPE"]]}
+{"text": "Stale account remediation completed for 45 inactive accounts within 7-day SLA", "entities": [[40, 51, "ACCOUNT_TYPE"], [52, 67, "SLA_TYPE"]]}
+{"text": "WebEx identity provider enabled SSO for 2000 users with SAML authentication", "entities": [[0, 5, "TOOL"], [6, 23, "PROVIDER_TYPE"], [15, 31, "PROVIDER_TYPE"], [40, 50, "COUNT"], [56, 60, "AUTH_TYPE"]]}
+{"text": "ServiceNow identity provider configured SSO for 2000 users with SAML and OAuth2", "entities": [[0, 10, "TOOL"], [11, 19, "PROVIDER_TYPE"], [20, 28, "PROVIDER_TYPE"], [48, 52, "USER_TYPE"]]}
+{"text": "CyberArk privileged access management enforced MFA for 200 privileged accounts", "entities": [[0, 8, "TOOL"], [9, 26, "MANAGEMENT_TYPE"], [27, 37, "MANAGEMENT_TYPE"], [55, 69, "ACCOUNT_TYPE"]]}
+{"text": "Okta identity provider enforced MFA for 5000 users with 96% enrollment and WebAuthn support", "entities": [[0, 4, "TOOL"], [5, 22, "PROVIDER_TYPE"], [40, 50, "USER_TYPE"], [56, 70, "ENROLLMENT_TYPE"], [75, 91, "SUPPORT_TYPE"]]}
+{"text": "Privileged Access Authentication Monitor tracked root_aws and db_admin accounts detecting anomalies", "entities": [[41, 57, "ACCOUNT_NAME"]]}
+{"text": "Identity Provider API Tool retrieved MFA enrollment data showing 94% coverage with contractors missing", "entities": [[37, 51, "ENROLLMENT_TYPE"], [65, 77, "COVERAGE_TYPE"]]}
+{"text": "ForgeRock identity platform enabled passwordless authentication with WebAuthn and FIDO2", "entities": [[10, 18, "PLATFORM_TYPE"], [69, 77, "AUTH_TYPE"]]}
+{"text": "WSO2 Identity Server provided SSO and MFA for 5000 users with OAuth2 and SAML", "entities": [[0, 4, "TOOL"], [5, 20, "TOOL"], [21, 33, "AUTH_TYPE"], [46, 56, "USER_TYPE"]]}
+{"text": "Reporting Dashboard Tool generated executive report showing 98.7% login success rate", "entities": [[25, 44, "REPORT_TYPE"], [52, 64, "LOGIN_TYPE"], [63, 71, "METRIC_TYPE"], [72, 79, "METRIC_TYPE"]]}
+{"text": "YubiKey hardware security key enabled passwordless authentication for 500 privileged accounts", "entities": [[0, 7, "TOOL"], [17, 29, "TOKEN_TYPE"], [74, 84, "ACCOUNT_TYPE"]]}
+{"text": "Credential stuffing attack identified 1300 automated login attempts using breached credentials", "entities": [[38, 42, "COUNT"], [53, 67, "ATTEMPT_TYPE"]]}
+{"text": "Account lockout policy triggered after 5 failed login attempts requiring 30-minute cooldown", "entities": [[16, 22, "LOCKOUT_TYPE"], [33, 38, "LOGIN_TYPE"], [41, 47, "ATTEMPT_TYPE"], [54, 72, "COOLDOWN_TYPE"]]}
+{"text": "Impossible travel detection flagged login from New York followed by London within 2 hours", "entities": [[0, 17, "DETECTION_TYPE"], [28, 41, "LOGIN_TYPE"], [47, 55, "LOCATION"], [56, 64, "LOCATION"]]}
+{"text": "MFA Enrollment Tracker identified 5200 enrolled users with 97.3% coverage and 2 non-compliant accounts", "entities": [[34, 47, "USER_TYPE"], [48, 53, "METRIC_TYPE"]]}
+{"text": "IAM Data Extractor extracted last login timestamps identifying stale accounts and terminated employees", "entities": [[19, 39, "TIMESTAMP_TYPE"], [40, 62, "ACCOUNT_TYPE"]]}
+{"text": "Latency Monitor Tool measured authentication latency with Salesforce at 245ms exceeding SLA", "entities": [[21, 44, "METRIC_TYPE"], [72, 77, "METRIC_TYPE"]]}
+{"text": "Privileged Account Analytics Tool monitored privileged accounts detecting MFA bypass attempts", "entities": [[34, 54, "ACCOUNT_TYPE"], [44, 63, "ACCOUNT_TYPE"], [78, 93, "ATTACK_TYPE"]]}
+{"text": "BeyondTrust privileged access management required MFA for admin accounts with session recording", "entities": [[0, 11, "TOOL"], [12, 29, "MANAGEMENT_TYPE"], [30, 40, "MANAGEMENT_TYPE"], [58, 72, "ACCOUNT_TYPE"], [78, 95, "RECORDING_TYPE"]]}
+{"text": "Authentication Strategist defined MFA policy requiring 100% coverage for all users and privileged accounts", "entities": [[34, 37, "AUTH_TYPE"], [38, 44, "POLICY_TYPE"], [55, 58, "METRIC_TYPE"], [55, 68, "COVERAGE_TYPE"]]}
+{"text": "SSO federation coverage improved to 85% with 15 applications remaining non-federated", "entities": [[0, 3, "AUTH_TYPE"], [4, 23, "METRIC_TYPE"], [24, 32, "METRIC_TYPE"]]}
+{"text": "Keycloak open source identity provider enabled OAuth2 and OpenID Connect for applications", "entities": [[0, 8, "TOOL"], [21, 38, "PROVIDER_TYPE"], [39, 53, "AUTH_TYPE"]]}
+{"text": "OneLogin identity provider enforced MFA with SMS TOTP and push notifications", "entities": [[0, 8, "TOOL"], [9, 26, "PROVIDER_TYPE"], [36, 39, "AUTH_TYPE"], [49, 53, "NOTIFICATION_TYPE"]]}
+{"text": "YubiKey hardware security key enabled passwordless authentication for 500 privileged accounts", "entities": [[0, 7, "TOOL"], [17, 29, "TOKEN_TYPE"], [74, 84, "ACCOUNT_TYPE"]]}
+{"text": "Log Analysis Tool correlated credential attacks across regions identifying 1300 credential stuffing attempts", "entities": [[48, 62, "REGION_TYPE"], [91, 108, "COUNT"]]}
+{"text": "Authelia authentication server enforced two-factor authentication with TOTP codes", "entities": [[71, 75, "AUTH_TYPE"]]}
+{"text": "Authelia authentication server enforced two-factor authentication with TOTP and WebAuthn", "entities": [[71, 75, "AUTH_TYPE"]]}
+{"text": "Google Authenticator TOTP app generated time-based codes for 4500 enrolled users", "entities": [[21, 25, "AUTH_TYPE"], [26, 29, "APP_TYPE"]]}
+{"text": "Session hijacking prevented by invalidating all active sessions after suspicious activity", "entities": [[18, 43, "ACTION_TYPE"], [44, 54, "SESSION_TYPE"], [55, 69, "ACTIVITY_TYPE"]]}
+{"text": "Enterprise Authentication Strategist designed MFA rollout strategy with passwordless adoption plan", "entities": [[37, 49, "AUTH_TYPE"], [46, 57, "STRATEGY_TYPE"]]}
+{"text": "RSA SecurID token system provided MFA for 2000 users with hardware and software tokens", "entities": [[0, 3, "TOOL"], [4, 11, "TOOL"], [12, 17, "TOKEN_TYPE"], [34, 37, "AUTH_TYPE"], [42, 52, "USER_TYPE"]]}
+{"text": "Authentication Compliance Analyst audited authentication systems for stale accounts and session management", "entities": [[69, 83, "ACCOUNT_TYPE"], [88, 106, "MANAGEMENT_TYPE"]]}
+{"text": "Identity Provider API Tool retrieved MFA enrollment data showing 94% coverage with contractors missing", "entities": [[37, 51, "ENROLLMENT_TYPE"], [65, 77, "COVERAGE_TYPE"]]}
+{"text": "Ping Identity platform managed authentication for 5000 users with passwordless WebAuthn support", "entities": [[50, 60, "USER_TYPE"], [66, 87, "AUTH_TYPE"], [79, 87, "SUPPORT_TYPE"]]}
+{"text": "Keycloak open source identity provider enabled OAuth2 OpenID Connect and SAML for applications", "entities": [[0, 8, "TOOL"], [21, 38, "PROVIDER_TYPE"], [39, 53, "AUTH_TYPE"], [54, 68, "AUTH_TYPE"], [82, 94, "AUTH_TYPE"]]}
+{"text": "Thycotic Secret Server managed privileged account passwords with MFA and rotation", "entities": [[0, 8, "TOOL"], [9, 22, "TOOL"], [23, 41, "ACCOUNT_TYPE"], [65, 68, "AUTH_TYPE"]]}
+{"text": "Authelia authentication server enforced two-factor authentication with TOTP and WebAuthn", "entities": [[71, 75, "AUTH_TYPE"]]}
+{"text": "IAM Data Extractor found non-federated apps including Notion and Miro requiring SSO integration", "entities": [[65, 79, "AUTH_TYPE"]]}
+{"text": "Thycotic Secret Server managed privileged account passwords with MFA and rotation", "entities": [[0, 8, "TOOL"], [9, 22, "TOOL"], [23, 41, "ACCOUNT_TYPE"], [65, 68, "AUTH_TYPE"]]}
+{"text": "Passwordless authentication adoption reached 35% with WebAuthn and FIDO2 keys", "entities": [[54, 62, "AUTH_TYPE"]]}
+{"text": "Authentication Strategist defined MFA policy requiring 100% coverage for all users and privileged accounts", "entities": [[34, 37, "AUTH_TYPE"], [38, 44, "POLICY_TYPE"], [55, 58, "METRIC_TYPE"], [55, 68, "COVERAGE_TYPE"]]}
+{"text": "FIDO2 security keys registered for 150 high-privilege accounts requiring phishing-resistant auth", "entities": [[0, 5, "AUTH_TYPE"]]}
+{"text": "Identity Provider API Tool retrieved MFA enrollment data showing 94% coverage with contractors missing", "entities": [[37, 51, "ENROLLMENT_TYPE"], [65, 77, "COVERAGE_TYPE"]]}
+{"text": "SSO federation coverage improved to 85% with 15 applications remaining non-federated", "entities": [[0, 3, "AUTH_TYPE"], [4, 23, "METRIC_TYPE"], [24, 32, "METRIC_TYPE"]]}
+{"text": "AWS IAM Identity Center configured SSO for 2000 AWS accounts with SAML federation", "entities": [[0, 3, "CLOUD_PROVIDER"], [4, 7, "TOOL"], [8, 23, "TOOL"], [43, 47, "CLOUD_PROVIDER"], [48, 60, "ACCOUNT_TYPE"]]}
+{"text": "Confluence identity provider configured SSO for 800 users with SAML federation", "entities": [[0, 10, "TOOL"], [11, 19, "PROVIDER_TYPE"], [20, 28, "PROVIDER_TYPE"], [48, 51, "USER_TYPE"], [63, 78, "FEDERATION_TYPE"]]}
+{"text": "Log Analysis Tool correlated credential attacks across regions identifying 1300 credential stuffing attempts", "entities": [[48, 62, "REGION_TYPE"], [91, 108, "COUNT"]]}
+{"text": "Slack identity provider configured SSO for 5000 users with SAML and OAuth2", "entities": [[6, 23, "PROVIDER_TYPE"], [15, 34, "PROVIDER_TYPE"], [35, 38, "AUTH_TYPE"], [43, 47, "COUNT"], [48, 53, "USER_TYPE"], [59, 63, "AUTH_TYPE"], [68, 74, "AUTH_TYPE"]]}
+{"text": "Ping Identity platform managed authentication for 5000 users with passwordless WebAuthn and FIDO2", "entities": [[50, 60, "USER_TYPE"], [66, 87, "AUTH_TYPE"], [79, 87, "AUTH_TYPE"]]}
+{"text": "Passwordless authentication adoption reached 35% with WebAuthn and FIDO2 keys", "entities": [[54, 62, "AUTH_TYPE"]]}
+{"text": "Zoom identity provider configured SSO for 3000 users with SAML federation", "entities": [[0, 4, "TOOL"], [5, 22, "PROVIDER_TYPE"], [14, 33, "PROVIDER_TYPE"], [42, 46, "COUNT"], [47, 52, "USER_TYPE"], [58, 62, "AUTH_TYPE"]]}
+{"text": "Authentication latency SLA compliance achieved 96% with average response time 280ms", "entities": [[47, 50, "SLA_TYPE"]]}
+{"text": "Slack identity provider configured SSO for 5000 users with SAML and OAuth2", "entities": [[6, 23, "PROVIDER_TYPE"], [15, 34, "PROVIDER_TYPE"], [35, 38, "AUTH_TYPE"], [43, 47, "COUNT"], [48, 53, "USER_TYPE"], [59, 63, "AUTH_TYPE"], [68, 74, "AUTH_TYPE"]]}
+{"text": "GitLab identity provider configured SSO for 1500 users with SAML and OIDC", "entities": [[0, 6, "TOOL"], [7, 24, "PROVIDER_TYPE"], [16, 35, "PROVIDER_TYPE"], [36, 39, "AUTH_TYPE"], [44, 48, "COUNT"], [49, 54, "USER_TYPE"]]}
+{"text": "Microsoft Teams identity provider enforced MFA for 10000 users with conditional access", "entities": [[0, 9, "TOOL"], [16, 33, "PROVIDER_TYPE"], [51, 56, "USER_TYPE"]]}
+{"text": "Session management audit found refresh tokens not expiring requiring 8-hour idle timeout", "entities": [[0, 18, "AUDIT_TYPE"], [31, 49, "TOKEN_TYPE"], [71, 75, "TIME_UNIT"], [71, 80, "TIMEOUT_TYPE"]]}
+{"text": "IAM Data Extractor found non-federated apps including Notion and Miro requiring SSO integration", "entities": [[65, 79, "AUTH_TYPE"]]}
+{"text": "Identity Policy Generator created MFA policy aligned with NIST 800-63 and ISO 27001", "entities": [[34, 37, "AUTH_TYPE"], [38, 44, "POLICY_TYPE"]]}
+{"text": "Google Authenticator TOTP app generated time-based codes for 4500 enrolled users", "entities": [[21, 25, "AUTH_TYPE"], [26, 29, "APP_TYPE"]]}
+{"text": "MFA Enrollment Tracker identified 5200 enrolled users with 97.3% coverage and non-compliant accounts", "entities": [[34, 47, "USER_TYPE"], [48, 53, "METRIC_TYPE"]]}
+{"text": "Google Workspace identity provider configured SSO for 3000 users with SAML federation", "entities": [[0, 6, "TOOL"], [7, 16, "PROVIDER_TYPE"], [26, 45, "COUNT"], [35, 45, "USER_TYPE"], [54, 64, "FEDERATION_TYPE"]]}
+{"text": "Salesforce identity provider enforced MFA for 3000 users with SMS and authenticator apps", "entities": [[11, 19, "PROVIDER_TYPE"], [20, 28, "PROVIDER_TYPE"], [29, 41, "AUTH_TYPE"], [46, 56, "USER_TYPE"], [70, 83, "APPLICATION_TYPE"]]}
+{"text": "MFA Enrollment Tracker identified 5200 enrolled users with 97.3% coverage and 2 non-compliant accounts", "entities": [[34, 47, "USER_TYPE"], [48, 53, "METRIC_TYPE"]]}
+{"text": "Privileged access monitoring coverage achieved 100% for all admin and service accounts", "entities": [[0, 10, "ACCESS_TYPE"], [18, 37, "METRIC_TYPE"], [29, 46, "ACCOUNT_TYPE"], [38, 51, "ACCOUNT_TYPE"]]}
+{"text": "Azure AD configured SSO federation for 45 SaaS applications with SAML OAuth2 authentication", "entities": [[0, 8, "CLOUD_PROVIDER"], [20, 23, "AUTH_TYPE"], [39, 59, "APPLICATION_TYPE"], [65, 69, "AUTH_TYPE"]]}
+{"text": "Splunk identity provider configured SSO for 500 users with SAML authentication", "entities": [[0, 6, "TOOL"], [7, 24, "PROVIDER_TYPE"], [16, 35, "PROVIDER_TYPE"], [36, 39, "AUTH_TYPE"], [44, 47, "COUNT"], [48, 53, "USER_TYPE"]]}
+{"text": "OneLogin identity provider enforced MFA with SMS TOTP and push notifications", "entities": [[0, 8, "TOOL"], [9, 26, "PROVIDER_TYPE"], [36, 39, "AUTH_TYPE"], [49, 53, "NOTIFICATION_TYPE"]]}
+{"text": "Compliance Mapping Tool verified MFA SSO session security and privileged access monitoring", "entities": [[33, 36, "AUTH_TYPE"], [37, 48, "SECURITY_TYPE"], [41, 57, "SECURITY_TYPE"]]}
+{"text": "Velocity abuse detected with 50 login attempts from single IP address in 5 minutes", "entities": [[0, 14, "ABUSE_TYPE"], [32, 37, "LOGIN_TYPE"]]}
+{"text": "Keycloak open source identity provider enabled OAuth2 and OpenID Connect for applications", "entities": [[0, 8, "TOOL"], [21, 38, "PROVIDER_TYPE"], [39, 53, "AUTH_TYPE"]]}
+{"text": "Ping Identity platform managed authentication for 5000 users with passwordless WebAuthn and FIDO2", "entities": [[50, 60, "USER_TYPE"], [66, 87, "AUTH_TYPE"], [79, 87, "AUTH_TYPE"]]}
+{"text": "Audit Checklist Tool validated authentication controls scoring 91% compliance with findings", "entities": [[63, 65, "METRIC_TYPE"]]}
+{"text": "Keycloak open source identity provider enabled OAuth2 OpenID Connect and SAML for applications", "entities": [[0, 8, "TOOL"], [21, 38, "PROVIDER_TYPE"], [39, 53, "AUTH_TYPE"], [54, 68, "AUTH_TYPE"], [82, 94, "AUTH_TYPE"]]}
+{"text": "Account lockout policy triggered after 5 failed login attempts requiring 30-minute cooldown", "entities": [[16, 22, "LOCKOUT_TYPE"], [33, 38, "LOGIN_TYPE"], [41, 47, "ATTEMPT_TYPE"], [54, 72, "COOLDOWN_TYPE"]]}
+{"text": "YubiKey hardware tokens deployed for 300 privileged accounts requiring physical authentication", "entities": [[0, 7, "TOOL"]]}
+{"text": "FIDO2 security keys registered for 150 high-privilege accounts requiring phishing-resistant auth", "entities": [[0, 5, "AUTH_TYPE"]]}
+{"text": "JumpCloud directory platform provided SSO for 3000 users with LDAP and SAML integration", "entities": [[0, 9, "TOOL"], [10, 19, "PLATFORM_TYPE"], [29, 41, "AUTH_TYPE"], [46, 56, "USER_TYPE"], [71, 87, "INTEGRATION_TYPE"]]}
+{"text": "JWT token reuse detected across 12 API endpoints requiring immediate revocation", "entities": [[0, 3, "TOKEN_TYPE"], [4, 9, "ATTACK_TYPE"], [35, 48, "ACTION_TYPE"]]}
+{"text": "Privileged Account Analytics Tool monitored privileged accounts detecting MFA bypass attempts", "entities": [[34, 54, "ACCOUNT_TYPE"], [44, 63, "ACCOUNT_TYPE"], [78, 93, "ATTACK_TYPE"]]}
+{"text": "Authelia authentication server enforced two-factor authentication with TOTP codes", "entities": [[71, 75, "AUTH_TYPE"]]}
+{"text": "Bitbucket identity provider enabled SSO for 800 users with SAML authentication", "entities": [[0, 9, "TOOL"], [10, 27, "PROVIDER_TYPE"], [19, 27, "PROVIDER_TYPE"], [36, 39, "AUTH_TYPE"], [44, 47, "COUNT"], [48, 53, "USER_TYPE"]]}
+{"text": "WSO2 Identity Server provided SSO and MFA for 5000 users with OAuth2 and SAML", "entities": [[0, 4, "TOOL"], [5, 20, "TOOL"], [21, 33, "AUTH_TYPE"], [46, 56, "USER_TYPE"]]}
+{"text": "IAM Data Extractor found non-federated apps including Notion and Miro requiring SSO integration", "entities": [[65, 79, "AUTH_TYPE"]]}
+{"text": "SIEM Tool correlated authentication events detecting credential stuffing and brute force attacks", "entities": [[43, 72, "ATTACK_TYPE"]]}
+{"text": "Enterprise Authentication Strategist designed MFA rollout strategy with passwordless adoption plan", "entities": [[37, 49, "AUTH_TYPE"], [46, 57, "STRATEGY_TYPE"]]}
+{"text": "Microsoft Authenticator app enabled passwordless sign-in for 2800 mobile device users", "entities": [[10, 35, "APP_TYPE"], [36, 53, "AUTH_TYPE"], [61, 72, "COUNT"], [66, 79, "DEVICE_TYPE"], [73, 85, "USER_TYPE"]]}
+{"text": "AWS IAM Identity Center configured SSO for 2000 AWS accounts with SAML federation", "entities": [[0, 3, "CLOUD_PROVIDER"], [4, 7, "TOOL"], [8, 23, "TOOL"], [43, 47, "CLOUD_PROVIDER"], [48, 60, "ACCOUNT_TYPE"]]}
+{"text": "Log Analysis Tool correlated credential attacks across regions identifying 1300 credential stuffing attempts", "entities": [[48, 62, "REGION_TYPE"], [91, 108, "COUNT"]]}
+{"text": "Slack identity provider configured SSO for 5000 users with SAML and OAuth2", "entities": [[6, 23, "PROVIDER_TYPE"], [15, 34, "PROVIDER_TYPE"], [35, 38, "AUTH_TYPE"], [43, 47, "COUNT"], [48, 53, "USER_TYPE"], [59, 63, "AUTH_TYPE"], [68, 74, "AUTH_TYPE"]]}
+{"text": "Duo Security MFA platform blocked 23 authentication bypass attempts in last 24 hours", "entities": [[13, 16, "AUTH_TYPE"]]}
+{"text": "Compliance Mapping Tool verified MFA SSO session security against NIST ISO and SOC2", "entities": [[33, 36, "AUTH_TYPE"], [37, 48, "SECURITY_TYPE"], [41, 57, "SECURITY_TYPE"], [71, 74, "FRAMEWORK"]]}
+{"text": "GitHub identity provider enforced MFA for 2000 developers with TOTP and WebAuthn", "entities": [[7, 24, "PROVIDER_TYPE"], [16, 33, "PROVIDER_TYPE"], [42, 46, "COUNT"], [47, 57, "USER_TYPE"], [63, 67, "AUTH_TYPE"], [72, 80, "AUTH_TYPE"]]}
+{"text": "Google Cloud Identity configured SSO for 1000 GCP projects with OAuth2 authentication", "entities": [[0, 6, "TOOL"], [7, 12, "CLOUD_PROVIDER"], [13, 21, "TOOL"], [41, 45, "CLOUD_PROVIDER"], [46, 58, "PROJECT_TYPE"]]}
+{"text": "GitLab identity provider configured SSO for 1500 users with SAML and OIDC", "entities": [[0, 6, "TOOL"], [7, 24, "PROVIDER_TYPE"], [16, 35, "PROVIDER_TYPE"], [36, 39, "AUTH_TYPE"], [44, 48, "COUNT"], [49, 54, "USER_TYPE"]]}
+{"text": "Microsoft Authenticator app enabled passwordless sign-in for 2800 mobile device users", "entities": [[10, 35, "APP_TYPE"], [36, 53, "AUTH_TYPE"], [61, 72, "COUNT"], [66, 79, "DEVICE_TYPE"], [73, 85, "USER_TYPE"]]}
+{"text": "Shibboleth identity provider enabled SAML federation for 50 applications with SSO", "entities": [[0, 10, "TOOL"], [11, 19, "PROVIDER_TYPE"], [20, 28, "PROVIDER_TYPE"], [37, 41, "AUTH_TYPE"], [42, 52, "FEDERATION_TYPE"]]}
+{"text": "Session management audit found refresh tokens not expiring requiring 8-hour idle timeout", "entities": [[0, 18, "AUDIT_TYPE"], [31, 49, "TOKEN_TYPE"], [71, 75, "TIME_UNIT"], [71, 80, "TIMEOUT_TYPE"]]}
+{"text": "Authentication incident INC123 escalated to SOC with credential stuffing severity high", "entities": []}
+{"text": "Jira identity provider enabled SSO for 1000 users with SAML and OAuth2", "entities": [[0, 4, "TOOL"], [5, 22, "PROVIDER_TYPE"], [14, 30, "PROVIDER_TYPE"], [44, 49, "COUNT"]]}
+{"text": "Authentication false positive rate reduced to 2.1% improving alert accuracy", "entities": [[46, 50, "METRIC_TYPE"], [61, 75, "METRIC_TYPE"]]}
+{"text": "Identity Policy Generator created MFA policy aligned with NIST 800-63 and ISO 27001", "entities": [[34, 37, "AUTH_TYPE"], [38, 44, "POLICY_TYPE"]]}
+{"text": "Authentication latency SLA compliance achieved 96% with average response time 280ms", "entities": [[47, 50, "SLA_TYPE"]]}
+{"text": "Audit Checklist Tool validated authentication controls scoring 91% compliance with findings", "entities": [[63, 65, "METRIC_TYPE"]]}
+{"text": "Authentication Strategist defined MFA policy requiring 100% coverage for all users and privileged accounts", "entities": [[34, 37, "AUTH_TYPE"], [38, 44, "POLICY_TYPE"], [55, 58, "METRIC_TYPE"], [55, 68, "COVERAGE_TYPE"]]}
+{"text": "Microsoft Entra ID managed authentication for 10000 users with conditional access policies", "entities": [[0, 9, "TOOL"], [10, 15, "TOOL"], [46, 51, "COUNT"], [52, 57, "USER_TYPE"]]}
+{"text": "Authentication Strategist defined MFA policy requiring 100% coverage for all users and privileged accounts", "entities": [[34, 37, "AUTH_TYPE"], [38, 44, "POLICY_TYPE"], [55, 58, "METRIC_TYPE"], [55, 68, "COVERAGE_TYPE"]]}
+{"text": "Latency Monitor Tool measured authentication latency with Salesforce at 245ms and Workday at 310ms", "entities": [[21, 44, "METRIC_TYPE"], [72, 77, "APPLICATION_NAME"]]}
+{"text": "Audit Checklist Tool validated authentication controls scoring 91% compliance with findings", "entities": [[63, 65, "METRIC_TYPE"]]}
+{"text": "Privileged Access Authentication Monitor tracked root_aws and db_admin accounts detecting anomalies", "entities": [[41, 57, "ACCOUNT_NAME"]]}
+{"text": "Dropbox identity provider enforced MFA for 1000 users with TOTP and SMS", "entities": [[0, 7, "TOOL"], [8, 25, "PROVIDER_TYPE"], [17, 34, "PROVIDER_TYPE"], [35, 38, "AUTH_TYPE"], [43, 47, "COUNT"], [48, 53, "USER_TYPE"], [59, 63, "AUTH_TYPE"], [68, 71, "AUTH_TYPE"]]}
+{"text": "Ping Identity platform managed authentication for 5000 users with passwordless WebAuthn and FIDO2", "entities": [[50, 60, "USER_TYPE"], [66, 87, "AUTH_TYPE"], [79, 87, "AUTH_TYPE"]]}
+{"text": "Brute force attack detected with 47 failed login attempts targeting admin account", "entities": [[36, 42, "ATTEMPT_TYPE"]]}
+{"text": "Password policy enforcement required 12-character minimum with complexity requirements", "entities": [[37, 49, "MINIMUM_TYPE"]]}
+{"text": "MFA bypass attempt detected for privileged account requiring immediate account lockout", "entities": [[0, 3, "AUTH_TYPE"], [43, 60, "ACTION_TYPE"], [61, 78, "ACTION_TYPE"]]}
+{"text": "Brute force attack detected with 47 failed login attempts targeting admin account", "entities": [[36, 42, "ATTEMPT_TYPE"]]}
+{"text": "Microsoft Authenticator app enabled passwordless sign-in for 2800 mobile device users", "entities": [[10, 35, "APP_TYPE"], [36, 53, "AUTH_TYPE"], [61, 72, "COUNT"], [66, 79, "DEVICE_TYPE"], [73, 85, "USER_TYPE"]]}
+{"text": "IAM Data Extractor extracted last login timestamps identifying stale accounts and terminated employees", "entities": [[19, 39, "TIMESTAMP_TYPE"], [40, 62, "ACCOUNT_TYPE"]]}
+{"text": "Search Tool researched WebAuthn and FIDO2 keys for passwordless authentication adoption", "entities": [[12, 31, "AUTH_TYPE"], [36, 46, "AUTH_TYPE"]]}
+{"text": "FreeIPA identity management system managed 2000 user accounts with LDAP integration", "entities": [[0, 7, "TOOL"], [8, 34, "SYSTEM_TYPE"], [43, 52, "COUNT"], [48, 61, "ACCOUNT_TYPE"]]}
+{"text": "Google Cloud Identity configured SSO for 1000 GCP projects with OAuth2 authentication", "entities": [[0, 6, "TOOL"], [7, 12, "CLOUD_PROVIDER"], [13, 21, "TOOL"], [41, 45, "CLOUD_PROVIDER"], [46, 58, "PROJECT_TYPE"]]}
+{"text": "FreeIPA identity management system managed 2000 user accounts with LDAP and Kerberos", "entities": [[0, 7, "TOOL"], [8, 34, "SYSTEM_TYPE"], [43, 52, "COUNT"], [48, 61, "ACCOUNT_TYPE"]]}
+{"text": "Brute force attack detected with 47 failed login attempts targeting admin account", "entities": [[36, 42, "ATTEMPT_TYPE"]]}
+{"text": "Search Tool researched WebAuthn and FIDO2 keys for passwordless authentication adoption", "entities": [[12, 31, "AUTH_TYPE"], [36, 46, "AUTH_TYPE"]]}
+{"text": "Keycloak open source identity provider enabled OAuth2 and OpenID Connect for applications", "entities": [[0, 8, "TOOL"], [21, 38, "PROVIDER_TYPE"], [39, 53, "AUTH_TYPE"]]}
+{"text": "Google Authenticator TOTP app generated time-based codes for 4500 enrolled users", "entities": [[21, 25, "AUTH_TYPE"], [26, 29, "APP_TYPE"]]}
+{"text": "Reporting Dashboard Tool generated executive KPIs showing 98.7% login success rate and metrics", "entities": [[25, 44, "REPORT_TYPE"], [50, 62, "LOGIN_TYPE"], [61, 69, "METRIC_TYPE"], [70, 77, "METRIC_TYPE"]]}
+{"text": "Compliance Mapping Tool verified MFA SSO session security against NIST ISO and SOC2", "entities": [[33, 36, "AUTH_TYPE"], [37, 48, "SECURITY_TYPE"], [41, 57, "SECURITY_TYPE"], [71, 74, "FRAMEWORK"]]}
+{"text": "Keycloak open source identity provider enabled OAuth2 and OpenID Connect for applications", "entities": [[0, 8, "TOOL"], [21, 38, "PROVIDER_TYPE"], [39, 53, "AUTH_TYPE"]]}
+{"text": "OneLogin identity provider enforced MFA with SMS TOTP and push notifications", "entities": [[0, 8, "TOOL"], [9, 26, "PROVIDER_TYPE"], [36, 39, "AUTH_TYPE"], [49, 53, "NOTIFICATION_TYPE"]]}
+{"text": "Impossible travel detection flagged login from New York followed by London within 2 hours", "entities": [[0, 17, "DETECTION_TYPE"], [28, 41, "LOGIN_TYPE"], [47, 55, "LOCATION"], [56, 64, "LOCATION"]]}
+{"text": "Okta identity provider enforced MFA for 5000 users with 96% enrollment and WebAuthn support", "entities": [[0, 4, "TOOL"], [5, 22, "PROVIDER_TYPE"], [40, 50, "USER_TYPE"], [56, 70, "ENROLLMENT_TYPE"], [75, 91, "SUPPORT_TYPE"]]}
+{"text": "Password policy enforcement required 12-character minimum with complexity requirements", "entities": [[37, 49, "MINIMUM_TYPE"]]}
+{"text": "Salesforce identity provider enforced MFA for 3000 users with SMS and authenticator apps", "entities": [[11, 19, "PROVIDER_TYPE"], [20, 28, "PROVIDER_TYPE"], [29, 41, "AUTH_TYPE"], [46, 56, "USER_TYPE"], [70, 83, "APPLICATION_TYPE"]]}
+{"text": "GitLab identity provider configured SSO for 1500 users with SAML and OIDC", "entities": [[0, 6, "TOOL"], [7, 24, "PROVIDER_TYPE"], [16, 35, "PROVIDER_TYPE"], [36, 39, "AUTH_TYPE"], [44, 48, "COUNT"], [49, 54, "USER_TYPE"]]}
+{"text": "Confluence identity provider configured SSO for 800 users with SAML federation", "entities": [[0, 10, "TOOL"], [11, 19, "PROVIDER_TYPE"], [20, 28, "PROVIDER_TYPE"], [48, 51, "USER_TYPE"], [63, 78, "FEDERATION_TYPE"]]}
+{"text": "SIEM Tool correlated authentication events detecting credential stuffing and brute force attacks", "entities": [[43, 72, "ATTACK_TYPE"]]}
+{"text": "Workday identity provider enabled SSO for 5000 employees with SAML federation", "entities": [[0, 7, "TOOL"], [8, 25, "PROVIDER_TYPE"], [17, 33, "PROVIDER_TYPE"], [42, 46, "COUNT"], [62, 66, "AUTH_TYPE"]]}
+{"text": "Authentication false positive rate reduced to 2.1% improving alert accuracy", "entities": [[46, 50, "METRIC_TYPE"], [61, 75, "METRIC_TYPE"]]}
+{"text": "Authentication Operations Engineer monitored login health detecting 542 failed logins and anomalies", "entities": [[35, 50, "LOGIN_TYPE"], [45, 57, "HEALTH_TYPE"], [68, 78, "LOGIN_TYPE"]]}
+{"text": "Credential stuffing attack identified 1300 automated login attempts using breached credentials", "entities": [[38, 42, "COUNT"], [53, 67, "ATTEMPT_TYPE"]]}
+{"text": "SIEM Tool detected 542 failed logins with credential stuffing and impossible travel anomalies", "entities": [[10, 22, "COUNT"], [19, 29, "LOGIN_TYPE"]]}
+{"text": "Ping Identity platform managed authentication for 5000 users with passwordless WebAuthn support", "entities": [[50, 60, "USER_TYPE"], [66, 87, "AUTH_TYPE"], [79, 87, "SUPPORT_TYPE"]]}
+{"text": "Authelia authentication server enforced two-factor authentication with TOTP codes", "entities": [[71, 75, "AUTH_TYPE"]]}
+{"text": "Azure AD configured SSO federation for 45 SaaS applications with SAML authentication", "entities": [[0, 8, "CLOUD_PROVIDER"], [20, 23, "AUTH_TYPE"], [39, 59, "APPLICATION_TYPE"]]}
+{"text": "YubiKey hardware security key enabled passwordless authentication for 500 privileged accounts", "entities": [[0, 7, "TOOL"], [17, 29, "TOKEN_TYPE"], [74, 84, "ACCOUNT_TYPE"]]}
+{"text": "Identity Provider API Tool retrieved SSO federation data showing 78% coverage with pending apps", "entities": [[65, 77, "COVERAGE_TYPE"]]}
+{"text": "Log Analysis Tool analyzed authentication logs identifying impossible travel and velocity abuse", "entities": []}
+{"text": "Confluence identity provider configured SSO for 800 users with SAML federation", "entities": [[0, 10, "TOOL"], [11, 19, "PROVIDER_TYPE"], [20, 28, "PROVIDER_TYPE"], [48, 51, "USER_TYPE"], [63, 78, "FEDERATION_TYPE"]]}
+{"text": "FreeIPA identity management system managed 2000 user accounts with LDAP integration", "entities": [[0, 7, "TOOL"], [8, 34, "SYSTEM_TYPE"], [43, 52, "COUNT"], [48, 61, "ACCOUNT_TYPE"]]}
+{"text": "Okta identity provider enforced MFA for all users with 96% enrollment completion", "entities": [[0, 4, "TOOL"], [5, 22, "PROVIDER_TYPE"], [44, 49, "METRIC_TYPE"], [59, 69, "COMPLETION_TYPE"]]}
+{"text": "Splunk identity provider configured SSO for 500 users with SAML authentication", "entities": [[0, 6, "TOOL"], [7, 24, "PROVIDER_TYPE"], [16, 35, "PROVIDER_TYPE"], [36, 39, "AUTH_TYPE"], [44, 47, "COUNT"], [48, 53, "USER_TYPE"]]}
+{"text": "Privileged access monitoring coverage achieved 100% for all admin and service accounts", "entities": [[0, 10, "ACCESS_TYPE"], [18, 37, "METRIC_TYPE"], [29, 46, "ACCOUNT_TYPE"], [38, 51, "ACCOUNT_TYPE"]]}
+{"text": "Duo Security MFA platform blocked 23 authentication bypass attempts in last 24 hours", "entities": [[13, 16, "AUTH_TYPE"]]}
+{"text": "Reporting Dashboard Tool generated executive KPIs showing 98.7% login success rate and metrics", "entities": [[25, 44, "REPORT_TYPE"], [50, 62, "LOGIN_TYPE"], [61, 69, "METRIC_TYPE"], [70, 77, "METRIC_TYPE"]]}
+{"text": "Latency Monitor Tool measured authentication latency with Salesforce at 245ms exceeding SLA", "entities": [[21, 44, "METRIC_TYPE"], [72, 77, "METRIC_TYPE"]]}
+{"text": "Velocity abuse detected with 50 login attempts from single IP address in 5 minutes", "entities": [[0, 14, "ABUSE_TYPE"], [32, 37, "LOGIN_TYPE"]]}
+{"text": "Audit Checklist Tool validated authentication controls scoring 91% compliance with findings", "entities": [[63, 65, "METRIC_TYPE"]]}
+{"text": "JWT token reuse detected across 12 API endpoints requiring immediate revocation", "entities": [[0, 3, "TOKEN_TYPE"], [4, 9, "ATTACK_TYPE"], [35, 48, "ACTION_TYPE"]]}
+{"text": "SIEM Tool correlated authentication events detecting credential stuffing and brute force attacks", "entities": [[43, 72, "ATTACK_TYPE"]]}
+{"text": "Velocity abuse detected with 50 login attempts from single IP address in 5 minutes", "entities": [[0, 14, "ABUSE_TYPE"], [32, 37, "LOGIN_TYPE"]]}
+{"text": "Authentication incident INC123 escalated to SOC with credential stuffing severity high", "entities": []}
+{"text": "Bitbucket identity provider enabled SSO for 800 users with SAML authentication", "entities": [[0, 9, "TOOL"], [10, 27, "PROVIDER_TYPE"], [19, 27, "PROVIDER_TYPE"], [36, 39, "AUTH_TYPE"], [44, 47, "COUNT"], [48, 53, "USER_TYPE"]]}
+{"text": "Log Analysis Tool analyzed authentication logs identifying impossible travel and velocity abuse", "entities": []}
+{"text": "Ping Identity platform managed authentication for 5000 users with passwordless WebAuthn support", "entities": [[50, 60, "USER_TYPE"], [66, 87, "AUTH_TYPE"], [79, 87, "SUPPORT_TYPE"]]}
+{"text": "Audit Checklist Tool validated authentication controls scoring 91% compliance with remediation findings", "entities": [[63, 65, "METRIC_TYPE"]]}
+{"text": "Audit Checklist Tool validated authentication controls scoring 91% compliance with remediation findings", "entities": [[63, 65, "METRIC_TYPE"]]}
+{"text": "Password policy enforcement required 12-character minimum with complexity requirements", "entities": [[37, 49, "MINIMUM_TYPE"]]}
+{"text": "Privileged Account Analytics Tool monitored root_aws and db_admin accounts detecting MFA bypass attempts", "entities": [[34, 52, "ACCOUNT_TYPE"], [57, 74, "ACCOUNT_NAME"]]}
+{"text": "Credential stuffing attack identified 1300 automated login attempts using breached credentials", "entities": [[38, 42, "COUNT"], [53, 67, "ATTEMPT_TYPE"]]}
+{"text": "Brute force attack detected with 47 failed login attempts targeting admin account", "entities": [[36, 42, "ATTEMPT_TYPE"]]}
+{"text": "OneDrive identity provider configured SSO for 2000 users with SAML federation", "entities": [[0, 8, "TOOL"], [9, 26, "PROVIDER_TYPE"], [18, 37, "PROVIDER_TYPE"], [27, 41, "AUTH_TYPE"], [46, 56, "USER_TYPE"], [62, 77, "FEDERATION_TYPE"]]}
+{"text": "JWT token reuse detected across 12 API endpoints requiring immediate revocation", "entities": [[0, 3, "TOKEN_TYPE"], [4, 9, "ATTACK_TYPE"], [35, 48, "ACTION_TYPE"]]}
+{"text": "Privileged access monitoring coverage achieved 100% for all admin and service accounts", "entities": [[0, 10, "ACCESS_TYPE"], [18, 37, "METRIC_TYPE"], [29, 46, "ACCOUNT_TYPE"], [38, 51, "ACCOUNT_TYPE"]]}
+{"text": "Dropbox identity provider enforced MFA for 1000 users with TOTP and SMS", "entities": [[0, 7, "TOOL"], [8, 25, "PROVIDER_TYPE"], [17, 34, "PROVIDER_TYPE"], [35, 38, "AUTH_TYPE"], [43, 47, "COUNT"], [48, 53, "USER_TYPE"], [59, 63, "AUTH_TYPE"], [68, 71, "AUTH_TYPE"]]}
+{"text": "Keycloak open source identity provider enabled OAuth2 OpenID Connect and SAML for applications", "entities": [[0, 8, "TOOL"], [21, 38, "PROVIDER_TYPE"], [39, 53, "AUTH_TYPE"], [54, 68, "AUTH_TYPE"], [82, 94, "AUTH_TYPE"]]}
+{"text": "IAM Data Extractor extracted last login timestamps identifying stale accounts and terminated employees", "entities": [[19, 39, "TIMESTAMP_TYPE"], [40, 62, "ACCOUNT_TYPE"]]}
+{"text": "Microsoft Teams identity provider enforced MFA for 10000 users with conditional access", "entities": [[0, 9, "TOOL"], [16, 33, "PROVIDER_TYPE"], [51, 56, "USER_TYPE"]]}
+{"text": "GitHub identity provider enforced MFA for 2000 developers with TOTP and WebAuthn", "entities": [[7, 24, "PROVIDER_TYPE"], [16, 33, "PROVIDER_TYPE"], [42, 46, "COUNT"], [47, 57, "USER_TYPE"], [63, 67, "AUTH_TYPE"], [72, 80, "AUTH_TYPE"]]}
+{"text": "Authentication training completion reached 95% for all employees and contractors", "entities": [[51, 64, "METRIC_TYPE"]]}
+{"text": "MFA bypass attempt detected for privileged account requiring immediate account lockout", "entities": [[0, 3, "AUTH_TYPE"], [43, 60, "ACTION_TYPE"], [61, 78, "ACTION_TYPE"]]}
+{"text": "Privileged Account Analytics Tool monitored privileged accounts detecting MFA bypass attempts", "entities": [[34, 54, "ACCOUNT_TYPE"], [44, 63, "ACCOUNT_TYPE"], [78, 93, "ATTACK_TYPE"]]}
+{"text": "Azure AD configured SSO federation for 45 SaaS applications with SAML OAuth2 authentication", "entities": [[0, 8, "CLOUD_PROVIDER"], [20, 23, "AUTH_TYPE"], [39, 59, "APPLICATION_TYPE"], [65, 69, "AUTH_TYPE"]]}
+{"text": "Shibboleth identity provider enabled SAML federation for 50 applications with SSO", "entities": [[0, 10, "TOOL"], [11, 19, "PROVIDER_TYPE"], [20, 28, "PROVIDER_TYPE"], [37, 41, "AUTH_TYPE"], [42, 52, "FEDERATION_TYPE"]]}
+{"text": "FreeIPA identity management system managed 2000 user accounts with LDAP and Kerberos", "entities": [[0, 7, "TOOL"], [8, 34, "SYSTEM_TYPE"], [43, 52, "COUNT"], [48, 61, "ACCOUNT_TYPE"]]}
+{"text": "ForgeRock identity platform enabled passwordless authentication with WebAuthn and FIDO2", "entities": [[10, 18, "PLATFORM_TYPE"], [69, 77, "AUTH_TYPE"]]}
+{"text": "Jira identity provider enabled SSO for 1000 users with SAML and OAuth2", "entities": [[0, 4, "TOOL"], [5, 22, "PROVIDER_TYPE"], [14, 30, "PROVIDER_TYPE"], [44, 49, "COUNT"]]}
+{"text": "Azure AD B2C managed customer authentication for 50000 users with social login", "entities": [[0, 8, "CLOUD_PROVIDER"], [9, 12, "PROVIDER_TYPE"], [21, 44, "AUTH_TYPE"], [49, 60, "USER_TYPE"], [66, 78, "AUTH_TYPE"]]}
+{"text": "Azure AD configured SSO federation for 45 SaaS applications with SAML authentication", "entities": [[0, 8, "CLOUD_PROVIDER"], [20, 23, "AUTH_TYPE"], [39, 59, "APPLICATION_TYPE"]]}
+{"text": "Okta identity provider enforced MFA for all users with 96% enrollment completion", "entities": [[0, 4, "TOOL"], [5, 22, "PROVIDER_TYPE"], [44, 49, "METRIC_TYPE"], [59, 69, "COMPLETION_TYPE"]]}
+{"text": "BeyondTrust privileged access management required MFA for admin accounts with session recording", "entities": [[0, 11, "TOOL"], [12, 29, "MANAGEMENT_TYPE"], [30, 40, "MANAGEMENT_TYPE"], [58, 72, "ACCOUNT_TYPE"], [78, 95, "RECORDING_TYPE"]]}
+{"text": "Privileged Account Analytics Tool monitored root_aws and db_admin accounts detecting MFA bypass attempts", "entities": [[34, 52, "ACCOUNT_TYPE"], [57, 74, "ACCOUNT_NAME"]]}
+{"text": "YubiKey hardware tokens deployed for 300 privileged accounts requiring physical authentication", "entities": [[0, 7, "TOOL"]]}
+{"text": "ForgeRock identity platform enabled passwordless authentication with WebAuthn and FIDO2", "entities": [[10, 18, "PLATFORM_TYPE"], [69, 77, "AUTH_TYPE"]]}
+{"text": "WSO2 Identity Server provided SSO and MFA for 5000 users with OAuth2 and SAML", "entities": [[0, 4, "TOOL"], [5, 20, "TOOL"], [21, 33, "AUTH_TYPE"], [46, 56, "USER_TYPE"]]}
+{"text": "Identity Provider API Tool retrieved SSO federation data showing 78% coverage with pending apps", "entities": [[65, 77, "COVERAGE_TYPE"]]}
+{"text": "Search Tool researched WebAuthn and FIDO2 keys for passwordless authentication adoption", "entities": [[12, 31, "AUTH_TYPE"], [36, 46, "AUTH_TYPE"]]}
+{"text": "MFA Enrollment Tracker identified 5200 enrolled users with 97.3% coverage and non-compliant accounts", "entities": [[34, 47, "USER_TYPE"], [48, 53, "METRIC_TYPE"]]}
+{"text": "Microsoft Entra ID managed authentication for 10000 users with conditional access policies", "entities": [[0, 9, "TOOL"], [10, 15, "TOOL"], [46, 51, "COUNT"], [52, 57, "USER_TYPE"]]}
+{"text": "JWT token reuse detected across 12 API endpoints requiring immediate revocation", "entities": [[0, 3, "TOKEN_TYPE"], [4, 9, "ATTACK_TYPE"], [35, 48, "ACTION_TYPE"]]}
+{"text": "ServiceNow identity provider configured SSO for 2000 users with SAML and OAuth2", "entities": [[0, 10, "TOOL"], [11, 19, "PROVIDER_TYPE"], [20, 28, "PROVIDER_TYPE"], [48, 52, "USER_TYPE"]]}
+{"text": "Authelia authentication server enforced two-factor authentication with TOTP and WebAuthn", "entities": [[71, 75, "AUTH_TYPE"]]}
+{"text": "Box identity provider configured SSO for 1500 users with SAML and OAuth2", "entities": [[0, 3, "TOOL"], [4, 21, "PROVIDER_TYPE"], [22, 32, "PROVIDER_TYPE"], [41, 51, "COUNT"], [57, 61, "AUTH_TYPE"]]}
+{"text": "Authentication Compliance Analyst audited authentication systems for stale accounts and session management", "entities": [[69, 83, "ACCOUNT_TYPE"], [88, 106, "MANAGEMENT_TYPE"]]}
+{"text": "Authentication latency SLA compliance achieved 96% with average response time 280ms", "entities": [[47, 50, "SLA_TYPE"]]}
+{"text": "Stale account review identified 45 inactive accounts and 12 terminated employee accounts", "entities": [[32, 34, "COUNT"], [35, 43, "ACCOUNT_TYPE"]]}
+{"text": "Session hijacking prevented by invalidating all active sessions after suspicious activity", "entities": [[18, 43, "ACTION_TYPE"], [44, 54, "SESSION_TYPE"], [55, 69, "ACTIVITY_TYPE"]]}
+{"text": "Okta identity provider enforced MFA for 5000 users with 96% enrollment and WebAuthn support", "entities": [[0, 4, "TOOL"], [5, 22, "PROVIDER_TYPE"], [40, 50, "USER_TYPE"], [56, 70, "ENROLLMENT_TYPE"], [75, 91, "SUPPORT_TYPE"]]}
+{"text": "Session hijacking prevented by invalidating all active sessions after suspicious activity", "entities": [[18, 43, "ACTION_TYPE"], [44, 54, "SESSION_TYPE"], [55, 69, "ACTIVITY_TYPE"]]}
+{"text": "Authentication incident INC123 escalated to SOC with credential stuffing severity high", "entities": []}
+{"text": "Compliance Mapping Tool verified MFA SSO session security against NIST ISO and SOC2", "entities": [[33, 36, "AUTH_TYPE"], [37, 48, "SECURITY_TYPE"], [41, 57, "SECURITY_TYPE"], [71, 74, "FRAMEWORK"]]}
+{"text": "Reporting Dashboard Tool generated executive report showing 98.7% login success rate", "entities": [[25, 44, "REPORT_TYPE"], [52, 64, "LOGIN_TYPE"], [63, 71, "METRIC_TYPE"], [72, 79, "METRIC_TYPE"]]}
+{"text": "Authentication training completion reached 95% for all employees and contractors", "entities": [[51, 64, "METRIC_TYPE"]]}
+{"text": "Latency Monitor Tool measured authentication latency with Salesforce at 245ms exceeding SLA", "entities": [[21, 44, "METRIC_TYPE"], [72, 77, "METRIC_TYPE"]]}
+{"text": "RSA SecurID token system provided MFA for 2000 users with hardware and software tokens", "entities": [[0, 3, "TOOL"], [4, 11, "TOOL"], [12, 17, "TOKEN_TYPE"], [34, 37, "AUTH_TYPE"], [42, 52, "USER_TYPE"]]}
+{"text": "HashiCorp Vault managed authentication secrets with OIDC and LDAP integration", "entities": [[10, 15, "TOOL"], [61, 77, "PROTOCOL_TYPE"]]}
+{"text": "Azure AD B2C managed customer authentication for 50000 users with social login", "entities": [[0, 8, "CLOUD_PROVIDER"], [9, 12, "PROVIDER_TYPE"], [21, 44, "AUTH_TYPE"], [49, 60, "USER_TYPE"], [66, 78, "AUTH_TYPE"]]}
+{"text": "Account lockout policy triggered after 5 failed login attempts requiring 30-minute cooldown", "entities": [[16, 22, "LOCKOUT_TYPE"], [33, 38, "LOGIN_TYPE"], [41, 47, "ATTEMPT_TYPE"], [54, 72, "COOLDOWN_TYPE"]]}
+{"text": "Session hijacking prevented by invalidating all active sessions after suspicious activity", "entities": [[18, 43, "ACTION_TYPE"], [44, 54, "SESSION_TYPE"], [55, 69, "ACTIVITY_TYPE"]]}
+{"text": "Latency Monitor Tool measured authentication latency with Salesforce at 245ms and Workday at 310ms", "entities": [[21, 44, "METRIC_TYPE"], [72, 77, "APPLICATION_NAME"]]}
+{"text": "Duo Security MFA platform protected 8000 users with push biometric and hardware tokens", "entities": [[0, 3, "TOOL"], [13, 25, "PLATFORM_TYPE"], [36, 40, "COUNT"], [41, 46, "USER_TYPE"], [52, 56, "AUTH_TYPE"]]}
+{"text": "Thycotic Secret Server managed privileged account passwords with MFA and rotation", "entities": [[0, 8, "TOOL"], [9, 22, "TOOL"], [23, 41, "ACCOUNT_TYPE"], [65, 68, "AUTH_TYPE"]]}
+{"text": "ForgeRock identity platform enabled passwordless authentication with WebAuthn and FIDO2", "entities": [[10, 18, "PLATFORM_TYPE"], [69, 77, "AUTH_TYPE"]]}
+{"text": "Search Tool researched WebAuthn and FIDO2 keys for passwordless authentication adoption", "entities": [[12, 31, "AUTH_TYPE"], [36, 46, "AUTH_TYPE"]]}
+{"text": "Latency Monitor Tool measured authentication latency with Salesforce at 245ms and Workday at 310ms", "entities": [[21, 44, "METRIC_TYPE"], [72, 77, "APPLICATION_NAME"]]}
+{"text": "Reporting Dashboard Tool generated executive KPIs showing 98.7% login success rate and metrics", "entities": [[25, 44, "REPORT_TYPE"], [50, 62, "LOGIN_TYPE"], [61, 69, "METRIC_TYPE"], [70, 77, "METRIC_TYPE"]]}
+{"text": "OneDrive identity provider configured SSO for 2000 users with SAML federation", "entities": [[0, 8, "TOOL"], [9, 26, "PROVIDER_TYPE"], [18, 37, "PROVIDER_TYPE"], [27, 41, "AUTH_TYPE"], [46, 56, "USER_TYPE"], [62, 77, "FEDERATION_TYPE"]]}
+{"text": "Duo Security MFA platform protected 8000 users with push biometric and hardware tokens", "entities": [[0, 3, "TOOL"], [13, 25, "PLATFORM_TYPE"], [36, 40, "COUNT"], [41, 46, "USER_TYPE"], [52, 56, "AUTH_TYPE"]]}
+{"text": "Azure AD configured SSO federation for 45 SaaS applications with SAML OAuth2 authentication", "entities": [[0, 8, "CLOUD_PROVIDER"], [20, 23, "AUTH_TYPE"], [39, 59, "APPLICATION_TYPE"], [65, 69, "AUTH_TYPE"]]}
+{"text": "Authelia authentication server enforced two-factor authentication with TOTP codes", "entities": [[71, 75, "AUTH_TYPE"]]}
+{"text": "HashiCorp Vault managed authentication secrets with OIDC and LDAP integration", "entities": [[10, 15, "TOOL"], [61, 77, "PROTOCOL_TYPE"]]}
+{"text": "Jira identity provider enabled SSO for 1000 users with SAML and OAuth2", "entities": [[0, 4, "TOOL"], [5, 22, "PROVIDER_TYPE"], [14, 30, "PROVIDER_TYPE"], [44, 49, "COUNT"]]}
+{"text": "Salesforce identity provider enforced MFA for 3000 users with SMS and authenticator apps", "entities": [[11, 19, "PROVIDER_TYPE"], [20, 28, "PROVIDER_TYPE"], [29, 41, "AUTH_TYPE"], [46, 56, "USER_TYPE"], [70, 83, "APPLICATION_TYPE"]]}
+{"text": "Microsoft Entra ID managed authentication for 10000 users with conditional access policies", "entities": [[0, 9, "TOOL"], [10, 15, "TOOL"], [46, 51, "COUNT"], [52, 57, "USER_TYPE"]]}
+{"text": "Authentication Compliance Analyst audited authentication systems for stale accounts and session management", "entities": [[69, 83, "ACCOUNT_TYPE"], [88, 106, "MANAGEMENT_TYPE"]]}
+{"text": "Workday identity provider enabled SSO for 5000 employees with SAML federation", "entities": [[0, 7, "TOOL"], [8, 25, "PROVIDER_TYPE"], [17, 33, "PROVIDER_TYPE"], [42, 46, "COUNT"], [62, 66, "AUTH_TYPE"]]}
+{"text": "Log Analysis Tool analyzed authentication logs identifying impossible travel and velocity abuse", "entities": []}
+{"text": "FreeIPA identity management system managed 2000 user accounts with LDAP and Kerberos", "entities": [[0, 7, "TOOL"], [8, 34, "SYSTEM_TYPE"], [43, 52, "COUNT"], [48, 61, "ACCOUNT_TYPE"]]}
+{"text": "Workday identity provider enabled SSO for 5000 employees with SAML federation", "entities": [[0, 7, "TOOL"], [8, 25, "PROVIDER_TYPE"], [17, 33, "PROVIDER_TYPE"], [42, 46, "COUNT"], [62, 66, "AUTH_TYPE"]]}
+{"text": "Authentication Compliance Analyst audited authentication systems for stale accounts and session management", "entities": [[69, 83, "ACCOUNT_TYPE"], [88, 106, "MANAGEMENT_TYPE"]]}
+{"text": "MFA bypass attempt detected for privileged account requiring immediate account lockout", "entities": [[0, 3, "AUTH_TYPE"], [43, 60, "ACTION_TYPE"], [61, 78, "ACTION_TYPE"]]}
+{"text": "Dropbox identity provider enforced MFA for 1000 users with TOTP and SMS", "entities": [[0, 7, "TOOL"], [8, 25, "PROVIDER_TYPE"], [17, 34, "PROVIDER_TYPE"], [35, 38, "AUTH_TYPE"], [43, 47, "COUNT"], [48, 53, "USER_TYPE"], [59, 63, "AUTH_TYPE"], [68, 71, "AUTH_TYPE"]]}
+{"text": "Identity Provider API Tool retrieved SSO federation data showing 78% coverage with pending apps", "entities": [[65, 77, "COVERAGE_TYPE"]]}
+{"text": "Duo Security MFA platform blocked 23 authentication bypass attempts in last 24 hours", "entities": [[13, 16, "AUTH_TYPE"]]}
+{"text": "Compliance Mapping Tool verified MFA SSO session security and privileged access monitoring", "entities": [[33, 36, "AUTH_TYPE"], [37, 48, "SECURITY_TYPE"], [41, 57, "SECURITY_TYPE"]]}
+{"text": "Azure AD configured SSO federation for 45 SaaS applications with SAML authentication", "entities": [[0, 8, "CLOUD_PROVIDER"], [20, 23, "AUTH_TYPE"], [39, 59, "APPLICATION_TYPE"]]}
+{"text": "YubiKey hardware tokens deployed for 300 privileged accounts requiring physical authentication", "entities": [[0, 7, "TOOL"]]}
+{"text": "Dropbox identity provider enforced MFA for 1000 users with TOTP and SMS", "entities": [[0, 7, "TOOL"], [8, 25, "PROVIDER_TYPE"], [17, 34, "PROVIDER_TYPE"], [35, 38, "AUTH_TYPE"], [43, 47, "COUNT"], [48, 53, "USER_TYPE"], [59, 63, "AUTH_TYPE"], [68, 71, "AUTH_TYPE"]]}
+{"text": "Jira identity provider enabled SSO for 1000 users with SAML and OAuth2", "entities": [[0, 4, "TOOL"], [5, 22, "PROVIDER_TYPE"], [14, 30, "PROVIDER_TYPE"], [44, 49, "COUNT"]]}
+{"text": "Stale account remediation completed for 45 inactive accounts within 7-day SLA", "entities": [[40, 51, "ACCOUNT_TYPE"], [52, 67, "SLA_TYPE"]]}
+{"text": "Enterprise Authentication Strategist designed MFA rollout strategy with passwordless adoption plan", "entities": [[37, 49, "AUTH_TYPE"], [46, 57, "STRATEGY_TYPE"]]}
+{"text": "Keycloak open source identity provider enabled OAuth2 OpenID Connect and SAML for applications", "entities": [[0, 8, "TOOL"], [21, 38, "PROVIDER_TYPE"], [39, 53, "AUTH_TYPE"], [54, 68, "AUTH_TYPE"], [82, 94, "AUTH_TYPE"]]}
+{"text": "Box identity provider configured SSO for 1500 users with SAML and OAuth2", "entities": [[0, 3, "TOOL"], [4, 21, "PROVIDER_TYPE"], [22, 32, "PROVIDER_TYPE"], [41, 51, "COUNT"], [57, 61, "AUTH_TYPE"]]}
+{"text": "Microsoft Teams identity provider enforced MFA for 10000 users with conditional access", "entities": [[0, 9, "TOOL"], [16, 33, "PROVIDER_TYPE"], [51, 56, "USER_TYPE"]]}
+{"text": "SIEM Tool correlated authentication events detecting credential stuffing and brute force attacks", "entities": [[43, 72, "ATTACK_TYPE"]]}
+{"text": "Stale account review identified 45 inactive accounts and 12 terminated employee accounts", "entities": [[32, 34, "COUNT"], [35, 43, "ACCOUNT_TYPE"]]}
+{"text": "Bitbucket identity provider enabled SSO for 800 users with SAML authentication", "entities": [[0, 9, "TOOL"], [10, 27, "PROVIDER_TYPE"], [19, 27, "PROVIDER_TYPE"], [36, 39, "AUTH_TYPE"], [44, 47, "COUNT"], [48, 53, "USER_TYPE"]]}
+{"text": "Log Analysis Tool correlated credential attacks across regions identifying 1300 credential stuffing attempts", "entities": [[48, 62, "REGION_TYPE"], [91, 108, "COUNT"]]}
+{"text": "Reporting Dashboard Tool generated executive KPIs showing 98.7% login success rate and metrics", "entities": [[25, 44, "REPORT_TYPE"], [50, 62, "LOGIN_TYPE"], [61, 69, "METRIC_TYPE"], [70, 77, "METRIC_TYPE"]]}
+{"text": "Workday identity provider enabled SSO for 5000 employees with SAML federation", "entities": [[0, 7, "TOOL"], [8, 25, "PROVIDER_TYPE"], [17, 33, "PROVIDER_TYPE"], [42, 46, "COUNT"], [62, 66, "AUTH_TYPE"]]}
+{"text": "Zoom identity provider configured SSO for 3000 users with SAML federation", "entities": [[0, 4, "TOOL"], [5, 22, "PROVIDER_TYPE"], [14, 33, "PROVIDER_TYPE"], [42, 46, "COUNT"], [47, 52, "USER_TYPE"], [58, 62, "AUTH_TYPE"]]}
+{"text": "AWS IAM Identity Center configured SSO for 2000 AWS accounts with SAML federation", "entities": [[0, 3, "CLOUD_PROVIDER"], [4, 7, "TOOL"], [8, 23, "TOOL"], [43, 47, "CLOUD_PROVIDER"], [48, 60, "ACCOUNT_TYPE"]]}
+{"text": "Auth0 identity platform managed authentication for 15000 users with social login support", "entities": [[0, 5, "TOOL"], [6, 14, "PLATFORM_TYPE"], [51, 62, "USER_TYPE"], [68, 80, "SUPPORT_TYPE"]]}
+{"text": "Microsoft Authenticator app enabled passwordless sign-in for 2800 mobile device users", "entities": [[10, 35, "APP_TYPE"], [36, 53, "AUTH_TYPE"], [61, 72, "COUNT"], [66, 79, "DEVICE_TYPE"], [73, 85, "USER_TYPE"]]}
+{"text": "Reporting Dashboard Tool generated executive report showing 98.7% login success rate", "entities": [[25, 44, "REPORT_TYPE"], [52, 64, "LOGIN_TYPE"], [63, 71, "METRIC_TYPE"], [72, 79, "METRIC_TYPE"]]}
+{"text": "JumpCloud directory platform provided SSO for 3000 users with LDAP and SAML integration", "entities": [[0, 9, "TOOL"], [10, 19, "PLATFORM_TYPE"], [29, 41, "AUTH_TYPE"], [46, 56, "USER_TYPE"], [71, 87, "INTEGRATION_TYPE"]]}
+{"text": "Session management audit found refresh tokens not expiring requiring 8-hour idle timeout", "entities": [[0, 18, "AUDIT_TYPE"], [31, 49, "TOKEN_TYPE"], [71, 75, "TIME_UNIT"], [71, 80, "TIMEOUT_TYPE"]]}
+{"text": "ServiceNow identity provider configured SSO for 2000 users with SAML and OAuth2", "entities": [[0, 10, "TOOL"], [11, 19, "PROVIDER_TYPE"], [20, 28, "PROVIDER_TYPE"], [48, 52, "USER_TYPE"]]}
+{"text": "Identity Provider API Tool retrieved MFA enrollment data showing 94% coverage with contractors missing", "entities": [[37, 51, "ENROLLMENT_TYPE"], [65, 77, "COVERAGE_TYPE"]]}
+{"text": "IAM Data Extractor extracted last login timestamps identifying stale accounts and terminated employees", "entities": [[19, 39, "TIMESTAMP_TYPE"], [40, 62, "ACCOUNT_TYPE"]]}
+{"text": "Authentication training completion reached 95% for all employees and contractors", "entities": [[51, 64, "METRIC_TYPE"]]}
+{"text": "MFA bypass attempt detected for privileged account requiring immediate account lockout", "entities": [[0, 3, "AUTH_TYPE"], [43, 60, "ACTION_TYPE"], [61, 78, "ACTION_TYPE"]]}
+{"text": "Impossible travel detection flagged login from New York followed by London within 2 hours", "entities": [[0, 17, "DETECTION_TYPE"], [28, 41, "LOGIN_TYPE"], [47, 55, "LOCATION"], [56, 64, "LOCATION"]]}
+{"text": "OneLogin identity provider enforced MFA with SMS TOTP and push notifications", "entities": [[0, 8, "TOOL"], [9, 26, "PROVIDER_TYPE"], [36, 39, "AUTH_TYPE"], [49, 53, "NOTIFICATION_TYPE"]]}
+{"text": "HashiCorp Vault managed authentication secrets with OIDC and LDAP integration", "entities": [[10, 15, "TOOL"], [61, 77, "PROTOCOL_TYPE"]]}
+{"text": "HashiCorp Vault managed authentication secrets with OIDC and LDAP integration", "entities": [[10, 15, "TOOL"], [61, 77, "PROTOCOL_TYPE"]]}
+{"text": "Privileged Account Analytics Tool monitored root_aws and db_admin accounts detecting MFA bypass attempts", "entities": [[34, 52, "ACCOUNT_TYPE"], [57, 74, "ACCOUNT_NAME"]]}
+{"text": "Compliance Mapping Tool verified MFA SSO session security and privileged access monitoring", "entities": [[33, 36, "AUTH_TYPE"], [37, 48, "SECURITY_TYPE"], [41, 57, "SECURITY_TYPE"]]}
+{"text": "Identity Provider API Tool retrieved SSO federation data showing 78% coverage with pending apps", "entities": [[65, 77, "COVERAGE_TYPE"]]}
+{"text": "Authelia authentication server enforced two-factor authentication with TOTP and WebAuthn", "entities": [[71, 75, "AUTH_TYPE"]]}
+{"text": "Gluu identity platform managed authentication for 1000 users with OpenID Connect", "entities": [[0, 4, "TOOL"], [5, 13, "PLATFORM_TYPE"], [50, 60, "USER_TYPE"]]}
+{"text": "Duo Security MFA platform protected 8000 users with push biometric and hardware tokens", "entities": [[0, 3, "TOOL"], [13, 25, "PLATFORM_TYPE"], [36, 40, "COUNT"], [41, 46, "USER_TYPE"], [52, 56, "AUTH_TYPE"]]}
+{"text": "Shibboleth identity provider enabled SAML federation for 50 applications with SSO", "entities": [[0, 10, "TOOL"], [11, 19, "PROVIDER_TYPE"], [20, 28, "PROVIDER_TYPE"], [37, 41, "AUTH_TYPE"], [42, 52, "FEDERATION_TYPE"]]}
+{"text": "BeyondTrust privileged access management required MFA for admin accounts with session recording", "entities": [[0, 11, "TOOL"], [12, 29, "MANAGEMENT_TYPE"], [30, 40, "MANAGEMENT_TYPE"], [58, 72, "ACCOUNT_TYPE"], [78, 95, "RECORDING_TYPE"]]}
+{"text": "Can you help me with this?", "entities": []}
+{"text": "I need to check something.", "entities": []}
+{"text": "What is the status?", "entities": []}
+{"text": "How do I do this?", "entities": []}
+{"text": "Tell me more about it.", "entities": []}
+{"text": "Is this safe to use?", "entities": []}
+{"text": "Let me know if you need anything.", "entities": []}
+{"text": "Thanks for your help.", "entities": []}
+{"text": "I will get back to you.", "entities": []}
+{"text": "Please review this document.", "entities": []}
+{"text": "What should I do next?", "entities": []}
+{"text": "How does this work?", "entities": []}
+{"text": "Why is this happening?", "entities": []}
+{"text": "When will this be ready?", "entities": []}
+{"text": "Where can I find this?", "entities": []}
+{"text": "Who should I contact?", "entities": []}
+{"text": "Hey, what's up?", "entities": []}
+{"text": "That's interesting.", "entities": []}
+{"text": "I see what you mean.", "entities": []}
+{"text": "That makes sense.", "entities": []}
+{"text": "Got it, thanks.", "entities": []}
+{"text": "Follow the steps carefully.", "entities": []}
+{"text": "Make sure to save your work.", "entities": []}
+{"text": "Check the settings first.", "entities": []}
+{"text": "Review the documentation.", "entities": []}
+{"text": "Read the instructions.", "entities": []}
+{"text": "This is important.", "entities": []}
+{"text": "That looks good.", "entities": []}
+{"text": "Everything seems fine.", "entities": []}
+{"text": "Nothing to report.", "entities": []}
+{"text": "All systems operational.", "entities": []}
+{"text": "The system is secure.", "entities": []}
+{"text": "All checks passed.", "entities": []}
+{"text": "No issues detected.", "entities": []}
+{"text": "Everything is working correctly.", "entities": []}
+{"text": "The configuration looks good.", "entities": []}
+{"text": "No vulnerabilities found.", "entities": []}
+{"text": "Security measures are in place.", "entities": []}
+{"text": "The audit was successful.", "entities": []}
+{"text": "The information is verified.", "entities": []}
