@@ -32,7 +32,6 @@
       "ACTIVITY_TYPE",
       "ACTOR_TYPE",
       "ADAPTIVE_TYPE",
-      "ADDRESS",
       "ADDRESS_TYPE",
       "ADVERSARY_TYPE",
       "AGENT_TYPE",
@@ -41,7 +40,6 @@
       "ALERTING_TYPE",
       "ALERT_TYPE",
       "ALGORITHM_TYPE",
-      "ALTITUDE",
       "AMOUNT",
       "ANALYSIS_TYPE",
       "ANALYST_TYPE",
@@ -60,7 +58,6 @@
       "ARCHIVE_TYPE",
       "ARTIFACT_TYPE",
       "ASSESSMENT_TYPE",
-      "ASSET_NAME",
       "ASSET_TYPE",
       "ATTACK_TECHNIQUE",
       "ATTACK_TYPE",
@@ -91,12 +88,9 @@
       "BUILD_ID",
       "BUILD_TYPE",
       "BUSINESS_TYPE",
-      "CAMERA",
       "CAMPAIGN_TYPE",
       "CAPABILITY_TYPE",
-      "CAPTURE_TYPE",
       "CARRIER",
-      "CASE",
       "CASE_TYPE",
       "CATALOG_TYPE",
       "CERTIFICATE_TYPE",
@@ -107,7 +101,6 @@
       "CHAOS_TYPE",
       "CHART_TYPE",
       "CHECKER_TYPE",
-      "CHECKLIST_TYPE",
       "CIPHER_TYPE",
       "CLASSIFICATION_TYPE",
       "CLEANING_TYPE",
@@ -116,11 +109,9 @@
       "CLOUD_RESOURCE",
       "CLOUD_TYPE",
       "CLUSTER_TYPE",
-      "CODE_TYPE",
-      "CODING_TYPE",
-      "COLLECTION_TYPE",
       "COLLECTOR_TYPE",
       "COMMIT",
+      "COMMIT_HASH",
       "COMMUNICATION_TYPE",
       "COMPLETION_TYPE",
       "COMPLEXITY_TYPE",
@@ -155,7 +146,7 @@
       "COUNT",
       "COVERAGE_TYPE",
       "CREATOR_TYPE",
-      "CREDIT_TYPE",
+      "CREDIT_CARD_NUMBER",
       "CRIME_TYPE",
       "CRISIS_TYPE",
       "CULTURE_TYPE",
@@ -189,9 +180,8 @@
       "DIVERSITY_TYPE",
       "DOB",
       "DOCUMENT_TYPE",
-      "DOMAIN_TYPE",
+      "DOMAIN",
       "DRIFT_TYPE",
-      "DUMP_TYPE",
       "DURATION_TYPE",
       "EDGE_TYPE",
       "EFFECTIVENESS_TYPE",
@@ -203,9 +193,7 @@
       "ENCRYPTION_TYPE",
       "ENDPOINT_PATH",
       "ENDPOINT_TYPE",
-      "ENFORCER_TYPE",
       "ENGAGEMENT_TYPE",
-      "ENGINEERING_TYPE",
       "ENGINEER_TYPE",
       "ENGINE_TYPE",
       "ENHANCEMENT_TYPE",
@@ -213,7 +201,6 @@
       "ENTITLEMENT_TYPE",
       "ENTITY_TYPE",
       "ENVIRONMENT",
-      "ESCALATION_METHOD",
       "ETHICS_TYPE",
       "EVENT_TYPE",
       "EVIDENCE_TYPE",
@@ -225,8 +212,6 @@
       "EXPIRY_TYPE",
       "EXPLANATION_TYPE",
       "EXPLOITABILITY_TYPE",
-      "EXPLOITATION_TYPE",
-      "EXPLOIT_TYPE",
       "EXPOSURE_TYPE",
       "FACILITY_TYPE",
       "FAILOVER_TYPE",
@@ -240,7 +225,6 @@
       "FILING_TYPE",
       "FILTERED_TYPE",
       "FINANCIAL_TYPE",
-      "FINDING",
       "FINDING_TYPE",
       "FIREWALL_TYPE",
       "FLAG_TYPE",
@@ -257,14 +241,11 @@
       "GATEWAY_TYPE",
       "GENERATION_TYPE",
       "GENERATOR_TYPE",
-      "GITHUB_COMMIT",
-      "GITHUB_ISSUE",
-      "GITHUB_REPO",
-      "GITHUB_USER",
       "GOVERNANCE_TYPE",
       "GRAPH_TYPE",
       "GROUP_TYPE",
       "HASHING_TYPE",
+      "HASHTAG",
       "HEALTH_TYPE",
       "HEATMAP_TYPE",
       "HONEYPOT_TYPE",
@@ -284,12 +265,9 @@
       "INCIDENT_TYPE",
       "INCREMENTAL_TYPE",
       "INDEX_TYPE",
-      "INDICATOR_TYPE",
       "INFO",
       "INFORMATION_TYPE",
-      "INFRASTRUCTURE_TYPE",
       "INGESTION_TYPE",
-      "INGRESS_TYPE",
       "INHERITANCE_TYPE",
       "INSIGHT_TYPE",
       "INTEGRATION_TYPE",
@@ -302,8 +280,10 @@
       "INVENTORY_TYPE",
       "INVESTIGATION_TYPE",
       "IOC_TYPE",
+      "IPV6_ADDRESS",
       "IP_ADDRESS",
       "ISSUER",
+      "ISSUE_ID",
       "ISSUE_TYPE",
       "KEYWORD",
       "KEY_TYPE",
@@ -320,13 +300,10 @@
       "LIBRARY_TYPE",
       "LICENSE_TYPE",
       "LIFECYCLE_TYPE",
-      "LISTING_TYPE",
       "LLM_MODEL",
       "LLM_PROVIDER",
       "LOCATION",
-      "LOCKOUT_TYPE",
       "LOCK_TYPE",
-      "LOGGING_TYPE",
       "LOGIN_TYPE",
       "LOG_TYPE",
       "LONGITUDE",
@@ -368,7 +345,6 @@
       "OBJECTIVE_TYPE",
       "OBJECT_TYPE",
       "OFFENDER_TYPE",
-      "OPEN_TYPE",
       "OPERATIONS_TYPE",
       "ORGANIZATION",
       "OS_TYPE",
@@ -387,9 +363,7 @@
       "PERIOD_TYPE",
       "PERMISSION_TYPE",
       "PERSON",
-      "PHONE",
       "PHONE_NUMBER",
-      "PHYSICAL_TYPE",
       "PILOT_TYPE",
       "PIPELINE_STAGE",
       "PIPELINE_TYPE",
@@ -403,7 +377,6 @@
       "POD_TYPE",
       "POINT_TYPE",
       "POLICY_TYPE",
-      "PORT",
       "PORTAL_TYPE",
       "PORT_TYPE",
       "POSITIVE_TYPE",
@@ -422,7 +395,6 @@
       "PROCESS_TYPE",
       "PROFILE_TYPE",
       "PROGRAM_TYPE",
-      "PROJECT_NAME",
       "PROJECT_TYPE",
       "PROMPT_TYPE",
       "PROTECTED_ATTRIBUTE",
@@ -444,37 +416,37 @@
       "REDUNDANT_TYPE",
       "REGION",
       "REGION_TYPE",
+      "REGISTER_TYPE",
       "REGISTRY_TYPE",
       "REGULATION",
       "REMEDIATION_TYPE",
-      "REMOVAL_TYPE",
       "REPLACEMENT_TYPE",
       "REPLICATION_TYPE",
       "REPORTING_TYPE",
       "REPORT_TYPE",
+      "REPOSITORY",
       "REPOSITORY_TYPE",
+      "REPOSITORY_URL",
       "REQUEST_TYPE",
       "REQUIREMENT_TYPE",
       "RESILIENCE_TYPE",
       "RESOURCE_TYPE",
       "RESPONSE_TYPE",
       "RESTORE_TYPE",
-      "RESTRICTION_TYPE",
       "RESULT_TYPE",
       "RETENTION_TYPE",
       "REVIEW_TYPE",
       "RISK_LEVEL",
-      "RISK_PARAMETER",
       "RISK_TYPE",
       "ROADMAP_TYPE",
       "ROLE",
       "ROLE_TYPE",
-      "ROTATION_TYPE",
       "ROUTER_TYPE",
       "RULE_TYPE",
       "RUNBOOK_TYPE",
       "SAFETY_TYPE",
       "SAFE_TYPE",
+      "SAMPLE_TYPE",
       "SCALE_TYPE",
       "SCANNER_TYPE",
       "SCANNING_TYPE",
@@ -511,6 +483,7 @@
       "SOURCE_TYPE",
       "SOVEREIGNTY_TYPE",
       "SPRAWL_TYPE",
+      "SSN",
       "STAFF_TYPE",
       "STAGE_TYPE",
       "STAKEHOLDER_TYPE",
@@ -522,7 +495,6 @@
       "SUCCESS_TYPE",
       "SUITE_TYPE",
       "SUPPLY_TYPE",
-      "SURFACE_TYPE",
       "SURVEY_TYPE",
       "SUSPICIOUS_TYPE",
       "SWIFT_CODE",
@@ -542,7 +514,6 @@
       "THRESHOLD_TYPE",
       "THROUGHPUT_TYPE",
       "TICKET_ID",
-      "TICKET_TYPE",
       "TIER_TYPE",
       "TIME",
       "TIME_PERIOD",
@@ -555,7 +526,6 @@
       "TRACKING_TYPE",
       "TRAFFIC_TYPE",
       "TRAINING_TYPE",
-      "TRANSACTION_TYPE",
       "TRANSFER_MECHANISM",
       "TRANSFER_TYPE",
       "TREND_TYPE",
@@ -563,7 +533,6 @@
       "TRIGGER_TYPE",
       "TRUST_TYPE",
       "TTP_TYPE",
-      "TUNING_TYPE",
       "TYPE",
       "UNIFIED_TYPE",
       "UNIT_TYPE",
@@ -572,7 +541,6 @@
       "USER_TYPE",
       "VALIDATION_TYPE",
       "VALUE",
-      "VARIANT",
       "VAULT_TYPE",
       "VENDOR_ID",
       "VENDOR_NAME",
@@ -608,446 +576,16 @@
 
   ],
   "performance":{
-    "ents_f":0.9900218427,
-    "ents_p":0.9885986219,
-    "ents_r":0.9914491673,
+    "ents_f":0.9416996047,
+    "ents_p":0.9444995045,
+    "ents_r":0.9389162562,
     "ents_per_type":{
-      "RECORD_TYPE":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
-      },
-      "GITHUB_USER":{
-        "p":0.991162608,
-        "r":0.9982481422,
-        "f":0.9946927571
-      },
-      "VERIFICATION_TYPE":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
-      },
-      "GITHUB_ISSUE":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
-      },
-      "COUNT":{
-        "p":0.9923664122,
-        "r":0.7894736842,
-        "f":0.8793686584
-      },
-      "ANALYSIS_TYPE":{
-        "p":1.0,
-        "r":0.9945205479,
-        "f":0.9972527473
-      },
-      "TOOL":{
-        "p":0.9885057471,
-        "r":0.9885057471,
-        "f":0.9885057471
-      },
-      "CONTAINER_TYPE":{
-        "p":1.0,
-        "r":0.9444444444,
-        "f":0.9714285714
-      },
-      "REGISTRY_TYPE":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
-      },
-      "STORAGE_TYPE":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
-      },
-      "PERSON":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
-      },
-      "METRIC_TYPE":{
-        "p":0.7709677419,
-        "r":0.8298611111,
-        "f":0.7993311037
-      },
-      "AI_MODEL_TYPE":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
-      },
-      "TIME_UNIT":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
-      },
-      "VALUE":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
-      },
-      "STATUS":{
-        "p":1.0,
-        "r":0.0769230769,
-        "f":0.1428571429
-      },
-      "INFO":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
-      },
-      "KEYWORD":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
-      },
-      "DATE":{
-        "p":0.9690721649,
-        "r":1.0,
-        "f":0.9842931937
-      },
-      "PROTECTED_ATTRIBUTE":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
-      },
-      "CONTINUITY_TYPE":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
-      },
-      "READINESS_TYPE":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
-      },
-      "SYSTEM_TYPE":{
-        "p":1.0,
-        "r":0.875,
-        "f":0.9333333333
-      },
-      "DEVICE_TYPE":{
-        "p":0.8333333333,
-        "r":1.0,
-        "f":0.9090909091
-      },
-      "REPLICATION_TYPE":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
-      },
-      "CVE_ID":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
-      },
-      "ORGANIZATION":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
-      },
-      "LATITUDE":{
-        "p":0.9619047619,
-        "r":0.9711538462,
-        "f":0.966507177
-      },
-      "LOCKOUT_TYPE":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
-      },
-      "LOGIN_TYPE":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
-      },
-      "ATTEMPT_TYPE":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
-      },
-      "API_TYPE":{
-        "p":1.0,
-        "r":0.8421052632,
-        "f":0.9142857143
-      },
-      "ENDPOINT_TYPE":{
+      "REPOSITORY":{
         "p":1.0,
         "r":1.0,
         "f":1.0
       },
       "RISK_TYPE":{
-        "p":0.9677419355,
-        "r":0.8823529412,
-        "f":0.9230769231
-      },
-      "SCORE_TYPE":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
-      },
-      "SEVERITY_TYPE":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
-      },
-      "LOCATION":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
-      },
-      "SOURCE":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
-      },
-      "CLUSTER_TYPE":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
-      },
-      "AUTH_TYPE":{
-        "p":0.9428571429,
-        "r":0.9428571429,
-        "f":0.9428571429
-      },
-      "VULNERABILITY_TYPE":{
-        "p":1.0,
-        "r":0.9166666667,
-        "f":0.9565217391
-      },
-      "REQUEST_TYPE":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
-      },
-      "ACCESS_TYPE":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
-      },
-      "REGULATION":{
-        "p":0.7142857143,
-        "r":0.652173913,
-        "f":0.6818181818
-      },
-      "RISK_LEVEL":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
-      },
-      "FRAMEWORK":{
-        "p":1.0,
-        "r":0.9838709677,
-        "f":0.9918699187
-      },
-      "LOSS_TYPE":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
-      },
-      "LOG_TYPE":{
-        "p":0.9230769231,
-        "r":1.0,
-        "f":0.96
-      },
-      "DEPENDENCY_TYPE":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
-      },
-      "LONGITUDE":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
-      },
-      "RECORD":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
-      },
-      "THREAT_ACTOR":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
-      },
-      "EMAIL_ADDRESS":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
-      },
-      "PHONE_NUMBER":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
-      },
-      "DASHBOARD_TYPE":{
-        "p":0.7368421053,
-        "r":1.0,
-        "f":0.8484848485
-      },
-      "YEAR":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
-      },
-      "COORDINATE":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
-      },
-      "CLOUD_PROVIDER":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
-      },
-      "FILING_TYPE":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
-      },
-      "FLAG_TYPE":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
-      },
-      "ENTITY_TYPE":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
-      },
-      "FRAMEWORK_SECTION":{
-        "p":0.0,
-        "r":0.0,
-        "f":0.0
-      },
-      "REQUIREMENT_TYPE":{
-        "p":0.0,
-        "r":0.0,
-        "f":0.0
-      },
-      "SEARCH_TYPE":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
-      },
-      "ENGINE_TYPE":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
-      },
-      "ROLE":{
-        "p":1.0,
-        "r":0.875,
-        "f":0.9333333333
-      },
-      "PIPELINE_STAGE":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
-      },
-      "ACTOR_TYPE":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
-      },
-      "CAMPAIGN_TYPE":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
-      },
-      "PATTERN_TYPE":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
-      },
-      "CONNECTION_TYPE":{
-        "p":0.6538461538,
-        "r":1.0,
-        "f":0.7906976744
-      },
-      "OBJECT_TYPE":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
-      },
-      "AI_MODEL":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
-      },
-      "PROTOCOL_TYPE":{
-        "p":1.0,
-        "r":0.9473684211,
-        "f":0.972972973
-      },
-      "CERTIFICATE_TYPE":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
-      },
-      "DATA":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
-      },
-      "EVIDENCE_TYPE":{
-        "p":1.0,
-        "r":0.4,
-        "f":0.5714285714
-      },
-      "ENVIRONMENT":{
-        "p":0.7777777778,
-        "r":1.0,
-        "f":0.875
-      },
-      "VENDOR_TYPE":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
-      },
-      "MARKETPLACE_TYPE":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
-      },
-      "BACKUP_TYPE":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
-      },
-      "INTEGRITY_TYPE":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
-      },
-      "RESTORE_TYPE":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
-      },
-      "AMOUNT":{
-        "p":1.0,
-        "r":0.9,
-        "f":0.9473684211
-      },
-      "CURRENCY":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
-      },
-      "DATA_TYPE":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
-      },
-      "ENCRYPTION_TYPE":{
-        "p":1.0,
-        "r":0.9090909091,
-        "f":0.9523809524
-      },
-      "TICKET_ID":{
         "p":1.0,
         "r":1.0,
         "f":1.0
@@ -1057,417 +595,22 @@
         "r":1.0,
         "f":1.0
       },
-      "SCANNER_TYPE":{
+      "PROTOCOL_TYPE":{
         "p":1.0,
         "r":1.0,
         "f":1.0
       },
-      "SECURITY_TYPE":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
-      },
-      "NOTIFICATION_TYPE":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
-      },
-      "SCHEDULE_TYPE":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
-      },
-      "SIMILARITY_TYPE":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
-      },
-      "PARTY":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
-      },
-      "CASE_TYPE":{
-        "p":1.0,
-        "r":0.8125,
-        "f":0.8965517241
-      },
-      "EXPIRY_TYPE":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
-      },
-      "CONTROL_TYPE":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
-      },
-      "ATTACK_TYPE":{
-        "p":1.0,
-        "r":0.9130434783,
-        "f":0.9545454545
-      },
-      "AGENT_TYPE":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
-      },
-      "UPDATE_TYPE":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
-      },
-      "ACTION_TYPE":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
-      },
-      "AWARENESS_TYPE":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
-      },
-      "METADATA_TYPE":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
-      },
-      "CLOUD_TYPE":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
-      },
-      "DEPLOYMENT_TYPE":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
-      },
-      "SITE_TYPE":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
-      },
-      "RECOVERY_TYPE":{
-        "p":0.9333333333,
-        "r":1.0,
-        "f":0.9655172414
-      },
-      "ARCHITECTURE_TYPE":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
-      },
-      "FINANCIAL_TYPE":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
-      },
-      "THRESHOLD_TYPE":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
-      },
-      "MALWARE_TYPE":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
-      },
-      "RATE_TYPE":{
-        "p":0.8,
-        "r":1.0,
-        "f":0.8888888889
-      },
-      "APPLICATION_NAME":{
-        "p":1.0,
-        "r":0.5,
-        "f":0.6666666667
-      },
-      "MANAGEMENT_TYPE":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
-      },
-      "DEVELOPER_TYPE":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
-      },
-      "CODING_TYPE":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
-      },
-      "TIME_TYPE":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
-      },
-      "KEY_TYPE":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
-      },
-      "VIOLATION_TYPE":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
-      },
-      "CHECKER_TYPE":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
-      },
-      "WORKFLOW_TYPE":{
-        "p":0.6,
-        "r":1.0,
-        "f":0.75
-      },
-      "RULE_TYPE":{
-        "p":0.8823529412,
-        "r":0.8823529412,
-        "f":0.8823529412
-      },
-      "SUCCESS_TYPE":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
-      },
-      "MATCH_TYPE":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
-      },
-      "CONSTRAINT_TYPE":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
-      },
-      "INHERITANCE_TYPE":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
-      },
-      "CORRELATION_TYPE":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
-      },
-      "WORKSHOP_TYPE":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
-      },
-      "PLUGIN_TYPE":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
-      },
-      "CHAMPION_TYPE":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
-      },
-      "CULTURE_TYPE":{
-        "p":1.0,
-        "r":0.5,
-        "f":0.6666666667
-      },
-      "MOBILE_TYPE":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
-      },
-      "SERVICE_TYPE":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
-      },
-      "THREAT_LEVEL":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
-      },
-      "ROLE_TYPE":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
-      },
-      "CAMERA":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
-      },
-      "MODEL":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
-      },
-      "PLATFORM_TYPE":{
-        "p":0.75,
-        "r":1.0,
-        "f":0.8571428571
-      },
-      "GOVERNANCE_TYPE":{
-        "p":1.0,
-        "r":0.8461538462,
-        "f":0.9166666667
-      },
-      "HOST_TYPE":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
-      },
-      "ASSESSMENT_TYPE":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
-      },
-      "COVERAGE_TYPE":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
-      },
-      "INVENTORY_TYPE":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
-      },
-      "MANAGER_TYPE":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
-      },
-      "DISK_TYPE":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
-      },
-      "COMPLIANCE_TYPE":{
-        "p":0.9230769231,
-        "r":1.0,
-        "f":0.96
-      },
-      "THREAT_TYPE":{
-        "p":1.0,
-        "r":0.6,
-        "f":0.75
-      },
-      "SAFETY_TYPE":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
-      },
-      "INTERLOCK_TYPE":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
-      },
-      "FAILURE_TYPE":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
-      },
-      "VISIBILITY_TYPE":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
-      },
-      "FIREWALL_TYPE":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
-      },
-      "HYGIENE_TYPE":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
-      },
-      "PERMISSION_TYPE":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
-      },
-      "POLICY_TYPE":{
-        "p":0.8636363636,
-        "r":0.8636363636,
-        "f":0.8636363636
-      },
-      "GITHUB_REPO":{
-        "p":1.0,
-        "r":0.9375,
-        "f":0.9677419355
-      },
-      "REPOSITORY_TYPE":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
-      },
-      "BRANCH":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
-      },
-      "COMMIT":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
-      },
-      "TEAM_TYPE":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
-      },
-      "GENERATOR_TYPE":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
-      },
-      "TTP_TYPE":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
-      },
-      "ANOMALY_TYPE":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
-      },
-      "PHONE":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
-      },
-      "ENFORCER_TYPE":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
-      },
-      "IDENTITY_TYPE":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
-      },
-      "LIFECYCLE_TYPE":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
-      },
-      "SCORING_TYPE":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
-      },
-      "CONFIDENCE":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
+      "METRIC_TYPE":{
+        "p":0.5909090909,
+        "r":0.8888888889,
+        "f":0.7098976109
       },
-      "TYPE":{
+      "VAULT_TYPE":{
         "p":1.0,
         "r":1.0,
         "f":1.0
       },
-      "CUTOVER_TYPE":{
+      "FREEZE_TYPE":{
         "p":1.0,
         "r":1.0,
         "f":1.0
@@ -1477,417 +620,57 @@
         "r":1.0,
         "f":1.0
       },
-      "PLANNING_TYPE":{
-        "p":0.6666666667,
-        "r":1.0,
-        "f":0.8
-      },
-      "BREACH_TYPE":{
-        "p":0.0,
-        "r":0.0,
-        "f":0.0
-      },
-      "TOKEN_TYPE":{
+      "BOARD_TYPE":{
         "p":1.0,
         "r":1.0,
         "f":1.0
       },
-      "AUTOMATION_TYPE":{
+      "ENGAGEMENT_TYPE":{
         "p":1.0,
         "r":1.0,
         "f":1.0
       },
-      "PROCESS_TYPE":{
+      "MATURITY_TYPE":{
         "p":1.0,
         "r":1.0,
         "f":1.0
       },
-      "APPLICATION_TYPE":{
+      "UPDATE_TYPE":{
         "p":1.0,
         "r":1.0,
         "f":1.0
       },
-      "ARTIFACT_TYPE":{
+      "PHONE_NUMBER":{
+        "p":1.0,
+        "r":0.987804878,
+        "f":0.9938650307
+      },
+      "RECORD_TYPE":{
         "p":1.0,
         "r":1.0,
         "f":1.0
       },
-      "ASSET_TYPE":{
+      "KEYWORD":{
         "p":1.0,
         "r":1.0,
         "f":1.0
       },
-      "DRIFT_TYPE":{
-        "p":1.0,
+      "NETWORK_TYPE":{
+        "p":0.5,
         "r":1.0,
-        "f":1.0
-      },
-      "LICENSE_TYPE":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
-      },
-      "ALERT_TYPE":{
-        "p":1.0,
-        "r":0.8181818182,
-        "f":0.9
-      },
-      "EXERCISE_TYPE":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
-      },
-      "INTEGRATION_TYPE":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
-      },
-      "CASE":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
-      },
-      "ISSUE_TYPE":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
-      },
-      "BLOB_TYPE":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
-      },
-      "PACKAGING_TYPE":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
-      },
-      "LLM_MODEL":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
-      },
-      "MEASUREMENT":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
-      },
-      "LAB_TYPE":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
-      },
-      "SURVEY_TYPE":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
-      },
-      "FRAMEWORK_TYPE":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
-      },
-      "LLM_PROVIDER":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
-      },
-      "SOURCE_CODE":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
-      },
-      "FILE_TYPE":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
-      },
-      "COMMUNICATION_TYPE":{
-        "p":0.3333333333,
-        "r":1.0,
-        "f":0.5
-      },
-      "PROFILE_TYPE":{
-        "p":1.0,
-        "r":0.3333333333,
-        "f":0.5
-      },
-      "ANALYZER_TYPE":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
-      },
-      "COST_TYPE":{
-        "p":1.0,
-        "r":0.75,
-        "f":0.8571428571
-      },
-      "POST_TYPE":{
-        "p":0.9166666667,
-        "r":1.0,
-        "f":0.9565217391
-      },
-      "SCENARIO_TYPE":{
-        "p":0.9,
-        "r":1.0,
-        "f":0.9473684211
-      },
-      "PROVIDER_TYPE":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
-      },
-      "USER_TYPE":{
-        "p":0.875,
-        "r":0.7,
-        "f":0.7777777778
-      },
-      "LOCK_TYPE":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
-      },
-      "DEFINITION_TYPE":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
-      },
-      "CURRENCY_TYPE":{
-        "p":1.0,
-        "r":0.5,
         "f":0.6666666667
       },
-      "VALIDATION_TYPE":{
+      "ANALYTICS_TYPE":{
         "p":1.0,
         "r":1.0,
         "f":1.0
       },
-      "ACTIVATION_TYPE":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
-      },
-      "SENTIMENT":{
-        "p":0.0,
-        "r":0.0,
-        "f":0.0
-      },
-      "UNIFIED_TYPE":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
-      },
-      "WALLET_ADDRESS":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
-      },
-      "POSTURE_TYPE":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
-      },
-      "SECRET_TYPE":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
-      },
-      "STORE_TYPE":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
-      },
-      "ACCOUNT_TYPE":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
-      },
-      "SESSION_TYPE":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
-      },
-      "RUNBOOK_TYPE":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
-      },
-      "FAILOVER_TYPE":{
-        "p":1.0,
-        "r":0.6,
-        "f":0.75
-      },
-      "FUNCTION_TYPE":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
-      },
-      "OBJECTIVE_TYPE":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
-      },
-      "WALLET":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
-      },
-      "OS_TYPE":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
-      },
-      "SYSCALL_TYPE":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
-      },
-      "ARCHIVE_TYPE":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
-      },
-      "COMPLIANCE_FRAMEWORK":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
-      },
-      "CLOUD_RESOURCE":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
-      },
-      "COLLECTION_TYPE":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
-      },
-      "CATALOG_TYPE":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
-      },
-      "ENRICHMENT_TYPE":{
-        "p":0.6666666667,
-        "r":1.0,
-        "f":0.8
-      },
-      "HUNTER_TYPE":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
-      },
-      "IMAGE_TYPE":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
-      },
-      "CHAOS_TYPE":{
-        "p":0.0,
-        "r":0.0,
-        "f":0.0
-      },
-      "EXPERIMENT_TYPE":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
-      },
-      "PORTAL_TYPE":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
-      },
-      "PROJECT_NAME":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
-      },
-      "PROGRAM_TYPE":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
-      },
-      "BOUNTY_TYPE":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
-      },
-      "FINDING_TYPE":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
-      },
-      "STATUS_TYPE":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
+      "TOOL":{
+        "p":0.9847328244,
+        "r":0.9847328244,
+        "f":0.9847328244
       },
       "VISUALIZATION_TYPE":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
-      },
-      "MODEL_CATEGORY":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
-      },
-      "MESSAGE_TYPE":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
-      },
-      "SAMPLE_TYPE":{
-        "p":0.0,
-        "r":0.0,
-        "f":0.0
-      },
-      "SOLUTION_TYPE":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
-      },
-      "MAXIMUM_TYPE":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
-      },
-      "ACCEPTABLE_TYPE":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
-      },
-      "CYBER_TYPE":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
-      },
-      "IOC_TYPE":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
-      },
-      "INDICATOR_TYPE":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
-      },
-      "FREQUENCY_TYPE":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
-      },
-      "SOURCE_TYPE":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
-      },
-      "DOB":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
-      },
-      "ADDRESS":{
         "p":1.0,
         "r":1.0,
         "f":1.0
@@ -1902,27 +685,877 @@
         "r":1.0,
         "f":1.0
       },
-      "LIBRARY_NAME":{
+      "ISSUE_ID":{
         "p":1.0,
         "r":1.0,
         "f":1.0
       },
-      "TIME_PERIOD":{
+      "REGULATION":{
+        "p":0.9166666667,
+        "r":0.9166666667,
+        "f":0.9166666667
+      },
+      "AUTOMATION_TYPE":{
+        "p":0.5,
+        "r":0.5,
+        "f":0.5
+      },
+      "PLATFORM_TYPE":{
         "p":1.0,
         "r":1.0,
         "f":1.0
       },
-      "PATCH_TYPE":{
+      "CVE_ID":{
         "p":1.0,
         "r":1.0,
         "f":1.0
       },
-      "CONTENT_TYPE":{
+      "EMAIL_ADDRESS":{
+        "p":0.9726027397,
+        "r":1.0,
+        "f":0.9861111111
+      },
+      "COUNT":{
+        "p":0.977443609,
+        "r":0.7242339833,
+        "f":0.832
+      },
+      "VENDOR_TYPE":{
         "p":1.0,
         "r":1.0,
         "f":1.0
       },
-      "BIAS_TYPE":{
+      "COORDINATE":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "MEASUREMENT":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "THRESHOLD_TYPE":{
+        "p":1.0,
+        "r":0.5,
+        "f":0.6666666667
+      },
+      "BACKUP_TYPE":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "API_TYPE":{
+        "p":0.9473684211,
+        "r":1.0,
+        "f":0.972972973
+      },
+      "LATITUDE":{
+        "p":0.9708737864,
+        "r":0.9900990099,
+        "f":0.9803921569
+      },
+      "GOVERNANCE_TYPE":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "FRAMEWORK":{
+        "p":0.904109589,
+        "r":0.9295774648,
+        "f":0.9166666667
+      },
+      "INTEL_TYPE":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "FEED_TYPE":{
+        "p":1.0,
+        "r":0.75,
+        "f":0.8571428571
+      },
+      "TICKET_ID":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "DOMAIN":{
+        "p":1.0,
+        "r":0.9892473118,
+        "f":0.9945945946
+      },
+      "ENVIRONMENT":{
+        "p":0.6666666667,
+        "r":1.0,
+        "f":0.8
+      },
+      "PATTERN_TYPE":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "USER_TYPE":{
+        "p":1.0,
+        "r":0.9166666667,
+        "f":0.9565217391
+      },
+      "AUTH_TYPE":{
+        "p":0.9375,
+        "r":0.9677419355,
+        "f":0.9523809524
+      },
+      "LIBRARY_TYPE":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "VALUE":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "COMPLETION_TYPE":{
+        "p":1.0,
+        "r":0.8,
+        "f":0.8888888889
+      },
+      "ROLE_TYPE":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "ATTACK_TECHNIQUE":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "FRAMEWORK_SECTION":{
+        "p":0.3333333333,
+        "r":1.0,
+        "f":0.5
+      },
+      "REQUIREMENT_TYPE":{
+        "p":0.5,
+        "r":0.3333333333,
+        "f":0.4
+      },
+      "ROTATION_TYPE":{
+        "p":0.0,
+        "r":0.0,
+        "f":0.0
+      },
+      "DATE":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "AI_MODEL":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "DETECTION_TYPE":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "IP_ADDRESS":{
+        "p":1.0,
+        "r":0.9801980198,
+        "f":0.99
+      },
+      "POST_TYPE":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "SCENARIO_TYPE":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "CONFIDENCE":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "CONTAINER_TYPE":{
+        "p":1.0,
+        "r":0.6666666667,
+        "f":0.8
+      },
+      "REGISTRY_TYPE":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "STORAGE_TYPE":{
+        "p":1.0,
+        "r":0.6666666667,
+        "f":0.8
+      },
+      "VULNERABILITY_TYPE":{
+        "p":1.0,
+        "r":0.9743589744,
+        "f":0.987012987
+      },
+      "ROLE":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "ATTACK_TYPE":{
+        "p":1.0,
+        "r":0.8571428571,
+        "f":0.9230769231
+      },
+      "TIME_UNIT":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "GROUP_TYPE":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "DEVICE_TYPE":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "WALLET_ADDRESS":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "CONNECTION_TYPE":{
+        "p":1.0,
+        "r":0.6666666667,
+        "f":0.8
+      },
+      "ENDPOINT_TYPE":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "MANAGEMENT_TYPE":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "ASSESSMENT_TYPE":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "PROGRAM_TYPE":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "DATA":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "INFO":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "CLOUD_PROVIDER":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "LOG_TYPE":{
+        "p":1.0,
+        "r":0.8888888889,
+        "f":0.9411764706
+      },
+      "HUNT_TYPE":{
+        "p":0.0,
+        "r":0.0,
+        "f":0.0
+      },
+      "DEPENDENCY_TYPE":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "ACCOUNT_TYPE":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "SESSION_TYPE":{
+        "p":0.8888888889,
+        "r":1.0,
+        "f":0.9411764706
+      },
+      "THREAT_ACTOR":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "LONGITUDE":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "TRANSFER_MECHANISM":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "FILING_TYPE":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "THREAT_LEVEL":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "ADDRESS_TYPE":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "EXCHANGE_TYPE":{
+        "p":0.7692307692,
+        "r":1.0,
+        "f":0.8695652174
+      },
+      "ETHICS_TYPE":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "MONITORING_TYPE":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "SEARCH_TYPE":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "ENGINE_TYPE":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "SOURCE":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "HOST_TYPE":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "CULTURE_TYPE":{
+        "p":1.0,
+        "r":0.6666666667,
+        "f":0.8
+      },
+      "SURVEY_TYPE":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "OBJECT_TYPE":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "MESSAGE_TYPE":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "CERTIFICATE_TYPE":{
+        "p":1.0,
+        "r":0.8571428571,
+        "f":0.9230769231
+      },
+      "AI_MODEL_TYPE":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "FLAG_TYPE":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "INTEGRITY_TYPE":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "RESTORE_TYPE":{
+        "p":1.0,
+        "r":0.75,
+        "f":0.8571428571
+      },
+      "READINESS_TYPE":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "YEAR":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "CUTOVER_TYPE":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "DATA_TYPE":{
+        "p":0.9,
+        "r":1.0,
+        "f":0.9473684211
+      },
+      "TRUST_TYPE":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "DISCLOSURE_TYPE":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "CLOUD_RESOURCE":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "ANALYZER_TYPE":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "PLUGIN_TYPE":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "TYPE":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "CONTROL_TYPE":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "MATCH_TYPE":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "REPOSITORY_URL":{
+        "p":0.0,
+        "r":0.0,
+        "f":0.0
+      },
+      "IPV6_ADDRESS":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "EXPIRY_TYPE":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "POLICY_TYPE":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "ALERTING_TYPE":{
+        "p":1.0,
+        "r":0.6666666667,
+        "f":0.8
+      },
+      "DEPLOYMENT_TYPE":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "ACCURACY_TYPE":{
+        "p":0.75,
+        "r":1.0,
+        "f":0.8571428571
+      },
+      "POSTURE_TYPE":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "SCANNER_TYPE":{
+        "p":0.8888888889,
+        "r":0.8,
+        "f":0.8421052632
+      },
+      "IMAGE_NAME":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "COST_TYPE":{
+        "p":0.8333333333,
+        "r":1.0,
+        "f":0.9090909091
+      },
+      "PERSON":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "MALWARE_TYPE":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "METADATA_TYPE":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "SIMILARITY_TYPE":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "ENHANCEMENT_TYPE":{
+        "p":0.0,
+        "r":0.0,
+        "f":0.0
+      },
+      "NETWORKING_TYPE":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "BEHAVIOR_TYPE":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "TREND_TYPE":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "KEY_TYPE":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "CHECKER_TYPE":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "SCORING_TYPE":{
+        "p":0.6666666667,
+        "r":1.0,
+        "f":0.8
+      },
+      "EVENT_TYPE":{
+        "p":1.0,
+        "r":0.5555555556,
+        "f":0.7142857143
+      },
+      "COMMIT_HASH":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "PROVIDER_TYPE":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "CHAMPION_TYPE":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "LEARNING_TYPE":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "ADAPTIVE_TYPE":{
+        "p":0.75,
+        "r":1.0,
+        "f":0.8571428571
+      },
+      "NUDGE_TYPE":{
+        "p":1.0,
+        "r":0.5,
+        "f":0.6666666667
+      },
+      "VENDOR_NAME":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "SCALE_TYPE":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "MOBILE_TYPE":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "EVIDENCE_TYPE":{
+        "p":0.7777777778,
+        "r":1.0,
+        "f":0.875
+      },
+      "OBJECTIVE_TYPE":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "HEALTH_TYPE":{
+        "p":1.0,
+        "r":0.5,
+        "f":0.6666666667
+      },
+      "LAG_TYPE":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "DRIFT_TYPE":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "PIPELINE_TYPE":{
+        "p":1.0,
+        "r":0.75,
+        "f":0.8571428571
+      },
+      "GATEWAY_TYPE":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "CLOUD_TYPE":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "DASHBOARD_TYPE":{
+        "p":0.8571428571,
+        "r":1.0,
+        "f":0.9230769231
+      },
+      "MESH_TYPE":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "EXECUTIVE_TYPE":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "TIME_TYPE":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "OS_TYPE":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "BUILD_ID":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "INVENTORY_TYPE":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "MANAGER_TYPE":{
+        "p":1.0,
+        "r":0.6666666667,
+        "f":0.8
+      },
+      "DISK_TYPE":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "ACTION_TYPE":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "RULE_TYPE":{
+        "p":1.0,
+        "r":0.8333333333,
+        "f":0.9090909091
+      },
+      "SAMPLE_TYPE":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "MARKETPLACE_TYPE":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "ASSET_TYPE":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "VISIBILITY_TYPE":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "FIREWALL_TYPE":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "PRIVACY_TYPE":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "SOLUTION_TYPE":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "IDENTITY_TYPE":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "PROFILE_TYPE":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "BUILD_TYPE":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "PARTY":{
+        "p":1.0,
+        "r":0.9166666667,
+        "f":0.9565217391
+      },
+      "CASE_TYPE":{
+        "p":1.0,
+        "r":0.6666666667,
+        "f":0.8
+      },
+      "REQUEST_TYPE":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "FULFILLMENT_TYPE":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "RECOVERY_TYPE":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "STATUS_TYPE":{
+        "p":0.0,
+        "r":0.0,
+        "f":0.0
+      },
+      "LIFECYCLE_TYPE":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "ACCESS_TYPE":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "ORGANIZATION":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "LOSS_TYPE":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "APPLICATION_TYPE":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "PROVENANCE_TYPE":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "PROMPT_TYPE":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "ROUTER_TYPE":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "MALICIOUS_TYPE":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "TESTING_TYPE":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "PROCEDURE_TYPE":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "SCHEDULE_TYPE":{
         "p":1.0,
         "r":1.0,
         "f":1.0
@@ -1932,27 +1565,342 @@
         "r":1.0,
         "f":1.0
       },
-      "REGISTER_TYPE":{
+      "ACTOR_TYPE":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "PROCESS_TYPE":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "CLUSTER_TYPE":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "ALERT_TYPE":{
+        "p":1.0,
+        "r":0.75,
+        "f":0.8571428571
+      },
+      "RECORD":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "PROJECT_TYPE":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "PLANNING_TYPE":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "ISSUER":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "CYBER_TYPE":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "ISSUE_TYPE":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "SERVICE_TYPE":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "BLOB_TYPE":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "CAPABILITY_TYPE":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "LAB_TYPE":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "RECORDING_TYPE":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "ROADMAP_TYPE":{
         "p":0.0,
         "r":0.0,
         "f":0.0
+      },
+      "FRAMEWORK_TYPE":{
+        "p":1.0,
+        "r":0.5,
+        "f":0.6666666667
+      },
+      "AGENT_TYPE":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "SYSTEM_TYPE":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "AMOUNT":{
+        "p":1.0,
+        "r":0.6666666667,
+        "f":0.8
+      },
+      "LOCK_TYPE":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "USAGE_TYPE":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "SEVERITY_TYPE":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "MAPPING_TYPE":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "ZONE_TYPE":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "CONDUIT_TYPE":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "CLASSIFICATION_TYPE":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "RATING":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "VIOLATION_TYPE":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "SCAN_TYPE":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "AUDIENCE_TYPE":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "ARCHIVE_TYPE":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "FAILOVER_TYPE":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "TARGET_TYPE":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "REPOSITORY_TYPE":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "NAMESPACE":{
+        "p":0.0,
+        "r":0.0,
+        "f":0.0
+      },
+      "APP_TYPE":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "RUNBOOK_TYPE":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "CATALOG_TYPE":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "ENRICHMENT_TYPE":{
+        "p":0.75,
+        "r":1.0,
+        "f":0.8571428571
+      },
+      "ENCRYPTION_TYPE":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "SOURCE_TYPE":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "TEAM_TYPE":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "ANALYSIS_TYPE":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "INDEX_TYPE":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "REGION_TYPE":{
+        "p":0.0,
+        "r":0.0,
+        "f":0.0
+      },
+      "ARCHITECTURE_TYPE":{
+        "p":1.0,
+        "r":0.6666666667,
+        "f":0.8
+      },
+      "SCORE_TYPE":{
+        "p":1.0,
+        "r":0.75,
+        "f":0.8571428571
+      },
+      "MAXIMUM_TYPE":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "ACCEPTABLE_TYPE":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "CONTRACT_TYPE":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "IOC_TYPE":{
+        "p":0.0,
+        "r":0.0,
+        "f":0.0
+      },
+      "FLOW_TYPE":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "GAP_TYPE":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "STATUS":{
+        "p":0.0,
+        "r":0.0,
+        "f":0.0
+      },
+      "SCANNING_TYPE":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "FREQUENCY_TYPE":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "PROJECT_NAME":{
+        "p":0.0,
+        "r":0.0,
+        "f":0.0
+      },
+      "AUDIT_TYPE":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "CURRENCY":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "BIAS_TYPE":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "FINANCIAL_TYPE":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
       },
       "DECOMMISSION_TYPE":{
         "p":1.0,
         "r":1.0,
         "f":1.0
       },
-      "OFFENDER_TYPE":{
+      "SECRET_TYPE":{
         "p":1.0,
         "r":1.0,
         "f":1.0
       },
-      "COLLECTOR_TYPE":{
+      "STORE_TYPE":{
         "p":1.0,
         "r":1.0,
         "f":1.0
       },
       "PERIOD_TYPE":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "APPLICATION_NAME":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "COLLECTOR_TYPE":{
         "p":1.0,
         "r":1.0,
         "f":1.0
@@ -1967,47 +1915,42 @@
         "r":1.0,
         "f":1.0
       },
-      "BUILD_TYPE":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
-      },
-      "VULNERABILITY_ID":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
-      },
-      "INTEGRATOR_TYPE":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
-      },
-      "TRUST_TYPE":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
-      },
-      "ADAPTIVE_TYPE":{
+      "CHAOS_TYPE":{
         "p":0.0,
         "r":0.0,
         "f":0.0
       },
-      "TRIGGER_TYPE":{
+      "EXPERIMENT_TYPE":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "TRAFFIC_TYPE":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "AWARENESS_TYPE":{
         "p":0.0,
         "r":0.0,
         "f":0.0
       },
-      "PIPELINE_TYPE":{
+      "WORKSHOP_TYPE":{
+        "p":0.0,
+        "r":0.0,
+        "f":0.0
+      },
+      "NAMESERVER":{
         "p":1.0,
         "r":1.0,
         "f":1.0
       },
-      "CHECKLIST_TYPE":{
+      "DISTRIBUTION_TYPE":{
         "p":1.0,
         "r":1.0,
         "f":1.0
       },
-      "ALTITUDE":{
+      "SIGNING_STATUS":{
         "p":1.0,
         "r":1.0,
         "f":1.0
@@ -2017,7 +1960,12 @@
         "r":1.0,
         "f":1.0
       },
-      "MESH_TYPE":{
+      "REDUCTION_TYPE":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "CHART_TYPE":{
         "p":1.0,
         "r":1.0,
         "f":1.0
@@ -2027,57 +1975,47 @@
         "r":1.0,
         "f":1.0
       },
-      "MONITOR_TYPE":{
+      "EXERCISE_TYPE":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "WALLET":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "ENTITY_TYPE":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "PACK_TYPE":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "GRAPH_TYPE":{
         "p":1.0,
         "r":1.0,
         "f":1.0
       },
       "TRANSFER_TYPE":{
-        "p":1.0,
+        "p":0.3333333333,
         "r":1.0,
-        "f":1.0
-      },
-      "COMPLETION_TYPE":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
-      },
-      "BEHAVIOR_TYPE":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
-      },
-      "ANALYTICS_TYPE":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
-      },
-      "PRIVACY_TYPE":{
-        "p":1.0,
-        "r":0.9,
-        "f":0.9473684211
-      },
-      "EFFICIENCY_TYPE":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
-      },
-      "PRIORITY_TYPE":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
-      },
-      "INSIGHT_TYPE":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
+        "f":0.5
       },
       "API_CATEGORY":{
-        "p":0.5,
-        "r":1.0,
-        "f":0.6666666667
+        "p":0.0,
+        "r":0.0,
+        "f":0.0
       },
-      "AUDIT_TYPE":{
+      "DELETION_TYPE":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "IMPROVEMENT_TYPE":{
         "p":1.0,
         "r":1.0,
         "f":1.0
@@ -2087,22 +2025,107 @@
         "r":1.0,
         "f":1.0
       },
-      "PROTOCOL":{
+      "HONEYPOT_TYPE":{
         "p":1.0,
         "r":1.0,
         "f":1.0
       },
-      "NAMESERVER":{
+      "LOCATION":{
         "p":1.0,
         "r":1.0,
         "f":1.0
       },
-      "CONTRACT_TYPE":{
+      "COMPLIANCE_TYPE":{
         "p":1.0,
         "r":1.0,
         "f":1.0
       },
-      "RESOURCE_TYPE":{
+      "WORKFLOW_TYPE":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "TTP_TYPE":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "MEDIA_TYPE":{
+        "p":0.0,
+        "r":0.0,
+        "f":0.0
+      },
+      "OFFLINE_TYPE":{
+        "p":0.0,
+        "r":0.0,
+        "f":0.0
+      },
+      "AIR_GAP_TYPE":{
+        "p":0.0,
+        "r":0.0,
+        "f":0.0
+      },
+      "PIPELINE_STAGE":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "IMAGE_TYPE":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "SUCCESS_TYPE":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "BUSINESS_TYPE":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "EFFECTIVENESS_TYPE":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "ARTIFACT_TYPE":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "SECURITY_TYPE":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "PRIVILEGE_TYPE":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "COMPLEXITY_TYPE":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "CONSOLIDATION_TYPE":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "SWIFT_CODE":{
+        "p":0.5,
+        "r":1.0,
+        "f":0.6666666667
+      },
+      "SUSPICIOUS_TYPE":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "FILE_TYPE":{
         "p":1.0,
         "r":1.0,
         "f":1.0
@@ -2117,117 +2140,27 @@
         "r":1.0,
         "f":1.0
       },
-      "PROMPT_TYPE":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
-      },
-      "PORT_TYPE":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
-      },
-      "ADDRESS_TYPE":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
-      },
-      "EXCHANGE_TYPE":{
+      "INTEGRATION_TYPE":{
         "p":0.0,
         "r":0.0,
         "f":0.0
       },
-      "APP_TYPE":{
+      "PROCESSOR_TYPE":{
         "p":1.0,
         "r":1.0,
         "f":1.0
       },
-      "OFFLINE_TYPE":{
+      "VALIDATION_TYPE":{
         "p":0.0,
         "r":0.0,
         "f":0.0
       },
-      "AIR_GAP_TYPE":{
-        "p":0.0,
-        "r":0.0,
-        "f":0.0
-      },
-      "MEDIA_TYPE":{
-        "p":0.0,
-        "r":0.0,
-        "f":0.0
-      },
-      "FEED_TYPE":{
+      "EFFICIENCY_TYPE":{
         "p":1.0,
         "r":1.0,
         "f":1.0
       },
-      "OUTPUT_TYPE":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
-      },
-      "ASSET_NAME":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
-      },
-      "PERCENTAGE":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
-      },
-      "BUSINESS_TYPE":{
-        "p":1.0,
-        "r":0.75,
-        "f":0.8571428571
-      },
-      "NETWORK_TYPE":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
-      },
-      "PRIVILEGE_TYPE":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
-      },
-      "DELETION_TYPE":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
-      },
-      "REMEDIATION_TYPE":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
-      },
-      "CAPABILITY_TYPE":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
-      },
-      "INFORMATION_TYPE":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
-      },
-      "SUSPICIOUS_TYPE":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
-      },
-      "UNIT_TYPE":{
-        "p":0.75,
-        "r":1.0,
-        "f":0.8571428571
-      },
-      "GROUP_TYPE":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
-      },
-      "SAFE_TYPE":{
+      "PRIORITY_TYPE":{
         "p":1.0,
         "r":1.0,
         "f":1.0
@@ -2242,27 +2175,27 @@
         "r":1.0,
         "f":1.0
       },
-      "SURFACE_TYPE":{
+      "REMEDIATION_TYPE":{
         "p":1.0,
         "r":1.0,
         "f":1.0
       },
-      "EVENT_TYPE":{
+      "DESIGN_TYPE":{
         "p":1.0,
         "r":1.0,
         "f":1.0
       },
-      "TEST_TYPE":{
+      "DIVERSITY_TYPE":{
         "p":1.0,
         "r":1.0,
         "f":1.0
       },
-      "SCAN_TYPE":{
+      "HUNTING_TYPE":{
         "p":1.0,
         "r":1.0,
         "f":1.0
       },
-      "CLICK_TYPE":{
+      "TRAINING_TYPE":{
         "p":1.0,
         "r":1.0,
         "f":1.0
@@ -2272,27 +2205,32 @@
         "r":1.0,
         "f":1.0
       },
-      "EXECUTIVE_TYPE":{
+      "TIME":{
         "p":1.0,
         "r":1.0,
         "f":1.0
       },
-      "CONNECTOR_TYPE":{
+      "RESULT_TYPE":{
         "p":1.0,
         "r":1.0,
         "f":1.0
       },
-      "SECTOR_TYPE":{
+      "PROTECTION_TYPE":{
         "p":1.0,
         "r":1.0,
         "f":1.0
       },
-      "TRANSACTION_TYPE":{
+      "RATE_TYPE":{
+        "p":0.0,
+        "r":0.0,
+        "f":0.0
+      },
+      "TACTIC_TYPE":{
         "p":1.0,
         "r":1.0,
         "f":1.0
       },
-      "HONEYPOT_TYPE":{
+      "PLATFORM":{
         "p":1.0,
         "r":1.0,
         "f":1.0
@@ -2302,42 +2240,12 @@
         "r":0.0,
         "f":0.0
       },
-      "HEALTH_TYPE":{
-        "p":0.0,
-        "r":0.0,
-        "f":0.0
-      },
-      "LISTING_TYPE":{
+      "HYGIENE_TYPE":{
         "p":1.0,
         "r":1.0,
         "f":1.0
       },
-      "CONFIG_TYPE":{
-        "p":1.0,
-        "r":0.5,
-        "f":0.6666666667
-      },
-      "IMPROVEMENT_TYPE":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
-      },
-      "TESTING_TYPE":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
-      },
-      "CREDIT_TYPE":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
-      },
-      "ENGINEERING_TYPE":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
-      },
-      "TREND_TYPE":{
+      "PERMISSION_TYPE":{
         "p":1.0,
         "r":1.0,
         "f":1.0
@@ -2347,60 +2255,40 @@
         "r":1.0,
         "f":1.0
       },
-      "HASHTAG":{
+      "TIME_PERIOD":{
+        "p":1.0,
+        "r":0.6666666667,
+        "f":0.8
+      },
+      "SUPPLY_TYPE":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "CHAIN_TYPE":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "FUNCTION_TYPE":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "UNIFIED_TYPE":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "PACKAGE_TYPE":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "RESTRICTION_TYPE":{
         "p":0.0,
         "r":0.0,
         "f":0.0
-      },
-      "CRIME_TYPE":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
-      },
-      "TRAFFIC_TYPE":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
-      },
-      "IDENTIFICATION_TYPE":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
-      },
-      "ALERTING_TYPE":{
-        "p":0.5,
-        "r":1.0,
-        "f":0.6666666667
-      },
-      "CLASSIFICATION_TYPE":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
-      },
-      "WORKLOAD_TYPE":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
-      },
-      "MATURITY_TYPE":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
-      },
-      "MAPPING_TYPE":{
-        "p":1.0,
-        "r":0.8,
-        "f":0.8888888889
-      },
-      "USAGE_TYPE":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
-      },
-      "DETECTION_TYPE":{
-        "p":1.0,
-        "r":0.75,
-        "f":0.8571428571
       },
       "IMPACT_TYPE":{
         "p":1.0,
@@ -2412,12 +2300,37 @@
         "r":1.0,
         "f":1.0
       },
-      "SIGNING_STATUS":{
+      "IDENTIFICATION_TYPE":{
+        "p":0.0,
+        "r":0.0,
+        "f":0.0
+      },
+      "PATCH_TYPE":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "PATCH_STATUS":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "SCOPE_TYPE":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "COVERAGE_TYPE":{
         "p":1.0,
         "r":1.0,
         "f":1.0
       },
       "CONFIGURATION_TYPE":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "DATASET_TYPE":{
         "p":1.0,
         "r":1.0,
         "f":1.0
@@ -2437,22 +2350,12 @@
         "r":1.0,
         "f":1.0
       },
-      "BOARD_TYPE":{
+      "CLICK_TYPE":{
         "p":1.0,
         "r":1.0,
         "f":1.0
       },
-      "ENGAGEMENT_TYPE":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
-      },
-      "EXPLOIT_TYPE":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
-      },
-      "REVIEW_TYPE":{
+      "DOB":{
         "p":1.0,
         "r":1.0,
         "f":1.0
@@ -2467,32 +2370,27 @@
         "r":1.0,
         "f":1.0
       },
-      "INFRASTRUCTURE_TYPE":{
+      "SAFE_TYPE":{
         "p":1.0,
         "r":1.0,
         "f":1.0
       },
-      "PROVENANCE_TYPE":{
+      "PRACTICE_TYPE":{
         "p":1.0,
         "r":1.0,
         "f":1.0
       },
-      "CONSENT_TYPE":{
+      "VENDOR_ID":{
         "p":1.0,
         "r":1.0,
         "f":1.0
       },
-      "PREFERENCE_TYPE":{
+      "QUALITY_TYPE":{
         "p":1.0,
         "r":1.0,
         "f":1.0
       },
-      "DISTRIBUTION_TYPE":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
-      },
-      "CODE_TYPE":{
+      "TECHNIQUE_ID":{
         "p":1.0,
         "r":1.0,
         "f":1.0
@@ -2507,42 +2405,27 @@
         "r":1.0,
         "f":1.0
       },
-      "LEAK_TYPE":{
+      "RISK_PARAMETER":{
+        "p":0.0,
+        "r":0.0,
+        "f":0.0
+      },
+      "SENSOR_TYPE":{
         "p":1.0,
         "r":1.0,
         "f":1.0
       },
-      "TRAINING_TYPE":{
+      "TRIGGER_TYPE":{
+        "p":0.3333333333,
+        "r":1.0,
+        "f":0.5
+      },
+      "TRACKING_TYPE":{
         "p":1.0,
         "r":1.0,
         "f":1.0
       },
-      "CRISIS_TYPE":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
-      },
-      "CHAIN_TYPE":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
-      },
-      "TRANSFER_MECHANISM":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
-      },
-      "CREATOR_TYPE":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
-      },
-      "TRACKER_TYPE":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
-      },
-      "FACILITY_TYPE":{
+      "BUG_TYPE":{
         "p":1.0,
         "r":1.0,
         "f":1.0
@@ -2552,7 +2435,12 @@
         "r":1.0,
         "f":1.0
       },
-      "PATCH_STATUS":{
+      "INTELLIGENCE_TYPE":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "CRISIS_TYPE":{
         "p":1.0,
         "r":1.0,
         "f":1.0
@@ -2562,197 +2450,17 @@
         "r":1.0,
         "f":1.0
       },
-      "NAMESPACE":{
+      "DURATION_TYPE":{
+        "p":0.5,
+        "r":1.0,
+        "f":0.6666666667
+      },
+      "RESOURCE_TYPE":{
         "p":1.0,
         "r":1.0,
         "f":1.0
       },
-      "CONSOLIDATION_TYPE":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
-      },
-      "EXPLOITATION_TYPE":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
-      },
-      "REPORTING_TYPE":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
-      },
-      "ESCALATION_METHOD":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
-      },
-      "REMOVAL_TYPE":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
-      },
-      "CLEANING_TYPE":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
-      },
-      "ROTATION_TYPE":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
-      },
-      "SERVER_TYPE":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
-      },
-      "BASELINE_TYPE":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
-      },
-      "ETHICS_TYPE":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
-      },
-      "MONITORING_TYPE":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
-      },
-      "GATEWAY_TYPE":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
-      },
-      "TARGET_TYPE":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
-      },
-      "TRACKING_TYPE":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
-      },
-      "PACKAGE_TYPE":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
-      },
-      "SCOPE_TYPE":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
-      },
-      "LEARNING_TYPE":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
-      },
-      "NUDGE_TYPE":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
-      },
-      "IP_ADDRESS":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
-      },
-      "ACTIVITY_TYPE":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
-      },
-      "COMPLEXITY_TYPE":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
-      },
-      "COPY_TYPE":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
-      },
-      "QUALITY_TYPE":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
-      },
-      "ACCURACY_TYPE":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
-      },
-      "ZONE_TYPE":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
-      },
-      "CONDUIT_TYPE":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
-      },
-      "CONNECTIVITY_TYPE":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
-      },
-      "GITHUB_COMMIT":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
-      },
-      "GAP_TYPE":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
-      },
-      "LOGGING_TYPE":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
-      },
-      "DIVERSITY_TYPE":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
-      },
-      "PRACTICE_TYPE":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
-      },
-      "TACTIC_TYPE":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
-      },
-      "PROTECTION_TYPE":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
-      },
-      "ISSUER":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
-      },
-      "EXFILTRATION_TYPE":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
-      },
-      "CONTEXTUAL_TYPE":{
-        "p":1.0,
-        "r":1.0,
-        "f":1.0
-      },
-      "SOVEREIGNTY_TYPE":{
+      "AVERAGE_TYPE":{
         "p":1.0,
         "r":1.0,
         "f":1.0
@@ -2762,13 +2470,113 @@
         "r":1.0,
         "f":1.0
       },
-      "ENHANCEMENT_TYPE":{
+      "STANDARD_TYPE":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "VERIFICATION_TYPE":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "LOGIN_TYPE":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "VOLUME_TYPE":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "PERCENTAGE":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "BASELINE_TYPE":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "NOISE_TYPE":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "SITE_TYPE":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "SOVEREIGNTY_TYPE":{
+        "p":0.0,
+        "r":0.0,
+        "f":0.0
+      },
+      "PROTECTED_ATTRIBUTE":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "LIAISON_TYPE":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "SENSITIVITY_TYPE":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "MODEL_CATEGORY":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "RECTIFICATION_TYPE":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "COPY_TYPE":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "ATTEMPT_TYPE":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "REPORTING_TYPE":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "PORT_TYPE":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "SERVER_NAME":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "REVIEW_TYPE":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "CONTEXTUAL_TYPE":{
         "p":1.0,
         "r":1.0,
         "f":1.0
       }
     },
-    "tok2vec_loss":3244.1246211309,
-    "ner_loss":2744.3095703125
+    "tok2vec_loss":2055.1373431724,
+    "ner_loss":2158.7116699219
   }
 }
