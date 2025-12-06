@@ -14,14 +14,14 @@
 {"text": "Backup Orchestrator Tool discovered 143 unprotected assets including billing-db and Salesforce", "entities": []}
 {"text": "Recovery Point Objective RPO defined maximum acceptable data loss", "entities": [[0, 8, "METRIC_TYPE"], [9, 14, "POINT_TYPE"], [15, 24, "OBJECTIVE_TYPE"], [25, 28, "METRIC_TYPE"], [37, 44, "MAXIMUM_TYPE"], [45, 55, "ACCEPTABLE_TYPE"], [61, 65, "LOSS_TYPE"]]}
 {"text": "Backup Restore Operations Engineer implemented backups for infrastructure databases and SaaS", "entities": [[35, 46, "BACKUP_TYPE"]]}
-{"text": "Data recovery from backup found contact information: email address support@vendor.com, phone number +33-1-42-86-83-26. Data residency check required.", "entities": [[5, 13, "RECOVERY_TYPE"], [19, 25, "BACKUP_TYPE"], [67, 86, "EMAIL_ADDRESS"], [100, 118, "LATITUDE"], [100, 118, "LATITUDE"], [100, 118, "LATITUDE"]]}
+{"text": "Data recovery from backup found contact information: email address support@vendor.com, phone number +33-1-42-86-83-26. Data residency check required.", "entities": [[5, 13, "RECOVERY_TYPE"], [19, 25, "BACKUP_TYPE"], [100, 118, "LATITUDE"], [100, 118, "LATITUDE"], [100, 118, "LATITUDE"]]}
 {"text": "Azure Key Vault managed encryption keys for backup data protection", "entities": [[0, 5, "CLOUD_PROVIDER"], [6, 9, "KEY_TYPE"], [10, 15, "VAULT_TYPE"]]}
 {"text": "Tape backup system provided offline air-gapped backup storage", "entities": [[0, 4, "MEDIA_TYPE"], [5, 11, "BACKUP_TYPE"], [28, 35, "OFFLINE_TYPE"], [36, 46, "AIR_GAP_TYPE"]]}
 {"text": "Data Classification Tool discovered 420 datasets with 95 high sensitivity and 22 geo-restricted", "entities": []}
 {"text": "Google Cloud Storage retention policies enforced backup immutability", "entities": [[0, 6, "TOOL"], [13, 20, "STORAGE_TYPE"], [49, 55, "BACKUP_TYPE"], [56, 68, "IMMUTABILITY_TYPE"]]}
 {"text": "Differential backup approach captured changes since last full backup", "entities": [[0, 12, "BACKUP_TYPE"], [57, 61, "BACKUP_TYPE"]]}
 {"text": "Data leak detected: SSN 123-45-6789 and credit card number 4532-1234-5678-9010 found in backup files. Immediate remediation required.", "entities": [[5, 9, "LEAK_TYPE"]]}
-{"text": "Data recovery from backup found contact information: email address support@vendor.com, phone number +33-1-42-86-83-26. Data residency check required.", "entities": [[5, 13, "RECOVERY_TYPE"], [19, 25, "BACKUP_TYPE"], [67, 86, "EMAIL_ADDRESS"], [100, 118, "LATITUDE"], [100, 118, "LATITUDE"], [100, 118, "LATITUDE"]]}
+{"text": "Data recovery from backup found contact information: email address support@vendor.com, phone number +33-1-42-86-83-26. Data residency check required.", "entities": [[5, 13, "RECOVERY_TYPE"], [19, 25, "BACKUP_TYPE"], [100, 118, "LATITUDE"], [100, 118, "LATITUDE"], [100, 118, "LATITUDE"]]}
 {"text": "Restic backup tool provided encrypted incremental backups for cloud storage", "entities": [[0, 6, "TOOL"], [7, 13, "BACKUP_TYPE"], [38, 49, "INCREMENTAL_TYPE"], [50, 57, "BACKUP_TYPE"], [68, 75, "STORAGE_TYPE"]]}
 {"text": "Retention Policy Manager archived 120 TB to cold storage with 9 legal holds", "entities": []}
 {"text": "Backup Malware Scan Tool scanned backup images detecting dormant ransomware", "entities": [[40, 46, "MALWARE_TYPE"]]}
@@ -40,7 +40,7 @@
 {"text": "Data Protection Policy Tool created backup policy requiring immutability and weekly air-gap", "entities": [[60, 72, "TOOL"]]}
 {"text": "Borg backup tool protected 150 servers with deduplication reducing storage by 60%", "entities": [[0, 4, "TOOL"], [5, 11, "BACKUP_TYPE"], [31, 38, "SERVER_TYPE"], [67, 74, "METRIC_TYPE"]]}
 {"text": "Database Backup Tool enabled PITR for orders-db with 72-hour recovery window", "entities": [[38, 47, "TOOL"], [53, 60, "LATITUDE"]]}
-{"text": "Data recovery from backup found contact information: email address support@vendor.com, phone number +33-1-42-86-83-26. Data residency check required.", "entities": [[5, 13, "RECOVERY_TYPE"], [19, 25, "BACKUP_TYPE"], [67, 86, "EMAIL_ADDRESS"], [100, 118, "LATITUDE"], [100, 118, "LATITUDE"], [100, 118, "LATITUDE"]]}
+{"text": "Data recovery from backup found contact information: email address support@vendor.com, phone number +33-1-42-86-83-26. Data residency check required.", "entities": [[5, 13, "RECOVERY_TYPE"], [19, 25, "BACKUP_TYPE"], [100, 118, "LATITUDE"], [100, 118, "LATITUDE"], [100, 118, "LATITUDE"]]}
 {"text": "Legal Hold eDiscovery Tool documented backup interactions with DSAR eDiscovery", "entities": [[63, 67, "REQUEST_TYPE"]]}
 {"text": "Snapshot Manager managed 12500 snapshots fixing 42 unencrypted and deleting 780 expired", "entities": []}
 {"text": "Rubrik data protection achieved 96% coverage with 98% restore success over 90 days", "entities": [[0, 6, "TOOL"], [62, 69, "METRIC_TYPE"]]}
@@ -352,7 +352,7 @@
 {"text": "Backup Restore Operations Engineer implemented backups for infrastructure databases and SaaS", "entities": [[35, 46, "BACKUP_TYPE"]]}
 {"text": "Backup Restore Operations Engineer implemented backups for infrastructure databases and SaaS", "entities": [[35, 46, "BACKUP_TYPE"]]}
 {"text": "Air-gap coverage reached 72% with weekly copies to offline media", "entities": [[17, 24, "COVERAGE_TYPE"]]}
-{"text": "Data recovery from backup found contact information: email address support@vendor.com, phone number +33-1-42-86-83-26. Data residency check required.", "entities": [[5, 13, "RECOVERY_TYPE"], [19, 25, "BACKUP_TYPE"], [67, 86, "EMAIL_ADDRESS"], [100, 118, "LATITUDE"], [100, 118, "LATITUDE"], [100, 118, "LATITUDE"]]}
+{"text": "Data recovery from backup found contact information: email address support@vendor.com, phone number +33-1-42-86-83-26. Data residency check required.", "entities": [[5, 13, "RECOVERY_TYPE"], [19, 25, "BACKUP_TYPE"], [100, 118, "LATITUDE"], [100, 118, "LATITUDE"], [100, 118, "LATITUDE"]]}
 {"text": "Backup audit discovered SWIFT code DEUTDEFF and routing number 026009593 in financial records backup. Encryption and access controls reviewed.", "entities": []}
 {"text": "AWS Glacier archive storage provided long-term backup retention", "entities": [[0, 3, "CLOUD_PROVIDER"], [4, 11, "SERVICE_TYPE"], [12, 19, "ARCHIVE_TYPE"], [20, 27, "STORAGE_TYPE"], [47, 53, "BACKUP_TYPE"]]}
 {"text": "SaaS Backup Tool protected M365 and Salesforce tenants with automated backups", "entities": [[47, 54, "APPLICATION_NAME"]]}
@@ -460,3 +460,33 @@
 {"text": "The information is verified.", "entities": []}
 {"text": "Sources are reliable.", "entities": []}
 {"text": "The data is consistent.", "entities": []}
+{"text": "Security policies define acceptable use and access controls.", "entities": []}
+{"text": "The incident response process involves investigation and containment.", "entities": []}
+{"text": "The compliance team ensures adherence to security requirements.", "entities": []}
+{"text": "The application uses configuration paths for settings.", "entities": []}
+{"text": "The system tracks login attempts effectively.", "entities": []}
+{"text": "The system processes JSON data for API communication.", "entities": []}
+{"text": "The security process involves finding and extracting relevant information.", "entities": []}
+{"text": "What are the security requirements?", "entities": []}
+{"text": "What should I do about this security concern?", "entities": []}
+{"text": "What are the recommended security procedures?", "entities": []}
+{"text": "How can I monitor security events effectively?", "entities": []}
+{"text": "The system monitors user activity continuously.", "entities": []}
+{"text": "I need to investigate the problem and find a solution.", "entities": []}
+{"text": "The security team needs to investigate and analyze the situation.", "entities": []}
+{"text": "What is the current security status?", "entities": []}
+{"text": "The security team implements CSRF protection mechanisms.", "entities": []}
+{"text": "Review the security documentation carefully.", "entities": []}
+{"text": "I need to review the security documentation.", "entities": []}
+{"text": "Base64 encoding is used for data transmission.", "entities": []}
+{"text": "The system processes log files for analysis.", "entities": []}
+{"text": "What steps should I take for security?", "entities": []}
+{"text": "The security team reviews access logs regularly.", "entities": []}
+{"text": "How can I improve the security posture of my organization?", "entities": []}
+{"text": "Document security findings properly.", "entities": []}
+{"text": "I need to understand the security requirements.", "entities": []}
+{"text": "Please explain how to secure the system properly.", "entities": []}
+{"text": "The monitoring system tracks relative performance metrics.", "entities": []}
+{"text": "Analyze the security posture thoroughly.", "entities": []}
+{"text": "The process requires checking and verifying results.", "entities": []}
+{"text": "The process involves checking file permissions.", "entities": []}

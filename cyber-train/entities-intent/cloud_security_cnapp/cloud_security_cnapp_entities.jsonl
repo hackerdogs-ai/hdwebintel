@@ -526,3 +526,38 @@
 {"text": "Traffic from GCP us-central1", "entities": [[13, 28, "DATACENTER"]]}
 {"text": "Connect to GCP us-central1", "entities": [[11, 26, "DATACENTER"]]}
 {"text": "Manage GCP us-central1", "entities": [[7, 22, "DATACENTER"]]}
+{"text": "The system tracks login attempts effectively.", "entities": []}
+{"text": "The application uses configuration files for settings.", "entities": []}
+{"text": "The network uses Base64 encoding for data transmission.", "entities": []}
+{"text": "The organization must maintain and improve security posture continuously.", "entities": []}
+{"text": "I need to understand the security requirements.", "entities": []}
+{"text": "The compliance team ensures adherence to security requirements.", "entities": []}
+{"text": "Security awareness helps employees understand risks and threats.", "entities": []}
+{"text": "Base64 encoding is used for data transmission.", "entities": []}
+{"text": "The system supports HTML rendering for user interfaces.", "entities": []}
+{"text": "The application uses JavaScript for frontend development.", "entities": []}
+{"text": "The API endpoint handles user requests properly.", "entities": []}
+{"text": "The analysis tool provides absolute measurements of system health.", "entities": []}
+{"text": "Please explain how to secure the system properly.", "entities": []}
+{"text": "The application uses configuration paths for settings.", "entities": []}
+{"text": "The system monitors user activity continuously.", "entities": []}
+{"text": "Security awareness training helps employees understand risks better.", "entities": []}
+{"text": "The system processes JSON data for API communication.", "entities": []}
+{"text": "How can I improve the security posture of my organization?", "entities": []}
+{"text": "The security team reviews system logs for analysis.", "entities": []}
+{"text": "The monitoring system tracks relative performance metrics.", "entities": []}
+{"text": "What steps should I take for security?", "entities": []}
+{"text": "All security controls are properly configured.", "entities": []}
+{"text": "The system extracts data from various sources.", "entities": []}
+{"text": "Security documentation is up to date.", "entities": []}
+{"text": "The security posture is improving gradually.", "entities": []}
+{"text": "The security team implements CSRF protection mechanisms.", "entities": []}
+{"text": "I need to investigate the problem and find a solution.", "entities": []}
+{"text": "The process involves checking file permissions.", "entities": []}
+{"text": "The incident response process is effective.", "entities": []}
+{"text": "Respond to security threats quickly.", "entities": []}
+{"text": "Available cloud providers: AWS, Azure, GCP, Google Cloud, Oracle Cloud, IBM Cloud, Alibaba Cloud, Tencent Cloud, DigitalOcean, Linode", "entities": [[27, 30, "CLOUD_PROVIDER"], [32, 37, "CLOUD_PROVIDER"], [39, 42, "CLOUD_PROVIDER"], [44, 56, "CLOUD_PROVIDER"], [58, 70, "CLOUD_PROVIDER"], [72, 81, "CLOUD_PROVIDER"], [83, 96, "CLOUD_PROVIDER"], [98, 111, "CLOUD_PROVIDER"], [113, 125, "CLOUD_PROVIDER"], [127, 133, "CLOUD_PROVIDER"]]}
+{"text": "CLOUD_PROVIDER catalog: AWS, Azure, GCP, Google Cloud, Oracle Cloud, IBM Cloud, Alibaba Cloud, Tencent Cloud", "entities": [[24, 27, "CLOUD_PROVIDER"], [29, 34, "CLOUD_PROVIDER"], [36, 39, "CLOUD_PROVIDER"], [41, 53, "CLOUD_PROVIDER"], [55, 67, "CLOUD_PROVIDER"], [69, 78, "CLOUD_PROVIDER"], [80, 93, "CLOUD_PROVIDER"], [95, 108, "CLOUD_PROVIDER"]]}
+{"text": "Known cloud providers include: AWS, Azure, GCP, Google Cloud, Oracle Cloud, IBM Cloud, Alibaba Cloud, Tencent Cloud, DigitalOcean, Linode, Vultr, Heroku", "entities": [[31, 34, "CLOUD_PROVIDER"], [36, 41, "CLOUD_PROVIDER"], [43, 46, "CLOUD_PROVIDER"], [48, 60, "CLOUD_PROVIDER"], [62, 74, "CLOUD_PROVIDER"], [76, 85, "CLOUD_PROVIDER"], [87, 100, "CLOUD_PROVIDER"], [102, 115, "CLOUD_PROVIDER"], [117, 129, "CLOUD_PROVIDER"], [131, 137, "CLOUD_PROVIDER"], [139, 144, "CLOUD_PROVIDER"], [146, 152, "CLOUD_PROVIDER"]]}
+{"text": "List of cloud providers: AWS, Azure, GCP, Google Cloud, Oracle Cloud, IBM Cloud, Alibaba Cloud, Tencent Cloud, DigitalOcean, Linode", "entities": [[25, 28, "CLOUD_PROVIDER"], [30, 35, "CLOUD_PROVIDER"], [37, 40, "CLOUD_PROVIDER"], [42, 54, "CLOUD_PROVIDER"], [56, 68, "CLOUD_PROVIDER"], [70, 79, "CLOUD_PROVIDER"], [81, 94, "CLOUD_PROVIDER"], [96, 109, "CLOUD_PROVIDER"], [111, 123, "CLOUD_PROVIDER"], [125, 131, "CLOUD_PROVIDER"]]}
+{"text": "Supported cloud providers: AWS, Azure, GCP, Google Cloud, Oracle Cloud, IBM Cloud, Alibaba Cloud, Tencent Cloud", "entities": [[27, 30, "CLOUD_PROVIDER"], [32, 37, "CLOUD_PROVIDER"], [39, 42, "CLOUD_PROVIDER"], [44, 56, "CLOUD_PROVIDER"], [58, 70, "CLOUD_PROVIDER"], [72, 81, "CLOUD_PROVIDER"], [83, 96, "CLOUD_PROVIDER"], [98, 111, "CLOUD_PROVIDER"]]}

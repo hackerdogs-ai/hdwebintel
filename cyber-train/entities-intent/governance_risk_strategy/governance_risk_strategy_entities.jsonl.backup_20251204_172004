@@ -1,0 +1,600 @@
+{"text": "RegTech Evidence Collector automated evidence gathering for 12 audit cycles", "entities": [[37, 45, "COLLECTOR_TYPE"]]}
+{"text": "CIS Controls critical security controls enforced governance risk systems", "entities": [[0, 3, "FRAMEWORK"], [49, 59, "RISK_TYPE"]]}
+{"text": "FAIR Risk Calculator quantified cloud migration risk at 3.2M USD annual loss exposure", "entities": []}
+{"text": "Regulatory Feed Monitor detected EU NIS2 and DORA regulations with high impact", "entities": [[67, 71, "REGULATION"]]}
+{"text": "Reporting Dashboard Tool generated board-ready reports with risk heatmaps", "entities": [[65, 73, "BOARD_TYPE"]]}
+{"text": "Board engagement maturity increased with 4 quarterly meetings and risk appetite updates", "entities": [[0, 5, "BOARD_TYPE"], [6, 16, "ENGAGEMENT_TYPE"], [17, 25, "MATURITY_TYPE"], [71, 79, "UPDATE_TYPE"]]}
+{"text": "Risk Heatmap Generator created quarterly risk visualization with top 10 risks", "entities": [[46, 59, "GENERATOR_TYPE"]]}
+{"text": "ESG Risk Specialist mapped data privacy risks to GRI SASB frameworks", "entities": [[40, 45, "DATA_TYPE"], [58, 68, "FRAMEWORK"]]}
+{"text": "WireWheel governance risk management platform automated evidence collection", "entities": [[0, 9, "TOOL"]]}
+{"text": "Wazuh GRC module reported compliance with 93% audit pass rate", "entities": [[0, 5, "TOOL"], [10, 16, "TOOL"], [42, 45, "METRIC_TYPE"]]}
+{"text": "Governance risk scan coverage achieved 100% across all business units", "entities": [[0, 10, "GOVERNANCE_TYPE"], [11, 15, "RISK_TYPE"], [39, 43, "METRIC_TYPE"], [55, 63, "BUSINESS_TYPE"], [64, 69, "UNIT_TYPE"]]}
+{"text": "Regulatory Feed Monitor detected EU NIS2 and DORA regulations with high impact", "entities": [[67, 71, "REGULATION"]]}
+{"text": "OWASP Governance Risk guidelines provided best practices for risk management", "entities": [[6, 16, "GOVERNANCE_TYPE"], [61, 65, "RISK_TYPE"]]}
+{"text": "Risk Register Manager tracked 30 risks with 9 high-risk requiring mitigation", "entities": []}
+{"text": "Governance risk control coverage achieved 96% with 93% compliance rate", "entities": [[0, 10, "GOVERNANCE_TYPE"], [11, 15, "RISK_TYPE"], [16, 23, "CONTROL_TYPE"]]}
+{"text": "ESG integration mapped data privacy and business continuity to cyber risks", "entities": [[0, 3, "FRAMEWORK"], [63, 68, "CYBER_TYPE"], [69, 74, "RISK_TYPE"]]}
+{"text": "Regulatory Feed Monitor detected EU NIS2 and DORA regulations with high impact", "entities": [[67, 71, "REGULATION"]]}
+{"text": "OneTrust GRC platform managed vendor risk privacy and compliance alignment", "entities": [[0, 8, "TOOL"], [22, 29, "PLATFORM_TYPE"]]}
+{"text": "Board Communicator generated Q2 risk heatmap showing ransomware and cloud outage scenarios", "entities": [[32, 36, "RISK_TYPE"], [37, 44, "HEATMAP_TYPE"], [74, 80, "OUTAGE_TYPE"]]}
+{"text": "Risk Assessment Specialist calculated FAIR risk score of 82 for ERP system with 2.1M ALE", "entities": [[85, 88, "ASSET_TYPE"]]}
+{"text": "OpenFAIR Tools quantified operational risk with 2.5M USD annual loss exposure", "entities": [[38, 42, "RISK_TYPE"]]}
+{"text": "Board Maturity Tracker monitored engagement frequency with 4 quarterly meetings", "entities": [[44, 53, "TRACKER_TYPE"], [61, 70, "ENGAGEMENT_TYPE"]]}
+{"text": "AI Governance Framework Mapper aligned AI systems with NIST AI RMF and ISO 42001", "entities": [[3, 13, "GOVERNANCE_TYPE"], [14, 23, "FRAMEWORK"], [55, 59, "FRAMEWORK"]]}
+{"text": "Evidence Packaging Tool prepared audit evidence package with 220 items", "entities": []}
+{"text": "Legal Text Analyzer assessed applicability generating gap reports for incident reporting SLA", "entities": []}
+{"text": "Governance risk control coverage achieved 96% with 93% compliance rate", "entities": [[0, 10, "GOVERNANCE_TYPE"], [11, 15, "RISK_TYPE"], [16, 23, "CONTROL_TYPE"]]}
+{"text": "FAIR Risk Calculator quantified ERP asset risk with 2.1M USD annual loss exposure", "entities": [[61, 67, "COUNT"], [68, 72, "CURRENCY_TYPE"]]}
+{"text": "Risk quantification achieved 5.2M USD annual loss exposure with prioritized remediation", "entities": [[34, 37, "CURRENCY_TYPE"], [38, 44, "ANNUAL_TYPE"], [45, 49, "LOSS_TYPE"], [50, 58, "EXPOSURE_TYPE"]]}
+{"text": "Governance risk scan coverage achieved 100% across all business units", "entities": [[0, 10, "GOVERNANCE_TYPE"], [11, 15, "RISK_TYPE"], [39, 43, "METRIC_TYPE"], [55, 63, "BUSINESS_TYPE"], [64, 69, "UNIT_TYPE"]]}
+{"text": "WireWheel governance risk management platform automated evidence collection", "entities": [[0, 9, "TOOL"]]}
+{"text": "Governance risk strategy training completion reached 93% for all GRC analysts", "entities": [[0, 10, "GOVERNANCE_TYPE"], [11, 15, "RISK_TYPE"], [45, 52, "METRIC_TYPE"]]}
+{"text": "Risk Register Manager tracked 30 risks with 9 high-risk requiring mitigation", "entities": []}
+{"text": "OpenFAIR Tools quantified operational risk with 2.5M USD annual loss exposure", "entities": [[38, 42, "RISK_TYPE"]]}
+{"text": "NIST Risk Assessment Tool calculated residual risk of 500k USD post-controls", "entities": [[0, 4, "FRAMEWORK"], [46, 50, "RISK_TYPE"], [54, 58, "COUNT"], [59, 62, "CURRENCY_TYPE"], [63, 76, "POST_TYPE"]]}
+{"text": "Risk assessment completion rate reached 92% with 30 risks assessed", "entities": [[0, 4, "RISK_TYPE"], [5, 15, "ASSESSMENT_TYPE"]]}
+{"text": "NIST Risk Assessment Tool calculated residual risk of 500k USD post-controls", "entities": [[0, 4, "FRAMEWORK"], [46, 50, "RISK_TYPE"], [54, 58, "COUNT"], [59, 62, "CURRENCY_TYPE"], [63, 76, "POST_TYPE"]]}
+{"text": "Governance Compliance Analyst validated SOC2 Type 2 controls with 96% compliance rate", "entities": []}
+{"text": "Governance Policy Manager updated 15 security policies across all 24 cybersecurity pillars", "entities": []}
+{"text": "Risk Heatmap Generator created quarterly risk visualization with top 10 risks", "entities": [[46, 59, "GENERATOR_TYPE"]]}
+{"text": "Bias Detection Engine identified fairness violations in AI model training data", "entities": []}
+{"text": "Auditd validated control compliance for system-level events across 200 servers", "entities": []}
+{"text": "Governance Compliance Analyst validated SOC2 Type 2 controls with 96% compliance rate", "entities": []}
+{"text": "Audit Checklist Tool validated 96% compliance rate across 450 controls", "entities": []}
+{"text": "GRC Analyst mapped 45 controls to NIST ISO SOC2 and PCI DSS frameworks", "entities": []}
+{"text": "ESG integration mapped data privacy and business continuity to cyber risks", "entities": [[0, 3, "FRAMEWORK"], [63, 68, "CYBER_TYPE"], [69, 74, "RISK_TYPE"]]}
+{"text": "Board Communicator generated Q2 risk heatmap showing ransomware and cloud outage scenarios", "entities": [[32, 36, "RISK_TYPE"], [37, 44, "HEATMAP_TYPE"], [74, 80, "OUTAGE_TYPE"]]}
+{"text": "Osquery validated policy compliance across 500 endpoints with 95% compliance rate", "entities": [[0, 7, "TOOL"]]}
+{"text": "Reporting Dashboard Tool generated board-ready reports with risk heatmaps", "entities": [[65, 73, "BOARD_TYPE"]]}
+{"text": "Archer GRC platform synced 220 evidence items with gaps in IaC controls", "entities": [[0, 6, "TOOL"], [20, 26, "PLATFORM_TYPE"], [51, 55, "COUNT"]]}
+{"text": "Risk Framework Mapper aligned enterprise controls with NIST ISO SOC2 and PCI DSS", "entities": [[73, 76, "FRAMEWORK"]]}
+{"text": "Governance risk control coverage achieved 96% with 93% compliance rate", "entities": [[0, 10, "GOVERNANCE_TYPE"], [11, 15, "RISK_TYPE"], [16, 23, "CONTROL_TYPE"]]}
+{"text": "Osquery validated policy compliance across 500 endpoints with 95% compliance rate", "entities": [[0, 7, "TOOL"]]}
+{"text": "Control Library maintained 450 control definitions across 12 frameworks", "entities": []}
+{"text": "OWASP Governance Risk guidelines provided best practices for risk management", "entities": [[6, 16, "GOVERNANCE_TYPE"], [61, 65, "RISK_TYPE"]]}
+{"text": "OpenGRC open source platform managed risk register with 30 tracked risks", "entities": [[0, 7, "TOOL"]]}
+{"text": "GRR Rapid Response collected evidence for risk reporting across 12 audit cycles", "entities": [[4, 9, "TOOL"], [29, 37, "EVIDENCE_TYPE"]]}
+{"text": "Evidence Packaging Tool prepared audit evidence package with 220 items", "entities": []}
+{"text": "ServiceNow GRC platform integrated policies risk register and compliance evidence", "entities": [[0, 10, "TOOL"], [73, 81, "COMPLIANCE_TYPE"]]}
+{"text": "Risk Assessment Specialist calculated FAIR risk score of 82 for ERP system with 2.1M ALE", "entities": [[85, 88, "ASSET_TYPE"]]}
+{"text": "Principal Governance Architect designed control framework mapping NIST CSF to ISO 27001", "entities": [[66, 70, "FRAMEWORK"]]}
+{"text": "MetricStream risk and compliance dashboards showed 96% governance maturity", "entities": []}
+{"text": "Risk Framework Mapper aligned enterprise controls with COBIT and CIS Controls", "entities": []}
+{"text": "OWASP Governance Risk guidelines provided best practices for risk management", "entities": [[6, 16, "GOVERNANCE_TYPE"], [61, 65, "RISK_TYPE"]]}
+{"text": "GRR Rapid Response collected evidence for risk reporting across 12 audit cycles", "entities": [[4, 9, "TOOL"], [29, 37, "EVIDENCE_TYPE"]]}
+{"text": "BigID data governance and risk management platform identified data privacy risks", "entities": [[0, 5, "TOOL"], [11, 21, "DATA_TYPE"]]}
+{"text": "Audit Checklist Tool validated 96% compliance rate across 450 controls", "entities": []}
+{"text": "Regulatory Intelligence Analyst tracked EU NIS2 DORA and AI Act regulations", "entities": [[60, 63, "REGULATION"]]}
+{"text": "ESG Risk Specialist mapped cyber risks to GRI and SASB frameworks", "entities": []}
+{"text": "Control Library maintained 450 control definitions across 12 frameworks", "entities": []}
+{"text": "AI Governance Framework Mapper aligned AI systems with NIST AI RMF and ISO 42001", "entities": [[3, 13, "GOVERNANCE_TYPE"], [14, 23, "FRAMEWORK"], [55, 59, "FRAMEWORK"]]}
+{"text": "AI Governance Framework Mapper aligned AI systems with NIST AI RMF and ISO 42001", "entities": [[3, 13, "GOVERNANCE_TYPE"], [14, 23, "FRAMEWORK"], [55, 59, "FRAMEWORK"]]}
+{"text": "Governance risk vulnerability remediation rate improved to 94%", "entities": [[0, 10, "GOVERNANCE_TYPE"], [11, 15, "RISK_TYPE"], [16, 29, "VULNERABILITY_TYPE"]]}
+{"text": "GDPR data protection and privacy validated governance risk compliance", "entities": [[0, 4, "FRAMEWORK"]]}
+{"text": "Risk Scenario Simulator tested cloud region outage and ransomware scenarios", "entities": []}
+{"text": "Auditd validated control compliance for system-level events across 200 servers", "entities": []}
+{"text": "ESG Mapping Tool linked cyber risks to GRI SASB and TCFD frameworks", "entities": []}
+{"text": "Audit Checklist Tool validated 96% compliance rate across 450 controls", "entities": []}
+{"text": "SANS Top 20 critical security controls validated governance risk management", "entities": [[0, 4, "FRAMEWORK"], [9, 11, "COUNT"]]}
+{"text": "AI Governance Framework Mapper aligned AI systems with NIST AI RMF and ISO 42001", "entities": [[3, 13, "GOVERNANCE_TYPE"], [14, 23, "FRAMEWORK"], [55, 59, "FRAMEWORK"]]}
+{"text": "AI Governance Officer evaluated 7 LLM models identifying 3 bias violations", "entities": [[34, 37, "AI_MODEL_TYPE"]]}
+{"text": "GRC Analyst mapped 45 controls to NIST ISO SOC2 and PCI DSS frameworks", "entities": []}
+{"text": "Policy Generator created enterprise-wide security policies across all 22 pillars", "entities": []}
+{"text": "AI Risk Assessment Tool evaluated 7 models finding 3 bias issues requiring resolution", "entities": []}
+{"text": "ComplianceAsCode OpenSCAP automated control enforcement for 450 controls", "entities": [[17, 25, "TOOL"], [60, 63, "COUNT"]]}
+{"text": "Compliance Alignment Tool identified 12 gaps between ISO 27001 and NIST CSF", "entities": [[67, 71, "GAP_TYPE"]]}
+{"text": "Principal Governance Architect designed control framework mapping NIST CSF to ISO 27001", "entities": [[66, 70, "FRAMEWORK"]]}
+{"text": "OPA Gatekeeper automated control validation with 45 controls validated and 6 violations", "entities": [[4, 14, "TOOL"]]}
+{"text": "Governance Risk Engineer configured OneTrust platform with 220 evidence items synced", "entities": []}
+{"text": "Audit Checklist Tool validated 96% compliance rate across 450 controls", "entities": []}
+{"text": "FAIR Risk Calculator quantified cloud migration risk at 3.2M USD annual loss exposure", "entities": []}
+{"text": "Maturity Model Evaluator assessed governance maturity at level 4 out of 5", "entities": []}
+{"text": "OpenGRC open source platform managed risk register with 30 tracked risks", "entities": [[0, 7, "TOOL"]]}
+{"text": "Bias Detection Engine identified fairness violations in AI model training data", "entities": []}
+{"text": "Risk Heatmap Generator created quarterly risk visualization with top 10 risks", "entities": [[46, 59, "GENERATOR_TYPE"]]}
+{"text": "Governance risk scan coverage achieved 100% across all business units", "entities": [[0, 10, "GOVERNANCE_TYPE"], [11, 15, "RISK_TYPE"], [39, 43, "METRIC_TYPE"], [55, 63, "BUSINESS_TYPE"], [64, 69, "UNIT_TYPE"]]}
+{"text": "Document Management Tool stored 220 policy documents with version control", "entities": [[58, 65, "COUNT"], [66, 73, "POLICY_TYPE"]]}
+{"text": "Bias Detection Engine identified fairness violations in AI model training data", "entities": []}
+{"text": "AI Governance Framework Mapper aligned AI systems with NIST AI RMF and ISO 42001", "entities": [[3, 13, "GOVERNANCE_TYPE"], [14, 23, "FRAMEWORK"], [55, 59, "FRAMEWORK"]]}
+{"text": "Governance risk strategy training completion reached 93% for all GRC analysts", "entities": [[0, 10, "GOVERNANCE_TYPE"], [11, 15, "RISK_TYPE"], [45, 52, "METRIC_TYPE"]]}
+{"text": "HIPAA healthcare data protection enforced governance risk security controls", "entities": [[0, 5, "FRAMEWORK"]]}
+{"text": "Governance risk strategy audit score improved to 96% with 93% coverage", "entities": [[0, 10, "GOVERNANCE_TYPE"], [11, 15, "RISK_TYPE"]]}
+{"text": "Osquery validated policy compliance across 500 endpoints with 95% compliance rate", "entities": [[0, 7, "TOOL"]]}
+{"text": "Eramba open source GRC platform managed risk register with 30 tracked risks", "entities": [[0, 6, "TOOL"], [40, 44, "RISK_TYPE"], [45, 53, "REGISTER_TYPE"]]}
+{"text": "TrustArc governance risk management platform tracked regulatory compliance", "entities": [[0, 8, "TOOL"]]}
+{"text": "Governance Security Tester executed penetration test finding 12 critical governance gaps", "entities": []}
+{"text": "PCI DSS payment card industry security validated governance risk controls", "entities": [[0, 3, "FRAMEWORK"], [4, 7, "FRAMEWORK"], [49, 59, "GOVERNANCE_TYPE"], [60, 64, "RISK_TYPE"]]}
+{"text": "Compliance Mapping Tool mapped 220 controls highlighting 15 overlaps and 8 gaps", "entities": [[60, 68, "CONTROL_TYPE"]]}
+{"text": "RSA Archer enterprise GRC platform synced 220 evidence items with gaps in IaC", "entities": [[4, 10, "TOOL"]]}
+{"text": "FAIR Risk Calculator quantified ERP asset risk with 2.1M USD annual loss exposure", "entities": [[61, 67, "COUNT"], [68, 72, "CURRENCY_TYPE"]]}
+{"text": "GRC Platform Integrator synced ServiceNow GRC with 220 evidence items from CNAPP", "entities": [[31, 41, "TOOL"]]}
+{"text": "Document Management Tool stored 220 policy documents with version control", "entities": [[58, 65, "COUNT"], [66, 73, "POLICY_TYPE"]]}
+{"text": "GRS Auditor validated maturity score of 96% with 93% control coverage", "entities": [[49, 52, "METRIC_TYPE"]]}
+{"text": "Compliance Mapping Tool mapped controls to frameworks highlighting overlaps and gaps", "entities": []}
+{"text": "Governance Security Tester executed penetration test finding 12 critical governance gaps", "entities": []}
+{"text": "AI Risk Assessment Tool evaluated 7 models finding 3 bias issues requiring resolution", "entities": []}
+{"text": "BigID data governance and risk management platform identified data privacy risks", "entities": [[0, 5, "TOOL"], [11, 21, "DATA_TYPE"]]}
+{"text": "AI Governance Officer evaluated 7 LLM models identifying 3 bias violations", "entities": [[34, 37, "AI_MODEL_TYPE"]]}
+{"text": "Risk quantification achieved 5.2M USD annual loss exposure with prioritized remediation", "entities": [[34, 37, "CURRENCY_TYPE"], [38, 44, "ANNUAL_TYPE"], [45, 49, "LOSS_TYPE"], [50, 58, "EXPOSURE_TYPE"]]}
+{"text": "OneTrust GRC platform managed vendor risk privacy and compliance alignment", "entities": [[0, 8, "TOOL"], [22, 29, "PLATFORM_TYPE"]]}
+{"text": "SANS Top 20 critical security controls validated governance risk management", "entities": [[0, 4, "FRAMEWORK"], [9, 11, "COUNT"]]}
+{"text": "CISO approved risk appetite statement with 2.5M USD tolerance for operational risks", "entities": [[0, 4, "ROLE"]]}
+{"text": "Compliance Mapping Tool mapped controls to frameworks highlighting overlaps and gaps", "entities": []}
+{"text": "GDPR data protection and privacy validated governance risk compliance", "entities": [[0, 4, "FRAMEWORK"]]}
+{"text": "OpenGRC open source platform managed risk register with 30 tracked risks", "entities": [[0, 7, "TOOL"]]}
+{"text": "GRC API Connector integrated ServiceNow GRC with CNAPP and threat intelligence feeds", "entities": []}
+{"text": "Governance risk vulnerability remediation rate improved to 94%", "entities": [[0, 10, "GOVERNANCE_TYPE"], [11, 15, "RISK_TYPE"], [16, 29, "VULNERABILITY_TYPE"]]}
+{"text": "Auditd validated control compliance for system-level events across 200 servers", "entities": []}
+{"text": "Risk Scenario Simulator tested cloud region outage and ransomware scenarios", "entities": []}
+{"text": "Elastic Stack ELK dashboarded risk posture with 96% control coverage", "entities": [[35, 42, "POSTURE_TYPE"], [48, 51, "METRIC_TYPE"]]}
+{"text": "Control Library maintained 450 control definitions across 12 frameworks", "entities": []}
+{"text": "Governance risk vulnerability remediation rate improved to 94%", "entities": [[0, 10, "GOVERNANCE_TYPE"], [11, 15, "RISK_TYPE"], [16, 29, "VULNERABILITY_TYPE"]]}
+{"text": "Bias Detection Engine identified fairness violations in AI model training data", "entities": []}
+{"text": "Risk Scenario Simulator tested insider threat scenario with 1.8M loss estimate", "entities": [[31, 38, "RISK_TYPE"]]}
+{"text": "OPA Gatekeeper validated 45 controls with 6 violations and 2 exceptions", "entities": [[4, 14, "TOOL"]]}
+{"text": "Regulatory Intelligence Analyst tracked EU NIS2 DORA and AI Act regulations", "entities": [[60, 63, "REGULATION"]]}
+{"text": "Risk assessment completion rate reached 92% with 30 risks assessed", "entities": [[0, 4, "RISK_TYPE"], [5, 15, "ASSESSMENT_TYPE"]]}
+{"text": "Risk Framework Mapper aligned enterprise controls with NIST ISO SOC2 and PCI DSS", "entities": [[73, 76, "FRAMEWORK"]]}
+{"text": "Risk Framework Mapper aligned enterprise controls with COBIT and CIS Controls", "entities": []}
+{"text": "GRC Analyst mapped 45 controls to NIST ISO SOC2 and PCI DSS frameworks", "entities": []}
+{"text": "Risk Communication Specialist presented board report with top 5 risks and funding needs", "entities": []}
+{"text": "Board Report Generator created Q2 report showing top risks and funding needs", "entities": []}
+{"text": "OPA Gatekeeper validated 45 controls with 6 violations and 2 exceptions", "entities": [[4, 14, "TOOL"]]}
+{"text": "HIPAA healthcare data protection enforced governance risk security controls", "entities": [[0, 5, "FRAMEWORK"]]}
+{"text": "HIPAA healthcare data protection enforced governance risk security controls", "entities": [[0, 5, "FRAMEWORK"]]}
+{"text": "Evidence Synchronizer synced 220 evidence items from multiple security tools", "entities": []}
+{"text": "Wazuh GRC module reported compliance with 93% audit pass rate", "entities": [[0, 5, "TOOL"], [10, 16, "TOOL"], [42, 45, "METRIC_TYPE"]]}
+{"text": "OPA Gatekeeper validated 45 controls with 6 violations and 2 exceptions", "entities": [[4, 14, "TOOL"]]}
+{"text": "Risk Framework Mapper aligned enterprise controls with NIST ISO SOC2 and PCI DSS", "entities": [[73, 76, "FRAMEWORK"]]}
+{"text": "Eramba open source GRC platform managed risk register with 30 tracked risks", "entities": [[0, 6, "TOOL"], [40, 44, "RISK_TYPE"], [45, 53, "REGISTER_TYPE"]]}
+{"text": "Bias Detection Engine identified fairness violations in AI model training data", "entities": []}
+{"text": "ComplianceAsCode OpenSCAP automated control enforcement for 450 controls", "entities": [[17, 25, "TOOL"], [60, 63, "COUNT"]]}
+{"text": "Governance risk scan coverage achieved 100% across all business units", "entities": [[0, 10, "GOVERNANCE_TYPE"], [11, 15, "RISK_TYPE"], [39, 43, "METRIC_TYPE"], [55, 63, "BUSINESS_TYPE"], [64, 69, "UNIT_TYPE"]]}
+{"text": "ComplianceAsCode OpenSCAP automated control enforcement for 450 controls", "entities": [[17, 25, "TOOL"], [60, 63, "COUNT"]]}
+{"text": "Governance Security Tester executed penetration test finding 12 critical governance gaps", "entities": []}
+{"text": "GRS Auditor validated maturity score of 96% with 93% control coverage", "entities": [[49, 52, "METRIC_TYPE"]]}
+{"text": "Compliance Gap Mapper identified 8 gaps in PCI DSS controls requiring remediation", "entities": [[35, 39, "GAP_TYPE"]]}
+{"text": "Board Communicator generated Q2 risk heatmap showing ransomware and cloud outage scenarios", "entities": [[32, 36, "RISK_TYPE"], [37, 44, "HEATMAP_TYPE"], [74, 80, "OUTAGE_TYPE"]]}
+{"text": "Risk Framework Mapper aligned enterprise controls with COBIT and CIS Controls", "entities": []}
+{"text": "Risk Scenario Simulator tested insider threat scenario with 1.8M loss estimate", "entities": [[31, 38, "RISK_TYPE"]]}
+{"text": "FAIR Risk Calculator quantified ERP asset risk with 2.1M USD annual loss exposure", "entities": [[61, 67, "COUNT"], [68, 72, "CURRENCY_TYPE"]]}
+{"text": "Governance Risk Engineer configured OneTrust platform with 220 evidence items synced", "entities": []}
+{"text": "Risk Register Templates OWASP Risk Rating tracked 30 risks with 9 high priority", "entities": [[30, 34, "FRAMEWORK"], [71, 79, "PRIORITY_TYPE"]]}
+{"text": "ESG Mapping Tool linked cyber risks to GRI SASB and TCFD frameworks", "entities": []}
+{"text": "Governance risk strategy training completion reached 93% for all GRC analysts", "entities": [[0, 10, "GOVERNANCE_TYPE"], [11, 15, "RISK_TYPE"], [45, 52, "METRIC_TYPE"]]}
+{"text": "Legal Text Analyzer assessed applicability generating gap reports for incident reporting SLA", "entities": []}
+{"text": "Governance risk control coverage achieved 96% with 93% compliance rate", "entities": [[0, 10, "GOVERNANCE_TYPE"], [11, 15, "RISK_TYPE"], [16, 23, "CONTROL_TYPE"]]}
+{"text": "Reporting Dashboard Tool generated board-ready reports with risk heatmaps", "entities": [[65, 73, "BOARD_TYPE"]]}
+{"text": "ESG Risk Specialist mapped data privacy risks to GRI SASB frameworks", "entities": [[40, 45, "DATA_TYPE"], [58, 68, "FRAMEWORK"]]}
+{"text": "RegTech Evidence Collector automated evidence gathering for 12 audit cycles", "entities": [[37, 45, "COLLECTOR_TYPE"]]}
+{"text": "Archer GRC platform synced 220 evidence items with gaps in IaC controls", "entities": [[0, 6, "TOOL"], [20, 26, "PLATFORM_TYPE"], [51, 55, "COUNT"]]}
+{"text": "Legal Text Analyzer assessed applicability generating gap reports for incident reporting SLA", "entities": []}
+{"text": "Head of Governance Risk reviewed 45 control violations requiring immediate remediation", "entities": []}
+{"text": "Wazuh GRC module reported compliance with 93% audit pass rate", "entities": [[0, 5, "TOOL"], [10, 16, "TOOL"], [42, 45, "METRIC_TYPE"]]}
+{"text": "ServiceNow GRC platform integrated policies risk register and compliance evidence", "entities": [[0, 10, "TOOL"], [73, 81, "COMPLIANCE_TYPE"]]}
+{"text": "GRS Strategist defined enterprise governance and risk strategy aligned with NIST CSF ISO 27001 and SOC2", "entities": [[76, 80, "FRAMEWORK"], [81, 84, "FRAMEWORK"], [85, 88, "FRAMEWORK"]]}
+{"text": "Compliance Alignment Tool identified 12 gaps between ISO 27001 and NIST CSF", "entities": [[67, 71, "GAP_TYPE"]]}
+{"text": "NIST Risk Assessment Tool evaluated supply chain risk with 500k residual exposure", "entities": [[0, 4, "FRAMEWORK"], [49, 53, "RISK_TYPE"], [59, 63, "COUNT"]]}
+{"text": "Governance risk strategy false positive rate reduced to 1.5% improving assessment accuracy", "entities": [[0, 10, "GOVERNANCE_TYPE"], [11, 15, "RISK_TYPE"]]}
+{"text": "Elastic Stack ELK dashboarded risk posture with 96% control coverage", "entities": [[35, 42, "POSTURE_TYPE"], [48, 51, "METRIC_TYPE"]]}
+{"text": "Risk quantification achieved 5.2M USD annual loss exposure with prioritized remediation", "entities": [[34, 37, "CURRENCY_TYPE"], [38, 44, "ANNUAL_TYPE"], [45, 49, "LOSS_TYPE"], [50, 58, "EXPOSURE_TYPE"]]}
+{"text": "GDPR data protection and privacy validated governance risk compliance", "entities": [[0, 4, "FRAMEWORK"]]}
+{"text": "SOX financial reporting security enforced governance risk audit requirements", "entities": [[0, 3, "FRAMEWORK"]]}
+{"text": "ServiceNow GRC platform integrated policies risk register and compliance evidence", "entities": [[0, 10, "TOOL"], [73, 81, "COMPLIANCE_TYPE"]]}
+{"text": "WireWheel governance risk management platform automated evidence collection", "entities": [[0, 9, "TOOL"]]}
+{"text": "AI Governance Framework Mapper aligned AI systems with NIST AI RMF and ISO 42001", "entities": [[3, 13, "GOVERNANCE_TYPE"], [14, 23, "FRAMEWORK"], [55, 59, "FRAMEWORK"]]}
+{"text": "GRS Auditor validated maturity score of 96% with 93% control coverage", "entities": [[49, 52, "METRIC_TYPE"]]}
+{"text": "ESG Risk Specialist mapped cyber risks to GRI and SASB frameworks", "entities": []}
+{"text": "Board Maturity Tracker monitored engagement frequency with 4 quarterly meetings", "entities": [[44, 53, "TRACKER_TYPE"], [61, 70, "ENGAGEMENT_TYPE"]]}
+{"text": "ESG Mapping Tool linked cyber risks to GRI SASB and TCFD frameworks", "entities": []}
+{"text": "Compliance Mapping Tool mapped 220 controls highlighting 15 overlaps and 8 gaps", "entities": [[60, 68, "CONTROL_TYPE"]]}
+{"text": "Governance Policy Manager updated 15 security policies across all 24 cybersecurity pillars", "entities": []}
+{"text": "Risk Assessment Specialist calculated FAIR risk score of 82 for ERP system with 2.1M ALE", "entities": [[85, 88, "ASSET_TYPE"]]}
+{"text": "Board Maturity Tracker monitored engagement frequency with 4 quarterly meetings", "entities": [[44, 53, "TRACKER_TYPE"], [61, 70, "ENGAGEMENT_TYPE"]]}
+{"text": "AI Governance Framework Mapper aligned AI systems with NIST AI RMF and ISO 42001", "entities": [[3, 13, "GOVERNANCE_TYPE"], [14, 23, "FRAMEWORK"], [55, 59, "FRAMEWORK"]]}
+{"text": "Board Communicator generated Q2 risk heatmap showing ransomware and cloud outage scenarios", "entities": [[32, 36, "RISK_TYPE"], [37, 44, "HEATMAP_TYPE"], [74, 80, "OUTAGE_TYPE"]]}
+{"text": "AI Risk Assessment Tool evaluated 7 models finding 3 bias issues requiring resolution", "entities": []}
+{"text": "Risk Register Templates OWASP Risk Rating tracked 30 risks with 9 high priority", "entities": [[30, 34, "FRAMEWORK"], [71, 79, "PRIORITY_TYPE"]]}
+{"text": "Governance risk strategy training completion reached 93% for all GRC analysts", "entities": [[0, 10, "GOVERNANCE_TYPE"], [11, 15, "RISK_TYPE"], [45, 52, "METRIC_TYPE"]]}
+{"text": "Governance risk strategy false positive rate reduced to 1.5% improving assessment accuracy", "entities": [[0, 10, "GOVERNANCE_TYPE"], [11, 15, "RISK_TYPE"]]}
+{"text": "Eramba open source GRC platform managed risk register with 30 tracked risks", "entities": [[0, 6, "TOOL"], [40, 44, "RISK_TYPE"], [45, 53, "REGISTER_TYPE"]]}
+{"text": "TrustArc governance risk management platform tracked regulatory compliance", "entities": [[0, 8, "TOOL"]]}
+{"text": "Policy Authoring Tool updated 15 policies with 4 new policies and 5 reviews pending", "entities": []}
+{"text": "PCI DSS payment card industry security validated governance risk controls", "entities": [[0, 3, "FRAMEWORK"], [4, 7, "FRAMEWORK"], [49, 59, "GOVERNANCE_TYPE"], [60, 64, "RISK_TYPE"]]}
+{"text": "Archer GRC platform synced 220 evidence items with gaps in IaC controls", "entities": [[0, 6, "TOOL"], [20, 26, "PLATFORM_TYPE"], [51, 55, "COUNT"]]}
+{"text": "Compliance Mapping Tool mapped controls to frameworks highlighting overlaps and gaps", "entities": []}
+{"text": "Risk Scenario Simulator tested insider threat scenario with 1.8M loss estimate", "entities": [[31, 38, "RISK_TYPE"]]}
+{"text": "Legal Text Analyzer assessed applicability generating gap reports for incident reporting SLA", "entities": []}
+{"text": "RSA Archer enterprise GRC platform synced 220 evidence items with gaps in IaC", "entities": [[4, 10, "TOOL"]]}
+{"text": "Eramba open source GRC platform managed risk register with 30 tracked risks", "entities": [[0, 6, "TOOL"], [40, 44, "RISK_TYPE"], [45, 53, "REGISTER_TYPE"]]}
+{"text": "Policy Generator created enterprise-wide security policies across all 22 pillars", "entities": []}
+{"text": "GRC API Connector integrated ServiceNow GRC with CNAPP and threat intelligence feeds", "entities": []}
+{"text": "Strategic Security Planner updated 3-year roadmap with zero trust and AI security initiatives", "entities": [[35, 41, "LATITUDE"], [35, 41, "YEAR_TYPE"], [42, 49, "ROADMAP_TYPE"]]}
+{"text": "AI Risk Assessment Tool evaluated 7 models finding 3 bias issues requiring resolution", "entities": []}
+{"text": "Risk Register Templates OWASP Risk Rating tracked 30 risks with 9 high priority", "entities": [[30, 34, "FRAMEWORK"], [71, 79, "PRIORITY_TYPE"]]}
+{"text": "CISO approved risk appetite statement with 2.5M USD tolerance for operational risks", "entities": [[0, 4, "ROLE"]]}
+{"text": "Principal Governance Architect designed control framework mapping NIST CSF to ISO 27001", "entities": [[66, 70, "FRAMEWORK"]]}
+{"text": "CISO approved risk appetite statement with 2.5M USD tolerance for operational risks", "entities": [[0, 4, "ROLE"]]}
+{"text": "Wazuh GRC module reported compliance with 93% audit pass rate", "entities": [[0, 5, "TOOL"], [10, 16, "TOOL"], [42, 45, "METRIC_TYPE"]]}
+{"text": "TrustArc governance risk management platform tracked regulatory compliance", "entities": [[0, 8, "TOOL"]]}
+{"text": "Policy Authoring Tool updated 15 policies with 4 new policies and 5 reviews pending", "entities": []}
+{"text": "Document Management Tool stored 220 policy documents with version control", "entities": [[58, 65, "COUNT"], [66, 73, "POLICY_TYPE"]]}
+{"text": "OpenGRC open source platform managed risk register with 30 tracked risks", "entities": [[0, 7, "TOOL"]]}
+{"text": "WireWheel governance risk management platform automated evidence collection", "entities": [[0, 9, "TOOL"]]}
+{"text": "Risk Assessment Specialist calculated FAIR risk score of 82 for ERP system with 2.1M ALE", "entities": [[85, 88, "ASSET_TYPE"]]}
+{"text": "RegTech Evidence Collector automated evidence gathering for 12 audit cycles", "entities": [[37, 45, "COLLECTOR_TYPE"]]}
+{"text": "AI Risk Assessment Tool evaluated 7 models finding 3 bias issues requiring resolution", "entities": []}
+{"text": "NIST SP 800-53 security controls validated governance risk information systems", "entities": [[0, 4, "FRAMEWORK"], [8, 14, "LONGITUDE"], [43, 53, "GOVERNANCE_TYPE"]]}
+{"text": "OPA Gatekeeper validated 45 controls with 6 violations and 2 exceptions", "entities": [[4, 14, "TOOL"]]}
+{"text": "Governance risk strategy audit score improved to 96% with 93% coverage", "entities": [[0, 10, "GOVERNANCE_TYPE"], [11, 15, "RISK_TYPE"]]}
+{"text": "Risk-to-ESG Translator converted 30 cyber risks to ESG reportable metrics", "entities": []}
+{"text": "OPA Gatekeeper automated control validation with 45 controls validated and 6 violations", "entities": [[4, 14, "TOOL"]]}
+{"text": "ESG Mapping Tool linked cyber risks to GRI SASB and TCFD frameworks", "entities": []}
+{"text": "ESG integration mapped data privacy and business continuity to cyber risks", "entities": [[0, 3, "FRAMEWORK"], [63, 68, "CYBER_TYPE"], [69, 74, "RISK_TYPE"]]}
+{"text": "Governance Policy Manager updated 15 security policies across all 24 cybersecurity pillars", "entities": []}
+{"text": "NIST Risk Assessment Tool evaluated supply chain risk with 500k residual exposure", "entities": [[0, 4, "FRAMEWORK"], [49, 53, "RISK_TYPE"], [59, 63, "COUNT"]]}
+{"text": "GRC Platform Integrator synced ServiceNow GRC with 220 evidence items from CNAPP", "entities": [[31, 41, "TOOL"]]}
+{"text": "Policy Authoring Tool updated 15 policies with 4 new policies and 5 reviews pending", "entities": []}
+{"text": "GRC Platform Integrator synced ServiceNow GRC with 220 evidence items from CNAPP", "entities": [[31, 41, "TOOL"]]}
+{"text": "Policy Authoring Tool updated 15 policies with 4 new policies and 5 reviews pending", "entities": []}
+{"text": "Risk Scenario Simulator tested cloud region outage and ransomware scenarios", "entities": []}
+{"text": "SOX financial reporting security enforced governance risk audit requirements", "entities": [[0, 3, "FRAMEWORK"]]}
+{"text": "Risk Register Manager tracked 30 risks with 9 high-risk requiring mitigation", "entities": []}
+{"text": "OpenFAIR Tools quantified operational risk with 2.5M USD annual loss exposure", "entities": [[38, 42, "RISK_TYPE"]]}
+{"text": "Evidence Synchronizer synced 220 evidence items from multiple security tools", "entities": []}
+{"text": "Risk Register Manager tracked 30 risks with 9 high-risk requiring mitigation", "entities": []}
+{"text": "RegTech Evidence Collector automated evidence gathering for 12 audit cycles", "entities": [[37, 45, "COLLECTOR_TYPE"]]}
+{"text": "Osquery validated policy compliance across 500 endpoints with 95% compliance rate", "entities": [[0, 7, "TOOL"]]}
+{"text": "Legal Text Analyzer assessed applicability generating gap reports for incident reporting SLA", "entities": []}
+{"text": "OneTrust GRC platform managed vendor risk privacy and compliance alignment", "entities": [[0, 8, "TOOL"], [22, 29, "PLATFORM_TYPE"]]}
+{"text": "ESG Risk Specialist mapped data privacy risks to GRI SASB frameworks", "entities": [[40, 45, "DATA_TYPE"], [58, 68, "FRAMEWORK"]]}
+{"text": "Policy Authoring Tool updated 15 policies with 4 new policies and 5 reviews pending", "entities": []}
+{"text": "Evidence Packaging Tool prepared audit evidence package with 220 items", "entities": []}
+{"text": "Board Report Generator created Q2 report showing top risks and funding needs", "entities": []}
+{"text": "FAIR Risk Calculator quantified cloud migration risk at 3.2M USD annual loss exposure", "entities": []}
+{"text": "Governance Risk Engineer configured OneTrust platform with 220 evidence items synced", "entities": []}
+{"text": "PCI DSS payment card industry security validated governance risk controls", "entities": [[0, 3, "FRAMEWORK"], [4, 7, "FRAMEWORK"], [49, 59, "GOVERNANCE_TYPE"], [60, 64, "RISK_TYPE"]]}
+{"text": "Strategic Security Planner updated 3-year roadmap with zero trust and AI security initiatives", "entities": [[35, 41, "LATITUDE"], [35, 41, "YEAR_TYPE"], [42, 49, "ROADMAP_TYPE"]]}
+{"text": "Regulatory Feed Monitor detected EU NIS2 and DORA regulations with high impact", "entities": [[67, 71, "REGULATION"]]}
+{"text": "Governance Policy Manager updated 15 security policies across all 24 cybersecurity pillars", "entities": []}
+{"text": "Regulatory Feed Monitor detected EU NIS2 and DORA regulations with high impact", "entities": [[67, 71, "REGULATION"]]}
+{"text": "Governance Compliance Analyst validated SOC2 Type 2 controls with 96% compliance rate", "entities": []}
+{"text": "RegTech Evidence Collector automated evidence gathering for 12 audit cycles", "entities": [[37, 45, "COLLECTOR_TYPE"]]}
+{"text": "OneTrust GRC platform managed vendor risk privacy and compliance alignment", "entities": [[0, 8, "TOOL"], [22, 29, "PLATFORM_TYPE"]]}
+{"text": "Risk evaluation accuracy achieved 93% with validated assessment methods", "entities": [[0, 4, "RISK_TYPE"], [16, 24, "ACCURACY_TYPE"], [34, 37, "METRIC_TYPE"]]}
+{"text": "Risk Framework Mapper aligned enterprise controls with NIST ISO SOC2 and PCI DSS", "entities": [[73, 76, "FRAMEWORK"]]}
+{"text": "Incident Responder investigated governance failure affecting 3 business units", "entities": []}
+{"text": "Legal Text Analyzer assessed applicability generating gap reports for incident reporting SLA", "entities": []}
+{"text": "Risk evaluation accuracy achieved 93% with validated assessment methods", "entities": [[0, 4, "RISK_TYPE"], [16, 24, "ACCURACY_TYPE"], [34, 37, "METRIC_TYPE"]]}
+{"text": "ESG Risk Specialist mapped data privacy risks to GRI SASB frameworks", "entities": [[40, 45, "DATA_TYPE"], [58, 68, "FRAMEWORK"]]}
+{"text": "Evidence Synchronizer synced 220 evidence items from multiple security tools", "entities": []}
+{"text": "Board Report Generator created Q2 report showing top risks and funding needs", "entities": []}
+{"text": "Risk Scenario Simulator tested insider threat scenario with 1.8M loss estimate", "entities": [[31, 38, "RISK_TYPE"]]}
+{"text": "Risk-to-ESG Translator converted 30 cyber risks to ESG reportable metrics", "entities": []}
+{"text": "Head of Governance Risk reviewed 45 control violations requiring immediate remediation", "entities": []}
+{"text": "Compliance Mapping Tool mapped controls to frameworks highlighting overlaps and gaps", "entities": []}
+{"text": "Compliance Alignment Tool identified 12 gaps between ISO 27001 and NIST CSF", "entities": [[67, 71, "GAP_TYPE"]]}
+{"text": "NIST SP 800-53 security controls validated governance risk information systems", "entities": [[0, 4, "FRAMEWORK"], [8, 14, "LONGITUDE"], [43, 53, "GOVERNANCE_TYPE"]]}
+{"text": "Governance Security Tester executed penetration test finding 12 critical governance gaps", "entities": []}
+{"text": "ComplianceAsCode OpenSCAP automated control enforcement for 450 controls", "entities": [[17, 25, "TOOL"], [60, 63, "COUNT"]]}
+{"text": "Bias Detection Engine identified fairness violations in AI model training data", "entities": []}
+{"text": "AI Governance Framework Mapper aligned AI systems with NIST AI RMF and ISO 42001", "entities": [[3, 13, "GOVERNANCE_TYPE"], [14, 23, "FRAMEWORK"], [55, 59, "FRAMEWORK"]]}
+{"text": "Board engagement maturity increased with 4 quarterly meetings and risk appetite updates", "entities": [[0, 5, "BOARD_TYPE"], [6, 16, "ENGAGEMENT_TYPE"], [17, 25, "MATURITY_TYPE"], [71, 79, "UPDATE_TYPE"]]}
+{"text": "RSA Archer enterprise GRC platform synced 220 evidence items with gaps in IaC", "entities": [[4, 10, "TOOL"]]}
+{"text": "Maturity Model Evaluator assessed governance maturity at level 4 out of 5", "entities": []}
+{"text": "Reporting Dashboard Tool generated board-ready reports with risk heatmaps", "entities": [[65, 73, "BOARD_TYPE"]]}
+{"text": "Evidence Packaging Tool prepared audit evidence package with 220 items", "entities": []}
+{"text": "OpenFAIR Tools quantified operational risk with 2.5M USD annual loss exposure", "entities": [[38, 42, "RISK_TYPE"]]}
+{"text": "Document Management Tool stored 220 policy documents with version control", "entities": [[58, 65, "COUNT"], [66, 73, "POLICY_TYPE"]]}
+{"text": "AI Risk Assessment Tool evaluated 7 models finding 3 bias issues requiring resolution", "entities": []}
+{"text": "Regulatory Intelligence Analyst tracked EU NIS2 DORA and AI Act regulations", "entities": [[60, 63, "REGULATION"]]}
+{"text": "Risk-to-ESG Translator converted 30 cyber risks to ESG reportable metrics", "entities": []}
+{"text": "TrustArc governance risk management platform tracked regulatory compliance", "entities": [[0, 8, "TOOL"]]}
+{"text": "Elastic Stack ELK dashboarded risk posture with 96% control coverage", "entities": [[35, 42, "POSTURE_TYPE"], [48, 51, "METRIC_TYPE"]]}
+{"text": "Regulatory Feed Monitor detected EU NIS2 and DORA regulations with high impact", "entities": [[67, 71, "REGULATION"]]}
+{"text": "Regulatory Intelligence Analyst tracked EU NIS2 DORA and AI Act regulations", "entities": [[60, 63, "REGULATION"]]}
+{"text": "GDPR data protection and privacy validated governance risk compliance", "entities": [[0, 4, "FRAMEWORK"]]}
+{"text": "GRR Rapid Response collected evidence for risk reporting across 12 audit cycles", "entities": [[4, 9, "TOOL"], [29, 37, "EVIDENCE_TYPE"]]}
+{"text": "Board Report Generator created Q2 report showing top risks and funding needs", "entities": []}
+{"text": "AI Risk Assessment Tool evaluated 7 models finding 3 bias issues requiring resolution", "entities": []}
+{"text": "NIST Risk Assessment Tool evaluated supply chain risk with 500k residual exposure", "entities": [[0, 4, "FRAMEWORK"], [49, 53, "RISK_TYPE"], [59, 63, "COUNT"]]}
+{"text": "Governance Compliance Analyst validated SOC2 Type 2 controls with 96% compliance rate", "entities": []}
+{"text": "Governance risk strategy audit score improved to 96% with 93% coverage", "entities": [[0, 10, "GOVERNANCE_TYPE"], [11, 15, "RISK_TYPE"]]}
+{"text": "GRC API Connector integrated ServiceNow GRC with CNAPP and threat intelligence feeds", "entities": []}
+{"text": "AI Governance Officer evaluated 7 LLM models identifying 3 bias violations", "entities": [[34, 37, "AI_MODEL_TYPE"]]}
+{"text": "CIS Controls critical security controls enforced governance risk systems", "entities": [[0, 3, "FRAMEWORK"], [49, 59, "RISK_TYPE"]]}
+{"text": "GRS Strategist defined enterprise governance and risk strategy aligned with NIST CSF ISO 27001 and SOC2", "entities": [[76, 80, "FRAMEWORK"], [81, 84, "FRAMEWORK"], [85, 88, "FRAMEWORK"]]}
+{"text": "SANS Top 20 critical security controls validated governance risk management", "entities": [[0, 4, "FRAMEWORK"], [9, 11, "COUNT"]]}
+{"text": "GRS Strategist defined enterprise governance and risk strategy aligned with NIST CSF ISO 27001 and SOC2", "entities": [[76, 80, "FRAMEWORK"], [81, 84, "FRAMEWORK"], [85, 88, "FRAMEWORK"]]}
+{"text": "Policy Authoring Tool updated 15 policies with 4 new policies and 5 reviews pending", "entities": []}
+{"text": "GRS Strategist defined enterprise governance and risk strategy aligned with NIST CSF ISO 27001 and SOC2", "entities": [[76, 80, "FRAMEWORK"], [81, 84, "FRAMEWORK"], [85, 88, "FRAMEWORK"]]}
+{"text": "Risk assessment completion rate reached 92% with 30 risks assessed", "entities": [[0, 4, "RISK_TYPE"], [5, 15, "ASSESSMENT_TYPE"]]}
+{"text": "Governance risk strategy false positive rate reduced to 1.5% improving assessment accuracy", "entities": [[0, 10, "GOVERNANCE_TYPE"], [11, 15, "RISK_TYPE"]]}
+{"text": "NIST Risk Assessment Tool calculated residual risk of 500k USD post-controls", "entities": [[0, 4, "FRAMEWORK"], [46, 50, "RISK_TYPE"], [54, 58, "COUNT"], [59, 62, "CURRENCY_TYPE"], [63, 76, "POST_TYPE"]]}
+{"text": "Auditd validated control compliance for system-level events across 200 servers", "entities": []}
+{"text": "RegTech Evidence Collector automated evidence gathering for 12 audit cycles", "entities": [[37, 45, "COLLECTOR_TYPE"]]}
+{"text": "Risk Communication Specialist presented board report with top 5 risks and funding needs", "entities": []}
+{"text": "Risk evaluation accuracy achieved 93% with validated assessment methods", "entities": [[0, 4, "RISK_TYPE"], [16, 24, "ACCURACY_TYPE"], [34, 37, "METRIC_TYPE"]]}
+{"text": "NIST SP 800-53 security controls validated governance risk information systems", "entities": [[0, 4, "FRAMEWORK"], [8, 14, "LONGITUDE"], [43, 53, "GOVERNANCE_TYPE"]]}
+{"text": "Compliance Gap Mapper identified 8 gaps in PCI DSS controls requiring remediation", "entities": [[35, 39, "GAP_TYPE"]]}
+{"text": "GRC Analyst mapped 45 controls to NIST ISO SOC2 and PCI DSS frameworks", "entities": []}
+{"text": "RSA Archer enterprise GRC platform synced 220 evidence items with gaps in IaC", "entities": [[4, 10, "TOOL"]]}
+{"text": "Compliance Alignment Tool identified 12 gaps between ISO 27001 and NIST CSF", "entities": [[67, 71, "GAP_TYPE"]]}
+{"text": "GRR Rapid Response collected evidence for risk reporting across 12 audit cycles", "entities": [[4, 9, "TOOL"], [29, 37, "EVIDENCE_TYPE"]]}
+{"text": "Risk-to-ESG Translator converted 30 cyber risks to ESG reportable metrics", "entities": []}
+{"text": "NIST SP 800-53 security controls validated governance risk information systems", "entities": [[0, 4, "FRAMEWORK"], [8, 14, "LONGITUDE"], [43, 53, "GOVERNANCE_TYPE"]]}
+{"text": "AI Risk Assessment Tool evaluated 7 models finding 3 bias issues requiring resolution", "entities": []}
+{"text": "Strategic Security Planner updated 3-year roadmap with zero trust and AI security initiatives", "entities": [[35, 41, "LATITUDE"], [35, 41, "YEAR_TYPE"], [42, 49, "ROADMAP_TYPE"]]}
+{"text": "Risk Communication Specialist presented board report with top 5 risks and funding needs", "entities": []}
+{"text": "Bias Detection Engine identified fairness violations in AI model training data", "entities": []}
+{"text": "Policy Authoring Tool updated 15 policies with 4 new policies and 5 reviews pending", "entities": []}
+{"text": "Bias Detection Engine identified fairness violations in AI model training data", "entities": []}
+{"text": "CIS Controls critical security controls enforced governance risk systems", "entities": [[0, 3, "FRAMEWORK"], [49, 59, "RISK_TYPE"]]}
+{"text": "Incident Responder investigated governance failure affecting 3 business units", "entities": []}
+{"text": "Compliance Gap Mapper identified 8 gaps in PCI DSS controls requiring remediation", "entities": [[35, 39, "GAP_TYPE"]]}
+{"text": "Incident Responder investigated governance failure affecting 3 business units", "entities": []}
+{"text": "Compliance Mapping Tool mapped 220 controls highlighting 15 overlaps and 8 gaps", "entities": [[60, 68, "CONTROL_TYPE"]]}
+{"text": "Strategic Security Planner updated 3-year roadmap with zero trust and AI security initiatives", "entities": [[35, 41, "LATITUDE"], [35, 41, "YEAR_TYPE"], [42, 49, "ROADMAP_TYPE"]]}
+{"text": "Board engagement maturity increased with 4 quarterly meetings and risk appetite updates", "entities": [[0, 5, "BOARD_TYPE"], [6, 16, "ENGAGEMENT_TYPE"], [17, 25, "MATURITY_TYPE"], [71, 79, "UPDATE_TYPE"]]}
+{"text": "Legal Text Analyzer assessed applicability generating gap reports for incident reporting SLA", "entities": []}
+{"text": "Maturity Model Evaluator assessed governance maturity at level 4 out of 5", "entities": []}
+{"text": "SANS Top 20 critical security controls validated governance risk management", "entities": [[0, 4, "FRAMEWORK"], [9, 11, "COUNT"]]}
+{"text": "Risk Communication Specialist presented board report with top 5 risks and funding needs", "entities": []}
+{"text": "FAIR Risk Calculator quantified cloud migration risk at 3.2M USD annual loss exposure", "entities": []}
+{"text": "Control Library maintained 450 control definitions across 12 frameworks", "entities": []}
+{"text": "Head of Governance Risk reviewed 45 control violations requiring immediate remediation", "entities": []}
+{"text": "Risk Register Templates OWASP Risk Rating tracked 30 risks with 9 high priority", "entities": [[30, 34, "FRAMEWORK"], [71, 79, "PRIORITY_TYPE"]]}
+{"text": "Risk Framework Mapper aligned enterprise controls with COBIT and CIS Controls", "entities": []}
+{"text": "Regulatory Feed Monitor detected EU NIS2 and DORA regulations with high impact", "entities": [[67, 71, "REGULATION"]]}
+{"text": "MetricStream risk and compliance dashboards showed 96% governance maturity", "entities": []}
+{"text": "Risk Scenario Simulator tested cloud region outage and ransomware scenarios", "entities": []}
+{"text": "ESG Risk Specialist mapped cyber risks to GRI and SASB frameworks", "entities": []}
+{"text": "MetricStream risk and compliance dashboards showed 96% governance maturity", "entities": []}
+{"text": "AI Governance Officer evaluated 7 LLM models identifying 3 bias violations", "entities": [[34, 37, "AI_MODEL_TYPE"]]}
+{"text": "Governance risk vulnerability remediation rate improved to 94%", "entities": [[0, 10, "GOVERNANCE_TYPE"], [11, 15, "RISK_TYPE"], [16, 29, "VULNERABILITY_TYPE"]]}
+{"text": "Regulatory Feed Monitor detected EU NIS2 and DORA regulations with high impact", "entities": [[67, 71, "REGULATION"]]}
+{"text": "NIST Risk Assessment Tool calculated residual risk of 500k USD post-controls", "entities": [[0, 4, "FRAMEWORK"], [46, 50, "RISK_TYPE"], [54, 58, "COUNT"], [59, 62, "CURRENCY_TYPE"], [63, 76, "POST_TYPE"]]}
+{"text": "GRS Auditor validated maturity score of 96% with 93% control coverage", "entities": [[49, 52, "METRIC_TYPE"]]}
+{"text": "ESG integration mapped data privacy and business continuity to cyber risks", "entities": [[0, 3, "FRAMEWORK"], [63, 68, "CYBER_TYPE"], [69, 74, "RISK_TYPE"]]}
+{"text": "Incident Responder investigated governance failure affecting 3 business units", "entities": []}
+{"text": "Policy Authoring Tool updated 15 policies with 4 new policies and 5 reviews pending", "entities": []}
+{"text": "FAIR Risk Calculator quantified ERP asset risk with 2.1M USD annual loss exposure", "entities": [[61, 67, "COUNT"], [68, 72, "CURRENCY_TYPE"]]}
+{"text": "RegTech Evidence Collector automated evidence gathering for 12 audit cycles", "entities": [[37, 45, "COLLECTOR_TYPE"]]}
+{"text": "Maturity Model Evaluator assessed governance maturity at level 4 out of 5", "entities": []}
+{"text": "OPA Gatekeeper automated control validation with 45 controls validated and 6 violations", "entities": [[4, 14, "TOOL"]]}
+{"text": "Board engagement maturity increased with 4 quarterly meetings and risk appetite updates", "entities": [[0, 5, "BOARD_TYPE"], [6, 16, "ENGAGEMENT_TYPE"], [17, 25, "MATURITY_TYPE"], [71, 79, "UPDATE_TYPE"]]}
+{"text": "CIS Controls critical security controls enforced governance risk systems", "entities": [[0, 3, "FRAMEWORK"], [49, 59, "RISK_TYPE"]]}
+{"text": "Policy Generator created enterprise-wide security policies across all 22 pillars", "entities": []}
+{"text": "SOX financial reporting security enforced governance risk audit requirements", "entities": [[0, 3, "FRAMEWORK"]]}
+{"text": "Legal Text Analyzer assessed applicability generating gap reports for incident reporting SLA", "entities": []}
+{"text": "Risk evaluation accuracy achieved 93% with validated assessment methods", "entities": [[0, 4, "RISK_TYPE"], [16, 24, "ACCURACY_TYPE"], [34, 37, "METRIC_TYPE"]]}
+{"text": "GRC Platform Integrator synced ServiceNow GRC with 220 evidence items from CNAPP", "entities": [[31, 41, "TOOL"]]}
+{"text": "Risk assessment completion rate reached 92% with 30 risks assessed", "entities": [[0, 4, "RISK_TYPE"], [5, 15, "ASSESSMENT_TYPE"]]}
+{"text": "BigID data governance and risk management platform identified data privacy risks", "entities": [[0, 5, "TOOL"], [11, 21, "DATA_TYPE"]]}
+{"text": "Policy Generator created enterprise-wide security policies across all 22 pillars", "entities": []}
+{"text": "Principal Governance Architect designed control framework mapping NIST CSF to ISO 27001", "entities": [[66, 70, "FRAMEWORK"]]}
+{"text": "Risk Heatmap Generator created quarterly risk visualization with top 10 risks", "entities": [[46, 59, "GENERATOR_TYPE"]]}
+{"text": "ServiceNow GRC platform integrated policies risk register and compliance evidence", "entities": [[0, 10, "TOOL"], [73, 81, "COMPLIANCE_TYPE"]]}
+{"text": "OPA Gatekeeper automated control validation with 45 controls validated and 6 violations", "entities": [[4, 14, "TOOL"]]}
+{"text": "Risk quantification achieved 5.2M USD annual loss exposure with prioritized remediation", "entities": [[34, 37, "CURRENCY_TYPE"], [38, 44, "ANNUAL_TYPE"], [45, 49, "LOSS_TYPE"], [50, 58, "EXPOSURE_TYPE"]]}
+{"text": "OWASP Governance Risk guidelines provided best practices for risk management", "entities": [[6, 16, "GOVERNANCE_TYPE"], [61, 65, "RISK_TYPE"]]}
+{"text": "SOX financial reporting security enforced governance risk audit requirements", "entities": [[0, 3, "FRAMEWORK"]]}
+{"text": "NIST Risk Assessment Tool evaluated supply chain risk with 500k residual exposure", "entities": [[0, 4, "FRAMEWORK"], [49, 53, "RISK_TYPE"], [59, 63, "COUNT"]]}
+{"text": "HIPAA healthcare data protection enforced governance risk security controls", "entities": [[0, 5, "FRAMEWORK"]]}
+{"text": "Governance risk strategy audit score improved to 96% with 93% coverage", "entities": [[0, 10, "GOVERNANCE_TYPE"], [11, 15, "RISK_TYPE"]]}
+{"text": "PCI DSS payment card industry security validated governance risk controls", "entities": [[0, 3, "FRAMEWORK"], [4, 7, "FRAMEWORK"], [49, 59, "GOVERNANCE_TYPE"], [60, 64, "RISK_TYPE"]]}
+{"text": "Archer GRC platform synced 220 evidence items with gaps in IaC controls", "entities": [[0, 6, "TOOL"], [20, 26, "PLATFORM_TYPE"], [51, 55, "COUNT"]]}
+{"text": "Evidence Synchronizer synced 220 evidence items from multiple security tools", "entities": []}
+{"text": "Head of Governance Risk reviewed 45 control violations requiring immediate remediation", "entities": []}
+{"text": "Governance risk strategy false positive rate reduced to 1.5% improving assessment accuracy", "entities": [[0, 10, "GOVERNANCE_TYPE"], [11, 15, "RISK_TYPE"]]}
+{"text": "ESG Risk Specialist mapped cyber risks to GRI and SASB frameworks", "entities": []}
+{"text": "MetricStream risk and compliance dashboards showed 96% governance maturity", "entities": []}
+{"text": "Elastic Stack ELK dashboarded risk posture with 96% control coverage", "entities": [[35, 42, "POSTURE_TYPE"], [48, 51, "METRIC_TYPE"]]}
+{"text": "CISO approved risk appetite statement with 2.5M USD tolerance for operational risks", "entities": [[0, 4, "ROLE"]]}
+{"text": "RegTech Evidence Collector automated evidence gathering for 12 audit cycles", "entities": [[37, 45, "COLLECTOR_TYPE"]]}
+{"text": "Governance Risk Engineer configured OneTrust platform with 220 evidence items synced", "entities": []}
+{"text": "Board Maturity Tracker monitored engagement frequency with 4 quarterly meetings", "entities": [[44, 53, "TRACKER_TYPE"], [61, 70, "ENGAGEMENT_TYPE"]]}
+{"text": "Compliance Gap Mapper identified 8 gaps in PCI DSS controls requiring remediation", "entities": [[35, 39, "GAP_TYPE"]]}
+{"text": "GRC API Connector integrated ServiceNow GRC with CNAPP and threat intelligence feeds", "entities": []}
+{"text": "Compliance Mapping Tool mapped 220 controls highlighting 15 overlaps and 8 gaps", "entities": [[60, 68, "CONTROL_TYPE"]]}
+{"text": "BigID data governance and risk management platform identified data privacy risks", "entities": [[0, 5, "TOOL"], [11, 21, "DATA_TYPE"]]}
+{"text": "Can you help me with this?", "entities": []}
+{"text": "I need to check something.", "entities": []}
+{"text": "What is the status?", "entities": []}
+{"text": "How do I do this?", "entities": []}
+{"text": "Tell me more about it.", "entities": []}
+{"text": "Is this safe to use?", "entities": []}
+{"text": "Let me know if you need anything.", "entities": []}
+{"text": "Thanks for your help.", "entities": []}
+{"text": "I will get back to you.", "entities": []}
+{"text": "Please review this document.", "entities": []}
+{"text": "What should I do next?", "entities": []}
+{"text": "How does this work?", "entities": []}
+{"text": "Why is this happening?", "entities": []}
+{"text": "When will this be ready?", "entities": []}
+{"text": "Where can I find this?", "entities": []}
+{"text": "Who should I contact?", "entities": []}
+{"text": "Hey, what's up?", "entities": []}
+{"text": "That's interesting.", "entities": []}
+{"text": "I see what you mean.", "entities": []}
+{"text": "That makes sense.", "entities": []}
+{"text": "Got it, thanks.", "entities": []}
+{"text": "Follow the steps carefully.", "entities": []}
+{"text": "Make sure to save your work.", "entities": []}
+{"text": "Check the settings first.", "entities": []}
+{"text": "Review the documentation.", "entities": []}
+{"text": "Read the instructions.", "entities": []}
+{"text": "This is important.", "entities": []}
+{"text": "That looks good.", "entities": []}
+{"text": "Everything seems fine.", "entities": []}
+{"text": "Nothing to report.", "entities": []}
+{"text": "All systems operational.", "entities": []}
+{"text": "The system is secure.", "entities": []}
+{"text": "All checks passed.", "entities": []}
+{"text": "No issues detected.", "entities": []}
+{"text": "Everything is working correctly.", "entities": []}
+{"text": "The configuration looks good.", "entities": []}
+{"text": "No vulnerabilities found.", "entities": []}
+{"text": "Security measures are in place.", "entities": []}
+{"text": "The audit was successful.", "entities": []}
+{"text": "The information is verified.", "entities": []}
+{"text": "Compliance with ISO 27001 requirements", "entities": [[16, 25, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Audit for ISO 27001 compliance", "entities": [[10, 19, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Verify ISO 27001 controls", "entities": [[7, 16, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Assess ISO 27001 compliance status", "entities": [[7, 16, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Review ISO 27001 requirements", "entities": [[7, 16, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Check ISO 27001 compliance", "entities": [[6, 15, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Validate ISO 27001 controls", "entities": [[9, 18, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Report on ISO 27001 compliance", "entities": [[10, 19, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Ensure ISO 27001 compliance", "entities": [[7, 16, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Monitor ISO 27001 requirements", "entities": [[8, 17, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Compliance with GDPR requirements", "entities": [[16, 20, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Audit for GDPR compliance", "entities": [[10, 14, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Verify GDPR controls", "entities": [[7, 11, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Assess GDPR compliance status", "entities": [[7, 11, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Review GDPR requirements", "entities": [[7, 11, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Check GDPR compliance", "entities": [[6, 10, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Validate GDPR controls", "entities": [[9, 13, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Report on GDPR compliance", "entities": [[10, 14, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Ensure GDPR compliance", "entities": [[7, 11, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Monitor GDPR requirements", "entities": [[8, 12, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Compliance with CCPA requirements", "entities": [[16, 20, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Audit for CCPA compliance", "entities": [[10, 14, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Verify CCPA controls", "entities": [[7, 11, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Assess CCPA compliance status", "entities": [[7, 11, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Review CCPA requirements", "entities": [[7, 11, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Check CCPA compliance", "entities": [[6, 10, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Validate CCPA controls", "entities": [[9, 13, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Report on CCPA compliance", "entities": [[10, 14, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Ensure CCPA compliance", "entities": [[7, 11, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Monitor CCPA requirements", "entities": [[8, 12, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Compliance with PIPEDA requirements", "entities": [[16, 22, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Audit for PIPEDA compliance", "entities": [[10, 16, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Verify PIPEDA controls", "entities": [[7, 13, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Assess PIPEDA compliance status", "entities": [[7, 13, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Review PIPEDA requirements", "entities": [[7, 13, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Check PIPEDA compliance", "entities": [[6, 12, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Validate PIPEDA controls", "entities": [[9, 15, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Report on PIPEDA compliance", "entities": [[10, 16, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Ensure PIPEDA compliance", "entities": [[7, 13, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Monitor PIPEDA requirements", "entities": [[8, 14, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Compliance with FISMA requirements", "entities": [[16, 21, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Audit for FISMA compliance", "entities": [[10, 15, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Verify FISMA controls", "entities": [[7, 12, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Assess FISMA compliance status", "entities": [[7, 12, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Review FISMA requirements", "entities": [[7, 12, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Check FISMA compliance", "entities": [[6, 11, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Validate FISMA controls", "entities": [[9, 14, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Report on FISMA compliance", "entities": [[10, 15, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Ensure FISMA compliance", "entities": [[7, 12, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Monitor FISMA requirements", "entities": [[8, 13, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Compliance with FIPS 140-2 requirements", "entities": [[16, 26, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Audit for FIPS 140-2 compliance", "entities": [[10, 20, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Verify FIPS 140-2 controls", "entities": [[7, 17, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Assess FIPS 140-2 compliance status", "entities": [[7, 17, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Review FIPS 140-2 requirements", "entities": [[7, 17, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Check FIPS 140-2 compliance", "entities": [[6, 16, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Validate FIPS 140-2 controls", "entities": [[9, 19, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Report on FIPS 140-2 compliance", "entities": [[10, 20, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Ensure FIPS 140-2 compliance", "entities": [[7, 17, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Monitor FIPS 140-2 requirements", "entities": [[8, 18, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Compliance with SOX requirements", "entities": [[16, 19, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Audit for SOX compliance", "entities": [[10, 13, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Verify SOX controls", "entities": [[7, 10, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Assess SOX compliance status", "entities": [[7, 10, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Review SOX requirements", "entities": [[7, 10, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Check SOX compliance", "entities": [[6, 9, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Validate SOX controls", "entities": [[9, 12, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Report on SOX compliance", "entities": [[10, 13, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Ensure SOX compliance", "entities": [[7, 10, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Monitor SOX requirements", "entities": [[8, 11, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Compliance with GLBA requirements", "entities": [[16, 20, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Audit for GLBA compliance", "entities": [[10, 14, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Verify GLBA controls", "entities": [[7, 11, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Assess GLBA compliance status", "entities": [[7, 11, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Review GLBA requirements", "entities": [[7, 11, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Check GLBA compliance", "entities": [[6, 10, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Validate GLBA controls", "entities": [[9, 13, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Report on GLBA compliance", "entities": [[10, 14, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Ensure GLBA compliance", "entities": [[7, 11, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Monitor GLBA requirements", "entities": [[8, 12, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Compliance with ISO 27001 requirements", "entities": [[16, 25, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Audit for ISO 27001 compliance", "entities": [[10, 19, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Verify ISO 27001 controls", "entities": [[7, 16, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Assess ISO 27001 compliance status", "entities": [[7, 16, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Review ISO 27001 requirements", "entities": [[7, 16, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Check ISO 27001 compliance", "entities": [[6, 15, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Validate ISO 27001 controls", "entities": [[9, 18, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Report on ISO 27001 compliance", "entities": [[10, 19, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Ensure ISO 27001 compliance", "entities": [[7, 16, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Monitor ISO 27001 requirements", "entities": [[8, 17, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Compliance with GDPR requirements", "entities": [[16, 20, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Audit for GDPR compliance", "entities": [[10, 14, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Verify GDPR controls", "entities": [[7, 11, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Assess GDPR compliance status", "entities": [[7, 11, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Review GDPR requirements", "entities": [[7, 11, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Check GDPR compliance", "entities": [[6, 10, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Validate GDPR controls", "entities": [[9, 13, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Report on GDPR compliance", "entities": [[10, 14, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Ensure GDPR compliance", "entities": [[7, 11, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Monitor GDPR requirements", "entities": [[8, 12, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Compliance with CCPA requirements", "entities": [[16, 20, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Audit for CCPA compliance", "entities": [[10, 14, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Verify CCPA controls", "entities": [[7, 11, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Assess CCPA compliance status", "entities": [[7, 11, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Review CCPA requirements", "entities": [[7, 11, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Check CCPA compliance", "entities": [[6, 10, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Validate CCPA controls", "entities": [[9, 13, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Report on CCPA compliance", "entities": [[10, 14, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Ensure CCPA compliance", "entities": [[7, 11, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Monitor CCPA requirements", "entities": [[8, 12, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Compliance with PIPEDA requirements", "entities": [[16, 22, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Audit for PIPEDA compliance", "entities": [[10, 16, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Verify PIPEDA controls", "entities": [[7, 13, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Assess PIPEDA compliance status", "entities": [[7, 13, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Review PIPEDA requirements", "entities": [[7, 13, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Check PIPEDA compliance", "entities": [[6, 12, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Validate PIPEDA controls", "entities": [[9, 15, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Report on PIPEDA compliance", "entities": [[10, 16, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Ensure PIPEDA compliance", "entities": [[7, 13, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Monitor PIPEDA requirements", "entities": [[8, 14, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Compliance with FISMA requirements", "entities": [[16, 21, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Audit for FISMA compliance", "entities": [[10, 15, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Verify FISMA controls", "entities": [[7, 12, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Assess FISMA compliance status", "entities": [[7, 12, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Review FISMA requirements", "entities": [[7, 12, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Check FISMA compliance", "entities": [[6, 11, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Validate FISMA controls", "entities": [[9, 14, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Report on FISMA compliance", "entities": [[10, 15, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Ensure FISMA compliance", "entities": [[7, 12, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Monitor FISMA requirements", "entities": [[8, 13, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Compliance with FIPS 140-2 requirements", "entities": [[16, 26, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Audit for FIPS 140-2 compliance", "entities": [[10, 20, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Verify FIPS 140-2 controls", "entities": [[7, 17, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Assess FIPS 140-2 compliance status", "entities": [[7, 17, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Review FIPS 140-2 requirements", "entities": [[7, 17, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Check FIPS 140-2 compliance", "entities": [[6, 16, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Validate FIPS 140-2 controls", "entities": [[9, 19, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Report on FIPS 140-2 compliance", "entities": [[10, 20, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Ensure FIPS 140-2 compliance", "entities": [[7, 17, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Monitor FIPS 140-2 requirements", "entities": [[8, 18, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Compliance with SOX requirements", "entities": [[16, 19, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Audit for SOX compliance", "entities": [[10, 13, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Verify SOX controls", "entities": [[7, 10, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Assess SOX compliance status", "entities": [[7, 10, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Review SOX requirements", "entities": [[7, 10, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Check SOX compliance", "entities": [[6, 9, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Validate SOX controls", "entities": [[9, 12, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Report on SOX compliance", "entities": [[10, 13, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Ensure SOX compliance", "entities": [[7, 10, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Monitor SOX requirements", "entities": [[8, 11, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Compliance with GLBA requirements", "entities": [[16, 20, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Audit for GLBA compliance", "entities": [[10, 14, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Verify GLBA controls", "entities": [[7, 11, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Assess GLBA compliance status", "entities": [[7, 11, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Review GLBA requirements", "entities": [[7, 11, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Check GLBA compliance", "entities": [[6, 10, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Validate GLBA controls", "entities": [[9, 13, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Report on GLBA compliance", "entities": [[10, 14, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Ensure GLBA compliance", "entities": [[7, 11, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Monitor GLBA requirements", "entities": [[8, 12, "COMPLIANCE_FRAMEWORK"]]}

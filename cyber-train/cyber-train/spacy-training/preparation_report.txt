@@ -1,13 +1,13 @@
 ======================================================================
 SPACY TRAINING DATA PREPARATION REPORT
 ======================================================================
-Generated: 2025-12-03 14:32:02
+Generated: 2025-12-05 13:53:01
 
 ENTITY DATA STATISTICS
 ----------------------------------------------------------------------
-Total examples: 24496
+Total examples: 27979
 Files processed: 49
-Unique labels: 551
+Unique labels: 553
 
 Top 20 Entity Labels:
 (See entity_labels.txt for full list)

@@ -1,0 +1,80 @@
+# Threat Actors Catalog
+# Known Advanced Persistent Threat (APT) groups and threat actors
+
+APT29
+APT28
+Lazarus
+FIN7
+UNC2452
+Wizard Spider
+Ryuk
+Conti
+Maze
+REvil
+LockBit
+BlackMatter
+DarkSide
+DoppelPaymer
+Egregor
+Ragnarok
+Sodinokibi
+TrickBot
+Emotet
+QakBot
+IcedID
+BazarLoader
+Zloader
+Dridex
+Gozi
+Zeus
+SpyEye
+Citadel
+Cozy Bear
+Fancy Bear
+Lazarus Group
+FIN7
+UNC2452
+SolarWinds
+Wizard Spider
+TrickBot Group
+Conti Group
+Ryuk Group
+Maze Group
+REvil Group
+LockBit Group
+BlackMatter Group
+DarkSide Group
+DoppelPaymer Group
+Egregor Group
+Ragnarok Group
+Sodinokibi Group
+APT1
+APT3
+APT10
+APT12
+APT17
+APT18
+APT19
+APT20
+APT21
+APT30
+APT32
+APT33
+APT34
+APT35
+APT36
+APT37
+APT38
+APT39
+APT40
+APT41
+APT42
+APT43
+APT44
+APT45
+APT46
+APT47
+APT48
+APT49
+APT50
+

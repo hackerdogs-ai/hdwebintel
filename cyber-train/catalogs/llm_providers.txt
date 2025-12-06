@@ -1,0 +1,91 @@
+# LLM Providers Catalog
+# Companies and organizations providing LLM services
+
+OpenAI
+Anthropic
+Google
+Microsoft
+Meta
+Amazon
+Cohere
+AI21 Labs
+Hugging Face
+Stability AI
+Midjourney
+Jasper
+Copy.ai
+Writer
+Grammarly
+Notion AI
+Perplexity
+Character.AI
+Replicate
+Together AI
+Aleph Alpha
+Lightning AI
+Runway
+ElevenLabs
+Synthesia
+D-ID
+HeyGen
+Descript
+AssemblyAI
+Deepgram
+Rev.ai
+Speechify
+Murf
+Play.ht
+Lovo
+Resemble AI
+Respeecher
+WellSaid Labs
+Azure OpenAI
+AWS Bedrock
+Google Cloud AI
+Vertex AI
+GCP AI Platform
+IBM Watson
+Watson Assistant
+Watson Discovery
+Watson Natural Language Understanding
+Watson Tone Analyzer
+Watson Personality Insights
+Watson Language Translator
+Watson Speech to Text
+Watson Text to Speech
+Oracle Cloud AI
+Oracle Digital Assistant
+Salesforce Einstein
+Einstein GPT
+ServiceNow Now Intelligence
+Now Platform
+Workday AI
+Workday Prism Analytics
+SAP AI
+SAP Conversational AI
+SAP Leonardo
+Adobe Sensei
+Adobe Firefly
+Adobe Creative Cloud AI
+Canva AI
+Figma AI
+Sketch AI
+Framer AI
+Webflow AI
+Wix AI
+Squarespace AI
+Shopify AI
+Magento AI
+WooCommerce AI
+BigCommerce AI
+Squarespace AI
+Wix AI
+Webflow AI
+Framer AI
+Sketch AI
+Figma AI
+Canva AI
+Adobe Creative Cloud AI
+Adobe Firefly
+Adobe Sensei
+

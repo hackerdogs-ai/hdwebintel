@@ -85,6 +85,13 @@ def create_intent_config(output_path: Path, train_path: Path, dev_path: Path,
     with open(labels_path, 'r') as f:
         labels = [line.strip() for line in f if line.strip()]
     
+    # Backup existing config if it exists
+    if output_path.exists():
+        from datetime import datetime
+        backup_path = output_path.parent / f"{output_path.stem}_backup_{datetime.now().strftime('%Y%m%d_%H%M%S')}.cfg"
+        output_path.rename(backup_path)
+        print(f"📦 Backed up existing config to: {backup_path.name}")
+    
     # Create config using spaCy CLI
     # Note: textcat_multilabel is needed for multi-label classification
     # Use "efficiency" to avoid requiring large model (en_core_web_lg)
@@ -93,7 +100,8 @@ def create_intent_config(output_path: Path, train_path: Path, dev_path: Path,
         str(output_path),
         "--lang", "en",
         "--pipeline", "textcat_multilabel",  # Changed from textcat to textcat_multilabel
-        "--optimize", "efficiency"  # Changed: always use efficiency to avoid en_core_web_lg requirement
+        "--optimize", "efficiency",  # Changed: always use efficiency to avoid en_core_web_lg requirement
+        "--force"  # Force overwrite if file exists
     ]
     
     if not run_command(cmd, "Creating base Intent Classification config"):
@@ -104,7 +112,8 @@ def create_intent_config(output_path: Path, train_path: Path, dev_path: Path,
             str(output_path),
             "--lang", "en",
             "--pipeline", "textcat",
-            "--optimize", "efficiency" if not gpu else "accuracy"
+            "--optimize", "efficiency" if not gpu else "accuracy",
+            "--force"  # Force overwrite if file exists
         ]
         if not run_command(cmd, "Creating base Intent Classification config (fallback)"):
             return False

@@ -1,312 +1,207 @@
 #!/usr/bin/env python3
 """
-Add negative examples (true negatives) to training data.
-These are sentences with NO entities that help the model learn boundaries.
+Add negative examples (sentences with no entities) to help model learn boundaries.
+This helps reduce false positives by teaching the model what NOT to extract.
 """
 
 import json
+import random
 from pathlib import Path
-import argparse
-from typing import List, Dict
+from typing import List
+from collections import defaultdict
 
-# Negative examples - sentences with NO entities
-# These help the model learn what NOT to extract
-NEGATIVE_EXAMPLES = [
-    # Common phrases that should NOT have entities
-    "Can you help me with this?",
-    "I need to check something.",
-    "What is the status?",
-    "How do I do this?",
-    "Tell me more about it.",
-    "Is this safe to use?",
-    "Let me know if you need anything.",
-    "Thanks for your help.",
-    "I will get back to you.",
-    "Please review this document.",
+# Negative example templates (sentences with NO entities)
+NEGATIVE_TEMPLATES = [
+    # Common queries that shouldn't extract entities
+    "Can you help me with this security issue?",
+    "I need to investigate the problem and find a solution.",
+    "What should I do about this security concern?",
+    "How can I improve the security posture of my organization?",
+    "Please check if everything is working correctly.",
+    "I want to verify that the system is secure.",
+    "Let me know if there are any issues to address.",
+    "What is the best way to handle this situation?",
+    "I need assistance with security configuration.",
+    "Can you provide guidance on security best practices?",
+    "How do I implement proper security controls?",
+    "What are the recommended security procedures?",
+    "I need to understand the security requirements.",
+    "Please explain how to secure the system properly.",
+    "What steps should I take to improve security?",
+    "I want to ensure compliance with security standards.",
+    "How can I monitor security events effectively?",
+    "What tools are available for security analysis?",
+    "I need to review the security documentation.",
+    "Can you help me understand security policies?",
+    
+    # Common words that might be misidentified
+    "The security team needs to investigate and analyze the situation.",
+    "We should check and verify all security controls regularly.",
+    "The system requires monitoring and tracking of security events.",
+    "Security professionals need to detect and respond to threats quickly.",
+    "The organization must maintain and improve security posture continuously.",
+    "Security awareness training helps employees understand risks better.",
+    "The incident response process involves investigation and containment.",
+    "Security audits require thorough review and documentation of findings.",
+    "The compliance team ensures adherence to security regulations.",
+    "Security policies define acceptable use and access controls.",
+    
+    # Technical terms that aren't entities
+    "The application uses JavaScript for frontend development.",
+    "The system processes JSON data for API communication.",
+    "The security team implements CSRF protection mechanisms.",
+    "The network uses Base64 encoding for data transmission.",
+    "The application requires XML parsing for configuration files.",
+    "The system supports HTML rendering for user interfaces.",
+    "The security framework includes Python scripts for automation.",
+    "The monitoring system tracks relative performance metrics.",
+    "The analysis tool provides absolute measurements of system health.",
+    "The security process involves finding and extracting relevant information.",
+    
+    # Common phrases
+    "I need to check if the system is safe and secure.",
+    "The security team will investigate the issue thoroughly.",
+    "We should verify that all controls are working properly.",
+    "The organization needs to analyze the security posture regularly.",
+    "Security professionals must detect and respond to threats effectively.",
+    "The system requires monitoring and tracking of security events.",
+    "Security awareness helps employees understand risks and threats.",
+    "The incident response process involves investigation and documentation.",
+    "Security audits require review and validation of security controls.",
+    "The compliance team ensures adherence to security requirements.",
     
     # Questions without entities
-    "What should I do next?",
-    "How does this work?",
-    "Why is this happening?",
-    "When will this be ready?",
-    "Where can I find this?",
-    "Who should I contact?",
+    "What is the current security status?",
+    "How do I improve security posture?",
+    "What are the security requirements?",
+    "How can I verify security controls?",
+    "What steps should I take for security?",
+    "How do I implement security measures?",
+    "What are the best security practices?",
+    "How can I monitor security effectively?",
+    "What tools are available for security?",
+    "How do I ensure security compliance?",
     
-    # Casual conversation
-    "Hey, what's up?",
-    "That's interesting.",
-    "I see what you mean.",
-    "That makes sense.",
-    "Got it, thanks.",
+    # Commands without entities
+    "Please investigate the security issue.",
+    "Check the system security configuration.",
+    "Verify that all controls are working.",
+    "Review the security documentation carefully.",
+    "Analyze the security posture thoroughly.",
+    "Monitor security events continuously.",
+    "Track security metrics regularly.",
+    "Document security findings properly.",
+    "Report security incidents immediately.",
+    "Respond to security threats quickly.",
     
-    # Instructions without entities
-    "Follow the steps carefully.",
-    "Make sure to save your work.",
-    "Check the settings first.",
-    "Review the documentation.",
-    "Read the instructions.",
-    
-    # General statements
-    "This is important.",
-    "That looks good.",
-    "Everything seems fine.",
-    "Nothing to report.",
-    "All systems operational.",
-    
-    # Cybersecurity context (no entities)
-    "The system is secure.",
-    "All checks passed.",
-    "No issues detected.",
-    "Everything is working correctly.",
-    "The configuration looks good.",
-    "No vulnerabilities found.",
-    "Security measures are in place.",
-    "The audit was successful.",
-    
-    # OSINT context (no entities)
-    "The information is verified.",
-    "Sources are reliable.",
-    "The data is consistent.",
-    "No discrepancies found.",
-    "The analysis is complete.",
-    "All sources checked.",
-    "The report is ready.",
-    
-    # Technical context (no entities)
-    "The process completed successfully.",
-    "All tests passed.",
-    "The system is functioning normally.",
-    "No errors occurred.",
-    "The operation was successful.",
-    "Everything is configured correctly.",
-    
-    # Common false positive patterns (explicitly negative)
-    "I need to investigate this.",
-    "Can you check this for me?",
-    "Is this safe to use?",
-    "What's the status?",
-    "How do I proceed?",
-    "Tell me what you think.",
-    "Let me know if you need help.",
-    "Thanks for the information.",
-    "I will follow up on this.",
-    "Please keep me updated.",
-    
-    # Edge cases that should NOT be entities
-    "The word 'investigate' appears in the text.",
-    "The phrase 'check this' is common.",
-    "The term 'safe' is used frequently.",
-    "The word 'me' is a pronoun.",
-    "The phrase 'I need' is common.",
-    "The word 'hey' is informal.",
-    
-    # More cybersecurity/OSINT negative examples
-    "The security team reviewed the findings.",
-    "The investigation is ongoing.",
-    "The analysis revealed no issues.",
-    "The system is operating normally.",
-    "All security controls are active.",
-    "The monitoring is working correctly.",
-    "The alert was a false positive.",
-    "The scan completed without issues.",
-    "The report shows no anomalies.",
-    "The data is consistent across sources.",
-    
-    # More OSINT negative examples
-    "The source verification is complete.",
-    "The information was cross-referenced.",
-    "The analysis confirms the findings.",
-    "The data points are consistent.",
-    "The investigation found nothing suspicious.",
-    "The review process is standard.",
-    "The verification steps were followed.",
-    "The information is reliable.",
-    "The sources are credible.",
-    "The analysis methodology is sound.",
+    # Statements without entities
+    "The security system is functioning normally.",
+    "All security controls are properly configured.",
+    "The security team is monitoring the situation.",
+    "Security policies are being enforced correctly.",
+    "The security posture is improving gradually.",
+    "Security awareness training is ongoing.",
+    "The incident response process is effective.",
+    "Security audits are conducted regularly.",
+    "Compliance requirements are being met.",
+    "Security documentation is up to date.",
 ]
 
-# Add more examples by generating variations
-def generate_negative_variations():
-    """Generate more negative examples from templates."""
-    templates = [
-        "The {noun} is {adjective}.",
-        "All {noun} are {adjective}.",
-        "The {noun} was {verb}.",
-        "No {noun} were found.",
-        "The {noun} needs to be {verb}.",
-        "All {noun} are working correctly.",
-        "The {noun} is functioning normally.",
-        "No issues with the {noun}.",
-    ]
+# Additional negative examples for specific false positive patterns
+SPECIFIC_NEGATIVES = [
+    # TOOL false positives
+    "The application uses CSRF tokens for security protection.",
+    "JavaScript is used for frontend development in the application.",
+    "The system processes JSON data for API communication.",
+    "Base64 encoding is used for data transmission.",
+    "The security team implements XML parsing for configuration.",
+    "HTML rendering is used for user interface display.",
+    "Python scripts are used for automation tasks.",
+    "The analysis involves finding relevant information.",
+    "The system extracts data from various sources.",
+    "The process requires checking and verifying results.",
     
-    nouns = ["system", "process", "function", "feature", "component", "module", "service"]
-    adjectives = ["working", "operational", "functional", "active", "ready", "complete"]
-    verbs = ["completed", "finished", "done", "executed", "processed"]
+    # REPOSITORY false positives
+    "The API endpoint handles user requests properly.",
+    "The system processes log files for analysis.",
+    "The application uses configuration files for settings.",
+    "The security team reviews access logs regularly.",
+    "The system monitors application performance continuously.",
     
-    variations = []
-    for template in templates:
-        if "{noun}" in template and "{adjective}" in template:
-            for noun in nouns:
-                for adj in adjectives:
-                    variations.append(template.format(noun=noun, adjective=adj))
-        elif "{noun}" in template and "{verb}" in template:
-            for noun in nouns:
-                for verb in verbs:
-                    variations.append(template.format(noun=noun, verb=verb))
+    # DATE false positives
+    "The system processes files in the directory structure.",
+    "The application uses configuration paths for settings.",
+    "The security team reviews system logs for analysis.",
+    "The process involves checking file permissions.",
+    "The system tracks file access patterns.",
     
-    return variations
+    # DOMAIN/EMAIL false positives
+    "The security team reviews access patterns regularly.",
+    "The system monitors user activity continuously.",
+    "The application processes authentication requests.",
+    "The security controls verify user permissions.",
+    "The system tracks login attempts effectively.",
+]
 
-# Add generated variations
-NEGATIVE_EXAMPLES.extend(generate_negative_variations())
-
-
-def create_negative_examples_file(output_dir: Path, pillar_name: str = "all", count: int = None):
-    """
-    Create a JSONL file with negative examples.
+def add_negative_examples_to_file(file_path: Path, count: int):
+    """Add negative examples to a JSONL file."""
+    examples = []
     
-    Args:
-        output_dir: Directory to save the file
-        pillar_name: Name of the pillar (or "all" for general)
-        count: Number of examples to include (None = all)
-    """
-    examples = NEGATIVE_EXAMPLES[:count] if count else NEGATIVE_EXAMPLES
+    # Combine templates
+    all_templates = NEGATIVE_TEMPLATES + SPECIFIC_NEGATIVES
     
-    if pillar_name == "all":
-        output_file = output_dir / "negative_examples.jsonl"
-    else:
-        output_file = output_dir / f"{pillar_name}_negative_examples.jsonl"
+    # Select random templates
+    selected = random.sample(all_templates, min(count, len(all_templates)))
     
-    with open(output_file, 'w', encoding='utf-8') as f:
-        for text in examples:
-            data = {
-                "text": text,
-                "entities": []  # Explicitly empty - no entities
-            }
-            f.write(json.dumps(data, ensure_ascii=False) + '\n')
-    
-    return output_file, len(examples)
-
-
-def add_to_existing_file(jsonl_file: Path, count: int = 50):
-    """
-    Add negative examples to an existing JSONL file.
-    
-    Args:
-        jsonl_file: Path to existing JSONL file
-        count: Number of negative examples to add
-    """
-    examples = NEGATIVE_EXAMPLES[:count]
-    
-    # Read existing data
-    existing_data = []
-    if jsonl_file.exists():
-        with open(jsonl_file, 'r', encoding='utf-8') as f:
-            for line in f:
-                try:
-                    existing_data.append(json.loads(line))
-                except:
-                    continue
-    
-    # Add negative examples
-    for text in examples:
-        existing_data.append({
+    for text in selected:
+        examples.append({
             "text": text,
-            "entities": []
+            "entities": []  # No entities - this is a negative example
         })
     
-    # Write back
-    backup_file = jsonl_file.with_suffix('.jsonl.backup')
-    if not backup_file.exists():
-        import shutil
-        shutil.copy(jsonl_file, backup_file)
-    
-    with open(jsonl_file, 'w', encoding='utf-8') as f:
-        for item in existing_data:
-            f.write(json.dumps(item, ensure_ascii=False) + '\n')
+    if examples:
+        with open(file_path, 'a', encoding='utf-8') as f:
+            for example in examples:
+                f.write(json.dumps(example, ensure_ascii=False) + '\n')
     
     return len(examples)
 
-
 def main():
-    parser = argparse.ArgumentParser(
-        description="Add negative examples (true negatives) to training data"
-    )
-    parser.add_argument(
-        "--base-dir",
-        default="cyber-train/entities-intent",
-        help="Base directory containing JSONL files"
-    )
-    parser.add_argument(
-        "--pillar",
-        help="Specific pillar to add examples to (or 'all' for general)"
-    )
-    parser.add_argument(
-        "--count",
-        type=int,
-        default=200,
-        help="Number of negative examples to add (default: 200)"
-    )
-    parser.add_argument(
-        "--add-to-existing",
-        action="store_true",
-        help="Add negative examples to existing entity files (10% of each file)"
-    )
-    parser.add_argument(
-        "--create-separate",
-        action="store_true",
-        help="Create separate negative examples file"
-    )
+    base_dir = Path("entities-intent")
     
-    args = parser.parse_args()
+    print("="*80)
+    print("ADD NEGATIVE EXAMPLES")
+    print("="*80)
+    print("\nAdding sentences with NO entities to help model learn boundaries.")
+    print("This reduces false positives by teaching what NOT to extract.")
+    print()
     
-    base_dir = Path(args.base_dir)
+    # Target: 500-1000 negative examples (2-4% of training data)
+    target_total = 800
+    examples_per_file = 30  # Distribute across files
     
-    print("="*70)
-    print("ADDING NEGATIVE EXAMPLES (TRUE NEGATIVES)")
-    print("="*70)
+    total_added = 0
+    files_processed = 0
     
-    if args.create_separate:
-        # Create separate file
-        output_file, count = create_negative_examples_file(
-            base_dir, 
-            pillar_name=args.pillar or "all",
-            count=args.count
-        )
-        print(f"\n✅ Created negative examples file: {output_file}")
-        print(f"   Added {count} negative examples")
-        print(f"   These are sentences with NO entities")
-        print(f"   They help the model learn what NOT to extract")
-    
-    if args.add_to_existing:
-        # Add to existing files
-        if args.pillar:
-            entity_files = [base_dir / args.pillar / f"{args.pillar}_entities.jsonl"]
-        else:
-            entity_files = list(base_dir.rglob("*_entities.jsonl"))
-        
-        total_added = 0
-        for entity_file in entity_files:
+    # Process all entity files
+    for pillar_dir in sorted(base_dir.iterdir()):
+        if pillar_dir.is_dir() and not pillar_dir.name.startswith('.'):
+            entity_file = pillar_dir / f"{pillar_dir.name}_entities.jsonl"
             if entity_file.exists():
-                # Add 10% of file size as negative examples
-                with open(entity_file, 'r') as f:
-                    line_count = sum(1 for _ in f)
-                
-                examples_to_add = max(10, line_count // 10)  # 10% or at least 10
-                added = add_to_existing_file(entity_file, count=examples_to_add)
+                print(f"📝 Processing {pillar_dir.name}...")
+                added = add_negative_examples_to_file(entity_file, examples_per_file)
                 total_added += added
-                print(f"  Added {added} negative examples to {entity_file.name}")
-        
-        print(f"\n✅ Added {total_added} total negative examples to existing files")
+                files_processed += 1
+                print(f"   ✅ Added {added} negative examples")
     
-    if not args.create_separate and not args.add_to_existing:
-        print("\n💡 Usage:")
-        print("  --create-separate: Create separate negative examples file")
-        print("  --add-to-existing: Add negative examples to existing entity files")
-        print("\nExample:")
-        print("  python3 add_negative_examples.py --create-separate --count 200")
-        print("  python3 add_negative_examples.py --add-to-existing --pillar ai_security")
-
+    print("\n" + "="*80)
+    print("SUMMARY")
+    print("="*80)
+    print(f"Files processed: {files_processed}")
+    print(f"Total negative examples added: {total_added}")
+    print(f"Target: {target_total}")
+    print(f"Coverage: {total_added/target_total*100:.1f}%")
+    print("="*80)
 
 if __name__ == "__main__":
     main()
-

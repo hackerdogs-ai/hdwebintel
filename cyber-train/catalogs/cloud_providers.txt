@@ -1,0 +1,118 @@
+# Cloud Providers Catalog
+# Cloud service providers and platforms
+
+AWS
+Amazon Web Services
+Azure
+Microsoft Azure
+GCP
+Google Cloud Platform
+Oracle Cloud
+IBM Cloud
+Alibaba Cloud
+Tencent Cloud
+DigitalOcean
+Linode
+Vultr
+Heroku
+Netlify
+Vercel
+Cloudflare
+Fastly
+Akamai
+AWS EC2
+AWS S3
+AWS Lambda
+AWS RDS
+AWS DynamoDB
+AWS ECS
+AWS EKS
+AWS Fargate
+AWS Lightsail
+AWS Amplify
+AWS AppSync
+AWS API Gateway
+AWS CloudFront
+AWS Route 53
+AWS CloudFormation
+AWS CloudWatch
+AWS X-Ray
+AWS CodePipeline
+AWS CodeBuild
+AWS CodeDeploy
+AWS CodeCommit
+AWS CodeStar
+Azure Virtual Machines
+Azure App Service
+Azure Functions
+Azure Cosmos DB
+Azure SQL Database
+Azure Blob Storage
+Azure Files
+Azure Disk Storage
+Azure Kubernetes Service
+Azure Container Instances
+Azure Container Registry
+Azure DevOps
+Azure Monitor
+Azure Application Insights
+Azure Log Analytics
+Azure Security Center
+Azure Sentinel
+GCP Compute Engine
+GCP App Engine
+GCP Cloud Functions
+GCP Cloud Run
+GCP BigQuery
+GCP Cloud SQL
+GCP Cloud Spanner
+GCP Cloud Storage
+GCP Cloud Bigtable
+GCP Cloud Datastore
+GCP Kubernetes Engine
+GCP Cloud Build
+GCP Cloud Source Repositories
+GCP Cloud Monitoring
+GCP Cloud Logging
+GCP Cloud Trace
+GCP Cloud Debugger
+GCP Cloud Profiler
+GCP Cloud Error Reporting
+GCP Cloud Security Command Center
+Oracle Cloud Infrastructure
+OCI Compute
+OCI Object Storage
+OCI Database
+OCI Container Engine
+OCI Functions
+OCI API Gateway
+OCI Load Balancer
+OCI DNS
+OCI WAF
+OCI Identity and Access Management
+OCI Cloud Guard
+OCI Security Zones
+OCI Vault
+OCI Key Management
+IBM Cloud Virtual Servers
+IBM Cloud Kubernetes Service
+IBM Cloud Functions
+IBM Cloud Object Storage
+IBM Cloud Databases
+IBM Cloud App ID
+IBM Cloud Identity and Access Management
+IBM Cloud Security Advisor
+IBM Cloud Activity Tracker
+IBM Cloud Log Analysis
+IBM Cloud Monitoring
+Alibaba Cloud ECS
+Alibaba Cloud OSS
+Alibaba Cloud RDS
+Alibaba Cloud Container Service
+Alibaba Cloud Function Compute
+Tencent Cloud CVM
+Tencent Cloud COS
+Tencent Cloud CDB
+Tencent Cloud TKE
+Tencent Cloud SCF
+

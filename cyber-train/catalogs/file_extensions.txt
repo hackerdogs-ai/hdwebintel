@@ -1,0 +1,127 @@
+# File Extensions Catalog
+# These extensions indicate FILE_PATH entities, NOT domains
+# When these appear in text, they should be labeled as FILE_PATH, not DOMAIN
+
+# Executable and Script Files
+.exe
+.dll
+.bat
+.cmd
+.ps1
+.sh
+.py
+.js
+.vbs
+.scr
+.com
+.msi
+.deb
+.rpm
+.apk
+.ipa
+
+# Document Files
+.txt
+.log
+.csv
+.pdf
+.doc
+.docx
+.xls
+.xlsx
+.ppt
+.pptx
+.odt
+.ods
+.odp
+.rtf
+
+# Archive Files
+.zip
+.rar
+.tar
+.gz
+.7z
+.iso
+.bin
+.dat
+.cab
+
+# Database Files
+.db
+.sql
+.sqlite
+.mdb
+.accdb
+.pst
+.ost
+
+# Image Files
+.jpg
+.jpeg
+.png
+.gif
+.bmp
+.tiff
+.svg
+.ico
+.webp
+.img
+.psd
+.ai
+.eps
+.indd
+.sketch
+.fig
+.xd
+
+# Audio/Video Files
+.mp3
+.mp4
+.avi
+.mov
+.wmv
+.flv
+.mkv
+.wav
+.aac
+.ogg
+.webm
+
+# Configuration and Data Files
+.json
+.xml
+.yaml
+.yml
+.ini
+.conf
+.cfg
+.properties
+.env
+
+# Code Files
+.html
+.css
+.jsx
+.ts
+.tsx
+.java
+.cpp
+.c
+.h
+.cs
+.php
+.rb
+.go
+.rs
+.swift
+.kt
+
+# System Files
+.sys
+.drv
+.ocx
+.reg
+.lnk
+.url
+

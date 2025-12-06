@@ -2,7 +2,7 @@
 {"text": "Secure Coding Lab Tool trained developers on OWASP Top 10 and secure coding practices", "entities": []}
 {"text": "Snyk Open Source SCA tool scanned 4800 dependencies finding 22 critical vulnerabilities", "entities": [[0, 4, "TOOL"]]}
 {"text": "Evidence Packaging Tool compiled audit evidence for 150 applications meeting compliance requirements", "entities": [[52, 55, "COUNT"]]}
-{"text": "Code review of repository github.com/org/microservice found hardcoded secrets in source code. Finding requires immediate remediation.", "entities": [[26, 53, "DOMAIN"], [26, 53, "REPOSITORY"]]}
+{"text": "Code review of repository github.com/org/microservice found hardcoded secrets in source code. Finding requires immediate remediation.", "entities": [[26, 53, "DOMAIN"], [26, 53, "URL"]]}
 {"text": "SAST Tool scanned 90 repositories finding 14 critical and 36 high severity vulnerabilities", "entities": [[21, 33, "REPOSITORY_TYPE"]]}
 {"text": "Threat Modeling Tool performed STRIDE LINDDUN analysis mapping threats to MITRE ATT&CK", "entities": []}
 {"text": "OSS License Scanner detected GPL-3.0 AGPL-3.0 and incompatible licenses in CRM ERP apps", "entities": [[37, 45, "LICENSE_TYPE"], [63, 71, "APPLICATION_TYPE"]]}
@@ -28,7 +28,7 @@
 {"text": "Threat Modeling Specialist performed STRIDE analysis identifying spoofing and tampering threats", "entities": [[37, 43, "ANALYSIS_TYPE"]]}
 {"text": "Dependabot SCA tool created 45 pull requests for dependency updates", "entities": [[0, 10, "TOOL"], [36, 44, "DEPENDENCY_TYPE"]]}
 {"text": "RASP Tool detected 60 attacks in 20 monitored applications blocking 56 and missing 4", "entities": []}
-{"text": "Code review: Repository github.com/company/app, branch feature/auth-fix, commit a1b2c3d4 contains SQL injection vulnerability. Source code analysis required.", "entities": [[24, 47, "DOMAIN"], [24, 47, "REPOSITORY"], [55, 72, "REPOSITORY"], [80, 88, "COMMIT_HASH"], [112, 126, "VULNERABILITY_TYPE"]]}
+{"text": "Code review: Repository github.com/company/app, branch feature/auth-fix, commit a1b2c3d4 contains SQL injection vulnerability. Source code analysis required.", "entities": [[24, 47, "DOMAIN"], [24, 47, "URL"], [80, 88, "COMMIT_HASH"], [112, 126, "VULNERABILITY_TYPE"]]}
 {"text": "GitHub Issues tracked 45 security findings with assigned developers and due dates", "entities": [[22, 24, "COUNT"], [48, 56, "ROLE_TYPE"]]}
 {"text": "tfsec Infrastructure as Code scanner found 12 misconfigurations in Terraform templates", "entities": [[0, 5, "TOOL"]]}
 {"text": "Trivy container scanner identified 15 high severity vulnerabilities in Docker images", "entities": [[0, 5, "TOOL"], [6, 15, "SCANNER_TYPE"]]}
@@ -52,14 +52,14 @@
 {"text": "IDE Security Plugin provided just-in-time guidance to 120 developers fixing 280 findings", "entities": [[54, 57, "COUNT"], [58, 68, "FINDING_TYPE"]]}
 {"text": "Application Security Chaos Engineer ran fuzz tests on 25 applications discovering 4 unique bugs", "entities": [[45, 50, "TEST_TYPE"]]}
 {"text": "Contrast Security IAST tool provided runtime vulnerability detection during application execution", "entities": []}
-{"text": "Code review of repository github.com/org/microservice found hardcoded secrets in source code. Finding requires immediate remediation.", "entities": [[26, 53, "DOMAIN"], [26, 53, "REPOSITORY"]]}
+{"text": "Code review of repository github.com/org/microservice found hardcoded secrets in source code. Finding requires immediate remediation.", "entities": [[26, 53, "DOMAIN"], [26, 53, "URL"]]}
 {"text": "MITRE ATT&CK Mapper linked application threats to TA0001 and TA0008 techniques", "entities": [[0, 5, "FRAMEWORK"], [13, 19, "MAPPER_TYPE"], [50, 56, "TACTIC_TYPE"]]}
 {"text": "API Discovery Tool mapped 18 shadow APIs requiring security controls", "entities": []}
 {"text": "Secure coding training completion reached 88% for all software developers", "entities": []}
-{"text": "SAST scan found hardcoded secrets in repository github.com/org/service, branch main, commit e5f6g7h8. Source code file config.py requires immediate remediation.", "entities": [[48, 71, "DOMAIN"], [48, 71, "REPOSITORY"], [119, 128, "DOMAIN"]]}
+{"text": "SAST scan found hardcoded secrets in repository github.com/org/service, branch main, commit e5f6g7h8. Source code file config.py requires immediate remediation.", "entities": [[48, 71, "DOMAIN"], [48, 71, "URL"], [119, 128, "DOMAIN"]]}
 {"text": "SBOM Exchange Tool validated accuracy and completeness of 7 vendor SBOMs", "entities": []}
 {"text": "MITRE ATT&CK Mapper linked application threats to TA0001 and TA0008 techniques", "entities": [[0, 5, "FRAMEWORK"], [13, 19, "MAPPER_TYPE"], [50, 56, "TACTIC_TYPE"]]}
-{"text": "SAST scanner found SQL injection in source code file api/users.py. Repository github.com/company/app contains 12 critical findings.", "entities": [[53, 66, "REPOSITORY"], [53, 66, "DOMAIN"], [78, 100, "DOMAIN"], [78, 100, "REPOSITORY"]]}
+{"text": "SAST scanner found SQL injection in source code file api/users.py. Repository github.com/company/app contains 12 critical findings.", "entities": [[53, 66, "REPOSITORY"], [78, 100, "DOMAIN"], [78, 100, "URL"]]}
 {"text": "DAST Tool performed dynamic analysis on billing-service identifying SQL injection vulnerabilities", "entities": []}
 {"text": "Fuzzing Tool discovered 8 crashes and 4 unique bugs in 25 tested applications", "entities": [[40, 46, "BUG_TYPE"]]}
 {"text": "Open Source Risk Analyst audited 4800 dependencies for vulnerabilities and license risks", "entities": []}
@@ -74,7 +74,7 @@
 {"text": "SCA Dependency Scanner detected supply chain risks in 5 applications with vulnerable libraries", "entities": [[4, 14, "SCANNER_TYPE"]]}
 {"text": "IDE Security Plugin provided real-time feedback to 120 developers with 340 findings", "entities": []}
 {"text": "Clair vulnerability scanner detected 8 critical issues in container registry", "entities": [[0, 5, "TOOL"], [6, 19, "SCANNER_TYPE"]]}
-{"text": "SAST scanner found SQL injection in source code file api/users.py. Repository github.com/company/app contains 12 critical findings.", "entities": [[53, 66, "REPOSITORY"], [53, 66, "DOMAIN"], [78, 100, "DOMAIN"], [78, 100, "REPOSITORY"]]}
+{"text": "SAST scanner found SQL injection in source code file api/users.py. Repository github.com/company/app contains 12 critical findings.", "entities": [[53, 66, "REPOSITORY"], [78, 100, "DOMAIN"], [78, 100, "URL"]]}
 {"text": "AppSec Policy Generator created secure SDLC policy with bug bounty scope and SBOM requirements", "entities": [[0, 6, "TOOL"]]}
 {"text": "Metrics Dashboard Tool displayed chaos experiment results with 10 successes and 2 failures", "entities": [[33, 38, "EXPERIMENT_TYPE"], [39, 49, "RESULT_TYPE"]]}
 {"text": "API Security Gateway secured 135 APIs detecting 16 violations and blocking 14", "entities": [[29, 32, "COUNT"], [33, 37, "API_TYPE"]]}
@@ -83,7 +83,7 @@
 {"text": "Audit Checklist Tool validated AppSec program scoring 96% with 89% SLA compliance", "entities": [[63, 66, "COMPLIANCE_TYPE"]]}
 {"text": "Checkmarx SAST scanner identified SQL injection vulnerability in payment processing code", "entities": [[10, 14, "TOOL"]]}
 {"text": "DAST Tool performed dynamic analysis on billing-service identifying SQL injection vulnerabilities", "entities": []}
-{"text": "SAST scan found hardcoded secrets in repository github.com/org/service, branch main, commit e5f6g7h8. Source code file config.py requires immediate remediation.", "entities": [[48, 71, "DOMAIN"], [48, 71, "REPOSITORY"], [119, 128, "DOMAIN"]]}
+{"text": "SAST scan found hardcoded secrets in repository github.com/org/service, branch main, commit e5f6g7h8. Source code file config.py requires immediate remediation.", "entities": [[48, 71, "DOMAIN"], [48, 71, "URL"], [119, 128, "DOMAIN"]]}
 {"text": "IaC Scanner identified 9 critical misconfigurations in 260 Terraform and Kubernetes files", "entities": [[55, 58, "COUNT"]]}
 {"text": "Snyk Code SAST tool provided IDE feedback fixing 280 security findings in real-time", "entities": [[0, 4, "TOOL"]]}
 {"text": "SBOM Generator created software bill of materials for 12 vendor integrations", "entities": []}
@@ -126,7 +126,7 @@
 {"text": "Clair container scanner identified vulnerable packages in container images", "entities": [[0, 5, "TOOL"], [6, 15, "SCANNER_TYPE"], [35, 45, "CONTAINER_TYPE"]]}
 {"text": "Trivy container scanner identified 15 high severity vulnerabilities in Docker images", "entities": [[0, 5, "TOOL"], [6, 15, "SCANNER_TYPE"]]}
 {"text": "SBOM Generator created software bill of materials in SPDX format for 12 vendor integrations", "entities": []}
-{"text": "Code review: Repository github.com/company/app, branch feature/auth-fix, commit a1b2c3d4 contains SQL injection vulnerability. Source code analysis required.", "entities": [[24, 47, "DOMAIN"], [24, 47, "REPOSITORY"], [55, 72, "REPOSITORY"], [80, 88, "COMMIT_HASH"], [112, 126, "VULNERABILITY_TYPE"]]}
+{"text": "Code review: Repository github.com/company/app, branch feature/auth-fix, commit a1b2c3d4 contains SQL injection vulnerability. Source code analysis required.", "entities": [[24, 47, "DOMAIN"], [24, 47, "URL"], [80, 88, "COMMIT_HASH"], [112, 126, "VULNERABILITY_TYPE"]]}
 {"text": "GitHub Issues tracked 45 security findings with assigned developers and due dates", "entities": [[22, 24, "COUNT"], [48, 56, "ROLE_TYPE"]]}
 {"text": "Secure Coding Mentor reviewed 90 repositories providing contextual guidance for 83% remediation rate", "entities": []}
 {"text": "IriusRisk threat modeling platform mapped threats to MITRE ATT&CK framework", "entities": [[0, 9, "TOOL"]]}
@@ -205,7 +205,7 @@
 {"text": "RASP Tool operated runtime protection on 20 applications detecting 60 attacks and blocking 56", "entities": [[19, 26, "PROTECTION_TYPE"]]}
 {"text": "Evidence Packaging Tool compiled audit evidence for 150 applications meeting compliance requirements", "entities": [[52, 55, "COUNT"]]}
 {"text": "CI/CD Security Engineer automated SAST DAST SCA scans in 70 pipelines blocking 11 builds", "entities": [[0, 5, "REPOSITORY"]]}
-{"text": "Code review of repository github.com/org/microservice found hardcoded secrets in source code. Finding requires immediate remediation.", "entities": [[26, 53, "DOMAIN"], [26, 53, "REPOSITORY"]]}
+{"text": "Code review of repository github.com/org/microservice found hardcoded secrets in source code. Finding requires immediate remediation.", "entities": [[26, 53, "DOMAIN"], [26, 53, "URL"]]}
 {"text": "Bug Bounty Platform received 42 reports with 28 valid findings and 20 patched", "entities": []}
 {"text": "ML Adversarial Testing Tool tested 4 AI models with adversarial input and prompt injection", "entities": []}
 {"text": "API Security Gateway enforced OAuth2 authentication and schema validation on 135 APIs", "entities": [[56, 62, "API_TYPE"]]}
@@ -245,7 +245,7 @@
 {"text": "Application Security Posture Management ASPM platform aggregated SAST DAST SCA findings", "entities": []}
 {"text": "Fuzzing Tool ran API protocol and binary fuzzing on 25 applications finding 8 crashes", "entities": [[52, 54, "COUNT"]]}
 {"text": "GitHub Actions automated security scanning in CI/CD workflows", "entities": [[46, 51, "REPOSITORY"]]}
-{"text": "SAST scan found hardcoded secrets in repository github.com/org/service, branch main, commit e5f6g7h8. Source code file config.py requires immediate remediation.", "entities": [[48, 71, "DOMAIN"], [48, 71, "REPOSITORY"], [119, 128, "DOMAIN"]]}
+{"text": "SAST scan found hardcoded secrets in repository github.com/org/service, branch main, commit e5f6g7h8. Source code file config.py requires immediate remediation.", "entities": [[48, 71, "DOMAIN"], [48, 71, "URL"], [119, 128, "DOMAIN"]]}
 {"text": "Dependabot SCA tool created 45 pull requests for dependency updates", "entities": [[0, 10, "TOOL"], [36, 44, "DEPENDENCY_TYPE"]]}
 {"text": "SBOM Exchange Tool validated accuracy and completeness of 7 vendor SBOMs", "entities": []}
 {"text": "Vulnerability Tracker managed bug bounty findings with 20 patched and 8 in remediation", "entities": []}
@@ -291,12 +291,12 @@
 {"text": "IriusRisk threat modeling tool mapped threats to MITRE ATT&CK techniques", "entities": [[0, 9, "TOOL"]]}
 {"text": "Chaos Engineering Tool ran 12 experiments with 10 successes identifying database timeout failures", "entities": [[27, 29, "COUNT"], [30, 41, "EXPERIMENT_TYPE"], [47, 49, "COUNT"], [50, 59, "RESULT_TYPE"]]}
 {"text": "ML Adversarial Testing Tool found 3 vulnerabilities in 4 AI models requiring mitigation", "entities": []}
-{"text": "SAST scanner found SQL injection in source code file api/users.py. Repository github.com/company/app contains 12 critical findings.", "entities": [[53, 66, "REPOSITORY"], [53, 66, "DOMAIN"], [78, 100, "DOMAIN"], [78, 100, "REPOSITORY"]]}
+{"text": "SAST scanner found SQL injection in source code file api/users.py. Repository github.com/company/app contains 12 critical findings.", "entities": [[53, 66, "REPOSITORY"], [78, 100, "DOMAIN"], [78, 100, "URL"]]}
 {"text": "RASP Tool operated runtime protection on 20 applications detecting 60 attacks and blocking 56", "entities": [[19, 26, "PROTECTION_TYPE"]]}
 {"text": "Threat Intelligence integration mapped 32 CVEs to ERP and payment applications at risk", "entities": [[39, 41, "APPLICATION_TYPE"], [58, 65, "RISK_TYPE"]]}
 {"text": "Threat Modeling Tool performed STRIDE LINDDUN analysis mapping threats to MITRE ATT&CK", "entities": []}
 {"text": "Dependabot SCA tool created 45 pull requests for dependency updates", "entities": [[0, 10, "TOOL"], [36, 44, "DEPENDENCY_TYPE"]]}
-{"text": "Code review of repository github.com/org/microservice found hardcoded secrets in source code. Finding requires immediate remediation.", "entities": [[26, 53, "DOMAIN"], [26, 53, "REPOSITORY"]]}
+{"text": "Code review of repository github.com/org/microservice found hardcoded secrets in source code. Finding requires immediate remediation.", "entities": [[26, 53, "DOMAIN"], [26, 53, "URL"]]}
 {"text": "Clair container scanner identified vulnerable packages in container images", "entities": [[0, 5, "TOOL"], [6, 15, "SCANNER_TYPE"], [35, 45, "CONTAINER_TYPE"]]}
 {"text": "SCA Dependency Scanner detected supply chain risks in 5 applications with vulnerable libraries", "entities": [[4, 14, "SCANNER_TYPE"]]}
 {"text": "IaC Scanner identified 9 critical misconfigurations in Terraform CloudFormation and Kubernetes", "entities": []}
@@ -325,7 +325,7 @@
 {"text": "GitHub Actions automated security scanning in CI/CD workflows", "entities": [[46, 51, "REPOSITORY"]]}
 {"text": "GitHub Issues tracked 45 security findings with assigned developers and due dates", "entities": [[22, 24, "COUNT"], [48, 56, "ROLE_TYPE"]]}
 {"text": "Contrast Security IAST tool provided runtime vulnerability detection during application execution", "entities": []}
-{"text": "Code review: Repository github.com/company/app, branch feature/auth-fix, commit a1b2c3d4 contains SQL injection vulnerability. Source code analysis required.", "entities": [[24, 47, "DOMAIN"], [24, 47, "REPOSITORY"], [55, 72, "REPOSITORY"], [80, 88, "COMMIT_HASH"], [112, 126, "VULNERABILITY_TYPE"]]}
+{"text": "Code review: Repository github.com/company/app, branch feature/auth-fix, commit a1b2c3d4 contains SQL injection vulnerability. Source code analysis required.", "entities": [[24, 47, "DOMAIN"], [24, 47, "URL"], [80, 88, "COMMIT_HASH"], [112, 126, "VULNERABILITY_TYPE"]]}
 {"text": "Compliance Mapping Tool validated AppSec controls against GDPR PCI DSS and SOC2", "entities": []}
 {"text": "Mean time to remediate critical vulnerabilities improved to 6 days meeting SLA", "entities": [[0, 4, "METRIC_TYPE"], [5, 9, "METRIC_TYPE"]]}
 {"text": "CI/CD Security Plugin blocked 11 builds with critical vulnerabilities preventing production deployment", "entities": [[0, 5, "REPOSITORY"]]}
@@ -377,7 +377,7 @@
 {"text": "API Discovery Tool mapped 18 shadow APIs and 15 zombie APIs requiring security controls", "entities": []}
 {"text": "ML Adversarial Testing Tool found 3 vulnerabilities in 4 AI models requiring mitigation", "entities": []}
 {"text": "Threat Modeling Specialist performed STRIDE analysis identifying spoofing and tampering threats", "entities": [[37, 43, "ANALYSIS_TYPE"]]}
-{"text": "SAST scan found hardcoded secrets in repository github.com/org/service, branch main, commit e5f6g7h8. Source code file config.py requires immediate remediation.", "entities": [[48, 71, "DOMAIN"], [48, 71, "REPOSITORY"], [119, 128, "DOMAIN"]]}
+{"text": "SAST scan found hardcoded secrets in repository github.com/org/service, branch main, commit e5f6g7h8. Source code file config.py requires immediate remediation.", "entities": [[48, 71, "DOMAIN"], [48, 71, "URL"], [119, 128, "DOMAIN"]]}
 {"text": "Snyk Open Source SCA tool scanned 4800 dependencies finding 22 critical vulnerabilities", "entities": [[0, 4, "TOOL"]]}
 {"text": "IriusRisk threat modeling platform mapped threats to MITRE ATT&CK framework", "entities": [[0, 9, "TOOL"]]}
 {"text": "Chaos Engineering Tool ran 12 experiments killing dependencies and injecting attacks", "entities": [[27, 29, "COUNT"], [30, 41, "EXPERIMENT_TYPE"]]}
@@ -400,12 +400,12 @@
 {"text": "API Discovery Tool mapped 18 shadow APIs and 15 zombie APIs requiring security controls", "entities": []}
 {"text": "Secrets Detection Tool found 48 hardcoded secrets in repositories requiring immediate revocation", "entities": []}
 {"text": "Dependabot automated dependency updates patched 45 vulnerable packages", "entities": [[0, 10, "TOOL"], [40, 47, "COUNT"]]}
-{"text": "SAST scanner found SQL injection in source code file api/users.py. Repository github.com/company/app contains 12 critical findings.", "entities": [[53, 66, "REPOSITORY"], [53, 66, "DOMAIN"], [78, 100, "DOMAIN"], [78, 100, "REPOSITORY"]]}
+{"text": "SAST scanner found SQL injection in source code file api/users.py. Repository github.com/company/app contains 12 critical findings.", "entities": [[53, 66, "REPOSITORY"], [78, 100, "DOMAIN"], [78, 100, "URL"]]}
 {"text": "ML Adversarial Testing Tool found 3 vulnerabilities in 4 AI models requiring mitigation", "entities": []}
 {"text": "SIEM Tool integrated runtime security events from WAF RASP and API gateway", "entities": [[0, 4, "TOOL"], [10, 20, "TOOL"]]}
 {"text": "WAF Tool blocked 2500 OWASP Top 10 attacks with 1.3% false positive rate", "entities": []}
 {"text": "AppSec Policy Generator created secure SDLC policy with bug bounty scope and SBOM requirements", "entities": [[0, 6, "TOOL"]]}
-{"text": "Code review: Repository github.com/company/app, branch feature/auth-fix, commit a1b2c3d4 contains SQL injection vulnerability. Source code analysis required.", "entities": [[24, 47, "DOMAIN"], [24, 47, "REPOSITORY"], [55, 72, "REPOSITORY"], [80, 88, "COMMIT_HASH"], [112, 126, "VULNERABILITY_TYPE"]]}
+{"text": "Code review: Repository github.com/company/app, branch feature/auth-fix, commit a1b2c3d4 contains SQL injection vulnerability. Source code analysis required.", "entities": [[24, 47, "DOMAIN"], [24, 47, "URL"], [80, 88, "COMMIT_HASH"], [112, 126, "VULNERABILITY_TYPE"]]}
 {"text": "ML Adversarial Testing Tool found 3 vulnerabilities in 4 AI models requiring mitigation", "entities": []}
 {"text": "API Discovery Tool mapped 18 shadow APIs and 15 zombie APIs requiring security controls", "entities": []}
 {"text": "SBOM Exchange Tool validated accuracy and completeness of 7 vendor SBOMs", "entities": []}
@@ -462,3 +462,63 @@
 {"text": "GitHub repository https://github.com/threatintel/malware-samples contains exploits", "entities": [[18, 64, "REPOSITORY_URL"]]}
 {"text": "Analyze GitHub repo github.com/evilorg/malware for threats", "entities": [[20, 46, "REPOSITORY_URL"]]}
 {"text": "Malicious code in github.com/attacker/exploit repository", "entities": [[18, 45, "REPOSITORY_URL"]]}
+{"text": "What is the current security status?", "entities": []}
+{"text": "The application uses JavaScript for frontend development.", "entities": []}
+{"text": "The security team reviews access patterns regularly.", "entities": []}
+{"text": "Security audits require thorough review and documentation of findings.", "entities": []}
+{"text": "I need to investigate the problem and find a solution.", "entities": []}
+{"text": "The compliance team ensures adherence to security requirements.", "entities": []}
+{"text": "I need to understand the security requirements.", "entities": []}
+{"text": "Security professionals need to detect and respond to threats quickly.", "entities": []}
+{"text": "Security awareness training helps employees understand risks better.", "entities": []}
+{"text": "How do I implement proper security controls?", "entities": []}
+{"text": "How do I implement security measures?", "entities": []}
+{"text": "The application processes authentication requests.", "entities": []}
+{"text": "What steps should I take to improve security?", "entities": []}
+{"text": "The incident response process involves investigation and containment.", "entities": []}
+{"text": "The process requires checking and verifying results.", "entities": []}
+{"text": "I need to review the security documentation.", "entities": []}
+{"text": "The security process involves finding and extracting relevant information.", "entities": []}
+{"text": "The system processes JSON data for API communication.", "entities": []}
+{"text": "The compliance team ensures adherence to security regulations.", "entities": []}
+{"text": "What are the recommended security procedures?", "entities": []}
+{"text": "Please check if everything is working correctly.", "entities": []}
+{"text": "Please investigate the security issue.", "entities": []}
+{"text": "Security awareness helps employees understand risks and threats.", "entities": []}
+{"text": "The incident response process is effective.", "entities": []}
+{"text": "Security awareness training is ongoing.", "entities": []}
+{"text": "Let me know if there are any issues to address.", "entities": []}
+{"text": "The security team implements XML parsing for configuration.", "entities": []}
+{"text": "The system extracts data from various sources.", "entities": []}
+{"text": "The incident response process involves investigation and documentation.", "entities": []}
+{"text": "I want to verify that the system is secure.", "entities": []}
+{"text": "Threat intelligence found repository https://github.com/user/repo", "entities": [[37, 65, "GITHUB_REPO_URL"]]}
+{"text": "Security analysis of repository github.com/threat-actor/tools", "entities": [[32, 61, "GITHUB_REPO_URL"]]}
+{"text": "Malicious code hosted at https://github.com/user/repo", "entities": [[25, 53, "GITHUB_REPO_URL"]]}
+{"text": "Security analysis of repository https://github.com/user/repo", "entities": [[32, 60, "GITHUB_REPO_URL"]]}
+{"text": "Security analysis of repository https://github.com/org/malware", "entities": [[32, 62, "GITHUB_REPO_URL"]]}
+{"text": "Security analysis of repository github.com/user/repo", "entities": [[32, 52, "GITHUB_REPO_URL"]]}
+{"text": "Malicious code hosted at github.com/user/repo", "entities": [[25, 45, "GITHUB_REPO_URL"]]}
+{"text": "Malicious code hosted at github.com/threat-actor/tools", "entities": [[25, 54, "GITHUB_REPO_URL"]]}
+{"text": "OSINT investigation discovered github.com/user/repo", "entities": [[31, 51, "GITHUB_REPO_URL"]]}
+{"text": "Threat intelligence found repository github.com/threat-actor/tools", "entities": [[37, 66, "GITHUB_REPO_URL"]]}
+{"text": "Malicious code hosted at https://github.com/org/malware", "entities": [[25, 55, "GITHUB_REPO_URL"]]}
+{"text": "Threat intelligence found repository github.com/user/repo", "entities": [[37, 57, "GITHUB_REPO_URL"]]}
+{"text": "OSINT investigation discovered https://github.com/org/malware", "entities": [[31, 61, "GITHUB_REPO_URL"]]}
+{"text": "OSINT investigation discovered https://github.com/user/repo", "entities": [[31, 59, "GITHUB_REPO_URL"]]}
+{"text": "Threat intelligence found repository https://github.com/org/malware", "entities": [[37, 67, "GITHUB_REPO_URL"]]}
+{"text": "OSINT investigation discovered github.com/threat-actor/tools", "entities": [[31, 60, "GITHUB_REPO_URL"]]}
+{"text": "The threat intelligence investigation identified GitHub repository https://github.com/user/repo as hosting malicious code that was being used in active attack campaigns. The security team discovered that the repository contained exploit code, malware samples, and tools designed to compromise systems and exfiltrate data. The security analysts worked with GitHub's security team to have the repository taken down and prevent further distribution of the malicious code.", "entities": [[67, 95, "GITHUB_REPO_URL"]]}
+{"text": "The security analysis team conducted a comprehensive security review of GitHub repository github.com/threat-actor/tools to identify potential security vulnerabilities and malicious code. The analysis revealed that the repository contained multiple security issues including hardcoded credentials, vulnerable dependencies, and code that could be used for malicious purposes. The security team documented their findings and recommended security improvements to the repository maintainers.", "entities": [[90, 119, "GITHUB_REPO_URL"]]}
+{"text": "The threat intelligence team discovered that threat actors were using GitHub repository github.com/user/repo to host malicious code and share attack tools with other members of their group. The security analysts reviewed the repository contents and discovered that it contained multiple malware samples, exploit code, and detailed instructions for conducting cyber attacks. The security team reported the repository to GitHub's security team and worked with them to have the malicious content removed.", "entities": [[88, 108, "GITHUB_REPO_URL"]]}
+{"text": "The OSINT investigation team discovered GitHub repository github.com/threat-actor/tools during their analysis of threat actor infrastructure. The security researchers found that the repository contained source code for custom malware variants and tools used in previous attack campaigns. The security team analyzed the code to understand the threat actors' capabilities and developed countermeasures to detect and prevent attacks using these tools.", "entities": [[58, 87, "GITHUB_REPO_URL"]]}
+{"text": "The threat intelligence investigation identified GitHub repository github.com/user/repo as hosting malicious code that was being used in active attack campaigns. The security team discovered that the repository contained exploit code, malware samples, and tools designed to compromise systems and exfiltrate data. The security analysts worked with GitHub's security team to have the repository taken down and prevent further distribution of the malicious code.", "entities": [[67, 87, "GITHUB_REPO_URL"]]}
+{"text": "The threat intelligence team discovered that threat actors were using GitHub repository https://github.com/org/malware to host malicious code and share attack tools with other members of their group. The security analysts reviewed the repository contents and discovered that it contained multiple malware samples, exploit code, and detailed instructions for conducting cyber attacks. The security team reported the repository to GitHub's security team and worked with them to have the malicious content removed.", "entities": [[88, 118, "GITHUB_REPO_URL"]]}
+{"text": "The threat intelligence team discovered that threat actors were using GitHub repository https://github.com/user/repo to host malicious code and share attack tools with other members of their group. The security analysts reviewed the repository contents and discovered that it contained multiple malware samples, exploit code, and detailed instructions for conducting cyber attacks. The security team reported the repository to GitHub's security team and worked with them to have the malicious content removed.", "entities": [[88, 116, "GITHUB_REPO_URL"]]}
+{"text": "The threat intelligence investigation identified GitHub repository github.com/threat-actor/tools as hosting malicious code that was being used in active attack campaigns. The security team discovered that the repository contained exploit code, malware samples, and tools designed to compromise systems and exfiltrate data. The security analysts worked with GitHub's security team to have the repository taken down and prevent further distribution of the malicious code.", "entities": [[67, 96, "GITHUB_REPO_URL"]]}
+{"text": "The security analysis team conducted a comprehensive security review of GitHub repository https://github.com/user/repo to identify potential security vulnerabilities and malicious code. The analysis revealed that the repository contained multiple security issues including hardcoded credentials, vulnerable dependencies, and code that could be used for malicious purposes. The security team documented their findings and recommended security improvements to the repository maintainers.", "entities": [[90, 118, "GITHUB_REPO_URL"]]}
+{"text": "The threat intelligence investigation identified GitHub repository https://github.com/org/malware as hosting malicious code that was being used in active attack campaigns. The security team discovered that the repository contained exploit code, malware samples, and tools designed to compromise systems and exfiltrate data. The security analysts worked with GitHub's security team to have the repository taken down and prevent further distribution of the malicious code.", "entities": [[67, 97, "GITHUB_REPO_URL"]]}
+{"text": "The security analysis team conducted a comprehensive security review of GitHub repository https://github.com/org/malware to identify potential security vulnerabilities and malicious code. The analysis revealed that the repository contained multiple security issues including hardcoded credentials, vulnerable dependencies, and code that could be used for malicious purposes. The security team documented their findings and recommended security improvements to the repository maintainers.", "entities": [[90, 120, "GITHUB_REPO_URL"]]}
+{"text": "The security analysis team conducted a comprehensive security review of GitHub repository github.com/user/repo to identify potential security vulnerabilities and malicious code. The analysis revealed that the repository contained multiple security issues including hardcoded credentials, vulnerable dependencies, and code that could be used for malicious purposes. The security team documented their findings and recommended security improvements to the repository maintainers.", "entities": [[90, 110, "GITHUB_REPO_URL"]]}
+{"text": "The OSINT investigation team discovered GitHub repository https://github.com/user/repo during their analysis of threat actor infrastructure. The security researchers found that the repository contained source code for custom malware variants and tools used in previous attack campaigns. The security team analyzed the code to understand the threat actors' capabilities and developed countermeasures to detect and prevent attacks using these tools.", "entities": [[58, 86, "GITHUB_REPO_URL"]]}
+{"text": "The threat intelligence team discovered that threat actors were using GitHub repository github.com/threat-actor/tools to host malicious code and share attack tools with other members of their group. The security analysts reviewed the repository contents and discovered that it contained multiple malware samples, exploit code, and detailed instructions for conducting cyber attacks. The security team reported the repository to GitHub's security team and worked with them to have the malicious content removed.", "entities": [[88, 117, "GITHUB_REPO_URL"]]}

@@ -1,0 +1,136 @@
+{"text": "Vendor Risk Policy Generator created policy with critical and non-critical tiers requiring SOC2 MFA", "entities": []}
+{"text": "Data Privacy Assessment Tool validated vendor data storage finding non-compliant EU data in US", "entities": []}
+{"text": "Vendor incident response managed supply chain breach isolating integrations and notifying stakeholders", "entities": []}
+{"text": "Data Privacy Assessment Tool validated vendor data storage finding non-compliant EU data in US", "entities": []}
+{"text": "Supply Chain Risk Tool mapped 4th-party dependencies identifying AWS and PaymentAPI risks", "entities": [[30, 39, "SUPPLY_TYPE"], [40, 52, "CHAIN_TYPE"]]}
+{"text": "AI Vendor Risk Tool assessed AI SaaS for governance training data usage and bias controls", "entities": [[66, 71, "AI_MODEL_TYPE"]]}
+{"text": "SLA Compliance Tool validated breach notification SLA less than 24 hours with 90% score", "entities": [[54, 58, "SLA_TYPE"], [64, 66, "COUNT"], [67, 72, "TIME_UNIT"], [78, 81, "METRIC_TYPE"]]}
+{"text": "SBOM Analyzer checked 500 dependencies identifying 12 critical vulnerabilities requiring remediation", "entities": [[26, 38, "ANALYZER_TYPE"]]}
+{"text": "BitSight security ratings platform monitored 300 vendors with continuous risk scoring", "entities": [[0, 8, "TOOL"]]}
+{"text": "SaaS sprawl reduced to 40 shadow IT apps from 120 requiring remediation", "entities": [[0, 4, "APPLICATION_TYPE"], [5, 11, "SPRAWL_TYPE"]]}
+{"text": "Regulatory Reporting Tool automated reporting of high-risk vendor issues to regulators", "entities": []}
+{"text": "Regulatory Reporting Tool automated reporting of high-risk vendor issues to regulators", "entities": []}
+{"text": "Vendor financial risk assessment evaluated credit score B with medium financial risk", "entities": [[22, 32, "RISK_TYPE"], [70, 79, "FINANCIAL_TYPE"], [80, 84, "RISK_TYPE"]]}
+{"text": "Vendor onboarding assessment achieved 85% average score with 20 vendors compliant", "entities": [[42, 49, "METRIC_TYPE"]]}
+{"text": "SecurityScorecard vendor risk platform assessed 250 vendors with automated monitoring", "entities": [[18, 24, "VENDOR_TYPE"], [25, 29, "RISK_TYPE"]]}
+{"text": "Vendor incident response managed supply chain breach isolating integrations and notifying stakeholders", "entities": []}
+{"text": "SecurityScorecard vendor risk platform assessed 250 vendors with automated monitoring", "entities": [[18, 24, "VENDOR_TYPE"], [25, 29, "RISK_TYPE"]]}
+{"text": "Vendor threat simulation tested breach scenarios measuring response readiness", "entities": [[14, 24, "THREAT_TYPE"], [39, 48, "BREACH_TYPE"]]}
+{"text": "Vendor Risk Policy Generator created policy with critical and non-critical tiers requiring SOC2 MFA", "entities": []}
+{"text": "UpGuard vendor risk management platform tracked 200 vendors with SBOM analysis", "entities": [[0, 7, "TOOL"], [8, 14, "VENDOR_TYPE"], [15, 19, "RISK_TYPE"], [48, 51, "COUNT"], [52, 59, "VENDOR_TYPE"]]}
+{"text": "SaaS Security Posture Tool monitored vendor SaaS usage detecting OAuth misconfiguration", "entities": [[0, 4, "APPLICATION_TYPE"], [14, 21, "POSTURE_TYPE"], [44, 48, "APPLICATION_TYPE"], [49, 54, "USAGE_TYPE"], [65, 70, "DETECTION_TYPE"]]}
+{"text": "SecurityScorecard vendor risk platform assessed 250 vendors with automated monitoring", "entities": [[18, 24, "VENDOR_TYPE"], [25, 29, "RISK_TYPE"]]}
+{"text": "Vendor incident response managed supply chain breach isolating integrations and notifying stakeholders", "entities": []}
+{"text": "Vendor risk management false positive rate reduced to 1.5% improving assessment accuracy", "entities": [[69, 79, "METRIC_TYPE"]]}
+{"text": "SBOM Analyzer checked 500 dependencies identifying 12 critical vulnerabilities requiring remediation", "entities": [[26, 38, "ANALYZER_TYPE"]]}
+{"text": "SLA Compliance Tool validated breach notification SLA less than 24 hours with 90% score", "entities": [[54, 58, "SLA_TYPE"], [64, 66, "COUNT"], [67, 72, "TIME_UNIT"], [78, 81, "METRIC_TYPE"]]}
+{"text": "Contract Review Tool tracked contract renewals breach clauses and offboarding obligations", "entities": [[54, 61, "CONTRACT_TYPE"]]}
+{"text": "Threat Intelligence Tool correlated vendor domains with dark web APT activity linking TA505", "entities": []}
+{"text": "BitSight security ratings platform monitored 300 vendors with continuous risk scoring", "entities": [[0, 8, "TOOL"]]}
+{"text": "Vendor threat simulation tested breach scenarios measuring response readiness", "entities": [[14, 24, "THREAT_TYPE"], [39, 48, "BREACH_TYPE"]]}
+{"text": "Security Ratings Tool evaluated vendor security posture with B rating detecting breach alerts", "entities": []}
+{"text": "Regulatory Reporting Tool automated reporting of high-risk vendor issues to regulators", "entities": []}
+{"text": "Vendor Questionnaire Tool assessed Acme SaaS with score 85 identifying SSO and MFA gaps", "entities": []}
+{"text": "Vendor audit compliance reached 92% with 90% SLA adherence", "entities": []}
+{"text": "Vendor Risk Policy Generator created policy with critical and non-critical tiers requiring SOC2 MFA", "entities": []}
+{"text": "UpGuard vendor risk management platform tracked 200 vendors with SBOM analysis", "entities": [[0, 7, "TOOL"], [8, 14, "VENDOR_TYPE"], [15, 19, "RISK_TYPE"], [48, 51, "COUNT"], [52, 59, "VENDOR_TYPE"]]}
+{"text": "Integration Drift Detector identified OAuth scope added requiring rollback", "entities": [[38, 43, "DRIFT_TYPE"], [66, 74, "SCOPE_TYPE"]]}
+{"text": "Contract Review Tool tracked contract renewals breach clauses and offboarding obligations", "entities": [[54, 61, "CONTRACT_TYPE"]]}
+{"text": "Integration Drift Detector identified OAuth scope added requiring rollback", "entities": [[38, 43, "DRIFT_TYPE"], [66, 74, "SCOPE_TYPE"]]}
+{"text": "Vendor risk management training completion reached 90% for all vendor analysts", "entities": [[51, 54, "METRIC_TYPE"], [63, 69, "VENDOR_TYPE"], [70, 78, "ROLE_TYPE"]]}
+{"text": "Vendor Questionnaire Tool assessed Acme SaaS with score 85 identifying SSO and MFA gaps", "entities": []}
+{"text": "CASB Cloud Access Security Broker discovered 120 SaaS apps with 40 shadow IT requiring remediation", "entities": [[0, 4, "TOOL"]]}
+{"text": "SaaS Security Posture Tool monitored vendor SaaS usage detecting OAuth misconfiguration", "entities": [[0, 4, "APPLICATION_TYPE"], [14, 21, "POSTURE_TYPE"], [44, 48, "APPLICATION_TYPE"], [49, 54, "USAGE_TYPE"], [65, 70, "DETECTION_TYPE"]]}
+{"text": "Vendor continuous monitoring detected 3 breaches with 8 high-risk vendors flagged", "entities": []}
+{"text": "AI Vendor Risk Tool assessed AI SaaS for governance training data usage and bias controls", "entities": [[66, 71, "AI_MODEL_TYPE"]]}
+{"text": "Integration Drift Detector identified OAuth scope added requiring rollback", "entities": [[38, 43, "DRIFT_TYPE"], [66, 74, "SCOPE_TYPE"]]}
+{"text": "Regulatory Reporting Tool automated reporting of high-risk vendor issues to regulators", "entities": []}
+{"text": "CASB Cloud Access Security Broker discovered 120 SaaS apps with 40 shadow IT requiring remediation", "entities": [[0, 4, "TOOL"]]}
+{"text": "Vendor financial risk assessment evaluated credit score B with medium financial risk", "entities": [[22, 32, "RISK_TYPE"], [70, 79, "FINANCIAL_TYPE"], [80, 84, "RISK_TYPE"]]}
+{"text": "BitSight security ratings platform monitored 300 vendors with continuous risk scoring", "entities": [[0, 8, "TOOL"]]}
+{"text": "Third-Party Risk Strategist defined vendor risk management strategy with onboarding and monitoring", "entities": []}
+{"text": "Vendor continuous monitoring detected 3 breaches with 8 high-risk vendors flagged", "entities": []}
+{"text": "Data Privacy Assessment Tool validated vendor data storage finding non-compliant EU data in US", "entities": []}
+{"text": "Vendor Questionnaire Tool assessed Acme SaaS with score 85 identifying SSO and MFA gaps", "entities": []}
+{"text": "Vendor audit compliance reached 92% with 90% SLA adherence", "entities": []}
+{"text": "Vendor risk management coverage improved to 92% with 300 vendors tracked", "entities": []}
+{"text": "Security Ratings Tool evaluated vendor security posture with B rating detecting breach alerts", "entities": []}
+{"text": "Vendor risk management coverage improved to 92% with 300 vendors tracked", "entities": []}
+{"text": "Vendor Risk Policy Generator created policy with critical and non-critical tiers requiring SOC2 MFA", "entities": []}
+{"text": "Vendor continuous monitoring detected 3 breaches with 8 high-risk vendors flagged", "entities": []}
+{"text": "Vendor risk management false positive rate reduced to 1.5% improving assessment accuracy", "entities": [[69, 79, "METRIC_TYPE"]]}
+{"text": "SBOM Analyzer checked 500 dependencies identifying 12 critical vulnerabilities requiring remediation", "entities": [[26, 38, "ANALYZER_TYPE"]]}
+{"text": "Contract Review Tool tracked contract renewals breach clauses and offboarding obligations", "entities": [[54, 61, "CONTRACT_TYPE"]]}
+{"text": "Vendor audit compliance reached 92% with 90% SLA adherence", "entities": []}
+{"text": "Vendor risk management training completion reached 90% for all vendor analysts", "entities": [[51, 54, "METRIC_TYPE"], [63, 69, "VENDOR_TYPE"], [70, 78, "ROLE_TYPE"]]}
+{"text": "Third-Party Risk Strategist defined vendor risk management strategy with onboarding and monitoring", "entities": []}
+{"text": "SaaS sprawl reduced to 40 shadow IT apps from 120 requiring remediation", "entities": [[0, 4, "APPLICATION_TYPE"], [5, 11, "SPRAWL_TYPE"]]}
+{"text": "UpGuard vendor risk management platform tracked 200 vendors with SBOM analysis", "entities": [[0, 7, "TOOL"], [8, 14, "VENDOR_TYPE"], [15, 19, "RISK_TYPE"], [48, 51, "COUNT"], [52, 59, "VENDOR_TYPE"]]}
+{"text": "SaaS Discovery Tool identified unauthorized SaaS adoption flagging shadow IT", "entities": [[44, 48, "TOOL"]]}
+{"text": "Vendor risk management training completion reached 90% for all vendor analysts", "entities": [[51, 54, "METRIC_TYPE"], [63, 69, "VENDOR_TYPE"], [70, 78, "ROLE_TYPE"]]}
+{"text": "Vendor onboarding assessment achieved 85% average score with 20 vendors compliant", "entities": [[42, 49, "METRIC_TYPE"]]}
+{"text": "Vendor threat simulation tested breach scenarios measuring response readiness", "entities": [[14, 24, "THREAT_TYPE"], [39, 48, "BREACH_TYPE"]]}
+{"text": "API Security Scanner detected unencrypted API and excessive OAuth scopes in vendor integration", "entities": [[50, 59, "DETECTION_TYPE"], [76, 82, "PROTOCOL_TYPE"]]}
+{"text": "Integration Drift Detector identified OAuth scope added requiring rollback", "entities": [[38, 43, "DRIFT_TYPE"], [66, 74, "SCOPE_TYPE"]]}
+{"text": "SaaS Discovery Tool identified unauthorized SaaS adoption flagging shadow IT", "entities": [[44, 48, "TOOL"]]}
+{"text": "Vendor risk management coverage improved to 92% with 300 vendors tracked", "entities": []}
+{"text": "UpGuard vendor risk management platform tracked 200 vendors with SBOM analysis", "entities": [[0, 7, "TOOL"], [8, 14, "VENDOR_TYPE"], [15, 19, "RISK_TYPE"], [48, 51, "COUNT"], [52, 59, "VENDOR_TYPE"]]}
+{"text": "Threat Intelligence Tool correlated vendor domains with dark web APT activity linking TA505", "entities": []}
+{"text": "SaaS Security Posture Tool monitored vendor SaaS usage detecting OAuth misconfiguration", "entities": [[0, 4, "APPLICATION_TYPE"], [14, 21, "POSTURE_TYPE"], [44, 48, "APPLICATION_TYPE"], [49, 54, "USAGE_TYPE"], [65, 70, "DETECTION_TYPE"]]}
+{"text": "SBOM Analyzer checked 500 dependencies identifying 12 critical vulnerabilities requiring remediation", "entities": [[26, 38, "ANALYZER_TYPE"]]}
+{"text": "Vendor risk management false positive rate reduced to 1.5% improving assessment accuracy", "entities": [[69, 79, "METRIC_TYPE"]]}
+{"text": "CASB Cloud Access Security Broker discovered 120 SaaS apps with 40 shadow IT requiring remediation", "entities": [[0, 4, "TOOL"]]}
+{"text": "API Security Scanner detected unencrypted API and excessive OAuth scopes in vendor integration", "entities": [[50, 59, "DETECTION_TYPE"], [76, 82, "PROTOCOL_TYPE"]]}
+{"text": "Vendor risk scoring calculated 72% risk score for critical tier vendors", "entities": [[35, 39, "METRIC_TYPE"]]}
+{"text": "Vendor financial risk assessment evaluated credit score B with medium financial risk", "entities": [[22, 32, "RISK_TYPE"], [70, 79, "FINANCIAL_TYPE"], [80, 84, "RISK_TYPE"]]}
+{"text": "SaaS sprawl reduced to 40 shadow IT apps from 120 requiring remediation", "entities": [[0, 4, "APPLICATION_TYPE"], [5, 11, "SPRAWL_TYPE"]]}
+{"text": "Vendor risk scoring calculated 72% risk score for critical tier vendors", "entities": [[35, 39, "METRIC_TYPE"]]}
+{"text": "SaaS Discovery Tool identified unauthorized SaaS adoption flagging shadow IT", "entities": [[44, 48, "TOOL"]]}
+{"text": "Vendor incident response managed supply chain breach isolating integrations and notifying stakeholders", "entities": []}
+{"text": "Supply Chain Risk Tool mapped 4th-party dependencies identifying AWS and PaymentAPI risks", "entities": [[30, 39, "SUPPLY_TYPE"], [40, 52, "CHAIN_TYPE"]]}
+{"text": "Security Ratings Tool evaluated vendor security posture with B rating detecting breach alerts", "entities": []}
+{"text": "SaaS Discovery Tool identified unauthorized SaaS adoption flagging shadow IT", "entities": [[44, 48, "TOOL"]]}
+{"text": "Threat Intelligence Tool correlated vendor domains with dark web APT activity linking TA505", "entities": []}
+{"text": "Vendor audit compliance reached 92% with 90% SLA adherence", "entities": []}
+{"text": "Supply Chain Risk Tool mapped 4th-party dependencies identifying AWS and PaymentAPI risks", "entities": [[30, 39, "SUPPLY_TYPE"], [40, 52, "CHAIN_TYPE"]]}
+{"text": "Third-Party Risk Strategist defined vendor risk management strategy with onboarding and monitoring", "entities": []}
+{"text": "Vendor risk scoring calculated 72% risk score for critical tier vendors", "entities": [[35, 39, "METRIC_TYPE"]]}
+{"text": "Supply Chain Risk Tool mapped 4th-party dependencies identifying AWS and PaymentAPI risks", "entities": [[30, 39, "SUPPLY_TYPE"], [40, 52, "CHAIN_TYPE"]]}
+{"text": "API Security Scanner detected unencrypted API and excessive OAuth scopes in vendor integration", "entities": [[50, 59, "DETECTION_TYPE"], [76, 82, "PROTOCOL_TYPE"]]}
+{"text": "Third-Party Risk Strategist defined vendor risk management strategy with onboarding and monitoring", "entities": []}
+{"text": "SecurityScorecard vendor risk platform assessed 250 vendors with automated monitoring", "entities": [[18, 24, "VENDOR_TYPE"], [25, 29, "RISK_TYPE"]]}
+{"text": "Contract Review Tool tracked contract renewals breach clauses and offboarding obligations", "entities": [[54, 61, "CONTRACT_TYPE"]]}
+{"text": "Vendor onboarding assessment achieved 85% average score with 20 vendors compliant", "entities": [[42, 49, "METRIC_TYPE"]]}
+{"text": "AI Vendor Risk Tool assessed AI SaaS for governance training data usage and bias controls", "entities": [[66, 71, "AI_MODEL_TYPE"]]}
+{"text": "SaaS Security Posture Tool monitored vendor SaaS usage detecting OAuth misconfiguration", "entities": [[0, 4, "APPLICATION_TYPE"], [14, 21, "POSTURE_TYPE"], [44, 48, "APPLICATION_TYPE"], [49, 54, "USAGE_TYPE"], [65, 70, "DETECTION_TYPE"]]}
+{"text": "Vendor risk management coverage improved to 92% with 300 vendors tracked", "entities": []}
+{"text": "Vendor risk management training completion reached 90% for all vendor analysts", "entities": [[51, 54, "METRIC_TYPE"], [63, 69, "VENDOR_TYPE"], [70, 78, "ROLE_TYPE"]]}
+{"text": "Vendor threat simulation tested breach scenarios measuring response readiness", "entities": [[14, 24, "THREAT_TYPE"], [39, 48, "BREACH_TYPE"]]}
+{"text": "SLA Compliance Tool validated breach notification SLA less than 24 hours with 90% score", "entities": [[54, 58, "SLA_TYPE"], [64, 66, "COUNT"], [67, 72, "TIME_UNIT"], [78, 81, "METRIC_TYPE"]]}
+{"text": "Data Privacy Assessment Tool validated vendor data storage finding non-compliant EU data in US", "entities": []}
+{"text": "Vendor continuous monitoring detected 3 breaches with 8 high-risk vendors flagged", "entities": []}
+{"text": "Vendor financial risk assessment evaluated credit score B with medium financial risk", "entities": [[22, 32, "RISK_TYPE"], [70, 79, "FINANCIAL_TYPE"], [80, 84, "RISK_TYPE"]]}
+{"text": "Vendor risk scoring calculated 72% risk score for critical tier vendors", "entities": [[35, 39, "METRIC_TYPE"]]}
+{"text": "Vendor Questionnaire Tool assessed Acme SaaS with score 85 identifying SSO and MFA gaps", "entities": []}
+{"text": "API Security Scanner detected unencrypted API and excessive OAuth scopes in vendor integration", "entities": [[50, 59, "DETECTION_TYPE"], [76, 82, "PROTOCOL_TYPE"]]}
+{"text": "Security Ratings Tool evaluated vendor security posture with B rating detecting breach alerts", "entities": []}
+{"text": "Vendor onboarding assessment achieved 85% average score with 20 vendors compliant", "entities": [[42, 49, "METRIC_TYPE"]]}
+{"text": "CASB Cloud Access Security Broker discovered 120 SaaS apps with 40 shadow IT requiring remediation", "entities": [[0, 4, "TOOL"]]}
+{"text": "SaaS sprawl reduced to 40 shadow IT apps from 120 requiring remediation", "entities": [[0, 4, "APPLICATION_TYPE"], [5, 11, "SPRAWL_TYPE"]]}
+{"text": "Vendor risk management false positive rate reduced to 1.5% improving assessment accuracy", "entities": [[69, 79, "METRIC_TYPE"]]}
+{"text": "AI Vendor Risk Tool assessed AI SaaS for governance training data usage and bias controls", "entities": [[66, 71, "AI_MODEL_TYPE"]]}
+{"text": "Threat Intelligence Tool correlated vendor domains with dark web APT activity linking TA505", "entities": []}
+{"text": "BitSight security ratings platform monitored 300 vendors with continuous risk scoring", "entities": [[0, 8, "TOOL"]]}
+{"text": "SLA Compliance Tool validated breach notification SLA less than 24 hours with 90% score", "entities": [[54, 58, "SLA_TYPE"], [64, 66, "COUNT"], [67, 72, "TIME_UNIT"], [78, 81, "METRIC_TYPE"]]}
+{"text": "Can you help me with this?", "entities": []}
+{"text": "I need to check something.", "entities": []}
+{"text": "What is the status?", "entities": []}
+{"text": "How do I do this?", "entities": []}
+{"text": "Tell me more about it.", "entities": []}
+{"text": "Is this safe to use?", "entities": []}
+{"text": "Let me know if you need anything.", "entities": []}
+{"text": "Thanks for your help.", "entities": []}
+{"text": "I will get back to you.", "entities": []}
+{"text": "Please review this document.", "entities": []}
+{"text": "What should I do next?", "entities": []}
+{"text": "How does this work?", "entities": []}

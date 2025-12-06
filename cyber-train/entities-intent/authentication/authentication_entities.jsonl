@@ -443,3 +443,33 @@
 {"text": "Threat actor email threat@actor.com identified", "entities": [[19, 35, "EMAIL_ADDRESS"]]}
 {"text": "Fake bank email fake@bank.com reported", "entities": [[16, 29, "EMAIL_ADDRESS"]]}
 {"text": "Suspicious email from suspicious@domain.org flagged", "entities": [[22, 43, "EMAIL_ADDRESS"]]}
+{"text": "Please investigate the security issue.", "entities": []}
+{"text": "I need to understand the security requirements.", "entities": []}
+{"text": "What is the current security status?", "entities": []}
+{"text": "Analyze the security posture thoroughly.", "entities": []}
+{"text": "Can you help me with this security issue?", "entities": []}
+{"text": "Let me know if there are any issues to address.", "entities": []}
+{"text": "What is the best way to handle this situation?", "entities": []}
+{"text": "I need assistance with security configuration.", "entities": []}
+{"text": "The application uses JavaScript for frontend development.", "entities": []}
+{"text": "Security policies are being enforced correctly.", "entities": []}
+{"text": "The system monitors application performance continuously.", "entities": []}
+{"text": "The system supports HTML rendering for user interfaces.", "entities": []}
+{"text": "The security team reviews access logs regularly.", "entities": []}
+{"text": "What tools are available for security analysis?", "entities": []}
+{"text": "The incident response process involves investigation and containment.", "entities": []}
+{"text": "Security professionals need to detect and respond to threats quickly.", "entities": []}
+{"text": "The monitoring system tracks relative performance metrics.", "entities": []}
+{"text": "We should verify that all controls are working properly.", "entities": []}
+{"text": "HTML rendering is used for user interface display.", "entities": []}
+{"text": "Can you help me understand security policies?", "entities": []}
+{"text": "Please check if everything is working correctly.", "entities": []}
+{"text": "The process involves checking file permissions.", "entities": []}
+{"text": "The security process involves finding and extracting relevant information.", "entities": []}
+{"text": "The security team reviews system logs for analysis.", "entities": []}
+{"text": "The system requires monitoring and tracking of security events.", "entities": []}
+{"text": "The organization must maintain and improve security posture continuously.", "entities": []}
+{"text": "The compliance team ensures adherence to security requirements.", "entities": []}
+{"text": "What steps should I take to improve security?", "entities": []}
+{"text": "I want to ensure compliance with security standards.", "entities": []}
+{"text": "All security controls are properly configured.", "entities": []}

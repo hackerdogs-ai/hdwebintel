@@ -1,0 +1,146 @@
+{
+  "total_issues": 17,
+  "stats": {
+    "missed_entities": 277,
+    "false_positives": 75,
+    "invalid_expected": 17
+  },
+  "issues": [
+    {
+      "test_index": 56,
+      "text": "Investigate URLs: ftp://files.example.com/path, sftp://secure.example.com, file:///local/path",
+      "entity": "sftp://secure.example.com",
+      "label": "URL",
+      "reason": "Invalid URL format: sftp://secure.example.com",
+      "category": "url_schemes"
+    },
+    {
+      "test_index": 56,
+      "text": "Investigate URLs: ftp://files.example.com/path, sftp://secure.example.com, file:///local/path",
+      "entity": "file:///local/path",
+      "label": "URL",
+      "reason": "Invalid URL format: file:///local/path",
+      "category": "url_schemes"
+    },
+    {
+      "test_index": 94,
+      "text": "Multiple hashes: MD5 abc123, SHA256 def456, SHA1 ghi789",
+      "entity": "abc123",
+      "label": "HASH",
+      "reason": "Invalid hash format: abc123",
+      "category": "hash_multiple"
+    },
+    {
+      "test_index": 94,
+      "text": "Multiple hashes: MD5 abc123, SHA256 def456, SHA1 ghi789",
+      "entity": "def456",
+      "label": "HASH",
+      "reason": "Invalid hash format: def456",
+      "category": "hash_multiple"
+    },
+    {
+      "test_index": 94,
+      "text": "Multiple hashes: MD5 abc123, SHA256 def456, SHA1 ghi789",
+      "entity": "ghi789",
+      "label": "HASH",
+      "reason": "Invalid hash format: ghi789",
+      "category": "hash_multiple"
+    },
+    {
+      "test_index": 97,
+      "text": "File hashes: MD5=abc123def456, SHA256=ghi789jkl012",
+      "entity": "abc123def456",
+      "label": "HASH",
+      "reason": "Invalid hash format: abc123def456",
+      "category": "hash_formatted"
+    },
+    {
+      "test_index": 97,
+      "text": "File hashes: MD5=abc123def456, SHA256=ghi789jkl012",
+      "entity": "ghi789jkl012",
+      "label": "HASH",
+      "reason": "Invalid hash format: ghi789jkl012",
+      "category": "hash_formatted"
+    },
+    {
+      "test_index": 99,
+      "text": "Hash database lookup: MD5 abc123, SHA1 def456, SHA256 ghi789",
+      "entity": "abc123",
+      "label": "HASH",
+      "reason": "Invalid hash format: abc123",
+      "category": "hash_database"
+    },
+    {
+      "test_index": 99,
+      "text": "Hash database lookup: MD5 abc123, SHA1 def456, SHA256 ghi789",
+      "entity": "def456",
+      "label": "HASH",
+      "reason": "Invalid hash format: def456",
+      "category": "hash_database"
+    },
+    {
+      "test_index": 99,
+      "text": "Hash database lookup: MD5 abc123, SHA1 def456, SHA256 ghi789",
+      "entity": "ghi789",
+      "label": "HASH",
+      "reason": "Invalid hash format: ghi789",
+      "category": "hash_database"
+    },
+    {
+      "test_index": 121,
+      "text": "\ud83d\udcbb Malware detected: hash abc123def456 \ud83e\udda0",
+      "entity": "abc123def456",
+      "label": "HASH",
+      "reason": "Invalid hash format: abc123def456",
+      "category": "unicode_emojis"
+    },
+    {
+      "test_index": 128,
+      "text": "Date formats: 2024-11-30, 11/30/2024, November 30, 2024, 30-Nov-2024",
+      "entity": "30-Nov-2024",
+      "label": "DATE",
+      "reason": "Invalid date format: 30-Nov-2024",
+      "category": "format_variations"
+    },
+    {
+      "test_index": 132,
+      "text": "CVE formats: CVE-2021-44228, cve-2021-44228, CVE202144228",
+      "entity": "CVE202144228",
+      "label": "CVE_ID",
+      "reason": "Invalid CVE format: CVE202144228",
+      "category": "format_variations"
+    },
+    {
+      "test_index": 133,
+      "text": "URL formats: http://example.com, https://EXAMPLE.COM, HTTP://example.com/path",
+      "entity": "HTTP://example.com/path",
+      "label": "URL",
+      "reason": "Invalid URL format: HTTP://example.com/path",
+      "category": "format_variations"
+    },
+    {
+      "test_index": 137,
+      "text": "ISO 8601 date: 2024-11-30T14:30:00Z and Unix timestamp 1701350400",
+      "entity": "1701350400",
+      "label": "DATE",
+      "reason": "Invalid date format: 1701350400",
+      "category": "format_variations"
+    },
+    {
+      "test_index": 197,
+      "text": "Unix timestamps: 1701350400 and 1701350400.123",
+      "entity": "1701350400",
+      "label": "DATE",
+      "reason": "Invalid date format: 1701350400",
+      "category": "time_formats"
+    },
+    {
+      "test_index": 197,
+      "text": "Unix timestamps: 1701350400 and 1701350400.123",
+      "entity": "1701350400.123",
+      "label": "DATE",
+      "reason": "Invalid date format: 1701350400.123",
+      "category": "time_formats"
+    }
+  ]
+}

@@ -438,3 +438,33 @@
 {"text": "Security measures are in place.", "entities": []}
 {"text": "The audit was successful.", "entities": []}
 {"text": "The information is verified.", "entities": []}
+{"text": "What tools are available for security?", "entities": []}
+{"text": "The system processes JSON data for API communication.", "entities": []}
+{"text": "The system extracts data from various sources.", "entities": []}
+{"text": "The security framework includes Python scripts for automation.", "entities": []}
+{"text": "The monitoring system tracks relative performance metrics.", "entities": []}
+{"text": "The process involves checking file permissions.", "entities": []}
+{"text": "I need to understand the security requirements.", "entities": []}
+{"text": "Security audits are conducted regularly.", "entities": []}
+{"text": "The system tracks file access patterns.", "entities": []}
+{"text": "The application uses CSRF tokens for security protection.", "entities": []}
+{"text": "I want to verify that the system is secure.", "entities": []}
+{"text": "HTML rendering is used for user interface display.", "entities": []}
+{"text": "All security controls are properly configured.", "entities": []}
+{"text": "What is the best way to handle this situation?", "entities": []}
+{"text": "What are the recommended security procedures?", "entities": []}
+{"text": "We should check and verify all security controls regularly.", "entities": []}
+{"text": "Security professionals need to detect and respond to threats quickly.", "entities": []}
+{"text": "Python scripts are used for automation tasks.", "entities": []}
+{"text": "The security team reviews access patterns regularly.", "entities": []}
+{"text": "The application uses configuration files for settings.", "entities": []}
+{"text": "The system requires monitoring and tracking of security events.", "entities": []}
+{"text": "Security policies define acceptable use and access controls.", "entities": []}
+{"text": "Verify that all controls are working.", "entities": []}
+{"text": "Can you help me understand security policies?", "entities": []}
+{"text": "The security team implements XML parsing for configuration.", "entities": []}
+{"text": "How do I implement proper security controls?", "entities": []}
+{"text": "How can I improve the security posture of my organization?", "entities": []}
+{"text": "The system supports HTML rendering for user interfaces.", "entities": []}
+{"text": "Security awareness training is ongoing.", "entities": []}
+{"text": "The application processes authentication requests.", "entities": []}

@@ -1,0 +1,97 @@
+# LLM Models Catalog
+# Large Language Model names for entity recognition
+
+GPT-4
+GPT-3.5
+GPT-3
+GPT-2
+Claude 3
+Claude 2
+Claude
+Gemini Pro
+Gemini Ultra
+PaLM
+LaMDA
+LLaMA 2
+LLaMA
+Mistral
+Mixtral
+Falcon
+BLOOM
+BERT
+RoBERTa
+T5
+BART
+ELECTRA
+ALBERT
+GPT-4 Turbo
+GPT-4o
+GPT-4o-mini
+Claude 3 Opus
+Claude 3 Sonnet
+Claude 3 Haiku
+Gemini 1.5 Pro
+Gemini 1.5 Flash
+Gemini 1.0 Pro
+PaLM 2
+PaLM 540B
+LaMDA 137B
+LLaMA 2 70B
+LLaMA 2 13B
+LLaMA 2 7B
+LLaMA 65B
+LLaMA 33B
+LLaMA 13B
+LLaMA 7B
+Mistral 7B
+Mixtral 8x7B
+Falcon 40B
+Falcon 7B
+BLOOM 176B
+BLOOMZ
+BERT Base
+BERT Large
+RoBERTa Base
+RoBERTa Large
+T5 Base
+T5 Large
+T5 3B
+T5 11B
+BART Base
+BART Large
+ELECTRA Base
+ELECTRA Large
+ALBERT Base
+ALBERT Large
+ALBERT XXLarge
+Codex
+Copilot
+ChatGPT
+InstructGPT
+DALL-E
+Midjourney
+Stable Diffusion
+DALL-E 2
+DALL-E 3
+Imagen
+Parti
+Flamingo
+PaLM-E
+RT-1
+RT-2
+Gato
+PaLM-SayCan
+SayCan
+PaLM-E
+PaLM 2
+Gemini Multimodal
+GPT-4 Vision
+Claude 3 Vision
+LLaVA
+BLIP
+BLIP-2
+Flamingo
+CoCa
+PaLI
+PaLI-X
+

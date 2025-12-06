@@ -669,10 +669,6 @@
 {"text": "Track GPT-4o from OpenAI usage", "entities": [[6, 12, "LLM_MODEL"], [18, 24, "LLM_PROVIDER"]]}
 {"text": "Analyze GPT-4o model performance", "entities": [[8, 14, "LLM_MODEL"]]}
 {"text": "Secure GPT-4o API keys and tokens", "entities": [[7, 13, "LLM_MODEL"]]}
-{"text": "Event logged on 30-Nov-2024", "entities": [[16, 27, "DATE"]]}
-{"text": "Alert triggered on 30-Nov-2024", "entities": [[19, 30, "DATE"]]}
-{"text": "Backup created on 30-Nov-2024", "entities": [[18, 29, "DATE"]]}
-{"text": "Access granted on 30-Nov-2024", "entities": [[18, 29, "DATE"]]}
 {"text": "Incident occurred on November 30, 2024", "entities": [[21, 38, "DATE"]]}
 {"text": "Vulnerability discovered on November 30, 2024", "entities": [[28, 45, "DATE"]]}
 {"text": "Report generated on November 30, 2024", "entities": [[20, 37, "DATE"]]}
@@ -683,16 +679,6 @@
 {"text": "Alert triggered on November 30, 2024", "entities": [[19, 36, "DATE"]]}
 {"text": "Backup created on November 30, 2024", "entities": [[18, 35, "DATE"]]}
 {"text": "Access granted on November 30, 2024", "entities": [[18, 35, "DATE"]]}
-{"text": "Incident occurred on 2024/11/30", "entities": [[21, 31, "DATE"]]}
-{"text": "Vulnerability discovered on 2024/11/30", "entities": [[28, 38, "DATE"]]}
-{"text": "Report generated on 2024/11/30", "entities": [[20, 30, "DATE"]]}
-{"text": "Attack detected on 2024/11/30", "entities": [[19, 29, "DATE"]]}
-{"text": "Compliance audit on 2024/11/30", "entities": [[20, 30, "DATE"]]}
-{"text": "Security scan on 2024/11/30", "entities": [[17, 27, "DATE"]]}
-{"text": "Event logged on 2024/11/30", "entities": [[16, 26, "DATE"]]}
-{"text": "Alert triggered on 2024/11/30", "entities": [[19, 29, "DATE"]]}
-{"text": "Backup created on 2024/11/30", "entities": [[18, 28, "DATE"]]}
-{"text": "Access granted on 2024/11/30", "entities": [[18, 28, "DATE"]]}
 {"text": "Incident occurred on 30/11/2024", "entities": [[21, 31, "DATE"]]}
 {"text": "Vulnerability discovered on 30/11/2024", "entities": [[28, 38, "DATE"]]}
 {"text": "Report generated on 30/11/2024", "entities": [[20, 30, "DATE"]]}
@@ -885,10 +871,6 @@
 {"text": "Track GPT-4o from OpenAI usage", "entities": [[6, 12, "LLM_MODEL"], [18, 24, "LLM_PROVIDER"]]}
 {"text": "Analyze GPT-4o model performance", "entities": [[8, 14, "LLM_MODEL"]]}
 {"text": "Secure GPT-4o API keys and tokens", "entities": [[7, 13, "LLM_MODEL"]]}
-{"text": "Event logged on 30-Nov-2024", "entities": [[16, 27, "DATE"]]}
-{"text": "Alert triggered on 30-Nov-2024", "entities": [[19, 30, "DATE"]]}
-{"text": "Backup created on 30-Nov-2024", "entities": [[18, 29, "DATE"]]}
-{"text": "Access granted on 30-Nov-2024", "entities": [[18, 29, "DATE"]]}
 {"text": "Incident occurred on November 30, 2024", "entities": [[21, 38, "DATE"]]}
 {"text": "Vulnerability discovered on November 30, 2024", "entities": [[28, 45, "DATE"]]}
 {"text": "Report generated on November 30, 2024", "entities": [[20, 37, "DATE"]]}
@@ -899,16 +881,6 @@
 {"text": "Alert triggered on November 30, 2024", "entities": [[19, 36, "DATE"]]}
 {"text": "Backup created on November 30, 2024", "entities": [[18, 35, "DATE"]]}
 {"text": "Access granted on November 30, 2024", "entities": [[18, 35, "DATE"]]}
-{"text": "Incident occurred on 2024/11/30", "entities": [[21, 31, "DATE"]]}
-{"text": "Vulnerability discovered on 2024/11/30", "entities": [[28, 38, "DATE"]]}
-{"text": "Report generated on 2024/11/30", "entities": [[20, 30, "DATE"]]}
-{"text": "Attack detected on 2024/11/30", "entities": [[19, 29, "DATE"]]}
-{"text": "Compliance audit on 2024/11/30", "entities": [[20, 30, "DATE"]]}
-{"text": "Security scan on 2024/11/30", "entities": [[17, 27, "DATE"]]}
-{"text": "Event logged on 2024/11/30", "entities": [[16, 26, "DATE"]]}
-{"text": "Alert triggered on 2024/11/30", "entities": [[19, 29, "DATE"]]}
-{"text": "Backup created on 2024/11/30", "entities": [[18, 28, "DATE"]]}
-{"text": "Access granted on 2024/11/30", "entities": [[18, 28, "DATE"]]}
 {"text": "Incident occurred on 30/11/2024", "entities": [[21, 31, "DATE"]]}
 {"text": "Vulnerability discovered on 30/11/2024", "entities": [[28, 38, "DATE"]]}
 {"text": "Report generated on 30/11/2024", "entities": [[20, 30, "DATE"]]}
@@ -1037,3 +1009,33 @@
 {"text": "Verify https://malicious.com/evil", "entities": [[7, 33, "URL"]]}
 {"text": "URL http://192.168.1.1/admin detected", "entities": [[4, 28, "URL"]]}
 {"text": "Link to http://192.168.1.1/admin", "entities": [[8, 32, "URL"]]}
+{"text": "Verify that all controls are working.", "entities": []}
+{"text": "The security team needs to investigate and analyze the situation.", "entities": []}
+{"text": "I need to check if the system is safe and secure.", "entities": []}
+{"text": "The security team is monitoring the situation.", "entities": []}
+{"text": "How can I monitor security events effectively?", "entities": []}
+{"text": "What tools are available for security?", "entities": []}
+{"text": "Base64 encoding is used for data transmission.", "entities": []}
+{"text": "Security professionals need to detect and respond to threats quickly.", "entities": []}
+{"text": "What is the current security status?", "entities": []}
+{"text": "What are the recommended security procedures?", "entities": []}
+{"text": "The security system is functioning normally.", "entities": []}
+{"text": "The application uses CSRF tokens for security protection.", "entities": []}
+{"text": "The system extracts data from various sources.", "entities": []}
+{"text": "HTML rendering is used for user interface display.", "entities": []}
+{"text": "The security team reviews access logs regularly.", "entities": []}
+{"text": "Security audits require review and validation of security controls.", "entities": []}
+{"text": "Report security incidents immediately.", "entities": []}
+{"text": "Security professionals must detect and respond to threats effectively.", "entities": []}
+{"text": "How can I verify security controls?", "entities": []}
+{"text": "The incident response process is effective.", "entities": []}
+{"text": "The application processes authentication requests.", "entities": []}
+{"text": "Security audits require thorough review and documentation of findings.", "entities": []}
+{"text": "All security controls are properly configured.", "entities": []}
+{"text": "The compliance team ensures adherence to security requirements.", "entities": []}
+{"text": "Python scripts are used for automation tasks.", "entities": []}
+{"text": "What are the security requirements?", "entities": []}
+{"text": "The system requires monitoring and tracking of security events.", "entities": []}
+{"text": "Security audits are conducted regularly.", "entities": []}
+{"text": "The application uses JavaScript for frontend development.", "entities": []}
+{"text": "Can you provide guidance on security best practices?", "entities": []}

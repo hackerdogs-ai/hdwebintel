@@ -1,0 +1,789 @@
+{"text": "SOC Analyst triaged 200 alerts identifying 12 potential incidents and 150 false positives", "entities": [[12, 19, "ROLE"]]}
+{"text": "Chain-of-Custody Tracker logged evidence handling for disk.img with forensic_analyst1", "entities": [[54, 62, "DOMAIN"]]}
+{"text": "MDR MSSP provider engaged sharing IOCs and executing joint containment", "entities": [[0, 3, "SERVICE_TYPE"], [4, 8, "SERVICE_TYPE"], [34, 38, "IOC_TYPE"]]}
+{"text": "Incident Commander declared SEV-1 incident INC123 coordinating response across teams", "entities": [[50, 62, "SEVERITY_TYPE"]]}
+{"text": "EDR XDR Tool removed trojan.exe and cleaned persistence mechanisms", "entities": [[21, 31, "DOMAIN"], [44, 55, "CLEANING_TYPE"]]}
+{"text": "Chain-of-Custody Tracker logged evidence handling for disk.img with forensic_analyst1", "entities": [[54, 62, "DOMAIN"]]}
+{"text": "Splunk SIEM platform correlated 50000 events detecting 12 security incidents", "entities": [[0, 6, "TOOL"], [7, 11, "TOOL"], [38, 44, "COUNT"]]}
+{"text": "Legal Workflow Tool coordinated with counsel and insurance providers", "entities": [[37, 44, "TOOL"]]}
+{"text": "Insurance Notification Tool submitted claim for incident INC123", "entities": []}
+{"text": "Incident Commander declared SEV-1 incident INC123 coordinating response across teams", "entities": [[50, 62, "SEVERITY_TYPE"]]}
+{"text": "MTTD reduced to 5 minutes with improved SIEM correlation and threat intelligence", "entities": [[0, 4, "METRIC_TYPE"]]}
+{"text": "Incident response resilience score improved to 88% with enhanced automation", "entities": [[18, 28, "RESPONSE_TYPE"], [56, 64, "ENHANCEMENT_TYPE"]]}
+{"text": "EDR XDR Tool removed trojan.exe and cleaned persistence mechanisms", "entities": [[21, 31, "DOMAIN"], [44, 55, "CLEANING_TYPE"]]}
+{"text": "Incident Commander declared SEV-1 incident INC123 coordinating response across teams", "entities": [[50, 62, "SEVERITY_TYPE"]]}
+{"text": "Crisis Communication Tool sent executive brief and regulator notification", "entities": [[31, 40, "CRISIS_TYPE"], [51, 60, "TOOL"]]}
+{"text": "SIEM Tool correlated events detecting SQL injection from IP 203.0.113.5", "entities": [[60, 71, "IP_ADDRESS"]]}
+{"text": "Incident response training completion reached 94% for all IR engineers", "entities": []}
+{"text": "Insurance Notification Tool submitted claim for incident INC123", "entities": []}
+{"text": "Legal Workflow Tool coordinated with counsel and insurance providers", "entities": [[37, 44, "TOOL"]]}
+{"text": "Post-incident review documented strengths gaps and improvements updating runbooks", "entities": [[51, 63, "GAP_TYPE"]]}
+{"text": "IR performance metrics showed 5-minute MTTD and 2-hour MTTR with 45% automated", "entities": [[30, 38, "LATITUDE"], [48, 54, "LATITUDE"], [48, 54, "COUNT"]]}
+{"text": "SOC Analyst triaged 200 alerts identifying 12 potential incidents and 150 false positives", "entities": [[12, 19, "ROLE"]]}
+{"text": "Containment Automation Tool isolated laptop42 and blocked IP 203.0.113.5", "entities": [[61, 72, "IP_ADDRESS"]]}
+{"text": "Legal Workflow Tool coordinated with counsel and insurance providers", "entities": [[37, 44, "TOOL"]]}
+{"text": "Ticketing System Tool coordinated response across SOC Legal and VendorX teams", "entities": []}
+{"text": "SOAR Platform Tool executed automated playbook blocking IPs and disabling accounts", "entities": []}
+{"text": "Chain-of-Custody Tracker logged evidence handling for disk.img with forensic_analyst1", "entities": [[54, 62, "DOMAIN"]]}
+{"text": "IR performance metrics showed 5-minute MTTD and 2-hour MTTR with 45% automated", "entities": [[30, 38, "LATITUDE"], [48, 54, "LATITUDE"], [48, 54, "COUNT"]]}
+{"text": "Splunk SIEM platform correlated 50000 events detecting 12 security incidents", "entities": [[0, 6, "TOOL"], [7, 11, "TOOL"], [38, 44, "COUNT"]]}
+{"text": "Incident Runbook Tool classified severity and activated containment procedures", "entities": [[56, 67, "SEVERITY_TYPE"], [68, 78, "ACTIVATION_TYPE"]]}
+{"text": "File Integrity Tool validated recovery integrity confirming clean restore", "entities": [[39, 48, "TOOL"]]}
+{"text": "MDR MSSP provider engaged sharing IOCs and executing joint containment", "entities": [[0, 3, "SERVICE_TYPE"], [4, 8, "SERVICE_TYPE"], [34, 38, "IOC_TYPE"]]}
+{"text": "Forensic Acquisition Tool collected disk image and memory dump preserving evidence", "entities": [[51, 57, "TOOL"]]}
+{"text": "Elastic Security open source SIEM monitored 1000 endpoints with real-time alerting", "entities": [[0, 7, "TOOL"], [44, 48, "COUNT"], [49, 58, "ENDPOINT_TYPE"], [64, 73, "ALERTING_TYPE"]]}
+{"text": "Incident response resilience score improved to 88% with enhanced automation", "entities": [[18, 28, "RESPONSE_TYPE"], [56, 64, "ENHANCEMENT_TYPE"]]}
+{"text": "Forensic Acquisition Tool collected disk image and memory dump preserving evidence", "entities": [[51, 57, "TOOL"]]}
+{"text": "Post-incident review documented strengths gaps and improvements updating runbooks", "entities": [[51, 63, "GAP_TYPE"]]}
+{"text": "Chain-of-Custody Tracker logged evidence handling for disk.img with forensic_analyst1", "entities": [[54, 62, "DOMAIN"]]}
+{"text": "Incident response false positive rate reduced to 2.1% improving alert accuracy", "entities": []}
+{"text": "SOAR Platform Tool executed automated playbook blocking IPs and disabling accounts", "entities": []}
+{"text": "STIX TAXII Feeds provided threat context linking hash123 and IP 203.0.113.5 to campaign", "entities": [[0, 4, "PROTOCOL_TYPE"], [5, 10, "PROTOCOL_TYPE"], [64, 75, "IP_ADDRESS"]]}
+{"text": "SOC Analyst triaged 200 alerts identifying 12 potential incidents and 150 false positives", "entities": [[12, 19, "ROLE"]]}
+{"text": "Ticketing System Tool coordinated response across SOC Legal and VendorX teams", "entities": []}
+{"text": "Splunk SIEM platform correlated 50000 events detecting 12 security incidents", "entities": [[0, 6, "TOOL"], [7, 11, "TOOL"], [38, 44, "COUNT"]]}
+{"text": "Threat Intelligence Tool enriched incident with TA505 phishing campaign and matched IOCs", "entities": [[48, 53, "TOOL"], [76, 83, "THREAT_ACTOR"]]}
+{"text": "File Integrity Tool validated recovery integrity confirming clean restore", "entities": [[39, 48, "TOOL"]]}
+{"text": "Insurance Notification Tool submitted claim for incident INC123", "entities": []}
+{"text": "MTTD reduced to 5 minutes with improved SIEM correlation and threat intelligence", "entities": [[0, 4, "METRIC_TYPE"]]}
+{"text": "Regulator Notification Tool sent breach notification to GDPR and HIPAA regulators", "entities": []}
+{"text": "Insurance Notification Tool submitted claim for incident INC123", "entities": []}
+{"text": "Incident response training completion reached 94% for all IR engineers", "entities": []}
+{"text": "SOAR Platform Tool executed automated playbook blocking IPs and disabling accounts", "entities": []}
+{"text": "Ticketing System Tool coordinated response across SOC Legal and VendorX teams", "entities": []}
+{"text": "Memory Forensics Tool analyzed memory dump identifying Mimikatz execution", "entities": []}
+{"text": "Elastic Security open source SIEM monitored 1000 endpoints with real-time alerting", "entities": [[0, 7, "TOOL"], [44, 48, "COUNT"], [49, 58, "ENDPOINT_TYPE"], [64, 73, "ALERTING_TYPE"]]}
+{"text": "IBM QRadar SIEM detected advanced persistent threat with 98% detection accuracy", "entities": [[4, 10, "TOOL"], [11, 15, "TOOL"], [25, 33, "DETECTION_TYPE"], [34, 44, "THREAT_TYPE"]]}
+{"text": "Incident response false positive rate reduced to 2.1% improving alert accuracy", "entities": []}
+{"text": "Elastic Security open source SIEM monitored 1000 endpoints with real-time alerting", "entities": [[0, 7, "TOOL"], [44, 48, "COUNT"], [49, 58, "ENDPOINT_TYPE"], [64, 73, "ALERTING_TYPE"]]}
+{"text": "Ticketing System Tool coordinated response across SOC Legal and VendorX teams", "entities": []}
+{"text": "Incident Runbook Tool classified severity and activated containment procedures", "entities": [[56, 67, "SEVERITY_TYPE"], [68, 78, "ACTIVATION_TYPE"]]}
+{"text": "Automated response rate increased to 45% reducing manual intervention", "entities": [[50, 56, "MANUAL_TYPE"]]}
+{"text": "Post-incident review documented strengths gaps and improvements updating runbooks", "entities": [[51, 63, "GAP_TYPE"]]}
+{"text": "SIEM Tool correlated events detecting SQL injection from IP 203.0.113.5", "entities": [[60, 71, "IP_ADDRESS"]]}
+{"text": "File Integrity Tool validated recovery integrity confirming clean restore", "entities": [[39, 48, "TOOL"]]}
+{"text": "IR performance metrics showed 5-minute MTTD and 2-hour MTTR with 45% automated", "entities": [[30, 38, "LATITUDE"], [48, 54, "LATITUDE"], [48, 54, "COUNT"]]}
+{"text": "Elastic Security open source SIEM monitored 1000 endpoints with real-time alerting", "entities": [[0, 7, "TOOL"], [44, 48, "COUNT"], [49, 58, "ENDPOINT_TYPE"], [64, 73, "ALERTING_TYPE"]]}
+{"text": "MTTR improved to 2 hours with automated containment and recovery procedures", "entities": [[0, 4, "METRIC_TYPE"]]}
+{"text": "Incident response false positive rate reduced to 2.1% improving alert accuracy", "entities": []}
+{"text": "Regulator Notification Tool sent breach notification to GDPR and HIPAA regulators", "entities": []}
+{"text": "Memory Forensics Tool analyzed memory dump identifying Mimikatz execution", "entities": []}
+{"text": "IBM QRadar SIEM detected advanced persistent threat with 98% detection accuracy", "entities": [[4, 10, "TOOL"], [11, 15, "TOOL"], [25, 33, "DETECTION_TYPE"], [34, 44, "THREAT_TYPE"]]}
+{"text": "Insider Risk Playbook Tool guided response for employee123 privilege abuse and data exfil", "entities": []}
+{"text": "MTTD reduced to 5 minutes with improved SIEM correlation and threat intelligence", "entities": [[0, 4, "METRIC_TYPE"]]}
+{"text": "Insider Risk Playbook Tool guided response for employee123 privilege abuse and data exfil", "entities": []}
+{"text": "Incident response false positive rate reduced to 2.1% improving alert accuracy", "entities": []}
+{"text": "File Integrity Tool validated recovery integrity confirming clean restore", "entities": [[39, 48, "TOOL"]]}
+{"text": "Threat Intelligence Tool enriched incident with TA505 phishing campaign and matched IOCs", "entities": [[48, 53, "TOOL"], [76, 83, "THREAT_ACTOR"]]}
+{"text": "MDR MSSP provider engaged sharing IOCs and executing joint containment", "entities": [[0, 3, "SERVICE_TYPE"], [4, 8, "SERVICE_TYPE"], [34, 38, "IOC_TYPE"]]}
+{"text": "Regulator Notification Tool sent breach notification to GDPR and HIPAA regulators", "entities": []}
+{"text": "Forensic Acquisition Tool collected disk image and memory dump preserving evidence", "entities": [[51, 57, "TOOL"]]}
+{"text": "EDR XDR Tool removed trojan.exe and cleaned persistence mechanisms", "entities": [[21, 31, "DOMAIN"], [44, 55, "CLEANING_TYPE"]]}
+{"text": "STIX TAXII Feeds provided threat context linking hash123 and IP 203.0.113.5 to campaign", "entities": [[0, 4, "PROTOCOL_TYPE"], [5, 10, "PROTOCOL_TYPE"], [64, 75, "IP_ADDRESS"]]}
+{"text": "IR simulation exercise tested ransomware scenario achieving 85% readiness score", "entities": [[14, 22, "EXERCISE_TYPE"]]}
+{"text": "IR performance metrics showed 5-minute MTTD and 2-hour MTTR with 45% automated", "entities": [[30, 38, "LATITUDE"], [48, 54, "LATITUDE"], [48, 54, "COUNT"]]}
+{"text": "Insider Risk Playbook Tool guided response for employee123 privilege abuse and data exfil", "entities": []}
+{"text": "Crisis Communication Tool sent executive brief and regulator notification", "entities": [[31, 40, "CRISIS_TYPE"], [51, 60, "TOOL"]]}
+{"text": "Incident Runbook Tool classified severity and activated containment procedures", "entities": [[56, 67, "SEVERITY_TYPE"], [68, 78, "ACTIVATION_TYPE"]]}
+{"text": "Splunk SIEM platform correlated 50000 events detecting 12 security incidents", "entities": [[0, 6, "TOOL"], [7, 11, "TOOL"], [38, 44, "COUNT"]]}
+{"text": "MDR MSSP provider engaged sharing IOCs and executing joint containment", "entities": [[0, 3, "SERVICE_TYPE"], [4, 8, "SERVICE_TYPE"], [34, 38, "IOC_TYPE"]]}
+{"text": "Automated response rate increased to 45% reducing manual intervention", "entities": [[50, 56, "MANUAL_TYPE"]]}
+{"text": "Crisis Communication Tool sent executive brief and regulator notification", "entities": [[31, 40, "CRISIS_TYPE"], [51, 60, "TOOL"]]}
+{"text": "Regulator Notification Tool sent breach notification to GDPR and HIPAA regulators", "entities": []}
+{"text": "STIX TAXII Feeds provided threat context linking hash123 and IP 203.0.113.5 to campaign", "entities": [[0, 4, "PROTOCOL_TYPE"], [5, 10, "PROTOCOL_TYPE"], [64, 75, "IP_ADDRESS"]]}
+{"text": "MTTR improved to 2 hours with automated containment and recovery procedures", "entities": [[0, 4, "METRIC_TYPE"]]}
+{"text": "Incident response training completion reached 94% for all IR engineers", "entities": []}
+{"text": "Forensic Acquisition Tool collected disk image and memory dump preserving evidence", "entities": [[51, 57, "TOOL"]]}
+{"text": "Automated response rate increased to 45% reducing manual intervention", "entities": [[50, 56, "MANUAL_TYPE"]]}
+{"text": "Incident response training completion reached 94% for all IR engineers", "entities": []}
+{"text": "MTTR improved to 2 hours with automated containment and recovery procedures", "entities": [[0, 4, "METRIC_TYPE"]]}
+{"text": "Automated response rate increased to 45% reducing manual intervention", "entities": [[50, 56, "MANUAL_TYPE"]]}
+{"text": "Incident Runbook Tool classified severity and activated containment procedures", "entities": [[56, 67, "SEVERITY_TYPE"], [68, 78, "ACTIVATION_TYPE"]]}
+{"text": "Containment Automation Tool isolated laptop42 and blocked IP 203.0.113.5", "entities": [[61, 72, "IP_ADDRESS"]]}
+{"text": "Crisis Communication Tool sent executive brief and regulator notification", "entities": [[31, 40, "CRISIS_TYPE"], [51, 60, "TOOL"]]}
+{"text": "Insider Risk Playbook Tool guided response for employee123 privilege abuse and data exfil", "entities": []}
+{"text": "Threat Intelligence Tool enriched incident with TA505 phishing campaign and matched IOCs", "entities": [[48, 53, "TOOL"], [76, 83, "THREAT_ACTOR"]]}
+{"text": "MTTR improved to 2 hours with automated containment and recovery procedures", "entities": [[0, 4, "METRIC_TYPE"]]}
+{"text": "Threat Intelligence Tool enriched incident with TA505 phishing campaign and matched IOCs", "entities": [[48, 53, "TOOL"], [76, 83, "THREAT_ACTOR"]]}
+{"text": "MTTD reduced to 5 minutes with improved SIEM correlation and threat intelligence", "entities": [[0, 4, "METRIC_TYPE"]]}
+{"text": "SIEM Tool correlated events detecting SQL injection from IP 203.0.113.5", "entities": [[60, 71, "IP_ADDRESS"]]}
+{"text": "Incident response resilience score improved to 88% with enhanced automation", "entities": [[18, 28, "RESPONSE_TYPE"], [56, 64, "ENHANCEMENT_TYPE"]]}
+{"text": "IR simulation exercise tested ransomware scenario achieving 85% readiness score", "entities": [[14, 22, "EXERCISE_TYPE"]]}
+{"text": "Containment Automation Tool isolated laptop42 and blocked IP 203.0.113.5", "entities": [[61, 72, "IP_ADDRESS"]]}
+{"text": "Memory Forensics Tool analyzed memory dump identifying Mimikatz execution", "entities": []}
+{"text": "STIX TAXII Feeds provided threat context linking hash123 and IP 203.0.113.5 to campaign", "entities": [[0, 4, "PROTOCOL_TYPE"], [5, 10, "PROTOCOL_TYPE"], [64, 75, "IP_ADDRESS"]]}
+{"text": "Post-incident review documented strengths gaps and improvements updating runbooks", "entities": [[51, 63, "GAP_TYPE"]]}
+{"text": "EDR XDR Tool removed trojan.exe and cleaned persistence mechanisms", "entities": [[21, 31, "DOMAIN"], [44, 55, "CLEANING_TYPE"]]}
+{"text": "Incident response resilience score improved to 88% with enhanced automation", "entities": [[18, 28, "RESPONSE_TYPE"], [56, 64, "ENHANCEMENT_TYPE"]]}
+{"text": "IR simulation exercise tested ransomware scenario achieving 85% readiness score", "entities": [[14, 22, "EXERCISE_TYPE"]]}
+{"text": "IR simulation exercise tested ransomware scenario achieving 85% readiness score", "entities": [[14, 22, "EXERCISE_TYPE"]]}
+{"text": "Legal Workflow Tool coordinated with counsel and insurance providers", "entities": [[37, 44, "TOOL"]]}
+{"text": "IBM QRadar SIEM detected advanced persistent threat with 98% detection accuracy", "entities": [[4, 10, "TOOL"], [11, 15, "TOOL"], [25, 33, "DETECTION_TYPE"], [34, 44, "THREAT_TYPE"]]}
+{"text": "Containment Automation Tool isolated laptop42 and blocked IP 203.0.113.5", "entities": [[61, 72, "IP_ADDRESS"]]}
+{"text": "IBM QRadar SIEM detected advanced persistent threat with 98% detection accuracy", "entities": [[4, 10, "TOOL"], [11, 15, "TOOL"], [25, 33, "DETECTION_TYPE"], [34, 44, "THREAT_TYPE"]]}
+{"text": "Memory Forensics Tool analyzed memory dump identifying Mimikatz execution", "entities": []}
+{"text": "SIEM Tool correlated events detecting SQL injection from IP 203.0.113.5", "entities": [[60, 71, "IP_ADDRESS"]]}
+{"text": "SOAR Platform Tool executed automated playbook blocking IPs and disabling accounts", "entities": []}
+{"text": "Incident Commander declared SEV-1 incident INC123 coordinating response across teams", "entities": [[50, 62, "SEVERITY_TYPE"]]}
+{"text": "SOC Analyst triaged 200 alerts identifying 12 potential incidents and 150 false positives", "entities": [[12, 19, "ROLE"]]}
+{"text": "Can you help me with this?", "entities": []}
+{"text": "I need to check something.", "entities": []}
+{"text": "What is the status?", "entities": []}
+{"text": "How do I do this?", "entities": []}
+{"text": "Tell me more about it.", "entities": []}
+{"text": "Is this safe to use?", "entities": []}
+{"text": "Let me know if you need anything.", "entities": []}
+{"text": "Thanks for your help.", "entities": []}
+{"text": "I will get back to you.", "entities": []}
+{"text": "Please review this document.", "entities": []}
+{"text": "What should I do next?", "entities": []}
+{"text": "How does this work?", "entities": []}
+{"text": "Why is this happening?", "entities": []}
+{"text": "Threat actor used security@example.com for command and control communication", "entities": [[18, 38, "EMAIL_ADDRESS"]]}
+{"text": "Threat actor used contact@business.com for command and control communication", "entities": [[18, 38, "EMAIL_ADDRESS"]]}
+{"text": "Incident report: data breach notification sent to security@example.com", "entities": [[50, 70, "EMAIL_ADDRESS"]]}
+{"text": "Phishing email sent from security@example.com targeting employees", "entities": [[25, 45, "EMAIL_ADDRESS"]]}
+{"text": "Threat actor used john.doe@test.io for command and control communication", "entities": [[18, 34, "EMAIL_ADDRESS"]]}
+{"text": "Forensics analysis found john.doe@test.io in compromised account logs", "entities": [[25, 41, "EMAIL_ADDRESS"]]}
+{"text": "Threat actor used admin@company.org for command and control communication", "entities": [[18, 35, "EMAIL_ADDRESS"]]}
+{"text": "Phishing email sent from alice.smith@domain.net targeting employees", "entities": [[25, 47, "EMAIL_ADDRESS"]]}
+{"text": "Security alert: suspicious login attempt from alice.smith@domain.net", "entities": [[46, 68, "EMAIL_ADDRESS"]]}
+{"text": "Forensics analysis found contact@business.com in compromised account logs", "entities": [[25, 45, "EMAIL_ADDRESS"]]}
+{"text": "Incident report: data breach notification sent to alice.smith@domain.net", "entities": [[50, 72, "EMAIL_ADDRESS"]]}
+{"text": "Phishing email sent from alice.smith@domain.net targeting employees", "entities": [[25, 47, "EMAIL_ADDRESS"]]}
+{"text": "Incident report: data breach notification sent to contact@business.com", "entities": [[50, 70, "EMAIL_ADDRESS"]]}
+{"text": "Phishing email sent from alice.smith@domain.net targeting employees", "entities": [[25, 47, "EMAIL_ADDRESS"]]}
+{"text": "Forensics analysis found alice.smith@domain.net in compromised account logs", "entities": [[25, 47, "EMAIL_ADDRESS"]]}
+{"text": "Threat actor used security@example.com for command and control communication", "entities": [[18, 38, "EMAIL_ADDRESS"]]}
+{"text": "Threat actor used security@example.com for command and control communication", "entities": [[18, 38, "EMAIL_ADDRESS"]]}
+{"text": "Phishing email sent from security@example.com targeting employees", "entities": [[25, 45, "EMAIL_ADDRESS"]]}
+{"text": "Forensics analysis found alice.smith@domain.net in compromised account logs", "entities": [[25, 47, "EMAIL_ADDRESS"]]}
+{"text": "Threat actor used alice.smith@domain.net for command and control communication", "entities": [[18, 40, "EMAIL_ADDRESS"]]}
+{"text": "Threat actor used alice.smith@domain.net for command and control communication", "entities": [[18, 40, "EMAIL_ADDRESS"]]}
+{"text": "Forensics analysis found alice.smith@domain.net in compromised account logs", "entities": [[25, 47, "EMAIL_ADDRESS"]]}
+{"text": "Forensics analysis found admin@company.org in compromised account logs", "entities": [[25, 42, "EMAIL_ADDRESS"]]}
+{"text": "Security alert: suspicious login attempt from admin@company.org", "entities": [[46, 63, "EMAIL_ADDRESS"]]}
+{"text": "Security alert: suspicious login attempt from admin@company.org", "entities": [[46, 63, "EMAIL_ADDRESS"]]}
+{"text": "Phishing email sent from security@example.com targeting employees", "entities": [[25, 45, "EMAIL_ADDRESS"]]}
+{"text": "Security alert: suspicious login attempt from john.doe@test.io", "entities": [[46, 62, "EMAIL_ADDRESS"]]}
+{"text": "Phishing email sent from alice.smith@domain.net targeting employees", "entities": [[25, 47, "EMAIL_ADDRESS"]]}
+{"text": "Forensics analysis found john.doe@test.io in compromised account logs", "entities": [[25, 41, "EMAIL_ADDRESS"]]}
+{"text": "Security alert: suspicious login attempt from contact@business.com", "entities": [[46, 66, "EMAIL_ADDRESS"]]}
+{"text": "Incident report: data breach notification sent to contact@business.com", "entities": [[50, 70, "EMAIL_ADDRESS"]]}
+{"text": "Phishing email sent from john.doe@test.io targeting employees", "entities": [[25, 41, "EMAIL_ADDRESS"]]}
+{"text": "Security alert: suspicious login attempt from admin@company.org", "entities": [[46, 63, "EMAIL_ADDRESS"]]}
+{"text": "Threat actor used john.doe@test.io for command and control communication", "entities": [[18, 34, "EMAIL_ADDRESS"]]}
+{"text": "Forensics analysis found alice.smith@domain.net in compromised account logs", "entities": [[25, 47, "EMAIL_ADDRESS"]]}
+{"text": "Incident report: data breach notification sent to contact@business.com", "entities": [[50, 70, "EMAIL_ADDRESS"]]}
+{"text": "Threat actor used admin@company.org for command and control communication", "entities": [[18, 35, "EMAIL_ADDRESS"]]}
+{"text": "Threat actor used contact@business.com for command and control communication", "entities": [[18, 38, "EMAIL_ADDRESS"]]}
+{"text": "Incident report: data breach notification sent to security@example.com", "entities": [[50, 70, "EMAIL_ADDRESS"]]}
+{"text": "Phishing email sent from john.doe@test.io targeting employees", "entities": [[25, 41, "EMAIL_ADDRESS"]]}
+{"text": "Security alert: suspicious login attempt from security@example.com", "entities": [[46, 66, "EMAIL_ADDRESS"]]}
+{"text": "Incident report: data breach notification sent to john.doe@test.io", "entities": [[50, 66, "EMAIL_ADDRESS"]]}
+{"text": "Incident report: data breach notification sent to alice.smith@domain.net", "entities": [[50, 72, "EMAIL_ADDRESS"]]}
+{"text": "Forensics analysis found john.doe@test.io in compromised account logs", "entities": [[25, 41, "EMAIL_ADDRESS"]]}
+{"text": "Phishing email sent from admin@company.org targeting employees", "entities": [[25, 42, "EMAIL_ADDRESS"]]}
+{"text": "Forensics analysis found admin@company.org in compromised account logs", "entities": [[25, 42, "EMAIL_ADDRESS"]]}
+{"text": "Threat actor used john.doe@test.io for command and control communication", "entities": [[18, 34, "EMAIL_ADDRESS"]]}
+{"text": "Forensics analysis found alice.smith@domain.net in compromised account logs", "entities": [[25, 47, "EMAIL_ADDRESS"]]}
+{"text": "Security alert: suspicious login attempt from alice.smith@domain.net", "entities": [[46, 68, "EMAIL_ADDRESS"]]}
+{"text": "Incident report: data breach notification sent to john.doe@test.io", "entities": [[50, 66, "EMAIL_ADDRESS"]]}
+{"text": "Forensics team traced call to 1-800-555-0199", "entities": [[30, 44, "PHONE_NUMBER"]]}
+{"text": "Suspicious call logged from phone number (555) 987-6543", "entities": []}
+{"text": "Forensics team traced call to 1-800-555-0199", "entities": [[30, 44, "PHONE_NUMBER"]]}
+{"text": "Suspicious call logged from phone number 555-234-5678", "entities": [[41, 53, "PHONE_NUMBER"]]}
+{"text": "Suspicious call logged from phone number +1-555-123-4567", "entities": [[41, 56, "PHONE_NUMBER"]]}
+{"text": "Suspicious call logged from phone number 555-234-5678", "entities": [[41, 53, "PHONE_NUMBER"]]}
+{"text": "Forensics team traced call to 555-234-5678", "entities": [[30, 42, "PHONE_NUMBER"]]}
+{"text": "Incident response contacted victim at +1-555-123-4567", "entities": [[38, 53, "PHONE_NUMBER"]]}
+{"text": "Forensics team traced call to 1-800-555-0199", "entities": [[30, 44, "PHONE_NUMBER"]]}
+{"text": "Incident response contacted victim at +1-555-123-4567", "entities": [[38, 53, "PHONE_NUMBER"]]}
+{"text": "Incident response contacted victim at 1-800-555-0199", "entities": [[38, 52, "PHONE_NUMBER"]]}
+{"text": "Incident response contacted victim at +1-555-123-4567", "entities": [[38, 53, "PHONE_NUMBER"]]}
+{"text": "Two-factor authentication code sent to 555-234-5678", "entities": [[39, 51, "PHONE_NUMBER"]]}
+{"text": "Threat intelligence indicates 555-234-5678 used in social engineering attack", "entities": [[30, 42, "PHONE_NUMBER"]]}
+{"text": "Forensics team traced call to 1-800-555-0199", "entities": [[30, 44, "PHONE_NUMBER"]]}
+{"text": "Two-factor authentication code sent to 1-800-555-0199", "entities": [[39, 53, "PHONE_NUMBER"]]}
+{"text": "Incident response contacted victim at 555-234-5678", "entities": [[38, 50, "PHONE_NUMBER"]]}
+{"text": "Forensics team traced call to 1-800-555-0199", "entities": [[30, 44, "PHONE_NUMBER"]]}
+{"text": "Two-factor authentication code sent to (555) 987-6543", "entities": []}
+{"text": "Suspicious call logged from phone number (555) 987-6543", "entities": []}
+{"text": "Suspicious call logged from phone number +1-555-123-4567", "entities": [[41, 56, "PHONE_NUMBER"]]}
+{"text": "Two-factor authentication code sent to +1-555-123-4567", "entities": [[39, 54, "PHONE_NUMBER"]]}
+{"text": "Incident response contacted victim at 555-234-5678", "entities": [[38, 50, "PHONE_NUMBER"]]}
+{"text": "Threat intelligence indicates 1-800-555-0199 used in social engineering attack", "entities": [[30, 44, "PHONE_NUMBER"]]}
+{"text": "Suspicious call logged from phone number 555-234-5678", "entities": [[41, 53, "PHONE_NUMBER"]]}
+{"text": "Suspicious call logged from phone number 1-800-555-0199", "entities": [[41, 55, "PHONE_NUMBER"]]}
+{"text": "Suspicious call logged from phone number +1-555-123-4567", "entities": [[41, 56, "PHONE_NUMBER"]]}
+{"text": "Threat intelligence indicates +1-555-123-4567 used in social engineering attack", "entities": [[30, 45, "PHONE_NUMBER"]]}
+{"text": "Incident response contacted victim at (555) 987-6543", "entities": []}
+{"text": "Incident response contacted victim at +1-555-123-4567", "entities": [[38, 53, "PHONE_NUMBER"]]}
+{"text": "Suspicious call logged from phone number 555-234-5678", "entities": [[41, 53, "PHONE_NUMBER"]]}
+{"text": "Suspicious call logged from phone number 555-234-5678", "entities": [[41, 53, "PHONE_NUMBER"]]}
+{"text": "Forensics team traced call to 1-800-555-0199", "entities": [[30, 44, "PHONE_NUMBER"]]}
+{"text": "Two-factor authentication code sent to (555) 987-6543", "entities": []}
+{"text": "Suspicious call logged from phone number (555) 987-6543", "entities": []}
+{"text": "Incident response contacted victim at 555-234-5678", "entities": [[38, 50, "PHONE_NUMBER"]]}
+{"text": "Suspicious call logged from phone number 1-800-555-0199", "entities": [[41, 55, "PHONE_NUMBER"]]}
+{"text": "Threat intelligence indicates 555-234-5678 used in social engineering attack", "entities": [[30, 42, "PHONE_NUMBER"]]}
+{"text": "Suspicious call logged from phone number 555-234-5678", "entities": [[41, 53, "PHONE_NUMBER"]]}
+{"text": "Threat intelligence indicates 1-800-555-0199 used in social engineering attack", "entities": [[30, 44, "PHONE_NUMBER"]]}
+{"text": "Threat intelligence indicates (555) 987-6543 used in social engineering attack", "entities": []}
+{"text": "Two-factor authentication code sent to (555) 987-6543", "entities": []}
+{"text": "Two-factor authentication code sent to 555-234-5678", "entities": [[39, 51, "PHONE_NUMBER"]]}
+{"text": "Two-factor authentication code sent to 1-800-555-0199", "entities": [[39, 53, "PHONE_NUMBER"]]}
+{"text": "Threat intelligence indicates 555-234-5678 used in social engineering attack", "entities": [[30, 42, "PHONE_NUMBER"]]}
+{"text": "Threat intelligence indicates (555) 987-6543 used in social engineering attack", "entities": []}
+{"text": "Forensics team traced call to 1-800-555-0199", "entities": [[30, 44, "PHONE_NUMBER"]]}
+{"text": "Incident response contacted victim at +1-555-123-4567", "entities": [[38, 53, "PHONE_NUMBER"]]}
+{"text": "Geolocation analysis shows attack originated at latitude -33.8688", "entities": [[57, 65, "LATITUDE"]]}
+{"text": "Forensics team identified latitude -33.8688 from device logs", "entities": [[35, 43, "LATITUDE"]]}
+{"text": "Forensics team identified latitude 40.7128 from device logs", "entities": [[35, 42, "LATITUDE"]]}
+{"text": "Threat intelligence report includes latitude 51.5074 for threat actor location", "entities": [[45, 52, "LATITUDE"]]}
+{"text": "Threat intelligence report includes latitude -33.8688 for threat actor location", "entities": [[45, 53, "LATITUDE"]]}
+{"text": "Threat intelligence report includes latitude 40.7128 for threat actor location", "entities": [[45, 52, "LATITUDE"]]}
+{"text": "GPS coordinates indicate latitude -33.8688 for incident location", "entities": [[34, 42, "LATITUDE"]]}
+{"text": "Security incident occurred at latitude -33.8688 according to logs", "entities": [[39, 47, "LATITUDE"]]}
+{"text": "Forensics team identified latitude 35.6762 from device logs", "entities": [[35, 42, "LATITUDE"]]}
+{"text": "GPS coordinates indicate latitude 40.7128 for incident location", "entities": [[34, 41, "LATITUDE"]]}
+{"text": "Threat intelligence report includes latitude 35.6762 for threat actor location", "entities": [[45, 52, "LATITUDE"]]}
+{"text": "Geolocation analysis shows attack originated at latitude 40.7128", "entities": [[57, 64, "LATITUDE"]]}
+{"text": "Threat intelligence report includes latitude 51.5074 for threat actor location", "entities": [[45, 52, "LATITUDE"]]}
+{"text": "GPS coordinates indicate latitude -33.8688 for incident location", "entities": [[34, 42, "LATITUDE"]]}
+{"text": "GPS coordinates indicate latitude 35.6762 for incident location", "entities": [[34, 41, "LATITUDE"]]}
+{"text": "Geolocation analysis shows attack originated at latitude 51.5074", "entities": [[57, 64, "LATITUDE"]]}
+{"text": "Threat intelligence report includes latitude 40.7128 for threat actor location", "entities": [[45, 52, "LATITUDE"]]}
+{"text": "Geolocation analysis shows attack originated at latitude 51.5074", "entities": [[57, 64, "LATITUDE"]]}
+{"text": "Security incident occurred at latitude 40.7128 according to logs", "entities": [[39, 46, "LATITUDE"]]}
+{"text": "Forensics team identified latitude 37.7749 from device logs", "entities": [[35, 42, "LATITUDE"]]}
+{"text": "Security incident occurred at latitude 35.6762 according to logs", "entities": [[39, 46, "LATITUDE"]]}
+{"text": "Forensics team identified latitude 35.6762 from device logs", "entities": [[35, 42, "LATITUDE"]]}
+{"text": "GPS coordinates indicate latitude 40.7128 for incident location", "entities": [[34, 41, "LATITUDE"]]}
+{"text": "Security incident occurred at latitude 37.7749 according to logs", "entities": [[39, 46, "LATITUDE"]]}
+{"text": "Security incident occurred at latitude 51.5074 according to logs", "entities": [[39, 46, "LATITUDE"]]}
+{"text": "Forensics team identified latitude 40.7128 from device logs", "entities": [[35, 42, "LATITUDE"]]}
+{"text": "Geolocation analysis shows attack originated at latitude 35.6762", "entities": [[57, 64, "LATITUDE"]]}
+{"text": "Security incident occurred at latitude 40.7128 according to logs", "entities": [[39, 46, "LATITUDE"]]}
+{"text": "Security incident occurred at latitude 40.7128 according to logs", "entities": [[39, 46, "LATITUDE"]]}
+{"text": "Forensics team identified latitude 35.6762 from device logs", "entities": [[35, 42, "LATITUDE"]]}
+{"text": "Forensics team identified longitude -122.4194 from device logs", "entities": [[36, 45, "LONGITUDE"]]}
+{"text": "Security incident occurred at longitude 139.6503 according to logs", "entities": [[40, 48, "LONGITUDE"]]}
+{"text": "Security incident occurred at longitude -122.4194 according to logs", "entities": [[40, 49, "LONGITUDE"]]}
+{"text": "Geolocation analysis shows attack originated at longitude 151.2093", "entities": [[58, 66, "LONGITUDE"]]}
+{"text": "Geolocation analysis shows attack originated at longitude -0.1278", "entities": [[58, 65, "LONGITUDE"]]}
+{"text": "Forensics team identified longitude -74.0060 from device logs", "entities": [[36, 44, "LONGITUDE"]]}
+{"text": "GPS coordinates indicate longitude 151.2093 for incident location", "entities": [[35, 43, "LONGITUDE"]]}
+{"text": "Forensics team identified longitude 151.2093 from device logs", "entities": [[36, 44, "LONGITUDE"]]}
+{"text": "GPS coordinates indicate longitude -122.4194 for incident location", "entities": [[35, 44, "LONGITUDE"]]}
+{"text": "GPS coordinates indicate longitude 139.6503 for incident location", "entities": [[35, 43, "LONGITUDE"]]}
+{"text": "Threat intelligence report includes longitude 151.2093 for threat actor location", "entities": [[46, 54, "LONGITUDE"]]}
+{"text": "Security incident occurred at longitude 139.6503 according to logs", "entities": [[40, 48, "LONGITUDE"]]}
+{"text": "Forensics team identified longitude 151.2093 from device logs", "entities": [[36, 44, "LONGITUDE"]]}
+{"text": "Geolocation analysis shows attack originated at longitude -0.1278", "entities": [[58, 65, "LONGITUDE"]]}
+{"text": "Security incident occurred at longitude -122.4194 according to logs", "entities": [[40, 49, "LONGITUDE"]]}
+{"text": "Geolocation analysis shows attack originated at longitude 151.2093", "entities": [[58, 66, "LONGITUDE"]]}
+{"text": "Security incident occurred at longitude -0.1278 according to logs", "entities": [[40, 47, "LONGITUDE"]]}
+{"text": "Geolocation analysis shows attack originated at longitude -122.4194", "entities": [[58, 67, "LONGITUDE"]]}
+{"text": "Forensics team identified longitude -74.0060 from device logs", "entities": [[36, 44, "LONGITUDE"]]}
+{"text": "Threat intelligence report includes longitude -0.1278 for threat actor location", "entities": [[46, 53, "LONGITUDE"]]}
+{"text": "Threat intelligence report includes longitude -122.4194 for threat actor location", "entities": [[46, 55, "LONGITUDE"]]}
+{"text": "GPS coordinates indicate longitude -122.4194 for incident location", "entities": [[35, 44, "LONGITUDE"]]}
+{"text": "Security incident occurred at longitude -74.0060 according to logs", "entities": [[40, 48, "LONGITUDE"]]}
+{"text": "Security incident occurred at longitude -74.0060 according to logs", "entities": [[40, 48, "LONGITUDE"]]}
+{"text": "Forensics team identified longitude -122.4194 from device logs", "entities": [[36, 45, "LONGITUDE"]]}
+{"text": "Forensics team identified longitude -0.1278 from device logs", "entities": [[36, 43, "LONGITUDE"]]}
+{"text": "Security incident occurred at longitude -122.4194 according to logs", "entities": [[40, 49, "LONGITUDE"]]}
+{"text": "GPS coordinates indicate longitude -0.1278 for incident location", "entities": [[35, 42, "LONGITUDE"]]}
+{"text": "GPS coordinates indicate longitude 151.2093 for incident location", "entities": [[35, 43, "LONGITUDE"]]}
+{"text": "Forensics team identified longitude -0.1278 from device logs", "entities": [[36, 43, "LONGITUDE"]]}
+{"text": "APT28 used WannaCry ransomware to attack IP 172.16.0.1 and domain evil.com", "entities": [[44, 54, "IP_ADDRESS"]]}
+{"text": "Router at 192.168.0.1 shows suspicious activity", "entities": [[10, 21, "IP_ADDRESS"]]}
+{"text": "APT41 CVE-2021-44228 Log4j vulnerability exploitation detected from 10.0.0.5", "entities": [[68, 76, "IP_ADDRESS"]]}
+{"text": "Threat actor accessed system from 172.20.0.50", "entities": [[34, 45, "IP_ADDRESS"]]}
+{"text": "can u check this ip 8.8.8.8 pls?", "entities": [[20, 27, "IP_ADDRESS"]]}
+{"text": "IPv6 2001:db8:abcd:ef01:2345:6789:abcd:ef01 detected", "entities": [[5, 43, "IPV6_ADDRESS"]]}
+{"text": "IPv6 2001:db8:2:3:4:5:6:7 flagged for malware", "entities": [[5, 25, "IPV6_ADDRESS"]]}
+{"text": "Investigate IPv6 address 2001:db8::1 for suspicious activity", "entities": [[25, 36, "IPV6_ADDRESS"]]}
+{"text": "Phishing campaign using domain phishing-example.co.uk", "entities": [[31, 53, "DOMAIN"]]}
+{"text": "Fake banking site at fake-bank.com detected", "entities": [[21, 34, "DOMAIN"]]}
+{"text": "Block domain malicious-domain.net for phishing", "entities": [[13, 33, "DOMAIN"]]}
+{"text": "I need to check if the domain example.com is safe", "entities": [[30, 41, "DOMAIN"]]}
+{"text": "Compromised site compromised-site.net serving malware", "entities": [[17, 37, "DOMAIN"]]}
+{"text": "Check IP: 10.0.0.1, Domain: test.com, Email: user@test.com, Phone: +1-555-123-4567", "entities": [[45, 59, "EMAIL_ADDRESS"]]}
+{"text": "Suspicious email from suspicious@domain.org flagged", "entities": [[22, 43, "EMAIL_ADDRESS"]]}
+{"text": "Threat actor email threat@actor.com identified", "entities": [[19, 35, "EMAIL_ADDRESS"]]}
+{"text": "Phishing email from phishing@evil.com detected", "entities": [[20, 37, "EMAIL_ADDRESS"]]}
+{"text": "Malware distribution email malware@host.io identified", "entities": [[27, 42, "EMAIL_ADDRESS"]]}
+{"text": "PII leak detected: SSN 123-45-6789, phone +44 20 7946 0958", "entities": [[42, 58, "PHONE_NUMBER"]]}
+{"text": "German phone +49 30 12345678 used in phishing campaign", "entities": [[13, 28, "PHONE_NUMBER"]]}
+{"text": "Phone number 555-123-4567 associated with threat actor", "entities": [[13, 25, "PHONE_NUMBER"]]}
+{"text": "Russian phone +7 495 123-45-67 associated with APT group", "entities": [[14, 30, "PHONE_NUMBER"]]}
+{"text": "International phone +33 1 23 45 67 89 linked to fraud", "entities": [[20, 37, "PHONE_NUMBER"]]}
+{"text": "Detected TrickBot malware on endpoint", "entities": [[9, 17, "MALWARE_TYPE"]]}
+{"text": "Threat actor used TrickBot ransomware in attack", "entities": [[18, 26, "MALWARE_TYPE"]]}
+{"text": "Investigate TrickBot infection on system", "entities": [[12, 20, "MALWARE_TYPE"]]}
+{"text": "Block TrickBot variant from network", "entities": [[6, 14, "MALWARE_TYPE"]]}
+{"text": "Analyze TrickBot payload and behavior", "entities": [[8, 16, "MALWARE_TYPE"]]}
+{"text": "Report TrickBot detection to security team", "entities": [[7, 15, "MALWARE_TYPE"]]}
+{"text": "Quarantine TrickBot sample for analysis", "entities": [[11, 19, "MALWARE_TYPE"]]}
+{"text": "Track TrickBot campaign indicators", "entities": [[6, 14, "MALWARE_TYPE"]]}
+{"text": "Remediate TrickBot infection on host", "entities": [[10, 18, "MALWARE_TYPE"]]}
+{"text": "Monitor for TrickBot activity in network", "entities": [[12, 20, "MALWARE_TYPE"]]}
+{"text": "Detected Conficker malware on endpoint", "entities": [[9, 18, "MALWARE_TYPE"]]}
+{"text": "Threat actor used Conficker ransomware in attack", "entities": [[18, 27, "MALWARE_TYPE"]]}
+{"text": "Investigate Conficker infection on system", "entities": [[12, 21, "MALWARE_TYPE"]]}
+{"text": "Block Conficker variant from network", "entities": [[6, 15, "MALWARE_TYPE"]]}
+{"text": "Analyze Conficker payload and behavior", "entities": [[8, 17, "MALWARE_TYPE"]]}
+{"text": "Report Conficker detection to security team", "entities": [[7, 16, "MALWARE_TYPE"]]}
+{"text": "Quarantine Conficker sample for analysis", "entities": [[11, 20, "MALWARE_TYPE"]]}
+{"text": "Track Conficker campaign indicators", "entities": [[6, 15, "MALWARE_TYPE"]]}
+{"text": "Remediate Conficker infection on host", "entities": [[10, 19, "MALWARE_TYPE"]]}
+{"text": "Monitor for Conficker activity in network", "entities": [[12, 21, "MALWARE_TYPE"]]}
+{"text": "Detected Stuxnet malware on endpoint", "entities": [[9, 16, "MALWARE_TYPE"]]}
+{"text": "Threat actor used Stuxnet ransomware in attack", "entities": [[18, 25, "MALWARE_TYPE"]]}
+{"text": "Investigate Stuxnet infection on system", "entities": [[12, 19, "MALWARE_TYPE"]]}
+{"text": "Block Stuxnet variant from network", "entities": [[6, 13, "MALWARE_TYPE"]]}
+{"text": "Analyze Stuxnet payload and behavior", "entities": [[8, 15, "MALWARE_TYPE"]]}
+{"text": "Report Stuxnet detection to security team", "entities": [[7, 14, "MALWARE_TYPE"]]}
+{"text": "Quarantine Stuxnet sample for analysis", "entities": [[11, 18, "MALWARE_TYPE"]]}
+{"text": "Track Stuxnet campaign indicators", "entities": [[6, 13, "MALWARE_TYPE"]]}
+{"text": "Remediate Stuxnet infection on host", "entities": [[10, 17, "MALWARE_TYPE"]]}
+{"text": "Monitor for Stuxnet activity in network", "entities": [[12, 19, "MALWARE_TYPE"]]}
+{"text": "Detected Code Red malware on endpoint", "entities": [[9, 17, "MALWARE_TYPE"]]}
+{"text": "Threat actor used Code Red ransomware in attack", "entities": [[18, 26, "MALWARE_TYPE"]]}
+{"text": "Investigate Code Red infection on system", "entities": [[12, 20, "MALWARE_TYPE"]]}
+{"text": "Block Code Red variant from network", "entities": [[6, 14, "MALWARE_TYPE"]]}
+{"text": "Analyze Code Red payload and behavior", "entities": [[8, 16, "MALWARE_TYPE"]]}
+{"text": "Report Code Red detection to security team", "entities": [[7, 15, "MALWARE_TYPE"]]}
+{"text": "Quarantine Code Red sample for analysis", "entities": [[11, 19, "MALWARE_TYPE"]]}
+{"text": "Track Code Red campaign indicators", "entities": [[6, 14, "MALWARE_TYPE"]]}
+{"text": "Remediate Code Red infection on host", "entities": [[10, 18, "MALWARE_TYPE"]]}
+{"text": "Monitor for Code Red activity in network", "entities": [[12, 20, "MALWARE_TYPE"]]}
+{"text": "Detected Slammer malware on endpoint", "entities": [[9, 16, "MALWARE_TYPE"]]}
+{"text": "Threat actor used Slammer ransomware in attack", "entities": [[18, 25, "MALWARE_TYPE"]]}
+{"text": "Investigate Slammer infection on system", "entities": [[12, 19, "MALWARE_TYPE"]]}
+{"text": "Block Slammer variant from network", "entities": [[6, 13, "MALWARE_TYPE"]]}
+{"text": "Analyze Slammer payload and behavior", "entities": [[8, 15, "MALWARE_TYPE"]]}
+{"text": "Report Slammer detection to security team", "entities": [[7, 14, "MALWARE_TYPE"]]}
+{"text": "Quarantine Slammer sample for analysis", "entities": [[11, 18, "MALWARE_TYPE"]]}
+{"text": "Track Slammer campaign indicators", "entities": [[6, 13, "MALWARE_TYPE"]]}
+{"text": "Remediate Slammer infection on host", "entities": [[10, 17, "MALWARE_TYPE"]]}
+{"text": "Monitor for Slammer activity in network", "entities": [[12, 19, "MALWARE_TYPE"]]}
+{"text": "Attack detected on 2023-01-01", "entities": [[19, 29, "DATE"]]}
+{"text": "Compliance audit on 2023-01-01", "entities": [[20, 30, "DATE"]]}
+{"text": "Security scan on 2023-01-01", "entities": [[17, 27, "DATE"]]}
+{"text": "Event logged on 2023-01-01", "entities": [[16, 26, "DATE"]]}
+{"text": "Alert triggered on 2023-01-01", "entities": [[19, 29, "DATE"]]}
+{"text": "Backup created on 2023-01-01", "entities": [[18, 28, "DATE"]]}
+{"text": "Access granted on 2023-01-01", "entities": [[18, 28, "DATE"]]}
+{"text": "Incident occurred on 11/30/2024", "entities": [[21, 31, "DATE"]]}
+{"text": "Vulnerability discovered on 11/30/2024", "entities": [[28, 38, "DATE"]]}
+{"text": "Report generated on 11/30/2024", "entities": [[20, 30, "DATE"]]}
+{"text": "Attack detected on 11/30/2024", "entities": [[19, 29, "DATE"]]}
+{"text": "Compliance audit on 11/30/2024", "entities": [[20, 30, "DATE"]]}
+{"text": "Security scan on 11/30/2024", "entities": [[17, 27, "DATE"]]}
+{"text": "Event logged on 11/30/2024", "entities": [[16, 26, "DATE"]]}
+{"text": "Alert triggered on 11/30/2024", "entities": [[19, 29, "DATE"]]}
+{"text": "Backup created on 11/30/2024", "entities": [[18, 28, "DATE"]]}
+{"text": "Access granted on 11/30/2024", "entities": [[18, 28, "DATE"]]}
+{"text": "Incident occurred on 11-30-2024", "entities": [[21, 31, "DATE"]]}
+{"text": "Vulnerability discovered on 11-30-2024", "entities": [[28, 38, "DATE"]]}
+{"text": "Report generated on 11-30-2024", "entities": [[20, 30, "DATE"]]}
+{"text": "Attack detected on 11-30-2024", "entities": [[19, 29, "DATE"]]}
+{"text": "Compliance audit on 11-30-2024", "entities": [[20, 30, "DATE"]]}
+{"text": "Security scan on 11-30-2024", "entities": [[17, 27, "DATE"]]}
+{"text": "Event logged on 11-30-2024", "entities": [[16, 26, "DATE"]]}
+{"text": "Alert triggered on 11-30-2024", "entities": [[19, 29, "DATE"]]}
+{"text": "Backup created on 11-30-2024", "entities": [[18, 28, "DATE"]]}
+{"text": "Access granted on 11-30-2024", "entities": [[18, 28, "DATE"]]}
+{"text": "Incident occurred on 30-Nov-2024", "entities": [[21, 32, "DATE"]]}
+{"text": "Vulnerability discovered on 30-Nov-2024", "entities": [[28, 39, "DATE"]]}
+{"text": "Report generated on 30-Nov-2024", "entities": [[20, 31, "DATE"]]}
+{"text": "Attack detected on 30-Nov-2024", "entities": [[19, 30, "DATE"]]}
+{"text": "Compliance audit on 30-Nov-2024", "entities": [[20, 31, "DATE"]]}
+{"text": "Security scan on 30-Nov-2024", "entities": [[17, 28, "DATE"]]}
+{"text": "File hash 5d41402abc4b2a76b9719d911017c592 detected as malicious", "entities": [[10, 42, "HASH"]]}
+{"text": "MD5 hash 5d41402abc4b2a76b9719d911017c592 matches known malware", "entities": [[9, 41, "HASH"]]}
+{"text": "SHA256 hash 5d41402abc4b2a76b9719d911017c592 verified", "entities": [[12, 44, "HASH"]]}
+{"text": "Hash 5d41402abc4b2a76b9719d911017c592 found in threat database", "entities": [[5, 37, "HASH"]]}
+{"text": "Verify file hash 5d41402abc4b2a76b9719d911017c592", "entities": [[17, 49, "HASH"]]}
+{"text": "Check hash 5d41402abc4b2a76b9719d911017c592 against IOC database", "entities": [[11, 43, "HASH"]]}
+{"text": "Hash 5d41402abc4b2a76b9719d911017c592 identified as suspicious", "entities": [[5, 37, "HASH"]]}
+{"text": "Analyze hash 5d41402abc4b2a76b9719d911017c592 for indicators", "entities": [[13, 45, "HASH"]]}
+{"text": "Hash 5d41402abc4b2a76b9719d911017c592 matches threat actor tool", "entities": [[5, 37, "HASH"]]}
+{"text": "Investigate hash 5d41402abc4b2a76b9719d911017c592 origin", "entities": [[17, 49, "HASH"]]}
+{"text": "File hash da39a3ee5e6b4b0d3255bfef95601890afd80709 detected as malicious", "entities": [[10, 50, "HASH"]]}
+{"text": "MD5 hash da39a3ee5e6b4b0d3255bfef95601890afd80709 matches known malware", "entities": [[9, 49, "HASH"]]}
+{"text": "SHA256 hash da39a3ee5e6b4b0d3255bfef95601890afd80709 verified", "entities": [[12, 52, "HASH"]]}
+{"text": "Threat actor Wizard Spider detected", "entities": [[13, 26, "THREAT_ACTOR"]]}
+{"text": "APT group Wizard Spider activity", "entities": [[10, 23, "THREAT_ACTOR"]]}
+{"text": "Investigate Wizard Spider campaign", "entities": [[12, 25, "THREAT_ACTOR"]]}
+{"text": "Track Wizard Spider indicators", "entities": [[6, 19, "THREAT_ACTOR"]]}
+{"text": "Analyze Wizard Spider tactics", "entities": [[8, 21, "THREAT_ACTOR"]]}
+{"text": "Report Wizard Spider activity", "entities": [[7, 20, "THREAT_ACTOR"]]}
+{"text": "Monitor Wizard Spider operations", "entities": [[8, 21, "THREAT_ACTOR"]]}
+{"text": "Attribute attack to Wizard Spider", "entities": [[20, 33, "THREAT_ACTOR"]]}
+{"text": "Identify Wizard Spider infrastructure", "entities": [[9, 22, "THREAT_ACTOR"]]}
+{"text": "Block Wizard Spider communications", "entities": [[6, 19, "THREAT_ACTOR"]]}
+{"text": "Threat actor Ryuk detected", "entities": [[13, 17, "THREAT_ACTOR"]]}
+{"text": "APT group Ryuk activity", "entities": [[10, 14, "THREAT_ACTOR"]]}
+{"text": "Investigate Ryuk campaign", "entities": [[12, 16, "THREAT_ACTOR"]]}
+{"text": "Track Ryuk indicators", "entities": [[6, 10, "THREAT_ACTOR"]]}
+{"text": "Analyze Ryuk tactics", "entities": [[8, 12, "THREAT_ACTOR"]]}
+{"text": "Report Ryuk activity", "entities": [[7, 11, "THREAT_ACTOR"]]}
+{"text": "Monitor Ryuk operations", "entities": [[8, 12, "THREAT_ACTOR"]]}
+{"text": "Attribute attack to Ryuk", "entities": [[20, 24, "THREAT_ACTOR"]]}
+{"text": "Identify Ryuk infrastructure", "entities": [[9, 13, "THREAT_ACTOR"]]}
+{"text": "Block Ryuk communications", "entities": [[6, 10, "THREAT_ACTOR"]]}
+{"text": "Threat actor Conti detected", "entities": [[13, 18, "THREAT_ACTOR"]]}
+{"text": "APT group Conti activity", "entities": [[10, 15, "THREAT_ACTOR"]]}
+{"text": "Investigate Conti campaign", "entities": [[12, 17, "THREAT_ACTOR"]]}
+{"text": "Track Conti indicators", "entities": [[6, 11, "THREAT_ACTOR"]]}
+{"text": "Analyze Conti tactics", "entities": [[8, 13, "THREAT_ACTOR"]]}
+{"text": "Report Conti activity", "entities": [[7, 12, "THREAT_ACTOR"]]}
+{"text": "Monitor Conti operations", "entities": [[8, 13, "THREAT_ACTOR"]]}
+{"text": "Attribute attack to Conti", "entities": [[20, 25, "THREAT_ACTOR"]]}
+{"text": "Identify Conti infrastructure", "entities": [[9, 14, "THREAT_ACTOR"]]}
+{"text": "Block Conti communications", "entities": [[6, 11, "THREAT_ACTOR"]]}
+{"text": "Threat actor Maze detected", "entities": [[13, 17, "THREAT_ACTOR"]]}
+{"text": "APT group Maze activity", "entities": [[10, 14, "THREAT_ACTOR"]]}
+{"text": "Investigate Maze campaign", "entities": [[12, 16, "THREAT_ACTOR"]]}
+{"text": "Track Maze indicators", "entities": [[6, 10, "THREAT_ACTOR"]]}
+{"text": "Analyze Maze tactics", "entities": [[8, 12, "THREAT_ACTOR"]]}
+{"text": "Report Maze activity", "entities": [[7, 11, "THREAT_ACTOR"]]}
+{"text": "Monitor Maze operations", "entities": [[8, 12, "THREAT_ACTOR"]]}
+{"text": "Attribute attack to Maze", "entities": [[20, 24, "THREAT_ACTOR"]]}
+{"text": "Identify Maze infrastructure", "entities": [[9, 13, "THREAT_ACTOR"]]}
+{"text": "Block Maze communications", "entities": [[6, 10, "THREAT_ACTOR"]]}
+{"text": "Threat actor REvil detected", "entities": [[13, 18, "THREAT_ACTOR"]]}
+{"text": "APT group REvil activity", "entities": [[10, 15, "THREAT_ACTOR"]]}
+{"text": "Investigate REvil campaign", "entities": [[12, 17, "THREAT_ACTOR"]]}
+{"text": "Track REvil indicators", "entities": [[6, 11, "THREAT_ACTOR"]]}
+{"text": "Analyze REvil tactics", "entities": [[8, 13, "THREAT_ACTOR"]]}
+{"text": "Report REvil activity", "entities": [[7, 12, "THREAT_ACTOR"]]}
+{"text": "Monitor REvil operations", "entities": [[8, 13, "THREAT_ACTOR"]]}
+{"text": "Attribute attack to REvil", "entities": [[20, 25, "THREAT_ACTOR"]]}
+{"text": "Identify REvil infrastructure", "entities": [[9, 14, "THREAT_ACTOR"]]}
+{"text": "Block REvil communications", "entities": [[6, 11, "THREAT_ACTOR"]]}
+{"text": "Threat actor LockBit detected", "entities": [[13, 20, "THREAT_ACTOR"]]}
+{"text": "APT group LockBit activity", "entities": [[10, 17, "THREAT_ACTOR"]]}
+{"text": "Investigate LockBit campaign", "entities": [[12, 19, "THREAT_ACTOR"]]}
+{"text": "Track LockBit indicators", "entities": [[6, 13, "THREAT_ACTOR"]]}
+{"text": "Analyze LockBit tactics", "entities": [[8, 15, "THREAT_ACTOR"]]}
+{"text": "Report LockBit activity", "entities": [[7, 14, "THREAT_ACTOR"]]}
+{"text": "Monitor LockBit operations", "entities": [[8, 15, "THREAT_ACTOR"]]}
+{"text": "Attribute attack to LockBit", "entities": [[20, 27, "THREAT_ACTOR"]]}
+{"text": "Identify LockBit infrastructure", "entities": [[9, 16, "THREAT_ACTOR"]]}
+{"text": "Block LockBit communications", "entities": [[6, 13, "THREAT_ACTOR"]]}
+{"text": "Detected TrickBot malware on endpoint", "entities": [[9, 17, "MALWARE_TYPE"]]}
+{"text": "Threat actor used TrickBot ransomware in attack", "entities": [[18, 26, "MALWARE_TYPE"]]}
+{"text": "Investigate TrickBot infection on system", "entities": [[12, 20, "MALWARE_TYPE"]]}
+{"text": "Block TrickBot variant from network", "entities": [[6, 14, "MALWARE_TYPE"]]}
+{"text": "Analyze TrickBot payload and behavior", "entities": [[8, 16, "MALWARE_TYPE"]]}
+{"text": "Report TrickBot detection to security team", "entities": [[7, 15, "MALWARE_TYPE"]]}
+{"text": "Quarantine TrickBot sample for analysis", "entities": [[11, 19, "MALWARE_TYPE"]]}
+{"text": "Track TrickBot campaign indicators", "entities": [[6, 14, "MALWARE_TYPE"]]}
+{"text": "Remediate TrickBot infection on host", "entities": [[10, 18, "MALWARE_TYPE"]]}
+{"text": "Monitor for TrickBot activity in network", "entities": [[12, 20, "MALWARE_TYPE"]]}
+{"text": "Detected Conficker malware on endpoint", "entities": [[9, 18, "MALWARE_TYPE"]]}
+{"text": "Threat actor used Conficker ransomware in attack", "entities": [[18, 27, "MALWARE_TYPE"]]}
+{"text": "Investigate Conficker infection on system", "entities": [[12, 21, "MALWARE_TYPE"]]}
+{"text": "Block Conficker variant from network", "entities": [[6, 15, "MALWARE_TYPE"]]}
+{"text": "Analyze Conficker payload and behavior", "entities": [[8, 17, "MALWARE_TYPE"]]}
+{"text": "Report Conficker detection to security team", "entities": [[7, 16, "MALWARE_TYPE"]]}
+{"text": "Quarantine Conficker sample for analysis", "entities": [[11, 20, "MALWARE_TYPE"]]}
+{"text": "Track Conficker campaign indicators", "entities": [[6, 15, "MALWARE_TYPE"]]}
+{"text": "Remediate Conficker infection on host", "entities": [[10, 19, "MALWARE_TYPE"]]}
+{"text": "Monitor for Conficker activity in network", "entities": [[12, 21, "MALWARE_TYPE"]]}
+{"text": "Detected Stuxnet malware on endpoint", "entities": [[9, 16, "MALWARE_TYPE"]]}
+{"text": "Threat actor used Stuxnet ransomware in attack", "entities": [[18, 25, "MALWARE_TYPE"]]}
+{"text": "Investigate Stuxnet infection on system", "entities": [[12, 19, "MALWARE_TYPE"]]}
+{"text": "Block Stuxnet variant from network", "entities": [[6, 13, "MALWARE_TYPE"]]}
+{"text": "Analyze Stuxnet payload and behavior", "entities": [[8, 15, "MALWARE_TYPE"]]}
+{"text": "Report Stuxnet detection to security team", "entities": [[7, 14, "MALWARE_TYPE"]]}
+{"text": "Quarantine Stuxnet sample for analysis", "entities": [[11, 18, "MALWARE_TYPE"]]}
+{"text": "Track Stuxnet campaign indicators", "entities": [[6, 13, "MALWARE_TYPE"]]}
+{"text": "Remediate Stuxnet infection on host", "entities": [[10, 17, "MALWARE_TYPE"]]}
+{"text": "Monitor for Stuxnet activity in network", "entities": [[12, 19, "MALWARE_TYPE"]]}
+{"text": "Detected Code Red malware on endpoint", "entities": [[9, 17, "MALWARE_TYPE"]]}
+{"text": "Threat actor used Code Red ransomware in attack", "entities": [[18, 26, "MALWARE_TYPE"]]}
+{"text": "Investigate Code Red infection on system", "entities": [[12, 20, "MALWARE_TYPE"]]}
+{"text": "Block Code Red variant from network", "entities": [[6, 14, "MALWARE_TYPE"]]}
+{"text": "Analyze Code Red payload and behavior", "entities": [[8, 16, "MALWARE_TYPE"]]}
+{"text": "Report Code Red detection to security team", "entities": [[7, 15, "MALWARE_TYPE"]]}
+{"text": "Quarantine Code Red sample for analysis", "entities": [[11, 19, "MALWARE_TYPE"]]}
+{"text": "Track Code Red campaign indicators", "entities": [[6, 14, "MALWARE_TYPE"]]}
+{"text": "Remediate Code Red infection on host", "entities": [[10, 18, "MALWARE_TYPE"]]}
+{"text": "Monitor for Code Red activity in network", "entities": [[12, 20, "MALWARE_TYPE"]]}
+{"text": "Detected Slammer malware on endpoint", "entities": [[9, 16, "MALWARE_TYPE"]]}
+{"text": "Threat actor used Slammer ransomware in attack", "entities": [[18, 25, "MALWARE_TYPE"]]}
+{"text": "Investigate Slammer infection on system", "entities": [[12, 19, "MALWARE_TYPE"]]}
+{"text": "Block Slammer variant from network", "entities": [[6, 13, "MALWARE_TYPE"]]}
+{"text": "Analyze Slammer payload and behavior", "entities": [[8, 15, "MALWARE_TYPE"]]}
+{"text": "Report Slammer detection to security team", "entities": [[7, 14, "MALWARE_TYPE"]]}
+{"text": "Quarantine Slammer sample for analysis", "entities": [[11, 18, "MALWARE_TYPE"]]}
+{"text": "Track Slammer campaign indicators", "entities": [[6, 13, "MALWARE_TYPE"]]}
+{"text": "Remediate Slammer infection on host", "entities": [[10, 17, "MALWARE_TYPE"]]}
+{"text": "Monitor for Slammer activity in network", "entities": [[12, 19, "MALWARE_TYPE"]]}
+{"text": "Attack detected on 2023-01-01", "entities": [[19, 29, "DATE"]]}
+{"text": "Compliance audit on 2023-01-01", "entities": [[20, 30, "DATE"]]}
+{"text": "Security scan on 2023-01-01", "entities": [[17, 27, "DATE"]]}
+{"text": "Event logged on 2023-01-01", "entities": [[16, 26, "DATE"]]}
+{"text": "Alert triggered on 2023-01-01", "entities": [[19, 29, "DATE"]]}
+{"text": "Backup created on 2023-01-01", "entities": [[18, 28, "DATE"]]}
+{"text": "Access granted on 2023-01-01", "entities": [[18, 28, "DATE"]]}
+{"text": "Incident occurred on 11/30/2024", "entities": [[21, 31, "DATE"]]}
+{"text": "Vulnerability discovered on 11/30/2024", "entities": [[28, 38, "DATE"]]}
+{"text": "Report generated on 11/30/2024", "entities": [[20, 30, "DATE"]]}
+{"text": "Attack detected on 11/30/2024", "entities": [[19, 29, "DATE"]]}
+{"text": "Compliance audit on 11/30/2024", "entities": [[20, 30, "DATE"]]}
+{"text": "Security scan on 11/30/2024", "entities": [[17, 27, "DATE"]]}
+{"text": "Event logged on 11/30/2024", "entities": [[16, 26, "DATE"]]}
+{"text": "Alert triggered on 11/30/2024", "entities": [[19, 29, "DATE"]]}
+{"text": "Backup created on 11/30/2024", "entities": [[18, 28, "DATE"]]}
+{"text": "Access granted on 11/30/2024", "entities": [[18, 28, "DATE"]]}
+{"text": "Incident occurred on 11-30-2024", "entities": [[21, 31, "DATE"]]}
+{"text": "Vulnerability discovered on 11-30-2024", "entities": [[28, 38, "DATE"]]}
+{"text": "Report generated on 11-30-2024", "entities": [[20, 30, "DATE"]]}
+{"text": "Attack detected on 11-30-2024", "entities": [[19, 29, "DATE"]]}
+{"text": "Compliance audit on 11-30-2024", "entities": [[20, 30, "DATE"]]}
+{"text": "Security scan on 11-30-2024", "entities": [[17, 27, "DATE"]]}
+{"text": "Event logged on 11-30-2024", "entities": [[16, 26, "DATE"]]}
+{"text": "Alert triggered on 11-30-2024", "entities": [[19, 29, "DATE"]]}
+{"text": "Backup created on 11-30-2024", "entities": [[18, 28, "DATE"]]}
+{"text": "Access granted on 11-30-2024", "entities": [[18, 28, "DATE"]]}
+{"text": "Incident occurred on 30-Nov-2024", "entities": [[21, 32, "DATE"]]}
+{"text": "Vulnerability discovered on 30-Nov-2024", "entities": [[28, 39, "DATE"]]}
+{"text": "Report generated on 30-Nov-2024", "entities": [[20, 31, "DATE"]]}
+{"text": "Attack detected on 30-Nov-2024", "entities": [[19, 30, "DATE"]]}
+{"text": "Compliance audit on 30-Nov-2024", "entities": [[20, 31, "DATE"]]}
+{"text": "Security scan on 30-Nov-2024", "entities": [[17, 28, "DATE"]]}
+{"text": "File hash 5d41402abc4b2a76b9719d911017c592 detected as malicious", "entities": [[10, 42, "HASH"]]}
+{"text": "MD5 hash 5d41402abc4b2a76b9719d911017c592 matches known malware", "entities": [[9, 41, "HASH"]]}
+{"text": "SHA256 hash 5d41402abc4b2a76b9719d911017c592 verified", "entities": [[12, 44, "HASH"]]}
+{"text": "Hash 5d41402abc4b2a76b9719d911017c592 found in threat database", "entities": [[5, 37, "HASH"]]}
+{"text": "Verify file hash 5d41402abc4b2a76b9719d911017c592", "entities": [[17, 49, "HASH"]]}
+{"text": "Check hash 5d41402abc4b2a76b9719d911017c592 against IOC database", "entities": [[11, 43, "HASH"]]}
+{"text": "Hash 5d41402abc4b2a76b9719d911017c592 identified as suspicious", "entities": [[5, 37, "HASH"]]}
+{"text": "Analyze hash 5d41402abc4b2a76b9719d911017c592 for indicators", "entities": [[13, 45, "HASH"]]}
+{"text": "Hash 5d41402abc4b2a76b9719d911017c592 matches threat actor tool", "entities": [[5, 37, "HASH"]]}
+{"text": "Investigate hash 5d41402abc4b2a76b9719d911017c592 origin", "entities": [[17, 49, "HASH"]]}
+{"text": "File hash da39a3ee5e6b4b0d3255bfef95601890afd80709 detected as malicious", "entities": [[10, 50, "HASH"]]}
+{"text": "MD5 hash da39a3ee5e6b4b0d3255bfef95601890afd80709 matches known malware", "entities": [[9, 49, "HASH"]]}
+{"text": "SHA256 hash da39a3ee5e6b4b0d3255bfef95601890afd80709 verified", "entities": [[12, 52, "HASH"]]}
+{"text": "Threat actor Wizard Spider detected", "entities": [[13, 26, "THREAT_ACTOR"]]}
+{"text": "APT group Wizard Spider activity", "entities": [[10, 23, "THREAT_ACTOR"]]}
+{"text": "Investigate Wizard Spider campaign", "entities": [[12, 25, "THREAT_ACTOR"]]}
+{"text": "Track Wizard Spider indicators", "entities": [[6, 19, "THREAT_ACTOR"]]}
+{"text": "Analyze Wizard Spider tactics", "entities": [[8, 21, "THREAT_ACTOR"]]}
+{"text": "Report Wizard Spider activity", "entities": [[7, 20, "THREAT_ACTOR"]]}
+{"text": "Monitor Wizard Spider operations", "entities": [[8, 21, "THREAT_ACTOR"]]}
+{"text": "Attribute attack to Wizard Spider", "entities": [[20, 33, "THREAT_ACTOR"]]}
+{"text": "Identify Wizard Spider infrastructure", "entities": [[9, 22, "THREAT_ACTOR"]]}
+{"text": "Block Wizard Spider communications", "entities": [[6, 19, "THREAT_ACTOR"]]}
+{"text": "Threat actor Ryuk detected", "entities": [[13, 17, "THREAT_ACTOR"]]}
+{"text": "APT group Ryuk activity", "entities": [[10, 14, "THREAT_ACTOR"]]}
+{"text": "Investigate Ryuk campaign", "entities": [[12, 16, "THREAT_ACTOR"]]}
+{"text": "Track Ryuk indicators", "entities": [[6, 10, "THREAT_ACTOR"]]}
+{"text": "Analyze Ryuk tactics", "entities": [[8, 12, "THREAT_ACTOR"]]}
+{"text": "Report Ryuk activity", "entities": [[7, 11, "THREAT_ACTOR"]]}
+{"text": "Monitor Ryuk operations", "entities": [[8, 12, "THREAT_ACTOR"]]}
+{"text": "Attribute attack to Ryuk", "entities": [[20, 24, "THREAT_ACTOR"]]}
+{"text": "Identify Ryuk infrastructure", "entities": [[9, 13, "THREAT_ACTOR"]]}
+{"text": "Block Ryuk communications", "entities": [[6, 10, "THREAT_ACTOR"]]}
+{"text": "Threat actor Conti detected", "entities": [[13, 18, "THREAT_ACTOR"]]}
+{"text": "APT group Conti activity", "entities": [[10, 15, "THREAT_ACTOR"]]}
+{"text": "Investigate Conti campaign", "entities": [[12, 17, "THREAT_ACTOR"]]}
+{"text": "Track Conti indicators", "entities": [[6, 11, "THREAT_ACTOR"]]}
+{"text": "Analyze Conti tactics", "entities": [[8, 13, "THREAT_ACTOR"]]}
+{"text": "Report Conti activity", "entities": [[7, 12, "THREAT_ACTOR"]]}
+{"text": "Monitor Conti operations", "entities": [[8, 13, "THREAT_ACTOR"]]}
+{"text": "Attribute attack to Conti", "entities": [[20, 25, "THREAT_ACTOR"]]}
+{"text": "Identify Conti infrastructure", "entities": [[9, 14, "THREAT_ACTOR"]]}
+{"text": "Block Conti communications", "entities": [[6, 11, "THREAT_ACTOR"]]}
+{"text": "Threat actor Maze detected", "entities": [[13, 17, "THREAT_ACTOR"]]}
+{"text": "APT group Maze activity", "entities": [[10, 14, "THREAT_ACTOR"]]}
+{"text": "Investigate Maze campaign", "entities": [[12, 16, "THREAT_ACTOR"]]}
+{"text": "Track Maze indicators", "entities": [[6, 10, "THREAT_ACTOR"]]}
+{"text": "Analyze Maze tactics", "entities": [[8, 12, "THREAT_ACTOR"]]}
+{"text": "Report Maze activity", "entities": [[7, 11, "THREAT_ACTOR"]]}
+{"text": "Monitor Maze operations", "entities": [[8, 12, "THREAT_ACTOR"]]}
+{"text": "Attribute attack to Maze", "entities": [[20, 24, "THREAT_ACTOR"]]}
+{"text": "Identify Maze infrastructure", "entities": [[9, 13, "THREAT_ACTOR"]]}
+{"text": "Block Maze communications", "entities": [[6, 10, "THREAT_ACTOR"]]}
+{"text": "Threat actor REvil detected", "entities": [[13, 18, "THREAT_ACTOR"]]}
+{"text": "APT group REvil activity", "entities": [[10, 15, "THREAT_ACTOR"]]}
+{"text": "Investigate REvil campaign", "entities": [[12, 17, "THREAT_ACTOR"]]}
+{"text": "Track REvil indicators", "entities": [[6, 11, "THREAT_ACTOR"]]}
+{"text": "Analyze REvil tactics", "entities": [[8, 13, "THREAT_ACTOR"]]}
+{"text": "Report REvil activity", "entities": [[7, 12, "THREAT_ACTOR"]]}
+{"text": "Monitor REvil operations", "entities": [[8, 13, "THREAT_ACTOR"]]}
+{"text": "Attribute attack to REvil", "entities": [[20, 25, "THREAT_ACTOR"]]}
+{"text": "Identify REvil infrastructure", "entities": [[9, 14, "THREAT_ACTOR"]]}
+{"text": "Block REvil communications", "entities": [[6, 11, "THREAT_ACTOR"]]}
+{"text": "Threat actor LockBit detected", "entities": [[13, 20, "THREAT_ACTOR"]]}
+{"text": "APT group LockBit activity", "entities": [[10, 17, "THREAT_ACTOR"]]}
+{"text": "Investigate LockBit campaign", "entities": [[12, 19, "THREAT_ACTOR"]]}
+{"text": "Track LockBit indicators", "entities": [[6, 13, "THREAT_ACTOR"]]}
+{"text": "Analyze LockBit tactics", "entities": [[8, 15, "THREAT_ACTOR"]]}
+{"text": "Report LockBit activity", "entities": [[7, 14, "THREAT_ACTOR"]]}
+{"text": "Monitor LockBit operations", "entities": [[8, 15, "THREAT_ACTOR"]]}
+{"text": "Attribute attack to LockBit", "entities": [[20, 27, "THREAT_ACTOR"]]}
+{"text": "Identify LockBit infrastructure", "entities": [[9, 16, "THREAT_ACTOR"]]}
+{"text": "Block LockBit communications", "entities": [[6, 13, "THREAT_ACTOR"]]}
+{"text": "Incident occurred at 2:30 PM", "entities": [[21, 28, "TIME"]]}
+{"text": "Event logged at 2:30 PM", "entities": [[16, 23, "TIME"]]}
+{"text": "Alert triggered at 2:30 PM", "entities": [[19, 26, "TIME"]]}
+{"text": "Access granted at 2:30 PM", "entities": [[18, 25, "TIME"]]}
+{"text": "Attack detected at 2:30 PM", "entities": [[19, 26, "TIME"]]}
+{"text": "Report generated at 2:30 PM", "entities": [[20, 27, "TIME"]]}
+{"text": "Backup created at 2:30 PM", "entities": [[18, 25, "TIME"]]}
+{"text": "Scan completed at 2:30 PM", "entities": [[18, 25, "TIME"]]}
+{"text": "Event timestamp 2:30 PM", "entities": [[16, 23, "TIME"]]}
+{"text": "Log entry at 2:30 PM", "entities": [[13, 20, "TIME"]]}
+{"text": "Incident occurred at 2:00 PM", "entities": [[21, 28, "TIME"]]}
+{"text": "Event logged at 2:00 PM", "entities": [[16, 23, "TIME"]]}
+{"text": "Alert triggered at 2:00 PM", "entities": [[19, 26, "TIME"]]}
+{"text": "Access granted at 2:00 PM", "entities": [[18, 25, "TIME"]]}
+{"text": "Attack detected at 2:00 PM", "entities": [[19, 26, "TIME"]]}
+{"text": "Report generated at 2:00 PM", "entities": [[20, 27, "TIME"]]}
+{"text": "Backup created at 2:00 PM", "entities": [[18, 25, "TIME"]]}
+{"text": "Scan completed at 2:00 PM", "entities": [[18, 25, "TIME"]]}
+{"text": "Event timestamp 2:00 PM", "entities": [[16, 23, "TIME"]]}
+{"text": "Log entry at 2:00 PM", "entities": [[13, 20, "TIME"]]}
+{"text": "Incident occurred at 6:00 PM", "entities": [[21, 28, "TIME"]]}
+{"text": "Event logged at 6:00 PM", "entities": [[16, 23, "TIME"]]}
+{"text": "Alert triggered at 6:00 PM", "entities": [[19, 26, "TIME"]]}
+{"text": "Access granted at 6:00 PM", "entities": [[18, 25, "TIME"]]}
+{"text": "Attack detected at 6:00 PM", "entities": [[19, 26, "TIME"]]}
+{"text": "Report generated at 6:00 PM", "entities": [[20, 27, "TIME"]]}
+{"text": "Backup created at 6:00 PM", "entities": [[18, 25, "TIME"]]}
+{"text": "Scan completed at 6:00 PM", "entities": [[18, 25, "TIME"]]}
+{"text": "Event timestamp 6:00 PM", "entities": [[16, 23, "TIME"]]}
+{"text": "Log entry at 6:00 PM", "entities": [[13, 20, "TIME"]]}
+{"text": "Incident occurred at 14:30 UTC", "entities": [[21, 30, "TIME"]]}
+{"text": "Event logged at 14:30 UTC", "entities": [[16, 25, "TIME"]]}
+{"text": "Alert triggered at 14:30 UTC", "entities": [[19, 28, "TIME"]]}
+{"text": "Access granted at 14:30 UTC", "entities": [[18, 27, "TIME"]]}
+{"text": "Attack detected at 14:30 UTC", "entities": [[19, 28, "TIME"]]}
+{"text": "Report generated at 14:30 UTC", "entities": [[20, 29, "TIME"]]}
+{"text": "Backup created at 14:30 UTC", "entities": [[18, 27, "TIME"]]}
+{"text": "Scan completed at 14:30 UTC", "entities": [[18, 27, "TIME"]]}
+{"text": "Event timestamp 14:30 UTC", "entities": [[16, 25, "TIME"]]}
+{"text": "Log entry at 14:30 UTC", "entities": [[13, 22, "TIME"]]}
+{"text": "Incident occurred at 14:00 EST", "entities": [[21, 30, "TIME"]]}
+{"text": "Event logged at 14:00 EST", "entities": [[16, 25, "TIME"]]}
+{"text": "Alert triggered at 14:00 EST", "entities": [[19, 28, "TIME"]]}
+{"text": "Access granted at 14:00 EST", "entities": [[18, 27, "TIME"]]}
+{"text": "Attack detected at 14:00 EST", "entities": [[19, 28, "TIME"]]}
+{"text": "Report generated at 14:00 EST", "entities": [[20, 29, "TIME"]]}
+{"text": "Backup created at 14:00 EST", "entities": [[18, 27, "TIME"]]}
+{"text": "Scan completed at 14:00 EST", "entities": [[18, 27, "TIME"]]}
+{"text": "Event timestamp 14:00 EST", "entities": [[16, 25, "TIME"]]}
+{"text": "Log entry at 14:00 EST", "entities": [[13, 22, "TIME"]]}
+{"text": "Incident occurred at 18:00 PST", "entities": [[21, 30, "TIME"]]}
+{"text": "Event logged at 18:00 PST", "entities": [[16, 25, "TIME"]]}
+{"text": "Alert triggered at 18:00 PST", "entities": [[19, 28, "TIME"]]}
+{"text": "Access granted at 18:00 PST", "entities": [[18, 27, "TIME"]]}
+{"text": "Attack detected at 18:00 PST", "entities": [[19, 28, "TIME"]]}
+{"text": "Report generated at 18:00 PST", "entities": [[20, 29, "TIME"]]}
+{"text": "Backup created at 18:00 PST", "entities": [[18, 27, "TIME"]]}
+{"text": "Scan completed at 18:00 PST", "entities": [[18, 27, "TIME"]]}
+{"text": "Event timestamp 18:00 PST", "entities": [[16, 25, "TIME"]]}
+{"text": "Log entry at 18:00 PST", "entities": [[13, 22, "TIME"]]}
+{"text": "Incident occurred at 14:30:00Z", "entities": [[21, 30, "TIME"]]}
+{"text": "Event logged at 14:30:00Z", "entities": [[16, 25, "TIME"]]}
+{"text": "Alert triggered at 14:30:00Z", "entities": [[19, 28, "TIME"]]}
+{"text": "Access granted at 14:30:00Z", "entities": [[18, 27, "TIME"]]}
+{"text": "Attack detected at 14:30:00Z", "entities": [[19, 28, "TIME"]]}
+{"text": "Report generated at 14:30:00Z", "entities": [[20, 29, "TIME"]]}
+{"text": "Backup created at 14:30:00Z", "entities": [[18, 27, "TIME"]]}
+{"text": "Scan completed at 14:30:00Z", "entities": [[18, 27, "TIME"]]}
+{"text": "Event timestamp 14:30:00Z", "entities": [[16, 25, "TIME"]]}
+{"text": "Log entry at 14:30:00Z", "entities": [[13, 22, "TIME"]]}
+{"text": "Incident occurred at 14:00:00+00:00", "entities": [[21, 35, "TIME"]]}
+{"text": "Event logged at 14:00:00+00:00", "entities": [[16, 30, "TIME"]]}
+{"text": "Alert triggered at 14:00:00+00:00", "entities": [[19, 33, "TIME"]]}
+{"text": "Access granted at 14:00:00+00:00", "entities": [[18, 32, "TIME"]]}
+{"text": "Attack detected at 14:00:00+00:00", "entities": [[19, 33, "TIME"]]}
+{"text": "Report generated at 14:00:00+00:00", "entities": [[20, 34, "TIME"]]}
+{"text": "Backup created at 14:00:00+00:00", "entities": [[18, 32, "TIME"]]}
+{"text": "Scan completed at 14:00:00+00:00", "entities": [[18, 32, "TIME"]]}
+{"text": "Event timestamp 14:00:00+00:00", "entities": [[16, 30, "TIME"]]}
+{"text": "Log entry at 14:00:00+00:00", "entities": [[13, 27, "TIME"]]}
+{"text": "Monitor file ~/.bashrc", "entities": [[13, 22, "FILE_PATH"]]}
+{"text": "Block access to ~/.bashrc", "entities": [[16, 25, "FILE_PATH"]]}
+{"text": "Investigate file ~/.bashrc", "entities": [[17, 26, "FILE_PATH"]]}
+{"text": "Scan file ~/.bashrc", "entities": [[10, 19, "FILE_PATH"]]}
+{"text": "Protect file ~/.bashrc", "entities": [[13, 22, "FILE_PATH"]]}
+{"text": "File path ~/.ssh/config accessed", "entities": [[10, 23, "FILE_PATH"]]}
+{"text": "Sensitive file ~/.ssh/config detected", "entities": [[15, 28, "FILE_PATH"]]}
+{"text": "Malicious file ~/.ssh/config found", "entities": [[15, 28, "FILE_PATH"]]}
+{"text": "Check file ~/.ssh/config permissions", "entities": [[11, 24, "FILE_PATH"]]}
+{"text": "Analyze file ~/.ssh/config", "entities": [[13, 26, "FILE_PATH"]]}
+{"text": "Monitor file ~/.ssh/config", "entities": [[13, 26, "FILE_PATH"]]}
+{"text": "Block access to ~/.ssh/config", "entities": [[16, 29, "FILE_PATH"]]}
+{"text": "Investigate file ~/.ssh/config", "entities": [[17, 30, "FILE_PATH"]]}
+{"text": "Scan file ~/.ssh/config", "entities": [[10, 23, "FILE_PATH"]]}
+{"text": "Protect file ~/.ssh/config", "entities": [[13, 26, "FILE_PATH"]]}
+{"text": "File path /tmp/evil.sh accessed", "entities": [[10, 22, "FILE_PATH"]]}
+{"text": "Sensitive file /tmp/evil.sh detected", "entities": [[15, 27, "FILE_PATH"]]}
+{"text": "Malicious file /tmp/evil.sh found", "entities": [[15, 27, "FILE_PATH"]]}
+{"text": "Check file /tmp/evil.sh permissions", "entities": [[11, 23, "FILE_PATH"]]}
+{"text": "Analyze file /tmp/evil.sh", "entities": [[13, 25, "FILE_PATH"]]}
+{"text": "Monitor file /tmp/evil.sh", "entities": [[13, 25, "FILE_PATH"]]}
+{"text": "Block access to /tmp/evil.sh", "entities": [[16, 28, "FILE_PATH"]]}
+{"text": "Investigate file /tmp/evil.sh", "entities": [[17, 29, "FILE_PATH"]]}
+{"text": "Scan file /tmp/evil.sh", "entities": [[10, 22, "FILE_PATH"]]}
+{"text": "Protect file /tmp/evil.sh", "entities": [[13, 25, "FILE_PATH"]]}
+{"text": "File path /usr/bin/python accessed", "entities": [[10, 25, "FILE_PATH"]]}
+{"text": "Sensitive file /usr/bin/python detected", "entities": [[15, 30, "FILE_PATH"]]}
+{"text": "Malicious file /usr/bin/python found", "entities": [[15, 30, "FILE_PATH"]]}
+{"text": "Check file /usr/bin/python permissions", "entities": [[11, 26, "FILE_PATH"]]}
+{"text": "Analyze file /usr/bin/python", "entities": [[13, 28, "FILE_PATH"]]}
+{"text": "Monitor file /usr/bin/python", "entities": [[13, 28, "FILE_PATH"]]}
+{"text": "Block access to /usr/bin/python", "entities": [[16, 31, "FILE_PATH"]]}
+{"text": "Investigate file /usr/bin/python", "entities": [[17, 32, "FILE_PATH"]]}
+{"text": "Scan file /usr/bin/python", "entities": [[10, 25, "FILE_PATH"]]}
+{"text": "Protect file /usr/bin/python", "entities": [[13, 28, "FILE_PATH"]]}
+{"text": "File path /opt/application/config.json accessed", "entities": [[10, 38, "FILE_PATH"]]}
+{"text": "Sensitive file /opt/application/config.json detected", "entities": [[15, 43, "FILE_PATH"]]}
+{"text": "Malicious file /opt/application/config.json found", "entities": [[15, 43, "FILE_PATH"]]}
+{"text": "Check file /opt/application/config.json permissions", "entities": [[11, 39, "FILE_PATH"]]}
+{"text": "Analyze file /opt/application/config.json", "entities": [[13, 41, "FILE_PATH"]]}
+{"text": "Monitor file /opt/application/config.json", "entities": [[13, 41, "FILE_PATH"]]}
+{"text": "Block access to /opt/application/config.json", "entities": [[16, 44, "FILE_PATH"]]}
+{"text": "Investigate file /opt/application/config.json", "entities": [[17, 45, "FILE_PATH"]]}
+{"text": "Scan file /opt/application/config.json", "entities": [[10, 38, "FILE_PATH"]]}
+{"text": "Protect file /opt/application/config.json", "entities": [[13, 41, "FILE_PATH"]]}
+{"text": "File path C:\\Program Files\\Application\\config.ini accessed", "entities": [[10, 49, "FILE_PATH"]]}
+{"text": "Sensitive file C:\\Program Files\\Application\\config.ini detected", "entities": [[15, 54, "FILE_PATH"]]}
+{"text": "Malicious file C:\\Program Files\\Application\\config.ini found", "entities": [[15, 54, "FILE_PATH"]]}
+{"text": "Check file C:\\Program Files\\Application\\config.ini permissions", "entities": [[11, 50, "FILE_PATH"]]}
+{"text": "Analyze file C:\\Program Files\\Application\\config.ini", "entities": [[13, 52, "FILE_PATH"]]}
+{"text": "Monitor file C:\\Program Files\\Application\\config.ini", "entities": [[13, 52, "FILE_PATH"]]}
+{"text": "Block access to C:\\Program Files\\Application\\config.ini", "entities": [[16, 55, "FILE_PATH"]]}
+{"text": "Investigate file C:\\Program Files\\Application\\config.ini", "entities": [[17, 56, "FILE_PATH"]]}
+{"text": "Scan file C:\\Program Files\\Application\\config.ini", "entities": [[10, 49, "FILE_PATH"]]}
+{"text": "Protect file C:\\Program Files\\Application\\config.ini", "entities": [[13, 52, "FILE_PATH"]]}
+{"text": "File path /var/www/html/index.php accessed", "entities": [[10, 33, "FILE_PATH"]]}
+{"text": "Sensitive file /var/www/html/index.php detected", "entities": [[15, 38, "FILE_PATH"]]}
+{"text": "Malicious file /var/www/html/index.php found", "entities": [[15, 38, "FILE_PATH"]]}
+{"text": "Check file /var/www/html/index.php permissions", "entities": [[11, 34, "FILE_PATH"]]}
+{"text": "Analyze file /var/www/html/index.php", "entities": [[13, 36, "FILE_PATH"]]}
+{"text": "Monitor file /var/www/html/index.php", "entities": [[13, 36, "FILE_PATH"]]}
+{"text": "Block access to /var/www/html/index.php", "entities": [[16, 39, "FILE_PATH"]]}
+{"text": "Investigate file /var/www/html/index.php", "entities": [[17, 40, "FILE_PATH"]]}
+{"text": "Scan file /var/www/html/index.php", "entities": [[10, 33, "FILE_PATH"]]}
+{"text": "Protect file /var/www/html/index.php", "entities": [[13, 36, "FILE_PATH"]]}
+{"text": "File path /root/.bash_history accessed", "entities": [[10, 29, "FILE_PATH"]]}
+{"text": "Sensitive file /root/.bash_history detected", "entities": [[15, 34, "FILE_PATH"]]}
+{"text": "Malicious file /root/.bash_history found", "entities": [[15, 34, "FILE_PATH"]]}
+{"text": "Check file /root/.bash_history permissions", "entities": [[11, 30, "FILE_PATH"]]}
+{"text": "Analyze file /root/.bash_history", "entities": [[13, 32, "FILE_PATH"]]}
+{"text": "Monitor file /root/.bash_history", "entities": [[13, 32, "FILE_PATH"]]}
+{"text": "Block access to /root/.bash_history", "entities": [[16, 35, "FILE_PATH"]]}
+{"text": "Investigate file /root/.bash_history", "entities": [[17, 36, "FILE_PATH"]]}
+{"text": "Scan file /root/.bash_history", "entities": [[10, 29, "FILE_PATH"]]}
+{"text": "Protect file /root/.bash_history", "entities": [[13, 32, "FILE_PATH"]]}

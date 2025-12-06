@@ -134,3 +134,33 @@
 {"text": "Please review this document.", "entities": []}
 {"text": "What should I do next?", "entities": []}
 {"text": "How does this work?", "entities": []}
+{"text": "Monitor security events continuously.", "entities": []}
+{"text": "Check the system security configuration.", "entities": []}
+{"text": "Please investigate the security issue.", "entities": []}
+{"text": "The application uses configuration paths for settings.", "entities": []}
+{"text": "How do I implement proper security controls?", "entities": []}
+{"text": "The process involves checking file permissions.", "entities": []}
+{"text": "The application uses CSRF tokens for security protection.", "entities": []}
+{"text": "How can I monitor security events effectively?", "entities": []}
+{"text": "Security audits are conducted regularly.", "entities": []}
+{"text": "Compliance requirements are being met.", "entities": []}
+{"text": "Base64 encoding is used for data transmission.", "entities": []}
+{"text": "We should verify that all controls are working properly.", "entities": []}
+{"text": "The system processes files in the directory structure.", "entities": []}
+{"text": "The security team implements CSRF protection mechanisms.", "entities": []}
+{"text": "Please check if everything is working correctly.", "entities": []}
+{"text": "Can you help me with this security issue?", "entities": []}
+{"text": "The incident response process involves investigation and containment.", "entities": []}
+{"text": "The application requires XML parsing for configuration files.", "entities": []}
+{"text": "Can you provide guidance on security best practices?", "entities": []}
+{"text": "Can you help me understand security policies?", "entities": []}
+{"text": "The compliance team ensures adherence to security requirements.", "entities": []}
+{"text": "How do I improve security posture?", "entities": []}
+{"text": "Verify that all controls are working.", "entities": []}
+{"text": "How can I improve the security posture of my organization?", "entities": []}
+{"text": "The analysis involves finding relevant information.", "entities": []}
+{"text": "I need assistance with security configuration.", "entities": []}
+{"text": "The system processes JSON data for API communication.", "entities": []}
+{"text": "The system requires monitoring and tracking of security events.", "entities": []}
+{"text": "The system monitors user activity continuously.", "entities": []}
+{"text": "The system tracks login attempts effectively.", "entities": []}

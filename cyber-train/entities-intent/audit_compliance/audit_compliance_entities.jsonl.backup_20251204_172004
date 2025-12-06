@@ -1,0 +1,760 @@
+{"text": "Chef Compliance automation validated system configurations and policies", "entities": [[0, 4, "TOOL"]]}
+{"text": "Audit Checklist Tool conducted internal ISO 27001 audit scoring 87% with access review findings", "entities": []}
+{"text": "Qualys compliance monitoring validated vulnerability and patch management", "entities": [[0, 6, "TOOL"]]}
+{"text": "AI Control Mapping Tool automatically aligned audit logging control across ISO SOC2 and NIST", "entities": [[24, 37, "CONTROL_TYPE"]]}
+{"text": "Ticketing System Tool tracked 12 open compliance gaps with patch management policy overdue", "entities": []}
+{"text": "QRadar compliance monitoring validated security event correlation", "entities": [[0, 6, "TOOL"]]}
+{"text": "Chef Compliance automation validated system configurations and policies", "entities": [[0, 4, "TOOL"]]}
+{"text": "Pipeline Compliance Tool blocked build due to encryption violation on S3 bucket", "entities": []}
+{"text": "Regulatory Feed Monitor detected EU AI Act DORA and SEC regulation changes", "entities": [[67, 74, "REGULATION"]]}
+{"text": "Compliance audit finding: Email address hr@company.com and phone number +1-800-555-0199 stored without encryption. HIPAA compliance framework violation.", "entities": [[40, 54, "EMAIL_ADDRESS"], [72, 87, "PHONE_NUMBER"]]}
+{"text": "AWS Config compliance monitoring validated cloud resource configurations", "entities": [[0, 3, "CLOUD_PROVIDER"], [4, 10, "TOOL"], [58, 72, "RESOURCE_TYPE"]]}
+{"text": "Terraform compliance validation enforced infrastructure as code policies", "entities": []}
+{"text": "Regulatory Feed Monitor detected EU AI Act regulation impacting data privacy policy", "entities": []}
+{"text": "AI Control Mapping Tool automatically aligned audit logging across ISO SOC2 and NIST", "entities": [[24, 37, "CONTROL_TYPE"]]}
+{"text": "Control Mapping Tool aligned 85 enterprise controls to PCI DSS framework identifying gaps", "entities": [[85, 89, "GAP_TYPE"]]}
+{"text": "Kaspersky compliance monitoring validated endpoint security and threat detection", "entities": [[0, 9, "TOOL"]]}
+{"text": "Compliance audit finding: Email address hr@company.com and phone number +1-800-555-0199 stored without encryption. HIPAA compliance framework violation.", "entities": [[40, 54, "EMAIL_ADDRESS"], [72, 87, "PHONE_NUMBER"]]}
+{"text": "Regulatory Feed Monitor detected EU AI Act regulation impacting data privacy policy", "entities": []}
+{"text": "QRadar compliance monitoring validated security event correlation", "entities": [[0, 6, "TOOL"]]}
+{"text": "Nessus compliance scanning validated security controls and vulnerabilities", "entities": [[0, 6, "TOOL"]]}
+{"text": "Archer GRC platform managed compliance workflows for 15 regulatory frameworks", "entities": [[0, 6, "TOOL"]]}
+{"text": "Audit Compliance Assurance Analyst conducted internal audits validating evidence and reporting", "entities": [[45, 53, "AUDIT_TYPE"]]}
+{"text": "Ticketing System Tool tracked 12 open compliance gaps with patch management overdue", "entities": []}
+{"text": "Policy Definition Generator created access control encryption and patch management policies", "entities": []}
+{"text": "Audit Checklist Tool conducted internal ISO 27001 audit scoring 87% with access review findings", "entities": []}
+{"text": "LogRhythm compliance monitoring validated audit log collection", "entities": [[0, 9, "TOOL"]]}
+{"text": "Secureframe compliance platform managed PCI DSS HIPAA and SOC2 certifications", "entities": [[0, 11, "TOOL"]]}
+{"text": "Audit Compliance Assurance Analyst conducted internal audits validating evidence and reporting", "entities": [[45, 53, "AUDIT_TYPE"]]}
+{"text": "Evidence Validation Tool prepared SOC2 external audit package with vulnerability management evidence", "entities": [[67, 80, "PACKAGE_TYPE"]]}
+{"text": "Compliance framework mapping achieved 95% coverage across ISO SOC2 PCI DSS and HIPAA", "entities": [[79, 84, "REGULATION"]]}
+{"text": "InSpec compliance testing validated infrastructure as code configurations", "entities": [[0, 6, "TOOL"]]}
+{"text": "OpenSCAP compliance scanning validated system configurations against baselines", "entities": [[0, 8, "TOOL"]]}
+{"text": "Compliance audit finding: System failed GDPR compliance framework requirements. Finding ID: AUD-2024-001 requires remediation.", "entities": [[33, 39, "COMPLIANCE_FRAMEWORK"], [40, 44, "REGULATION"]]}
+{"text": "Kubernetes compliance monitoring validated cluster configurations", "entities": [[0, 10, "TOOL"]]}
+{"text": "Google Chronicle compliance monitoring validated security event analysis", "entities": [[0, 6, "TOOL"], [7, 16, "TOOL"]]}
+{"text": "Compliance audit finding: System failed GDPR compliance framework requirements. Finding ID: AUD-2024-001 requires remediation.", "entities": [[33, 39, "COMPLIANCE_FRAMEWORK"], [40, 44, "REGULATION"]]}
+{"text": "Reporting Dashboard Tool generated compliance KPIs showing ISO27001 and PCI DSS scores", "entities": []}
+{"text": "Evidence Collector Tool automated collection of MFA logs and access reviews for Q2", "entities": []}
+{"text": "Splunk compliance monitoring validated log collection and retention", "entities": [[0, 6, "TOOL"]]}
+{"text": "Compliance audit score improved to 94% with zero critical findings", "entities": []}
+{"text": "Policy Definition Generator created access control encryption and patch management policies", "entities": []}
+{"text": "Audit fatigue reduction achieved through evidence reuse across 5 frameworks", "entities": []}
+{"text": "GRC Integration Tool stored audit artifacts in centralized repository for evidence reuse", "entities": [[21, 27, "TOOL"], [47, 58, "ARTIFACT_TYPE"]]}
+{"text": "Continuous Assurance validated 120 controls with logging disabled failure on serverX", "entities": []}
+{"text": "Microsoft Sentinel compliance monitoring validated cloud security events", "entities": [[0, 9, "TOOL"]]}
+{"text": "SIEM Tool integrated compliance monitoring detecting S3 public bucket and TLS1.0 violations", "entities": []}
+{"text": "Audit Compliance Operations Engineer implemented automated control monitoring collecting evidence", "entities": []}
+{"text": "Carbon Black compliance monitoring validated endpoint detection and response", "entities": []}
+{"text": "Evidence collection automation reduced audit preparation time by 60%", "entities": [[0, 8, "EVIDENCE_TYPE"], [57, 61, "TIME_TYPE"]]}
+{"text": "Tugboat Logic compliance automation platform streamlined audit preparation", "entities": [[0, 7, "TOOL"], [8, 13, "TOOL"], [45, 56, "AUTOMATION_TYPE"]]}
+{"text": "Policy Definition Generator created access control policy aligned with ISO 27001 requirements", "entities": []}
+{"text": "Control automation coverage reached 88% reducing manual audit effort", "entities": [[0, 7, "CONTROL_TYPE"]]}
+{"text": "Audit report: Finding identified non-compliance with ISO 27001 compliance framework. Evidence stored in repository.", "entities": []}
+{"text": "LogicGate risk and compliance platform managed GRC workflows", "entities": [[0, 9, "TOOL"], [10, 14, "RISK_TYPE"]]}
+{"text": "Secureframe compliance platform managed PCI DSS HIPAA and SOC2 certifications", "entities": [[0, 11, "TOOL"]]}
+{"text": "Puppet compliance automation enforced security policies and configurations", "entities": [[0, 6, "TOOL"]]}
+{"text": "Evidence Validation Tool prepared SOC2 external audit package with evidence", "entities": [[67, 75, "PACKAGE_TYPE"]]}
+{"text": "OpenSCAP compliance scanner validated systems against NIST and CIS benchmarks", "entities": []}
+{"text": "SentinelOne compliance monitoring validated endpoint protection", "entities": [[0, 11, "TOOL"]]}
+{"text": "Audit Compliance Assurance Analyst conducted internal audits validating evidence and reporting", "entities": [[45, 53, "AUDIT_TYPE"]]}
+{"text": "Google Cloud Security Command Center monitored compliance violations", "entities": [[0, 6, "TOOL"]]}
+{"text": "OpenSCAP compliance scanning validated system configurations against baselines", "entities": [[0, 8, "TOOL"]]}
+{"text": "IBM QRadar compliance monitoring validated log management and retention", "entities": [[4, 10, "TOOL"]]}
+{"text": "Terraform compliance validation enforced infrastructure as code policies", "entities": []}
+{"text": "OpenSCAP compliance scanner validated systems against NIST and CIS benchmarks", "entities": []}
+{"text": "Control automation coverage reached 88% reducing manual audit effort", "entities": [[0, 7, "CONTROL_TYPE"]]}
+{"text": "Wazuh open source SIEM monitored compliance controls with real-time alerting", "entities": [[0, 5, "TOOL"]]}
+{"text": "ServiceNow GRC module automated control testing and evidence collection", "entities": [[0, 10, "TOOL"]]}
+{"text": "Pipeline Compliance Tool blocked build due to encryption violation on S3 bucket", "entities": []}
+{"text": "QRadar compliance monitoring validated security event correlation", "entities": [[0, 6, "TOOL"]]}
+{"text": "GRC Integration Tool stored audit artifacts in centralized repository for evidence reuse", "entities": [[21, 27, "TOOL"], [47, 58, "ARTIFACT_TYPE"]]}
+{"text": "SIEM Tool integrated compliance monitoring detecting S3 public bucket and TLS1.0 violations", "entities": []}
+{"text": "Evidence Collector Tool automated collection of MFA logs access reviews and configs", "entities": []}
+{"text": "Reporting Dashboard Tool generated compliance KPIs showing ISO27001 and PCI DSS scores", "entities": []}
+{"text": "SIEM Tool integrated compliance monitoring detecting S3 public bucket and TLS violations", "entities": []}
+{"text": "Policy Definition Generator created access control policy aligned with ISO 27001 requirements", "entities": []}
+{"text": "Trend Micro compliance monitoring validated endpoint security controls", "entities": []}
+{"text": "ServiceNow GRC module automated control testing and evidence collection", "entities": [[0, 10, "TOOL"]]}
+{"text": "Evidence Reuse Tool mapped MFA logs artifact to ISO 27001 SOC2 and PCI DSS frameworks", "entities": [[48, 51, "LOG_TYPE"], [67, 70, "FRAMEWORK"], [75, 85, "FRAMEWORK"]]}
+{"text": "Compliance false positive rate reduced to 2.3% improving control validation accuracy", "entities": []}
+{"text": "Carbon Black compliance monitoring validated endpoint detection and response", "entities": []}
+{"text": "Compliance Innovation Analyst leveraged AI to map controls across multiple frameworks", "entities": []}
+{"text": "Rapid7 InsightVM compliance scanning validated security configurations", "entities": [[0, 6, "TOOL"], [7, 16, "TOOL"]]}
+{"text": "CrowdStrike compliance monitoring validated endpoint security controls", "entities": [[0, 11, "TOOL"]]}
+{"text": "GRC Integration Tool stored audit artifacts in centralized repository for evidence reuse", "entities": [[21, 27, "TOOL"], [47, 58, "ARTIFACT_TYPE"]]}
+{"text": "Kaspersky compliance monitoring validated endpoint security and threat detection", "entities": [[0, 9, "TOOL"]]}
+{"text": "Ticketing System Tool tracked 12 open compliance gaps with patch management overdue", "entities": []}
+{"text": "Symantec compliance monitoring validated endpoint protection and antivirus", "entities": [[0, 8, "TOOL"]]}
+{"text": "Continuous Compliance Monitor validated 300 systems against CIS Benchmarks scoring 92%", "entities": [[60, 63, "COUNT"]]}
+{"text": "Vendor Risk Compliance Tool validated AWS SOC2 and ISO27001 certifications", "entities": []}
+{"text": "Puppet compliance automation enforced security policies and configurations", "entities": [[0, 6, "TOOL"]]}
+{"text": "Nessus compliance scanning validated security controls and vulnerabilities", "entities": [[0, 6, "TOOL"]]}
+{"text": "AI Control Mapping Tool automatically aligned audit logging across ISO SOC2 and NIST", "entities": [[24, 37, "CONTROL_TYPE"]]}
+{"text": "AI Control Mapping Tool automatically aligned audit logging control across ISO SOC2 and NIST", "entities": [[24, 37, "CONTROL_TYPE"]]}
+{"text": "Microsoft Defender compliance monitoring validated endpoint security", "entities": [[0, 9, "TOOL"]]}
+{"text": "Kaspersky compliance monitoring validated endpoint security and threat detection", "entities": [[0, 9, "TOOL"]]}
+{"text": "Evidence collection automation reduced audit preparation time by 60%", "entities": [[0, 8, "EVIDENCE_TYPE"], [57, 61, "TIME_TYPE"]]}
+{"text": "Pipeline Compliance Tool blocked build 1234 due to no encryption violation on S3 bucket", "entities": []}
+{"text": "External Auditor Portal Tool compiled evidence and tracked auditor feedback", "entities": [[67, 75, "AUDITOR_TYPE"]]}
+{"text": "McAfee compliance monitoring validated endpoint protection and encryption", "entities": [[0, 6, "TOOL"]]}
+{"text": "OpenSCAP compliance scanner validated systems against NIST and CIS benchmarks", "entities": []}
+{"text": "Prisma Cloud compliance monitoring validated container and cloud security", "entities": [[0, 6, "TOOL"]]}
+{"text": "Azure Policy compliance enforcement validated resource configurations", "entities": [[0, 5, "CLOUD_PROVIDER"]]}
+{"text": "Drata compliance monitoring platform automated evidence collection for audits", "entities": []}
+{"text": "Evidence Validation Tool prepared SOC2 external audit package with vulnerability management evidence", "entities": [[67, 80, "PACKAGE_TYPE"]]}
+{"text": "Regulatory Feed Monitor detected EU AI Act DORA and SEC regulation changes", "entities": [[67, 74, "REGULATION"]]}
+{"text": "Third-party vendor compliance validation completed for 25 partners with 92% certified", "entities": [[0, 11, "VALIDATION_TYPE"]]}
+{"text": "AI Control Mapping Tool automatically aligned audit logging across ISO SOC2 and NIST", "entities": [[24, 37, "CONTROL_TYPE"]]}
+{"text": "Compliance Innovation Analyst leveraged AI to map controls across multiple frameworks", "entities": []}
+{"text": "External Auditor Portal Tool compiled evidence and tracked auditor feedback for certification", "entities": [[67, 75, "AUDITOR_TYPE"]]}
+{"text": "ArcSight compliance monitoring validated security information management", "entities": [[0, 8, "TOOL"]]}
+{"text": "Audit Compliance Operations Engineer implemented automated control monitoring collecting evidence", "entities": []}
+{"text": "Evidence Reuse Tool mapped MFA logs to ISO 27001 SOC2 and PCI DSS frameworks", "entities": [[43, 48, "AUTH_TYPE"]]}
+{"text": "Evidence Validation Tool prepared SOC2 external audit package with evidence", "entities": [[67, 75, "PACKAGE_TYPE"]]}
+{"text": "Symantec compliance monitoring validated endpoint protection and antivirus", "entities": [[0, 8, "TOOL"]]}
+{"text": "AI Control Mapping Tool automatically aligned audit logging control across ISO SOC2 and NIST", "entities": [[24, 37, "CONTROL_TYPE"]]}
+{"text": "Microsoft Sentinel compliance monitoring validated cloud security events", "entities": [[0, 9, "TOOL"]]}
+{"text": "Trend Micro compliance monitoring validated endpoint security controls", "entities": []}
+{"text": "Evidence Reuse Tool mapped MFA logs to ISO 27001 SOC2 and PCI DSS frameworks", "entities": [[43, 48, "AUTH_TYPE"]]}
+{"text": "Kubernetes compliance monitoring validated cluster configurations", "entities": [[0, 10, "TOOL"]]}
+{"text": "Evidence Validation Tool prepared SOC2 external audit package with vulnerability management evidence", "entities": [[67, 80, "PACKAGE_TYPE"]]}
+{"text": "CloudFormation compliance validation enforced cloud resource policies", "entities": []}
+{"text": "Vendor Risk Compliance Tool validated AWS SOC2 and ISO27001 certifications", "entities": []}
+{"text": "Control Mapping Tool aligned 85 enterprise controls to PCI DSS identifying encryption gaps", "entities": []}
+{"text": "Ansible compliance automation validated configuration management", "entities": [[0, 7, "TOOL"]]}
+{"text": "External audit readiness achieved 98% with all evidence packages validated", "entities": [[15, 24, "AUDITOR_TYPE"], [34, 37, "METRIC_TYPE"]]}
+{"text": "Evidence Collector Tool automated collection of MFA logs and access reviews for Q2", "entities": []}
+{"text": "Puppet compliance automation enforced security policies and configurations", "entities": [[0, 6, "TOOL"]]}
+{"text": "Docker compliance scanning validated container image security", "entities": [[0, 6, "TOOL"]]}
+{"text": "Continuous Assurance validated 120 controls with logging disabled failure on serverX", "entities": []}
+{"text": "Continuous Compliance Monitor validated 300 systems against CIS Benchmarks scoring 92%", "entities": [[60, 63, "COUNT"]]}
+{"text": "Drata compliance monitoring platform automated evidence collection for audits", "entities": []}
+{"text": "Enterprise Audit Compliance Strategist defined compliance frameworks mapping ISO SOC2 PCI DSS HIPAA SOX GDPR", "entities": [[81, 85, "FRAMEWORK"], [94, 99, "REGULATION"], [100, 103, "REGULATION"]]}
+{"text": "ServiceNow GRC module automated control testing and evidence collection", "entities": [[0, 10, "TOOL"]]}
+{"text": "Tenable compliance monitoring validated security posture and configurations", "entities": [[0, 7, "TOOL"]]}
+{"text": "Control Mapping Tool aligned 85 enterprise controls to PCI DSS framework identifying gaps", "entities": [[85, 89, "GAP_TYPE"]]}
+{"text": "Microsoft Defender compliance monitoring validated endpoint security", "entities": [[0, 9, "TOOL"]]}
+{"text": "Compliance Strategist defined compliance frameworks mapping ISO SOC2 PCI DSS HIPAA SOX and GDPR", "entities": [[77, 82, "REGULATION"], [83, 86, "REGULATION"], [91, 95, "REGULATION"]]}
+{"text": "MetricStream GRC platform enabled continuous monitoring and risk assessment", "entities": [[34, 44, "MONITORING_TYPE"]]}
+{"text": "CrowdStrike compliance monitoring validated endpoint security controls", "entities": [[0, 11, "TOOL"]]}
+{"text": "Hyperproof compliance management platform tracked control effectiveness", "entities": [[0, 10, "TOOL"]]}
+{"text": "Carbon Black compliance monitoring validated endpoint detection and response", "entities": []}
+{"text": "Pipeline Compliance Tool blocked build 1234 due to no encryption violation on S3 bucket", "entities": []}
+{"text": "Financial audit: Bank routing number 121000248 and SWIFT code WFBIUS6S found in payment processing logs. PCI DSS compliance framework review required.", "entities": [[0, 9, "FINANCIAL_TYPE"]]}
+{"text": "Archer GRC platform managed compliance workflows for 15 regulatory frameworks", "entities": [[0, 6, "TOOL"]]}
+{"text": "Control Mapping Tool aligned 85 enterprise controls to PCI DSS framework identifying gaps", "entities": [[85, 89, "GAP_TYPE"]]}
+{"text": "Elastic compliance monitoring validated security event logging", "entities": [[0, 7, "TOOL"]]}
+{"text": "Kubernetes compliance monitoring validated cluster configurations", "entities": [[0, 10, "TOOL"]]}
+{"text": "Pipeline Compliance Tool blocked build due to encryption violation on S3 bucket", "entities": []}
+{"text": "Archer GRC platform managed compliance workflows for 15 regulatory frameworks", "entities": [[0, 6, "TOOL"]]}
+{"text": "Qualys compliance monitoring validated vulnerability and patch management", "entities": [[0, 6, "TOOL"]]}
+{"text": "Regulatory Feed Monitor detected EU AI Act DORA and SEC regulation changes", "entities": [[67, 74, "REGULATION"]]}
+{"text": "Audit report: Finding identified non-compliance with ISO 27001 compliance framework. Evidence stored in repository.", "entities": []}
+{"text": "Compliance Framework Tool mapped enterprise controls to ISO SOC2 PCI DSS and NIST", "entities": [[56, 59, "FRAMEWORK"], [60, 64, "FRAMEWORK"]]}
+{"text": "McAfee compliance monitoring validated endpoint protection and encryption", "entities": [[0, 6, "TOOL"]]}
+{"text": "Audit Checklist Tool conducted internal ISO 27001 audit scoring 87% with findings", "entities": []}
+{"text": "Continuous Compliance Monitor validated 300 systems against CIS Benchmarks scoring 92%", "entities": [[60, 63, "COUNT"]]}
+{"text": "Pipeline Compliance Tool blocked build 1234 due to no encryption violation on S3 bucket", "entities": []}
+{"text": "IBM QRadar compliance monitoring validated log management and retention", "entities": [[4, 10, "TOOL"]]}
+{"text": "Audit Compliance Operations Engineer implemented automated control monitoring collecting evidence", "entities": []}
+{"text": "QRadar compliance monitoring validated security event correlation", "entities": [[0, 6, "TOOL"]]}
+{"text": "Vendor Risk Compliance Tool validated AWS SOC2 and ISO27001 certifications", "entities": []}
+{"text": "CloudFormation compliance validation enforced cloud resource policies", "entities": []}
+{"text": "Microsoft Defender compliance monitoring validated endpoint security", "entities": [[0, 9, "TOOL"]]}
+{"text": "Google Chronicle compliance monitoring validated security event analysis", "entities": [[0, 6, "TOOL"], [7, 16, "TOOL"]]}
+{"text": "Audit Checklist Tool conducted internal ISO 27001 audit scoring 87% with findings", "entities": []}
+{"text": "CloudCheckr compliance monitoring validated multi-cloud configurations", "entities": []}
+{"text": "Rapid7 InsightVM compliance scanning validated security configurations", "entities": [[0, 6, "TOOL"], [7, 16, "TOOL"]]}
+{"text": "McAfee compliance monitoring validated endpoint protection and encryption", "entities": [[0, 6, "TOOL"]]}
+{"text": "Evidence Reuse Tool mapped MFA logs to ISO 27001 SOC2 and PCI DSS frameworks", "entities": [[43, 48, "AUTH_TYPE"]]}
+{"text": "MetricStream GRC platform enabled continuous monitoring and risk assessment", "entities": [[34, 44, "MONITORING_TYPE"]]}
+{"text": "Policy Definition Generator created access control encryption and patch management policies", "entities": []}
+{"text": "Docker compliance scanning validated container image security", "entities": [[0, 6, "TOOL"]]}
+{"text": "Secureframe compliance platform managed PCI DSS HIPAA and SOC2 certifications", "entities": [[0, 11, "TOOL"]]}
+{"text": "OneTrust privacy platform managed GDPR CCPA and LGPD compliance requirements", "entities": [[0, 8, "TOOL"]]}
+{"text": "LogRhythm compliance monitoring validated audit log collection", "entities": [[0, 9, "TOOL"]]}
+{"text": "Control automation coverage reached 88% reducing manual audit effort", "entities": [[0, 7, "CONTROL_TYPE"]]}
+{"text": "External audit readiness achieved 98% with all evidence packages validated", "entities": [[15, 24, "AUDITOR_TYPE"], [34, 37, "METRIC_TYPE"]]}
+{"text": "OneTrust privacy platform managed GDPR CCPA and LGPD compliance requirements", "entities": [[0, 8, "TOOL"]]}
+{"text": "AWS Config compliance monitoring validated cloud resource configurations", "entities": [[0, 3, "CLOUD_PROVIDER"], [4, 10, "TOOL"], [58, 72, "RESOURCE_TYPE"]]}
+{"text": "Control Mapping Tool aligned 85 enterprise controls to PCI DSS identifying encryption gaps", "entities": []}
+{"text": "Compliance audit finding: Email address hr@company.com and phone number +1-800-555-0199 stored without encryption. HIPAA compliance framework violation.", "entities": [[40, 54, "EMAIL_ADDRESS"], [72, 87, "PHONE_NUMBER"]]}
+{"text": "Evidence Reuse Tool mapped MFA logs artifact to ISO 27001 SOC2 and PCI DSS frameworks", "entities": [[48, 51, "LOG_TYPE"], [67, 70, "FRAMEWORK"], [75, 85, "FRAMEWORK"]]}
+{"text": "Terraform compliance validation enforced infrastructure as code policies", "entities": []}
+{"text": "Third-party vendor compliance validation completed for 25 partners with 92% certified", "entities": [[0, 11, "VALIDATION_TYPE"]]}
+{"text": "Ticketing System Tool tracked 12 open compliance gaps with patch management policy overdue", "entities": []}
+{"text": "Reporting Dashboard Tool generated compliance KPIs showing ISO27001 and PCI DSS scores", "entities": []}
+{"text": "External Auditor Portal Tool compiled evidence and tracked auditor feedback", "entities": [[67, 75, "AUDITOR_TYPE"]]}
+{"text": "Ansible compliance automation validated configuration management", "entities": [[0, 7, "TOOL"]]}
+{"text": "Reporting Dashboard Tool generated compliance KPIs showing ISO27001 and PCI DSS scores", "entities": []}
+{"text": "ServiceNow GRC module automated control testing and evidence collection", "entities": [[0, 10, "TOOL"]]}
+{"text": "OpenSCAP compliance scanning validated system configurations against baselines", "entities": [[0, 8, "TOOL"]]}
+{"text": "Financial audit: Bank routing number 121000248 and SWIFT code WFBIUS6S found in payment processing logs. PCI DSS compliance framework review required.", "entities": [[0, 9, "FINANCIAL_TYPE"]]}
+{"text": "Wazuh open source SIEM monitored compliance controls with real-time alerting", "entities": [[0, 5, "TOOL"]]}
+{"text": "Trend Micro compliance monitoring validated endpoint security controls", "entities": []}
+{"text": "Regulatory change monitoring detected 3 new requirements requiring policy updates", "entities": []}
+{"text": "Chef Compliance automation validated system configurations and policies", "entities": [[0, 4, "TOOL"]]}
+{"text": "Google Cloud Security Command Center monitored compliance violations", "entities": [[0, 6, "TOOL"]]}
+{"text": "Elastic compliance monitoring validated security event logging", "entities": [[0, 7, "TOOL"]]}
+{"text": "Compliance Framework Tool mapped enterprise controls to ISO SOC2 PCI DSS and NIST", "entities": [[56, 59, "FRAMEWORK"], [60, 64, "FRAMEWORK"]]}
+{"text": "Ansible compliance automation validated configuration management", "entities": [[0, 7, "TOOL"]]}
+{"text": "Continuous Compliance Monitor validated 300 systems against CIS Benchmarks scoring 92%", "entities": [[60, 63, "COUNT"]]}
+{"text": "Nessus compliance scanning validated security controls and vulnerabilities", "entities": [[0, 6, "TOOL"]]}
+{"text": "External Auditor Portal Tool compiled evidence and tracked auditor feedback for certification", "entities": [[67, 75, "AUDITOR_TYPE"]]}
+{"text": "CrowdStrike compliance monitoring validated endpoint security controls", "entities": [[0, 11, "TOOL"]]}
+{"text": "Archer GRC platform managed compliance workflows for 15 regulatory frameworks", "entities": [[0, 6, "TOOL"]]}
+{"text": "Audit Checklist Tool conducted internal ISO 27001 audit scoring 87% with findings", "entities": []}
+{"text": "Ticketing System Tool tracked 12 open compliance gaps with patch management policy overdue", "entities": []}
+{"text": "Pipeline Compliance Tool blocked build 1234 due to no encryption violation on S3 bucket", "entities": []}
+{"text": "ServiceNow GRC module automated control testing and evidence collection", "entities": [[0, 10, "TOOL"]]}
+{"text": "Terraform compliance validation enforced infrastructure as code policies", "entities": []}
+{"text": "Puppet compliance automation enforced security policies and configurations", "entities": [[0, 6, "TOOL"]]}
+{"text": "ZenGRC platform automated compliance mapping and evidence collection", "entities": [[0, 6, "TOOL"]]}
+{"text": "Compliance audit finding: Email address hr@company.com and phone number +1-800-555-0199 stored without encryption. HIPAA compliance framework violation.", "entities": [[40, 54, "EMAIL_ADDRESS"], [72, 87, "PHONE_NUMBER"]]}
+{"text": "Control Mapping Tool aligned 85 enterprise controls to PCI DSS identifying encryption gaps", "entities": []}
+{"text": "InSpec compliance testing validated infrastructure as code configurations", "entities": [[0, 6, "TOOL"]]}
+{"text": "Archer GRC platform managed compliance workflows for 15 regulatory frameworks", "entities": [[0, 6, "TOOL"]]}
+{"text": "Audit Checklist Tool conducted internal ISO 27001 audit scoring 87% with findings", "entities": []}
+{"text": "ZenGRC platform automated compliance mapping and evidence collection", "entities": [[0, 6, "TOOL"]]}
+{"text": "Google Chronicle compliance monitoring validated security event analysis", "entities": [[0, 6, "TOOL"], [7, 16, "TOOL"]]}
+{"text": "Compliance audit score improved to 94% with zero critical findings", "entities": []}
+{"text": "Tenable compliance monitoring validated security posture and configurations", "entities": [[0, 7, "TOOL"]]}
+{"text": "External Auditor Portal Tool compiled evidence and tracked auditor feedback", "entities": [[67, 75, "AUDITOR_TYPE"]]}
+{"text": "Audit Checklist Tool conducted internal ISO 27001 audit scoring 87% with access review findings", "entities": []}
+{"text": "Docker compliance scanning validated container image security", "entities": [[0, 6, "TOOL"]]}
+{"text": "Wazuh open source SIEM monitored compliance controls with real-time alerting", "entities": [[0, 5, "TOOL"]]}
+{"text": "ServiceNow GRC module automated control testing and evidence collection", "entities": [[0, 10, "TOOL"]]}
+{"text": "ArcSight compliance monitoring validated security information management", "entities": [[0, 8, "TOOL"]]}
+{"text": "External Auditor Portal Tool compiled evidence and tracked auditor feedback for certification", "entities": [[67, 75, "AUDITOR_TYPE"]]}
+{"text": "GRC Integration Tool stored audit artifacts in centralized repository for evidence reuse", "entities": [[21, 27, "TOOL"], [47, 58, "ARTIFACT_TYPE"]]}
+{"text": "Audit fatigue reduction achieved through evidence reuse across 5 frameworks", "entities": []}
+{"text": "Tugboat Logic compliance automation platform streamlined audit preparation", "entities": [[0, 7, "TOOL"], [8, 13, "TOOL"], [45, 56, "AUTOMATION_TYPE"]]}
+{"text": "Evidence Collector Tool automated collection of MFA logs and access reviews for Q2", "entities": []}
+{"text": "McAfee compliance monitoring validated endpoint protection and encryption", "entities": [[0, 6, "TOOL"]]}
+{"text": "Google Chronicle compliance monitoring validated security event analysis", "entities": [[0, 6, "TOOL"], [7, 16, "TOOL"]]}
+{"text": "GRC Integration Tool stored audit artifacts in centralized repository for evidence reuse", "entities": [[21, 27, "TOOL"], [47, 58, "ARTIFACT_TYPE"]]}
+{"text": "InSpec compliance testing validated infrastructure as code configurations", "entities": [[0, 6, "TOOL"]]}
+{"text": "Compliance Framework Tool mapped enterprise controls to ISO SOC2 PCI DSS and NIST", "entities": [[56, 59, "FRAMEWORK"], [60, 64, "FRAMEWORK"]]}
+{"text": "IBM QRadar compliance monitoring validated log management and retention", "entities": [[4, 10, "TOOL"]]}
+{"text": "Google Cloud Security Command Center monitored compliance violations", "entities": [[0, 6, "TOOL"]]}
+{"text": "SIEM Tool integrated compliance monitoring detecting S3 public bucket and TLS violations", "entities": []}
+{"text": "Splunk compliance monitoring validated log collection and retention", "entities": [[0, 6, "TOOL"]]}
+{"text": "Control Mapping Tool aligned 85 enterprise controls to PCI DSS framework identifying gaps", "entities": [[85, 89, "GAP_TYPE"]]}
+{"text": "Evidence collection automation reduced audit preparation time by 60%", "entities": [[0, 8, "EVIDENCE_TYPE"], [57, 61, "TIME_TYPE"]]}
+{"text": "Compliance audit finding: System failed GDPR compliance framework requirements. Finding ID: AUD-2024-001 requires remediation.", "entities": [[33, 39, "COMPLIANCE_FRAMEWORK"], [40, 44, "REGULATION"]]}
+{"text": "Third-party vendor compliance validation completed for 25 partners with 92% certified", "entities": [[0, 11, "VALIDATION_TYPE"]]}
+{"text": "Microsoft Sentinel compliance monitoring validated cloud security events", "entities": [[0, 9, "TOOL"]]}
+{"text": "SIEM Tool integrated compliance monitoring detecting S3 public bucket and TLS violations", "entities": []}
+{"text": "Compliance framework mapping achieved 95% coverage across ISO SOC2 PCI DSS and HIPAA", "entities": [[79, 84, "REGULATION"]]}
+{"text": "SentinelOne compliance monitoring validated endpoint protection", "entities": [[0, 11, "TOOL"]]}
+{"text": "Evidence Collector Tool automated collection of MFA logs access reviews and configs", "entities": []}
+{"text": "Financial audit: Bank routing number 121000248 and SWIFT code WFBIUS6S found in payment processing logs. PCI DSS compliance framework review required.", "entities": [[0, 9, "FINANCIAL_TYPE"]]}
+{"text": "Compliance Strategist defined compliance frameworks mapping ISO SOC2 PCI DSS HIPAA SOX and GDPR", "entities": [[77, 82, "REGULATION"], [83, 86, "REGULATION"], [91, 95, "REGULATION"]]}
+{"text": "Evidence collection automation reduced audit preparation time by 60%", "entities": [[0, 8, "EVIDENCE_TYPE"], [57, 61, "TIME_TYPE"]]}
+{"text": "Enterprise Audit Compliance Strategist defined compliance frameworks mapping ISO SOC2 PCI DSS HIPAA SOX GDPR", "entities": [[81, 85, "FRAMEWORK"], [94, 99, "REGULATION"], [100, 103, "REGULATION"]]}
+{"text": "External Auditor Portal Tool compiled evidence and tracked auditor feedback", "entities": [[67, 75, "AUDITOR_TYPE"]]}
+{"text": "Vendor Risk Compliance Tool validated AWS SOC2 and ISO27001 certifications", "entities": []}
+{"text": "Compliance Framework Tool mapped enterprise controls to ISO SOC2 PCI DSS and NIST", "entities": [[56, 59, "FRAMEWORK"], [60, 64, "FRAMEWORK"]]}
+{"text": "Carbon Black compliance monitoring validated endpoint detection and response", "entities": []}
+{"text": "AI Control Mapping Tool automatically aligned audit logging across ISO SOC2 and NIST", "entities": [[24, 37, "CONTROL_TYPE"]]}
+{"text": "Evidence Collector Tool automated collection of MFA logs access reviews and configs", "entities": []}
+{"text": "Pipeline Compliance Tool blocked build due to encryption violation on S3 bucket", "entities": []}
+{"text": "CloudCheckr compliance monitoring validated multi-cloud configurations", "entities": []}
+{"text": "Evidence Collector Tool automated collection of MFA logs and access reviews for Q2", "entities": []}
+{"text": "Policy Definition Generator created access control encryption and patch management policies", "entities": []}
+{"text": "IBM QRadar compliance monitoring validated log management and retention", "entities": [[4, 10, "TOOL"]]}
+{"text": "Vanta compliance automation platform validated SOC2 ISO and HIPAA controls", "entities": [[0, 5, "TOOL"]]}
+{"text": "Archer GRC platform managed compliance workflows for 15 regulatory frameworks", "entities": [[0, 6, "TOOL"]]}
+{"text": "Google Cloud Security Command Center monitored compliance violations", "entities": [[0, 6, "TOOL"]]}
+{"text": "Compliance audit score improved to 94% with zero critical findings", "entities": []}
+{"text": "Hyperproof compliance management platform tracked control effectiveness", "entities": [[0, 10, "TOOL"]]}
+{"text": "Rapid7 InsightVM compliance scanning validated security configurations", "entities": [[0, 6, "TOOL"], [7, 16, "TOOL"]]}
+{"text": "Rapid7 InsightVM compliance scanning validated security configurations", "entities": [[0, 6, "TOOL"], [7, 16, "TOOL"]]}
+{"text": "Tenable compliance monitoring validated security posture and configurations", "entities": [[0, 7, "TOOL"]]}
+{"text": "AWS Config compliance monitoring validated cloud resource configurations", "entities": [[0, 3, "CLOUD_PROVIDER"], [4, 10, "TOOL"], [58, 72, "RESOURCE_TYPE"]]}
+{"text": "LogRhythm compliance monitoring validated audit log collection", "entities": [[0, 9, "TOOL"]]}
+{"text": "Regulatory Feed Monitor detected EU AI Act regulation impacting data privacy policy", "entities": []}
+{"text": "Vendor Risk Compliance Tool validated AWS SOC2 and ISO27001 certifications", "entities": []}
+{"text": "Qualys compliance monitoring validated vulnerability and patch management", "entities": [[0, 6, "TOOL"]]}
+{"text": "Regulatory change monitoring detected 3 new requirements requiring policy updates", "entities": []}
+{"text": "Elastic compliance monitoring validated security event logging", "entities": [[0, 7, "TOOL"]]}
+{"text": "Regulatory Feed Monitor detected EU AI Act DORA and SEC regulation changes", "entities": [[67, 74, "REGULATION"]]}
+{"text": "Vanta compliance automation platform validated SOC2 ISO and HIPAA controls", "entities": [[0, 5, "TOOL"]]}
+{"text": "Compliance audit finding: System failed GDPR compliance framework requirements. Finding ID: AUD-2024-001 requires remediation.", "entities": [[33, 39, "COMPLIANCE_FRAMEWORK"], [40, 44, "REGULATION"]]}
+{"text": "Compliance Strategist defined compliance frameworks mapping ISO SOC2 PCI DSS HIPAA SOX and GDPR", "entities": [[77, 82, "REGULATION"], [83, 86, "REGULATION"], [91, 95, "REGULATION"]]}
+{"text": "LogicGate risk and compliance platform managed GRC workflows", "entities": [[0, 9, "TOOL"], [10, 14, "RISK_TYPE"]]}
+{"text": "External Auditor Portal Tool compiled evidence and tracked auditor feedback for certification", "entities": [[67, 75, "AUDITOR_TYPE"]]}
+{"text": "Secureframe compliance platform managed PCI DSS HIPAA and SOC2 certifications", "entities": [[0, 11, "TOOL"]]}
+{"text": "Docker compliance scanning validated container image security", "entities": [[0, 6, "TOOL"]]}
+{"text": "ArcSight compliance monitoring validated security information management", "entities": [[0, 8, "TOOL"]]}
+{"text": "InSpec compliance testing validated infrastructure as code configurations", "entities": [[0, 6, "TOOL"]]}
+{"text": "Evidence Collector Tool automated collection of MFA logs access reviews and configs", "entities": []}
+{"text": "SIEM Tool integrated compliance monitoring detecting S3 public bucket and TLS1.0 violations", "entities": []}
+{"text": "CloudCheckr compliance monitoring validated multi-cloud configurations", "entities": []}
+{"text": "Enterprise Audit Compliance Strategist defined compliance frameworks mapping ISO SOC2 PCI DSS HIPAA SOX GDPR", "entities": [[81, 85, "FRAMEWORK"], [94, 99, "REGULATION"], [100, 103, "REGULATION"]]}
+{"text": "Internal audit findings remediation completed 18 of 20 issues within SLA", "entities": []}
+{"text": "Compliance Strategist defined compliance frameworks mapping ISO SOC2 PCI DSS HIPAA SOX and GDPR", "entities": [[77, 82, "REGULATION"], [83, 86, "REGULATION"], [91, 95, "REGULATION"]]}
+{"text": "Audit Compliance Operations Engineer implemented automated control monitoring collecting evidence", "entities": []}
+{"text": "Evidence Validation Tool prepared SOC2 external audit package with vulnerability management evidence", "entities": [[67, 80, "PACKAGE_TYPE"]]}
+{"text": "ZenGRC platform automated compliance mapping and evidence collection", "entities": [[0, 6, "TOOL"]]}
+{"text": "Azure Policy compliance enforcement validated resource configurations", "entities": [[0, 5, "CLOUD_PROVIDER"]]}
+{"text": "Ticketing System Tool tracked 12 open compliance gaps with patch management overdue", "entities": []}
+{"text": "Trend Micro compliance monitoring validated endpoint security controls", "entities": []}
+{"text": "AWS Config compliance monitoring validated cloud resource configurations", "entities": [[0, 3, "CLOUD_PROVIDER"], [4, 10, "TOOL"], [58, 72, "RESOURCE_TYPE"]]}
+{"text": "Evidence Reuse Tool mapped MFA logs artifact to ISO 27001 SOC2 and PCI DSS frameworks", "entities": [[48, 51, "LOG_TYPE"], [67, 70, "FRAMEWORK"], [75, 85, "FRAMEWORK"]]}
+{"text": "Archer GRC platform managed compliance workflows for 15 regulatory frameworks", "entities": [[0, 6, "TOOL"]]}
+{"text": "Continuous Compliance Monitor validated 300 systems against CIS Benchmarks scoring 92%", "entities": [[60, 63, "COUNT"]]}
+{"text": "Hyperproof compliance management platform tracked control effectiveness", "entities": [[0, 10, "TOOL"]]}
+{"text": "Ticketing System Tool tracked 12 open compliance gaps with patch management overdue", "entities": []}
+{"text": "Prisma Cloud compliance monitoring validated container and cloud security", "entities": [[0, 6, "TOOL"]]}
+{"text": "Chef Compliance automation validated system configurations and policies", "entities": [[0, 4, "TOOL"]]}
+{"text": "Regulatory change monitoring detected 3 new requirements requiring policy updates", "entities": []}
+{"text": "Internal audit findings remediation completed 18 of 20 issues within SLA", "entities": []}
+{"text": "ArcSight compliance monitoring validated security information management", "entities": [[0, 8, "TOOL"]]}
+{"text": "Reporting Dashboard Tool generated compliance KPIs showing ISO27001 and PCI DSS scores", "entities": []}
+{"text": "Compliance audit score improved to 94% with zero critical findings", "entities": []}
+{"text": "External audit readiness achieved 98% with all evidence packages validated", "entities": [[15, 24, "AUDITOR_TYPE"], [34, 37, "METRIC_TYPE"]]}
+{"text": "Tugboat Logic compliance automation platform streamlined audit preparation", "entities": [[0, 7, "TOOL"], [8, 13, "TOOL"], [45, 56, "AUTOMATION_TYPE"]]}
+{"text": "Compliance training completion reached 96% for all GRC analysts and auditors", "entities": [[55, 63, "ROLE_TYPE"]]}
+{"text": "Tugboat Logic compliance automation platform streamlined audit preparation", "entities": [[0, 7, "TOOL"], [8, 13, "TOOL"], [45, 56, "AUTOMATION_TYPE"]]}
+{"text": "Hyperproof compliance management platform tracked control effectiveness", "entities": [[0, 10, "TOOL"]]}
+{"text": "CloudCheckr compliance monitoring validated multi-cloud configurations", "entities": []}
+{"text": "Vendor Risk Compliance Tool validated AWS SOC2 and ISO27001 certifications", "entities": []}
+{"text": "Drata compliance monitoring platform automated evidence collection for audits", "entities": []}
+{"text": "MetricStream GRC platform enabled continuous monitoring and risk assessment", "entities": [[34, 44, "MONITORING_TYPE"]]}
+{"text": "Splunk compliance monitoring validated log collection and retention", "entities": [[0, 6, "TOOL"]]}
+{"text": "LogRhythm compliance monitoring validated audit log collection", "entities": [[0, 9, "TOOL"]]}
+{"text": "Third-party vendor compliance validation completed for 25 partners with 92% certified", "entities": [[0, 11, "VALIDATION_TYPE"]]}
+{"text": "Regulatory change monitoring detected 3 new requirements requiring policy updates", "entities": []}
+{"text": "Archer GRC platform managed compliance workflows for 15 regulatory frameworks", "entities": [[0, 6, "TOOL"]]}
+{"text": "GRC Integration Tool stored audit artifacts in centralized repository for evidence reuse", "entities": [[21, 27, "TOOL"], [47, 58, "ARTIFACT_TYPE"]]}
+{"text": "Microsoft Defender compliance monitoring validated endpoint security", "entities": [[0, 9, "TOOL"]]}
+{"text": "Evidence Validation Tool prepared SOC2 external audit package with evidence", "entities": [[67, 75, "PACKAGE_TYPE"]]}
+{"text": "SentinelOne compliance monitoring validated endpoint protection", "entities": [[0, 11, "TOOL"]]}
+{"text": "Evidence Reuse Tool mapped MFA logs to ISO 27001 SOC2 and PCI DSS frameworks", "entities": [[43, 48, "AUTH_TYPE"]]}
+{"text": "Prisma Cloud compliance monitoring validated container and cloud security", "entities": [[0, 6, "TOOL"]]}
+{"text": "Continuous Compliance Monitor validated 300 systems against CIS Benchmarks scoring 92%", "entities": [[60, 63, "COUNT"]]}
+{"text": "Symantec compliance monitoring validated endpoint protection and antivirus", "entities": [[0, 8, "TOOL"]]}
+{"text": "Tenable compliance monitoring validated security posture and configurations", "entities": [[0, 7, "TOOL"]]}
+{"text": "Symantec compliance monitoring validated endpoint protection and antivirus", "entities": [[0, 8, "TOOL"]]}
+{"text": "Kubernetes compliance monitoring validated cluster configurations", "entities": [[0, 10, "TOOL"]]}
+{"text": "Reporting Dashboard Tool generated compliance KPIs showing ISO27001 and PCI DSS scores", "entities": []}
+{"text": "Microsoft Sentinel compliance monitoring validated cloud security events", "entities": [[0, 9, "TOOL"]]}
+{"text": "Vendor Risk Compliance Tool validated AWS SOC2 and ISO27001 certifications", "entities": []}
+{"text": "Compliance training completion reached 96% for all GRC analysts and auditors", "entities": [[55, 63, "ROLE_TYPE"]]}
+{"text": "Ansible compliance automation validated configuration management", "entities": [[0, 7, "TOOL"]]}
+{"text": "OpenSCAP compliance scanner validated systems against NIST and CIS benchmarks", "entities": []}
+{"text": "Compliance framework mapping achieved 95% coverage across ISO SOC2 PCI DSS and HIPAA", "entities": [[79, 84, "REGULATION"]]}
+{"text": "Reporting Dashboard Tool generated compliance KPIs showing ISO27001 and PCI DSS scores", "entities": []}
+{"text": "Vendor Risk Compliance Tool validated AWS SOC2 and ISO27001 certifications", "entities": []}
+{"text": "SentinelOne compliance monitoring validated endpoint protection", "entities": [[0, 11, "TOOL"]]}
+{"text": "Continuous Assurance validated 120 controls with logging disabled failure on serverX", "entities": []}
+{"text": "OneTrust privacy platform managed GDPR CCPA and LGPD compliance requirements", "entities": [[0, 8, "TOOL"]]}
+{"text": "Enterprise Audit Compliance Strategist defined compliance frameworks mapping ISO SOC2 PCI DSS HIPAA SOX GDPR", "entities": [[81, 85, "FRAMEWORK"], [94, 99, "REGULATION"], [100, 103, "REGULATION"]]}
+{"text": "Compliance Innovation Analyst leveraged AI to map controls across multiple frameworks", "entities": []}
+{"text": "Policy Definition Generator created access control policy aligned with ISO 27001 requirements", "entities": []}
+{"text": "CloudFormation compliance validation enforced cloud resource policies", "entities": []}
+{"text": "Compliance training completion reached 96% for all GRC analysts and auditors", "entities": [[55, 63, "ROLE_TYPE"]]}
+{"text": "SIEM Tool integrated compliance monitoring detecting S3 public bucket and TLS violations", "entities": []}
+{"text": "Audit Compliance Assurance Analyst conducted internal audits validating evidence and reporting", "entities": [[45, 53, "AUDIT_TYPE"]]}
+{"text": "AI Control Mapping Tool automatically aligned audit logging control across ISO SOC2 and NIST", "entities": [[24, 37, "CONTROL_TYPE"]]}
+{"text": "Drata compliance monitoring platform automated evidence collection for audits", "entities": []}
+{"text": "GRC Integration Tool stored audit artifacts in centralized repository for evidence reuse", "entities": [[21, 27, "TOOL"], [47, 58, "ARTIFACT_TYPE"]]}
+{"text": "Compliance false positive rate reduced to 2.3% improving control validation accuracy", "entities": []}
+{"text": "Qualys compliance monitoring validated vulnerability and patch management", "entities": [[0, 6, "TOOL"]]}
+{"text": "Nessus compliance scanning validated security controls and vulnerabilities", "entities": [[0, 6, "TOOL"]]}
+{"text": "Audit Checklist Tool conducted internal ISO 27001 audit scoring 87% with access review findings", "entities": []}
+{"text": "ServiceNow GRC module automated control testing and evidence collection", "entities": [[0, 10, "TOOL"]]}
+{"text": "Continuous Compliance Monitor validated 300 systems against CIS Benchmarks scoring 92%", "entities": [[60, 63, "COUNT"]]}
+{"text": "OpenSCAP compliance scanning validated system configurations against baselines", "entities": [[0, 8, "TOOL"]]}
+{"text": "LogicGate risk and compliance platform managed GRC workflows", "entities": [[0, 9, "TOOL"], [10, 14, "RISK_TYPE"]]}
+{"text": "CloudFormation compliance validation enforced cloud resource policies", "entities": []}
+{"text": "ServiceNow GRC module automated control testing and evidence collection", "entities": [[0, 10, "TOOL"]]}
+{"text": "MetricStream GRC platform enabled continuous monitoring and risk assessment", "entities": [[34, 44, "MONITORING_TYPE"]]}
+{"text": "Continuous Assurance validated 120 controls with logging disabled failure on serverX", "entities": []}
+{"text": "LogicGate risk and compliance platform managed GRC workflows", "entities": [[0, 9, "TOOL"], [10, 14, "RISK_TYPE"]]}
+{"text": "Audit fatigue reduction achieved through evidence reuse across 5 frameworks", "entities": []}
+{"text": "Prisma Cloud compliance monitoring validated container and cloud security", "entities": [[0, 6, "TOOL"]]}
+{"text": "Wazuh open source SIEM monitored compliance controls with real-time alerting", "entities": [[0, 5, "TOOL"]]}
+{"text": "Compliance false positive rate reduced to 2.3% improving control validation accuracy", "entities": []}
+{"text": "Elastic compliance monitoring validated security event logging", "entities": [[0, 7, "TOOL"]]}
+{"text": "Audit report: Finding identified non-compliance with ISO 27001 compliance framework. Evidence stored in repository.", "entities": []}
+{"text": "OneTrust privacy platform managed GDPR CCPA and LGPD compliance requirements", "entities": [[0, 8, "TOOL"]]}
+{"text": "Regulatory Feed Monitor detected EU AI Act regulation impacting data privacy policy", "entities": []}
+{"text": "Vanta compliance automation platform validated SOC2 ISO and HIPAA controls", "entities": [[0, 5, "TOOL"]]}
+{"text": "Audit report: Finding identified non-compliance with ISO 27001 compliance framework. Evidence stored in repository.", "entities": []}
+{"text": "GRC Integration Tool stored audit artifacts in centralized repository for evidence reuse", "entities": [[21, 27, "TOOL"], [47, 58, "ARTIFACT_TYPE"]]}
+{"text": "Compliance training completion reached 96% for all GRC analysts and auditors", "entities": [[55, 63, "ROLE_TYPE"]]}
+{"text": "Continuous Compliance Monitor validated 300 systems against CIS Benchmarks scoring 92%", "entities": [[60, 63, "COUNT"]]}
+{"text": "Audit fatigue reduction achieved through evidence reuse across 5 frameworks", "entities": []}
+{"text": "Reporting Dashboard Tool generated compliance KPIs showing ISO27001 and PCI DSS scores", "entities": []}
+{"text": "Splunk compliance monitoring validated log collection and retention", "entities": [[0, 6, "TOOL"]]}
+{"text": "Compliance Innovation Analyst leveraged AI to map controls across multiple frameworks", "entities": []}
+{"text": "Evidence Reuse Tool mapped MFA logs artifact to ISO 27001 SOC2 and PCI DSS frameworks", "entities": [[48, 51, "LOG_TYPE"], [67, 70, "FRAMEWORK"], [75, 85, "FRAMEWORK"]]}
+{"text": "Control automation coverage reached 88% reducing manual audit effort", "entities": [[0, 7, "CONTROL_TYPE"]]}
+{"text": "Control Mapping Tool aligned 85 enterprise controls to PCI DSS identifying encryption gaps", "entities": []}
+{"text": "Internal audit findings remediation completed 18 of 20 issues within SLA", "entities": []}
+{"text": "External audit readiness achieved 98% with all evidence packages validated", "entities": [[15, 24, "AUDITOR_TYPE"], [34, 37, "METRIC_TYPE"]]}
+{"text": "Kaspersky compliance monitoring validated endpoint security and threat detection", "entities": [[0, 9, "TOOL"]]}
+{"text": "CrowdStrike compliance monitoring validated endpoint security controls", "entities": [[0, 11, "TOOL"]]}
+{"text": "Azure Policy compliance enforcement validated resource configurations", "entities": [[0, 5, "CLOUD_PROVIDER"]]}
+{"text": "Internal audit findings remediation completed 18 of 20 issues within SLA", "entities": []}
+{"text": "Compliance false positive rate reduced to 2.3% improving control validation accuracy", "entities": []}
+{"text": "Compliance framework mapping achieved 95% coverage across ISO SOC2 PCI DSS and HIPAA", "entities": [[79, 84, "REGULATION"]]}
+{"text": "Vanta compliance automation platform validated SOC2 ISO and HIPAA controls", "entities": [[0, 5, "TOOL"]]}
+{"text": "Azure Policy compliance enforcement validated resource configurations", "entities": [[0, 5, "CLOUD_PROVIDER"]]}
+{"text": "ZenGRC platform automated compliance mapping and evidence collection", "entities": [[0, 6, "TOOL"]]}
+{"text": "Evidence Validation Tool prepared SOC2 external audit package with evidence", "entities": [[67, 75, "PACKAGE_TYPE"]]}
+{"text": "Ticketing System Tool tracked 12 open compliance gaps with patch management policy overdue", "entities": []}
+{"text": "SIEM Tool integrated compliance monitoring detecting S3 public bucket and TLS1.0 violations", "entities": []}
+{"text": "Financial audit: Bank routing number 121000248 and SWIFT code WFBIUS6S found in payment processing logs. PCI DSS compliance framework review required.", "entities": [[0, 9, "FINANCIAL_TYPE"]]}
+{"text": "Policy Definition Generator created access control policy aligned with ISO 27001 requirements", "entities": []}
+{"text": "Can you help me with this?", "entities": []}
+{"text": "I need to check something.", "entities": []}
+{"text": "What is the status?", "entities": []}
+{"text": "How do I do this?", "entities": []}
+{"text": "Tell me more about it.", "entities": []}
+{"text": "Is this safe to use?", "entities": []}
+{"text": "Let me know if you need anything.", "entities": []}
+{"text": "Thanks for your help.", "entities": []}
+{"text": "I will get back to you.", "entities": []}
+{"text": "Please review this document.", "entities": []}
+{"text": "What should I do next?", "entities": []}
+{"text": "How does this work?", "entities": []}
+{"text": "Why is this happening?", "entities": []}
+{"text": "When will this be ready?", "entities": []}
+{"text": "Where can I find this?", "entities": []}
+{"text": "Who should I contact?", "entities": []}
+{"text": "Hey, what's up?", "entities": []}
+{"text": "That's interesting.", "entities": []}
+{"text": "I see what you mean.", "entities": []}
+{"text": "That makes sense.", "entities": []}
+{"text": "Got it, thanks.", "entities": []}
+{"text": "Follow the steps carefully.", "entities": []}
+{"text": "Make sure to save your work.", "entities": []}
+{"text": "Check the settings first.", "entities": []}
+{"text": "Review the documentation.", "entities": []}
+{"text": "Read the instructions.", "entities": []}
+{"text": "This is important.", "entities": []}
+{"text": "That looks good.", "entities": []}
+{"text": "Everything seems fine.", "entities": []}
+{"text": "Nothing to report.", "entities": []}
+{"text": "All systems operational.", "entities": []}
+{"text": "The system is secure.", "entities": []}
+{"text": "All checks passed.", "entities": []}
+{"text": "No issues detected.", "entities": []}
+{"text": "Everything is working correctly.", "entities": []}
+{"text": "The configuration looks good.", "entities": []}
+{"text": "No vulnerabilities found.", "entities": []}
+{"text": "Security measures are in place.", "entities": []}
+{"text": "The audit was successful.", "entities": []}
+{"text": "The information is verified.", "entities": []}
+{"text": "Sources are reliable.", "entities": []}
+{"text": "The data is consistent.", "entities": []}
+{"text": "Incident occurred on 2024-11-30", "entities": [[21, 31, "DATE"]]}
+{"text": "Vulnerability discovered on 2024-11-30", "entities": [[28, 38, "DATE"]]}
+{"text": "Report generated on 2024-11-30", "entities": [[20, 30, "DATE"]]}
+{"text": "Attack detected on 2024-11-30", "entities": [[19, 29, "DATE"]]}
+{"text": "Compliance audit on 2024-11-30", "entities": [[20, 30, "DATE"]]}
+{"text": "Security scan on 2024-11-30", "entities": [[17, 27, "DATE"]]}
+{"text": "Event logged on 2024-11-30", "entities": [[16, 26, "DATE"]]}
+{"text": "Alert triggered on 2024-11-30", "entities": [[19, 29, "DATE"]]}
+{"text": "Backup created on 2024-11-30", "entities": [[18, 28, "DATE"]]}
+{"text": "Access granted on 2024-11-30", "entities": [[18, 28, "DATE"]]}
+{"text": "Incident occurred on 2024-11-01", "entities": [[21, 31, "DATE"]]}
+{"text": "Vulnerability discovered on 2024-11-01", "entities": [[28, 38, "DATE"]]}
+{"text": "Report generated on 2024-11-01", "entities": [[20, 30, "DATE"]]}
+{"text": "Attack detected on 2024-11-01", "entities": [[19, 29, "DATE"]]}
+{"text": "Compliance audit on 2024-11-01", "entities": [[20, 30, "DATE"]]}
+{"text": "Security scan on 2024-11-01", "entities": [[17, 27, "DATE"]]}
+{"text": "Event logged on 2024-11-01", "entities": [[16, 26, "DATE"]]}
+{"text": "Alert triggered on 2024-11-01", "entities": [[19, 29, "DATE"]]}
+{"text": "Backup created on 2024-11-01", "entities": [[18, 28, "DATE"]]}
+{"text": "Access granted on 2024-11-01", "entities": [[18, 28, "DATE"]]}
+{"text": "Incident occurred on 2024-12-15", "entities": [[21, 31, "DATE"]]}
+{"text": "Vulnerability discovered on 2024-12-15", "entities": [[28, 38, "DATE"]]}
+{"text": "Report generated on 2024-12-15", "entities": [[20, 30, "DATE"]]}
+{"text": "Attack detected on 2024-12-15", "entities": [[19, 29, "DATE"]]}
+{"text": "Compliance audit on 2024-12-15", "entities": [[20, 30, "DATE"]]}
+{"text": "Security scan on 2024-12-15", "entities": [[17, 27, "DATE"]]}
+{"text": "Event logged on 2024-12-15", "entities": [[16, 26, "DATE"]]}
+{"text": "Alert triggered on 2024-12-15", "entities": [[19, 29, "DATE"]]}
+{"text": "Backup created on 2024-12-15", "entities": [[18, 28, "DATE"]]}
+{"text": "Access granted on 2024-12-15", "entities": [[18, 28, "DATE"]]}
+{"text": "Incident occurred on 2023-01-01", "entities": [[21, 31, "DATE"]]}
+{"text": "Vulnerability discovered on 2023-01-01", "entities": [[28, 38, "DATE"]]}
+{"text": "Report generated on 2023-01-01", "entities": [[20, 30, "DATE"]]}
+{"text": "Compliance with PCI DSS requirements", "entities": [[16, 23, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Audit for PCI DSS compliance", "entities": [[10, 17, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Verify PCI DSS controls", "entities": [[7, 14, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Assess PCI DSS compliance status", "entities": [[7, 14, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Review PCI DSS requirements", "entities": [[7, 14, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Check PCI DSS compliance", "entities": [[6, 13, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Validate PCI DSS controls", "entities": [[9, 16, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Report on PCI DSS compliance", "entities": [[10, 17, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Ensure PCI DSS compliance", "entities": [[7, 14, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Monitor PCI DSS requirements", "entities": [[8, 15, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Compliance with HIPAA requirements", "entities": [[16, 21, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Audit for HIPAA compliance", "entities": [[10, 15, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Verify HIPAA controls", "entities": [[7, 12, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Assess HIPAA compliance status", "entities": [[7, 12, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Review HIPAA requirements", "entities": [[7, 12, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Check HIPAA compliance", "entities": [[6, 11, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Validate HIPAA controls", "entities": [[9, 14, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Report on HIPAA compliance", "entities": [[10, 15, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Ensure HIPAA compliance", "entities": [[7, 12, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Monitor HIPAA requirements", "entities": [[8, 13, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Compliance with SOC 2 requirements", "entities": [[16, 21, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Audit for SOC 2 compliance", "entities": [[10, 15, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Verify SOC 2 controls", "entities": [[7, 12, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Assess SOC 2 compliance status", "entities": [[7, 12, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Review SOC 2 requirements", "entities": [[7, 12, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Check SOC 2 compliance", "entities": [[6, 11, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Validate SOC 2 controls", "entities": [[9, 14, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Report on SOC 2 compliance", "entities": [[10, 15, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Ensure SOC 2 compliance", "entities": [[7, 12, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Monitor SOC 2 requirements", "entities": [[8, 13, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Compliance with FedRAMP requirements", "entities": [[16, 23, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Audit for FedRAMP compliance", "entities": [[10, 17, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Verify FedRAMP controls", "entities": [[7, 14, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Assess FedRAMP compliance status", "entities": [[7, 14, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Review FedRAMP requirements", "entities": [[7, 14, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Check FedRAMP compliance", "entities": [[6, 13, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Validate FedRAMP controls", "entities": [[9, 16, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Report on FedRAMP compliance", "entities": [[10, 17, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Ensure FedRAMP compliance", "entities": [[7, 14, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Monitor FedRAMP requirements", "entities": [[8, 15, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Compliance with CMMC requirements", "entities": [[16, 20, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Audit for CMMC compliance", "entities": [[10, 14, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Verify CMMC controls", "entities": [[7, 11, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Assess CMMC compliance status", "entities": [[7, 11, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Review CMMC requirements", "entities": [[7, 11, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Check CMMC compliance", "entities": [[6, 10, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Validate CMMC controls", "entities": [[9, 13, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Report on CMMC compliance", "entities": [[10, 14, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Ensure CMMC compliance", "entities": [[7, 11, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Monitor CMMC requirements", "entities": [[8, 12, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Compliance with CIS Controls requirements", "entities": [[16, 28, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Audit for CIS Controls compliance", "entities": [[10, 22, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Verify CIS Controls controls", "entities": [[7, 19, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Assess CIS Controls compliance status", "entities": [[7, 19, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Review CIS Controls requirements", "entities": [[7, 19, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Check CIS Controls compliance", "entities": [[6, 18, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Validate CIS Controls controls", "entities": [[9, 21, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Report on CIS Controls compliance", "entities": [[10, 22, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Ensure CIS Controls compliance", "entities": [[7, 19, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Monitor CIS Controls requirements", "entities": [[8, 20, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Compliance with OWASP Top 10 requirements", "entities": [[16, 28, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Audit for OWASP Top 10 compliance", "entities": [[10, 22, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Verify OWASP Top 10 controls", "entities": [[7, 19, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Assess OWASP Top 10 compliance status", "entities": [[7, 19, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Review OWASP Top 10 requirements", "entities": [[7, 19, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Check OWASP Top 10 compliance", "entities": [[6, 18, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Validate OWASP Top 10 controls", "entities": [[9, 21, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Report on OWASP Top 10 compliance", "entities": [[10, 22, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Ensure OWASP Top 10 compliance", "entities": [[7, 19, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Monitor OWASP Top 10 requirements", "entities": [[8, 20, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Compliance with NIST CSF requirements", "entities": [[16, 24, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Audit for NIST CSF compliance", "entities": [[10, 18, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Verify NIST CSF controls", "entities": [[7, 15, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Assess NIST CSF compliance status", "entities": [[7, 15, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Review NIST CSF requirements", "entities": [[7, 15, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Check NIST CSF compliance", "entities": [[6, 14, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Validate NIST CSF controls", "entities": [[9, 17, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Report on NIST CSF compliance", "entities": [[10, 18, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Ensure NIST CSF compliance", "entities": [[7, 15, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Monitor NIST CSF requirements", "entities": [[8, 16, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Incident occurred on 2024-11-30", "entities": [[21, 31, "DATE"]]}
+{"text": "Vulnerability discovered on 2024-11-30", "entities": [[28, 38, "DATE"]]}
+{"text": "Report generated on 2024-11-30", "entities": [[20, 30, "DATE"]]}
+{"text": "Attack detected on 2024-11-30", "entities": [[19, 29, "DATE"]]}
+{"text": "Compliance audit on 2024-11-30", "entities": [[20, 30, "DATE"]]}
+{"text": "Security scan on 2024-11-30", "entities": [[17, 27, "DATE"]]}
+{"text": "Event logged on 2024-11-30", "entities": [[16, 26, "DATE"]]}
+{"text": "Alert triggered on 2024-11-30", "entities": [[19, 29, "DATE"]]}
+{"text": "Backup created on 2024-11-30", "entities": [[18, 28, "DATE"]]}
+{"text": "Access granted on 2024-11-30", "entities": [[18, 28, "DATE"]]}
+{"text": "Incident occurred on 2024-11-01", "entities": [[21, 31, "DATE"]]}
+{"text": "Vulnerability discovered on 2024-11-01", "entities": [[28, 38, "DATE"]]}
+{"text": "Report generated on 2024-11-01", "entities": [[20, 30, "DATE"]]}
+{"text": "Attack detected on 2024-11-01", "entities": [[19, 29, "DATE"]]}
+{"text": "Compliance audit on 2024-11-01", "entities": [[20, 30, "DATE"]]}
+{"text": "Security scan on 2024-11-01", "entities": [[17, 27, "DATE"]]}
+{"text": "Event logged on 2024-11-01", "entities": [[16, 26, "DATE"]]}
+{"text": "Alert triggered on 2024-11-01", "entities": [[19, 29, "DATE"]]}
+{"text": "Backup created on 2024-11-01", "entities": [[18, 28, "DATE"]]}
+{"text": "Access granted on 2024-11-01", "entities": [[18, 28, "DATE"]]}
+{"text": "Incident occurred on 2024-12-15", "entities": [[21, 31, "DATE"]]}
+{"text": "Vulnerability discovered on 2024-12-15", "entities": [[28, 38, "DATE"]]}
+{"text": "Report generated on 2024-12-15", "entities": [[20, 30, "DATE"]]}
+{"text": "Attack detected on 2024-12-15", "entities": [[19, 29, "DATE"]]}
+{"text": "Compliance audit on 2024-12-15", "entities": [[20, 30, "DATE"]]}
+{"text": "Security scan on 2024-12-15", "entities": [[17, 27, "DATE"]]}
+{"text": "Event logged on 2024-12-15", "entities": [[16, 26, "DATE"]]}
+{"text": "Alert triggered on 2024-12-15", "entities": [[19, 29, "DATE"]]}
+{"text": "Backup created on 2024-12-15", "entities": [[18, 28, "DATE"]]}
+{"text": "Access granted on 2024-12-15", "entities": [[18, 28, "DATE"]]}
+{"text": "Incident occurred on 2023-01-01", "entities": [[21, 31, "DATE"]]}
+{"text": "Vulnerability discovered on 2023-01-01", "entities": [[28, 38, "DATE"]]}
+{"text": "Report generated on 2023-01-01", "entities": [[20, 30, "DATE"]]}
+{"text": "Compliance with PCI DSS requirements", "entities": [[16, 23, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Audit for PCI DSS compliance", "entities": [[10, 17, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Verify PCI DSS controls", "entities": [[7, 14, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Assess PCI DSS compliance status", "entities": [[7, 14, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Review PCI DSS requirements", "entities": [[7, 14, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Check PCI DSS compliance", "entities": [[6, 13, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Validate PCI DSS controls", "entities": [[9, 16, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Report on PCI DSS compliance", "entities": [[10, 17, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Ensure PCI DSS compliance", "entities": [[7, 14, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Monitor PCI DSS requirements", "entities": [[8, 15, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Compliance with HIPAA requirements", "entities": [[16, 21, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Audit for HIPAA compliance", "entities": [[10, 15, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Verify HIPAA controls", "entities": [[7, 12, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Assess HIPAA compliance status", "entities": [[7, 12, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Review HIPAA requirements", "entities": [[7, 12, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Check HIPAA compliance", "entities": [[6, 11, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Validate HIPAA controls", "entities": [[9, 14, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Report on HIPAA compliance", "entities": [[10, 15, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Ensure HIPAA compliance", "entities": [[7, 12, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Monitor HIPAA requirements", "entities": [[8, 13, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Compliance with SOC 2 requirements", "entities": [[16, 21, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Audit for SOC 2 compliance", "entities": [[10, 15, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Verify SOC 2 controls", "entities": [[7, 12, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Assess SOC 2 compliance status", "entities": [[7, 12, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Review SOC 2 requirements", "entities": [[7, 12, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Check SOC 2 compliance", "entities": [[6, 11, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Validate SOC 2 controls", "entities": [[9, 14, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Report on SOC 2 compliance", "entities": [[10, 15, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Ensure SOC 2 compliance", "entities": [[7, 12, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Monitor SOC 2 requirements", "entities": [[8, 13, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Compliance with FedRAMP requirements", "entities": [[16, 23, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Audit for FedRAMP compliance", "entities": [[10, 17, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Verify FedRAMP controls", "entities": [[7, 14, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Assess FedRAMP compliance status", "entities": [[7, 14, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Review FedRAMP requirements", "entities": [[7, 14, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Check FedRAMP compliance", "entities": [[6, 13, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Validate FedRAMP controls", "entities": [[9, 16, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Report on FedRAMP compliance", "entities": [[10, 17, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Ensure FedRAMP compliance", "entities": [[7, 14, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Monitor FedRAMP requirements", "entities": [[8, 15, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Compliance with CMMC requirements", "entities": [[16, 20, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Audit for CMMC compliance", "entities": [[10, 14, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Verify CMMC controls", "entities": [[7, 11, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Assess CMMC compliance status", "entities": [[7, 11, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Review CMMC requirements", "entities": [[7, 11, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Check CMMC compliance", "entities": [[6, 10, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Validate CMMC controls", "entities": [[9, 13, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Report on CMMC compliance", "entities": [[10, 14, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Ensure CMMC compliance", "entities": [[7, 11, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Monitor CMMC requirements", "entities": [[8, 12, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Compliance with CIS Controls requirements", "entities": [[16, 28, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Audit for CIS Controls compliance", "entities": [[10, 22, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Verify CIS Controls controls", "entities": [[7, 19, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Assess CIS Controls compliance status", "entities": [[7, 19, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Review CIS Controls requirements", "entities": [[7, 19, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Check CIS Controls compliance", "entities": [[6, 18, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Validate CIS Controls controls", "entities": [[9, 21, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Report on CIS Controls compliance", "entities": [[10, 22, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Ensure CIS Controls compliance", "entities": [[7, 19, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Monitor CIS Controls requirements", "entities": [[8, 20, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Compliance with OWASP Top 10 requirements", "entities": [[16, 28, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Audit for OWASP Top 10 compliance", "entities": [[10, 22, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Verify OWASP Top 10 controls", "entities": [[7, 19, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Assess OWASP Top 10 compliance status", "entities": [[7, 19, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Review OWASP Top 10 requirements", "entities": [[7, 19, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Check OWASP Top 10 compliance", "entities": [[6, 18, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Validate OWASP Top 10 controls", "entities": [[9, 21, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Report on OWASP Top 10 compliance", "entities": [[10, 22, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Ensure OWASP Top 10 compliance", "entities": [[7, 19, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Monitor OWASP Top 10 requirements", "entities": [[8, 20, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Compliance with NIST CSF requirements", "entities": [[16, 24, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Audit for NIST CSF compliance", "entities": [[10, 18, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Verify NIST CSF controls", "entities": [[7, 15, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Assess NIST CSF compliance status", "entities": [[7, 15, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Review NIST CSF requirements", "entities": [[7, 15, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Check NIST CSF compliance", "entities": [[6, 14, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Validate NIST CSF controls", "entities": [[9, 17, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Report on NIST CSF compliance", "entities": [[10, 18, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Ensure NIST CSF compliance", "entities": [[7, 15, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Monitor NIST CSF requirements", "entities": [[8, 16, "COMPLIANCE_FRAMEWORK"]]}
+{"text": "Incident occurred at 14:30", "entities": [[21, 26, "TIME"]]}
+{"text": "Event logged at 14:30", "entities": [[16, 21, "TIME"]]}
+{"text": "Alert triggered at 14:30", "entities": [[19, 24, "TIME"]]}
+{"text": "Access granted at 14:30", "entities": [[18, 23, "TIME"]]}
+{"text": "Attack detected at 14:30", "entities": [[19, 24, "TIME"]]}
+{"text": "Report generated at 14:30", "entities": [[20, 25, "TIME"]]}
+{"text": "Backup created at 14:30", "entities": [[18, 23, "TIME"]]}
+{"text": "Scan completed at 14:30", "entities": [[18, 23, "TIME"]]}
+{"text": "Event timestamp 14:30", "entities": [[16, 21, "TIME"]]}
+{"text": "Log entry at 14:30", "entities": [[13, 18, "TIME"]]}
+{"text": "Incident occurred at 14:00", "entities": [[21, 26, "TIME"]]}
+{"text": "Event logged at 14:00", "entities": [[16, 21, "TIME"]]}
+{"text": "Alert triggered at 14:00", "entities": [[19, 24, "TIME"]]}
+{"text": "Access granted at 14:00", "entities": [[18, 23, "TIME"]]}
+{"text": "Attack detected at 14:00", "entities": [[19, 24, "TIME"]]}
+{"text": "Report generated at 14:00", "entities": [[20, 25, "TIME"]]}
+{"text": "Backup created at 14:00", "entities": [[18, 23, "TIME"]]}
+{"text": "Scan completed at 14:00", "entities": [[18, 23, "TIME"]]}
+{"text": "Event timestamp 14:00", "entities": [[16, 21, "TIME"]]}
+{"text": "Log entry at 14:00", "entities": [[13, 18, "TIME"]]}
+{"text": "Incident occurred at 18:00", "entities": [[21, 26, "TIME"]]}
+{"text": "Event logged at 18:00", "entities": [[16, 21, "TIME"]]}
+{"text": "Alert triggered at 18:00", "entities": [[19, 24, "TIME"]]}
+{"text": "Access granted at 18:00", "entities": [[18, 23, "TIME"]]}
+{"text": "Attack detected at 18:00", "entities": [[19, 24, "TIME"]]}
+{"text": "Report generated at 18:00", "entities": [[20, 25, "TIME"]]}
+{"text": "Backup created at 18:00", "entities": [[18, 23, "TIME"]]}
+{"text": "Scan completed at 18:00", "entities": [[18, 23, "TIME"]]}
+{"text": "Event timestamp 18:00", "entities": [[16, 21, "TIME"]]}
+{"text": "Log entry at 18:00", "entities": [[13, 18, "TIME"]]}
+{"text": "Incident occurred at 09:15", "entities": [[21, 26, "TIME"]]}
+{"text": "Event logged at 09:15", "entities": [[16, 21, "TIME"]]}
+{"text": "Alert triggered at 09:15", "entities": [[19, 24, "TIME"]]}
+{"text": "Access granted at 09:15", "entities": [[18, 23, "TIME"]]}
+{"text": "Attack detected at 09:15", "entities": [[19, 24, "TIME"]]}
+{"text": "Report generated at 09:15", "entities": [[20, 25, "TIME"]]}
+{"text": "Backup created at 09:15", "entities": [[18, 23, "TIME"]]}
+{"text": "Scan completed at 09:15", "entities": [[18, 23, "TIME"]]}
+{"text": "Event timestamp 09:15", "entities": [[16, 21, "TIME"]]}
+{"text": "Log entry at 09:15", "entities": [[13, 18, "TIME"]]}
+{"text": "Incident occurred at 23:59", "entities": [[21, 26, "TIME"]]}
+{"text": "Event logged at 23:59", "entities": [[16, 21, "TIME"]]}
+{"text": "Alert triggered at 23:59", "entities": [[19, 24, "TIME"]]}
+{"text": "Access granted at 23:59", "entities": [[18, 23, "TIME"]]}
+{"text": "Attack detected at 23:59", "entities": [[19, 24, "TIME"]]}
+{"text": "Report generated at 23:59", "entities": [[20, 25, "TIME"]]}
+{"text": "Backup created at 23:59", "entities": [[18, 23, "TIME"]]}
+{"text": "Scan completed at 23:59", "entities": [[18, 23, "TIME"]]}
+{"text": "Event timestamp 23:59", "entities": [[16, 21, "TIME"]]}
+{"text": "Log entry at 23:59", "entities": [[13, 18, "TIME"]]}
+{"text": "Incident occurred at 14:30:00", "entities": [[21, 29, "TIME"]]}
+{"text": "Event logged at 14:30:00", "entities": [[16, 24, "TIME"]]}
+{"text": "Alert triggered at 14:30:00", "entities": [[19, 27, "TIME"]]}
+{"text": "Access granted at 14:30:00", "entities": [[18, 26, "TIME"]]}
+{"text": "Attack detected at 14:30:00", "entities": [[19, 27, "TIME"]]}
+{"text": "Report generated at 14:30:00", "entities": [[20, 28, "TIME"]]}
+{"text": "Backup created at 14:30:00", "entities": [[18, 26, "TIME"]]}
+{"text": "Scan completed at 14:30:00", "entities": [[18, 26, "TIME"]]}
+{"text": "Event timestamp 14:30:00", "entities": [[16, 24, "TIME"]]}
+{"text": "Log entry at 14:30:00", "entities": [[13, 21, "TIME"]]}
+{"text": "Incident occurred at 14:00:00", "entities": [[21, 29, "TIME"]]}
+{"text": "Event logged at 14:00:00", "entities": [[16, 24, "TIME"]]}
+{"text": "Alert triggered at 14:00:00", "entities": [[19, 27, "TIME"]]}
+{"text": "Access granted at 14:00:00", "entities": [[18, 26, "TIME"]]}
+{"text": "Attack detected at 14:00:00", "entities": [[19, 27, "TIME"]]}
+{"text": "Report generated at 14:00:00", "entities": [[20, 28, "TIME"]]}
+{"text": "Backup created at 14:00:00", "entities": [[18, 26, "TIME"]]}
+{"text": "Scan completed at 14:00:00", "entities": [[18, 26, "TIME"]]}
+{"text": "Event timestamp 14:00:00", "entities": [[16, 24, "TIME"]]}
+{"text": "Log entry at 14:00:00", "entities": [[13, 21, "TIME"]]}
+{"text": "Incident occurred at 18:00:00", "entities": [[21, 29, "TIME"]]}
+{"text": "Event logged at 18:00:00", "entities": [[16, 24, "TIME"]]}
+{"text": "Alert triggered at 18:00:00", "entities": [[19, 27, "TIME"]]}
+{"text": "Access granted at 18:00:00", "entities": [[18, 26, "TIME"]]}
+{"text": "Attack detected at 18:00:00", "entities": [[19, 27, "TIME"]]}
+{"text": "Report generated at 18:00:00", "entities": [[20, 28, "TIME"]]}
+{"text": "Backup created at 18:00:00", "entities": [[18, 26, "TIME"]]}
+{"text": "Scan completed at 18:00:00", "entities": [[18, 26, "TIME"]]}
+{"text": "Event timestamp 18:00:00", "entities": [[16, 24, "TIME"]]}
+{"text": "Log entry at 18:00:00", "entities": [[13, 21, "TIME"]]}

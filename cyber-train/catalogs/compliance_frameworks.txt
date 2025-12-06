@@ -1,0 +1,77 @@
+# Compliance Frameworks Catalog
+# Regulatory and compliance frameworks for entity recognition
+
+GDPR
+HIPAA
+PCI DSS
+SOX
+FISMA
+NIST CSF
+ISO 27001
+ISO 27002
+SOC 2
+FedRAMP
+CMMC
+CIS Controls
+OWASP Top 10
+SANS Top 25
+CCPA
+PIPEDA
+LGPD
+PDPA
+PDPB
+POPI
+APPI
+NIST 800-53
+NIST 800-171
+CMMC Level 1
+CMMC Level 2
+CMMC Level 3
+CMMC Level 4
+CMMC Level 5
+SOC 2 Type I
+SOC 2 Type II
+FedRAMP Low
+FedRAMP Moderate
+FedRAMP High
+FIPS 140-2
+FIPS 199
+FIPS 200
+COBIT
+ITIL
+ISO 27017
+ISO 27018
+ISO 27701
+ISO 31000
+ISO 22301
+BSI IT-Grundschutz
+ENISA
+CJIS
+FERPA
+GLBA
+FFIEC
+NYDFS
+MAS TRM
+PDPC
+PIPL
+PDPA Singapore
+PDPA Thailand
+LGPD Brazil
+PDPA Malaysia
+PDPA Philippines
+PDPA Indonesia
+PDPA Vietnam
+PDPA South Korea
+PDPA Japan
+PDPA Australia
+PDPA New Zealand
+PDPA India
+PDPA South Africa
+PDPA Nigeria
+PDPA Kenya
+PDPA Egypt
+PDPA UAE
+PDPA Saudi Arabia
+PDPA Israel
+PDPA Turkey
+

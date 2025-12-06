@@ -148,3 +148,33 @@
 {"text": "How does this work?", "entities": []}
 {"text": "Why is this happening?", "entities": []}
 {"text": "When will this be ready?", "entities": []}
+{"text": "I need to investigate the problem and find a solution.", "entities": []}
+{"text": "The security posture is improving gradually.", "entities": []}
+{"text": "The system processes JSON data for API communication.", "entities": []}
+{"text": "The process involves checking file permissions.", "entities": []}
+{"text": "All security controls are properly configured.", "entities": []}
+{"text": "The system processes log files for analysis.", "entities": []}
+{"text": "The security team reviews system logs for analysis.", "entities": []}
+{"text": "JavaScript is used for frontend development in the application.", "entities": []}
+{"text": "The API endpoint handles user requests properly.", "entities": []}
+{"text": "Compliance requirements are being met.", "entities": []}
+{"text": "The security process involves finding and extracting relevant information.", "entities": []}
+{"text": "Security professionals need to detect and respond to threats quickly.", "entities": []}
+{"text": "How do I implement security measures?", "entities": []}
+{"text": "Security audits are conducted regularly.", "entities": []}
+{"text": "Please investigate the security issue.", "entities": []}
+{"text": "Security policies define acceptable use and access controls.", "entities": []}
+{"text": "HTML rendering is used for user interface display.", "entities": []}
+{"text": "The security framework includes Python scripts for automation.", "entities": []}
+{"text": "Security awareness helps employees understand risks and threats.", "entities": []}
+{"text": "The system extracts data from various sources.", "entities": []}
+{"text": "The application requires XML parsing for configuration files.", "entities": []}
+{"text": "Report security incidents immediately.", "entities": []}
+{"text": "Please check if everything is working correctly.", "entities": []}
+{"text": "The system monitors application performance continuously.", "entities": []}
+{"text": "What tools are available for security?", "entities": []}
+{"text": "The application uses JavaScript for frontend development.", "entities": []}
+{"text": "The process requires checking and verifying results.", "entities": []}
+{"text": "Can you help me understand security policies?", "entities": []}
+{"text": "What are the best security practices?", "entities": []}
+{"text": "We should verify that all controls are working properly.", "entities": []}

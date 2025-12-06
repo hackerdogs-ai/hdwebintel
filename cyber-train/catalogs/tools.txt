@@ -1,0 +1,128 @@
+# Security Tools Catalog
+# Cybersecurity and OSINT tools for entity recognition
+
+Nmap
+Wireshark
+Metasploit
+Burp Suite
+OWASP ZAP
+Nessus
+OpenVAS
+Qualys
+Rapid7
+Tenable
+Splunk
+ELK Stack
+Elasticsearch
+Logstash
+Kibana
+Grafana
+Prometheus
+Nagios
+Zabbix
+PRTG
+SolarWinds
+CrowdStrike
+Carbon Black
+SentinelOne
+Cylance
+FireEye
+Mandiant
+Palo Alto
+Fortinet
+Check Point
+pfSense
+OPNsense
+Suricata
+Snort
+Bro
+Zeek
+Moloch
+Arkime
+Security Onion
+Sguil
+Squert
+Squert
+ELSA
+OSSEC
+Wazuh
+Osquery
+Fleet
+Kolide
+Uptycs
+CrowdStrike Falcon
+Carbon Black Response
+SentinelOne Singularity
+CylancePROTECT
+FireEye Endpoint Security
+Mandiant Advantage
+Palo Alto Cortex XDR
+Fortinet FortiEDR
+Check Point Harmony Endpoint
+Trend Micro Apex One
+Symantec Endpoint Protection
+McAfee Endpoint Security
+Kaspersky Endpoint Security
+Bitdefender GravityZone
+ESET Endpoint Security
+Sophos Intercept X
+Avast Business
+AVG Business
+Malwarebytes Endpoint Protection
+Webroot Endpoint Protection
+VIPRE Endpoint Security
+Comodo Endpoint Security
+Cylance Smart Antivirus
+CrowdStrike Falcon Prevent
+Carbon Black Cloud
+SentinelOne Singularity Cloud
+Palo Alto Prisma Cloud
+Fortinet FortiGate Cloud
+Check Point CloudGuard
+Trend Micro Cloud One
+Symantec Cloud Workload Protection
+McAfee MVISION Cloud
+Kaspersky Security for Cloud
+Bitdefender GravityZone Cloud
+ESET Cloud Office Security
+Sophos Cloud Optix
+Avast CloudCare
+AVG CloudCare
+Malwarebytes Cloud
+Webroot SecureAnywhere
+VIPRE Cloud
+Comodo Cloud
+Shodan
+Censys
+ZoomEye
+BinaryEdge
+GreyNoise
+AbuseIPDB
+VirusTotal
+Hybrid Analysis
+Any.run
+Joe Sandbox
+Cuckoo Sandbox
+CAPE Sandbox
+FireEye AX
+Mandiant FLARE
+CrowdStrike Falcon Insight
+Carbon Black Live Response
+SentinelOne Deep Visibility
+Palo Alto WildFire
+Fortinet FortiSandbox
+Check Point SandBlast
+Trend Micro Deep Security
+Symantec Advanced Threat Protection
+McAfee Advanced Threat Defense
+Kaspersky Anti-Targeted Attack
+Bitdefender Advanced Threat Defense
+ESET Dynamic Threat Defense
+Sophos Intercept X Advanced
+Avast Business Antivirus Pro Plus
+AVG Business Antivirus Pro Plus
+Malwarebytes Endpoint Detection and Response
+Webroot Endpoint Detection and Response
+VIPRE Advanced Threat Protection
+Comodo Advanced Endpoint Protection
+
