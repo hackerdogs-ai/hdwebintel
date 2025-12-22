@@ -1,0 +1,3 @@
+{"text": "Track cryptocurrency wallet address 0x742d35Cc6634C0532925a3b844Bc9e7595f0bEb and monitor transactions", "entities": [[36, 77, "WALLET_ADDRESS"]]}
+{"text": "Wallet address formats: 0x742d35Cc6634C0532925a3b844Bc9e7595f0bEb, 0X742D35CC6634C0532925A3B844BC9E7595F0BEB", "entities": [[24, 65, "WALLET_ADDRESS"]]}
+{"text": "Currency formats: $100, USD 100, 100 dollars, €100, £100", "entities": [[24, 31, "CURRENCY"]]}

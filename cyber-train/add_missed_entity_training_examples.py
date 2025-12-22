@@ -50,28 +50,28 @@ MISSED_ENTITY_TARGETS = {
     'CVE_ID': 50,
 }
 
-# Entity type to pillar mapping
+# Entity type to pillar mapping (using actual directory structure)
 ENTITY_PILLAR_MAPPING = {
-    'EMOJI': ['socmint', 'osint', 'threat_intel'],
-    'PHONE_NUMBER': ['socmint', 'osint', 'data_privacy_sovereignty', 'threat_intel'],
-    'MALWARE_TYPE': ['threat_intel', 'incident_response', 'endpoint_security', 'detection_correlation'],
+    'EMOJI': ['osint/socmint', 'osint/cybint', 'threat_intelligence'],
+    'PHONE_NUMBER': ['osint/socmint', 'osint/cybint', 'data_privacy_sovereignty', 'threat_intelligence'],
+    'MALWARE_TYPE': ['threat_intelligence', 'incident_response', 'endpoint_security', 'detection_correlation'],
     'TIME': ['incident_response', 'audit_compliance', 'detection_correlation'],
-    'LONGITUDE': ['geoint', 'osint', 'threat_intel'],
-    'LATITUDE': ['geoint', 'osint', 'threat_intel'],
-    'IPV6_ADDRESS': ['network_security', 'threat_intel', 'incident_response'],
+    'LONGITUDE': ['osint/geoint', 'osint/cybint', 'threat_intelligence'],
+    'LATITUDE': ['osint/geoint', 'osint/cybint', 'threat_intelligence'],
+    'IPV6_ADDRESS': ['network_security', 'threat_intelligence', 'incident_response'],
     'SSN': ['data_privacy_sovereignty', 'incident_response', 'audit_compliance'],
-    'LLM_PROVIDER': ['ai_security', 'threat_intel'],
-    'LLM_MODEL': ['ai_security', 'threat_intel'],
-    'IP_ADDRESS': ['network_security', 'threat_intel', 'incident_response', 'detection_correlation'],
+    'LLM_PROVIDER': ['ai_security', 'threat_intelligence'],
+    'LLM_MODEL': ['ai_security', 'threat_intelligence'],
+    'IP_ADDRESS': ['network_security', 'threat_intelligence', 'incident_response', 'detection_correlation'],
     'COMPLIANCE_FRAMEWORK': ['audit_compliance', 'governance_risk_strategy'],
-    'GITHUB_REPO_URL': ['threat_intel', 'osint', 'application_security'],
-    'EMAIL_ADDRESS': ['threat_intel', 'incident_response', 'socmint', 'detection_correlation'],
-    'DMS_COORDINATES': ['geoint', 'osint'],
-    'HASH': ['incident_response', 'endpoint_security', 'threat_intel'],
-    'PORT': ['network_security', 'threat_intel', 'incident_response'],
-    'HOST_TYPE': ['network_security', 'threat_intel', 'incident_response'],
-    'THREAT_ACTOR': ['threat_intel', 'incident_response', 'detection_correlation'],
-    'CVE_ID': ['vulnerability_mgmt', 'threat_intel', 'incident_response'],
+    'GITHUB_REPO_URL': ['threat_intelligence', 'osint/cybint', 'application_security'],
+    'EMAIL_ADDRESS': ['threat_intelligence', 'incident_response', 'osint/socmint', 'detection_correlation'],
+    'DMS_COORDINATES': ['osint/geoint', 'osint/cybint'],
+    'HASH': ['incident_response', 'endpoint_security', 'threat_intelligence'],
+    'PORT': ['network_security', 'threat_intelligence', 'incident_response'],
+    'HOST_TYPE': ['network_security', 'threat_intelligence', 'incident_response'],
+    'THREAT_ACTOR': ['threat_intelligence', 'incident_response', 'detection_correlation'],
+    'CVE_ID': ['vulnerability_mgmt', 'threat_intelligence', 'incident_response'],
 }
 
 def generate_emoji_examples(count: int) -> List[Tuple[str, List]]:
@@ -670,11 +670,19 @@ def main():
         print(f"  Generated {len(examples)} examples")
         
         # Get relevant files
-        pillars = ENTITY_PILLAR_MAPPING.get(entity_type, ['threat_intel', 'incident_response'])
+        pillars = ENTITY_PILLAR_MAPPING.get(entity_type, ['threat_intelligence', 'incident_response'])
         
         for pillar in pillars:
-            pillar_dir = base_dir / pillar
-            entity_file = pillar_dir / f"{pillar}_entities.jsonl"
+            # Handle nested paths like 'osint/socmint'
+            if '/' in pillar:
+                pillar_dir = base_dir / pillar
+                # Extract the actual pillar name (last part of path)
+                pillar_name = pillar.split('/')[-1]
+            else:
+                pillar_dir = base_dir / pillar
+                pillar_name = pillar
+            
+            entity_file = pillar_dir / f"{pillar_name}_entities.jsonl"
             
             if entity_file.exists():
                 added = add_examples_to_file(entity_file, examples, entity_type)

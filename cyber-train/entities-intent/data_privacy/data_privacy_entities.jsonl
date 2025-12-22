@@ -1,0 +1,81 @@
+{"text": "PII leak detected: SSN 123-45-6789, phone +44 20 7946 0958", "entities": [[23, 34, "SSN"]]}
+{"text": "Exposed PII: SSN 123-45-6789, passport A12345678, driver license DL123456", "entities": [[17, 28, "SSN"]]}
+{"text": "Full PII breach: SSN 123-45-6789, DOB 01/15/1980, email user@example.com, phone 555-1234", "entities": [[21, 32, "SSN"]]}
+{"text": "SSN formats: 123-45-6789, 123 45 6789, 123456789", "entities": [[39, 48, "SSN"]]}
+{"text": "Email with display name: \"John Doe\" <john.doe@example.com>", "entities": [[37, 57, "EMAIL_ADDRESS"]]}
+{"text": "Email plus addressing: user+tag@example.com and subdomain user@mail.example.com", "entities": [[23, 43, "EMAIL_ADDRESS"]]}
+{"text": "Email formats: user@example.com, User@Example.COM, user+tag@example.com", "entities": [[33, 49, "EMAIL_ADDRESS"]]}
+{"text": "IP:192.168.1.1,Domain:example.com,Email:user@test.com", "entities": [[40, 53, "EMAIL_ADDRESS"]]}
+{"text": "Credit card number 4532-1234-5678-9010 found in breach data", "entities": [[19, 38, "CREDIT_CARD_NUMBER"]]}
+{"text": "Credit card formats: 4532-1234-5678-9010, 4532 1234 5678 9010, 4532123456789010", "entities": [[42, 61, "CREDIT_CARD_NUMBER"]]}
+{"text": "Bank account number 1234567890 and routing number 021000021 found in logs", "entities": [[20, 30, "BANK_ACCOUNT_NUMBER"]]}
+{"text": "SWIFT code CHASUS33 and credit card 4532 1234 5678 9010", "entities": [[11, 19, "SWIFT_CODE"]]}
+{"text": "Full PII breach: SSN 123-45-6789, DOB 01/15/1980", "entities": [[21, 32, "SSN"]]}
+{"text": "Full PII breach: SSN 123 45 6789, DOB 01/15/1980", "entities": [[21, 32, "SSN"]]}
+{"text": "Exposed PII: SSN 123 45 6789, passport A12345678", "entities": [[17, 28, "SSN"]]}
+{"text": "PII leak detected: SSN 123 45 6789, phone +44 20 7946 0958", "entities": [[23, 34, "SSN"]]}
+{"text": "Exposed PII: SSN 123456789, passport A12345678", "entities": [[17, 26, "SSN"]]}
+{"text": "Exposed PII: SSN 123-45-6789, passport A12345678", "entities": [[17, 28, "SSN"]]}
+{"text": "PII leak detected: SSN 123456789, phone +44 20 7946 0958", "entities": [[23, 32, "SSN"]]}
+{"text": "Full PII breach: SSN 123456789, DOB 01/15/1980", "entities": [[21, 30, "SSN"]]}
+{"text": "SSN: 123-45-6789", "entities": [[5, 16, "SSN"]]}
+{"text": "Social: 987-65-4321", "entities": [[8, 19, "SSN"]]}
+{"text": "SSN 555-12-3456 found", "entities": [[4, 15, "SSN"]]}
+{"text": "Number: 111-22-3333", "entities": [[8, 19, "SSN"]]}
+{"text": "ID: 222-33-4444", "entities": [[4, 15, "SSN"]]}
+{"text": "SSN detected: 333-44-5555", "entities": [[14, 25, "SSN"]]}
+{"text": "PII: 444-55-6666", "entities": [[5, 16, "SSN"]]}
+{"text": "Sensitive: 555-66-7777", "entities": [[11, 22, "SSN"]]}
+{"text": "SSN leak: 666-77-8888", "entities": [[10, 21, "SSN"]]}
+{"text": "Found SSN 777-88-9999", "entities": [[10, 21, "SSN"]]}
+{"text": "SSN formats: 123-45-6789", "entities": [[13, 24, "SSN"]]}
+{"text": "Exposed: 888-99-0000", "entities": [[9, 20, "SSN"]]}
+{"text": "SSN leak: 111-22-3333", "entities": [[10, 21, "SSN"]]}
+{"text": "Sensitive: 333-44-5555", "entities": [[11, 22, "SSN"]]}
+{"text": "SSN detected: 555-66-7777", "entities": [[14, 25, "SSN"]]}
+{"text": "Exposed: 111-22-3333", "entities": [[9, 20, "SSN"]]}
+{"text": "SSN detected: 123-45-6789", "entities": [[14, 25, "SSN"]]}
+{"text": "Sensitive: 666-77-8888", "entities": [[11, 22, "SSN"]]}
+{"text": "Found SSN 111-22-3333", "entities": [[10, 21, "SSN"]]}
+{"text": "Exposed: 987-65-4321", "entities": [[9, 20, "SSN"]]}
+{"text": "Sensitive: 444-55-6666", "entities": [[11, 22, "SSN"]]}
+{"text": "SSN detected: 777-88-9999", "entities": [[14, 25, "SSN"]]}
+{"text": "Exposed: 333-44-5555", "entities": [[9, 20, "SSN"]]}
+{"text": "SSN leak: 777-88-9999", "entities": [[10, 21, "SSN"]]}
+{"text": "Sensitive: 222-33-4444", "entities": [[11, 22, "SSN"]]}
+{"text": "SSN 444-55-6666 found", "entities": [[4, 15, "SSN"]]}
+{"text": "Exposed: 555-12-3456", "entities": [[9, 20, "SSN"]]}
+{"text": "Found SSN 444-55-6666", "entities": [[10, 21, "SSN"]]}
+{"text": "Exposed: 777-88-9999", "entities": [[9, 20, "SSN"]]}
+{"text": "Found SSN 333-44-5555", "entities": [[10, 21, "SSN"]]}
+{"text": "SSN leak: 555-66-7777", "entities": [[10, 21, "SSN"]]}
+{"text": "Found SSN 666-77-8888", "entities": [[10, 21, "SSN"]]}
+{"text": "Found SSN 987-65-4321", "entities": [[10, 21, "SSN"]]}
+{"text": "SSN detected: 444-55-6666", "entities": [[14, 25, "SSN"]]}
+{"text": "Found SSN 222-33-4444", "entities": [[10, 21, "SSN"]]}
+{"text": "SSN detected: 222-33-4444", "entities": [[14, 25, "SSN"]]}
+{"text": "Sensitive: 777-88-9999", "entities": [[11, 22, "SSN"]]}
+{"text": "SSN detected: 666-77-8888", "entities": [[14, 25, "SSN"]]}
+{"text": "Found SSN 555-66-7777", "entities": [[10, 21, "SSN"]]}
+{"text": "Exposed: 666-77-8888", "entities": [[9, 20, "SSN"]]}
+{"text": "Sensitive: 555-12-3456", "entities": [[11, 22, "SSN"]]}
+{"text": "Exposed: 123-45-6789", "entities": [[9, 20, "SSN"]]}
+{"text": "SSN leak: 333-44-5555", "entities": [[10, 21, "SSN"]]}
+{"text": "SSN detected: 987-65-4321", "entities": [[14, 25, "SSN"]]}
+{"text": "SSN 555-66-7777 found", "entities": [[4, 15, "SSN"]]}
+{"text": "Found SSN 123-45-6789", "entities": [[10, 21, "SSN"]]}
+{"text": "Sensitive: 123-45-6789", "entities": [[11, 22, "SSN"]]}
+{"text": "SSN 987-65-4321 found", "entities": [[4, 15, "SSN"]]}
+{"text": "Exposed: 222-33-4444", "entities": [[9, 20, "SSN"]]}
+{"text": "Exposed: 555-66-7777", "entities": [[9, 20, "SSN"]]}
+{"text": "SSN leak: 222-33-4444", "entities": [[10, 21, "SSN"]]}
+{"text": "SSN 222-33-4444 found", "entities": [[4, 15, "SSN"]]}
+{"text": "SSN 777-88-9999 found", "entities": [[4, 15, "SSN"]]}
+{"text": "SSN 333-44-5555 found", "entities": [[4, 15, "SSN"]]}
+{"text": "SSN leak: 444-55-6666", "entities": [[10, 21, "SSN"]]}
+{"text": "Sensitive: 987-65-4321", "entities": [[11, 22, "SSN"]]}
+{"text": "SSN leak: 555-12-3456", "entities": [[10, 21, "SSN"]]}
+{"text": "SSN 123-45-6789 found", "entities": [[4, 15, "SSN"]]}
+{"text": "SSN detected: 111-22-3333", "entities": [[14, 25, "SSN"]]}
+{"text": "SSN 666-77-8888 found", "entities": [[4, 15, "SSN"]]}
+{"text": "SSN leak: 123-45-6789", "entities": [[10, 21, "SSN"]]}

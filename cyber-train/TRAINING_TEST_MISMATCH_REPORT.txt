@@ -1,0 +1,359 @@
+================================================================================
+TRAINING vs TEST SUITE PATTERN MISMATCH ANALYSIS
+================================================================================
+
+This report identifies specific mismatches between training data
+patterns and test suite patterns that explain the performance gap.
+
+================================================================================
+TOP MISMATCHED ENTITY TYPES (by miss rate)
+================================================================================
+
+
+ALTITUDE
+--------------------------------------------------------------------------------
+  Training Examples: 0
+  Test Suite Examples: 2
+  Missed: 2 (100.0% miss rate)
+
+  ⚠️  FORMAT MISMATCH:
+     Training formats: {}
+     Test suite formats: {'alphanumeric': 2}
+     Missed formats: {'alphanumeric': 2}
+
+  ⚠️  CONTEXT LENGTH MISMATCH:
+     Training avg context: 0.0 chars
+     Test suite avg context: 77.0 chars
+     Missed avg context: 77.0 chars
+     Difference: 77.0 chars
+
+
+BANK_ACCOUNT_NUMBER
+--------------------------------------------------------------------------------
+  Training Examples: 0
+  Test Suite Examples: 1
+  Missed: 1 (100.0% miss rate)
+
+  ⚠️  FORMAT MISMATCH:
+     Training formats: {}
+     Test suite formats: {'numeric': 1}
+     Missed formats: {'numeric': 1}
+
+  ⚠️  CONTEXT LENGTH MISMATCH:
+     Training avg context: 0.0 chars
+     Test suite avg context: 73.0 chars
+     Missed avg context: 73.0 chars
+     Difference: 73.0 chars
+
+  ⚠️  ENTITY LENGTH MISMATCH:
+     Training avg entity: 0.0 chars
+     Test suite avg entity: 10.0 chars
+     Missed avg entity: 10.0 chars
+
+
+BASE64
+--------------------------------------------------------------------------------
+  Training Examples: 0
+  Test Suite Examples: 1
+  Missed: 1 (100.0% miss rate)
+
+  ⚠️  FORMAT MISMATCH:
+     Training formats: {}
+     Test suite formats: {'mixed': 1}
+     Missed formats: {'mixed': 1}
+
+  ⚠️  CONTEXT LENGTH MISMATCH:
+     Training avg context: 0.0 chars
+     Test suite avg context: 59.0 chars
+     Missed avg context: 59.0 chars
+     Difference: 59.0 chars
+
+  ⚠️  ENTITY LENGTH MISMATCH:
+     Training avg entity: 0.0 chars
+     Test suite avg entity: 24.0 chars
+     Missed avg entity: 24.0 chars
+
+
+CURRENCY
+--------------------------------------------------------------------------------
+  Training Examples: 4
+  Test Suite Examples: 4
+  Missed: 4 (100.0% miss rate)
+
+  ⚠️  SURROUNDING TEXT MISMATCH (BEFORE):
+     Training patterns: ['ial risk exposure at']
+     Test suite patterns: ['Currency formats:', ', 100 dollars, €100,', 'SD 100, 100 dollars,']
+     Missed patterns: ['Currency formats:', ', 100 dollars, €100,', 'SD 100, 100 dollars,']
+
+  ⚠️  SURROUNDING TEXT MISMATCH (AFTER):
+     Training patterns: ['using quantitative r']
+     Test suite patterns: [', USD 100, 100 dolla', ', £100', ', 100 dollars, €100,']
+     Missed patterns: [', USD 100, 100 dolla', ', £100', ', 100 dollars, €100,']
+
+
+CUSTOM_COORDINATES
+--------------------------------------------------------------------------------
+  Training Examples: 0
+  Test Suite Examples: 1
+  Missed: 1 (100.0% miss rate)
+
+  ⚠️  FORMAT MISMATCH:
+     Training formats: {}
+     Test suite formats: {'mixed': 1}
+     Missed formats: {'mixed': 1}
+
+  ⚠️  CONTEXT LENGTH MISMATCH:
+     Training avg context: 0.0 chars
+     Test suite avg context: 79.0 chars
+     Missed avg context: 79.0 chars
+     Difference: 79.0 chars
+
+  ⚠️  ENTITY LENGTH MISMATCH:
+     Training avg entity: 0.0 chars
+     Test suite avg entity: 59.0 chars
+     Missed avg entity: 59.0 chars
+
+
+DISCORD_URL
+--------------------------------------------------------------------------------
+  Training Examples: 0
+  Test Suite Examples: 1
+  Missed: 1 (100.0% miss rate)
+
+  ⚠️  FORMAT MISMATCH:
+     Training formats: {}
+     Test suite formats: {'mixed': 1}
+     Missed formats: {'mixed': 1}
+
+  ⚠️  CONTEXT LENGTH MISMATCH:
+     Training avg context: 0.0 chars
+     Test suite avg context: 82.0 chars
+     Missed avg context: 82.0 chars
+     Difference: 82.0 chars
+
+  ⚠️  ENTITY LENGTH MISMATCH:
+     Training avg entity: 0.0 chars
+     Test suite avg entity: 20.0 chars
+     Missed avg entity: 20.0 chars
+
+
+DISCORD_USERNAME
+--------------------------------------------------------------------------------
+  Training Examples: 0
+  Test Suite Examples: 1
+  Missed: 1 (100.0% miss rate)
+
+  ⚠️  FORMAT MISMATCH:
+     Training formats: {}
+     Test suite formats: {'mixed': 1}
+     Missed formats: {'mixed': 1}
+
+  ⚠️  CONTEXT LENGTH MISMATCH:
+     Training avg context: 0.0 chars
+     Test suite avg context: 75.0 chars
+     Missed avg context: 75.0 chars
+     Difference: 75.0 chars
+
+  ⚠️  ENTITY LENGTH MISMATCH:
+     Training avg entity: 0.0 chars
+     Test suite avg entity: 12.0 chars
+     Missed avg entity: 12.0 chars
+
+
+DMS_COORDINATES
+--------------------------------------------------------------------------------
+  Training Examples: 19
+  Test Suite Examples: 4
+  Missed: 4 (100.0% miss rate)
+
+  ⚠️  FORMAT MISMATCH:
+     Training formats: {'mixed': 19}
+     Test suite formats: {'mixed': 4}
+     Missed formats: {'mixed': 4}
+
+  ⚠️  CONTEXT LENGTH MISMATCH:
+     Training avg context: 478.6 chars
+     Test suite avg context: 63.5 chars
+     Missed avg context: 63.5 chars
+     Difference: 415.1 chars
+
+  ⚠️  SURROUNDING TEXT MISMATCH (BEFORE):
+     Training patterns: ['is found coordinates', 'GPS coordinates', 'entified coordinates']
+     Test suite patterns: ['0.7128, -74.0060 and', 'Location at', '\'46"N 74°00\'22"W and']
+     Missed patterns: ['0.7128, -74.0060 and', 'Location at', '\'46"N 74°00\'22"W and']
+
+  ⚠️  SURROUNDING TEXT MISMATCH (AFTER):
+     Training patterns: ['embedded in the imag', 'as the location of t', 'from social media po']
+     Test suite patterns: ['and 51°30\'26"N 0°07\'', 'in datacenter AWS-US']
+     Missed patterns: ['and 51°30\'26"N 0°07\'', 'in datacenter AWS-US']
+
+
+DOB
+--------------------------------------------------------------------------------
+  Training Examples: 0
+  Test Suite Examples: 1
+  Missed: 1 (100.0% miss rate)
+
+  ⚠️  FORMAT MISMATCH:
+     Training formats: {}
+     Test suite formats: {'mixed': 1}
+     Missed formats: {'mixed': 1}
+
+  ⚠️  CONTEXT LENGTH MISMATCH:
+     Training avg context: 0.0 chars
+     Test suite avg context: 88.0 chars
+     Missed avg context: 88.0 chars
+     Difference: 88.0 chars
+
+  ⚠️  ENTITY LENGTH MISMATCH:
+     Training avg entity: 0.0 chars
+     Test suite avg entity: 10.0 chars
+     Missed avg entity: 10.0 chars
+
+
+DRIVER_LICENSE_NUMBER
+--------------------------------------------------------------------------------
+  Training Examples: 0
+  Test Suite Examples: 1
+  Missed: 1 (100.0% miss rate)
+
+  ⚠️  FORMAT MISMATCH:
+     Training formats: {}
+     Test suite formats: {'alphanumeric': 1}
+     Missed formats: {'alphanumeric': 1}
+
+  ⚠️  CONTEXT LENGTH MISMATCH:
+     Training avg context: 0.0 chars
+     Test suite avg context: 73.0 chars
+     Missed avg context: 73.0 chars
+     Difference: 73.0 chars
+
+  ⚠️  ENTITY LENGTH MISMATCH:
+     Training avg entity: 0.0 chars
+     Test suite avg entity: 8.0 chars
+     Missed avg entity: 8.0 chars
+
+
+ELEVATION
+--------------------------------------------------------------------------------
+  Training Examples: 0
+  Test Suite Examples: 1
+  Missed: 1 (100.0% miss rate)
+
+  ⚠️  FORMAT MISMATCH:
+     Training formats: {}
+     Test suite formats: {'mixed': 1}
+     Missed formats: {'mixed': 1}
+
+  ⚠️  ENTITY LENGTH MISMATCH:
+     Training avg entity: 0.0 chars
+     Test suite avg entity: 8.0 chars
+     Missed avg entity: 8.0 chars
+
+
+EMOJI
+--------------------------------------------------------------------------------
+  Training Examples: 1374
+  Test Suite Examples: 15
+  Missed: 15 (100.0% miss rate)
+
+  ⚠️  FORMAT MISMATCH:
+     Training formats: {'symbols_only': 1374}
+     Test suite formats: {'symbols_only': 15}
+     Missed formats: {'symbols_only': 15}
+
+  ⚠️  CONTEXT LENGTH MISMATCH:
+     Training avg context: 305.6 chars
+     Test suite avg context: 44.3 chars
+     Missed avg context: 44.3 chars
+     Difference: 261.2 chars
+
+  ⚠️  SURROUNDING TEXT MISMATCH (BEFORE):
+     Training patterns: ['Email phishing', ' intelligence report', 'Network traffic']
+     Test suite patterns: ['le.com is suspicious', 'ected at IP 10.0.0.1', 'k from IP 172.16.0.1']
+     Missed patterns: ['le.com is suspicious', 'ected at IP 10.0.0.1', 'k from IP 172.16.0.1']
+
+  ⚠️  SURROUNDING TEXT MISMATCH (AFTER):
+     Training patterns: ['IP 192.168.1.100 fla', 'indicates APT activi', 'CVE-2021-44228 explo']
+     Test suite patterns: ['Email phishing detec', 'Warning: Domain exam', 'Encrypted data breac']
+     Missed patterns: ['Email phishing detec', 'Warning: Domain exam', 'Encrypted data breac']
+
+
+FACEBOOK_URL
+--------------------------------------------------------------------------------
+  Training Examples: 0
+  Test Suite Examples: 2
+  Missed: 2 (100.0% miss rate)
+
+  ⚠️  FORMAT MISMATCH:
+     Training formats: {}
+     Test suite formats: {'mixed': 2}
+     Missed formats: {'mixed': 2}
+
+  ⚠️  CONTEXT LENGTH MISMATCH:
+     Training avg context: 0.0 chars
+     Test suite avg context: 93.5 chars
+     Missed avg context: 93.5 chars
+     Difference: 93.5 chars
+
+  ⚠️  ENTITY LENGTH MISMATCH:
+     Training avg entity: 0.0 chars
+     Test suite avg entity: 22.5 chars
+     Missed avg entity: 22.5 chars
+
+
+FACEBOOK_USERNAME
+--------------------------------------------------------------------------------
+  Training Examples: 0
+  Test Suite Examples: 2
+  Missed: 2 (100.0% miss rate)
+
+  ⚠️  FORMAT MISMATCH:
+     Training formats: {}
+     Test suite formats: {'mixed': 2}
+     Missed formats: {'mixed': 2}
+
+  ⚠️  CONTEXT LENGTH MISMATCH:
+     Training avg context: 0.0 chars
+     Test suite avg context: 85.0 chars
+     Missed avg context: 85.0 chars
+     Difference: 85.0 chars
+
+  ⚠️  ENTITY LENGTH MISMATCH:
+     Training avg entity: 0.0 chars
+     Test suite avg entity: 12.0 chars
+     Missed avg entity: 12.0 chars
+
+
+GEOJSON
+--------------------------------------------------------------------------------
+  Training Examples: 0
+  Test Suite Examples: 2
+  Missed: 2 (100.0% miss rate)
+
+  ⚠️  FORMAT MISMATCH:
+     Training formats: {}
+     Test suite formats: {'mixed': 2}
+     Missed formats: {'mixed': 2}
+
+  ⚠️  CONTEXT LENGTH MISMATCH:
+     Training avg context: 0.0 chars
+     Test suite avg context: 74.0 chars
+     Missed avg context: 74.0 chars
+     Difference: 74.0 chars
+
+  ⚠️  ENTITY LENGTH MISMATCH:
+     Training avg entity: 0.0 chars
+     Test suite avg entity: 36.0 chars
+     Missed avg entity: 36.0 chars
+
+
+================================================================================
+SUMMARY OF KEY MISMATCHES
+================================================================================
+
+Entity types with >50% miss rate: ALTITUDE, BANK_ACCOUNT_NUMBER, BASE64, CURRENCY, CUSTOM_COORDINATES, DISCORD_URL, DISCORD_USERNAME, DMS_COORDINATES, DOB, DRIVER_LICENSE_NUMBER, ELEVATION, EMOJI, FACEBOOK_URL, FACEBOOK_USERNAME, GEOJSON, GITHUB_BRANCH, GITHUB_COMMIT, GITHUB_GIST, GITHUB_ISSUE, GITHUB_ORGANIZATION, GITHUB_PULL_REQUEST, GITHUB_RELEASE, GITHUB_REPO, GITHUB_REPO_URL, GITHUB_TAG, GITHUB_USER, HOST_TYPE, INCIDENT_ID, INSTAGRAM_URL, INSTAGRAM_USERNAME, LINKEDIN_URL, LINKEDIN_USERNAME, LOCATION, NAMESERVER, PASSPORT_NUMBER, PERCENTAGE, PLATFORM, PROTOCOL, REGISTRY_KEY, ROUTING_NUMBER, SLACK_URL, SLACK_USERNAME, SWIFT_CODE, TELEGRAM_URL, TELEGRAM_USERNAME, USERNAME, WALLET_ADDRESS, WHATSAPP_URL, LATITUDE, LONGITUDE, SSN, PHONE_NUMBER, PORT, IPV6_ADDRESS, TIME, MALWARE_TYPE
+
+Format mismatches: ALTITUDE, BANK_ACCOUNT_NUMBER, BASE64, CUSTOM_COORDINATES, DISCORD_URL, DISCORD_USERNAME, DMS_COORDINATES, DOB, DRIVER_LICENSE_NUMBER, ELEVATION
+Context length mismatches: ALTITUDE, BANK_ACCOUNT_NUMBER, BASE64, CUSTOM_COORDINATES, DISCORD_URL, DISCORD_USERNAME, DMS_COORDINATES, DOB, DRIVER_LICENSE_NUMBER, EMOJI
+Surrounding pattern mismatches: CURRENCY, DMS_COORDINATES, EMOJI, HOST_TYPE, LOCATION, NAMESERVER, PERCENTAGE, LATITUDE, LONGITUDE, SSN

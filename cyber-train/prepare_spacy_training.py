@@ -500,12 +500,12 @@ def main():
     )
     parser.add_argument(
         "--base-dir",
-        default="cyber-train/entities-intent",
+        default="entities-intent",
         help="Base directory containing JSONL files"
     )
     parser.add_argument(
         "--output-dir",
-        default="cyber-train/spacy-training",
+        default="models/training_data",
         help="Output directory for .spacy files"
     )
     parser.add_argument(

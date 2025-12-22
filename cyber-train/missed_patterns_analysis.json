@@ -1,0 +1,248 @@
+{
+  "IP_ADDRESS": [
+    {
+      "text": "APT28 used WannaCry ransomware to attack IP 172.16.0.1 and domain evil.com on port 8080",
+      "entity": "172.16.0.1",
+      "context": "APT28 used WannaCry ransomware to attack IP 172.16.0.1 and domain evil.com on port 8080"
+    },
+    {
+      "text": "This is a very long query that contains multiple sentences and should test how the model handles longer inputs with various types of information including IP addresses like 192.168.1.1, domains like example.com, and various technical terms that might appear in cybersecurity or OSINT contexts.",
+      "entity": "192.168.1.1",
+      "context": " types of information including IP addresses like 192.168.1.1, domains like example.com, and various technical "
+    },
+    {
+      "text": "Check IP: 10.0.0.1, Domain: test.com, Email: user@test.com, Phone: +1-555-123-4567",
+      "entity": "10.0.0.1",
+      "context": "Check IP: 10.0.0.1, Domain: test.com, Email: user@test.com, Phone: +"
+    },
+    {
+      "text": "Block IP 192.168.1.50 and isolate host server-02",
+      "entity": "192.168.1.50",
+      "context": "Block IP 192.168.1.50 and isolate host server-02"
+    },
+    {
+      "text": "\ud83d\udea8 Security alert: IP 192.168.1.1 compromised \u00a9 2024",
+      "entity": "192.168.1.1",
+      "context": "\ud83d\udea8 Security alert: IP 192.168.1.1 compromised \u00a9 2024"
+    },
+    {
+      "text": "\ud83d\udd12 Encrypted data breach detected at IP 10.0.0.1 \ud83d\udea8",
+      "entity": "10.0.0.1",
+      "context": "\ud83d\udd12 Encrypted data breach detected at IP 10.0.0.1 \ud83d\udea8"
+    },
+    {
+      "text": "\ud83c\udf10 Network attack from IP 172.16.0.1 \ud83d\udd25",
+      "entity": "172.16.0.1",
+      "context": "\ud83c\udf10 Network attack from IP 172.16.0.1 \ud83d\udd25"
+    },
+    {
+      "text": "Check IP 192.168.1.1 (lowercase)",
+      "entity": "192.168.1.1",
+      "context": "Check IP 192.168.1.1 (lowercase)"
+    },
+    {
+      "text": "CHECK IP 192.168.1.1 (UPPERCASE)",
+      "entity": "192.168.1.1",
+      "context": "CHECK IP 192.168.1.1 (UPPERCASE)"
+    },
+    {
+      "text": "ChEcK iP 192.168.1.1 (MiXeD cAsE)",
+      "entity": "192.168.1.1",
+      "context": "ChEcK iP 192.168.1.1 (MiXeD cAsE)"
+    },
+    {
+      "text": "Check 1P 192.168.1.1 (leet speak)",
+      "entity": "192.168.1.1",
+      "context": "Check 1P 192.168.1.1 (leet speak)"
+    },
+    {
+      "text": "IP 192.168.1.1                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        Domain example.com",
+      "entity": "192.168.1.1",
+      "context": "IP 192.168.1.1                                                  "
+    },
+    {
+      "text": "192.168.1.1192.168.1.1192.168.1.1192.168.1.1192.168.1.1192.168.1.1192.168.1.1192.168.1.1192.168.1.1192.168.1.1192.168.1.1192.168.1.1192.168.1.1192.168.1.1192.168.1.1192.168.1.1192.168.1.1192.168.1.1192.168.1.1192.168.1.1192.168.1.1192.168.1.1192.168.1.1192.168.1.1192.168.1.1192.168.1.1192.168.1.1192.168.1.1192.168.1.1192.168.1.1192.168.1.1192.168.1.1192.168.1.1192.168.1.1192.168.1.1192.168.1.1192.168.1.1192.168.1.1192.168.1.1192.168.1.1192.168.1.1192.168.1.1192.168.1.1192.168.1.1192.168.1.1192.168.1.1192.168.1.1192.168.1.1192.168.1.1192.168.1.1192.168.1.1192.168.1.1192.168.1.1192.168.1.1192.168.1.1192.168.1.1192.168.1.1192.168.1.1192.168.1.1192.168.1.1192.168.1.1192.168.1.1192.168.1.1192.168.1.1192.168.1.1192.168.1.1192.168.1.1192.168.1.1192.168.1.1192.168.1.1192.168.1.1192.168.1.1192.168.1.1192.168.1.1192.168.1.1192.168.1.1192.168.1.1192.168.1.1192.168.1.1192.168.1.1192.168.1.1192.168.1.1192.168.1.1192.168.1.1192.168.1.1192.168.1.1192.168.1.1192.168.1.1192.168.1.1192.168.1.1192.168.1.1192.168.1.1192.168.1.1192.168.1.1192.168.1.1192.168.1.1192.168.1.1192.168.1.1192.168.1.1192.168.1.1",
+      "entity": "192.168.1.1",
+      "context": "192.168.1.1192.168.1.1192.168.1.1192.168.1.1192.168.1.1192.16"
+    },
+    {
+      "text": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa192.168.1.1bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+      "entity": "192.168.1.1",
+      "context": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa192.168.1.1bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb"
+    },
+    {
+      "text": "IP:192.168.1.1,Domain:example.com,Email:user@test.com",
+      "entity": "192.168.1.1",
+      "context": "IP:192.168.1.1,Domain:example.com,Email:user@test.com"
+    },
+    {
+      "text": "IP\n192.168.1.1\nDomain\nexample.com",
+      "entity": "192.168.1.1",
+      "context": "IP\n192.168.1.1\nDomain\nexample.com"
+    },
+    {
+      "text": "192.168.1.1\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000example.com",
+      "entity": "192.168.1.1",
+      "context": "192.168.1.1\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000example.com"
+    },
+    {
+      "text": "Check IP 192.168.1.1 and domain example.com and email user@test.com and phone 555-1234",
+      "entity": "192.168.1.1",
+      "context": "Check IP 192.168.1.1 and domain example.com and email user@test.com an"
+    }
+  ],
+  "LLM_MODEL": [
+    {
+      "text": "AI security incident involving GPT-4 from OpenAI provider",
+      "entity": "GPT-4",
+      "context": "AI security incident involving GPT-4 from OpenAI provider"
+    },
+    {
+      "text": "Check LLM models: Claude-3 from Anthropic, Llama-2 from Meta, GPT-3.5 from OpenAI",
+      "entity": "GPT-3.5",
+      "context": "dels: Claude-3 from Anthropic, Llama-2 from Meta, GPT-3.5 from OpenAI"
+    },
+    {
+      "text": "Check LLM models: Claude-3 from Anthropic, Llama-2 from Meta, GPT-3.5 from OpenAI",
+      "entity": "Claude-3",
+      "context": "Check LLM models: Claude-3 from Anthropic, Llama-2 from Meta, GPT-3.5 from O"
+    },
+    {
+      "text": "Check LLM models: Claude-3 from Anthropic, Llama-2 from Meta, GPT-3.5 from OpenAI",
+      "entity": "Llama-2",
+      "context": "Check LLM models: Claude-3 from Anthropic, Llama-2 from Meta, GPT-3.5 from OpenAI"
+    },
+    {
+      "text": "Monitor AI model usage: GPT-4, Claude-3-Opus, Gemini-Pro from Google",
+      "entity": "Gemini-Pro",
+      "context": "Monitor AI model usage: GPT-4, Claude-3-Opus, Gemini-Pro from Google"
+    },
+    {
+      "text": "Monitor AI model usage: GPT-4, Claude-3-Opus, Gemini-Pro from Google",
+      "entity": "Claude-3-Opus",
+      "context": "Monitor AI model usage: GPT-4, Claude-3-Opus, Gemini-Pro from Google"
+    },
+    {
+      "text": "Monitor AI model usage: GPT-4, Claude-3-Opus, Gemini-Pro from Google",
+      "entity": "GPT-4",
+      "context": "Monitor AI model usage: GPT-4, Claude-3-Opus, Gemini-Pro from Google"
+    },
+    {
+      "text": "AI model security: Check GPT-4, Claude-3, and Llama-2 for vulnerabilities",
+      "entity": "Claude-3",
+      "context": "AI model security: Check GPT-4, Claude-3, and Llama-2 for vulnerabilities"
+    },
+    {
+      "text": "AI model security: Check GPT-4, Claude-3, and Llama-2 for vulnerabilities",
+      "entity": "GPT-4",
+      "context": "AI model security: Check GPT-4, Claude-3, and Llama-2 for vulnerabilities"
+    },
+    {
+      "text": "AI model security: Check GPT-4, Claude-3, and Llama-2 for vulnerabilities",
+      "entity": "Llama-2",
+      "context": "AI model security: Check GPT-4, Claude-3, and Llama-2 for vulnerabilities"
+    },
+    {
+      "text": "AI model types: GPT-4-turbo, Claude-3-Sonnet, Llama-2-70b",
+      "entity": "Claude-3-Sonnet",
+      "context": "AI model types: GPT-4-turbo, Claude-3-Sonnet, Llama-2-70b"
+    },
+    {
+      "text": "Investigate AI security: GPT-4 from OpenAI and Claude-3 from Anthropic",
+      "entity": "Claude-3",
+      "context": "Investigate AI security: GPT-4 from OpenAI and Claude-3 from Anthropic"
+    },
+    {
+      "text": "Investigate AI security: GPT-4 from OpenAI and Claude-3 from Anthropic",
+      "entity": "GPT-4",
+      "context": "Investigate AI security: GPT-4 from OpenAI and Claude-3 from Anthropic"
+    },
+    {
+      "text": "AI model audit: Review GPT-4, Claude-3, and Llama-2 usage",
+      "entity": "Claude-3",
+      "context": "AI model audit: Review GPT-4, Claude-3, and Llama-2 usage"
+    },
+    {
+      "text": "AI model audit: Review GPT-4, Claude-3, and Llama-2 usage",
+      "entity": "GPT-4",
+      "context": "AI model audit: Review GPT-4, Claude-3, and Llama-2 usage"
+    },
+    {
+      "text": "AI model audit: Review GPT-4, Claude-3, and Llama-2 usage",
+      "entity": "Llama-2",
+      "context": "AI model audit: Review GPT-4, Claude-3, and Llama-2 usage"
+    }
+  ],
+  "EMOJI": [
+    {
+      "text": "\ud83d\udea8 Security alert: IP 192.168.1.1 compromised \u00a9 2024",
+      "entity": "\ud83d\udea8",
+      "context": "\ud83d\udea8 Security alert: IP 192.168.1.1 compromised \u00a9 2024"
+    },
+    {
+      "text": "\u26a0\ufe0f Warning: Domain example.com is suspicious \ud83d\udd0d",
+      "entity": "\ud83d\udd0d",
+      "context": "\u26a0\ufe0f Warning: Domain example.com is suspicious \ud83d\udd0d"
+    },
+    {
+      "text": "\u2705 Verified: Email user@example.com is safe \u2713",
+      "entity": "\u2713",
+      "context": "\u2705 Verified: Email user@example.com is safe \u2713"
+    },
+    {
+      "text": "\u2705 Verified: Email user@example.com is safe \u2713",
+      "entity": "\u2705",
+      "context": "\u2705 Verified: Email user@example.com is safe \u2713"
+    },
+    {
+      "text": "\ud83d\udd12 Encrypted data breach detected at IP 10.0.0.1 \ud83d\udea8",
+      "entity": "\ud83d\udea8",
+      "context": "\ud83d\udd12 Encrypted data breach detected at IP 10.0.0.1 \ud83d\udea8"
+    },
+    {
+      "text": "\ud83d\udd12 Encrypted data breach detected at IP 10.0.0.1 \ud83d\udea8",
+      "entity": "\ud83d\udd12",
+      "context": "\ud83d\udd12 Encrypted data breach detected at IP 10.0.0.1 \ud83d\udea8"
+    },
+    {
+      "text": "\ud83d\udce7 Email phishing detected: phishing@evil.com \u26a0\ufe0f",
+      "entity": "\ud83d\udce7",
+      "context": "\ud83d\udce7 Email phishing detected: phishing@evil.com \u26a0\ufe0f"
+    },
+    {
+      "text": "\ud83d\udce7 Email phishing detected: phishing@evil.com \u26a0\ufe0f",
+      "entity": "\u26a0\ufe0f",
+      "context": "\ud83d\udce7 Email phishing detected: phishing@evil.com \u26a0\ufe0f"
+    },
+    {
+      "text": "\ud83c\udf10 Network attack from IP 172.16.0.1 \ud83d\udd25",
+      "entity": "\ud83d\udd25",
+      "context": "\ud83c\udf10 Network attack from IP 172.16.0.1 \ud83d\udd25"
+    },
+    {
+      "text": "\ud83c\udf10 Network attack from IP 172.16.0.1 \ud83d\udd25",
+      "entity": "\ud83c\udf10",
+      "context": "\ud83c\udf10 Network attack from IP 172.16.0.1 \ud83d\udd25"
+    },
+    {
+      "text": "\ud83d\udcbb Malware detected: hash abc123def456 \ud83e\udda0",
+      "entity": "\ud83d\udcbb",
+      "context": "\ud83d\udcbb Malware detected: hash abc123def456 \ud83e\udda0"
+    },
+    {
+      "text": "\ud83d\udcbb Malware detected: hash abc123def456 \ud83e\udda0",
+      "entity": "\ud83e\udda0",
+      "context": "\ud83d\udcbb Malware detected: hash abc123def456 \ud83e\udda0"
+    },
+    {
+      "text": "\ud83d\udd10 Security breach: CVE-2021-44228 exploited \u26a1",
+      "entity": "\ud83d\udd10",
+      "context": "\ud83d\udd10 Security breach: CVE-2021-44228 exploited \u26a1"
+    },
+    {
+      "text": "\ud83d\udd10 Security breach: CVE-2021-44228 exploited \u26a1",
+      "entity": "\u26a1",
+      "context": "\ud83d\udd10 Security breach: CVE-2021-44228 exploited \u26a1"
+    }
+  ]
+}

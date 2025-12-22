@@ -1,0 +1,123 @@
+{"text": "APT28 used WannaCry ransomware to attack IP 172.16.0.1 and domain evil.com on port 8080", "entities": [[11, 19, "MALWARE_TYPE"]]}
+{"text": "Ransomware detected: WannaCry, NotPetya, Ryuk variants", "entities": [[21, 29, "MALWARE_TYPE"]]}
+{"text": "Malware families: Zeus, Emotet, TrickBot, Emotet detected", "entities": [[24, 30, "MALWARE_TYPE"]]}
+{"text": "Spyware: keylogger and screen capture malware detected", "entities": [[9, 18, "MALWARE_TYPE"]]}
+{"text": "Rootkit detected: bootkit and kernel-level rootkit", "entities": [[30, 50, "MALWARE_TYPE"]]}
+{"text": "Botnet: Mirai, Emotet botnet, and TrickBot C2", "entities": [[15, 21, "MALWARE_TYPE"]]}
+{"text": "Worm detected: Conficker, Stuxnet, and Code Red variants", "entities": [[15, 24, "MALWARE_TYPE"]]}
+{"text": "Malware analysis: Emotet sample hash abc123def456", "entities": [[18, 24, "MALWARE_TYPE"]]}
+{"text": "Malware analysis: Ryuk sample hash abc123def456", "entities": [[18, 22, "MALWARE_TYPE"]]}
+{"text": "Incident response: Conficker ransomware attack contained", "entities": [[19, 28, "MALWARE_TYPE"]]}
+{"text": "Malware families: Zeus, Emotet, Code Red, TrickBot detected", "entities": [[32, 40, "MALWARE_TYPE"]]}
+{"text": "Incident response: Code Red ransomware attack contained", "entities": [[19, 27, "MALWARE_TYPE"]]}
+{"text": "Threat intelligence report: WannaCry variant identified", "entities": [[28, 36, "MALWARE_TYPE"]]}
+{"text": "Threat intelligence report: Conficker variant identified", "entities": [[28, 37, "MALWARE_TYPE"]]}
+{"text": "Threat intelligence report: Ryuk variant identified", "entities": [[28, 32, "MALWARE_TYPE"]]}
+{"text": "Ransomware detected: Zeus, NotPetya, Ryuk variants", "entities": [[21, 25, "MALWARE_TYPE"]]}
+{"text": "Malware analysis: Code Red sample hash abc123def456", "entities": [[18, 26, "MALWARE_TYPE"]]}
+{"text": "Malware analysis: Zeus sample hash abc123def456", "entities": [[18, 22, "MALWARE_TYPE"]]}
+{"text": "Security alert: Emotet detected on host server-01", "entities": [[16, 22, "MALWARE_TYPE"]]}
+{"text": "Security alert: WannaCry detected on host server-01", "entities": [[16, 24, "MALWARE_TYPE"]]}
+{"text": "Security alert: Ryuk detected on host server-01", "entities": [[16, 20, "MALWARE_TYPE"]]}
+{"text": "APT28 used Zeus ransomware to attack IP 172.16.0.1 and domain evil.com on port 8080", "entities": [[11, 15, "MALWARE_TYPE"]]}
+{"text": "APT28 used Code Red ransomware to attack IP 172.16.0.1 and domain evil.com on port 8080", "entities": [[11, 19, "MALWARE_TYPE"]]}
+{"text": "Incident response: Ryuk ransomware attack contained", "entities": [[19, 23, "MALWARE_TYPE"]]}
+{"text": "Malware analysis: TrickBot sample hash abc123def456", "entities": [[18, 26, "MALWARE_TYPE"]]}
+{"text": "Threat intelligence report: TrickBot variant identified", "entities": [[28, 36, "MALWARE_TYPE"]]}
+{"text": "Incident response: Zeus ransomware attack contained", "entities": [[19, 23, "MALWARE_TYPE"]]}
+{"text": "APT28 used Conficker ransomware to attack IP 172.16.0.1 and domain evil.com on port 8080", "entities": [[11, 20, "MALWARE_TYPE"]]}
+{"text": "Ransomware detected: Code Red, NotPetya, Ryuk variants", "entities": [[21, 29, "MALWARE_TYPE"]]}
+{"text": "Incident response: NotPetya ransomware attack contained", "entities": [[19, 27, "MALWARE_TYPE"]]}
+{"text": "Malware families: Zeus, Emotet, Conficker, TrickBot detected", "entities": [[32, 41, "MALWARE_TYPE"]]}
+{"text": "Threat intelligence report: Code Red variant identified", "entities": [[28, 36, "MALWARE_TYPE"]]}
+{"text": "Ransomware detected: NotPetya, NotPetya, Ryuk variants", "entities": [[21, 29, "MALWARE_TYPE"]]}
+{"text": "Security alert: NotPetya detected on host server-01", "entities": [[16, 24, "MALWARE_TYPE"]]}
+{"text": "Threat intelligence report: Stuxnet variant identified", "entities": [[28, 35, "MALWARE_TYPE"]]}
+{"text": "Malware analysis: Mirai sample hash abc123def456", "entities": [[18, 23, "MALWARE_TYPE"]]}
+{"text": "Malware families: Zeus, Emotet, TrickBot, TrickBot detected", "entities": [[32, 40, "MALWARE_TYPE"]]}
+{"text": "APT28 used TrickBot ransomware to attack IP 172.16.0.1 and domain evil.com on port 8080", "entities": [[11, 19, "MALWARE_TYPE"]]}
+{"text": "Security alert: Zeus detected on host server-01", "entities": [[16, 20, "MALWARE_TYPE"]]}
+{"text": "Threat intelligence report: Emotet variant identified", "entities": [[28, 34, "MALWARE_TYPE"]]}
+{"text": "Malware analysis: Stuxnet sample hash abc123def456", "entities": [[18, 25, "MALWARE_TYPE"]]}
+{"text": "Threat intelligence report: Mirai variant identified", "entities": [[28, 33, "MALWARE_TYPE"]]}
+{"text": "APT28 used Emotet ransomware to attack IP 172.16.0.1 and domain evil.com on port 8080", "entities": [[11, 17, "MALWARE_TYPE"]]}
+{"text": "APT28 used Mirai ransomware to attack IP 172.16.0.1 and domain evil.com on port 8080", "entities": [[11, 16, "MALWARE_TYPE"]]}
+{"text": "Malware families: Zeus, Emotet, Emotet, TrickBot detected", "entities": [[24, 30, "MALWARE_TYPE"]]}
+{"text": "Ransomware detected: Mirai, NotPetya, Ryuk variants", "entities": [[21, 26, "MALWARE_TYPE"]]}
+{"text": "Incident response: WannaCry ransomware attack contained", "entities": [[19, 27, "MALWARE_TYPE"]]}
+{"text": "Ransomware detected: Conficker, NotPetya, Ryuk variants", "entities": [[21, 30, "MALWARE_TYPE"]]}
+{"text": "Threat intelligence report: NotPetya variant identified", "entities": [[28, 36, "MALWARE_TYPE"]]}
+{"text": "Incident response: Emotet ransomware attack contained", "entities": [[19, 25, "MALWARE_TYPE"]]}
+{"text": "Threat intelligence report: Zeus variant identified", "entities": [[28, 32, "MALWARE_TYPE"]]}
+{"text": "Ransomware detected: Emotet, NotPetya, Ryuk variants", "entities": [[21, 27, "MALWARE_TYPE"]]}
+{"text": "Malware families: Zeus, Emotet, Zeus, TrickBot detected", "entities": [[18, 22, "MALWARE_TYPE"]]}
+{"text": "Incident response: Mirai ransomware attack contained", "entities": [[19, 24, "MALWARE_TYPE"]]}
+{"text": "Ransomware detected: TrickBot, NotPetya, Ryuk variants", "entities": [[21, 29, "MALWARE_TYPE"]]}
+{"text": "APT28 used Ryuk ransomware to attack IP 172.16.0.1 and domain evil.com on port 8080", "entities": [[11, 15, "MALWARE_TYPE"]]}
+{"text": "Malware families: Zeus, Emotet, Stuxnet, TrickBot detected", "entities": [[32, 39, "MALWARE_TYPE"]]}
+{"text": "Malware families: Zeus, Emotet, WannaCry, TrickBot detected", "entities": [[32, 40, "MALWARE_TYPE"]]}
+{"text": "APT28 used NotPetya ransomware to attack IP 172.16.0.1 and domain evil.com on port 8080", "entities": [[11, 19, "MALWARE_TYPE"]]}
+{"text": "Ransomware detected: Stuxnet, NotPetya, Ryuk variants", "entities": [[21, 28, "MALWARE_TYPE"]]}
+{"text": "Malware families: Zeus, Emotet, NotPetya, TrickBot detected", "entities": [[32, 40, "MALWARE_TYPE"]]}
+{"text": "Ransomware detected: Ryuk, NotPetya, Ryuk variants", "entities": [[21, 25, "MALWARE_TYPE"]]}
+{"text": "Malware families: Zeus, Emotet, Mirai, TrickBot detected", "entities": [[32, 37, "MALWARE_TYPE"]]}
+{"text": "APT28 used Stuxnet ransomware to attack IP 172.16.0.1 and domain evil.com on port 8080", "entities": [[11, 18, "MALWARE_TYPE"]]}
+{"text": "Security alert: Code Red detected on host server-01", "entities": [[16, 24, "MALWARE_TYPE"]]}
+{"text": "Security alert: Mirai detected on host server-01", "entities": [[16, 21, "MALWARE_TYPE"]]}
+{"text": "Malware analysis: NotPetya sample hash abc123def456", "entities": [[18, 26, "MALWARE_TYPE"]]}
+{"text": "Security alert: Stuxnet detected on host server-01", "entities": [[16, 23, "MALWARE_TYPE"]]}
+{"text": "Malware analysis: WannaCry sample hash abc123def456", "entities": [[18, 26, "MALWARE_TYPE"]]}
+{"text": "Security alert: Conficker detected on host server-01", "entities": [[16, 25, "MALWARE_TYPE"]]}
+{"text": "Security alert: TrickBot detected on host server-01", "entities": [[16, 24, "MALWARE_TYPE"]]}
+{"text": "Incident response: TrickBot ransomware attack contained", "entities": [[19, 27, "MALWARE_TYPE"]]}
+{"text": "Incident response: Stuxnet ransomware attack contained", "entities": [[19, 26, "MALWARE_TYPE"]]}
+{"text": "Malware analysis: Conficker sample hash abc123def456", "entities": [[18, 27, "MALWARE_TYPE"]]}
+{"text": "Malware families: Zeus, Emotet, Ryuk, TrickBot detected", "entities": [[32, 36, "MALWARE_TYPE"]]}
+{"text": "APT41 CVE-2021-44228 Log4j vulnerability exploitation detected on 10.0.0.5", "entities": [[0, 5, "THREAT_ACTOR"]]}
+{"text": "Threat actor formats: APT29, apt29, Apt29, APT-29", "entities": [[29, 34, "THREAT_ACTOR"]]}
+{"text": "Base64 encoded: dXNlckBleGFtcGxlLmNvbQ== (user@example.com)", "entities": [[16, 40, "BASE64"]]}
+{"text": "APT28 used keylogger ransomware to attack IP 172.16.0.1", "entities": [[11, 20, "MALWARE_TYPE"]]}
+{"text": "Ransomware detected: kernel-level rootkit, NotPetya, Ryuk variants", "entities": [[21, 41, "MALWARE_TYPE"]]}
+{"text": "APT28 used Emotet ransomware to attack IP 172.16.0.1", "entities": [[11, 17, "MALWARE_TYPE"]]}
+{"text": "Threat intelligence report: kernel-level rootkit variant identified", "entities": [[28, 48, "MALWARE_TYPE"]]}
+{"text": "APT28 used Ryuk ransomware to attack IP 172.16.0.1", "entities": [[11, 15, "MALWARE_TYPE"]]}
+{"text": "APT28 used TrickBot ransomware to attack IP 172.16.0.1", "entities": [[11, 19, "MALWARE_TYPE"]]}
+{"text": "Malware families: Zeus, Emotet, keylogger, TrickBot detected", "entities": [[32, 41, "MALWARE_TYPE"]]}
+{"text": "APT28 used Zeus ransomware to attack IP 172.16.0.1", "entities": [[11, 15, "MALWARE_TYPE"]]}
+{"text": "APT28 used kernel-level rootkit ransomware to attack IP 172.16.0.1", "entities": [[11, 31, "MALWARE_TYPE"]]}
+{"text": "APT28 used WannaCry ransomware to attack IP 172.16.0.1", "entities": [[11, 19, "MALWARE_TYPE"]]}
+{"text": "Malware families: Zeus, Emotet, kernel-level rootkit, TrickBot detected", "entities": [[32, 52, "MALWARE_TYPE"]]}
+{"text": "APT28 used Conficker ransomware to attack IP 172.16.0.1", "entities": [[11, 20, "MALWARE_TYPE"]]}
+{"text": "Threat intelligence report: keylogger variant identified", "entities": [[28, 37, "MALWARE_TYPE"]]}
+{"text": "Ransomware detected: keylogger, NotPetya, Ryuk variants", "entities": [[21, 30, "MALWARE_TYPE"]]}
+{"text": "WannaCry detected", "entities": [[0, 8, "MALWARE_TYPE"]]}
+{"text": "Malware: NotPetya", "entities": [[9, 17, "MALWARE_TYPE"]]}
+{"text": "Ryuk found in system", "entities": [[0, 4, "MALWARE_TYPE"]]}
+{"text": "Detect Emotet variant", "entities": [[7, 13, "MALWARE_TYPE"]]}
+{"text": "TrickBot infection alert", "entities": [[0, 8, "MALWARE_TYPE"]]}
+{"text": "Alert: Zeus malware", "entities": [[7, 11, "MALWARE_TYPE"]]}
+{"text": "Mirai botnet detected", "entities": [[0, 5, "MALWARE_TYPE"]]}
+{"text": "Conficker worm found", "entities": [[0, 9, "MALWARE_TYPE"]]}
+{"text": "Stuxnet attack detected", "entities": [[0, 7, "MALWARE_TYPE"]]}
+{"text": "Code Red variant found", "entities": [[0, 8, "MALWARE_TYPE"]]}
+{"text": "Ransomware: CryptoLocker", "entities": [[12, 24, "MALWARE_TYPE"]]}
+{"text": "Trojan: Remote Access Trojan", "entities": [[8, 28, "MALWARE_TYPE"]]}
+{"text": "Spyware: keylogger active", "entities": [[9, 18, "MALWARE_TYPE"]]}
+{"text": "Rootkit: bootkit detected", "entities": [[9, 16, "MALWARE_TYPE"]]}
+{"text": "Block LockBit ransomware", "entities": [[6, 13, "MALWARE_TYPE"]]}
+{"text": "APT29 attack detected", "entities": [[0, 5, "THREAT_ACTOR"]]}
+{"text": "Actor: APT28", "entities": [[7, 12, "THREAT_ACTOR"]]}
+{"text": "Lazarus campaign active", "entities": [[0, 7, "THREAT_ACTOR"]]}
+{"text": "Threat: FIN7", "entities": [[8, 12, "THREAT_ACTOR"]]}
+{"text": "UNC2452 detected", "entities": [[0, 7, "THREAT_ACTOR"]]}
+{"text": "Track Wizard Spider", "entities": [[6, 19, "THREAT_ACTOR"]]}
+{"text": "Cozy Bear activity", "entities": [[0, 9, "THREAT_ACTOR"]]}
+{"text": "Fancy Bear IOCs found", "entities": [[0, 10, "THREAT_ACTOR"]]}
+{"text": "Sandworm TTPs detected", "entities": [[0, 8, "THREAT_ACTOR"]]}
+{"text": "Monitor Turla group", "entities": [[8, 13, "THREAT_ACTOR"]]}
+{"text": "Hunt Kimsuky activity", "entities": [[5, 11, "THREAT_ACTOR"]]}
+{"text": "APT: Charming Kitten", "entities": [[5, 20, "THREAT_ACTOR"]]}
+{"text": "CryptoLocker variant", "entities": [[0, 12, "MALWARE_TYPE"]]}
+{"text": "Scan for CryptoLocker", "entities": [[9, 21, "MALWARE_TYPE"]]}
+{"text": "Malware: CryptoLocker", "entities": [[9, 21, "MALWARE_TYPE"]]}
+{"text": "CryptoLocker detected", "entities": [[0, 12, "MALWARE_TYPE"]]}

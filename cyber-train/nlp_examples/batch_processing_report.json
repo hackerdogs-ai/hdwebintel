@@ -1,0 +1,388 @@
+{
+  "summary": {
+    "total_queries": 10,
+    "total_entities": 9,
+    "total_intents": 30286,
+    "average_entities_per_query": 0.9,
+    "average_intents_per_query": 3028.6
+  },
+  "entity_statistics": {
+    "COMPLIANCE_FRAMEWORK": 2,
+    "IP_ADDRESS": 1,
+    "MALWARE_TYPE": 1,
+    "EMOJI": 1,
+    "LLM_MODEL": 1,
+    "DOMAIN": 1,
+    "TOOL": 1,
+    "THREAT_ACTOR": 1
+  },
+  "intent_statistics": {
+    "MAINTAIN_SYSTEMS": 10,
+    "INVESTIGATE": 9,
+    "DETECT": 6,
+    "INVESTIGATE_THREATS": 4,
+    "IMPROVE_SECURITY": 3,
+    "ANALYZE_THREATS": 2,
+    "CONTAIN_THREAT": 2,
+    "ANALYZE": 1,
+    "DETECT_ATTACKS": 1,
+    "IMPROVE_PROCESSES": 1,
+    "RECOVER_SYSTEMS": 1,
+    "DETECT_ANOMALIES": 1,
+    "VALIDATE": 1,
+    "CHECK": 1,
+    "VERIFY_LOCATION": 1,
+    "AUDIT_COMPLIANCE": 1,
+    "ENSURE_COMPLIANCE": 1,
+    "ENRICH": 1,
+    "DOCUMENT_INCIDENT": 1,
+    "RESPOND_TO_INCIDENT": 1,
+    "GENERATE_REPORTS": 1
+  },
+  "results": [
+    {
+      "query_id": 1,
+      "query": "Check IP 192.168.1.1 for suspicious activity",
+      "entities": [
+        [
+          "192.168.1.1",
+          "IP_ADDRESS"
+        ]
+      ],
+      "entity_count": 1,
+      "intents": [
+        [
+          "INVESTIGATE",
+          0.9963670969009399
+        ],
+        [
+          "DETECT",
+          0.9939471483230591
+        ],
+        [
+          "INVESTIGATE_THREATS",
+          0.9260818958282471
+        ],
+        [
+          "MAINTAIN_SYSTEMS",
+          0.9249113202095032
+        ],
+        [
+          "ANALYZE_THREATS",
+          0.8573480248451233
+        ]
+      ],
+      "intent_count": 3030,
+      "timestamp": "2025-12-21T22:56:11.098315"
+    },
+    {
+      "query_id": 2,
+      "query": "APT28 used WannaCry ransomware to attack IP 172.16.0.1",
+      "entities": [
+        [
+          "WannaCry",
+          "MALWARE_TYPE"
+        ]
+      ],
+      "entity_count": 1,
+      "intents": [
+        [
+          "INVESTIGATE",
+          0.976742684841156
+        ],
+        [
+          "MAINTAIN_SYSTEMS",
+          0.9536240100860596
+        ],
+        [
+          "ANALYZE",
+          0.9078665375709534
+        ],
+        [
+          "DETECT_ATTACKS",
+          0.8809086084365845
+        ],
+        [
+          "INVESTIGATE_THREATS",
+          0.8653205633163452
+        ]
+      ],
+      "intent_count": 3028,
+      "timestamp": "2025-12-21T22:56:11.103618"
+    },
+    {
+      "query_id": 3,
+      "query": "\ud83d\udea8 Security alert: IP 192.168.1.1 compromised",
+      "entities": [
+        [
+          "\ud83d\udea8",
+          "EMOJI"
+        ]
+      ],
+      "entity_count": 1,
+      "intents": [
+        [
+          "DETECT",
+          0.8486402630805969
+        ],
+        [
+          "INVESTIGATE_THREATS",
+          0.8207901120185852
+        ],
+        [
+          "CONTAIN_THREAT",
+          0.7947720885276794
+        ],
+        [
+          "INVESTIGATE",
+          0.7943596839904785
+        ],
+        [
+          "MAINTAIN_SYSTEMS",
+          0.761386513710022
+        ]
+      ],
+      "intent_count": 3031,
+      "timestamp": "2025-12-21T22:56:11.108362"
+    },
+    {
+      "query_id": 4,
+      "query": "AI security incident involving GPT-4 from OpenAI",
+      "entities": [
+        [
+          "GPT-4",
+          "LLM_MODEL"
+        ]
+      ],
+      "entity_count": 1,
+      "intents": [
+        [
+          "MAINTAIN_SYSTEMS",
+          0.9822414517402649
+        ],
+        [
+          "INVESTIGATE",
+          0.9750187397003174
+        ],
+        [
+          "IMPROVE_SECURITY",
+          0.9369708299636841
+        ],
+        [
+          "IMPROVE_PROCESSES",
+          0.9297995567321777
+        ],
+        [
+          "RECOVER_SYSTEMS",
+          0.9177154302597046
+        ]
+      ],
+      "intent_count": 3029,
+      "timestamp": "2025-12-21T22:56:11.113170"
+    },
+    {
+      "query_id": 5,
+      "query": "Monitor AI model usage: GPT-4, Claude-3-Opus, Gemini-Pro",
+      "entities": [],
+      "entity_count": 0,
+      "intents": [
+        [
+          "INVESTIGATE",
+          0.9925506114959717
+        ],
+        [
+          "MAINTAIN_SYSTEMS",
+          0.9846460223197937
+        ],
+        [
+          "DETECT_ANOMALIES",
+          0.9815512895584106
+        ],
+        [
+          "INVESTIGATE_THREATS",
+          0.9488527774810791
+        ],
+        [
+          "IMPROVE_SECURITY",
+          0.9481172561645508
+        ]
+      ],
+      "intent_count": 3027,
+      "timestamp": "2025-12-21T22:56:11.119042"
+    },
+    {
+      "query_id": 6,
+      "query": "Verify GPS coordinates latitude 40.7128 longitude -74.0060",
+      "entities": [],
+      "entity_count": 0,
+      "intents": [
+        [
+          "INVESTIGATE",
+          0.9668436050415039
+        ],
+        [
+          "VALIDATE",
+          0.885627031326294
+        ],
+        [
+          "CHECK",
+          0.8193623423576355
+        ],
+        [
+          "MAINTAIN_SYSTEMS",
+          0.774652361869812
+        ],
+        [
+          "VERIFY_LOCATION",
+          0.7429000735282898
+        ]
+      ],
+      "intent_count": 3032,
+      "timestamp": "2025-12-21T22:56:11.123457"
+    },
+    {
+      "query_id": 7,
+      "query": "Check compliance with NIST CSF, PCI DSS, and HIPAA",
+      "entities": [
+        [
+          "NIST CSF",
+          "COMPLIANCE_FRAMEWORK"
+        ],
+        [
+          "PCI DSS",
+          "COMPLIANCE_FRAMEWORK"
+        ]
+      ],
+      "entity_count": 2,
+      "intents": [
+        [
+          "AUDIT_COMPLIANCE",
+          0.999372661113739
+        ],
+        [
+          "DETECT",
+          0.9977453351020813
+        ],
+        [
+          "ENSURE_COMPLIANCE",
+          0.996759831905365
+        ],
+        [
+          "INVESTIGATE",
+          0.9943423271179199
+        ],
+        [
+          "MAINTAIN_SYSTEMS",
+          0.9937147498130798
+        ]
+      ],
+      "intent_count": 3026,
+      "timestamp": "2025-12-21T22:56:11.128825"
+    },
+    {
+      "query_id": 8,
+      "query": "Investigate domain malware.evil.com for phishing activity",
+      "entities": [
+        [
+          "malware.evil.com",
+          "DOMAIN"
+        ]
+      ],
+      "entity_count": 1,
+      "intents": [
+        [
+          "INVESTIGATE",
+          0.9980029463768005
+        ],
+        [
+          "DETECT",
+          0.991267740726471
+        ],
+        [
+          "MAINTAIN_SYSTEMS",
+          0.9303305149078369
+        ],
+        [
+          "ENRICH",
+          0.9165104031562805
+        ],
+        [
+          "DOCUMENT_INCIDENT",
+          0.8532829880714417
+        ]
+      ],
+      "intent_count": 3029,
+      "timestamp": "2025-12-21T22:56:11.132786"
+    },
+    {
+      "query_id": 9,
+      "query": "Block IP 10.0.0.1 and isolate affected systems",
+      "entities": [],
+      "entity_count": 0,
+      "intents": [
+        [
+          "RESPOND_TO_INCIDENT",
+          0.9878268837928772
+        ],
+        [
+          "MAINTAIN_SYSTEMS",
+          0.9740687608718872
+        ],
+        [
+          "IMPROVE_SECURITY",
+          0.9425162672996521
+        ],
+        [
+          "CONTAIN_THREAT",
+          0.9403484463691711
+        ],
+        [
+          "DETECT",
+          0.9346911311149597
+        ]
+      ],
+      "intent_count": 3026,
+      "timestamp": "2025-12-21T22:56:11.136620"
+    },
+    {
+      "query_id": 10,
+      "query": "Generate threat intelligence report for APT29 campaign",
+      "entities": [
+        [
+          "Generate",
+          "TOOL"
+        ],
+        [
+          "APT29",
+          "THREAT_ACTOR"
+        ]
+      ],
+      "entity_count": 2,
+      "intents": [
+        [
+          "INVESTIGATE",
+          0.9960246086120605
+        ],
+        [
+          "DETECT",
+          0.9915898442268372
+        ],
+        [
+          "MAINTAIN_SYSTEMS",
+          0.9770812392234802
+        ],
+        [
+          "GENERATE_REPORTS",
+          0.974415123462677
+        ],
+        [
+          "ANALYZE_THREATS",
+          0.9738063216209412
+        ]
+      ],
+      "intent_count": 3028,
+      "timestamp": "2025-12-21T22:56:11.141787"
+    }
+  ],
+  "generated_at": "2025-12-21T22:56:11.141908"
+}
