@@ -1,0 +1,5 @@
+# Minimal Requirements for Model Integration
+# Just install: pip install spacy
+
+spacy>=3.7.0
+
